@@ -7,6 +7,8 @@ Scrape pokemon card game data from [Japan website](https://www.pokemon-card.com)
 - Scrape most recent Japanese pack cards (densetsu no kodou)
   - More packs
   
-- Battle simulator
+- Create battle simulator (maybe Chinese ver.)
+  - [TCG One](https://tcgone.net), [git repo](https://github.com/axpendix/tcgone-engine-contrib)
+  - [バトルシミュレーター](https://www.pokemon-card.com/about/battle/)
 
-- 3D object rendered battle game
+- Add 3D object rendered into battle game

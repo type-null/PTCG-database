@@ -18,10 +18,20 @@ def readEnergy(p):
     if spans:
         energies = [span['class'][0].split('-')[1] for span in spans]
         for i in range(len(energies)):
-            p = str(p).replace(str(spans[0]), energies[0])
+            p = str(p).replace(str(spans[i]), energies[i])
         p = bs4.BeautifulSoup(p)
     p = p.get_text().replace('\n   ', '')
     return p
+
+
+def readName(h1):
+    span = h1.find('span')
+    if span:
+        prismstar = span['class'][1].split('-')[1]
+        h1 = str(h1).replace(str(span), prismstar)
+        h1 = bs4.BeautifulSoup(h1)
+    h1 = h1.get_text().replace('\n   ', '')
+    return h1
 
 
 def readCard(cardId):
@@ -39,7 +49,7 @@ def readCard(cardId):
     soup = bs4.BeautifulSoup(content, 'html.parser')
     card = soup.section
     # all type cards
-    name = card.h1.get_text()
+    name = readName(card.h1)
     img = card.find('img', class_='fit')['src']
     
     # init
@@ -47,7 +57,8 @@ def readCard(cardId):
      height,      weight,    dexDesc,    author,      desc,      stage, 
      hp,          pType,     ability,    abilityDesc, waza1Cost, waza1Name,
      waza1Damage, waza1Desc, waza2Cost,  waza2Name,   waza2Damage, waza2Desc,
-     weakType,    weakValue, resistType, resistValue, escape, spRule] = [''] * 30
+     GXCost, GXName, GXDamage, GXDesc,
+     weakType,    weakValue, resistType, resistValue, escape, spRule] = [''] * 34
     
     # decide card type
     cardType = card.h2.get_text()
@@ -56,6 +67,7 @@ def readCard(cardId):
             dexClass, height, weight, dexDesc, author, desc, stage, hp, pType,
             ability, abilityDesc, waza1Cost, waza1Name, waza1Damage,
             waza1Desc, waza2Cost, waza2Name, waza2Damage, waza2Desc,
+            GXCost, GXName, GXDamage, GXDesc,
             weakType, weakValue, resistType, resistValue,
             escape, spRule]
 
@@ -80,6 +92,7 @@ def readCard(cardId):
             dexClass, height, weight, dexDesc, author, desc, stage, hp, pType,
             ability, abilityDesc, waza1Cost, waza1Name, waza1Damage,
             waza1Desc, waza2Cost, waza2Name, waza2Damage, waza2Desc,
+                GXCost, GXName, GXDamage, GXDesc,
             weakType, weakValue, resistType, resistValue,
             escape, spRule]
 
@@ -88,12 +101,16 @@ def readCard(cardId):
     ### global pokedex
     pokedex = card.find('div', class_='card')
     if pokedex: # has pokedex
-        [dexNum, dexClass] = pokedex.h4.get_text().strip().split('\u3000')
-        dexNum = int(dexNum.split('.')[1])
-        htAndWt = pokedex.p.get_text().split('：')
-        height = float(htAndWt[1].split(' ')[0])
-        weight = float(htAndWt[2].split(' ')[0])
-        dexDesc = pokedex.find_all('p')[1].get_text()
+        if pokedex.h4:
+            [dexNum, dexClass] = pokedex.h4.get_text().strip().split('\u3000')
+            dexNum = int(dexNum.split('.')[1])
+        if len(pokedex.find_all('p')) == 2:
+            htAndWt = pokedex.p.get_text().split('：')
+            height = float(htAndWt[1].split(' ')[0])
+            weight = float(htAndWt[2].split(' ')[0])
+            dexDesc = pokedex.find_all('p')[1].get_text()
+        else:
+            dexDesc = pokedex.find('p').get_text()
     
     if cardType in ['サポート', 'グッズ', 'ポケモンのどうぐ', 'スタジアム']:
         desc = card.find_all('p')
@@ -105,6 +122,7 @@ def readCard(cardId):
             dexClass, height, weight, dexDesc, author, desc, stage, hp, pType,
             ability, abilityDesc, waza1Cost, waza1Name, waza1Damage,
             waza1Desc, waza2Cost, waza2Name, waza2Damage, waza2Desc,
+                GXCost, GXName, GXDamage, GXDesc,
             weakType, weakValue, resistType, resistValue,
             escape, spRule]
     
@@ -139,8 +157,23 @@ def readCard(cardId):
         elif areaType == "特別なルール":
             # special rule
             # print('learning a special rule')
-            spRule = p[-1].get_text().strip()
+            spRule = readName(p[-1]).strip()
             del p[-1]
+            
+        elif areaType == "GXワザ":
+            # GX waza
+            [GXCost, GXName, GXDamage, GXDesc] = [''] * 4
+            # print('learning a GX attack')
+            GXCost = [span['class'][0].split('-')[1] for span in skills[-1].find_all('span', class_='icon')]
+            GX = skills[-1].get_text().strip().split(' ')
+            GXName = GX[0].strip()
+            GXDamage = GX[-1]
+            if not GXDamage[-2].isdigit():
+                GXDamage = ''
+            GXDesc = skills[-1].find_next_sibling('p')
+            GXDesc = readEnergy(GXDesc).strip()
+            del skills[-1], p[-2]
+        
     # waza
     waza1Cost = [span['class'][0].split('-')[1] for span in skills[0].find_all('span', class_='icon')]
     waza1 = skills[0].get_text().strip().split(' ')
@@ -178,6 +211,7 @@ def readCard(cardId):
             dexClass, height, weight, dexDesc, author, desc, stage, hp, pType,
             ability, abilityDesc, waza1Cost, waza1Name, waza1Damage,
             waza1Desc, waza2Cost, waza2Name, waza2Damage, waza2Desc,
+            GXCost, GXName, GXDamage, GXDesc,
             weakType, weakValue, resistType, resistValue,
             escape, spRule]
 
@@ -187,6 +221,7 @@ def scrapeCards(start, end):
                 'dexClass', 'height', 'weight', 'dexDesc', 'author', 'desc', 'stage', 'hp', 'pType',
                 'ability', 'abilityDesc', 'waza1Cost', 'waza1Name', 'waza1Damage',
                 'waza1Desc', 'waza2Cost', 'waza2Name', 'waza2Damage', 'waza2Desc',
+                'GXCost', 'GXName', 'GXDamage', 'GXDesc',
                 'weakType', 'weakValue', 'resistType', 'resistValue', 'escape', 'spRule']
 
     df = pd.DataFrame(columns=columns)

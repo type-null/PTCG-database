@@ -24,27 +24,6 @@ def readEnergy(p):
     return p
 
 
-def scrapeCards(start, end):
-    columns = ['cardId', 'cardType', 'name', 'img', 'regulation', 'setNum', 'setCount', 'rarity', 'dexNum',
-                'dexClass', 'height', 'weight', 'dexDesc', 'author', 'desc', 'stage', 'hp', 'pType',
-                'ability', 'abilityDesc', 'waza1Cost', 'waza1Name', 'waza1Damage',
-                'waza1Desc', 'waza2Cost', 'waza2Name', 'waza2Damage', 'waza2Desc',
-                'weakType', 'weakValue', 'resistType', 'resistValue', 'escape', 'spRule']
-
-    df = pd.DataFrame(columns=columns)
-    
-    n = end - start+1
-    for i in range(n):
-        df.loc[i] = readCard(i+start)
-        j = (i + 1) / n
-        sys.stdout.write('\r')
-        # the exact output you're looking for:
-        sys.stdout.write("[%-20s] %d%%" % ('='*int(20*j), 100*j))
-        sys.stdout.flush()
-
-    df.to_csv(f'cards_jp_{start}_{end}.csv')
-
-
 def readCard(cardId):
     # anti-scraping
     user_agent = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0"
@@ -116,9 +95,9 @@ def readCard(cardId):
         weight = float(htAndWt[2].split(' ')[0])
         dexDesc = pokedex.find_all('p')[1].get_text()
     
-    if cardType in ['サポート', 'グッズ', 'ポケモンのどうぐ']:
+    if cardType in ['サポート', 'グッズ', 'ポケモンのどうぐ', 'スタジアム']:
         desc = card.find_all('p')
-        if cardType in ['サポート', 'グッズ']:
+        if cardType in ['サポート', 'グッズ', 'スタジアム']:
             desc = readEnergy(desc[0])
         if cardType == 'ポケモンのどうぐ':
             desc = readEnergy(desc[1])
@@ -201,3 +180,26 @@ def readCard(cardId):
             waza1Desc, waza2Cost, waza2Name, waza2Damage, waza2Desc,
             weakType, weakValue, resistType, resistValue,
             escape, spRule]
+
+
+def scrapeCards(start, end):
+    columns = ['cardId', 'cardType', 'name', 'img', 'regulation', 'setNum', 'setCount', 'rarity', 'dexNum',
+                'dexClass', 'height', 'weight', 'dexDesc', 'author', 'desc', 'stage', 'hp', 'pType',
+                'ability', 'abilityDesc', 'waza1Cost', 'waza1Name', 'waza1Damage',
+                'waza1Desc', 'waza2Cost', 'waza2Name', 'waza2Damage', 'waza2Desc',
+                'weakType', 'weakValue', 'resistType', 'resistValue', 'escape', 'spRule']
+
+    df = pd.DataFrame(columns=columns)
+    
+    n = end - start+1
+    for i in range(n):
+        df.loc[i] = readCard(i+start)
+        print(i+start)
+        # progress bar
+#         j = (i + 1) / n
+#         sys.stdout.write('\r')
+#         # the exact output you're looking for:
+#         sys.stdout.write("[%-20s] %d%%" % ('='*int(20*j), 100*j))
+#         sys.stdout.flush()
+
+    df.to_csv(f'cards_jp_{start}_{end}.csv')

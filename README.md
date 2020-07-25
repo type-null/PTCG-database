@@ -12,7 +12,7 @@ Support card types:
 |:----------:|:-------------|
 |**Trainers**|Supporter, Tool, Item, Stadium|
 |**Energy**  |Basic, Special|
-|**Pokémon** |Basic, Stage 1/2, EX, GX, Break, Prismstar, V, VMAX|
+|**Pokémon** |Basic, Stage 1/2, EX, Break, GX, Prismstar, TagTeam GX, V, VMAX|
 
 # Blueprint
 

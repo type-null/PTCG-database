@@ -40,6 +40,15 @@ Outputs 2 `csv` files:
 - `card_jp_<startID>_<endID>.csv` contains all the scraped cards information whose card-id between `startID` and `endID`.
 - `error_id_<startID>_<endID>.csv` contains all the card-id that do not contain a card between `startID` and `endID`. For example, [`32389`](https://www.pokemon-card.com/card-search/details.php/card/32389).
 
+## Miscellaneous
+
+- Wrong layout on web page (id=[37214](https://www.pokemon-card.com/card-search/details.php/card/37214))
+    Extra 'void' void energy instead of '特別なルール' (special rule).
+    <p align="left">
+      <img src="https://i.imgur.com/tlP9YKh.png" alt="wrong-void" width=400/>
+      <img src="https://i.imgur.com/K0FWBVd.png" alt="right-sp-rule" width=400/>
+    </p>
+  
 # Blueprint
 
 - Scrape most recent Japanese pack cards (densetsu no kodou)

@@ -55,7 +55,10 @@ Outputs 2 `csv` files:
 # Blueprint
 
 - Scrape most recent Japanese pack cards (densetsu no kodou)
-  - More packs
+    - More packs
+  
+- Card language compatibility project
+    - Add [Chinese card ver.](https://tw.portal-pokemon.com/card/)
   
 - Create battle simulator (maybe Chinese ver.)
   - [TCG One](https://tcgone.net), [git repo](https://github.com/axpendix/tcgone-engine-contrib)

@@ -76,11 +76,14 @@ def readCard(cardId):
     reg = card.find('img', class_='img-regulation')['alt'] # regulation
     regImg = card.find('img', class_='img-regulation')['src']
 
-    setNum = card.find('div', class_='subtext').get_text().strip()
-    setCount = setNum.strip()[-3:]
-    if setCount.isdigit():
-        setCount = int(setCount)
-    setNum = int(setNum.strip()[:3])
+    setInfo = card.find('div', class_='subtext').get_text().strip()
+    if len(setInfo.split('/')) == 2:
+        setCount = setInfo.strip()[-3:]
+        if setCount.isdigit():
+            setCount = int(setCount)
+        setNum = int(setInfo.strip()[:3])
+    else:
+        setCount = setInfo
 
     if card.find('img', width='24'):
         rarityImg = card.find('img', width='24')['src']

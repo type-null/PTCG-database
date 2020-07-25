@@ -23,7 +23,7 @@ CardScraperJP.scrapeCards(start, end)
 ```
 A progress bar will pop up:
 ```
-[                    ] 0%	(62/8495)
+[====                ] 21%	(1865/8495)
 ```
 
 ## Card ID

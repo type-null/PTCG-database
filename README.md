@@ -42,8 +42,8 @@ Outputs 2 `csv` files:
 
 ## Miscellaneous
 
-- Wrong layout on web page (id=[37214](https://www.pokemon-card.com/card-search/details.php/card/37214))
-    Extra 'void' void energy instead of '特別なルール' (special rule).
+- Wrong layout on web page (id=[37214](https://www.pokemon-card.com/card-search/details.php/card/37214)).
+    Extra 'void' void energy (left) instead of '特別なルール' (special rule) (right).
     <p align="left">
       <img src="https://i.imgur.com/tlP9YKh.png" alt="wrong-void" width=400/>
       <img src="https://i.imgur.com/K0FWBVd.png" alt="right-sp-rule" width=400/>

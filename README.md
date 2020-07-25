@@ -24,7 +24,7 @@ CardScraperJP.scrapeCards(start, end)
 A progress bar will pop up.
 
 ## Card ID
-A unique five-digits number for each card in its web address.
+A unique number for each card in its web address.
 
 For example, card "Shining Celebi"'s web address is `https://www.pokemon-card.com/card-search/details.php/card/34000` therefore `34000` is its card id.
 
@@ -32,6 +32,7 @@ But we noticed that, for some ids, it does not contain a card (out of range). Th
 
 | Regulation | Card Id Range|
 |:----------:|:------------:|
+|DP Energies|\[1,8\]|
 |XY|\[33001, 38493\]
 
 ## Output

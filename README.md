@@ -14,6 +14,15 @@ Support card types:
 |**Energy**  |Basic, Special|
 |**Pokémon** |Basic, Stage 1/2, EX, Break, GX, Prismstar, Shining (Hikaru), TagTeam GX, V, VMAX|
 
+# Usage in Python
+```python
+import CardScraperJP
+
+start, end = 35015, 38493
+CardScraperJP.scrapeCards(start, end)
+```
+A progress bar will pop up.
+
 ## Card ID
 A unique five-digits number for each card in its web address.
 
@@ -38,5 +47,7 @@ Outputs 2 `csv` files:
 - Create battle simulator (maybe Chinese ver.)
   - [TCG One](https://tcgone.net), [git repo](https://github.com/axpendix/tcgone-engine-contrib)
   - [バトルシミュレーター](https://www.pokemon-card.com/about/battle/)
+
+- Train ML models on simulator to compose advanced decks, find better play strategies.
 
 - Add 3D object rendered into battle game

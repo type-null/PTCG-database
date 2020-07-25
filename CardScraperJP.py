@@ -176,26 +176,27 @@ def readCard(cardId):
             GXDesc = skills[-1].find_next_sibling('p')
             GXDesc = readEnergy(GXDesc).strip()
             del skills[-1], p[-2]
-        
-    # waza
-    waza1Cost = [span['class'][0].split('-')[1] for span in skills[0].find_all('span', class_='icon')]
-    waza1 = skills[0].get_text().strip().split(' ')
-    waza1Name = waza1[0].strip()
-    waza1Damage = waza1[-1]
-    if not waza1Damage[-2].isdigit():
-        waza1Damage = ''
-    waza1Desc = skills[0].find_next_sibling('p')
-    waza1Desc = readEnergy(waza1Desc).strip()
+            
+        elif areaType == "ワザ":
+            # waza
+            waza1Cost = [span['class'][0].split('-')[1] for span in skills[0].find_all('span', class_='icon')]
+            waza1 = skills[0].get_text().strip().split(' ')
+            waza1Name = waza1[0].strip()
+            waza1Damage = waza1[-1]
+            if not waza1Damage[-2].isdigit():
+                waza1Damage = ''
+            waza1Desc = skills[0].find_next_sibling('p')
+            waza1Desc = readEnergy(waza1Desc).strip()
 
-    if len(skills) > 1:
-        waza2Cost = [span['class'][0].split('-')[1] for span in skills[1].find_all('span', class_='icon')]
-        waza2 = skills[1].get_text().strip().split(' ')
-        waza2Name = waza2[0].strip()
-        waza2Damage = waza2[-1]
-        if not waza2Damage[-2].isdigit():
-            waza2Damage = ''
-        waza2Desc = skills[1].find_next_sibling('p')
-        waza2Desc = readEnergy(waza2Desc).strip()
+            if len(skills) > 1:
+                waza2Cost = [span['class'][0].split('-')[1] for span in skills[1].find_all('span', class_='icon')]
+                waza2 = skills[1].get_text().strip().split(' ')
+                waza2Name = waza2[0].strip()
+                waza2Damage = waza2[-1]
+                if not waza2Damage[-2].isdigit():
+                    waza2Damage = ''
+                waza2Desc = skills[1].find_next_sibling('p')
+                waza2Desc = readEnergy(waza2Desc).strip()
     
     ### table
     td = wazaPart.find_all('td')

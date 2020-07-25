@@ -21,7 +21,10 @@ import CardScraperJP
 start, end = 35015, 38493
 CardScraperJP.scrapeCards(start, end)
 ```
-A progress bar will pop up.
+A progress bar will pop up:
+```
+[                    ] 0%	(62/8495)
+```
 
 ## Card ID
 A unique number for each card in its web address.

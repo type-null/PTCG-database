@@ -13,18 +13,27 @@ import pandas as pd
 
 
 
-def readEnergy(p):
+def readEnergyAndMega(p):
+    # <span class="pcg pcg-megamark"></span>
+    # <span class="icon-psychic icon">
     spans = p.find_all('span')
+    marks = []
     if spans:
-        energies = [span['class'][0].split('-')[1] for span in spans]
-        for i in range(len(energies)):
-            p = str(p).replace(str(spans[i]), energies[i])
+        for span in spans:
+            if 'icon' in str(span):
+                marks.append(span['class'][0].split('-')[1])
+            elif 'mega' in str(span):
+                marks.append(span['class'][1].split('-')[1][:4])
+        
+        for i in range(len(marks)):
+            p = str(p).replace(str(spans[i]), marks[i])
         p = bs4.BeautifulSoup(p)
     p = p.get_text().replace('\n   ', '')
     return p
 
 
-def readName(h1):
+def readPrismstar(h1):
+    # <span class="pcg pcg-prismstar">
     span = h1.find('span')
     if span:
         prismstar = span['class'][1].split('-')[1]
@@ -49,7 +58,7 @@ def readCard(cardId):
     soup = bs4.BeautifulSoup(content, 'html.parser')
     card = soup.section
     # all type cards
-    name = readName(card.h1)
+    name = readPrismstar(card.h1)
     img = card.find('img', class_='fit')['src']
     
     # init
@@ -71,11 +80,11 @@ def readCard(cardId):
             weakType, weakValue, resistType, resistValue,
             escape, spRule]
 
-    # pokemon
+
     ## left box
     reg = card.find('img', class_='img-regulation')['alt'] # regulation
     regImg = card.find('img', class_='img-regulation')['src']
-
+    
     setInfo = card.find('div', class_='subtext').get_text().strip()
     if len(setInfo.split('/')) == 2:
         setCount = setInfo.strip()[-3:]
@@ -90,7 +99,7 @@ def readCard(cardId):
         rarity = rarityImg.split('.')[0].split('rare_')[1]
     
     if cardType == '特殊エネルギー':
-        desc = readEnergy(card.find('p'))
+        desc = readEnergyAndMega(card.find('p'))
         return [cardId, cardType, name, img, reg, setNum, setCount, rarity, dexNum,
             dexClass, height, weight, dexDesc, author, desc, stage, hp, pType,
             ability, abilityDesc, waza1Cost, waza1Name, waza1Damage,
@@ -118,9 +127,9 @@ def readCard(cardId):
     if cardType in ['サポート', 'グッズ', 'ポケモンのどうぐ', 'スタジアム']:
         desc = card.find_all('p')
         if cardType in ['サポート', 'グッズ', 'スタジアム']:
-            desc = readEnergy(desc[0])
+            desc = readEnergyAndMega(desc[0])
         if cardType == 'ポケモンのどうぐ':
-            desc = readEnergy(desc[1])
+            desc = readEnergyAndMega(desc[1])
         return [cardId, cardType, name, img, reg, setNum, setCount, rarity, dexNum,
             dexClass, height, weight, dexDesc, author, desc, stage, hp, pType,
             ability, abilityDesc, waza1Cost, waza1Name, waza1Damage,
@@ -154,13 +163,13 @@ def readCard(cardId):
             # ability
             # print('learning an ability')
             ability = skills[0].get_text().strip()
-            abilityDesc = readEnergy(p[0]).strip()
+            abilityDesc = readEnergyAndMega(p[0]).strip()
             del skills[0]
 
         elif areaType == "特別なルール":
             # special rule
             # print('learning a special rule')
-            spRule = readName(p[-1]).strip()
+            spRule = readPrismstar(p[-1]).strip()
             del p[-1]
             
         elif areaType == "GXワザ":
@@ -174,7 +183,7 @@ def readCard(cardId):
             if not GXDamage[-2].isdigit():
                 GXDamage = ''
             GXDesc = skills[-1].find_next_sibling('p')
-            GXDesc = readEnergy(GXDesc).strip()
+            GXDesc = readEnergyAndMega(GXDesc).strip()
             del skills[-1], p[-2]
             
         elif areaType == "ワザ":
@@ -186,7 +195,7 @@ def readCard(cardId):
             if not waza1Damage[-2].isdigit():
                 waza1Damage = ''
             waza1Desc = skills[0].find_next_sibling('p')
-            waza1Desc = readEnergy(waza1Desc).strip()
+            waza1Desc = readEnergyAndMega(waza1Desc).strip()
 
             if len(skills) > 1:
                 waza2Cost = [span['class'][0].split('-')[1] for span in skills[1].find_all('span', class_='icon')]
@@ -196,7 +205,7 @@ def readCard(cardId):
                 if not waza2Damage[-2].isdigit():
                     waza2Damage = ''
                 waza2Desc = skills[1].find_next_sibling('p')
-                waza2Desc = readEnergy(waza2Desc).strip()
+                waza2Desc = readEnergyAndMega(waza2Desc).strip()
     
     ### table
     td = wazaPart.find_all('td')

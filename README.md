@@ -14,6 +14,22 @@ Support card types:
 |**Energy**  |Basic, Special|
 |**Pokémon** |Basic, Stage 1/2, EX, Break, GX, Prismstar, Shining (Hikaru), TagTeam GX, V, VMAX|
 
+## Card ID
+A unique five-digits number for each card in its web address.
+
+For example, card "Shining Celebi"'s web address is `https://www.pokemon-card.com/card-search/details.php/card/34000` therefore `34000` is its card id.
+
+But we noticed that, for some ids, it does not contain a card (out of range). This kind of web address will redirect to card-dex search index [page](https://www.pokemon-card.com/card-search/index.php). For the convenience of scraping, we also export the out-of-range ids in a separate csv.
+
+| Regulation | Card Id Range|
+|:----------:|:------------:|
+|XY|\[33001, 38493\]
+
+## Output
+Outputs 2 `csv` files:
+- `card_jp_<startID>_<endID>.csv` contains all the scraped cards information whose card-id between `startID` and `endID`.
+- `error_id_<startID>_<endID>.csv` contains all the card-id that do not contain a card between `startID` and `endID`. For example, [`32389`](https://www.pokemon-card.com/card-search/details.php/card/32389).
+
 # Blueprint
 
 - Scrape most recent Japanese pack cards (densetsu no kodou)

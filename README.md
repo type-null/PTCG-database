@@ -11,7 +11,8 @@ Support card types:
 | General | Compatible Types |
 |:----------:|:-------------|
 |**Trainers**|Supporter, Tool, Item, Stadium|
-|**Pokémon** |Basic, Stage 1/2, EX, GX, Break, Prismstar, V, VMAX|
+|**Energy**  |Basic, Special|
+|**Pokémon** |Basic, Stage 1/2, EX, Break, GX, Prismstar, Shining (Hikaru), TagTeam GX, V, VMAX|
 
 # Blueprint
 

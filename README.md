@@ -2,7 +2,7 @@
 
 Scrape pokemon card game data from [Japan website](https://www.pokemon-card.com) and [US website](https://www.pokemon.com/us/pokemon-tcg/pokemon-cards/?cardName=&cardText=&evolvesFrom=&simpleSubmit=&format=unlimited&hitPointsMin=0&hitPointsMax=340&retreatCostMin=0&retreatCostMax=5&totalAttackCostMin=0&totalAttackCostMax=5&particularArtist=)
 
-# Card Scraper (Japanese cards)
+## Card Scraper (Japanese cards)
 [see code](CardScraperJP.py)
 
 Current Compatibility: XY-on
@@ -14,7 +14,7 @@ Support card types:
 |**Energy**  |Basic, Special|
 |**Pokémon** |Basic, Stage 1/2, EX, Break, GX, Prismstar, Shining (Hikaru), TagTeam GX, V, VMAX|
 
-# Usage in Python
+## Usage in Python
 ```python
 import CardScraperJP
 
@@ -26,7 +26,7 @@ A progress bar will pop up:
 [====                ] 21%	(1865/8495)
 ```
 
-## Card ID
+### Card ID
 A unique number for each card in its web address.
 
 For example, card "Shining Celebi"'s web address is `https://www.pokemon-card.com/card-search/details.php/card/34000` therefore `34000` is its card id.
@@ -38,12 +38,12 @@ But we noticed that, for some ids, it does not contain a card (out of range). Th
 |DP Energies|\[1,8\]|
 |XY|\[33001, 38493\]
 
-## Output
+### Output
 Outputs 2 `csv` files:
 - `card_jp_<startID>_<endID>.csv` contains all the scraped cards information whose card-id between `startID` and `endID`.
 - `error_id_<startID>_<endID>.csv` contains all the card-id that do not contain a card between `startID` and `endID`. For example, [`32389`](https://www.pokemon-card.com/card-search/details.php/card/32389).
 
-## Miscellaneous
+### Miscellaneous
 
 - Wrong layout on web page (id=[37214](https://www.pokemon-card.com/card-search/details.php/card/37214)).
     Extra 'void' void energy (left) instead of '特別なルール' (special rule) (right).
@@ -52,7 +52,7 @@ Outputs 2 `csv` files:
       <img src="https://i.imgur.com/K0FWBVd.png" alt="right-sp-rule" width=400/>
     </p>
   
-# Blueprint
+## Blueprint
 
 - Scrape most recent Japanese pack cards (densetsu no kodou)
     - More packs

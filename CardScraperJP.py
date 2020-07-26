@@ -49,19 +49,6 @@ def readEnergyMegaPrismstar(p):
 
 
 def readCard(content):
-    # anti-scraping
-#     user_agent = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0"
-#     url = f'https://www.pokemon-card.com/card-search/details.php/card/{cardId}'
-#     response = requests.get(url, headers={'User-Agent': user_agent})
-#     if response.status_code == 200:
-#         # print(response.content.decode('utf-8'))
-#         content = response.content.decode('utf-8')
-#     else:
-#         print(f"Fail to get the url [{response.status_code}]")
-#         return
-
-#     content = getContent(cardId)
-        
     # start reading content
     soup = bs4.BeautifulSoup(content, 'html.parser')
     card = soup.section
@@ -115,8 +102,10 @@ def readCard(content):
                 GXCost, GXName, GXDamage, GXDesc,
             weakType, weakValue, resistType, resistValue,
             escape, spRule]
-
-    author = card.find('div', class_='author').get_text().strip().split('\n')[1]
+    
+    author = card.find('div', class_='author').get_text().strip()
+    if author:
+        author = card.find('div', class_='author').get_text().strip().split('\n')[1]
 
     ### national pokedex
     pokedex = card.find('div', class_='card')
@@ -127,13 +116,20 @@ def readCard(content):
                 [dexNum, dexClass] = dexline
                 dexNum = int(dexNum.split('.')[1])
             elif len(dexline) == 1:
-                dexClass = dexline[0]
+                if any(char.isdigit() for char in dexline[0]):
+                    dexNum = dexline[0]
+                else:
+                    dexClass = dexline[0]
         if len(pokedex.find_all('p')) == 2:
             htAndWt = pokedex.p.get_text().split('：')
             height = float(htAndWt[1].split(' ')[0])
             weight = float(htAndWt[2].split(' ')[0])
             dexDesc = pokedex.find_all('p')[1].get_text()
-        else:
+        elif len(pokedex.find_all('p')) == 1 and '重さ' in pokedex.find('p').get_text():
+            htAndWt = pokedex.p.get_text().split('：')
+            height = float(htAndWt[1].split(' ')[0])
+            weight = float(htAndWt[2].split(' ')[0])
+        elif len(pokedex.find_all('p')) == 1:
             dexDesc = pokedex.find('p').get_text()
     
     if cardType in ['サポート', 'グッズ', 'ポケモンのどうぐ', 'スタジアム']:
@@ -158,8 +154,11 @@ def readCard(content):
         stage = stage.replace('\xa0', ' ')
     hp = card.find('span', class_='hp-num').get_text()
     hp = int(hp)
-    pType = card.find('div', class_='td-r').find_all('span')[-1]['class'][0].split('-')[1]
-    
+    topSpans = card.find('div', class_='td-r').find_all('span')
+    topSpansClass = [span['class'] for span in topSpans]
+    pTypes = [s for s in topSpansClass if 'icon' in s]
+    pType = [l[0].split('-')[1] for l in pTypes]
+
     ### waza part
     part = content.split('<span class="hp-type">タイプ</span>')[1].split('</table>')[0].strip()
     soup = bs4.BeautifulSoup(part)
@@ -167,12 +166,19 @@ def readCard(content):
     
     h2 = wazaPart.find_all('h2')
     skills = wazaPart.find_all('h4')
+    if not skills[-1].get_text().strip():
+        # empty (wrong special rule as void)
+        del skills[-1]
     p = wazaPart.find_all('p')
+    if not skills[0].get_text().strip():
+        # mega evolution rule (delete)
+        del skills[0]
+        del p[0]
     
     for area in h2:
         areaType = area.get_text().strip()
-        if areaType == "特性":
-            # ability
+        if areaType in ["特性", "古代能力"]:
+            # ability or ancient trait
             # print('learning an ability')
             ability = skills[0].get_text().strip()
             abilityDesc = readEnergyMegaPrismstar(p[0]).strip()
@@ -218,7 +224,11 @@ def readCard(content):
                     waza2Damage = ''
                 waza2Desc = skills[1].find_next_sibling('p')
                 waza2Desc = readEnergyMegaPrismstar(waza2Desc).strip()
-    
+                
+        else:
+            print(f"{name} has an unseen areaType: {areaType}!!")
+
+
     ### table
     td = wazaPart.find_all('td')
     if td[0].find('span'):
@@ -261,13 +271,14 @@ def scrapeCards(start, end):
             cardDF.loc[i] = [cardId] + readCard(content)
         else:
             errorDF.loc[i] = [cardId]
-        print(cardId)
-#         j = (i + 1) / n
-#         sys.stdout.write('\r')
-#         # the exact output you're looking for:
-#         sys.stdout.write("[%-20s] %d%%" % ('='*int(20*j), 100*j))
-#         sys.stdout.flush()
+#         print(cardId)
+        j = (i + 1) / n
+        sys.stdout.write('\r')
+        # the exact output you're looking for:
+        sys.stdout.write("[%-20s] %d%%" % ('='*int(20*j), 100*j))
+        sys.stdout.write(f"\t({i+1}/{n})")
+        sys.stdout.flush()
 
-    cardDF.reset_index().to_csv(f'cards_jp_{start}_{end}.csv')
+    cardDF.reset_index().to_csv(f'output/cards_jp_{start}_{end}.csv')
     if len(errorDF) > 0:
-        errorDF.reset_index().to_csv(f'error_id_{start}_{end}.csv')
+        errorDF.reset_index().to_csv(f'output/error_id_{start}_{end}.csv')

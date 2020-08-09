@@ -5,7 +5,7 @@ Scrape pokemon card game data from [Japan website](https://www.pokemon-card.com)
 ## Card Scraper (Japanese cards)
 [see code](CardScraperJP.py)
 
-Current Compatibility: XY-on
+Current Compatibility: XY-on 
 Support card types:
 
 | General | Compatible Types |

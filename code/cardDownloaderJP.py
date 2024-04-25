@@ -16,5 +16,17 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
+logger.info("\n=========start===========")
+
 scraper = CardScraperJP()
-scraper.read_card(33406)
+
+# golisopod: 33406
+# supporter: 45787
+# ex pokemon: 45729
+# item: 45786
+# stadium: 45791
+# ace spec energy: 45792
+# ace spec item: 45783
+test_ids = [33406, 45787, 45729, 45786, 45791, 45792, 45783]
+for card_id in test_ids:
+    scraper.read_card(card_id)

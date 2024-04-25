@@ -28,6 +28,11 @@ Example:
 ```json
 {
     "language": "en-US",    [REQUIRED]
+    "jp_id": "",            [REQUIRED]
+    "url": "https://pkmncards.com/card/golisopod-sun-moon-promos-smp-sm52/",
+                            [REQUIRED]
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-Promo_SM-SM52-golisopod.jpg", 
+                            [REQUIRED]
     "card_type": "Pokemon", [REQUIRED] 
                                 <Pokemon/Trainer/Energy>
     "sub_type": ""          [OPTIONAL]
@@ -38,7 +43,8 @@ Example:
                             [OPTIONAL]
     "regulation": "",       [OPTIONAL]
                                 <A/B/C/D/E/F/G/...>
-    "set": "SM PROMO",      [REQUIRED]
+    "set_name": "SM PROMO", [REQUIRED]
+    "set_img": "",          [OPTIONAL]
     "number": "SM52",       [REQUIRED]
     "rarity": "PROMO",      [OPTIONAL]
     "tags": [],             [OPTIONAL]
@@ -95,7 +101,6 @@ Example:
     "weight": "238.1 lbs",  [OPTIONAL]
 }
 ```
-https://www.pokemon.com/us/pokemon-tcg/pokemon-cards/6?cardName=&cardText=&evolvesFrom=&format=unlimited&sv05=on&hitPointsMin=0&hitPointsMax=340&retreatCostMin=0&retreatCostMax=5&totalAttackCostMin=0&totalAttackCostMax=5&particularArtist=&advancedSubmit=
 
 Omitted:
 - name

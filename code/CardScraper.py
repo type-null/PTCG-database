@@ -20,9 +20,6 @@ class CardScraper:
     def __init__(self):
         pass
 
-    def get_url_jp(card_id):
-        return f"https://www.pokemon-card.com/card-search/details.php/card/{card_id}"
-
     def get_content(self, url):
         user_agent = (
             "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0"

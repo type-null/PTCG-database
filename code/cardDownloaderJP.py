@@ -4,7 +4,7 @@
     April 23, 2024 by Weihang
 """
 
-from CardScraper import CardScraper
+from CardScraperJP import CardScraperJP
 import logging
 
 logging.basicConfig(
@@ -16,5 +16,5 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-scraper = CardScraper()
-scraper.get_content(34000)
+scraper = CardScraperJP()
+scraper.read_card(33406)

@@ -2,7 +2,11 @@
 
 Card information for Pokemon TCG. Potential use for data analysis.
 
+
+
 ## Card Download 
+
+>Official and unofficial sources, such as tcgo, tcgl, carddex, pokemon.com, pkmncards.com, etc. ([malie.io](https://malie.io/static/draft/html/pkproto_sv.html))
 
 ### English version
 
@@ -15,6 +19,23 @@ Image source: [malie.io](https://malie.io/static/)
 
 Source: [Official Japan Pokemon Card Website](www.pokemon-card.com)
 
+
+## Card Data
+
+Good reference: [malie.io Pokémon Trading Card Game export format](https://malie.io/static/draft/html/pkproto_sv.html), it has great illustration of different fields.
+
+Example:
+```json
+{
+    "language": "en-US", [REQUIRED]
+    "card_type": "Pokemon", [REQUIRED] <Pokemon/Trainer/Energy>
+    "sub_type": "", [OPTIONAL]
+        <Trainer: Item/Supporter/Stadium/Pokemon Tool>
+        <Energy: Basic, Special>
+    "name": "Golisopod", [REQUIRED]
+
+}
+```
 
 ## Downloaded data
 

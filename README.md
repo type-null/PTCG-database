@@ -35,11 +35,11 @@ Example:
                             [REQUIRED]
     "card_type": "Pokemon", [REQUIRED] 
                                 <Pokemon/Trainer/Energy>
-    "sub_type": ""          [OPTIONAL]
+    "sub_type": "",         [OPTIONAL]
                                 <Trainer: Item/Supporter/Stadium/Pokemon Tool>
                                 <Energy: Basic/Special>
     "name": "Golisopod",    [REQUIRED]
-    "illustrator": "Naoki Saito", 
+    "author": "Naoki Saito", 
                             [OPTIONAL]
     "regulation": "",       [OPTIONAL]
                                 <A/B/C/D/E/F/G/...>
@@ -56,7 +56,6 @@ Example:
     "attack": [
         {
             "cost": ["Grass", "Colorless", "Colorless"],
-                                <Free>
             "name": "Resolute Claws",
             "damage": {
                 "amount": 80,

@@ -21,12 +21,48 @@ logger.info("\n=========start===========")
 scraper = CardScraperJP()
 
 # golisopod: 33406
-# supporter: 45787
 # ex pokemon: 45729
-# item: 45786
-# stadium: 45791
-# ace spec energy: 45792
+# tera ex pokemon: 45685
+# radiant pokemon: 45294
+# tag team pokemon: 37205
+# 2 types EX: 37393
+# mega EX: 37406
+# break pokemon: 33580
+# V-UNION: 39921
+# prism star: 37262
+
+# tool: 45786
+# old tool: 33278
 # ace spec item: 45783
-test_ids = [33406, 45787, 45729, 45786, 45791, 45792, 45783]
+
+
+# stadium: 45791
+
+# supporter: 45787
+
+# ace spec energy: 45792
+# basic energy in a set: 45440
+# basic energy: 8
+
+test_ids = [
+    33406,
+    45787,
+    45729,
+    45786,
+    45791,
+    45792,
+    45783,
+    45440,
+    8,
+    33278,
+    45685,
+    45294,
+    37205,
+    37393,
+    37406,
+    33580,
+    39921,
+    37262,
+]
 for card_id in test_ids:
     scraper.read_card(card_id)

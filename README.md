@@ -53,6 +53,10 @@ Example:
         "name": "Armor",
         "text": "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
     },                      [OPTIONAL]
+    "ancient_trait": {
+        "name": "",
+        "text": "",
+    },                      [OPTIONAL]
     "attack": [
         {
             "cost": ["Grass", "Colorless", "Colorless"],
@@ -76,7 +80,7 @@ Example:
     "tera": "",             [OPTIONAL]
                                 <As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s).>
     "stage": "STAGE1",      [REQUIRED]
-    "evolution_text": "Evolves from Wimpod",
+    "evolve_from": "Wimpod",
                             [REQUIRED]
     "hp": 130,              [REQUIRED]
     "types": ["Grass"],        [REQUIRED]

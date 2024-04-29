@@ -20,6 +20,11 @@ class CardScraperJP(CardScraper):
 
     def get_url(self, card_id):
         return f"https://www.pokemon-card.com/card-search/details.php/card/{card_id}"
+    
+    def format_type(self, t):
+        if t == 'none':
+            t = 'colorless'
+        return t.capitalize().strip()
 
     def read_text(self, p):
         """
@@ -33,7 +38,7 @@ class CardScraperJP(CardScraper):
         if spans:
             for span in spans:
                 if "icon" in str(span):
-                    marks.append(span["class"][0].split("-")[1])
+                    marks.append(self.format_type(span["class"][0].split("-")[1]))
                 elif "mega" in str(span):
                     marks.append(span["class"][1].split("-")[1][:4])
                 elif "prismstar" in str(span):
@@ -41,9 +46,9 @@ class CardScraperJP(CardScraper):
 
             for i in range(len(marks)):
                 p = str(p).replace(str(spans[i]), marks[i])
-            p = bs4.BeautifulSoup(p)
-        p = p.get_text().replace("\n   ", "")
-        return p
+            p = bs4.BeautifulSoup(p, "html.parser")
+        p = p.get_text().replace("\n ", "")
+        return p.strip()
 
     def read_card(self, card_id):
         card = Card()
@@ -78,13 +83,14 @@ class CardScraperJP(CardScraper):
         if card_type in non_pokemon_types:
             card.set_card_type(card_type)
             for p_tag in card_page.h2.find_next_siblings("p"):
+                if p_tag.find("p"):
+                    continue
                 text = p_tag.text.strip()
                 if not text.startswith(card_type + "は") and not text.startswith(
                     "グッズは"
                 ):
                     card.set_effect(self.read_text(card_page.find("p")))
                     logger.debug(f"effect: {card.effect}")
-
         elif card_type in pokemon_types:
             card.set_card_type("Pokémon")
         else:
@@ -138,7 +144,6 @@ class CardScraperJP(CardScraper):
                     logger.debug(f"tags: {card.tags}")
 
         ## Only for Pokémon
-
         pokedex_info = card_page.find("div", class_="card")
         if pokedex_info:
             if pokedex_info.h4:
@@ -158,8 +163,8 @@ class CardScraperJP(CardScraper):
 
             if len(pokedex_info.find_all("p")) == 2:
                 htAndWt = pokedex_info.p.get_text().split("：")
-                height = float(htAndWt[1].split(" ")[0])
-                weight = float(htAndWt[2].split(" ")[0])
+                height = htAndWt[1].split("\u3000")[0].strip()
+                weight = htAndWt[2].strip()
                 dexDesc = pokedex_info.find_all("p")[1].get_text()
                 card.set_ht_wt(height, weight)
                 logger.debug(f"height: {card.height}, weight: {card.weight}")
@@ -170,11 +175,95 @@ class CardScraperJP(CardScraper):
                 and "重さ" in pokedex_info.find("p").get_text()
             ):
                 htAndWt = pokedex_info.p.get_text().split("：")
-                height = float(htAndWt[1].split(" ")[0])
-                weight = float(htAndWt[2].split(" ")[0])
+                height = htAndWt[1].split("\u3000")[0].strip()
+                weight = htAndWt[2].strip()
                 card.set_ht_wt(height, weight)
                 logger.debug(f"height: {card.height}, weight: {card.weight}")
             elif len(pokedex_info.find_all("p")) == 1:
                 dexDesc = pokedex_info.find("p").get_text()
                 card.set_flavor_text(dexDesc)
                 logger.debug(f"flavor: {card.flavor_text}")
+
+        # Right box
+        stage_info = card_page.find('span', class_='type')
+        if stage_info:
+            stage = stage_info.get_text().strip()
+            if '\xa0' in stage:
+                stage = stage.replace('\xa0', ' ')
+            card.set_stage(stage)
+            logger.debug(f"stage: {card.stage}")
+
+        hp_info = card_page.find('span', class_='hp-num')
+        if hp_info:
+            hp = int(hp_info.get_text().strip())
+            card.set_hp(hp)
+            logger.debug(f"hp: {card.hp}")
+
+        level_info = card_page.find('span', class_='level-num')
+        if level_info:
+            level = int(level_info.get_text().strip())
+            card.set_level(level)
+            logger.debug(f"level: {card.level}")
+
+        types_info = card_page.find('div', class_='td-r').find_all('span', class_=lambda x: 'icon' in x)
+        if types_info:
+            types = [self.format_type(l['class'][0].split('-')[1]) for l in types_info]
+            card.set_types(types)
+            logger.debug(f"types: {card.types}")
+
+
+        # Attack part
+        if card.card_type == "Pokémon":
+            part = (
+                content.split('<span class="hp-type">タイプ</span>')[1]
+                .split('<div class="clear">')[0]
+                .strip()
+            )
+            soup = bs4.BeautifulSoup(part, features="html.parser")
+            attack_part = bs4.BeautifulSoup(soup.prettify(formatter="minimal"), features="html.parser")
+
+            h4_tags = attack_part.find_all("h4")
+            p_tags = attack_part.find_all("p")
+            for area in attack_part.find_all("h2"):
+                area_name = area.get_text().strip()
+                if area_name == "特性":
+                    card.set_ability(
+                        h4_tags[0].get_text().strip(), self.read_text(p_tags[0])
+                    )
+                    logger.debug(f"ability [{card.ability["name"]}]: {card.ability["effect"]}")
+                    del h4_tags[0]
+                elif area_name == "古代能力":
+                    card.set_ancient_trait(
+                        h4_tags[0].get_text().strip(), self.read_text(p_tags[0])
+                    )
+                    logger.debug(f"ancient trait [{card.ancient_trait["name"]}]: {card.ancient_trait["effect"]}")
+                    del h4_tags[0]
+                elif area_name == "GXワザ":
+                    pass
+                elif area_name == "ワザ":
+                    pass
+                elif area_name == "特別なルール":
+                    # already handled above
+                    pass
+                elif area_name == "進化":
+                    a_tag = area.find_next("a")
+                    found = False
+                    while a_tag:
+                        if a_tag.text.strip() == card.name:
+                            next_a_tag = a_tag.find_next("a")
+                            while next_a_tag:
+                                if next_a_tag.find_next_sibling("div", class_="arrow_off"):
+                                    card.set_evolve_from(next_a_tag.text.strip())
+                                    logger.debug(f"evolve from: {card.evolve_from}")
+                                    found = True
+                                    break
+                                next_a_tag = next_a_tag.find_next("a")
+                        if not found:
+                            a_tag = a_tag.find_next("a")
+                        else:
+                            break
+                else:
+                    logger.error(f"{card.jp_id} has an unseen areaType: {area_name}!!")
+
+            ## TODO: weakness table
+            ## TODO: set source

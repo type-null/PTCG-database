@@ -78,3 +78,25 @@ class Card:
         for tag in RULE_TAGS:
             if tag in rule:
                 self.add_tag(tag)
+
+    def set_stage(self, stage):
+        self.stage = stage
+
+    def set_level(self, level: int):
+        self.level = level
+
+    def set_hp(self, hp: int):
+        self.hp = hp
+
+    def set_types(self, types: list[str]):
+        type_list = []
+        self.types = types
+
+    def set_ability(self, name, effect):
+        self.ability = {"name": name, "effect": effect}
+
+    def set_ancient_trait(self, name, effect):
+        self.ancient_trait = {"name": name, "effect": effect}
+
+    def set_evolve_from(self, pokemon):
+        self.evolve_from = pokemon

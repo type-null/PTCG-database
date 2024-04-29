@@ -30,6 +30,8 @@ scraper = CardScraperJP()
 # break pokemon: 33580
 # V-UNION: 39921
 # prism star: 37262
+# ancient trait: 30790
+# LV.: 1090 (multiple set sources)
 
 # tool: 45786
 # old tool: 33278
@@ -64,5 +66,9 @@ test_ids = [
     39921,
     37262,
 ]
+
+test_ids = [39921]  ## TODO: double check V-UNION
+
+
 for card_id in test_ids:
     scraper.read_card(card_id)

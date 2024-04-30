@@ -49,10 +49,10 @@ Example:
     "rarity": "PROMO",      [OPTIONAL]
     "tags": [],             [OPTIONAL]
                                 <Ancient/Future, Shiny, Tera>
-    "ability": {
+    "abilities": [{
         "name": "Armor",
         "text": "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-    },                      [OPTIONAL]
+    }, ],                   [OPTIONAL]
     "ancient_trait": {
         "name": "",
         "text": "",

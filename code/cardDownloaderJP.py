@@ -29,11 +29,19 @@ scraper = CardScraperJP()
 # mega EX: 37406
 # break pokemon: 33580
 # V-UNION: 39921
+# VSTAR (ability): 44944
+# VSTAR (attack): 42862
+# VMAX: 42872
 # prism star: 37262
 # ancient trait: 30790
 # LV.: 1090 (multiple set sources)
 
 # tool: 45786
+# tool ( vstar ability): 44058
+# tool ( vstar attack): 42183
+# tool (attack): 44375, 39730
+# tool (GX attack): 36700
+# tool (team flare): 31982
 # old tool: 33278
 # ace spec item: 45783
 
@@ -67,7 +75,7 @@ test_ids = [
     37262,
 ]
 
-test_ids = [39921]  ## TODO: double check V-UNION
+test_ids = [31982]  # TODO: vstar, gx, tool attack, tool flare, ...
 
 
 for card_id in test_ids:

@@ -4,8 +4,7 @@
     April 23, 2024 by Weihang
 """
 
-import bs4
-import sys
+import re
 import requests
 import logging
 
@@ -32,3 +31,15 @@ class CardScraper:
             logging.warn(f"Fail to get card {url}")
             logging.warn(f"Error code: {response.status_code}")
             return [url, response.status_code]
+
+    def read_attack_damage(self, damage_str):
+        pattern = r"(?P<amount>\d+)(?P<suffix>\W?)"
+        match = re.match(pattern, damage_str)
+
+        if match:
+            amount = int(match.group("amount"))
+            prefix = ""
+            suffix = match.group("suffix")
+            return {"amount": amount, "prefix": prefix, "suffix": suffix}
+        else:
+            return None

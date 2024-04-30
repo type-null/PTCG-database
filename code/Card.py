@@ -24,6 +24,8 @@ RULE_TAGS = [
 class Card:
     def __init__(self):
         self.tags = []
+        self.abilities = []
+        self.attacks = []
         pass
 
     def add_tag(self, tag):
@@ -92,11 +94,16 @@ class Card:
         type_list = []
         self.types = types
 
-    def set_ability(self, name, effect):
-        self.ability = {"name": name, "effect": effect}
+    def add_ability(self, name, effect):
+        self.abilities.append({"name": name, "effect": effect})
 
     def set_ancient_trait(self, name, effect):
         self.ancient_trait = {"name": name, "effect": effect}
 
     def set_evolve_from(self, pokemon):
         self.evolve_from = pokemon
+
+    def add_attack(self, cost, name, damage, effect):
+        self.attacks.append(
+            {"cost": cost, "name": name, "damage": damage, "effect": effect}
+        )

@@ -107,6 +107,7 @@ class CardScraperJP(CardScraper):
             logger.debug(f"set: {card.set_name}, {card.set_img}")
 
         collector_info = card_page.find("div", class_="subtext").get_text().strip()
+        # TODO: handle V-UNION cards
         if collector_info:
             pattern = r"(\d+|\w+)\s*/\s*(\w+-?\w+|\d+)"
             matches = re.match(pattern, collector_info)
@@ -222,48 +223,69 @@ class CardScraperJP(CardScraper):
             soup = bs4.BeautifulSoup(part, features="html.parser")
             attack_part = bs4.BeautifulSoup(soup.prettify(formatter="minimal"), features="html.parser")
 
-            h4_tags = attack_part.find_all("h4")
-            p_tags = attack_part.find_all("p")
             for area in attack_part.find_all("h2"):
                 area_name = area.get_text().strip()
                 if area_name == "特性":
-                    card.set_ability(
-                        h4_tags[0].get_text().strip(), self.read_text(p_tags[0])
-                    )
-                    logger.debug(f"ability [{card.ability["name"]}]: {card.ability["effect"]}")
-                    del h4_tags[0]
-                elif area_name == "古代能力":
-                    card.set_ancient_trait(
-                        h4_tags[0].get_text().strip(), self.read_text(p_tags[0])
-                    )
+                    ability_name = area.find_next("h4").get_text().strip()
+                    ability_effect = self.read_text(area.find_next("p"))
+                    card.add_ability(ability_name, ability_effect)
+                    logger.debug(f"ability [{card.abilities[-1]["name"]}]: {card.abilities[-1]["effect"]}")
+                    continue
+                if area_name == "古代能力":
+                    trait_name = area.find_next("h4").get_text().strip()
+                    trait_effect = self.read_text(area.find_next("p"))
+                    card.set_ancient_trait(trait_name, trait_effect)
                     logger.debug(f"ancient trait [{card.ancient_trait["name"]}]: {card.ancient_trait["effect"]}")
-                    del h4_tags[0]
-                elif area_name == "GXワザ":
-                    pass
-                elif area_name == "ワザ":
-                    pass
-                elif area_name == "特別なルール":
+                    continue
+                if area_name == "GXワザ":
+                    continue
+                if area_name == "VSTARパワー":
+                    continue
+
+                if area_name == "ワザ":
+                    next_h2 = area.find_next("h2")
+                    h4_tags = []
+                    sibling = area.find_next_sibling()
+                    while sibling and sibling != next_h2:
+                        if sibling.name == "h4":
+                            h4_tags.append(sibling)
+                        sibling = sibling.find_next_sibling()                    
+                    for attack in h4_tags:
+                        attack_cost = []
+                        attack_damage = None
+                        for span_tag in attack.find_all("span"):
+                            if "icon" in str(span_tag):
+                                attack_cost.append(self.format_type(span_tag["class"][0].split("-")[1]))
+                            else:
+                                attack_damage = self.read_attack_damage(span_tag.get_text().strip())
+                        attack_name = attack.get_text().strip().split(' ')[0].strip()
+                        attack_effect = self.read_text(attack.find_next("p"))
+                        card.add_attack(attack_cost,attack_name, attack_damage, attack_effect)
+                        logger.debug(f"attack [{card.attacks[-1]["name"]}]: {card.attacks[-1]["cost"]}: {card.attacks[-1]["damage"]}: {card.attacks[-1]["effect"]}")
+                    continue
+                if area_name == "特別なルール":
                     # already handled above
-                    pass
-                elif area_name == "進化":
-                    a_tag = area.find_next("a")
-                    found = False
-                    while a_tag:
-                        if a_tag.text.strip() == card.name:
-                            next_a_tag = a_tag.find_next("a")
-                            while next_a_tag:
-                                if next_a_tag.find_next_sibling("div", class_="arrow_off"):
-                                    card.set_evolve_from(next_a_tag.text.strip())
-                                    logger.debug(f"evolve from: {card.evolve_from}")
-                                    found = True
-                                    break
-                                next_a_tag = next_a_tag.find_next("a")
-                        if not found:
-                            a_tag = a_tag.find_next("a")
-                        else:
-                            break
-                else:
-                    logger.error(f"{card.jp_id} has an unseen areaType: {area_name}!!")
+                    continue
+                if area_name == "進化":
+                    if card.stage != "たね":
+                        a_tag = area.find_next("a")
+                        found = False
+                        while a_tag:
+                            if a_tag.text.strip() == card.name:
+                                next_a_tag = a_tag.find_next("a")
+                                while next_a_tag:
+                                    if next_a_tag.find_next_sibling("div", class_="arrow_off"):
+                                        card.set_evolve_from(next_a_tag.text.strip())
+                                        logger.debug(f"evolve from: {card.evolve_from}")
+                                        found = True
+                                        break
+                                    next_a_tag = next_a_tag.find_next("a")
+                            if not found:
+                                a_tag = a_tag.find_next("a")
+                            else:
+                                break
+                    continue
+                logger.error(f"{card.jp_id} has an unseen areaType: {area_name}!!")
 
             ## TODO: weakness table
             ## TODO: set source

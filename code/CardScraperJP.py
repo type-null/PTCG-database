@@ -7,12 +7,12 @@
 import re
 import bs4
 import logging
+from tqdm import tqdm
 
 from Card import Card
 from CardScraper import CardScraper
 
 logger = logging.getLogger(__name__)
-
 
 class CardScraperJP(CardScraper):
     def complete_url(self, url):
@@ -55,7 +55,7 @@ class CardScraperJP(CardScraper):
 
         ## Required
         card.set_jp_id(card_id)
-        logger.info(f"card id: {card.jp_id}")
+        logger.debug(f"card id: {card.jp_id}")
 
         card.set_url(self.get_url(card_id))
         logger.debug(f"url: {card.url}")
@@ -64,7 +64,12 @@ class CardScraperJP(CardScraper):
         card_page_all = bs4.BeautifulSoup(content, "html.parser")
         card_page = card_page_all.section
 
-        card.set_name(self.read_text(card_page.h1))
+        if not card_page:
+            # Error: No such card!
+            logger.error(f"Card {card_id} not found!")
+            return -1
+
+        card.set_card_name(self.read_text(card_page.h1))
         logger.debug(f"name: {card.name}")
 
         img = card_page.find("img", class_="fit")["src"]
@@ -103,8 +108,9 @@ class CardScraperJP(CardScraper):
                         "グッズは"
                     ) and para:
                         text = text + "\n" + para
-            card.set_effect(text.strip())
-            logger.debug(f"effect: {card.effect}")
+            if text.strip():
+                card.set_effect(text.strip())
+                logger.debug(f"effect: {card.effect}")
         elif card_type in pokemon_types:
             card.set_card_type("Pokémon")
         else:
@@ -325,30 +331,53 @@ class CardScraperJP(CardScraper):
             logger.error(f"{card.jp_id} has an unseen areaType: {area_name}!!")
 
         td = attack_part.find_all('td')
-        if td[0].find('span'):
-            weak_type = self.format_type(td[0].find('span')['class'][0].split('-')[1])
-            weak_value = td[0].get_text().strip()
-        else:
-            weak_type, weak_value = None, None
-        card.set_weakness(weak_type, weak_value)
-        logger.debug(f"weak: {card.weakness}")
+        if len(td) > 0: 
+            if td[0].find('span'):
+                weak_type = self.format_type(td[0].find('span')['class'][0].split('-')[1])
+                weak_value = td[0].get_text().strip()
+            else:
+                weak_type, weak_value = None, None
+            card.set_weakness(weak_type, weak_value)
+            logger.debug(f"weak: {card.weakness}")
 
-        if td[1].find('span'):
-            resist_type = self.format_type(td[1].find('span')['class'][0].split('-')[1])
-            resist_value = td[1].get_text().strip()
-        else:
-            resist_type, resist_value = None, None
-        card.set_resistance(resist_type, resist_value)
-        logger.debug(f"resist: {card.resistance}")
+        if len(td) > 1:
+            if td[1].find('span'):
+                resist_type = self.format_type(td[1].find('span')['class'][0].split('-')[1])
+                resist_value = td[1].get_text().strip()
+            else:
+                resist_type, resist_value = None, None
+            card.set_resistance(resist_type, resist_value)
+            logger.debug(f"resist: {card.resistance}")
 
-        retreat = len(td[2].find_all('span'))
-        card.set_retreat(retreat)
-        logger.debug(f"retreat: {card.retreat}")
+        if len(td) > 2:
+            retreat = len(td[2].find_all('span'))
+            card.set_retreat(retreat)
+            logger.debug(f"retreat: {card.retreat}")
 
-
-
-        link_info = card_page_all.find_all("a", class_="Link Link-arrow")
+        link_info = card_page_all.find_all("li", class_="List_item")
         if link_info:
-            for a_tag in link_info:
-                card.add_source(a_tag.get_text().strip(), self.complete_url(a_tag.get("href")))
+            for li_tag in link_info:
+                a_tag = li_tag.find("a", class_="Link Link-arrow")
+                if a_tag:
+                    link_url = self.complete_url(a_tag.get("href"))
+                else:
+                    link_url = None
+                card.add_source(li_tag.get_text().strip(), link_url)
                 logger.debug(f"source: [{card.sources[-1]["name"]}]({card.sources[-1]["link"]})")
+
+        card.save()
+        return 0
+
+    def scrape(self, start, end):
+        logger.info("===== Scraping started =====")
+        logger.info(f"Start card ID: {start}, End card ID: {end}")
+
+        error_list = []
+        for card_id in tqdm(range(start, end + 1), desc="Downloading"):
+            code = self.read_card(card_id)
+            if code != 0:
+                error_list.append(card_id)
+
+        logger.info(f"Scraped card IDs: {list(range(start, end + 1))}")
+        logger.info(f"Error card IDs: {error_list}")
+

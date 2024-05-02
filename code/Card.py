@@ -4,6 +4,10 @@
     April 24, 2024 by Weihang
 """
 
+import os
+import json
+
+
 RULE_TAGS = [
     "ACE SPEC",
     "ex",
@@ -39,7 +43,7 @@ class Card:
     def set_url(self, url):
         self.url = url
 
-    def set_name(self, name):
+    def set_card_name(self, name):
         self.name = name
 
     def set_img(self, url):
@@ -137,3 +141,76 @@ class Card:
 
     def set_retreat(self, num):
         self.retreat = num
+
+    def to_dict(self):
+        card_dict = {
+            "jp_id": self.jp_id,
+            "url": self.url,
+            "name": self.name,
+            "img": self.img,
+            "card_type": self.card_type,
+        }
+        if self.tags:
+            card_dict["tags"] = self.tags
+        if hasattr(self, "set_name"):
+            card_dict["set_name"] = self.set_name
+            card_dict["set_img"] = self.set_img
+        else:
+            self.set_name = "no_set"
+        if hasattr(self, "number"):
+            card_dict["number"] = self.number
+            card_dict["set_total"] = self.set_total
+        if hasattr(self, "rarity"):
+            card_dict["rarity"] = self.rarity
+            card_dict["rarity_img"] = self.rarity_img
+        if hasattr(self, "effect"):
+            card_dict["effect"] = self.effect
+        if hasattr(self, "author"):
+            card_dict["author"] = self.author
+        if hasattr(self, "pokedex_number"):
+            card_dict["pokedex_number"] = self.pokedex_number
+            card_dict["pokemon_category"] = self.pokemon_category
+        if hasattr(self, "height"):
+            card_dict["height"] = self.height
+            card_dict["weight"] = self.weight
+        if hasattr(self, "flavor_text"):
+            card_dict["flavor_text"] = self.flavor_text
+        if hasattr(self, "stage"):
+            card_dict["stage"] = self.stage
+        if hasattr(self, "level"):
+            card_dict["level"] = self.level
+        if hasattr(self, "hp"):
+            card_dict["hp"] = self.hp
+        if hasattr(self, "types"):
+            card_dict["types"] = self.types
+        if hasattr(self, "ancient_trait"):
+            card_dict["ancient_trait"] = self.ancient_trait
+        if self.abilities:
+            card_dict["abilities"] = self.abilities
+        if self.attacks:
+            card_dict["attacks"] = self.attacks
+        if hasattr(self, "vstar_power"):
+            card_dict["vstar_power"] = self.vstar_power
+        if hasattr(self, "rule_box"):
+            card_dict["rule_box"] = self.rule_box
+        if hasattr(self, "weakness"):
+            card_dict["weakness"] = self.weakness
+        if hasattr(self, "resistance"):
+            card_dict["resistance"] = self.resistance
+        if hasattr(self, "retreat"):
+            card_dict["retreat"] = self.retreat
+        if hasattr(self, "evolve_from"):
+            card_dict["evolve_from"] = self.evolve_from
+        if self.sources:
+            card_dict["sources"] = self.sources
+
+        return card_dict
+
+    def save(self, folder="data/"):
+        card_dict = self.to_dict()
+
+        folder = f"{folder + self.set_name}/"
+        os.makedirs(folder, exist_ok=True)
+        path = os.path.join(folder, str(self.jp_id) + ".json")
+        with open(path, "w", encoding="utf-8") as json_file:
+            json.dump(card_dict, json_file, indent=4, ensure_ascii=False)

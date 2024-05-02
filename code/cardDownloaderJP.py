@@ -7,8 +7,8 @@
 from CardScraperJP import CardScraperJP
 import logging
 
-# MODE = "DEBUG"
-MODE = "BUILD"
+MODE = "DEBUG"
+# MODE = "BUILD"
 
 logging.basicConfig(
     filename="log_file.log" if MODE == "DEBUG" else "scrape_jp_log.log",
@@ -21,4 +21,6 @@ logger = logging.getLogger(__name__)
 
 
 scraper = CardScraperJP()
-scraper.scrape(45800, 45800)
+# scraper.scrape(0, 45800)
+
+scraper.read_card(1007)

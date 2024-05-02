@@ -66,7 +66,7 @@ class CardScraperJP(CardScraper):
 
         if not card_page:
             # Error: No such card!
-            logger.error(f"Card {card_id} not found!")
+            logger.debug(f"Card {card_id} not found!")
             return -1
 
         card.set_card_name(self.read_text(card_page.h1))
@@ -85,7 +85,7 @@ class CardScraperJP(CardScraper):
             "ポケモンのどうぐ",
             "スタジアム",
         ]
-        pokemon_types = ["特性", "ワザ", "進化", "古代能力", "GXワザ"]
+        pokemon_types = ["特性", "ワザ", "進化", "古代能力", "GXワザ", "ポケパワー"]
         if card_type in non_pokemon_types:
             card.set_card_type(card_type)
 
@@ -263,6 +263,12 @@ class CardScraperJP(CardScraper):
                 trait_effect = self.read_text(area.find_next("p"))
                 card.set_ancient_trait(trait_name, trait_effect)
                 logger.debug(f"ancient trait [{card.ancient_trait["name"]}]: {card.ancient_trait["effect"]}")
+                continue
+            if area_name == "ポケパワー":
+                poke_power_name = area.find_next("h4").get_text().strip()
+                poke_power_effect = self.read_text(area.find_next("p"))
+                card.set_poke_power(poke_power_name, poke_power_effect)
+                logger.debug(f"poke power [{card.poke_power["name"]}]: {card.poke_power["effect"]}")
                 continue
             if area_name in ["ワザ", "GXワザ"]:
                 next_h2 = area.find_next("h2")

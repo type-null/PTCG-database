@@ -106,6 +106,9 @@ class Card:
     def set_ancient_trait(self, name, effect):
         self.ancient_trait = {"name": name, "effect": effect}
 
+    def set_poke_power(self, name, effect):
+        self.poke_power = {"name": name, "effect": effect}
+
     def set_evolve_from(self, pokemon):
         self.evolve_from = pokemon
 
@@ -185,6 +188,8 @@ class Card:
             card_dict["types"] = self.types
         if hasattr(self, "ancient_trait"):
             card_dict["ancient_trait"] = self.ancient_trait
+        if hasattr(self, "poke_power"):
+            card_dict["poke_power"] = self.poke_power
         if self.abilities:
             card_dict["abilities"] = self.abilities
         if self.attacks:

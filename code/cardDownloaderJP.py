@@ -39,8 +39,8 @@ scraper = CardScraperJP()
 # tool: 45786
 # tool ( vstar ability): 44058
 # tool ( vstar attack): 42183
-# tool (attack): 44375, 39730
-# tool (GX attack): 36700
+# tool (attack): 44375, 39730, 31825
+# tool (GX attack): 36700, 36898
 # tool (team flare): 31982
 # old tool: 33278
 # ace spec item: 45783
@@ -74,8 +74,6 @@ test_ids = [
     39921,
     37262,
 ]
-
-test_ids = [31982]  # TODO: vstar, gx, tool attack, tool flare, ...
 
 
 for card_id in test_ids:

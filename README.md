@@ -49,10 +49,12 @@ Example:
     "rarity": "PROMO",      [OPTIONAL]
     "tags": [],             [OPTIONAL]
                                 <Ancient/Future, Shiny, Tera>
-    "abilities": [{
-        "name": "Armor",
-        "text": "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-    }, ],                   [OPTIONAL]
+    "abilities": [
+        {
+            "name": "Armor",
+            "text": "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+        },
+    ],                   [OPTIONAL]
     "ancient_trait": {
         "name": "",
         "text": "",
@@ -69,6 +71,7 @@ Example:
             "text": "If your opponent’s Active Pokémon is a Pokémon-GX or a Pokémon-EX, this attack does 70 more damage (before applying Weakness and Resistance).",
         },
     ],                      [OPTIONAL]
+    "vstar_power": {}       [OPTIONAL]
     "reminder": "",         [OPTIONAL]
                                 <You may play only 1 Supporter card during your turn.>
     "rule_box": {
@@ -85,14 +88,12 @@ Example:
     "hp": 130,              [REQUIRED]
     "types": ["Grass"],        [REQUIRED]
     "weakness": {
-        "types": ["Fire"],
-        "amount": 2,
-        "operator": "x",
+        "type": "Fire",
+        "value": "×2",
     },                       [OPTIONAL]
     "resistance": {
-        "types": [],
-        "amount": 0,
-        "operator": "",
+        "type": "",
+        "value": "",
     },                      [OPTIONAL]
     "retreat": 2,           [REQUIRED]
     "flavor_text": "With a flashing slash of its giant sharp claws, it cleaves seawater—or even air—right in two.",

@@ -26,10 +26,12 @@ class Card:
         self.tags = []
         self.abilities = []
         self.attacks = []
+        self.sources = []
         pass
 
     def add_tag(self, tag):
-        self.tags.append(tag)
+        if tag not in self.tags:
+            self.tags.append(tag)
 
     def set_jp_id(self, id):
         self.jp_id = id
@@ -104,6 +106,34 @@ class Card:
         self.evolve_from = pokemon
 
     def add_attack(self, cost, name, damage, effect):
+        if "GX" in name:
+            self.add_tag("GX")
         self.attacks.append(
             {"cost": cost, "name": name, "damage": damage, "effect": effect}
         )
+
+    def add_source(self, name, link):
+        self.sources.append({"name": name, "link": link})
+
+    def set_vstar_power_ability(self, name, effect):
+        self.add_tag("VSTAR")
+        self.vstar_power = {"type": "Ability", "name": name, "effect": effect}
+
+    def set_vstar_power_attack(self, cost, name, damage, effect):
+        self.add_tag("VSTAR")
+        self.vstar_power = {
+            "type": "Attack",
+            "cost": cost,
+            "name": name,
+            "damage": damage,
+            "effect": effect,
+        }
+
+    def set_weakness(self, weak_type, weak_value):
+        self.weakness = {"type": weak_type, "value": weak_value}
+
+    def set_resistance(self, weak_type, weak_value):
+        self.resistance = {"type": weak_type, "value": weak_value}
+
+    def set_retreat(self, num):
+        self.retreat = num

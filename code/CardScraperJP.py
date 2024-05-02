@@ -61,7 +61,8 @@ class CardScraperJP(CardScraper):
         logger.debug(f"url: {card.url}")
 
         content = self.get_content(card.url)
-        card_page = bs4.BeautifulSoup(content, "html.parser").section
+        card_page_all = bs4.BeautifulSoup(content, "html.parser")
+        card_page = card_page_all.section
 
         card.set_name(self.read_text(card_page.h1))
         logger.debug(f"name: {card.name}")
@@ -82,15 +83,28 @@ class CardScraperJP(CardScraper):
         pokemon_types = ["特性", "ワザ", "進化", "古代能力", "GXワザ"]
         if card_type in non_pokemon_types:
             card.set_card_type(card_type)
-            for p_tag in card_page.h2.find_next_siblings("p"):
-                if p_tag.find("p"):
+
+            next_h2 = card_page.h2.find_next("h2")
+            p_tags = []
+            sibling = card_page.h2.find_next_sibling()
+            while sibling and sibling != next_h2:
+                if sibling.name == "p":
+                    p_tags.append(sibling)
+                sibling = sibling.find_next_sibling()
+            text = ""
+            for p_tag in p_tags:
+                if p_tag.find("p"): # avoid nested p_tags
                     continue
-                text = p_tag.text.strip()
-                if not text.startswith(card_type + "は") and not text.startswith(
-                    "グッズは"
-                ):
-                    card.set_effect(self.read_text(card_page.find("p")))
-                    logger.debug(f"effect: {card.effect}")
+                raw_text = self.read_text(p_tag)
+                paragraphs = raw_text.split('\n')
+                for para in paragraphs:
+                    para = para.strip()
+                    if not para.startswith(card_type + "は") and not para.startswith(
+                        "グッズは"
+                    ) and para:
+                        text = text + "\n" + para
+            card.set_effect(text.strip())
+            logger.debug(f"effect: {card.effect}")
         elif card_type in pokemon_types:
             card.set_card_type("Pokémon")
         else:
@@ -220,72 +234,121 @@ class CardScraperJP(CardScraper):
                 .split('<div class="clear">')[0]
                 .strip()
             )
-            soup = bs4.BeautifulSoup(part, features="html.parser")
-            attack_part = bs4.BeautifulSoup(soup.prettify(formatter="minimal"), features="html.parser")
+        else:
+            part = (
+                content.split('<div class="TopInfo Text-fjalla">')[1]
+                .split('<div class="clear">')[0]
+                .strip()
+            )
 
-            for area in attack_part.find_all("h2"):
-                area_name = area.get_text().strip()
-                if area_name == "特性":
-                    ability_name = area.find_next("h4").get_text().strip()
-                    ability_effect = self.read_text(area.find_next("p"))
-                    card.add_ability(ability_name, ability_effect)
-                    logger.debug(f"ability [{card.abilities[-1]["name"]}]: {card.abilities[-1]["effect"]}")
-                    continue
-                if area_name == "古代能力":
-                    trait_name = area.find_next("h4").get_text().strip()
-                    trait_effect = self.read_text(area.find_next("p"))
-                    card.set_ancient_trait(trait_name, trait_effect)
-                    logger.debug(f"ancient trait [{card.ancient_trait["name"]}]: {card.ancient_trait["effect"]}")
-                    continue
-                if area_name == "GXワザ":
-                    continue
-                if area_name == "VSTARパワー":
-                    continue
+        soup = bs4.BeautifulSoup(part, features="html.parser")
+        attack_part = bs4.BeautifulSoup(soup.prettify(formatter="minimal"), features="html.parser")
 
-                if area_name == "ワザ":
-                    next_h2 = area.find_next("h2")
-                    h4_tags = []
-                    sibling = area.find_next_sibling()
-                    while sibling and sibling != next_h2:
-                        if sibling.name == "h4":
-                            h4_tags.append(sibling)
-                        sibling = sibling.find_next_sibling()                    
-                    for attack in h4_tags:
-                        attack_cost = []
-                        attack_damage = None
-                        for span_tag in attack.find_all("span"):
-                            if "icon" in str(span_tag):
-                                attack_cost.append(self.format_type(span_tag["class"][0].split("-")[1]))
-                            else:
-                                attack_damage = self.read_attack_damage(span_tag.get_text().strip())
-                        attack_name = attack.get_text().strip().split(' ')[0].strip()
-                        attack_effect = self.read_text(attack.find_next("p"))
-                        card.add_attack(attack_cost,attack_name, attack_damage, attack_effect)
-                        logger.debug(f"attack [{card.attacks[-1]["name"]}]: {card.attacks[-1]["cost"]}: {card.attacks[-1]["damage"]}: {card.attacks[-1]["effect"]}")
-                    continue
-                if area_name == "特別なルール":
-                    # already handled above
-                    continue
-                if area_name == "進化":
-                    if card.stage != "たね":
-                        a_tag = area.find_next("a")
-                        found = False
-                        while a_tag:
-                            if a_tag.text.strip() == card.name:
-                                next_a_tag = a_tag.find_next("a")
-                                while next_a_tag:
-                                    if next_a_tag.find_next_sibling("div", class_="arrow_off"):
-                                        card.set_evolve_from(next_a_tag.text.strip())
-                                        logger.debug(f"evolve from: {card.evolve_from}")
-                                        found = True
-                                        break
-                                    next_a_tag = next_a_tag.find_next("a")
-                            if not found:
-                                a_tag = a_tag.find_next("a")
-                            else:
-                                break
-                    continue
-                logger.error(f"{card.jp_id} has an unseen areaType: {area_name}!!")
+        for area in attack_part.find_all("h2"):
+            area_name = area.get_text().strip()
+            if area_name == "特性":
+                ability_name = area.find_next("h4").get_text().strip()
+                ability_effect = self.read_text(area.find_next("p"))
+                card.add_ability(ability_name, ability_effect)
+                logger.debug(f"ability [{card.abilities[-1]["name"]}]: {card.abilities[-1]["effect"]}")
+                continue
+            if area_name == "古代能力":
+                trait_name = area.find_next("h4").get_text().strip()
+                trait_effect = self.read_text(area.find_next("p"))
+                card.set_ancient_trait(trait_name, trait_effect)
+                logger.debug(f"ancient trait [{card.ancient_trait["name"]}]: {card.ancient_trait["effect"]}")
+                continue
+            if area_name in ["ワザ", "GXワザ"]:
+                next_h2 = area.find_next("h2")
+                h4_tags = []
+                sibling = area.find_next_sibling()
+                while sibling and sibling != next_h2:
+                    if sibling.name == "h4":
+                        h4_tags.append(sibling)
+                    sibling = sibling.find_next_sibling()                    
+                for attack in h4_tags:
+                    attack_cost = []
+                    attack_damage = None
+                    for span_tag in attack.find_all("span"):
+                        if "icon" in str(span_tag):
+                            attack_cost.append(self.format_type(span_tag["class"][0].split("-")[1]))
+                        else:
+                            attack_damage = self.read_attack_damage(span_tag.get_text().strip())
+                    attack_name = attack.get_text().strip().split(' ')[0].strip()
+                    attack_effect = self.read_text(attack.find_next("p"))
+                    card.add_attack(attack_cost, attack_name, attack_damage, attack_effect)
+                    logger.debug(f"attack [{card.attacks[-1]["name"]}]: {card.attacks[-1]["cost"]}: {card.attacks[-1]["damage"]}: {card.attacks[-1]["effect"]}")
+                continue
+            if area_name == "VSTARパワー":
+                vstar_type = area.find_next("h4").get_text().strip()
+                vstar_name = area.find_next("h4").find_next("h4")
+                vstar_effect = self.read_text(area.find_next("p"))
+                if vstar_type == "特性":
+                    card.set_vstar_power_ability(vstar_name.get_text().strip(), vstar_effect)
+                    logger.debug(f"VSTAR power: {card.vstar_power}")
+                elif vstar_type == "ワザ":
+                    vstar_cost = []
+                    vstar_damage = None
+                    for span_tag in vstar_name.find_all("span"):
+                        if "icon" in str(span_tag):
+                            vstar_cost.append(self.format_type(span_tag["class"][0].split("-")[1]))
+                        else:
+                            vstar_damage = self.read_attack_damage(span_tag.get_text().strip())
+                    vstar_name = vstar_name.get_text().strip().split(' ')[0].strip()
+                    card.set_vstar_power_attack(vstar_cost, vstar_name, vstar_damage, vstar_effect)
+                    logger.debug(f"VSTAR power: {card.vstar_power}")
+                else:
+                    logger.error(f"{card.jp_id} has an unseen VSTAR power type: {vstar_type}!!")
+                continue
+            if area_name == "特別なルール" or area_name in non_pokemon_types:
+                # already handled above
+                continue
+            if area_name == "進化":
+                if card.stage != "たね":
+                    a_tag = area.find_next("a")
+                    found = False
+                    while a_tag:
+                        if a_tag.text.strip() == card.name:
+                            next_a_tag = a_tag.find_next("a")
+                            while next_a_tag:
+                                if next_a_tag.find_next_sibling("div", class_="arrow_off"):
+                                    card.set_evolve_from(next_a_tag.text.strip())
+                                    logger.debug(f"evolve from: {card.evolve_from}")
+                                    found = True
+                                    break
+                                next_a_tag = next_a_tag.find_next("a")
+                        if not found:
+                            a_tag = a_tag.find_next("a")
+                        else:
+                            break
+                continue
+            logger.error(f"{card.jp_id} has an unseen areaType: {area_name}!!")
 
-            ## TODO: weakness table
-            ## TODO: set source
+        td = attack_part.find_all('td')
+        if td[0].find('span'):
+            weak_type = self.format_type(td[0].find('span')['class'][0].split('-')[1])
+            weak_value = td[0].get_text().strip()
+        else:
+            weak_type, weak_value = None, None
+        card.set_weakness(weak_type, weak_value)
+        logger.debug(f"weak: {card.weakness}")
+
+        if td[1].find('span'):
+            resist_type = self.format_type(td[1].find('span')['class'][0].split('-')[1])
+            resist_value = td[1].get_text().strip()
+        else:
+            resist_type, resist_value = None, None
+        card.set_resistance(resist_type, resist_value)
+        logger.debug(f"resist: {card.resistance}")
+
+        retreat = len(td[2].find_all('span'))
+        card.set_retreat(retreat)
+        logger.debug(f"retreat: {card.retreat}")
+
+
+
+        link_info = card_page_all.find_all("a", class_="Link Link-arrow")
+        if link_info:
+            for a_tag in link_info:
+                card.add_source(a_tag.get_text().strip(), self.complete_url(a_tag.get("href")))
+                logger.debug(f"source: [{card.sources[-1]["name"]}]({card.sources[-1]["link"]})")

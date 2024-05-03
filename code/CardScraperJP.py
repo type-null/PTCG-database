@@ -53,6 +53,7 @@ class CardScraperJP(CardScraper):
         return p.strip()
 
     def read_card(self, card_id):
+        result_code = "Successfully scraped"
         card = Card()
 
         ## Required
@@ -69,7 +70,7 @@ class CardScraperJP(CardScraper):
         if not card_page:
             # Error: No such card!
             logger.debug(f"Card {card_id} not found!")
-            return -1
+            return "Page not found"
 
         card.set_card_name(self.read_text(card_page.h1))
         logger.debug(f"name: {card.name}")
@@ -116,6 +117,7 @@ class CardScraperJP(CardScraper):
         elif card_type in pokemon_types:
             card.set_card_type("Pokémon")
         else:
+            result_code = "Something wrong"
             logger.error(f"Card {card.jp_id} hasunknown card type: {card_type}")
         logger.debug(f"card type (raw) : {card_type}")
         logger.debug(f"card type (read): {card.card_type}")
@@ -324,6 +326,7 @@ class CardScraperJP(CardScraper):
                     card.set_vstar_power_attack(vstar_cost, vstar_name, vstar_damage, vstar_effect)
                     logger.debug(f"VSTAR power: {card.vstar_power}")
                 else:
+                    result_code = "Something wrong"
                     logger.error(f"{card.jp_id} has an unseen VSTAR power type: {vstar_type}!!")
                 continue
             if area_name == "特別なルール" or area_name in non_pokemon_types:
@@ -359,8 +362,11 @@ class CardScraperJP(CardScraper):
                                 found = True
                     
                     if not found:
+                        result_code = "Something wrong"
                         logger.error(f"Card {card.jp_id} has trouble finding 'evolve from'!")
                 continue
+
+            result_code = "Something wrong"
             logger.error(f"{card.jp_id} has an unseen areaType: {area_name}!!")
 
         td = attack_part.find_all('td')
@@ -403,18 +409,35 @@ class CardScraperJP(CardScraper):
                 logger.debug(f"source: [{card.sources[-1]["name"]}]({card.sources[-1]["link"]})")
 
         card.save()
-        return 0
+        return result_code
 
     def scrape(self, start, end):
         logger.info("===== Scraping started =====")
         logger.info(f"Start card ID: {start}, End card ID: {end}")
 
+        downloaded_list = set()
+        with open("logs/scraped_jp_id_list.txt", "r") as file:
+            for line in file:
+                downloaded_list.add(int(line.strip()))
+
+        scraped_list = []
+        question_list = []
         error_list = []
         for card_id in tqdm(range(start, end + 1), desc="Downloading"):
-            code = self.read_card(card_id)
-            if code != 0:
-                error_list.append(card_id)
+            if card_id not in downloaded_list:
+                code = self.read_card(card_id)
+                if code == "Successfully scraped":
+                    scraped_list.append(card_id)
+                elif code == "Something wrong":
+                    question_list.append(card_id)
+                elif code == "Page not found":
+                    error_list.append(card_id)
+                else:
+                    logger.error(f"Card {card_id} has unseen result code: {code}")
 
-        logger.info(f"Scraped card IDs: {list(range(start, end + 1))}")
-        logger.info(f"Error card IDs: {error_list}")
+        self.save_list_to_file(scraped_list, "logs/scraped_jp_id_list.txt")
+        self.save_list_to_file(question_list, "logs/question_jp_id_list.txt")
+        self.save_list_to_file(error_list, "logs/error_jp_id_list.txt")
+
+        logger.info(f"Attempted {end + 1 - start} cards; scraped {end + 1 - start - len(error_list)} cards; errored {len(error_list)} cards.")
 

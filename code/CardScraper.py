@@ -43,3 +43,19 @@ class CardScraper:
             return {"amount": amount, "prefix": prefix, "suffix": suffix}
         else:
             return None
+
+    def save_list_to_file(self, array, output_file):
+        file_exists = True
+        known_list = set()
+        try:
+            with open(output_file, "r") as file:
+                for line in file:
+                    known_list.add(int(line.strip()))
+        except FileNotFoundError:
+            file_exists = False
+
+        mode = "a" if file_exists else "w"
+        with open(output_file, mode) as file:
+            for card in array:
+                if card not in known_list:
+                    file.write(str(card) + "\n")

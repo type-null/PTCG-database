@@ -11,7 +11,7 @@ MODE = "DEBUG"
 MODE = "BUILD"
 
 logging.basicConfig(
-    filename="log_file.log" if MODE == "DEBUG" else "scrape_jp_log.log",
+    filename="logs/log_file.log" if MODE == "DEBUG" else "logs/scrape_jp_log.log",
     encoding="utf-8",
     format="%(asctime)s | %(levelname)s | %(module)s | %(message)s",
     level=logging.DEBUG if MODE == "DEBUG" else logging.INFO,

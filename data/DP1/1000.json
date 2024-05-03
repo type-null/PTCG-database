@@ -10,14 +10,16 @@
     "set_total": -1,
     "rarity": "rare_u",
     "rarity_img": "https://www.pokemon-card.com/assets/images/card/rarity/ic_rare_u.gif",
-    "author": "Ken Sugimori",
+    "author": [
+        "Ken Sugimori"
+    ],
     "pokedex_number": 214,
     "pokemon_category": "1ぽんヅノポケモン",
     "height": "1.5 m",
     "weight": "54.0 kg",
     "flavor_text": "こうぶつの じゅえきを もとめて もりに あつまる。たくましい ツノで あいてを ぶんなげる ちからもち。",
     "stage": "たね",
-    "level": 29,
+    "level": "29",
     "hp": 80,
     "types": [
         "Grass"
@@ -50,11 +52,13 @@
         }
     ],
     "weakness": {
-        "type": "Fire",
+        "type": [
+            "Fire"
+        ],
         "value": "＋20"
     },
     "resistance": {
-        "type": null,
+        "type": [],
         "value": null
     },
     "retreat": 2,

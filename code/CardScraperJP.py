@@ -26,7 +26,7 @@ class CardScraperJP(CardScraper):
             t = 'colorless'
         return t.capitalize().strip()
 
-    def read_text(self, p):
+    def read_text(self, p, no_space=False):
         """
         <span class="pcg pcg-megamark"></span>
         <span class="pcg pcg-prismstar"></span>
@@ -48,6 +48,8 @@ class CardScraperJP(CardScraper):
                 p = str(p).replace(str(spans[i]), marks[i])
             p = bs4.BeautifulSoup(p, "html.parser")
         p = p.get_text().replace("\n ", "")
+        if no_space:
+            p = p.replace(" ", "")
         return p.strip()
 
     def read_card(self, card_id):
@@ -85,7 +87,7 @@ class CardScraperJP(CardScraper):
             "ポケモンのどうぐ",
             "スタジアム",
         ]
-        pokemon_types = ["特性", "ワザ", "進化", "古代能力", "GXワザ", "ポケパワー"]
+        pokemon_types = ["特性", "ワザ", "進化", "古代能力", "GXワザ", "ポケパワー", "ポケボディー", "どうぐ"]
         if card_type in non_pokemon_types:
             card.set_card_type(card_type)
 
@@ -114,7 +116,7 @@ class CardScraperJP(CardScraper):
         elif card_type in pokemon_types:
             card.set_card_type("Pokémon")
         else:
-            logger.error(f"unknown card type: {card_type}")
+            logger.error(f"Card {card.jp_id} hasunknown card type: {card_type}")
         logger.debug(f"card type (raw) : {card_type}")
         logger.debug(f"card type (read): {card.card_type}")
 
@@ -140,7 +142,7 @@ class CardScraperJP(CardScraper):
                 number = collector_info
                 total = -1
                 logger.debug(f"number: {number}")
-                logger.warn("No total")
+                logger.debug("No total")
             card.set_collector(number, total)
 
         rarity_info = card_page.find("img", width="24")
@@ -152,7 +154,7 @@ class CardScraperJP(CardScraper):
 
         author_info = card_page.find("div", class_="author").get_text().strip()
         if author_info:
-            author = author_info.split("\n")[1]
+            author = [a for a in author_info.split("\n") if a != "イラストレーター"]
             card.set_author(author)
             logger.debug(f"author: {card.author}")
 
@@ -222,7 +224,7 @@ class CardScraperJP(CardScraper):
 
         level_info = card_page.find('span', class_='level-num')
         if level_info:
-            level = int(level_info.get_text().strip())
+            level = level_info.get_text().strip()
             card.set_level(level)
             logger.debug(f"level: {card.level}")
 
@@ -269,6 +271,18 @@ class CardScraperJP(CardScraper):
                 poke_power_effect = self.read_text(area.find_next("p"))
                 card.set_poke_power(poke_power_name, poke_power_effect)
                 logger.debug(f"poke power [{card.poke_power["name"]}]: {card.poke_power["effect"]}")
+                continue
+            if area_name == "ポケボディー":
+                poke_body_name = area.find_next("h4").get_text().strip()
+                poke_body_effect = self.read_text(area.find_next("p"))
+                card.set_poke_body(poke_body_name, poke_body_effect)
+                logger.debug(f"poke body [{card.poke_body["name"]}]: {card.poke_body["effect"]}")
+                continue
+            if area_name == "どうぐ":
+                item = area.find_next("h4").get_text().strip()
+                item_effect = self.read_text(area.find_next("p"))
+                card.set_held_item(item, item_effect)
+                logger.debug(f"held item [{card.held_item["item"]}]: {card.held_item["effect"]}")
                 continue
             if area_name in ["ワザ", "GXワザ"]:
                 next_h2 = area.find_next("h2")
@@ -318,9 +332,10 @@ class CardScraperJP(CardScraper):
             if area_name == "進化":
                 if card.stage != "たね":
                     a_tag = area.find_next("a")
+                    last_a_tag = a_tag
                     found = False
                     while a_tag:
-                        if a_tag.text.strip() == card.name:
+                        if self.read_text(a_tag, no_space=True) == card.name:
                             next_a_tag = a_tag.find_next("a")
                             while next_a_tag:
                                 if next_a_tag.find_next_sibling("div", class_="arrow_off"):
@@ -330,29 +345,45 @@ class CardScraperJP(CardScraper):
                                     break
                                 next_a_tag = next_a_tag.find_next("a")
                         if not found:
+                            last_a_tag = a_tag
                             a_tag = a_tag.find_next("a")
                         else:
                             break
+
+                    if not found:
+                        p_tag = last_a_tag.find_next("p")
+                        if p_tag:
+                            if p_tag.find_next_sibling("div", class_="arrow_off"):
+                                card.set_evolve_from(p_tag.text.strip())
+                                logger.debug(f"evolve from: {card.evolve_from}")
+                                found = True
+                    
+                    if not found:
+                        logger.error(f"Card {card.jp_id} has trouble finding 'evolve from'!")
                 continue
             logger.error(f"{card.jp_id} has an unseen areaType: {area_name}!!")
 
         td = attack_part.find_all('td')
         if len(td) > 0: 
+            weak_types = []
             if td[0].find('span'):
-                weak_type = self.format_type(td[0].find('span')['class'][0].split('-')[1])
                 weak_value = td[0].get_text().strip()
+                for span_tag in td[0].find_all('span'):
+                    weak_types.append(self.format_type(span_tag['class'][0].split('-')[1]))
             else:
-                weak_type, weak_value = None, None
-            card.set_weakness(weak_type, weak_value)
+                weak_value = None
+            card.set_weakness(weak_types, weak_value)
             logger.debug(f"weak: {card.weakness}")
 
         if len(td) > 1:
+            resist_types = []
             if td[1].find('span'):
-                resist_type = self.format_type(td[1].find('span')['class'][0].split('-')[1])
                 resist_value = td[1].get_text().strip()
+                for span_tag in td[1].find_all('span'):
+                    resist_types.append(self.format_type(span_tag['class'][0].split('-')[1]))
             else:
-                resist_type, resist_value = None, None
-            card.set_resistance(resist_type, resist_value)
+                resist_value = None
+            card.set_resistance(resist_types, resist_value)
             logger.debug(f"resist: {card.resistance}")
 
         if len(td) > 2:

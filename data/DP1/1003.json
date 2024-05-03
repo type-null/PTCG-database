@@ -10,14 +10,16 @@
     "set_total": -1,
     "rarity": "rare_r",
     "rarity_img": "https://www.pokemon-card.com/assets/images/card/rarity/ic_rare_r.gif",
-    "author": "Atsuko Nishida",
+    "author": [
+        "Atsuko Nishida"
+    ],
     "pokedex_number": 267,
     "pokemon_category": "ちょうちょポケモン",
     "height": "1.0 m",
     "weight": "28.4 kg",
     "flavor_text": "ほそながい くちを つきさして あいての たいえきを すいとる。こうげきてきな せいかく。",
     "stage": "2 進化",
-    "level": 29,
+    "level": "29",
     "hp": 100,
     "types": [
         "Grass"
@@ -53,11 +55,15 @@
         }
     ],
     "weakness": {
-        "type": "Fire",
+        "type": [
+            "Fire"
+        ],
         "value": "＋20"
     },
     "resistance": {
-        "type": "Fighting",
+        "type": [
+            "Fighting"
+        ],
         "value": "－20"
     },
     "retreat": 1,

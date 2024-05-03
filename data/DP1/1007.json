@@ -10,14 +10,16 @@
     "set_total": -1,
     "rarity": "rare_u",
     "rarity_img": "https://www.pokemon-card.com/assets/images/card/rarity/ic_rare_u.gif",
-    "author": "Ken Sugimori",
+    "author": [
+        "Ken Sugimori"
+    ],
     "pokedex_number": 406,
     "pokemon_category": "つぼみポケモン",
     "height": "0.2 m",
     "weight": "1.2 kg",
     "flavor_text": "ふゆの あいだは つぼみを とざして さむさに たえる。はるになると つぼみを ひらき かふんを とばす。",
     "stage": "たね",
-    "level": 6,
+    "level": "6",
     "hp": 40,
     "types": [
         "Grass"
@@ -37,11 +39,13 @@
         }
     ],
     "weakness": {
-        "type": "Fire",
+        "type": [
+            "Fire"
+        ],
         "value": "＋10"
     },
     "resistance": {
-        "type": null,
+        "type": [],
         "value": null
     },
     "retreat": 1,

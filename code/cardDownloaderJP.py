@@ -21,6 +21,7 @@ logger = logging.getLogger(__name__)
 
 
 scraper = CardScraperJP()
-# scraper.scrape(0, 45800)
-
-scraper.read_card(1007)
+if MODE == "BUILD":
+    scraper.scrape(1220, 45800)
+if MODE == "DEBUG":
+    scraper.read_card(19211)

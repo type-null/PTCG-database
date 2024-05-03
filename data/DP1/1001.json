@@ -10,14 +10,16 @@
     "set_total": -1,
     "rarity": "rare_c",
     "rarity_img": "https://www.pokemon-card.com/assets/images/card/rarity/ic_rare_c.gif",
-    "author": "Ken Sugimori",
+    "author": [
+        "Ken Sugimori"
+    ],
     "pokedex_number": 265,
     "pokemon_category": "いもむしポケモン",
     "height": "0.3 m",
     "weight": "3.6 kg",
     "flavor_text": "はっぱが だいこうぶつ。ムックルに おそわれたときは おしりの トゲで げきたいする。",
     "stage": "たね",
-    "level": 7,
+    "level": "7",
     "hp": 50,
     "types": [
         "Grass"
@@ -49,11 +51,13 @@
         }
     ],
     "weakness": {
-        "type": "Fire",
+        "type": [
+            "Fire"
+        ],
         "value": "＋10"
     },
     "resistance": {
-        "type": null,
+        "type": [],
         "value": null
     },
     "retreat": 1,

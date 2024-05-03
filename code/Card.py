@@ -6,6 +6,9 @@
 
 import os
 import json
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 RULE_TAGS = [
@@ -22,6 +25,8 @@ RULE_TAGS = [
     "EX",
     "M進化",
     "BREAK",
+    "LEGEND",
+    "レベルアップ",
 ]
 
 
@@ -83,9 +88,13 @@ class Card:
 
     def set_rule_box(self, rule):
         self.rule_box = rule
+        known_tag = False
         for tag in RULE_TAGS:
             if tag in rule:
                 self.add_tag(tag)
+                known_tag = True
+        if not known_tag:
+            logger.error(f"Card {self.jp_id} has unseen rule box!")
 
     def set_stage(self, stage):
         self.stage = stage
@@ -97,7 +106,6 @@ class Card:
         self.hp = hp
 
     def set_types(self, types: list[str]):
-        type_list = []
         self.types = types
 
     def add_ability(self, name, effect):
@@ -108,6 +116,12 @@ class Card:
 
     def set_poke_power(self, name, effect):
         self.poke_power = {"name": name, "effect": effect}
+
+    def set_poke_body(self, name, effect):
+        self.poke_body = {"name": name, "effect": effect}
+
+    def set_held_item(self, item, effect):
+        self.held_item = {"item": item, "effect": effect}
 
     def set_evolve_from(self, pokemon):
         self.evolve_from = pokemon
@@ -136,11 +150,11 @@ class Card:
             "effect": effect,
         }
 
-    def set_weakness(self, weak_type, weak_value):
-        self.weakness = {"type": weak_type, "value": weak_value}
+    def set_weakness(self, weak_types, weak_value):
+        self.weakness = {"type": weak_types, "value": weak_value}
 
-    def set_resistance(self, weak_type, weak_value):
-        self.resistance = {"type": weak_type, "value": weak_value}
+    def set_resistance(self, weak_types, weak_value):
+        self.resistance = {"type": weak_types, "value": weak_value}
 
     def set_retreat(self, num):
         self.retreat = num
@@ -190,6 +204,10 @@ class Card:
             card_dict["ancient_trait"] = self.ancient_trait
         if hasattr(self, "poke_power"):
             card_dict["poke_power"] = self.poke_power
+        if hasattr(self, "poke_body"):
+            card_dict["poke_body"] = self.poke_body
+        if hasattr(self, "held_item"):
+            card_dict["held_item"] = self.held_item
         if self.abilities:
             card_dict["abilities"] = self.abilities
         if self.attacks:

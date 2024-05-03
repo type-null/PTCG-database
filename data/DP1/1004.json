@@ -10,14 +10,16 @@
     "set_total": -1,
     "rarity": "rare_u",
     "rarity_img": "https://www.pokemon-card.com/assets/images/card/rarity/ic_rare_u.gif",
-    "author": "Ken Sugimori",
+    "author": [
+        "Ken Sugimori"
+    ],
     "pokedex_number": 268,
     "pokemon_category": "さなぎポケモン",
     "height": "0.7 m",
     "weight": "11.5 kg",
     "flavor_text": "マユの なかは おんどが たかい。そのなかで ぜんしんの さいぼうが しんかの エネルギーを つくりだす。",
     "stage": "1 進化",
-    "level": 8,
+    "level": "8",
     "hp": 80,
     "types": [
         "Grass"
@@ -46,11 +48,13 @@
         }
     ],
     "weakness": {
-        "type": "Fire",
+        "type": [
+            "Fire"
+        ],
         "value": "＋20"
     },
     "resistance": {
-        "type": null,
+        "type": [],
         "value": null
     },
     "retreat": 3,

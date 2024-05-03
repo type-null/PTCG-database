@@ -39,7 +39,7 @@ Example:
                                 <Trainer: Item/Supporter/Stadium/Pokemon Tool>
                                 <Energy: Basic/Special>
     "name": "Golisopod",    [REQUIRED]
-    "author": "Naoki Saito", 
+    "authors": ["Naoki Saito"], 
                             [OPTIONAL]
     "regulation": "",       [OPTIONAL]
                                 <A/B/C/D/E/F/G/...>
@@ -57,8 +57,20 @@ Example:
     ],                   [OPTIONAL]
     "ancient_trait": {
         "name": "",
-        "text": "",
-    },                      [OPTIONAL]
+        "effect": "",
+    },                   [OPTIONAL]
+    "poke_power": {
+        "name": "",
+        "effect": "",
+    },                   [OPTIONAL]
+    "poke_body": {
+        "name": "",
+        "effect": "",
+    },                   [OPTIONAL]
+    "held_item": {
+        "item": "",
+        "effect": "",
+    },                   [OPTIONAL]
     "attack": [
         {
             "cost": ["Grass", "Colorless", "Colorless"],
@@ -88,11 +100,11 @@ Example:
     "hp": 130,              [REQUIRED]
     "types": ["Grass"],        [REQUIRED]
     "weakness": {
-        "type": "Fire",
+        "types": ["Fire"],
         "value": "×2",
     },                       [OPTIONAL]
     "resistance": {
-        "type": "",
+        "types": [],
         "value": "",
     },                      [OPTIONAL]
     "retreat": 2,           [REQUIRED]

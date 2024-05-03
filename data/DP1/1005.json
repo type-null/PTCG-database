@@ -10,14 +10,16 @@
     "set_total": -1,
     "rarity": "rare_r",
     "rarity_img": "https://www.pokemon-card.com/assets/images/card/rarity/ic_rare_r.gif",
-    "author": "Kouki Saitou",
+    "author": [
+        "Kouki Saitou"
+    ],
     "pokedex_number": 269,
     "pokemon_category": "どくがポケモン",
     "height": "1.2 m",
     "weight": "31.6 kg",
     "flavor_text": "やこうせいの ポケモン。あかりに さそわれた ドクケイルが がいろじゅの はを くいちらかす。",
     "stage": "2 進化",
-    "level": 34,
+    "level": "34",
     "hp": 120,
     "types": [
         "Grass"
@@ -53,11 +55,13 @@
         }
     ],
     "weakness": {
-        "type": "Fire",
+        "type": [
+            "Fire"
+        ],
         "value": "＋30"
     },
     "resistance": {
-        "type": null,
+        "type": [],
         "value": null
     },
     "retreat": 2,

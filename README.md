@@ -25,7 +25,9 @@ Source: [Official Japan Pokemon Card Website](www.pokemon-card.com)
 Good reference: [malie.io Pokémon Trading Card Game export format](https://malie.io/static/draft/html/pkproto_sv.html), it has great illustration of different fields.
 
 Example:
-```json
+<details>
+    <summary>Click to expand JSON</summary>
+<pre><code>
 {
     "language": "en-US",    [REQUIRED]
     "jp_id": "",            [REQUIRED]
@@ -120,7 +122,7 @@ Example:
     "height": "6'07\"",     [OPTIONAL]
     "weight": "238.1 lbs",  [OPTIONAL]
 }
-```
+</code></pre>
 
 Omitted:
 - name
@@ -128,6 +130,7 @@ Omitted:
     - "prefix": e.g., "Paldean" in Paldean Pokemon
     - "suffix": e.g., "with Grey Felt Hat" in Van Gogh Pikachu
 - "copyright": {"text": "©2024 Pokémon / Nintendo / Creatures / GAME FREAK", ...}
+</details>
 
 Type symbols:
 | ![Grass](img/types/Grass.svg) | ![Fire](img/types/Fire.svg) | ![Water](img/types/Water.svg) | ![Lightning](img/types/Lightning.svg) | ![Psychic](img/types/Psychic.svg) | ![Fighting](img/types/Fighting.svg) | ![Dark](img/types/Darkness.svg) | ![Metal](img/types/Metal.svg) | ![Fairy](img/types/Fairy.svg) | ![Dragon](img/types/Dragon.svg) | ![Colorless](img/types/Colorless.svg) |

@@ -123,6 +123,9 @@ class Card:
     def set_held_item(self, item, effect):
         self.held_item = {"item": item, "effect": effect}
 
+    def set_held_berry(self, berry, effect):
+        self.held_berry = {"berry": berry, "effect": effect}
+
     def set_evolve_from(self, pokemon):
         self.evolve_from = pokemon
 
@@ -208,6 +211,8 @@ class Card:
             card_dict["poke_body"] = self.poke_body
         if hasattr(self, "held_item"):
             card_dict["held_item"] = self.held_item
+        if hasattr(self, "held_berry"):
+            card_dict["held_berry"] = self.held_berry
         if self.abilities:
             card_dict["abilities"] = self.abilities
         if self.attacks:

@@ -6,6 +6,7 @@
 
 import re
 import bs4
+import time
 import logging
 from tqdm import tqdm
 
@@ -88,7 +89,7 @@ class CardScraperJP(CardScraper):
             "ポケモンのどうぐ",
             "スタジアム",
         ]
-        pokemon_types = ["特性", "ワザ", "進化", "古代能力", "GXワザ", "ポケパワー", "ポケボディー", "どうぐ"]
+        pokemon_types = ["特性", "ワザ", "進化", "古代能力", "GXワザ", "ポケパワー", "ポケボディー", "どうぐ", "きのみ"]
         if card_type in non_pokemon_types:
             card.set_card_type(card_type)
 
@@ -286,6 +287,12 @@ class CardScraperJP(CardScraper):
                 card.set_held_item(item, item_effect)
                 logger.debug(f"held item [{card.held_item["item"]}]: {card.held_item["effect"]}")
                 continue
+            if area_name == "きのみ":
+                berry = area.find_next("h4").get_text().strip()
+                berry_effect = self.read_text(area.find_next("p"))
+                card.set_held_berry(berry, berry_effect)
+                logger.debug(f"held berry [{card.held_berry["berry"]}]: {card.held_berry["effect"]}")
+                continue
             if area_name in ["ワザ", "GXワザ"]:
                 next_h2 = area.find_next("h2")
                 h4_tags = []
@@ -360,7 +367,14 @@ class CardScraperJP(CardScraper):
                                 card.set_evolve_from(p_tag.text.strip())
                                 logger.debug(f"evolve from: {card.evolve_from}")
                                 found = True
-                    
+
+                    if not found:
+                        # Error on page
+                        if last_a_tag.find_next_sibling("div", class_="arrow_on"):
+                            card.set_evolve_from(last_a_tag.text.strip())
+                            logger.warn(f"evolve from: {card.evolve_from}")
+                            found = True
+
                     if not found:
                         result_code = "Something wrong"
                         logger.error(f"Card {card.jp_id} has trouble finding 'evolve from'!")
@@ -441,3 +455,13 @@ class CardScraperJP(CardScraper):
 
         logger.info(f"Attempted {end + 1 - start} cards; scraped {end + 1 - start - len(error_list)} cards; errored {len(error_list)} cards.")
 
+    def assign_task(self, start, end):
+        logger.info("===== Task Received =====")
+        logger.info(f"Start card ID: {start}, End card ID: {end}")
+
+        batch_size = 500
+        for batch_start in range(start, end + 1, batch_size):
+            batch_end = min(batch_start + batch_size - 1, end)
+            self.scrape(batch_start, batch_end)
+            time.sleep(10)
+            

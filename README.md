@@ -71,6 +71,10 @@ Example:
         "item": "",
         "effect": "",
     },                   [OPTIONAL]
+    "held_berry": {
+        "berry": "",
+        "effect": "",
+    },                   [OPTIONAL]
     "attack": [
         {
             "cost": ["Grass", "Colorless", "Colorless"],

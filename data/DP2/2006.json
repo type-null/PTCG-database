@@ -1,0 +1,73 @@
+{
+    "jp_id": 2006,
+    "url": "https://www.pokemon-card.com/card-search/details.php/card/2006",
+    "name": "メガニウム",
+    "img": "https://www.pokemon-card.com/assets/images/card_images/large/DP2/002006_P_MEGANIUMU.gif",
+    "card_type": "Pokémon",
+    "set_name": "DP2",
+    "set_img": "https://www.pokemon-card.com/assets/images/card/regulation_logo_1/DP2.gif",
+    "number": "DPBP#185",
+    "set_total": -1,
+    "author": [
+        "Daisuke Ito"
+    ],
+    "pokedex_number": 154,
+    "pokemon_category": "ハーブポケモン",
+    "height": "1.8 m",
+    "weight": "100.5 kg",
+    "flavor_text": "メガニウムが はきだす いきには かれた くさばなを よみがえらせる ふしぎな ちからが ひめられている。",
+    "stage": "2 進化",
+    "level": "48",
+    "hp": 130,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "ウルトラパウダー",
+            "damage": {
+                "amount": 20,
+                "prefix": "",
+                "suffix": ""
+            },
+            "effect": "コインを3回投げる。1回目がオモテなら、相手をどくにする。2回目がオモテなら、相手をやけどにする。3回目がオモテなら、相手をマヒにする。"
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Colorless"
+            ],
+            "name": "かじばのいちげき",
+            "damage": {
+                "amount": 60,
+                "prefix": "",
+                "suffix": "＋"
+            },
+            "effect": "相手の場にFireポケモンがいるなら、30ダメージを追加。"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "＋30"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "－20"
+    },
+    "retreat": 2,
+    "evolve_from": "ベイリーフ",
+    "sources": [
+        {
+            "name": "ポケモンカードゲームDP 拡張パック「湖の秘密」",
+            "link": null
+        }
+    ]
+}

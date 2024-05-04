@@ -88,6 +88,7 @@ class CardScraperJP(CardScraper):
             "グッズ",
             "ポケモンのどうぐ",
             "スタジアム",
+            "ワザマシン",
         ]
         pokemon_types = ["特性", "ワザ", "進化", "古代能力", "GXワザ", "ポケパワー", "ポケボディー", "どうぐ", "きのみ"]
         if card_type in non_pokemon_types:
@@ -257,6 +258,10 @@ class CardScraperJP(CardScraper):
 
         for area in attack_part.find_all("h2"):
             area_name = area.get_text().strip()
+            if area_name == "ワザマシン":
+                card.set_technical_machine(self.read_text(area.find_next("p")))
+                logger.debug(f"technical machine rule: {card.technical_machine_rule}")
+                continue
             if area_name == "特性":
                 ability_name = area.find_next("h4").get_text().strip()
                 ability_effect = self.read_text(area.find_next("p"))
@@ -371,7 +376,7 @@ class CardScraperJP(CardScraper):
                     if not found:
                         # Error on page
                         if last_a_tag.find_next_sibling("div", class_="arrow_on"):
-                            card.set_evolve_from(last_a_tag.text.strip())
+                            card.set_evolve_from(last_a_tag.text.strip() + "?")
                             logger.warn(f"Card {card.jp_id} evolve from: {card.evolve_from}")
                             found = True
 
@@ -423,6 +428,7 @@ class CardScraperJP(CardScraper):
                 logger.debug(f"source: [{card.sources[-1]["name"]}]({card.sources[-1]["link"]})")
 
         card.save()
+        del card
         return result_code
 
     def scrape(self, start, end):

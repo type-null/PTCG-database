@@ -108,6 +108,9 @@ class Card:
     def set_types(self, types: list[str]):
         self.types = types
 
+    def set_technical_machine(self, rule):
+        self.technical_machine_rule = rule
+
     def add_ability(self, name, effect):
         self.abilities.append({"name": name, "effect": effect})
 
@@ -203,6 +206,8 @@ class Card:
             card_dict["hp"] = self.hp
         if hasattr(self, "types"):
             card_dict["types"] = self.types
+        if hasattr(self, "technical_machine_rule"):
+            card_dict["technical_machine_rule"] = self.technical_machine_rule
         if hasattr(self, "ancient_trait"):
             card_dict["ancient_trait"] = self.ancient_trait
         if hasattr(self, "poke_power"):

@@ -51,6 +51,8 @@ Example:
     "rarity": "PROMO",      [OPTIONAL]
     "tags": [],             [OPTIONAL]
                                 <Ancient/Future, Shiny, Tera>
+    "technical_machine_rule": "",
+                            [OPTIONAL]
     "abilities": [
         {
             "name": "Armor",

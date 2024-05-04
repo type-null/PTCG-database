@@ -1,0 +1,63 @@
+{
+    "jp_id": 5000,
+    "url": "https://www.pokemon-card.com/card-search/details.php/card/5000",
+    "name": "逆襲のミュウツー",
+    "img": "https://www.pokemon-card.com/assets/images/card_images/large/DPP/005000_P_GYAKUSHUUNOMYUUTSU.gif",
+    "card_type": "Pokémon",
+    "set_name": "MPS",
+    "set_img": "https://www.pokemon-card.com/assets/images/card/regulation_logo_1/MPS.gif",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "いでんしポケモン",
+    "height": "2.0 m",
+    "weight": "122.0 kg",
+    "flavor_text": "ひとのてによって つくられた。 にんげんをにくみ せかいをせいふくすることによって ふくしゅうを くわだてる。",
+    "stage": "たね",
+    "hp": 90,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "バリアー",
+            "damage": null,
+            "effect": "コインを1回投げオモテなら、次の相手の番、自分はワザによるダメージや効果を受けない。"
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "サイコウェーブ",
+            "damage": {
+                "amount": 20,
+                "prefix": "",
+                "suffix": "×"
+            },
+            "effect": "相手のエネルギー×20ダメージ。"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "＋30"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "ポケモンカードゲームDP　映画10周年記念　プレミアムシート",
+            "link": null
+        }
+    ]
+}

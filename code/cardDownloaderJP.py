@@ -8,7 +8,7 @@ from CardScraperJP import CardScraperJP
 import logging
 
 MODE = "DEBUG"
-# MODE = "BUILD"
+MODE = "BUILD"
 
 logging.basicConfig(
     filename="logs/log_file.log" if MODE == "DEBUG" else "logs/scrape_jp_log.log",

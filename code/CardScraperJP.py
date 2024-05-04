@@ -372,7 +372,7 @@ class CardScraperJP(CardScraper):
                         # Error on page
                         if last_a_tag.find_next_sibling("div", class_="arrow_on"):
                             card.set_evolve_from(last_a_tag.text.strip())
-                            logger.warn(f"evolve from: {card.evolve_from}")
+                            logger.warn(f"Card {card.jp_id} evolve from: {card.evolve_from}")
                             found = True
 
                     if not found:

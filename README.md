@@ -54,27 +54,27 @@ Example:
             "name": "Armor",
             "text": "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
         },
-    ],                   [OPTIONAL]
+    ],                      [OPTIONAL]
     "ancient_trait": {
         "name": "",
         "effect": "",
-    },                   [OPTIONAL]
+    },                      [OPTIONAL]
     "poke_power": {
         "name": "",
         "effect": "",
-    },                   [OPTIONAL]
+    },                      [OPTIONAL]
     "poke_body": {
         "name": "",
         "effect": "",
-    },                   [OPTIONAL]
+    },                      [OPTIONAL]
     "held_item": {
         "item": "",
         "effect": "",
-    },                   [OPTIONAL]
+    },                      [OPTIONAL]
     "held_berry": {
         "berry": "",
         "effect": "",
-    },                   [OPTIONAL]
+    },                      [OPTIONAL]
     "attack": [
         {
             "cost": ["Grass", "Colorless", "Colorless"],
@@ -102,11 +102,11 @@ Example:
     "evolve_from": "Wimpod",
                             [REQUIRED]
     "hp": 130,              [REQUIRED]
-    "types": ["Grass"],        [REQUIRED]
+    "types": ["Grass"],     [REQUIRED]
     "weakness": {
         "types": ["Fire"],
         "value": "×2",
-    },                       [OPTIONAL]
+    },                      [OPTIONAL]
     "resistance": {
         "types": [],
         "value": "",
@@ -148,11 +148,23 @@ English Rarity key, SV1-onwards:
 
 ## Downloaded data
 
+### Japanese version
+
 - Info
-    - Card content: `\data`
-        - `\data\<generation>\<set>\<individual-card>.json`
+    - Card content: [`data/`](data/)
+        - `/data/set_name/<individual-card>.json`
+        - `set_name` is automatically scraped from the set image under the card image shown on the webpage
+    - Logs: [`logs/`](logs/)
+        - [scrape_jp_log](logs/scrape_jp_log.log): Information on scraping cards
+        - [log_file](logs/log_file.log): for debugging
+        - [scraped_jp_id_list](logs/scraped_jp_id_list.txt): card ids for scraped cards
+        - [question_jp_id_list](logs/question_jp_id_list.txt): card ids for dubious scraping results
+        - [error_jp_id_list](logs/error_jp_id_list.txt): card ids that has no webpage
 
 - Image
-    - Set package cover (Japanese version): See table [here](https://type-null.github.io/card/2024/02/timeline.html)
+    - Set package cover: See table [here](https://type-null.github.io/card/2024/02/timeline.html)
+    - Card image: Haven't downloaded, but the urls for image are saved in their `.json` files
+    - Set logo imgae: Same as above
+    - Rarity image: Same as above
 
 

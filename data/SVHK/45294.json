@@ -11,7 +11,9 @@
     "set_img": "https://www.pokemon-card.com/assets/images/card/regulation_logo_1/SVHK.gif",
     "number": "006",
     "set_total": "053",
-    "author": "Souichirou Gunjima",
+    "author": [
+        "Souichirou Gunjima"
+    ],
     "flavor_text": "忍者のように 神出鬼没。  素早い 動きで 翻弄しつつ  水の 手裏剣で 切り裂く。",
     "stage": "たね",
     "hp": 130,
@@ -38,11 +40,13 @@
     ],
     "rule_box": "かがやくポケモンは、デッキに1枚しか入れられない。",
     "weakness": {
-        "type": "Electric",
+        "type": [
+            "Electric"
+        ],
         "value": "×2"
     },
     "resistance": {
-        "type": null,
+        "type": [],
         "value": null
     },
     "retreat": 1,

@@ -12,7 +12,9 @@
     "set_img": "https://www.pokemon-card.com/assets/images/card/regulation_logo_1/XY.gif",
     "number": "016",
     "set_total": "048",
-    "author": "5ban Graphics",
+    "author": [
+        "5ban Graphics"
+    ],
     "pokedex_number": "No.282",
     "pokemon_category": "",
     "height": "1.6 m",
@@ -36,14 +38,19 @@
     ],
     "rule_box": "M進化ポケモンになったとき、自分の番は終わる。\nポケモンEXがきぜつしたとき、相手はサイドを2枚とる。",
     "weakness": {
-        "type": "Steel",
+        "type": [
+            "Steel"
+        ],
         "value": "×2"
     },
     "resistance": {
-        "type": "Dark",
+        "type": [
+            "Dark"
+        ],
         "value": ""
     },
     "retreat": 2,
+    "evolve_from": "サーナイトEX",
     "sources": [
         {
             "name": "「エクストラレギュレーションBOX」",

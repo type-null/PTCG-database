@@ -27,6 +27,14 @@ RULE_TAGS = [
     "BREAK",
     "LEGEND",
     "レベルアップ",
+    "☆",  # star
+    "賞",  # event card
+    "公式大会では使えない",  # Banned card
+    "何枚でも",  # Arceus LV.100
+    "レギュレーション",  # Mew: regulation statement
+    "ポケモンのどうぐは",  # Pokemon Tool rule
+    "サポートは",  # Supporter rule
+    "スタジアムは",  # Stadium rule
 ]
 
 
@@ -93,7 +101,7 @@ class Card:
             if tag in rule:
                 self.add_tag(tag)
                 known_tag = True
-        if not known_tag:
+        if not known_tag and self.card_type != "特殊エネルギー":
             logger.error(f"Card {self.jp_id} has unseen rule box!")
 
     def set_stage(self, stage):

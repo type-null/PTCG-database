@@ -8,7 +8,9 @@
     "set_img": "https://www.pokemon-card.com/assets/images/card/regulation_logo_1/SMP.gif",
     "number": "041",
     "set_total": "SM-P",
-    "author": "Naoki Saito",
+    "author": [
+        "Naoki Saito"
+    ],
     "pokedex_number": 768,
     "pokemon_category": "そうこうポケモン",
     "height": "2.0 m",
@@ -42,11 +44,13 @@
         }
     ],
     "weakness": {
-        "type": "Fire",
+        "type": [
+            "Fire"
+        ],
         "value": "×2"
     },
     "resistance": {
-        "type": null,
+        "type": [],
         "value": null
     },
     "retreat": 2,

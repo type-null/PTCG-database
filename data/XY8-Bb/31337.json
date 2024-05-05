@@ -1,0 +1,68 @@
+{
+    "jp_id": 31337,
+    "url": "https://www.pokemon-card.com/card-search/details.php/card/31337",
+    "name": "ココロモリ",
+    "img": "https://www.pokemon-card.com/assets/images/card_images/large/XY8-Bb/031337_P_KOKOROMORI.jpg",
+    "card_type": "Pokémon",
+    "set_name": "XY8-Bb",
+    "set_img": "https://www.pokemon-card.com/assets/images/card/regulation_logo_1/XY8-Bb.gif",
+    "number": "028",
+    "set_total": "059",
+    "rarity": "rare_c_c",
+    "rarity_img": "https://www.pokemon-card.com/assets/images/card/rarity/ic_rare_c_c.gif",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 528,
+    "pokemon_category": "きゅうあいポケモン",
+    "height": "0.9 m",
+    "weight": "10.5 kg",
+    "flavor_text": "オスが メスに 求愛するとき 発する 超音波を 浴びると とても 楽しい 気分になる。",
+    "stage": "1 進化",
+    "hp": 90,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "おんぱぞうふく",
+            "damage": null,
+            "effect": "次の自分の番、このポケモンが使う「エコーリターン」のダメージは「+60」される。"
+        },
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "エコーリターン",
+            "damage": {
+                "amount": 60,
+                "prefix": "",
+                "suffix": ""
+            },
+            "effect": "コインを1回投げウラなら、このポケモンと、ついているすべてのカードを、手札にもどす。"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Electric"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "－20"
+    },
+    "retreat": 1,
+    "evolve_from": "コロモリ",
+    "sources": [
+        {
+            "name": "ポケモンカードゲームXY BREAK　拡張パック「青い衝撃」",
+            "link": "https://www.pokemon-card.com/products/xy/xy8.html"
+        }
+    ]
+}

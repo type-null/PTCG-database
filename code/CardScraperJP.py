@@ -52,6 +52,29 @@ class CardScraperJP(CardScraper):
         if no_space:
             p = p.replace(" ", "")
         return p.strip()
+    
+    def find_evolve_from(self, area, card, skip=""):
+        name = card.name.replace(skip,"")
+        name = name.replace(" ","")
+        a_tag = area.find_next("a")
+        last_a_tag = a_tag
+        found = False
+        while a_tag:
+            if self.read_text(a_tag, no_space=True) == name:
+                next_a_tag = a_tag.find_next("a")
+                while next_a_tag:
+                    if next_a_tag.find_next_sibling("div", class_="arrow_off"):
+                        card.set_evolve_from(next_a_tag.text.strip())
+                        logger.debug(f"evolve from: {card.evolve_from}")
+                        found = True
+                        break
+                    next_a_tag = next_a_tag.find_next("a")
+            if not found:
+                last_a_tag = a_tag
+                a_tag = a_tag.find_next("a")
+            else:
+                break
+        return last_a_tag, found
 
     def read_card(self, card_id):
         result_code = "Successfully scraped"
@@ -120,7 +143,7 @@ class CardScraperJP(CardScraper):
             card.set_card_type("Pokémon")
         else:
             result_code = "Something wrong"
-            logger.error(f"Card {card.jp_id} hasunknown card type: {card_type}")
+            logger.error(f"Card {card.jp_id} has unknown card type: {card_type}")
         logger.debug(f"card type (raw) : {card_type}")
         logger.debug(f"card type (read): {card.card_type}")
 
@@ -160,17 +183,9 @@ class CardScraperJP(CardScraper):
         if author_info:
             author = [a for a in author_info.split("\n") if a != "イラストレーター"]
             card.set_author(author)
-            logger.debug(f"author: {card.author}")
+            logger.debug(f"author: {card.author}")  
 
-        for h2_tag in card_page.find_all("h2"):
-            if h2_tag.text.strip() == "特別なルール":
-                for p_tag in h2_tag.find_next_siblings("p"):
-                    rule_box = self.read_text(p_tag)
-                    card.set_rule_box(rule_box)
-                    logger.debug(f"rule box: {card.rule_box}")
-                    logger.debug(f"tags: {card.tags}")
-
-        ## Only for Pokémon
+        ## For Pokémon
         pokedex_info = card_page.find("div", class_="card")
         if pokedex_info:
             if pokedex_info.h4:
@@ -341,29 +356,19 @@ class CardScraperJP(CardScraper):
                     result_code = "Something wrong"
                     logger.error(f"{card.jp_id} has an unseen VSTAR power type: {vstar_type}!!")
                 continue
-            if area_name == "特別なルール" or area_name in non_pokemon_types:
+            if area_name == "特別なルール":
+                for p_tag in area.find_next_siblings("p"):
+                    rule_box = self.read_text(p_tag)
+                    card.set_rule_box(rule_box)
+                    logger.debug(f"rule box: {card.rule_box}")
+                    logger.debug(f"tags: {card.tags}")
+                continue
+            if area_name in non_pokemon_types:
                 # already handled above
                 continue
             if area_name == "進化":
                 if card.stage != "たね":
-                    a_tag = area.find_next("a")
-                    last_a_tag = a_tag
-                    found = False
-                    while a_tag:
-                        if self.read_text(a_tag, no_space=True) == card.name:
-                            next_a_tag = a_tag.find_next("a")
-                            while next_a_tag:
-                                if next_a_tag.find_next_sibling("div", class_="arrow_off"):
-                                    card.set_evolve_from(next_a_tag.text.strip())
-                                    logger.debug(f"evolve from: {card.evolve_from}")
-                                    found = True
-                                    break
-                                next_a_tag = next_a_tag.find_next("a")
-                        if not found:
-                            last_a_tag = a_tag
-                            a_tag = a_tag.find_next("a")
-                        else:
-                            break
+                    last_a_tag, found = self.find_evolve_from(area, card)
 
                     if not found:
                         p_tag = last_a_tag.find_next("p")
@@ -376,8 +381,29 @@ class CardScraperJP(CardScraper):
                     if not found:
                         # Error on page
                         if last_a_tag.find_next_sibling("div", class_="arrow_on"):
-                            card.set_evolve_from(last_a_tag.text.strip() + "?")
-                            logger.warn(f"Card {card.jp_id} evolve from: {card.evolve_from}")
+                            card.set_evolve_from(last_a_tag.text.strip())
+                            logger.warn(f"Card {card.jp_id} evolve from: {card.evolve_from}?")
+                            found = True
+
+                    if not found:
+                        # LV.X Pokemon
+                        if card.stage == "レベルアップ" and card.level == "X" and "LV.X" not in card.name:
+                            card.set_card_name(card.name + " LV.X")
+                            logger.debug(f"updated card name to: {card.name}")
+                            last_a_tag, found = self.find_evolve_from(area, card)
+
+                    if not found:
+                        # some ex, GX pokemon
+                        suffixes = ["ex", "GX"]
+                        for word in suffixes:
+                            if word in card.name:
+                                last_a_tag, found = self.find_evolve_from(area, card, skip=word)
+
+                    if not found:
+                        # fossil Pokemon
+                        if len(area.find_all_next("a")) == 1:
+                            card.set_evolve_from(area.find_next("a").text.strip())
+                            logger.debug(f"Card {card.jp_id} evolve from: {card.evolve_from}")
                             found = True
 
                     if not found:
@@ -444,7 +470,7 @@ class CardScraperJP(CardScraper):
         question_list = []
         error_list = []
         for card_id in tqdm(range(start, end + 1), desc="Downloading"):
-            if card_id not in downloaded_list:
+            if self.overwrite or card_id not in downloaded_list:
                 code = self.read_card(card_id)
                 if code == "Successfully scraped":
                     scraped_list.append(card_id)
@@ -461,10 +487,10 @@ class CardScraperJP(CardScraper):
 
         logger.info(f"Attempted {end + 1 - start} cards; scraped {end + 1 - start - len(error_list)} cards; errored {len(error_list)} cards.")
 
-    def assign_task(self, start, end):
+    def assign_task(self, start, end, overwrite=False):
         logger.info("===== Task Received =====")
         logger.info(f"Start card ID: {start}, End card ID: {end}")
-
+        self.overwrite = overwrite
         batch_size = 500
         for batch_start in range(start, end + 1, batch_size):
             batch_end = min(batch_start + batch_size - 1, end)

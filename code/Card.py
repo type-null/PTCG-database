@@ -116,6 +116,11 @@ class Card:
     def set_types(self, types: list[str]):
         self.types = types
 
+    def set_tera(self):
+        self.tera_effect = (
+            "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。"
+        )
+
     def set_technical_machine(self, rule):
         self.technical_machine_rule = rule
 
@@ -214,6 +219,8 @@ class Card:
             card_dict["hp"] = self.hp
         if hasattr(self, "types"):
             card_dict["types"] = self.types
+        if hasattr(self, "tera_effect"):
+            card_dict["tera_effect"] = self.tera_effect
         if hasattr(self, "technical_machine_rule"):
             card_dict["technical_machine_rule"] = self.technical_machine_rule
         if hasattr(self, "ancient_trait"):

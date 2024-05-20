@@ -104,6 +104,12 @@ class CardScraperJP(CardScraper):
         card.set_img(self.complete_url(img))
         logger.debug(f"img: {card.img}")
 
+        tera_info = card_page.find("p", class_="mt20")
+        tera_text = "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。"
+        if tera_info and tera_info.get_text().strip() == tera_text:
+            card.set_tera()
+            logger.debug(f"tera: {card.tera_effect}")
+
         card_type = card_page.h2.get_text().strip()
         non_pokemon_types = [
             "基本エネルギー",

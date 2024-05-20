@@ -38,9 +38,8 @@ class CardScraper:
 
         if match:
             amount = int(match.group("amount"))
-            prefix = ""
             suffix = match.group("suffix")
-            return {"amount": amount, "prefix": prefix, "suffix": suffix}
+            return {"amount": amount, "suffix": suffix}
         else:
             return None
 

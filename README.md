@@ -100,7 +100,7 @@ Example:
     },                      [OPTIONAL]
     "effect": "",           [OPTIONAL]
                                 <Search your deck for an Item card and a Pokémon Tool card, reveal them, and put them into your hand. Then, shuffle your deck.>
-    "tera": "",             [OPTIONAL]
+    "tera_effect": "",      [OPTIONAL]
                                 <As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s).>
     "stage": "STAGE1",      [REQUIRED]
     "evolve_from": "Wimpod",

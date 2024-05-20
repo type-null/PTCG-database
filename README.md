@@ -159,6 +159,8 @@ English Rarity key, SV1-onwards:
     - Card content: [`data/`](data/)
         - `/data/set_name/<individual-card>.json`
         - `set_name` is automatically scraped from the set image under the card image shown on the webpage
+        - Last downloaded time: May 20, 2024
+        - Last downloaded card_id: 45843
     - Logs: [`logs/`](logs/)
         - [scrape_jp_log](logs/scrape_jp_log.log): Information on scraping cards
         - [log_file](logs/log_file.log): for debugging

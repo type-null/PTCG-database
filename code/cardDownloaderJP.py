@@ -8,13 +8,13 @@ from CardScraperJP import CardScraperJP
 import logging
 
 MODE = "DEBUG"
-# MODE = "BUILD"
+MODE = "BUILD"
 
 logging.basicConfig(
     filename="logs/log_file.log" if MODE == "DEBUG" else "logs/scrape_jp_log.log",
     encoding="utf-8",
     format="%(asctime)s | %(levelname)s | %(module)s | %(message)s",
-    level=logging.INFO if MODE == "DEBUG" else logging.INFO,
+    level=logging.DEBUG if MODE == "DEBUG" else logging.INFO,
 )
 
 logger = logging.getLogger(__name__)
@@ -24,7 +24,8 @@ redo_list = [7008, 7009, 7013, 32295, 32318, 36704, 36903, 37194, 37371, 37396]
 
 scraper = CardScraperJP()
 if MODE == "BUILD":
-    scraper.assign_task(17500, 45800)
+    # scraper.assign_task(17500, 45800)
+    scraper.update()
 if MODE == "DEBUG":
     # scraper.read_card(2120)
     for card in redo_list:

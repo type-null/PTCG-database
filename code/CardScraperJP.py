@@ -456,16 +456,23 @@ class CardScraperJP(CardScraper):
         card.save()
         del card
         return result_code
-
-    def scrape(self, start, end):
-        logger.info("===== Scraping started =====")
-        logger.info(f"Start card ID: {start}, End card ID: {end}")
-
+    
+    def get_downloaded_list(self):
         downloaded_list = set()
         with open("logs/scraped_jp_id_list.txt", "r") as file:
             for line in file:
                 downloaded_list.add(int(line.strip()))
+        return downloaded_list
 
+    def scrape(self, start, end):
+        """
+        Scrape cards from start_id to end_id
+
+        """
+        logger.info("===== Scraping started =====")
+        logger.info(f"Start card ID: {start}, End card ID: {end}")
+
+        downloaded_list = self.get_downloaded_list()
         scraped_list = []
         question_list = []
         error_list = []
@@ -488,6 +495,10 @@ class CardScraperJP(CardScraper):
         logger.info(f"Attempted {end + 1 - start} cards; scraped {end + 1 - start - len(error_list)} cards; errored {len(error_list)} cards.")
 
     def assign_task(self, start, end, overwrite=False):
+        """
+        Divide the total task into 500-length batches to scrape
+        
+        """
         logger.info("===== Task Received =====")
         logger.info(f"Start card ID: {start}, End card ID: {end}")
         self.overwrite = overwrite
@@ -496,4 +507,41 @@ class CardScraperJP(CardScraper):
             batch_end = min(batch_start + batch_size - 1, end)
             self.scrape(batch_start, batch_end)
             time.sleep(10)
+
+    def update(self, explore_range=10):
+        """
+        Download the newest cards
+
+        """
+        logger.info("===== Updating started =====")
+
+        downloaded_list = self.get_downloaded_list()
+        last_downloaded = max(downloaded_list)
+        logger.info(f"Last downloaded card is {last_downloaded}.")
+
+        card_id = last_downloaded + 1
+        scraped_list, question_list = [], []
+        max_explore = last_downloaded + explore_range
+
+        while card_id <= max_explore:
+            code = self.read_card(card_id)
+            if code == "Successfully scraped":
+                scraped_list.append(card_id)
+                max_explore = card_id + explore_range
+            elif code == "Something wrong":
+                question_list.append(card_id)
+            elif code == "Page not found":
+                pass
+            else:
+                logger.error(f"Card {card_id} has unseen result code: {code}")
+
+            if card_id % 100 == 0:
+                time.sleep(10)
             
+            card_id += 1
+            
+
+        self.save_list_to_file(scraped_list, "logs/scraped_jp_id_list.txt")
+        self.save_list_to_file(question_list, "logs/question_jp_id_list.txt")
+        logger.info(f"Searched {card_id - last_downloaded} cards; updated to card {card_id}.")
+

@@ -86,7 +86,6 @@ Example:
             "damage": {
                 "amount": 80,
                 "suffix": "+",
-                "prefix": "",
             },
             "text": "If your opponent’s Active Pokémon is a Pokémon-GX or a Pokémon-EX, this attack does 70 more damage (before applying Weakness and Resistance).",
         },

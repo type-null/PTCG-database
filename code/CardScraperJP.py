@@ -9,6 +9,7 @@ import bs4
 import time
 import logging
 from tqdm import tqdm
+from datetime import datetime
 
 from Card import Card
 from CardScraper import CardScraper
@@ -508,6 +509,24 @@ class CardScraperJP(CardScraper):
             self.scrape(batch_start, batch_end)
             time.sleep(10)
 
+    def upadte_readme(self, last_id):
+        readme_path = 'README.md'
+
+        with open(readme_path, 'r') as file:
+            lines = file.readlines()
+
+        date_pattern = re.compile(r'Last downloaded time: .+')
+        card_id_pattern = re.compile(r'Last downloaded card_id: \d+')
+        current_date = datetime.now().strftime("%B %d, %Y")
+
+        with open(readme_path, 'w') as file:
+            for line in lines:
+                if date_pattern.search(line):
+                    line = f'\t\t- Last downloaded time: {current_date}\n'
+                elif card_id_pattern.search(line):
+                    line = f'\t\t- Last downloaded card_id: {last_id}\n'
+                file.write(line)
+
     def update(self, explore_range=10):
         """
         Download the newest cards
@@ -540,8 +559,9 @@ class CardScraperJP(CardScraper):
             
             card_id += 1
             
-
         self.save_list_to_file(scraped_list, "logs/scraped_jp_id_list.txt")
         self.save_list_to_file(question_list, "logs/question_jp_id_list.txt")
+        if scraped_list:
+            self.upadte_readme(max(scraped_list))
         logger.info(f"Searched {card_id - last_downloaded} cards; updated to card {card_id}.")
 

@@ -1,9 +1,9 @@
 {
     "jp_id": 28515,
     "url": "https://www.pokemon-card.com/card-search/details.php/card/28515",
-    "name": "\u30ca\u30c3\u30b7\u30fc",
+    "name": "ナッシー",
     "img": "https://www.pokemon-card.com/assets/images/card_images/large/BW8-Brf/028515_P_NASSHI.jpg",
-    "card_type": "Pok\u00e9mon",
+    "card_type": "Pokémon",
     "set_name": "BW8-Brf",
     "set_img": "https://www.pokemon-card.com/assets/images/card/regulation_logo_1/BW8-Brf.gif",
     "number": "002",
@@ -14,11 +14,11 @@
         "match"
     ],
     "pokedex_number": 103,
-    "pokemon_category": "\u3084\u3057\u306e\u307f\u30dd\u30b1\u30e2\u30f3",
+    "pokemon_category": "やしのみポケモン",
     "height": "2.0 m",
     "weight": "120.0 kg",
-    "flavor_text": "\u6b69\u304f \u71b1\u5e2f\u96e8\u6797\u3068 \u547c\u3070\u308c\u308b\u3002 \u5927\u304d\u304f\u306a\u3063\u305f \u982d\u306e \u3072\u3068\u3064\u304c \u5730\u9762\u306b \u843d\u3061\u308b\u3068 \u30bf\u30de\u30bf\u30de\u306b\u306a\u308b\u3002",
-    "stage": "1 \u9032\u5316",
+    "flavor_text": "歩く 熱帯雨林と 呼ばれる。 大きくなった 頭の ひとつが 地面に 落ちると タマタマになる。",
+    "stage": "1 進化",
     "hp": 100,
     "types": [
         "Grass"
@@ -28,12 +28,12 @@
             "cost": [
                 "Colorless"
             ],
-            "name": "\u305f\u3061\u3075\u3055\u304c\u308b",
+            "name": "たちふさがる",
             "damage": {
                 "amount": 10,
                 "suffix": ""
             },
-            "effect": "\u6b21\u306e\u76f8\u624b\u306e\u756a\u3001\u76f8\u624b\u306f\u624b\u672d\u304b\u3089\u300c\u30b5\u30dd\u30fc\u30c8\u300d\u3092\u51fa\u3057\u3066\u4f7f\u3048\u306a\u3044\u3002"
+            "effect": "次の相手の番、相手は手札から「サポート」を出して使えない。"
         },
         {
             "cost": [
@@ -41,31 +41,31 @@
                 "Colorless",
                 "Colorless"
             ],
-            "name": "\u3075\u307f\u3064\u3051",
+            "name": "ふみつけ",
             "damage": {
                 "amount": 60,
-                "suffix": "\uff0b"
+                "suffix": "＋"
             },
-            "effect": "\u30b3\u30a4\u30f3\u30921\u56de\u6295\u3052\u30aa\u30e2\u30c6\u306a\u3089\u300130\u30c0\u30e1\u30fc\u30b8\u3092\u8ffd\u52a0\u3002"
+            "effect": "コインを1回投げオモテなら、30ダメージを追加。"
         }
     ],
     "weakness": {
         "type": [
             "Fire"
         ],
-        "value": "\u00d72"
+        "value": "×2"
     },
     "resistance": {
         "type": [
             "Water"
         ],
-        "value": "\uff0d20"
+        "value": "－20"
     },
     "retreat": 2,
-    "evolve_from": "\u30bf\u30de\u30bf\u30de",
+    "evolve_from": "タマタマ",
     "sources": [
         {
-            "name": "\u30dd\u30b1\u30e2\u30f3\u30ab\u30fc\u30c9\u30b2\u30fc\u30e0BW \u62e1\u5f35\u30d1\u30c3\u30af\u300c\u30e9\u30bb\u30f3\u30d5\u30a9\u30fc\u30b9\u300d",
+            "name": "ポケモンカードゲームBW 拡張パック「ラセンフォース」",
             "link": null
         }
     ]

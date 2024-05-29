@@ -1,9 +1,9 @@
 {
     "jp_id": 28250,
     "url": "https://www.pokemon-card.com/card-search/details.php/card/28250",
-    "name": "\u30ed\u30c8\u30e0",
+    "name": "ロトム",
     "img": "https://www.pokemon-card.com/assets/images/card_images/large/BW7-B/028250_P_ROTOMU.jpg",
-    "card_type": "Pok\u00e9mon",
+    "card_type": "Pokémon",
     "set_name": "BW7-B",
     "set_img": "https://www.pokemon-card.com/assets/images/card/regulation_logo_1/BW7-B.gif",
     "number": "026",
@@ -14,11 +14,11 @@
         "5ban Graphics"
     ],
     "pokedex_number": 479,
-    "pokemon_category": "\u30d7\u30e9\u30ba\u30de\u30dd\u30b1\u30e2\u30f3",
+    "pokemon_category": "プラズマポケモン",
     "height": "0.3 m",
     "weight": "0.3 kg",
-    "flavor_text": "\u96fb\u6c17\u306e\u3088\u3046\u306a \u4f53\u306f \u4e00\u90e8\u306e  \u6a5f\u68b0\u306b \u5165\u308a\u8fbc\u3080\u3053\u3068\u304c \u3067\u304d\u308b\u3002  \u305d\u3057\u3066 \u305d\u306e\u4f53\u3067 \u3044\u305f\u305a\u3089\u3059\u308b\u3002",
-    "stage": "\u305f\u306d",
+    "flavor_text": "電気のような 体は 一部の  機械に 入り込むことが できる。  そして その体で いたずらする。",
+    "stage": "たね",
     "hp": 60,
     "types": [
         "Electric"
@@ -28,28 +28,28 @@
             "cost": [
                 "Colorless"
             ],
-            "name": "\u30a8\u30ec\u30ad\u30dc\u30fc\u30ca\u30b9",
+            "name": "エレキボーナス",
             "damage": null,
-            "effect": "\u81ea\u5206\u306e\u624b\u672d\u304b\u3089Electric\u30a8\u30cd\u30eb\u30ae\u30fc\u30921\u679a\u9078\u3073\u3001\u30c8\u30e9\u30c3\u30b7\u30e5\u3059\u308b\u3002\u305d\u306e\u5f8c\u3001\u81ea\u5206\u306e\u5c71\u672d\u30923\u679a\u5f15\u304f\u3002"
+            "effect": "自分の手札からElectricエネルギーを1枚選び、トラッシュする。その後、自分の山札を3枚引く。"
         },
         {
             "cost": [
                 "Electric",
                 "Colorless"
             ],
-            "name": "\u30dd\u30eb\u30bf\u30fc\u30ac\u30a4\u30b9\u30c8",
+            "name": "ポルターガイスト",
             "damage": {
                 "amount": 20,
-                "suffix": "\u00d7"
+                "suffix": "×"
             },
-            "effect": "\u76f8\u624b\u306e\u624b\u672d\u3092\u898b\u3066\u3001\u305d\u306e\u4e2d\u306b\u3042\u308b\u30c8\u30ec\u30fc\u30ca\u30fc\u30ba\u306e\u679a\u6570\u00d720\u30c0\u30e1\u30fc\u30b8\u3002"
+            "effect": "相手の手札を見て、その中にあるトレーナーズの枚数×20ダメージ。"
         }
     ],
     "weakness": {
         "type": [
             "Fighting"
         ],
-        "value": "\u00d72"
+        "value": "×2"
     },
     "resistance": {
         "type": [],
@@ -58,7 +58,7 @@
     "retreat": 1,
     "sources": [
         {
-            "name": "\u30dd\u30b1\u30e2\u30f3\u30ab\u30fc\u30c9\u30b2\u30fc\u30e0BW \u62e1\u5f35\u30d1\u30c3\u30af\u300c\u30d7\u30e9\u30ba\u30de\u30b2\u30a4\u30eb\u300d",
+            "name": "ポケモンカードゲームBW 拡張パック「プラズマゲイル」",
             "link": null
         }
     ]

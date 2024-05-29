@@ -1,9 +1,9 @@
 {
     "jp_id": 39370,
     "url": "https://www.pokemon-card.com/card-search/details.php/card/39370",
-    "name": "\u30b6\u30eb\u30fc\u30c9",
+    "name": "ザルード",
     "img": "https://www.pokemon-card.com/assets/images/card_images/large/S6H/039370_P_ZARUDO.jpg",
-    "card_type": "Pok\u00e9mon",
+    "card_type": "Pokémon",
     "set_name": "S6H",
     "set_img": "https://www.pokemon-card.com/assets/images/card/regulation_logo_1/S6H.gif",
     "number": "010",
@@ -14,11 +14,11 @@
         "Shin Nagasawa"
     ],
     "pokedex_number": 893,
-    "pokemon_category": "\u308f\u308b\u3056\u308b\u30dd\u30b1\u30e2\u30f3",
+    "pokemon_category": "わるざるポケモン",
     "height": "1.8 m",
     "weight": "70.0 kg",
-    "flavor_text": "\u4f53\u306b \u751f\u3048\u308b \u30c4\u30eb\u306f \u3061\u304e\u308c\u308b\u3068 \u571f\u306e \u6804\u990a\u5206\u3068\u306a\u3063\u3066 \u68ee\u306e \u690d\u7269\u305f\u3061\u3092 \u80b2\u3066\u308b\u306e\u3060\u3002",
-    "stage": "\u305f\u306d",
+    "flavor_text": "体に 生える ツルは ちぎれると 土の 栄養分となって 森の 植物たちを 育てるのだ。",
+    "stage": "たね",
     "hp": 130,
     "types": [
         "Grass"
@@ -28,9 +28,9 @@
             "cost": [
                 "Grass"
             ],
-            "name": "\u3080\u308c\u3088\u3073\u306e\u3046\u305f",
+            "name": "むれよびのうた",
             "damage": null,
-            "effect": "\u81ea\u5206\u306e\u5c71\u672d\u304b\u3089Grass\u30dd\u30b1\u30e2\u30f3\u30921\u679a\u9078\u3073\u3001\u76f8\u624b\u306b\u898b\u305b\u3066\u3001\u624b\u672d\u306b\u52a0\u3048\u308b\u3002\u305d\u3057\u3066\u5c71\u672d\u3092\u5207\u308b\u3002\u5f8c\u653b\u30d7\u30ec\u30a4\u30e4\u30fc\u306e\u6700\u521d\u306e\u756a\u306a\u3089\u3001\u624b\u672d\u306b\u52a0\u3048\u3089\u308c\u308bGrass\u30dd\u30b1\u30e2\u30f3\u306e\u679a\u6570\u306f3\u679a\u307e\u3067\u306b\u306a\u308b\u3002"
+            "effect": "自分の山札からGrassポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。後攻プレイヤーの最初の番なら、手札に加えられるGrassポケモンの枚数は3枚までになる。"
         },
         {
             "cost": [
@@ -38,19 +38,19 @@
                 "Colorless",
                 "Colorless"
             ],
-            "name": "\u3055\u307f\u3060\u308c\u306e\u30e0\u30c1",
+            "name": "さみだれのムチ",
             "damage": {
                 "amount": 60,
-                "suffix": "\uff0b"
+                "suffix": "＋"
             },
-            "effect": "\u3053\u306e\u30dd\u30b1\u30e2\u30f3\u306b\u3064\u3044\u3066\u3044\u308bGrass\u30a8\u30cd\u30eb\u30ae\u30fc\u306e\u6570\u00d720\u30c0\u30e1\u30fc\u30b8\u8ffd\u52a0\u3002"
+            "effect": "このポケモンについているGrassエネルギーの数×20ダメージ追加。"
         }
     ],
     "weakness": {
         "type": [
             "Fire"
         ],
-        "value": "\u00d72"
+        "value": "×2"
     },
     "resistance": {
         "type": [],
@@ -59,7 +59,7 @@
     "retreat": 2,
     "sources": [
         {
-            "name": "\u62e1\u5f35\u30d1\u30c3\u30af\u300c\u767d\u9280\u306e\u30e9\u30f3\u30b9\u300d",
+            "name": "拡張パック「白銀のランス」",
             "link": "https://www.pokemon-card.com/products/s/s6.html"
         }
     ]

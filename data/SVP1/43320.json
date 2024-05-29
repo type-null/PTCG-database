@@ -1,9 +1,9 @@
 {
     "jp_id": 43320,
     "url": "https://www.pokemon-card.com/card-search/details.php/card/43320",
-    "name": "\u30cf\u30ab\u30c9\u30c3\u30b0ex",
+    "name": "ハカドッグex",
     "img": "https://www.pokemon-card.com/assets/images/card_images/large/SVP1/043320_P_HAKADOGGUEX.jpg",
-    "card_type": "Pok\u00e9mon",
+    "card_type": "Pokémon",
     "tags": [
         "ex"
     ],
@@ -14,7 +14,7 @@
     "author": [
         "5ban Graphics"
     ],
-    "stage": "1 \u9032\u5316",
+    "stage": "1 進化",
     "hp": 260,
     "types": [
         "Psychic"
@@ -24,12 +24,12 @@
             "cost": [
                 "Psychic"
             ],
-            "name": "\u304b\u3058\u308a\u3064\u304f",
+            "name": "かじりつく",
             "damage": {
                 "amount": 30,
                 "suffix": ""
             },
-            "effect": "\u6b21\u306e\u76f8\u624b\u306e\u756a\u3001\u3053\u306e\u30ef\u30b6\u3092\u53d7\u3051\u305f\u30dd\u30b1\u30e2\u30f3\u306f\u3001\u306b\u3052\u3089\u308c\u306a\u3044\u3002"
+            "effect": "次の相手の番、このワザを受けたポケモンは、にげられない。"
         },
         {
             "cost": [
@@ -37,32 +37,32 @@
                 "Colorless",
                 "Colorless"
             ],
-            "name": "\u304a\u306f\u304b\u307e\u3044\u308a",
+            "name": "おはかまいり",
             "damage": {
                 "amount": 160,
-                "suffix": "\uff0b"
+                "suffix": "＋"
             },
-            "effect": "\u81ea\u5206\u306e\u30c8\u30e9\u30c3\u30b7\u30e5\u306b\u3042\u308bPsychic\u30dd\u30b1\u30e2\u30f3\u306e\u679a\u6570\u00d710\u30c0\u30e1\u30fc\u30b8\u8ffd\u52a0\u3002"
+            "effect": "自分のトラッシュにあるPsychicポケモンの枚数×10ダメージ追加。"
         }
     ],
-    "rule_box": "\u30dd\u30b1\u30e2\u30f3ex\u304c\u304d\u305c\u3064\u3057\u305f\u3068\u304d\u3001\u76f8\u624b\u306f\u30b5\u30a4\u30c9\u30922\u679a\u3068\u308b\u3002",
+    "rule_box": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
     "weakness": {
         "type": [
             "Dark"
         ],
-        "value": "\u00d72"
+        "value": "×2"
     },
     "resistance": {
         "type": [
             "Fighting"
         ],
-        "value": "\uff0d30"
+        "value": "－30"
     },
     "retreat": 3,
-    "evolve_from": "\u30dc\u30c1",
+    "evolve_from": "ボチ",
     "sources": [
         {
-            "name": "ex\u30b9\u30da\u30b7\u30e3\u30eb\u30bb\u30c3\u30c8",
+            "name": "exスペシャルセット",
             "link": "https://www.pokemon-card.com/products/sv/svp1.html"
         }
     ]

@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/bisharp-plasma-freeze-plf-74/",
+    "name": "Bisharp",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW9-074-bisharp.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLF",
+    "series": "Black & White",
+    "set_full_name": "Plasma Freeze",
+    "set_code": "BW9",
+    "date": "May 8, 2013",
+    "number": "74",
+    "set_total": "116",
+    "rarity": "Uncommon",
+    "author": [
+        "5ban Graphics"
+    ],
+    "flavor_text": "This pitiless Pokémon commands a group of Pawniard to hound prey into immobility. It then moves in to finish the prey off.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Cut Down",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Slicing Blade",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Pawniard"
+}

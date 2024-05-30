@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/bastiodon-steam-siege-sts-70/",
+    "name": "Bastiodon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY11-070-bastiodon.jpg",
+    "card_type": "Pokémon",
+    "set_name": "STS",
+    "series": "XY",
+    "set_full_name": "Steam Siege",
+    "set_code": "XY11",
+    "date": "Aug 3, 2016",
+    "number": "70",
+    "set_total": "114",
+    "rarity": "Rare",
+    "author": [
+        "match"
+    ],
+    "flavor_text": "Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries.",
+    "stage": "Stage 1",
+    "hp": 150,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Counter Head",
+            "damage": null,
+            "effect": "During your opponent’s next turn, if this Pokémon is damaged by an attack (even if this Pokémon is Knocked Out), put damage counters on the Attacking Pokémon equal to the damage done to this Pokémon."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Fortress of Rage",
+            "damage": {
+                "amount": 100,
+                "suffix": "+"
+            },
+            "effect": "This attack does 10 more damage for each of your Benched Pokémon that has any damage counters on it."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Shieldon"
+}

@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/poochyena-platinum-pl-86/",
+    "name": "Poochyena",
+    "img": "https://pkmncards.com/wp-content/uploads/poochyena-platinum-pl-86.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PL",
+    "series": "Platinum",
+    "set_full_name": "Platinum",
+    "set_code": "PL1",
+    "date": "Feb 11, 2009",
+    "number": "86",
+    "set_total": "127",
+    "rarity": "Common",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "flavor_text": "A Pokémon with persistent nature, it chases its prey until the prey becomes exhausted.",
+    "stage": "Basic",
+    "level": "12",
+    "hp": 50,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "No Energy Cost"
+            ],
+            "name": "Howl",
+            "damage": null,
+            "effect": "Search your deck for Poochyena and put it onto your Bench. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Lunge",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, this attack does nothing."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

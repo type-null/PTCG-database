@@ -14,20 +14,28 @@ logger = logging.getLogger(__name__)
 RULE_TAGS = [
     "ACE SPEC",
     "ex",
+    "Tera",
     "かがやく",
+    "Radiant",
     "VMAX",
     "VSTAR",
     "V-UNION",
     "V",
     "TAG TEAM",
     "プリズムスター",
+    "Prism Star",
     "GX",
     "EX",
     "M進化",
+    "Mega",
+    "ゲンシ",
+    "Primal",
     "BREAK",
     "LEGEND",
     "レベルアップ",
+    "LV.X",
     "☆",  # star
+    "Star",
     "賞",  # event card
     "公式大会では使えない",  # Banned card
     "何枚でも",  # Arceus LV.100
@@ -35,6 +43,8 @@ RULE_TAGS = [
     "ポケモンのどうぐは",  # Pokemon Tool rule
     "サポートは",  # Supporter rule
     "スタジアムは",  # Stadium rule
+    "Baby",
+    "Shining",
 ]
 
 
@@ -52,6 +62,14 @@ class Card:
 
     def set_jp_id(self, id):
         self.jp_id = id
+        self.set_out_id(self.jp_id)
+
+    def set_en_id(self, id):
+        self.en_id = id
+        self.set_out_id(self.en_id)
+
+    def set_out_id(self, id):
+        self.out_id = id
 
     def set_url(self, url):
         self.url = url
@@ -65,15 +83,24 @@ class Card:
     def set_card_type(self, card_type):
         self.card_type = card_type
 
-    def set_set(self, name, url):
+    def set_mark(self, mark):
+        self.regulation = mark
+
+    def set_set(self, name, url=None):
         self.set_name = name
         self.set_img = url
+
+    def set_set_extra(self, series, set_full_name, set_code, date):
+        self.series = series
+        self.set_full_name = set_full_name
+        self.set_code = set_code
+        self.date = date
 
     def set_collector(self, num, tot):
         self.number = num
         self.set_total = tot
 
-    def set_rarity(self, rarity, url):
+    def set_rarity(self, rarity, url=None):
         self.rarity = rarity
         self.rarity_img = url
 
@@ -102,7 +129,12 @@ class Card:
                 self.add_tag(tag)
                 known_tag = True
         if not known_tag and self.card_type != "特殊エネルギー":
-            logger.error(f"Card {self.jp_id} has unseen rule box!")
+            logger.error(f"Card {self.out_id} has unseen rule box!")
+        # Clean up
+        if "LV.X" in self.tags:
+            self.tags.remove("V")
+        if "Prism Star" in self.tags:
+            self.tags.remove("Star")
 
     def set_stage(self, stage):
         self.stage = stage
@@ -120,6 +152,11 @@ class Card:
         self.tera_effect = (
             "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。"
         )
+        self.add_tag("Tera")
+
+    def set_tera_en(self):
+        self.tera_effect = "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s)."
+        self.add_tag("Tera")
 
     def set_technical_machine(self, rule):
         self.technical_machine_rule = rule
@@ -180,25 +217,37 @@ class Card:
 
     def to_dict(self):
         card_dict = {
-            "jp_id": self.jp_id,
             "url": self.url,
             "name": self.name,
             "img": self.img,
             "card_type": self.card_type,
         }
+        if hasattr(self, "jp_id"):
+            card_dict["jp_id"] = self.jp_id
+        if hasattr(self, "en_id"):
+            card_dict["en_id"] = self.en_id
         if self.tags:
             card_dict["tags"] = self.tags
+        if hasattr(self, "regulation"):
+            card_dict["regulation"] = self.regulation
         if hasattr(self, "set_name"):
             card_dict["set_name"] = self.set_name
-            card_dict["set_img"] = self.set_img
+            if self.set_img:
+                card_dict["set_img"] = self.set_img
         else:
             self.set_name = "no_set"
+        if hasattr(self, "series"):
+            card_dict["series"] = self.series
+            card_dict["set_full_name"] = self.set_full_name
+            card_dict["set_code"] = self.set_code
+            card_dict["date"] = self.date
         if hasattr(self, "number"):
             card_dict["number"] = self.number
             card_dict["set_total"] = self.set_total
         if hasattr(self, "rarity"):
             card_dict["rarity"] = self.rarity
-            card_dict["rarity_img"] = self.rarity_img
+            if self.rarity_img:
+                card_dict["rarity_img"] = self.rarity_img
         if hasattr(self, "effect"):
             card_dict["effect"] = self.effect
         if hasattr(self, "author"):
@@ -254,11 +303,27 @@ class Card:
 
         return card_dict
 
-    def save(self, folder="data/"):
+    def save(self, folder=""):
         card_dict = self.to_dict()
 
-        folder = f"{folder + self.set_name}/"
+        if "jp_id" in card_dict:
+            folder = f"data_jp/{self.set_name}/"
+            filename = str(self.jp_id) + ".json"
+        else:
+            if self.series:
+                folder = f"data_en/{self.series}/{self.set_name}/"
+            else:
+                folder = f"data_en/{self.set_name}/"
+            filename = self.number + ".json"
+
         os.makedirs(folder, exist_ok=True)
-        path = os.path.join(folder, str(self.jp_id) + ".json")
+        path = os.path.join(folder, filename)
+        # Check for duplicate filenames and append a number if necessary
+        base, extension = os.path.splitext(path)
+        counter = 2
+        while os.path.exists(path):
+            path = f"{base}-{counter}{extension}"
+            counter += 1
+
         with open(path, "w", encoding="utf-8") as json_file:
             json.dump(card_dict, json_file, indent=4, ensure_ascii=False)

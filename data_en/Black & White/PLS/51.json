@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/galvantula-plasma-storm-pls-51/",
+    "name": "Galvantula",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW8-051-galvantula.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLS",
+    "series": "Black & White",
+    "set_full_name": "Plasma Storm",
+    "set_code": "BW8",
+    "date": "Feb 6, 2013",
+    "number": "51",
+    "set_total": "135",
+    "rarity": "Uncommon",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "flavor_text": "It creates barriers from electrified silk that stun foes. This works as a weapon as well as a defense.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Discharge",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Discard all {L} Energy attached to this Pokémon. This attack does 30 damage times the number of Energy cards you discarded."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Signal Beam",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 0,
+    "evolve_from": "Joltik"
+}

@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/magneton-skyridge-sk-20/",
+    "name": "Magneton",
+    "img": "https://pkmncards.com/wp-content/uploads/magneton-skyridge-sk-20.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SK",
+    "series": "E-Card",
+    "set_full_name": "Skyridge",
+    "set_code": "SK",
+    "date": "May 12, 2003",
+    "number": "20",
+    "set_total": "144",
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Bounce Off",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "If Magneton and the Defending Pokémon don’t have the same number of Energy cards attached to them, the player controlling the Active Pokémon with the fewest number of Energy cards attached to it switches 1 of his or her Benched Pokémon with his or her Active Pokémon."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Magnetic Wave",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "This attack does 30 damage plus 10 damage times the number of your Benched Pokémon minus the number of your opponent’s Benched Pokémon. (For example, if your opponent has 1 Benched Pokémon and you have 3, this attack will do 30 damage plus 20 more damage.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Magnemite"
+}

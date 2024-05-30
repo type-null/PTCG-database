@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/shieldon-diamond-pearl-promos-dp08/",
+    "name": "Shieldon",
+    "img": "https://pkmncards.com/wp-content/uploads/shieldon-diamond-pearl-promos-dp08.jpg",
+    "card_type": "Pokémon",
+    "set_name": "Diamond & Pearl Promos",
+    "series": "Promos",
+    "set_full_name": "Diamond & Pearl Promos",
+    "set_code": "Diamond & Pearl Promos",
+    "date": "Sep 7, 2007",
+    "number": "DP08",
+    "set_total": null,
+    "rarity": "Promo",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "A Pokémon that lived in jungles around 100 million years ago. Its facial hide is extremely hard.",
+    "stage": "Stage 1",
+    "level": "26",
+    "hp": 80,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Hard Face",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done to Shieldon by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Shield Attack",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 40 damage plus 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Armor Fossil"
+}

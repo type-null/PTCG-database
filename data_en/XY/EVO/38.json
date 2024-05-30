@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/magneton-evolutions-evo-38/",
+    "name": "Magneton",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY12-038-magneton.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EVO",
+    "series": "XY",
+    "set_full_name": "Evolutions",
+    "set_code": "XY12",
+    "date": "Nov 2, 2016",
+    "number": "38",
+    "set_total": "108",
+    "rarity": "Rare Holo",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "flavor_text": "A linked cluster formed of several Magnemite. It discharges powerful magnetic waves at high voltage.",
+    "stage": "Stage 1",
+    "level": "30",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunder Wave",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Self-Destruct",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "This Pokémon does 80 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Magnemite"
+}

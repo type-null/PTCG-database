@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/feraligatr-neo-genesis-n1-4/",
+    "name": "Feraligatr",
+    "img": "https://pkmncards.com/wp-content/uploads/feraligatr-neo-genesis-4.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N1",
+    "series": "Neo",
+    "set_full_name": "Neo Genesis",
+    "set_code": "N1",
+    "date": "Dec 16, 2000",
+    "number": "4",
+    "set_total": "111",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.",
+    "stage": "Stage 2",
+    "level": "56",
+    "hp": 100,
+    "types": [
+        "Water"
+    ],
+    "abilities": [
+        {
+            "name": "Berserk",
+            "effect": "When you play Feraligatr from your hand, flip a coin. If heads, discard the top 5 cards from your opponent’s deck. If tails, discard the top 5 cards from your deck."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Water",
+                "Water"
+            ],
+            "name": "Chomp",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Flip a number of coins equal to the number of damage counters on Feraligatr. This attack does 50 damage plus 10 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Croconaw"
+}

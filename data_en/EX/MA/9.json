@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/team-magmas-groudon-team-magma-vs-team-aqua-ma-9/",
+    "name": "Team Magma’s Groudon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-EX4-009-team_magmas_groudon.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MA",
+    "series": "EX",
+    "set_full_name": "Team Magma vs Team Aqua",
+    "set_code": "EX4",
+    "date": "Mar 15, 2004",
+    "number": "9",
+    "set_total": "95",
+    "rarity": "Rare Holo",
+    "author": [
+        "Kazuo Yazawa"
+    ],
+    "stage": "Basic",
+    "hp": 100,
+    "types": [
+        "Fighting",
+        "Darkness"
+    ],
+    "poke_body": {
+        "name": "Power Saver",
+        "effect": "As long as the number of Pokémon in play (both yours and your opponent’s) that has Team Magma in its name is 3 or less, Team Magma’s Groudon can’t attack."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Linear Attack",
+            "damage": null,
+            "effect": "Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Pulverize",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 50 damage plus 20 more damage."
+        }
+    ],
+    "rule_box": "This Pokémon is both {F}{D} type.",
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3
+}

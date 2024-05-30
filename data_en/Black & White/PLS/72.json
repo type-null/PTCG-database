@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/donphan-plasma-storm-pls-72/",
+    "name": "Donphan",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW8-072-donphan.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLS",
+    "series": "Black & White",
+    "set_full_name": "Plasma Storm",
+    "set_code": "BW8",
+    "date": "Feb 6, 2013",
+    "number": "72",
+    "set_total": "135",
+    "rarity": "Uncommon",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "flavor_text": "It attacks by curling up, then rolling into its foe. It can blow apart a house in one hit.",
+    "stage": "Stage 1",
+    "hp": 130,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Spinning Turn",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Switch this Pokémon with 1 of your Benched Pokémon."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Wreck",
+            "damage": {
+                "amount": 80,
+                "suffix": "+"
+            },
+            "effect": "If there is any Stadium card in play, this attack does 60 more damage. Discard the Stadium card."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Phanpy"
+}

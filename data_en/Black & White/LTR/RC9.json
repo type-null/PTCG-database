@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/kirlia-legendary-treasures-ltr-rc9/",
+    "name": "Kirlia",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW11-RC9-kirlia.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LTR",
+    "series": "Black & White",
+    "set_full_name": "Legendary Treasures",
+    "set_code": "BW11",
+    "date": "Nov 6, 2013",
+    "number": "RC9",
+    "set_total": "RC25",
+    "rarity": "Common",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Tiptoe Step",
+            "damage": null,
+            "effect": "Draw a card for each {P} Energy attached to this Pokémon."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Double Slap",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 20 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Ralts"
+}

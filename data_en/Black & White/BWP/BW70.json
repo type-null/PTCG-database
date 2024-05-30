@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/virizion-black-white-promos-bwp-bw70/",
+    "name": "Virizion",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-Promo_BW-BW70-virizion.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BWP",
+    "series": "Black & White",
+    "set_full_name": "Black & White Promos",
+    "set_code": "BWP",
+    "date": "May 14, 2013",
+    "number": "BW70",
+    "set_total": null,
+    "rarity": "Promo",
+    "author": [
+        "5ban Graphics"
+    ],
+    "flavor_text": "This Pokémon fought humans in order to protect its friends. Legends about it continue to be passed down.",
+    "stage": "Basic",
+    "hp": 100,
+    "types": [
+        "Grass"
+    ],
+    "abilities": [
+        {
+            "name": "Justified",
+            "effect": "Each of this Pokémon’s attacks does 50 more damage to {D} Pokémon (before applying Weakness and Resistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Leaf Blade",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

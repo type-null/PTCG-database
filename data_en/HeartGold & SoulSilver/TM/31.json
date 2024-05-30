@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/wailord-triumphant-tm-31/",
+    "name": "Wailord",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS4-031-wailord.jpg",
+    "card_type": "Pokémon",
+    "set_name": "TM",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Triumphant",
+    "set_code": "HGSS4",
+    "date": "Nov 2, 2010",
+    "number": "31",
+    "set_total": "102",
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "flavor_text": "It is the largest of all identified Pokémon. They jump as a pack to herd their prey.",
+    "stage": "Stage 1",
+    "hp": 180,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Underwater Dive",
+            "damage": null,
+            "effect": "Flip 2 coins damage. For each heads, remove 3 damage counters from Wailord."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Swallow Up",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Before doing damage, count the remaining HP of the Defending Pokémon and Wailord. If the Defending Pokémon has fewer remaining HP than Wailord, this attack does 50 damage plus 50 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 4,
+    "evolve_from": "Wailmer"
+}

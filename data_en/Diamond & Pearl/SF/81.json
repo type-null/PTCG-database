@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/voltorb-stormfront-sf-81/",
+    "name": "Voltorb",
+    "img": "https://pkmncards.com/wp-content/uploads/voltorb-stormfront-sf-81.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "81",
+    "set_total": "100",
+    "rarity": "Common",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "flavor_text": "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
+    "stage": "Basic",
+    "level": "31",
+    "hp": 60,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Outlet",
+            "damage": null,
+            "effect": "Search your deck for a {L} Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Bouncing Ball",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, Voltorb does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

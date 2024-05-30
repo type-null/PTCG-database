@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/lycanroc-burning-shadows-bus-75/",
+    "name": "Lycanroc",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM3-075-lycanroc.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BUS",
+    "series": "Sun & Moon",
+    "set_full_name": "Burning Shadows",
+    "set_code": "SM3",
+    "date": "Aug 4, 2017",
+    "number": "75",
+    "set_total": "147",
+    "rarity": "Rare Holo",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "flavor_text": "The more intimidating the opponent it faces, the more this Pokémon’s blood boils. It will attack with no regard for its own safety.",
+    "stage": "Stage 1",
+    "hp": 110,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Dangerous Claws",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "If your opponent’s Active Pokémon is a Basic Pokémon, this attack does 30 more damage."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Corner",
+            "damage": {
+                "amount": 90,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon can’t retreat during your opponent’s next turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Rockruff"
+}

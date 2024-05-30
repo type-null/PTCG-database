@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/electrode-151-mew-101/",
+    "name": "Electrode",
+    "img": "https://pkmncards.com/wp-content/uploads/sv3-5_en_101_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "G",
+    "set_name": "MEW",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "151",
+    "set_code": "sv3-5",
+    "date": "Sep 22, 2023",
+    "number": "101",
+    "set_total": "165",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "nagimiso"
+    ],
+    "flavor_text": "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Bang Boom Chain",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Before doing damage, you may discard any number of Pokémon Tools from your Pokémon. This attack does 40 more damage for each card you discarded in this way."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Electro Ball",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Voltorb"
+}

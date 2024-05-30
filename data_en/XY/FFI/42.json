@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/golett-furious-fists-ffi-42/",
+    "name": "Golett",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY3-042-golett.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FFI",
+    "series": "XY",
+    "set_full_name": "Furious Fists",
+    "set_code": "XY3",
+    "date": "Aug 13, 2014",
+    "number": "42",
+    "set_total": "111",
+    "rarity": "Common",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "flavor_text": "The energy that burns inside it enables it to move, but no one has yet been able to identify this energy.",
+    "stage": "Basic",
+    "hp": 90,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Pound",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Rock Smash",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Darkness"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3
+}

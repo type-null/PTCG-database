@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/raichu-mysterious-treasures-mt-15/",
+    "name": "Raichu",
+    "img": "https://pkmncards.com/wp-content/uploads/raichu-mysterious-treasures-mt-15.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MT",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Mysterious Treasures",
+    "set_code": "DP2",
+    "date": "Aug 22, 2007",
+    "number": "15",
+    "set_total": "123",
+    "rarity": "Rare Holo",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "flavor_text": "It turns aggressive if it has too much electricity in its body. It discharges power through its tail.",
+    "stage": "Stage 1",
+    "level": "40",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "No Energy Cost"
+            ],
+            "name": "Electromagnetic Induction",
+            "damage": null,
+            "effect": "Search your deck for up to 2 {L} Energy cards and attach them to 1 of your Pokémon. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Explosive Thunder",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Discard all basic {L} Energy cards attached to Raichu. This attack does 30 damage times the number of {L} Energy cards you discarded."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu"
+}

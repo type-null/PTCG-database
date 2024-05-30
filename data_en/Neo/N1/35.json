@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/furret-neo-genesis-n1-35/",
+    "name": "Furret",
+    "img": "https://pkmncards.com/wp-content/uploads/furret-neo-genesis-35.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N1",
+    "series": "Neo",
+    "set_full_name": "Neo Genesis",
+    "set_code": "N1",
+    "date": "Dec 16, 2000",
+    "number": "35",
+    "set_total": "111",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter.",
+    "stage": "Stage 1",
+    "level": "27",
+    "hp": 60,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Slam",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 30 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Sentret"
+}

@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/forretress-skyridge-sk-56/",
+    "name": "Forretress",
+    "img": "https://pkmncards.com/wp-content/uploads/forretress-skyridge-sk-56.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SK",
+    "series": "E-Card",
+    "set_full_name": "Skyridge",
+    "set_code": "SK",
+    "date": "May 12, 2003",
+    "number": "56",
+    "set_total": "144",
+    "rarity": "Common",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Grass"
+    ],
+    "poke_body": {
+        "name": "Exoskeleton",
+        "effect": "All damage done by attacks to Forretress is reduced by 10 (after applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Shell Rupture",
+            "damage": null,
+            "effect": "This attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Double Spin",
+            "damage": {
+                "amount": 40,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 40 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Pineco"
+}

@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/pikachu-boundaries-crossed-bcr-50/",
+    "name": "Pikachu",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW7-050-pikachu.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BCR",
+    "series": "Black & White",
+    "set_full_name": "Boundaries Crossed",
+    "set_code": "BW7",
+    "date": "Nov 7, 2012",
+    "number": "50",
+    "set_total": "149",
+    "rarity": "Common",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Pika Punch",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Lightning"
+            ],
+            "name": "Double Voltage",
+            "damage": {
+                "amount": 40,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 40 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

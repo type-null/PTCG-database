@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/electabuzz-evolutions-evo-41/",
+    "name": "Electabuzz",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY12-041-electabuzz.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EVO",
+    "series": "XY",
+    "set_full_name": "Evolutions",
+    "set_code": "XY12",
+    "date": "Nov 2, 2016",
+    "number": "41",
+    "set_total": "108",
+    "rarity": "Common",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "It loves to feed on strong electricity. It occasionally appears around large power plants and so on.",
+    "stage": "Basic",
+    "level": "35",
+    "hp": 70,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thunder Shock",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunder Punch",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 more damage. If tails, this Pokémon does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2
+}

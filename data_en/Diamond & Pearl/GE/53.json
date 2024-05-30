@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/skarmory-great-encounters-ge-53/",
+    "name": "Skarmory",
+    "img": "https://pkmncards.com/wp-content/uploads/skarmory-great-encounters-ge-53.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GE",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Great Encounters",
+    "set_code": "DP4",
+    "date": "Feb 13, 2008",
+    "number": "53",
+    "set_total": "106",
+    "rarity": "Uncommon",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Despite being clad entirely in iron-hard armor, it flies at speeds over 180 mph.",
+    "stage": "Basic",
+    "level": "31",
+    "hp": 70,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Air Crash",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Steel Wing",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done to Skarmory by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

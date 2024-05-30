@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/lokix-paradox-rift-par-122/",
+    "name": "Lokix",
+    "img": "https://pkmncards.com/wp-content/uploads/sv4_en_122_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "G",
+    "set_name": "PAR",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "Paradox Rift",
+    "set_code": "sv4",
+    "date": "Nov 3, 2023",
+    "number": "122",
+    "set_total": "182",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "Souichirou Gunjima"
+    ],
+    "flavor_text": "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Bounce",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Switch this Pokémon with 1 of your Benched Pokémon."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Darkness"
+            ],
+            "name": "Punishing Kick",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "This attack does 40 more damage for each damage counter on your opponent’s Active Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Nymble"
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/forretress-scarlet-violet-svi-139/",
+    "name": "Forretress",
+    "img": "https://pkmncards.com/wp-content/uploads/sv1_en_139.jpg",
+    "card_type": "Pokémon",
+    "regulation": "G",
+    "set_name": "SVI",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "Scarlet & Violet",
+    "set_code": "SV1",
+    "date": "Mar 31, 2023",
+    "number": "139",
+    "set_total": "198",
+    "rarity": "Uncommon",
+    "rarity_img": null,
+    "author": [
+        "Lee HyunJung"
+    ],
+    "flavor_text": "Its entire body is shielded by a steel-hard shell. What lurks inside this shell is a total mystery.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Continuous Spin",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 50 damage for each heads."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Rolling Shell",
+            "damage": {
+                "amount": 90,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, this Pokémon takes 50 less damage from attacks (after applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Pineco"
+}

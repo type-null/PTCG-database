@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/light-flareon-neo-destiny-n4-46/",
+    "name": "Light Flareon",
+    "img": "https://pkmncards.com/wp-content/uploads/light-flareon-neo-destiny-46.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N4",
+    "series": "Neo",
+    "set_full_name": "Neo Destiny",
+    "set_code": "N4",
+    "date": "Feb 28, 2002",
+    "number": "46",
+    "set_total": "105",
+    "rarity": "Uncommon",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "flavor_text": "It creates its flames by swallowing air into a special pouch within its body, then heating it to over 3000 degrees.",
+    "stage": "Stage 1",
+    "level": "37",
+    "hp": 80,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Warm Up",
+            "damage": null,
+            "effect": "If you have any benched Pokémon, search your deck for a {R} Energy card and attach it to 1 of them. Then shuffle your deck."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Burning Flame",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip 2 coins. For each heads, discard a {R} Energy card attached to Light Flareon or this attack does nothing. This attack does 30 damage plus 20 damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee"
+}

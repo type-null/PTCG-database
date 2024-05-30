@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/grovyle-great-encounters-ge-40/",
+    "name": "Grovyle",
+    "img": "https://pkmncards.com/wp-content/uploads/grovyle-great-encounters-ge-40.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GE",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Great Encounters",
+    "set_code": "DP4",
+    "date": "Feb 13, 2008",
+    "number": "40",
+    "set_total": "106",
+    "rarity": "Uncommon",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
+    "stage": "Stage 1",
+    "level": "26",
+    "hp": 80,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "No Energy Cost"
+            ],
+            "name": "Greenness",
+            "damage": null,
+            "effect": "Search your deck for up to 2 {G} Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass"
+            ],
+            "name": "Poison Breath",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Treecko"
+}

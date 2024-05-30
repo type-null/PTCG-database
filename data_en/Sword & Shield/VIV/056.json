@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/galvantula-vivid-voltage-viv-056/",
+    "name": "Galvantula",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH4-056-galvantula.jpg",
+    "card_type": "Pokémon",
+    "regulation": "D",
+    "set_name": "VIV",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Vivid Voltage",
+    "set_code": "SWSH4",
+    "date": "Nov 13, 2020",
+    "number": "056",
+    "set_total": "185",
+    "rarity": "Uncommon",
+    "rarity_img": null,
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "flavor_text": "It launches electrified fur from its abdomen as its means of attack. Opponents hit by the fur could be in for three full days and nights of paralysis.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Stun Needle",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Shocking Pursuit",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "This attack does 20 damage for each damage counter on your opponent’s Active Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Joltik"
+}

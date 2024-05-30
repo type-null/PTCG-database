@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/magmar-expedition-ex-86/",
+    "name": "Magmar",
+    "img": "https://pkmncards.com/wp-content/uploads/magmar-expedition-ex-86.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EX",
+    "series": "E-Card",
+    "set_full_name": "Expedition",
+    "set_code": "EX",
+    "date": "Sep 15, 2002",
+    "number": "86",
+    "set_total": "165",
+    "rarity": "Uncommon",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Flaming Punch",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Burned."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Thrash",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads this attack does 30 damage plus 10 more damage. If tails, Magmar does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

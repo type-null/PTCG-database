@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/weezing-fossil-fo-45/",
+    "name": "Weezing",
+    "img": "https://pkmncards.com/wp-content/uploads/weezing-fossil-fo-45.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FO",
+    "series": "Classic",
+    "set_full_name": "Fossil",
+    "set_code": "FO",
+    "date": "Oct 10, 1999",
+    "number": "45",
+    "set_total": "62",
+    "rarity": "Uncommon",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Where two kinds of poison gases meet, two Koffings can fuse into a Weezing over many years.",
+    "stage": "Stage 1",
+    "level": "27",
+    "hp": 60,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Grass"
+            ],
+            "name": "Smog",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Selfdestruct",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Does 10 damage to each Pokémon on each player’s Bench. (Don’t apply Weakness and Resistance for Benched Pokémon.) Weezing does 60 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Koffing"
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://pkmncards.com/card/tyranitar-stormfront-sf-30/",
+    "name": "Tyranitar",
+    "img": "https://pkmncards.com/wp-content/uploads/tyranitar-stormfront-sf-30.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "30",
+    "set_total": "100",
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "stage": "Stage 2",
+    "level": "61",
+    "hp": 140,
+    "types": [
+        "Darkness"
+    ],
+    "poke_body": {
+        "name": "Darkness Drive",
+        "effect": "After your opponent’s Pokémon uses a Poké-Power, you may search your discard pile for a basic {D} Energy card and attach it to Tyranitar."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Grind",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Does 20 damage times the amount of Energy attached to Tyranitar."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Darkness",
+                "Darkness",
+                "Darkness",
+                "Darkness"
+            ],
+            "name": "Spinning Tail",
+            "damage": null,
+            "effect": "This attack does 30 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Pupitar"
+}

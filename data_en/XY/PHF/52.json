@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/honchkrow-phantom-forces-phf-52/",
+    "name": "Honchkrow",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY4-052-honchkrow.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PHF",
+    "series": "XY",
+    "set_full_name": "Phantom Forces",
+    "set_code": "XY4",
+    "date": "Nov 5, 2014",
+    "number": "52",
+    "set_total": "119",
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "flavor_text": "If one utters a deep cry, many Murkrow gather quickly. For this, it is called “Summoner of Night.”",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Hypnoblast",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Your opponent’s Active Pokémon is now Asleep."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Nightmare Mambo",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "If your opponent’s Active Pokémon is Asleep, this attack does 60 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Murkrow"
+}

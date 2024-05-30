@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/pikachu-base-set-bs-58/",
+    "name": "Pikachu",
+    "img": "https://pkmncards.com/wp-content/uploads/pikachu-base-set-bs-58.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BS",
+    "series": "Classic",
+    "set_full_name": "Base Set",
+    "set_code": "BS",
+    "date": "Jan 9, 1999",
+    "number": "58",
+    "set_total": "102",
+    "rarity": "Common",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "When several of these Pokémon gather, their electricity can cause lightning storms.",
+    "stage": "Basic",
+    "level": "12",
+    "hp": 40,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Gnaw",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunder Jolt",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, Pikachu does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

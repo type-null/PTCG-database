@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/espeon-obsidian-flames-obf-086/",
+    "name": "Espeon",
+    "img": "https://pkmncards.com/wp-content/uploads/sv3_en_086.jpg",
+    "card_type": "Pokémon",
+    "regulation": "G",
+    "set_name": "OBF",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "Obsidian Flames",
+    "set_code": "sv3",
+    "date": "Aug 11, 2023",
+    "number": "086",
+    "set_total": "197",
+    "rarity": "Uncommon",
+    "rarity_img": null,
+    "author": [
+        "Cona Nitanda"
+    ],
+    "flavor_text": "The tip of its forked tail quivers when it is predicting its opponent’s next move.",
+    "stage": "Stage 1",
+    "hp": 110,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Psychic Assault",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "This attack does 10 more damage for each damage counter on your opponent’s Active Pokémon."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Psy Bolt",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Darkness"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee"
+}

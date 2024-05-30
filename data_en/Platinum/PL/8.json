@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/gardevoir-platinum-pl-8/",
+    "name": "Gardevoir",
+    "img": "https://pkmncards.com/wp-content/uploads/gardevoir-platinum-pl-8.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PL",
+    "series": "Platinum",
+    "set_full_name": "Platinum",
+    "set_code": "PL1",
+    "date": "Feb 11, 2009",
+    "number": "8",
+    "set_total": "127",
+    "rarity": "Rare Holo",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "stage": "Stage 2",
+    "level": "61",
+    "hp": 120,
+    "types": [
+        "Psychic"
+    ],
+    "poke_power": {
+        "name": "Psychic Connect",
+        "effect": "As often as you like during your turn (before your attack), you may move a {P} Energy attached to 1 of your Benched Pokémon to your Active Pokémon. This power can’t be used if Gardevoir is affected by a Special Condition."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Energy Burst",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Does 20 damage plus 10 more damage for each Energy attached to Gardevoir and the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Psychic Protection",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Gardevoir has no Weakness during your opponent’s next turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Kirlia"
+}

@@ -1,0 +1,56 @@
+{
+    "url": "https://pkmncards.com/card/crabominable-cosmic-eclipse-cec-122/",
+    "name": "Crabominable",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM12-122-crabominable.jpg",
+    "card_type": "Pokémon",
+    "set_name": "CEC",
+    "series": "Sun & Moon",
+    "set_full_name": "Cosmic Eclipse",
+    "set_code": "SM12",
+    "date": "Nov 1, 2019",
+    "number": "122",
+    "set_total": "236",
+    "rarity": "Rare",
+    "author": [
+        "tetsuya koizumi"
+    ],
+    "flavor_text": "It stores coldness in its pincers and pummels its foes. It can even smash thick walls of ice to bits!",
+    "stage": "Stage 1",
+    "hp": 140,
+    "types": [
+        "Fighting"
+    ],
+    "abilities": [
+        {
+            "name": "Solid Shell",
+            "effect": "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Freezing Punch",
+            "damage": {
+                "amount": 80,
+                "suffix": "+"
+            },
+            "effect": "If this Pokémon has any {W} Energy attached to it, this attack does 80 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 4,
+    "evolve_from": "Crabrawler"
+}

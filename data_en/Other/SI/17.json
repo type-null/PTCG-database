@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/vileplume-southern-islands-si-17/",
+    "name": "Vileplume",
+    "img": "https://pkmncards.com/wp-content/uploads/vileplume-southern-islands-si-17.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SI",
+    "series": "Other",
+    "set_full_name": "Southern Islands",
+    "set_code": "SI",
+    "date": "Jul 31, 2001",
+    "number": "17",
+    "set_total": "18",
+    "rarity": "No Rarity",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "flavor_text": "This Pokémon makes a loud jangling noise when it shakes its petals to spread poison powder.",
+    "stage": "Stage 2",
+    "level": "30",
+    "hp": 70,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Paradise Pollen",
+            "damage": null,
+            "effect": "Flip a coin. If heads, remove 2 damage counters from Vileplume (1 if it only has 1). Then, if you have any Benched Pokémon with damage counters on them, choose 1 of them and remove 2 damage counters from it (1 if it only has 1)."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Horrid Pollen",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Confused."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Gloom"
+}

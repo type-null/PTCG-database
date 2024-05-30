@@ -1,0 +1,55 @@
+{
+    "url": "https://pkmncards.com/card/mr-mime-jungle-ju-22/",
+    "name": "Mr. Mime",
+    "img": "https://pkmncards.com/wp-content/uploads/mr.-mime-jungle-ju-22.jpg",
+    "card_type": "Pokémon",
+    "set_name": "JU",
+    "series": "Classic",
+    "set_full_name": "Jungle",
+    "set_code": "JU",
+    "date": "Jun 16, 1999",
+    "number": "22",
+    "set_total": "64",
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "If interrupted while miming, it will slap around the enemy with its broad hands.",
+    "stage": "Basic",
+    "level": "28",
+    "hp": 40,
+    "types": [
+        "Psychic"
+    ],
+    "abilities": [
+        {
+            "name": "Invisible Wall",
+            "effect": "Whenever an attack (including your own) does 30 or more damage to Mr. Mime (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.) This power can’t be used if Mr. Mime is Asleep, Confused, or Paralyzed."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Meditate",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

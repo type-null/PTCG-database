@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/pikachu-majestic-dawn-md-70/",
+    "name": "Pikachu",
+    "img": "https://pkmncards.com/wp-content/uploads/pikachu-majestic-dawn-md-70.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MD",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Majestic Dawn",
+    "set_code": "DP5",
+    "date": "May 21, 2008",
+    "number": "70",
+    "set_total": "100",
+    "rarity": "Common",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "flavor_text": "If it looses crackling power from the electric pouches on its cheeks, it is being wary.",
+    "stage": "Basic",
+    "level": "12",
+    "hp": 60,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Volt Tackle",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Pikachu does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/vanilluxe-guardians-rising-gri-35/",
+    "name": "Vanilluxe",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM2-035-vanilluxe.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GRI",
+    "series": "Sun & Moon",
+    "set_full_name": "Guardians Rising",
+    "set_code": "SM2",
+    "date": "May 5, 2017",
+    "number": "35",
+    "set_total": "145",
+    "rarity": "Rare",
+    "author": [
+        "kawayoo"
+    ],
+    "flavor_text": "Each of its two heads has a brain, and when they are in agreement, it attacks its enemies by exhaling a violent blizzard.",
+    "stage": "Stage 2",
+    "hp": 140,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Hail",
+            "damage": null,
+            "effect": "This attack does 20 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Water"
+            ],
+            "name": "Frozen Breath",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "You may discard 2 {W} Energy from this Pokémon. If you do, your opponent’s Active Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Vanillish"
+}

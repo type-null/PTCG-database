@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/mareep-neo-genesis-n1-65/",
+    "name": "Mareep",
+    "img": "https://pkmncards.com/wp-content/uploads/mareep-neo-genesis-65.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N1",
+    "series": "Neo",
+    "set_full_name": "Neo Genesis",
+    "set_code": "N1",
+    "date": "Dec 16, 2000",
+    "number": "65",
+    "set_total": "111",
+    "rarity": "Common",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "If static electricity builds in its body, its fleece doubles in volume. Touching it will shock you.",
+    "stage": "Basic",
+    "level": "12",
+    "hp": 40,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Static Electricity",
+            "damage": null,
+            "effect": "For each Mareep in play, you may search your deck for a {L} Energy card and attach it to Mareep. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning"
+            ],
+            "name": "Thundershock",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

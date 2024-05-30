@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/electrike-ruby-sapphire-rs-30/",
+    "name": "Electrike",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-EX1-030-electrike.jpg",
+    "card_type": "Pokémon",
+    "set_name": "RS",
+    "series": "EX",
+    "set_full_name": "Ruby & Sapphire",
+    "set_code": "EX1",
+    "date": "Jun 18, 2003",
+    "number": "30",
+    "set_total": "109",
+    "rarity": "Uncommon",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "stage": "Basic",
+    "hp": 50,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Charge",
+            "damage": null,
+            "effect": "Attach a {L} Energy card from your discard pile to Electrike."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunder Jolt",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, Electrike does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1
+}

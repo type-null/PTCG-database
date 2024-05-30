@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/vanillish-breakthrough-bkt-44/",
+    "name": "Vanillish",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY8-044-vanillish.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BKT",
+    "series": "XY",
+    "set_full_name": "BREAKthrough",
+    "set_code": "XY8",
+    "date": "Nov 4, 2015",
+    "number": "44",
+    "set_total": "162",
+    "rarity": "Uncommon",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "Snowy mountains are this Pokémon’s habitat. During an ancient ice age, they moved to southern areas.",
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Ice Edge",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water"
+            ],
+            "name": "Icy Wind",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Your opponent’s Active Pokémon is now Asleep."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Vanillite"
+}

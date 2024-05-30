@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/lairon-plasma-blast-plb-58/",
+    "name": "Lairon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW10-058-lairon.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLB",
+    "series": "Black & White",
+    "set_full_name": "Plasma Blast",
+    "set_code": "BW10",
+    "date": "Aug 14, 2013",
+    "number": "58",
+    "set_total": "101",
+    "rarity": "Uncommon",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "Lairon fight over territory, and when their steel bodies collide, sparks fly.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Metal Claw",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Iron Head",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 50 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Aron"
+}

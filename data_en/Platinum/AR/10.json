@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/tangrowth-arceus-ar-10/",
+    "name": "Tangrowth",
+    "img": "https://pkmncards.com/wp-content/uploads/tangrowth-arceus-ar-10.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AR",
+    "series": "Platinum",
+    "set_full_name": "Arceus",
+    "set_code": "PL4",
+    "date": "Nov 4, 2009",
+    "number": "10",
+    "set_total": "99",
+    "rarity": "Rare Holo",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "Its arms are made of plants that bind themselves to things. They grow back right away if cut.",
+    "stage": "Stage 1",
+    "level": "48",
+    "hp": 110,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Leaf Guard",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done to Tangrowth by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Swallow Up",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Before doing damage, count the remaining HP of the Defending Pokémon and Tangrowth. If the Defending Pokémon has fewer remaining HP than Tangrowth’s, this attack does 120 damage instead."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Tangela"
+}

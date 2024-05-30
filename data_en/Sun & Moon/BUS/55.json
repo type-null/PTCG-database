@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/toxicroak-burning-shadows-bus-55/",
+    "name": "Toxicroak",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM3-055-toxicroak.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BUS",
+    "series": "Sun & Moon",
+    "set_full_name": "Burning Shadows",
+    "set_code": "SM3",
+    "date": "Aug 4, 2017",
+    "number": "55",
+    "set_total": "147",
+    "rarity": "Rare",
+    "author": [
+        "kawayoo"
+    ],
+    "flavor_text": "It has a poison sac at its throat. When it croaks, the stored poison is churned for greater potency.",
+    "stage": "Stage 1",
+    "hp": 110,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Poison Jab",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Your opponent’s Active Pokémon is now Poisoned."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Poison Boost",
+            "damage": {
+                "amount": 80,
+                "suffix": "+"
+            },
+            "effect": "If this Pokémon is Poisoned, this attack does 80 more damage. Then, remove that Special Condition from this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Croagunk"
+}

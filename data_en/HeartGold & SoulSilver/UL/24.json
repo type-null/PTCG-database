@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/steelix-unleashed-ul-24/",
+    "name": "Steelix",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS2-024-steelix.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UL",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Unleashed",
+    "set_code": "HGSS2",
+    "date": "May 12, 2010",
+    "number": "24",
+    "set_total": "95",
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "Its body has been compressed deep under the ground. As a result, it is even harder than a diamond.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Guard Press",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done to Steelix by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Steel Swing",
+            "damage": {
+                "amount": 80,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 80 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Onix"
+}

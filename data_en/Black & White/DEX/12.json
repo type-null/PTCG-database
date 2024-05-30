@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/flareon-dark-explorers-dex-12/",
+    "name": "Flareon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW5-012-flareon.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DEX",
+    "series": "Black & White",
+    "set_full_name": "Dark Explorers",
+    "set_code": "BW5",
+    "date": "May 9, 2012",
+    "number": "12",
+    "set_total": "108",
+    "rarity": "Uncommon",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "flavor_text": "Inhaled air is heated in the flame sac in its body to an intense fire over 3,000 degrees Fahrenheit.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Sand-Attack",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Fire Slash",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "You may discard a {R} Energy attached to this Pokémon. If you do, this attack does 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee"
+}

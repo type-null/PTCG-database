@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/houndoom-neo-revelation-n3-8/",
+    "name": "Houndoom",
+    "img": "https://pkmncards.com/wp-content/uploads/houndoom-neo-revelation-8.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N3",
+    "series": "Neo",
+    "set_full_name": "Neo Revelation",
+    "set_code": "N3",
+    "date": "Sep 21, 2001",
+    "number": "8",
+    "set_total": "64",
+    "rarity": "Rare Holo",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests.",
+    "stage": "Stage 1",
+    "level": "35",
+    "hp": 70,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Dark Flame",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Discard 1 {R} Energy card attached to Houndoom or this attack does nothing. If there are any {D} Energy cards in your discard pile, attach 1 of them to Houndoom."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Black Fang",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a number of coins equal to the number of {D} Energy attached to Houndoom. This attack does 30 damage plus 10 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [],
+        "value": null
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Houndour"
+}

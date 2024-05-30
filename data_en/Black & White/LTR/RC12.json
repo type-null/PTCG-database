@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/stunfisk-legendary-treasures-ltr-rc12/",
+    "name": "Stunfisk",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW11-RC12-stunfisk.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LTR",
+    "series": "Black & White",
+    "set_full_name": "Legendary Treasures",
+    "set_code": "BW11",
+    "date": "Nov 6, 2013",
+    "number": "RC12",
+    "set_total": "RC25",
+    "rarity": "Uncommon",
+    "author": [
+        "Akira Komayama"
+    ],
+    "flavor_text": "When its opponent can’t be paralyzed, it contorts itself with unexpected speed and flops away.",
+    "stage": "Basic",
+    "hp": 90,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Attract",
+            "damage": null,
+            "effect": "If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Mud-Slap",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3
+}

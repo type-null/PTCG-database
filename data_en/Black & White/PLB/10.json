@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/genesect-plasma-blast-plb-10/",
+    "name": "Genesect",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW10-010-genesect.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLB",
+    "series": "Black & White",
+    "set_full_name": "Plasma Blast",
+    "set_code": "BW10",
+    "date": "Aug 14, 2013",
+    "number": "10",
+    "set_total": "101",
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",
+    "stage": "Basic",
+    "hp": 100,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Call for Family",
+            "damage": null,
+            "effect": "Search your deck for 2 {G} Basic Pokémon and put them onto your Bench. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Jet Impact",
+            "damage": {
+                "amount": 80,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

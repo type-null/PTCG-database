@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/pikachu-black-white-promos-bwp-bw54/",
+    "name": "Pikachu",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-Promo_BW-BW54-pikachu.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BWP",
+    "series": "Black & White",
+    "set_full_name": "Black & White Promos",
+    "set_code": "BWP",
+    "date": "Nov 7, 2012",
+    "number": "BW54",
+    "set_total": null,
+    "rarity": "Promo",
+    "author": [
+        "5ban Graphics"
+    ],
+    "flavor_text": "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 more damage."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Electro Ball",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

@@ -1,0 +1,68 @@
+{
+    "url": "https://pkmncards.com/card/shining-kabutops-neo-destiny-n4-108/",
+    "name": "Shining Kabutops",
+    "img": "https://pkmncards.com/wp-content/uploads/shining-kabutops-neo-destiny-108.jpg",
+    "card_type": "Pokémon",
+    "tags": [
+        "Shining"
+    ],
+    "set_name": "N4",
+    "series": "Neo",
+    "set_full_name": "Neo Destiny",
+    "set_code": "N4",
+    "date": "Feb 28, 2002",
+    "number": "108",
+    "set_total": "105",
+    "rarity": "Rare Shining",
+    "author": [
+        "Hironobu Yoshida"
+    ],
+    "flavor_text": "This ancient Pokémon uses its razor-sharp claws to cut open its prey and gain access to its blood.",
+    "stage": "Basic",
+    "level": "40",
+    "hp": 80,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Lightning"
+            ],
+            "name": "Lightning Cut",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage and does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) If tails, this attack does 30 damage and Shining Kabutops does 10 damage to itself."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Water",
+                "Water"
+            ],
+            "name": "Water Slash",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Does 50 damage plus 10 more damage for each {W} Energy attached to Shining Kabutops but not used to pay for this attack’s Energy cost. Don’t apply Resistance."
+        }
+    ],
+    "rule_box": "You can’t have more than 1 Shining Kabutops in your deck.",
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

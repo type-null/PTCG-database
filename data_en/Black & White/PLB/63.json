@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/shelgon-plasma-blast-plb-63/",
+    "name": "Shelgon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW10-063-shelgon.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLB",
+    "series": "Black & White",
+    "set_full_name": "Plasma Blast",
+    "set_code": "BW10",
+    "date": "Aug 14, 2013",
+    "number": "63",
+    "set_total": "101",
+    "rarity": "Uncommon",
+    "author": [
+        "Akira Komayama"
+    ],
+    "flavor_text": "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Dragon"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Knock Away",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Rollout",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Dragon"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Bagon"
+}

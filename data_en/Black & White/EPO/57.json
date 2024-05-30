@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/excadrill-emerging-powers-epo-57/",
+    "name": "Excadrill",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW2-057-excadrill.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EPO",
+    "series": "Black & White",
+    "set_full_name": "Emerging Powers",
+    "set_code": "BW2",
+    "date": "Aug 31, 2011",
+    "number": "57",
+    "set_total": "98",
+    "rarity": "Rare",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "flavor_text": "More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Dig",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Earthquake",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": "Does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Drilbur"
+}

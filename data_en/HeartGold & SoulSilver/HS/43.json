@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/heracross-heartgold-soulsilver-hs-43/",
+    "name": "Heracross",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS1-043-heracross.jpg",
+    "card_type": "Pokémon",
+    "set_name": "HS",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "HeartGold & SoulSilver",
+    "set_code": "HGSS1",
+    "date": "Feb 10, 2010",
+    "number": "43",
+    "set_total": "123",
+    "rarity": "Uncommon",
+    "author": [
+        "Sachiko Adachi"
+    ],
+    "flavor_text": "This powerful Pokémon thrusts its prized horn under its enemies’ bellies, then lifts and throws them.",
+    "stage": "Basic",
+    "hp": 80,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Green Draw",
+            "damage": null,
+            "effect": "Draw a card for each of your {G} Pokémon in play."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Double Headbutt",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

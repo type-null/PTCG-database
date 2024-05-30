@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/volbeat-sandstorm-ss-53/",
+    "name": "Volbeat",
+    "img": "https://pkmncards.com/wp-content/uploads/volbeat-sandstorm-ss-53.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SS",
+    "series": "EX",
+    "set_full_name": "Sandstorm",
+    "set_code": "EX2",
+    "date": "Sep 17, 2003",
+    "number": "53",
+    "set_total": "100",
+    "rarity": "Uncommon",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Grass"
+    ],
+    "poke_body": {
+        "name": "Uplifting Glow",
+        "effect": " As long as Illumise is in play, Volbeat’s Retreat Cost is 0."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Toxic Vibration",
+            "damage": null,
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Asleep."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Pester",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon is affected by a Special Condition, this attack does 20 damage plus 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

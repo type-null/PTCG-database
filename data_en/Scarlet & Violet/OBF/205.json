@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/scizor-obsidian-flames-obf-205/",
+    "name": "Scizor",
+    "img": "https://pkmncards.com/wp-content/uploads/sv3_en_205.jpg",
+    "card_type": "Pokémon",
+    "regulation": "G",
+    "set_name": "OBF",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "Obsidian Flames",
+    "set_code": "sv3",
+    "date": "Aug 11, 2023",
+    "number": "205",
+    "set_total": "197",
+    "rarity": "Illustration Rare",
+    "rarity_img": null,
+    "author": [
+        "Oku"
+    ],
+    "flavor_text": "This Pokémon’s pincers, which contain steel, can crush any hard object they get ahold of into bits.",
+    "stage": "Stage 1",
+    "hp": 140,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Punishing Scissors",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "This attack does 50 more damage for each of your opponent’s Pokémon in play that has an Ability."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal"
+            ],
+            "name": "Cut",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Scyther"
+}

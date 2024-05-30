@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/zebstrika-black-white-blw-42/",
+    "name": "Zebstrika",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW1-042-zebstrika.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BLW",
+    "series": "Black & White",
+    "set_full_name": "Black & White",
+    "set_code": "BW1",
+    "date": "Apr 25, 2011",
+    "number": "42",
+    "set_total": "114",
+    "rarity": "Uncommon",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "This ill-tempered Pokémon is dangerous because when it’s angry, it shoots lightning from its mane in all directions.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Stomp",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Wild Charge",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": "This Pokémon does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Blitzle"
+}

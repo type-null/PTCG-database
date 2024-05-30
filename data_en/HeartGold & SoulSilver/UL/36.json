@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/plusle-unleashed-ul-36/",
+    "name": "Plusle",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS2-036-plusle.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UL",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Unleashed",
+    "set_code": "HGSS2",
+    "date": "May 12, 2010",
+    "number": "36",
+    "set_total": "95",
+    "rarity": "Uncommon",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises.",
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Collect",
+            "damage": null,
+            "effect": "Draw 2 cards."
+        },
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thunder Jolt",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, Plusle does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

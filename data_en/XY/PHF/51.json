@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/murkrow-phantom-forces-phf-51/",
+    "name": "Murkrow",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY4-051-murkrow.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PHF",
+    "series": "XY",
+    "set_full_name": "Phantom Forces",
+    "set_code": "XY4",
+    "date": "Nov 5, 2014",
+    "number": "51",
+    "set_total": "119",
+    "rarity": "Common",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "It hides any shiny object it finds in a secret location. Murkrow and Meowth loot one another’s stashes.",
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Ambush",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 more damage."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Wing Attack",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

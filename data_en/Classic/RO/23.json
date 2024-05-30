@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/dark-dugtrio-team-rocket-ro-23/",
+    "name": "Dark Dugtrio",
+    "img": "https://pkmncards.com/wp-content/uploads/dark-dugtrio-team-rocket-tr-23.jpg",
+    "card_type": "Pokémon",
+    "set_name": "RO",
+    "series": "Classic",
+    "set_full_name": "Team Rocket",
+    "set_code": "RO",
+    "date": "Apr 24, 2000",
+    "number": "23",
+    "set_total": "82",
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "Digs large sinkholes in the ground and tries to trap its enemies in them.",
+    "stage": "Stage 1",
+    "level": "18",
+    "hp": 50,
+    "types": [
+        "Fighting"
+    ],
+    "abilities": [
+        {
+            "name": "Sinkhole",
+            "effect": "Whenever your opponent’s Active Pokémon retreats, your opponent flips a coin. If tails, this power does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance.) This power stops working while Dark Dugtrio is Asleep, Confused, or Paralyzed."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Knock Down",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Your opponent flips a coin. If tails, this attack does 20 damage plus 20 more damage; if heads, this attack does 20 damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Diglett"
+}

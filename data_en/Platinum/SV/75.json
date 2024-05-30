@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/pinsir-supreme-victors-sv-75/",
+    "name": "Pinsir",
+    "img": "https://pkmncards.com/wp-content/uploads/pinsir-supreme-victors-sv-75.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SV",
+    "series": "Platinum",
+    "set_full_name": "Supreme Victors",
+    "set_code": "PL3",
+    "date": "Aug 19, 2009",
+    "number": "75",
+    "set_total": "147",
+    "rarity": "Uncommon",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "It grips prey with its pincers until the prey is torn in half. What it can’t tear, it tosses far.",
+    "stage": "Basic",
+    "level": "32",
+    "hp": 90,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Gripthrow",
+            "damage": null,
+            "effect": "Flip a coin. If heads, your opponent returns the Defending Pokémon and all cards attached to it to his or her hand."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Sever",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon is a Stage 2 Pokémon, this attack does 50 damage plus 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/dark-weezing-team-rocket-ro-31/",
+    "name": "Dark Weezing",
+    "img": "https://pkmncards.com/wp-content/uploads/dark-weezing-team-rocket-tr-31.jpg",
+    "card_type": "Pokémon",
+    "set_name": "RO",
+    "series": "Classic",
+    "set_full_name": "Team Rocket",
+    "set_code": "RO",
+    "date": "Apr 24, 2000",
+    "number": "31",
+    "set_total": "82",
+    "rarity": "Rare",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "flavor_text": "Researchers have observed these Pokémon reproducing in industrial waste sites.",
+    "stage": "Stage 1",
+    "level": "24",
+    "hp": 60,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Mass Explosion",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Does 20 damage times the total number of Koffings, Weezings, and Dark Weezings in play (Apply Weakness and Resistance.). Then, this attack does 20 damage to each Koffing, Weezing, and Dark Weezing (even your own). Don’t apply Weakness and Resistance."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Grass"
+            ],
+            "name": "Stun Gas",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Poisoned; if tails, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Koffing"
+}

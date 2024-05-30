@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/electivire-rebel-clash-rcl-059/",
+    "name": "Electivire",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH2-059-electivire.jpg",
+    "card_type": "Pokémon",
+    "regulation": "D",
+    "set_name": "RCL",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Rebel Clash",
+    "set_code": "SWSH2",
+    "date": "May 1, 2020",
+    "number": "059",
+    "set_total": "192",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "tetsuya koizumi"
+    ],
+    "flavor_text": "A single Electivire can provide enough electricity for all the buildings in a big city for a year.",
+    "stage": "Stage 1",
+    "hp": 140,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunder Shock",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Electrified Bolt",
+            "damage": {
+                "amount": 90,
+                "suffix": "+"
+            },
+            "effect": "If this Pokémon has any Special Energy attached, this attack does 90 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Electabuzz"
+}

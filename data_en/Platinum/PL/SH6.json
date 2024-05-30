@@ -1,0 +1,67 @@
+{
+    "url": "https://pkmncards.com/card/vulpix-platinum-pl-sh6/",
+    "name": "Vulpix",
+    "img": "https://pkmncards.com/wp-content/uploads/vulpix-platinum-pl-sh6.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PL",
+    "series": "Platinum",
+    "set_full_name": "Platinum",
+    "set_code": "PL1",
+    "date": "Feb 11, 2009",
+    "number": "SH6",
+    "set_total": "127",
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Basic",
+    "level": "20",
+    "hp": 60,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "No Energy Cost"
+            ],
+            "name": "Find Wildfire",
+            "damage": null,
+            "effect": "Search your deck for up to 2 {R} Energy cards, show them to your opponent, and put them in your hand. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Brushfire",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Does 10 damage to each of your opponent’s Benched {G} Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Inflame",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Discard a {R} Energy card from your hand. (If you can’t discard a card from your hand, this attack does nothing.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

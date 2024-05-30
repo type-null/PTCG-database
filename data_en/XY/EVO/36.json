@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/raichu-evolutions-evo-36/",
+    "name": "Raichu",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY12-036-raichu.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EVO",
+    "series": "XY",
+    "set_full_name": "Evolutions",
+    "set_code": "XY12",
+    "date": "Nov 2, 2016",
+    "number": "36",
+    "set_total": "108",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "Its electric charges can reach even 100,000 volts. Careless contact can cause even an Indian elephant to faint.",
+    "stage": "Stage 1",
+    "level": "40",
+    "hp": 100,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Energize",
+            "damage": null,
+            "effect": "Attach a {L} Energy card from your discard pile to this Pokémon."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Spark Bolt",
+            "damage": {
+                "amount": 70,
+                "suffix": "+"
+            },
+            "effect": "You may discard all Energy attached to this Pokémon. If you do, this attack does 70 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu"
+}

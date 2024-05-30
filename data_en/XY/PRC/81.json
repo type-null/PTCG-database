@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/medicham-primal-clash-prc-81/",
+    "name": "Medicham",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY5-081-medicham.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PRC",
+    "series": "XY",
+    "set_full_name": "Primal Clash",
+    "set_code": "XY5",
+    "date": "Feb 4, 2015",
+    "number": "81",
+    "set_total": "160",
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Through yoga training, it gained the psychic power to predict its foe’s next move.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Fighting"
+    ],
+    "ancient_trait": {
+        "name": "Ω  Barrage",
+        "effect": " This Pokémon may attack twice a turn. (If the first attack Knocks Out your opponent’s Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon.)"
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Calm Mind",
+            "damage": null,
+            "effect": "Heal 30 damage from this Pokémon."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Yoga Kick",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "This attack’s damage isn’t affected by Weakness or Resistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Meditite"
+}

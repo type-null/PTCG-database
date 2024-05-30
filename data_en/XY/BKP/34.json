@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/palpitoad-breakpoint-bkp-34/",
+    "name": "Palpitoad",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY9-034-palpitoad.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BKP",
+    "series": "XY",
+    "set_full_name": "BREAKpoint",
+    "set_code": "XY9",
+    "date": "Feb 3, 2016",
+    "number": "34",
+    "set_total": "122",
+    "rarity": "Uncommon",
+    "author": [
+        "Ayaka Yoshida"
+    ],
+    "flavor_text": "It lives in the water and on land. It uses its long, sticky tongue to immobilize its opponents.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Water"
+            ],
+            "name": "Frog Hop",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Water"
+            ],
+            "name": "Mud Shot",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Tympole"
+}

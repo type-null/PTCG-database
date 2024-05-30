@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/rotom-great-encounters-ge-7/",
+    "name": "Rotom",
+    "img": "https://pkmncards.com/wp-content/uploads/rotom-great-encounters-ge-7.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GE",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Great Encounters",
+    "set_code": "DP4",
+    "date": "Feb 13, 2008",
+    "number": "7",
+    "set_total": "106",
+    "rarity": "Rare Holo",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "flavor_text": "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
+    "stage": "Basic",
+    "level": "38",
+    "hp": 70,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Astonish",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Choose 1 card from your opponent’s hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning"
+            ],
+            "name": "Telebeam",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 damage plus 30 more damage and the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Darkness"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Colorless"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

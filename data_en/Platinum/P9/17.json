@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/turtwig-pop-series-9-p9-17/",
+    "name": "Turtwig",
+    "img": "https://pkmncards.com/wp-content/uploads/turtwig-pop-series-9-17.jpg",
+    "card_type": "Pokémon",
+    "set_name": "P9",
+    "series": "Platinum",
+    "set_full_name": "POP Series 9",
+    "set_code": "POP9",
+    "date": "Mar 1, 2009",
+    "number": "17",
+    "set_total": "17",
+    "rarity": "Common",
+    "author": [
+        "Midori Harada"
+    ],
+    "flavor_text": "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.",
+    "stage": "Basic",
+    "level": "7",
+    "hp": 60,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Absorb",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Remove 1 damage counter from Turtwig."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Parboil",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "If you have Chimchar in play, this attack does 40 damage plus 20 more damage and the Defending Pokémon is now Burned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2
+}

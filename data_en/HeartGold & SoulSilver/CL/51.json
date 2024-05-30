@@ -1,0 +1,56 @@
+{
+    "url": "https://pkmncards.com/card/seviper-call-of-legends-cl-51/",
+    "name": "Seviper",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-COL-051-seviper.jpg",
+    "card_type": "Pokémon",
+    "set_name": "CL",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Call of Legends",
+    "set_code": "CL",
+    "date": "Feb 9, 2011",
+    "number": "51",
+    "set_total": "95",
+    "rarity": "Uncommon",
+    "author": [
+        "Wataru Kawahara"
+    ],
+    "flavor_text": "In battle, it uses its bladed tail to counter any Zangoose. It secretes a deadly venom in its tail.",
+    "stage": "Basic",
+    "hp": 90,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Poison Buildup",
+            "damage": null,
+            "effect": "Seviper is now Poisoned."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Poison Effect",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "If Seviper is Poisoned, this attack does 20 damage plus 60 more damage and remove the Special Condition Poisoned from Seviper."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

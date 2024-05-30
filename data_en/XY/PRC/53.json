@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/kyogre-primal-clash-prc-53/",
+    "name": "Kyogre",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY5-053-kyogre.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PRC",
+    "series": "XY",
+    "set_full_name": "Primal Clash",
+    "set_code": "XY5",
+    "date": "Feb 4, 2015",
+    "number": "53",
+    "set_total": "160",
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "A mythical Pokémon said to have swelled the seas with rain and tidal waves. It battled with Groudon.",
+    "stage": "Basic",
+    "hp": 130,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Spring Tides",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 30 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Ocean Cyclone",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "This attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 4
+}

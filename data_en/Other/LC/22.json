@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/electrode-legendary-collection-lc-22/",
+    "name": "Electrode",
+    "img": "https://pkmncards.com/wp-content/uploads/electrode-legendary-collection-lc-22.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LC",
+    "series": "Other",
+    "set_full_name": "Legendary Collection",
+    "set_code": "LC",
+    "date": "May 24, 2002",
+    "number": "22",
+    "set_total": "110",
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "It stores electrical energy under very high pressure. It often explodes with little or no provocation.",
+    "stage": "Stage 1",
+    "level": "42",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Tackle",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Lightning"
+            ],
+            "name": "Chain Lightning",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "If the Defending Pokémon isn’t Colorless, this attack does 10 damage to each Benched Pokémon of the same type as the Defending Pokémon (including your own). (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Voltorb"
+}

@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/throh-plasma-blast-plb-51/",
+    "name": "Throh",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW10-051-throh.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLB",
+    "series": "Black & White",
+    "set_full_name": "Plasma Blast",
+    "set_code": "BW10",
+    "date": "Aug 14, 2013",
+    "number": "51",
+    "set_total": "101",
+    "rarity": "Common",
+    "author": [
+        "Naoki Saito"
+    ],
+    "flavor_text": "When it encounters a foe bigger than itself, it wants to throw it. It changes belts as it gets stronger.",
+    "stage": "Basic",
+    "hp": 100,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Freestyle Strike",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 30 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Shoulder Throw",
+            "damage": {
+                "amount": 80,
+                "suffix": "-"
+            },
+            "effect": "Does 80 damage minus 20 damage for each {C} in the Defending Pokémon’s Retreat Cost."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3
+}

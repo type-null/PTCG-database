@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/groudon-primal-clash-prc-84/",
+    "name": "Groudon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY5-084-groudon.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PRC",
+    "series": "XY",
+    "set_full_name": "Primal Clash",
+    "set_code": "XY5",
+    "date": "Feb 4, 2015",
+    "number": "84",
+    "set_total": "160",
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "This legendary Pokémon is said to represent the land. It went to sleep after dueling Kyogre.",
+    "stage": "Basic",
+    "hp": 130,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Rock Smash",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Break Ground",
+            "damage": {
+                "amount": 100,
+                "suffix": ""
+            },
+            "effect": "This attack does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 4
+}

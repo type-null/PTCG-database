@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/heatmor-plasma-storm-pls-23/",
+    "name": "Heatmor",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW8-023-heatmor.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLS",
+    "series": "Black & White",
+    "set_full_name": "Plasma Storm",
+    "set_code": "BW8",
+    "date": "Feb 6, 2013",
+    "number": "23",
+    "set_total": "135",
+    "rarity": "Uncommon",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "flavor_text": "It draws in air through its tail, transforms it into fire, and uses it like a tongue. It melts Durant and eats them.",
+    "stage": "Basic",
+    "hp": 90,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Luring Flame",
+            "damage": null,
+            "effect": "Switch 1 of your opponent’s Benched Pokémon with the Defending Pokémon. The new Defending Pokémon is now Burned."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Fire"
+            ],
+            "name": "Fiery Licks",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Discard the top 4 cards of your deck. This attack does 50 damage times the number of {R} Energy cards discarded."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

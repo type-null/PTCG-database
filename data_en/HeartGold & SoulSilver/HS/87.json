@@ -1,0 +1,56 @@
+{
+    "url": "https://pkmncards.com/card/vulpix-heartgold-soulsilver-hs-87/",
+    "name": "Vulpix",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS1-087-vulpix.jpg",
+    "card_type": "Pokémon",
+    "set_name": "HS",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "HeartGold & SoulSilver",
+    "set_code": "HGSS1",
+    "date": "Feb 10, 2010",
+    "number": "87",
+    "set_total": "123",
+    "rarity": "Common",
+    "author": [
+        "TOKIYA"
+    ],
+    "flavor_text": "If it is attacked by an enemy that is stronger than itself, it feigns injury to fool the enemy and escapes.",
+    "stage": "Basic",
+    "hp": 50,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Singe",
+            "damage": null,
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Burned."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Ember",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, discard a {R} Energy attached to Vulpix."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

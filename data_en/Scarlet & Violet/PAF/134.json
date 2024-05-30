@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/electrode-paldean-fates-paf-134/",
+    "name": "Electrode",
+    "img": "https://pkmncards.com/wp-content/uploads/sv4-5_en_134_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "G",
+    "set_name": "PAF",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "Paldean Fates",
+    "set_code": "sv4-5",
+    "date": "Jan 26, 2024",
+    "number": "134",
+    "set_total": "091",
+    "rarity": "Shiny Rare",
+    "rarity_img": null,
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Bang Boom Chain",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Before doing damage, you may discard any number of Pokémon Tools from your Pokémon. This attack does 40 more damage for each card you discarded in this way."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Electro Ball",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Voltorb"
+}

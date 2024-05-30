@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/dragonite-dragon-vault-drv-5/",
+    "name": "Dragonite",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-DV-005-dragonite.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DRV",
+    "series": "Black & White",
+    "set_full_name": "Dragon Vault",
+    "set_code": "DRV",
+    "date": "Oct 5, 2012",
+    "number": "5",
+    "set_total": "20",
+    "rarity": "No Rarity",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.",
+    "stage": "Stage 2",
+    "hp": 150,
+    "types": [
+        "Dragon"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Hyper Beam",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Hurricane Tail",
+            "damage": {
+                "amount": 60,
+                "suffix": "×"
+            },
+            "effect": "Flip 4 coins. This attack does 60 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Dragon"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Dragonair"
+}

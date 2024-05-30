@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/lanturn-neo-revelation-n3-32/",
+    "name": "Lanturn",
+    "img": "https://pkmncards.com/wp-content/uploads/lanturn-neo-revelation-32.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N3",
+    "series": "Neo",
+    "set_full_name": "Neo Revelation",
+    "set_code": "N3",
+    "date": "Sep 21, 2001",
+    "number": "32",
+    "set_total": "64",
+    "rarity": "Uncommon",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "It blinds prey with an intense burst of light, then swallows the immobilized prey in a single gulp.",
+    "stage": "Stage 1",
+    "level": "31",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "abilities": [
+        {
+            "name": "Submerge",
+            "effect": "Once during your turn (before your attack), you may change Lanturn’s type to {W} until the end of your turn. This power can’t be used if Lanturn is Asleep, Confused, or Paralyzed. If Lanturn becomes Asleep, Confused, or Paralyzed after you have used this power, its type changes back to {L}."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Blinding Light",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Chinchou"
+}

@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/lilligant-black-white-blw-10/",
+    "name": "Lilligant",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW1-010-lilligant.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BLW",
+    "series": "Black & White",
+    "set_full_name": "Black & White",
+    "set_code": "BW1",
+    "date": "Apr 25, 2011",
+    "number": "10",
+    "set_total": "114",
+    "rarity": "Rare",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "flavor_text": "The fragrance of the garland on its head has a relaxing effect. It withers if a Trainer does not take good care of it.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Petal Dance",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 30 damage times the number of heads. This Pokémon is now confused."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Leaf Storm",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Heal 20 damage from each of your {G} Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Petilil"
+}

@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/houndoom-dragon-dr-34/",
+    "name": "Houndoom",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-EX3-034-houndoom.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DR",
+    "series": "EX",
+    "set_full_name": "Dragon",
+    "set_code": "EX3",
+    "date": "Nov 24, 2003",
+    "number": "34",
+    "set_total": "97",
+    "rarity": "Uncommon",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Feint Attack",
+            "damage": null,
+            "effect": "Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Flamethrower",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Discard a {R} Energy card attached to Houndoom."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Houndour"
+}

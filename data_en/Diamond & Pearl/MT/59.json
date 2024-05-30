@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/pupitar-mysterious-treasures-mt-59/",
+    "name": "Pupitar",
+    "img": "https://pkmncards.com/wp-content/uploads/pupitar-mysterious-treasures-mt-59.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MT",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Mysterious Treasures",
+    "set_code": "DP2",
+    "date": "Aug 22, 2007",
+    "number": "59",
+    "set_total": "123",
+    "rarity": "Uncommon",
+    "author": [
+        "Midori Harada"
+    ],
+    "flavor_text": "Its body is as hard as bedrock. By venting pressurized gas, it can launch itself like a rocket.",
+    "stage": "Stage 1",
+    "level": "31",
+    "hp": 70,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Pressurized Gas",
+            "damage": null,
+            "effect": "Does 10 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Rocket Tackle",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Pupitar does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Pupitar by attacks during your opponent’s next turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Larvitar"
+}

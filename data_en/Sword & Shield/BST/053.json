@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/boltund-battle-styles-bst-053/",
+    "name": "Boltund",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH5-053-boltund.jpg",
+    "card_type": "Pokémon",
+    "regulation": "E",
+    "set_name": "BST",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Battle Styles",
+    "set_code": "SWSH5",
+    "date": "Mar 19, 2021",
+    "number": "053",
+    "set_total": "163",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "chibi"
+    ],
+    "flavor_text": "It sends electricity through its legs to boost their strength. Running at top speed, it easily breaks 50 mph.",
+    "stage": "Stage 1",
+    "hp": 130,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Corner",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, the Defending Pokémon can’t retreat."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Defiant Spark",
+            "damage": {
+                "amount": 130,
+                "suffix": ""
+            },
+            "effect": "If this Pokémon has any damage counters on it, this attack can be used for {L}."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Yamper"
+}

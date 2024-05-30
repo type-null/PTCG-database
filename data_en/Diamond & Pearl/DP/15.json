@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/skuntank-diamond-pearl-dp-15/",
+    "name": "Skuntank",
+    "img": "https://pkmncards.com/wp-content/uploads/skuntank-diamond-pearl-dp-15.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DP",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Diamond & Pearl",
+    "set_code": "DP1",
+    "date": "May 23, 2007",
+    "number": "15",
+    "set_total": "130",
+    "rarity": "Rare Holo",
+    "author": [
+        "Hiroaki Ito"
+    ],
+    "flavor_text": "It sprays a vile-smelling fluid from the tip of its tail to attack. Its range is over 160 feet.",
+    "stage": "Stage 1",
+    "level": "36",
+    "hp": 90,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness",
+                "Darkness"
+            ],
+            "name": "Frustration",
+            "damage": null,
+            "effect": "Choose 1 of your opponent’s Pokémon that doesn’t have any damage counters on it. This attack does 30 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Toxic Cloud",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Stunky"
+}

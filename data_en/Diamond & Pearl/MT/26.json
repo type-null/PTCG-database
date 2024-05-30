@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/gyarados-mysterious-treasures-mt-26/",
+    "name": "Gyarados",
+    "img": "https://pkmncards.com/wp-content/uploads/gyarados-mysterious-treasures-mt-26.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MT",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Mysterious Treasures",
+    "set_code": "DP2",
+    "date": "Aug 22, 2007",
+    "number": "26",
+    "set_total": "123",
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Once it appears, its rage never settles until it has razed the fields and mountains around it.",
+    "stage": "Stage 1",
+    "level": "49",
+    "hp": 120,
+    "types": [
+        "Water"
+    ],
+    "poke_body": {
+        "name": "Dragon DNA",
+        "effect": "Gyarados can use any attack from its Basic Pokémon. (You still have to pay for that attack’s Energy cost.) If Gyarados uses any attack from its Basic Pokémon, that attack does 30 more damage to the Defending Pokémon (before applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Enrage",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Flip a coin until you get tails. For each heads, choose 1 card from your opponent’s hand without looking and discard it. If the first coin is tails, Gyarados is now Confused."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Magikarp"
+}

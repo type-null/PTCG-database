@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/marowak-legends-awakened-la-63/",
+    "name": "Marowak",
+    "img": "https://pkmncards.com/wp-content/uploads/marowak-legends-awakened-la-63.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LA",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Legends Awakened",
+    "set_code": "DP6",
+    "date": "Aug 20, 2008",
+    "number": "63",
+    "set_total": "146",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "From its birth, this savage Pokémon constantly holds bones. It is skilled in using them as weapons.",
+    "stage": "Stage 1",
+    "level": "30",
+    "hp": 90,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Heavy Bone",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, Marowak can’t use Heavy Bone during your next turn."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Bone Rush",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 50 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Cubone"
+}

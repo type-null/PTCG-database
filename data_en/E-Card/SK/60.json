@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/golbat-skyridge-sk-60/",
+    "name": "Golbat",
+    "img": "https://pkmncards.com/wp-content/uploads/golbat-skyridge-sk-60.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SK",
+    "series": "E-Card",
+    "set_full_name": "Skyridge",
+    "set_code": "SK",
+    "date": "May 12, 2003",
+    "number": "60",
+    "set_total": "144",
+    "rarity": "Common",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Poison Sound Wave",
+            "damage": null,
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, the Defending Pokémon is now Poisoned."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Strength in Numbers",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "This attack does 30 damage plus 10 more damage for each Zubat, Golbat, and Crobat on your Bench."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Zubat"
+}

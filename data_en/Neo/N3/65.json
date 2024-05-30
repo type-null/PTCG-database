@@ -1,0 +1,70 @@
+{
+    "url": "https://pkmncards.com/card/shining-gyarados-neo-revelation-n3-65/",
+    "name": "Shining Gyarados",
+    "img": "https://pkmncards.com/wp-content/uploads/shining-gyarados-neo-revelation-65.jpg",
+    "card_type": "Pokémon",
+    "tags": [
+        "Shining"
+    ],
+    "set_name": "N3",
+    "series": "Neo",
+    "set_full_name": "Neo Revelation",
+    "set_code": "N3",
+    "date": "Sep 21, 2001",
+    "number": "65",
+    "set_total": "64",
+    "rarity": "Rare Shining",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it.",
+    "stage": "Basic",
+    "level": "44",
+    "hp": 100,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Outrage",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage for each damage counter on Shining Gyarados. If tails, this attack does nothing."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Fire",
+                "Fire"
+            ],
+            "name": "Devastate",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Discard 2 {R} Energy cards attached to Shining Gyarados or this attack does nothing. This attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) Then, flip a coin. If heads, choose 1 Energy card attached to each of your opponent’s Pokémon that has any Energy cards attached to it and discard those Energy cards."
+        }
+    ],
+    "rule_box": "You can’t have more than 1 Shining Gyarados in your deck.",
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3
+}

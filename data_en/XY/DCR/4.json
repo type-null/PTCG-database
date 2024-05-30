@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/team-aquas-sealeo-double-crisis-dcr-4/",
+    "name": "Team Aqua’s Sealeo",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-TATM-004-team_aquas_sealeo.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DCR",
+    "series": "XY",
+    "set_full_name": "Double Crisis",
+    "set_code": "DCR",
+    "date": "Mar 25, 2015",
+    "number": "4",
+    "set_total": "34",
+    "rarity": "Common",
+    "author": [
+        "Naoki Saito"
+    ],
+    "flavor_text": "It provides support by making paths of ice. It can win any battle as long as it’s on ice.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Splatter",
+            "damage": null,
+            "effect": "This attack does 20 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Hail Storm",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "If your opponent’s Active Pokémon is a Team Magma Pokémon, this attack does 60 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Team Aqua’s Spheal"
+}

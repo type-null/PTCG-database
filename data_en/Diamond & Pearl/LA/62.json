@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/luxio-legends-awakened-la-62/",
+    "name": "Luxio",
+    "img": "https://pkmncards.com/wp-content/uploads/luxio-legends-awakened-la-62.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LA",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Legends Awakened",
+    "set_code": "DP6",
+    "date": "Aug 20, 2008",
+    "number": "62",
+    "set_total": "146",
+    "rarity": "Uncommon",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "flavor_text": "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
+    "stage": "Stage 1",
+    "level": "23",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Spark",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Does 10 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Thunderous Claw",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, discard all {L} Energy attached to Luxio."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Shinx"
+}

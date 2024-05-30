@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/gogoat-breakthrough-bkt-17/",
+    "name": "Gogoat",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY8-017-gogoat.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BKT",
+    "series": "XY",
+    "set_full_name": "BREAKthrough",
+    "set_code": "XY8",
+    "date": "Nov 4, 2015",
+    "number": "17",
+    "set_total": "162",
+    "rarity": "Uncommon",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "They inhabit mountainous regions. The leader of the herd is decided by a battle of clashing horns.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Overrun",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "This attack does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Grass"
+            ],
+            "name": "Horn Leech",
+            "damage": {
+                "amount": 90,
+                "suffix": ""
+            },
+            "effect": "Heal 30 damage from this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Skiddo"
+}

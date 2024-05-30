@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/electivire-lost-thunder-lot-72/",
+    "name": "Electivire",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM8-072-electivire.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LOT",
+    "series": "Sun & Moon",
+    "set_full_name": "Lost Thunder",
+    "set_code": "SM8",
+    "date": "Nov 2, 2018",
+    "number": "72",
+    "set_total": "214",
+    "rarity": "Rare",
+    "author": [
+        "Akira Komayama"
+    ],
+    "flavor_text": "When it gets excited, it thumps its chest. With every thud, thunder roars and electric sparks shower all around.",
+    "stage": "Stage 1",
+    "hp": 140,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Electrocharge",
+            "damage": null,
+            "effect": "Search your deck for up to 2 {L} Energy cards and attach them to this Pokémon. Then, shuffle your deck."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "High-Voltage Knuckle",
+            "damage": {
+                "amount": 190,
+                "suffix": ""
+            },
+            "effect": "Discard 3 Energy from this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Electabuzz"
+}

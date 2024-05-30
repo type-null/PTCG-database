@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/manectric-arceus-ar-22/",
+    "name": "Manectric",
+    "img": "https://pkmncards.com/wp-content/uploads/manectric-arceus-ar-22.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AR",
+    "series": "Platinum",
+    "set_full_name": "Arceus",
+    "set_code": "PL4",
+    "date": "Nov 4, 2009",
+    "number": "22",
+    "set_total": "99",
+    "rarity": "Rare",
+    "author": [
+        "Mana Ibe"
+    ],
+    "flavor_text": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+    "stage": "Stage 1",
+    "level": "46",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Second Bite",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Swift",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Electrike"
+}

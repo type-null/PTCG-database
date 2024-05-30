@@ -1,0 +1,56 @@
+{
+    "url": "https://pkmncards.com/card/swampert-celestial-storm-ces-35/",
+    "name": "Swampert",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM7-035-swampert.jpg",
+    "card_type": "Pokémon",
+    "set_name": "CES",
+    "series": "Sun & Moon",
+    "set_full_name": "Celestial Storm",
+    "set_code": "SM7",
+    "date": "Aug 3, 2018",
+    "number": "35",
+    "set_total": "168",
+    "rarity": "Rare",
+    "author": [
+        "SATOSHI NAKAI"
+    ],
+    "flavor_text": "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.",
+    "stage": "Stage 2",
+    "hp": 160,
+    "types": [
+        "Water"
+    ],
+    "abilities": [
+        {
+            "name": "Power Draw",
+            "effect": "Once during your turn (before your attack), you may discard a card from your hand. If you do, draw 3 cards."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Hydro Pump",
+            "damage": {
+                "amount": 80,
+                "suffix": "+"
+            },
+            "effect": "This attack does 20 more damage times the amount of {W} Energy attached to this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Marshtomp"
+}

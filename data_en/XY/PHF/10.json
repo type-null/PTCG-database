@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/talonflame-phantom-forces-phf-10/",
+    "name": "Talonflame",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY4-010-talonflame.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PHF",
+    "series": "XY",
+    "set_full_name": "Phantom Forces",
+    "set_code": "XY4",
+    "date": "Nov 5, 2014",
+    "number": "10",
+    "set_total": "119",
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "In the fever of an exciting battle, it showers embers from the gaps between its feathers and takes to the air.",
+    "stage": "Stage 2",
+    "hp": 130,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Acrobatics",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip 2 coins. This attack does 30 more damage for each heads."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Jet Shoot",
+            "damage": {
+                "amount": 120,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done to this Pokémon by attacks is increased by 40 (after applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Fletchinder"
+}

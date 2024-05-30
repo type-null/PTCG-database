@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/klang-dark-explorers-dex-76/",
+    "name": "Klang",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW5-076-klang.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DEX",
+    "series": "Black & White",
+    "set_full_name": "Dark Explorers",
+    "set_code": "BW5",
+    "date": "May 9, 2012",
+    "number": "76",
+    "set_total": "108",
+    "rarity": "Uncommon",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "flavor_text": "Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don’t return.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Charge Beam",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, attach an Energy card from your discard pile to this Pokémon."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Vice Grip",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Klink"
+}

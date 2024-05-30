@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/abomasnow-stormfront-sf-12/",
+    "name": "Abomasnow",
+    "img": "https://pkmncards.com/wp-content/uploads/abomasnow-stormfront-sf-12.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "12",
+    "set_total": "100",
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Stage 1",
+    "level": "42",
+    "hp": 100,
+    "types": [
+        "Water"
+    ],
+    "poke_body": {
+        "name": "Snow Veil",
+        "effect": "As long as Abomasnow is your Active Pokémon, any damage done to your Pokémon by an opponent’s attack is reduced by 20 (after applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Snow Play",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Does 20 damage to each of your opponent’s Benched Pokémon, excluding {G} Pokémon and {W} Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Below Zero",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "If Abomasnow evolved from Snover during this turn, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Snover"
+}

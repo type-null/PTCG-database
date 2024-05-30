@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/alolan-raichu-unified-minds-unm-57/",
+    "name": "Alolan Raichu",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM11-057-alolan_raichu.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UNM",
+    "series": "Sun & Moon",
+    "set_full_name": "Unified Minds",
+    "set_code": "SM11",
+    "date": "Aug 2, 2019",
+    "number": "57",
+    "set_total": "236",
+    "rarity": "Rare Holo",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "It focuses psychic energy into its tail and rides it like it’s surfing. Another name for this Pokémon is “hodad.”",
+    "stage": "Stage 1",
+    "hp": 110,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Electro Rain",
+            "damage": null,
+            "effect": "Discard any amount of {L} Energy from this Pokémon. Then, for each Energy you discarded in this way, choose 1 of your opponent’s Pokémon and do 30 damage to it. (You can choose the same Pokémon more than once.) This damage isn’t affected by Weakness or Resistance."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Electric Ball",
+            "damage": {
+                "amount": 90,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu"
+}

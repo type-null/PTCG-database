@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/pikachu-heartgold-soulsilver-promos-hgss03/",
+    "name": "Pikachu",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-Promo_HGSS-HGSS03-pikachu.jpg",
+    "card_type": "Pokémon",
+    "set_name": "HeartGold & SoulSilver Promos",
+    "series": "Promos",
+    "set_full_name": "HeartGold & SoulSilver Promos",
+    "set_code": "HeartGold & SoulSilver Promos",
+    "date": "Feb 10, 2010",
+    "number": "HGSS03",
+    "set_total": null,
+    "rarity": "Promo",
+    "author": [
+        "Kanako Eo"
+    ],
+    "flavor_text": "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
+    "stage": "Basic",
+    "hp": 70,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Recharge",
+            "damage": null,
+            "effect": "Flip a coin. If heads, search your deck for a {L} Energy card and attach it to Pikachu. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Thunderbolt",
+            "damage": {
+                "amount": 100,
+                "suffix": ""
+            },
+            "effect": "Discard all Energy attached to Pikachu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

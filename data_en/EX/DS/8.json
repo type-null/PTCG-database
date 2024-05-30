@@ -1,0 +1,71 @@
+{
+    "url": "https://pkmncards.com/card/latias-delta-species-ds-8/",
+    "name": "Latias",
+    "img": "https://pkmncards.com/wp-content/uploads/latias-d-delta-species-ds-8.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DS",
+    "series": "EX",
+    "set_full_name": "Delta Species",
+    "set_code": "EX11",
+    "date": "Oct 31, 2005",
+    "number": "8",
+    "set_total": "113",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "stage": "Basic",
+    "hp": 70,
+    "types": [
+        "Lightning",
+        "Metal"
+    ],
+    "poke_body": {
+        "name": "Delta Aura",
+        "effect": " If you have Latios or Latios ex in play, the attack cost of Latias’s Extra Crush is now {L}{M}{C}."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Spiral Drain",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Remove 2 damage counters from Latias."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Metal",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Extra Crush",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "If your opponent has no Pokémon-ex in play, this attack does nothing."
+        }
+    ],
+    "rule_box": "This Pokémon is both {L}{M} type.",
+    "weakness": {
+        "type": [
+            "Colorless"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic",
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1
+}

@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/heliolisk-guardians-rising-gri-44/",
+    "name": "Heliolisk",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM2-044-heliolisk.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GRI",
+    "series": "Sun & Moon",
+    "set_full_name": "Guardians Rising",
+    "set_code": "SM2",
+    "date": "May 5, 2017",
+    "number": "44",
+    "set_total": "145",
+    "rarity": "Rare",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "flavor_text": "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Raging Thunder",
+            "damage": {
+                "amount": 120,
+                "suffix": ""
+            },
+            "effect": "This attack does 30 damage to 1 of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Helioptile"
+}

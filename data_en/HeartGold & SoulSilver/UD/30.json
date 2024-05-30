@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/metang-undaunted-ud-30/",
+    "name": "Metang",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS3-030-metang.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UD",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Undaunted",
+    "set_code": "HGSS3",
+    "date": "Aug 18, 2010",
+    "number": "30",
+    "set_total": "90",
+    "rarity": "Uncommon",
+    "author": [
+        "TOKIYA"
+    ],
+    "flavor_text": "When two Beldum fuse together, a magnetic nervous system places their brains in union.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Hammer In",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Double Smash",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 50 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Beldum"
+}

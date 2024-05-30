@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/klinklang-dark-explorers-dex-77/",
+    "name": "Klinklang",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW5-077-klinklang.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DEX",
+    "series": "Black & White",
+    "set_full_name": "Dark Explorers",
+    "set_code": "BW5",
+    "date": "May 9, 2012",
+    "number": "77",
+    "set_total": "108",
+    "rarity": "Rare Holo",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "flavor_text": "The gear with the red core is rotated at high speed for a rapid energy charge.",
+    "stage": "Stage 2",
+    "hp": 140,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Metal Blast",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Does 20 more damage for each {M} Energy attached to this Pokémon."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Lock Gear",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Draw cards until you have 6 cards in your hand."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Klang"
+}

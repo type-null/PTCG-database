@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/pachirisu-majestic-dawn-md-43/",
+    "name": "Pachirisu",
+    "img": "https://pkmncards.com/wp-content/uploads/pachirisu43.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MD",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Majestic Dawn",
+    "set_code": "DP5",
+    "date": "May 21, 2008",
+    "number": "43",
+    "set_total": "100",
+    "rarity": "Uncommon",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "flavor_text": "It makes electricity with pouches in its cheeks and shoots charges from its tail. It lives atop trees.",
+    "stage": "Basic",
+    "level": "25",
+    "hp": 70,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "No Energy Cost"
+            ],
+            "name": "Trans Tail",
+            "damage": null,
+            "effect": "Search your discard pile for a {L} Energy card, show it to your opponent, and put it into your hand."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thundershock",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/bronzong-stormfront-sf-13/",
+    "name": "Bronzong",
+    "img": "https://pkmncards.com/wp-content/uploads/bronzong-stormfront-sf-13.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "13",
+    "set_total": "100",
+    "rarity": "Rare",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "stage": "Stage 1",
+    "level": "46",
+    "hp": 90,
+    "types": [
+        "Psychic"
+    ],
+    "poke_power": {
+        "name": "Cycler",
+        "effect": "Once during your turn (before your attack), you may choose a card from your hand and put it on top of your deck. Then, search your deck for up to 2 basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward. This power can’t be used if Bronzong is affected by a Special Condition."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Strange Spin",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "If you have the same number of cards in your hand as your opponent, this attack does 20 damage plus 40 more damage and the Defending Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Heavy Potential",
+            "damage": null,
+            "effect": "Put a number of damage counters on each of your opponent’s Pokémon equal to the number of {C} Energy in that Pokémon’s Retreat Cost (after applying effects to the Retreat Cost)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Fire"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Bronzor"
+}

@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/ampharos-aquapolis-aq-h1/",
+    "name": "Ampharos",
+    "img": "https://pkmncards.com/wp-content/uploads/h01-ampharos-expedition.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AQ",
+    "series": "E-Card",
+    "set_full_name": "Aquapolis",
+    "set_code": "AQ",
+    "date": "Jan 15, 2003",
+    "number": "H1",
+    "set_total": "H32",
+    "rarity": "Rare Holo",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "stage": "Stage 2",
+    "hp": 100,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thundershock",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Reflect Energy",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "If you have any Benched Pokémon and if there are any basic Energy cards attached to Ampharos, take 1 of those Energy cards and attach it to 1 of those Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Flaaffy"
+}

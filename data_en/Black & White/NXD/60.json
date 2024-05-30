@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/darmanitan-next-destinies-nxd-60/",
+    "name": "Darmanitan",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW4-060-darmanitan.jpg",
+    "card_type": "Pokémon",
+    "set_name": "NXD",
+    "series": "Black & White",
+    "set_full_name": "Next Destinies",
+    "set_code": "BW4",
+    "date": "Feb 8, 2012",
+    "number": "60",
+    "set_total": "99",
+    "rarity": "Rare",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "flavor_text": "When weakened in battle, it transforms into a stone statue. Then it sharpens its mind and fights on mentally.",
+    "stage": "Stage 1",
+    "hp": 110,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Synchrodraw",
+            "damage": null,
+            "effect": "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent’s hand."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "DarMAXitan",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Darumaka"
+}

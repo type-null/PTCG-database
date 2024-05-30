@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/huntail-great-encounters-ge-42/",
+    "name": "Huntail",
+    "img": "https://pkmncards.com/wp-content/uploads/huntail-great-encounters-ge-42.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GE",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Great Encounters",
+    "set_code": "DP4",
+    "date": "Feb 13, 2008",
+    "number": "42",
+    "set_total": "106",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "It lives deep in the sea. With a tail shaped like a small fish, it attracts unsuspecting prey.",
+    "stage": "Stage 1",
+    "level": "33",
+    "hp": 90,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "No Energy Cost"
+            ],
+            "name": "Scary Face",
+            "damage": null,
+            "effect": "Flip a coin. If heads, the Defending Pokémon can’t attack or retreat during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Threaten and Drop",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "If Huntail has any {D} Energy attached to it, this attack does 30 damage plus 20 more damage and discard a Special Energy card, if any, attached to the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Clamperl"
+}

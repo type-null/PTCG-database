@@ -1,0 +1,67 @@
+{
+    "url": "https://pkmncards.com/card/dewgong-supreme-victors-sv-24/",
+    "name": "Dewgong",
+    "img": "https://pkmncards.com/wp-content/uploads/dewgong-supreme-victors-sv-24.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SV",
+    "series": "Platinum",
+    "set_full_name": "Supreme Victors",
+    "set_code": "PL3",
+    "date": "Aug 19, 2009",
+    "number": "24",
+    "set_total": "147",
+    "rarity": "Rare",
+    "author": [
+        "Kanako Eo"
+    ],
+    "stage": "Stage 1",
+    "level": "40",
+    "hp": 100,
+    "types": [
+        "Water"
+    ],
+    "poke_body": {
+        "name": "Thick Fat",
+        "effect": "Any damage done to Dewgong by attacks from {R} Pokémon and {W} Pokémon is reduced by 30 (after applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Ice Shard",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "If the Defending Pokémon is a {F} Pokémon, this attack’s base damage is 80 instead of 30."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Aurora Beam",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Seel"
+}

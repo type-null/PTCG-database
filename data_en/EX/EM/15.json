@@ -1,0 +1,56 @@
+{
+    "url": "https://pkmncards.com/card/kyogre-emerald-em-15/",
+    "name": "Kyogre",
+    "img": "https://pkmncards.com/wp-content/uploads/kyogre-emerald-em-15.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EM",
+    "series": "EX",
+    "set_full_name": "Emerald",
+    "set_code": "EX9",
+    "date": "May 9, 2005",
+    "number": "15",
+    "set_total": "106",
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "stage": "Basic",
+    "hp": 80,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Scary Face",
+            "damage": null,
+            "effect": "Flip a coin. If heads, the Defending Pokémon can’t attack or retreat during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Hydro Pump",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Does 40 damage plus 10 more damage for each {W} Energy attached to Kyogre but not used to pay for this attack’s Energy cost. You can’t add more than 20 damage in this way."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

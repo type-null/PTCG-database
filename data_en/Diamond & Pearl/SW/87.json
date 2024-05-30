@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/electabuzz-secret-wonders-sw-87/",
+    "name": "Electabuzz",
+    "img": "https://pkmncards.com/wp-content/uploads/electabuzz-secret-wonders-sw-87.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SW",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Secret Wonders",
+    "set_code": "DP3",
+    "date": "Nov 7, 2007",
+    "number": "87",
+    "set_total": "132",
+    "rarity": "Common",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "Half of all blackouts occur when this Pokémon appears at power plants and eats electricity.",
+    "stage": "Basic",
+    "level": "32",
+    "hp": 70,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thundershock",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunder",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, Electabuzz does 30 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2
+}

@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/mandibuzz-emerging-powers-epo-69/",
+    "name": "Mandibuzz",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW2-069-mandibuzz.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EPO",
+    "series": "Black & White",
+    "set_full_name": "Emerging Powers",
+    "set_code": "BW2",
+    "date": "Aug 31, 2011",
+    "number": "69",
+    "set_total": "98",
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Watching from the sky, they swoop to strike weakened Pokémon on the ground. They decorate themselves with bones.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Bone Rush",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 30 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Dark Pulse",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Does 10 more damage for each {D} Energy attached to all of your Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Vullaby"
+}

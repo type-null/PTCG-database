@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/tyranitar-unleashed-ul-26/",
+    "name": "Tyranitar",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS2-026-tyranitar.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UL",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Unleashed",
+    "set_code": "HGSS2",
+    "date": "May 12, 2010",
+    "number": "26",
+    "set_total": "95",
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "Extremely strong, it can change the landscape. It has an insolent nature that makes it not care about others.",
+    "stage": "Stage 2",
+    "hp": 140,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Tail Crush",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 40 damage plus 20 more damage."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Hyper Beam",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Discard an Energy card attached to the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Pupitar"
+}

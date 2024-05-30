@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/nidorina-jungle-ju-40/",
+    "name": "Nidorina",
+    "img": "https://pkmncards.com/wp-content/uploads/nidorina-jungle-ju-40.jpg",
+    "card_type": "Pokémon",
+    "set_name": "JU",
+    "series": "Classic",
+    "set_full_name": "Jungle",
+    "set_code": "JU",
+    "date": "Jun 16, 1999",
+    "number": "40",
+    "set_total": "64",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "The female’s horn develops slowly. Prefers physical attacks such as clawing and biting.",
+    "stage": "Stage 1",
+    "level": "24",
+    "hp": 70,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Supersonic",
+            "damage": null,
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Double Kick",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 30 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Nidoran Female"
+}

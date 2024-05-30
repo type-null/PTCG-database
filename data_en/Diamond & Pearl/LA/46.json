@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/anorith-legends-awakened-la-46/",
+    "name": "Anorith",
+    "img": "https://pkmncards.com/wp-content/uploads/anorith-legends-awakened-la-46.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LA",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Legends Awakened",
+    "set_code": "DP6",
+    "date": "Aug 20, 2008",
+    "number": "46",
+    "set_total": "146",
+    "rarity": "Uncommon",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "A Pokémon ancestor that was reanimated from a fossil. It lived in the sea and hunted with claws.",
+    "stage": "Stage 1",
+    "level": "29",
+    "hp": 80,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Guard Claw",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done to Anorith by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "X-Scissor",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 damage plus 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Claw Fossil"
+}

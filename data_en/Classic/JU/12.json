@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/vaporeon-jungle-ju-12/",
+    "name": "Vaporeon",
+    "img": "https://pkmncards.com/wp-content/uploads/vaporeon-jungle-ju-12.jpg",
+    "card_type": "Pokémon",
+    "set_name": "JU",
+    "series": "Classic",
+    "set_full_name": "Jungle",
+    "set_code": "JU",
+    "date": "Jun 16, 1999",
+    "number": "12",
+    "set_total": "64",
+    "rarity": "Rare Holo",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "Lives close to water. Its long tail is ridged with a fin that is often mistaken for a mermaid’s.",
+    "stage": "Stage 1",
+    "level": "42",
+    "hp": 80,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Water Gun",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Does 30 damage plus 10 more damage for each {W} Energy attached to Vaporeon but not used to pay for this attack’s Energy cost. Extra {W} Energy after the 2nd doesn’t count."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee"
+}

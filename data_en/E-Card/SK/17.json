@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/magcargo-skyridge-sk-17/",
+    "name": "Magcargo",
+    "img": "https://pkmncards.com/wp-content/uploads/magcargo-skyridge-sk-17.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SK",
+    "series": "E-Card",
+    "set_full_name": "Skyridge",
+    "set_code": "SK",
+    "date": "May 12, 2003",
+    "number": "17",
+    "set_total": "144",
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Eruption",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Each player discard the top card of his or her deck. This attack does 20 damage plus 20 more damage for each {R} Energy card discarded in this way."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Fire Stream",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Discard a {R} Energy card attached to Magcargo in order to use this attack. If your opponent has any Benched Pokémon, this attack does 10 damage to each of them. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Slugma"
+}

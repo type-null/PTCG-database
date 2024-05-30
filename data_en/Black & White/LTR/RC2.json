@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/servine-legendary-treasures-ltr-rc2/",
+    "name": "Servine",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW11-RC2-servine.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LTR",
+    "series": "Black & White",
+    "set_full_name": "Legendary Treasures",
+    "set_code": "BW11",
+    "date": "Nov 6, 2013",
+    "number": "RC2",
+    "set_total": "RC25",
+    "rarity": "Common",
+    "author": [
+        "kirisAki"
+    ],
+    "flavor_text": "When it gets dirty, its leaves can’t be used in photosynthesis, so it always keeps itself clean.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Leaf Blade",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Vine Whip",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Snivy"
+}

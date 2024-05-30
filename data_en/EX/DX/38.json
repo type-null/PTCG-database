@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/manectric-deoxys-dx-38/",
+    "name": "Manectric",
+    "img": "https://pkmncards.com/wp-content/uploads/manectric-deoxys-dx-38.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DX",
+    "series": "EX",
+    "set_full_name": "Deoxys",
+    "set_code": "EX8",
+    "date": "Feb 14, 2005",
+    "number": "38",
+    "set_total": "107",
+    "rarity": "Uncommon",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thunder Spear",
+            "damage": null,
+            "effect": "Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Magnetic Tackle",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "You may do 40 damage plus 10 more damage for each {L} Energy attached to Manetric. If you do, Manetric does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Electrike"
+}

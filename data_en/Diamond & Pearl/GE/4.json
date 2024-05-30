@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/darkrai-great-encounters-ge-4/",
+    "name": "Darkrai",
+    "img": "https://pkmncards.com/wp-content/uploads/darkrai-great-encounters-ge-4.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GE",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Great Encounters",
+    "set_code": "DP4",
+    "date": "Feb 13, 2008",
+    "number": "4",
+    "set_total": "106",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "flavor_text": "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+    "stage": "Basic",
+    "level": "40",
+    "hp": 80,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Darkness Roar",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "You may have your opponent switch the Defending Pokémon with 1 or his or her Benched Pokémon."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Sleep Hole",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon is Asleep, this attack does 40 damage plus 40 more damage. If the Defending Pokémon is not Asleep, that Pokémon is now Asleep."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

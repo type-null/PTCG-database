@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/houndoom-dragons-exalted-drx-75/",
+    "name": "Houndoom",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW6-075-houndoom.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DRX",
+    "series": "Black & White",
+    "set_full_name": "Dragons Exalted",
+    "set_code": "BW6",
+    "date": "Aug 15, 2012",
+    "number": "75",
+    "set_total": "124",
+    "rarity": "Rare",
+    "author": [
+        "Akira Komayama"
+    ],
+    "flavor_text": "The flames it breathes when angry contain toxins. If they cause a burn, it will hurt forever.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Bite",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Fire Fang",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Burned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Houndour"
+}

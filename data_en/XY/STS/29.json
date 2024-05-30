@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/gastrodon-steam-siege-sts-29/",
+    "name": "Gastrodon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY11-029-gastrodon.jpg",
+    "card_type": "Pokémon",
+    "set_name": "STS",
+    "series": "XY",
+    "set_full_name": "Steam Siege",
+    "set_code": "XY11",
+    "date": "Aug 3, 2016",
+    "number": "29",
+    "set_total": "114",
+    "rarity": "Rare",
+    "author": [
+        "Aya Kusube"
+    ],
+    "flavor_text": "It apparently had a huge shell for protection in ancient times. It lives in shallow tidal pools.",
+    "stage": "Stage 1",
+    "hp": 110,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Sticky Shot",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, the Defending Pokémon’s attacks cost {C} more, and its Retreat Cost is {C} more."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Water"
+            ],
+            "name": "Water Pulse",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Your opponent’s Active Pokémon is now Asleep."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Shellos"
+}

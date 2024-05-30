@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/klinklang-brilliant-stars-brs-104/",
+    "name": "Klinklang",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH9-104-klinklang.jpg",
+    "card_type": "Pokémon",
+    "regulation": "F",
+    "set_name": "BRS",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Brilliant Stars",
+    "set_code": "SWSH9",
+    "date": "Feb 25, 2022",
+    "number": "104",
+    "set_total": "172",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "Megumi Higuchi"
+    ],
+    "flavor_text": "From its spikes, it launches powerful blasts of electricity. Its red core contains an enormous amount of energy.",
+    "stage": "Stage 2",
+    "hp": 150,
+    "types": [
+        "Metal"
+    ],
+    "abilities": [
+        {
+            "name": "Gear Wall",
+            "effect": "Your Basic Pokémon take 20 less damage from attacks from your opponent’s Pokémon (after applying Weakness and Resistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Tumbling Attack",
+            "damage": {
+                "amount": 90,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 90 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Klang"
+}

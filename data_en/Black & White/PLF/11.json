@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/leafeon-plasma-freeze-plf-11/",
+    "name": "Leafeon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW9-011-leafeon.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLF",
+    "series": "Black & White",
+    "set_full_name": "Plasma Freeze",
+    "set_code": "BW9",
+    "date": "May 8, 2013",
+    "number": "11",
+    "set_total": "116",
+    "rarity": "Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "flavor_text": "With cells similar to those of plants, it performs photosynthesis inside its body and creates pure air.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Energy Crush",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Does 20 damage times the amount of Energy attached to all of your opponent’s Pokémon."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Leaf Blade",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Eevee"
+}

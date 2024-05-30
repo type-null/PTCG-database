@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/skarmory-neo-genesis-n1-13/",
+    "name": "Skarmory",
+    "img": "https://pkmncards.com/wp-content/uploads/skarmory-neo-genesis-13.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N1",
+    "series": "Neo",
+    "set_full_name": "Neo Genesis",
+    "set_code": "N1",
+    "date": "Dec 16, 2000",
+    "number": "13",
+    "set_total": "111",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "Its sturdy wings look heavy, but they are actually hollow and light, allowing it to fly freely in the sky.",
+    "stage": "Basic",
+    "level": "30",
+    "hp": 60,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Claw",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, this attack does nothing."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Steel Wing",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, all damage done by attacks to Skarmory during your opponent’s next turn is reduced by 20 (after applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://pkmncards.com/card/wailord-legend-maker-lm-14/",
+    "name": "Wailord",
+    "img": "https://pkmncards.com/wp-content/uploads/wailord-legend-maker-lm-14.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LM",
+    "series": "EX",
+    "set_full_name": "Legend Maker",
+    "set_code": "EX12",
+    "date": "Feb 13, 2006",
+    "number": "14",
+    "set_total": "92",
+    "rarity": "Rare Holo",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Water"
+    ],
+    "poke_body": {
+        "name": "Reactive Lift",
+        "effect": "As long as Wailord has any React Energy cards attached to it, the Retreat Cost for each of your {W} Pokémon (excluding Pokémon-ex) is 0."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Hypno Splash",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Asleep."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Rely on Friends",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Does 40 damage plus 10 more damage for each of your Benched Stage 1 Evolved Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 4,
+    "evolve_from": "Wailmer"
+}

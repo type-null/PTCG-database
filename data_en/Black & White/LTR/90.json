@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/zoroark-legendary-treasures-ltr-90/",
+    "name": "Zoroark",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW11-090-zoroark.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LTR",
+    "series": "Black & White",
+    "set_full_name": "Legendary Treasures",
+    "set_code": "BW11",
+    "date": "Nov 6, 2013",
+    "number": "90",
+    "set_total": "113",
+    "rarity": "Rare Holo",
+    "author": [
+        "match"
+    ],
+    "flavor_text": "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Brutal Bash",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Does 20 damage times the number of {D} Pokémon you have in play."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Darkness"
+            ],
+            "name": "Dark Rush",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Does 20 damage times the number of damage counters on this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Zorua"
+}

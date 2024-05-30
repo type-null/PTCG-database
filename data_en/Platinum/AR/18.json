@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/glalie-arceus-ar-18/",
+    "name": "Glalie",
+    "img": "https://pkmncards.com/wp-content/uploads/glalie-arceus-ar-18.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AR",
+    "series": "Platinum",
+    "set_full_name": "Arceus",
+    "set_code": "PL4",
+    "date": "Nov 4, 2009",
+    "number": "18",
+    "set_total": "99",
+    "rarity": "Rare",
+    "author": [
+        "Hiroki Fuchino"
+    ],
+    "flavor_text": "It prevents prey from escaping by instantaneously freezing moisture in the air.",
+    "stage": "Stage 1",
+    "level": "46",
+    "hp": 90,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Wreck",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "If there is any Stadium card in play, this attack does 20 damage plus 50 more damage. Discard that Stadium card."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Avalanche",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Snorunt"
+}

@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/pangoro-breakpoint-bkp-75/",
+    "name": "Pangoro",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY9-075-pangoro.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BKP",
+    "series": "XY",
+    "set_full_name": "BREAKpoint",
+    "set_code": "XY9",
+    "date": "Feb 3, 2016",
+    "number": "75",
+    "set_total": "122",
+    "rarity": "Rare",
+    "author": [
+        "Naoki Saito"
+    ],
+    "flavor_text": "It charges ahead and bashes its opponents like a berserker, uncaring about any hits it might take. Its arms are mighty enough to snap a telephone pole.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Parting Shot",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Switch this Pokémon with 1 of your Benched Pokémon. During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 60 (before applying Weakness and Resistance)."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Darkness",
+                "Darkness"
+            ],
+            "name": "Buster Swing",
+            "damage": {
+                "amount": 90,
+                "suffix": ""
+            },
+            "effect": "This attack’s damage isn’t affected by Resistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Pancham"
+}

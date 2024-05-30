@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/rufflet-dragons-exalted-drx-111/",
+    "name": "Rufflet",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW6-111-rufflet.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DRX",
+    "series": "Black & White",
+    "set_full_name": "Dragons Exalted",
+    "set_code": "BW6",
+    "date": "Aug 15, 2012",
+    "number": "111",
+    "set_total": "124",
+    "rarity": "Common",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "flavor_text": "They crush berries with their talons. They bravely stand up to any opponent, no matter how strong it is.",
+    "stage": "Basic",
+    "hp": 50,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Chirp",
+            "damage": null,
+            "effect": "Search your deck for 2 Pokémon with {F} Resistance, reveal them, and put them into your hand. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Sharp Beak",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

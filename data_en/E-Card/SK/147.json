@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/crobat-skyridge-sk-147/",
+    "name": "Crobat",
+    "img": "https://pkmncards.com/wp-content/uploads/crobat-skyridge-sk-147.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SK",
+    "series": "E-Card",
+    "set_full_name": "Skyridge",
+    "set_code": "SK",
+    "date": "May 12, 2003",
+    "number": "147",
+    "set_total": "144",
+    "rarity": "Rare Secret",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "stage": "Stage 2",
+    "hp": 80,
+    "types": [
+        "Colorless"
+    ],
+    "poke_body": {
+        "name": "Crystal Type",
+        "effect": "Whenever you attach a {G}, {R}, or {P} basic Energy card from your hand to Crobat, Crobat’s type (color) becomes the same as that type of Energy until the end of the turn."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Poison Flame",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Burned and Poisoned."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Psychic",
+                "Psychic"
+            ],
+            "name": "Squared Attack",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip 4 coins. This attack does 20 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 0,
+    "evolve_from": "Golbat"
+}

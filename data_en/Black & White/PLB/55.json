@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/houndour-plasma-blast-plb-55/",
+    "name": "Houndour",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW10-055-houndour.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLB",
+    "series": "Black & White",
+    "set_full_name": "Plasma Blast",
+    "set_code": "BW10",
+    "date": "Aug 14, 2013",
+    "number": "55",
+    "set_total": "101",
+    "rarity": "Common",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "flavor_text": "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Roar",
+            "damage": null,
+            "effect": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Ambush",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

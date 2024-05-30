@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/manectric-primal-clash-prc-61/",
+    "name": "Manectric",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY5-061-manectric.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PRC",
+    "series": "XY",
+    "set_full_name": "Primal Clash",
+    "set_code": "XY5",
+    "date": "Feb 4, 2015",
+    "number": "61",
+    "set_total": "160",
+    "rarity": "Rare Holo",
+    "author": [
+        "Naoki Saito"
+    ],
+    "flavor_text": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Lightning Turn",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Switch this Pokémon with 1 of your Benched Pokémon."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Electric Shock",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": "Discard all {L} Energy attached to this Pokémon. Your opponent’s Active Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Electrike"
+}

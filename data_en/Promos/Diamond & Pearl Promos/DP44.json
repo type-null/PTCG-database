@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/magnezone-diamond-pearl-promos-dp44/",
+    "name": "Magnezone",
+    "img": "https://pkmncards.com/wp-content/uploads/magnezone-diamond-pearl-promos-dp44.jpg",
+    "card_type": "Pokémon",
+    "set_name": "Diamond & Pearl Promos",
+    "series": "Promos",
+    "set_full_name": "Diamond & Pearl Promos",
+    "set_code": "Diamond & Pearl Promos",
+    "date": "Mar 6, 2009",
+    "number": "DP44",
+    "set_total": null,
+    "rarity": "Promo",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
+    "stage": "Stage 2",
+    "level": "53",
+    "hp": 130,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Charge Beam",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Search your discard pile for an Energy card and attach it to Magnezone."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Metallic Bolt",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "You may discard a {L} Energy and a {M} Energy attached to Magnezone. If you do, this attack’s base damage is 120 instead of 60."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Magneton"
+}

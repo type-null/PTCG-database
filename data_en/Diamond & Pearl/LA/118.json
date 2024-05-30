@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/shinx-legends-awakened-la-118/",
+    "name": "Shinx",
+    "img": "https://pkmncards.com/wp-content/uploads/shinx-legends-awakened-la-118.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LA",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Legends Awakened",
+    "set_code": "DP6",
+    "date": "Aug 20, 2008",
+    "number": "118",
+    "set_total": "146",
+    "rarity": "Common",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
+    "stage": "Basic",
+    "level": "6",
+    "hp": 50,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Recharge",
+            "damage": null,
+            "effect": "Search your deck for a {L} Energy card attach it to Shinx. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Double Kick",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 20 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

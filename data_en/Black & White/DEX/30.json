@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/glaceon-dark-explorers-dex-30/",
+    "name": "Glaceon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW5-030-glaceon.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DEX",
+    "series": "Black & White",
+    "set_full_name": "Dark Explorers",
+    "set_code": "BW5",
+    "date": "May 9, 2012",
+    "number": "30",
+    "set_total": "108",
+    "rarity": "Rare",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "flavor_text": "By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Reflect Energy",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Move an Energy from this Pokémon to 1 of your Benched Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee"
+}

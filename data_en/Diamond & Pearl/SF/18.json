@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/gengar-stormfront-sf-18/",
+    "name": "Gengar",
+    "img": "https://pkmncards.com/wp-content/uploads/gengar-stormfront-sf-18.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "18",
+    "set_total": "100",
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "stage": "Stage 2",
+    "level": "43",
+    "hp": 110,
+    "types": [
+        "Psychic"
+    ],
+    "poke_power": {
+        "name": "Fainting Spell",
+        "effect": "Once during your opponent’s turn, if Gengar would be Knocked Out by damage from an attack, you may flip a coin. If heads, the Defending Pokémon is Knocked Out."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Shadow Room",
+            "damage": null,
+            "effect": "Put 3 damage counters on 1 of your opponent’s Pokémon. If that Pokémon has any Poké-Powers, put 6 damage counters on that Pokémon instead."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Poltergeist",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Look at your opponent’s hand. This attack does 30 damage times the number of Trainer, Supporter, and Stadium cards in your opponent’s hand."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Darkness"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Colorless"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Haunter"
+}

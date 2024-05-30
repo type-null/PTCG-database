@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/omastar-fossil-fo-40/",
+    "name": "Omastar",
+    "img": "https://pkmncards.com/wp-content/uploads/omastar-fossil-fo-40.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FO",
+    "series": "Classic",
+    "set_full_name": "Fossil",
+    "set_code": "FO",
+    "date": "Oct 10, 1999",
+    "number": "40",
+    "set_total": "62",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "A prehistoric Pokémon that died out when its heavy shell made it impossible for it to catch prey.",
+    "stage": "Stage 2",
+    "level": "32",
+    "hp": 70,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Water Gun",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Does 20 damage plus 10 more damage for each {W} Energy attached to Omastar but not used to pay for this attack’s Energy cost. You can’t add more than 20 damage in this way."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water"
+            ],
+            "name": "Spike Cannon",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 30 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Omanyte"
+}

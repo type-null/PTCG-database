@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/maractus-plasma-storm-pls-11/",
+    "name": "Maractus",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW8-011-maractus.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLS",
+    "series": "Black & White",
+    "set_full_name": "Plasma Storm",
+    "set_code": "BW8",
+    "date": "Feb 6, 2013",
+    "number": "11",
+    "set_total": "135",
+    "rarity": "Uncommon",
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "flavor_text": "When it moves rhythmically, it makes a sound similar to maracas, making the surprised Pokémon flee.",
+    "stage": "Basic",
+    "hp": 90,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Dazzle Dance",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Ambush",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

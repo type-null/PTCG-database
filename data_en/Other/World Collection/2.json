@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/pikachu-world-collection-2/",
+    "name": "Pikachu",
+    "img": "https://pkmncards.com/wp-content/uploads/pikachu-world-collection-italian.jpg",
+    "card_type": "Pokémon",
+    "set_name": "World Collection",
+    "series": "Other",
+    "set_full_name": "World Collection",
+    "set_code": "World Collection",
+    "date": "Nov 27, 2010",
+    "number": "2",
+    "set_total": "9",
+    "rarity": "No Rarity",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Solleva la coda per esaminare l’ambiente circostante. A volte la coda è colpita da un fulmine quando è in questa posizione.",
+    "stage": "Basic",
+    "hp": 50,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Ciao!",
+            "damage": null,
+            "effect": "Saluta il tuo avversario. Poi ogni giocatore pesca una carta."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Fulmine",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Scarta tutte le Energie assegnate a Pikachu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

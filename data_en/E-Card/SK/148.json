@@ -1,0 +1,67 @@
+{
+    "url": "https://pkmncards.com/card/golem-skyridge-sk-148/",
+    "name": "Golem",
+    "img": "https://pkmncards.com/wp-content/uploads/golem-skyridge-sk-148.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SK",
+    "series": "E-Card",
+    "set_full_name": "Skyridge",
+    "set_code": "SK",
+    "date": "May 12, 2003",
+    "number": "148",
+    "set_total": "144",
+    "rarity": "Rare Secret",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Stage 2",
+    "hp": 100,
+    "types": [
+        "Colorless"
+    ],
+    "poke_body": {
+        "name": "Crystal Type",
+        "effect": "Whenever you attach a {G}, {R}, or {F} basic Energy card from your hand to Golem, Golem’s type (color) becomes the same as that type of Energy until the end of the turn."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Rock Throw",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Grass",
+                "Fire",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Earth Bomb",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Golem does 20 damage to itself. This attack also does 10 damage to each Benched Pokémon (yours and your opponent’s). (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 4,
+    "evolve_from": "Graveler"
+}

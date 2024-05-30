@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/grimer-team-rocket-ro-57/",
+    "name": "Grimer",
+    "img": "https://pkmncards.com/wp-content/uploads/grimer-team-rocket-tr-57.jpg",
+    "card_type": "Pokémon",
+    "set_name": "RO",
+    "series": "Classic",
+    "set_full_name": "Team Rocket",
+    "set_code": "RO",
+    "date": "Apr 24, 2000",
+    "number": "57",
+    "set_total": "82",
+    "rarity": "Common",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "It has recently been found that Grimers are formed in waste-processing plants, and can move into towns via sewers.",
+    "stage": "Basic",
+    "level": "10",
+    "hp": 40,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Poison Gas",
+            "damage": null,
+            "effect": "The Defending Pokémon is now Asleep."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass"
+            ],
+            "name": "Sticky Hands",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage and the Defending Pokémon is now Paralyzed; if tails, this attack does 10 damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

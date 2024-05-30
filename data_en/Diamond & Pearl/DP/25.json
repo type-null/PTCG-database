@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/dustox-diamond-pearl-dp-25/",
+    "name": "Dustox",
+    "img": "https://pkmncards.com/wp-content/uploads/dustox-diamond-pearl-dp-25.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DP",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Diamond & Pearl",
+    "set_code": "DP1",
+    "date": "May 23, 2007",
+    "number": "25",
+    "set_total": "130",
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "A nocturnal Pokémon. Drawn by streetlights, they messily eat the leaves of trees lining boulevards.",
+    "stage": "Stage 2",
+    "level": "34",
+    "hp": 120,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Stun Spore",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Toxic Dust",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Cascoon"
+}

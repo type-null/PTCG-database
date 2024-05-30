@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/scizor-paldean-fates-paf-191/",
+    "name": "Scizor",
+    "img": "https://pkmncards.com/wp-content/uploads/sv4-5_en_191_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "G",
+    "set_name": "PAF",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "Paldean Fates",
+    "set_code": "sv4-5",
+    "date": "Jan 26, 2024",
+    "number": "191",
+    "set_total": "091",
+    "rarity": "Shiny Rare",
+    "rarity_img": null,
+    "author": [
+        "GOSSAN"
+    ],
+    "flavor_text": "This Pokémon’s pincers, which contain steel, can crush any hard object they get ahold of into bits.",
+    "stage": "Stage 1",
+    "hp": 140,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Punishing Scissors",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "This attack does 50 more damage for each of your opponent’s Pokémon in play that has an Ability."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal"
+            ],
+            "name": "Cut",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Scyther"
+}

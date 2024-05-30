@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/pangoro-forbidden-light-fli-78/",
+    "name": "Pangoro",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM6-078-pangoro.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FLI",
+    "series": "Sun & Moon",
+    "set_full_name": "Forbidden Light",
+    "set_code": "SM6",
+    "date": "May 4, 2018",
+    "number": "78",
+    "set_total": "131",
+    "rarity": "Rare",
+    "author": [
+        "SATOSHI NAKAI"
+    ],
+    "flavor_text": "From the slight twitches of its bamboo leaf, it deduces its opponent’s movements. It’s eager to tussle but kindhearted toward its companions.",
+    "stage": "Stage 1",
+    "hp": 130,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Untamed Punch",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If this Pokémon has any damage counters on it, this attack does 50 more damage, and both Active Pokémon are now Confused."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Double Stomp",
+            "damage": {
+                "amount": 80,
+                "suffix": "+"
+            },
+            "effect": "Flip 2 coins. This attack does 40 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Pancham"
+}

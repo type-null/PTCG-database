@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/dialga-majestic-dawn-md-4/",
+    "name": "Dialga",
+    "img": "https://pkmncards.com/wp-content/uploads/dialga-majestic-dawn-md-4.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MD",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Majestic Dawn",
+    "set_code": "DP5",
+    "date": "May 21, 2008",
+    "number": "4",
+    "set_total": "100",
+    "rarity": "Rare Holo",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "stage": "Basic",
+    "level": "63",
+    "hp": 100,
+    "types": [
+        "Metal"
+    ],
+    "held_item": {
+        "item": "Adamant Orb",
+        "effect": " If an Active Pokémon has Weakness to {M} type, Dialga’s attacks do 20 more damage to that Pokémon (before applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Time Shift",
+            "damage": null,
+            "effect": "Draw cards until you have 6 cards in your hand."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Diamond Blast",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 60 damage plus 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3
+}

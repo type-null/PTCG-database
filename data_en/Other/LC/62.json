@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/sandslash-legendary-collection-lc-62/",
+    "name": "Sandslash",
+    "img": "https://pkmncards.com/wp-content/uploads/sandslash-legendary-collection-lc-62.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LC",
+    "series": "Other",
+    "set_full_name": "Legendary Collection",
+    "set_code": "LC",
+    "date": "May 24, 2002",
+    "number": "62",
+    "set_total": "110",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
+    "stage": "Stage 1",
+    "level": "33",
+    "hp": 70,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Slash",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Fury Swipes",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 20 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Sandshrew"
+}

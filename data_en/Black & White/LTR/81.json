@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/gallade-legendary-treasures-ltr-81/",
+    "name": "Gallade",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW11-081-gallade.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LTR",
+    "series": "Black & White",
+    "set_full_name": "Legendary Treasures",
+    "set_code": "BW11",
+    "date": "Nov 6, 2013",
+    "number": "81",
+    "set_total": "113",
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "flavor_text": "When trying to protect someone, it extends its elbows as if they were swords and fights savagely.",
+    "stage": "Stage 2",
+    "hp": 140,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Nerve Shot",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Pandemonium Blade",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Does 20 more damage for each of your Benched Pokémon that has any damage counters on it."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Kirlia"
+}

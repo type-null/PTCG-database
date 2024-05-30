@@ -1,0 +1,70 @@
+{
+    "url": "https://pkmncards.com/card/mawile-supreme-victors-sv-33/",
+    "name": "Mawile",
+    "img": "https://pkmncards.com/wp-content/uploads/mawile-supreme-victors-sv-33.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SV",
+    "series": "Platinum",
+    "set_full_name": "Supreme Victors",
+    "set_code": "PL3",
+    "date": "Aug 19, 2009",
+    "number": "33",
+    "set_total": "147",
+    "rarity": "Rare",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "stage": "Basic",
+    "level": "41",
+    "hp": 70,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Turnaround Standby",
+            "damage": null,
+            "effect": "During your next turn, any damage done by Mawile’s Swallow or Bite to your opponent’s Active Pokémon is increased by 40 (before applying Weakness and Resistance)."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Swallow",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Remove from Mawile the number of damage counters equal to the damage you did to the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Bite",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

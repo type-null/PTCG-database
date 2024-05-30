@@ -1,0 +1,69 @@
+{
+    "url": "https://pkmncards.com/card/voltorb-stormfront-sf-sh3/",
+    "name": "Voltorb",
+    "img": "https://pkmncards.com/wp-content/uploads/voltorb-stormfront-sf-sh3.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "SH3",
+    "set_total": "100",
+    "rarity": "Rare",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "stage": "Basic",
+    "level": "33",
+    "hp": 60,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Fastball",
+            "damage": null,
+            "effect": "Choose 1 of your opponent’s Pokémon. Flip a coin. If heads, this attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Charge Beam",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Search your discard pile for a {L} Energy card and attach it to Voltorb."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thundershock",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

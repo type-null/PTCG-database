@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/blastoise-crystal-guardians-cg-2/",
+    "name": "Blastoise",
+    "img": "https://pkmncards.com/wp-content/uploads/blastoise-delta-crystal-guardians-cg-2.jpg",
+    "card_type": "Pokémon",
+    "set_name": "CG",
+    "series": "EX",
+    "set_full_name": "Crystal Guardians",
+    "set_code": "EX14",
+    "date": "Aug 30, 2006",
+    "number": "2",
+    "set_total": "100",
+    "rarity": "Rare Holo",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "stage": "Stage 2",
+    "hp": 110,
+    "types": [
+        "Fighting",
+        "Metal"
+    ],
+    "poke_body": {
+        "name": "Shield Veil",
+        "effect": "Each of your Active Pokémon has no Weakness."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Enraged Linear Attack",
+            "damage": null,
+            "effect": "Choose 1 of your opponent’s Pokémon. This attack does 10 damage for each damage counter on Blastoise to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Skull Bash",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "rule_box": "This Pokémon is both {F}{M} type.",
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Wartortle"
+}

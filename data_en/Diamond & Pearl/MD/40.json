@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/manectric-majestic-dawn-md-40/",
+    "name": "Manectric",
+    "img": "https://pkmncards.com/wp-content/uploads/manectric-majestic-dawn-md-40.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MD",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Majestic Dawn",
+    "set_code": "DP5",
+    "date": "May 21, 2008",
+    "number": "40",
+    "set_total": "100",
+    "rarity": "Uncommon",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "flavor_text": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+    "stage": "Stage 1",
+    "level": "34",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thunder Wave",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Volt Crush",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, discard an Energy attached to Manectric and this attack does 40 damage plus 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Electrike"
+}

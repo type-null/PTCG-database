@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/medicham-hidden-legends-hl-42/",
+    "name": "Medicham",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-EX5-042-medicham.jpg",
+    "card_type": "Pokémon",
+    "set_name": "HL",
+    "series": "EX",
+    "set_full_name": "Hidden Legends",
+    "set_code": "EX5",
+    "date": "Jun 14, 2004",
+    "number": "42",
+    "set_total": "101",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Steady Punch",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Power Heal",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Does 10 damage plus 10 more damage for each damage counter on Medicham. After doing damage, remove 1 damage counter from Medicham."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Meditite"
+}

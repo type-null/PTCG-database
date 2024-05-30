@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/houndoom-legends-awakened-la-57/",
+    "name": "Houndoom",
+    "img": "https://pkmncards.com/wp-content/uploads/houndoom-legends-awakened-la-57.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LA",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Legends Awakened",
+    "set_code": "DP6",
+    "date": "Aug 20, 2008",
+    "number": "57",
+    "set_total": "146",
+    "rarity": "Uncommon",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "Long ago, people imagined its eerie howls to be the call of the grim reaper.",
+    "stage": "Stage 1",
+    "level": "45",
+    "hp": 80,
+    "types": [
+        "Fire"
+    ],
+    "poke_body": {
+        "name": "Revenge Fang",
+        "effect": " If you have less Benched Pokémon than your opponent, each of Houndoom’s attacks does 40 more damage to the Active Pokémon (before applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Burning Sensation",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Burned."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire"
+            ],
+            "name": "Bright Flame",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, discard 2 {R} Energy attached to Houndoom."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Houndour"
+}

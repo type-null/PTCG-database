@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/dark-quilava-neo-destiny-n4-39/",
+    "name": "Dark Quilava",
+    "img": "https://pkmncards.com/wp-content/uploads/dark-quilava-neo-destiny-39.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N4",
+    "series": "Neo",
+    "set_full_name": "Neo Destiny",
+    "set_code": "N4",
+    "date": "Feb 28, 2002",
+    "number": "39",
+    "set_total": "105",
+    "rarity": "Uncommon",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "If it turns its back to an opponent, it is a sign that it is getting ready to attack.",
+    "stage": "Stage 1",
+    "level": "27",
+    "hp": 60,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Incinerate",
+            "damage": null,
+            "effect": "Show the top card of your opponent’s deck to all players. If it’s a Trainer card, discard it."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire"
+            ],
+            "name": "Rushing Magma",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Discard the top 5 cards of your deck. (If there are fewer than 5 cards in your deck, discard all of them.) This attack does 20 damage for each {R} Energy card you discarded in this way."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Cyndaquil"
+}

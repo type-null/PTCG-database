@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/dewgong-dragon-frontiers-df-15/",
+    "name": "Dewgong",
+    "img": "https://pkmncards.com/wp-content/uploads/dewgong-delta-dragon-frontiers-df-15.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DF",
+    "series": "EX",
+    "set_full_name": "Dragon Frontiers",
+    "set_code": "EX15",
+    "date": "Nov 8, 2006",
+    "number": "15",
+    "set_total": "101",
+    "rarity": "Rare",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Colorless"
+    ],
+    "poke_body": {
+        "name": "Delta Protection",
+        "effect": "Any damage done to Dewgong by attacks from your opponent’s Pokémon that has δ on its card is reduced by 40 (after applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Ice Beam",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Surge",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "If Dewgong has at least 2 {W} Energy attached to it, this attack does 40 damage plus 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Seel"
+}

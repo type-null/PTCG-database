@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/zoroark-dark-explorers-dex-71/",
+    "name": "Zoroark",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW5-071-zoroark.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DEX",
+    "series": "Black & White",
+    "set_full_name": "Dark Explorers",
+    "set_code": "BW5",
+    "date": "May 9, 2012",
+    "number": "71",
+    "set_total": "108",
+    "rarity": "Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "flavor_text": "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Brutal Bash",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Does 20 damage times the number of {D} Pokémon you have in play."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Darkness"
+            ],
+            "name": "Dark Rush",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Does 20 damage times the number of damage counters on this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Zorua"
+}

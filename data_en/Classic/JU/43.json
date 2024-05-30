@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/primeape-jungle-ju-43/",
+    "name": "Primeape",
+    "img": "https://pkmncards.com/wp-content/uploads/primeape-jungle-ju-43.jpg",
+    "card_type": "Pokémon",
+    "set_name": "JU",
+    "series": "Classic",
+    "set_full_name": "Jungle",
+    "set_code": "JU",
+    "date": "Jun 16, 1999",
+    "number": "43",
+    "set_total": "64",
+    "rarity": "Uncommon",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "Always furious and tenacious to boot. It will not abandon chasing its quarry until its quarry is caught.",
+    "stage": "Stage 1",
+    "level": "35",
+    "hp": 70,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Fury Swipes",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 20 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Tantrum",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, Primeape is now Confused (after doing damage)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Mankey"
+}

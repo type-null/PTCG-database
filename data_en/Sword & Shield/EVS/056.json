@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/ampharos-evolving-skies-evs-056/",
+    "name": "Ampharos",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH7-056-ampharos.jpg",
+    "card_type": "Pokémon",
+    "regulation": "E",
+    "set_name": "EVS",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Evolving Skies",
+    "set_code": "SWSH7",
+    "date": "Aug 27, 2021",
+    "number": "056",
+    "set_total": "203",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "Saya Tsuruta"
+    ],
+    "flavor_text": "Its tail shines bright and strong. It has been prized since long ago as a beacon for sailors.",
+    "stage": "Stage 2",
+    "hp": 150,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thunder Shock",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Electron Crush",
+            "damage": {
+                "amount": 100,
+                "suffix": "+"
+            },
+            "effect": "You may discard 3 {L} Energy from this Pokémon. If you do, this attack does 120 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Flaaffy"
+}

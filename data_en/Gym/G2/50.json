@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/kogas-weezing-gym-challenge-g2-50/",
+    "name": "Koga’s Weezing",
+    "img": "https://pkmncards.com/wp-content/uploads/kogas-weezing-gym-challenge-50.jpg",
+    "card_type": "Pokémon",
+    "set_name": "G2",
+    "series": "Gym",
+    "set_full_name": "Gym Challenge",
+    "set_code": "G2",
+    "date": "Oct 16, 2000",
+    "number": "50",
+    "set_total": "132",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "stage": "Stage 1",
+    "level": "31",
+    "hp": 70,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Grass"
+            ],
+            "name": "Spontaneous Explosion",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage plus 30 more damage and Koga’s Weezing does 30 damage to itself; if tails, this attack does 10 damage."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Toxic Cloud",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, this Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player’s turn (even if it was already Poisoned)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Koga’s Koffing"
+}

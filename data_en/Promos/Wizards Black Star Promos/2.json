@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/electabuzz-wizards-black-star-promos-2/",
+    "name": "Electabuzz",
+    "img": "https://pkmncards.com/wp-content/uploads/electabuzz-wizards-black-star-promos-2.jpg",
+    "card_type": "Pokémon",
+    "set_name": "Wizards Black Star Promos",
+    "series": "Promos",
+    "set_full_name": "Wizards Black Star Promos",
+    "set_code": "Wizards Black Star Promos",
+    "date": "Nov 12, 1999",
+    "number": "2",
+    "set_total": null,
+    "rarity": "Promo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "A wild Pokémon with a short temper. It is able to distinguish colors, and likes the color red.",
+    "stage": "Basic",
+    "level": "20",
+    "hp": 60,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Light Screen",
+            "damage": null,
+            "effect": "Whenever an attack does damage to Electabuzz (after applying Weakness and Resistance) during your opponent’s next turn, that attack only does half the damage to Electabuzz (rounded down to the nearest 10). (Any other effects of attacks still happen.)"
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

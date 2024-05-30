@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/poliwrath-151-mew-062/",
+    "name": "Poliwrath",
+    "img": "https://pkmncards.com/wp-content/uploads/sv3-5_en_062_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "G",
+    "set_name": "MEW",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "151",
+    "set_code": "sv3-5",
+    "date": "Sep 22, 2023",
+    "number": "062",
+    "set_total": "165",
+    "rarity": "Uncommon",
+    "rarity_img": null,
+    "author": [
+        "Kurata So"
+    ],
+    "flavor_text": "Poliwrath is skilled at both swimming and martial arts. It uses its well-trained arms to dish out powerful punches.",
+    "stage": "Stage 2",
+    "hp": 160,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Bubble Beam",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Heroic Punch",
+            "damage": {
+                "amount": 100,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 150 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Poliwhirl"
+}

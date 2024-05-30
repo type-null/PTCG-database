@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/diancie-generations-gen-rc22/",
+    "name": "Diancie",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-TwentiethAnn-RC22-diancie.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GEN",
+    "series": "XY",
+    "set_full_name": "Generations",
+    "set_code": "GEN",
+    "date": "Feb 22, 2016",
+    "number": "RC22",
+    "set_total": "RC32",
+    "rarity": "Uncommon",
+    "author": [
+        "Mizue"
+    ],
+    "flavor_text": "Open the magic door and a dream-colored party will start again today. I’ll teach you the secret password.",
+    "stage": "Basic",
+    "hp": 90,
+    "types": [
+        "Fairy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fairy"
+            ],
+            "name": "Sparkle",
+            "damage": null,
+            "effect": "If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing."
+        },
+        {
+            "cost": [
+                "Fairy",
+                "Fairy",
+                "Colorless"
+            ],
+            "name": "Diamond Storm",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Heal 30 damage from each of your {Y} Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Darkness"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

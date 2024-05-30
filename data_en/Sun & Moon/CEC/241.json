@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/pikachu-cosmic-eclipse-cec-241/",
+    "name": "Pikachu",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM12-241-pikachu.jpg",
+    "card_type": "Pokémon",
+    "set_name": "CEC",
+    "series": "Sun & Moon",
+    "set_full_name": "Cosmic Eclipse",
+    "set_code": "SM12",
+    "date": "Nov 1, 2019",
+    "number": "241",
+    "set_total": "236",
+    "rarity": "Rare Secret",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "flavor_text": "Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning.",
+    "stage": "Basic",
+    "hp": 70,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Nuzzle",
+            "damage": null,
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Volt Tackle",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": "This Pokémon does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

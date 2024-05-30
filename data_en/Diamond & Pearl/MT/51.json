@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/graveler-mysterious-treasures-mt-51/",
+    "name": "Graveler",
+    "img": "https://pkmncards.com/wp-content/uploads/graveler-mysterious-treasures-mt-51.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MT",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Mysterious Treasures",
+    "set_code": "DP2",
+    "date": "Aug 22, 2007",
+    "number": "51",
+    "set_total": "123",
+    "rarity": "Uncommon",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "GRAVELER make their homes on sheer cliff faces by gouging out numerous horizontal holes.",
+    "stage": "Stage 1",
+    "level": "34",
+    "hp": 90,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Rock Cannon",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 30 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Rock Slide",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Does 10 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Geodude"
+}

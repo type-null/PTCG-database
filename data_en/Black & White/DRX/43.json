@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/manectric-dragons-exalted-drx-43/",
+    "name": "Manectric",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW6-043-manectric.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DRX",
+    "series": "Black & White",
+    "set_full_name": "Dragons Exalted",
+    "set_code": "BW6",
+    "date": "Aug 15, 2012",
+    "number": "43",
+    "set_total": "124",
+    "rarity": "Rare",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "flavor_text": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Energy Crush",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Does 20 damage times the amount of Energy attached to all of your opponent’s Pokémon."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Flash Impact",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Does 20 damage to 1 of your Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 0,
+    "evolve_from": "Electrike"
+}

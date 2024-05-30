@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/leafeon-majestic-dawn-md-7/",
+    "name": "Leafeon",
+    "img": "https://pkmncards.com/wp-content/uploads/leafeon-majestic-dawn-md-7.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MD",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Majestic Dawn",
+    "set_code": "DP5",
+    "date": "May 21, 2008",
+    "number": "7",
+    "set_total": "100",
+    "rarity": "Rare Holo",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "Just like a plant, it uses photosynthesis. As a result, it is always enveloped in clear air.",
+    "stage": "Stage 1",
+    "level": "42",
+    "hp": 90,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Bind Down",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon can’t retreat during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Leaf Guard",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done to Leafeon by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Eevee"
+}

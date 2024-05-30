@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/banette-power-keepers-pk-4/",
+    "name": "Banette",
+    "img": "https://pkmncards.com/wp-content/uploads/banette-power-keepers-pk-4.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PK",
+    "series": "EX",
+    "set_full_name": "Power Keepers",
+    "set_code": "EX16",
+    "date": "Feb 14, 2007",
+    "number": "4",
+    "set_total": "108",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Grudge",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Does 20 damage plus 10 more damage for each Prize card your opponent has taken."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Bench Manipulation",
+            "damage": {
+                "amount": 40,
+                "suffix": "×"
+            },
+            "effect": "Your opponent flips a number of coins equal to the number of his or her Benched Pokémon. This attack does 40 damage times the number of tails. This attack’s damage isn’t affected by Weakness or Resistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Darkness"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Shuppet"
+}

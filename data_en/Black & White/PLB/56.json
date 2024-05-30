@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/houndoom-plasma-blast-plb-56/",
+    "name": "Houndoom",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW10-056-houndoom.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLB",
+    "series": "Black & White",
+    "set_full_name": "Plasma Blast",
+    "set_code": "BW10",
+    "date": "Aug 14, 2013",
+    "number": "56",
+    "set_total": "101",
+    "rarity": "Rare Holo",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "flavor_text": "The flames it breathes when angry contain toxins. If they cause a burn, it will hurt forever.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Dark Clamp",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon can’t retreat during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Blazing Claws",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon is a Team Plasma Pokémon, this attack does 60 more damage, and the Defending Pokémon is now Burned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Houndour"
+}

@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/nidorino-plasma-freeze-plf-44/",
+    "name": "Nidorino",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW9-044-nidorino.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLF",
+    "series": "Black & White",
+    "set_full_name": "Plasma Freeze",
+    "set_code": "BW9",
+    "date": "May 8, 2013",
+    "number": "44",
+    "set_total": "116",
+    "rarity": "Uncommon",
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "flavor_text": "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Double Kick",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 30 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Horn Attack",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Nidoran Male"
+}

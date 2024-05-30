@@ -1,0 +1,68 @@
+{
+    "url": "https://pkmncards.com/card/hippowdon-rising-rivals-rr-25/",
+    "name": "Hippowdon",
+    "img": "https://pkmncards.com/wp-content/uploads/hippowdon-rising-rivals-rr-25.jpg",
+    "card_type": "Pokémon",
+    "set_name": "RR",
+    "series": "Platinum",
+    "set_full_name": "Rising Rivals",
+    "set_code": "PL2",
+    "date": "May 20, 2009",
+    "number": "25",
+    "set_total": "111",
+    "rarity": "Rare",
+    "author": [
+        "Tomoaki Imakuni"
+    ],
+    "stage": "Stage 1",
+    "level": "48",
+    "hp": 110,
+    "types": [
+        "Fighting"
+    ],
+    "poke_body": {
+        "name": "Sand Cover",
+        "effect": "As long as Hippowdon is your Active Pokémon, put 1 damage counter on each of your opponent’s Pokémon LV.X between turns."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Save Sand",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Does 20 damage plus 10 more damage for each Energy attached to Hippowdon. Before doing damage, you may search your discard pile for a {F} Energy card and attach it to Hippowdon."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Groundquake",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Does 10 damage to each Benched Pokémon that isn’t an Evolved Pokémon (both yours and your opponent’s). (Don’t apply Weakness and Resistance for Benched Pokémon)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Hippopotas"
+}

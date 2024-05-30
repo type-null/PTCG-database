@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/marowak-dragons-exalted-drx-61/",
+    "name": "Marowak",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW6-061-marowak.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DRX",
+    "series": "Black & White",
+    "set_full_name": "Dragons Exalted",
+    "set_code": "BW6",
+    "date": "Aug 15, 2012",
+    "number": "61",
+    "set_total": "124",
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "From its birth, this savage Pokémon constantly holds bones. It is skilled in using them as weapons.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Bone Lock",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon can’t retreat during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Vortex Chop",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon has any Resistance, this attack does 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Cubone"
+}

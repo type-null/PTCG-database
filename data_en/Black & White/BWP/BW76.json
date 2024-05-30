@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/electrode-black-white-promos-bwp-bw76/",
+    "name": "Electrode",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-Promo_BW-BW76-electrode.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BWP",
+    "series": "Black & White",
+    "set_full_name": "Black & White Promos",
+    "set_code": "BWP",
+    "date": "May 14, 2013",
+    "number": "BW76",
+    "set_total": null,
+    "rarity": "Promo",
+    "author": [
+        "5ban Graphics"
+    ],
+    "flavor_text": "It is known to drift on winds if it is bloated to bursting with stored electricity.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Electribeam",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Self Destruct",
+            "damage": {
+                "amount": 100,
+                "suffix": ""
+            },
+            "effect": "This Pokémon does 100 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 0,
+    "evolve_from": "Voltorb"
+}

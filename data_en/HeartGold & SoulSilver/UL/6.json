@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/octillery-unleashed-ul-6/",
+    "name": "Octillery",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS2-006-octillery.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UL",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Unleashed",
+    "set_code": "HGSS2",
+    "date": "May 12, 2010",
+    "number": "6",
+    "set_total": "95",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "It traps foes with the suction cups on its tentacles, then smashes them with its rock-hard head.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Switch Cannon",
+            "damage": null,
+            "effect": "Choose 1 of your opponent’s Pokémon. This attack does 30 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) Switch Octillery with 1 of your Benched Pokémon."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Ink Bomb",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Remoraid"
+}

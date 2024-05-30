@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/dark-arbok-team-rocket-ro-19/",
+    "name": "Dark Arbok",
+    "img": "https://pkmncards.com/wp-content/uploads/dark-arbok-team-rocket-tr-19.jpg",
+    "card_type": "Pokémon",
+    "set_name": "RO",
+    "series": "Classic",
+    "set_full_name": "Team Rocket",
+    "set_code": "RO",
+    "date": "Apr 24, 2000",
+    "number": "19",
+    "set_total": "82",
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Freezes its prey with its stare. If you should encounter one, remember not to look into its eyes.",
+    "stage": "Stage 1",
+    "level": "25",
+    "hp": 60,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Grass"
+            ],
+            "name": "Stare",
+            "damage": null,
+            "effect": "Choose 1 of your opponent’s Pokémon. This attack does 10 damage to that Pokémon. Don’t apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.) If that Pokémon has a Pokémon Power, that power stops working until the end of your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Grass"
+            ],
+            "name": "Poison Vapor",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Poisoned. This attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Ekans"
+}

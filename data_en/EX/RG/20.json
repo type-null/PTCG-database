@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/cloyster-firered-leafgreen-rg-20/",
+    "name": "Cloyster",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-EX06-020-cloyster.jpg",
+    "card_type": "Pokémon",
+    "set_name": "RG",
+    "series": "EX",
+    "set_full_name": "FireRed & LeafGreen",
+    "set_code": "EX6",
+    "date": "Aug 30, 2004",
+    "number": "20",
+    "set_total": "112",
+    "rarity": "Rare",
+    "author": [
+        "Aya Kusube"
+    ],
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Water"
+    ],
+    "poke_body": {
+        "name": "Exoskeleton",
+        "effect": "Any damage done to Cloyster by attacks is reduced by 20 (after applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Double Bubble",
+            "damage": {
+                "amount": 10,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 10 damage times the number of heads. If either of the coins is heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Shell Attack",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Shellder"
+}

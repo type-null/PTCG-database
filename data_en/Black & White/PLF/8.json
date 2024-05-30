@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/sceptile-plasma-freeze-plf-8/",
+    "name": "Sceptile",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW9-008-sceptile.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLF",
+    "series": "Black & White",
+    "set_full_name": "Plasma Freeze",
+    "set_code": "BW9",
+    "date": "May 8, 2013",
+    "number": "8",
+    "set_total": "116",
+    "rarity": "Rare Holo",
+    "author": [
+        "kawayoo"
+    ],
+    "flavor_text": "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.",
+    "stage": "Stage 2",
+    "hp": 130,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "X-Scissor",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 40 more damage."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Energy Bloom",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Heal 20 damage from each of your Pokémon that has any Energy attached to it."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Grovyle"
+}

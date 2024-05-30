@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/eevee-jungle-ju-51/",
+    "name": "Eevee",
+    "img": "https://pkmncards.com/wp-content/uploads/eevee-jungle-ju-51.jpg",
+    "card_type": "Pokémon",
+    "set_name": "JU",
+    "series": "Classic",
+    "set_full_name": "Jungle",
+    "set_code": "JU",
+    "date": "Jun 16, 1999",
+    "number": "51",
+    "set_total": "64",
+    "rarity": "Common",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "Its genetic code is irregular. It may mutate if it is exposed to radiation from elemental stones.",
+    "stage": "Basic",
+    "level": "12",
+    "hp": 50,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Tail Wag",
+            "damage": null,
+            "effect": "Flip a coin. If heads, the Defending Pokémon can’t attack Eevee during your opponent’s next turn. (Benching either Pokémon ends this effect.)"
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1
+}

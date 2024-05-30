@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/galvantula-phantom-forces-phf-27/",
+    "name": "Galvantula",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY4-027-galvantula.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PHF",
+    "series": "XY",
+    "set_full_name": "Phantom Forces",
+    "set_code": "XY4",
+    "date": "Nov 5, 2014",
+    "number": "27",
+    "set_total": "119",
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Cobweb Trip",
+            "damage": null,
+            "effect": "Switch 1 of your opponent’s Benched Pokémon with your opponent’s Active Pokémon. The new Active Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Electroweb",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon can’t retreat during your opponent’s next turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Joltik"
+}

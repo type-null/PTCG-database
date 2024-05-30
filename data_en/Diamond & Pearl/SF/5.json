@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/magnezone-stormfront-sf-5/",
+    "name": "Magnezone",
+    "img": "https://pkmncards.com/wp-content/uploads/magnezone-stormfront-sf-5.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "5",
+    "set_total": "100",
+    "rarity": "Rare Holo",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "stage": "Stage 2",
+    "level": "44",
+    "hp": 120,
+    "types": [
+        "Metal"
+    ],
+    "poke_power": {
+        "name": "Magnetic Search",
+        "effect": "Once during your turn (before your attack), you may search your deck for a {L} or {M} Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward. This power can’t be used if Magnezone is affected by a Special Condition."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Speed Shot",
+            "damage": null,
+            "effect": "Choose 1 of your opponent’s Pokémon. This attack does 30 damage to that Pokémon. This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Crush Volt",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Discard an Energy attached to Magnezone."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Magneton"
+}

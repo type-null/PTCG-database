@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/bisharp-noble-victories-nvi-76/",
+    "name": "Bisharp",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW3-076-bisharp.jpg",
+    "card_type": "Pokémon",
+    "set_name": "NVI",
+    "series": "Black & White",
+    "set_full_name": "Noble Victories",
+    "set_code": "BW3",
+    "date": "Nov 16, 2011",
+    "number": "76",
+    "set_total": "101",
+    "rarity": "Uncommon",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes off the prey.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Finishing Blow",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon already has any damage counters on it, this attack does 50 more damage."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Night Slash",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Switch this Pokémon with 1 of your Benched Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Pawniard"
+}

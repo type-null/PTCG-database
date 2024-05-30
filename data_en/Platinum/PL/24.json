@@ -1,0 +1,68 @@
+{
+    "url": "https://pkmncards.com/card/dugtrio-platinum-pl-24/",
+    "name": "Dugtrio",
+    "img": "https://pkmncards.com/wp-content/uploads/dugtrio-platinum-pl-24.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PL",
+    "series": "Platinum",
+    "set_full_name": "Platinum",
+    "set_code": "PL1",
+    "date": "Feb 11, 2009",
+    "number": "24",
+    "set_total": "127",
+    "rarity": "Rare",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "stage": "Stage 1",
+    "level": "50",
+    "hp": 90,
+    "types": [
+        "Fighting"
+    ],
+    "poke_body": {
+        "name": "Sinkhole",
+        "effect": "If your opponent’s Active Pokémon retreats, put 2 damage counters on that Pokémon."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Push Down",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Magnitude",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": "Does 10 damage to each Benched Pokémon (both yours and your opponent’s). (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Diglett"
+}

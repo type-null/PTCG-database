@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/zoroark-team-up-teu-91/",
+    "name": "Zoroark",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM9-091-zoroark.jpg",
+    "card_type": "Pokémon",
+    "set_name": "TEU",
+    "series": "Sun & Moon",
+    "set_full_name": "Team Up",
+    "set_code": "SM9",
+    "date": "Feb 1, 2019",
+    "number": "91",
+    "set_total": "181",
+    "rarity": "Rare Holo",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
+    "stage": "Stage 1",
+    "hp": 110,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Taunt",
+            "damage": null,
+            "effect": "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Night Punishment",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "This attack does 20 damage for each Pokémon in your discard pile. You can’t do more than 200 damage in this way."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Zorua"
+}

@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/venusaur-expedition-ex-67/",
+    "name": "Venusaur",
+    "img": "https://pkmncards.com/wp-content/uploads/venusaur-expedition-ex-67.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EX",
+    "series": "E-Card",
+    "set_full_name": "Expedition",
+    "set_code": "EX",
+    "date": "Sep 15, 2002",
+    "number": "67",
+    "set_total": "165",
+    "rarity": "Rare",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "stage": "Stage 2",
+    "hp": 100,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Leech Seed",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "If this attack damages the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Venusaur, if it has any."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Fury Strikes",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 30 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Ivysaur"
+}

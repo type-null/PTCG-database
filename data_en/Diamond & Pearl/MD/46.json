@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/scyther-majestic-dawn-md-46/",
+    "name": "Scyther",
+    "img": "https://pkmncards.com/wp-content/uploads/scyther-majestic-dawn-md-46.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MD",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Majestic Dawn",
+    "set_code": "DP5",
+    "date": "May 21, 2008",
+    "number": "46",
+    "set_total": "100",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "It is nearly impossible to parry its attacking scythes. Its movements are like a ninja’s.",
+    "stage": "Basic",
+    "level": "12",
+    "hp": 70,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Slash",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Fury Cutter",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip 3 coins. If 1 of them is heads, this attack does 10 damage plus 10 more damage. If 2 of them are heads, this attack does 10 damage plus 20 more damage. If all of them are heads, this attack does 10 damage plus 40 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

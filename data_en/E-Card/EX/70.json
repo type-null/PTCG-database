@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/weezing-expedition-ex-70/",
+    "name": "Weezing",
+    "img": "https://pkmncards.com/wp-content/uploads/weezing-expedition-ex-70.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EX",
+    "series": "E-Card",
+    "set_full_name": "Expedition",
+    "set_code": "EX",
+    "date": "Sep 15, 2002",
+    "number": "70",
+    "set_total": "165",
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Foul Gas",
+            "damage": null,
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Misfire",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, put 6 damage counters on Weezing."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Koffing"
+}

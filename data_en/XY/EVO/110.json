@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/flying-pikachu-evolutions-evo-110/",
+    "name": "Flying Pikachu",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY12-110-flying_pikachu.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EVO",
+    "series": "XY",
+    "set_full_name": "Evolutions",
+    "set_code": "XY12",
+    "date": "Nov 2, 2016",
+    "number": "110",
+    "set_total": "108",
+    "rarity": "Rare Secret",
+    "author": [
+        "Toshinao Aoki"
+    ],
+    "flavor_text": "By learning how to fly, Pikachu overcame its weakness to Fighting Pokémon.",
+    "stage": "Basic",
+    "level": "12",
+    "hp": 40,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thunder Shock",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Fly",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent’s next turn."
+        }
+    ],
+    "weakness": {
+        "type": [],
+        "value": null
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/zebstrika-next-destinies-nxd-48/",
+    "name": "Zebstrika",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW4-048-zebstrika.jpg",
+    "card_type": "Pokémon",
+    "set_name": "NXD",
+    "series": "Black & White",
+    "set_full_name": "Next Destinies",
+    "set_code": "BW4",
+    "date": "Feb 8, 2012",
+    "number": "48",
+    "set_total": "99",
+    "rarity": "Rare",
+    "author": [
+        "Naoki Saito"
+    ],
+    "flavor_text": "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Disconnect",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Your opponent can’t play any Item cards from his or her hand during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Lightning Crash",
+            "damage": null,
+            "effect": "Discard all {L} Energy attached to this Pokémon. This attack does 80 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 0,
+    "evolve_from": "Blitzle"
+}

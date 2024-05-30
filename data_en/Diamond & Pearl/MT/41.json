@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/bayleef-mysterious-treasures-mt-41/",
+    "name": "Bayleef",
+    "img": "https://pkmncards.com/wp-content/uploads/bayleef-mysterious-treasures-mt-41.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MT",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Mysterious Treasures",
+    "set_code": "DP2",
+    "date": "Aug 22, 2007",
+    "number": "41",
+    "set_total": "123",
+    "rarity": "Uncommon",
+    "author": [
+        "Midori Harada"
+    ],
+    "flavor_text": "The buds that ring its neck give off a spicy aroma that perks people up.",
+    "stage": "Stage 1",
+    "level": "28",
+    "hp": 80,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Evolution Impulse",
+            "damage": null,
+            "effect": "Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Leaf Boomerang",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 30 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Chikorita"
+}

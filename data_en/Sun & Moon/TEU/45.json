@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/zebstrika-team-up-teu-45/",
+    "name": "Zebstrika",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM9-045-zebstrika.jpg",
+    "card_type": "Pokémon",
+    "set_name": "TEU",
+    "series": "Sun & Moon",
+    "set_full_name": "Team Up",
+    "set_code": "SM9",
+    "date": "Feb 1, 2019",
+    "number": "45",
+    "set_total": "181",
+    "rarity": "Rare",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "flavor_text": "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Raid",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "If this Pokémon evolved from Blitzle during this turn, this attack does 90 more damage."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Mach Bolt",
+            "damage": {
+                "amount": 100,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Blitzle"
+}

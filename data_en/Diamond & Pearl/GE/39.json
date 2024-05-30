@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/granbull-great-encounters-ge-39/",
+    "name": "Granbull",
+    "img": "https://pkmncards.com/wp-content/uploads/granbull-great-encounters-ge-39.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GE",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Great Encounters",
+    "set_code": "DP4",
+    "date": "Feb 13, 2008",
+    "number": "39",
+    "set_total": "106",
+    "rarity": "Uncommon",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "It is timid in spite of its looks. If it becomes enraged, however, it will strike with its huge fangs.",
+    "stage": "Stage 1",
+    "level": "34",
+    "hp": 90,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Daunt",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance)."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Rage",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Does 40 damage plus 10 more damage for each damage counter on Granbull."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Snubbull"
+}

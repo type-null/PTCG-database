@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/charizard-secret-wonders-sw-3/",
+    "name": "Charizard",
+    "img": "https://pkmncards.com/wp-content/uploads/charizard-secret-wonders-sw-3.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SW",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Secret Wonders",
+    "set_code": "DP3",
+    "date": "Nov 7, 2007",
+    "number": "3",
+    "set_total": "132",
+    "rarity": "Rare Holo",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "flavor_text": "It is said that CHARIZARD’s fire burns hotter if it has experienced harsh battles.",
+    "stage": "Stage 2",
+    "level": "55",
+    "hp": 130,
+    "types": [
+        "Fire"
+    ],
+    "poke_body": {
+        "name": "Fury Blaze",
+        "effect": " If your opponent has 3 or less Prize cards left, each of Charizard’s attacks does 50 more damage to the Active Pokémon (before applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Blast Burn",
+            "damage": {
+                "amount": 120,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, discard 2 Energy cards attached to Charizard. If tails, discard 4 Energy cards attached to Charizard. (If you can’t, this attack does nothing.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "+40"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Charmeleon"
+}

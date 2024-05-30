@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/whirlipede-emerging-powers-epo-39/",
+    "name": "Whirlipede",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW2-039-whirlipede.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EPO",
+    "series": "Black & White",
+    "set_full_name": "Emerging Powers",
+    "set_code": "BW2",
+    "date": "Aug 31, 2011",
+    "number": "39",
+    "set_total": "98",
+    "rarity": "Uncommon",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "flavor_text": "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Venoshock",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon is Poisoned, this attack does 60 more damage."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Steamroller",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "This attack’s damage isn’t affected by Resistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Venipede"
+}

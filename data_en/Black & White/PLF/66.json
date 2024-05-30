@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/weavile-plasma-freeze-plf-66/",
+    "name": "Weavile",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW9-066-weavile.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLF",
+    "series": "Black & White",
+    "set_full_name": "Plasma Freeze",
+    "set_code": "BW9",
+    "date": "May 8, 2013",
+    "number": "66",
+    "set_total": "116",
+    "rarity": "Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "flavor_text": "They communicate by clawing signs in boulders and work together to surround enemies.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Hail",
+            "damage": null,
+            "effect": "This attack does 10 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Vilify",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Discard as many Pokémon as you like from your hand. This attack does 30 damage times the number of Pokémon you discarded."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Sneasel"
+}

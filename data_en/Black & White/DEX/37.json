@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/jolteon-dark-explorers-dex-37/",
+    "name": "Jolteon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW5-037-jolteon.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DEX",
+    "series": "Black & White",
+    "set_full_name": "Dark Explorers",
+    "set_code": "BW5",
+    "date": "May 9, 2012",
+    "number": "37",
+    "set_total": "108",
+    "rarity": "Uncommon",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "flavor_text": "If agitated, it uses electricity to straighten out its fur and launch it in small bunches.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Electrigun",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "You may discard a {L} Energy attached to this Pokémon. If you do, this attack does 40 more damage."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Pin Missile",
+            "damage": {
+                "amount": 40,
+                "suffix": "×"
+            },
+            "effect": "Flip 4 coins. This attack does 40 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 0,
+    "evolve_from": "Eevee"
+}

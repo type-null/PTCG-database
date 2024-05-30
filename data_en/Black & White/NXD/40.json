@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/raichu-next-destinies-nxd-40/",
+    "name": "Raichu",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW4-040-raichu.jpg",
+    "card_type": "Pokémon",
+    "set_name": "NXD",
+    "series": "Black & White",
+    "set_full_name": "Next Destinies",
+    "set_code": "BW4",
+    "date": "Feb 8, 2012",
+    "number": "40",
+    "set_total": "99",
+    "rarity": "Uncommon",
+    "author": [
+        "Naoki Saito"
+    ],
+    "flavor_text": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thundershock",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Slam",
+            "damage": {
+                "amount": 80,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 80 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu"
+}

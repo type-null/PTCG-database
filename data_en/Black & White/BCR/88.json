@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/mienshao-boundaries-crossed-bcr-88/",
+    "name": "Mienshao",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW7-088-mienshao.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BCR",
+    "series": "Black & White",
+    "set_full_name": "Boundaries Crossed",
+    "set_code": "BW7",
+    "date": "Nov 7, 2012",
+    "number": "88",
+    "set_total": "149",
+    "rarity": "Uncommon",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "Using the long fur on its arms like whips, it launches into combo attacks that, once started, no one can stop.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Knock Off",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Discard a random card from your opponent’s hand."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Double Whip",
+            "damage": {
+                "amount": 70,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 70 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Mienfoo"
+}

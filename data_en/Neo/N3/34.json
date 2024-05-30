@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/octillery-neo-revelation-n3-34/",
+    "name": "Octillery",
+    "img": "https://pkmncards.com/wp-content/uploads/octillery-neo-revelation-34.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N3",
+    "series": "Neo",
+    "set_full_name": "Neo Revelation",
+    "set_code": "N3",
+    "date": "Sep 21, 2001",
+    "number": "34",
+    "set_total": "64",
+    "rarity": "Uncommon",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "flavor_text": "It traps enemies with its suction cupped tentacles then smashes them with its rockhard head.",
+    "stage": "Stage 1",
+    "level": "43",
+    "hp": 80,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Constrict",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Water"
+            ],
+            "name": "Octazooka",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, whenever the Defending Pokémon attacks, your opponent flips a coin. If tails, that attack does nothing. (Benching or evolving that Pokémon ends this effect.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Remoraid"
+}

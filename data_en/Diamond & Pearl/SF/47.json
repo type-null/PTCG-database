@@ -1,0 +1,56 @@
+{
+    "url": "https://pkmncards.com/card/pupitar-stormfront-sf-47/",
+    "name": "Pupitar",
+    "img": "https://pkmncards.com/wp-content/uploads/pupitar-stormfront-sf-47.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "47",
+    "set_total": "100",
+    "rarity": "Uncommon",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "flavor_text": "Its body is hard as bedrock. By venting pressurized gas, it can launch itself like a rocket.",
+    "stage": "Stage 1",
+    "level": "33",
+    "hp": 80,
+    "types": [
+        "Fighting"
+    ],
+    "poke_body": {
+        "name": "Energy Protection",
+        "effect": "Any damage done to Pupitar by attacks is reduced by 10 for each Energy attached to Pupitar (after applying Weakness and Resistance). You can’t reduce more than 30 damage in this way."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Rock Smash",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Larvitar"
+}

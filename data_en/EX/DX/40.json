@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/metang-deoxys-dx-40/",
+    "name": "Metang",
+    "img": "https://pkmncards.com/wp-content/uploads/metang-deoxys-dx-40.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DX",
+    "series": "EX",
+    "set_full_name": "Deoxys",
+    "set_code": "EX8",
+    "date": "Feb 14, 2005",
+    "number": "40",
+    "set_total": "107",
+    "rarity": "Uncommon",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Psychic Boom",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Does 10 damage plus 10 more damage for each Energy attached to the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Quick Blow",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 40 damage plus 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Beldum"
+}

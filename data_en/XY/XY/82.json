@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/bisharp-xy-xy-82/",
+    "name": "Bisharp",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY1-082-bisharp.jpg",
+    "card_type": "Pokémon",
+    "set_name": "XY",
+    "series": "XY",
+    "set_full_name": "XY",
+    "set_code": "XY1",
+    "date": "Feb 5, 2014",
+    "number": "82",
+    "set_total": "146",
+    "rarity": "Rare",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "flavor_text": "This pitiless Pokémon commands a group of Pawniard to hound prey into immobility. It then moves in to finish the prey off.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Metal Sound",
+            "damage": null,
+            "effect": "Your opponent’s Active Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Metal Wallop",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "During your next turn, this Pokémon’s Metal Wallop attack does 40 more damage (before applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Pawniard"
+}

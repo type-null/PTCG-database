@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/poliwrath-base-set-bs-13/",
+    "name": "Poliwrath",
+    "img": "https://pkmncards.com/wp-content/uploads/poliwrath-base-set-bs-13.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BS",
+    "series": "Classic",
+    "set_full_name": "Base Set",
+    "set_code": "BS",
+    "date": "Jan 9, 1999",
+    "number": "13",
+    "set_total": "102",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "An adept swimmer at both the front crawl and breaststroke. Easily overtakes the best human swimmers.",
+    "stage": "Stage 2",
+    "level": "48",
+    "hp": 90,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Water Gun",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Does 30 damage plus 10 more damage for each {W} Energy attached to Poliwrath but not used to pay for this attack’s Energy cost. Extra {W} Energy after the 2nd doesn’t count."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Whirlpool",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Poliwhirl"
+}

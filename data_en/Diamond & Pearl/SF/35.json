@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/dusclops-stormfront-sf-35/",
+    "name": "Dusclops",
+    "img": "https://pkmncards.com/wp-content/uploads/dusclops-stormfront-sf-35.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "35",
+    "set_total": "100",
+    "rarity": "Uncommon",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "flavor_text": "Its body is hollow. It is said that those who look into its body are sucked into the void.",
+    "stage": "Stage 1",
+    "level": "40",
+    "hp": 80,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Confuse Ray",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Trick Room",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "If you have a Stadium card in play, this attack does 40 damage plus 20 more damage. If your opponent has a Stadium card in play, remove 2 damage counters from Dusclops."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Darkness"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Colorless"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Duskull"
+}

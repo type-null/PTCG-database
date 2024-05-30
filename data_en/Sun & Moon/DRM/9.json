@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/darmanitan-dragon-majesty-drm-9/",
+    "name": "Darmanitan",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-DM-009-darmanitan.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DRM",
+    "series": "Sun & Moon",
+    "set_full_name": "Dragon Majesty",
+    "set_code": "DRM",
+    "date": "Sep 7, 2018",
+    "number": "9",
+    "set_total": "70",
+    "rarity": "Uncommon",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "Its internal fire burns at 2,500 degrees Fahrenheit, making enough power that it can destroy a dump truck with one punch.",
+    "stage": "Stage 1",
+    "hp": 130,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Heat Assist",
+            "damage": null,
+            "effect": "Attach up to 3 {R} Energy cards from your hand to your Pokémon in any way you like."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Darmani-Hands",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip 4 coins. This attack does 50 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Darumaka"
+}

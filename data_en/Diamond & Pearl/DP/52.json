@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/luxio-diamond-pearl-dp-52/",
+    "name": "Luxio",
+    "img": "https://pkmncards.com/wp-content/uploads/luxio-diamond-pearl-dp-52.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DP",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Diamond & Pearl",
+    "set_code": "DP1",
+    "date": "May 23, 2007",
+    "number": "52",
+    "set_total": "130",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
+    "stage": "Stage 1",
+    "level": "19",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Fasten Claws",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage plus 30 more damage."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning"
+            ],
+            "name": "Thunder Fang",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Shinx"
+}

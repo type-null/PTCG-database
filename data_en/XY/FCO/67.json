@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/mr-mime-fates-collide-fco-67/",
+    "name": "Mr. Mime",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY10-067-mr_mime.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FCO",
+    "series": "XY",
+    "set_full_name": "Fates Collide",
+    "set_code": "XY10",
+    "date": "May 2, 2016",
+    "number": "67",
+    "set_total": "124",
+    "rarity": "Rare",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "flavor_text": "It is adept at conning people. It is said to be able to create walls out of thin air by miming.",
+    "stage": "Basic",
+    "hp": 80,
+    "types": [
+        "Fairy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fairy"
+            ],
+            "name": "Mimic",
+            "damage": null,
+            "effect": "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent’s hand."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Juggling",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip 4 coins. This attack does 20 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Darkness"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

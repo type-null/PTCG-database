@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/shroomish-secret-wonders-sw-108/",
+    "name": "Shroomish",
+    "img": "https://pkmncards.com/wp-content/uploads/shroomish-secret-wonders-sw-108.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SW",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Secret Wonders",
+    "set_code": "DP3",
+    "date": "Nov 7, 2007",
+    "number": "108",
+    "set_total": "132",
+    "rarity": "Common",
+    "author": [
+        "Midori Harada"
+    ],
+    "flavor_text": "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
+    "stage": "Basic",
+    "level": "10",
+    "hp": 50,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Headbutt",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Toxic Spore",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

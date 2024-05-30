@@ -1,0 +1,70 @@
+{
+    "url": "https://pkmncards.com/card/bastiodon-platinum-pl-20/",
+    "name": "Bastiodon",
+    "img": "https://pkmncards.com/wp-content/uploads/bastiodon-platinum-pl-20.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PL",
+    "series": "Platinum",
+    "set_full_name": "Platinum",
+    "set_code": "PL1",
+    "date": "Feb 11, 2009",
+    "number": "20",
+    "set_total": "127",
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "stage": "Stage 2",
+    "level": "56",
+    "hp": 130,
+    "types": [
+        "Metal"
+    ],
+    "poke_body": {
+        "name": "Metal Trait",
+        "effect": "As long as Bastiodon has a Pokémon Tool attached to it, remove 1 damage counter from Bastiodon between turns."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Iron Defense",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Bastiodon during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Iron Tackle",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Bastiodon does 30 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Shieldon"
+}

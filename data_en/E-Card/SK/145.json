@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/celebi-skyridge-sk-145/",
+    "name": "Celebi",
+    "img": "https://pkmncards.com/wp-content/uploads/celebi-skyridge-sk-145.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SK",
+    "series": "E-Card",
+    "set_full_name": "Skyridge",
+    "set_code": "SK",
+    "date": "May 12, 2003",
+    "number": "145",
+    "set_total": "144",
+    "rarity": "Rare Secret",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Colorless"
+    ],
+    "poke_body": {
+        "name": "Crystal Type",
+        "effect": "Whenever you attach a {G}, {W}, or {P} basic Energy card from your hand to Celebi, Celebi’s type (color) becomes the same as that type of Energy until the end of the turn."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Water"
+            ],
+            "name": "Empathic Healing",
+            "damage": null,
+            "effect": "Remove 2 damage counters from Celebi and each Pokémon that’s the same type (color) as Celebi."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Mind Bend",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

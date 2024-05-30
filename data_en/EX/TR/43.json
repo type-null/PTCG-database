@@ -1,0 +1,51 @@
+{
+    "url": "https://pkmncards.com/card/heracross-team-rocket-returns-tr-43/",
+    "name": "Heracross",
+    "img": "https://pkmncards.com/wp-content/uploads/heracross-team-rocket-returns-rr-43.jpg",
+    "card_type": "Pokémon",
+    "set_name": "TR",
+    "series": "EX",
+    "set_full_name": "Team Rocket Returns",
+    "set_code": "EX7",
+    "date": "Nov 8, 2004",
+    "number": "43",
+    "set_total": "109",
+    "rarity": "Uncommon",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "stage": "Basic",
+    "hp": 70,
+    "types": [
+        "Fighting"
+    ],
+    "poke_body": {
+        "name": "Crust",
+        "effect": "Any damage done to Heracross by attacks from your opponent’s Basic Pokémon is reduced by 20 (after applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Get Even",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "If you have more Prize cards left than your opponent, this attack does 20 damage plus 10 more damage for each Prize card more than your opponent."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

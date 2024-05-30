@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/swadloon-fusion-strike-fst-010/",
+    "name": "Swadloon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH8-010-swadloon.jpg",
+    "card_type": "Pokémon",
+    "regulation": "E",
+    "set_name": "FST",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Fusion Strike",
+    "set_code": "SWSH8",
+    "date": "Nov 12, 2021",
+    "number": "010",
+    "set_total": "264",
+    "rarity": "Uncommon",
+    "rarity_img": null,
+    "author": [
+        "0313"
+    ],
+    "flavor_text": "It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Trip Over",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Seed Bomb",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Sewaddle"
+}

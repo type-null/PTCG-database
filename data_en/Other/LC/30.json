@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/moltres-legendary-collection-lc-30/",
+    "name": "Moltres",
+    "img": "https://pkmncards.com/wp-content/uploads/moltres-legendary-collection-lc-30.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LC",
+    "series": "Other",
+    "set_full_name": "Legendary Collection",
+    "set_code": "LC",
+    "date": "May 24, 2002",
+    "number": "30",
+    "set_total": "110",
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.",
+    "stage": "Basic",
+    "level": "35",
+    "hp": 70,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Wildfire",
+            "damage": null,
+            "effect": "You may discard any number of {R} Energy cards attached to Moltres when you use this attack. If you do, discard that many cards from the top of your opponent’s deck."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Fire",
+                "Fire"
+            ],
+            "name": "Dive Bomb",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, this attack does nothing."
+        }
+    ],
+    "weakness": {
+        "type": [],
+        "value": null
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2
+}

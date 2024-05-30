@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/quilava-neo-genesis-n1-47/",
+    "name": "Quilava",
+    "img": "https://pkmncards.com/wp-content/uploads/quilava-neo-genesis-47.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N1",
+    "series": "Neo",
+    "set_full_name": "Neo Genesis",
+    "set_code": "N1",
+    "date": "Dec 16, 2000",
+    "number": "47",
+    "set_total": "111",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "Be careful if it turns its back during battle. It means that it will attack with the fire on its back.",
+    "stage": "Stage 1",
+    "level": "35",
+    "hp": 70,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire",
+                "Fire"
+            ],
+            "name": "Smokescreen",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Fire"
+            ],
+            "name": "Char",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "If the Defending Pokémon doesn’t have a Char counter on it, flip a coin. If heads, put a Char counter on it. A Char counter requires your opponent to flip a coin after every turn. If tails, put 2 damage counters on the Pokémon with that Char counter. (Char counters stay on the Pokémon as long as it’s in play.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Cyndaquil"
+}

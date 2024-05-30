@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/raichu-furious-fists-ffi-28/",
+    "name": "Raichu",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY3-028-raichu.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FFI",
+    "series": "XY",
+    "set_full_name": "Furious Fists",
+    "set_code": "XY3",
+    "date": "Aug 13, 2014",
+    "number": "28",
+    "set_total": "111",
+    "rarity": "Uncommon",
+    "author": [
+        "Sanosuke Sakuma"
+    ],
+    "flavor_text": "When its electricity builds, its muscles are stimulated, and it becomes more aggressive than usual.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunder Shock",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Electro Ball",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu"
+}

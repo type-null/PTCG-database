@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/raichu-paldea-evolved-pal-064/",
+    "name": "Raichu",
+    "img": "https://pkmncards.com/wp-content/uploads/sv2_en_064.jpg",
+    "card_type": "Pokémon",
+    "regulation": "G",
+    "set_name": "PAL",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "Paldea Evolved",
+    "set_code": "sv2",
+    "date": "Jun 9, 2023",
+    "number": "064",
+    "set_total": "193",
+    "rarity": "Uncommon",
+    "rarity_img": null,
+    "author": [
+        "Teeziro"
+    ],
+    "flavor_text": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+    "stage": "Stage 1",
+    "hp": 140,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Electrocharge",
+            "damage": null,
+            "effect": "Search your deck for up to 2 Basic {L} Energy cards and attach them to this Pokémon. Then, shuffle your deck."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunderbolt",
+            "damage": {
+                "amount": 200,
+                "suffix": ""
+            },
+            "effect": "Discard all Energy from this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu"
+}

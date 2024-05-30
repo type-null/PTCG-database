@@ -1,0 +1,56 @@
+{
+    "url": "https://pkmncards.com/card/chinchou-neo-genesis-n1-55/",
+    "name": "Chinchou",
+    "img": "https://pkmncards.com/wp-content/uploads/chinchou-neo-genesis-55.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N1",
+    "series": "Neo",
+    "set_full_name": "Neo Genesis",
+    "set_code": "N1",
+    "date": "Dec 16, 2000",
+    "number": "55",
+    "set_total": "111",
+    "rarity": "Common",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies.",
+    "stage": "Basic",
+    "level": "12",
+    "hp": 50,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Supersonic",
+            "damage": null,
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Flail",
+            "damage": {
+                "amount": 10,
+                "suffix": "×"
+            },
+            "effect": "Does 10 damage times the number of damage counters on Chinchou."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

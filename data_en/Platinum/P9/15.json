@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/pikachu-pop-series-9-p9-15/",
+    "name": "Pikachu",
+    "img": "https://pkmncards.com/wp-content/uploads/pikachu-pop-series-9-15.jpg",
+    "card_type": "Pokémon",
+    "set_name": "P9",
+    "series": "Platinum",
+    "set_full_name": "POP Series 9",
+    "set_code": "POP9",
+    "date": "Mar 1, 2009",
+    "number": "15",
+    "set_total": "17",
+    "rarity": "Common",
+    "author": [
+        "Midori Harada"
+    ],
+    "flavor_text": "If it looses crackling power from the electric pouches on its cheeks, it is being wary.",
+    "stage": "Basic",
+    "level": "18",
+    "hp": 60,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Growl",
+            "damage": null,
+            "effect": "During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance)."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Numb",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "If Pikachu evolved from Pichu during this turn, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

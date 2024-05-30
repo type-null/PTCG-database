@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/medicham-unified-minds-unm-110/",
+    "name": "Medicham",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM11-110-medicham.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UNM",
+    "series": "Sun & Moon",
+    "set_full_name": "Unified Minds",
+    "set_code": "SM11",
+    "date": "Aug 2, 2019",
+    "number": "110",
+    "set_total": "236",
+    "rarity": "Rare",
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "flavor_text": "It elegantly avoids attacks with dance-like steps, then launches a devastating blow in the same motion.",
+    "stage": "Stage 1",
+    "hp": 110,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Pure Power",
+            "damage": null,
+            "effect": "Put 4 damage counters on your opponent’s Pokémon in any way you like."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Master Strike",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "If this Pokémon has a Karate Belt card attached to it, this attack does 60 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Meditite"
+}

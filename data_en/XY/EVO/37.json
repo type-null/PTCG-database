@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/magnemite-evolutions-evo-37/",
+    "name": "Magnemite",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY12-037-magnemite.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EVO",
+    "series": "XY",
+    "set_full_name": "Evolutions",
+    "set_code": "XY12",
+    "date": "Nov 2, 2016",
+    "number": "37",
+    "set_total": "108",
+    "rarity": "Common",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "flavor_text": "It moves while constantly hovering. It discharges Thunder Wave and so on from the units at its sides.",
+    "stage": "Basic",
+    "level": "13",
+    "hp": 50,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thunder Wave",
+            "damage": null,
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Self-Destruct",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "This Pokémon does 50 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

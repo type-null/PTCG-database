@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/cobalion-black-white-promos-bwp-bw72/",
+    "name": "Cobalion",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-Promo_BW-BW72-cobalion.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BWP",
+    "series": "Black & White",
+    "set_full_name": "Black & White Promos",
+    "set_code": "BWP",
+    "date": "May 14, 2013",
+    "number": "BW72",
+    "set_total": null,
+    "rarity": "Promo",
+    "author": [
+        "5ban Graphics"
+    ],
+    "flavor_text": "This legendary Pokémon battled against humans to protect Pokémon. Its personality is calm and composed.",
+    "stage": "Basic",
+    "hp": 120,
+    "types": [
+        "Metal"
+    ],
+    "abilities": [
+        {
+            "name": "Justified",
+            "effect": "Each of this Pokémon’s attack does 50 more damage to {D} Pokémon (before applying Weakness and Resistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Iron Head",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 20 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3
+}

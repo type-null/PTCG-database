@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/machamp-triumphant-tm-26/",
+    "name": "Machamp",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS4-026-machamp.jpg",
+    "card_type": "Pokémon",
+    "set_name": "TM",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Triumphant",
+    "set_code": "HGSS4",
+    "date": "Nov 2, 2010",
+    "number": "26",
+    "set_total": "102",
+    "rarity": "Rare",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "flavor_text": "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
+    "stage": "Stage 2",
+    "hp": 130,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Vital Throw",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "You may do 40 damage plus 20 more damage. If you do, Machamp does 20 damage to itself."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Hundred Furious Punches",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Does 60 damage plus 10 more damage for each {F} Energy attached to Machamp."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Machoke"
+}

@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/doduo-mysterious-treasures-mt-80/",
+    "name": "Doduo",
+    "img": "https://pkmncards.com/wp-content/uploads/doduo-mysterious-treasures-mt-80.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MT",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Mysterious Treasures",
+    "set_code": "DP2",
+    "date": "Aug 22, 2007",
+    "number": "80",
+    "set_total": "123",
+    "rarity": "Common",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
+    "stage": "Basic",
+    "level": "18",
+    "hp": 60,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Double Stab",
+            "damage": {
+                "amount": 10,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 10 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Accelerating Stab",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Doduo can’t use Accelerating Stab during your next turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

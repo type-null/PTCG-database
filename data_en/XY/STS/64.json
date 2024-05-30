@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/bisharp-steam-siege-sts-64/",
+    "name": "Bisharp",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY11-064-bisharp.jpg",
+    "card_type": "Pokémon",
+    "set_name": "STS",
+    "series": "XY",
+    "set_full_name": "Steam Siege",
+    "set_code": "XY11",
+    "date": "Aug 3, 2016",
+    "number": "64",
+    "set_total": "114",
+    "rarity": "Rare Holo",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "flavor_text": "Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes off the prey.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Darkness",
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Retaliate",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "If any of your Pokémon were Knocked Out by damage from an opponent’s attack during his or her last turn, this attack does 60 more damage."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Mach Claw",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "This attack’s damage isn’t affected by Resistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Pawniard"
+}

@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/pikachu-sun-moon-promos-smp-sm227/",
+    "name": "Pikachu",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-Promo_SM-SM227-pikachu.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SMP",
+    "series": "Sun & Moon",
+    "set_full_name": "Sun & Moon Promos",
+    "set_code": "SMP",
+    "date": "Nov 22, 2019",
+    "number": "SM227",
+    "set_total": null,
+    "rarity": "Promo",
+    "author": [
+        "2019 Pikachu Project"
+    ],
+    "flavor_text": "Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning.",
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 more damage."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunderbolt",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Discard all Energy from this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

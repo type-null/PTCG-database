@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/garbodor-plasma-storm-pls-67/",
+    "name": "Garbodor",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW8-067-garbodor.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLS",
+    "series": "Black & White",
+    "set_full_name": "Plasma Storm",
+    "set_code": "BW8",
+    "date": "Feb 6, 2013",
+    "number": "67",
+    "set_total": "135",
+    "rarity": "Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "flavor_text": "Consuming garbage makes new kinds of poison gases and liquids inside their bodies.",
+    "stage": "Stage 1",
+    "hp": 110,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Ensnarl",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Does 20 damage times the number of {C} in the Defending Pokémon’s Retreat Cost."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Double Ducts",
+            "damage": {
+                "amount": 80,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 80 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Trubbish"
+}

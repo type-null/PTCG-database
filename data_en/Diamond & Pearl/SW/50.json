@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/flaaffy-secret-wonders-sw-50/",
+    "name": "Flaaffy",
+    "img": "https://pkmncards.com/wp-content/uploads/flaaffy-secret-wonders-sw-50.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SW",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Secret Wonders",
+    "set_code": "DP3",
+    "date": "Nov 7, 2007",
+    "number": "50",
+    "set_total": "132",
+    "rarity": "Uncommon",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact.",
+    "stage": "Stage 1",
+    "level": "26",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Attract Current",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Search your deck for a {L} Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Electromagnetic Kick",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, Flaaffy does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Mareep"
+}

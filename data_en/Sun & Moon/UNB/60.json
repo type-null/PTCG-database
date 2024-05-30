@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/zeraora-unbroken-bonds-unb-60/",
+    "name": "Zeraora",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM10-060-zeraora.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UNB",
+    "series": "Sun & Moon",
+    "set_full_name": "Unbroken Bonds",
+    "set_code": "SM10",
+    "date": "May 3, 2019",
+    "number": "60",
+    "set_total": "214",
+    "rarity": "Rare",
+    "author": [
+        "kawayoo"
+    ],
+    "flavor_text": "It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they’ll be electrocuted by the flying sparks.",
+    "stage": "Basic",
+    "hp": 120,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Crushing Claw",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Discard a Special Energy from your opponent’s Active Pokémon."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Discharge",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Discard all {L} Energy from this Pokémon. This attack does 50 damage for each card you discarded in this way."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

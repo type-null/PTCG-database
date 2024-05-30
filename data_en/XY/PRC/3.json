@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/beedrill-primal-clash-prc-3/",
+    "name": "Beedrill",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY5-003-beedrill.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PRC",
+    "series": "XY",
+    "set_full_name": "Primal Clash",
+    "set_code": "XY5",
+    "date": "Feb 4, 2015",
+    "number": "3",
+    "set_total": "160",
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear.",
+    "stage": "Stage 2",
+    "hp": 120,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Allergic Shock",
+            "damage": null,
+            "effect": "During your next turn, if the Defending Pokémon is damaged by an attack, it is Knocked Out."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass"
+            ],
+            "name": "Twineedle",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 50 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 0,
+    "evolve_from": "Kakuna"
+}

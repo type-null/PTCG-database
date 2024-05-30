@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/machamp-detective-pikachu-det-13/",
+    "name": "Machamp",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-GUM-013-machamp.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DET",
+    "series": "Sun & Moon",
+    "set_full_name": "Detective Pikachu",
+    "set_code": "DET",
+    "date": "Mar 29, 2019",
+    "number": "13",
+    "set_total": "18",
+    "rarity": "Rare",
+    "author": [
+        "MPC Film"
+    ],
+    "flavor_text": "It grasps its opponents with its four arms and twists them up in an intricate hold. People call it “the Machamp special.”",
+    "stage": "Stage 2",
+    "hp": 160,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Directing Traffic",
+            "damage": null,
+            "effect": "Look at the top 5 cards of your deck and put them back in any order."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Cross Chop",
+            "damage": {
+                "amount": 80,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 60 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Machoke"
+}

@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/swalot-phantom-forces-phf-38/",
+    "name": "Swalot",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY4-038-swalot.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PHF",
+    "series": "XY",
+    "set_full_name": "Phantom Forces",
+    "set_code": "XY4",
+    "date": "Nov 5, 2014",
+    "number": "38",
+    "set_total": "119",
+    "rarity": "Rare",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "flavor_text": "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.",
+    "stage": "Stage 1",
+    "hp": 110,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Poison Gas",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Your opponent’s Active Pokémon is now Poisoned."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Swallow Up",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If, before doing damage, your opponent’s Active Pokémon has fewer remaining HP than this Pokémon, this attack does 50 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Gulpin"
+}

@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/maractus-black-white-blw-12/",
+    "name": "Maractus",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW1-012-maractus.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BLW",
+    "series": "Black & White",
+    "set_full_name": "Black & White",
+    "set_code": "BW1",
+    "date": "Apr 25, 2011",
+    "number": "12",
+    "set_total": "114",
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.",
+    "stage": "Basic",
+    "hp": 90,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Constant Rattle",
+            "damage": null,
+            "effect": "Flip 3 coins. If 1 of them is heads, this attack does 10 damage. If 2 of them are heads, this attack does 30 damage. If all of them are heads, this attack does 60 damage."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Grass"
+            ],
+            "name": "Giga Drain",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2
+}

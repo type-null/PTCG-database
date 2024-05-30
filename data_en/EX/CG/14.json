@@ -1,0 +1,53 @@
+{
+    "url": "https://pkmncards.com/card/blastoise-crystal-guardians-cg-14/",
+    "name": "Blastoise",
+    "img": "https://pkmncards.com/wp-content/uploads/blastoise-crystal-guardians-cg-14.jpg",
+    "card_type": "Pokémon",
+    "set_name": "CG",
+    "series": "EX",
+    "set_full_name": "Crystal Guardians",
+    "set_code": "EX14",
+    "date": "Aug 30, 2006",
+    "number": "14",
+    "set_total": "100",
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "stage": "Stage 2",
+    "hp": 120,
+    "types": [
+        "Water"
+    ],
+    "poke_body": {
+        "name": "Water Pressure",
+        "effect": "As long as Blastoise’s remaining HP is 40 or less, Blastoise does 40 more damage to the Defending Pokémon (before applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Hydro Pump",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Does 50 damage plus 20 more damage for each {W} Energy attached to Blastoise but not used to pay for this attack’s Energy cost. You can’t add more than 40 damage in this way."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Wartortle"
+}

@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/skarmory-stormfront-sf-51/",
+    "name": "Skarmory",
+    "img": "https://pkmncards.com/wp-content/uploads/skarmory-stormfront-sf-51.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "51",
+    "set_total": "100",
+    "rarity": "Uncommon",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "Despite being clad entirely in iron-hard armor, it flies at speeds over 180 mph.",
+    "stage": "Basic",
+    "level": "34",
+    "hp": 80,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Mach Blade",
+            "damage": null,
+            "effect": "Flip a coin. If heads, this attack does 50 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/wartortle-base-set-bs-42/",
+    "name": "Wartortle",
+    "img": "https://pkmncards.com/wp-content/uploads/wartortle-base-set-bs-42.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BS",
+    "series": "Classic",
+    "set_full_name": "Base Set",
+    "set_code": "BS",
+    "date": "Jan 9, 1999",
+    "number": "42",
+    "set_total": "102",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "Often hides in water to stalk unwary prey. When swimming quickly, it moves its ears to maintain balance.",
+    "stage": "Stage 1",
+    "level": "22",
+    "hp": 70,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Withdraw",
+            "damage": null,
+            "effect": "Flip a coin. If heads, prevent all damage done to Wartortle during your opponent’s next turn. (Any other effects of attacks still happen.)"
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Bite",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Squirtle"
+}

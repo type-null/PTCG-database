@@ -1,0 +1,56 @@
+{
+    "url": "https://pkmncards.com/card/exeggutor-heartgold-soulsilver-hs-18/",
+    "name": "Exeggutor",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS1-018-exeggutor.jpg",
+    "card_type": "Pokémon",
+    "set_name": "HS",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "HeartGold & SoulSilver",
+    "set_code": "HGSS1",
+    "date": "Feb 10, 2010",
+    "number": "18",
+    "set_total": "123",
+    "rarity": "Rare",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "flavor_text": "If a head drops off, it emits a telepathic call in search of others to form an Exeggcute cluster.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Energy Absorption",
+            "damage": null,
+            "effect": "Search your discard pile for up to 2 Energy cards and attach them to Exeggutor."
+        },
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Big Eggsplosion",
+            "damage": {
+                "amount": 40,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin for each Energy attached to Exeggutor. This attack does 40 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Exeggcute"
+}

@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/octillery-platinum-pl-58/",
+    "name": "Octillery",
+    "img": "https://pkmncards.com/wp-content/uploads/octillery-platinum-pl-58.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PL",
+    "series": "Platinum",
+    "set_full_name": "Platinum",
+    "set_code": "PL1",
+    "date": "Feb 11, 2009",
+    "number": "58",
+    "set_total": "127",
+    "rarity": "Uncommon",
+    "author": [
+        "Midori Harada"
+    ],
+    "flavor_text": "It loves to lurk inside holes in rocks. It sometimes sprays ink on prey by sticking out only its mouth.",
+    "stage": "Stage 1",
+    "level": "40",
+    "hp": 90,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "No Energy Cost"
+            ],
+            "name": "Water Vein",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Reveal the top 5 cards of your deck. Flip a coin for each Energy card you find there. This attack does 50 damage times the number of heads. Shuffle the revealed cards back into your deck."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water"
+            ],
+            "name": "Octazooka",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Any time the Defending Pokémon tries to attack, your opponent flips a coin. If tails, that attack does nothing. (If the Defending Pokémon is no longer your opponent’s Active Pokémon, this effect ends.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Remoraid"
+}

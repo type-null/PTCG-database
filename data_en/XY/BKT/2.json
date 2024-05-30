@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/parasect-breakthrough-bkt-2/",
+    "name": "Parasect",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY8-002-parasect.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BKT",
+    "series": "XY",
+    "set_full_name": "BREAKthrough",
+    "set_code": "XY8",
+    "date": "Nov 4, 2015",
+    "number": "2",
+    "set_total": "162",
+    "rarity": "Rare",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "flavor_text": "The larger the mushroom on its back grows, the stronger the mushroom spores it scatters.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Colorful Spores",
+            "damage": null,
+            "effect": "Choose 3 of your Pokémon. For each of those Pokémon, search your deck for a different type of basic Energy card and attach it to that Pokémon. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "X-Scissor",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Paras"
+}

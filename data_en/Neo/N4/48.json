@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/light-jolteon-neo-destiny-n4-48/",
+    "name": "Light Jolteon",
+    "img": "https://pkmncards.com/wp-content/uploads/light-jolteon-neo-destiny-48.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N4",
+    "series": "Neo",
+    "set_full_name": "Neo Destiny",
+    "set_code": "N4",
+    "date": "Feb 28, 2002",
+    "number": "48",
+    "set_total": "105",
+    "rarity": "Uncommon",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "flavor_text": "It can collect the ambient electrical energy in its cells and expel it in massive bursts.",
+    "stage": "Stage 1",
+    "level": "31",
+    "hp": 70,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Pulse Guard",
+            "damage": null,
+            "effect": "During your opponent’s next turn, whenever 30 or more damage is done to Light Jolteon (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)"
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunder Needle",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 20 damage times the number of heads. If you get 2 or more heads, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 0,
+    "evolve_from": "Eevee"
+}

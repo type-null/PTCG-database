@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/raichu-pop-series-9-p9-3/",
+    "name": "Raichu",
+    "img": "https://pkmncards.com/wp-content/uploads/raichu-pop-series-9-3.jpg",
+    "card_type": "Pokémon",
+    "set_name": "P9",
+    "series": "Platinum",
+    "set_full_name": "POP Series 9",
+    "set_code": "POP9",
+    "date": "Mar 1, 2009",
+    "number": "3",
+    "set_total": "17",
+    "rarity": "Rare",
+    "author": [
+        "Midori Harada"
+    ],
+    "flavor_text": "It can loose 100,000-volt bursts of electricity, instantly downing foes several times its size.",
+    "stage": "Stage 1",
+    "level": "39",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Slam",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 30 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Lightning"
+            ],
+            "name": "High Volt",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "If Raichu evolved from Pikachu during this turn, this attack’s base damage is 100 instead of 60."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu"
+}

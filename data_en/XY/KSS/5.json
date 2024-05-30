@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/chesnaught-kalos-starter-set-kss-5/",
+    "name": "Chesnaught",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY0-005-chesnaught.jpg",
+    "card_type": "Pokémon",
+    "set_name": "KSS",
+    "series": "XY",
+    "set_full_name": "Kalos Starter Set",
+    "set_code": "XY0",
+    "date": "Nov 8, 2013",
+    "number": "5",
+    "set_total": "39",
+    "rarity": "No Rarity",
+    "author": [
+        "5ban Graphics"
+    ],
+    "flavor_text": "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
+    "stage": "Stage 2",
+    "hp": 150,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Needle Arm",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Tumbling Attack",
+            "damage": {
+                "amount": 80,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 40 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 4,
+    "evolve_from": "Quilladin"
+}

@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/growlithe-legendary-treasures-ltr-rc4/",
+    "name": "Growlithe",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW11-RC4-growlithe.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LTR",
+    "series": "Black & White",
+    "set_full_name": "Legendary Treasures",
+    "set_code": "BW11",
+    "date": "Nov 6, 2013",
+    "number": "RC4",
+    "set_total": "RC25",
+    "rarity": "Uncommon",
+    "author": [
+        "Sanosuke Sakuma"
+    ],
+    "flavor_text": "Extremely loyal to its Trainer, it will bark at those who approach the Trainer unexpectedly and run them out of town.",
+    "stage": "Basic",
+    "hp": 80,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Rest",
+            "damage": null,
+            "effect": "Heal all damage from this Pokémon. This Pokémon is now Asleep."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Lunge",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, this attack does nothing."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

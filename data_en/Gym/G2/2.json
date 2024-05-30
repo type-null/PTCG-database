@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/blaines-charizard-gym-challenge-g2-2/",
+    "name": "Blaine’s Charizard",
+    "img": "https://pkmncards.com/wp-content/uploads/blaines-charizard-gym-challenge-2.jpg",
+    "card_type": "Pokémon",
+    "set_name": "G2",
+    "series": "Gym",
+    "set_full_name": "Gym Challenge",
+    "set_code": "G2",
+    "date": "Oct 16, 2000",
+    "number": "2",
+    "set_total": "132",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "stage": "Stage 2",
+    "level": "50",
+    "hp": 100,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Roaring Flames",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Discard all {R} Energy cards attached to Blaine’s Charizard. If all Energy cards attached to Blaine’s Charizard provide 2 {R} Energy, discard all of them. This attack does 20 damage plus 20 more damage for each {R} Energy discarded in this way."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire"
+            ],
+            "name": "Flame Jet",
+            "damage": null,
+            "effect": "Flip a coin. If heads, choose 1 of your opponent’s Pokémon. This attack does 40 damage to that Pokémon. Don’t apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Blaine’s Charmeleon"
+}

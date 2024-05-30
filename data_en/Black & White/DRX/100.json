@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/ambipom-dragons-exalted-drx-100/",
+    "name": "Ambipom",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW6-100-ambipom.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DRX",
+    "series": "Black & White",
+    "set_full_name": "Dragons Exalted",
+    "set_code": "BW6",
+    "date": "Aug 15, 2012",
+    "number": "100",
+    "set_total": "124",
+    "rarity": "Rare",
+    "author": [
+        "Akira Komayama"
+    ],
+    "flavor_text": "Split into two, the tails are so adept at handling and doing things, Ambipom rarely uses its hands.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Double Hit",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 20 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Hand Fling",
+            "damage": {
+                "amount": 10,
+                "suffix": "×"
+            },
+            "effect": "Does 10 damage times the number of cards in your hand."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Aipom"
+}

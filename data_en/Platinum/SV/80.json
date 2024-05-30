@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/rhydon-supreme-victors-sv-80/",
+    "name": "Rhydon",
+    "img": "https://pkmncards.com/wp-content/uploads/rhydon-supreme-victors-sv-80.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SV",
+    "series": "Platinum",
+    "set_full_name": "Supreme Victors",
+    "set_code": "PL3",
+    "date": "Aug 19, 2009",
+    "number": "80",
+    "set_total": "147",
+    "rarity": "Uncommon",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "Standing on its hind legs freed its forelegs and made it smarter. It is very forgetful, however.",
+    "stage": "Stage 1",
+    "level": "45",
+    "hp": 90,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Fury Attack",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 20 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Rock Tumble",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "This attack’s damage isn’t affected by Resistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Rhyhorn"
+}

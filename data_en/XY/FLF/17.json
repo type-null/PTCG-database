@@ -1,0 +1,50 @@
+{
+    "url": "https://pkmncards.com/card/fletchinder-flashfire-flf-17/",
+    "name": "Fletchinder",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY2-017-fletchinder.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FLF",
+    "series": "XY",
+    "set_full_name": "Flashfire",
+    "set_code": "XY2",
+    "date": "May 7, 2014",
+    "number": "17",
+    "set_total": "106",
+    "rarity": "Uncommon",
+    "author": [
+        "5ban Graphics"
+    ],
+    "flavor_text": "From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Firebreathing",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Fletchling"
+}

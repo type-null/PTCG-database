@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/exeggutor-aquapolis-aq-13/",
+    "name": "Exeggutor",
+    "img": "https://pkmncards.com/wp-content/uploads/exeggutor-aquapolis-aq-13.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AQ",
+    "series": "E-Card",
+    "set_full_name": "Aquapolis",
+    "set_code": "AQ",
+    "date": "Jan 15, 2003",
+    "number": "13",
+    "set_total": "147",
+    "rarity": "Rare",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Big Eggsplosion",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip a number of coins equal to the amount of Energy attached to Exeggutor. This attack does 20 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Lateral Eggsplosion",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a number of coins equal to the amount of Energy attached to all of of your Benched Pokémon. This attack does 30 damage plus 10 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Exeggcute"
+}

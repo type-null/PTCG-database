@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/bellossom-legends-awakened-la-20/",
+    "name": "Bellossom",
+    "img": "https://pkmncards.com/wp-content/uploads/bellossom-legends-awakened-la-20.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LA",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Legends Awakened",
+    "set_code": "DP6",
+    "date": "Aug 20, 2008",
+    "number": "20",
+    "set_total": "146",
+    "rarity": "Rare",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "flavor_text": "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
+    "stage": "Stage 2",
+    "level": "38",
+    "hp": 100,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Parallel Gain",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Remove 1 damage counter from each of your Pokémon."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Blend Pollen",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Does 40 damage plus 20 more damage for each Vileplume and each Bellossom you have in play. Flip a coin. If heads, the Defending Pokémon is now Burned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Gloom"
+}

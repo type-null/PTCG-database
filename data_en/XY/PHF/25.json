@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/pachirisu-phantom-forces-phf-25/",
+    "name": "Pachirisu",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY4-025-pachirisu.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PHF",
+    "series": "XY",
+    "set_full_name": "Phantom Forces",
+    "set_code": "XY4",
+    "date": "Nov 5, 2014",
+    "number": "25",
+    "set_total": "119",
+    "rarity": "Rare",
+    "author": [
+        "Mizue"
+    ],
+    "flavor_text": "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
+    "stage": "Basic",
+    "hp": 70,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Trick Sticker",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon’s Weakness is now {L} until the end of your next turn. (The amount of Weakness doesn’t change.)"
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Pachi",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

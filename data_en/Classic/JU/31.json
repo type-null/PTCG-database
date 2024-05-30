@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/vileplume-jungle-ju-31/",
+    "name": "Vileplume",
+    "img": "https://pkmncards.com/wp-content/uploads/vileplume-jungle-ju-31.jpg",
+    "card_type": "Pokémon",
+    "set_name": "JU",
+    "series": "Classic",
+    "set_full_name": "Jungle",
+    "set_code": "JU",
+    "date": "Jun 16, 1999",
+    "number": "31",
+    "set_total": "64",
+    "rarity": "Rare",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "flavor_text": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
+    "stage": "Stage 2",
+    "level": "35",
+    "hp": 80,
+    "types": [
+        "Grass"
+    ],
+    "abilities": [
+        {
+            "name": "Heal",
+            "effect": "Once during your turn (before your attack), you may flip a coin. If heads, remove 1 damage counter from 1 of your Pokémon. This power can’t be used if Vileplume is Asleep, Confused, or Paralyzed."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Grass"
+            ],
+            "name": "Petal Dance",
+            "damage": {
+                "amount": 40,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 40 damage times the number of heads. Vileplume is now Confused (after doing damage)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Gloom"
+}

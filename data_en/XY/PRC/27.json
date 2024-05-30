@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/combusken-primal-clash-prc-27/",
+    "name": "Combusken",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY5-027-combusken.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PRC",
+    "series": "XY",
+    "set_full_name": "Primal Clash",
+    "set_code": "XY5",
+    "date": "Feb 4, 2015",
+    "number": "27",
+    "set_total": "160",
+    "rarity": "Uncommon",
+    "author": [
+        "kawayoo"
+    ],
+    "flavor_text": "During a battle, the hot flame in its body increases. Its kicks have outstanding destructive power.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Spiral Kick",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Torchic"
+}

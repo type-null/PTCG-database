@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/golem-flashfire-flf-47/",
+    "name": "Golem",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY2-047-golem.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FLF",
+    "series": "XY",
+    "set_full_name": "Flashfire",
+    "set_code": "XY2",
+    "date": "May 7, 2014",
+    "number": "47",
+    "set_total": "106",
+    "rarity": "Rare",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "flavor_text": "It tumbles down mountains, leaving grooves from peak to base. Stay clear of these grooves.",
+    "stage": "Stage 2",
+    "hp": 150,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Stone Edge",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack 30 more damage."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Explosion",
+            "damage": {
+                "amount": 150,
+                "suffix": ""
+            },
+            "effect": "This Pokémon does 100 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Graveler"
+}

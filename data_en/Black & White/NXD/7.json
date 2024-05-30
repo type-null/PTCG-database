@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/simisage-next-destinies-nxd-7/",
+    "name": "Simisage",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW4-007-simisage.jpg",
+    "card_type": "Pokémon",
+    "set_name": "NXD",
+    "series": "Black & White",
+    "set_full_name": "Next Destinies",
+    "set_code": "BW4",
+    "date": "Feb 8, 2012",
+    "number": "7",
+    "set_total": "99",
+    "rarity": "Rare",
+    "author": [
+        "kawayoo"
+    ],
+    "flavor_text": "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Collect",
+            "damage": null,
+            "effect": "Draw 3 cards."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Stadium Drain",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "If there is any Stadium card in play, this attack does 30 more damage and heal 30 damage from this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Pansage"
+}

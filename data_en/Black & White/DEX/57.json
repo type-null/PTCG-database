@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/excadrill-dark-explorers-dex-57/",
+    "name": "Excadrill",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW5-057-excadrill.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DEX",
+    "series": "Black & White",
+    "set_full_name": "Dark Explorers",
+    "set_code": "BW5",
+    "date": "May 9, 2012",
+    "number": "57",
+    "set_total": "108",
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Reinforced Drill",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If this Pokémon has a Pokémon Tool card attached to it, this attack does 30 more damage."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Mach Claw",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": "This attack’s damage isn’t affected by Resistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Drilbur"
+}

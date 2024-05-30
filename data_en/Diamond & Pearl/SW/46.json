@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/charmeleon-secret-wonders-sw-46/",
+    "name": "Charmeleon",
+    "img": "https://pkmncards.com/wp-content/uploads/charmeleon-secret-wonders-sw-46.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SW",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Secret Wonders",
+    "set_code": "DP3",
+    "date": "Nov 7, 2007",
+    "number": "46",
+    "set_total": "132",
+    "rarity": "Uncommon",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "flavor_text": "In the rocky mountains where CHARMELEON live, their fiery tails shine at night like stars.",
+    "stage": "Stage 1",
+    "level": "29",
+    "hp": 80,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Fire Fang",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Burned."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Flare Tail",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, discard a {R} Energy attached to Charmeleon and this attack does 50 damage plus 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Charmander"
+}

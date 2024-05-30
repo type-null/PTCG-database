@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/manectric-platinum-pl-11/",
+    "name": "Manectric",
+    "img": "https://pkmncards.com/wp-content/uploads/manectric-platinum-pl-11.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PL",
+    "series": "Platinum",
+    "set_full_name": "Platinum",
+    "set_code": "PL1",
+    "date": "Feb 11, 2009",
+    "number": "11",
+    "set_total": "127",
+    "rarity": "Rare Holo",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "stage": "Stage 1",
+    "level": "45",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "poke_body": {
+        "name": "Electric Barrier",
+        "effect": "Prevent all damage done to your Benched Pokémon (excluding any Manectric) by attacks."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Power Wave",
+            "damage": null,
+            "effect": "This attack does 30 damage to each Pokémon that has any Poké-Powers (both yours and your opponent’s). (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Attract Current",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Search your deck for a {L} Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Electrike"
+}

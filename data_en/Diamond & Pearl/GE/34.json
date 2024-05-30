@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/cacturne-great-encounters-ge-34/",
+    "name": "Cacturne",
+    "img": "https://pkmncards.com/wp-content/uploads/cacturne-great-encounters-ge-34.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GE",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Great Encounters",
+    "set_code": "DP4",
+    "date": "Feb 13, 2008",
+    "number": "34",
+    "set_total": "106",
+    "rarity": "Uncommon",
+    "author": [
+        "Midori Harada"
+    ],
+    "flavor_text": "It becomes active at night, seeking prey that is exhausted from the day’s desert heat.",
+    "stage": "Stage 1",
+    "level": "36",
+    "hp": 80,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Pin Missile",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 20 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Needle Arm",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon already has any damage counters on it, this attack does 50 damage plus 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Cacnea"
+}

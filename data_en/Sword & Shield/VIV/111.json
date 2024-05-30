@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/garbodor-vivid-voltage-viv-111/",
+    "name": "Garbodor",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH4-111-garbodor.jpg",
+    "card_type": "Pokémon",
+    "regulation": "D",
+    "set_name": "VIV",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Vivid Voltage",
+    "set_code": "SWSH4",
+    "date": "Nov 13, 2020",
+    "number": "111",
+    "set_total": "185",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "Hasuno"
+    ],
+    "flavor_text": "This Pokémon eats trash, which turns into poison inside its body. The main component of the poison depends on what sort of trash was eaten.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Trash Cyclone",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "This attack does 30 damage for each Pokémon Tool card in your discard pile. Then, shuffle those cards into your deck."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Poison Spray",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Your opponent’s Active Pokémon is now Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Trubbish"
+}

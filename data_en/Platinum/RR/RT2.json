@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/frost-rotom-rising-rivals-rr-rt2/",
+    "name": "Frost Rotom",
+    "img": "https://pkmncards.com/wp-content/uploads/frost-rotom-rising-rivals-rr-rt2.jpg",
+    "card_type": "Pokémon",
+    "set_name": "RR",
+    "series": "Platinum",
+    "set_full_name": "Rising Rivals",
+    "set_code": "PL2",
+    "date": "May 20, 2009",
+    "number": "RT2",
+    "set_total": "111",
+    "rarity": "Rare",
+    "author": [
+        "Hironobu Yoshida"
+    ],
+    "stage": "Basic",
+    "level": "46",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "poke_power": {
+        "name": "Frost Shift",
+        "effect": "Once during your turn (before your attack), you may use this power. Frost Rotom’s type is {W} until the end of your turn."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Hail",
+            "damage": null,
+            "effect": "This attack does 10 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Crushing Ice",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Does 40 damage plus 10 more damage for each {C} Energy in the Defending Pokémon’s Retreat Cost (after applying effects to the Retreat Cost)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Darkness"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Colorless"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3
+}

@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/pikachu-world-collection-7/",
+    "name": "Pikachu",
+    "img": "https://pkmncards.com/wp-content/uploads/pikachu-world-collection-french.jpg",
+    "card_type": "Pokémon",
+    "set_name": "World Collection",
+    "series": "Other",
+    "set_full_name": "World Collection",
+    "set_code": "World Collection",
+    "date": "Nov 27, 2010",
+    "number": "7",
+    "set_total": "9",
+    "rarity": "No Rarity",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "flavor_text": "Il élève sa queue pour surveiller les environs. Elle attire souvent la foudre dans cette position.",
+    "stage": "Basic",
+    "hp": 50,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Bonjour !",
+            "damage": null,
+            "effect": "Saluez votre adversaire. Ensuite, chaque joueur pioche une carte."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Tonnerre",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Défaussez toutes les cartes Énergie attachées à Pikachu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

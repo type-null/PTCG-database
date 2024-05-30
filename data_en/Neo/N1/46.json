@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/quilava-neo-genesis-n1-46/",
+    "name": "Quilava",
+    "img": "https://pkmncards.com/wp-content/uploads/quilava-neo-genesis-46.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N1",
+    "series": "Neo",
+    "set_full_name": "Neo Genesis",
+    "set_code": "N1",
+    "date": "Dec 16, 2000",
+    "number": "46",
+    "set_total": "111",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "This Pokémon is fully covered by nonflammable fur. It can withstand any kind of fire attack.",
+    "stage": "Stage 1",
+    "level": "28",
+    "hp": 60,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Ember",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Discard 1 {R} Energy card attached to Quilava in order to use this attack."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire"
+            ],
+            "name": "Fire Wind",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "If your opponent has any Benched Pokémon, choose 1 of them. Flip 2 coins. For each heads, this attack does 10 damage to that Pokémon. (Don’t apply Weakness and Resistance.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Cyndaquil"
+}

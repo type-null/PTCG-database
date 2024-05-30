@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/crawdaunt-legends-awakened-la-22/",
+    "name": "Crawdaunt",
+    "img": "https://pkmncards.com/wp-content/uploads/crawdaunt-legends-awakened-la-22.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LA",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Legends Awakened",
+    "set_code": "DP6",
+    "date": "Aug 20, 2008",
+    "number": "22",
+    "set_total": "146",
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "It is a ruffian that uses its pincers to pick up and toss out other Pokémon from its pond.",
+    "stage": "Stage 1",
+    "level": "32",
+    "hp": 90,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Gripthrow",
+            "damage": null,
+            "effect": "Flip a coin. If heads, your opponent returns the Defending Pokémon and all cards attached to it to his or her hand."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Prop-up Pinchers",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If Crawdaunt has a Technical Machine card attached to it, this attack does 50 damage plus 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Corphish"
+}

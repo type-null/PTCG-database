@@ -1,0 +1,67 @@
+{
+    "url": "https://pkmncards.com/card/probopass-obsidian-flames-obf-146/",
+    "name": "Probopass",
+    "img": "https://pkmncards.com/wp-content/uploads/sv3_en_146.jpg",
+    "card_type": "Pokémon",
+    "regulation": "G",
+    "set_name": "OBF",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "Obsidian Flames",
+    "set_code": "sv3",
+    "date": "Aug 11, 2023",
+    "number": "146",
+    "set_total": "197",
+    "rarity": "Uncommon",
+    "rarity_img": null,
+    "author": [
+        "takuyoa"
+    ],
+    "flavor_text": "It uses three small units to catch prey and battle enemies. The main body mostly just gives orders.",
+    "stage": "Stage 1",
+    "hp": 150,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Triple Nose",
+            "damage": {
+                "amount": 40,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 40 damage for each heads."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Iron Buster",
+            "damage": {
+                "amount": 160,
+                "suffix": ""
+            },
+            "effect": "During your next turn, this Pokémon can’t attack."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 4,
+    "evolve_from": "Nosepass"
+}

@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/gyarados-g-platinum-pl-30/",
+    "name": "Gyarados G",
+    "img": "https://pkmncards.com/wp-content/uploads/gyarados-g-platinum-pl-30.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PL",
+    "series": "Platinum",
+    "set_full_name": "Platinum",
+    "set_code": "PL1",
+    "date": "Feb 11, 2009",
+    "number": "30",
+    "set_total": "127",
+    "rarity": "Rare",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "stage": "Basic",
+    "level": "46",
+    "hp": 110,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Wriggle",
+            "damage": null,
+            "effect": "Flip a coin for each of your opponent’s Pokémon. If that coin flip is heads, this attack does 30 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Dwindling Wave",
+            "damage": {
+                "amount": 100,
+                "suffix": "-"
+            },
+            "effect": "Does 100 damage minus 10 damage for each damage counter on Gyarados G."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3
+}

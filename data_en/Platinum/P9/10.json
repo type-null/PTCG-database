@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/pachirisu-pop-series-9-p9-10/",
+    "name": "Pachirisu",
+    "img": "https://pkmncards.com/wp-content/uploads/pachirisu-pop-series-9-10.jpg",
+    "card_type": "Pokémon",
+    "set_name": "P9",
+    "series": "Platinum",
+    "set_full_name": "POP Series 9",
+    "set_code": "POP9",
+    "date": "Mar 1, 2009",
+    "number": "10",
+    "set_total": "17",
+    "rarity": "Uncommon",
+    "author": [
+        "Midori Harada"
+    ],
+    "flavor_text": "It makes electricity with pouches in its cheeks and shoots charges from its tail. It live atop trees.",
+    "stage": "Basic",
+    "level": "20",
+    "hp": 70,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thunder Wave",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Poison Berry",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "If you have Croagunk in play, this attack does 20 damage plus 20 more damage and the Defending Pokémon is now Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

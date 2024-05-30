@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/jynx-legendary-collection-lc-26/",
+    "name": "Jynx",
+    "img": "https://pkmncards.com/wp-content/uploads/jynx-legendary-collection-lc-26.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LC",
+    "series": "Other",
+    "set_full_name": "Legendary Collection",
+    "set_code": "LC",
+    "date": "May 24, 2002",
+    "number": "26",
+    "set_total": "110",
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "Merely by meditating, the Pokémon launches a powerful psychic energy attack.",
+    "stage": "Basic",
+    "level": "23",
+    "hp": 70,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Doubleslap",
+            "damage": {
+                "amount": 10,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 10 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Meditate",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

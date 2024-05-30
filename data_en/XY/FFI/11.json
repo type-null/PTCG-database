@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/magmortar-furious-fists-ffi-11/",
+    "name": "Magmortar",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY3-011-magmortar.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FFI",
+    "series": "XY",
+    "set_full_name": "Furious Fists",
+    "set_code": "XY3",
+    "date": "Aug 13, 2014",
+    "number": "11",
+    "set_total": "111",
+    "rarity": "Rare",
+    "author": [
+        "PLANETA"
+    ],
+    "flavor_text": "It blasts fireballs of over 3,600 degrees Fahrenheit from the ends of its arms. It lives in volcanic craters.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Flame Charge",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Search your deck for a {R} Energy card and attach it to this Pokémon. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Twin Bursts",
+            "damage": {
+                "amount": 80,
+                "suffix": "+"
+            },
+            "effect": "If Electivire is on your Bench, this attack does 80 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Magmar"
+}

@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/pikachu-world-collection-1/",
+    "name": "Pikachu",
+    "img": "https://pkmncards.com/wp-content/uploads/pikachu-world-collection-english.jpg",
+    "card_type": "Pokémon",
+    "set_name": "World Collection",
+    "series": "Other",
+    "set_full_name": "World Collection",
+    "set_code": "World Collection",
+    "date": "Nov 27, 2010",
+    "number": "1",
+    "set_total": "9",
+    "rarity": "No Rarity",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose.",
+    "stage": "Basic",
+    "hp": 50,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Hello!",
+            "damage": null,
+            "effect": "Greet your opponent. Then, each player draws a card."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunderbolt",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Discard all Energy attached to Pikachu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

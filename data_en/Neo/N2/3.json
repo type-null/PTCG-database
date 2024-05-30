@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/hitmontop-neo-discovery-n2-3/",
+    "name": "Hitmontop",
+    "img": "https://pkmncards.com/wp-content/uploads/hitmontop-neo-discovery-3.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N2",
+    "series": "Neo",
+    "set_full_name": "Neo Discovery",
+    "set_code": "N2",
+    "date": "Jun 1, 2001",
+    "number": "3",
+    "set_total": "75",
+    "rarity": "Rare Holo",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "flavor_text": "If you become enchanted by its smooth, elegant, dancelike kicks, you may get drilled hard.",
+    "stage": "Basic",
+    "level": "31",
+    "hp": 60,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Detect",
+            "damage": null,
+            "effect": "Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to Hitmontop."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Triple Kick",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 30 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

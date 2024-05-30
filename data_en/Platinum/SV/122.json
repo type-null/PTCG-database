@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/rhyhorn-supreme-victors-sv-122/",
+    "name": "Rhyhorn",
+    "img": "https://pkmncards.com/wp-content/uploads/rhyhorn-supreme-victors-sv-122.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SV",
+    "series": "Platinum",
+    "set_full_name": "Supreme Victors",
+    "set_code": "PL3",
+    "date": "Aug 19, 2009",
+    "number": "122",
+    "set_total": "147",
+    "rarity": "Common",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "flavor_text": "Its powerful tackles can destroy anything. However, it is too slow witted to help people work.",
+    "stage": "Basic",
+    "level": "23",
+    "hp": 70,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Stomp",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Horn Drill",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2
+}

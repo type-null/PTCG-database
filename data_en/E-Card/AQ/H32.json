@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/zapdos-aquapolis-aq-h32/",
+    "name": "Zapdos",
+    "img": "https://pkmncards.com/wp-content/uploads/h32-zapdos-expedition.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AQ",
+    "series": "E-Card",
+    "set_full_name": "Aquapolis",
+    "set_code": "AQ",
+    "date": "Jan 15, 2003",
+    "number": "H32",
+    "set_total": "H32",
+    "rarity": "Rare Holo",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "stage": "Basic",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "poke_body": {
+        "name": "Anti-Lightning",
+        "effect": " You can’t attach {L} Energy cards from your hand to Zapdos."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Plasma",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "If there are any {L} Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Zapdos."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Lightning Storm",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, put 2 damage counters on Zapdos."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2
+}

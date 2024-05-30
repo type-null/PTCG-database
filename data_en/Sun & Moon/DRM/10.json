@@ -1,0 +1,56 @@
+{
+    "url": "https://pkmncards.com/card/heatmor-dragon-majesty-drm-10/",
+    "name": "Heatmor",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-DM-010-heatmor.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DRM",
+    "series": "Sun & Moon",
+    "set_full_name": "Dragon Majesty",
+    "set_code": "DRM",
+    "date": "Sep 7, 2018",
+    "number": "10",
+    "set_total": "70",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "It draws in air through its tail, transforms it into fire, and uses it like a tongue. It melts Durant and eats them.",
+    "stage": "Basic",
+    "hp": 110,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Singe",
+            "damage": null,
+            "effect": "Your opponent’s Active Pokémon is now Burned."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire"
+            ],
+            "name": "Charring Breath",
+            "damage": {
+                "amount": 120,
+                "suffix": ""
+            },
+            "effect": "If your opponent’s Active Pokémon isn’t Burned, this attack does nothing."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

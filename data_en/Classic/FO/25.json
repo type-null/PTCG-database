@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/lapras-fossil-fo-25/",
+    "name": "Lapras",
+    "img": "https://pkmncards.com/wp-content/uploads/lapras-fossil-fo-25.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FO",
+    "series": "Classic",
+    "set_full_name": "Fossil",
+    "set_code": "FO",
+    "date": "Oct 10, 1999",
+    "number": "25",
+    "set_total": "62",
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "A Pokémon that has been overhunted almost to extinction. It can ferry people across water.",
+    "stage": "Basic",
+    "level": "31",
+    "hp": 80,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Water Gun",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Does 10 damage plus 10 more damage for each {W} Energy attached to Lapras but not used to pay for this attack’s Energy cost. You can’t add more than 20 damage in this way."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water"
+            ],
+            "name": "Confuse Ray",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

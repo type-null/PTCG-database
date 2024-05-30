@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/braixen-kalos-starter-set-kss-9/",
+    "name": "Braixen",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY0-009-braixen.jpg",
+    "card_type": "Pokémon",
+    "set_name": "KSS",
+    "series": "XY",
+    "set_full_name": "Kalos Starter Set",
+    "set_code": "XY0",
+    "date": "Nov 8, 2013",
+    "number": "9",
+    "set_total": "39",
+    "rarity": "No Rarity",
+    "author": [
+        "5ban Graphics"
+    ],
+    "flavor_text": "It has a twig stuck in its tail. With friction from its tail fur, it sets the twig on fire and launches into battle.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Firebreathing",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Flame Tail",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Fennekin"
+}

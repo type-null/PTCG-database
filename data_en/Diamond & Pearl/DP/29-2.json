@@ -1,0 +1,67 @@
+{
+    "url": "https://pkmncards.com/card/hippowdon-diamond-pearl-dp-29/",
+    "name": "Hippowdon",
+    "img": "https://pkmncards.com/wp-content/uploads/hippowdon-diamond-pearl-dp-29.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DP",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Diamond & Pearl",
+    "set_code": "DP1",
+    "date": "May 23, 2007",
+    "number": "29",
+    "set_total": "130",
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
+    "stage": "Stage 1",
+    "level": "45",
+    "hp": 110,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Vacuum Up",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon can’t retreat during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Sand Eject",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 40 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Hippopotas"
+}

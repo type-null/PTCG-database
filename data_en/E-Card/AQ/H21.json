@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/scizor-aquapolis-aq-h21/",
+    "name": "Scizor",
+    "img": "https://pkmncards.com/wp-content/uploads/h21-scizor-expedition.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AQ",
+    "series": "E-Card",
+    "set_full_name": "Aquapolis",
+    "set_code": "AQ",
+    "date": "Jan 15, 2003",
+    "number": "H21",
+    "set_total": "H32",
+    "rarity": "Rare Holo",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Metal"
+    ],
+    "poke_body": {
+        "name": "Poison Resistance",
+        "effect": " Scizor can’t be Poisoned."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Snatch",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Before doing damage, you may choose 1 of your opponent’s Benched Pokémon with no damage counters on it and switch the Defending Pokémon with it."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Heavy Metal",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a number of coins equal to the amount of {M} Energy attached to Scizor. This attack does 30 damage plus 20 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Scyther"
+}

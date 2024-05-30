@@ -1,0 +1,51 @@
+{
+    "url": "https://pkmncards.com/card/sunflora-neo-genesis-n1-50/",
+    "name": "Sunflora",
+    "img": "https://pkmncards.com/wp-content/uploads/sunflora-neo-genesis-50.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N1",
+    "series": "Neo",
+    "set_full_name": "Neo Genesis",
+    "set_code": "N1",
+    "date": "Dec 16, 2000",
+    "number": "50",
+    "set_total": "111",
+    "rarity": "Uncommon",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "It converts sunlight into energy. In the darkness after sunset, it closes its petals and becomes still.",
+    "stage": "Stage 1",
+    "level": "36",
+    "hp": 70,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Grass"
+            ],
+            "name": "Petal Dance",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 30 damage times the number of heads. Sunflora is now Confused (after doing damage)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Sunkern"
+}

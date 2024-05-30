@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/simisear-next-destinies-nxd-16/",
+    "name": "Simisear",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW4-016-simisear.jpg",
+    "card_type": "Pokémon",
+    "set_name": "NXD",
+    "series": "Black & White",
+    "set_full_name": "Next Destinies",
+    "set_code": "BW4",
+    "date": "Feb 8, 2012",
+    "number": "16",
+    "set_total": "99",
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "It loves sweets because they become energy for the fire burning inside its body.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Collect",
+            "damage": null,
+            "effect": "Draw 3 cards."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Stadium Burn",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "If there is any Stadium card in play, this attack does 30 more damage and the Defending Pokémon is now Burned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Pansear"
+}

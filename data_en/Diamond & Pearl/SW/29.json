@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/golem-secret-wonders-sw-29/",
+    "name": "Golem",
+    "img": "https://pkmncards.com/wp-content/uploads/golem-secret-wonders-sw-29.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SW",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Secret Wonders",
+    "set_code": "DP3",
+    "date": "Nov 7, 2007",
+    "number": "29",
+    "set_total": "132",
+    "rarity": "Rare",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "flavor_text": "It sheds its hide once a year. Its boulderlike body is so tough, even dynamite can’t harm it.",
+    "stage": "Stage 2",
+    "level": "52",
+    "hp": 130,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Double Throw",
+            "damage": null,
+            "effect": "Choose 2 of your opponent’s Pokémon. This attack does 30 damage to each of them. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Megaton Rock",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "You may do 40 damage instead of 80 to the Defending Pokémon. If you do, during your opponent’s next turn, any damage done to Golem by attacks is reduced by 40 (after applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Graveler"
+}

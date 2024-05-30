@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/seadra-primal-clash-prc-31/",
+    "name": "Seadra",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY5-031-seadra.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PRC",
+    "series": "XY",
+    "set_full_name": "Primal Clash",
+    "set_code": "XY5",
+    "date": "Feb 4, 2015",
+    "number": "31",
+    "set_total": "160",
+    "rarity": "Uncommon",
+    "author": [
+        "Sanosuke Sakuma"
+    ],
+    "flavor_text": "It is capable of swimming backwards by rapidly flapping its winglike pectoral fins and stout tail.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Knockout Needle",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip 2 coins. If both of them are heads, this attack does 40 more damage."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Water Gun",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Horsea"
+}

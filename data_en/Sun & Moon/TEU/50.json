@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/heliolisk-team-up-teu-50/",
+    "name": "Heliolisk",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM9-050-heliolisk.jpg",
+    "card_type": "Pokémon",
+    "set_name": "TEU",
+    "series": "Sun & Moon",
+    "set_full_name": "Team Up",
+    "set_code": "SM9",
+    "date": "Feb 1, 2019",
+    "number": "50",
+    "set_total": "181",
+    "rarity": "Uncommon",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "flavor_text": "It stimulates its muscles with electricity, boosting the strength in its legs and enabling it to run 100 yards in five seconds.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Random Spark",
+            "damage": null,
+            "effect": "This attack does 30 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Volt Switch",
+            "damage": {
+                "amount": 90,
+                "suffix": ""
+            },
+            "effect": "Switch this Pokémon with 1 of your Benched {L} Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Helioptile"
+}

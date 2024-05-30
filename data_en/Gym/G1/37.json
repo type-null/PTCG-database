@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/blaines-magmar-gym-heroes-g1-37/",
+    "name": "Blaine’s Magmar",
+    "img": "https://pkmncards.com/wp-content/uploads/blaines-magmar-gym-heroes-37.jpg",
+    "card_type": "Pokémon",
+    "set_name": "G1",
+    "series": "Gym",
+    "set_full_name": "Gym Heroes",
+    "set_code": "G1",
+    "date": "Aug 14, 2000",
+    "number": "37",
+    "set_total": "132",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "stage": "Basic",
+    "level": "29",
+    "hp": 60,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Firebreathing",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Fire"
+            ],
+            "name": "Lava Burst",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Discard the top 5 cards of your deck. (If there are fewer than 5 cards in your deck, discard all of them.) This attack does 20 damage for each {R} Energy card you discarded in this way."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

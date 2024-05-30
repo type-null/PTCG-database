@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/electivire-brilliant-stars-brs-047/",
+    "name": "Electivire",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH9-047-electivire.jpg",
+    "card_type": "Pokémon",
+    "regulation": "F",
+    "set_name": "BRS",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Brilliant Stars",
+    "set_code": "SWSH9",
+    "date": "Feb 25, 2022",
+    "number": "047",
+    "set_total": "172",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "AKIRA EGAWA"
+    ],
+    "flavor_text": "The amount of electrical energy this Pokémon produces is proportional to the rate of its pulse. The voltage jumps while Electivire is battling.",
+    "stage": "Stage 1",
+    "hp": 140,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Explosive Bolt",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "If any of your Benched Magmortar have any damage counters on them, this attack does 90 more damage."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "High-Voltage Current",
+            "damage": null,
+            "effect": "This attack does 50 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Electabuzz"
+}

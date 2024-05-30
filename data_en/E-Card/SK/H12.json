@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/jolteon-skyridge-sk-h12/",
+    "name": "Jolteon",
+    "img": "https://pkmncards.com/wp-content/uploads/h12.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SK",
+    "series": "E-Card",
+    "set_full_name": "Skyridge",
+    "set_code": "SK",
+    "date": "May 12, 2003",
+    "number": "H12",
+    "set_total": "H32",
+    "rarity": "Rare Holo",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Lightning"
+    ],
+    "poke_body": {
+        "name": "Self-healing",
+        "effect": "Whenever you attach a {L} Energy card from your hand to Jolteon, remove all Special Conditions affecting Jolteon."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thundershock",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Thunderspark",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "This attack does 10 damage to each Benched Pokémon with at least 1 Energy card attached to it (yours and your opponent’s)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 0,
+    "evolve_from": "Eevee"
+}

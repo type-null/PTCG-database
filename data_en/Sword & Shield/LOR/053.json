@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/raichu-lost-origin-lor-053/",
+    "name": "Raichu",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH11-053-raichu.jpg",
+    "card_type": "Pokémon",
+    "regulation": "F",
+    "set_name": "LOR",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Lost Origin",
+    "set_code": "SWSH11",
+    "date": "Sep 9, 2022",
+    "number": "053",
+    "set_total": "196",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "GIDORA"
+    ],
+    "flavor_text": "Its long tail serves as a ground to protect itself from its own high-voltage power.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thunder Shock",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Ace Spark",
+            "damage": {
+                "amount": 100,
+                "suffix": "+"
+            },
+            "effect": "If you have used your VSTAR Power, this attack does 120 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu"
+}

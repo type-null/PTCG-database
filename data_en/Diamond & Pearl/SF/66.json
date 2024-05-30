@@ -1,0 +1,54 @@
+{
+    "url": "https://pkmncards.com/card/magnemite-stormfront-sf-66/",
+    "name": "Magnemite",
+    "img": "https://pkmncards.com/wp-content/uploads/magnemite-stormfront-sf-66.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "66",
+    "set_total": "100",
+    "rarity": "Common",
+    "author": [
+        "Aya Kusube"
+    ],
+    "stage": "Basic",
+    "level": "15",
+    "hp": 50,
+    "types": [
+        "Metal"
+    ],
+    "held_item": {
+        "item": "Magnet",
+        "effect": " Magnemite’s Retreat Cost is {C} less for each Magnemite on your Bench."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Magnetic Bomb",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage. If tails, Magnemite does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

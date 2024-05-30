@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/zoroark-black-white-promos-bwp-bw19/",
+    "name": "Zoroark",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-Promo_BW-BW19-zoroark.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BWP",
+    "series": "Black & White",
+    "set_full_name": "Black & White Promos",
+    "set_code": "BWP",
+    "date": "Nov 30, 2011",
+    "number": "BW19",
+    "set_total": null,
+    "rarity": "Promo",
+    "author": [
+        "5ban Graphics"
+    ],
+    "flavor_text": "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Punishment",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon is a Stage 2 Pokémon, this attack does 20 more damage."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Snarl",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Zorua"
+}

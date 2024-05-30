@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/machamp-power-keepers-pk-11/",
+    "name": "Machamp",
+    "img": "https://pkmncards.com/wp-content/uploads/machamp-power-keepers-pk-11.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PK",
+    "series": "EX",
+    "set_full_name": "Power Keepers",
+    "set_code": "EX16",
+    "date": "Feb 14, 2007",
+    "number": "11",
+    "set_total": "108",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "stage": "Stage 2",
+    "hp": 120,
+    "types": [
+        "Fighting"
+    ],
+    "poke_body": {
+        "name": "Overzealous",
+        "effect": "If your opponent has any Pokémon-ex in play, each of Machamp’s attacks does 30 more damage to the Defending Pokémon."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Brick Smash",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "This attack’s damage isn’t affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Cross Chop",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 60 damage plus 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Machoke"
+}

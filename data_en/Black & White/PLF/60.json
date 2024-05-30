@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/primeape-plasma-freeze-plf-60/",
+    "name": "Primeape",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW9-060-primeape.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLF",
+    "series": "Black & White",
+    "set_full_name": "Plasma Freeze",
+    "set_code": "BW9",
+    "date": "May 8, 2013",
+    "number": "60",
+    "set_total": "116",
+    "rarity": "Common",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "It grows angry if you see its eyes and gets angrier if you run. If you beat it, it gets even madder.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Fury Swipes",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 30 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Karate Chop",
+            "damage": {
+                "amount": 80,
+                "suffix": "-"
+            },
+            "effect": "Does 80 damage minus 10 damage for each damage counter on this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Mankey"
+}

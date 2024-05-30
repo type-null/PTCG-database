@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/klang-steam-siege-sts-72/",
+    "name": "Klang",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY11-072-klang.jpg",
+    "card_type": "Pokémon",
+    "set_name": "STS",
+    "series": "XY",
+    "set_full_name": "Steam Siege",
+    "set_code": "XY11",
+    "date": "Aug 3, 2016",
+    "number": "72",
+    "set_total": "114",
+    "rarity": "Uncommon",
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "flavor_text": "A minigear and big gear comprise its body. If the minigear it launches at a foe doesn’t return, it will die.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Vice Grip",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Disorderly Flip",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 4 coins. This attack does 30 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Klink"
+}

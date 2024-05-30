@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/simipour-next-destinies-nxd-29/",
+    "name": "Simipour",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW4-029-simipour.jpg",
+    "card_type": "Pokémon",
+    "set_name": "NXD",
+    "series": "Black & White",
+    "set_full_name": "Next Destinies",
+    "set_code": "BW4",
+    "date": "Feb 8, 2012",
+    "number": "29",
+    "set_total": "99",
+    "rarity": "Rare",
+    "author": [
+        "Akira Komayama"
+    ],
+    "flavor_text": "The tuft on its head holds water. When the level runs low, it replenishes the tuft by siphoning up water with its tail.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Collect",
+            "damage": null,
+            "effect": "Draw 3 cards."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Stadium Wave",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "If there is any Stadium card in play, this attack does 30 more damage and the Defending Pokémon is now Asleep."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Panpour"
+}

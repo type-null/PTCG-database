@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/tropius-plasma-blast-plb-5/",
+    "name": "Tropius",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW10-005-tropius.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLB",
+    "series": "Black & White",
+    "set_full_name": "Plasma Blast",
+    "set_code": "BW10",
+    "date": "Aug 14, 2013",
+    "number": "5",
+    "set_total": "101",
+    "rarity": "Uncommon",
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "flavor_text": "It flies by flapping its broad leaves and gives the sweet, delicious fruit around its neck to children.",
+    "stage": "Basic",
+    "hp": 100,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Return",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Draw cards until you have 6 cards in your hand."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Energy Press",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Does 20 more damage for each Energy attached to the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

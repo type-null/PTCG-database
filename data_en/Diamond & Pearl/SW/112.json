@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/squirtle-secret-wonders-sw-112/",
+    "name": "Squirtle",
+    "img": "https://pkmncards.com/wp-content/uploads/squirtle-secret-wonders-sw-112.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SW",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Secret Wonders",
+    "set_code": "DP3",
+    "date": "Nov 7, 2007",
+    "number": "112",
+    "set_total": "132",
+    "rarity": "Common",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "It shelters itself in its shell, then strikes back with spouts of water at every opportunity.",
+    "stage": "Basic",
+    "level": "15",
+    "hp": 50,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "No Energy Cost"
+            ],
+            "name": "Bubble",
+            "damage": null,
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Aqua Tail",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin for each {W} Energy attached to Squirtle. This attack does 20 damage plus 10 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

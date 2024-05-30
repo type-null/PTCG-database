@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/steelix-stormfront-sf-28/",
+    "name": "Steelix",
+    "img": "https://pkmncards.com/wp-content/uploads/steelix-stormfront-sf-28.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "28",
+    "set_total": "100",
+    "rarity": "Rare",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "flavor_text": "Tempered underground under high pressure and heat, its body is harder than any metal.",
+    "stage": "Stage 1",
+    "level": "63",
+    "hp": 130,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Outbreak Power",
+            "damage": null,
+            "effect": "Choose a number of your opponent’s Pokémon up to the amount of Energy attached to Steelix. This attack does 20 damage to each of them. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Iron Tail",
+            "damage": {
+                "amount": 100,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 100 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Onix"
+}

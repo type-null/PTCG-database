@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/espeon-sword-shield-promos-swsh174/",
+    "name": "Espeon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-Promo_SWSH-SWSH174-espeon.jpg",
+    "card_type": "Pokémon",
+    "regulation": "E",
+    "set_name": "Promo_SWSH",
+    "series": "Sword & Shield",
+    "set_full_name": "Sword & Shield Promos",
+    "set_code": "Promo_SWSH",
+    "date": "Nov 12, 2021",
+    "number": "SWSH174",
+    "set_total": null,
+    "rarity": "Promo",
+    "author": [
+        "Tika Matsuno"
+    ],
+    "flavor_text": "It unleashes psychic power from the orb on its forehead. When its power is exhausted, the orb grows dull and dark.",
+    "stage": "Stage 1",
+    "hp": 110,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Psy Bolt",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Psychic",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "This attack does 40 more damage for each Energy attached to your opponent’s Active Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Darkness"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee"
+}

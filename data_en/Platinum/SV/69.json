@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/metang-supreme-victors-sv-69/",
+    "name": "Metang",
+    "img": "https://pkmncards.com/wp-content/uploads/metang-supreme-victors-sv-69.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SV",
+    "series": "Platinum",
+    "set_full_name": "Supreme Victors",
+    "set_code": "PL3",
+    "date": "Aug 19, 2009",
+    "number": "69",
+    "set_total": "147",
+    "rarity": "Uncommon",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "flavor_text": "It is formed by two Beldum joining together. Its steel body won’t be scratched if it collides with a jet.",
+    "stage": "Stage 1",
+    "level": "28",
+    "hp": 80,
+    "types": [
+        "Metal"
+    ],
+    "poke_body": {
+        "name": "Metallic Lift",
+        "effect": "If Metang has any {M} Energy attached to it, the Retreat Cost for Metang is 0."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Psychic",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Does 40 damage plus 10 more damage for each Energy attached to the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Beldum"
+}

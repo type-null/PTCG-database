@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/latios-great-encounters-ge-23/",
+    "name": "Latios",
+    "img": "https://pkmncards.com/wp-content/uploads/latios-great-encounters-ge-23.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GE",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Great Encounters",
+    "set_code": "DP4",
+    "date": "Feb 13, 2008",
+    "number": "23",
+    "set_total": "106",
+    "rarity": "Rare",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "flavor_text": "A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes.",
+    "stage": "Basic",
+    "level": "47",
+    "hp": 90,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Energy Draw",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, search your deck for a basic Energy card and attach it to Latios. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Luster Purge",
+            "damage": {
+                "amount": 120,
+                "suffix": ""
+            },
+            "effect": "Discard 3 Energy attached to Latios."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Colorless"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2
+}

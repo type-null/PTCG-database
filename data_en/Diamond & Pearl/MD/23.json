@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/jolteon-majestic-dawn-md-23/",
+    "name": "Jolteon",
+    "img": "https://pkmncards.com/wp-content/uploads/jolteon-majestic-dawn-md-23.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MD",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Majestic Dawn",
+    "set_code": "DP5",
+    "date": "May 21, 2008",
+    "number": "23",
+    "set_total": "100",
+    "rarity": "Rare",
+    "author": [
+        "Midori Harada"
+    ],
+    "flavor_text": "It controls 10,000-volt power and can raise all the furs on its body as if it were sharp needles.",
+    "stage": "Stage 1",
+    "level": "39",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thunder Fang",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Lightning Strike",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "You may discard 2 Energy attached to Jolteon. If you do, this attack’s base damage is 90 instead of 50."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Eevee"
+}

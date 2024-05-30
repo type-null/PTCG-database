@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/scizor-rebel-clash-rcl-128/",
+    "name": "Scizor",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH2-128-scizor.jpg",
+    "card_type": "Pokémon",
+    "regulation": "D",
+    "set_name": "RCL",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Rebel Clash",
+    "set_code": "SWSH2",
+    "date": "May 1, 2020",
+    "number": "128",
+    "set_total": "192",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "Ryuta Fuse"
+    ],
+    "flavor_text": "Once it has identified something as an enemy, it will continue beating them with its steel-hard pincers until there’s nothing left but scraps.",
+    "stage": "Stage 1",
+    "hp": 130,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Raid",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "If this Pokémon evolved from Scyther during this turn, this attack does 90 more damage."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Guard Claw",
+            "damage": {
+                "amount": 90,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Scyther"
+}

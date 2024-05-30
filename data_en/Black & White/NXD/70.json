@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/weavile-next-destinies-nxd-70/",
+    "name": "Weavile",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW4-070-weavile.jpg",
+    "card_type": "Pokémon",
+    "set_name": "NXD",
+    "series": "Black & White",
+    "set_full_name": "Next Destinies",
+    "set_code": "BW4",
+    "date": "Feb 8, 2012",
+    "number": "70",
+    "set_total": "99",
+    "rarity": "Rare",
+    "author": [
+        "Akira Komayama"
+    ],
+    "flavor_text": "Evolution made it even more devious. It communicates by clawing signs in boulders.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Dark Penalty",
+            "damage": {
+                "amount": 90,
+                "suffix": ""
+            },
+            "effect": "If the Defending Pokémon has no Pokémon Tool card attached to it, this attack does nothing."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Fury Swipes",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 30 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Sneasel"
+}

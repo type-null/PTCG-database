@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/dark-houndoom-team-rocket-returns-tr-5/",
+    "name": "Dark Houndoom",
+    "img": "https://pkmncards.com/wp-content/uploads/dark-houndoom-team-rocket-returns-rr-5.jpg",
+    "card_type": "Pokémon",
+    "set_name": "TR",
+    "series": "EX",
+    "set_full_name": "Team Rocket Returns",
+    "set_code": "EX7",
+    "date": "Nov 8, 2004",
+    "number": "5",
+    "set_total": "109",
+    "rarity": "Rare Holo",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Fire",
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Shakedown",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Choose a card from your opponent’s hand without looking and discard it."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Dark Fire",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "You may discard a {R} Energy or {D} Energy attached to Dark Houndoom. If you do, this attack does 40 damage plus 20 more damage."
+        }
+    ],
+    "rule_box": "This Pokémon is both {R}{D} type.",
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Houndour"
+}

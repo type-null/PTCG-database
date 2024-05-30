@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/blaziken-dark-explorers-dex-17/",
+    "name": "Blaziken",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW5-017-blaziken.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DEX",
+    "series": "Black & White",
+    "set_full_name": "Dark Explorers",
+    "set_code": "BW5",
+    "date": "May 9, 2012",
+    "number": "17",
+    "set_total": "108",
+    "rarity": "Rare Holo",
+    "author": [
+        "TOKIYA"
+    ],
+    "flavor_text": "Flames spout from its wrists, enveloping its knuckles. Its punches scorch it foes.",
+    "stage": "Stage 2",
+    "hp": 140,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Blaze Kick",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage. If tails, the Defending Pokémon is now Burned."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Flamethrower",
+            "damage": {
+                "amount": 130,
+                "suffix": ""
+            },
+            "effect": "Discard an Energy attached to this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Combusken"
+}

@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/dugtrio-triumphant-tm-19/",
+    "name": "Dugtrio",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS4-019-dugtrio.jpg",
+    "card_type": "Pokémon",
+    "set_name": "TM",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Triumphant",
+    "set_code": "HGSS4",
+    "date": "Nov 2, 2010",
+    "number": "19",
+    "set_total": "102",
+    "rarity": "Rare",
+    "author": [
+        "Shizurow"
+    ],
+    "flavor_text": "Extremely powerful, they can dig through even the hardest ground to a depth of over 60 miles.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Dig",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Sand Impact",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin for each {F} Energy attached to Dugtrio. This attack does 50 damage plus 20 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Diglett"
+}

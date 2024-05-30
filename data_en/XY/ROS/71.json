@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/swellow-roaring-skies-ros-71/",
+    "name": "Swellow",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY6-071-swellow.jpg",
+    "card_type": "Pokémon",
+    "set_name": "ROS",
+    "series": "XY",
+    "set_full_name": "Roaring Skies",
+    "set_code": "XY6",
+    "date": "May 6, 2015",
+    "number": "71",
+    "set_total": "108",
+    "rarity": "Rare",
+    "author": [
+        "Sanosuke Sakuma"
+    ],
+    "flavor_text": "It dives at a steep angle as soon as it spots its prey. It catches its prey with sharp claws.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Clutch",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon can’t retreat during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Aerial Ace",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Taillow"
+}

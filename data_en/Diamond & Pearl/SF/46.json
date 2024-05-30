@@ -1,0 +1,67 @@
+{
+    "url": "https://pkmncards.com/card/piloswine-stormfront-sf-46/",
+    "name": "Piloswine",
+    "img": "https://pkmncards.com/wp-content/uploads/piloswine-stormfront-sf-46.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "46",
+    "set_total": "100",
+    "rarity": "Uncommon",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Its shaggy coat makes it unable to see. It checks surroundings with its sensitive nose instead.",
+    "stage": "Stage 1",
+    "level": "34",
+    "hp": 90,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Rouse",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Does 20 damage plus 10 more damage for each damage counter on Piloswine. Then, remove 4 damage counters from Piloswine."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Overrun",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Swinub"
+}

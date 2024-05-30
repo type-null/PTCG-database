@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/voltorb-roaring-skies-ros-21/",
+    "name": "Voltorb",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY6-021-voltorb.jpg",
+    "card_type": "Pokémon",
+    "set_name": "ROS",
+    "series": "XY",
+    "set_full_name": "Roaring Skies",
+    "set_code": "XY6",
+    "date": "May 6, 2015",
+    "number": "21",
+    "set_total": "108",
+    "rarity": "Common",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "flavor_text": "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people.",
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thunder Wave",
+            "damage": null,
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Big Explosion",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "This Pokémon does 60 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

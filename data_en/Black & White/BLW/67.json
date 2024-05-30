@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/liepard-black-white-blw-67/",
+    "name": "Liepard",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW1-067-liepard.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BLW",
+    "series": "Black & White",
+    "set_full_name": "Black & White",
+    "set_code": "BW1",
+    "date": "Apr 25, 2011",
+    "number": "67",
+    "set_total": "114",
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Stealthily, it sneaks up on its target, striking from behind before its victim has a chance to react.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Taunt",
+            "damage": null,
+            "effect": "Switch the Defending Pokémon with 1 of your opponent’s Benched Pokémon."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Sucker Punch",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "If this Pokémon has any {D} Energy attached to it, this attack does 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Purrloin"
+}

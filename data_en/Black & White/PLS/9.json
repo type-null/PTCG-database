@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/swadloon-plasma-storm-pls-9/",
+    "name": "Swadloon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW8-009-swadloon.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLS",
+    "series": "Black & White",
+    "set_full_name": "Plasma Storm",
+    "set_code": "BW8",
+    "date": "Feb 6, 2013",
+    "number": "9",
+    "set_total": "135",
+    "rarity": "Uncommon",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "flavor_text": "Preferring dark, damp places, it spends the entire day eating fallen leaves that lie around it.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Swaddle Guard",
+            "damage": null,
+            "effect": "During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 40 (after applying Weakness and Resistance)."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Surprise Attack",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, this attack does nothing."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Sewaddle"
+}

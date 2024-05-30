@@ -155,11 +155,11 @@ English Rarity key, SV1-onwards:
 ### Japanese version
 
 - Info
-    - Card content: [`data/`](data/)
-        - `/data/set_name/<individual-card>.json`
+    - Card content: [`data_jp/`](data_jp/)
+        - `/data_jp/set_name/<individual-card>.json`
         - `set_name` is automatically scraped from the set image under the card image shown on the webpage
-        - Last downloaded time: May 20, 2024
-        - Last downloaded card_id: 45843
+        - Last jp downloaded time: May 20, 2024
+        - Last jp downloaded card_id: 45843
     - Logs: [`logs/`](logs/)
         - [scrape_jp_log](logs/scrape_jp_log.log): Information on scraping cards
         - [log_file](logs/log_file.log): for debugging
@@ -174,3 +174,16 @@ English Rarity key, SV1-onwards:
     - Rarity image: Same as above
 
 
+### English version
+
+- Info
+    - Card content: [`data_en/`](data_en/)
+        - `/data_en/series/set_name/<individual-card>.json`
+        - `series` and `set_name` are automatically scraped from the set image under the card image shown on the webpage
+		- Last en downloaded time: May 30, 2024
+		- Last en downloaded card_id: SVP128
+
+    - Logs: [`logs/`](logs/)
+        - [scrape_en_log](logs/scrape_en_log.log): Information on scraping cards
+        - [log_file](logs/log_file.log): for debugging
+        - [scraped_en_set_list](logs/scraped_en_set_list.txt): set names for downloaded cards

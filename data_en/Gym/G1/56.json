@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/mistys-starmie-gym-heroes-g1-56/",
+    "name": "Misty’s Starmie",
+    "img": "https://pkmncards.com/wp-content/uploads/mistys-starmie-gym-heroes-56.jpg",
+    "card_type": "Pokémon",
+    "set_name": "G1",
+    "series": "Gym",
+    "set_full_name": "Gym Heroes",
+    "set_code": "G1",
+    "date": "Aug 14, 2000",
+    "number": "56",
+    "set_total": "132",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "stage": "Stage 1",
+    "level": "35",
+    "hp": 80,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Water Gun",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Does 10 damage plus 10 more damage for each {W} Energy attached to Misty’s Starmie but not used to pay for this attack’s Energy cost. You can’t add more than 20 damage in this way."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Water"
+            ],
+            "name": "Bubblebeam",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Misty’s Staryu"
+}

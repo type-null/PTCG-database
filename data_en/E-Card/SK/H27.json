@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/rhydon-skyridge-sk-h27/",
+    "name": "Rhydon",
+    "img": "https://pkmncards.com/wp-content/uploads/h27.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SK",
+    "series": "E-Card",
+    "set_full_name": "Skyridge",
+    "set_code": "SK",
+    "date": "May 12, 2003",
+    "number": "H27",
+    "set_total": "H32",
+    "rarity": "Rare Holo",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Stomp",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 damage plus 20 more damage."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Giant Tail",
+            "damage": {
+                "amount": 100,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, this attack does nothing."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Rhyhorn"
+}

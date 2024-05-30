@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/magneton-diamond-pearl-dp-54/",
+    "name": "Magneton",
+    "img": "https://pkmncards.com/wp-content/uploads/magneton-diamond-pearl-dp-54.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DP",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Diamond & Pearl",
+    "set_code": "DP1",
+    "date": "May 23, 2007",
+    "number": "54",
+    "set_total": "130",
+    "rarity": "Uncommon",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "It is actually three MAGNEMITE linked by magnetism. A group can set off a magnetic storm.",
+    "stage": "Stage 1",
+    "level": "35",
+    "hp": 70,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Tri Attack",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 20 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Magnetic Ray",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Before doing damage, you may choose 1 of your opponent’s Benched Pokémon that has any Energy attached to it and switch that Pokémon with 1 of the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Magnemite"
+}

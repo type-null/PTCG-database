@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/darmanitan-emerging-powers-epo-21/",
+    "name": "Darmanitan",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW2-021-darmanitan.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EPO",
+    "series": "Black & White",
+    "set_full_name": "Emerging Powers",
+    "set_code": "BW2",
+    "date": "Aug 31, 2011",
+    "number": "21",
+    "set_total": "98",
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Its internal fire burns at 2,500º F, making enough power that it can destroy a dump truck with one punch.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Rock Smash",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Fire Punch",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Burned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Darumaka"
+}

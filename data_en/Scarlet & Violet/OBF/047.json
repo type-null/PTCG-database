@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/sharpedo-obsidian-flames-obf-047/",
+    "name": "Sharpedo",
+    "img": "https://pkmncards.com/wp-content/uploads/sv3_en_047.jpg",
+    "card_type": "Pokémon",
+    "regulation": "G",
+    "set_name": "OBF",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "Obsidian Flames",
+    "set_code": "sv3",
+    "date": "Aug 11, 2023",
+    "number": "047",
+    "set_total": "197",
+    "rarity": "Uncommon",
+    "rarity_img": null,
+    "author": [
+        "Tonji Matsuno"
+    ],
+    "flavor_text": "This Pokémon is known as the Bully of the Sea. Any ship entering the waters Sharpedo calls home will be attacked—no exceptions.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Aqua Impact",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "This attack does 30 more damage for each {C} in your opponent’s Active Pokémon’s Retreat Cost."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water"
+            ],
+            "name": "Jet Headbutt",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Carvanha"
+}

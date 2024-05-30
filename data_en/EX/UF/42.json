@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/miltank-unseen-forces-uf-42/",
+    "name": "Miltank",
+    "img": "https://pkmncards.com/wp-content/uploads/miltank-unseen-forces-uf-42.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UF",
+    "series": "EX",
+    "set_full_name": "Unseen Forces",
+    "set_code": "EX10",
+    "date": "Aug 22, 2005",
+    "number": "42",
+    "set_total": "115",
+    "rarity": "Uncommon",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Colorless"
+    ],
+    "poke_body": {
+        "name": "Thick Fat",
+        "effect": "Any damage done to Miltank by attacks from {R} Pokémon and {W} Pokémon is reduced by 30 (after applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Healing Milk",
+            "damage": null,
+            "effect": "Flip 2 coins. For each heads, remove 2 damage counters from 1 of your Pokémon."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Body Slam",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

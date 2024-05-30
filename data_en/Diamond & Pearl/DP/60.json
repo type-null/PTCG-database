@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/rhydon-diamond-pearl-dp-60/",
+    "name": "Rhydon",
+    "img": "https://pkmncards.com/wp-content/uploads/rhydon-diamond-pearl-dp-60.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DP",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Diamond & Pearl",
+    "set_code": "DP1",
+    "date": "May 23, 2007",
+    "number": "60",
+    "set_total": "130",
+    "rarity": "Uncommon",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "flavor_text": "Its brain developed after it stood up on its hind legs. Its drill horn bores tunnels through solid rock.",
+    "stage": "Stage 1",
+    "level": "43",
+    "hp": 90,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Storm Up",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "If there is any Stadium card in play, this attack does 30 damage plus 20 more damage. Discard that Stadium card."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Crash Impact",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Rhydon does 10 damage to itself. Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Rhyhorn"
+}

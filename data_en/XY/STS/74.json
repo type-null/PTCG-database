@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/cobalion-steam-siege-sts-74/",
+    "name": "Cobalion",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY11-074-cobalion.jpg",
+    "card_type": "Pokémon",
+    "set_name": "STS",
+    "series": "XY",
+    "set_full_name": "Steam Siege",
+    "set_code": "XY11",
+    "date": "Aug 3, 2016",
+    "number": "74",
+    "set_total": "114",
+    "rarity": "Rare",
+    "author": [
+        "kirisAki"
+    ],
+    "flavor_text": "It has a body and heart of steel. It worked with its allies to punish people when they hurt Pokémon.",
+    "stage": "Basic",
+    "hp": 120,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Quick Guard",
+            "damage": null,
+            "effect": "Prevent all damage done to this Pokémon by attacks from Basic Pokémon during your opponent’s next turn. This Pokémon can’t use Quick Guard during your next turn."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal"
+            ],
+            "name": "Revenge Blast",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "This attack does 30 more damage for each Prize card your opponent has taken."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2
+}

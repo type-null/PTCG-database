@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/combusken-platinum-pl-45/",
+    "name": "Combusken",
+    "img": "https://pkmncards.com/wp-content/uploads/combusken-platinum-pl-45.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PL",
+    "series": "Platinum",
+    "set_full_name": "Platinum",
+    "set_code": "PL1",
+    "date": "Feb 11, 2009",
+    "number": "45",
+    "set_total": "127",
+    "rarity": "Uncommon",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "Its kicking mastery lets it loose 10 kicks per second. It emits sharp cries to intimidate foes.",
+    "stage": "Stage 1",
+    "level": "27",
+    "hp": 80,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Firebreathing",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "High Jump Kick",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Torchic"
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/piloswine-neo-genesis-n1-44/",
+    "name": "Piloswine",
+    "img": "https://pkmncards.com/wp-content/uploads/piloswine-neo-genesis-44.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N1",
+    "series": "Neo",
+    "set_full_name": "Neo Genesis",
+    "set_code": "N1",
+    "date": "Dec 16, 2000",
+    "number": "44",
+    "set_total": "111",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly.",
+    "stage": "Stage 1",
+    "level": "36",
+    "hp": 80,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Water"
+            ],
+            "name": "Freeze",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon can’t attack. (Benching or evolving the Defending Pokémon ends this effect.)"
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Water"
+            ],
+            "name": "Blizzard",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage to each of your opponent’s Benched Pokémon; if tails, this attack does 10 damage to each of your own Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Swinub"
+}

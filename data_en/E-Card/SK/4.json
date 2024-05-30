@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/articuno-skyridge-sk-4/",
+    "name": "Articuno",
+    "img": "https://pkmncards.com/wp-content/uploads/articuno-skyridge-sk-4.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SK",
+    "series": "E-Card",
+    "set_full_name": "Skyridge",
+    "set_code": "SK",
+    "date": "May 12, 2003",
+    "number": "4",
+    "set_total": "144",
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "stage": "Basic",
+    "hp": 80,
+    "types": [
+        "Water"
+    ],
+    "poke_body": {
+        "name": "Water Immunity",
+        "effect": "You can’t attach {W} Energy cards from your hand to Articuno."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Freeze Solid",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "If there are any {W} Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Articuno."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Ice Cyclone",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage to each of your opponent’s Benched Pokémon. If tails, this attack does 10 damage to each of your Pokémon in play. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2
+}

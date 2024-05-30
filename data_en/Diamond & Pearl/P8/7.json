@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/carnivine-pop-series-8-p8-7/",
+    "name": "Carnivine",
+    "img": "https://pkmncards.com/wp-content/uploads/carnivine-pop-series-8-7.jpg",
+    "card_type": "Pokémon",
+    "set_name": "P8",
+    "series": "Diamond & Pearl",
+    "set_full_name": "POP Series 8",
+    "set_code": "POP8",
+    "date": "Sep 1, 2008",
+    "number": "7",
+    "set_total": "17",
+    "rarity": "Uncommon",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.",
+    "stage": "Basic",
+    "level": "32",
+    "hp": 70,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Swallow Up",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Before doing damage, count the remaining HP of the Defending Pokémon and Carnivine. If the Defending Pokémon has fewer remaining HP than Carnivine’s, this attack does 60 damage instead."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass"
+            ],
+            "name": "Wring Out",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy card attached to the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

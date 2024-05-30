@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/klang-mcdonalds-collection-2012-mcd12-11/",
+    "name": "Klang",
+    "img": "https://pkmncards.com/wp-content/uploads/klang-mcdonalds-collection-2012-mcd-11.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MCD12",
+    "series": "Black & White",
+    "set_full_name": "McDonald's Collection 2012",
+    "set_code": "MCD12",
+    "date": "Jun 15, 2012",
+    "number": "11",
+    "set_total": "12",
+    "rarity": "No Rarity",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don’t return.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Metal Sound",
+            "damage": null,
+            "effect": "The Defending Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Guard Press",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Klink"
+}

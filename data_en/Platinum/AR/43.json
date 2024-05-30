@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/luxio-arceus-ar-43/",
+    "name": "Luxio",
+    "img": "https://pkmncards.com/wp-content/uploads/luxio-arceus-ar-43.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AR",
+    "series": "Platinum",
+    "set_full_name": "Arceus",
+    "set_code": "PL4",
+    "date": "Nov 4, 2009",
+    "number": "43",
+    "set_total": "99",
+    "rarity": "Uncommon",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "flavor_text": "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+    "stage": "Stage 1",
+    "level": "25",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Kick",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Discharge",
+            "damage": {
+                "amount": 40,
+                "suffix": "×"
+            },
+            "effect": "Discard all {L} Energy attached to Luxio. Flip a coin for each Energy card you discarded. This attack does 40 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Shinx"
+}

@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/breloom-secret-wonders-sw-45/",
+    "name": "Breloom",
+    "img": "https://pkmncards.com/wp-content/uploads/breloom-secret-wonders-sw-45.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SW",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Secret Wonders",
+    "set_code": "DP3",
+    "date": "Nov 7, 2007",
+    "number": "45",
+    "set_total": "132",
+    "rarity": "Uncommon",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "Its short arms stretch when it throws punches. Its technique is equal to that of pro boxers.",
+    "stage": "Stage 1",
+    "level": "40",
+    "hp": 100,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Drain Punch",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Remove from Breloom a number of damage counters equal to the amount of Energy attached to the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Homing Uppercut",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon’s Retreat Cost is 0, this attack does 60 damage plus 60 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Shroomish"
+}

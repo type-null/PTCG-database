@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/roserade-dragons-exalted-drx-14/",
+    "name": "Roserade",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW6-014-roserade.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DRX",
+    "series": "Black & White",
+    "set_full_name": "Dragons Exalted",
+    "set_code": "BW6",
+    "date": "Aug 15, 2012",
+    "number": "14",
+    "set_total": "124",
+    "rarity": "Uncommon",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "flavor_text": "Each of its hands contains different toxins, but both hands can jab with near-fatal power.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Crosswise Whip",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 4 coins. This attack does 30 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Poison Point",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Roselia"
+}

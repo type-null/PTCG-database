@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/pikachu-world-collection-4/",
+    "name": "Pikachu",
+    "img": "https://pkmncards.com/wp-content/uploads/pikachu-world-collection-spanish.jpg",
+    "card_type": "Pokémon",
+    "set_name": "World Collection",
+    "series": "Other",
+    "set_full_name": "World Collection",
+    "set_code": "World Collection",
+    "date": "Nov 27, 2010",
+    "number": "4",
+    "set_total": "9",
+    "rarity": "No Rarity",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "Levanta su cola para vigilar los alrededores. A veces, puede ser alcanzado por un rayo en esa pose.",
+    "stage": "Basic",
+    "hp": 50,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "¡Hola!",
+            "damage": null,
+            "effect": "Saluda a tu rival. Luego cada jugador roba una carta."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Rayo",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Descarta todas las Energias unidas a Pikachu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

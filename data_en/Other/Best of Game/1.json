@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/electabuzz-best-of-game-1/",
+    "name": "Electabuzz",
+    "img": "https://pkmncards.com/wp-content/uploads/electabuzz-best-of-game-1.jpg",
+    "card_type": "Pokémon",
+    "set_name": "Best of Game",
+    "series": "Other",
+    "set_full_name": "Best of Game",
+    "set_code": "Best of Game",
+    "date": "Dec 1, 2002",
+    "number": "1",
+    "set_total": null,
+    "rarity": "Promo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "Normally found near power plants, it can wander away and cause major blackouts in cities.",
+    "stage": "Basic",
+    "level": "35",
+    "hp": 70,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thundershock",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunderpunch",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, the attack does 30 damage and Electabuzz does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

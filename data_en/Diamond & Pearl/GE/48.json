@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/pelipper-great-encounters-ge-48/",
+    "name": "Pelipper",
+    "img": "https://pkmncards.com/wp-content/uploads/pelipper-great-encounters-ge-48.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GE",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Great Encounters",
+    "set_code": "DP4",
+    "date": "Feb 13, 2008",
+    "number": "48",
+    "set_total": "106",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "It dips its large bill in the sea, then scoops up numerous prey along with water.",
+    "stage": "Stage 1",
+    "level": "45",
+    "hp": 80,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "No Energy Cost"
+            ],
+            "name": "Guzzle",
+            "damage": null,
+            "effect": "Choose up to 2 basic {W} Energy cards from your hand and attach them to Pelipper. Remove 2 damage counters for each Energy card attached in this way."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Jet Return",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Does 30 times the number of Energy cards attached to Pelipper. Then, put all Energy cards attached to Pelipper on top of your deck. Shuffle your deck afterward."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Wingull"
+}

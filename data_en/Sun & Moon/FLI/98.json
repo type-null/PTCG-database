@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/diggersby-forbidden-light-fli-98/",
+    "name": "Diggersby",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM6-098-diggersby.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FLI",
+    "series": "Sun & Moon",
+    "set_full_name": "Forbidden Light",
+    "set_code": "SM6",
+    "date": "May 4, 2018",
+    "number": "98",
+    "set_total": "131",
+    "rarity": "Uncommon",
+    "author": [
+        "Mina Nakai"
+    ],
+    "flavor_text": "As powerful as an excavator, its ears can reduce dense bedrock to rubble. When it’s finished digging, it lounges lazily.",
+    "stage": "Stage 1",
+    "hp": 130,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Mountaintop Mining",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "You may do 40 more damage. If you do, discard the top 2 cards of your deck."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Rock Cannon",
+            "damage": {
+                "amount": 80,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 80 damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Bunnelby"
+}

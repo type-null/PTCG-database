@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/kabutops-legendary-collection-lc-27/",
+    "name": "Kabutops",
+    "img": "https://pkmncards.com/wp-content/uploads/kabutops-legendary-collection-lc-27.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LC",
+    "series": "Other",
+    "set_full_name": "Legendary Collection",
+    "set_code": "LC",
+    "date": "May 24, 2002",
+    "number": "27",
+    "set_total": "110",
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "Its sleek shape is perfect for swimming. It slashes prey with its claws and drains the body fluids.",
+    "stage": "Stage 2",
+    "level": "30",
+    "hp": 60,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Sharp Sickle",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Absorb",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Remove a number of damage counters from Kabutops equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Kabutops has fewer damage counters than that, remove all of them."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Kabuto"
+}

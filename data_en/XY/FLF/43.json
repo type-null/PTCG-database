@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/meowstic-flashfire-flf-43/",
+    "name": "Meowstic",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY2-043-meowstic.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FLF",
+    "series": "XY",
+    "set_full_name": "Flashfire",
+    "set_code": "XY2",
+    "date": "May 7, 2014",
+    "number": "43",
+    "set_total": "106",
+    "rarity": "Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "flavor_text": "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck into dust.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Ear Influence",
+            "damage": null,
+            "effect": "Move as many damage counters on your opponent’s Pokémon as you like to any of your opponent’s other Pokémon in any way you like."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Psychic",
+                "Psychic"
+            ],
+            "name": "Psychic",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Does 10 more damage for each Energy attached to your opponent’s Active Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Espurr"
+}

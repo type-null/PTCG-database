@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/shelgon-secret-wonders-sw-64/",
+    "name": "Shelgon",
+    "img": "https://pkmncards.com/wp-content/uploads/shelgon-secret-wonders-sw-64.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SW",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Secret Wonders",
+    "set_code": "DP3",
+    "date": "Nov 7, 2007",
+    "number": "64",
+    "set_total": "132",
+    "rarity": "Uncommon",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
+    "stage": "Stage 1",
+    "level": "32",
+    "hp": 80,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Focus Energy",
+            "damage": null,
+            "effect": "During your next turn, Shelgon’s Protect Charge attack’s base damage is 80."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Protect Charge",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done to Shelgon by attacks is reduced by 30 (after applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Colorless"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Bagon"
+}

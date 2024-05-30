@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/lickilicky-furious-fists-ffi-79/",
+    "name": "Lickilicky",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY3-079-lickilicky.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FFI",
+    "series": "XY",
+    "set_full_name": "Furious Fists",
+    "set_code": "XY3",
+    "date": "Aug 13, 2014",
+    "number": "79",
+    "set_total": "111",
+    "rarity": "Uncommon",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "flavor_text": "It wraps things with its extensible tongue. Getting too close to it will leave you soaked with drool.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Knock Off",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Discard a random card from your opponent’s hand."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Lickichop",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 30 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 4,
+    "evolve_from": "Lickitung"
+}

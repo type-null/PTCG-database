@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/magmortar-rebel-clash-rcl-030/",
+    "name": "Magmortar",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH2-030-magmortar.jpg",
+    "card_type": "Pokémon",
+    "regulation": "D",
+    "set_name": "RCL",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Rebel Clash",
+    "set_code": "SWSH2",
+    "date": "May 1, 2020",
+    "number": "030",
+    "set_total": "192",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "Kazuma Koda"
+    ],
+    "flavor_text": "Magmortar takes down its enemies by shooting fireballs, which burn them to a blackened crisp. It avoids this method when hunting prey.",
+    "stage": "Stage 1",
+    "hp": 140,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Burst Punch",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Your opponent’s Active Pokémon is now Burned."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Ground Burn",
+            "damage": {
+                "amount": 80,
+                "suffix": "+"
+            },
+            "effect": "Each player discards the top card of their deck. This attack does 100 more damage for each Energy card discarded in this way."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Magmar"
+}

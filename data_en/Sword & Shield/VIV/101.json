@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/grapploct-vivid-voltage-viv-101/",
+    "name": "Grapploct",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH4-101-grapploct.jpg",
+    "card_type": "Pokémon",
+    "regulation": "D",
+    "set_name": "VIV",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Vivid Voltage",
+    "set_code": "SWSH4",
+    "date": "Nov 13, 2020",
+    "number": "101",
+    "set_total": "185",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "flavor_text": "A body made up of nothing but muscle makes the grappling moves this Pokémon performs with its tentacles tremendously powerful.",
+    "stage": "Stage 1",
+    "hp": 130,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Full Nelson",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, the Defending Pokémon can’t retreat."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Tentacle Buster",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If this Pokémon used Full Nelson during your last turn, this attack does 120 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Clobbopus"
+}

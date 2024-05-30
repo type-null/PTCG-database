@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/scizor-crown-zenith-crz-086/",
+    "name": "Scizor",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-CZ-086-scizor.jpg",
+    "card_type": "Pokémon",
+    "regulation": "F",
+    "set_name": "CRZ",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Crown Zenith",
+    "set_code": "CZ",
+    "date": "Jan 20, 2023",
+    "number": "086",
+    "set_total": "159",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "kodama"
+    ],
+    "flavor_text": "Bulky pincers account for one third of Scizor’s body weight. A single swing of one of these pincers will crush a boulder completely.",
+    "stage": "Stage 1",
+    "hp": 130,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "X-Scissor",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Dangerous Claws",
+            "damage": {
+                "amount": 80,
+                "suffix": "+"
+            },
+            "effect": "If your opponent’s Active Pokémon is a Basic Pokémon, this attack does 80 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Scyther"
+}

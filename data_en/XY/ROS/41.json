@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/inkay-roaring-skies-ros-41/",
+    "name": "Inkay",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY6-041-inkay.jpg",
+    "card_type": "Pokémon",
+    "set_name": "ROS",
+    "series": "XY",
+    "set_full_name": "Roaring Skies",
+    "set_code": "XY6",
+    "date": "May 6, 2015",
+    "number": "41",
+    "set_total": "108",
+    "rarity": "Common",
+    "author": [
+        "Akira Komayama"
+    ],
+    "flavor_text": "It flashes the light-emitting spots on its body, which drains its opponent’s will to fight. It takes the opportunity to scuttle away and hide.",
+    "stage": "Basic",
+    "hp": 50,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Rip Off",
+            "damage": null,
+            "effect": "Choose a random card from your opponent’s hand. Your opponent reveals that card and shuffles it into his or her deck."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Psybeam",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Confused."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

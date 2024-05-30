@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/pikachu-supreme-victors-sv-120/",
+    "name": "Pikachu",
+    "img": "https://pkmncards.com/wp-content/uploads/pikachu-supreme-victors-sv-120.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SV",
+    "series": "Platinum",
+    "set_full_name": "Supreme Victors",
+    "set_code": "PL3",
+    "date": "Aug 19, 2009",
+    "number": "120",
+    "set_total": "147",
+    "rarity": "Common",
+    "author": [
+        "Takao Unno"
+    ],
+    "flavor_text": "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
+    "stage": "Basic",
+    "level": "11",
+    "hp": 50,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Gnaw",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thundershock",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

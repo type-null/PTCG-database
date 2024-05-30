@@ -1,0 +1,70 @@
+{
+    "url": "https://pkmncards.com/card/nidoking-rising-rivals-rr-29/",
+    "name": "Nidoking",
+    "img": "https://pkmncards.com/wp-content/uploads/nidoking-rising-rivals-rr-29.jpg",
+    "card_type": "Pokémon",
+    "set_name": "RR",
+    "series": "Platinum",
+    "set_full_name": "Rising Rivals",
+    "set_code": "PL2",
+    "date": "May 20, 2009",
+    "number": "29",
+    "set_total": "111",
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "stage": "Stage 2",
+    "level": "59",
+    "hp": 130,
+    "types": [
+        "Fighting"
+    ],
+    "poke_body": {
+        "name": "Territoriality",
+        "effect": "If your Active Pokémon is damaged by an opponent’s attack (even if that Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon. You can’t put more than 2 damage counters in this way."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Fling Away",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "If your opponent has any Benched Pokémon, this attack’s base damage is 30 instead of 60 and this attack does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Giga Horn",
+            "damage": {
+                "amount": 100,
+                "suffix": ""
+            },
+            "effect": "Flip 2 coins. If both of them are tails, this attack does nothing."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Nidorino"
+}

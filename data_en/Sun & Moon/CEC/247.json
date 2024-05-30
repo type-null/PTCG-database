@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/steelix-cosmic-eclipse-cec-247/",
+    "name": "Steelix",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM12-247-steelix.jpg",
+    "card_type": "Pokémon",
+    "set_name": "CEC",
+    "series": "Sun & Moon",
+    "set_full_name": "Cosmic Eclipse",
+    "set_code": "SM12",
+    "date": "Nov 1, 2019",
+    "number": "247",
+    "set_total": "236",
+    "rarity": "Rare Secret",
+    "author": [
+        "Avec Yoko"
+    ],
+    "flavor_text": "Tempered underground under high pressure and heat, its body is harder than any metal.",
+    "stage": "Stage 1",
+    "hp": 170,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Thumping Fall",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Discard any number of Pokémon with a Retreat Cost of exactly 4 from your hand. This attack does 50 damage for each card you discarded in this way."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Iron Tail",
+            "damage": {
+                "amount": 100,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 100 damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Onix"
+}

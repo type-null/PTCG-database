@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/tentacruel-guardians-rising-gri-24/",
+    "name": "Tentacruel",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM2-024-tentacruel.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GRI",
+    "series": "Sun & Moon",
+    "set_full_name": "Guardians Rising",
+    "set_code": "SM2",
+    "date": "May 5, 2017",
+    "number": "24",
+    "set_total": "145",
+    "rarity": "Uncommon",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "Normally, it has 80 poisonous tentacles. The longer one has been alive, the fewer tentacles it will have.",
+    "stage": "Stage 1",
+    "hp": 110,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Poison Sting",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Your opponent’s Active Pokémon is now Poisoned."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Seething Tentacles",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 40 more damage. If tails, your opponent’s Active Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Tentacool"
+}

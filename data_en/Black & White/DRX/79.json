@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/lairon-dragons-exalted-drx-79/",
+    "name": "Lairon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW6-079-lairon.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DRX",
+    "series": "Black & White",
+    "set_full_name": "Dragons Exalted",
+    "set_code": "BW6",
+    "date": "Aug 15, 2012",
+    "number": "79",
+    "set_total": "124",
+    "rarity": "Uncommon",
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "flavor_text": "For food, it digs up iron ore. It smashes it steely body against others to fight over territory.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Metal Claw",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Wreak Havoc",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Flip a coin until you get tails. For each heads, discard the top card of your opponent’s deck."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Aron"
+}

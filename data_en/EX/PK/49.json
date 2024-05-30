@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/chinchou-power-keepers-pk-49/",
+    "name": "Chinchou",
+    "img": "https://pkmncards.com/wp-content/uploads/chinchou-power-keepers-pk-49.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PK",
+    "series": "EX",
+    "set_full_name": "Power Keepers",
+    "set_code": "EX16",
+    "date": "Feb 14, 2007",
+    "number": "49",
+    "set_total": "108",
+    "rarity": "Common",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Basic",
+    "hp": 50,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Positive Ion",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Negative Ion",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 10 (before applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

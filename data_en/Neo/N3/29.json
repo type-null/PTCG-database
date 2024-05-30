@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/golbat-neo-revelation-n3-29/",
+    "name": "Golbat",
+    "img": "https://pkmncards.com/wp-content/uploads/golbat-neo-revelation-29.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N3",
+    "series": "Neo",
+    "set_full_name": "Neo Revelation",
+    "set_code": "N3",
+    "date": "Sep 21, 2001",
+    "number": "29",
+    "set_total": "64",
+    "rarity": "Uncommon",
+    "author": [
+        "Masako Yamashita"
+    ],
+    "flavor_text": "It can drink more than 10 ounces of blood at once. If it has too much, it gets heavy and flies clumsily.",
+    "stage": "Stage 1",
+    "level": "27",
+    "hp": 60,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Screech",
+            "damage": null,
+            "effect": "Until the end of your next turn, if an attack damages the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Poison Bite",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "If this attack damages the Defending Pokémon, the Defending Pokémon is now Poisoned and you remove a number of damage counters from Golbat equal to half that damage (rounded up to the nearest 10). If Golbat has fewer damage counters than that, remove all of them. Either way, the Defending Pokémon is now Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 0,
+    "evolve_from": "Zubat"
+}

@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/liepard-emerging-powers-epo-65/",
+    "name": "Liepard",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW2-065-liepard.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EPO",
+    "series": "Black & White",
+    "set_full_name": "Emerging Powers",
+    "set_code": "BW2",
+    "date": "Aug 31, 2011",
+    "number": "65",
+    "set_total": "98",
+    "rarity": "Rare",
+    "author": [
+        "Akira Komayama"
+    ],
+    "flavor_text": "These Pokémon vanish and appear unexpectedly. Many Trainers are drawn to their beautiful form and fur.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Feint Attack",
+            "damage": null,
+            "effect": "Does 30 damage to 1 of your opponent’s Pokémon. This attack’s damage isn’t affected by Weakness, Resistance, or any other effects on that Pokémon."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Claw Rend",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon already has any damage counters on it, this attack does 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Purrloin"
+}

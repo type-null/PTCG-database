@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/mr-mime-hidden-fates-hif-43/",
+    "name": "Mr. Mime",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HF-043-mr_mime.jpg",
+    "card_type": "Pokémon",
+    "set_name": "HIF",
+    "series": "Sun & Moon",
+    "set_full_name": "Hidden Fates",
+    "set_code": "HIF",
+    "date": "Aug 23, 2019",
+    "number": "43",
+    "set_total": "68",
+    "rarity": "Rare",
+    "author": [
+        "Hideki Ishikawa"
+    ],
+    "flavor_text": "Its pantomime skills are wonderful. You may become enraptured while watching it, but next thing you know, Mr. Mime has made a real wall.",
+    "stage": "Basic",
+    "hp": 90,
+    "types": [
+        "Fairy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fairy"
+            ],
+            "name": "Happy Mime",
+            "damage": null,
+            "effect": "Each player draws a card."
+        },
+        {
+            "cost": [
+                "Fairy",
+                "Fairy"
+            ],
+            "name": "Double Slap",
+            "damage": {
+                "amount": 40,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 40 damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Darkness"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

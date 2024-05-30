@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/revavroom-paldean-fates-paf-193/",
+    "name": "Revavroom",
+    "img": "https://pkmncards.com/wp-content/uploads/sv4-5_en_193_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "G",
+    "set_name": "PAF",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "Paldean Fates",
+    "set_code": "sv4-5",
+    "date": "Jan 26, 2024",
+    "number": "193",
+    "set_total": "091",
+    "rarity": "Shiny Rare",
+    "rarity_img": null,
+    "author": [
+        "GOSSAN"
+    ],
+    "flavor_text": "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.",
+    "stage": "Stage 1",
+    "hp": 140,
+    "types": [
+        "Metal"
+    ],
+    "abilities": [
+        {
+            "name": "Rumbling Engine",
+            "effect": "You must discard an Energy card from your hand in order to use this Ability. Once during your turn, you may draw cards until you have 6 cards in your hand."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Knock Away",
+            "damage": {
+                "amount": 90,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 90 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Varoom"
+}

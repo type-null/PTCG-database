@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/floatzel-diamond-pearl-dp-26/",
+    "name": "Floatzel",
+    "img": "https://pkmncards.com/wp-content/uploads/floatzel-diamond-pearl-dp-26.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DP",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Diamond & Pearl",
+    "set_code": "DP1",
+    "date": "May 23, 2007",
+    "number": "26",
+    "set_total": "130",
+    "rarity": "Rare",
+    "author": [
+        "Masahiko Ishii"
+    ],
+    "flavor_text": "It floats using its well-developed floatation sac. It assists in the rescues of drowning people.",
+    "stage": "Stage 1",
+    "level": "29",
+    "hp": 90,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Screw Tail",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water"
+            ],
+            "name": "Water Gun",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Does 40 damage plus 20 more damage for each {W} Energy attached to Floatzel but not used to pay for this attack’s Energy cost. You can’t add more than 40 damage in this way."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Buizel"
+}

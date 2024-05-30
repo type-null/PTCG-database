@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/ariados-lost-origin-lor-113/",
+    "name": "Ariados",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH11-113-ariados.jpg",
+    "card_type": "Pokémon",
+    "regulation": "F",
+    "set_name": "LOR",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Lost Origin",
+    "set_code": "SWSH11",
+    "date": "Sep 9, 2022",
+    "number": "113",
+    "set_total": "196",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "Shinji Kanda"
+    ],
+    "flavor_text": "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "String Bind",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "This attack does 30 more damage for each {C} in your opponent’s Active Pokémon’s Retreat Cost."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Venomous Fang",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Your opponent’s Active Pokémon is now Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Spinarak"
+}

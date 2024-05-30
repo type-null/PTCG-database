@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/mawile-plasma-freeze-plf-80/",
+    "name": "Mawile",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW9-080-mawile.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLF",
+    "series": "Black & White",
+    "set_full_name": "Plasma Freeze",
+    "set_code": "BW9",
+    "date": "May 8, 2013",
+    "number": "80",
+    "set_total": "116",
+    "rarity": "Uncommon",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Attached to its head is a huge set of jaws formed by horns. It can chew through iron beams.",
+    "stage": "Basic",
+    "hp": 70,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Astonish",
+            "damage": null,
+            "effect": "Flip a coin. If heads, choose a random card from your opponent’s hand. Your opponent reveals that card and shuffles it into his or her deck."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Big Ol’ Bite",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Heal 30 damage from this Pokémon. The Defending Pokémon can’t retreat during your opponent’s next turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

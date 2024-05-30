@@ -1,0 +1,72 @@
+{
+    "url": "https://pkmncards.com/card/ho-oh-neo-revelation-n3-7/",
+    "name": "Ho-oh",
+    "img": "https://pkmncards.com/wp-content/uploads/ho-oh-neo-revelation-7.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N3",
+    "series": "Neo",
+    "set_full_name": "Neo Revelation",
+    "set_code": "N3",
+    "date": "Sep 21, 2001",
+    "number": "7",
+    "set_total": "64",
+    "rarity": "Rare Holo",
+    "author": [
+        "Kimiya Masago"
+    ],
+    "flavor_text": "Legends claim this Pokémon flies the world’s skies continuously on its magnificent seven colored wings.",
+    "stage": "Basic",
+    "level": "45",
+    "hp": 90,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Stoke",
+            "damage": null,
+            "effect": "You may search your deck for a {R} Energy card and attach it to Ho-oh. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Fire"
+            ],
+            "name": "Sacred Fire",
+            "damage": null,
+            "effect": "Flip a coin. If heads, choose 1 of your opponent’s Pokémon. This attack does 40 damage to that Pokémon. Don’t apply Weakness and Resistance."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Fire",
+                "Fire",
+                "Fire"
+            ],
+            "name": "Dive Bomb",
+            "damage": {
+                "amount": 90,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, this attack does nothing."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2
+}

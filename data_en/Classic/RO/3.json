@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/dark-blastoise-team-rocket-ro-3/",
+    "name": "Dark Blastoise",
+    "img": "https://pkmncards.com/wp-content/uploads/dark-blastoise-team-rocket-tr-3.jpg",
+    "card_type": "Pokémon",
+    "set_name": "RO",
+    "series": "Classic",
+    "set_full_name": "Team Rocket",
+    "set_code": "RO",
+    "date": "Apr 24, 2000",
+    "number": "3",
+    "set_total": "82",
+    "rarity": "Rare Holo",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "An aggressive Pokémon that tackles anything it sees.",
+    "stage": "Stage 2",
+    "level": "28",
+    "hp": 70,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Water"
+            ],
+            "name": "Hydrocannon",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Does 30 damage plus 20 more damage for each {W} Energy attached to Dark Blastoise but not used to pay for this attack. You can’t add more than 40 damage in this way."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Rocket Tackle",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Dark Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Dark Blastoise during your opponent’s next turn. (Any other effects of attacks still happen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Dark Wartortle"
+}

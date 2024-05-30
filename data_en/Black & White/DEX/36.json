@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/swanna-dark-explorers-dex-36/",
+    "name": "Swanna",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW5-036-swanna.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DEX",
+    "series": "Black & White",
+    "set_full_name": "Dark Explorers",
+    "set_code": "BW5",
+    "date": "May 9, 2012",
+    "number": "36",
+    "set_total": "108",
+    "rarity": "Rare",
+    "author": [
+        "Mizue"
+    ],
+    "flavor_text": "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Healing Pirouette",
+            "damage": null,
+            "effect": "Heal 30 damage from each of your Pokémon."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Incessant Peck",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 20 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Ducklett"
+}

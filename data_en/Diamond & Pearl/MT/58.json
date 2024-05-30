@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/parasect-mysterious-treasures-mt-58/",
+    "name": "Parasect",
+    "img": "https://pkmncards.com/wp-content/uploads/parasect-mysterious-treasures-mt-58.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MT",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Mysterious Treasures",
+    "set_code": "DP2",
+    "date": "Aug 22, 2007",
+    "number": "58",
+    "set_total": "123",
+    "rarity": "Uncommon",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "A mushroom grown larger than the host’s body controls PARASECT. It scatters poisonous spores.",
+    "stage": "Stage 1",
+    "level": "36",
+    "hp": 90,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Wild Spores",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "If Parasect evolved from Paras during this turn, this attack does 40 damage and the Defending Pokémon is now Asleep and Poisoned."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Extend Fungus",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Remove 2 damage counters from Parasect."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Paras"
+}

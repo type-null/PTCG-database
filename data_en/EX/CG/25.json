@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/medicham-crystal-guardians-cg-25/",
+    "name": "Medicham",
+    "img": "https://pkmncards.com/wp-content/uploads/medicham-crystal-guardians-cg-25.jpg",
+    "card_type": "Pokémon",
+    "set_name": "CG",
+    "series": "EX",
+    "set_full_name": "Crystal Guardians",
+    "set_code": "EX14",
+    "date": "Aug 30, 2006",
+    "number": "25",
+    "set_total": "100",
+    "rarity": "Rare",
+    "author": [
+        "Midori Harada"
+    ],
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Fighting"
+    ],
+    "poke_body": {
+        "name": "Dual Armor",
+        "effect": "As long as Medicham has any {P} Energy cards attached to it, Medicham is both {P} and {F} type."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Psyshock",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Sky Uppercut",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "This attack’s damage isn’t affected by Resistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Meditite"
+}

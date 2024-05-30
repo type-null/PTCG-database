@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/typhlosion-neo-genesis-n1-17/",
+    "name": "Typhlosion",
+    "img": "https://pkmncards.com/wp-content/uploads/typhlosion-neo-genesis-17.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N1",
+    "series": "Neo",
+    "set_full_name": "Neo Genesis",
+    "set_code": "N1",
+    "date": "Dec 16, 2000",
+    "number": "17",
+    "set_total": "111",
+    "rarity": "Rare Holo",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "flavor_text": "If its rage peaks, it becomes so hot that anything that touches it will instantly go up in flames.",
+    "stage": "Stage 2",
+    "level": "55",
+    "hp": 100,
+    "types": [
+        "Fire"
+    ],
+    "abilities": [
+        {
+            "name": "Fire Recharge",
+            "effect": "Once during your turn (before your attack), you may flip a coin. If heads, attach a {R} Energy card from your discard pile to 1 of your {R} Pokémon. This power can’t be used if Typhlosion is Asleep, Confused, or Paralyzed."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Fire",
+                "Fire"
+            ],
+            "name": "Flame Burst",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 60 damage plus 20 more damage and does 20 damage to Typhlosion. If tails, this attack does 60 damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Quilava"
+}

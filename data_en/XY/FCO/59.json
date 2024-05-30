@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/wormadam-fates-collide-fco-59/",
+    "name": "Wormadam",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY10-059-wormadam.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FCO",
+    "series": "XY",
+    "set_full_name": "Fates Collide",
+    "set_code": "XY10",
+    "date": "May 2, 2016",
+    "number": "59",
+    "set_total": "124",
+    "rarity": "Uncommon",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "flavor_text": "When Burmy evolved, its cloak became a part of this Pokémon’s body. The cloak is never shed.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Strike Back",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "This attack does 20 damage times the number of damage counters on this Pokémon."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Iron Head",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 20 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Burmy"
+}

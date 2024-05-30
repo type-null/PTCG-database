@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/granbull-unseen-forces-uf-39/",
+    "name": "Granbull",
+    "img": "https://pkmncards.com/wp-content/uploads/granbull-unseen-forces-uf-39.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UF",
+    "series": "EX",
+    "set_full_name": "Unseen Forces",
+    "set_code": "EX10",
+    "date": "Aug 22, 2005",
+    "number": "39",
+    "set_total": "115",
+    "rarity": "Uncommon",
+    "author": [
+        "Midori Harada"
+    ],
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Colorless"
+    ],
+    "poke_body": {
+        "name": "Intimidating Fang",
+        "effect": "As long as Granbull is your Active Pokémon, any damage done by an opponent’s attack is reduced by 10 (after applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Crushing Blow",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Double Lariat",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 50 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Snubbull"
+}

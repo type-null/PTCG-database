@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/electivire-temporal-forces-tef-054/",
+    "name": "Electivire",
+    "img": "https://pkmncards.com/wp-content/uploads/sv5_en_054_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "H",
+    "set_name": "TEF",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "Temporal Forces",
+    "set_code": "sv5",
+    "date": "Mar 22, 2024",
+    "number": "054",
+    "set_total": "162",
+    "rarity": "Uncommon",
+    "rarity_img": null,
+    "author": [
+        "Yuya Oka"
+    ],
+    "flavor_text": "The amount of electrical energy this Pokémon produces is proportional to the rate of its pulse. The voltage jumps while Electivire is battling.",
+    "stage": "Stage 1",
+    "hp": 140,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Short-Circuit Knuckle",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "If your opponent has any {W} Pokémon in play, this attack does 120 more damage."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Electroslug",
+            "damage": {
+                "amount": 140,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Electabuzz"
+}

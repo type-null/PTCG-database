@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/charmeleon-dragon-dr-99/",
+    "name": "Charmeleon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-EX3-099-charmeleon.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DR",
+    "series": "EX",
+    "set_full_name": "Dragon",
+    "set_code": "EX3",
+    "date": "Nov 24, 2003",
+    "number": "99",
+    "set_total": "97",
+    "rarity": "Rare Secret",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Smokescreen",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Fireworks",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, discard a {R} Energy card attached to Charmeleon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Charmander"
+}

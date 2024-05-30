@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/klefki-roaring-skies-ros-48/",
+    "name": "Klefki",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY6-048-klefki.jpg",
+    "card_type": "Pokémon",
+    "set_name": "ROS",
+    "series": "XY",
+    "set_full_name": "Roaring Skies",
+    "set_code": "XY6",
+    "date": "May 6, 2015",
+    "number": "48",
+    "set_total": "108",
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "These key collectors threaten any attackers by fiercely jingling their keys at them.",
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Fairy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fairy"
+            ],
+            "name": "Look for Keys",
+            "damage": null,
+            "effect": "Reveal cards from the top of your deck until you reveal an Item card. Put it into your hand. Shuffle the other cards back into your deck."
+        },
+        {
+            "cost": [
+                "Fairy",
+                "Colorless"
+            ],
+            "name": "Play Rough",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Darkness"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

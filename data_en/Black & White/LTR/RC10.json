@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/gardevoir-legendary-treasures-ltr-rc10/",
+    "name": "Gardevoir",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW11-RC10-gardevoir.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LTR",
+    "series": "Black & White",
+    "set_full_name": "Legendary Treasures",
+    "set_code": "BW11",
+    "date": "Nov 6, 2013",
+    "number": "RC10",
+    "set_total": "RC25",
+    "rarity": "Uncommon",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "flavor_text": "To protect its Trainer, it will expend all its psychic power to create a small black hole.",
+    "stage": "Stage 2",
+    "hp": 120,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Psybeam",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Psychic"
+            ],
+            "name": "Eternal Radiance",
+            "damage": null,
+            "effect": "Move all damage counters from this Pokémon to the Defending Pokémon. This Pokémon can’t use Eternal Radiance during your next turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Kirlia"
+}

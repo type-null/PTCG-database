@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/hitmonlee-neo-destiny-n4-42/",
+    "name": "Hitmonlee",
+    "img": "https://pkmncards.com/wp-content/uploads/hitmonlee-neo-destiny-42.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N4",
+    "series": "Neo",
+    "set_full_name": "Neo Destiny",
+    "set_code": "N4",
+    "date": "Feb 28, 2002",
+    "number": "42",
+    "set_total": "105",
+    "rarity": "Uncommon",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "flavor_text": "It has a perfect sense of balance and can lash out with powerful kicks from any position.",
+    "stage": "Basic",
+    "level": "31",
+    "hp": 60,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "One-Two Kick",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 20 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Heel Drop",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, this attack does nothing."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

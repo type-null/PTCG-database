@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/probopass-primal-clash-prc-95/",
+    "name": "Probopass",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY5-095-probopass.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PRC",
+    "series": "XY",
+    "set_full_name": "Primal Clash",
+    "set_code": "XY5",
+    "date": "Feb 4, 2015",
+    "number": "95",
+    "set_total": "160",
+    "rarity": "Rare",
+    "author": [
+        "TOKIYA"
+    ],
+    "flavor_text": "It freely controls three small units called Mini-Noses using magnetic force.",
+    "stage": "Stage 1",
+    "hp": 110,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Triple Smash",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 30 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Reinforced Nose",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If this Pokémon has a Pokémon Tool card attached to it, this attack does 50 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Nosepass"
+}

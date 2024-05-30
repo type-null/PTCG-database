@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/dark-charizard-team-rocket-ro-4/",
+    "name": "Dark Charizard",
+    "img": "https://pkmncards.com/wp-content/uploads/dark-charizard-team-rocket-tr-4.jpg",
+    "card_type": "Pokémon",
+    "set_name": "RO",
+    "series": "Classic",
+    "set_full_name": "Team Rocket",
+    "set_code": "RO",
+    "date": "Apr 24, 2000",
+    "number": "4",
+    "set_total": "82",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "Seemingly possessed, it spews fire like a volcano, trying to burn all it sees.",
+    "stage": "Stage 2",
+    "level": "38",
+    "hp": 80,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Nail Flick",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire"
+            ],
+            "name": "Continuous Fireball",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Flip a number of coins equal to the number of {R} Energy cards attached to Dark Charizard. This attack does 50 damage times the number of heads. Discard a number of {R} Energy cards attached to Dark Charizard equal to the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Dark Charmeleon"
+}

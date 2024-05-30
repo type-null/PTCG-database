@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/venonat-jungle-ju-63/",
+    "name": "Venonat",
+    "img": "https://pkmncards.com/wp-content/uploads/venonat-jungle-ju-63.jpg",
+    "card_type": "Pokémon",
+    "set_name": "JU",
+    "series": "Classic",
+    "set_full_name": "Jungle",
+    "set_code": "JU",
+    "date": "Jun 16, 1999",
+    "number": "63",
+    "set_total": "64",
+    "rarity": "Common",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.",
+    "stage": "Basic",
+    "level": "12",
+    "hp": 40,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Stun Spore",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Leech Life",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Remove a number of damage counters from Venonat equal to the damage done to the Defending Pokémon (after applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

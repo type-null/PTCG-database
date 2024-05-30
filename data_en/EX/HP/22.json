@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/latios-holon-phantoms-hp-22/",
+    "name": "Latios",
+    "img": "https://pkmncards.com/wp-content/uploads/latios-delta-holon-phantoms-hp-22.jpg",
+    "card_type": "Pokémon",
+    "set_name": "HP",
+    "series": "EX",
+    "set_full_name": "Holon Phantoms",
+    "set_code": "EX13",
+    "date": "May 3, 2006",
+    "number": "22",
+    "set_total": "110",
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "stage": "Basic",
+    "hp": 80,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Aqua Wave",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Dragonbreath",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Colorless"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass",
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2
+}

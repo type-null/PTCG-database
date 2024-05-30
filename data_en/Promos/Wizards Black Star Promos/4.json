@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/pikachu-wizards-black-star-promos-4/",
+    "name": "Pikachu",
+    "img": "https://pkmncards.com/wp-content/uploads/pikachu-wizards-black-star-promos-4.jpg",
+    "card_type": "Pokémon",
+    "set_name": "Wizards Black Star Promos",
+    "series": "Promos",
+    "set_full_name": "Wizards Black Star Promos",
+    "set_code": "Wizards Black Star Promos",
+    "date": "Nov 12, 1999",
+    "number": "4",
+    "set_total": null,
+    "rarity": "Promo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "When several of these Pokémon gather, they attract so much electricity that they can cause lightning to strike.",
+    "stage": "Basic",
+    "level": "13",
+    "hp": 50,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Recharge",
+            "damage": null,
+            "effect": "Search your deck for a {L} Energy card and attach it to Pikachu. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Lightning"
+            ],
+            "name": "Thunderbolt",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Discard all Energy cards attached to Pikachu in order to use this attack."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

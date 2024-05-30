@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/greninja-xy-promos-xyp-xy162/",
+    "name": "Greninja",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-Promo_XY-XY162-greninja.jpg",
+    "card_type": "Pokémon",
+    "set_name": "XYP",
+    "series": "XY",
+    "set_full_name": "XY Promos",
+    "set_code": "XYP",
+    "date": "Nov 3, 2016",
+    "number": "XY162",
+    "set_total": null,
+    "rarity": "Promo",
+    "author": [
+        "Sanosuke Sakuma"
+    ],
+    "flavor_text": "It appears and vanishes with a ninja’s grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
+    "stage": "Stage 2",
+    "hp": 130,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Aqua Shower",
+            "damage": null,
+            "effect": "This attack does 20 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Dual Cut",
+            "damage": {
+                "amount": 60,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 60 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Frogadier"
+}

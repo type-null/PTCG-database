@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/haxorus-plasma-blast-plb-69/",
+    "name": "Haxorus",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW10-069-haxorus.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLB",
+    "series": "Black & White",
+    "set_full_name": "Plasma Blast",
+    "set_code": "BW10",
+    "date": "Aug 14, 2013",
+    "number": "69",
+    "set_total": "101",
+    "rarity": "Rare Holo",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "Its tusks are incredibly destructive. They can easily slice through a thick, sturdy steel column every time.",
+    "stage": "Stage 2",
+    "hp": 140,
+    "types": [
+        "Dragon"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Dragonaxe",
+            "damage": {
+                "amount": 40,
+                "suffix": "×"
+            },
+            "effect": "Does 40 damage times the amount of {M} Energy attached to this Pokémon."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Metal"
+            ],
+            "name": "Strike of the Champion",
+            "damage": null,
+            "effect": "If the Defending Pokémon is a Team Plasma Pokémon, it is Knocked Out. (If the Defending Pokémon is not a Team Plasma Pokémon, this attack does nothing.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Dragon"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Fraxure"
+}

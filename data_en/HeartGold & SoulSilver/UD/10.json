@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/umbreon-undaunted-ud-10/",
+    "name": "Umbreon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS3-010-umbreon.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UD",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Undaunted",
+    "set_code": "HGSS3",
+    "date": "Aug 18, 2010",
+    "number": "10",
+    "set_total": "90",
+    "rarity": "Rare Holo",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "When agitated, this Pokémon protects itself by spraying poisonous sweat from its pores.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Moonlight Fang",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, prevent all effects, including damage, done to Umbreon by attacks from your opponent’s Pokémon that has any Poké-Powers or Poké-Bodies."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Quick Blow",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 damage plus 30 damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee"
+}

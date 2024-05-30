@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/flareon-jungle-ju-19/",
+    "name": "Flareon",
+    "img": "https://pkmncards.com/wp-content/uploads/flareon-jungle-ju-19.jpg",
+    "card_type": "Pokémon",
+    "set_name": "JU",
+    "series": "Classic",
+    "set_full_name": "Jungle",
+    "set_code": "JU",
+    "date": "Jun 16, 1999",
+    "number": "19",
+    "set_total": "64",
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
+    "stage": "Stage 1",
+    "level": "28",
+    "hp": 70,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Flamethrower",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Discard 1 {R} Energy card attached to Flareon in order to use this attack."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee"
+}

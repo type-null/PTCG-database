@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/manectric-roaring-skies-ros-25/",
+    "name": "Manectric",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY6-025-manectric.jpg",
+    "card_type": "Pokémon",
+    "set_name": "ROS",
+    "series": "XY",
+    "set_full_name": "Roaring Skies",
+    "set_code": "XY6",
+    "date": "May 6, 2015",
+    "number": "25",
+    "set_total": "108",
+    "rarity": "Uncommon",
+    "author": [
+        "match"
+    ],
+    "flavor_text": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Random Spark",
+            "damage": null,
+            "effect": "This attack does 30 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Bite",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Electrike"
+}

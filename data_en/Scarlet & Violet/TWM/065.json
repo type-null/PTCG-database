@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/zapdos-twilight-masquerade-twm-065/",
+    "name": "Zapdos",
+    "img": "https://pkmncards.com/wp-content/uploads/sv6_en_065_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "H",
+    "set_name": "TWM",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "Twilight Masquerade",
+    "set_code": "sv6",
+    "date": "May 24, 2024",
+    "number": "065",
+    "set_total": "167",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "GOSSAN"
+    ],
+    "flavor_text": "This Pokémon has complete control over electricity. There are tales of Zapdos nesting in the dark depths of pitch-black thunderclouds.",
+    "stage": "Basic",
+    "hp": 120,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thunder Wave",
+            "damage": null,
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunderbolt",
+            "damage": {
+                "amount": 190,
+                "suffix": ""
+            },
+            "effect": "Discard all Energy from this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/drednaw-sword-shield-promos-swsh047/",
+    "name": "Drednaw",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-Promo_SWSH-SWSH047-drednaw.jpg",
+    "card_type": "Pokémon",
+    "regulation": "D",
+    "set_name": "Promo_SWSH",
+    "series": "Sword & Shield",
+    "set_full_name": "Sword & Shield Promos",
+    "set_code": "Promo_SWSH",
+    "date": "Sep 25, 2020",
+    "number": "SWSH047",
+    "set_total": null,
+    "rarity": "Promo",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "flavor_text": "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down.",
+    "stage": "Stage 1",
+    "hp": 130,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Vise Bite",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "This attack does 30 more damage for each {C} in your opponent’s Active Pokémon’s Retreat Cost."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Jaw Lock",
+            "damage": {
+                "amount": 130,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, the Defending Pokémon can’t retreat."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Chewtle"
+}

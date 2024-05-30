@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/lanturn-legend-maker-lm-19/",
+    "name": "Lanturn",
+    "img": "https://pkmncards.com/wp-content/uploads/lanturn-legend-maker-lm-19.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LM",
+    "series": "EX",
+    "set_full_name": "Legend Maker",
+    "set_code": "EX12",
+    "date": "Feb 13, 2006",
+    "number": "19",
+    "set_total": "92",
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "poke_body": {
+        "name": "Dual Armor",
+        "effect": "As long as Lanturn has any {W} Energy attached to it, Lanturn is both {W} and {L} type."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Razor Fin",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Water Gun",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Does 40 damage plus 20 more damage for each {W} Energy attached to Lanturn but not used to pay for this attack’s Energy cost. You can’t add more then 40 damage in this way."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Chinchou"
+}

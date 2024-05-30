@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/brocks-dugtrio-gym-challenge-g2-22/",
+    "name": "Brock’s Dugtrio",
+    "img": "https://pkmncards.com/wp-content/uploads/brocks-dugtrio-gym-challenge-22.jpg",
+    "card_type": "Pokémon",
+    "set_name": "G2",
+    "series": "Gym",
+    "set_full_name": "Gym Challenge",
+    "set_code": "G2",
+    "date": "Oct 16, 2000",
+    "number": "22",
+    "set_total": "132",
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "stage": "Stage 1",
+    "level": "27",
+    "hp": 60,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Lie Low",
+            "damage": null,
+            "effect": "All damage done to Brock’s Dugtrio during your opponent’s next turn is reduced by 20 (after applying Weakness and Resistance)."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Earthdrill",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "This attack can’t be used unless Brock’s Dugtrio used its Lie Low attack last turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Brock’s Diglett"
+}

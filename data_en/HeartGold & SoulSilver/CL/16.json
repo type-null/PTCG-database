@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/magmortar-call-of-legends-cl-16/",
+    "name": "Magmortar",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-COL-016-magmortar.jpg",
+    "card_type": "Pokémon",
+    "set_name": "CL",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Call of Legends",
+    "set_code": "CL",
+    "date": "Feb 9, 2011",
+    "number": "16",
+    "set_total": "95",
+    "rarity": "Rare Holo",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "flavor_text": "It blasts fireballs of over 3,600 degrees Fahrenheit out of its arms. Its breath also sears and sizzles.",
+    "stage": "Stage 1",
+    "hp": 110,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Hard Crush",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Discard the top 3 cards from your deck. This attack does 50 damage times the number of Energy cards you discarded."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Mantle Bazooka",
+            "damage": {
+                "amount": 100,
+                "suffix": ""
+            },
+            "effect": "Discard 2 {R} Energy attached to Magmortar."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Magmar"
+}

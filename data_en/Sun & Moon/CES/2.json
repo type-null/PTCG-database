@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/weepinbell-celestial-storm-ces-2/",
+    "name": "Weepinbell",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM7-002-weepinbell.jpg",
+    "card_type": "Pokémon",
+    "set_name": "CES",
+    "series": "Sun & Moon",
+    "set_full_name": "Celestial Storm",
+    "set_code": "SM7",
+    "date": "Aug 3, 2018",
+    "number": "2",
+    "set_total": "168",
+    "rarity": "Uncommon",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "flavor_text": "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Growth",
+            "damage": null,
+            "effect": "Attach up to 2 {G} Energy cards from your hand to this Pokémon."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Double Razor Leaf",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 30 damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Bellsprout"
+}

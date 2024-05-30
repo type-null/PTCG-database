@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/combusken-emerald-em-25/",
+    "name": "Combusken",
+    "img": "https://pkmncards.com/wp-content/uploads/combusken-emerald-em-25.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EM",
+    "series": "EX",
+    "set_full_name": "Emerald",
+    "set_code": "EX9",
+    "date": "May 9, 2005",
+    "number": "25",
+    "set_total": "106",
+    "rarity": "Uncommon",
+    "author": [
+        "Midori Harada"
+    ],
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Lava Burn",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Does 10 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Sharp Claws",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 40 damage plus 10 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Torchic"
+}

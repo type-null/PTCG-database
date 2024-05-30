@@ -1,0 +1,77 @@
+{
+    "url": "https://pkmncards.com/card/gyarados-stormfront-sf-19/",
+    "name": "Gyarados",
+    "img": "https://pkmncards.com/wp-content/uploads/gyarados-stormfront-sf-19.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "19",
+    "set_total": "100",
+    "rarity": "Rare",
+    "author": [
+        "Midori Harada"
+    ],
+    "stage": "Stage 1",
+    "level": "52",
+    "hp": 130,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "No Energy Cost"
+            ],
+            "name": "Tail Revenge",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Does 30 damage times the number of Magikarp in your discard pile."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Wreak Havoc",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Flip a coin until you get tails. For each heads, discard the top card from your opponent’s deck."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Dragon Beat",
+            "damage": {
+                "amount": 100,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, discard an Energy card from each of your opponent’s Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Magikarp"
+}

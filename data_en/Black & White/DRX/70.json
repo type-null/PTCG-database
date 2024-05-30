@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/stunfisk-dragons-exalted-drx-70/",
+    "name": "Stunfisk",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW6-070-stunfisk.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DRX",
+    "series": "Black & White",
+    "set_full_name": "Dragons Exalted",
+    "set_code": "BW6",
+    "date": "Aug 15, 2012",
+    "number": "70",
+    "set_total": "124",
+    "rarity": "Uncommon",
+    "author": [
+        "HiRON"
+    ],
+    "flavor_text": "It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of electricity.",
+    "stage": "Basic",
+    "hp": 100,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Muddy Water",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Rumble",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon can’t retreat during your opponent’s next turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3
+}

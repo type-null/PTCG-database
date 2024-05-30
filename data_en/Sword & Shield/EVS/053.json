@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/lanturn-evolving-skies-evs-053/",
+    "name": "Lanturn",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH7-053-lanturn.jpg",
+    "card_type": "Pokémon",
+    "regulation": "E",
+    "set_name": "EVS",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Evolving Skies",
+    "set_code": "SWSH7",
+    "date": "Aug 27, 2021",
+    "number": "053",
+    "set_total": "203",
+    "rarity": "Uncommon",
+    "rarity_img": null,
+    "author": [
+        "ryoma uratsuka"
+    ],
+    "flavor_text": "This Pokémon flashes a bright light that blinds its prey. This creates an opening for it to deliver an electrical attack.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Blinding Beam",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, if the Defending Pokémon tries to attack, your opponent flips a coin. If tails, that attack doesn’t happen."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Electro Ball",
+            "damage": {
+                "amount": 120,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Chinchou"
+}

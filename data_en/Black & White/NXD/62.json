@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/beheeyem-next-destinies-nxd-62/",
+    "name": "Beheeyem",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW4-062-beheeyem.jpg",
+    "card_type": "Pokémon",
+    "set_name": "NXD",
+    "series": "Black & White",
+    "set_full_name": "Next Destinies",
+    "set_code": "BW4",
+    "date": "Feb 8, 2012",
+    "number": "62",
+    "set_total": "99",
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "It can manipulate an opponent’s memory. Apparently, it communicates by flashing its three different-colored fingers.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Brain Control",
+            "damage": null,
+            "effect": "Your opponent reveals his or her hand. Choose a card from there and put it on the bottom of your opponent’s deck."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Psybeam",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Confused."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Elgyem"
+}

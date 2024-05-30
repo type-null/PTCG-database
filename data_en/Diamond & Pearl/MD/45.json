@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/raichu-majestic-dawn-md-45/",
+    "name": "Raichu",
+    "img": "https://pkmncards.com/wp-content/uploads/raichu-majestic-dawn-md-45.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MD",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Majestic Dawn",
+    "set_code": "DP5",
+    "date": "May 21, 2008",
+    "number": "45",
+    "set_total": "100",
+    "rarity": "Uncommon",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "flavor_text": "It can loose 100,000-volt bursts of electricity, instantly downing foes several times its size.",
+    "stage": "Stage 1",
+    "level": "37",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Agilty",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Raichu during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunderbolt",
+            "damage": {
+                "amount": 100,
+                "suffix": ""
+            },
+            "effect": "Discard all Energy cards attached to Raichu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Pikachu"
+}

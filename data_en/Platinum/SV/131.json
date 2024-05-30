@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/turtwig-supreme-victors-sv-131/",
+    "name": "Turtwig",
+    "img": "https://pkmncards.com/wp-content/uploads/turtwig-supreme-victors-sv-131.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SV",
+    "series": "Platinum",
+    "set_full_name": "Supreme Victors",
+    "set_code": "PL3",
+    "date": "Aug 19, 2009",
+    "number": "131",
+    "set_total": "147",
+    "rarity": "Common",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "flavor_text": "The shell on its back is made of soil. On a very healthy Turtwig, the shell should feel moist.",
+    "stage": "Basic",
+    "level": "8",
+    "hp": 60,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Shell Attack",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Stomp",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2
+}

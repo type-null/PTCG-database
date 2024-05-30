@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/dodrio-xy-xy-99/",
+    "name": "Dodrio",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY1-099-dodrio.jpg",
+    "card_type": "Pokémon",
+    "set_name": "XY",
+    "series": "XY",
+    "set_full_name": "XY",
+    "set_code": "XY1",
+    "date": "Feb 5, 2014",
+    "number": "99",
+    "set_total": "146",
+    "rarity": "Uncommon",
+    "author": [
+        "Kanako Eo"
+    ],
+    "flavor_text": "An enemy that takes its eyes off any of the three heads—even for a second—will get pecked severely.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Rage",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "This attack does 10 more damage for each damage counter on this Pokémon."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Endeavor",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Flip 2 coins. This attack does 20 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Doduo"
+}

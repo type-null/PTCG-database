@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/zebstrika-breakpoint-bkp-49/",
+    "name": "Zebstrika",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY9-049-zebstrika.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BKP",
+    "series": "XY",
+    "set_full_name": "BREAKpoint",
+    "set_code": "XY9",
+    "date": "Feb 3, 2016",
+    "number": "49",
+    "set_total": "122",
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "flavor_text": "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Lightning"
+    ],
+    "abilities": [
+        {
+            "name": "Zap Zone",
+            "effect": "Damage from the attacks of your {L} Pokémon isn’t affected by any effects on your opponent’s Active Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Crashing Bolt",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If your opponent’s Active Pokémon has {F} Resistance, this attack does 60 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Blitzle"
+}

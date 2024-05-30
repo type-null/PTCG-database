@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/gyarados-team-up-teu-30/",
+    "name": "Gyarados",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM9-030-gyarados.jpg",
+    "card_type": "Pokémon",
+    "set_name": "TEU",
+    "series": "Sun & Moon",
+    "set_full_name": "Team Up",
+    "set_code": "SM9",
+    "date": "Feb 1, 2019",
+    "number": "30",
+    "set_total": "181",
+    "rarity": "Rare Holo",
+    "author": [
+        "Hasuno"
+    ],
+    "flavor_text": "It fires hyper beams in all directions, burning the surrounding area to ash. There are some regions where it’s called “the deity of destruction.”",
+    "stage": "Stage 1",
+    "hp": 150,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Distilled Blast",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Reveal the top 7 cards of your deck. This attack does 30 more damage times the amount of {W} Energy you find there. Then, shuffle those Energy cards back into your deck and discard the other cards."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Water"
+            ],
+            "name": "Hyper Beam",
+            "damage": {
+                "amount": 100,
+                "suffix": ""
+            },
+            "effect": "Discard an Energy from your opponent’s Active Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 4,
+    "evolve_from": "Magikarp"
+}

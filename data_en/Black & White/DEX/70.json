@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/zorua-dark-explorers-dex-70/",
+    "name": "Zorua",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW5-070-zorua.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DEX",
+    "series": "Black & White",
+    "set_full_name": "Dark Explorers",
+    "set_code": "BW5",
+    "date": "May 9, 2012",
+    "number": "70",
+    "set_total": "108",
+    "rarity": "Common",
+    "author": [
+        "Akira Komayama"
+    ],
+    "flavor_text": "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon.",
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Paralyzing Gaze",
+            "damage": null,
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Shadow Bind",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon can’t retreat during your opponent’s next turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

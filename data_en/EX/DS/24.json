@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/mightyena-delta-species-ds-24/",
+    "name": "Mightyena",
+    "img": "https://pkmncards.com/wp-content/uploads/mightyena-d-delta-species-ds-24.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DS",
+    "series": "EX",
+    "set_full_name": "Delta Species",
+    "set_code": "EX11",
+    "date": "Oct 31, 2005",
+    "number": "24",
+    "set_total": "113",
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Darkness",
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Delta Fang",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "If the Defending Pokémon is Pokémon-ex, that Pokémon can’t attack during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Gang Up",
+            "damage": {
+                "amount": 10,
+                "suffix": "×"
+            },
+            "effect": "Does 10 damage times the number of {D} Pokémon and {M} Pokémon you have in play."
+        }
+    ],
+    "rule_box": "This Pokémon is both {D}{M} type.",
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Poochyena"
+}

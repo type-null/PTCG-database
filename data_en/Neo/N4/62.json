@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/dark-octillery-neo-destiny-n4-62/",
+    "name": "Dark Octillery",
+    "img": "https://pkmncards.com/wp-content/uploads/dark-octillery-neo-destiny-62.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N4",
+    "series": "Neo",
+    "set_full_name": "Neo Destiny",
+    "set_code": "N4",
+    "date": "Feb 28, 2002",
+    "number": "62",
+    "set_total": "105",
+    "rarity": "Common",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "flavor_text": "It likes to sleep in rock caves and will even steal other Octillery’s nests.",
+    "stage": "Stage 1",
+    "level": "30",
+    "hp": 60,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Ink Blast",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "This attack does 20 damage plus 10 more damage for each Energy attached to Dark Octillery but not used to pay for this attack’s Energy cost. You can’t add more than 20 damage in this way."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Tentacle Wrap",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, during your opponent’s next turn, your opponent pays {C} more to retreat the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Remoraid"
+}

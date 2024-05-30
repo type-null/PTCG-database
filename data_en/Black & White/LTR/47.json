@@ -1,0 +1,55 @@
+{
+    "url": "https://pkmncards.com/card/plusle-legendary-treasures-ltr-47/",
+    "name": "Plusle",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW11-047-plusle.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LTR",
+    "series": "Black & White",
+    "set_full_name": "Legendary Treasures",
+    "set_code": "BW11",
+    "date": "Nov 6, 2013",
+    "number": "47",
+    "set_total": "113",
+    "rarity": "Uncommon",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "It cheers on friends with pom-poms made of sparks. It drains power from telephone poles.",
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Tag Draw",
+            "damage": null,
+            "effect": "Shuffle your hand into your deck. Then, draw 4 cards. If Minun is on your Bench, draw 4 more cards."
+        },
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Positive Ion",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

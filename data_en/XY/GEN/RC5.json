@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/charizard-generations-gen-rc5/",
+    "name": "Charizard",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-TwentiethAnn-RC5-charizard.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GEN",
+    "series": "XY",
+    "set_full_name": "Generations",
+    "set_code": "GEN",
+    "date": "Feb 22, 2016",
+    "number": "RC5",
+    "set_total": "RC32",
+    "rarity": "Uncommon",
+    "author": [
+        "Akira Komayama"
+    ],
+    "flavor_text": "No matter what happens, if we stick together, we can get past it. Forever and ever.",
+    "stage": "Stage 2",
+    "hp": 160,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Recall",
+            "damage": null,
+            "effect": "Choose 1 of this Pokémon’s attacks from its previous Evolutions and use it as this attack."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Combustion Blast",
+            "damage": {
+                "amount": 100,
+                "suffix": ""
+            },
+            "effect": "This Pokémon can’t use Combustion Blast during your next turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Charmeleon"
+}

@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/blaziken-emerald-em-1/",
+    "name": "Blaziken",
+    "img": "https://pkmncards.com/wp-content/uploads/blaziken-emerald-em-1.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EM",
+    "series": "EX",
+    "set_full_name": "Emerald",
+    "set_code": "EX9",
+    "date": "May 9, 2005",
+    "number": "1",
+    "set_total": "106",
+    "rarity": "Rare Holo",
+    "author": [
+        "Midori Harada"
+    ],
+    "stage": "Stage 2",
+    "hp": 110,
+    "types": [
+        "Fire"
+    ],
+    "poke_body": {
+        "name": "Blaze",
+        "effect": " As long as Blaziken’s remaining HP is 40 or less, Blaziken does 40 more damage to the Defending Pokémon (before applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Searing Flame",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Burned."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Damage Burn",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon already has any damage counters on it, this attack does 50 damage plus 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Combusken"
+}

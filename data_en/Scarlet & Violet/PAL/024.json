@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/brambleghast-paldea-evolved-pal-024/",
+    "name": "Brambleghast",
+    "img": "https://pkmncards.com/wp-content/uploads/sv2_en_024.jpg",
+    "card_type": "Pokémon",
+    "regulation": "G",
+    "set_name": "PAL",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "Paldea Evolved",
+    "set_code": "sv2",
+    "date": "Jun 9, 2023",
+    "number": "024",
+    "set_total": "193",
+    "rarity": "Uncommon",
+    "rarity_img": null,
+    "author": [
+        "KEIICHIRO ITO"
+    ],
+    "flavor_text": "It will open the branches of its head to envelop its prey. Once it absorbs all the life energy it needs, it expels the prey and discards it.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Absorb Life",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Heal 30 damage from this Pokémon."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Dead Wood Detention",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, attacks that the Defending Pokémon uses cost {C}{C} more."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Bramblin"
+}

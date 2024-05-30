@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/meowstic-generations-gen-rc15/",
+    "name": "Meowstic",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-TwentiethAnn-RC15-meowstic.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GEN",
+    "series": "XY",
+    "set_full_name": "Generations",
+    "set_code": "GEN",
+    "date": "Feb 22, 2016",
+    "number": "RC15",
+    "set_total": "RC32",
+    "rarity": "Uncommon",
+    "author": [
+        "sui"
+    ],
+    "flavor_text": "Intense silence. Two lamplights. Keep waiting for night to end.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Ear Influence",
+            "damage": null,
+            "effect": "Move as many damage counters on your opponent’s Pokémon as you like to any of your opponent’s other Pokémon in any way you like."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Psychic",
+                "Psychic"
+            ],
+            "name": "Psychic",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Does 10 more damage for each Energy attached to your opponent’s Active Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Espurr"
+}

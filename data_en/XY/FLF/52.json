@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/weavile-flashfire-flf-52/",
+    "name": "Weavile",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY2-052-weavile.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FLF",
+    "series": "XY",
+    "set_full_name": "Flashfire",
+    "set_code": "XY2",
+    "date": "May 7, 2014",
+    "number": "52",
+    "set_total": "106",
+    "rarity": "Rare",
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "flavor_text": "It lives in snowy regions. It carves patterns in trees with its claws as a signal to others.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Call for Family",
+            "damage": null,
+            "effect": "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Claw Rend",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "If your opponent’s Active Pokémon already has any damage counters on it, this attack does 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Sneasel"
+}

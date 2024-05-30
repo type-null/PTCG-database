@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/luxray-crown-zenith-crz-043/",
+    "name": "Luxray",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-CZ-043-luxray.jpg",
+    "card_type": "Pokémon",
+    "regulation": "E",
+    "set_name": "CRZ",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Crown Zenith",
+    "set_code": "CZ",
+    "date": "Jan 20, 2023",
+    "number": "043",
+    "set_total": "159",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "sui"
+    ],
+    "flavor_text": "Luxray’s ability to see through objects comes in handy when it’s scouting for danger.",
+    "stage": "Stage 2",
+    "hp": 150,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Electrostep",
+            "damage": null,
+            "effect": "This attack does 40 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) Switch this Pokémon with 1 of your Benched Pokémon."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Scar Strikes",
+            "damage": {
+                "amount": 100,
+                "suffix": "+"
+            },
+            "effect": "If your opponent’s Active Pokémon already has any damage counters on it, this attack does 100 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Luxio"
+}

@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/kecleon-legend-maker-lm-37/",
+    "name": "Kecleon",
+    "img": "https://pkmncards.com/wp-content/uploads/kecleon-legend-maker-lm-37.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LM",
+    "series": "EX",
+    "set_full_name": "Legend Maker",
+    "set_code": "EX12",
+    "date": "Feb 13, 2006",
+    "number": "37",
+    "set_total": "92",
+    "rarity": "Uncommon",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Colorless"
+    ],
+    "poke_body": {
+        "name": "Reactive Colors",
+        "effect": "If Kecleon has any React Energy cards attached to it, Kecleon is {G}, {R}, {W}, {L}, {P}, and {F} type."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Tongue Whip",
+            "damage": null,
+            "effect": "Choose 1 of your opponent’s Pokémon. This attack does 10 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

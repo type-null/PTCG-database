@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/vaporeon-skyridge-sk-33/",
+    "name": "Vaporeon",
+    "img": "https://pkmncards.com/wp-content/uploads/vaporeon-skyridge-sk-33.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SK",
+    "series": "E-Card",
+    "set_full_name": "Skyridge",
+    "set_code": "SK",
+    "date": "May 12, 2003",
+    "number": "33",
+    "set_total": "144",
+    "rarity": "Rare",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Water"
+    ],
+    "poke_body": {
+        "name": "Self-healing",
+        "effect": "Whenever you attach a {W} Energy card from your hand to Vaporeon, remove all Special Conditions affecting Vaporeon."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Hypnosplash",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Asleep."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Aqua Trick",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose 1 of those Energy cards and move it to 1 of your opponent’s Benched Pokémon. If your opponent has no Benched Pokémon, ignore this effect."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee"
+}

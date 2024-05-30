@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/drapion-unified-minds-unm-134/",
+    "name": "Drapion",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM11-134-drapion.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UNM",
+    "series": "Sun & Moon",
+    "set_full_name": "Unified Minds",
+    "set_code": "SM11",
+    "date": "Aug 2, 2019",
+    "number": "134",
+    "set_total": "236",
+    "rarity": "Rare",
+    "author": [
+        "SATOSHI NAKAI"
+    ],
+    "flavor_text": "It takes pride in its strength. Even though it can tear foes apart, it finishes them off with powerful poison.",
+    "stage": "Stage 1",
+    "hp": 140,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Cross Poison",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Flip 4 coins. This attack does 50 damage for each heads. If at least 2 of them are heads, your opponent’s Active Pokémon is now Poisoned."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Slicing Blade",
+            "damage": {
+                "amount": 120,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Skorupi"
+}

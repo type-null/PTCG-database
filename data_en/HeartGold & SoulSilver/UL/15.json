@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/fearow-unleashed-ul-15/",
+    "name": "Fearow",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS2-015-fearow.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UL",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Unleashed",
+    "set_code": "HGSS2",
+    "date": "May 12, 2010",
+    "number": "15",
+    "set_total": "95",
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "It shoots itself suddenly high into the sky, then plummets down in one fell swoop to strike its prey.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Wing Attack",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Repeating Drill",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip 5 coins. This attack does 20 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Spearow"
+}

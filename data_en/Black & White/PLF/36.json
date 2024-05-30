@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/lanturn-plasma-freeze-plf-36/",
+    "name": "Lanturn",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW9-036-lanturn.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLF",
+    "series": "Black & White",
+    "set_full_name": "Plasma Freeze",
+    "set_code": "BW9",
+    "date": "May 8, 2013",
+    "number": "36",
+    "set_total": "116",
+    "rarity": "Uncommon",
+    "author": [
+        "Mizue"
+    ],
+    "flavor_text": "Lanturn’s light can shine up from great depths. It is nicknamed “The Deep-Sea Star.”",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Special Tackle",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "If this Pokémon has any Special Energy attached to it, this attack does 30 more damage."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Extreme Current",
+            "damage": {
+                "amount": 90,
+                "suffix": ""
+            },
+            "effect": "Discard an Energy attached to this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Chinchou"
+}

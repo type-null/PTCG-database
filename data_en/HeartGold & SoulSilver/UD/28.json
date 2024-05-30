@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/jolteon-undaunted-ud-28/",
+    "name": "Jolteon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS3-028-jolteon.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UD",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Undaunted",
+    "set_code": "HGSS3",
+    "date": "Aug 18, 2010",
+    "number": "28",
+    "set_total": "90",
+    "rarity": "Uncommon",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "flavor_text": "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Agility",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Jolteon during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Mach Bolt",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Eevee"
+}

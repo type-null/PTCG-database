@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/drifloon-diamond-pearl-dp-46/",
+    "name": "Drifloon",
+    "img": "https://pkmncards.com/wp-content/uploads/drifloon-diamond-pearl-dp-46.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DP",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Diamond & Pearl",
+    "set_code": "DP1",
+    "date": "May 23, 2007",
+    "number": "46",
+    "set_total": "130",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "A Pokémon formed by the spirits of people and Pokémon. It loves damp, humid seasons.",
+    "stage": "Basic",
+    "level": "17",
+    "hp": 60,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Blowing Wind",
+            "damage": null,
+            "effect": "Flip a coin. If heads, put 1 of your Benched Pokémon and all cards attached to on top of your deck. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Ominous Wind",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Confused and can’t retreat during your opponent’s next turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Darkness"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Colorless"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

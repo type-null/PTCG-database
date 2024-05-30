@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/escavalier-darkness-ablaze-daa-124/",
+    "name": "Escavalier",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH3-124-escavalier.jpg",
+    "card_type": "Pokémon",
+    "regulation": "D",
+    "set_name": "DAA",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Darkness Ablaze",
+    "set_code": "SWSH3",
+    "date": "Aug 14, 2020",
+    "number": "124",
+    "set_total": "189",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "flavor_text": "They use shells they’ve stolen from Shelmet to arm and protect themselves. They’re very popular Pokémon in the Galar region.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Fury Cutter",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip 3 coins. If 1 of them is heads, this attack does 20 more damage. If 2 of them are heads, this attack does 70 more damage. If all of them are heads, this attack does 140 more damage."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Seashell Attack",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Karrablast"
+}

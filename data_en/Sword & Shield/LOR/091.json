@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/rhyperior-lost-origin-lor-091/",
+    "name": "Rhyperior",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH11-091-rhyperior.jpg",
+    "card_type": "Pokémon",
+    "regulation": "F",
+    "set_name": "LOR",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Lost Origin",
+    "set_code": "SWSH11",
+    "date": "Sep 9, 2022",
+    "number": "091",
+    "set_total": "196",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "GOSSAN"
+    ],
+    "flavor_text": "It can load up to three projectiles per arm into the holes in its hands. What launches out of those holes could be either rocks or Roggenrola.",
+    "stage": "Stage 2",
+    "hp": 190,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Geo Cannon",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Discard the top card of your deck. If that card is an Energy card, this attack does 100 more damage, and attach that card to this Pokémon."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Rocky Tackle",
+            "damage": {
+                "amount": 180,
+                "suffix": ""
+            },
+            "effect": "This Pokémon also does 30 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 4,
+    "evolve_from": "Rhydon"
+}

@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/beedrill-xy-xy-5/",
+    "name": "Beedrill",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY1-005-beedrill.jpg",
+    "card_type": "Pokémon",
+    "set_name": "XY",
+    "series": "XY",
+    "set_full_name": "XY",
+    "set_code": "XY1",
+    "date": "Feb 5, 2014",
+    "number": "5",
+    "set_total": "146",
+    "rarity": "Rare",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "flavor_text": "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+    "stage": "Stage 2",
+    "hp": 120,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Poison Jab",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Your opponent’s Active Pokémon is now Poisoned."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass"
+            ],
+            "name": "Flash Needle",
+            "damage": {
+                "amount": 40,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 40 damage times the number of heads. If all of them are heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent’s next turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Kakuna"
+}

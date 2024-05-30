@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/archeops-plasma-blast-plb-54/",
+    "name": "Archeops",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW10-054-archeops.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLB",
+    "series": "Black & White",
+    "set_full_name": "Plasma Blast",
+    "set_code": "BW10",
+    "date": "Aug 14, 2013",
+    "number": "54",
+    "set_total": "101",
+    "rarity": "Rare Holo",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "It runs better than it flies. It takes off into the sky by running at a speed of 25 mph.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Acrobatics",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip 2 coins. This attack does 20 more damage for each heads."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Swift Dive",
+            "damage": {
+                "amount": 100,
+                "suffix": ""
+            },
+            "effect": "If this Pokémon’s remaining HP is 50 or less, this attack’s base damage is 50."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 0,
+    "evolve_from": "Archen"
+}

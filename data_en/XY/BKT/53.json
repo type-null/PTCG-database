@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/magneton-breakthrough-bkt-53/",
+    "name": "Magneton",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY8-053-magneton.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BKT",
+    "series": "XY",
+    "set_full_name": "BREAKthrough",
+    "set_code": "XY8",
+    "date": "Nov 4, 2015",
+    "number": "53",
+    "set_total": "162",
+    "rarity": "Uncommon",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "flavor_text": "Generates strange radio signals. It raises the temperature by 3.6 degrees Fahrenheit within 3,300 feet.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Static Shock",
+            "damage": null,
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Electro Ball",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": "Discard an Energy attached to this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Magnemite"
+}

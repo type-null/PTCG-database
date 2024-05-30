@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/miltank-secret-wonders-sw-55/",
+    "name": "Miltank",
+    "img": "https://pkmncards.com/wp-content/uploads/miltank-secret-wonders-sw-55.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SW",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Secret Wonders",
+    "set_code": "DP3",
+    "date": "Nov 7, 2007",
+    "number": "55",
+    "set_total": "132",
+    "rarity": "Uncommon",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "It is said that kids who drink MILTANK’s milk grow up to become hearty, healthy adults.",
+    "stage": "Basic",
+    "level": "32",
+    "hp": 90,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "No Energy Cost"
+            ],
+            "name": "Healing Milk",
+            "damage": null,
+            "effect": "Flip 2 coins. For each heads, remove 3 damage counters from 1 of your Pokémon."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Continuous Tumble",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 20 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

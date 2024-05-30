@@ -1,0 +1,56 @@
+{
+    "url": "https://pkmncards.com/card/lucario-sword-shield-promos-swsh186/",
+    "name": "Lucario",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-Promo_SWSH-SWSH186-lucario.jpg",
+    "card_type": "Pokémon",
+    "regulation": "F",
+    "set_name": "Promo_SWSH",
+    "series": "Sword & Shield",
+    "set_full_name": "Sword & Shield Promos",
+    "set_code": "Promo_SWSH",
+    "date": "Feb 25, 2022",
+    "number": "SWSH186",
+    "set_total": null,
+    "rarity": "Promo",
+    "author": [
+        "NC Empire"
+    ],
+    "flavor_text": "It controls waves known as auras, which are powerful enough to pulverize huge rocks. It uses these waves to take down its prey.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Fighting"
+    ],
+    "abilities": [
+        {
+            "name": "Roaring Resolve",
+            "effect": "Once during your turn, you may put 2 damage counters on this Pokémon. If you do, search your deck for a {F} Energy card and attach it to this Pokémon. Then, shuffle your deck."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Aura Sphere Volley",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Discard all {F} Energy from this Pokémon. This attack does 60 more damage for each card you discarded in this way."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Riolu"
+}

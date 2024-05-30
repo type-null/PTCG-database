@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/magnezone-plasma-storm-pls-47/",
+    "name": "Magnezone",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW8-047-magnezone.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLS",
+    "series": "Black & White",
+    "set_full_name": "Plasma Storm",
+    "set_code": "BW8",
+    "date": "Feb 6, 2013",
+    "number": "47",
+    "set_total": "135",
+    "rarity": "Rare",
+    "author": [
+        "match"
+    ],
+    "flavor_text": "Sometimes the magnetism emitted by Magnezone is too strong, making them attract each other so they cannot move.",
+    "stage": "Stage 2",
+    "hp": 140,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Double Assist",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Attach 2 basic Energy cards from your discard pile to 1 of your Pokémon."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Tumbling Attack",
+            "damage": {
+                "amount": 70,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Magneton"
+}

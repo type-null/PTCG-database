@@ -1,0 +1,68 @@
+{
+    "url": "https://pkmncards.com/card/magneton-legend-maker-lm-22/",
+    "name": "Magneton",
+    "img": "https://pkmncards.com/wp-content/uploads/magneton-legend-maker-lm-22.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LM",
+    "series": "EX",
+    "set_full_name": "Legend Maker",
+    "set_code": "EX12",
+    "date": "Feb 13, 2006",
+    "number": "22",
+    "set_total": "92",
+    "rarity": "Rare",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Lightning"
+    ],
+    "poke_power": {
+        "name": "Reactive Recharge",
+        "effect": "If Magneton would be Knocked Out by damage from an opponent’s attack, you may move any number of React Energy cards from Magneton to your Pokémon in any way you like."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Multiple Force",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "If Magneton has any React Energy cards attached to it, this attack does 30 damage plus 10 more damage for each Magnemite and Magneton (both yours and your opponent’s) in play."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Magnetic Blast",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Magnemite"
+}

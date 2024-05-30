@@ -1,0 +1,69 @@
+{
+    "url": "https://pkmncards.com/card/gengar-ex-firered-leafgreen-rg-108/",
+    "name": "Gengar ex",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-EX06-108-gengar_ex.jpg",
+    "card_type": "Pokémon",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "RG",
+    "series": "EX",
+    "set_full_name": "FireRed & LeafGreen",
+    "set_code": "EX6",
+    "date": "Aug 30, 2004",
+    "number": "108",
+    "set_total": "112",
+    "rarity": "Rare Holo ex",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Stage 2",
+    "hp": 150,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Poltergeist",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Look at your opponent’s hand. This attack does 40 damage plus 10 more damage for each Trainer card in your opponent’s hand."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Prize Count",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "If you have more Prize cards left than your opponent, this attack does 60 damage plus 40 more damage."
+        }
+    ],
+    "rule_box": "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.",
+    "weakness": {
+        "type": [
+            "Psychic",
+            "Darkness"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting",
+            "Colorless"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Haunter"
+}

@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/flaaffy-call-of-legends-cl-43/",
+    "name": "Flaaffy",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-COL-043-flaaffy.jpg",
+    "card_type": "Pokémon",
+    "set_name": "CL",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Call of Legends",
+    "set_code": "CL",
+    "date": "Feb 9, 2011",
+    "number": "43",
+    "set_total": "95",
+    "rarity": "Uncommon",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "As a result of storing too much electricity, it developed patches where even downy wool won’t grow.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thunder Spear",
+            "damage": null,
+            "effect": "Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Thundershock",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "If heads, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Mareep"
+}

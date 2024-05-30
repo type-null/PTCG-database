@@ -1,0 +1,70 @@
+{
+    "url": "https://pkmncards.com/card/carnivine-platinum-pl-43/",
+    "name": "Carnivine",
+    "img": "https://pkmncards.com/wp-content/uploads/carnivine-platinum-pl-43.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PL",
+    "series": "Platinum",
+    "set_full_name": "Platinum",
+    "set_code": "PL1",
+    "date": "Feb 11, 2009",
+    "number": "43",
+    "set_total": "127",
+    "rarity": "Uncommon",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Basic",
+    "level": "38",
+    "hp": 80,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Stretch Vine",
+            "damage": null,
+            "effect": "Choose 2 of your opponent’s Benched Pokémon. This attack does 10 damage to each of them. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Absorb",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Remove 2 damage counters from Carnivine."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass"
+            ],
+            "name": "Vine Extract",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Burned and Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2
+}

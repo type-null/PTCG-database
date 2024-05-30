@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/sandslash-mysterious-treasures-mt-61/",
+    "name": "Sandslash",
+    "img": "https://pkmncards.com/wp-content/uploads/sandslash-mysterious-treasures-mt-61.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MT",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Mysterious Treasures",
+    "set_code": "DP2",
+    "date": "Aug 22, 2007",
+    "number": "61",
+    "set_total": "123",
+    "rarity": "Uncommon",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "flavor_text": "It curls up, then rolls into foes with its back. Its sharp spines inflict severe damage.",
+    "stage": "Stage 1",
+    "level": "37",
+    "hp": 90,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Spike Armor",
+            "damage": null,
+            "effect": "During your opponent’s next turn, if Sandslash is damaged by an opponent’s attack (even if Sandslash is Knocked Out), put 4 damage counters on the Attacking Pokémon."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Poison Spike",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "If the Defending Pokémon already has any damage counters on it, that Pokémon is now Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Sandshrew"
+}

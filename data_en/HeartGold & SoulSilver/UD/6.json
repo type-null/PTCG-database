@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/magcargo-undaunted-ud-6/",
+    "name": "Magcargo",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS3-006-magcargo.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UD",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Undaunted",
+    "set_code": "HGSS3",
+    "date": "Aug 18, 2010",
+    "number": "6",
+    "set_total": "90",
+    "rarity": "Rare Holo",
+    "author": [
+        "Yuka Morii"
+    ],
+    "flavor_text": "Its brittle shell occasionally spouts intense flames that circulate throughout its body.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Searing Flame",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Burned."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Lava Flow",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "You may discard any number of {R} Energy cards attached to Magcargo. If you do , this attack does 60 damage plus 20 more damage for each {R} Energy card you discarded."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Slugma"
+}

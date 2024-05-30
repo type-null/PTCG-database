@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/magnezone-diamond-pearl-dp-8/",
+    "name": "Magnezone",
+    "img": "https://pkmncards.com/wp-content/uploads/magnezone-diamond-pearl-dp-8.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DP",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Diamond & Pearl",
+    "set_code": "DP1",
+    "date": "May 23, 2007",
+    "number": "8",
+    "set_total": "130",
+    "rarity": "Rare Holo",
+    "author": [
+        "Nakaoka"
+    ],
+    "flavor_text": "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
+    "stage": "Stage 2",
+    "level": "48",
+    "hp": 120,
+    "types": [
+        "Metal"
+    ],
+    "poke_body": {
+        "name": "Magnetize",
+        "effect": "If you have any {M} Energy attached to your Active Pokémon, the Retreat Cost for that Pokémon is 0."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Metal Blast",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Does 50 damage plus 10 more damage for each {M} Energy attached to Magnezone."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Magneton"
+}

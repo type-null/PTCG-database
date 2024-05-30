@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/excadrill-primal-clash-prc-97/",
+    "name": "Excadrill",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY5-097-excadrill.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PRC",
+    "series": "XY",
+    "set_full_name": "Primal Clash",
+    "set_code": "XY5",
+    "date": "Feb 4, 2015",
+    "number": "97",
+    "set_total": "160",
+    "rarity": "Rare Holo",
+    "author": [
+        "PLANETA"
+    ],
+    "flavor_text": "More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels.",
+    "stage": "Stage 1",
+    "hp": 110,
+    "types": [
+        "Metal"
+    ],
+    "ancient_trait": {
+        "name": "Ω  Barrage",
+        "effect": " This Pokémon may attack twice a turn. (If the first attack Knocks Out your opponent’s Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon.)"
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Dredge",
+            "damage": null,
+            "effect": "Search your deck for 2 Energy cards and attach them to this Pokémon. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Mach Claw",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "This attack’s damage isn’t affected by Resistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Drilbur"
+}

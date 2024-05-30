@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/dugtrio-skyridge-sk-52/",
+    "name": "Dugtrio",
+    "img": "https://pkmncards.com/wp-content/uploads/dugtrio-skyridge-sk-52.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SK",
+    "series": "E-Card",
+    "set_full_name": "Skyridge",
+    "set_code": "SK",
+    "date": "May 12, 2003",
+    "number": "52",
+    "set_total": "144",
+    "rarity": "Common",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Burrow",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, prevent all damage done by attacks to Dugtrio during your opponent’s next turn. (Any other effects of attacks still happen.)"
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Dig Under",
+            "damage": null,
+            "effect": "Choose 1 of your opponent’s Pokémon. This attack does 30 damage to that Pokémon. Don’t apply Weakness or Resistance. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Diglett"
+}

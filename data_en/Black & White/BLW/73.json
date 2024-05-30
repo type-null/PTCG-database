@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/mandibuzz-black-white-blw-73/",
+    "name": "Mandibuzz",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW1-073-mandibuzz.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BLW",
+    "series": "Black & White",
+    "set_full_name": "Black & White",
+    "set_code": "BW1",
+    "date": "Apr 25, 2011",
+    "number": "73",
+    "set_total": "114",
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "It makes a nest out of bones it finds. It grabs weakened prey in its talons and hauls it to its nest of bones.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Blindside",
+            "damage": null,
+            "effect": "Does 50 damage to 1 of your opponent’s Pokémon that has any damage counters on it. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Punishment",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon is a Stage 2 Pokémon, this attack does 60 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Vullaby"
+}

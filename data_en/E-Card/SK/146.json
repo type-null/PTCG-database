@@ -1,0 +1,67 @@
+{
+    "url": "https://pkmncards.com/card/charizard-skyridge-sk-146/",
+    "name": "Charizard",
+    "img": "https://pkmncards.com/wp-content/uploads/charizard-skyridge-sk-146.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SK",
+    "series": "E-Card",
+    "set_full_name": "Skyridge",
+    "set_code": "SK",
+    "date": "May 12, 2003",
+    "number": "146",
+    "set_total": "144",
+    "rarity": "Rare Secret",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "stage": "Stage 2",
+    "hp": 110,
+    "types": [
+        "Colorless"
+    ],
+    "poke_body": {
+        "name": "Crystal Type",
+        "effect": "Whenever you attach a {R}, {L}, or {F} basic Energy card from your hand to Charizard, Charizard’s type (color) becomes the same as that type of Energy until the end of the turn."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Fighting"
+            ],
+            "name": "Fireblast",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Discard an Energy card attached to Charizard."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Dragon Tail",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 50 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 4,
+    "evolve_from": "Charmeleon"
+}

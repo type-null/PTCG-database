@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/eelektross-primal-clash-prc-65/",
+    "name": "Eelektross",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY5-065-eelektross.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PRC",
+    "series": "XY",
+    "set_full_name": "Primal Clash",
+    "set_code": "XY5",
+    "date": "Feb 4, 2015",
+    "number": "65",
+    "set_total": "160",
+    "rarity": "Rare Holo",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+    "stage": "Stage 2",
+    "hp": 140,
+    "types": [
+        "Lightning"
+    ],
+    "abilities": [
+        {
+            "name": "Energy Connect",
+            "effect": "As often as you like during your turn (before your attack), you may move a basic Energy attached to 1 of your Benched Pokémon to your Active Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Electricannon",
+            "damage": {
+                "amount": 80,
+                "suffix": "+"
+            },
+            "effect": "You may discard all {L} Energy attached to this Pokémon. If you do, this attack does 50 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Eelektrik"
+}

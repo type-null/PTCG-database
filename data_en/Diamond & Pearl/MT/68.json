@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/vigoroth-mysterious-treasures-mt-68/",
+    "name": "Vigoroth",
+    "img": "https://pkmncards.com/wp-content/uploads/vigoroth-mysterious-treasures-mt-68.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MT",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Mysterious Treasures",
+    "set_code": "DP2",
+    "date": "Aug 22, 2007",
+    "number": "68",
+    "set_total": "123",
+    "rarity": "Uncommon",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "Its heart beats at a tenfold tempo, so it cannot sit still even for a moment.",
+    "stage": "Stage 1",
+    "level": "24",
+    "hp": 80,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Wake-up Punch",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "If Vigoroth evolved from Slakoth during this turn and Slakoth was Asleep, this attack’s base damage is 60 instead of 10."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Fury Swipes",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 30 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Slakoth"
+}

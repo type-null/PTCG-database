@@ -1,0 +1,56 @@
+{
+    "url": "https://pkmncards.com/card/victini-boundaries-crossed-bcr-23/",
+    "name": "Victini",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW7-023-victini.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BCR",
+    "series": "Black & White",
+    "set_full_name": "Boundaries Crossed",
+    "set_code": "BW7",
+    "date": "Nov 7, 2012",
+    "number": "23",
+    "set_total": "149",
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "It creates an unlimited supply of energy inside its body, which it shares with those who touch it.",
+    "stage": "Basic",
+    "hp": 70,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Collect",
+            "damage": null,
+            "effect": "Draw a card."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Relentless Flames",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 30 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

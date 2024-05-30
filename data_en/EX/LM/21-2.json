@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/magmar-legend-maker-lm-21/",
+    "name": "Magmar",
+    "img": "https://pkmncards.com/wp-content/uploads/magmar-legend-maker-lm-21.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LM",
+    "series": "EX",
+    "set_full_name": "Legend Maker",
+    "set_code": "EX12",
+    "date": "Feb 13, 2006",
+    "number": "21",
+    "set_total": "92",
+    "rarity": "Rare",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "stage": "Basic",
+    "hp": 70,
+    "types": [
+        "Fire"
+    ],
+    "poke_body": {
+        "name": "Stages of Evolution",
+        "effect": "As long as Magmar is an Evolved Pokémon, all Energy attached to Magmar are {R} Energy instead of their usual types."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Linear Attack",
+            "damage": null,
+            "effect": "Choose 1 of your opponent’s Pokémon. This attack does 10 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Fire"
+            ],
+            "name": "Burning Sensation",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Burned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

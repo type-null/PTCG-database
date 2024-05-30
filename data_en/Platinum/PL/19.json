@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/banette-platinum-pl-19/",
+    "name": "Banette",
+    "img": "https://pkmncards.com/wp-content/uploads/banette-platinum-pl-19.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PL",
+    "series": "Platinum",
+    "set_full_name": "Platinum",
+    "set_code": "PL1",
+    "date": "Feb 11, 2009",
+    "number": "19",
+    "set_total": "127",
+    "rarity": "Rare",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "stage": "Stage 1",
+    "level": "48",
+    "hp": 90,
+    "types": [
+        "Psychic"
+    ],
+    "poke_power": {
+        "name": "Temper Tantrum",
+        "effect": "Once during your turn (before your attack), you may discard as many cards as you like from your hand. If you do, put that many damage counters on Banette. This power can’t be used if Banette is affected by a Special Condition."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Darkness Switch",
+            "damage": null,
+            "effect": "Discard an Energy card attached to Banette, and then switch all damage counters on Banette with those on the Defending Pokémon. (If an effect of this attack is prevented, this attack does nothing.)"
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Loneliness",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "You may show your hand to your opponent. If you do and if you don’t have any Pokémon in your hand, this attack does 30 damage plus 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Darkness"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Colorless"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Shuppet"
+}

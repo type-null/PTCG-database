@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/magnemite-diamond-pearl-dp-87/",
+    "name": "Magnemite",
+    "img": "https://pkmncards.com/wp-content/uploads/magnemite-diamond-pearl-dp-87.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DP",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Diamond & Pearl",
+    "set_code": "DP1",
+    "date": "May 23, 2007",
+    "number": "87",
+    "set_total": "130",
+    "rarity": "Common",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "The units at its sides generate electromagnetic waves that keep it airborne. It feeds on electricity.",
+    "stage": "Basic",
+    "level": "10",
+    "hp": 50,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Metal Sound",
+            "damage": null,
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Resonance",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon is Confused, this attack does 20 damage plus 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

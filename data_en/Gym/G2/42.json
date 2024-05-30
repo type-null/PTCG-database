@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/giovannis-machoke-gym-challenge-g2-42/",
+    "name": "Giovanni’s Machoke",
+    "img": "https://pkmncards.com/wp-content/uploads/giovannis-machoke-gym-challenge-42.jpg",
+    "card_type": "Pokémon",
+    "set_name": "G2",
+    "series": "Gym",
+    "set_full_name": "Gym Challenge",
+    "set_code": "G2",
+    "date": "Oct 16, 2000",
+    "number": "42",
+    "set_total": "132",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "stage": "Stage 1",
+    "level": "36",
+    "hp": 80,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Risky Attack",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, this attack does no damage to the Defending Pokémon and Giovanni’s Machoke does 100 damage to itself."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Headlock",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage and the Defending Pokémon is now Paralyzed. If tails, this attack does 20 damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Giovanni’s Machop"
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/moltres-skyridge-sk-h20/",
+    "name": "Moltres",
+    "img": "https://pkmncards.com/wp-content/uploads/h20.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SK",
+    "series": "E-Card",
+    "set_full_name": "Skyridge",
+    "set_code": "SK",
+    "date": "May 12, 2003",
+    "number": "H20",
+    "set_total": "H32",
+    "rarity": "Rare Holo",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "stage": "Basic",
+    "hp": 80,
+    "types": [
+        "Fire"
+    ],
+    "poke_body": {
+        "name": "Fire Immunity",
+        "effect": "You can’t attach {R} Energy cards from your hand to Moltres."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Collect Fire",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "If there are any {R} Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Moltres."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Burning Tail",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, discard a {R} Energy card attached to Moltres."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2
+}

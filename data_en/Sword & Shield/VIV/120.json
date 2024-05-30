@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/lucario-vivid-voltage-viv-120/",
+    "name": "Lucario",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH4-120-lucario.jpg",
+    "card_type": "Pokémon",
+    "regulation": "D",
+    "set_name": "VIV",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Vivid Voltage",
+    "set_code": "SWSH4",
+    "date": "Nov 13, 2020",
+    "number": "120",
+    "set_total": "185",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "kodama"
+    ],
+    "flavor_text": "It controls waves known as auras, which are powerful enough to pulverize huge rocks. It uses these waves to take down its prey.",
+    "stage": "Stage 1",
+    "hp": 130,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Spike Draw",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Draw a card."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Knuckle Impact",
+            "damage": {
+                "amount": 160,
+                "suffix": ""
+            },
+            "effect": "During your next turn, this Pokémon can’t attack."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Riolu"
+}

@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/noctowl-diamond-pearl-dp-34/",
+    "name": "Noctowl",
+    "img": "https://pkmncards.com/wp-content/uploads/noctowl-diamond-pearl-dp-34.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DP",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Diamond & Pearl",
+    "set_code": "DP1",
+    "date": "May 23, 2007",
+    "number": "34",
+    "set_total": "130",
+    "rarity": "Rare",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "flavor_text": "Its eyes are special. They can pick out objects as long as there is the tiniest amount of light.",
+    "stage": "Stage 1",
+    "level": "40",
+    "hp": 90,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "See Beyond",
+            "damage": null,
+            "effect": "Choose a card from your hand and put it as a Prize card face up. Then, choose 1 of your face-down Prize cards without looking and put it into your hand. This attack does nothing if all of your Prize cards are face up."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Extrasensory",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "If you have the same number of cards in your hand as your opponent, this attack does 30 damage plus 50 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Hoothoot"
+}

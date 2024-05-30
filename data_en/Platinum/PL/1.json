@@ -1,0 +1,68 @@
+{
+    "url": "https://pkmncards.com/card/ampharos-platinum-pl-1/",
+    "name": "Ampharos",
+    "img": "https://pkmncards.com/wp-content/uploads/ampharos-platinum-pl-1.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PL",
+    "series": "Platinum",
+    "set_full_name": "Platinum",
+    "set_code": "PL1",
+    "date": "Feb 11, 2009",
+    "number": "1",
+    "set_total": "127",
+    "rarity": "Rare Holo",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "stage": "Stage 2",
+    "level": "57",
+    "hp": 130,
+    "types": [
+        "Lightning"
+    ],
+    "poke_body": {
+        "name": "Damage Bind",
+        "effect": "Each Pokémon that has any damage counters on it (both yours and your opponent’s) can’t use any Poké-Powers."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Gigavolt",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 damage plus 30 more damage. If tails, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Reflect Energy",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": "Move an Energy card attached to Ampharos to 1 of your Benched Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Flaaffy"
+}

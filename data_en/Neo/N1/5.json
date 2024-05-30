@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/feraligatr-neo-genesis-n1-5/",
+    "name": "Feraligatr",
+    "img": "https://pkmncards.com/wp-content/uploads/feraligatr-neo-genesis-5.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N1",
+    "series": "Neo",
+    "set_full_name": "Neo Genesis",
+    "set_code": "N1",
+    "date": "Dec 16, 2000",
+    "number": "5",
+    "set_total": "111",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "It is hard for it to support its own weight out of water, so it gets down on all fours. But it moves fast.",
+    "stage": "Stage 2",
+    "level": "69",
+    "hp": 120,
+    "types": [
+        "Water"
+    ],
+    "abilities": [
+        {
+            "name": "Downpour",
+            "effect": "As often as you like during your turn (before your attack), you may discard a {W} Energy card from your hand. This power can’t be used if Feraligatr is Asleep, Confused, or Paralyzed."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Water"
+            ],
+            "name": "Riptide",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Does 10 damage plus 10 damage times the number of {W} Energy cards in your discard pile. Then, shuffle all {W} Energy cards from your discard pile into your deck."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Croconaw"
+}

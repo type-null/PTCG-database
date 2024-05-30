@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/stunfisk-breakthrough-bkt-56/",
+    "name": "Stunfisk",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY8-056-stunfisk.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BKT",
+    "series": "XY",
+    "set_full_name": "BREAKthrough",
+    "set_code": "XY8",
+    "date": "Nov 4, 2015",
+    "number": "56",
+    "set_total": "162",
+    "rarity": "Uncommon",
+    "author": [
+        "Naoki Saito"
+    ],
+    "flavor_text": "It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers aa jolt of electricity.",
+    "stage": "Basic",
+    "hp": 110,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Revenge",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "If any of your Pokémon were Knocked Out by damage from an opponent’s attack during his or her last turn, this attack does 80 more damage."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunder Blast",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Discard an Energy attached to this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3
+}

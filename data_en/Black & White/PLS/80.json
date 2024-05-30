@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/gurdurr-plasma-storm-pls-80/",
+    "name": "Gurdurr",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW8-080-gurdurr.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLS",
+    "series": "Black & White",
+    "set_full_name": "Plasma Storm",
+    "set_code": "BW8",
+    "date": "Feb 6, 2013",
+    "number": "80",
+    "set_total": "135",
+    "rarity": "Uncommon",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "With strengthened bodies, they skillfully wield steel beams to take down buildings.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Dynamic Punch",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Hammer In",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Timburr"
+}

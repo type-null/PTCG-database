@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/slowbro-unbroken-bonds-unb-43/",
+    "name": "Slowbro",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM10-043-slowbro.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UNB",
+    "series": "Sun & Moon",
+    "set_full_name": "Unbroken Bonds",
+    "set_code": "SM10",
+    "date": "May 3, 2019",
+    "number": "43",
+    "set_total": "214",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "Spacing out is basically all it does. It turns back into Slowpoke if its tail, along with Shellder, breaks off.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Yawn",
+            "damage": null,
+            "effect": "Your opponent’s Active Pokémon is now Asleep."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Three Strikes",
+            "damage": {
+                "amount": 100,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 100 damage for each heads. If all of them are tails, you lose this game."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Slowpoke"
+}

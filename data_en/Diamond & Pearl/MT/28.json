@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/manectric-mysterious-treasures-mt-28/",
+    "name": "Manectric",
+    "img": "https://pkmncards.com/wp-content/uploads/manectric-mysterious-treasures-mt-28.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MT",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Mysterious Treasures",
+    "set_code": "DP2",
+    "date": "Aug 22, 2007",
+    "number": "28",
+    "set_total": "123",
+    "rarity": "Rare",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "flavor_text": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+    "stage": "Stage 1",
+    "level": "38",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Lightning Twister",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Does 20 damage times the number of basic Energy cards attached to Manectric."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Lightning"
+            ],
+            "name": "Chain Lightning",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": "Does 20 damage to each of your opponent’s Benched Pokémon that is the same type as the Defending Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Electrike"
+}

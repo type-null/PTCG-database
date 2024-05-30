@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/drapion-diamond-pearl-dp-23/",
+    "name": "Drapion",
+    "img": "https://pkmncards.com/wp-content/uploads/drapion-diamond-pearl-dp-23.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DP",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Diamond & Pearl",
+    "set_code": "DP1",
+    "date": "May 23, 2007",
+    "number": "23",
+    "set_total": "130",
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.",
+    "stage": "Stage 1",
+    "level": "41",
+    "hp": 100,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Stomp",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Poison Claws",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Skorupi"
+}

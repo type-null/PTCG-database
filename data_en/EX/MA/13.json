@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/raichu-team-magma-vs-team-aqua-ma-13/",
+    "name": "Raichu",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-EX4-013-raichu.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MA",
+    "series": "EX",
+    "set_full_name": "Team Magma vs Team Aqua",
+    "set_code": "EX4",
+    "date": "Mar 15, 2004",
+    "number": "13",
+    "set_total": "95",
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Spark",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Does 10 damage to 2 of your opponent’s Benched Pokémon (1 if there is only 1). (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Kerzap",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 40 damage plus 40 more damage to the Defending Pokémon and discard all {L} Energy cards attached to Raichu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu"
+}

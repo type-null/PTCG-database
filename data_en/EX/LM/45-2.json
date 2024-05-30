@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/tentacruel-legend-maker-lm-45/",
+    "name": "Tentacruel",
+    "img": "https://pkmncards.com/wp-content/uploads/tentacruel-legend-maker-lm-45.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LM",
+    "series": "EX",
+    "set_full_name": "Legend Maker",
+    "set_code": "EX12",
+    "date": "Feb 13, 2006",
+    "number": "45",
+    "set_total": "92",
+    "rarity": "Uncommon",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Water"
+    ],
+    "poke_body": {
+        "name": "Reactive Shield",
+        "effect": "As long as Tentacruel has any React Energy cards attached to it, prevent all effects, including damage, done to any of your Tentacruel in play by attacks from your opponent’s Pokémon-ex."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Water Arrow",
+            "damage": null,
+            "effect": "Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Fury Strikes",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 20 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 0,
+    "evolve_from": "Tentacool"
+}

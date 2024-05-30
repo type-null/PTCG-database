@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/grovyle-arceus-ar-39/",
+    "name": "Grovyle",
+    "img": "https://pkmncards.com/wp-content/uploads/grovyle-arceus-ar-39.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AR",
+    "series": "Platinum",
+    "set_full_name": "Arceus",
+    "set_code": "PL4",
+    "date": "Nov 4, 2009",
+    "number": "39",
+    "set_total": "99",
+    "rarity": "Uncommon",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
+    "stage": "Stage 1",
+    "level": "24",
+    "hp": 80,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Cut",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Treecko"
+}

@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/bisharp-dark-explorers-dex-79/",
+    "name": "Bisharp",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW5-079-bisharp.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DEX",
+    "series": "Black & White",
+    "set_full_name": "Dark Explorers",
+    "set_code": "BW5",
+    "date": "May 9, 2012",
+    "number": "79",
+    "set_total": "108",
+    "rarity": "Rare",
+    "author": [
+        "Naoki Saito"
+    ],
+    "flavor_text": "Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes off the prey.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Aerial Ace",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Metal Claw",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Pawniard"
+}

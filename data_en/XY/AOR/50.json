@@ -1,0 +1,69 @@
+{
+    "url": "https://pkmncards.com/card/metagross-ancient-origins-aor-50/",
+    "name": "Metagross",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY7-050-metagross.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AOR",
+    "series": "XY",
+    "set_full_name": "Ancient Origins",
+    "set_code": "XY7",
+    "date": "Aug 12, 2015",
+    "number": "50",
+    "set_total": "98",
+    "rarity": "Rare",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "flavor_text": "Metang combined to form it. With four brains, it has the intelligence of a supercomputer.",
+    "stage": "Stage 2",
+    "hp": 150,
+    "types": [
+        "Metal"
+    ],
+    "ancient_trait": {
+        "name": "θ  Double",
+        "effect": " This Pokémon may have up to 2 Pokémon Tool cards attached to it."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Machine Gun Stomp",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "This attack does 10 more damage for each card in your hand."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Guard Press",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Metang"
+}

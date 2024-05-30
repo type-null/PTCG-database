@@ -1,0 +1,54 @@
+{
+    "url": "https://pkmncards.com/card/cubone-triumphant-tm-60/",
+    "name": "Cubone",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS4-060-cubone.jpg",
+    "card_type": "Pokémon",
+    "set_name": "TM",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Triumphant",
+    "set_code": "HGSS4",
+    "date": "Nov 2, 2010",
+    "number": "60",
+    "set_total": "102",
+    "rarity": "Common",
+    "author": [
+        "kawayoo"
+    ],
+    "flavor_text": "If it is sad or lonely, the skull it wears shakes and emits a plaintive and mournful sound.",
+    "stage": "Basic",
+    "hp": 40,
+    "types": [
+        "Fighting"
+    ],
+    "poke_body": {
+        "name": "Lonely Bone",
+        "effect": "Any damage done to Cubone by your opponent’s attacks is reduced by 20 for each Marowak in your discard pile (after applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Bone Rush",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 20 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

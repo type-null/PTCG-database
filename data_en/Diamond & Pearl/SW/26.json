@@ -1,0 +1,56 @@
+{
+    "url": "https://pkmncards.com/card/electrode-secret-wonders-sw-26/",
+    "name": "Electrode",
+    "img": "https://pkmncards.com/wp-content/uploads/electrode-secret-wonders-sw-26.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SW",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Secret Wonders",
+    "set_code": "DP3",
+    "date": "Nov 7, 2007",
+    "number": "26",
+    "set_total": "132",
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "It is known to drift on winds if it is bloated to bursting with stored electricity.",
+    "stage": "Stage 1",
+    "level": "42",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "poke_power": {
+        "name": "Energy Shift",
+        "effect": " Once during your turn, if Electrode would be Knocked Out by damage from an attack, you may use this power. Electrode isn’t discarded. Instead, attach it as an Energy card to 1 of your Pokémon. While attached, this card is a Special Energy card and provides every type of Energy but provides only 1 Energy at a time. (Has no effect other than providing Energy.)"
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Ion Blast",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "You may do 40 damage plus 60 more damage. If you do, Electrode does 100 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Voltorb"
+}

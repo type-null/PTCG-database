@@ -1,0 +1,56 @@
+{
+    "url": "https://pkmncards.com/card/rotom-plasma-storm-pls-49/",
+    "name": "Rotom",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW8-049-rotom.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLS",
+    "series": "Black & White",
+    "set_full_name": "Plasma Storm",
+    "set_code": "BW8",
+    "date": "Feb 6, 2013",
+    "number": "49",
+    "set_total": "135",
+    "rarity": "Uncommon",
+    "author": [
+        "5ban Graphics"
+    ],
+    "flavor_text": "Its electric-like body can enter some kinds of machines and take control in order to make mischief.",
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Electribonus",
+            "damage": null,
+            "effect": "Discard a {L} Energy card from your hand. If you do, draw 3 cards."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Poltergeist",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Your opponent reveals his or her hand. This attack does 20 damage times the number of Trainer cards in your opponent’s hand."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

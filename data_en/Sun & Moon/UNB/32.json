@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/blacephalon-unbroken-bonds-unb-32/",
+    "name": "Blacephalon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM10-032-blacephalon.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UNB",
+    "series": "Sun & Moon",
+    "set_full_name": "Unbroken Bonds",
+    "set_code": "SM10",
+    "date": "May 3, 2019",
+    "number": "32",
+    "set_total": "214",
+    "rarity": "Rare",
+    "author": [
+        "kawayoo"
+    ],
+    "flavor_text": "It slithers toward people. Then, without warning, it triggers the explosion of its own head. It’s apparently one kind of Ultra Beast.",
+    "stage": "Basic",
+    "hp": 120,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Blazer",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Turn 1 of your face-down Prize cards face up. If it’s a {R} Energy card, this attack does 50 more damage. (That Prize card remains face up for the rest of the game.)"
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Fire"
+            ],
+            "name": "Fireball Circus",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Discard any number of {R} Energy cards from your hand. This attack does 50 damage for each card you discarded in this way."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

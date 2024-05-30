@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/vespiquen-plasma-storm-pls-5/",
+    "name": "Vespiquen",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW8-005-vespiquen.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLS",
+    "series": "Black & White",
+    "set_full_name": "Plasma Storm",
+    "set_code": "BW8",
+    "date": "Feb 6, 2013",
+    "number": "5",
+    "set_total": "135",
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "flavor_text": "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Gather Order",
+            "damage": null,
+            "effect": "Search your deck for as many Combee as you like and put them onto your Bench. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Damage Beat",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Does 20 damage times the number of damage counters on the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Combee"
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/bronzong-majestic-dawn-md-16/",
+    "name": "Bronzong",
+    "img": "https://pkmncards.com/wp-content/uploads/bronzong-majestic-dawn-md-16.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MD",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Majestic Dawn",
+    "set_code": "DP5",
+    "date": "May 21, 2008",
+    "number": "16",
+    "set_total": "100",
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "One caused a news sensation when it was dug up at a construction site after a 2,000-year sleep.",
+    "stage": "Stage 1",
+    "level": "44",
+    "hp": 90,
+    "types": [
+        "Psychic"
+    ],
+    "poke_body": {
+        "name": "Cursed Alloy",
+        "effect": "As long as Bronzong is your Active Pokémon, put 1 damage counter on each of your opponent’s Pokémon that has any Poké-Powers between turns."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "No Energy Cost"
+            ],
+            "name": "Pain Amplifier",
+            "damage": null,
+            "effect": "Put 1 damage counter on each of your opponent’s Pokémon that already has damage counters on it."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Coating",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done to Bronzong by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Fire"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Bronzor"
+}

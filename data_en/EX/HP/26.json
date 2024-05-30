@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/rayquaza-holon-phantoms-hp-26/",
+    "name": "Rayquaza",
+    "img": "https://pkmncards.com/wp-content/uploads/rayquaza-delta-holon-phantoms-hp-26.jpg",
+    "card_type": "Pokémon",
+    "set_name": "HP",
+    "series": "EX",
+    "set_full_name": "Holon Phantoms",
+    "set_code": "EX13",
+    "date": "May 3, 2006",
+    "number": "26",
+    "set_total": "110",
+    "rarity": "Rare",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "stage": "Basic",
+    "hp": 80,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Outrage",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If tails, this attack does nothing. If heads, this attack does 10 damage plus 10 more damage for each damage counter on Rayquaza."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Flamethrower",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Discard a {R} Energy attached to Rayquaza."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Colorless"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

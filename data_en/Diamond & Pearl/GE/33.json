@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/arbok-great-encounters-ge-33/",
+    "name": "Arbok",
+    "img": "https://pkmncards.com/wp-content/uploads/arbok-great-encounters-ge-33.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GE",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Great Encounters",
+    "set_code": "DP4",
+    "date": "Feb 13, 2008",
+    "number": "33",
+    "set_total": "106",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "The pattern on its belly is for intimidation. It constricts foes while they are frozen in fear.",
+    "stage": "Stage 1",
+    "level": "31",
+    "hp": 80,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Deadly Poison",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon is Poisoned, this attack does 10 damage plus 40 more damage. If the Defending Pokémon is not Poisoned, that Pokémon is now Poisoned."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Wrap",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Ekans"
+}

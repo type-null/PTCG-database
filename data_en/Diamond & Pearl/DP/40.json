@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/weavile-diamond-pearl-dp-40/",
+    "name": "Weavile",
+    "img": "https://pkmncards.com/wp-content/uploads/weavile-diamond-pearl-dp-40.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DP",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Diamond & Pearl",
+    "set_code": "DP1",
+    "date": "May 23, 2007",
+    "number": "40",
+    "set_total": "130",
+    "rarity": "Rare",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "flavor_text": "They live in cold regions, forming groups of four or five that hunt prey with impressive coordination.",
+    "stage": "Stage 1",
+    "level": "37",
+    "hp": 80,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Nasty Plot",
+            "damage": null,
+            "effect": "Search your deck for any 1 card and put it into your hand. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Darkness",
+                "Darkness"
+            ],
+            "name": "Dark Pulse",
+            "damage": {
+                "amount": 10,
+                "suffix": "×"
+            },
+            "effect": "Does 10 damage times the total amount of {D} Energy attached to all of your Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Sneasel"
+}

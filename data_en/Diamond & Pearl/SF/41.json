@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/machoke-stormfront-sf-41/",
+    "name": "Machoke",
+    "img": "https://pkmncards.com/wp-content/uploads/machoke-stormfront-sf-41.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "41",
+    "set_total": "100",
+    "rarity": "Uncommon",
+    "author": [
+        "Sachiko Adachi"
+    ],
+    "flavor_text": "Machoke’s boundless power is very dangerous, so it wears a belt that suppresses its energy.",
+    "stage": "Stage 1",
+    "level": "41",
+    "hp": 80,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Steady Punch",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Brick Break",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "This attack’s damage isn’t affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Machop"
+}

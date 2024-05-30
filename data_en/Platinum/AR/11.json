@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/toxicroak-arceus-ar-11/",
+    "name": "Toxicroak",
+    "img": "https://pkmncards.com/wp-content/uploads/toxicroak-arceus-ar-11.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AR",
+    "series": "Platinum",
+    "set_full_name": "Arceus",
+    "set_code": "PL4",
+    "date": "Nov 4, 2009",
+    "number": "11",
+    "set_total": "99",
+    "rarity": "Rare Holo",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "It has a poison sac at its throat. When it croaks, the stored poison is churned for more potency.",
+    "stage": "Stage 1",
+    "level": "44",
+    "hp": 90,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Corner",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon can’t retreat during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Convert Blow",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "If Toxicroak has any {P} Energy attached to it, the Defending Pokémon is now Poisoned. If Toxicroak has any {F} Energy attached to it, this attack does 30 damage plus 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Croagunk"
+}

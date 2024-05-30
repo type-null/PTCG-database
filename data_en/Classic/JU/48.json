@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/weepinbell-jungle-ju-48/",
+    "name": "Weepinbell",
+    "img": "https://pkmncards.com/wp-content/uploads/weepinbell-jungle-ju-48.jpg",
+    "card_type": "Pokémon",
+    "set_name": "JU",
+    "series": "Classic",
+    "set_full_name": "Jungle",
+    "set_code": "JU",
+    "date": "Jun 16, 1999",
+    "number": "48",
+    "set_total": "64",
+    "rarity": "Uncommon",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "It spits out poisonpowder to immobilize the enemy, and then finishes the enemy with a spray of acid.",
+    "stage": "Stage 1",
+    "level": "28",
+    "hp": 70,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Poisonpowder",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass"
+            ],
+            "name": "Razor Leaf",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Bellsprout"
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://pkmncards.com/card/machamp-triumphant-tm-95/",
+    "name": "Machamp",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS4-095-machamp.jpg",
+    "card_type": "Pokémon",
+    "set_name": "TM",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Triumphant",
+    "set_code": "HGSS4",
+    "date": "Nov 2, 2010",
+    "number": "95",
+    "set_total": "102",
+    "rarity": "Rare Prime",
+    "author": [
+        "Shizurow"
+    ],
+    "stage": "Stage 2",
+    "hp": 150,
+    "types": [
+        "Fighting"
+    ],
+    "poke_power": {
+        "name": "Fighting Tag",
+        "effect": "Once during your turn (before your attack), if Machamp is on your Bench, you may move all {F} Energy attached to your Active Pokémon to Machamp. If you do, switch Machamp with your Active Pokémon."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Crushing Punch",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Discard a Special Energy card attached to the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Champ Buster",
+            "damage": {
+                "amount": 100,
+                "suffix": "+"
+            },
+            "effect": "Does 100 damage plus 10 more damage for each of your Benched Pokémon that has any damage counters on it."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Machoke"
+}

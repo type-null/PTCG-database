@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/infernape-platinum-pl-31/",
+    "name": "Infernape",
+    "img": "https://pkmncards.com/wp-content/uploads/infernape-platinum-pl-31.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PL",
+    "series": "Platinum",
+    "set_full_name": "Platinum",
+    "set_code": "PL1",
+    "date": "Feb 11, 2009",
+    "number": "31",
+    "set_total": "127",
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "It uses unique fighting moves with fires on its hands and feet. It will take on any opponent.",
+    "stage": "Stage 2",
+    "level": "44",
+    "hp": 110,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Rushing Flames",
+            "damage": {
+                "amount": 80,
+                "suffix": "×"
+            },
+            "effect": "Discard as many {R} Energy cards as you like attached to your Pokémon in play. Flip a coin for each Energy card you discarded. This attack does 80 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Rage",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Does 30 damage plus 10 more damage for each damage counter on Infernape."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 0,
+    "evolve_from": "Monferno"
+}

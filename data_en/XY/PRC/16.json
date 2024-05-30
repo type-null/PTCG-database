@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/breloom-primal-clash-prc-16/",
+    "name": "Breloom",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY5-016-breloom.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PRC",
+    "series": "XY",
+    "set_full_name": "Primal Clash",
+    "set_code": "XY5",
+    "date": "Feb 4, 2015",
+    "number": "16",
+    "set_total": "160",
+    "rarity": "Rare",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "flavor_text": "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Dynamic Punch",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage and your opponent’s Active Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Mega Kick",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Shroomish"
+}

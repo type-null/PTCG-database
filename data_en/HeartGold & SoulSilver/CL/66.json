@@ -1,0 +1,54 @@
+{
+    "url": "https://pkmncards.com/card/phanpy-call-of-legends-cl-66/",
+    "name": "Phanpy",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-COL-066-phanpy.jpg",
+    "card_type": "Pokémon",
+    "set_name": "CL",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Call of Legends",
+    "set_code": "CL",
+    "date": "Feb 9, 2011",
+    "number": "66",
+    "set_total": "95",
+    "rarity": "Common",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "As a sign of affection, it bumps with its snout. However, it is so strong, it may send you flying.",
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Fighting"
+    ],
+    "poke_body": {
+        "name": "Ultra-Thick Skin",
+        "effect": "As long as Phanpy has Energy attached to it, any damage done to Phanpy by attacks is reduced by 10 (after applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Rock Smash",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2
+}

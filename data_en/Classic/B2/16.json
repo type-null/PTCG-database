@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/raichu-base-set-2-b2-16/",
+    "name": "Raichu",
+    "img": "https://pkmncards.com/wp-content/uploads/raichu-base-set-2-b2-16.jpg",
+    "card_type": "Pokémon",
+    "set_name": "B2",
+    "series": "Classic",
+    "set_full_name": "Base Set 2",
+    "set_code": "B2",
+    "date": "Feb 24, 2000",
+    "number": "16",
+    "set_total": "130",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "Its long tail serves as a ground to protect itself from its own high-voltage power.",
+    "stage": "Stage 1",
+    "level": "40",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Agility",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to Raichu."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunder",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, Raichu does 30 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu"
+}

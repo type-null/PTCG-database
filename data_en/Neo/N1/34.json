@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/flaaffy-neo-genesis-n1-34/",
+    "name": "Flaaffy",
+    "img": "https://pkmncards.com/wp-content/uploads/flaaffy-neo-genesis-34.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N1",
+    "series": "Neo",
+    "set_full_name": "Neo Genesis",
+    "set_code": "N1",
+    "date": "Dec 16, 2000",
+    "number": "34",
+    "set_total": "111",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "As a result of storing too much electricity, it developed patches where even downy wool won’t grow.",
+    "stage": "Stage 1",
+    "level": "26",
+    "hp": 60,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Discharge",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Discard all {L} Energy cards attached to Flaaffy in order to use this attack. Flip a number of coins equal to the number of {L} Energy cards you discarded. This attack does 30 damage times then number of heads."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning"
+            ],
+            "name": "Electric Current",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Take 1 {L} Energy cards attached to Flaaffy and attach it to 1 of your Benched Pokémon. If you have no Benched Pokémon, discard that Energy card."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Mareep"
+}

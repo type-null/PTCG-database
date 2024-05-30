@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/sandslash-fossil-fo-41/",
+    "name": "Sandslash",
+    "img": "https://pkmncards.com/wp-content/uploads/sandslash-fossil-fo-41.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FO",
+    "series": "Classic",
+    "set_full_name": "Fossil",
+    "set_code": "FO",
+    "date": "Oct 10, 1999",
+    "number": "41",
+    "set_total": "62",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
+    "stage": "Stage 1",
+    "level": "33",
+    "hp": 70,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Slash",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Fury Swipes",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 20 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Sandshrew"
+}

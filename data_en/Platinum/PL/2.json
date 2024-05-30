@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/blastoise-platinum-pl-2/",
+    "name": "Blastoise",
+    "img": "https://pkmncards.com/wp-content/uploads/blastoise-platinum-pl-2.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PL",
+    "series": "Platinum",
+    "set_full_name": "Platinum",
+    "set_code": "PL1",
+    "date": "Feb 11, 2009",
+    "number": "2",
+    "set_total": "127",
+    "rarity": "Rare Holo",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "stage": "Stage 2",
+    "level": "60",
+    "hp": 130,
+    "types": [
+        "Water"
+    ],
+    "poke_power": {
+        "name": "Dig Well",
+        "effect": "Once during your turn (before your attack), you may look at the top 3 cards of your deck, choose as many {W} Energy cards as you like, and attach them to your Pokémon in any way you like. Discard the other cards. This power can’t be used if Blastoise is affected by a Special Condition."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Aqua Press",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Does 20 damage plus 10 more damage for each Energy attached to all Pokémon (both yours and your opponent’s)."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Double Launcher",
+            "damage": null,
+            "effect": "Discard 2 Energy attached to Blastoise. Choose 2 of your opponent’s Benched Pokémon. This attack does 60 damage to each of them. (Don’t apply Weakness and Resistance for Benched Pokémon.) Blastoise can’t use Double Launcher during your next turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Wartortle"
+}

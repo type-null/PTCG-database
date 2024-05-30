@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/tentacruel-southern-islands-si-10/",
+    "name": "Tentacruel",
+    "img": "https://pkmncards.com/wp-content/uploads/tentacruel-southern-islands-si-10.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SI",
+    "series": "Other",
+    "set_full_name": "Southern Islands",
+    "set_code": "SI",
+    "date": "Jul 31, 2001",
+    "number": "10",
+    "set_total": "18",
+    "rarity": "No Rarity",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "flavor_text": "This Pokémon attacks its prey with its eighty toxin-producing tentacles.",
+    "stage": "Stage 1",
+    "level": "30",
+    "hp": 60,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Tentacle Grip",
+            "damage": null,
+            "effect": "Flip a number of coins equal to the number of {W} Energy attached to Tentacruel. For each heads, draw 2 cards."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water"
+            ],
+            "name": "Poison Sting",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Tentacool"
+}

@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/tangrowth-legendary-treasures-ltr-2/",
+    "name": "Tangrowth",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW11-002-tangrowth.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LTR",
+    "series": "Black & White",
+    "set_full_name": "Legendary Treasures",
+    "set_code": "BW11",
+    "date": "Nov 6, 2013",
+    "number": "2",
+    "set_total": "113",
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "Even if one of its arms is eaten, it’s fine. The Pokémon regenerates quickly and will go right back to normal.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Bind Down",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon can’t retreat during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Flog",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Tangela"
+}

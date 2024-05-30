@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/shieldon-platinum-pl-62/",
+    "name": "Shieldon",
+    "img": "https://pkmncards.com/wp-content/uploads/shieldon-platinum-pl-62.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PL",
+    "series": "Platinum",
+    "set_full_name": "Platinum",
+    "set_code": "PL1",
+    "date": "Feb 11, 2009",
+    "number": "62",
+    "set_total": "127",
+    "rarity": "Uncommon",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "It is outstandingly armored. As a result, it can eat grass and berries without having to fight.",
+    "stage": "Stage 1",
+    "level": "21",
+    "hp": 80,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Endure",
+            "damage": null,
+            "effect": "Flip a coin. If heads, during your opponent’s next turn, if Shieldon would be Knocked Out by damage from an attack, Shieldon is not Knocked Out and its remaining HP becomes 10 instead."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Rock Slide",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Does 10 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Armor Fossil"
+}

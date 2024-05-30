@@ -1,0 +1,67 @@
+{
+    "url": "https://pkmncards.com/card/kingdra-aquapolis-aq-148/",
+    "name": "Kingdra",
+    "img": "https://pkmncards.com/wp-content/uploads/kingdra-aquapolis-aq-148.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AQ",
+    "series": "E-Card",
+    "set_full_name": "Aquapolis",
+    "set_code": "AQ",
+    "date": "Jan 15, 2003",
+    "number": "148",
+    "set_total": "147",
+    "rarity": "Rare Secret",
+    "author": [
+        "Mikio Menjo"
+    ],
+    "stage": "Stage 2",
+    "hp": 110,
+    "types": [
+        "Colorless"
+    ],
+    "poke_body": {
+        "name": "Crystal Type",
+        "effect": " Whenever you attach a {W}, {L}, or {P} basic Energy card from your hand to Kingdra, Kingdra’s type (color) becomes the same as that Energy card type until the end of the turn."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Lightning"
+            ],
+            "name": "Aquabomb",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Kindra does 10 damage to itself. (Don’t apply Weakness or Resistance when Kingdra damages itself with this attack.)"
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Psychic",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Dual Burn",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Flip 2 coins. For each tails, discard 1 Energy card attached to Kingdra."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Seadra"
+}

@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/blastoise-celebrations-cel-2/",
+    "name": "Blastoise",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-Ann25thR-002-blastoise.jpg",
+    "card_type": "Pokémon",
+    "set_name": "CEL",
+    "series": "Sword & Shield",
+    "set_full_name": "Celebrations",
+    "set_code": "Ann25thR",
+    "date": "Oct 8, 2021",
+    "number": "2",
+    "set_total": "102",
+    "rarity": "Ultra Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "A brutal Pokémon with pressurized water jets on its shell. They are used for high-speed tackles.",
+    "stage": "Stage 2",
+    "level": "52",
+    "hp": 100,
+    "types": [
+        "Water"
+    ],
+    "abilities": [
+        {
+            "name": "Rain Dance",
+            "effect": "As often as you like during your turn (before your attack), you may attach 1 {W} Energy card to 1 of your {W} Pokémon. (This doesn’t use up your 1 Energy card attachment for the turn.) This power can’t be used if Blastoise is Asleep, Confused, or Paralyzed."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Water"
+            ],
+            "name": "Hydro Pump",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Does 40 damage plus 10 more damage for each {W} Energy attached to Blastoise but not used to pay for this attack’s Energy cost. Extra {W} Energy after the 2nd doesn’t count."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Wartortle"
+}

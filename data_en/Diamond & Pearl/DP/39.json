@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/vespiquen-diamond-pearl-dp-39/",
+    "name": "Vespiquen",
+    "img": "https://pkmncards.com/wp-content/uploads/vespiquen-diamond-pearl-dp-39.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DP",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Diamond & Pearl",
+    "set_code": "DP1",
+    "date": "May 23, 2007",
+    "number": "39",
+    "set_total": "130",
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by COMBEE.",
+    "stage": "Stage 1",
+    "level": "40",
+    "hp": 100,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Leaf Honey",
+            "damage": null,
+            "effect": "Discard a {G} Energy attached to Vespiquen and remove all damage counters from 1 of your Benched {G} Pokémon."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Attack Order",
+            "damage": {
+                "amount": 10,
+                "suffix": "×"
+            },
+            "effect": "Does 10 damage times the number of {G} Pokémon in play (both yours and your opponent’s)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Combee"
+}

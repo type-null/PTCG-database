@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/white-kyurem-boundaries-crossed-bcr-102/",
+    "name": "White Kyurem",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW7-102-white_kyurem.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BCR",
+    "series": "Black & White",
+    "set_full_name": "Boundaries Crossed",
+    "set_code": "BW7",
+    "date": "Nov 7, 2012",
+    "number": "102",
+    "set_total": "149",
+    "rarity": "Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "flavor_text": "This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.",
+    "stage": "Basic",
+    "hp": 130,
+    "types": [
+        "Dragon"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Damage Rush",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 20 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Cold Fire",
+            "damage": {
+                "amount": 80,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 40 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Dragon"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

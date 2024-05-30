@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/escavalier-phantom-forces-phf-64/",
+    "name": "Escavalier",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY4-064-escavalier.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PHF",
+    "series": "XY",
+    "set_full_name": "Phantom Forces",
+    "set_code": "XY4",
+    "date": "Nov 5, 2014",
+    "number": "64",
+    "set_total": "119",
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Wearing the shell covering they stole from Shelmet, they defend themselves and attack with two lances.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Poké Through",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Discard a random card from your opponent’s hand."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Spiral Rush",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 30 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Karrablast"
+}

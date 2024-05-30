@@ -1,0 +1,67 @@
+{
+    "url": "https://pkmncards.com/card/drednaw-shining-fates-shf-sv029/",
+    "name": "Drednaw",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SF-SV029-drednaw.jpg",
+    "card_type": "Pokémon",
+    "regulation": "D",
+    "set_name": "SHF",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Shining Fates",
+    "set_code": "SWSH45SV",
+    "date": "Feb 19, 2021",
+    "number": "SV029",
+    "set_total": "SV122",
+    "rarity": "Shiny Rare",
+    "rarity_img": null,
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "flavor_text": "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down.",
+    "stage": "Stage 1",
+    "hp": 130,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Vise Bite",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "This attack does 30 more damage for each {C} in your opponent’s Active Pokémon’s Retreat Cost."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Jaw Lock",
+            "damage": {
+                "amount": 130,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, the Defending Pokémon can’t retreat."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Chewtle"
+}

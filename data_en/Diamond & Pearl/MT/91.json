@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/nidoran-female-mysterious-treasures-mt-91/",
+    "name": "Nidoran Female",
+    "img": "https://pkmncards.com/wp-content/uploads/nidoran-male-mysterious-treasures-mt-91.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MT",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Mysterious Treasures",
+    "set_code": "DP2",
+    "date": "Aug 22, 2007",
+    "number": "91",
+    "set_total": "123",
+    "rarity": "Common",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "While it does not prefer to fight, even one drop of the poison it secretes from barbs can be fatal.",
+    "stage": "Basic",
+    "level": "12",
+    "hp": 50,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Call for Family",
+            "damage": null,
+            "effect": "Search your deck for Nidoran Male or Nidoran Female and put it onto your Bench. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Poison Sting",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

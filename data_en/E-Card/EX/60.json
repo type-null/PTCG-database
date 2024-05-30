@@ -1,0 +1,54 @@
+{
+    "url": "https://pkmncards.com/card/poliwrath-expedition-ex-60/",
+    "name": "Poliwrath",
+    "img": "https://pkmncards.com/wp-content/uploads/poliwrath-expedition-ex-60.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EX",
+    "series": "E-Card",
+    "set_full_name": "Expedition",
+    "set_code": "EX",
+    "date": "Sep 15, 2002",
+    "number": "60",
+    "set_total": "165",
+    "rarity": "Rare",
+    "author": [
+        "Yuka Morii"
+    ],
+    "stage": "Stage 2",
+    "hp": 100,
+    "types": [
+        "Water"
+    ],
+    "poke_power": {
+        "name": "Plunge",
+        "effect": " Once during your turn (before your attack), if Poliwrath is on your Bench, you may flip a coin. If heads, take all Energy cards attached to your Active Pokémon, if any, and attach them to Poliwrath. Then switch Poliwrath with your Active Pokémon."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Water Punch",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Flip a number of coins equal to the amount of {W} Energy attached to Poliwrath. This attack does 40 damage plus 10 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Poliwhirl"
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/probopass-pop-series-8-p8-4/",
+    "name": "Probopass",
+    "img": "https://pkmncards.com/wp-content/uploads/probopass-pop-series-8-4.jpg",
+    "card_type": "Pokémon",
+    "set_name": "P8",
+    "series": "Diamond & Pearl",
+    "set_full_name": "POP Series 8",
+    "set_code": "POP8",
+    "date": "Sep 1, 2008",
+    "number": "4",
+    "set_total": "17",
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "It exudes strong magnetium from all cover. It controls three small units called Mini-Noses.",
+    "stage": "Stage 1",
+    "level": "44",
+    "hp": 90,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Rock Slide",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Does 10 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Triple Nose",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Flip 3 coins. This attack does 50 damage plus 20 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Nosepass"
+}

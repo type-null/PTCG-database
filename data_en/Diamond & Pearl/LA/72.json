@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/swalot-legends-awakened-la-72/",
+    "name": "Swalot",
+    "img": "https://pkmncards.com/wp-content/uploads/swalot-legends-awakened-la-72.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LA",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Legends Awakened",
+    "set_code": "DP6",
+    "date": "Aug 20, 2008",
+    "number": "72",
+    "set_total": "146",
+    "rarity": "Uncommon",
+    "author": [
+        "Midori Harada"
+    ],
+    "flavor_text": "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.",
+    "stage": "Stage 1",
+    "level": "35",
+    "hp": 90,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Swallow Up",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Before doing damage, count the remaining HP of the Defending Pokémon and Swalot. If the Defending Pokémon has fewer remaining HP than Swalot’s, this attack does 80 damage instead."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Gunk Shot",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Gulpin"
+}

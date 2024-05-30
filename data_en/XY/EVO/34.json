@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/gyarados-evolutions-evo-34/",
+    "name": "Gyarados",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY12-034-gyarados.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EVO",
+    "series": "XY",
+    "set_full_name": "Evolutions",
+    "set_code": "XY12",
+    "date": "Nov 2, 2016",
+    "number": "34",
+    "set_total": "108",
+    "rarity": "Rare Holo",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "It has an extremely aggressive nature. The Hyper Beam it shoots from its mouth totally incinerates all targets.",
+    "stage": "Stage 1",
+    "level": "41",
+    "hp": 130,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Water"
+            ],
+            "name": "Bubble Beam",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Water",
+                "Water"
+            ],
+            "name": "Dragon Rage",
+            "damage": {
+                "amount": 180,
+                "suffix": ""
+            },
+            "effect": "Flip 2 coins. If either of them is tails, this attack does nothing."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Magikarp"
+}

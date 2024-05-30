@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/pawmo-scarlet-violet-svi-075/",
+    "name": "Pawmo",
+    "img": "https://pkmncards.com/wp-content/uploads/sv1_en_075-1.jpg",
+    "card_type": "Pokémon",
+    "regulation": "G",
+    "set_name": "SVI",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "Scarlet & Violet",
+    "set_code": "SV1",
+    "date": "Mar 31, 2023",
+    "number": "075",
+    "set_total": "198",
+    "rarity": "Common",
+    "rarity_img": null,
+    "author": [
+        "Saya Tsuruta"
+    ],
+    "flavor_text": "Pawmo uses a unique fighting technique in which it uses its forepaws to strike foes and zap them with electricity from its paw pads simultaneously.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thunder Shock",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Head Bolt",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Pawmi"
+}

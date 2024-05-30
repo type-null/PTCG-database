@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/electivire-secret-wonders-sw-25/",
+    "name": "Electivire",
+    "img": "https://pkmncards.com/wp-content/uploads/electivire-secret-wonders-sw-25.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SW",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Secret Wonders",
+    "set_code": "DP3",
+    "date": "Nov 7, 2007",
+    "number": "25",
+    "set_total": "132",
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "It pushes the tips of its two tails against the foe, then lets loose with over 20,000 volts of power.",
+    "stage": "Stage 1",
+    "level": "50",
+    "hp": 100,
+    "types": [
+        "Lightning"
+    ],
+    "poke_power": {
+        "name": "Motor Drive",
+        "effect": " Once during your turn (before your attack), you may search your discard pile for a {L} Energy card and attach it to Electivire. This power can’t be used if Electivire is affected by a Special Condition."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Discharge",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Discard all {L} Energy attached to Electivire. Flip a coin for each {L} Energy you discarded. This attack does 50 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Electabuzz"
+}

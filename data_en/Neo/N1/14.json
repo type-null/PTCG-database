@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/slowking-neo-genesis-n1-14/",
+    "name": "Slowking",
+    "img": "https://pkmncards.com/wp-content/uploads/slowking-neo-genesis-14.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N1",
+    "series": "Neo",
+    "set_full_name": "Neo Genesis",
+    "set_code": "N1",
+    "date": "Dec 16, 2000",
+    "number": "14",
+    "set_total": "111",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "When its head was bitten, toxins entered Slowpoke’s head and unlocked an extraordinary power.",
+    "stage": "Stage 1",
+    "level": "39",
+    "hp": 80,
+    "types": [
+        "Psychic"
+    ],
+    "abilities": [
+        {
+            "name": "Mind Games",
+            "effect": "Whenever your opponent plays a Trainer card, you may flip a coin. If heads, that card does nothing. Put it on top of your opponent’s deck. This power can’t be used if Slowking is Asleep, Confused, or Paralyzed."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic",
+                "Psychic",
+                "Psychic"
+            ],
+            "name": "Mind Blast",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage and the Defending Pokémon is now Confused. If tails, this attack does 20 damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Slowpoke"
+}

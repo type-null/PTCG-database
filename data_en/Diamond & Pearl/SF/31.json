@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/vespiquen-stormfront-sf-31/",
+    "name": "Vespiquen",
+    "img": "https://pkmncards.com/wp-content/uploads/vespiquen-stormfront-sf-31.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "31",
+    "set_total": "100",
+    "rarity": "Rare",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "stage": "Stage 1",
+    "level": "44",
+    "hp": 100,
+    "types": [
+        "Grass"
+    ],
+    "poke_body": {
+        "name": "Green Dignity",
+        "effect": "As long as you have more Prize cards left than your opponent, Vespiquen’s attacks do 10 more damage for each {G} Pokémon on your Bench to the Active Pokémon (before applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Bee Drain",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "After your attack, remove from Vespiquen the number of damage counters equal to the damage you did to the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Bee Powder",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Flip 2 coins. If both are heads, the Defending Pokémon is now Burned, Paralyzed, and Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Combee"
+}

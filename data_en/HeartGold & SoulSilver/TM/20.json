@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/electivire-triumphant-tm-20/",
+    "name": "Electivire",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS4-020-electivire.jpg",
+    "card_type": "Pokémon",
+    "set_name": "TM",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Triumphant",
+    "set_code": "HGSS4",
+    "date": "Nov 2, 2010",
+    "number": "20",
+    "set_total": "102",
+    "rarity": "Rare",
+    "author": [
+        "TOKIYA"
+    ],
+    "flavor_text": "As its electric charge amplifies, blue sparks begin to crackle between its horns.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Plasma",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Search your discard pile for a {L} Energy card and attach it to Electivire."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Lightning"
+            ],
+            "name": "Thunder Shot",
+            "damage": null,
+            "effect": "This attack does 50 damage to each of your opponent’s Pokémon that has any Energy cards attached to it. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Electabuzz"
+}

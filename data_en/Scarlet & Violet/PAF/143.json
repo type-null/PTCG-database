@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/pawmo-paldean-fates-paf-143/",
+    "name": "Pawmo",
+    "img": "https://pkmncards.com/wp-content/uploads/sv4-5_en_143_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "G",
+    "set_name": "PAF",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "Paldean Fates",
+    "set_code": "sv4-5",
+    "date": "Jan 26, 2024",
+    "number": "143",
+    "set_total": "091",
+    "rarity": "Shiny Rare",
+    "rarity_img": null,
+    "author": [
+        "Mizue"
+    ],
+    "flavor_text": "Pawmo uses a unique fighting technique in which it uses its forepaws to strike foes and zap them with electricity from its paw pads simultaneously.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thunder Shock",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Head Bolt",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Pawmi"
+}

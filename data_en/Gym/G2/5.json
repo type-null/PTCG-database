@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/giovannis-gyarados-gym-challenge-g2-5/",
+    "name": "Giovanni’s Gyarados",
+    "img": "https://pkmncards.com/wp-content/uploads/giovannis-gyarados-gym-challenge-5.jpg",
+    "card_type": "Pokémon",
+    "set_name": "G2",
+    "series": "Gym",
+    "set_full_name": "Gym Challenge",
+    "set_code": "G2",
+    "date": "Oct 16, 2000",
+    "number": "5",
+    "set_total": "132",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "stage": "Stage 1",
+    "level": "40",
+    "hp": 90,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Summon Storm",
+            "damage": null,
+            "effect": "Flip 2 coins. If both of them are heads, this attack does 20 damage to each other Pokémon (even your own). Don’t apply Weakness and Resistance for this attack."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Dragon Tornado",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Unless this attack Knocks Out the Defending Pokémon, choose 1 of your opponent’s Benched Pokémon and switch it with the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Giovanni’s Magikarp"
+}

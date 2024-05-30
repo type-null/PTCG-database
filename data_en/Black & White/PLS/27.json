@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/piloswine-plasma-storm-pls-27/",
+    "name": "Piloswine",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW8-027-piloswine.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLS",
+    "series": "Black & White",
+    "set_full_name": "Plasma Storm",
+    "set_code": "BW8",
+    "date": "Feb 6, 2013",
+    "number": "27",
+    "set_total": "135",
+    "rarity": "Uncommon",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "flavor_text": "With its excellent sense of smell, it’s even able to find mushrooms that are buried under frozen ground.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Ice Beam",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Quintuple Headbutt",
+            "damage": {
+                "amount": 40,
+                "suffix": "×"
+            },
+            "effect": "Flip 5 coins. This attack does 40 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Swinub"
+}

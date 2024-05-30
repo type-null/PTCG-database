@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/leafeon-dark-explorers-dex-6/",
+    "name": "Leafeon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW5-006-leafeon.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DEX",
+    "series": "Black & White",
+    "set_full_name": "Dark Explorers",
+    "set_code": "BW5",
+    "date": "May 9, 2012",
+    "number": "6",
+    "set_total": "108",
+    "rarity": "Rare",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "flavor_text": "It basically does not fight. With cells similar to those of plants, it can perform photosynthesis.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Energy Assist",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee"
+}

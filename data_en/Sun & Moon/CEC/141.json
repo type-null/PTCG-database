@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/probopass-cosmic-eclipse-cec-141/",
+    "name": "Probopass",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM12-141-probopass.jpg",
+    "card_type": "Pokémon",
+    "set_name": "CEC",
+    "series": "Sun & Moon",
+    "set_full_name": "Cosmic Eclipse",
+    "set_code": "SM12",
+    "date": "Nov 1, 2019",
+    "number": "141",
+    "set_total": "236",
+    "rarity": "Uncommon",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "Although it can control its units known as Mini-Noses, they sometimes get lost and don’t come back.",
+    "stage": "Stage 1",
+    "hp": 130,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Hard Press",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Triple Nose",
+            "damage": {
+                "amount": 80,
+                "suffix": "+"
+            },
+            "effect": "Flip 3 coins. This attack does 40 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Nosepass"
+}

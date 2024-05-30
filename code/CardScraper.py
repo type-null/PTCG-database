@@ -6,6 +6,8 @@
 
 import re
 import requests
+from datetime import datetime
+
 import logging
 
 # Disable the logging from `connectionpool`
@@ -49,7 +51,7 @@ class CardScraper:
         try:
             with open(output_file, "r") as file:
                 for line in file:
-                    known_list.add(int(line.strip()))
+                    known_list.add(line.strip())
         except FileNotFoundError:
             file_exists = False
 
@@ -58,3 +60,26 @@ class CardScraper:
             for card in array:
                 if card not in known_list:
                     file.write(str(card) + "\n")
+
+    def upadte_readme(self, last_id, lang="jp"):
+        readme_path = "README.md"
+
+        with open(readme_path, "r") as file:
+            lines = file.readlines()
+
+        if lang == "jp":
+            date_pattern = re.compile(r"Last jp downloaded time: .+")
+            card_id_pattern = re.compile(r"Last jp downloaded card_id: \d+")
+        else:
+            date_pattern = re.compile(r"Last en downloaded time: .+")
+            card_id_pattern = re.compile(r"Last en downloaded card_id: \d+")
+
+        current_date = datetime.now().strftime("%B %d, %Y")
+
+        with open(readme_path, "w") as file:
+            for line in lines:
+                if date_pattern.search(line):
+                    line = f"\t\t- Last {lang} downloaded time: {current_date}\n"
+                elif card_id_pattern.search(line):
+                    line = f"\t\t- Last {lang} downloaded card_id: {last_id}\n"
+                file.write(line)

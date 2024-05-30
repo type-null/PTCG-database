@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/shinx-next-destinies-nxd-42/",
+    "name": "Shinx",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW4-042-shinx.jpg",
+    "card_type": "Pokémon",
+    "set_name": "NXD",
+    "series": "Black & White",
+    "set_full_name": "Next Destinies",
+    "set_code": "BW4",
+    "date": "Feb 8, 2012",
+    "number": "42",
+    "set_total": "99",
+    "rarity": "Common",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "flavor_text": "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Jump On",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 more damage."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Static Shock",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

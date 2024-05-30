@@ -1,0 +1,70 @@
+{
+    "url": "https://pkmncards.com/card/gyarados-deoxys-dx-8/",
+    "name": "Gyarados",
+    "img": "https://pkmncards.com/wp-content/uploads/gyarados-deoxys-dx-8.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DX",
+    "series": "EX",
+    "set_full_name": "Deoxys",
+    "set_code": "EX8",
+    "date": "Feb 14, 2005",
+    "number": "8",
+    "set_total": "107",
+    "rarity": "Rare Holo",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Dragon Spark",
+            "damage": null,
+            "effect": "This attack does 10 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Full Retaliation",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Does 20 damage times the number of damage counters on all of your Magikarp."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Pulverize",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 50 damage plus 50 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Magikarp"
+}

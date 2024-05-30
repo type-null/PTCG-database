@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/magnemite-team-rocket-ro-60/",
+    "name": "Magnemite",
+    "img": "https://pkmncards.com/wp-content/uploads/magnemite-team-rocket-tr-60.jpg",
+    "card_type": "Pokémon",
+    "set_name": "RO",
+    "series": "Classic",
+    "set_full_name": "Team Rocket",
+    "set_code": "RO",
+    "date": "Apr 24, 2000",
+    "number": "60",
+    "set_total": "82",
+    "rarity": "Common",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "flavor_text": "It is said that enough Magnemites and Magnetons gather in one place, they can create a powerful magnetic barrier.",
+    "stage": "Basic",
+    "level": "12",
+    "hp": 40,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Tackle",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Magnetism",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Does 10 damage plus 10 more damage for each Magnemite, Magneton, and Dark Magneton on your Bench."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

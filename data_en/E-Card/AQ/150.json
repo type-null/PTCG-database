@@ -1,0 +1,67 @@
+{
+    "url": "https://pkmncards.com/card/nidoking-aquapolis-aq-150/",
+    "name": "Nidoking",
+    "img": "https://pkmncards.com/wp-content/uploads/nidoking-aquapolis-aq-150.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AQ",
+    "series": "E-Card",
+    "set_full_name": "Aquapolis",
+    "set_code": "AQ",
+    "date": "Jan 15, 2003",
+    "number": "150",
+    "set_total": "147",
+    "rarity": "Rare Secret",
+    "author": [
+        "Hironobu Yoshida"
+    ],
+    "stage": "Stage 2",
+    "hp": 100,
+    "types": [
+        "Colorless"
+    ],
+    "poke_body": {
+        "name": "Crystal Type",
+        "effect": " Whenever you attach a {G}, {L}, or {R} basic Energy card from your hand to Nidoking, Nidoking’s type (color) becomes the same as that Energy card type until the end of the turn."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Poison Horn",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Poisoned."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Rolling Thunder",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Flip a coin, If heads, this attack does 10 damage to each of your opponent’s Benched Pokémon. If tails, this attack does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness or Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Nidorino"
+}

@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/golem-generations-gen-45/",
+    "name": "Golem",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-TwentiethAnn-045-golem.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GEN",
+    "series": "XY",
+    "set_full_name": "Generations",
+    "set_code": "GEN",
+    "date": "Feb 22, 2016",
+    "number": "45",
+    "set_total": "83",
+    "rarity": "Rare Holo",
+    "author": [
+        "Hasuno"
+    ],
+    "flavor_text": "It tumbles down mountains, leaving grooves from peak to base. Stay clear of these grooves.",
+    "stage": "Stage 2",
+    "hp": 150,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Stone Edge",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack 30 more damage."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Explosion",
+            "damage": {
+                "amount": 150,
+                "suffix": ""
+            },
+            "effect": "This Pokémon does 100 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Graveler"
+}

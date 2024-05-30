@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/nidoking-base-set-bs-11/",
+    "name": "Nidoking",
+    "img": "https://pkmncards.com/wp-content/uploads/nidoking-base-set-bs-11.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BS",
+    "series": "Classic",
+    "set_full_name": "Base Set",
+    "set_code": "BS",
+    "date": "Jan 9, 1999",
+    "number": "11",
+    "set_total": "102",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "Uses its powerful tail in battle to smash, constrict, then break its prey’s bones.",
+    "stage": "Stage 2",
+    "level": "48",
+    "hp": 90,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Thrash",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage plus Nidoking does 10 damage to itself."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Grass"
+            ],
+            "name": "Toxic",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player’s turn (even if it was already Poisoned)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Nidorino"
+}

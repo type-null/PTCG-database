@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/electrode-skyridge-sk-36/",
+    "name": "Electrode",
+    "img": "https://pkmncards.com/wp-content/uploads/electrode-skyridge-sk-36.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SK",
+    "series": "E-Card",
+    "set_full_name": "Skyridge",
+    "set_code": "SK",
+    "date": "May 12, 2003",
+    "number": "36",
+    "set_total": "144",
+    "rarity": "Uncommon",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Plasma",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "If there are any {L} Energy card in your discard pile, flip a coin. If heads, attach 1 of them to Electrode."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Selfdestruct",
+            "damage": {
+                "amount": 100,
+                "suffix": ""
+            },
+            "effect": "This attack does 20 damage to each Pokémon on each player’s Bench. (Don’t apply Weakness and Resistance for Benched Pokémon.) Electrode does 100 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Voltorb"
+}

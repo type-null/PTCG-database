@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/voltorb-secret-wonders-sw-117/",
+    "name": "Voltorb",
+    "img": "https://pkmncards.com/wp-content/uploads/voltorb-secret-wonders-sw-117.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SW",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Secret Wonders",
+    "set_code": "DP3",
+    "date": "Nov 7, 2007",
+    "number": "117",
+    "set_total": "132",
+    "rarity": "Common",
+    "author": [
+        "Satoshi Ohta"
+    ],
+    "flavor_text": "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
+    "stage": "Basic",
+    "level": "29",
+    "hp": 50,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Speed Ball",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Big Explosion",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Voltorb does 50 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

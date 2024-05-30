@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/hitmontop-heartgold-soulsilver-hs-5/",
+    "name": "Hitmontop",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS1-005-hitmontop.jpg",
+    "card_type": "Pokémon",
+    "set_name": "HS",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "HeartGold & SoulSilver",
+    "set_code": "HGSS1",
+    "date": "Feb 10, 2010",
+    "number": "5",
+    "set_total": "123",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground.",
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Triple Kick",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 20 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Close Combat",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done to Hitmontop by attacks is increased by 20 (after applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

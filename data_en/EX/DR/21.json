@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/skarmory-dragon-dr-21/",
+    "name": "Skarmory",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-EX3-021-skarmory.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DR",
+    "series": "EX",
+    "set_full_name": "Dragon",
+    "set_code": "EX3",
+    "date": "Nov 24, 2003",
+    "number": "21",
+    "set_total": "97",
+    "rarity": "Rare",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "stage": "Basic",
+    "hp": 70,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Pick On",
+            "damage": null,
+            "effect": "If the number of cards in your opponent’s hand is at least 6, look at his or her hand. Choose a number of cards there until your opponent has 5 cards left in his or her hand and have your opponent shuffle the cards you chose into his or her deck."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Power Count",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Count the amount of Energy attached to all of your Pokémon and all of your opponent’s Pokémon. If your Pokémon have less Energy than your opponent’s, this attack does 20 damage plus 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1
+}

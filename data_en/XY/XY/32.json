@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/cloyster-xy-xy-32/",
+    "name": "Cloyster",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY1-032-cloyster.jpg",
+    "card_type": "Pokémon",
+    "set_name": "XY",
+    "series": "XY",
+    "set_full_name": "XY",
+    "set_code": "XY1",
+    "date": "Feb 5, 2014",
+    "number": "32",
+    "set_total": "146",
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "Cloyster that live in seas with harsh tidal currents grow large, sharp spikes on their shells.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Clamp Crush",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed and discard an Energy attached to that Pokémon."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Spike Cannon",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 5 coins. This attack does 30 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Shellder"
+}

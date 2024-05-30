@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/seismitoad-breakpoint-bkp-35/",
+    "name": "Seismitoad",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY9-035-seismitoad.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BKP",
+    "series": "XY",
+    "set_full_name": "BREAKpoint",
+    "set_code": "XY9",
+    "date": "Feb 3, 2016",
+    "number": "35",
+    "set_total": "122",
+    "rarity": "Rare",
+    "author": [
+        "Kanako Eo"
+    ],
+    "flavor_text": "They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.",
+    "stage": "Stage 2",
+    "hp": 150,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Siphon Off",
+            "damage": null,
+            "effect": "Attach 3 Energy cards from your discard pile to this Pokémon."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Water",
+                "Water"
+            ],
+            "name": "Shaky Fall",
+            "damage": {
+                "amount": 90,
+                "suffix": ""
+            },
+            "effect": "Your opponent’s Active Pokémon is now Confused. That Pokémon can’t retreat during your opponent’s next turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Palpitoad"
+}

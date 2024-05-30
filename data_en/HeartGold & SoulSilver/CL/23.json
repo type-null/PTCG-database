@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/ampharos-call-of-legends-cl-23/",
+    "name": "Ampharos",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-COL-023-ampharos.jpg",
+    "card_type": "Pokémon",
+    "set_name": "CL",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Call of Legends",
+    "set_code": "CL",
+    "date": "Feb 9, 2011",
+    "number": "23",
+    "set_total": "95",
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "The tail’s tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+    "stage": "Stage 2",
+    "hp": 120,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Acceleration Bolt",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Search your deck for up to 2 basic Energy cards and attach them to 1 of your Pokémon. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Thunder",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, Ampharos does 20 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Flaaffy"
+}

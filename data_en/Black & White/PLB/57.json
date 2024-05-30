@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/aron-plasma-blast-plb-57/",
+    "name": "Aron",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW10-057-aron.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLB",
+    "series": "Black & White",
+    "set_full_name": "Plasma Blast",
+    "set_code": "BW10",
+    "date": "Aug 14, 2013",
+    "number": "57",
+    "set_total": "101",
+    "rarity": "Common",
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "flavor_text": "In order to build up its steel body, it eats iron ore. This pesky Pokémon is known to eat railroad tracks.",
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Iron Head",
+            "damage": {
+                "amount": 10,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 10 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Headbutt",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2
+}

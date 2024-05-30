@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/venusaur-supreme-victors-sv-13/",
+    "name": "Venusaur",
+    "img": "https://pkmncards.com/wp-content/uploads/venusaur-supreme-victors-sv-13.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SV",
+    "series": "Platinum",
+    "set_full_name": "Supreme Victors",
+    "set_code": "PL3",
+    "date": "Aug 19, 2009",
+    "number": "13",
+    "set_total": "147",
+    "rarity": "Rare Holo",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "stage": "Stage 2",
+    "level": "55",
+    "hp": 140,
+    "types": [
+        "Grass"
+    ],
+    "poke_body": {
+        "name": "Green Aroma",
+        "effect": "Remove all Special Conditions from each of your {G} Pokémon. Each of your {G} Pokémon can’t be affected by any Special Conditions."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Desperate Pollen",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "If Venusaur already has 8 or more damage counters on it, the Defending Pokémon is now Burned, Confused, and Poisoned."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Special Reaction",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon is affected by any Special Conditions, this attack does 40 damage plus 40 more damage for each of those Special Conditions."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+40"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 4,
+    "evolve_from": "Ivysaur"
+}

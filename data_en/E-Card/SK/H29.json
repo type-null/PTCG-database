@@ -1,0 +1,69 @@
+{
+    "url": "https://pkmncards.com/card/steelix-skyridge-sk-h29/",
+    "name": "Steelix",
+    "img": "https://pkmncards.com/wp-content/uploads/h29.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SK",
+    "series": "E-Card",
+    "set_full_name": "Skyridge",
+    "set_code": "SK",
+    "date": "May 12, 2003",
+    "number": "H29",
+    "set_total": "H32",
+    "rarity": "Rare Holo",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Metal"
+    ],
+    "poke_body": {
+        "name": "Rare Metal",
+        "effect": "All basic Energy cards attached to Steelix provide {M} Energy instead of their usual types."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Squeeze",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage and the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Metal Tail",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Before doing damage, you may flip a coin. If heads, this attack does 80 damage. If tails, this attack does nothing."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 4,
+    "evolve_from": "Onix"
+}

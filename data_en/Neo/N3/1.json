@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/ampharos-neo-revelation-n3-1/",
+    "name": "Ampharos",
+    "img": "https://pkmncards.com/wp-content/uploads/ampharos-neo-revelation-1.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N3",
+    "series": "Neo",
+    "set_full_name": "Neo Revelation",
+    "set_code": "N3",
+    "date": "Sep 21, 2001",
+    "number": "1",
+    "set_total": "64",
+    "rarity": "Rare Holo",
+    "author": [
+        "Toshinao Aoki"
+    ],
+    "flavor_text": "The bright light on its tail can be seen far away. It has been treasured since ancient times as a beacon.",
+    "stage": "Stage 2",
+    "level": "46",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Attract Current",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip 3 coins. For each heads, you may search your deck for a {L} Energy card and attach it to 1 of your {L} Pokémon. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Gigavolt",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 40 damage plus 20 more damage. If tails, this attack does 40 damage and the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Flaaffy"
+}

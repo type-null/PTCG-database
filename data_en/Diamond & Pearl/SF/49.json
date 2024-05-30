@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/scyther-stormfront-sf-49/",
+    "name": "Scyther",
+    "img": "https://pkmncards.com/wp-content/uploads/scyther-stormfront-sf-49.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "49",
+    "set_total": "100",
+    "rarity": "Uncommon",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "It is nearly impossible to parry its attacking scythes. Its movements are like a ninja’s.",
+    "stage": "Basic",
+    "level": "11",
+    "hp": 60,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Swords Dance",
+            "damage": null,
+            "effect": "During your next turn, Scyther’s Slashing Strike attack’s base damage is 60."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Slashing Strike",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "During your next turn, Scyther can’t use Slashing Strike."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0
+}

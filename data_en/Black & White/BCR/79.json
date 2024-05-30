@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/sandslash-boundaries-crossed-bcr-79/",
+    "name": "Sandslash",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW7-079-sandslash.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BCR",
+    "series": "Black & White",
+    "set_full_name": "Boundaries Crossed",
+    "set_code": "BW7",
+    "date": "Nov 7, 2012",
+    "number": "79",
+    "set_total": "149",
+    "rarity": "Uncommon",
+    "author": [
+        "BERUBURI"
+    ],
+    "flavor_text": "The spikes on its body are made up of its hardened hide. It rolls up and attacks foes with its spikes.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Sand-Attack",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Earthquake",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Sandshrew"
+}

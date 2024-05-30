@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/raichu-neo-revelation-n3-21/",
+    "name": "Raichu",
+    "img": "https://pkmncards.com/wp-content/uploads/raichu-neo-revelation-21.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N3",
+    "series": "Neo",
+    "set_full_name": "Neo Revelation",
+    "set_code": "N3",
+    "date": "Sep 21, 2001",
+    "number": "21",
+    "set_total": "64",
+    "rarity": "Rare",
+    "author": [
+        "Masako Yamashita"
+    ],
+    "flavor_text": "If the electric pouches in its cheeks become fully charged, both ears will stand straight up.",
+    "stage": "Stage 1",
+    "level": "39",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thundershock",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Lightning"
+            ],
+            "name": "Lightning Strike",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "You may discard all {L} Energy cards attached to Raichu. If you do, this attack does 80 damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu"
+}

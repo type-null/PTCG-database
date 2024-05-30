@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/beedrill-unleashed-ul-12/",
+    "name": "Beedrill",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS2-012-beedrill.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UL",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Unleashed",
+    "set_code": "HGSS2",
+    "date": "May 12, 2010",
+    "number": "12",
+    "set_total": "95",
+    "rarity": "Rare",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "flavor_text": "It can take down any opponent with its powerful poison stingers. It sometimes attacks in swarms.",
+    "stage": "Stage 2",
+    "hp": 110,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Twineedle",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 50 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Paralyze Poison",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Poisoned. Flip a coin. If heads, the Defending Pokémon is also Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 0,
+    "evolve_from": "Kakuna"
+}

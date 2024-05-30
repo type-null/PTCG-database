@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/purrloin-plasma-storm-pls-82/",
+    "name": "Purrloin",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW8-082-purrloin.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLS",
+    "series": "Black & White",
+    "set_full_name": "Plasma Storm",
+    "set_code": "BW8",
+    "date": "Feb 6, 2013",
+    "number": "82",
+    "set_total": "135",
+    "rarity": "Common",
+    "author": [
+        "MAHOU"
+    ],
+    "flavor_text": "Its cute act is a ruse. When victims let down their guard, they find their items taken. It attacks with sharp claws.",
+    "stage": "Basic",
+    "hp": 50,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Tail Trickery",
+            "damage": null,
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Fury Swipes",
+            "damage": {
+                "amount": 10,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 10 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

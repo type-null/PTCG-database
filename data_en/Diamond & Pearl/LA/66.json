@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/mightyena-legends-awakened-la-66/",
+    "name": "Mightyena",
+    "img": "https://pkmncards.com/wp-content/uploads/mightyena-legends-awakened-la-66.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LA",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Legends Awakened",
+    "set_code": "DP6",
+    "date": "Aug 20, 2008",
+    "number": "66",
+    "set_total": "146",
+    "rarity": "Uncommon",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "It chases down prey in a pack. It will never disobey the commands of a skilled Trainer.",
+    "stage": "Stage 1",
+    "level": "42",
+    "hp": 90,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Bite On",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "If the Defending Pokémon isn’t an Evolved Pokémon, that Pokémon can’t attack, retreat, or use any Poké-Powers during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Harass",
+            "damage": {
+                "amount": 10,
+                "suffix": "×"
+            },
+            "effect": "Does 10 damage times the number of Pokémon you have in play."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Poochyena"
+}

@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/starmie-skyridge-sk-44/",
+    "name": "Starmie",
+    "img": "https://pkmncards.com/wp-content/uploads/starmie-skyridge-sk-44.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SK",
+    "series": "E-Card",
+    "set_full_name": "Skyridge",
+    "set_code": "SK",
+    "date": "May 12, 2003",
+    "number": "44",
+    "set_total": "144",
+    "rarity": "Uncommon",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Water Gun",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "This attack does 10 damage plus 20 more damage for each {W} Energy attached to Starmie but not used to pay for this attack’s Energy cost. You can’t add more than 40 damage in this way."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Core Blast",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "This attack does 30 damage plus 20 more damage for each Special Energy card attached to the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Staryu"
+}

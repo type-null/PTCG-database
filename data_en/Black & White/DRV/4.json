@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/dragonair-dragon-vault-drv-4/",
+    "name": "Dragonair",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-DV-004-dragonair.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DRV",
+    "series": "Black & White",
+    "set_full_name": "Dragon Vault",
+    "set_code": "DRV",
+    "date": "Oct 5, 2012",
+    "number": "4",
+    "set_total": "20",
+    "rarity": "No Rarity",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Dragon"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Healing Melody",
+            "damage": null,
+            "effect": "Heal 10 damage from each of your Pokémon."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Slam",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 30 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Dragon"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Dratini"
+}

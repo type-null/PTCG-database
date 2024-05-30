@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/cramorant-shining-fates-shf-sv030/",
+    "name": "Cramorant",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SF-SV030-cramorant.jpg",
+    "card_type": "Pokémon",
+    "regulation": "D",
+    "set_name": "SHF",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Shining Fates",
+    "set_code": "SWSH45SV",
+    "date": "Feb 19, 2021",
+    "number": "SV030",
+    "set_total": "SV122",
+    "rarity": "Shiny Rare",
+    "rarity_img": null,
+    "author": [
+        "Akira Komayama"
+    ],
+    "flavor_text": "It’s so strong that it can knock out some opponents in a single hit, but it also may forget what it’s battling midfight.",
+    "stage": "Basic",
+    "hp": 110,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Dive",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to this Pokémon."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Hydro Pump",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "This attack does 20 more damage for each {W} Energy attached to this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/magneton-base-set-bs-9/",
+    "name": "Magneton",
+    "img": "https://pkmncards.com/wp-content/uploads/magneton-base-set-bs-9.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BS",
+    "series": "Classic",
+    "set_full_name": "Base Set",
+    "set_code": "BS",
+    "date": "Jan 9, 1999",
+    "number": "9",
+    "set_total": "102",
+    "rarity": "Rare Holo",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "flavor_text": "Formed by several Magnemites linked together. It frequently appears when sunspots flare up.",
+    "stage": "Stage 1",
+    "level": "28",
+    "hp": 60,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunder Wave",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Selfdestruct",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Does 20 damage to each Pokémon on each player’s Bench. (Don’t apply Weakness and Resistance for Benched Pokémon.) Magneton does 80 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Magnemite"
+}

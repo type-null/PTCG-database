@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/lairon-mysterious-treasures-mt-53/",
+    "name": "Lairon",
+    "img": "https://pkmncards.com/wp-content/uploads/lairon-mysterious-treasures-mt-53.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MT",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Mysterious Treasures",
+    "set_code": "DP2",
+    "date": "Aug 22, 2007",
+    "number": "53",
+    "set_total": "123",
+    "rarity": "Uncommon",
+    "author": [
+        "Midori Harada"
+    ],
+    "flavor_text": "For food, it digs up iron ore. It smashes its steely body against others to fight over territory.",
+    "stage": "Stage 1",
+    "level": "32",
+    "hp": 80,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Mend",
+            "damage": null,
+            "effect": "Search your discard pile for a {M} Energy card and attach it to Lairon. If you do, remove 2 damage counters from Lairon."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Confront",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Aron"
+}

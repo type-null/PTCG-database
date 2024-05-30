@@ -1,0 +1,53 @@
+{
+    "url": "https://pkmncards.com/card/blastoise-expedition-ex-37/",
+    "name": "Blastoise",
+    "img": "https://pkmncards.com/wp-content/uploads/blastoise-expedition-ex-37.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EX",
+    "series": "E-Card",
+    "set_full_name": "Expedition",
+    "set_code": "EX",
+    "date": "Sep 15, 2002",
+    "number": "37",
+    "set_total": "165",
+    "rarity": "Rare",
+    "author": [
+        "Kimiya Masago"
+    ],
+    "stage": "Stage 2",
+    "hp": 100,
+    "types": [
+        "Water"
+    ],
+    "poke_power": {
+        "name": "Jet Stream",
+        "effect": "Once during your turn (before your attack), if Blastoise is your Active Pokémon, you may flip a coin. If heads, discard an Energy card attached to Blastoise, if any. Then, if there are any Energy cards attached to the Defending Pokémon, choose 1 of them and discard it. This power can’t be used if Blastoise is affected by a Special Condition."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Energy Cannon",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "Does 40 damage plus 10 more damage for each Energy attached to Blastoise but not used to pay for this attack’s Energy Cost. You can’t add more than 20 damage in this way."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Wartortle"
+}

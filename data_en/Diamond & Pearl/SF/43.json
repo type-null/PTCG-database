@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/magneton-stormfront-sf-43/",
+    "name": "Magneton",
+    "img": "https://pkmncards.com/wp-content/uploads/magneton-stormfront-sf-43.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "43",
+    "set_total": "100",
+    "rarity": "Uncommon",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "flavor_text": "It is actually three Magnemite linked by magnetism. A group can set off a magnetic storm.",
+    "stage": "Stage 1",
+    "level": "38",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunder Wave",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Removal Pulse",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Magnemite"
+}

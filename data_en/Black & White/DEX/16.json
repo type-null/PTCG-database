@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/combusken-dark-explorers-dex-16/",
+    "name": "Combusken",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW5-016-combusken.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DEX",
+    "series": "Black & White",
+    "set_full_name": "Dark Explorers",
+    "set_code": "BW5",
+    "date": "May 9, 2012",
+    "number": "16",
+    "set_total": "108",
+    "rarity": "Uncommon",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "flavor_text": "Its kicking mastery lets it loose 10 kicks per second. It emits sharp cries to intimidate foes.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Double Kick",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 20 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Flamethrower",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": "Discard an Energy attached to this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Torchic"
+}

@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/durant-dragons-exalted-drx-83/",
+    "name": "Durant",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW6-083-durant.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DRX",
+    "series": "Black & White",
+    "set_full_name": "Dragons Exalted",
+    "set_code": "BW6",
+    "date": "Aug 15, 2012",
+    "number": "83",
+    "set_total": "124",
+    "rarity": "Uncommon",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Durant dig nests in mountains. They build their complicated, interconnected tunnels into mazes.",
+    "stage": "Basic",
+    "hp": 70,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Pull Out",
+            "damage": null,
+            "effect": "Put a card from your discard pile on top of your deck."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Iron Head",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 30 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

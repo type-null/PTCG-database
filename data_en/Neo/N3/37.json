@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/seaking-neo-revelation-n3-37/",
+    "name": "Seaking",
+    "img": "https://pkmncards.com/wp-content/uploads/seaking-neo-revelation-37.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N3",
+    "series": "Neo",
+    "set_full_name": "Neo Revelation",
+    "set_code": "N3",
+    "date": "Sep 21, 2001",
+    "number": "37",
+    "set_total": "64",
+    "rarity": "Uncommon",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "flavor_text": "Using its horn, it bores holes in riverbed boulders, making nests to prevent its eggs from washing away.",
+    "stage": "Stage 1",
+    "level": "29",
+    "hp": 70,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Rising Lunge",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage plus 10 more damage. If tails, this attack does 10 damage."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water"
+            ],
+            "name": "Horn Swipe",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip 2 coins. If both are heads, this attack does 20 damage plus 40 more damage. If 1 or both of them are tails, this attack does 20 damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Goldeen"
+}

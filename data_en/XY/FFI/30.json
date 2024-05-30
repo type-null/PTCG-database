@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/electivire-furious-fists-ffi-30/",
+    "name": "Electivire",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY3-030-electivire.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FFI",
+    "series": "XY",
+    "set_full_name": "Furious Fists",
+    "set_code": "XY3",
+    "date": "Aug 13, 2014",
+    "number": "30",
+    "set_total": "111",
+    "rarity": "Rare",
+    "author": [
+        "PLANETA"
+    ],
+    "flavor_text": "As its electric charge amplifies, blue sparks begin to crackle between its horns.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Tag Team Spark",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "This attack does 20 more damage for each Energy attached to your Magmortar."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Gigavolt",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage. If tails, your opponent’s Active Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Electabuzz"
+}

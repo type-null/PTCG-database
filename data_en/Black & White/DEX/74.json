@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/escavalier-dark-explorers-dex-74/",
+    "name": "Escavalier",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW5-074-escavalier.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DEX",
+    "series": "Black & White",
+    "set_full_name": "Dark Explorers",
+    "set_code": "BW5",
+    "date": "May 9, 2012",
+    "number": "74",
+    "set_total": "108",
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "They fly around at high speed, striking with their pointed spears. Even when in trouble, they face opponents bravely.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Joust",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Before doing damage, discard a Pokémon Tool card attached to the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Cavalry Lance",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, this Pokémon has no Weakness."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Karrablast"
+}

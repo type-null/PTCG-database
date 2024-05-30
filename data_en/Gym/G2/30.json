@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/sabrinas-golduck-gym-challenge-g2-30/",
+    "name": "Sabrina’s Golduck",
+    "img": "https://pkmncards.com/wp-content/uploads/sabrinas-golduck-gym-challenge-30.jpg",
+    "card_type": "Pokémon",
+    "set_name": "G2",
+    "series": "Gym",
+    "set_full_name": "Gym Challenge",
+    "set_code": "G2",
+    "date": "Oct 16, 2000",
+    "number": "30",
+    "set_total": "132",
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "stage": "Stage 1",
+    "level": "33",
+    "hp": 70,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic",
+                "Psychic"
+            ],
+            "name": "Damage Shift",
+            "damage": null,
+            "effect": "Move 1 damage counter from each of your Pokémon that has any on it to the Defending Pokémon. (Don’t apply Weakness and Resistance.)"
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Water Spray",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Sabrina’s Psyduck"
+}

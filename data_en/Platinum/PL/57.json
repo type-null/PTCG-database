@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/muk-platinum-pl-57/",
+    "name": "Muk",
+    "img": "https://pkmncards.com/wp-content/uploads/muk-platinum-pl-57.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PL",
+    "series": "Platinum",
+    "set_full_name": "Platinum",
+    "set_code": "PL1",
+    "date": "Feb 11, 2009",
+    "number": "57",
+    "set_total": "127",
+    "rarity": "Uncommon",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "stage": "Stage 1",
+    "level": "49",
+    "hp": 100,
+    "types": [
+        "Psychic"
+    ],
+    "poke_body": {
+        "name": "Sludge Cell",
+        "effect": "If Muk remains affected by any Special Conditions between turns, remove 2 damage counters from Muk."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Strange Poison",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, Muk is now Poisoned."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Strange Sludge",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If Muk is Poisoned, this attack does 50 damage plus 20 more damage and the Defending Pokémon is now Confused."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Grimer"
+}

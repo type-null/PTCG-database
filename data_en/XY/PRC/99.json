@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/doublade-primal-clash-prc-99/",
+    "name": "Doublade",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY5-099-doublade.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PRC",
+    "series": "XY",
+    "set_full_name": "Primal Clash",
+    "set_code": "XY5",
+    "date": "Feb 4, 2015",
+    "number": "99",
+    "set_total": "160",
+    "rarity": "Uncommon",
+    "author": [
+        "Kanako Eo"
+    ],
+    "flavor_text": "The complex attack patterns of its two swords are unstoppable, even for an opponent greatly accomplished at swordplay.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "False Swipe",
+            "damage": null,
+            "effect": "Flip a coin. If heads, put damage counters on your opponent’s Active Pokémon until its remaining HP is 10."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Slash",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Honedge"
+}

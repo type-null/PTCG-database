@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/flaaffy-pop-series-7-p7-7/",
+    "name": "Flaaffy",
+    "img": "https://pkmncards.com/wp-content/uploads/flaaffy-pop-series-7-7.jpg",
+    "card_type": "Pokémon",
+    "set_name": "P7",
+    "series": "Diamond & Pearl",
+    "set_full_name": "POP Series 7",
+    "set_code": "POP7",
+    "date": "Mar 1, 2008",
+    "number": "7",
+    "set_total": "17",
+    "rarity": "Uncommon",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "If its coat becomes fully charged with electricity, its tail lights up. It fire hair that zaps on impact.",
+    "stage": "Stage 1",
+    "level": "26",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Attract Current",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Search your deck for a {L} Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Electromagnetic Kick",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, Flaaffy does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Mareep"
+}

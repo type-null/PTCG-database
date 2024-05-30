@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/steelix-aquapolis-aq-h23/",
+    "name": "Steelix",
+    "img": "https://pkmncards.com/wp-content/uploads/h23-steelix-expedition.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AQ",
+    "series": "E-Card",
+    "set_full_name": "Aquapolis",
+    "set_code": "AQ",
+    "date": "Jan 15, 2003",
+    "number": "H23",
+    "set_total": "H32",
+    "rarity": "Rare Holo",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Earth Rift",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "This attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness or Resistance for Benched Pokémon.) Then, flip a coin. If tails, this attack can’t be used during your next turn."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Iron Smash",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Flip 2 coins. If both are heads, this attack does 50 damage plus 20 more damage. If both are tails, this attack does nothing. If 1 is heads and 1 is tails, this attack just does 50 damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 4,
+    "evolve_from": "Onix"
+}

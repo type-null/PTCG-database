@@ -1,0 +1,56 @@
+{
+    "url": "https://pkmncards.com/card/flareon-ancient-origins-aor-13/",
+    "name": "Flareon",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY7-013-flareon.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AOR",
+    "series": "XY",
+    "set_full_name": "Ancient Origins",
+    "set_code": "XY7",
+    "date": "Aug 12, 2015",
+    "number": "13",
+    "set_total": "98",
+    "rarity": "Uncommon",
+    "author": [
+        "sui"
+    ],
+    "flavor_text": "It has a flame bag inside its body. After inhaling deeply, it blows out flames of nearly 3,000 degrees Fahrenheit.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Fire"
+    ],
+    "abilities": [
+        {
+            "name": "Flare Effect",
+            "effect": "Each of your Stage 1 Pokémon in play is now a {R} Pokémon in addition to its existing types."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Heat Breath",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee"
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/donphan-secret-wonders-sw-48/",
+    "name": "Donphan",
+    "img": "https://pkmncards.com/wp-content/uploads/donphan-secret-wonders-sw-48.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SW",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Secret Wonders",
+    "set_code": "DP3",
+    "date": "Nov 7, 2007",
+    "number": "48",
+    "set_total": "132",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "It attacks by curling up, then rolling into its foe. It can blow apart a house in one hit.",
+    "stage": "Stage 1",
+    "level": "48",
+    "hp": 100,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Rapid Spin",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. You switch Donphan with 1 of your Benched Pokémon, if any."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Bash In",
+            "damage": {
+                "amount": 70,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon has a Pokémon Tool card attached to it, this attack does 70 damage plus 60 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Phanpy"
+}

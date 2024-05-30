@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/moltres-team-up-teu-19/",
+    "name": "Moltres",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM9-019-moltres.jpg",
+    "card_type": "Pokémon",
+    "set_name": "TEU",
+    "series": "Sun & Moon",
+    "set_full_name": "Team Up",
+    "set_code": "SM9",
+    "date": "Feb 1, 2019",
+    "number": "19",
+    "set_total": "181",
+    "rarity": "Rare Holo",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "flavor_text": "It is said to be the legendary bird Pokémon of fire. Every flap of its wings creates a dazzling flare of flames.",
+    "stage": "Basic",
+    "hp": 120,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Top Burner",
+            "damage": null,
+            "effect": "Discard all {R} Energy from this Pokémon. Then, discard a card from the top of your opponent’s deck for each Energy you discarded in this way."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Fire Spin",
+            "damage": {
+                "amount": 180,
+                "suffix": ""
+            },
+            "effect": "Discard 3 Energy from this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2
+}

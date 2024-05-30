@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/eelektrik-dark-explorers-dex-46/",
+    "name": "Eelektrik",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW5-046-eelektrik.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DEX",
+    "series": "Black & White",
+    "set_full_name": "Dark Explorers",
+    "set_code": "BW5",
+    "date": "May 9, 2012",
+    "number": "46",
+    "set_total": "108",
+    "rarity": "Uncommon",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Headbutt",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Shock Bolt",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Discard all {L} Energy attached to this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Tynamo"
+}

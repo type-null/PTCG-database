@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/zweilous-noble-victories-nvi-78/",
+    "name": "Zweilous",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW3-078-zweilous.jpg",
+    "card_type": "Pokémon",
+    "set_name": "NVI",
+    "series": "Black & White",
+    "set_full_name": "Noble Victories",
+    "set_code": "BW3",
+    "date": "Nov 16, 2011",
+    "number": "78",
+    "set_total": "101",
+    "rarity": "Uncommon",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "Since their two heads do not get along and compete with each other for food, they always eat too much.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Double Hit",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 20 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Strength",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Deino"
+}

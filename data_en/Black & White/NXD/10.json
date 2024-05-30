@@ -1,0 +1,56 @@
+{
+    "url": "https://pkmncards.com/card/growlithe-next-destinies-nxd-10/",
+    "name": "Growlithe",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW4-010-growlithe.jpg",
+    "card_type": "Pokémon",
+    "set_name": "NXD",
+    "series": "Black & White",
+    "set_full_name": "Next Destinies",
+    "set_code": "BW4",
+    "date": "Feb 8, 2012",
+    "number": "10",
+    "set_total": "99",
+    "rarity": "Common",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "A Pokémon with a loyal nature, it will remain motionless until it is given an order by its Trainer.",
+    "stage": "Basic",
+    "hp": 80,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Stoke",
+            "damage": null,
+            "effect": "Flip a coin. If heads, search your deck for a {R} Energy card and attach it to this Pokémon. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Firebreathing",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3
+}

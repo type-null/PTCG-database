@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/zweilous-crimson-invasion-cin-61/",
+    "name": "Zweilous",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM4-061-zweilous.jpg",
+    "card_type": "Pokémon",
+    "set_name": "CIN",
+    "series": "Sun & Moon",
+    "set_full_name": "Crimson Invasion",
+    "set_code": "SM4",
+    "date": "Nov 3, 2017",
+    "number": "61",
+    "set_total": "111",
+    "rarity": "Uncommon",
+    "author": [
+        "kodama"
+    ],
+    "flavor_text": "The two heads do not get along. Whichever head eats more than the other gets to be the leader.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Headbutt",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Double Hit",
+            "damage": {
+                "amount": 60,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 60 damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Deino"
+}

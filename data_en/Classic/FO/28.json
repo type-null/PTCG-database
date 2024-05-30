@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/muk-fossil-fo-28/",
+    "name": "Muk",
+    "img": "https://pkmncards.com/wp-content/uploads/muk-fossil-fo-28.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FO",
+    "series": "Classic",
+    "set_full_name": "Fossil",
+    "set_code": "FO",
+    "date": "Oct 10, 1999",
+    "number": "28",
+    "set_total": "62",
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+    "stage": "Stage 1",
+    "level": "34",
+    "hp": 70,
+    "types": [
+        "Grass"
+    ],
+    "abilities": [
+        {
+            "name": "Toxic Gas",
+            "effect": "Ignore all Pokémon Powers other than Toxic Gases. This power stops working while Muk is Asleep, Confused, or Paralyzed."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Grass"
+            ],
+            "name": "Sludge",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Grimer"
+}

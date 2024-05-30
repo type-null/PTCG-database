@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/tentacruel-legends-awakened-la-75/",
+    "name": "Tentacruel",
+    "img": "https://pkmncards.com/wp-content/uploads/tentacruel-legends-awakened-la-75.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LA",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Legends Awakened",
+    "set_code": "DP6",
+    "date": "Aug 20, 2008",
+    "number": "75",
+    "set_total": "146",
+    "rarity": "Uncommon",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "With 80 tentacles for ensnaring victims, it prevents escape until the prey is weakened by poison.",
+    "stage": "Stage 1",
+    "level": "37",
+    "hp": 90,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "No Energy Cost"
+            ],
+            "name": "Tentacle Strike",
+            "damage": null,
+            "effect": "Search your opponent’s discard pile for up to 2 Energy cards and attach them to any of your opponent’s Pokémon in any way you like. For each Energy card attached in this way, this attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Dangerous Poison",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "If Tentacruel has less Energy attached to it than the Defending Pokémon, the Defending Pokémon is now Paralyzed and Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Tentacool"
+}

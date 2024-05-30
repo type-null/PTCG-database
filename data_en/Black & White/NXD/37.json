@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/beartic-next-destinies-nxd-37/",
+    "name": "Beartic",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW4-037-beartic.jpg",
+    "card_type": "Pokémon",
+    "set_name": "NXD",
+    "series": "Black & White",
+    "set_full_name": "Next Destinies",
+    "set_code": "BW4",
+    "date": "Feb 8, 2012",
+    "number": "37",
+    "set_total": "99",
+    "rarity": "Rare",
+    "author": [
+        "kawayoo"
+    ],
+    "flavor_text": "It can make its breath freeze at will. Very able in the water, it swims around in northern seas and catches prey.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Daunt",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance)."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Ambush",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Cubchoo"
+}

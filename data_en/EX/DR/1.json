@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/absol-dragon-dr-1/",
+    "name": "Absol",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-EX3-001-absol.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DR",
+    "series": "EX",
+    "set_full_name": "Dragon",
+    "set_code": "EX3",
+    "date": "Nov 24, 2003",
+    "number": "1",
+    "set_total": "97",
+    "rarity": "Rare Holo",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "stage": "Basic",
+    "hp": 70,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Bad News",
+            "damage": null,
+            "effect": "If the number of cards in your opponent’s hand is at least 6, choose a number of cards there, without looking, until your opponent has 5 cards left. Have your opponent discard the cards you chose."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Prize Count",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "If you have more Prize cards left than your opponent, this attack does 20 damage plus 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1
+}

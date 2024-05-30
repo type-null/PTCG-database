@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/mareep-platinum-pl-82/",
+    "name": "Mareep",
+    "img": "https://pkmncards.com/wp-content/uploads/mareep-platinum-pl-82.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PL",
+    "series": "Platinum",
+    "set_full_name": "Platinum",
+    "set_code": "PL1",
+    "date": "Feb 11, 2009",
+    "number": "82",
+    "set_total": "127",
+    "rarity": "Common",
+    "author": [
+        "Yuka Morii"
+    ],
+    "flavor_text": "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking.",
+    "stage": "Basic",
+    "level": "13",
+    "hp": 60,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "No Energy Cost"
+            ],
+            "name": "Minor Errand-Running",
+            "damage": null,
+            "effect": "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Expand",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done to Mareep by attacks is reduced by 10 (after applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/slowpoke-neo-genesis-n1-73/",
+    "name": "Slowpoke",
+    "img": "https://pkmncards.com/wp-content/uploads/slowpoke-neo-genesis-73.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N1",
+    "series": "Neo",
+    "set_full_name": "Neo Genesis",
+    "set_code": "N1",
+    "date": "Dec 16, 2000",
+    "number": "73",
+    "set_total": "111",
+    "rarity": "Common",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "flavor_text": "It lazes vacantly near water. If something bites its tail, it won’t even notice for a whole day.",
+    "stage": "Basic",
+    "level": "20",
+    "hp": 50,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Psyshock",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Water Gun",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Does 10 damage plus 10 more damage for each {W} Energy attached to Slowpoke but not used to pay for this attack’s Energy cost. You can’t add more than 20 damage in this way."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

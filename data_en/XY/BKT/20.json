@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/typhlosion-breakthrough-bkt-20/",
+    "name": "Typhlosion",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY8-020-typhlosion.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BKT",
+    "series": "XY",
+    "set_full_name": "BREAKthrough",
+    "set_code": "XY8",
+    "date": "Nov 4, 2015",
+    "number": "20",
+    "set_total": "162",
+    "rarity": "Rare Holo",
+    "author": [
+        "Megumi Mizutani"
+    ],
+    "flavor_text": "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.",
+    "stage": "Stage 2",
+    "hp": 150,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Massive Eruption",
+            "damage": {
+                "amount": 80,
+                "suffix": "×"
+            },
+            "effect": "Discard the top 5 cards of your deck. This attack does 80 damage times the number of Energy cards you discarded."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Flare Destroy",
+            "damage": {
+                "amount": 130,
+                "suffix": ""
+            },
+            "effect": "Discard an Energy attached to this Pokémon. Then, discard an Energy attached to your opponent’s Active Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Quilava"
+}

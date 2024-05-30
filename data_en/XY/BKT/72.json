@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/swoobat-breakthrough-bkt-72/",
+    "name": "Swoobat",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY8-072-swoobat.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BKT",
+    "series": "XY",
+    "set_full_name": "BREAKthrough",
+    "set_code": "XY8",
+    "date": "Nov 4, 2015",
+    "number": "72",
+    "set_total": "162",
+    "rarity": "Uncommon",
+    "author": [
+        "sui"
+    ],
+    "flavor_text": "Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Wave Amplification",
+            "damage": null,
+            "effect": "During your next turn, this Pokémon’s Returning Echo attack does 60 more damage (before applying Weakness and Resistance)."
+        },
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Returning Echo",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, return this Pokémon and all cards attached to it to your hand."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Woobat"
+}

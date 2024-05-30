@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/dugtrio-secret-wonders-sw-24/",
+    "name": "Dugtrio",
+    "img": "https://pkmncards.com/wp-content/uploads/dugtrio-secret-wonders-sw-24.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SW",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Secret Wonders",
+    "set_code": "DP3",
+    "date": "Nov 7, 2007",
+    "number": "24",
+    "set_total": "132",
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "Its three heads moves alternately, driving it through tough soil to depths of over 60 miles.",
+    "stage": "Stage 1",
+    "level": "46",
+    "hp": 90,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Dig Trap",
+            "damage": null,
+            "effect": "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of an attack, including damage, done to Dugtrio during your opponent’s next turn. If Dugtrio is your Active Pokémon at the end of your opponent’s next turn, put 6 damage counters on 1 of your opponent’s Benched Pokémon."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Pit Trap",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Your opponent flips a coin. If tails, this attack does 50 damage plus 50 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Diglett"
+}

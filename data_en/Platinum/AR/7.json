@@ -1,0 +1,68 @@
+{
+    "url": "https://pkmncards.com/card/probopass-arceus-ar-7/",
+    "name": "Probopass",
+    "img": "https://pkmncards.com/wp-content/uploads/probopass-arceus-ar-7.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AR",
+    "series": "Platinum",
+    "set_full_name": "Arceus",
+    "set_code": "PL4",
+    "date": "Nov 4, 2009",
+    "number": "7",
+    "set_total": "99",
+    "rarity": "Rare Holo",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "stage": "Stage 1",
+    "level": "55",
+    "hp": 100,
+    "types": [
+        "Metal"
+    ],
+    "poke_body": {
+        "name": "Competitiveness",
+        "effect": "If you don’t have a Supporter card in play, each of Probopass’s attacks does 30 more damage to the Active Pokémon (before applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Top Chop",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Draw a card."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Tumbling Attack",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 50 damage plus 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Nosepass"
+}

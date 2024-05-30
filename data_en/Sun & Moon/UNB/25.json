@@ -1,0 +1,56 @@
+{
+    "url": "https://pkmncards.com/card/volcanion-unbroken-bonds-unb-25/",
+    "name": "Volcanion",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM10-025-volcanion.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UNB",
+    "series": "Sun & Moon",
+    "set_full_name": "Unbroken Bonds",
+    "set_code": "SM10",
+    "date": "May 3, 2019",
+    "number": "25",
+    "set_total": "214",
+    "rarity": "Rare Holo",
+    "author": [
+        "Satoshi Shirai"
+    ],
+    "flavor_text": "It lets out billows of steam and disappears into the dense fog. It’s said to live in mountains where humans do not tread.",
+    "stage": "Basic",
+    "hp": 120,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Flare Starter",
+            "damage": null,
+            "effect": "Search your deck for a {R} Energy card and attach it to 1 of your Pokémon. If you go second and it’s your first turn, instead search for up to 3 {R} Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire"
+            ],
+            "name": "High-Heat Blast",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If you have at least 4 {R} Energy in play, this attack does 60 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

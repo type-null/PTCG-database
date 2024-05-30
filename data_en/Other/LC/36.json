@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/arcanine-legendary-collection-lc-36/",
+    "name": "Arcanine",
+    "img": "https://pkmncards.com/wp-content/uploads/arcanine-legendary-collection-lc-36.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LC",
+    "series": "Other",
+    "set_full_name": "Legendary Collection",
+    "set_code": "LC",
+    "date": "May 24, 2002",
+    "number": "36",
+    "set_total": "110",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "A Pokémon that has been long admired for its beauty. It runs gracefully, as if on wings.",
+    "stage": "Stage 1",
+    "level": "45",
+    "hp": 100,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Flamethrower",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Discard 1 {R} Energy card attached to Arcanine or this attack does nothing."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Take Down",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Arcanine does 30 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Growlithe"
+}

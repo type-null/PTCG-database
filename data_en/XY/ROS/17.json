@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/articuno-roaring-skies-ros-17/",
+    "name": "Articuno",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY6-017-articuno.jpg",
+    "card_type": "Pokémon",
+    "set_name": "ROS",
+    "series": "XY",
+    "set_full_name": "Roaring Skies",
+    "set_code": "XY6",
+    "date": "May 6, 2015",
+    "number": "17",
+    "set_total": "108",
+    "rarity": "Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "flavor_text": "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
+    "stage": "Basic",
+    "hp": 120,
+    "types": [
+        "Water"
+    ],
+    "ancient_trait": {
+        "name": "Δ  Plus",
+        "effect": " If your opponent’s Pokémon is Knocked Out by damage from an attack of this Pokémon, take 1 more Prize card."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Chilling Sigh",
+            "damage": null,
+            "effect": "Your opponent’s Active Pokémon is now Asleep."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Tri Edge",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip 3 coins. This attack does 40 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2
+}

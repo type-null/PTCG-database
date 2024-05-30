@@ -1,0 +1,67 @@
+{
+    "url": "https://pkmncards.com/card/shiftry-legend-maker-lm-12/",
+    "name": "Shiftry",
+    "img": "https://pkmncards.com/wp-content/uploads/shiftry-legend-maker-lm-12.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LM",
+    "series": "EX",
+    "set_full_name": "Legend Maker",
+    "set_code": "EX12",
+    "date": "Feb 13, 2006",
+    "number": "12",
+    "set_total": "92",
+    "rarity": "Rare Holo",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Stage 2",
+    "hp": 110,
+    "types": [
+        "Darkness"
+    ],
+    "poke_power": {
+        "name": "Evolutionary Fan",
+        "effect": "Once during your turn, when you play Shiftry from your hand to evolve 1 of your Pokémon, you may choose 1 of your Evolved Pokémon in play (excluding any Shiftry). Return that Pokémon and all cards attached to it to your hand."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Reactive Beating",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "If Shiftry has any React Energy cards attached to it, the Defending Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Cross-Cut",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon is an Evolved Pokémon, this attack does 40 damage plus 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Nuzleaf"
+}

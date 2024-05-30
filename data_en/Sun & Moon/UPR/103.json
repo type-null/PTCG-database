@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/lickilicky-ultra-prism-upr-103/",
+    "name": "Lickilicky",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM5-103-lickilicky.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UPR",
+    "series": "Sun & Moon",
+    "set_full_name": "Ultra Prism",
+    "set_code": "SM5",
+    "date": "Feb 2, 2018",
+    "number": "103",
+    "set_total": "156",
+    "rarity": "Rare",
+    "author": [
+        "Yumi"
+    ],
+    "flavor_text": "Their saliva contains lots of components that can dissolve anything. The numbness caused by their lick does not dissipate.",
+    "stage": "Stage 1",
+    "hp": 130,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Dangerous Lick",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 50 more damage for each heads. If the first flip is tails, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Rolling Tackle",
+            "damage": {
+                "amount": 110,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Lickitung"
+}

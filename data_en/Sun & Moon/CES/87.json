@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/tyranitar-celestial-storm-ces-87/",
+    "name": "Tyranitar",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM7-087-tyranitar.jpg",
+    "card_type": "Pokémon",
+    "set_name": "CES",
+    "series": "Sun & Moon",
+    "set_full_name": "Celestial Storm",
+    "set_code": "SM7",
+    "date": "Aug 3, 2018",
+    "number": "87",
+    "set_total": "168",
+    "rarity": "Rare Holo",
+    "author": [
+        "Hironobu Yoshida"
+    ],
+    "flavor_text": "If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.",
+    "stage": "Stage 2",
+    "hp": 170,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Slam",
+            "damage": {
+                "amount": 60,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 60 damage for each heads."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Trample",
+            "damage": {
+                "amount": 120,
+                "suffix": ""
+            },
+            "effect": "For each Benched Pokémon (both yours and your opponent’s), flip a coin. If heads, this attack does 60 damage to that Pokémon. This attack’s damage isn’t affected by Weakness or Resistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Pupitar"
+}

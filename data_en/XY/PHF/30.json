@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/heliolisk-phantom-forces-phf-30/",
+    "name": "Heliolisk",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY4-030-heliolisk.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PHF",
+    "series": "XY",
+    "set_full_name": "Phantom Forces",
+    "set_code": "XY4",
+    "date": "Nov 5, 2014",
+    "number": "30",
+    "set_total": "119",
+    "rarity": "Rare Holo",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Pound",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Parabolic Spark",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Discard as many {L} Energy attached to your Pokémon as you like. This attack does 30 damage times the number of Energy cards you discarded."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Helioptile"
+}

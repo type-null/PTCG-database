@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/golem-fossil-fo-36/",
+    "name": "Golem",
+    "img": "https://pkmncards.com/wp-content/uploads/golem-fossil-fo-36.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FO",
+    "series": "Classic",
+    "set_full_name": "Fossil",
+    "set_code": "FO",
+    "date": "Oct 10, 1999",
+    "number": "36",
+    "set_total": "62",
+    "rarity": "Uncommon",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.",
+    "stage": "Stage 2",
+    "level": "36",
+    "hp": 80,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Avalanche",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Selfdestruct",
+            "damage": {
+                "amount": 100,
+                "suffix": ""
+            },
+            "effect": "Does 20 damage to each Pokémon on each player’s Bench. (Don’t apply Weakness and Resistance for Benched Pokémon.) Golem does 100 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 4,
+    "evolve_from": "Graveler"
+}

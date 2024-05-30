@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/skarmory-deoxys-dx-26/",
+    "name": "Skarmory",
+    "img": "https://pkmncards.com/wp-content/uploads/skarmory-deoxys-dx-26.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DX",
+    "series": "EX",
+    "set_full_name": "Deoxys",
+    "set_code": "EX8",
+    "date": "Feb 14, 2005",
+    "number": "26",
+    "set_total": "107",
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "stage": "Basic",
+    "hp": 70,
+    "types": [
+        "Metal"
+    ],
+    "poke_body": {
+        "name": "Metallic Lift",
+        "effect": "If Skarmory has any {M} Energy attached to it, the Retreat Cost for Skarmory is 0."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Spearhead",
+            "damage": null,
+            "effect": "Draw a card."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Heavy Metal",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin for each {M} Energy attached to Skarmory. This attack does 10 damage plus 20 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1
+}

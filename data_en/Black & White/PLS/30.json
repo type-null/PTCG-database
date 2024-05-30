@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/lombre-plasma-storm-pls-30/",
+    "name": "Lombre",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW8-030-lombre.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLS",
+    "series": "Black & White",
+    "set_full_name": "Plasma Storm",
+    "set_code": "BW8",
+    "date": "Feb 6, 2013",
+    "number": "30",
+    "set_total": "135",
+    "rarity": "Uncommon",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "flavor_text": "It has a mischievous spirit. If it spots an angler, it will tug on the fishing line to interfere.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Jump On",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Wave Splash",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Lotad"
+}

@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/mareep-secret-wonders-sw-94/",
+    "name": "Mareep",
+    "img": "https://pkmncards.com/wp-content/uploads/mareep-secret-wonders-sw-94.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SW",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Secret Wonders",
+    "set_code": "DP3",
+    "date": "Nov 7, 2007",
+    "number": "94",
+    "set_total": "132",
+    "rarity": "Common",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "flavor_text": "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking.",
+    "stage": "Basic",
+    "level": "11",
+    "hp": 50,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thundershock",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Static Shock",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

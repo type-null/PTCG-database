@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/electabuzz-unseen-forces-uf-22/",
+    "name": "Electabuzz",
+    "img": "https://pkmncards.com/wp-content/uploads/electabuzz-unseen-forces-uf-22.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UF",
+    "series": "EX",
+    "set_full_name": "Unseen Forces",
+    "set_code": "EX10",
+    "date": "Aug 22, 2005",
+    "number": "22",
+    "set_total": "115",
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Basic",
+    "hp": 70,
+    "types": [
+        "Lightning"
+    ],
+    "poke_body": {
+        "name": "Stages of Evolution",
+        "effect": "As long as Electabuzz is an Evolved Pokémon, any damage done to Electabuzz by attacks from your opponent’s Pokémon that has any Special Energy cards attached to it is reduced by 40 (after applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Double Shock",
+            "damage": {
+                "amount": 10,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 10 damage times the number of heads. If either of the coins is heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Luster Blast",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": "Discard 3 Energy attached to Electabuzz."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

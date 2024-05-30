@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/skorupi-diamond-pearl-dp-99/",
+    "name": "Skorupi",
+    "img": "https://pkmncards.com/wp-content/uploads/skorupi-diamond-pearl-dp-99.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DP",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Diamond & Pearl",
+    "set_code": "DP1",
+    "date": "May 23, 2007",
+    "number": "99",
+    "set_total": "130",
+    "rarity": "Common",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.",
+    "stage": "Basic",
+    "level": "9",
+    "hp": 60,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Poison Sting",
+            "damage": null,
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Pin Missile",
+            "damage": {
+                "amount": 10,
+                "suffix": "×"
+            },
+            "effect": "Flip 4 coins. This attack does 10 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

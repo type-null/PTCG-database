@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/lanturn-primal-clash-prc-58/",
+    "name": "Lanturn",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY5-058-lanturn.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PRC",
+    "series": "XY",
+    "set_full_name": "Primal Clash",
+    "set_code": "XY5",
+    "date": "Feb 4, 2015",
+    "number": "58",
+    "set_total": "160",
+    "rarity": "Uncommon",
+    "author": [
+        "MAHOU"
+    ],
+    "flavor_text": "It blinds prey with an intense burst of light. With the prey incapacitated, the Pokémon swallows it in a single gulp.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Dive",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Take Down",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "This Pokémon does 20 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Chinchou"
+}

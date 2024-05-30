@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/dialga-platinum-pl-23/",
+    "name": "Dialga",
+    "img": "https://pkmncards.com/wp-content/uploads/dialga-platinum-pl-23.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PL",
+    "series": "Platinum",
+    "set_full_name": "Platinum",
+    "set_code": "PL1",
+    "date": "Feb 11, 2009",
+    "number": "23",
+    "set_total": "127",
+    "rarity": "Rare",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "flavor_text": "A legendary Pokémon of Sinnoh. It is said that time flows when Dialga’s heart beats.",
+    "stage": "Basic",
+    "level": "73",
+    "hp": 100,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Energy Stream",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to Dialga."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Diamond Blow",
+            "damage": {
+                "amount": 100,
+                "suffix": ""
+            },
+            "effect": "Dialga can’t attack during your next turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3
+}

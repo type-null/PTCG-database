@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/scrafty-next-destinies-nxd-74/",
+    "name": "Scrafty",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW4-074-scrafty.jpg",
+    "card_type": "Pokémon",
+    "set_name": "NXD",
+    "series": "Black & White",
+    "set_full_name": "Next Destinies",
+    "set_code": "BW4",
+    "date": "Feb 8, 2012",
+    "number": "74",
+    "set_total": "99",
+    "rarity": "Rare Holo",
+    "author": [
+        "Naoki Saito"
+    ],
+    "flavor_text": "It can smash concrete blocks with its kicking attacks. The one with the biggest crest is the group leader.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Rock Head",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Hammer Kick",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If this Pokémon has fewer remaining HP than the Defending Pokémon, this attack does 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Scraggy"
+}

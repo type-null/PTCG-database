@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/electabuzz-platinum-pl-128/",
+    "name": "Electabuzz",
+    "img": "https://pkmncards.com/wp-content/uploads/electabuzz-platinum-pl-128.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PL",
+    "series": "Platinum",
+    "set_full_name": "Platinum",
+    "set_code": "PL1",
+    "date": "Feb 11, 2009",
+    "number": "128",
+    "set_total": "127",
+    "rarity": "Rare Secret",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "It loves to feed on strong electricity. It occasionally appears around large power plants and so on.",
+    "stage": "Basic",
+    "level": "35",
+    "hp": 70,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thundershock",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunderpunch",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage. If tails, Electabuzz does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

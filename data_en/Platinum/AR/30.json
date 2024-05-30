@@ -1,0 +1,68 @@
+{
+    "url": "https://pkmncards.com/card/sceptile-arceus-ar-30/",
+    "name": "Sceptile",
+    "img": "https://pkmncards.com/wp-content/uploads/sceptile-arceus-ar-30.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AR",
+    "series": "Platinum",
+    "set_full_name": "Arceus",
+    "set_code": "PL4",
+    "date": "Nov 4, 2009",
+    "number": "30",
+    "set_total": "99",
+    "rarity": "Rare",
+    "author": [
+        "Reiko Tanoue"
+    ],
+    "stage": "Stage 2",
+    "level": "57",
+    "hp": 120,
+    "types": [
+        "Grass"
+    ],
+    "poke_body": {
+        "name": "Green Breath",
+        "effect": "When you attach a {G} Energy card from your hand to Sceptile, remove 2 damage counters from Sceptile."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Leaf Blast",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Does 20 damage times the amount of {G} Energy attached to Sceptile."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Poison Claws",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon is now Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Grovyle"
+}

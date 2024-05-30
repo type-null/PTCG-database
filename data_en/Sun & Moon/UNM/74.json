@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/exeggutor-unified-minds-unm-74/",
+    "name": "Exeggutor",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM11-074-exeggutor.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UNM",
+    "series": "Sun & Moon",
+    "set_full_name": "Unified Minds",
+    "set_code": "SM11",
+    "date": "Aug 2, 2019",
+    "number": "74",
+    "set_total": "236",
+    "rarity": "Rare",
+    "author": [
+        "kirisAki"
+    ],
+    "flavor_text": "It engages its enemies using psychic powers. Each of its three heads fires off psychokinetic energy, tripling its power.",
+    "stage": "Stage 1",
+    "hp": 140,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Mind Bend",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Your opponent’s Active Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Full Clean",
+            "damage": {
+                "amount": 180,
+                "suffix": ""
+            },
+            "effect": "Discard your hand."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Exeggcute"
+}

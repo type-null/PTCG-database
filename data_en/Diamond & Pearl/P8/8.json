@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/luxio-pop-series-8-p8-8/",
+    "name": "Luxio",
+    "img": "https://pkmncards.com/wp-content/uploads/luxio-pop-series-8-8.jpg",
+    "card_type": "Pokémon",
+    "set_name": "P8",
+    "series": "Diamond & Pearl",
+    "set_full_name": "POP Series 8",
+    "set_code": "POP8",
+    "date": "Sep 1, 2008",
+    "number": "8",
+    "set_total": "17",
+    "rarity": "Uncommon",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
+    "stage": "Stage 1",
+    "level": "19",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Fasten Claw",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage plus 30 more damage."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning"
+            ],
+            "name": "Thunder Fang",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Shinx"
+}

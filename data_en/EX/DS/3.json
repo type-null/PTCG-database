@@ -1,0 +1,71 @@
+{
+    "url": "https://pkmncards.com/card/dragonite-delta-species-ds-3/",
+    "name": "Dragonite",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-EX11-003-dragonite.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DS",
+    "series": "EX",
+    "set_full_name": "Delta Species",
+    "set_code": "EX11",
+    "date": "Oct 31, 2005",
+    "number": "3",
+    "set_total": "113",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "stage": "Stage 2",
+    "hp": 100,
+    "types": [
+        "Lightning",
+        "Metal"
+    ],
+    "poke_power": {
+        "name": "Delta Charge",
+        "effect": "Once during your turn (before your attack), you may attach a {L} Energy card from your discard pile to 1 of your Benched Pokémon. This power can’t be used if Dragonite is affected by a Special Condition."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Agility",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Dragonite during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Heavy Impact",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "rule_box": "This Pokémon is both {L}{M} type.",
+    "weakness": {
+        "type": [
+            "Colorless"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass",
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Dragonair"
+}

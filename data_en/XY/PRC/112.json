@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/linoone-primal-clash-prc-112/",
+    "name": "Linoone",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY5-112-linoone.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PRC",
+    "series": "XY",
+    "set_full_name": "Primal Clash",
+    "set_code": "XY5",
+    "date": "Feb 4, 2015",
+    "number": "112",
+    "set_total": "160",
+    "rarity": "Uncommon",
+    "author": [
+        "match"
+    ],
+    "flavor_text": "It charges prey at speeds over 60 mph. However, because it can only run straight, it often fails.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Fury Swipes",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 30 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Dash Attack",
+            "damage": null,
+            "effect": "This attack does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Zigzagoon"
+}

@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/shelgon-arceus-ar-48/",
+    "name": "Shelgon",
+    "img": "https://pkmncards.com/wp-content/uploads/shelgon-arceus-ar-48.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AR",
+    "series": "Platinum",
+    "set_full_name": "Arceus",
+    "set_code": "PL4",
+    "date": "Nov 4, 2009",
+    "number": "48",
+    "set_total": "99",
+    "rarity": "Uncommon",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "flavor_text": "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
+    "stage": "Stage 1",
+    "level": "34",
+    "hp": 80,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Scrunch",
+            "damage": null,
+            "effect": "Flip a coin. If heads, prevent all damage done to Shelgon during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Dragon Bump",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "If Shelgon has any basic {R} Energy and any basic {W} Energy attached to it, this attack does 40 damage plus 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Colorless"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Bagon"
+}

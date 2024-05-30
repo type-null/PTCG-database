@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/marowak-triumphant-tm-44/",
+    "name": "Marowak",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS4-044-marowak.jpg",
+    "card_type": "Pokémon",
+    "set_name": "TM",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Triumphant",
+    "set_code": "HGSS4",
+    "date": "Nov 2, 2010",
+    "number": "44",
+    "set_total": "102",
+    "rarity": "Uncommon",
+    "author": [
+        "kawayoo"
+    ],
+    "flavor_text": "It has been seen pounding boulders with the bone it carries in order to tap out messages to others.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Bonemerang",
+            "damage": {
+                "amount": 60,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 60 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Bone Impact",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "If there is any Stadium card in play, this attack does 20 damage plus 60 more damage. Discard that Stadium card."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Cubone"
+}

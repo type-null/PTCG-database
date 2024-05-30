@@ -1,0 +1,67 @@
+{
+    "url": "https://pkmncards.com/card/kabutops-skyridge-sk-150/",
+    "name": "Kabutops",
+    "img": "https://pkmncards.com/wp-content/uploads/kabutops-skyridge-sk-150.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SK",
+    "series": "E-Card",
+    "set_full_name": "Skyridge",
+    "set_code": "SK",
+    "date": "May 12, 2003",
+    "number": "150",
+    "set_total": "144",
+    "rarity": "Rare Secret",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "stage": "Stage 2",
+    "hp": 90,
+    "types": [
+        "Colorless"
+    ],
+    "poke_body": {
+        "name": "Crystal Type",
+        "effect": "Whenever you attach a {W}, {L}, or {F} basic Energy card from your hand to Kabutops, Kabutops’s type (color) becomes the same as that type of Energy until the end of the turn."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Draining Cut",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Remove a damage counter from Kabutops."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Triple Cutter",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 30 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Kabuto"
+}

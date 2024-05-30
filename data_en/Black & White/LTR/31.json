@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/gyarados-legendary-treasures-ltr-31/",
+    "name": "Gyarados",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW11-031-gyarados.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LTR",
+    "series": "Black & White",
+    "set_full_name": "Legendary Treasures",
+    "set_code": "BW11",
+    "date": "Nov 6, 2013",
+    "number": "31",
+    "set_total": "113",
+    "rarity": "Rare",
+    "author": [
+        "hatachu"
+    ],
+    "flavor_text": "Once it begins to rampage, a Gyarados will burn everything down, even in a harsh storm.",
+    "stage": "Stage 1",
+    "hp": 130,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Howling Rampage",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Does 20 damage times the number of Prize cards both players have taken."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Hydro Splash",
+            "damage": {
+                "amount": 120,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Magikarp"
+}

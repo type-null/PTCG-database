@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/pikachu-heartgold-soulsilver-hs-78/",
+    "name": "Pikachu",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS1-078-pikachu.jpg",
+    "card_type": "Pokémon",
+    "set_name": "HS",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "HeartGold & SoulSilver",
+    "set_code": "HGSS1",
+    "date": "Feb 10, 2010",
+    "number": "78",
+    "set_total": "123",
+    "rarity": "Common",
+    "author": [
+        "match"
+    ],
+    "flavor_text": "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose.",
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Tail Slap",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

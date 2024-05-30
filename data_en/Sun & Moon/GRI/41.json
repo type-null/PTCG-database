@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/alolan-graveler-guardians-rising-gri-41/",
+    "name": "Alolan Graveler",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM2-041-alolan_graveler.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GRI",
+    "series": "Sun & Moon",
+    "set_full_name": "Guardians Rising",
+    "set_code": "SM2",
+    "date": "May 5, 2017",
+    "number": "41",
+    "set_total": "145",
+    "rarity": "Uncommon",
+    "author": [
+        "match"
+    ],
+    "flavor_text": "Its preferred food is dravite. After it has eaten this mineral, crystals form inside the Pokémon, rising to the surface of part of its body.",
+    "stage": "Stage 1",
+    "hp": 110,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Thunder Punch",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage. If tails, this Pokémon does 20 damage to itself."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Electrobullet",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "This attack does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Alolan Geodude"
+}

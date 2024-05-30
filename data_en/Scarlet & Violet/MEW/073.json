@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/tentacruel-151-mew-073/",
+    "name": "Tentacruel",
+    "img": "https://pkmncards.com/wp-content/uploads/sv3-5_en_073_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "G",
+    "set_name": "MEW",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "151",
+    "set_code": "sv3-5",
+    "date": "Sep 22, 2023",
+    "number": "073",
+    "set_total": "165",
+    "rarity": "Uncommon",
+    "rarity_img": null,
+    "author": [
+        "miki kudo"
+    ],
+    "flavor_text": "Its 80 tentacles can stretch and shrink freely. Tentacruel ensnares prey in a net of spread-out tentacles, delivering venomous stings to its catch.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Poisonous Whip",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Your opponent’s Active Pokémon is now Poisoned."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Tentacular Panic",
+            "damage": {
+                "amount": 90,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 90 damage for each heads. If the first flip is tails, your opponent’s Active Pokémon is now Confused."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Tentacool"
+}

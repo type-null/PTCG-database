@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/tyranitar-mysterious-treasures-mt-17/",
+    "name": "Tyranitar",
+    "img": "https://pkmncards.com/wp-content/uploads/tyranitar-mysterious-treasures-mt-17.jpg",
+    "card_type": "Pokémon",
+    "set_name": "MT",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Mysterious Treasures",
+    "set_code": "DP2",
+    "date": "Aug 22, 2007",
+    "number": "17",
+    "set_total": "123",
+    "rarity": "Rare Holo",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.",
+    "stage": "Stage 2",
+    "level": "57",
+    "hp": 140,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Payback",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "If your opponent has only 1 Prize card left, this attack does 40 damage plus 40 more damage and discard the top 3 cards from your opponent’s deck."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Darkness",
+                "Darkness"
+            ],
+            "name": "Ground Burn",
+            "damage": {
+                "amount": 80,
+                "suffix": "+"
+            },
+            "effect": "Each player discards the top card of his or her deck. This attack does 80 damage plus 20 more damage for each Energy card discarded in this way."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Pupitar"
+}

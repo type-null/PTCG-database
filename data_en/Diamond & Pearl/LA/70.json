@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/seadra-legends-awakened-la-70/",
+    "name": "Seadra",
+    "img": "https://pkmncards.com/wp-content/uploads/seadra-legends-awakened-la-70.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LA",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Legends Awakened",
+    "set_code": "DP6",
+    "date": "Aug 20, 2008",
+    "number": "70",
+    "set_total": "146",
+    "rarity": "Uncommon",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "flavor_text": "Its spines provide protection. Its fins and bones are prized as traditional medicine ingredients.",
+    "stage": "Stage 1",
+    "level": "35",
+    "hp": 80,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Aqua Pump",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "You may discard up to 2 {W} Energy cards from your hand. If you do, this attack does 30 damage plus 10 more damage for each Energy card you discarded."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Waterfall",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Horsea"
+}

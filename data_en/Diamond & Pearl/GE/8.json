@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/sceptile-great-encounters-ge-8/",
+    "name": "Sceptile",
+    "img": "https://pkmncards.com/wp-content/uploads/sceptile-great-encounters-ge-8.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GE",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Great Encounters",
+    "set_code": "DP4",
+    "date": "Feb 13, 2008",
+    "number": "8",
+    "set_total": "106",
+    "rarity": "Rare Holo",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.",
+    "stage": "Stage 2",
+    "level": "52",
+    "hp": 100,
+    "types": [
+        "Grass"
+    ],
+    "poke_body": {
+        "name": "Wild Growth",
+        "effect": " Each basic {G} Energy card attached to your {G} Pokémon provides {G}{G} Energy instead. You can’t use more than 1 Wild Growth Poké-Body each turn."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Leaf Blade",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 50 damage plus 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Grovyle"
+}

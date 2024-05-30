@@ -1,0 +1,56 @@
+{
+    "url": "https://pkmncards.com/card/dark-primeape-team-rocket-ro-43/",
+    "name": "Dark Primeape",
+    "img": "https://pkmncards.com/wp-content/uploads/dark-primeape-team-rocket-tr-43.jpg",
+    "card_type": "Pokémon",
+    "set_name": "RO",
+    "series": "Classic",
+    "set_full_name": "Team Rocket",
+    "set_code": "RO",
+    "date": "Apr 24, 2000",
+    "number": "43",
+    "set_total": "82",
+    "rarity": "Uncommon",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Although Primeapes have always been mean, lately they seem to be becoming even more vicious and frenzied.",
+    "stage": "Stage 1",
+    "level": "23",
+    "hp": 60,
+    "types": [
+        "Fighting"
+    ],
+    "abilities": [
+        {
+            "name": "Frenzy",
+            "effect": "If Dark Primeape does any damage while it’s Confused (even to itself), it does 30 more damage."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Frenzied Attack",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Dark Primeape is now Confused (after doing damage)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Mankey"
+}

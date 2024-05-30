@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/rotom-supreme-victors-sv-82/",
+    "name": "Rotom",
+    "img": "https://pkmncards.com/wp-content/uploads/rotom-supreme-victors-sv-82.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SV",
+    "series": "Platinum",
+    "set_full_name": "Supreme Victors",
+    "set_code": "PL3",
+    "date": "Aug 19, 2009",
+    "number": "82",
+    "set_total": "147",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "Its electric-like body can enter some kinds of machines and take control in order to make mischief.",
+    "stage": "Basic",
+    "level": "40",
+    "hp": 70,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Discharge",
+            "damage": {
+                "amount": 40,
+                "suffix": "×"
+            },
+            "effect": "Discard all {L} Energy attached to Rotom. Flip a coin for each Energy card you discarded. This attack does 40 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Uproar",
+            "damage": null,
+            "effect": "This attack does 10 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Darkness"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Colorless"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

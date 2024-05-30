@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/alolan-golem-guardians-rising-gri-42/",
+    "name": "Alolan Golem",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM2-042-alolan_golem.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GRI",
+    "series": "Sun & Moon",
+    "set_full_name": "Guardians Rising",
+    "set_code": "SM2",
+    "date": "May 5, 2017",
+    "number": "42",
+    "set_total": "145",
+    "rarity": "Rare Holo",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "flavor_text": "It fires rocks charged with electricity. Even if the rock isn’t fired that accurately, just grazing an opponent will cause numbness and fainting.",
+    "stage": "Stage 2",
+    "hp": 160,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Electromagnetic Rock Wrecker",
+            "damage": {
+                "amount": 80,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin for each {L} Energy attached to this Pokémon. This attack does 80 damage for each heads."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Heavy Slam",
+            "damage": {
+                "amount": 200,
+                "suffix": "-"
+            },
+            "effect": "This attack does 30 less damage for each {C} in your opponent’s Active Pokémon’s Retreat Cost."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Alolan Graveler"
+}

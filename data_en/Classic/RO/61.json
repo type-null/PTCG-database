@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/mankey-team-rocket-ro-61/",
+    "name": "Mankey",
+    "img": "https://pkmncards.com/wp-content/uploads/mankey-team-rocket-tr-61.jpg",
+    "card_type": "Pokémon",
+    "set_name": "RO",
+    "series": "Classic",
+    "set_full_name": "Team Rocket",
+    "set_code": "RO",
+    "date": "Apr 24, 2000",
+    "number": "61",
+    "set_total": "82",
+    "rarity": "Common",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "flavor_text": "Normally friendly, it quickly becomes angry if it doesn’t get what it wants.",
+    "stage": "Basic",
+    "level": "14",
+    "hp": 40,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Mischief",
+            "damage": null,
+            "effect": "Shuffle your opponent’s deck."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Anger",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 0
+}

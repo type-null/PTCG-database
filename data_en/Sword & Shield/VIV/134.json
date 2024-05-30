@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/swellow-vivid-voltage-viv-134/",
+    "name": "Swellow",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH4-134-swellow.jpg",
+    "card_type": "Pokémon",
+    "regulation": "D",
+    "set_name": "VIV",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Vivid Voltage",
+    "set_code": "SWSH4",
+    "date": "Nov 13, 2020",
+    "number": "134",
+    "set_total": "185",
+    "rarity": "Uncommon",
+    "rarity_img": null,
+    "author": [
+        "kodama"
+    ],
+    "flavor_text": "It dives at a steep angle as soon as it spots its prey. It catches its prey with sharp claws.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 40 more damage."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Energy Assist",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Attach up to 2 basic Energy cards from your discard pile to 1 of your Benched Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 0,
+    "evolve_from": "Taillow"
+}

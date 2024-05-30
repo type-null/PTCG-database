@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/electrike-dragons-exalted-drx-41/",
+    "name": "Electrike",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW6-041-electrike.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DRX",
+    "series": "Black & White",
+    "set_full_name": "Dragons Exalted",
+    "set_code": "BW6",
+    "date": "Aug 15, 2012",
+    "number": "41",
+    "set_total": "124",
+    "rarity": "Common",
+    "author": [
+        "kawayoo"
+    ],
+    "flavor_text": "Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed.",
+    "stage": "Basic",
+    "hp": 60,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Tackle",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

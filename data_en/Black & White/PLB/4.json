@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/cradily-plasma-blast-plb-4/",
+    "name": "Cradily",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW10-004-cradily.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLB",
+    "series": "Black & White",
+    "set_full_name": "Plasma Blast",
+    "set_code": "BW10",
+    "date": "Aug 14, 2013",
+    "number": "4",
+    "set_total": "101",
+    "rarity": "Rare",
+    "author": [
+        "kawayoo"
+    ],
+    "flavor_text": "It lives in the shallows of warm seas. When the tide goes out, it digs up prey from beaches.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Lifesplosion",
+            "damage": null,
+            "effect": "For each Energy attached to this Pokémon, search your deck for a Stage 2 Pokémon and put it onto your Bench. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Spiral Drain",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Heal 20 damage from this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Lileep"
+}

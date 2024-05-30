@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/mandibuzz-boundaries-crossed-bcr-93/",
+    "name": "Mandibuzz",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW7-093-mandibuzz.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BCR",
+    "series": "Black & White",
+    "set_full_name": "Boundaries Crossed",
+    "set_code": "BW7",
+    "date": "Nov 7, 2012",
+    "number": "93",
+    "set_total": "149",
+    "rarity": "Uncommon",
+    "author": [
+        "Naoki Saito"
+    ],
+    "flavor_text": "It makes a nest out of the bones it finds. It grabs weakened prey in its talons and hauls it to its nest of bones.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Gust",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Dual Cut",
+            "damage": {
+                "amount": 80,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 80 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Vullaby"
+}

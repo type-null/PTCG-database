@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/ponyta-team-up-teu-17/",
+    "name": "Ponyta",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM9-017-ponyta.jpg",
+    "card_type": "Pokémon",
+    "set_name": "TEU",
+    "series": "Sun & Moon",
+    "set_full_name": "Team Up",
+    "set_code": "SM9",
+    "date": "Feb 1, 2019",
+    "number": "17",
+    "set_total": "181",
+    "rarity": "Common",
+    "author": [
+        "Saya Tsuruta"
+    ],
+    "flavor_text": "As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.",
+    "stage": "Basic",
+    "hp": 70,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Live Coal",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire"
+            ],
+            "name": "Stomp",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

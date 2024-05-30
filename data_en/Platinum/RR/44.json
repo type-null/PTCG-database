@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/lairon-rising-rivals-rr-44/",
+    "name": "Lairon",
+    "img": "https://pkmncards.com/wp-content/uploads/lairon-rising-rivals-rr-44.jpg",
+    "card_type": "Pokémon",
+    "set_name": "RR",
+    "series": "Platinum",
+    "set_full_name": "Rising Rivals",
+    "set_code": "PL2",
+    "date": "May 20, 2009",
+    "number": "44",
+    "set_total": "111",
+    "rarity": "Uncommon",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "flavor_text": "For food, it digs up iron ore. It smashes its steely body against others to fight over territory.",
+    "stage": "Stage 1",
+    "level": "37",
+    "hp": 80,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Heavy Metal",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin for each {M} Energy attached to Lairon. This attack does 10 damage plus 20 more damage for each heads."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Granite Head",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done to Lairon by attacks is reduced by 10 (after applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Aron"
+}

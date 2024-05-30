@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/revavroom-twilight-masquerade-twm-125/",
+    "name": "Revavroom",
+    "img": "https://pkmncards.com/wp-content/uploads/sv6_en_125_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "H",
+    "set_name": "TWM",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "Twilight Masquerade",
+    "set_code": "sv6",
+    "date": "May 24, 2024",
+    "number": "125",
+    "set_total": "167",
+    "rarity": "Uncommon",
+    "rarity_img": null,
+    "author": [
+        "Hasuno"
+    ],
+    "flavor_text": "Revavroom viciously threatens others with the sound of its exhaust. It sticks its tongue out from its cylindrical mouth and sprays toxic fluids.",
+    "stage": "Stage 1",
+    "hp": 140,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Rally Back",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "If any of your Pokémon were Knocked Out by damage from an attack during your opponent’s last turn, this attack does 90 more damage."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Running Charge",
+            "damage": {
+                "amount": 100,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 100 damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Varoom"
+}

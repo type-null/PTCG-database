@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/typhlosion-expedition-ex-64/",
+    "name": "Typhlosion",
+    "img": "https://pkmncards.com/wp-content/uploads/typhlosion-expedition-ex-64.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EX",
+    "series": "E-Card",
+    "set_full_name": "Expedition",
+    "set_code": "EX",
+    "date": "Sep 15, 2002",
+    "number": "64",
+    "set_total": "165",
+    "rarity": "Rare",
+    "author": [
+        "Hiroaki Ito"
+    ],
+    "stage": "Stage 2",
+    "hp": 100,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Thermal Blast",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage to each of your opponent’s Benched Pokémon, if any. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Quilava"
+}

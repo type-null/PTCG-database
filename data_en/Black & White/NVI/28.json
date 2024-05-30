@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/vanillish-noble-victories-nvi-28/",
+    "name": "Vanillish",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW3-028-vanillish.jpg",
+    "card_type": "Pokémon",
+    "set_name": "NVI",
+    "series": "Black & White",
+    "set_full_name": "Noble Victories",
+    "set_code": "BW3",
+    "date": "Nov 16, 2011",
+    "number": "28",
+    "set_total": "101",
+    "rarity": "Uncommon",
+    "author": [
+        "match"
+    ],
+    "flavor_text": "It conceals itself from enemy eyes by creating many small ice particles and hiding among them.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Ice Beam",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water"
+            ],
+            "name": "Frost Breath",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Vanillite"
+}

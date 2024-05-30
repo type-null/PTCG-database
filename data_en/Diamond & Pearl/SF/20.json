@@ -1,0 +1,74 @@
+{
+    "url": "https://pkmncards.com/card/machamp-stormfront-sf-20/",
+    "name": "Machamp",
+    "img": "https://pkmncards.com/wp-content/uploads/machamp-stormfront-sf-20.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "20",
+    "set_total": "100",
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "stage": "Stage 2",
+    "level": "62",
+    "hp": 130,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Take Out",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "If the Defending Pokémon isn’t an Evolved Pokémon, that Pokémon is Knocked Out instead of damaged by this attack."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Hurricane Punch",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 4 coins. This attack does 30 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Rage",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Does 60 damage plus 10 more damage for each damage counter on Machamp."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Machoke"
+}

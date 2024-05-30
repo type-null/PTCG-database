@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/chansey-expedition-ex-72/",
+    "name": "Chansey",
+    "img": "https://pkmncards.com/wp-content/uploads/chansey-expedition-ex-72.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EX",
+    "series": "E-Card",
+    "set_full_name": "Expedition",
+    "set_code": "EX",
+    "date": "Sep 15, 2002",
+    "number": "72",
+    "set_total": "165",
+    "rarity": "Uncommon",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "stage": "Basic",
+    "hp": 90,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Bind Wound",
+            "damage": null,
+            "effect": "Flip a coin. If heads, remove 2 damage counters from 1 of your Pokémon (1 if it has only 1)."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Dogpile",
+            "damage": {
+                "amount": 10,
+                "suffix": "×"
+            },
+            "effect": "Count the number of Pokémon on your Bench. This attack does 10 times that number of damage to the Defending Pokémon, and Chansey does 10 times that number of damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/tinkatuff-paldea-evolved-pal-217/",
+    "name": "Tinkatuff",
+    "img": "https://pkmncards.com/wp-content/uploads/sv2_en_217.jpg",
+    "card_type": "Pokémon",
+    "regulation": "G",
+    "set_name": "PAL",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "Paldea Evolved",
+    "set_code": "sv2",
+    "date": "Jun 9, 2023",
+    "number": "217",
+    "set_total": "193",
+    "rarity": "Illustration Rare",
+    "rarity_img": null,
+    "author": [
+        "Tika Matsuno"
+    ],
+    "flavor_text": "This Pokémon will attack groups of Pawniard and Bisharp, gathering metal from them in order to create a large and sturdy hammer.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Play Rough",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Pulverizing Press",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Tinkatink"
+}

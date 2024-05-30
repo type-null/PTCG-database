@@ -1,0 +1,78 @@
+{
+    "url": "https://pkmncards.com/card/golem-arceus-ar-19/",
+    "name": "Golem",
+    "img": "https://pkmncards.com/wp-content/uploads/golem-arceus-ar-19.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AR",
+    "series": "Platinum",
+    "set_full_name": "Arceus",
+    "set_code": "PL4",
+    "date": "Nov 4, 2009",
+    "number": "19",
+    "set_total": "99",
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "stage": "Stage 2",
+    "level": "56",
+    "hp": 140,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Lunge Out",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Tumble Down",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Discard as many {F} Energy cards as you like from your hand. The attack does 30 damage times the number of {F} Energy cards you discarded."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Rock Tumble",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "This attack’s damage isn’t affected by Resistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Graveler"
+}

@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/weezing-heartgold-soulsilver-hs-34/",
+    "name": "Weezing",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS1-034-weezing.jpg",
+    "card_type": "Pokémon",
+    "set_name": "HS",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "HeartGold & SoulSilver",
+    "set_code": "HGSS1",
+    "date": "Feb 10, 2010",
+    "number": "34",
+    "set_total": "123",
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "flavor_text": "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Super Poison Breath",
+            "damage": null,
+            "effect": "The Defending Pokémon is now Poisoned."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Super Explosion",
+            "damage": {
+                "amount": 90,
+                "suffix": ""
+            },
+            "effect": "Weezing does 90 damage to itself, and don’t apply Weakness to this damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Koffing"
+}

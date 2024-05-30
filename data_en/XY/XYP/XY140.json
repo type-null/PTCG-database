@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/lucario-xy-promos-xyp-xy140/",
+    "name": "Lucario",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-Promo_XY-XY140-lucario.jpg",
+    "card_type": "Pokémon",
+    "set_name": "XYP",
+    "series": "XY",
+    "set_full_name": "XY Promos",
+    "set_code": "XYP",
+    "date": "Aug 3, 2016",
+    "number": "XY140",
+    "set_total": null,
+    "rarity": "Promo",
+    "author": [
+        "Naoki Saito"
+    ],
+    "flavor_text": "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Bone Rush",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 30 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Mach Claw",
+            "damage": {
+                "amount": 90,
+                "suffix": ""
+            },
+            "effect": "This attack’s damage isn’t affected by Resistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Riolu"
+}

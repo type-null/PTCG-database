@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/mamoswine-stormfront-sf-21/",
+    "name": "Mamoswine",
+    "img": "https://pkmncards.com/wp-content/uploads/mamoswine-stormfront-sf-21.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SF",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Stormfront",
+    "set_code": "DP7",
+    "date": "Nov 5, 2008",
+    "number": "21",
+    "set_total": "100",
+    "rarity": "Rare",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "stage": "Stage 2",
+    "level": "56",
+    "hp": 140,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Ramming Strike",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 30 damage times the number of heads or you may start again. Each time you start again, put 2 damage counters on Mamoswine. (If Mamoswine would be Knocked Out, you can’t start again.)"
+        },
+        {
+            "cost": [
+                "Water",
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Parade",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Does 60 damage plus 10 more damage for each Swinub on your Bench, plus 20 more damage for each Piloswine on your Bench, and 40 more damage for each Mamoswine on your Bench."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-20"
+    },
+    "retreat": 5,
+    "evolve_from": "Piloswine"
+}

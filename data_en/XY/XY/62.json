@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/rhyperior-xy-xy-62/",
+    "name": "Rhyperior",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY1-062-rhyperior.jpg",
+    "card_type": "Pokémon",
+    "set_name": "XY",
+    "series": "XY",
+    "set_full_name": "XY",
+    "set_code": "XY1",
+    "date": "Feb 5, 2014",
+    "number": "62",
+    "set_total": "146",
+    "rarity": "Rare Holo",
+    "author": [
+        "Naoki Saito"
+    ],
+    "flavor_text": "From holes in its palms, it fires out Geodude. Its carapace can withstand volcanic eruptions.",
+    "stage": "Stage 2",
+    "hp": 160,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Rock Blast",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin for each {F} Energy attached to this Pokémon. This attack does 50 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Rock Wrecker",
+            "damage": {
+                "amount": 130,
+                "suffix": ""
+            },
+            "effect": "This attack’s damage isn’t affected by Weakness or Resistance. This Pokémon can’t attack during your next turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 4,
+    "evolve_from": "Rhydon"
+}

@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/ferrothorn-breakpoint-bkp-80/",
+    "name": "Ferrothorn",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY9-080-ferrothorn.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BKP",
+    "series": "XY",
+    "set_full_name": "BREAKpoint",
+    "set_code": "XY9",
+    "date": "Feb 3, 2016",
+    "number": "80",
+    "set_total": "122",
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "They attach themselves to cave ceilings, firing steel spikes at targets passing beneath them.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Metal Claw",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Spike Lash",
+            "damage": null,
+            "effect": "This attack does 10 damage to each of your opponent’s Pokémon for each {C} in that Pokémon’s Retreat Cost. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Ferroseed"
+}

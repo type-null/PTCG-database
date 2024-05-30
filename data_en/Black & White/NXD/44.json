@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/luxio-next-destinies-nxd-44/",
+    "name": "Luxio",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW4-044-luxio.jpg",
+    "card_type": "Pokémon",
+    "set_name": "NXD",
+    "series": "Black & White",
+    "set_full_name": "Next Destinies",
+    "set_code": "BW4",
+    "date": "Feb 8, 2012",
+    "number": "44",
+    "set_total": "99",
+    "rarity": "Uncommon",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Jump On",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Wild Charge",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "This Pokémon does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Shinx"
+}

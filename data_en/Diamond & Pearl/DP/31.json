@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/machamp-diamond-pearl-dp-31/",
+    "name": "Machamp",
+    "img": "https://pkmncards.com/wp-content/uploads/machamp-diamond-pearl-dp-31.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DP",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Diamond & Pearl",
+    "set_code": "DP1",
+    "date": "May 23, 2007",
+    "number": "31",
+    "set_total": "130",
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "It punches with its four arms at blinding speed. It can launch 1,000 punches in two seconds.",
+    "stage": "Stage 2",
+    "level": "59",
+    "hp": 130,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Revenge",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "If any of your Pokémon were Knocked Out by damage from an opponent’s attack during his or her last turn, this attack does 20 damage plus 50 more damage."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Dynamic Punch",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 60 damage plus 30 more damage and the Defending Pokémon is now Confused."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Machoke"
+}

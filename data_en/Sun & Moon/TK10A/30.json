@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/alolan-raichu-sun-moon-trainer-kit-alolan-raichu-tk10a-30/",
+    "name": "Alolan Raichu",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-TK10B-030-alolan_raichu.jpg",
+    "card_type": "Pokémon",
+    "set_name": "TK10A",
+    "series": "Sun & Moon",
+    "set_full_name": "Sun & Moon Trainer Kit—Alolan Raichu",
+    "set_code": "TK10B",
+    "date": "Apr 21, 2017",
+    "number": "30",
+    "set_total": "30",
+    "rarity": "No Rarity",
+    "author": [
+        "5ban Graphics"
+    ],
+    "flavor_text": "It only evolves to this form in the Alola region. According to researchers, its diet is one of the causes of this change.",
+    "stage": "Stage 1",
+    "hp": 110,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Electric Surfer",
+            "damage": {
+                "amount": 70,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu"
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/aggron-twilight-masquerade-twm-122/",
+    "name": "Aggron",
+    "img": "https://pkmncards.com/wp-content/uploads/sv6_en_122_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "H",
+    "set_name": "TWM",
+    "set_img": null,
+    "series": "Scarlet & Violet",
+    "set_full_name": "Twilight Masquerade",
+    "set_code": "sv6",
+    "date": "May 24, 2024",
+    "number": "122",
+    "set_total": "167",
+    "rarity": "Uncommon",
+    "rarity_img": null,
+    "author": [
+        "Dsuke"
+    ],
+    "flavor_text": "Aggron has a horn sharp enough to perforate thick iron sheets. It brings down its opponents by ramming into them horn first.",
+    "stage": "Stage 2",
+    "hp": 180,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Angry Slam",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "This attack does 50 damage for each of your Pokémon that has any damage counters on it."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Guard Claw",
+            "damage": {
+                "amount": 120,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, this Pokémon takes 50 less damage from attacks (after applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Lairon"
+}

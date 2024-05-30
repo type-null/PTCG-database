@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/blastoise-expedition-ex-36/",
+    "name": "Blastoise",
+    "img": "https://pkmncards.com/wp-content/uploads/blastoise-expedition-ex-36.jpg",
+    "card_type": "Pokémon",
+    "set_name": "EX",
+    "series": "E-Card",
+    "set_full_name": "Expedition",
+    "set_code": "EX",
+    "date": "Sep 15, 2002",
+    "number": "36",
+    "set_total": "165",
+    "rarity": "Rare",
+    "author": [
+        "Hiromichi Sugiyama"
+    ],
+    "stage": "Stage 2",
+    "hp": 100,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Bubble",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Double Cannon",
+            "damage": {
+                "amount": 40,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 40 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Wartortle"
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/bisharp-battle-styles-bst-104/",
+    "name": "Bisharp",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH5-104-bisharp.jpg",
+    "card_type": "Pokémon",
+    "regulation": "E",
+    "set_name": "BST",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Battle Styles",
+    "set_code": "SWSH5",
+    "date": "Mar 19, 2021",
+    "number": "104",
+    "set_total": "163",
+    "rarity": "Uncommon",
+    "rarity_img": null,
+    "author": [
+        "tetsuya koizumi"
+    ],
+    "flavor_text": "Violent conflicts erupt between Bisharp and Fraxure over places where sharpening stones can be found.",
+    "stage": "Stage 1",
+    "hp": 110,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Slash",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Steel Slice",
+            "damage": {
+                "amount": 90,
+                "suffix": "+"
+            },
+            "effect": "If your opponent’s Active Pokémon is a {M} Pokémon, this attack does 90 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Pawniard"
+}

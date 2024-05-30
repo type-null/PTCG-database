@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/scolipede-chilling-reign-cre-107/",
+    "name": "Scolipede",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SWSH6-107-scolipede.jpg",
+    "card_type": "Pokémon",
+    "regulation": "E",
+    "set_name": "CRE",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Chilling Reign",
+    "set_code": "SWSH6",
+    "date": "Jun 18, 2021",
+    "number": "107",
+    "set_total": "198",
+    "rarity": "Rare",
+    "rarity_img": null,
+    "author": [
+        "Megumi Higuchi"
+    ],
+    "flavor_text": "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
+    "stage": "Stage 2",
+    "hp": 160,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Poison Sting",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Your opponent’s Active Pokémon is now Poisoned."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Venoshock",
+            "damage": {
+                "amount": 100,
+                "suffix": "+"
+            },
+            "effect": "If your opponent’s Active Pokémon is Poisoned, this attack does 120 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Whirlipede"
+}

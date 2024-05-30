@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/torterra-plasma-storm-pls-3/",
+    "name": "Torterra",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW8-003-torterra.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLS",
+    "series": "Black & White",
+    "set_full_name": "Plasma Storm",
+    "set_code": "BW8",
+    "date": "Feb 6, 2013",
+    "number": "3",
+    "set_total": "135",
+    "rarity": "Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "flavor_text": "Some Pokémon are born on a Torterra’s back and spend their entire life there.",
+    "stage": "Stage 2",
+    "hp": 150,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Guard Press",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Rumble Stomp",
+            "damage": {
+                "amount": 80,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 20 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Grotle"
+}

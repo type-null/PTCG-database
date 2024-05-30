@@ -1,0 +1,55 @@
+{
+    "url": "https://pkmncards.com/card/blastoise-secret-wonders-sw-2/",
+    "name": "Blastoise",
+    "img": "https://pkmncards.com/wp-content/uploads/blastoise-secret-wonders-sw-2.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SW",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Secret Wonders",
+    "set_code": "DP3",
+    "date": "Nov 7, 2007",
+    "number": "2",
+    "set_total": "132",
+    "rarity": "Rare Holo",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "flavor_text": "The jets of water it spouts from the rocket cannons on its shell can punch through thick steel.",
+    "stage": "Stage 2",
+    "level": "52",
+    "hp": 120,
+    "types": [
+        "Water"
+    ],
+    "poke_power": {
+        "name": "Waterlog",
+        "effect": " Once during your turn (before your attack), you may attach as many basic {W} Energy cards from your hand to any of your Pokémon in any way you like. If you do, your turn ends. This power can’t be used if Blastoise is affected by a Special Condition."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Hydro Pump",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Does 50 damage plus 20 more damage for each {W} Energy attached to Blastoise but not used to pay for this attack’s Energy cost. You can’t add more than 40 damage in this way."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Wartortle"
+}

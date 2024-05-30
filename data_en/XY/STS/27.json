@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/mantine-steam-siege-sts-27/",
+    "name": "Mantine",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY11-027-mantine.jpg",
+    "card_type": "Pokémon",
+    "set_name": "STS",
+    "series": "XY",
+    "set_full_name": "Steam Siege",
+    "set_code": "XY11",
+    "date": "Aug 3, 2016",
+    "number": "27",
+    "set_total": "114",
+    "rarity": "Common",
+    "author": [
+        "DemizuPosuka"
+    ],
+    "flavor_text": "While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps.",
+    "stage": "Basic",
+    "hp": 100,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Healing Wave",
+            "damage": null,
+            "effect": "Discard as many cards as you like from your hand. Heal 10 damage from this Pokémon for each card you discarded in this way."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Water"
+            ],
+            "name": "Dwindling Wave",
+            "damage": {
+                "amount": 90,
+                "suffix": "-"
+            },
+            "effect": "This attack does 90 damage minus 10 damage for each damage counter on this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

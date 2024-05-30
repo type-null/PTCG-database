@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/machamp-skyridge-sk-16/",
+    "name": "Machamp",
+    "img": "https://pkmncards.com/wp-content/uploads/machamp-skyridge-sk-16.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SK",
+    "series": "E-Card",
+    "set_full_name": "Skyridge",
+    "set_code": "SK",
+    "date": "May 12, 2003",
+    "number": "16",
+    "set_total": "144",
+    "rarity": "Rare",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "stage": "Stage 2",
+    "hp": 120,
+    "types": [
+        "Fighting"
+    ],
+    "poke_body": {
+        "name": "Immunity",
+        "effect": "Prevent all effects of your opponent’s attacks done to Machamp."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Drag Off",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Before doing damage, if your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon. If your opponent has no Benched Pokémon, ignore this effect."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Hurricane Punch",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 4 coins. This attack does 30 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Machoke"
+}

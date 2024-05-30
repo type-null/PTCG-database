@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/gardevoir-delta-species-ds-6/",
+    "name": "Gardevoir",
+    "img": "https://pkmncards.com/wp-content/uploads/gardevoir-d-delta-species-ds-006.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DS",
+    "series": "EX",
+    "set_full_name": "Delta Species",
+    "set_code": "EX11",
+    "date": "Oct 31, 2005",
+    "number": "6",
+    "set_total": "113",
+    "rarity": "Rare Holo",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Stage 2",
+    "hp": 100,
+    "types": [
+        "Psychic",
+        "Metal"
+    ],
+    "poke_power": {
+        "name": "Energy Jump",
+        "effect": "Once during your turn (before your attack), you may move an Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can’t be used if Gardevoir is affected by a Special Condition."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Psychic Rage",
+            "damage": null,
+            "effect": "Choose 1 of your opponent’s Pokémon. This attack does 10 damage for each damage counter on Gardevoir to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Black Magic",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Does 10 damage plus 20 more damage times the number of your opponent’s Benched Pokémon."
+        }
+    ],
+    "rule_box": "This Pokémon is both {P}{M} type.",
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Kirlia"
+}

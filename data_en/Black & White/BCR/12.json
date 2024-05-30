@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/servine-boundaries-crossed-bcr-12/",
+    "name": "Servine",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW7-012-servine.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BCR",
+    "series": "Black & White",
+    "set_full_name": "Boundaries Crossed",
+    "set_code": "BW7",
+    "date": "Nov 7, 2012",
+    "number": "12",
+    "set_total": "149",
+    "rarity": "Uncommon",
+    "author": [
+        "Mizue"
+    ],
+    "flavor_text": "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Vine Whip",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Double Slash",
+            "damage": {
+                "amount": 40,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 40 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Snivy"
+}

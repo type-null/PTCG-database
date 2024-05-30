@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/noivern-forbidden-light-fli-101/",
+    "name": "Noivern",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM6-101-noivern.jpg",
+    "card_type": "Pokémon",
+    "set_name": "FLI",
+    "series": "Sun & Moon",
+    "set_full_name": "Forbidden Light",
+    "set_code": "SM6",
+    "date": "May 4, 2018",
+    "number": "101",
+    "set_total": "131",
+    "rarity": "Rare",
+    "author": [
+        "You Iribi"
+    ],
+    "flavor_text": "The ultrasonic waves it emits from its ears can reduce a large boulder to pebbles. It swoops out of the dark to attack.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Colorless"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Supersonic",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Your opponent’s Active Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Resonance",
+            "damage": {
+                "amount": 70,
+                "suffix": "+"
+            },
+            "effect": "If your opponent’s Active Pokémon is Confused, this attack does 70 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Noibat"
+}

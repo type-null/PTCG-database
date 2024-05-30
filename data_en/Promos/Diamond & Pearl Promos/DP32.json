@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/magnezone-diamond-pearl-promos-dp32/",
+    "name": "Magnezone",
+    "img": "https://pkmncards.com/wp-content/uploads/magnezone-diamond-pearl-promos-dp32.jpg",
+    "card_type": "Pokémon",
+    "set_name": "Diamond & Pearl Promos",
+    "series": "Promos",
+    "set_full_name": "Diamond & Pearl Promos",
+    "set_code": "Diamond & Pearl Promos",
+    "date": "Nov 5, 2008",
+    "number": "DP32",
+    "set_total": null,
+    "rarity": "Promo",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "flavor_text": "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
+    "stage": "Stage 2",
+    "level": "51",
+    "hp": 130,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Mirror Shot",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Magnet Slash",
+            "damage": {
+                "amount": 100,
+                "suffix": ""
+            },
+            "effect": "Discard all {L} Energy attached to Magnezone."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Magneton"
+}

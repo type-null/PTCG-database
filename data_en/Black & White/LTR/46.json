@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/zapdos-legendary-treasures-ltr-46/",
+    "name": "Zapdos",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW11-046-zapdos.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LTR",
+    "series": "Black & White",
+    "set_full_name": "Legendary Treasures",
+    "set_code": "BW11",
+    "date": "Nov 6, 2013",
+    "number": "46",
+    "set_total": "113",
+    "rarity": "Rare Holo",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "flavor_text": "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts.",
+    "stage": "Basic",
+    "hp": 120,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Random Spark",
+            "damage": null,
+            "effect": "This attack does 50 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Thundering Hurricane",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Flip 4 coins. This attack does 50 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2
+}

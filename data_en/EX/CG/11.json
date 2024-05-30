@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/swalot-crystal-guardians-cg-11/",
+    "name": "Swalot",
+    "img": "https://pkmncards.com/wp-content/uploads/swalot-crystal-guardians-cg-11.jpg",
+    "card_type": "Pokémon",
+    "set_name": "CG",
+    "series": "EX",
+    "set_full_name": "Crystal Guardians",
+    "set_code": "EX14",
+    "date": "Aug 30, 2006",
+    "number": "11",
+    "set_total": "100",
+    "rarity": "Rare Holo",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Pick and Choose",
+            "damage": null,
+            "effect": "Choose either Burned or Poisoned, and either Asleep or Confused. The Defending Pokémon is now affected by both Special Conditions."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Reactive Poison",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Does 50 damage plus 20 more damage for each Special Condition affecting the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Gulpin"
+}

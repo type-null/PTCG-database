@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/poliwrath-unleashed-ul-21/",
+    "name": "Poliwrath",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS2-021-poliwrath.jpg",
+    "card_type": "Pokémon",
+    "set_name": "UL",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Unleashed",
+    "set_code": "HGSS2",
+    "date": "May 12, 2010",
+    "number": "21",
+    "set_total": "95",
+    "rarity": "Rare",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "flavor_text": "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land.",
+    "stage": "Stage 2",
+    "hp": 130,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Steamroll",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Dynamic Punch",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 60 damage plus 40 more damage and the Defending Pokémon is now Confused."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Poliwhirl"
+}

@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/azumarill-diamond-pearl-dp-18/",
+    "name": "Azumarill",
+    "img": "https://pkmncards.com/wp-content/uploads/azumarill-diamond-pearl-dp-18.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DP",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Diamond & Pearl",
+    "set_code": "DP1",
+    "date": "May 23, 2007",
+    "number": "18",
+    "set_total": "130",
+    "rarity": "Rare",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "flavor_text": "It lives in rivers and lakes. In water, its coloring and patterns trick the vision of foes.",
+    "stage": "Stage 1",
+    "level": "35",
+    "hp": 80,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Defense Curl",
+            "damage": null,
+            "effect": "Flip a coin. If heads, prevent all damage done to Azumarill during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water"
+            ],
+            "name": "Bubble Pump",
+            "damage": {
+                "amount": 40,
+                "suffix": "+"
+            },
+            "effect": "If Azumarill has 3 or more Energy attached to it, this attack does 40 damage plus 20 more damage. If Azurill is anywhere under Azumarill, flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Marill"
+}

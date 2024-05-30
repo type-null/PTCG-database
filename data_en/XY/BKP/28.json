@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/lapras-breakpoint-bkp-28/",
+    "name": "Lapras",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY9-028-lapras.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BKP",
+    "series": "XY",
+    "set_full_name": "BREAKpoint",
+    "set_code": "XY9",
+    "date": "Feb 3, 2016",
+    "number": "28",
+    "set_total": "122",
+    "rarity": "Uncommon",
+    "author": [
+        "kirisAki"
+    ],
+    "flavor_text": "Its high intelligence enables it to understand human speech. It likes to ferry people on its back.",
+    "stage": "Basic",
+    "hp": 120,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Errand-Running",
+            "damage": null,
+            "effect": "Search your deck for a Trainer card, reveal it, and put it into your hand. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Water Splash",
+            "damage": {
+                "amount": 80,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2
+}

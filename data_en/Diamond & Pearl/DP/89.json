@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/meditite-diamond-pearl-dp-89/",
+    "name": "Meditite",
+    "img": "https://pkmncards.com/wp-content/uploads/meditite-diamond-pearl-dp-89.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DP",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Diamond & Pearl",
+    "set_code": "DP1",
+    "date": "May 23, 2007",
+    "number": "89",
+    "set_total": "130",
+    "rarity": "Common",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "It eats just one berry a day. By enduring hunger, its spirit is tempered and made sharper.",
+    "stage": "Basic",
+    "level": "19",
+    "hp": 50,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Detect",
+            "damage": null,
+            "effect": "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Meditite during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Meditate",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

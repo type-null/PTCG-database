@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/cherrim-plasma-storm-pls-7/",
+    "name": "Cherrim",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW8-007-cherrim.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PLS",
+    "series": "Black & White",
+    "set_full_name": "Plasma Storm",
+    "set_code": "BW8",
+    "date": "Feb 6, 2013",
+    "number": "7",
+    "set_total": "135",
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "If it senses strong sunlight, it opens its folded petals to absorb the sun’s rays with its whole body.",
+    "stage": "Stage 1",
+    "hp": 70,
+    "types": [
+        "Grass"
+    ],
+    "abilities": [
+        {
+            "name": "Fair-Weather Heal",
+            "effect": "Once during your turn (before your attack), you may heal 20 damage from 1 of your Pokémon that has any {G} Energy attached to it."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Random Peck",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip 2 coins. This attack does 20 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Cherubi"
+}

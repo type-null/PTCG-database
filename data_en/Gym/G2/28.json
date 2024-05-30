@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/lt-surges-jolteon-gym-challenge-g2-28/",
+    "name": "Lt. Surge’s Jolteon",
+    "img": "https://pkmncards.com/wp-content/uploads/lit.-surges-jolteon-gym-challenge-28.jpg",
+    "card_type": "Pokémon",
+    "set_name": "G2",
+    "series": "Gym",
+    "set_full_name": "Gym Challenge",
+    "set_code": "G2",
+    "date": "Oct 16, 2000",
+    "number": "28",
+    "set_total": "132",
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "stage": "Stage 1",
+    "level": "32",
+    "hp": 70,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "High Voltage",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent can’t play Trainer cards during his or her next turn."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Lightning"
+            ],
+            "name": "Thunder Flare",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Does 30 damage plus 10 damage times the number of damage counters on Lt. Surge’s Jolteon, then flip a coin. If tails, Lt. Surge’s Jolteon does 30 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Lt. Surge’s Eevee"
+}

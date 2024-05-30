@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/electabuzz-triumphant-tm-33/",
+    "name": "Electabuzz",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HGSS4-033-electabuzz.jpg",
+    "card_type": "Pokémon",
+    "set_name": "TM",
+    "series": "HeartGold & SoulSilver",
+    "set_full_name": "Triumphant",
+    "set_code": "HGSS4",
+    "date": "Nov 2, 2010",
+    "number": "33",
+    "set_total": "102",
+    "rarity": "Uncommon",
+    "author": [
+        "TOKIYA"
+    ],
+    "flavor_text": "Its body constantly discharges electricity. Getting close to it will make your hair stand on end.",
+    "stage": "Basic",
+    "hp": 70,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Light Punch",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Shock Bolt",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, discard all {L} Energy attached to Electabuzz."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2
+}

@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/mewtwo-base-set-bs-10/",
+    "name": "Mewtwo",
+    "img": "https://pkmncards.com/wp-content/uploads/mewtwo-base-set-bs-10.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BS",
+    "series": "Classic",
+    "set_full_name": "Base Set",
+    "set_code": "BS",
+    "date": "Jan 9, 1999",
+    "number": "10",
+    "set_total": "102",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments.",
+    "stage": "Basic",
+    "level": "53",
+    "hp": 60,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Psychic",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Psychic"
+            ],
+            "name": "Barrier",
+            "damage": null,
+            "effect": "Discard 1 {P} Energy card attached to Mewtwo in order to prevent all effects of attacks, including damage, done to Mewtwo during your opponent’s next turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3
+}

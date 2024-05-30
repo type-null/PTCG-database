@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/malamar-champions-path-cpa-045/",
+    "name": "Malamar",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-CP-045-malamar.jpg",
+    "card_type": "Pokémon",
+    "regulation": "D",
+    "set_name": "CPA",
+    "set_img": null,
+    "series": "Sword & Shield",
+    "set_full_name": "Champion's Path",
+    "set_code": "CPA",
+    "date": "Sep 25, 2020",
+    "number": "045",
+    "set_total": "073",
+    "rarity": "Uncommon",
+    "rarity_img": null,
+    "author": [
+        "kawayoo"
+    ],
+    "flavor_text": "Gazing at its luminescent spots will quickly induce a hypnotic state, putting the observer under Malamar’s control.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Eerie Wave",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Your opponent’s Active Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Random Peck",
+            "damage": {
+                "amount": 80,
+                "suffix": "+"
+            },
+            "effect": "Flip 2 coins. This attack does 40 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Inkay"
+}

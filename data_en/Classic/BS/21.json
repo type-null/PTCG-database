@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/electrode-base-set-bs-21/",
+    "name": "Electrode",
+    "img": "https://pkmncards.com/wp-content/uploads/electrode-base-set-bs-21.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BS",
+    "series": "Classic",
+    "set_full_name": "Base Set",
+    "set_code": "BS",
+    "date": "Jan 9, 1999",
+    "number": "21",
+    "set_total": "102",
+    "rarity": "Rare",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "flavor_text": "It stores electrical energy under very high pressure. It often explodes with little or no provocation.",
+    "stage": "Stage 1",
+    "level": "40",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "abilities": [
+        {
+            "name": "Buzzap",
+            "effect": "At any time during your turn (before your attack), you may Knock Out Electrode and attach it to 1 of your other Pokémon. If you do, choose a type of Energy. Electrode is now an Energy card (instead of a Pokémon) that provides 2 energy of that type. You can’t use this power if Electrode is Asleep, Confused, or Paralyzed."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Lightning"
+            ],
+            "name": "Electric Shock",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, Electrode does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Voltorb"
+}

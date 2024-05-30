@@ -1,0 +1,69 @@
+{
+    "url": "https://pkmncards.com/card/luxray-legends-awakened-la-8/",
+    "name": "Luxray",
+    "img": "https://pkmncards.com/wp-content/uploads/luxray-legends-awakened-la-8.jpg",
+    "card_type": "Pokémon",
+    "set_name": "LA",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Legends Awakened",
+    "set_code": "DP6",
+    "date": "Aug 20, 2008",
+    "number": "8",
+    "set_total": "146",
+    "rarity": "Rare Holo",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "It has eyes that can see through anything. It spots and captures prey hiding behind objects.",
+    "stage": "Stage 2",
+    "level": "51",
+    "hp": 120,
+    "types": [
+        "Lightning"
+    ],
+    "poke_body": {
+        "name": "Rivalry",
+        "effect": " If your opponent has any Pokémon LV.X in play, each of Luxray’s attacks does 50 more damage to the Active Pokémon (before applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Plasma",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Search your discard pile for a {L} Energy card and attach it to Luxray."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Shock Bolt",
+            "damage": {
+                "amount": 100,
+                "suffix": ""
+            },
+            "effect": "Discard all {L} Energy attached to Luxray."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Luxio"
+}

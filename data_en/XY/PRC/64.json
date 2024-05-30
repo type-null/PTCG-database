@@ -1,0 +1,56 @@
+{
+    "url": "https://pkmncards.com/card/eelektrik-primal-clash-prc-64/",
+    "name": "Eelektrik",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY5-064-eelektrik.jpg",
+    "card_type": "Pokémon",
+    "set_name": "PRC",
+    "series": "XY",
+    "set_full_name": "Primal Clash",
+    "set_code": "XY5",
+    "date": "Feb 4, 2015",
+    "number": "64",
+    "set_total": "160",
+    "rarity": "Rare",
+    "author": [
+        "Naoki Saito"
+    ],
+    "flavor_text": "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "ancient_trait": {
+        "name": "α Recovery",
+        "effect": " When this Pokémon is healed, double the amount healed."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Thrash",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 20 more damage. If tails, this Pokémon does 20 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Tynamo"
+}

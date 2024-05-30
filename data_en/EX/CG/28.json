@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/venusaur-crystal-guardians-cg-28/",
+    "name": "Venusaur",
+    "img": "https://pkmncards.com/wp-content/uploads/venusaur-crystal-guardians-cg-28.jpg",
+    "card_type": "Pokémon",
+    "set_name": "CG",
+    "series": "EX",
+    "set_full_name": "Crystal Guardians",
+    "set_code": "EX14",
+    "date": "Aug 30, 2006",
+    "number": "28",
+    "set_total": "100",
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "stage": "Stage 2",
+    "hp": 110,
+    "types": [
+        "Grass"
+    ],
+    "poke_body": {
+        "name": "Chlorophyll",
+        "effect": "All Energy cards that provide only {C} Energy attached to your {G} Pokémon provide {G} Energy instead."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Green Blast",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Does 20 damage plus 10 more damage for each {G} Energy attached to all of your Pokémon."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Toxic Sleep",
+            "damage": null,
+            "effect": "The Defending Pokémon is now Asleep and Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Ivysaur"
+}

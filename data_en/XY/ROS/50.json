@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/dragonair-roaring-skies-ros-50/",
+    "name": "Dragonair",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY6-050-dragonair.jpg",
+    "card_type": "Pokémon",
+    "set_name": "ROS",
+    "series": "XY",
+    "set_full_name": "Roaring Skies",
+    "set_code": "XY6",
+    "date": "May 6, 2015",
+    "number": "50",
+    "set_total": "108",
+    "rarity": "Uncommon",
+    "author": [
+        "Mizue"
+    ],
+    "flavor_text": "A mystical Pokémon that exudes a gentle aura. It is said to have the ability to change the weather.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Dragon"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Shed Skin",
+            "damage": null,
+            "effect": "Heal 30 damage from this Pokémon."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Slam",
+            "damage": {
+                "amount": 60,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 60 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fairy"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Dratini"
+}

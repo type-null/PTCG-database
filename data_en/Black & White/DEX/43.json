@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/galvantula-dark-explorers-dex-43/",
+    "name": "Galvantula",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW5-043-galvantula.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DEX",
+    "series": "Black & White",
+    "set_full_name": "Dark Explorers",
+    "set_code": "BW5",
+    "date": "May 9, 2012",
+    "number": "43",
+    "set_total": "108",
+    "rarity": "Rare",
+    "author": [
+        "Akira Komayama"
+    ],
+    "flavor_text": "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.",
+    "stage": "Stage 1",
+    "hp": 80,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Quick Turn",
+            "damage": null,
+            "effect": "Flip 2 coins. This attack does 20 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Electrisilk",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "If the Defending Pokémon has no Retreat Cost, this attack does 40 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Joltik"
+}

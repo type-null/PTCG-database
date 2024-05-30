@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/bellossom-boundaries-crossed-bcr-4/",
+    "name": "Bellossom",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW7-004-bellossom.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BCR",
+    "series": "Black & White",
+    "set_full_name": "Boundaries Crossed",
+    "set_code": "BW7",
+    "date": "Nov 7, 2012",
+    "number": "4",
+    "set_total": "149",
+    "rarity": "Rare",
+    "author": [
+        "Mizue"
+    ],
+    "flavor_text": "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
+    "stage": "Stage 2",
+    "hp": 110,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Grass Knot",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Does 20 more damage for each {C} in the Defending Pokémon’s Retreat Cost."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Petal Dance",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 50 damage times the number of heads. This Pokémon is now Confused."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Water"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Gloom"
+}

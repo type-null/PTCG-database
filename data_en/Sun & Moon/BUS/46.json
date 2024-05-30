@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/eelektross-burning-shadows-bus-46/",
+    "name": "Eelektross",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM3-046-eelektross.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BUS",
+    "series": "Sun & Moon",
+    "set_full_name": "Burning Shadows",
+    "set_code": "SM3",
+    "date": "Aug 4, 2017",
+    "number": "46",
+    "set_total": "147",
+    "rarity": "Rare",
+    "author": [
+        "hatachu"
+    ],
+    "flavor_text": "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.",
+    "stage": "Stage 2",
+    "hp": 140,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Dark Clamp",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "The Defending Pokémon can’t retreat during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Vacuum Bolt",
+            "damage": {
+                "amount": 80,
+                "suffix": "+"
+            },
+            "effect": "You may do 80 more damage. If you do, this attack does 80 damage to 1 of your Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Eelektrik"
+}

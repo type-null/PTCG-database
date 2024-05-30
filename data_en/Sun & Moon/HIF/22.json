@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/electrode-hidden-fates-hif-22/",
+    "name": "Electrode",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-HF-022-electrode.jpg",
+    "card_type": "Pokémon",
+    "set_name": "HIF",
+    "series": "Sun & Moon",
+    "set_full_name": "Hidden Fates",
+    "set_code": "HIF",
+    "date": "Aug 23, 2019",
+    "number": "22",
+    "set_total": "68",
+    "rarity": "Rare",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "flavor_text": "It explodes in response to even minor stimuli. It is feared, with the nickname of “The Bomb Ball.”",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Lightning Ball",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Electroblast",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip 2 coins. This attack does 30 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Voltorb"
+}

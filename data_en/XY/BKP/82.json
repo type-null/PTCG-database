@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/clefable-breakpoint-bkp-82/",
+    "name": "Clefable",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY9-082-clefable.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BKP",
+    "series": "XY",
+    "set_full_name": "BREAKpoint",
+    "set_code": "XY9",
+    "date": "Feb 3, 2016",
+    "number": "82",
+    "set_total": "122",
+    "rarity": "Rare",
+    "author": [
+        "Sanosuke Sakuma"
+    ],
+    "flavor_text": "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Fairy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fairy"
+            ],
+            "name": "Moon Barrier",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, prevent all effects of attacks, including damage, done to this Pokémon by {N} Pokémon."
+        },
+        {
+            "cost": [
+                "Fairy",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Tumbling Attack",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Darkness"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Clefairy"
+}

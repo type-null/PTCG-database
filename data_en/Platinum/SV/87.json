@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/wailmer-supreme-victors-sv-87/",
+    "name": "Wailmer",
+    "img": "https://pkmncards.com/wp-content/uploads/wailmer-supreme-victors-sv-87.jpg",
+    "card_type": "Pokémon",
+    "set_name": "SV",
+    "series": "Platinum",
+    "set_full_name": "Supreme Victors",
+    "set_code": "PL3",
+    "date": "Aug 19, 2009",
+    "number": "87",
+    "set_total": "147",
+    "rarity": "Uncommon",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "flavor_text": "On sunny days, it lands on beaches to bounce like a ball and play. It spouts water from its nose.",
+    "stage": "Basic",
+    "level": "10",
+    "hp": 80,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Hydro Pump",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Does 20 damage plus 10 more damage for each {W} Energy attached to Wailmer but not used to pay for this attack’s Energy cost. You can’t add more than 20 damage in this way."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Take Down",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Wailmer does 20 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3
+}

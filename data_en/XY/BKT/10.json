@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/quilladin-breakthrough-bkt-10/",
+    "name": "Quilladin",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-XY8-010-quilladin.jpg",
+    "card_type": "Pokémon",
+    "set_name": "BKT",
+    "series": "XY",
+    "set_full_name": "BREAKthrough",
+    "set_code": "XY8",
+    "date": "Nov 4, 2015",
+    "number": "10",
+    "set_total": "162",
+    "rarity": "Uncommon",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "flavor_text": "They strengthen their lower bodies by running into one another. They are very kind and won’t start fights.",
+    "stage": "Stage 1",
+    "hp": 90,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Tackle",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Pin Missile",
+            "damage": {
+                "amount": 40,
+                "suffix": "×"
+            },
+            "effect": "Flip 4 coins. This attack does 40 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Chespin"
+}

@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/skarmory-delta-species-ds-55/",
+    "name": "Skarmory",
+    "img": "https://pkmncards.com/wp-content/uploads/skarmory-delta-species-ds-55.jpg",
+    "card_type": "Pokémon",
+    "set_name": "DS",
+    "series": "EX",
+    "set_full_name": "Delta Species",
+    "set_code": "EX11",
+    "date": "Oct 31, 2005",
+    "number": "55",
+    "set_total": "113",
+    "rarity": "Uncommon",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "stage": "Basic",
+    "hp": 70,
+    "types": [
+        "Metal"
+    ],
+    "poke_body": {
+        "name": "Shining Horn",
+        "effect": "As long as Skarmory is the only Pokémon you have in play, your opponent’s Basic Pokémon can’t attack."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Cry for Help",
+            "damage": null,
+            "effect": "Search your deck for a {M} Pokémon (excluding Pokémon-ex), show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Steel Wing",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, any damage done to Skarmory by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1
+}

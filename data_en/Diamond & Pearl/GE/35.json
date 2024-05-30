@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/combusken-great-encounters-ge-35/",
+    "name": "Combusken",
+    "img": "https://pkmncards.com/wp-content/uploads/combusken-great-encounters-ge-35.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GE",
+    "series": "Diamond & Pearl",
+    "set_full_name": "Great Encounters",
+    "set_code": "DP4",
+    "date": "Feb 13, 2008",
+    "number": "35",
+    "set_total": "106",
+    "rarity": "Uncommon",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "flavor_text": "Its kicking mastery lets it loose 10 kicks per second. It emits sharp cries to intimidate foes.",
+    "stage": "Stage 1",
+    "level": "24",
+    "hp": 80,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Bulk Up",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "During your next turn, each of Combusken’s attacks does 30 more damage to the Defending Pokémon (before applying Weakness and Resistance)."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Double Kick",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 50 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Torchic"
+}

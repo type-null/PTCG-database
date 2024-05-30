@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/vanilluxe-noble-victories-nvi-29/",
+    "name": "Vanilluxe",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-BW3-029-vanilluxe.jpg",
+    "card_type": "Pokémon",
+    "set_name": "NVI",
+    "series": "Black & White",
+    "set_full_name": "Noble Victories",
+    "set_code": "BW3",
+    "date": "Nov 16, 2011",
+    "number": "29",
+    "set_total": "101",
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "If both heads get angry simultaneously, this Pokémon expels a blizzard, burying everything in snow.",
+    "stage": "Stage 2",
+    "hp": 130,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless"
+            ],
+            "name": "Double Freeze",
+            "damage": {
+                "amount": 40,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 40 damage times the number of heads. If either of them is heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water"
+            ],
+            "name": "Frost Breath",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Vanillish"
+}

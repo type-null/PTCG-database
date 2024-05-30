@@ -1,0 +1,67 @@
+{
+    "url": "https://pkmncards.com/card/charizard-arceus-ar-1/",
+    "name": "Charizard",
+    "img": "https://pkmncards.com/wp-content/uploads/charizard-arceus-ar-1.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AR",
+    "series": "Platinum",
+    "set_full_name": "Arceus",
+    "set_code": "PL4",
+    "date": "Nov 4, 2009",
+    "number": "1",
+    "set_total": "99",
+    "rarity": "Rare Holo",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "stage": "Stage 2",
+    "level": "60",
+    "hp": 140,
+    "types": [
+        "Fire"
+    ],
+    "poke_body": {
+        "name": "Fire Formation",
+        "effect": "Each of Charizard’s attacks does 10 more damage for each {R} Pokémon on your Bench to your opponent’s Active Pokémon (before applying Weakness and Resistance)."
+    },
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Fire Wing",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Burning Tail",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Discard a {R} Energy attached to Charizard."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Charmeleon"
+}

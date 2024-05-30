@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/electrike-arceus-ar-62/",
+    "name": "Electrike",
+    "img": "https://pkmncards.com/wp-content/uploads/electrike-arceus-ar-62.jpg",
+    "card_type": "Pokémon",
+    "set_name": "AR",
+    "series": "Platinum",
+    "set_full_name": "Arceus",
+    "set_code": "PL4",
+    "date": "Nov 4, 2009",
+    "number": "62",
+    "set_total": "99",
+    "rarity": "Common",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "flavor_text": "Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed.",
+    "stage": "Basic",
+    "level": "22",
+    "hp": 60,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Zap Kick",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunder Jolt",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, Electrike does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Metal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1
+}

@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/wailord-guardians-rising-gri-30/",
+    "name": "Wailord",
+    "img": "https://pkmncards.com/wp-content/uploads/en_US-SM2-030-wailord.jpg",
+    "card_type": "Pokémon",
+    "set_name": "GRI",
+    "series": "Sun & Moon",
+    "set_full_name": "Guardians Rising",
+    "set_code": "SM2",
+    "date": "May 5, 2017",
+    "number": "30",
+    "set_total": "145",
+    "rarity": "Rare",
+    "author": [
+        "OOYAMA"
+    ],
+    "flavor_text": "Wailord pursue their prey in pods. With their large mouths, they can swallow entire schools of Wishiwashi whole.",
+    "stage": "Stage 1",
+    "hp": 200,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Dive",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Open Sea",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Heal 30 damage from each of your {W} Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 4,
+    "evolve_from": "Wailmer"
+}

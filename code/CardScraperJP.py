@@ -551,5 +551,5 @@ class CardScraperJP(CardScraper):
         self.save_list_to_file(question_list, "logs/question_jp_id_list.txt")
         if scraped_list:
             self.upadte_readme(max(scraped_list))
-        logger.info(f"Searched {card_id - last_downloaded} cards; updated to card {card_id}.")
+        logger.info(f"Searched {card_id - last_downloaded} cards; checked up to card {card_id}.")
 

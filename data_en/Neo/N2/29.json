@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/scizor-neo-discovery-n2-29/",
+    "name": "Scizor",
+    "img": "https://pkmncards.com/wp-content/uploads/scizor-neo-discovery-29.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N2",
+    "series": "Neo",
+    "set_full_name": "Neo Discovery",
+    "set_code": "N2",
+    "date": "Jun 1, 2001",
+    "number": "29",
+    "set_total": "75",
+    "rarity": "Rare",
+    "author": [
+        "Kimiya Masago"
+    ],
+    "flavor_text": "It swings its eye patterned pincers up to scare its foes. This makes it look like it has three heads.",
+    "stage": "Stage 1",
+    "level": "43",
+    "hp": 80,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "False Swipe",
+            "damage": null,
+            "effect": "Does damage equal to half the Defending Pokémon’s remaining HP (rounded down to the nearest 10)."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Double Claw",
+            "damage": {
+                "amount": 20,
+                "suffix": "+"
+            },
+            "effect": "Flip 2 coins. This attack does 20 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Scyther"
+}

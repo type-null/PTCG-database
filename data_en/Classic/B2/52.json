@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/marowak-base-set-2-b2-52/",
+    "name": "Marowak",
+    "img": "https://pkmncards.com/wp-content/uploads/marowak-base-set-2-b2-52.jpg",
+    "card_type": "Pokémon",
+    "set_name": "B2",
+    "series": "Classic",
+    "set_full_name": "Base Set 2",
+    "set_code": "B2",
+    "date": "Feb 24, 2000",
+    "number": "52",
+    "set_total": "130",
+    "rarity": "Uncommon",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to K.O. targets.",
+    "stage": "Stage 1",
+    "level": "26",
+    "hp": 60,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Bonemerang",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 30 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting",
+                "Colorless"
+            ],
+            "name": "Call for Friend",
+            "damage": null,
+            "effect": "Search your deck for a {F} Basic Pokémon card and put it onto your Bench. Shuffle your deck afterward. (You can’t use this attack if your Bench is full.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Cubone"
+}

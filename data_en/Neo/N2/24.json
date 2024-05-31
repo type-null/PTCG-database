@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/houndour-neo-discovery-n2-24/",
+    "name": "Houndour",
+    "img": "https://pkmncards.com/wp-content/uploads/houndour-neo-discovery-24.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N2",
+    "series": "Neo",
+    "set_full_name": "Neo Discovery",
+    "set_code": "N2",
+    "date": "Jun 1, 2001",
+    "number": "24",
+    "set_total": "75",
+    "rarity": "Rare",
+    "author": [
+        "Aya Kusube"
+    ],
+    "flavor_text": "To corner prey, they check each other’s location using barks that only they can understand.",
+    "stage": "Basic",
+    "level": "22",
+    "hp": 50,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Smog",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire"
+            ],
+            "name": "Collect Fire",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "If there are any {R} Energy cards in your discard pile, choose 1 of them and attach it to Houndour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/cubone-base-set-2-b2-70/",
+    "name": "Cubone",
+    "img": "https://pkmncards.com/wp-content/uploads/cubone-base-set-2-b2-70.jpg",
+    "card_type": "Pokémon",
+    "set_name": "B2",
+    "series": "Classic",
+    "set_full_name": "Base Set 2",
+    "set_code": "B2",
+    "date": "Feb 24, 2000",
+    "number": "70",
+    "set_total": "130",
+    "rarity": "Common",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "Because it never removes its skull helmet, no one has ever seen this Pokémon’s real face.",
+    "stage": "Basic",
+    "level": "13",
+    "hp": 40,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Snivel",
+            "damage": null,
+            "effect": "If the Defending Pokémon attacks Cubone during your opponent’s next turn, any damage done by the attack is reduced by 20 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)"
+        },
+        {
+            "cost": [
+                "Fighting",
+                "Fighting"
+            ],
+            "name": "Rage",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Does 10 damage plus 10 more damage for each damage counter on Cubone."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1
+}

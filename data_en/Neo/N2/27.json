@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/politoed-neo-discovery-n2-27/",
+    "name": "Politoed",
+    "img": "https://pkmncards.com/wp-content/uploads/politoed-neo-discovery-27.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N2",
+    "series": "Neo",
+    "set_full_name": "Neo Discovery",
+    "set_code": "N2",
+    "date": "Jun 1, 2001",
+    "number": "27",
+    "set_total": "75",
+    "rarity": "Rare",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "flavor_text": "Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing.",
+    "stage": "Stage 2",
+    "level": "53",
+    "hp": 100,
+    "types": [
+        "Water"
+    ],
+    "abilities": [
+        {
+            "name": "Frog Song",
+            "effect": "Whenever Politoed’s attack damages the Defending Pokémon (after applying Weakness and Resistance), if there are more than 3 Poliwags, Poliwhirls, Poliwraths, and/or Politoeds in play (including your opponent’s), that attack does 40 more damage (no matter how many heads you get). This power stops working while Politoed is Asleep, Confused, or Paralyzed."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Doubleslap",
+            "damage": {
+                "amount": 40,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 40 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Poliwhirl"
+}

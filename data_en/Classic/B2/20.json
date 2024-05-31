@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/zapdos-base-set-2-b2-20/",
+    "name": "Zapdos",
+    "img": "https://pkmncards.com/wp-content/uploads/zapdos-base-set-2-b2-20.jpg",
+    "card_type": "Pokémon",
+    "set_name": "B2",
+    "series": "Classic",
+    "set_full_name": "Base Set 2",
+    "set_code": "B2",
+    "date": "Feb 24, 2000",
+    "number": "20",
+    "set_total": "130",
+    "rarity": "Rare Holo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "A legendary bird Pokémon said to appear from clouds while wielding enormous lightning bolts.",
+    "stage": "Basic",
+    "level": "64",
+    "hp": 90,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Thunder",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If tails, Zapdos does 30 damage to itself."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Lightning",
+                "Lightning"
+            ],
+            "name": "Thunderbolt",
+            "damage": {
+                "amount": 100,
+                "suffix": ""
+            },
+            "effect": "Discard all Energy cards attached to Zapdos in order to use this attack."
+        }
+    ],
+    "weakness": {
+        "type": [],
+        "value": null
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3
+}

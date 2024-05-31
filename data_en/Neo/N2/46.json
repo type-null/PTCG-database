@@ -1,0 +1,51 @@
+{
+    "url": "https://pkmncards.com/card/scyther-neo-discovery-n2-46/",
+    "name": "Scyther",
+    "img": "https://pkmncards.com/wp-content/uploads/scyther-neo-discovery-46.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N2",
+    "series": "Neo",
+    "set_full_name": "Neo Discovery",
+    "set_code": "N2",
+    "date": "Jun 1, 2001",
+    "number": "46",
+    "set_total": "75",
+    "rarity": "Uncommon",
+    "author": [
+        "Kimiya Masago"
+    ],
+    "flavor_text": "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
+    "stage": "Basic",
+    "level": "24",
+    "hp": 60,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Grass"
+            ],
+            "name": "Fury Cutter",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip 4 coins. This attack does 10 damage plus 10 more damage if exactly 1 is heads, or 20 more damage if exactly 2 are heads, or 40 more damage if exactly 3 are heads, or 80 more damage if all 4 are heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1
+}

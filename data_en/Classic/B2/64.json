@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/weepinbell-base-set-2-b2-64/",
+    "name": "Weepinbell",
+    "img": "https://pkmncards.com/wp-content/uploads/weepinbell-base-set-2-b2-64.jpg",
+    "card_type": "Pokémon",
+    "set_name": "B2",
+    "series": "Classic",
+    "set_full_name": "Base Set 2",
+    "set_code": "B2",
+    "date": "Feb 24, 2000",
+    "number": "64",
+    "set_total": "130",
+    "rarity": "Uncommon",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "It spits out poisonpowder to immobilize the enemy, and then finishes the enemy with a spray of acid.",
+    "stage": "Stage 1",
+    "level": "28",
+    "hp": 70,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Poisonpowder",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass"
+            ],
+            "name": "Razor Leaf",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Bellsprout"
+}

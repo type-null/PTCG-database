@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/beedrill-neo-discovery-n2-18/",
+    "name": "Beedrill",
+    "img": "https://pkmncards.com/wp-content/uploads/beedrill-neo-discovery-18.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N2",
+    "series": "Neo",
+    "set_full_name": "Neo Discovery",
+    "set_code": "N2",
+    "date": "Jun 1, 2001",
+    "number": "18",
+    "set_total": "75",
+    "rarity": "Rare",
+    "author": [
+        "Aya Kusube"
+    ],
+    "flavor_text": "It can take down any opponent with its powerful poison stingers. It sometimes attacks in swarms.",
+    "stage": "Stage 2",
+    "level": "36",
+    "hp": 80,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Triple Poison",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Poisoned. Your opponent now puts 3 damage counters on it instead of 1 after each player’s turn (even if it was already Poisoned)."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Pin Missile",
+            "damage": {
+                "amount": 20,
+                "suffix": "×"
+            },
+            "effect": "Flip 4 coins. This attack does 20 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 0,
+    "evolve_from": "Kakuna"
+}

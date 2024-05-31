@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/starmie-base-set-2-b2-94/",
+    "name": "Starmie",
+    "img": "https://pkmncards.com/wp-content/uploads/starmie-base-set-2-b2-94.jpg",
+    "card_type": "Pokémon",
+    "set_name": "B2",
+    "series": "Classic",
+    "set_full_name": "Base Set 2",
+    "set_code": "B2",
+    "date": "Feb 24, 2000",
+    "number": "94",
+    "set_total": "130",
+    "rarity": "Common",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "flavor_text": "Its central core glows with the seven colors of the rainbow. Some people value this core as a gem.",
+    "stage": "Stage 1",
+    "level": "28",
+    "hp": 60,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Water"
+            ],
+            "name": "Recover",
+            "damage": null,
+            "effect": "Discard 1 {W} Energy card attached to Starmie in order to use this attack. Remove all damage counters from Starmie."
+        },
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Star Freeze",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Staryu"
+}

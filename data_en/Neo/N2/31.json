@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/tyranitar-neo-discovery-n2-31/",
+    "name": "Tyranitar",
+    "img": "https://pkmncards.com/wp-content/uploads/tyranitar-neo-discovery-31.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N2",
+    "series": "Neo",
+    "set_full_name": "Neo Discovery",
+    "set_code": "N2",
+    "date": "Jun 1, 2001",
+    "number": "31",
+    "set_total": "75",
+    "rarity": "Rare",
+    "author": [
+        "Hironobu Yoshida"
+    ],
+    "flavor_text": "Its body can’t be harmed by any sort of attack, so it is very eager to make challenges against enemies.",
+    "stage": "Stage 2",
+    "level": "54",
+    "hp": 100,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Slam",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 30 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Trample",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "For each Benched Pokémon in play (yours and your opponent’s), flip a coin. If heads, this attack does 30 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [],
+        "value": null
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Pupitar"
+}

@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/poliwhirl-base-set-2-b2-57/",
+    "name": "Poliwhirl",
+    "img": "https://pkmncards.com/wp-content/uploads/poliwhirl-base-set-2-b2-57.jpg",
+    "card_type": "Pokémon",
+    "set_name": "B2",
+    "series": "Classic",
+    "set_full_name": "Base Set 2",
+    "set_code": "B2",
+    "date": "Feb 24, 2000",
+    "number": "57",
+    "set_total": "130",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "Capable of living in or out of water. When out of water, it sweats to keep its body slimy.",
+    "stage": "Stage 1",
+    "level": "28",
+    "hp": 60,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Water"
+            ],
+            "name": "Amnesia",
+            "damage": null,
+            "effect": "Choose 1 of the Defending Pokémon’s attacks. That Pokémon can’t use that attack during your opponent’s next turn."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Doubleslap",
+            "damage": {
+                "amount": 30,
+                "suffix": "×"
+            },
+            "effect": "Flip 2 coins. This attack does 30 damage times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Poliwag"
+}

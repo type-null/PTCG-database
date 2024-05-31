@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/arcanine-base-set-2-b2-33/",
+    "name": "Arcanine",
+    "img": "https://pkmncards.com/wp-content/uploads/arcanine-base-set-2-b2-33.jpg",
+    "card_type": "Pokémon",
+    "set_name": "B2",
+    "series": "Classic",
+    "set_full_name": "Base Set 2",
+    "set_code": "B2",
+    "date": "Feb 24, 2000",
+    "number": "33",
+    "set_total": "130",
+    "rarity": "Uncommon",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "flavor_text": "A Pokémon that has been long admired for its beauty. It runs gracefully, as if on wings.",
+    "stage": "Stage 1",
+    "level": "45",
+    "hp": 100,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless"
+            ],
+            "name": "Flamethrower",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Discard 1 {R} Energy card attached to Arcanine in order to use this attack."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Take Down",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Arcanine does 30 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Growlithe"
+}

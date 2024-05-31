@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/umbreon-neo-discovery-n2-32/",
+    "name": "Umbreon",
+    "img": "https://pkmncards.com/wp-content/uploads/umbreon-neo-discovery-32.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N2",
+    "series": "Neo",
+    "set_full_name": "Neo Discovery",
+    "set_code": "N2",
+    "date": "Jun 1, 2001",
+    "number": "32",
+    "set_total": "75",
+    "rarity": "Rare",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "flavor_text": "When agitated, this Pokémon protects itself by spraying poisonous sweat from its pores.",
+    "stage": "Stage 1",
+    "level": "33",
+    "hp": 70,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Quick Attack",
+            "damage": {
+                "amount": 10,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Pursuit",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, if the Defending Pokémon tries to retreat, do 10 damage to it. (Don’t apply Weakness and Resistance.)"
+        }
+    ],
+    "weakness": {
+        "type": [],
+        "value": null
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee"
+}

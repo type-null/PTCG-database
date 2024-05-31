@@ -1,0 +1,55 @@
+{
+    "url": "https://pkmncards.com/card/omanyte-neo-discovery-n2-60/",
+    "name": "Omanyte",
+    "img": "https://pkmncards.com/wp-content/uploads/omanyte-neo-discovery-60.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N2",
+    "series": "Neo",
+    "set_full_name": "Neo Discovery",
+    "set_code": "N2",
+    "date": "Jun 1, 2001",
+    "number": "60",
+    "set_total": "75",
+    "rarity": "Common",
+    "author": [
+        "Yuka Morii"
+    ],
+    "flavor_text": "Revived from an ancient fossil, this Pokémon uses air stored in its shell to sink and rise in water.",
+    "stage": "Stage 1",
+    "level": "21",
+    "hp": 50,
+    "types": [
+        "Fighting"
+    ],
+    "abilities": [
+        {
+            "name": "Revive Fossil",
+            "effect": "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a card that evolves from Mysterious Fossil and put it onto your Bench. Shuffle your deck afterward. Treat that card as a Basic Pokémon. This power can’t be used if Omanyte is Asleep, Confused, or Paralyzed (or if your Bench is full)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Bind",
+            "damage": {
+                "amount": 10,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Mysterious Fossil or Buried Fossil"
+}

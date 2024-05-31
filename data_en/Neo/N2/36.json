@@ -1,0 +1,60 @@
+{
+    "url": "https://pkmncards.com/card/yanma-neo-discovery-n2-36/",
+    "name": "Yanma",
+    "img": "https://pkmncards.com/wp-content/uploads/yanma-neo-discovery-36.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N2",
+    "series": "Neo",
+    "set_full_name": "Neo Discovery",
+    "set_code": "N2",
+    "date": "Jun 1, 2001",
+    "number": "36",
+    "set_total": "75",
+    "rarity": "Rare",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "flavor_text": "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
+    "stage": "Basic",
+    "level": "32",
+    "hp": 60,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Shockwave",
+            "damage": null,
+            "effect": "Flip a coin. If heads, this attack does 10 damage to each of your opponent’s Pokémon. Don’t apply Weakness and Resistance. Then, if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Grass",
+                "Grass"
+            ],
+            "name": "Swift",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "This attack’s damage isn’t affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 0
+}

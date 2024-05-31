@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/poliwhirl-neo-discovery-n2-44/",
+    "name": "Poliwhirl",
+    "img": "https://pkmncards.com/wp-content/uploads/poliwhirl-neo-discovery-44.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N2",
+    "series": "Neo",
+    "set_full_name": "Neo Discovery",
+    "set_code": "N2",
+    "date": "Jun 1, 2001",
+    "number": "44",
+    "set_total": "75",
+    "rarity": "Uncommon",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "flavor_text": "The swirl on its belly undulates. Staring at it may gradually cause drowsiness.",
+    "stage": "Stage 1",
+    "level": "35",
+    "hp": 70,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Belly Drum",
+            "damage": null,
+            "effect": "Put 3 damage counters on Poliwhirl. If this doesn’t Knock Out Poliwhirl, search your deck for 2 Basic Energy cards and attach them to Poliwhirl. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Water Gun",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Does 30 damage plus 10 more damage for each {W} Energy attached to Poliwhirl but not used to pay for this attack’s Energy cost. You can’t add more than 20 damage in this way."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Poliwag"
+}

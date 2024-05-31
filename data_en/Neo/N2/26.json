@@ -1,0 +1,57 @@
+{
+    "url": "https://pkmncards.com/card/magnemite-neo-discovery-n2-26/",
+    "name": "Magnemite",
+    "img": "https://pkmncards.com/wp-content/uploads/magnemite-neo-discovery-26.jpg",
+    "card_type": "Pokémon",
+    "set_name": "N2",
+    "series": "Neo",
+    "set_full_name": "Neo Discovery",
+    "set_code": "N2",
+    "date": "Jun 1, 2001",
+    "number": "26",
+    "set_total": "75",
+    "rarity": "Rare",
+    "author": [],
+    "flavor_text": "These Pokémon are attracted to electrical emissions and will often follow people using PokéGear.",
+    "stage": "Basic",
+    "level": "16",
+    "hp": 40,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Lock-on",
+            "damage": null,
+            "effect": "During your next turn, treat any tails flipped when using Magnemite’s Electric Bolt attack as if they were heads. (Benching or evolving either Pokémon ends this effect.)"
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Electric Bolt",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": "Flip 2 coins. If both are heads, the Defending Pokémon is now Paralyzed. If either of them is tails, this attack does nothing (not even damage)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1
+}

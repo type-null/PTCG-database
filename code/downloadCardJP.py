@@ -24,8 +24,8 @@ redo_list = [7008, 7009, 7013, 32295, 32318, 36704, 36903, 37194, 37371, 37396]
 
 scraper = CardScraperJP()
 if MODE == "BUILD":
-    scraper.assign_task(44944, 45843, overwrite=True)
-    # scraper.update()
+    # scraper.assign_task(44944, 45843, overwrite=True)
+    scraper.update()
 if MODE == "DEBUG":
     scraper.read_card(45806)
     # for card in redo_list:

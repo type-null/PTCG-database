@@ -118,6 +118,7 @@ class CardScraperJP(CardScraper):
             "ポケモンのどうぐ",
             "スタジアム",
             "ワザマシン",
+            "トレーナー", #error: 46029
         ]
         pokemon_types = ["特性", "ワザ", "進化", "古代能力", "GXワザ", "ポケパワー", "ポケボディー", "どうぐ", "きのみ"]
         if card_type in non_pokemon_types:

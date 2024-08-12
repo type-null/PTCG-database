@@ -1,0 +1,56 @@
+{
+    "url": "https://pkmncards.com/card/galvantula-shrouded-fable-sfa-002/",
+    "name": "Galvantula",
+    "img": "https://pkmncards.com/wp-content/uploads/sv6-5_en_002_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "H",
+    "set_name": "SFA",
+    "series": "Scarlet & Violet",
+    "set_full_name": "Shrouded Fable",
+    "set_code": "sv6-5",
+    "date": "Aug 2, 2024",
+    "number": "002",
+    "set_total": "064",
+    "rarity": "Uncommon",
+    "author": [
+        "mashu"
+    ],
+    "flavor_text": "It launches electrified fur from its abdomen as its means of attack. Opponents hit by the fur could be in for three full days and nights of paralysis.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Grass"
+    ],
+    "abilities": [
+        {
+            "name": "Compound Eyes",
+            "effect": "Attacks used by this Pokémon do 50 more damage to your opponent’s Active Pokémon that has an Ability (before applying Weakness and Resistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Shocking Web",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If this Pokémon has any {L} Energy attached, this attack does 80 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Joltik"
+}

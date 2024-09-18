@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/vikavolt-stellar-crown-scr-053/",
+    "name": "Vikavolt",
+    "img": "https://pkmncards.com/wp-content/uploads/sv7_en_053_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "H",
+    "set_name": "SCR",
+    "series": "Scarlet & Violet",
+    "set_full_name": "Stellar Crown",
+    "set_code": "sv7",
+    "date": "Sep 13, 2024",
+    "number": "053",
+    "set_total": "142",
+    "rarity": "Uncommon",
+    "author": [
+        "Shiburingaru"
+    ],
+    "flavor_text": "When carrying a Charjabug, Vikavolt can receive electricity from it and then rapidly fire powerful electromagnetic beams from its large jaws.",
+    "stage": "Stage 2",
+    "hp": 160,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Volt Switch",
+            "damage": {
+                "amount": 90,
+                "suffix": ""
+            },
+            "effect": "Switch this Pokémon with 1 of your Benched {L} Pokémon."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Sparking Strike",
+            "damage": {
+                "amount": 240,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Charjabug"
+}

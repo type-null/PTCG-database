@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/marowak-stellar-crown-scr-073/",
+    "name": "Marowak",
+    "img": "https://pkmncards.com/wp-content/uploads/sv7_en_073_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "H",
+    "set_name": "SCR",
+    "series": "Scarlet & Violet",
+    "set_full_name": "Stellar Crown",
+    "set_code": "sv7",
+    "date": "Sep 13, 2024",
+    "number": "073",
+    "set_total": "142",
+    "rarity": "Uncommon",
+    "author": [
+        "cochi8i"
+    ],
+    "flavor_text": "This Pokémon overcame its sorrow to evolve a sturdy new body. Marowak faces its opponents bravely, using a bone as a weapon.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Fighting"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fighting"
+            ],
+            "name": "Growl",
+            "damage": null,
+            "effect": "During your opponent’s next turn, attacks used by the Defending Pokémon do 40 less damage (before applying Weakness and Resistance)."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Bone Vengeance",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "If any of your Benched Cubone have any damage counters on them, this attack does 120 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Cubone"
+}

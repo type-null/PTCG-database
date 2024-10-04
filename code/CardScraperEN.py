@@ -4,6 +4,7 @@
     May 29, 2024 by Weihang
 """
 
+import os
 import re
 import bs4
 import logging
@@ -362,6 +363,25 @@ class CardScraperEN(CardScraper):
         logger.info(f"Scraped {len(cards)} cards from set: {set_name}.")
 
         return card_id
+    
+    def scrape_existed_set(self, set_name):
+        card_id = None
+        # specifically for SVP, needs to change for the next era
+        folder = "data_en/Scarlet & Violet/SVP/"
+        existed_cards = {filename[:-5] for filename in os.listdir(folder) if filename.endswith('.json')}
+
+        set_link = f"https://pkmncards.com/set/{set_name}/"
+        content = self.get_content(set_link)
+        soup = bs4.BeautifulSoup(content, "html.parser")
+        cards = [a["href"] for a in soup.find("main", class_="content").find_all("a") if a["href"].split("svp-")[1].split("/")[0] not in existed_cards]
+
+        for url in tqdm(cards, desc=f"Downloading {set_name}"):
+            card_id = self.read_card(url)
+
+        self.save_list_to_file([set_name], "logs/scraped_en_set_list.txt")
+        logger.info(f"Scraped {len(cards)} cards from set: {set_name}.")
+
+        return card_id
 
     def update(self):
         """
@@ -383,11 +403,14 @@ class CardScraperEN(CardScraper):
 
         scraped = 0
         # need to update promo sets sometimes
-        # self.scrape_set("scarlet-violet-promos")
         for s in set_list:
             if s not in downloaded_sets:
                 last_id = self.scrape_set(s)
                 self.upadte_readme(last_id, lang="en")
                 downloaded_sets.add(s)
+                scraped += 1
+            elif s == "scarlet-violet-promos":
+                last_id = self.scrape_existed_set(s)
+                self.upadte_readme(last_id, lang="en")
                 scraped += 1
         logger.info(f"Searched {len(set_list)} sets; downloaded {scraped} sets.")

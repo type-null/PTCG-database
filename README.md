@@ -180,7 +180,7 @@ English Rarity key, SV1-onwards:
     - Card content: [`data_en/`](data_en/)
         - `/data_en/series/set_name/<individual-card>.json`
         - `series` and `set_name` are automatically scraped from the set image under the card image shown on the webpage
-		- Last en downloaded time: October 04, 2024
+		- Last en downloaded time: October 07, 2024
 		- Last en downloaded card_id: SVP128
 
     - Logs: [`logs/`](logs/)

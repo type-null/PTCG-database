@@ -230,7 +230,7 @@ class Card:
             card_dict["tags"] = self.tags
         if hasattr(self, "regulation"):
             card_dict["regulation"] = self.regulation
-        if hasattr(self, "set_name"):
+        if hasattr(self, "set_name") and card_dict["set_name"] != "":
             card_dict["set_name"] = self.set_name
             if self.set_img:
                 card_dict["set_img"] = self.set_img

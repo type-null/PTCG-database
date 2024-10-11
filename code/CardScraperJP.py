@@ -288,37 +288,37 @@ class CardScraperJP(CardScraper):
                 ability_name = area.find_next("h4").get_text().strip()
                 ability_effect = self.read_text(area.find_next("p"))
                 card.add_ability(ability_name, ability_effect)
-                logger.debug(f"ability [{card.abilities[-1]["name"]}]: {card.abilities[-1]["effect"]}")
+                logger.debug(f'ability [{card.abilities[-1]["name"]}]: {card.abilities[-1]["effect"]}')
                 continue
             if area_name == "古代能力":
                 trait_name = area.find_next("h4").get_text().strip()
                 trait_effect = self.read_text(area.find_next("p"))
                 card.set_ancient_trait(trait_name, trait_effect)
-                logger.debug(f"ancient trait [{card.ancient_trait["name"]}]: {card.ancient_trait["effect"]}")
+                logger.debug(f'ancient trait [{card.ancient_trait["name"]}]: {card.ancient_trait["effect"]}')
                 continue
             if area_name == "ポケパワー":
                 poke_power_name = area.find_next("h4").get_text().strip()
                 poke_power_effect = self.read_text(area.find_next("p"))
                 card.set_poke_power(poke_power_name, poke_power_effect)
-                logger.debug(f"poke power [{card.poke_power["name"]}]: {card.poke_power["effect"]}")
+                logger.debug(f'poke power [{card.poke_power["name"]}]: {card.poke_power["effect"]}')
                 continue
             if area_name == "ポケボディー":
                 poke_body_name = area.find_next("h4").get_text().strip()
                 poke_body_effect = self.read_text(area.find_next("p"))
                 card.set_poke_body(poke_body_name, poke_body_effect)
-                logger.debug(f"poke body [{card.poke_body["name"]}]: {card.poke_body["effect"]}")
+                logger.debug(f'poke body [{card.poke_body["name"]}]: {card.poke_body["effect"]}')
                 continue
             if area_name == "どうぐ":
                 item = area.find_next("h4").get_text().strip()
                 item_effect = self.read_text(area.find_next("p"))
                 card.set_held_item(item, item_effect)
-                logger.debug(f"held item [{card.held_item["item"]}]: {card.held_item["effect"]}")
+                logger.debug(f'held item [{card.held_item["item"]}]: {card.held_item["effect"]}')
                 continue
             if area_name == "きのみ":
                 berry = area.find_next("h4").get_text().strip()
                 berry_effect = self.read_text(area.find_next("p"))
                 card.set_held_berry(berry, berry_effect)
-                logger.debug(f"held berry [{card.held_berry["berry"]}]: {card.held_berry["effect"]}")
+                logger.debug(f'held berry [{card.held_berry["berry"]}]: {card.held_berry["effect"]}')
                 continue
             if area_name in ["ワザ", "GXワザ"]:
                 next_h2 = area.find_next("h2")
@@ -339,7 +339,7 @@ class CardScraperJP(CardScraper):
                     attack_name = attack.get_text().strip().split(' ')[0].strip()
                     attack_effect = self.read_text(attack.find_next("p"))
                     card.add_attack(attack_cost, attack_name, attack_damage, attack_effect)
-                    logger.debug(f"attack [{card.attacks[-1]["name"]}]: {card.attacks[-1]["cost"]}: {card.attacks[-1]["damage"]}: {card.attacks[-1]["effect"]}")
+                    logger.debug(f'attack [{card.attacks[-1]["name"]}]: {card.attacks[-1]["cost"]}: {card.attacks[-1]["damage"]}: {card.attacks[-1]["effect"]}')
                 continue
             if area_name == "VSTARパワー":
                 vstar_type = area.find_next("h4").get_text().strip()
@@ -458,7 +458,7 @@ class CardScraperJP(CardScraper):
                 else:
                     link_url = None
                 card.add_source(li_tag.get_text().strip(), link_url)
-                logger.debug(f"source: [{card.sources[-1]["name"]}]({card.sources[-1]["link"]})")
+                logger.debug(f'source: [{card.sources[-1]["name"]}]({card.sources[-1]["link"]})')
 
         card.save()
         del card

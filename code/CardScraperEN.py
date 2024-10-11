@@ -81,35 +81,35 @@ class CardScraperEN(CardScraper):
         ability_name = row1.split("⇢ ")[1]
         ability_effect = row2
         card.add_ability(ability_name, ability_effect)
-        logger.debug(f"ability [{card.abilities[-1]["name"]}]: {card.abilities[-1]["effect"]}")
+        logger.debug(f'ability [{card.abilities[-1]["name"]}]: {card.abilities[-1]["effect"]}')
 
     def get_poke_power(self, card, text):
         row1, row2 = text.split("\n")
         poke_power_name = row1.split("⇢ ")[1]
         poke_power_effect = row2
         card.set_poke_power(poke_power_name, poke_power_effect)
-        logger.debug(f"poke power [{card.poke_power["name"]}]: {card.poke_power["effect"]}")
+        logger.debug(f'poke power [{card.poke_power["name"]}]: {card.poke_power["effect"]}')
 
     def get_poke_body(self, card, text):
         row1, row2 = text.split("\n")
         poke_body_name = row1.split("⇢ ")[1]
         poke_body_effect = row2
         card.set_poke_body(poke_body_name, poke_body_effect)
-        logger.debug(f"poke body [{card.poke_body["name"]}]: {card.poke_body["effect"]}")
+        logger.debug(f'poke body [{card.poke_body["name"]}]: {card.poke_body["effect"]}')
 
     def get_ancient_trait(self, card, text):
         row1, row2 = text.split("\n")
         trait_name = row1.split("⇢ ")[1]
         trait_effect = row2
         card.set_ancient_trait(trait_name, trait_effect)
-        logger.debug(f"ancient trait [{card.ancient_trait["name"]}]: {card.ancient_trait["effect"]}")
+        logger.debug(f'ancient trait [{card.ancient_trait["name"]}]: {card.ancient_trait["effect"]}')
 
     def get_held_item(self, card, text):
         row1, row2 = text.split("\n")
         item = row1.split("⇢ ")[1]
         item_effect = row2
         card.set_held_item(item, item_effect)
-        logger.debug(f"held item [{card.held_item["item"]}]: {card.held_item["effect"]}")
+        logger.debug(f'held item [{card.held_item["item"]}]: {card.held_item["effect"]}')
 
     def get_attack(self, card, p_tag):
         first_span = p_tag.find("abbr").find_next_sibling("span")
@@ -129,7 +129,7 @@ class CardScraperEN(CardScraper):
         attack_name = row1.split("→ ")[1].split(" :")[0].strip().replace("-GX", " GX")
         attack_effect = row2
         card.add_attack(attack_cost, attack_name, attack_damage, attack_effect)
-        logger.debug(f"attack [{card.attacks[-1]["name"]}]: {card.attacks[-1]["cost"]}: {card.attacks[-1]["damage"]}: {card.attacks[-1]["effect"]}")
+        logger.debug(f'attack [{card.attacks[-1]["name"]}]: {card.attacks[-1]["cost"]}: {card.attacks[-1]["damage"]}: {card.attacks[-1]["effect"]}')
 
     def get_vstar_power(self, card, p_tag, tool=False):
         if p_tag.find("a") and p_tag.find("a").get_text() == "Ability":

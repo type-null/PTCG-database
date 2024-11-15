@@ -1,0 +1,65 @@
+{
+    "url": "https://pkmncards.com/card/magnezone-surging-sparks-ssp-060/",
+    "name": "Magnezone",
+    "img": "https://pkmncards.com/wp-content/uploads/sv8_en_060_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "H",
+    "set_name": "SSP",
+    "series": "Scarlet & Violet",
+    "set_full_name": "Surging Sparks",
+    "set_code": "sv8",
+    "date": "Nov 8, 2024",
+    "number": "060",
+    "set_total": "191",
+    "rarity": "Uncommon",
+    "author": [
+        "Po-Suzuki"
+    ],
+    "flavor_text": "Exposure to a special magnetic field changed Magneton’s molecular structure, turning it into Magnezone.",
+    "stage": "Stage 2",
+    "hp": 170,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Mighty Magnetism",
+            "damage": {
+                "amount": 80,
+                "suffix": ""
+            },
+            "effect": "Your opponent’s Active Pokémon is now Confused. During your opponent’s next turn, that Pokémon can’t retreat."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Zap Cannon",
+            "damage": {
+                "amount": 180,
+                "suffix": ""
+            },
+            "effect": "During your next turn, this Pokémon can’t use Zap Cannon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Magneton"
+}

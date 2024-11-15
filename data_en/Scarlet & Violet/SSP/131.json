@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/gholdengo-surging-sparks-ssp-131/",
+    "name": "Gholdengo",
+    "img": "https://pkmncards.com/wp-content/uploads/sv8_en_131_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "H",
+    "set_name": "SSP",
+    "series": "Scarlet & Violet",
+    "set_full_name": "Surging Sparks",
+    "set_code": "sv8",
+    "date": "Nov 8, 2024",
+    "number": "131",
+    "set_total": "191",
+    "rarity": "Uncommon",
+    "author": [
+        "Dsuke"
+    ],
+    "flavor_text": "It has a sturdy body made up of stacked coins. Gholdengo overwhelms its enemies by firing coin after coin at them in quick succession.",
+    "stage": "Stage 1",
+    "hp": 130,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Strike It Rich",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "If this Pokémon evolved from Gimmighoul during this turn, this attack does 90 more damage."
+        },
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Surf Back",
+            "damage": {
+                "amount": 100,
+                "suffix": ""
+            },
+            "effect": "You may shuffle this Pokémon and all attached cards into your deck."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Gimmighoul"
+}

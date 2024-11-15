@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/tapu-koko-surging-sparks-ssp-065/",
+    "name": "Tapu Koko",
+    "img": "https://pkmncards.com/wp-content/uploads/sv8_en_065_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "H",
+    "set_name": "SSP",
+    "series": "Scarlet & Violet",
+    "set_full_name": "Surging Sparks",
+    "set_code": "sv8",
+    "date": "Nov 8, 2024",
+    "number": "065",
+    "set_total": "191",
+    "rarity": "Rare",
+    "author": [
+        "Souichirou Gunjima"
+    ],
+    "flavor_text": "Although it’s called a guardian deity, if a person or Pokémon puts it in a bad mood, it will become a malevolent deity and attack.",
+    "stage": "Basic",
+    "hp": 120,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Summon Lightning",
+            "damage": null,
+            "effect": "Search your deck for up to 2 {L} Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Prize Count",
+            "damage": {
+                "amount": 90,
+                "suffix": "+"
+            },
+            "effect": "If you have more Prize cards remaining than your opponent, this attack does 90 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1
+}

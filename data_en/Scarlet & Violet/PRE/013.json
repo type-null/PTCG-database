@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/flareon-prismatic-evolutions-pre-013/",
+    "name": "Flareon",
+    "img": "https://pkmncards.com/wp-content/uploads/sv8-5_en_013_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "G",
+    "set_name": "PRE",
+    "series": "Scarlet & Violet",
+    "set_full_name": "Prismatic Evolutions",
+    "set_code": "sv8-5",
+    "date": "Jan 17, 2025",
+    "number": "013",
+    "set_total": "131",
+    "rarity": "Rare",
+    "author": [
+        "Ryota Murayama"
+    ],
+    "flavor_text": "Inhaled air is carried to its flame sac, heated, and exhaled as fire that reaches over 3,000 degrees Fahrenheit.",
+    "stage": "Stage 1",
+    "hp": 130,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Destructive Flame",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Fighting Blaze",
+            "damage": {
+                "amount": 90,
+                "suffix": "+"
+            },
+            "effect": "If your opponent’s Active Pokémon is a Pokémon ex or Pokémon V, this attack does 90 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Eevee"
+}

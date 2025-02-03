@@ -146,7 +146,7 @@ Gender symbols: E.g., [Nidoran♀](https://www.pokemon-card.com/card-search/deta
 |♂      |\u2642       |
 
 English Rarity key, SV1-onwards:
-| <img src="img/rarities/black_star_promo.svg" alt="promo" width="30"> | <img src="img/rarities/common.svg" alt="common" width="30"> | <img src="img/rarities/uncommon.svg" alt="uncommon" width="30"> | <img src="img/rarities/rare.svg" alt="rare" width="30"> | <img src="img/rarities/double_rare.svg" alt="double_rare" width="30"> | <img src="img/rarities/ultra_rare.svg" alt="ultra_rare" width="30"> | <img src="img/rarities/illustration_rare.svg" alt="illustration_rare" width="30"> | <img src="img/rarities/special_illustration_rare.svg" alt="special_illustration_rare" width="30"> | <img src="img/rarities/hyper_rare.svg" alt="hyper_rare" width="30"> | <img src="img/rarities/shiny_rare.svg" alt="shiny_rare" width="30"> | <img src="img/rarities/shiny_ultra_rare.svg" alt="shiny_ultra_rare" width="30"> | [ACE]         |
+| <img src="img/rarities/black_star_promo.svg" alt="promo" width="30"> | <img src="img/rarities/common.svg" alt="common" width="30"> | <img src="img/rarities/uncommon.svg" alt="uncommon" width="30"> | <img src="img/rarities/rare.svg" alt="rare" width="30"> | <img src="img/rarities/double_rare.svg" alt="double_rare" width="30"> | <img src="img/rarities/ultra_rare.svg" alt="ultra_rare" width="30"> | <img src="img/rarities/illustration_rare.svg" alt="illustration_rare" width="30"> | <img src="img/rarities/special_illustration_rare.svg" alt="special_illustration_rare" width="30"> | <img src="img/rarities/hyper_rare.svg" alt="hyper_rare" width="30"> | <img src="img/rarities/shiny_rare.svg" alt="shiny_rare" width="30"> | <img src="img/rarities/shiny_ultra_rare.svg" alt="shiny_ultra_rare" width="30"> | <img src="img/rarities/ace_spec_rare.svg" alt="shiny_ultra_rare" width="30"> |
 |-------------------------------------------------------------------------|--------------------------------------------------------------|----------------------------------------------------------------------|------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|----------------------------------------------------------------------|----------------------------------------------------------------------|----------------------------------------------------------------------------------|---------------|
 | promo                                                                   | common                                                       | uncommon                                                             | rare                                           | double rare                                                               | ultra rare                                                           | illustration rare                                                             | special illustration rare                                                                 | hyper rare                                                           | shiny rare                                                           | shiny ultra rare                                                     | ace spec rare |
 
@@ -158,8 +158,8 @@ English Rarity key, SV1-onwards:
     - Card content: [`data_jp/`](data_jp/)
         - `/data_jp/set_name/<individual-card>.json`
         - `set_name` is automatically scraped from the set image under the card image shown on the webpage
-		- Last jp downloaded time: November 15, 2024
-		- Last jp downloaded card_id: 46661
+		- Last jp downloaded time: February 03, 2025
+		- Last jp downloaded card_id: 47220
     - Logs: [`logs/`](logs/)
         - [scrape_jp_log](logs/scrape_jp_log.log): Information on scraping cards
         - [log_file](logs/log_file.log): for debugging
@@ -180,7 +180,7 @@ English Rarity key, SV1-onwards:
     - Card content: [`data_en/`](data_en/)
         - `/data_en/series/set_name/<individual-card>.json`
         - `series` and `set_name` are automatically scraped from the set image under the card image shown on the webpage
-		- Last en downloaded time: November 15, 2024
+		- Last en downloaded time: February 03, 2025
 		- Last en downloaded card_id: SVP128
 
     - Logs: [`logs/`](logs/)

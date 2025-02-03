@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/jolteon-prismatic-evolutions-pre-029/",
+    "name": "Jolteon",
+    "img": "https://pkmncards.com/wp-content/uploads/sv8-5_en_029_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "G",
+    "set_name": "PRE",
+    "series": "Scarlet & Violet",
+    "set_full_name": "Prismatic Evolutions",
+    "set_code": "sv8-5",
+    "date": "Jan 17, 2025",
+    "number": "029",
+    "set_total": "131",
+    "rarity": "Rare",
+    "author": [
+        "sui"
+    ],
+    "flavor_text": "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts.",
+    "stage": "Stage 1",
+    "hp": 110,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Linear Attack",
+            "damage": null,
+            "effect": "This attack does 30 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Fighting Lightning",
+            "damage": {
+                "amount": 90,
+                "suffix": "+"
+            },
+            "effect": "If your opponent’s Active Pokémon is a Pokémon ex or Pokémon V, this attack does 90 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 0,
+    "evolve_from": "Eevee"
+}

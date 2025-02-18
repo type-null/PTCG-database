@@ -8,6 +8,14 @@ Card information for Pokemon TCG. Potential use for data analysis.
 
 >Official and unofficial sources, such as tcgo, tcgl, carddex, pokemon.com, pkmncards.com, etc. ([malie.io](https://malie.io/static/draft/html/pkproto_sv.html))
 
+### TCG Pocket
+
+Add TCG Pocket data on Feb 18, 2025. 
+
+It is a [simplified version](https://game8.co/games/Pokemon-TCG-Pocket/archives/474638) of Pokémon TCG, which makes it a better case to test [RL in PTCG](https://github.com/type-null/PTCG-ai).
+
+Source: [limitlesstcg.com](https://pocket.limitlesstcg.com/cards) (English)
+
 ### English version
 
 Info source: [pkmncards](www.pkmncards.com)
@@ -150,6 +158,12 @@ English Rarity key, SV1-onwards:
 |-------------------------------------------------------------------------|--------------------------------------------------------------|----------------------------------------------------------------------|------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|----------------------------------------------------------------------|----------------------------------------------------------------------|----------------------------------------------------------------------------------|---------------|
 | promo                                                                   | common                                                       | uncommon                                                             | rare                                           | double rare                                                               | ultra rare                                                           | illustration rare                                                             | special illustration rare                                                                 | hyper rare                                                           | shiny rare                                                           | shiny ultra rare                                                     | ace spec rare |
 
+
+Pocket Rarity key:
+|`Empty`|<img src="img/rarities/pocket/diamond.png" alt="1_diamond" width="20">|<img src="img/rarities/pocket/diamond.png" alt="1_diamond" width="20"><img src="img/rarities/pocket/diamond.png" alt="1_diamond" width="20">|<img src="img/rarities/pocket/diamond.png" alt="1_diamond" width="20"><img src="img/rarities/pocket/diamond.png" alt="1_diamond" width="20"><img src="img/rarities/pocket/diamond.png" alt="1_diamond" width="20">|<img src="img/rarities/pocket/diamond.png" alt="1_diamond" width="20"><img src="img/rarities/pocket/diamond.png" alt="1_diamond" width="20"><img src="img/rarities/pocket/diamond.png" alt="1_diamond" width="20"><img src="img/rarities/pocket/diamond.png" alt="1_diamond" width="20">|<img src="img/rarities/pocket/star.png" alt="1_star" width="20">|<img src="img/rarities/pocket/star.png" alt="1_star" width="20"><img src="img/rarities/pocket/star.png" alt="1_star" width="20">|<img src="img/rarities/pocket/star.png" alt="1_star" width="20"><img src="img/rarities/pocket/star.png" alt="1_star" width="20"><img src="img/rarities/pocket/star.png" alt="1_star" width="20">|<img src="img/rarities/pocket/crown.png" alt="crown" width="20">|
+|-|-|-|-|-|-|-|-|-|
+|promo|1 diamond|2 diamond|3 diamond| 4 diamond|1 star|2 star|3 star|crown|
+
 ## Downloaded data
 
 ### Japanese version
@@ -187,3 +201,18 @@ English Rarity key, SV1-onwards:
         - [scrape_en_log](logs/scrape_en_log.log): Information on scraping cards
         - [log_file](logs/log_file.log): for debugging
         - [scraped_en_set_list](logs/scraped_en_set_list.txt): set names for downloaded cards
+
+
+### TCG Pocket
+
+- Info
+    - Card content: [`data_pocket/`](data_pocket/)
+        - `/data_pocket/series/set_name/<individual-card>.json`
+        - `series` and `set_name` are automatically scraped from the set image under the card image shown on the webpage
+		- Last pocket downloaded time: February 18, 2025
+		- Last pocket downloaded card_id: SVP128
+
+    - Logs: [`logs/`](logs/)
+        - [scrape_pocket_log](logs/scrape_en_log.log): Information on scraping cards
+        - [log_file](logs/log_file.log): for debugging
+        - [scraped_pocket_set_list](logs/scraped_pocket_set_list.txt): set names for downloaded cards

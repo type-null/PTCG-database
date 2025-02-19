@@ -1,5 +1,9 @@
 # Pokémon Card Database
 
+![EN version](https://img.shields.io/badge/EN-Prismatic_Evolutions-22498e)
+![JP version](https://img.shields.io/badge/JP-SV9_バトルパートナーズー-caaf2a)
+![Pocket version](https://img.shields.io/badge/Pocket-A2-3ecaf2)
+
 Card information for Pokemon TCG. Potential use for data analysis.
 
 
@@ -216,3 +220,7 @@ Pocket Rarity key:
         - [scrape_pocket_log](logs/scrape_en_log.log): Information on scraping cards
         - [log_file](logs/log_file.log): for debugging
         - [scraped_pocket_set_list](logs/scraped_pocket_set_list.txt): set names for downloaded cards
+
+## Maintainer
+
+This project is maintained and developed by [type-null](https://github.com/type-null).

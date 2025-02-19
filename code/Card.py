@@ -100,6 +100,10 @@ class Card:
         self.number = num
         self.set_total = tot
 
+    def set_sub_pack(self, pack):
+        # TCG Pocket sub pack
+        self.pack = pack
+
     def set_rarity(self, rarity, url=None):
         self.rarity = rarity
         self.rarity_img = url
@@ -244,6 +248,9 @@ class Card:
         if hasattr(self, "number"):
             card_dict["number"] = self.number
             card_dict["set_total"] = self.set_total
+        if hasattr(self, "pack"):
+            # TCG Pocket sub-pack
+            card_dict["pack"] = self.pack
         if hasattr(self, "rarity"):
             card_dict["rarity"] = self.rarity
             if self.rarity_img:

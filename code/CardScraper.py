@@ -45,6 +45,13 @@ class CardScraper:
         else:
             return None
 
+    def get_downloaded_set_list(self, lang="en"):
+        downloaded_list = set()
+        with open(f"logs/scraped_{lang}_set_list.txt", "r") as file:
+            for line in file:
+                downloaded_list.add(line.strip())
+        return downloaded_list
+
     def save_list_to_file(self, array, output_file):
         file_exists = True
         known_list = set()
@@ -70,9 +77,12 @@ class CardScraper:
         if lang == "jp":
             date_pattern = re.compile(r"Last jp downloaded time: .+")
             card_id_pattern = re.compile(r"Last jp downloaded card_id: \d+")
-        else:
+        elif lang == "en":
             date_pattern = re.compile(r"Last en downloaded time: .+")
-            card_id_pattern = re.compile(r"Last en downloaded card_id: \d+")
+            card_id_pattern = re.compile(r"Last en downloaded card_id: \S+")
+        elif lang == "pocket":
+            date_pattern = re.compile(r"Last pocket downloaded time: .+")
+            card_id_pattern = re.compile(r"Last pocket downloaded card_id: \S+")
 
         current_date = datetime.now().strftime("%B %d, %Y")
 

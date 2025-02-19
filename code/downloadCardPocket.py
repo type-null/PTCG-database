@@ -8,7 +8,7 @@ from CardScraperPocket import CardScraperPocket
 import logging
 
 MODE = "DEBUG"
-# MODE = "BUILD"
+MODE = "BUILD"
 
 logging.basicConfig(
     filename="logs/log_file.log" if MODE == "DEBUG" else "logs/scrape_pocket_log.log",
@@ -21,9 +21,9 @@ logger = logging.getLogger(__name__)
 
 scraper = CardScraperPocket()
 
-# if MODE == "BUILD":
-#     scraper.update()
+if MODE == "BUILD":
+    scraper.update()
 if MODE == "DEBUG":
-    card_link = "https://pocket.limitlesstcg.com/cards/A2/60"
+    card_link = "https://pocket.limitlesstcg.com/cards/A2/129"
     scraper.read_card(card_link)
     # scraper.scrape_set("legendary-collection")

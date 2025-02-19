@@ -81,42 +81,54 @@ class CardScraperEN(CardScraper):
         ability_name = row1.split("⇢ ")[1]
         ability_effect = row2
         card.add_ability(ability_name, ability_effect)
-        logger.debug(f"ability [{card.abilities[-1]["name"]}]: {card.abilities[-1]["effect"]}")
+        logger.debug(
+            f"ability [{card.abilities[-1]["name"]}]: {card.abilities[-1]["effect"]}"
+        )
 
     def get_poke_power(self, card, text):
         row1, row2 = text.split("\n")
         poke_power_name = row1.split("⇢ ")[1]
         poke_power_effect = row2
         card.set_poke_power(poke_power_name, poke_power_effect)
-        logger.debug(f"poke power [{card.poke_power["name"]}]: {card.poke_power["effect"]}")
+        logger.debug(
+            f"poke power [{card.poke_power["name"]}]: {card.poke_power["effect"]}"
+        )
 
     def get_poke_body(self, card, text):
         row1, row2 = text.split("\n")
         poke_body_name = row1.split("⇢ ")[1]
         poke_body_effect = row2
         card.set_poke_body(poke_body_name, poke_body_effect)
-        logger.debug(f"poke body [{card.poke_body["name"]}]: {card.poke_body["effect"]}")
+        logger.debug(
+            f"poke body [{card.poke_body["name"]}]: {card.poke_body["effect"]}"
+        )
 
     def get_ancient_trait(self, card, text):
         row1, row2 = text.split("\n")
         trait_name = row1.split("⇢ ")[1]
         trait_effect = row2
         card.set_ancient_trait(trait_name, trait_effect)
-        logger.debug(f"ancient trait [{card.ancient_trait["name"]}]: {card.ancient_trait["effect"]}")
+        logger.debug(
+            f"ancient trait [{card.ancient_trait["name"]}]: {card.ancient_trait["effect"]}"
+        )
 
     def get_held_item(self, card, text):
         row1, row2 = text.split("\n")
         item = row1.split("⇢ ")[1]
         item_effect = row2
         card.set_held_item(item, item_effect)
-        logger.debug(f"held item [{card.held_item["item"]}]: {card.held_item["effect"]}")
+        logger.debug(
+            f"held item [{card.held_item["item"]}]: {card.held_item["effect"]}"
+        )
 
     def get_attack(self, card, p_tag):
         first_span = p_tag.find("abbr").find_next_sibling("span")
-        attack_cost = [abbr["title"] for abbr in first_span.find_previous_siblings('abbr')][::-1]
+        attack_cost = [
+            abbr["title"] for abbr in first_span.find_previous_siblings("abbr")
+        ][::-1]
         p_tag_content = p_tag.get_text().strip()
         if "\n" in p_tag_content:
-            row1, row2 = p_tag_content.split('\n')
+            row1, row2 = p_tag_content.split("\n")
         else:
             row1 = p_tag_content
             row2 = None
@@ -129,7 +141,9 @@ class CardScraperEN(CardScraper):
         attack_name = row1.split("→ ")[1].split(" :")[0].strip().replace("-GX", " GX")
         attack_effect = row2
         card.add_attack(attack_cost, attack_name, attack_damage, attack_effect)
-        logger.debug(f"attack [{card.attacks[-1]["name"]}]: {card.attacks[-1]["cost"]}: {card.attacks[-1]["damage"]}: {card.attacks[-1]["effect"]}")
+        logger.debug(
+            f"attack [{card.attacks[-1]["name"]}]: {card.attacks[-1]["cost"]}: {card.attacks[-1]["damage"]}: {card.attacks[-1]["effect"]}"
+        )
 
     def get_vstar_power(self, card, p_tag, tool=False):
         if p_tag.find("a") and p_tag.find("a").get_text() == "Ability":
@@ -142,13 +156,13 @@ class CardScraperEN(CardScraper):
             card.set_vstar_power_ability(vstar_name, vstar_effect)
         else:
             vstar_cost = [abbr["title"] for abbr in p_tag.find_all("abbr")]
-            content = p_tag.get_text().strip().split('\n')
+            content = p_tag.get_text().strip().split("\n")
             if tool:
                 row1, row2 = content
             elif len(content) == 3:
                 row0, row1, row2 = content
             else:
-                row0, row1 = p_tag.get_text().strip().split('\n')
+                row0, row1 = p_tag.get_text().strip().split("\n")
                 row2 = None
             if ":" in row1:
                 vstar_damage = self.read_attack_damage(row1.split(": ")[1])
@@ -156,7 +170,9 @@ class CardScraperEN(CardScraper):
                 vstar_damage = None
             vstar_name = row1.split("→ ")[1].split(" :")[0].strip()
             vstar_effect = row2
-            card.set_vstar_power_attack(vstar_cost, vstar_name, vstar_damage, vstar_effect)
+            card.set_vstar_power_attack(
+                vstar_cost, vstar_name, vstar_damage, vstar_effect
+            )
         logger.debug(f"VSTAR power: {card.vstar_power}")
 
     def get_abilities_and_attacks(self, card, page):
@@ -197,9 +213,11 @@ class CardScraperEN(CardScraper):
     def get_weakness(self, card, page):
         weak_info = page.find("span", class_="weak")
         if weak_info:
-            if weak_info.find('a').get_text().strip() != "n/a":
+            if weak_info.find("a").get_text().strip() != "n/a":
                 weak_types = [abbr["title"] for abbr in weak_info.find_all("abbr")]
-                weak_value = weak_info.find("span", title="Weakness Modifier").get_text().strip()
+                weak_value = (
+                    weak_info.find("span", title="Weakness Modifier").get_text().strip()
+                )
             else:
                 weak_types = []
                 weak_value = None
@@ -209,9 +227,13 @@ class CardScraperEN(CardScraper):
     def get_resistance(self, card, page):
         resist_info = page.find("span", class_="resist")
         if resist_info:
-            if resist_info.find('a').get_text().strip() != "n/a":
+            if resist_info.find("a").get_text().strip() != "n/a":
                 resist_types = [abbr["title"] for abbr in resist_info.find_all("abbr")]
-                resist_value = resist_info.find("span", title="Resistance Modifier").get_text().strip()
+                resist_value = (
+                    resist_info.find("span", title="Resistance Modifier")
+                    .get_text()
+                    .strip()
+                )
             else:
                 resist_types = []
                 resist_value = None
@@ -227,16 +249,18 @@ class CardScraperEN(CardScraper):
     def get_author(self, card, page):
         author_info = page.find("div", class_="illus minor-text")
         if author_info:
-            author = [span.find("a").get_text() for span in author_info.find_all("span", title="Illustrator")]
+            author = [
+                span.find("a").get_text()
+                for span in author_info.find_all("span", title="Illustrator")
+            ]
             if author != ["n/a"]:
                 card.set_author(author)
-                logger.debug(f"author: {card.author}") 
+                logger.debug(f"author: {card.author}")
             level_info = author_info.find("span", class_="level")
             if level_info:
                 level = level_info.get_text().split("LV.")[1]
                 card.set_level(level)
                 logger.debug(f"level: {card.level}")
-
 
     def get_release(self, card, page):
         info = page.find("div", class_="release-meta minor-text")
@@ -255,7 +279,9 @@ class CardScraperEN(CardScraper):
         card.set_set(set_abbr)
         logger.debug(f"set: {card.set_name}")
         card.set_set_extra(series, set_name, set_code, date)
-        logger.debug(f"set extra: {card.series}, {card.set_full_name}, {card.set_code}, {card.date}")
+        logger.debug(
+            f"set extra: {card.series}, {card.set_full_name}, {card.set_code}, {card.date}"
+        )
 
         number = info.find("span", class_="number").find("a").get_text()
         total_info = info.find("span", class_="out-of")
@@ -270,7 +296,7 @@ class CardScraperEN(CardScraper):
         rarity = info.find("span", class_="rarity").find("a").get_text()
         card.set_rarity(rarity)
         logger.debug(f"rarity: {card.rarity}")
-        
+
     def get_reg_mark(self, card, page):
         reg_info = page.find("span", class_="Regulation Mark")
         if reg_info:
@@ -288,7 +314,12 @@ class CardScraperEN(CardScraper):
         rule_info = page.find("div", class_="rules minor-text")
         if rule_info:
             rule_box = ""
-            ignore_rule = ["Supporter rule", "Item rule", "Stadium rule", "Pokémon Tool rule"]
+            ignore_rule = [
+                "Supporter rule",
+                "Item rule",
+                "Stadium rule",
+                "Pokémon Tool rule",
+            ]
             for rule in rule_info.find_all("div"):
                 rule_text = rule.get_text()
                 if "Tera Pokémon ex rule" in rule_text:
@@ -343,19 +374,12 @@ class CardScraperEN(CardScraper):
         del card
         return card_id
 
-    def get_downloaded_set_list(self):
-        downloaded_list = set()
-        with open("logs/scraped_en_set_list.txt", "r") as file:
-            for line in file:
-                downloaded_list.add(line.strip())
-        return downloaded_list
-
     def scrape_set(self, set_name):
         set_link = f"https://pkmncards.com/set/{set_name}/"
         content = self.get_content(set_link)
         soup = bs4.BeautifulSoup(content, "html.parser")
         cards = [a["href"] for a in soup.find("main", class_="content").find_all("a")]
-        
+
         for url in tqdm(cards, desc=f"Downloading {set_name}"):
             card_id = self.read_card(url)
 
@@ -363,17 +387,25 @@ class CardScraperEN(CardScraper):
         logger.info(f"Scraped {len(cards)} cards from set: {set_name}.")
 
         return card_id
-    
+
     def scrape_existed_set(self, set_name):
         card_id = None
         # specifically for SVP, needs to change for the next era
         folder = "data_en/Scarlet & Violet/SVP/"
-        existed_cards = {filename[:-5] for filename in os.listdir(folder) if filename.endswith('.json')}
+        existed_cards = {
+            filename[:-5]
+            for filename in os.listdir(folder)
+            if filename.endswith(".json")
+        }
 
         set_link = f"https://pkmncards.com/set/{set_name}/"
         content = self.get_content(set_link)
         soup = bs4.BeautifulSoup(content, "html.parser")
-        cards = [a["href"] for a in soup.find("main", class_="content").find_all("a") if a["href"].split("svp-")[1].split("/")[0] not in existed_cards]
+        cards = [
+            a["href"]
+            for a in soup.find("main", class_="content").find_all("a")
+            if a["href"].split("svp-")[1].split("/")[0] not in existed_cards
+        ]
 
         for url in tqdm(cards, desc=f"Downloading {set_name}"):
             card_id = self.read_card(url)
@@ -386,10 +418,10 @@ class CardScraperEN(CardScraper):
     def update(self):
         """
         Download the newest set.
-        
+
         """
         logger.info("===== Updating started (en) =====")
-        downloaded_sets = self.get_downloaded_set_list()
+        downloaded_sets = self.get_downloaded_set_list(lang="en")
 
         url = "https://pkmncards.com/sets/"
         content = self.get_content(url)

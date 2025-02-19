@@ -209,8 +209,8 @@ Pocket Rarity key:
     - Card content: [`data_pocket/`](data_pocket/)
         - `/data_pocket/series/set_name/<individual-card>.json`
         - `series` and `set_name` are automatically scraped from the set image under the card image shown on the webpage
-		- Last pocket downloaded time: February 18, 2025
-		- Last pocket downloaded card_id: SVP128
+		- Last pocket downloaded time: February 19, 2025
+		- Last pocket downloaded card_id: A2-207
 
     - Logs: [`logs/`](logs/)
         - [scrape_pocket_log](logs/scrape_en_log.log): Information on scraping cards

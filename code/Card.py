@@ -60,6 +60,9 @@ class Card:
         if tag not in self.tags:
             self.tags.append(tag)
 
+    def set_game(self, game):
+        self.game = game
+
     def set_jp_id(self, id):
         self.jp_id = id
         self.set_out_id(self.jp_id)
@@ -90,11 +93,17 @@ class Card:
         self.set_name = name
         self.set_img = url
 
+    def set_set_code(self, code):
+        self.set_code = code
+
+    def set_set_date(self, date):
+        self.date = date
+
     def set_set_extra(self, series, set_full_name, set_code, date):
         self.series = series
         self.set_full_name = set_full_name
-        self.set_code = set_code
-        self.date = date
+        self.set_set_code(set_code)
+        self.set_set_date(date)
 
     def set_collector(self, num, tot):
         self.number = num
@@ -230,6 +239,8 @@ class Card:
             card_dict["jp_id"] = self.jp_id
         if hasattr(self, "en_id"):
             card_dict["en_id"] = self.en_id
+        if hasattr(self, "game"):
+            card_dict["game"] = self.game
         if self.tags:
             card_dict["tags"] = self.tags
         if hasattr(self, "regulation"):
@@ -316,6 +327,9 @@ class Card:
         if "jp_id" in card_dict:
             folder = f"data_jp/{self.set_name}/"
             filename = str(self.jp_id) + ".json"
+        elif hasattr(self, "game") and self.game == "TCG Pocket":
+            folder = f"data_pocket/{self.set_code}/"
+            filename = self.number + ".json"
         else:
             if self.series:
                 folder = f"data_en/{self.series}/{self.set_name}/"

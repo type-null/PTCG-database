@@ -176,8 +176,8 @@ Pocket Rarity key:
     - Card content: [`data_jp/`](data_jp/)
         - `/data_jp/set_name/<individual-card>.json`
         - `set_name` is automatically scraped from the set image under the card image shown on the webpage
-		- Last jp downloaded time: February 03, 2025
-		- Last jp downloaded card_id: 47220
+		- Last jp downloaded time: February 19, 2025
+		- Last jp downloaded card_id: 47291
     - Logs: [`logs/`](logs/)
         - [scrape_jp_log](logs/scrape_jp_log.log): Information on scraping cards
         - [log_file](logs/log_file.log): for debugging

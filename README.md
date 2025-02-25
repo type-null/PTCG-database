@@ -22,6 +22,8 @@ Source: [limitlesstcg.com](https://pocket.limitlesstcg.com/cards) (English)
 
 ### English version
 
+>The official Pokémon.com has TCG [database](https://www.pokemon.com/us/pokemon-tcg/pokemon-cards) but the card images are low quality.
+
 Info source: [pkmncards](www.pkmncards.com)
 
 Image source: [malie.io](https://malie.io/static/)

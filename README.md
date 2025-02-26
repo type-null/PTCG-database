@@ -12,14 +12,6 @@ Card information for Pokemon TCG. Potential use for data analysis.
 
 >Official and unofficial sources, such as tcgo, tcgl, carddex, pokemon.com, pkmncards.com, etc. ([malie.io](https://malie.io/static/draft/html/pkproto_sv.html))
 
-### TCG Pocket
-
-Add TCG Pocket data on Feb 18, 2025. 
-
-It is a [simplified version](https://game8.co/games/Pokemon-TCG-Pocket/archives/474638) of Pokémon TCG, which makes it a better case to test [RL in PTCG](https://github.com/type-null/PTCG-ai).
-
-Source: [limitlesstcg.com](https://pocket.limitlesstcg.com/cards) (English)
-
 ### English version
 
 >The official Pokémon.com has TCG [database](https://www.pokemon.com/us/pokemon-tcg/pokemon-cards) but the card images are low quality.
@@ -32,6 +24,21 @@ Image source: [malie.io](https://malie.io/static/)
 ### Japanese Version
 
 Source: [Official Japan Pokemon Card Website](www.pokemon-card.com)
+
+### Traditional Chinese Version
+
+Source: [Pokemon Asia - Taiwan](https://asia.pokemon-card.com/tw/card-search/list/)
+
+- The Pokemon Asia [website](https://asia.pokemon-card.com) contains other languages as well (including Indonesia, Thailand, and other regions using English Version) but not Simplified Chinese. So the [scraper](code/downloadCardTCN.py) for Traditional Chinese can be used for these Asian regions with trivial changes.
+- It is very similar to the [Japanese website](https://www.pokemon-card.com/card-search/index.php).
+
+### TCG Pocket
+
+Add TCG Pocket data on Feb 18, 2025. 
+
+It is a [simplified version](https://game8.co/games/Pokemon-TCG-Pocket/archives/474638) of Pokémon TCG, which makes it a better case to test [RL in PTCG](https://github.com/type-null/PTCG-ai).
+
+Source: [limitlesstcg.com](https://pocket.limitlesstcg.com/cards) (English)
 
 
 ## Card Data

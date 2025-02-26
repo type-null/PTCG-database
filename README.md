@@ -2,6 +2,7 @@
 
 ![EN version](https://img.shields.io/badge/EN-Prismatic_Evolutions-22498e)
 ![JP version](https://img.shields.io/badge/JP-SV9_バトルパートナーズー-caaf2a)
+![TC version](https://img.shields.io/badge/TC-SV9_對戰搭檔-e82927)
 ![Pocket version](https://img.shields.io/badge/Pocket-A2-3ecaf2)
 
 Card information for Pokemon TCG. Potential use for data analysis.
@@ -29,7 +30,7 @@ Source: [Official Japan Pokemon Card Website](www.pokemon-card.com)
 
 Source: [Pokemon Asia - Taiwan](https://asia.pokemon-card.com/tw/card-search/list/)
 
-- The Pokemon Asia [website](https://asia.pokemon-card.com) contains other languages as well (including Indonesia, Thailand, and other regions using English Version) but not Simplified Chinese. So the [scraper](code/downloadCardTCN.py) for Traditional Chinese can be used for these Asian regions with trivial changes.
+- The Pokemon Asia [website](https://asia.pokemon-card.com) contains other languages as well (including Indonesia, Thailand, and other regions using English Version) but not Simplified Chinese. So the [scraper](code/downloadCardTC.py) for Traditional Chinese can be used for these Asian regions with trivial changes.
 - It is very similar to the [Japanese website](https://www.pokemon-card.com/card-search/index.php).
 
 ### TCG Pocket
@@ -212,7 +213,6 @@ Pocket Rarity key:
 
     - Logs: [`logs/`](logs/)
         - [scrape_en_log](logs/scrape_en_log.log): Information on scraping cards
-        - [log_file](logs/log_file.log): for debugging
         - [scraped_en_set_list](logs/scraped_en_set_list.txt): set names for downloaded cards
 
 
@@ -224,10 +224,9 @@ Pocket Rarity key:
         - `series` and `set_name` are automatically scraped from the set image under the card image shown on the webpage
 		- Last pocket downloaded time: February 19, 2025
 		- Last pocket downloaded card_id: A2-207
-
+    
     - Logs: [`logs/`](logs/)
         - [scrape_pocket_log](logs/scrape_en_log.log): Information on scraping cards
-        - [log_file](logs/log_file.log): for debugging
         - [scraped_pocket_set_list](logs/scraped_pocket_set_list.txt): set names for downloaded cards
 
 ## Maintainer

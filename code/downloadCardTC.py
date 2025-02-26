@@ -4,7 +4,7 @@
     Februray 25, 2025 by Weihang
 """
 
-from CardScraperTCN import CardScraperTCN
+from CardScraperTC import CardScraperTC
 import logging
 
 MODE = "DEBUG"
@@ -19,11 +19,14 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-scraper = CardScraperTCN()
+scraper = CardScraperTC()
 
 if MODE == "BUILD":
     scraper.update()
 if MODE == "DEBUG":
     card_link = "https://asia.pokemon-card.com/tw/card-search/detail/12492/"
+    # energy
+    card_link = "https://asia.pokemon-card.com/tw/card-search/detail/12562/"
+
     scraper.read_card(card_link)
     # scraper.scrape_set("legendary-collection")

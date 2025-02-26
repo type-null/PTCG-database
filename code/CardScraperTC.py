@@ -16,7 +16,7 @@ from CardScraper import CardScraper
 logger = logging.getLogger(__name__)
 
 
-class CardScraperTCN(CardScraper):
+class CardScraperTC(CardScraper):
     def extract_energy(self, url):
         """
         Get the Energy from the energy image url
@@ -55,7 +55,17 @@ class CardScraperTCN(CardScraper):
             logger.debug(f"types: {card.types}")
 
     def get_attacks_or_effects(self, card, card_page):
-        pass
+        focus = card_page.find("div", class_="skillInformation")
+        category = focus.find("h3").get_text(strip=True)
+        if category == "招式":
+            if card.card_type != "Pokémon":
+                logger.error(f"This card has 招式 but has card type: {card.card_type}")
+            # TODO
+
+        else:
+            card.set_card_type(category)
+            logger.debug(f"card type: {card.card_type}")
+            # TODO
 
     def read_card(self, url):
         card = Card()

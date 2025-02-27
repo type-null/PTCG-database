@@ -99,9 +99,12 @@ class Card:
     def set_set_date(self, date):
         self.date = date
 
+    def set_set_full_name(self, name):
+        self.set_full_name = name
+
     def set_set_extra(self, series, set_full_name, set_code, date):
         self.series = series
-        self.set_full_name = set_full_name
+        self.set_set_full_name(set_full_name)
         self.set_set_code(set_code)
         self.set_set_date(date)
 
@@ -148,6 +151,8 @@ class Card:
             self.tags.remove("V")
         if "Prism Star" in self.tags:
             self.tags.remove("Star")
+        if "獎賞卡" in rule:
+            self.tags.remove("賞")
 
     def set_stage(self, stage):
         self.stage = stage
@@ -161,15 +166,23 @@ class Card:
     def set_types(self, types: list[str]):
         self.types = types
 
-    def set_tera(self):
-        self.tera_effect = (
-            "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。"
-        )
+    def set_tera(self, lang="jp"):
+        if lang == "tc":
+            self.tera_effect = "只要這隻寶可夢在備戰區，不會受到招式的傷害。"
+        elif lang == "jp":
+            self.tera_effect = (
+                "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。"
+            )
+        elif lang == "en":
+            self.tera_effect = "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s)."
+        else:
+            logger.error(f"Unseen `lang` ({lang}) when setting tera!")
         self.add_tag("Tera")
 
-    def set_tera_en(self):
-        self.tera_effect = "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s)."
-        self.add_tag("Tera")
+    def set_ex_rule_tc(self):
+        # Some Traditional Chinese card websites do not state 'ex rule' explicitly
+        self.rule_box = "寶可夢【ex】【昏厥】時，對手獲得2張獎賞卡。"
+        self.add_tag("ex")
 
     def set_technical_machine(self, rule):
         self.technical_machine_rule = rule
@@ -251,9 +264,10 @@ class Card:
                 card_dict["set_img"] = self.set_img
         else:
             self.set_name = "no_set"
+        if hasattr(self, "set_full_name"):
+            card_dict["set_full_name"] = self.set_full_name
         if hasattr(self, "series"):
             card_dict["series"] = self.series
-            card_dict["set_full_name"] = self.set_full_name
             card_dict["set_code"] = self.set_code
             card_dict["date"] = self.date
         if hasattr(self, "number"):

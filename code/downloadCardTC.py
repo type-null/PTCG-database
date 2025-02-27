@@ -24,9 +24,17 @@ scraper = CardScraperTC()
 if MODE == "BUILD":
     scraper.update()
 if MODE == "DEBUG":
-    card_link = "https://asia.pokemon-card.com/tw/card-search/detail/12492/"
-    # energy
-    card_link = "https://asia.pokemon-card.com/tw/card-search/detail/12562/"
 
+    # card_link = (
+    #     "https://asia.pokemon-card.com/tw/card-search/detail/12492/"  # 奇樹的電肚蛙ex
+    # )
+    # card_link = "https://asia.pokemon-card.com/tw/card-search/detail/12562/" # 扣殺能量
+    # card_link = "https://asia.pokemon-card.com/tw/card-search/detail/12315/"  # 厄鬼椪 碧草面具ex
+    # card_link = "https://asia.pokemon-card.com/tw/card-search/detail/12489/" # 奇樹的頑皮雷彈
+    card_link = "https://asia.pokemon-card.com/tw/card-search/detail/7114/"
+    # card_link = "https://asia.pokemon-card.com/tw/card-search/detail/8379/"  # 密勒頓ex
+    # card_link = "https://asia.pokemon-card.com/tw/card-search/detail/8735/"
+    # card_link = "https://asia.pokemon-card.com/tw/card-search/detail/2998/"
+    # card_link = "https://asia.pokemon-card.com/tw/card-search/detail/3485/"
     scraper.read_card(card_link)
     # scraper.scrape_set("legendary-collection")

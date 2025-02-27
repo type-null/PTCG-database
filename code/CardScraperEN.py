@@ -323,7 +323,7 @@ class CardScraperEN(CardScraper):
             for rule in rule_info.find_all("div"):
                 rule_text = rule.get_text()
                 if "Tera Pokémon ex rule" in rule_text:
-                    card.set_tera_en()
+                    card.set_tera(lang="en")
                     continue
                 ignore = False
                 for ig in ignore_rule:

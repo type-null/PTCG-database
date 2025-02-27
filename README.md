@@ -24,7 +24,7 @@ Image source: [malie.io](https://malie.io/static/)
 
 ### Japanese Version
 
-Source: [Official Japan Pokemon Card Website](www.pokemon-card.com)
+Source: [Official Japan Pokemon Card Website](https://www.pokemon-card.com/card-search/)
 
 ### Traditional Chinese Version
 

@@ -156,14 +156,28 @@ class CardScraperTC(CardScraper):
     def get_set_regu_collect(self, card, page):
         focus = page.find("section", class_="expansionColumn")
         if focus:
+            collector = focus.find("span", class_="collectorNumber").get_text(
+                strip=True
+            )
+            number, total = collector.split("/")
+            card.set_collector(number, total)
+            logger.debug(f"number: {card.number} out of {card.set_total}")
+
             set_img = focus.find("span", class_="expansionSymbol").find("img")["src"]
             set_name = set_img.split("mark/")[-1]
             if "twhk_" in set_name:
                 set_name = set_name.split("twhk_")[-1]
+                set_name = set_name.split("_")[0]
             elif "SM_" in set_name:
                 set_name = set_name.split("mark_")[-1].split("OUT")[0]
                 set_name = set_name[:2].upper() + set_name[2:]
-            set_name = set_name.split("_")[0]
+                set_name = set_name.split("_")[0]
+            elif "mark_expantion_" in set_name:
+                set_name = set_name.split("mark_expantion_")[-1].split(".png")[0]
+            elif "PROMO" in set_name:
+                set_name = card.set_total
+            else:
+                set_name = set_name.split("_")[0]
             card.set_set(set_name, set_img)
             logger.debug(f"set: {card.set_name}, {card.set_img}")
 
@@ -171,12 +185,6 @@ class CardScraperTC(CardScraper):
             card.set_mark(mark)
             logger.debug(f"regulation: {card.regulation}")
 
-            collector = focus.find("span", class_="collectorNumber").get_text(
-                strip=True
-            )
-            number, total = collector.split("/")
-            card.set_collector(number, total)
-            logger.debug(f"number: {card.number} out of {card.set_total}")
             card.set_out_id(card.set_name + card.number)
 
         expansion = page.find("section", class_="expansionLinkColumn")
@@ -192,10 +200,55 @@ class CardScraperTC(CardScraper):
             card.set_author(author)
             logger.debug(f"author: {card.author}")
 
-    def get_flavor_text(self, card, page):
+    def get_evolution(self, card, page):
+        focus = page.find("div", class_="evolution")
+        evolves_from = None
+        if focus:
+            ul = focus.find("ul")
+            evolve_found = False
+            previous = []
+            current = []
+            while ul:
+                li_list = ul.find_all("li", recursive=False)
+                for li in li_list:
+                    ul = li.find("ul")
+                    if ul:
+                        break
+                    if "active" in li.get("class"):
+                        evolves_from = previous[:]
+                        evolve_found = True
+                        break
+                    current.append(li.get_text(strip=True))
+
+                if evolve_found:
+                    break
+
+                previous = current[:]
+                current = []
+
+            if evolves_from:
+                card.set_evolve_from(evolves_from)
+                logger.debug(f"evolve from: {card.evolve_from}")
+
+    def get_pokedex_flavor(self, card, page):
         focus = page.find("div", class_="extraInformation")
         if focus:
-            pass
+            h3 = focus.find("h3")
+            if h3:
+                dexline = h3.get_text(strip=True).split(" ")
+                if len(dexline) == 2:
+                    dexNum, dexClass = dexline
+                    card.set_pokedex(dexNum.split(".")[-1], dexClass)
+                elif len(dexline) == 1:
+                    if any(char.isdigit() for char in dexline[0]):
+                        dexNum = dexline[0].split(".")[-1]
+                        card.set_pokedex(num=dexNum)
+                    else:
+                        dexClass = dexline[0]
+                        card.set_pokedex(category=dexClass)
+                logger.debug(f"pokedex: {card.pokedex_number}, {card.pokemon_category}")
+
+            # height, weight, flavor
 
     def read_card(self, url):
         card = Card()
@@ -214,4 +267,5 @@ class CardScraperTC(CardScraper):
         self.get_weak_resist_retreat(card, card_page)
         self.get_set_regu_collect(card, card_page)
         self.get_author(card, card_page)
-        self.get_flavor_text(card, card_page)
+        self.get_evolution(card, card_page)
+        self.get_pokedex_flavor(card, card_page)

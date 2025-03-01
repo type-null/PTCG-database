@@ -5,7 +5,9 @@
 """
 
 import re
+import time
 import requests
+from tqdm import tqdm
 from datetime import datetime
 
 import logging
@@ -30,8 +32,8 @@ class CardScraper:
             logging.debug(f"Got content from {url}")
             return response.content.decode("utf-8")
         else:
-            logging.warn(f"Fail to get card {url}")
-            logging.warn(f"Error code: {response.status_code}")
+            logging.warning(f"Fail to get card {url}")
+            logging.warning(f"Error code: {response.status_code}")
             return [url, response.status_code]
 
     def read_attack_damage(self, damage_str):
@@ -50,6 +52,13 @@ class CardScraper:
         with open(f"logs/scraped_{lang}_set_list.txt", "r") as file:
             for line in file:
                 downloaded_list.add(line.strip())
+        return downloaded_list
+
+    def get_downloaded_id_list(self, lang="jp"):
+        downloaded_list = set()
+        with open(f"logs/scraped_{lang}_id_list.txt", "r") as file:
+            for line in file:
+                downloaded_list.add(int(line.strip()))
         return downloaded_list
 
     def save_list_to_file(self, array, output_file):
@@ -80,6 +89,9 @@ class CardScraper:
         elif lang == "en":
             date_pattern = re.compile(r"Last en downloaded time: .+")
             card_id_pattern = re.compile(r"Last en downloaded card_id: \S+")
+        elif lang == "tc":
+            date_pattern = re.compile(r"Last tc downloaded time: .+")
+            card_id_pattern = re.compile(r"Last tc downloaded card_id: \S+")
         elif lang == "pocket":
             date_pattern = re.compile(r"Last pocket downloaded time: .+")
             card_id_pattern = re.compile(r"Last pocket downloaded card_id: \S+")

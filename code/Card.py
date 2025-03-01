@@ -45,6 +45,8 @@ RULE_TAGS = [
     "スタジアムは",  # Stadium rule
     "Baby",
     "Shining",
+    "稜柱之星",  # Prism Star
+    "光輝",  # Radiant
 ]
 
 
@@ -62,6 +64,9 @@ class Card:
 
     def set_game(self, game):
         self.game = game
+
+    def set_lang(self, lang):
+        self.lang = lang
 
     def set_jp_id(self, id):
         self.jp_id = id
@@ -254,6 +259,8 @@ class Card:
             card_dict["en_id"] = self.en_id
         if hasattr(self, "game"):
             card_dict["game"] = self.game
+        if hasattr(self, "lang"):
+            card_dict["lang"] = self.lang
         if self.tags:
             card_dict["tags"] = self.tags
         if hasattr(self, "regulation"):
@@ -339,12 +346,18 @@ class Card:
         card_dict = self.to_dict()
 
         if "jp_id" in card_dict:
+            # Japanese
             folder = f"data_jp/{self.set_name}/"
             filename = str(self.jp_id) + ".json"
         elif hasattr(self, "game") and self.game == "TCG Pocket":
+            # Pocket
             folder = f"data_pocket/{self.set_code}/"
             filename = self.number + ".json"
+        elif hasattr(self, "lang") and self.lang == "tc":
+            folder = f"data_tc/{self.set_name}/"
+            filename = self.number + ".json"
         else:
+            # English version
             if self.series:
                 folder = f"data_en/{self.series}/{self.set_name}/"
             else:

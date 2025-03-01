@@ -33,6 +33,9 @@ Source: [Pokemon Asia - Taiwan](https://asia.pokemon-card.com/tw/card-search/lis
 - The Pokemon Asia [website](https://asia.pokemon-card.com) contains other languages as well (including Indonesia, Thailand, and other regions using English Version) but not Simplified Chinese. So the [scraper](code/downloadCardTC.py) for Traditional Chinese can be used for these Asian regions with trivial changes.
 - It is very similar to the [Japanese website](https://www.pokemon-card.com/card-search/index.php).
 
+**⚠️ Warning:** The attacks section of many cards are messed up. Our scraped result only reflects the website's source code. It may be wrong. Below is an [example](https://asia.pokemon-card.com/hk/card-search/detail/901/).
+![tc-wrong-attack-example.png](img/misc/tc-wrong-attack-example.jpg)
+
 ### TCG Pocket
 
 Add TCG Pocket data on Feb 18, 2025. 
@@ -186,8 +189,8 @@ Pocket Rarity key:
     - Card content: [`data_jp/`](data_jp/)
         - `/data_jp/set_name/<individual-card>.json`
         - `set_name` is automatically scraped from the set image under the card image shown on the webpage
-		- Last jp downloaded time: February 19, 2025
-		- Last jp downloaded card_id: 47291
+		- Last jp downloaded time: February 28, 2025
+		- Last jp downloaded card_id: 47295
     - Logs: [`logs/`](logs/)
         - [scrape_jp_log](logs/scrape_jp_log.log): Information on scraping cards
         - [log_file](logs/log_file.log): for debugging
@@ -216,6 +219,31 @@ Pocket Rarity key:
         - [scraped_en_set_list](logs/scraped_en_set_list.txt): set names for downloaded cards
 
 
+### Traditional Chinese version
+
+- Info
+    - Card content: [`data_tc/`](data_tc/)
+        - `/data_tc/series/set_name/<individual-card>.json`
+        - `series` and `set_name` are automatically scraped from the set image under the card image shown on the webpage
+		- Last tc downloaded time: March 01, 2025
+		- Last tc downloaded card_id: 12626
+
+    - Logs: [`logs/`](logs/)
+        - [scrape_tc_log](logs/scrape_tc_log.log): Information on scraping cards
+        - [scraped_tc_id_list](logs/scraped_tc_id_list.txt): set names for downloaded cards
+        - [question_tc_id_list](logs/question_tc_id_list.txt): card ids for dubious scraping results
+        - [missing_tc_id_list](logs/missing_tc_id_list.txt): card ids that has no webpage
+
+- Todo
+    - Some cards have dirty `set_name`s, such as '-1', 'svf.png', and 'SN-F@4x.png' due to incomprehensive regex. 
+        - Need to clean these cards.
+    - Some cards have mismatch texts on the website, such as [example](https://asia.pokemon-card.com/hk/card-search/detail/901/) shown in above **warning**. 
+        - Need to correct the data input.
+    - The ids of cards are not consecutive all the way from 2 to current. Thus, a lot of ids have no card attached. But these ids might be used in the future. 
+        - Need to examine these ids when update the card pool. 
+        - Or, can just update the new cards by set.
+
+
 ### TCG Pocket
 
 - Info
@@ -226,7 +254,7 @@ Pocket Rarity key:
 		- Last pocket downloaded card_id: A2-207
     
     - Logs: [`logs/`](logs/)
-        - [scrape_pocket_log](logs/scrape_en_log.log): Information on scraping cards
+        - [scrape_pocket_log](logs/scrape_pocket_log.log): Information on scraping cards
         - [scraped_pocket_set_list](logs/scraped_pocket_set_list.txt): set names for downloaded cards
 
 ## Maintainer

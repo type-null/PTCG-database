@@ -8,12 +8,12 @@ import re
 import bs4
 import time
 import logging
-from tqdm import tqdm
 
 from Card import Card
 from CardScraper import CardScraper
 
 logger = logging.getLogger(__name__)
+
 
 class CardScraperJP(CardScraper):
     def complete_url(self, url):
@@ -21,10 +21,10 @@ class CardScraperJP(CardScraper):
 
     def get_url(self, card_id):
         return f"https://www.pokemon-card.com/card-search/details.php/card/{card_id}"
-    
+
     def format_type(self, t):
-        if t == 'none':
-            t = 'colorless'
+        if t == "none":
+            t = "colorless"
         return t.capitalize().strip()
 
     def read_text(self, p, no_space=False):
@@ -52,10 +52,10 @@ class CardScraperJP(CardScraper):
         if no_space:
             p = p.replace(" ", "")
         return p.strip()
-    
+
     def find_evolve_from(self, area, card, skip=""):
-        name = card.name.replace(skip,"")
-        name = name.replace(" ","")
+        name = card.name.replace(skip, "")
+        name = name.replace(" ", "")
         a_tag = area.find_next("a")
         last_a_tag = a_tag
         found = False
@@ -118,9 +118,19 @@ class CardScraperJP(CardScraper):
             "ポケモンのどうぐ",
             "スタジアム",
             "ワザマシン",
-            "トレーナー", #error: 46029
+            "トレーナー",  # error: 46029
         ]
-        pokemon_types = ["特性", "ワザ", "進化", "古代能力", "GXワザ", "ポケパワー", "ポケボディー", "どうぐ", "きのみ"]
+        pokemon_types = [
+            "特性",
+            "ワザ",
+            "進化",
+            "古代能力",
+            "GXワザ",
+            "ポケパワー",
+            "ポケボディー",
+            "どうぐ",
+            "きのみ",
+        ]
         if card_type in non_pokemon_types:
             card.set_card_type(card_type)
 
@@ -133,15 +143,17 @@ class CardScraperJP(CardScraper):
                 sibling = sibling.find_next_sibling()
             text = ""
             for p_tag in p_tags:
-                if p_tag.find("p"): # avoid nested p_tags
+                if p_tag.find("p"):  # avoid nested p_tags
                     continue
                 raw_text = self.read_text(p_tag)
-                paragraphs = raw_text.split('\n')
+                paragraphs = raw_text.split("\n")
                 for para in paragraphs:
                     para = para.strip()
-                    if not para.startswith(card_type + "は") and not para.startswith(
-                        "グッズは"
-                    ) and para:
+                    if (
+                        not para.startswith(card_type + "は")
+                        and not para.startswith("グッズは")
+                        and para
+                    ):
                         text = text + "\n" + para
             if text.strip():
                 card.set_effect(text.strip())
@@ -190,7 +202,7 @@ class CardScraperJP(CardScraper):
         if author_info:
             author = [a for a in author_info.split("\n") if a != "イラストレーター"]
             card.set_author(author)
-            logger.debug(f"author: {card.author}")  
+            logger.debug(f"author: {card.author}")
 
         ## For Pokémon
         pokedex_info = card_page.find("div", class_="card")
@@ -234,32 +246,33 @@ class CardScraperJP(CardScraper):
                 logger.debug(f"flavor: {card.flavor_text}")
 
         # Right box
-        stage_info = card_page.find('span', class_='type')
+        stage_info = card_page.find("span", class_="type")
         if stage_info:
             stage = stage_info.get_text().strip()
-            if '\xa0' in stage:
-                stage = stage.replace('\xa0', ' ')
+            if "\xa0" in stage:
+                stage = stage.replace("\xa0", " ")
             card.set_stage(stage)
             logger.debug(f"stage: {card.stage}")
 
-        hp_info = card_page.find('span', class_='hp-num')
+        hp_info = card_page.find("span", class_="hp-num")
         if hp_info:
             hp = int(hp_info.get_text().strip())
             card.set_hp(hp)
             logger.debug(f"hp: {card.hp}")
 
-        level_info = card_page.find('span', class_='level-num')
+        level_info = card_page.find("span", class_="level-num")
         if level_info:
             level = level_info.get_text().strip()
             card.set_level(level)
             logger.debug(f"level: {card.level}")
 
-        types_info = card_page.find('div', class_='td-r').find_all('span', class_=lambda x: 'icon' in x)
+        types_info = card_page.find("div", class_="td-r").find_all(
+            "span", class_=lambda x: "icon" in x
+        )
         if types_info:
-            types = [self.format_type(l['class'][0].split('-')[1]) for l in types_info]
+            types = [self.format_type(l["class"][0].split("-")[1]) for l in types_info]
             card.set_types(types)
             logger.debug(f"types: {card.types}")
-
 
         # Attack part
         if card.card_type == "Pokémon":
@@ -276,7 +289,9 @@ class CardScraperJP(CardScraper):
             )
 
         soup = bs4.BeautifulSoup(part, features="html.parser")
-        attack_part = bs4.BeautifulSoup(soup.prettify(formatter="minimal"), features="html.parser")
+        attack_part = bs4.BeautifulSoup(
+            soup.prettify(formatter="minimal"), features="html.parser"
+        )
 
         for area in attack_part.find_all("h2"):
             area_name = area.get_text().strip()
@@ -288,37 +303,49 @@ class CardScraperJP(CardScraper):
                 ability_name = area.find_next("h4").get_text().strip()
                 ability_effect = self.read_text(area.find_next("p"))
                 card.add_ability(ability_name, ability_effect)
-                logger.debug(f"ability [{card.abilities[-1]["name"]}]: {card.abilities[-1]["effect"]}")
+                logger.debug(
+                    f"ability [{card.abilities[-1]["name"]}]: {card.abilities[-1]["effect"]}"
+                )
                 continue
             if area_name == "古代能力":
                 trait_name = area.find_next("h4").get_text().strip()
                 trait_effect = self.read_text(area.find_next("p"))
                 card.set_ancient_trait(trait_name, trait_effect)
-                logger.debug(f"ancient trait [{card.ancient_trait["name"]}]: {card.ancient_trait["effect"]}")
+                logger.debug(
+                    f"ancient trait [{card.ancient_trait["name"]}]: {card.ancient_trait["effect"]}"
+                )
                 continue
             if area_name == "ポケパワー":
                 poke_power_name = area.find_next("h4").get_text().strip()
                 poke_power_effect = self.read_text(area.find_next("p"))
                 card.set_poke_power(poke_power_name, poke_power_effect)
-                logger.debug(f"poke power [{card.poke_power["name"]}]: {card.poke_power["effect"]}")
+                logger.debug(
+                    f"poke power [{card.poke_power["name"]}]: {card.poke_power["effect"]}"
+                )
                 continue
             if area_name == "ポケボディー":
                 poke_body_name = area.find_next("h4").get_text().strip()
                 poke_body_effect = self.read_text(area.find_next("p"))
                 card.set_poke_body(poke_body_name, poke_body_effect)
-                logger.debug(f"poke body [{card.poke_body["name"]}]: {card.poke_body["effect"]}")
+                logger.debug(
+                    f"poke body [{card.poke_body["name"]}]: {card.poke_body["effect"]}"
+                )
                 continue
             if area_name == "どうぐ":
                 item = area.find_next("h4").get_text().strip()
                 item_effect = self.read_text(area.find_next("p"))
                 card.set_held_item(item, item_effect)
-                logger.debug(f"held item [{card.held_item["item"]}]: {card.held_item["effect"]}")
+                logger.debug(
+                    f"held item [{card.held_item["item"]}]: {card.held_item["effect"]}"
+                )
                 continue
             if area_name == "きのみ":
                 berry = area.find_next("h4").get_text().strip()
                 berry_effect = self.read_text(area.find_next("p"))
                 card.set_held_berry(berry, berry_effect)
-                logger.debug(f"held berry [{card.held_berry["berry"]}]: {card.held_berry["effect"]}")
+                logger.debug(
+                    f"held berry [{card.held_berry["berry"]}]: {card.held_berry["effect"]}"
+                )
                 continue
             if area_name in ["ワザ", "GXワザ"]:
                 next_h2 = area.find_next("h2")
@@ -327,41 +354,59 @@ class CardScraperJP(CardScraper):
                 while sibling and sibling != next_h2:
                     if sibling.name == "h4":
                         h4_tags.append(sibling)
-                    sibling = sibling.find_next_sibling()                    
+                    sibling = sibling.find_next_sibling()
                 for attack in h4_tags:
                     attack_cost = []
                     attack_damage = None
                     for span_tag in attack.find_all("span"):
                         if "icon" in str(span_tag):
-                            attack_cost.append(self.format_type(span_tag["class"][0].split("-")[1]))
+                            attack_cost.append(
+                                self.format_type(span_tag["class"][0].split("-")[1])
+                            )
                         else:
-                            attack_damage = self.read_attack_damage(span_tag.get_text().strip())
-                    attack_name = attack.get_text().strip().split(' ')[0].strip()
+                            attack_damage = self.read_attack_damage(
+                                span_tag.get_text().strip()
+                            )
+                    attack_name = attack.get_text().strip().split(" ")[0].strip()
                     attack_effect = self.read_text(attack.find_next("p"))
-                    card.add_attack(attack_cost, attack_name, attack_damage, attack_effect)
-                    logger.debug(f"attack [{card.attacks[-1]["name"]}]: {card.attacks[-1]["cost"]}: {card.attacks[-1]["damage"]}: {card.attacks[-1]["effect"]}")
+                    card.add_attack(
+                        attack_cost, attack_name, attack_damage, attack_effect
+                    )
+                    logger.debug(
+                        f"attack [{card.attacks[-1]["name"]}]: {card.attacks[-1]["cost"]}: {card.attacks[-1]["damage"]}: {card.attacks[-1]["effect"]}"
+                    )
                 continue
             if area_name == "VSTARパワー":
                 vstar_type = area.find_next("h4").get_text().strip()
                 vstar_name = area.find_next("h4").find_next("h4")
                 vstar_effect = self.read_text(area.find_next("p"))
                 if vstar_type == "特性":
-                    card.set_vstar_power_ability(vstar_name.get_text().strip(), vstar_effect)
+                    card.set_vstar_power_ability(
+                        vstar_name.get_text().strip(), vstar_effect
+                    )
                     logger.debug(f"VSTAR power: {card.vstar_power}")
                 elif vstar_type == "ワザ":
                     vstar_cost = []
                     vstar_damage = None
                     for span_tag in vstar_name.find_all("span"):
                         if "icon" in str(span_tag):
-                            vstar_cost.append(self.format_type(span_tag["class"][0].split("-")[1]))
+                            vstar_cost.append(
+                                self.format_type(span_tag["class"][0].split("-")[1])
+                            )
                         else:
-                            vstar_damage = self.read_attack_damage(span_tag.get_text().strip())
-                    vstar_name = vstar_name.get_text().strip().split(' ')[0].strip()
-                    card.set_vstar_power_attack(vstar_cost, vstar_name, vstar_damage, vstar_effect)
+                            vstar_damage = self.read_attack_damage(
+                                span_tag.get_text().strip()
+                            )
+                    vstar_name = vstar_name.get_text().strip().split(" ")[0].strip()
+                    card.set_vstar_power_attack(
+                        vstar_cost, vstar_name, vstar_damage, vstar_effect
+                    )
                     logger.debug(f"VSTAR power: {card.vstar_power}")
                 else:
                     result_code = "Something wrong"
-                    logger.error(f"{card.jp_id} has an unseen VSTAR power type: {vstar_type}!!")
+                    logger.error(
+                        f"{card.jp_id} has an unseen VSTAR power type: {vstar_type}!!"
+                    )
                 continue
             if area_name == "特別なルール":
                 for p_tag in area.find_next_siblings("p"):
@@ -389,12 +434,18 @@ class CardScraperJP(CardScraper):
                         # Error on page
                         if last_a_tag.find_next_sibling("div", class_="arrow_on"):
                             card.set_evolve_from(last_a_tag.text.strip())
-                            logger.warn(f"Card {card.jp_id} evolve from: {card.evolve_from}?")
+                            logger.warn(
+                                f"Card {card.jp_id} evolve from: {card.evolve_from}?"
+                            )
                             found = True
 
                     if not found:
                         # LV.X Pokemon
-                        if card.stage == "レベルアップ" and card.level == "X" and "LV.X" not in card.name:
+                        if (
+                            card.stage == "レベルアップ"
+                            and card.level == "X"
+                            and "LV.X" not in card.name
+                        ):
                             card.set_card_name(card.name + " LV.X")
                             logger.debug(f"updated card name to: {card.name}")
                             last_a_tag, found = self.find_evolve_from(area, card)
@@ -404,30 +455,38 @@ class CardScraperJP(CardScraper):
                         suffixes = ["ex", "GX"]
                         for word in suffixes:
                             if word in card.name:
-                                last_a_tag, found = self.find_evolve_from(area, card, skip=word)
+                                last_a_tag, found = self.find_evolve_from(
+                                    area, card, skip=word
+                                )
 
                     if not found:
                         # fossil Pokemon
                         if len(area.find_all_next("a")) == 1:
                             card.set_evolve_from(area.find_next("a").text.strip())
-                            logger.debug(f"Card {card.jp_id} evolve from: {card.evolve_from}")
+                            logger.debug(
+                                f"Card {card.jp_id} evolve from: {card.evolve_from}"
+                            )
                             found = True
 
                     if not found:
                         result_code = "Something wrong"
-                        logger.error(f"Card {card.jp_id} has trouble finding 'evolve from'!")
+                        logger.error(
+                            f"Card {card.jp_id} has trouble finding 'evolve from'!"
+                        )
                 continue
 
             result_code = "Something wrong"
             logger.error(f"{card.jp_id} has an unseen areaType: {area_name}!!")
 
-        td = attack_part.find_all('td')
-        if len(td) > 0: 
+        td = attack_part.find_all("td")
+        if len(td) > 0:
             weak_types = []
-            if td[0].find('span'):
+            if td[0].find("span"):
                 weak_value = td[0].get_text().strip()
-                for span_tag in td[0].find_all('span'):
-                    weak_types.append(self.format_type(span_tag['class'][0].split('-')[1]))
+                for span_tag in td[0].find_all("span"):
+                    weak_types.append(
+                        self.format_type(span_tag["class"][0].split("-")[1])
+                    )
             else:
                 weak_value = None
             card.set_weakness(weak_types, weak_value)
@@ -435,17 +494,19 @@ class CardScraperJP(CardScraper):
 
         if len(td) > 1:
             resist_types = []
-            if td[1].find('span'):
+            if td[1].find("span"):
                 resist_value = td[1].get_text().strip()
-                for span_tag in td[1].find_all('span'):
-                    resist_types.append(self.format_type(span_tag['class'][0].split('-')[1]))
+                for span_tag in td[1].find_all("span"):
+                    resist_types.append(
+                        self.format_type(span_tag["class"][0].split("-")[1])
+                    )
             else:
                 resist_value = None
             card.set_resistance(resist_types, resist_value)
             logger.debug(f"resist: {card.resistance}")
 
         if len(td) > 2:
-            retreat = len(td[2].find_all('span'))
+            retreat = len(td[2].find_all("span"))
             card.set_retreat(retreat)
             logger.debug(f"retreat: {card.retreat}")
 
@@ -458,63 +519,13 @@ class CardScraperJP(CardScraper):
                 else:
                     link_url = None
                 card.add_source(li_tag.get_text().strip(), link_url)
-                logger.debug(f"source: [{card.sources[-1]["name"]}]({card.sources[-1]["link"]})")
+                logger.debug(
+                    f"source: [{card.sources[-1]["name"]}]({card.sources[-1]["link"]})"
+                )
 
         card.save()
         del card
         return result_code
-    
-    def get_downloaded_list(self):
-        downloaded_list = set()
-        with open("logs/scraped_jp_id_list.txt", "r") as file:
-            for line in file:
-                downloaded_list.add(int(line.strip()))
-        return downloaded_list
-
-    def scrape(self, start, end):
-        """
-        Scrape cards from start_id to end_id
-
-        """
-        logger.info("===== Scraping started =====")
-        logger.info(f"Start card ID: {start}, End card ID: {end}")
-
-        downloaded_list = self.get_downloaded_list()
-        scraped_list = []
-        question_list = []
-        error_list = []
-        for card_id in tqdm(range(start, end + 1), desc="Downloading"):
-            if self.overwrite or card_id not in downloaded_list:
-                code = self.read_card(card_id)
-                if code == "Successfully scraped":
-                    scraped_list.append(card_id)
-                elif code == "Something wrong":
-                    question_list.append(card_id)
-                elif code == "Page not found":
-                    error_list.append(card_id)
-                else:
-                    logger.error(f"Card {card_id} has unseen result code: {code}")
-
-        self.save_list_to_file(scraped_list, "logs/scraped_jp_id_list.txt")
-        self.save_list_to_file(question_list, "logs/question_jp_id_list.txt")
-        self.save_list_to_file(error_list, "logs/error_jp_id_list.txt")
-
-        logger.info(f"Attempted {end + 1 - start} cards; scraped {end + 1 - start - len(error_list)} cards; errored {len(error_list)} cards.")
-
-    def assign_task(self, start, end, overwrite=False):
-        """
-        Divide the total task into 500-length batches to scrape
-        
-        """
-        logger.info("===== Task Received =====")
-        logger.info(f"Start card ID: {start}, End card ID: {end}")
-        self.overwrite = overwrite
-        batch_size = 500
-        for batch_start in range(start, end + 1, batch_size):
-            batch_end = min(batch_start + batch_size - 1, end)
-            self.scrape(batch_start, batch_end)
-            time.sleep(10)
-
 
     def update(self, explore_range=10):
         """
@@ -523,7 +534,7 @@ class CardScraperJP(CardScraper):
         """
         logger.info("===== Updating started (jp) =====")
 
-        downloaded_list = self.get_downloaded_list()
+        downloaded_list = self.get_downloaded_id_list(lang="jp")
         last_downloaded = max(downloaded_list)
         logger.info(f"Last downloaded card is {last_downloaded}.")
 
@@ -545,12 +556,13 @@ class CardScraperJP(CardScraper):
 
             if card_id % 100 == 0:
                 time.sleep(10)
-            
+
             card_id += 1
-            
+
         self.save_list_to_file(scraped_list, "logs/scraped_jp_id_list.txt")
         self.save_list_to_file(question_list, "logs/question_jp_id_list.txt")
         if scraped_list:
             self.upadte_readme(max(scraped_list))
-        logger.info(f"Searched {card_id - last_downloaded} cards; checked up to card {card_id}.")
-
+        logger.info(
+            f"Searched {card_id - last_downloaded} cards; checked up to card {card_id}."
+        )

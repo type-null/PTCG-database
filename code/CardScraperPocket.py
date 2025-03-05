@@ -314,7 +314,8 @@ class CardScraperPocket(CardScraper):
             if a["href"].split("P-A/")[1] not in existed_cards
         ]
 
-        for url in tqdm(cards, desc=f"Downloading {set_code}"):
+        for url_tail in tqdm(cards, desc=f"Downloading {set_code}"):
+            url = "https://pocket.limitlesstcg.com" + url_tail
             card_id = self.read_card(url)
 
         self.save_list_to_file([set_code], "logs/scraped_pocket_set_list.txt")

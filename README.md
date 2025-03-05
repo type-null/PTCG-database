@@ -3,7 +3,7 @@
 ![EN version](https://img.shields.io/badge/EN-Prismatic_Evolutions-22498e)
 ![JP version](https://img.shields.io/badge/JP-SV9_バトルパートナーズー-caaf2a)
 ![TC version](https://img.shields.io/badge/TC-SV9_對戰搭檔-e82927)
-![Pocket version](https://img.shields.io/badge/Pocket-A2-3ecaf2)
+![Pocket version](https://img.shields.io/badge/Pocket-A2a-3ecaf2)
 
 Card information for Pokemon TCG. Potential use for data analysis.
 
@@ -250,8 +250,8 @@ Pocket Rarity key:
     - Card content: [`data_pocket/`](data_pocket/)
         - `/data_pocket/series/set_name/<individual-card>.json`
         - `series` and `set_name` are automatically scraped from the set image under the card image shown on the webpage
-		- Last pocket downloaded time: February 19, 2025
-		- Last pocket downloaded card_id: A2-207
+		- Last pocket downloaded time: March 05, 2025
+		- Last pocket downloaded card_id: P-A-49
     
     - Logs: [`logs/`](logs/)
         - [scrape_pocket_log](logs/scrape_pocket_log.log): Information on scraping cards

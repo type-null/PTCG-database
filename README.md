@@ -1,9 +1,9 @@
 # Pokémon Card Database
 
-![EN version](https://img.shields.io/badge/EN-Prismatic_Evolutions-22498e)
-![JP version](https://img.shields.io/badge/JP-SV9_バトルパートナーズー-caaf2a)
-![TC version](https://img.shields.io/badge/TC-SV9_對戰搭檔-e82927)
-![Pocket version](https://img.shields.io/badge/Pocket-A2a-3ecaf2)
+![EN version](https://img.shields.io/badge/EN-Journey_Together-22498e)
+![JP version](https://img.shields.io/badge/JP-SV9a_熱風のアリーナー-caaf2a)
+![TC version](https://img.shields.io/badge/TC-SV9a_熱風競技場-e82927)
+![Pocket version](https://img.shields.io/badge/Pocket-A2b-3ecaf2)
 
 Card information for Pokemon TCG. Potential use for data analysis.
 

@@ -1,7 +1,7 @@
 """
-    Download Traditional Chinese card info from asia.pokemon-card.com
+Download Traditional Chinese card info from asia.pokemon-card.com
 
-    Februray 25, 2025 by Weihang
+Februray 25, 2025 by Weihang
 """
 
 from CardScraperTC import CardScraperTC
@@ -26,4 +26,4 @@ if MODE == "BUILD":
 if MODE == "DEBUG":
     # card_id = 7143
     # scraper.read_card(card_id)
-    scraper.update(explore_range=1000)
+    scraper.update(explore_range=50)

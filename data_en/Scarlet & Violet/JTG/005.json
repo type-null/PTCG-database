@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/parasect-journey-together-jtg-005/",
+    "name": "Parasect",
+    "img": "https://pkmncards.com/wp-content/uploads/sv9_en_005_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "I",
+    "set_name": "JTG",
+    "set_full_name": "Journey Together",
+    "series": "Scarlet & Violet",
+    "set_code": "sv9",
+    "date": "Mar 28, 2025",
+    "number": "005",
+    "set_total": "159",
+    "rarity": "Common",
+    "author": [
+        "Tetsu Kayama"
+    ],
+    "flavor_text": "The larger the mushroom on its back grows, the stronger the mushroom spores it scatters.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Spore",
+            "damage": null,
+            "effect": "Your opponent’s Active Pokémon is now Asleep."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless"
+            ],
+            "name": "Scissor Swing",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "Flip 2 coins. This attack does 30 more damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Paras"
+}

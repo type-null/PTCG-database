@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/weezing-journey-together-jtg-092/",
+    "name": "Weezing",
+    "img": "https://pkmncards.com/wp-content/uploads/sv9_en_092_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "I",
+    "set_name": "JTG",
+    "set_full_name": "Journey Together",
+    "series": "Scarlet & Violet",
+    "set_code": "sv9",
+    "date": "Mar 28, 2025",
+    "number": "092",
+    "set_total": "159",
+    "rarity": "Uncommon",
+    "author": [
+        "KEIICHIRO ITO"
+    ],
+    "flavor_text": "Top-grade perfume is made using its internal poison gases by diluting them to the highest level.",
+    "stage": "Stage 1",
+    "hp": 130,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Pervasive Gas",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Your opponent’s Active Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Crazy Blast",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If this Pokémon used Pervasive Gas during your last turn, this attack does 120 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Koffing"
+}

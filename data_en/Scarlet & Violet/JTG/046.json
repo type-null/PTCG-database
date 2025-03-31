@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/alolan-golem-journey-together-jtg-046/",
+    "name": "Alolan Golem",
+    "img": "https://pkmncards.com/wp-content/uploads/sv9_en_046_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "H",
+    "set_name": "JTG",
+    "set_full_name": "Journey Together",
+    "series": "Scarlet & Violet",
+    "set_code": "sv9",
+    "date": "Mar 28, 2025",
+    "number": "046",
+    "set_total": "159",
+    "rarity": "Uncommon",
+    "author": [
+        "Takeshi Nakamura"
+    ],
+    "flavor_text": "It fires rocks charged with electricity. Even if the rock isn’t fired that accurately, just grazing an opponent will cause numbness and fainting.",
+    "stage": "Stage 2",
+    "hp": 180,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Electromagnetic Catapult",
+            "damage": {
+                "amount": 70,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 70 damage for each heads."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Megaton Fall",
+            "damage": {
+                "amount": 160,
+                "suffix": ""
+            },
+            "effect": "This Pokémon also does 40 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 4,
+    "evolve_from": "Alolan Graveler"
+}

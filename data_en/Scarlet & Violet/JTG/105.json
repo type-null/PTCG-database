@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/ns-klinklang-journey-together-jtg-105/",
+    "name": "N’s Klinklang",
+    "img": "https://pkmncards.com/wp-content/uploads/sv9_en_105_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "I",
+    "set_name": "JTG",
+    "set_full_name": "Journey Together",
+    "series": "Scarlet & Violet",
+    "set_code": "sv9",
+    "date": "Mar 28, 2025",
+    "number": "105",
+    "set_total": "159",
+    "rarity": "Uncommon",
+    "author": [
+        "matazo"
+    ],
+    "flavor_text": "From its spikes, it launches powerful blasts of electricity. Its red core contains an enormous amount of energy.",
+    "stage": "Stage 2",
+    "hp": 160,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Magnetic Blast",
+            "damage": {
+                "amount": 50,
+                "suffix": ""
+            },
+            "effect": null
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless"
+            ],
+            "name": "Triple Smash",
+            "damage": {
+                "amount": 120,
+                "suffix": "×"
+            },
+            "effect": "Flip 3 coins. This attack does 120 damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "N’s Klang"
+}

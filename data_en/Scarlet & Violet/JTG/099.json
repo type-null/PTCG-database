@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/pangoro-journey-together-jtg-099/",
+    "name": "Pangoro",
+    "img": "https://pkmncards.com/wp-content/uploads/sv9_en_099_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "I",
+    "set_name": "JTG",
+    "set_full_name": "Journey Together",
+    "series": "Scarlet & Violet",
+    "set_code": "sv9",
+    "date": "Mar 28, 2025",
+    "number": "099",
+    "set_total": "159",
+    "rarity": "Uncommon",
+    "author": [
+        "nagimiso"
+    ],
+    "flavor_text": "Using its leaf, Pangoro can predict the moves of its opponents. It strikes with punches that can turn a dump truck into scrap with just one hit.",
+    "stage": "Stage 1",
+    "hp": 140,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "Torment",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "Choose 1 of your opponent’s Active Pokémon’s attacks. During your opponent’s next turn, that Pokémon can’t use that attack."
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "Power Tackle",
+            "damage": {
+                "amount": 160,
+                "suffix": ""
+            },
+            "effect": "During your next turn, this Pokémon can’t attack."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Grass"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Pancham"
+}

@@ -189,8 +189,8 @@ Pocket Rarity key:
     - Card content: [`data_jp/`](data_jp/)
         - `/data_jp/set_name/<individual-card>.json`
         - `set_name` is automatically scraped from the set image under the card image shown on the webpage
-		- Last jp downloaded time: February 28, 2025
-		- Last jp downloaded card_id: 47295
+		- Last jp downloaded time: March 31, 2025
+		- Last jp downloaded card_id: 47358
     - Logs: [`logs/`](logs/)
         - [scrape_jp_log](logs/scrape_jp_log.log): Information on scraping cards
         - [log_file](logs/log_file.log): for debugging
@@ -211,8 +211,8 @@ Pocket Rarity key:
     - Card content: [`data_en/`](data_en/)
         - `/data_en/series/set_name/<individual-card>.json`
         - `series` and `set_name` are automatically scraped from the set image under the card image shown on the webpage
-		- Last en downloaded time: February 03, 2025
-		- Last en downloaded card_id: SVP128
+		- Last en downloaded time: March 31, 2025
+		- Last en downloaded card_id: None
 
     - Logs: [`logs/`](logs/)
         - [scrape_en_log](logs/scrape_en_log.log): Information on scraping cards
@@ -250,8 +250,8 @@ Pocket Rarity key:
     - Card content: [`data_pocket/`](data_pocket/)
         - `/data_pocket/series/set_name/<individual-card>.json`
         - `series` and `set_name` are automatically scraped from the set image under the card image shown on the webpage
-		- Last pocket downloaded time: March 05, 2025
-		- Last pocket downloaded card_id: P-A-49
+		- Last pocket downloaded time: March 31, 2025
+		- Last pocket downloaded card_id: P-A-59
     
     - Logs: [`logs/`](logs/)
         - [scrape_pocket_log](logs/scrape_pocket_log.log): Information on scraping cards

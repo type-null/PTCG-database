@@ -1,0 +1,59 @@
+{
+    "url": "https://pkmncards.com/card/mr-mime-journey-together-jtg-058/",
+    "name": "Mr. Mime",
+    "img": "https://pkmncards.com/wp-content/uploads/sv9_en_058_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "I",
+    "set_name": "JTG",
+    "set_full_name": "Journey Together",
+    "series": "Scarlet & Violet",
+    "set_code": "sv9",
+    "date": "Mar 28, 2025",
+    "number": "058",
+    "set_total": "159",
+    "rarity": "Common",
+    "author": [
+        "GOTO minori"
+    ],
+    "flavor_text": "It’s known for its top-notch pantomime skills. It protects itself from all sorts of attacks by emitting auras from its fingers to create walls.",
+    "stage": "Basic",
+    "hp": 90,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "Mimic",
+            "damage": null,
+            "effect": "Shuffle your hand into your deck. Then, draw a card for each card in your opponent’s hand."
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "Psy Bolt",
+            "damage": {
+                "amount": 40,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Darkness"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1
+}

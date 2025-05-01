@@ -1,9 +1,9 @@
 # Pokémon Card Database
 
 ![EN version](https://img.shields.io/badge/EN-Journey_Together-22498e)
-![JP version](https://img.shields.io/badge/JP-SV9a_熱風のアリーナー-caaf2a)
+![JP version](https://img.shields.io/badge/JP-SV10_ロケット団の栄光-caaf2a)
 ![TC version](https://img.shields.io/badge/TC-SV9a_熱風競技場-e82927)
-![Pocket version](https://img.shields.io/badge/Pocket-A2b-3ecaf2)
+![Pocket version](https://img.shields.io/badge/Pocket-A3-3ecaf2)
 
 Card information for Pokemon TCG. Potential use for data analysis.
 
@@ -189,8 +189,8 @@ Pocket Rarity key:
     - Card content: [`data_jp/`](data_jp/)
         - `/data_jp/set_name/<individual-card>.json`
         - `set_name` is automatically scraped from the set image under the card image shown on the webpage
-		- Last jp downloaded time: March 31, 2025
-		- Last jp downloaded card_id: 47358
+		- Last jp downloaded time: May 01, 2025
+		- Last jp downloaded card_id: 47499
     - Logs: [`logs/`](logs/)
         - [scrape_jp_log](logs/scrape_jp_log.log): Information on scraping cards
         - [log_file](logs/log_file.log): for debugging
@@ -211,7 +211,7 @@ Pocket Rarity key:
     - Card content: [`data_en/`](data_en/)
         - `/data_en/series/set_name/<individual-card>.json`
         - `series` and `set_name` are automatically scraped from the set image under the card image shown on the webpage
-		- Last en downloaded time: March 31, 2025
+		- Last en downloaded time: May 01, 2025
 		- Last en downloaded card_id: None
 
     - Logs: [`logs/`](logs/)
@@ -250,8 +250,8 @@ Pocket Rarity key:
     - Card content: [`data_pocket/`](data_pocket/)
         - `/data_pocket/series/set_name/<individual-card>.json`
         - `series` and `set_name` are automatically scraped from the set image under the card image shown on the webpage
-		- Last pocket downloaded time: March 31, 2025
-		- Last pocket downloaded card_id: P-A-59
+		- Last pocket downloaded time: May 01, 2025
+		- Last pocket downloaded card_id: None
     
     - Logs: [`logs/`](logs/)
         - [scrape_pocket_log](logs/scrape_pocket_log.log): Information on scraping cards

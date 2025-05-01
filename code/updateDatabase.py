@@ -1,7 +1,7 @@
 """
 Check for updates for all games
 
-March 31, 2025 by Weihang
+May 1, 2025 by Weihang
 """
 
 x = 1

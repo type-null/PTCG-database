@@ -1,0 +1,64 @@
+{
+    "url": "https://pkmncards.com/card/team-rockets-zapdos-destined-rivals-dri-070/",
+    "name": "Team Rocket’s Zapdos",
+    "img": "https://pkmncards.com/wp-content/uploads/sv10_en_070_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "I",
+    "set_name": "DRI",
+    "set_full_name": "Destined Rivals",
+    "series": "Scarlet & Violet",
+    "set_code": "sv10",
+    "date": "May 30, 2025",
+    "number": "070",
+    "set_total": "182",
+    "rarity": "Rare",
+    "author": [
+        "Nurikabe"
+    ],
+    "flavor_text": "Zapdos is a legendary bird Pokémon. It’s said that when Zapdos rubs its feathers together, lightning will fall immediately after.",
+    "stage": "Basic",
+    "hp": 120,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Jamming Wing",
+            "damage": {
+                "amount": 30,
+                "suffix": ""
+            },
+            "effect": "You may move an Energy from your opponent’s Active Pokémon to 1 of their Benched Pokémon."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Wicked Thunder",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "If this Pokémon has any Team Rocket’s Energy attached, this attack does 60 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1
+}

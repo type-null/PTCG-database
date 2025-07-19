@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/breloom-destined-rivals-dri-006/",
+    "name": "Breloom",
+    "img": "https://pkmncards.com/wp-content/uploads/sv10_en_006_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "I",
+    "set_name": "DRI",
+    "set_full_name": "Destined Rivals",
+    "series": "Scarlet & Violet",
+    "set_code": "sv10",
+    "date": "May 30, 2025",
+    "number": "006",
+    "set_total": "182",
+    "rarity": "Common",
+    "author": [
+        "nisimono"
+    ],
+    "flavor_text": "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.",
+    "stage": "Stage 1",
+    "hp": 120,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Damage Rush",
+            "damage": {
+                "amount": 30,
+                "suffix": "+"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 50 more damage for each heads."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Mega Drain",
+            "damage": {
+                "amount": 90,
+                "suffix": ""
+            },
+            "effect": "Heal 30 damage from this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Shroomish"
+}

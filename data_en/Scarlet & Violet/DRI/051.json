@@ -1,0 +1,58 @@
+{
+    "url": "https://pkmncards.com/card/team-rockets-articuno-destined-rivals-dri-051/",
+    "name": "Team Rocket’s Articuno",
+    "img": "https://pkmncards.com/wp-content/uploads/sv10_en_051_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "I",
+    "set_name": "DRI",
+    "set_full_name": "Destined Rivals",
+    "series": "Scarlet & Violet",
+    "set_code": "sv10",
+    "date": "May 30, 2025",
+    "number": "051",
+    "set_total": "182",
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "flavor_text": "This Pokémon can control ice at will. Articuno is said to live in snowy mountains riddled with permafrost.",
+    "stage": "Basic",
+    "hp": 120,
+    "types": [
+        "Water"
+    ],
+    "abilities": [
+        {
+            "name": "Repelling Veil",
+            "effect": "Prevent all effects of attacks used by your opponent’s Pokémon done to your Basic Team Rocket’s Pokémon. (Existing effects are not removed. Damage is not an effect.)"
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Dark Frost",
+            "damage": {
+                "amount": 60,
+                "suffix": "+"
+            },
+            "effect": "If this Pokémon has any Team Rocket’s Energy attached, this attack does 60 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1
+}

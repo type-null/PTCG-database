@@ -1,9 +1,9 @@
 # Pokémon Card Database
 
-![EN version](https://img.shields.io/badge/EN-Journey_Together-22498e)
-![JP version](https://img.shields.io/badge/JP-SV10_ロケット団の栄光-caaf2a)
-![TC version](https://img.shields.io/badge/TC-SV9a_熱風競技場-e82927)
-![Pocket version](https://img.shields.io/badge/Pocket-A3-3ecaf2)
+![EN version](https://img.shields.io/badge/EN-Destined_Rivals-22498e)
+![JP version](https://img.shields.io/badge/JP-SV11BW_ブラックボルト_ホワイトフレア-caaf2a)
+![TC version](https://img.shields.io/badge/TC-SV11BW_漆黑伏特_純白閃焰-e82927)
+![Pocket version](https://img.shields.io/badge/Pocket-A3b-3ecaf2)
 
 Card information for Pokemon TCG. Potential use for data analysis.
 
@@ -225,8 +225,8 @@ Pocket Rarity key:
     - Card content: [`data_tc/`](data_tc/)
         - `/data_tc/series/set_name/<individual-card>.json`
         - `series` and `set_name` are automatically scraped from the set image under the card image shown on the webpage
-		- Last tc downloaded time: March 01, 2025
-		- Last tc downloaded card_id: 12626
+		- Last tc downloaded time: July 19, 2025
+		- Last tc downloaded card_id: 13000
 
     - Logs: [`logs/`](logs/)
         - [scrape_tc_log](logs/scrape_tc_log.log): Information on scraping cards
@@ -250,8 +250,8 @@ Pocket Rarity key:
     - Card content: [`data_pocket/`](data_pocket/)
         - `/data_pocket/series/set_name/<individual-card>.json`
         - `series` and `set_name` are automatically scraped from the set image under the card image shown on the webpage
-		- Last pocket downloaded time: May 01, 2025
-		- Last pocket downloaded card_id: None
+		- Last pocket downloaded time: July 19, 2025
+		- Last pocket downloaded card_id: A3b-107
     
     - Logs: [`logs/`](logs/)
         - [scrape_pocket_log](logs/scrape_pocket_log.log): Information on scraping cards

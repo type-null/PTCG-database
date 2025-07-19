@@ -1,0 +1,50 @@
+{
+    "url": "https://pocket.limitlesstcg.com/cards/A3b/88",
+    "name": "Primarina ex",
+    "img": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A3b/A3b_088_EN_SM.webp",
+    "card_type": "Pokémon",
+    "game": "TCG Pocket",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "Eevee Grove",
+    "set_img": "https://s3.limitlesstcg.com/pocket/sets/A3b.webp",
+    "number": "88",
+    "set_total": 107,
+    "rarity": "2 star",
+    "author": "DOM",
+    "stage": "Stage 2",
+    "hp": 180,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Water"
+            ],
+            "name": "Hydro Pump",
+            "damage": "40+",
+            "effect": "If this Pokémon has at least 1 extra {Water} Energy attached, this attack does 40 more damage."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Water"
+            ],
+            "name": "Sparkling Aria",
+            "damage": "100",
+            "effect": "Heal 20 damage from this Pokémon."
+        }
+    ],
+    "rule_box": "ex rule: When your Pokémon ex is Knocked Out, your opponent gets 2 points.",
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Brionne"
+}

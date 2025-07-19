@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/beartic-black-bolt-blk-110/",
+    "name": "Beartic",
+    "img": "https://pkmncards.com/wp-content/uploads/zsv10-5_en_110_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "I",
+    "set_name": "BLK",
+    "set_full_name": "Black Bolt",
+    "series": "Scarlet & Violet",
+    "set_code": "zsv10-5",
+    "date": "Jul 18, 2025",
+    "number": "110",
+    "set_total": "086",
+    "rarity": "Illustration Rare",
+    "author": [
+        "Whisker"
+    ],
+    "flavor_text": "It can make its breath freeze at will. Very able in the water, it swims around in northern seas and catches prey.",
+    "stage": "Stage 1",
+    "hp": 150,
+    "types": [
+        "Water"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "Continuous Headbutt",
+            "damage": {
+                "amount": 50,
+                "suffix": "×"
+            },
+            "effect": "Flip a coin until you get tails. This attack does 50 damage for each heads."
+        },
+        {
+            "cost": [
+                "Water",
+                "Water",
+                "Water",
+                "Colorless"
+            ],
+            "name": "Sheer Cold",
+            "damage": {
+                "amount": 150,
+                "suffix": ""
+            },
+            "effect": "During your opponent’s next turn, the Defending Pokémon can’t use attacks."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Cubchoo"
+}

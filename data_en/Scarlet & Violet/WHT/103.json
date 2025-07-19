@@ -1,0 +1,61 @@
+{
+    "url": "https://pkmncards.com/card/chandelure-white-flare-wht-103/",
+    "name": "Chandelure",
+    "img": "https://pkmncards.com/wp-content/uploads/rsv10-5_en_103_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "I",
+    "set_name": "WHT",
+    "set_full_name": "White Flare",
+    "series": "Scarlet & Violet",
+    "set_code": "rsv10-5",
+    "date": "Jul 18, 2025",
+    "number": "103",
+    "set_total": "086",
+    "rarity": "Illustration Rare",
+    "author": [
+        "Kuroimori"
+    ],
+    "flavor_text": "It absorbs a spirit, which it then burns. By waving the flames on its arms, it puts its foes into a hypnotic trance.",
+    "stage": "Stage 2",
+    "hp": 150,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fire"
+            ],
+            "name": "Incendiary Pillar",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If you have 10 or more Basic {R} Energy cards in your discard pile, this attack does 100 more damage."
+        },
+        {
+            "cost": [
+                "Fire",
+                "Fire"
+            ],
+            "name": "Burn It All Up",
+            "damage": {
+                "amount": 180,
+                "suffix": ""
+            },
+            "effect": "Discard all Energy from this Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 2,
+    "evolve_from": "Lampent"
+}

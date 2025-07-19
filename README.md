@@ -1,6 +1,6 @@
 # Pokémon Card Database
 
-![EN version](https://img.shields.io/badge/EN-Destined_Rivals-22498e)
+![EN version](https://img.shields.io/badge/EN-BLK_WHT-22498e)
 ![JP version](https://img.shields.io/badge/JP-SV11BW_ブラックボルト_ホワイトフレア-caaf2a)
 ![TC version](https://img.shields.io/badge/TC-SV11BW_漆黑伏特_純白閃焰-e82927)
 ![Pocket version](https://img.shields.io/badge/Pocket-A3b-3ecaf2)
@@ -211,7 +211,7 @@ Pocket Rarity key:
     - Card content: [`data_en/`](data_en/)
         - `/data_en/series/set_name/<individual-card>.json`
         - `series` and `set_name` are automatically scraped from the set image under the card image shown on the webpage
-		- Last en downloaded time: May 01, 2025
+		- Last en downloaded time: July 19, 2025
 		- Last en downloaded card_id: None
 
     - Logs: [`logs/`](logs/)

@@ -1,0 +1,63 @@
+{
+    "url": "https://pkmncards.com/card/eelektross-black-bolt-blk-032/",
+    "name": "Eelektross",
+    "img": "https://pkmncards.com/wp-content/uploads/zsv10-5_en_032_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "I",
+    "set_name": "BLK",
+    "set_full_name": "Black Bolt",
+    "series": "Scarlet & Violet",
+    "set_code": "zsv10-5",
+    "date": "Jul 18, 2025",
+    "number": "032",
+    "set_total": "086",
+    "rarity": "Uncommon",
+    "author": [
+        "Jerky"
+    ],
+    "flavor_text": "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+    "stage": "Stage 2",
+    "hp": 160,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Thunder Fang",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning",
+                "Lightning",
+                "Colorless"
+            ],
+            "name": "Buzz Flip",
+            "damage": {
+                "amount": 100,
+                "suffix": "×"
+            },
+            "effect": "Flip 4 coins. This attack does 100 damage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Eelektrik"
+}

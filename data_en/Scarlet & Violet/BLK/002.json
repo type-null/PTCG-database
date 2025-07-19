@@ -1,0 +1,62 @@
+{
+    "url": "https://pkmncards.com/card/servine-black-bolt-blk-002/",
+    "name": "Servine",
+    "img": "https://pkmncards.com/wp-content/uploads/zsv10-5_en_002_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "I",
+    "set_name": "BLK",
+    "set_full_name": "Black Bolt",
+    "series": "Scarlet & Violet",
+    "set_code": "zsv10-5",
+    "date": "Jul 18, 2025",
+    "number": "002",
+    "set_total": "086",
+    "rarity": "Common",
+    "author": [
+        "Susumu Maeya"
+    ],
+    "flavor_text": "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
+    "stage": "Stage 1",
+    "hp": 100,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Grass"
+            ],
+            "name": "Wrap",
+            "damage": {
+                "amount": 20,
+                "suffix": ""
+            },
+            "effect": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Vine Whip",
+            "damage": {
+                "amount": 60,
+                "suffix": ""
+            },
+            "effect": null
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 1,
+    "evolve_from": "Snivy"
+}

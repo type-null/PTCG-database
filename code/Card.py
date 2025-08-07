@@ -1,7 +1,7 @@
 """
-    Card class
+Card class
 
-    April 24, 2024 by Weihang
+April 24, 2024 by Weihang
 """
 
 import os
@@ -28,6 +28,7 @@ RULE_TAGS = [
     "EX",
     "M進化",
     "Mega",
+    "メガ",
     "ゲンシ",
     "Primal",
     "BREAK",

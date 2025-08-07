@@ -8,7 +8,7 @@ from CardScraperTC import CardScraperTC
 import logging
 
 MODE = "DEBUG"
-# MODE = "BUILD"
+MODE = "BUILD"
 
 logging.basicConfig(
     filename="logs/log_file.log" if MODE == "DEBUG" else "logs/scrape_tc_log.log",

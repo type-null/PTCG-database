@@ -189,8 +189,8 @@ Pocket Rarity key:
     - Card content: [`data_jp/`](data_jp/)
         - `/data_jp/set_name/<individual-card>.json`
         - `set_name` is automatically scraped from the set image under the card image shown on the webpage
-		- Last jp downloaded time: May 01, 2025
-		- Last jp downloaded card_id: 47499
+		- Last jp downloaded time: August 06, 2025
+		- Last jp downloaded card_id: 48260
     - Logs: [`logs/`](logs/)
         - [scrape_jp_log](logs/scrape_jp_log.log): Information on scraping cards
         - [log_file](logs/log_file.log): for debugging
@@ -211,7 +211,7 @@ Pocket Rarity key:
     - Card content: [`data_en/`](data_en/)
         - `/data_en/series/set_name/<individual-card>.json`
         - `series` and `set_name` are automatically scraped from the set image under the card image shown on the webpage
-		- Last en downloaded time: July 19, 2025
+		- Last en downloaded time: August 06, 2025
 		- Last en downloaded card_id: None
 
     - Logs: [`logs/`](logs/)
@@ -225,8 +225,8 @@ Pocket Rarity key:
     - Card content: [`data_tc/`](data_tc/)
         - `/data_tc/series/set_name/<individual-card>.json`
         - `series` and `set_name` are automatically scraped from the set image under the card image shown on the webpage
-		- Last tc downloaded time: July 19, 2025
-		- Last tc downloaded card_id: 13000
+		- Last tc downloaded time: August 06, 2025
+		- Last tc downloaded card_id: 13185
 
     - Logs: [`logs/`](logs/)
         - [scrape_tc_log](logs/scrape_tc_log.log): Information on scraping cards
@@ -250,8 +250,8 @@ Pocket Rarity key:
     - Card content: [`data_pocket/`](data_pocket/)
         - `/data_pocket/series/set_name/<individual-card>.json`
         - `series` and `set_name` are automatically scraped from the set image under the card image shown on the webpage
-		- Last pocket downloaded time: July 19, 2025
-		- Last pocket downloaded card_id: A3b-107
+		- Last pocket downloaded time: August 06, 2025
+		- Last pocket downloaded card_id: P-A-100
     
     - Logs: [`logs/`](logs/)
         - [scrape_pocket_log](logs/scrape_pocket_log.log): Information on scraping cards

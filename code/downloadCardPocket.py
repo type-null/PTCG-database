@@ -1,7 +1,7 @@
 """
-    Download Pocket card info from limitlesstcg.com
+Download Pocket card info from limitlesstcg.com
 
-    Februray 18, 2025 by Weihang
+Februray 18, 2025 by Weihang
 """
 
 from CardScraperPocket import CardScraperPocket

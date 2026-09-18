@@ -88,11 +88,20 @@ class CardScraperJP(CardScraper):
         logger.debug(f"url: {card.url}")
 
         content = self.get_content(card.url)
+
+        if content is None:
+            # Could not fetch. Deliberately NOT "Page not found": an absent
+            # card and an unreachable server must stay distinguishable, or a
+            # bad spell upstream silently records real cards as nonexistent.
+            logger.error(f"Card {card_id} could not be fetched!")
+            return "Fetch failed"
+
         card_page_all = bs4.BeautifulSoup(content, "html.parser")
         card_page = card_page_all.section
 
         if not card_page:
             # Error: No such card!
+            # Absent cards answer 200 with no <section>, not 404.
             logger.debug(f"Card {card_id} not found!")
             return "Page not found"
 
@@ -542,27 +551,61 @@ class CardScraperJP(CardScraper):
         scraped_list, question_list = [], []
         max_explore = last_downloaded + explore_range
 
-        while card_id <= max_explore:
-            code = self.read_card(card_id)
-            if code == "Successfully scraped":
-                scraped_list.append(card_id)
-                max_explore = card_id + explore_range
-            elif code == "Something wrong":
-                question_list.append(card_id)
-            elif code == "Page not found":
-                pass
-            else:
-                logger.error(f"Card {card_id} has unseen result code: {code}")
+        # Stop rather than hammer a server that is refusing us: consecutive
+        # give-ups mean it is down or we are being throttled, and every further
+        # request is both useless and rude.
+        consecutive_failures = 0
+        max_consecutive_failures = 5
 
-            if card_id % 100 == 0:
-                time.sleep(10)
+        def checkpoint():
+            """
+            Persist bookkeeping mid-run.
 
-            card_id += 1
+            Previously this happened only after the loop, so the crash on the
+            first transient 503 left ~2,470 cards on disk and nothing recorded
+            -- and the next run would have re-scraped them all into `<id>-2`
+            duplicates.
+            """
+            self.save_list_to_file(scraped_list, "logs/scraped_jp_id_list.txt")
+            self.save_list_to_file(question_list, "logs/question_jp_id_list.txt")
 
-        self.save_list_to_file(scraped_list, "logs/scraped_jp_id_list.txt")
-        self.save_list_to_file(question_list, "logs/question_jp_id_list.txt")
-        if scraped_list:
-            self.upadte_readme(max(scraped_list))
-        logger.info(
-            f"Searched {card_id - last_downloaded} cards; checked up to card {card_id}."
-        )
+        try:
+            while card_id <= max_explore:
+                code = self.read_card(card_id)
+                if code == "Successfully scraped":
+                    scraped_list.append(card_id)
+                    max_explore = card_id + explore_range
+                    consecutive_failures = 0
+                elif code == "Something wrong":
+                    question_list.append(card_id)
+                    consecutive_failures = 0
+                elif code == "Page not found":
+                    consecutive_failures = 0
+                elif code == "Fetch failed":
+                    # Not a miss. Do not let an outage look like the end of the
+                    # id range, and do not burn the explore window on it.
+                    consecutive_failures += 1
+                    max_explore += 1
+                    if consecutive_failures >= max_consecutive_failures:
+                        logger.error(
+                            f"Aborting: {consecutive_failures} consecutive fetch "
+                            f"failures ending at card {card_id}."
+                        )
+                        break
+                else:
+                    logger.error(f"Card {card_id} has unseen result code: {code}")
+
+                if card_id % 100 == 0:
+                    checkpoint()
+                    time.sleep(10)
+
+                card_id += 1
+        finally:
+            checkpoint()
+            if scraped_list:
+                self.upadte_readme(max(scraped_list))
+            logger.info(
+                f"Searched {card_id - last_downloaded} cards; "
+                f"checked up to card {card_id}. "
+                f"Scraped {len(scraped_list)}, questioned {len(question_list)}."
+            )

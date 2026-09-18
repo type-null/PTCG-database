@@ -23,18 +23,53 @@ class CardScraper:
     def __init__(self):
         pass
 
+    # Statuses worth another attempt: transient server-side or throttling.
+    RETRY_STATUSES = frozenset({429, 500, 502, 503, 504})
+    MAX_ATTEMPTS = 3
+    BACKOFF_SECONDS = (2, 5)
+    TIMEOUT_SECONDS = 30
+
     def get_content(self, url):
+        """
+        Fetch a page, returning its decoded body, or None if it could not be
+        fetched.
+
+        Returns None rather than the old `[url, status_code]`: no caller
+        anywhere in this codebase ever checked for that list, so every one of
+        them passed it straight into a parser and died with a TypeError. A
+        single transient 503 mid-run therefore killed the whole scrape and
+        discarded its bookkeeping. Callers must treat None as "no page".
+        """
         user_agent = (
             "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0"
         )
-        response = requests.get(url, headers={"User-Agent": user_agent})
-        if response.status_code == 200:
-            logging.debug(f"Got content from {url}")
-            return response.content.decode("utf-8")
-        else:
-            logging.warning(f"Fail to get card {url}")
-            logging.warning(f"Error code: {response.status_code}")
-            return [url, response.status_code]
+
+        for attempt in range(1, self.MAX_ATTEMPTS + 1):
+            try:
+                response = requests.get(
+                    url,
+                    headers={"User-Agent": user_agent},
+                    timeout=self.TIMEOUT_SECONDS,
+                )
+            except requests.RequestException as exc:
+                logger.warning(f"Network error on {url} (attempt {attempt}): {exc}")
+            else:
+                if response.status_code == 200:
+                    logger.debug(f"Got content from {url}")
+                    return response.content.decode("utf-8")
+
+                logger.warning(
+                    f"Fail to get {url} (attempt {attempt}): {response.status_code}"
+                )
+                if response.status_code not in self.RETRY_STATUSES:
+                    # 404 and friends are answers, not failures. Do not retry.
+                    return None
+
+            if attempt < self.MAX_ATTEMPTS:
+                time.sleep(self.BACKOFF_SECONDS[attempt - 1])
+
+        logger.error(f"Giving up on {url} after {self.MAX_ATTEMPTS} attempts")
+        return None
 
     def read_attack_damage(self, damage_str):
         pattern = r"(?P<amount>\d+)(?P<suffix>\W?)"

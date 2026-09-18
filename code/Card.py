@@ -11,6 +11,34 @@ import logging
 logger = logging.getLogger(__name__)
 
 
+def safe_path_segment(value, fallback="no_set"):
+    """
+    Make a scraped string safe to use as a single path component.
+
+    Set names, set codes and card numbers are scraped from third-party sites
+    and land directly in path position (`data_jp/{set_name}/{number}.json`),
+    so a value containing a separator or resolving to `..` would write outside
+    the data tree.
+
+    Deliberately minimal: it neutralises path syntax and unprintable characters
+    only, and leaves Unicode intact, so it is a no-op for every set name
+    already on disk (verified against the full tree).
+    """
+    segment = "".join(ch for ch in str(value) if ch.isprintable())
+    segment = segment.replace("/", "_").replace("\\", "_")
+    segment = segment.strip()
+
+    # `.` and `..` are traversal, not names, however they are spelled.
+    if segment.strip(".") == "":
+        logger.warning(f"Unsafe path segment {value!r} replaced with {fallback!r}")
+        return fallback
+
+    if segment != str(value):
+        logger.warning(f"Sanitised path segment {value!r} to {segment!r}")
+
+    return segment
+
+
 RULE_TAGS = [
     "ACE SPEC",
     "ex",
@@ -348,22 +376,25 @@ class Card:
 
         if "jp_id" in card_dict:
             # Japanese
-            folder = f"data_jp/{self.set_name}/"
-            filename = str(self.jp_id) + ".json"
+            folder = f"data_jp/{safe_path_segment(self.set_name)}/"
+            filename = str(int(self.jp_id)) + ".json"
         elif hasattr(self, "game") and self.game == "TCG Pocket":
             # Pocket
-            folder = f"data_pocket/{self.set_code}/"
-            filename = self.number + ".json"
+            folder = f"data_pocket/{safe_path_segment(self.set_code)}/"
+            filename = safe_path_segment(self.number) + ".json"
         elif hasattr(self, "lang") and self.lang == "tc":
-            folder = f"data_tc/{self.set_name}/"
-            filename = self.number + ".json"
+            folder = f"data_tc/{safe_path_segment(self.set_name)}/"
+            filename = safe_path_segment(self.number) + ".json"
         else:
             # English version
             if self.series:
-                folder = f"data_en/{self.series}/{self.set_name}/"
+                folder = (
+                    f"data_en/{safe_path_segment(self.series)}/"
+                    f"{safe_path_segment(self.set_name)}/"
+                )
             else:
-                folder = f"data_en/{self.set_name}/"
-            filename = self.number + ".json"
+                folder = f"data_en/{safe_path_segment(self.set_name)}/"
+            filename = safe_path_segment(self.number) + ".json"
 
         os.makedirs(folder, exist_ok=True)
         path = os.path.join(folder, filename)

@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base5-30",
+    "name": "Dunkles Giflor",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Grund",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "30",
+    "set_total": 83,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 45,
+    "pokemon_category": "",
+    "flavor_text": "Vielleicht wegen seiner streng riechenden Pollen nähern sich andere Pokémon den Unterschlüpfen von Giflors nicht.",
+    "stage": "Rang 2",
+    "hp": 60,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Heuschnupfen",
+            "effect": "Es können keine Trainerkarten gespielt werden. Diese Fähigkeit verliert ihre Wirkung, solange Dunkles Giflor schläft, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Blätterwirbelsturm",
+            "damage": "30x",
+            "effect": "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 30 Schadenspunkte zu. Falls du zweimal oder öfter „Kopf“ wirfst, ist Dunkles Giflor jetzt verwirrt (nach der Schadensverteilung)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base5-30"
+        }
+    ],
+    "print_key": "tcgdex:base5-30",
+    "card_key": "45|60|2|Kagemaru Himeno|30x|3",
+    "types_en": [
+        "Grass"
+    ]
+}

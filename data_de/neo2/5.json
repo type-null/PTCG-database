@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo2-5",
+    "name": "Hunduster",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Entdeckung",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "5",
+    "set_total": 75,
+    "rarity": "Selten",
+    "author": [
+        "Aya Kusube"
+    ],
+    "pokedex_number": 228,
+    "pokemon_category": "",
+    "flavor_text": "Um Beute einzukreisen, verständigen sie sich mit einem Gebell, das nur sie verstehen können.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Smog",
+            "damage": 10,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Feuersammeln",
+            "damage": 20,
+            "effect": "Wenn mindestens eine {R}-Energiekarte in deinem Ablagestapel ist, wähle eine davon und lege sie an Hunduster an."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo2-5"
+        }
+    ],
+    "print_key": "tcgdex:neo2-5",
+    "card_key": "228|50|1|Aya Kusube|10,20|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

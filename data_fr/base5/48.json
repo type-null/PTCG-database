@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base5-48",
+    "name": "Porygon",
+    "img": "https://assets.tcgdex.net/fr/base/base5/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Base",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "48",
+    "set_total": 83,
+    "rarity": "Peu Commune",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 137,
+    "pokemon_category": "",
+    "flavor_text": "De plus en plus de gens tentent leur chance au jackpot quotidiennement pour essayer de gagner un Porygon.",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Adaptation 1",
+            "damage": null,
+            "effect": "Si le Pokémon Défenseur avait une Faiblesse, vous pouvez la changer pour le type de votre choix, excepté incolore."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Rayon psy",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base5-48"
+        }
+    ],
+    "print_key": "tcgdex:base5-48",
+    "card_key": "137|40|None|Keiji Kinebuchi|None,20|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

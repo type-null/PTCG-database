@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm5-57",
+    "name": "Toxiquak",
+    "img": "https://assets.tcgdex.net/de/sm/sm5/57/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultra-Prisma",
+    "series": "Sonne & Mond",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "57",
+    "set_total": 173,
+    "rarity": "Selten",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 454,
+    "pokemon_category": "",
+    "flavor_text": "Die Gelenke an seinen Klauen geben ein so starkes Gift ab, dass selbst ein kleiner Kratzer fatal ist.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Gifthieb",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Auge um Auge",
+            "damage": "50+",
+            "effect": "Wenn mindestens 1 deiner {F}-Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 70 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Glibunkel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm5-57"
+        }
+    ],
+    "print_key": "tcgdex:sm5-57",
+    "card_key": "454|100|2|Hasuno|30,50+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

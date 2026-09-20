@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv03-200",
+    "name": "Delfinator",
+    "img": "https://assets.tcgdex.net/de/sv/sv03/200/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv03",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03/symbol",
+    "set_full_name": "Obsidian Flammen",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv03",
+    "date": "2023-08-11",
+    "number": "200",
+    "set_total": 230,
+    "rarity": "Selten, Illustration",
+    "author": [
+        "Akira Komayama"
+    ],
+    "pokedex_number": 964,
+    "pokemon_category": "",
+    "flavor_text": "Die uralten Gene dieses Pokémon sind erwacht. Es ist so übernatürlich stark, dass es mühelos mit einer Flosse ein Kreuzfahrtschiff anheben kann.",
+    "stage": "Rang 1",
+    "hp": 150,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Düsenhieb",
+            "damage": 30,
+            "effect": "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Gerechtigkeitskick",
+            "damage": 210,
+            "effect": "Wenn dieses Pokémon während dieses Zuges nicht von deiner Bank in die Aktive Position gewechselt ist, hat diese Attacke keine Auswirkungen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Normifin",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv03-200"
+        }
+    ],
+    "print_key": "tcgdex:sv03-200",
+    "card_key": "964|150|2|Akira Komayama|30,210|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

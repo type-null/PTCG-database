@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/swsh12.5-043",
+    "name": "Luxray",
+    "img": "https://assets.tcgdex.net/pt/swsh/swsh12.5/043/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "regulation": "E",
+    "set_name": "swsh12.5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12.5/symbol",
+    "set_full_name": "Realeza Absoluta",
+    "series": "Espada e Escudo",
+    "set_code": "swsh12.5",
+    "date": "2023-01-20",
+    "number": "043",
+    "set_total": 160,
+    "rarity": "Rara",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 405,
+    "pokemon_category": "",
+    "stage": "Estágio 2",
+    "hp": 150,
+    "types": [
+        "Elétrico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elétrico"
+            ],
+            "name": "Passo Elétrico",
+            "damage": null,
+            "effect": "Este ataque causa 40 pontos de dano a 1 dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco). Troque este Pokémon por 1 dos seus Pokémon no Banco."
+        },
+        {
+            "cost": [
+                "Elétrico",
+                "Incolor"
+            ],
+            "name": "Golpe na Ferida",
+            "damage": "100+",
+            "effect": "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 100 pontos de dano a mais."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lutador"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Luxio",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/swsh12.5-043"
+        }
+    ],
+    "print_key": "tcgdex:swsh12.5-43",
+    "card_key": "405|150|1|sui|None,100+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-24",
+    "name": "Triopikeur",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/24/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "24",
+    "set_total": 133,
+    "rarity": "Rare",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 51,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Chausse-trappe",
+            "effect": "Si le Pokémon Actif de votre adversaire bat en retraite, placez 2 marqueurs de dégât sur ce Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Renverser",
+            "damage": 30,
+            "effect": "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Ampleur",
+            "damage": 70,
+            "effect": "Inflige 10 dégâts à chacun des Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Taupiqueur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-24"
+        }
+    ],
+    "print_key": "tcgdex:pl1-24",
+    "card_key": "51|90|0|Sumiyoshi Kizuki|30,70|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

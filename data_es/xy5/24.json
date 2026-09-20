@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/xy5-24",
+    "name": "Magcargo",
+    "img": "https://assets.tcgdex.net/es/xy/xy5/24/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Duelos Primigenios",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "24",
+    "set_total": 164,
+    "rarity": "Rara",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 219,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 110,
+    "types": [
+        "Fuego"
+    ],
+    "abilities": [
+        {
+            "name": "{title}:",
+            "effect": "{title}: Cada vez que tu rival juegue 1 carta de Entrenador (excluidas las cartas de Herramienta Pokémon y de Estadio), evita todos los efectos de esa carta infligidos a este Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuego",
+                "Incolora"
+            ],
+            "name": "Apisonar",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Fuego",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Fuego Indomable",
+            "damage": "60+",
+            "effect": "Si el Pokémon Activo de tu rival es un Pokémon-EX, este ataque hace 60 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Agua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Slugma",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/xy5-24"
+        }
+    ],
+    "print_key": "tcgdex:xy5-24",
+    "card_key": "219|110|3|Kagemaru Himeno|30,60+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

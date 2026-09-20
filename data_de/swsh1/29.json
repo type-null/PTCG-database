@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh1-29",
+    "name": "Tortunator",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh1/29/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Schwert & Schild",
+    "series": "Schwert & Schild",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "29",
+    "set_total": 216,
+    "rarity": "Selten",
+    "author": [
+        "KEIICHIRO ITO"
+    ],
+    "pokedex_number": 776,
+    "pokemon_category": "",
+    "flavor_text": "Sein Panzer ist mit einer explosiven Schicht überzogen. Gegnerische Angriffe quittiert es mit gewaltigen Explosionen.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Tackle",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Feuerwirbel",
+            "damage": 150,
+            "effect": "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh1-29"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-29",
+    "card_key": "776|130|3|KEIICHIRO ITO|30,150|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/col1-32",
+    "name": "Laschoking",
+    "img": "https://assets.tcgdex.net/de/col/col1/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "Ruf der Legenden",
+    "series": "Ruf der Legenden",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "32",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 199,
+    "pokemon_category": "",
+    "flavor_text": "Sein feines Gespühr und Intellekt zeichnen es aus. Es bleibt in jeder Situation gelassen und besonnen.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Zweites Gesicht",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du dir die obersten 3 Karten eines Decks anschauen und sie danach in beliebiger Reihenfolge wieder auf das Deck des Spielers zurücklegen. Diese Poké-Power kann nicht benutzt werden, wenn Laschoking von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psychoschock",
+            "damage": 30,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Flegmon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/col1-32"
+        }
+    ],
+    "print_key": "tcgdex:col1-32",
+    "card_key": "199|80|2|Sumiyoshi Kizuki|30|2",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base5-14",
+    "name": "Smogogo obscur",
+    "img": "https://assets.tcgdex.net/fr/base/base5/14/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Base",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "14",
+    "set_total": 83,
+    "rarity": "Rare",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 110,
+    "pokemon_category": "",
+    "flavor_text": "Des chercheurs ont observé ces Pokémon se reproduisant dans des sites de traitement des déchets industriels.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Explosion de masse",
+            "damage": "20x",
+            "effect": "Inflige 20 dégâts multipliés par le nombre de Smogo, Smogogo et Smogogo obscur en jeu, (appliquez la Faiblesse et la Résistance). Ensuite, cette attaque inflige 20 dégâts à chaque Smogo, Smogogo et Smogogo obscur (y compris les vôtres). N'appliquez pas la Faiblesse et la Résistance."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Plante"
+            ],
+            "name": "Gaz étourdissant",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné ; si c'est pile, le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Smogo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base5-14"
+        }
+    ],
+    "print_key": "tcgdex:base5-14",
+    "card_key": "110|60|1|Shin-ichi Yoshida|20x,20|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

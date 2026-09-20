@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/g1-52",
+    "name": "Pantimos",
+    "img": "https://assets.tcgdex.net/de/xy/g1/52/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Generationen",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "52",
+    "set_total": 117,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "kirisAki"
+    ],
+    "pokedex_number": 122,
+    "pokemon_category": "",
+    "flavor_text": "Es ist geschickt darin, Menschen zu beeinflussen. Man sagt, es könne dünne Wände aus Luft nur durch Mimen entstehen lassen.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Fee"
+    ],
+    "abilities": [
+        {
+            "name": "Bankbarriere",
+            "effect": "Verhindere allen Schaden, der den Pokémon auf deiner Bank durch Angriffe zugefügt wird."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fee",
+                "Farblos"
+            ],
+            "name": "Jongleur",
+            "damage": "10×",
+            "effect": "Wirf 4 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/g1-52"
+        }
+    ],
+    "print_key": "tcgdex:g1-52",
+    "card_key": "122|70|1|kirisAki|10x|2",
+    "types_en": [
+        "Fairy"
+    ]
+}

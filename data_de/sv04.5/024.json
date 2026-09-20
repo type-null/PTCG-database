@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv04.5-024",
+    "name": "Kokowei",
+    "img": "https://assets.tcgdex.net/de/sv/sv04.5/024/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv04.5",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04.5/symbol",
+    "set_full_name": "Paldeas Schicksale",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv04.5",
+    "date": "2024-01-26",
+    "number": "024",
+    "set_total": 245,
+    "rarity": "Selten",
+    "author": [
+        "Yoriyuki Ikegami"
+    ],
+    "pokedex_number": 103,
+    "pokemon_category": "",
+    "flavor_text": "Seine drei Köpfe setzen mächtige Psycho-Kräfte frei, wenn sie als Einheit agieren. Zieht sich der Himmel zu, bewegt es sich nur noch schwerfällig.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Hypnoschuss",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners schläft jetzt."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psychoschleife",
+            "damage": 160,
+            "effect": "Nimm 2 an dieses Pokémon angelegte Energien auf deine Hand."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Owei",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv04.5-024"
+        }
+    ],
+    "print_key": "tcgdex:sv04.5-24",
+    "card_key": "103|130|2|Yoriyuki Ikegami|30,160|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

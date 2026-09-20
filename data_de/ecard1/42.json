@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard1-42",
+    "name": "Austos",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-Card",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "42",
+    "set_total": 165,
+    "rarity": "Selten",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 91,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schlecker",
+            "damage": 10,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Dauerfeuer",
+            "damage": "20×",
+            "effect": "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Muschas",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard1-42"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-42",
+    "card_key": "91|80|2|Kyoko Umemoto|10,20x|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

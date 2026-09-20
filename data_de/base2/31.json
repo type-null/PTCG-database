@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base2-31",
+    "name": "Giflor",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Dschungel",
+    "series": "Grund",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "31",
+    "set_total": 64,
+    "rarity": "Selten",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 45,
+    "pokemon_category": "",
+    "flavor_text": "Je größer die Blütenblätter, desto giftiger ist der Blütenstaub darin. Sein großer Kopf ist schwer und nicht einfach hochzuhalten.",
+    "stage": "Rang 2",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Heiler",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Münze werfen. Bei „Kopf“ entferne eine Schadensmarke von einem deiner Pokémon. Diese Fähigkeit kann nicht eingesetzt werden, falls Giflor schlafend, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Blättertanz",
+            "damage": "40x",
+            "effect": "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 40 Schadenspunkte zu. Giflor ist jetzt verwirrt (nach der Schadensverteilung)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Duflor",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base2-31"
+        }
+    ],
+    "print_key": "tcgdex:base2-31",
+    "card_key": "45|80|2|Keiji Kinebuchi|40x|3",
+    "types_en": [
+        "Grass"
+    ]
+}

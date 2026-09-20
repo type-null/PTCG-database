@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp3-28",
+    "name": "Akwakwak",
+    "img": "https://assets.tcgdex.net/fr/dp/dp3/28/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Merveilles Secrètes",
+    "series": "Diamant & Perle",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "28",
+    "set_total": 132,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 55,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Encore",
+            "damage": 20,
+            "effect": "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut utiliser que cette attaque lors du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Psy"
+            ],
+            "name": "Rayon brisant",
+            "damage": "40+",
+            "effect": "Vous pouvez infliger 40 dégâts plus 20 dégâts supplémentaires. Akwakwak devient alors Confus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Psykokwak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp3-28"
+        }
+    ],
+    "print_key": "tcgdex:dp3-28",
+    "card_key": "55|90|1|Ken Sugimori|20,40+|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

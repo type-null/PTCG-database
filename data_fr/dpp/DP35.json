@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dpp-DP35",
+    "name": "Porygon-Z",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dpp",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dpp/symbol",
+    "set_full_name": "Promo DP",
+    "series": "Diamant & Perle",
+    "set_code": "dpp",
+    "date": "2007-05-01",
+    "number": "DP35",
+    "set_total": 56,
+    "rarity": "Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 474,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Installation",
+            "effect": "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez déplacer une carte Machine Technique attachée à 1 de vos Pokémon sur un autre de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Porygon-Z est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Apprentissage",
+            "damage": null,
+            "effect": "Choisissez dans votre deck un Pokémon NIV.X qui change de niveau à partir d'1 de vos Pokémon et placez-le sur ce Pokémon. (Vous le faites ainsi passer au niveau supérieur.) Ensuite, mélangez votre deck."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Surcharge",
+            "damage": "40+",
+            "effect": "Inflige 40 dégâts plus 20 dégâts supplémentaires pour chaque carte Machine Technique attachée à Porygon-Z."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+30"
+    },
+    "retreat": 2,
+    "evolve_from": "Porygon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dpp-DP35"
+        }
+    ],
+    "print_key": "tcgdex:dpp-DP35",
+    "card_key": "474|120|2|Kagemaru Himeno|None,40+|0,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

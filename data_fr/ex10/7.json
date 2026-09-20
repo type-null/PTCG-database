@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex10-7",
+    "name": "Demolosse",
+    "img": "https://assets.tcgdex.net/fr/ex/ex10/7/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Forces Cachées",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "7",
+    "set_total": 117,
+    "rarity": "Rare",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 229,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Feu"
+    ],
+    "abilities": [
+        {
+            "name": "Solitaire",
+            "effect": "Tant que vous avez moins de Pokémon en jeu que votre adversaire, il ou elle ne peut pas jouer de cartes Dresseur (cartes Supporter exclues) de sa main."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Mâchoire serrée",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Lance-flamme",
+            "damage": 70,
+            "effect": "Défaussez une Énergie {R} attachée à Demolosse."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Malosse",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex10-7"
+        }
+    ],
+    "print_key": "tcgdex:ex10-7",
+    "card_key": "229|70|1|Midori Harada|20,70|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw2-76",
+    "name": "Klikdiklak",
+    "img": "https://assets.tcgdex.net/de/bw/bw2/76/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw2",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw2/symbol",
+    "set_full_name": "Aufstreben der Mächtigen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw2",
+    "date": "2011-08-31",
+    "number": "76",
+    "set_total": 98,
+    "rarity": "Selten",
+    "author": [
+        "Akira Komayama"
+    ],
+    "pokedex_number": 601,
+    "pokemon_category": "",
+    "flavor_text": "Indem es das Rad mit dem roten Zentrum mit hohem Tempo zum Rotieren bringt, kann es eine Turboladung durchführen.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Ladestrahl",
+            "damage": 30,
+            "effect": "Nimm 1 Energiekarte von deinem Ablagestapel und lege sie an dieses Pokémon an."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Blitzkanone",
+            "damage": 80,
+            "effect": "Wirf 1 Münze. Bei „Zahl“ kann dieses Pokémon Blitzkanone während deines nächsten Zuges nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Kliklak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw2-76"
+        }
+    ],
+    "print_key": "tcgdex:bw2-76",
+    "card_key": "601|150|4|Akira Komayama|30,80|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

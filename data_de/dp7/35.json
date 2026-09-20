@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-35",
+    "name": "Zwirrklop",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "35",
+    "set_total": 106,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 356,
+    "pokemon_category": "",
+    "flavor_text": "Sein Körper ist hohl. Man sagt, dass diejenigen, die in den Körper blicken, hineingezogen werden.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Konfustrahl",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Bizarroraum",
+            "damage": "40+",
+            "effect": "Wenn du 1 Stadion-Karte im Spiel hast, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu. Wenn dein Gegner 1 Stadion-Karte im Spiel hat, entferne 2 Schadensmarken von Zwirrklop."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Zwirrlicht",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-35"
+        }
+    ],
+    "print_key": "tcgdex:dp7-35",
+    "card_key": "356|80|1|Sumiyoshi Kizuki|20,40+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy11-77",
+    "name": "Azumarill",
+    "img": "https://assets.tcgdex.net/de/xy/xy11/77/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Dampfkessel",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "77",
+    "set_total": 116,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Sanosuke Sakuma"
+    ],
+    "pokedex_number": 184,
+    "pokemon_category": "",
+    "flavor_text": "Das blasenähnliche Muster auf seinem Bauch hilft ihm, sich perfekt zu tarnen, wenn es im Wasser ist.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Fee",
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Knuddler",
+            "damage": "30+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Fee",
+                "Fee",
+                "Farblos"
+            ],
+            "name": "Blasengully",
+            "damage": 80,
+            "effect": "Heile 30 Schadenspunkte bei diesem Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Marill",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy11-77"
+        }
+    ],
+    "print_key": "tcgdex:xy11-77",
+    "card_key": "184|100|2|Sanosuke Sakuma|30+,80|2,3",
+    "types_en": [
+        "Fairy",
+        "Water"
+    ]
+}

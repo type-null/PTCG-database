@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-9",
+    "name": "Regigigas",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "9",
+    "set_total": 106,
+    "rarity": "Rare Holo",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 486,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Regi forme",
+            "effect": "Si vous avez Regirock, Regice et Registeel en jeu, le Coût d'attaque des attaques de Regigigas est Colorless de moins."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Ultimapoing",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Eau",
+                "Combat",
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Giga pouvoir",
+            "damage": "60+",
+            "effect": "Vous pouvez infliger 60 dégâts plus 40 dégâts supplémentaires. Regigigas s'inflige alors 40 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Regigigas",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-9"
+        }
+    ],
+    "print_key": "tcgdex:dp7-9",
+    "card_key": "486|100|4|Masakazu Fukuda|30,60+|2,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

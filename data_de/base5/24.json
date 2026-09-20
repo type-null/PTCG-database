@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base5-24",
+    "name": "Dunkles Golbat",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Grund",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "24",
+    "set_total": 83,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 42,
+    "pokemon_category": "",
+    "flavor_text": "Schleicht sich geräuschlos an seine Beute heran und greift hinterrücks an, wobei es seine Beute oft mit nur einem Biss tötet.",
+    "stage": "Rang 1",
+    "hp": 50,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Überraschungsangriff",
+            "effect": "Wenn du Dunkles Golbat von deiner Hand spielst, kannst du ein Pokémon deines Gegners wählen. In diesem Fall fügt Dunkles Golbat diesem Pokémon 10 Schadenspunkte zu. (Schwäche und Resistenz anwenden.)"
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Huschen",
+            "damage": null,
+            "effect": "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 20 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "evolve_from": "Zubat",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base5-24"
+        }
+    ],
+    "print_key": "tcgdex:base5-24",
+    "card_key": "42|50|None|Mitsuhiro Arita|None|2",
+    "types_en": [
+        "Grass"
+    ]
+}

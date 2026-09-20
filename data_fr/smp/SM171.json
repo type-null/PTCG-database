@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/smp-SM171",
+    "name": "Pyroli GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "Promo SM",
+    "series": "Soleil et Lune",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM171",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "PLANETA Otani"
+    ],
+    "pokedex_number": 136,
+    "pokemon_category": "",
+    "hp": 210,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Étape Chaleur",
+            "damage": 30,
+            "effect": "Vous pouvez attacher jusqu’à 3 cartes Énergie Fire de votre main à vos Pokémon, de la manière que vous voulez."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Flamme Éclatante",
+            "damage": 190,
+            "effect": "Défaussez 2 Énergies Fire de ce Pokémon."
+        },
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Puissance Brûlante GX",
+            "damage": "20×",
+            "effect": "Cette attaque inflige 20 dégâts pour chaque carte Énergie Fire dans votre pile de défausse. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Évoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/smp-SM171"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM171",
+    "card_key": "136|210|2|PLANETA Otani|30,190,20x|1,3,1",
+    "types_en": [
+        "Fire"
+    ]
+}

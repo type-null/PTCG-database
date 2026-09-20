@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm3-43",
+    "name": "Elevoltek",
+    "img": "https://assets.tcgdex.net/de/sm/sm3/43/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Nacht in Flammen",
+    "series": "Sonne & Mond",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "43",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 466,
+    "pokemon_category": "",
+    "flavor_text": "Es berührt Gegner mit seinen Schweifspitzen und entlädt dann starke Elektrizität. So kann es sie im Nullkommanichts verkohlen.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Donnerschlag",
+            "damage": "60+",
+            "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 60 Schadenspunkte mehr zu. Bei Zahl fügt dieses Pokémon sich selbst 20 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Gigastoß",
+            "damage": 170,
+            "effect": "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Elektek",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm3-43"
+        }
+    ],
+    "print_key": "tcgdex:sm3-43",
+    "card_key": "466|140|4|kawayoo|60+,170|3,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

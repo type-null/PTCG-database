@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp2-55",
+    "name": "Maskadra",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Trésors Mystérieux",
+    "series": "Diamant & Perle",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "55",
+    "set_total": 124,
+    "rarity": "Peu Commune",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 284,
+    "pokemon_category": "",
+    "flavor_text": "Des motifs en forme d'yeux ornent ses antennes. Ses 4 ailes l'aident à voler dans toutes les directions.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Force centrifuge",
+            "damage": "20x",
+            "effect": "Inflige 20 dégâts multipliés par le nombre d'Énergie Colorless dans le Coût de retraite du Pokémon Défenseur (après application des effets du Coût de retraite)."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante"
+            ],
+            "name": "Clapotis tourbillonnant",
+            "damage": "30+",
+            "effect": "Si votre adversaire possède des Pokémon Water en jeu, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "evolve_from": "Arakdo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp2-55"
+        }
+    ],
+    "print_key": "tcgdex:dp2-55",
+    "card_key": "284|70|None|Midori Harada|20x,30+|2,2",
+    "types_en": [
+        "Grass"
+    ]
+}

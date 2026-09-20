@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/svp-123",
+    "name": "Ogerpon Máscara Turquesa",
+    "img": "https://assets.tcgdex.net/es/sv/svp/123/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "H",
+    "set_name": "svp",
+    "set_full_name": "SVP Black Star Promos",
+    "series": "Escarlata y Púrpura",
+    "set_code": "svp",
+    "date": "2023-03-31",
+    "number": "123",
+    "set_total": 225,
+    "rarity": "Promo",
+    "author": [
+        "kodama"
+    ],
+    "pokedex_number": 1017,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 110,
+    "types": [
+        "Planta"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolora"
+            ],
+            "name": "Paseo por la Montaña",
+            "damage": null,
+            "effect": "Busca en tu baraja hasta 2 cartas de Energía Básica, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja."
+        },
+        {
+            "cost": [
+                "Planta",
+                "Incolora"
+            ],
+            "name": "Venganza del Ogro",
+            "damage": "20+",
+            "effect": "Este ataque hace 20 puntos de daño más por cada uno de los Pokémon en Banca de tu rival."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/svp-123"
+        }
+    ],
+    "print_key": "tcgdex:svp-123",
+    "card_key": "1017|110|1|kodama|None,20+|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw8-51",
+    "name": "Voltula",
+    "img": "https://assets.tcgdex.net/de/bw/bw8/51/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw8",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw8/symbol",
+    "set_full_name": "Plasma-Sturm",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw8",
+    "date": "2013-02-06",
+    "number": "51",
+    "set_total": 138,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 596,
+    "pokemon_category": "",
+    "flavor_text": "Errichtet mit elektrisch geladenen Fäden Barrieren, die lähmend wirken und ihm zur Verteidigung und zum Angriff dienen.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Ladungsstoß",
+            "damage": 30,
+            "effect": "Lege alle an dieses Pokémon angelegten {L}-Energien auf deinen Ablagestapel. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl abgelegter Energiekarten zu."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Ampelleuchte",
+            "damage": 30,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Wattzapf",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw8-51"
+        }
+    ],
+    "print_key": "tcgdex:bw8-51",
+    "card_key": "596|80|0|Hajime Kusajima|30,30|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

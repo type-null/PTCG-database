@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm1-10",
+    "name": "Efflèche",
+    "img": "https://assets.tcgdex.net/fr/sm/sm1/10/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Soleil et Lune",
+    "series": "Soleil et Lune",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "10",
+    "set_total": 163,
+    "rarity": "Peu Commune",
+    "author": [
+        "Mizue"
+    ],
+    "pokedex_number": 723,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Plum’acérée Tranchante",
+            "damage": null,
+            "effect": "Cette attaque inflige 20 dégâts à l’un des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Lame-Feuille",
+            "damage": "50+",
+            "effect": "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Brindibou",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm1-10"
+        }
+    ],
+    "print_key": "tcgdex:sm1-10",
+    "card_key": "723|80|1|Mizue|None,50+|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm4-54",
+    "name": "Gastrodon",
+    "img": "https://assets.tcgdex.net/de/sm/sm4/54/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Aufziehen der Sturmröte",
+    "series": "Sonne & Mond",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "54",
+    "set_total": 125,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "TOKIYA"
+    ],
+    "pokedex_number": 423,
+    "pokemon_category": "",
+    "flavor_text": "Es hat starke Regenerationskräfte. Selbst wenn Fisch-Pokémon ein Stück von ihm abbeißen, wächst es innerhalb weniger Stunden nach.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Unheimliche Flüssigkeit",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Erdbeben",
+            "damage": 120,
+            "effect": "Diese Attacke fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Schalellos",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm4-54"
+        }
+    ],
+    "print_key": "tcgdex:sm4-54",
+    "card_key": "423|120|3|TOKIYA|30,120|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

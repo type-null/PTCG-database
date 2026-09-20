@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/swsh2-80",
+    "name": "Sigilyph",
+    "img": "https://assets.tcgdex.net/it/swsh/swsh2/80/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Fragore Ribelle",
+    "series": "Spada e Scudo",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "80",
+    "set_total": 209,
+    "rarity": "Rara",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 561,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 110,
+    "types": [
+        "Psico"
+    ],
+    "abilities": [
+        {
+            "name": "Respinta",
+            "effect": "Se questo Pokémon è il tuo Pokémon attivo e viene danneggiato da un attacco del tuo avversario, anche se viene messo KO, metti tre segnalini danno sul Pokémon attaccante."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psico",
+                "Incolore"
+            ],
+            "name": "Psicoassalto",
+            "damage": "30+",
+            "effect": "Questo attacco infligge 10 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lampo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/swsh2-80"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-80",
+    "card_key": "561|110|1|Naoyo Kimura|30+|2",
+    "types_en": [
+        "Psychic"
+    ]
+}

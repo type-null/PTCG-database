@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex11-13",
+    "name": "Rayquaza δ",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex11",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex11/symbol",
+    "set_full_name": "EX Delta Species",
+    "series": "EX",
+    "set_code": "ex11",
+    "date": "2005-10-31",
+    "number": "13",
+    "set_total": 114,
+    "rarity": "Selten",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 384,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Elektro",
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Delta-Wache",
+            "effect": "Solange an Rayquaza eine Holon-Energiekarte angelegt ist, ignoriere den Effekt von Rayquazas Blitzsturm Angriff."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Mächtiger Schlag",
+            "damage": "10x",
+            "effect": "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Rayquaza angelegte Energie zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Blitzsturm",
+            "damage": 70,
+            "effect": "Lege 7 Schadensmarken auf Rayquaza."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser",
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex11-13"
+        }
+    ],
+    "print_key": "tcgdex:ex11-13",
+    "card_key": "384|90|3|Ryo Ueda|10x,70|1,4",
+    "types_en": [
+        "Lightning",
+        "Metal"
+    ]
+}

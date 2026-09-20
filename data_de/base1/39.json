@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-39",
+    "name": "Porygon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "39",
+    "set_total": 102,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Tomoaki Imakuni"
+    ],
+    "pokedex_number": 137,
+    "pokemon_category": "",
+    "flavor_text": "Ein Pokémon, das vollständig aus Programmiercodes besteht. Kann sich im Cyberspace frei bewegen.",
+    "stage": "Basis",
+    "hp": 30,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Umwandlung 1",
+            "damage": null,
+            "effect": "Falls das verteidigende Pokémon eine Schwäche hat, kannst Du sie auf einen Typ Deiner Wahl (außer Farblos) ändern."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Umwandlung 2",
+            "damage": null,
+            "effect": "Ändere Porygons Resistenz auf einen Typ Deiner Wahl (außer Farblos)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-39"
+        }
+    ],
+    "print_key": "tcgdex:base1-39",
+    "card_key": "137|30|1|Tomoaki Imakuni|None,None|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

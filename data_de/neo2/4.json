@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo2-4",
+    "name": "Hundemon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Entdeckung",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "4",
+    "set_total": 75,
+    "rarity": "Selten",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 229,
+    "pokemon_category": "",
+    "flavor_text": "Wenn sein gruseliges Geheule zu hören ist, flüchten andere Pokémon zitternd in ihre Schlupfwinkel zurück.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Knirscher",
+            "damage": 30,
+            "effect": "Falls bis zum Ende deines nächsten Zugs ein Angriff dem verteidigenden Pokémon Schadenspunkte zufügt (nachdem Schwäche und Resistenz verrechnet wurden), fügt dieser Angriff dem verteidigenden Pokémon 20 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Flammenwurf",
+            "damage": 50,
+            "effect": "Lege eine an Hundemon angelegte {R}-Energiekarte auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Hunduster",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo2-4"
+        }
+    ],
+    "print_key": "tcgdex:neo2-4",
+    "card_key": "229|70|1|Shin-ichi Yoshida|30,50|3,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

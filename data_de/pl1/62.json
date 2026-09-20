@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-62",
+    "name": "Schilterus",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "62",
+    "set_total": 133,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 410,
+    "pokemon_category": "",
+    "flavor_text": "Es ist sehr gut gepanzert und muss daher während des Essens von Gras und Beeren keinen Kampf fürchten.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Ausdauer",
+            "damage": null,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ wird Schilterus, wenn es im nächsten Zug deines Gegners durch Schaden eines Angriffs kampfunfähig würde, nicht kampfunfähig und hat stattdessen 10 verbliebene KP."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Steinhagel",
+            "damage": 30,
+            "effect": "Dieser Angriff fügt 2 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Panzerfossil",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-62"
+        }
+    ],
+    "print_key": "tcgdex:pl1-62",
+    "card_key": "410|80|1|Mitsuhiro Arita|None,30|1,2",
+    "types_en": [
+        "Metal"
+    ]
+}

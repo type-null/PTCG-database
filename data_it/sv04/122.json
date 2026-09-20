@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sv04-122",
+    "name": "Lokix",
+    "img": "https://assets.tcgdex.net/it/sv/sv04/122/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "G",
+    "set_name": "sv04",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04/symbol",
+    "set_full_name": "Paradosso Temporale",
+    "series": "Scarlatto e Violetto",
+    "set_code": "sv04",
+    "date": "2023-11-03",
+    "number": "122",
+    "set_total": 266,
+    "rarity": "Rara",
+    "author": [
+        "Souichirou Gunjima"
+    ],
+    "pokedex_number": 920,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 120,
+    "types": [
+        "Oscurità"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Oscurità"
+            ],
+            "name": "Rimbalzo",
+            "damage": 30,
+            "effect": "Scambia questo Pokémon con uno della tua panchina."
+        },
+        {
+            "cost": [
+                "Oscurità",
+                "Oscurità"
+            ],
+            "name": "Calcio Punitivo",
+            "damage": "10+",
+            "effect": "Questo attacco infligge 40 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Erba"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Nymble",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sv04-122"
+        }
+    ],
+    "print_key": "tcgdex:sv04-122",
+    "card_key": "920|120|1|Souichirou Gunjima|30,10+|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-95",
+    "name": "Rihornior",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/95/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "95",
+    "set_total": 234,
+    "rarity": "Selten",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 464,
+    "pokemon_category": "",
+    "flavor_text": "Es feuert Kleinstein aus seinen Handflächen. Durch seinen Schützer erträgt es sogar Vulkanausbrüche.",
+    "stage": "Rang 2",
+    "hp": 170,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schwere Kanone",
+            "damage": 90,
+            "effect": "Wenn das Verteidigende Pokémon ein Basis-Pokémon ist, kann es während des nächsten Zuges deines Gegners nicht angreifen."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Boden gewinnen",
+            "damage": 160,
+            "effect": "Diese Attacke fügt jedem Pokémon auf deiner Bank 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Rizeros",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-95"
+        }
+    ],
+    "print_key": "tcgdex:sm10-95",
+    "card_key": "464|170|4|kawayoo|90,160|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

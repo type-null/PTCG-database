@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base2-45",
+    "name": "Rhinoféros",
+    "img": "https://assets.tcgdex.net/fr/base/base2/45/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Base",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "45",
+    "set_total": 64,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 112,
+    "pokemon_category": "",
+    "flavor_text": "Son épiderme très épais lui permet de survivre dans un environnement de plus de 3600 degrés.",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Koud'korne",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Combat",
+                "Combat"
+            ],
+            "name": "Défonce",
+            "damage": 50,
+            "effect": "Rhinoféros s'inflige 20 dégâts. Si votre adversaire a au moins 1 Pokémon sur son Banc, il choisit l'un d'eux et l'échange avec son Pokémon Défenseur. (Infligez les dégâts avant de faire l'échange des Pokémon. Échangez les Pokémon même si Rhinoféros est K.O.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Rhinocorne",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base2-45"
+        }
+    ],
+    "print_key": "tcgdex:base2-45",
+    "card_key": "112|100|3|Kagemaru Himeno|30,50|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

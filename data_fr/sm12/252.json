@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm12-252",
+    "name": "Pyrax GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm12/252/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm12",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm12/symbol",
+    "set_full_name": "Éclipse Cosmique",
+    "series": "Soleil et Lune",
+    "set_code": "sm12",
+    "date": "2019-11-01",
+    "number": "252",
+    "set_total": 271,
+    "rarity": "Magnifique rare",
+    "author": [
+        "PLANETA Tsuji"
+    ],
+    "pokedex_number": 637,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 210,
+    "types": [
+        "Feu"
+    ],
+    "abilities": [
+        {
+            "name": "Tir Enflammé",
+            "effect": "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie Fire de votre main. Dans ce cas, placez 2 marqueurs de dégâts sur l’un des Pokémon de votre adversaire."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Retour de Feu",
+            "damage": 160,
+            "effect": "Placez 2 Énergies Fire attachées à ce Pokémon dans votre main."
+        },
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Vague de Chaleur Massive GX",
+            "damage": null,
+            "effect": "Défaussez une Énergie de chacun des Pokémon de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Pyronille",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm12-252"
+        }
+    ],
+    "print_key": "tcgdex:sm12-252",
+    "card_key": "637|210|3|PLANETA Tsuji|160,None|3,1",
+    "types_en": [
+        "Fire"
+    ]
+}

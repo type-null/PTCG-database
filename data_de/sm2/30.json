@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm2-30",
+    "name": "Wailord",
+    "img": "https://assets.tcgdex.net/de/sm/sm2/30/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Stunde der Wächter",
+    "series": "Sonne & Mond",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "30",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "OOYAMA"
+    ],
+    "pokedex_number": 321,
+    "pokemon_category": "",
+    "flavor_text": "Wailord jagt seine Beute in der Gruppe. Mit seinem enormen Maul kann es ganze Schwärme von Lusardin auf einmal verschlingen.",
+    "stage": "Rang 1",
+    "hp": 200,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Taucher",
+            "damage": 40,
+            "effect": "Wirf 1 Münze. Verhindere bei Kopf während des nächsten Zuges deines Gegners alle Effekte von Attacken, einschließlich Schaden, die diesem Pokémon zugefügt werden."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Offene See",
+            "damage": 80,
+            "effect": "Heile 30 Schadenspunkte bei jedem deiner {W}-Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Wailmer",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm2-30"
+        }
+    ],
+    "print_key": "tcgdex:sm2-30",
+    "card_key": "321|200|4|OOYAMA|40,80|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

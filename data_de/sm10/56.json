@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-56",
+    "name": "Flunschlik",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/56/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "56",
+    "set_total": 234,
+    "rarity": "Selten",
+    "author": [
+        "sowsow"
+    ],
+    "pokedex_number": 618,
+    "pokemon_category": "",
+    "flavor_text": "Dank seiner dicken Haut hält es selbst das Gewicht eines Sumoringers aus. Wenn es Stromschläge verteilt, grinst es.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Tosender Donner",
+            "damage": 30,
+            "effect": "Diese Attacke fügt 1 Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Elektrofalle",
+            "damage": "30×",
+            "effect": "Diese Attacke fügt 30 Schadenspunkte mal der Anzahl deiner Pokémon zu, auf denen mindestens 1 Schadensmarke liegt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-56"
+        }
+    ],
+    "print_key": "tcgdex:sm10-56",
+    "card_key": "618|110|3|sowsow|30,30x|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

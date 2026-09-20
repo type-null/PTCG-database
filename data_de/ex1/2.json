@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex1-2",
+    "name": "Papinella",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex1",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex1/symbol",
+    "set_full_name": "EX Rubin & Saphir",
+    "series": "EX",
+    "set_code": "ex1",
+    "date": "2003-07-01",
+    "number": "2",
+    "set_total": 109,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 267,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Staub des Verdorrens",
+            "effect": "Solange sich Papinella im Spiel befindet, werden die Resistenzen von allen Aktiven Pokémon nicht angewendet."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Stachelspore",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Allgemeine Erholung",
+            "damage": 50,
+            "effect": "Entferne 1 Schadensmarke von allen deinen Pokémon inklusive Papinella."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Schaloko",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex1-2"
+        }
+    ],
+    "print_key": "tcgdex:ex1-2",
+    "card_key": "267|80|0|Hajime Kusajima|20,50|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

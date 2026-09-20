@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw1-49",
+    "name": "Somnivora",
+    "img": "https://assets.tcgdex.net/de/bw/bw1/49/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw1",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw1/symbol",
+    "set_full_name": "Schwarz & Weiß",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw1",
+    "date": "2011-04-25",
+    "number": "49",
+    "set_total": 115,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 518,
+    "pokemon_category": "",
+    "flavor_text": "Der Dunst, der aus seiner Stirn tritt, enthält die Träume unzähliger Menschen und Pokémon.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Hypnotischer Strahl",
+            "damage": 20,
+            "effect": "Das Verteidigende Pokémon schläft jetzt."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Traumfresser",
+            "damage": 90,
+            "effect": "Wenn das Verteidigende Pokémon nicht schläft, hat dieser Angriff keine Auswirkungen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Somniam",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw1-49"
+        }
+    ],
+    "print_key": "tcgdex:bw1-49",
+    "card_key": "518|90|2|Masakazu Fukuda|20,90|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-8",
+    "name": "Guardevoir",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "8",
+    "set_total": 133,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 282,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Psychoverbindung",
+            "effect": "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 {P}-Energie, die an 1 Pokémon auf deiner Bank angelegt ist, an dein Aktives Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Guardevoir von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Energieausbruch",
+            "damage": "20+",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede Energie, die an Guardevoir und dem Verteidigenden Pokémon angelegt ist, zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Psychoschützer",
+            "damage": 60,
+            "effect": "Während des nächsten Zuges deines Gegners hat Guardevoir keine Schwäche."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+30"
+    },
+    "retreat": 1,
+    "evolve_from": "Kirlia",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-8"
+        }
+    ],
+    "print_key": "tcgdex:pl1-8",
+    "card_key": "282|120|1|Kouki Saitou|20+,60|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

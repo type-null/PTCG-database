@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex10-24",
+    "name": "Tygnon",
+    "img": "https://assets.tcgdex.net/fr/ex/ex10/24/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Forces Cachées",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "24",
+    "set_total": 117,
+    "rarity": "Rare",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 107,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Niveaux d'Évolution",
+            "effect": "Tant que Tygnon est un Pokémon Évolué, il obtient 30 Points de vie supplémentaires."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Poing lourd",
+            "damage": "10x",
+            "effect": "Inflige 10 dégâts multipliés par le nombre de Pokémon sur le Banc de votre adversaire."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Uppercut super rapide",
+            "damage": 50,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex10-24"
+        }
+    ],
+    "print_key": "tcgdex:ex10-24",
+    "card_key": "107|70|1|Hisao Nakamura|10x,50|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

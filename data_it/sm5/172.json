@@ -1,0 +1,81 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sm5-172",
+    "name": "Lunala GX",
+    "img": "https://assets.tcgdex.net/it/sm/sm5/172/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultraprisma",
+    "series": "Sole e Luna",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "172",
+    "set_total": 173,
+    "rarity": "Segreto rara",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 792,
+    "pokemon_category": "",
+    "hp": 250,
+    "types": [
+        "Psico"
+    ],
+    "abilities": [
+        {
+            "name": "Psicotransfer",
+            "effect": "Durante il tuo turno, prima di attaccare, puoi spostare un’Energia Psychic da uno a un altro dei tuoi Pokémon tutte le volte che vuoi."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psico",
+                "Psico",
+                "Psico",
+                "Psico"
+            ],
+            "name": "Raggio d’Ombra",
+            "damage": 120,
+            "effect": "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può essere curato."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Psico",
+                "Psico"
+            ],
+            "name": "Caduta Lunare-GX",
+            "damage": null,
+            "effect": "Metti KO un Pokémon Base del tuo avversario che non è un Pokémon-GX. Non puoi usare più di un attacco GX a partita."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscurità"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sm5-172"
+        }
+    ],
+    "print_key": "tcgdex:sm5-172",
+    "card_key": "792|250|2|5ban Graphics|120,None|4,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

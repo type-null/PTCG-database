@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/xy5-81",
+    "name": "Medicham",
+    "img": "https://assets.tcgdex.net/it/xy/xy5/81/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Scontro Primordiale",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "81",
+    "set_total": 164,
+    "rarity": "Rara",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 308,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 90,
+    "types": [
+        "Lotta"
+    ],
+    "abilities": [
+        {
+            "name": "{title}:",
+            "effect": "{title}: Questo Pokémon può attaccare due volte durante lo stesso turno. Se il primo attacco mette KO il Pokémon attivo del tuo avversario, puoi attaccare di nuovo dopo che il tuo avversario avrà scelto il suo nuovo Pokémon attivo."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Calmamente",
+            "damage": null,
+            "effect": "Cura questo Pokémon da 30 danni."
+        },
+        {
+            "cost": [
+                "Lotta",
+                "Lotta"
+            ],
+            "name": "Calcio Yoga",
+            "damage": 30,
+            "effect": "Il danno di questo attacco non è influenzato dalla debolezza o dalla resistenza."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Meditite",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/xy5-81"
+        }
+    ],
+    "print_key": "tcgdex:xy5-81",
+    "card_key": "308|90|1|Mitsuhiro Arita|None,30|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

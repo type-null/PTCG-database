@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm1-32",
+    "name": "Tartard",
+    "img": "https://assets.tcgdex.net/fr/sm/sm1/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Soleil et Lune",
+    "series": "Soleil et Lune",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "32",
+    "set_total": 163,
+    "rarity": "Rare",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 62,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 150,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Coup d’Poing en Demi Spirale",
+            "damage": 30,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Réveil Forcé",
+            "damage": "80+",
+            "effect": "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, cette attaque inflige 80 dégâts supplémentaires. Retirez ensuite tous les États Spéciaux de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Têtarte",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm1-32"
+        }
+    ],
+    "print_key": "tcgdex:sm1-32",
+    "card_key": "62|150|3|Midori Harada|30,80+|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

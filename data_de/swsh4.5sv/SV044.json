@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh4.5sv-SV044",
+    "name": "Morpeko",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh4.5sv",
+    "set_full_name": "Glänzendes Schicksal Glitzer-Tresor",
+    "series": "Schwert & Schild",
+    "set_code": "swsh4.5sv",
+    "date": "2021-02-19",
+    "number": "SV044",
+    "set_total": 122,
+    "rarity": "Shiny rare",
+    "author": [
+        "Akira Komayama"
+    ],
+    "pokedex_number": 877,
+    "pokemon_category": "",
+    "flavor_text": "Dieses immerzu hungrige Pokémon frisst Samen, die es in seinen beutelartigen Taschen verwahrt, und produziert so Elektrizität.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Folterknecht",
+            "damage": 20,
+            "effect": "Wähle 1 Attacke des Aktiven Pokémon deines Gegners. Während des nächsten Zuges deines Gegners kann jenes Pokémon jene Attacke nicht einsetzen."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Funkensprung",
+            "damage": 50,
+            "effect": "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh4.5sv-SV044"
+        }
+    ],
+    "print_key": "tcgdex:swsh4.5sv-SV044",
+    "card_key": "877|80|1|Akira Komayama|20,50|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

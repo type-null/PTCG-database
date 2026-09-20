@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp2-33",
+    "name": "Charkos",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Trésors Mystérieux",
+    "series": "Diamant & Perle",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "33",
+    "set_total": 124,
+    "rarity": "Rare",
+    "author": [
+        "Kazuyuki Kano"
+    ],
+    "pokedex_number": 409,
+    "pokemon_category": "",
+    "flavor_text": "Son violent coup de tête est assez puissant pour pulvériser les matériaux les plus résistants",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Assurance",
+            "damage": 30,
+            "effect": "Tant qu'il reste un maximum de 60 PV au Pokémon Défenseur, les dégâts de base de cette attaque sont de 60 au lieu de 30."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Combat"
+            ],
+            "name": "Coup d'boule rapide",
+            "damage": 100,
+            "effect": "Charkos s'inflige 20 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Power, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "+30"
+    },
+    "retreat": 1,
+    "evolve_from": "Kranidos",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp2-33"
+        }
+    ],
+    "print_key": "tcgdex:dp2-33",
+    "card_key": "409|120|1|Kazuyuki Kano|30,100|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

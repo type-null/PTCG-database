@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp2-55",
+    "name": "Maskeregen",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Geheimnisvolle Schätze",
+    "series": "Diamant & Perl",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "55",
+    "set_total": 124,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 284,
+    "pokemon_category": "",
+    "flavor_text": "Seine Antenne besitzt ein Augenmuster. Seine vier Flügel erlauben es, in alle Richtungen zu fliegen.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zentrifugalkraft",
+            "damage": "20x",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte für jede {C}-Energie in den Rückzugskosten des Verteidigenden Pokémon zu (nachdem Effekte auf die Rückzugskosten verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Wirbelnde Wellen",
+            "damage": "30+",
+            "effect": "Wenn dein Gegner mindestens 1 {W}-Pokémon im Spiel hat, fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "evolve_from": "Gehweiher",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp2-55"
+        }
+    ],
+    "print_key": "tcgdex:dp2-55",
+    "card_key": "284|70|None|Midori Harada|20x,30+|2,2",
+    "types_en": [
+        "Grass"
+    ]
+}

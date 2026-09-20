@@ -1,0 +1,57 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base2-60",
+    "name": "Pikachu",
+    "img": "https://assets.tcgdex.net/fr/base/base2/60/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Base",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "60",
+    "set_total": 64,
+    "rarity": "Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "flavor_text": "Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Étincelle",
+            "damage": 20,
+            "effect": "Si votre adversaire a au moins 1 Pokémon sur son Banc, choisissez l'un d'eux ; cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Faiblesse et la Résistance au Pokémon du Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Pichu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base2-60"
+        }
+    ],
+    "print_key": "tcgdex:base2-60",
+    "card_key": "25|50|1|Ken Sugimori|20|2",
+    "types_en": [
+        "Lightning"
+    ]
+}

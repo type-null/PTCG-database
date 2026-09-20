@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh6-126",
+    "name": "Coiffwaff",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh6/126/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh6",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh6/symbol",
+    "set_full_name": "Schaurige Herrschaft",
+    "series": "Schwert & Schild",
+    "set_code": "swsh6",
+    "date": "2021-06-18",
+    "number": "126",
+    "set_total": 233,
+    "rarity": "Häufig",
+    "author": [
+        "Tika Matsuno"
+    ],
+    "pokedex_number": 676,
+    "pokemon_category": "",
+    "flavor_text": "Trimmt man sein Fell nicht regelmäßig, wächst es ohne Unterlass. Allerdings lässt es sich nur von jemandem frisieren, dem es traut.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Freunde finden",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Fellangriff",
+            "damage": 90,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh6-126"
+        }
+    ],
+    "print_key": "tcgdex:swsh6-126",
+    "card_key": "676|90|1|Tika Matsuno|None,90|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

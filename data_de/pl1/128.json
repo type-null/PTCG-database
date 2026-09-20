@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-128",
+    "name": "Elektek",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "128",
+    "set_total": 133,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 125,
+    "pokemon_category": "",
+    "flavor_text": "Es konsumiert am liebsten Elektrizität. Gelegentlich sieht man es in der Nähe von Kraftwerken.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Donnerschock",
+            "damage": 10,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon gelähmt."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Donnerschlag",
+            "damage": "30+",
+            "effect": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 30 Schadenspunkte zu, und Elektek fügt sich selbst 10 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-128"
+        }
+    ],
+    "print_key": "tcgdex:pl1-128",
+    "card_key": "125|70|2|Ken Sugimori|10,30+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

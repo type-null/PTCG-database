@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex10-103",
+    "name": "Aligatueur ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex10/103/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Forces Cachées",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "103",
+    "set_total": 117,
+    "rarity": "Rare",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 160,
+    "pokemon_category": "",
+    "hp": 150,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Croc dominateur",
+            "effect": "Tant qu'Aligatueur ex est votre Pokémon Actif, les Pokémon de chaque joueur (Pokémon-ex exclus) ne peuvent pas utiliser de Poké-Powers ou de Poké-Bodies."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Tsunami",
+            "damage": 30,
+            "effect": "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Point douloureux",
+            "damage": "70+",
+            "effect": "Inflige 70 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Crocrodil",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex10-103"
+        }
+    ],
+    "print_key": "tcgdex:ex10-103",
+    "card_key": "160|150|3|Hikaru Koike|30,70+|2,4",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/g1-RC11",
+    "name": "Woingenau",
+    "img": "https://assets.tcgdex.net/de/xy/g1/RC11/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Generationen",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "RC11",
+    "set_total": 117,
+    "rarity": "Häufig",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 202,
+    "pokemon_category": "",
+    "flavor_text": "Wenn sie von Kissen und Kommoden umgeben ist, die ich toll finde, dann sieht sie wie eine Prinzessin aus!",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Sperrzeit",
+            "effect": "Solang dieses Pokémon dein Aktives Pokémon ist, hat jedes Pokémon im Spiel, in der Hand beider Spieler oder im Ablagestapel beider Spieler keine Fähigkeit (außer {P}-Pokémon)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psycho-Ansturm",
+            "damage": "10+",
+            "effect": "Dieser Angriff fügt 10 weitere Schadenspunkte für jede Schadensmarke auf dem Aktiven Pokémon deines Gegners zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/g1-RC11"
+        }
+    ],
+    "print_key": "tcgdex:g1-RC11",
+    "card_key": "202|110|2|Yukiko Baba|10+|2",
+    "types_en": [
+        "Psychic"
+    ]
+}

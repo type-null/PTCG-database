@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-22",
+    "name": "Mélodelfe",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "22",
+    "set_total": 130,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 36,
+    "pokemon_category": "",
+    "flavor_text": "Il joue au bord des lacs déserts les soirs de pleine lune. Rares sont ceux qui l'ont aperçu.",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Torgnoles",
+            "damage": "30x",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Métronome",
+            "damage": null,
+            "effect": "Choisissez 1 des attaques du Pokémon Défenseur. Métronome copie cette attaque, son Coût en Énergie excepté. (Vous devez toujours faire ce que l'attaque indique.) Melodelfe utilise cette attaque."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Mélofée",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-22"
+        }
+    ],
+    "print_key": "tcgdex:dp1-22",
+    "card_key": "36|90|2|Ken Sugimori|30x,None|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

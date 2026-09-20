@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo2-26",
+    "name": "Magnéti",
+    "img": "https://assets.tcgdex.net/fr/neo/neo2/26/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Discovery",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "26",
+    "set_total": 75,
+    "rarity": "Rare",
+    "pokedex_number": 81,
+    "pokemon_category": "",
+    "flavor_text": "Ces Pokémon sont attirés par les émissions électriques et ils suivent souvent les gens qui se servent de Pokéquipement.",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Verrouillage",
+            "damage": null,
+            "effect": "Pendant votre prochain tour, considérez que les pièces tombées sur pile lors de l'attaque Élécanon de Magneti sur le Pokémon Défenseur sont en fait tombées sur face. (Faire évoluer ou renvoyer l'un ou l'autre Pokémon sur son Banc annule cet effet.)"
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Élécanon",
+            "damage": 50,
+            "effect": "Lancez 2 pièces. Si c'est face dans les deux cas, le Pokémon Défenseur est Paralysé. Si c'est pile (même pour une pièce seulement), cette attaque ne fait rien (pas même de dégâts)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Plante"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo2-26"
+        }
+    ],
+    "print_key": "tcgdex:neo2-26",
+    "types_en": [
+        "Metal"
+    ]
+}

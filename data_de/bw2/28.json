@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw2-28",
+    "name": "Petznief",
+    "img": "https://assets.tcgdex.net/de/bw/bw2/28/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw2",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw2/symbol",
+    "set_full_name": "Aufstreben der Mächtigen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw2",
+    "date": "2011-08-31",
+    "number": "28",
+    "set_total": 98,
+    "rarity": "Häufig",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 613,
+    "pokemon_category": "",
+    "flavor_text": "Wenn es kränkelt, wird der Schleim aus seiner Nase flüssiger und seine Eis-Attacken verlieren an Stärke.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Pulverschnee",
+            "damage": 10,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Erholung",
+            "damage": null,
+            "effect": "Heile 60 Schadenspunkte bei diesem Pokémon. Dieses Pokémon schläft jetzt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw2-28"
+        }
+    ],
+    "print_key": "tcgdex:bw2-28",
+    "card_key": "613|70|2|sui|10,None|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

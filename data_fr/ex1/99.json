@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex1-99",
+    "name": "Lokhlass ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex1/99/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex1",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex1/symbol",
+    "set_full_name": "EX Rubis & Saphir",
+    "series": "EX",
+    "set_code": "ex1",
+    "date": "2003-07-01",
+    "number": "99",
+    "set_total": 109,
+    "rarity": "Rare",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 131,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 110,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Boule d'énergie",
+            "damage": "10+",
+            "effect": "Inflige 10 points de dégât plus 10 points de dégât supplémentaires pour chaque Énergie attachée à Lokhlass Ex qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Onde folie",
+            "damage": 30,
+            "effect": "Le Pokémon Défenseur est maintenant Confus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex1-99"
+        }
+    ],
+    "print_key": "tcgdex:ex1-99",
+    "card_key": "131|110|3|Hikaru Koike|10+,30|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

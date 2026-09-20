@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy5-40",
+    "name": "Welsar",
+    "img": "https://assets.tcgdex.net/de/xy/xy5/40/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Protoshock",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "40",
+    "set_total": 164,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 340,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Amnesie",
+            "damage": 20,
+            "effect": "Wähle 1 Angriff des Aktiven Pokémon deines Gegners. Das Pokémon kann den gewählten Angriff während des nächsten Zuges deines Gegners nicht einsetzen."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Aufwärtsstoß",
+            "damage": "60+",
+            "effect": "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Schmerbe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy5-40"
+        }
+    ],
+    "print_key": "tcgdex:xy5-40",
+    "card_key": "340|100|3|Naoyo Kimura|20,60+|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

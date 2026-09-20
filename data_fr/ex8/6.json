@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex8-6",
+    "name": "Colhomard",
+    "img": "https://assets.tcgdex.net/fr/ex/ex8/6/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "6",
+    "set_total": 108,
+    "rarity": "Rare",
+    "author": [
+        "Tomoko Wakai"
+    ],
+    "pokedex_number": 342,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Obscurité"
+    ],
+    "abilities": [
+        {
+            "name": "Protection obscure",
+            "effect": "Tous dégâts infligés à Colhomard par une attaque de votre adversaire sont réduits de 10 pour chaque Énergie {D} attachée à Colhomard (après application de la Faiblesse et de la Résistance). Vous ne pouvez pas réduire de plus de 20 dégâts de cette façon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Bulles d'O",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coupe transversale",
+            "damage": "40+",
+            "effect": "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Écrapince",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex8-6"
+        }
+    ],
+    "print_key": "tcgdex:ex8-6",
+    "card_key": "342|70|1|Tomoko Wakai|20,40+|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

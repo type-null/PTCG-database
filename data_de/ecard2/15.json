@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard2-15",
+    "name": "Hundemon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-Card",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "15",
+    "set_total": 186,
+    "rarity": "Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 229,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Feuerwerk",
+            "damage": 30,
+            "effect": "Wirf eine Münze. Lege bei „Zahl“ eine an Hundemon angelegte {R}-Energiekarte auf deinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Finsterer Einfluss",
+            "damage": 40,
+            "effect": "Das Verteidigende Pokémon kann bis zum Ende des nächsten Zuges deines Gegners keine Poké-Power verwenden."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Hunduster",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard2-15"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-15",
+    "card_key": "229|70|1|Hajime Kusajima|30,40|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

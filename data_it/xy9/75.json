@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/xy9-75",
+    "name": "Pangoro",
+    "img": "https://assets.tcgdex.net/it/xy/xy9/75/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "xy9",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy9/symbol",
+    "set_full_name": "Turbo Crash",
+    "series": "XY",
+    "set_code": "xy9",
+    "date": "2016-02-03",
+    "number": "75",
+    "set_total": 126,
+    "rarity": "Rara",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 675,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 120,
+    "types": [
+        "Oscurità"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Oscurità"
+            ],
+            "name": "Monito",
+            "damage": 10,
+            "effect": "Scambia questo Pokémon con uno della tua panchina. Durante il prossimo turno del tuo avversario, i danni inflitti dagli attacchi del Pokémon difensore sono ridotti di 60, prima di aver applicato debolezza e resistenza."
+        },
+        {
+            "cost": [
+                "Oscurità",
+                "Oscurità",
+                "Oscurità"
+            ],
+            "name": "Colpaccio",
+            "damage": 90,
+            "effect": "I danni di questo attacco non sono influenzati dalla resistenza."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psico"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Pancham",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/xy9-75"
+        }
+    ],
+    "print_key": "tcgdex:xy9-75",
+    "card_key": "675|120|3|Naoki Saito|10,90|1,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm4-103",
+    "name": "Zéroïd GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm4/103/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Invasion Carmin",
+    "series": "Soleil et Lune",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "103",
+    "set_total": 125,
+    "rarity": "Ultra Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 793,
+    "pokemon_category": "",
+    "hp": 180,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Lumière Vide",
+            "effect": "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez laisser les deux Pokémon Actifs Confus et Empoisonnés."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Psy"
+            ],
+            "name": "Cage",
+            "damage": 120,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Psy"
+            ],
+            "name": "Parasite GX",
+            "damage": null,
+            "effect": "Ajoutez les 2 cartes du dessus du deck de votre adversaire à ses cartes Récompense. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm4-103"
+        }
+    ],
+    "print_key": "tcgdex:sm4-103",
+    "card_key": "793|180|2|5ban Graphics|120,None|3,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base2-15",
+    "name": "Vileplume",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Originale",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "15",
+    "set_total": 64,
+    "rarity": "Rara",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 45,
+    "pokemon_category": "",
+    "flavor_text": "Più grandi sono i suoi petali e più polline velenoso contengono. La sua grossa testa è pesante e difficile da sostenere.",
+    "stage": "Livello 2",
+    "hp": 80,
+    "types": [
+        "Erba"
+    ],
+    "abilities": [
+        {
+            "name": "Cura",
+            "effect": "Una sola volta durante il tuo turno (prima di attaccare), puoi lanciare una moneta. Se esce testa togli un segnalino danno da uno dei tuoi Pokémon. Questo potere non può essere usato se Vileplume è Addormentato, Confuso o Paralizzato."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Erba",
+                "Erba",
+                "Erba"
+            ],
+            "name": "Petalodanza",
+            "damage": "40x",
+            "effect": "Lancia 3 volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa. Vileplume (dopo avere inflitto il danno) è Confuso."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuoco"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Gloom",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base2-15"
+        }
+    ],
+    "print_key": "tcgdex:base2-15",
+    "card_key": "45|80|2|Keiji Kinebuchi|40x|3",
+    "types_en": [
+        "Grass"
+    ]
+}

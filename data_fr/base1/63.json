@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-63",
+    "name": "Carapuce",
+    "img": "https://assets.tcgdex.net/fr/base/base1/63/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "63",
+    "set_total": 102,
+    "rarity": "Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 7,
+    "pokemon_category": "",
+    "flavor_text": "Son dos durcit avec l'âge et devient une super carapace. Il peut cracher des jets d'écume.",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Écume",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Repli",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Carapuce pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-63"
+        }
+    ],
+    "print_key": "tcgdex:base1-63",
+    "card_key": "7|40|1|Mitsuhiro Arita|10,None|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

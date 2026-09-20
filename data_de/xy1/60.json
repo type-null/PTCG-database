@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy1-60",
+    "name": "Rihorn",
+    "img": "https://assets.tcgdex.net/de/xy/xy1/60/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy1/symbol",
+    "set_full_name": "XY",
+    "series": "XY",
+    "set_code": "xy1",
+    "date": "2014-02-05",
+    "number": "60",
+    "set_total": 146,
+    "rarity": "Häufig",
+    "author": [
+        "MAHOU"
+    ],
+    "pokedex_number": 111,
+    "pokemon_category": "",
+    "flavor_text": "Stark, aber nicht allzu klug, kann dieses Pokémon sogar Hochhäuser mit seinem Tackle-Angriff zum Einsturz bringen.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Freischaufeln",
+            "damage": 10,
+            "effect": "Lege die oberste Karte deines Decks auf deinen Ablagestapel. Handelt es sich um eine {F}-Energiekarte, lege sie an dieses Pokémon an."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Hornbohrer",
+            "damage": 40,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy1-60"
+        }
+    ],
+    "print_key": "tcgdex:xy1-60",
+    "card_key": "111|80|3|MAHOU|10,40|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

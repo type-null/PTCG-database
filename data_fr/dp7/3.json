@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-3",
+    "name": "Simiabraz",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "3",
+    "set_total": 106,
+    "rarity": "Rare Holo",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 392,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Danse incendiaire",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), lorsque vous jouez Simiabraz de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez lancer une pièce. Si c'est face, cherchez dans votre deck jusqu'à 4 cartes Énergie Fire et attachez-les à vos Pokémon de la façon que vous voulez. Ensuite, mélangez votre deck."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Combat rapproché",
+            "damage": 60,
+            "effect": "Lors du prochain tour de votre adversaire, tous dégâts infligés à Simiabraz par des attaques sont augmentés de 30 (après application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Feu rampant",
+            "damage": 80,
+            "effect": "Défaussez 2 Énergies Fire attachées à Simiabraz et cette attaque inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+30"
+    },
+    "evolve_from": "Chimpenfeu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-3"
+        }
+    ],
+    "print_key": "tcgdex:dp7-3",
+    "card_key": "392|120|None|Mitsuhiro Arita|60,80|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

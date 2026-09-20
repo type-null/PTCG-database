@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp1-13",
+    "name": "Roserade",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perl",
+    "series": "Diamant & Perl",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "13",
+    "set_total": 130,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Nakaoka"
+    ],
+    "pokedex_number": 407,
+    "pokemon_category": "",
+    "flavor_text": "Mit einem süßen Duft lockt es Beute an, die es dann mit den dornigen Ranken in seinen Armen schlägt.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Giftstachel",
+            "damage": 30,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Stachelpeitsche",
+            "damage": 50,
+            "effect": "Wenn Knospi sich an beliebiger Stelle unter Roserade befindet, wähle 1 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Roselia",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp1-13"
+        }
+    ],
+    "print_key": "tcgdex:dp1-13",
+    "card_key": "407|90|1|Nakaoka|30,50|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

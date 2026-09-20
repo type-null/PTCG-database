@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm6-33",
+    "name": "Tarenbulle",
+    "img": "https://assets.tcgdex.net/fr/sm/sm6/33/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm6",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm6/symbol",
+    "set_full_name": "Lumière Interdite",
+    "series": "Soleil et Lune",
+    "set_code": "sm6",
+    "date": "2018-05-04",
+    "number": "33",
+    "set_total": 146,
+    "rarity": "Peu Commune",
+    "author": [
+        "kodama"
+    ],
+    "pokedex_number": 752,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Écume",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Piège d’Écume",
+            "damage": "40+",
+            "effect": "Si l’un de vos Pokémon a utilisé Écume pendant votre dernier tour, cette attaque inflige 80 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Araqua",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm6-33"
+        }
+    ],
+    "print_key": "tcgdex:sm6-33",
+    "card_key": "752|100|1|kodama|30,40+|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

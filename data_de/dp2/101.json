@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp2-101",
+    "name": "Shnebedeck",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Geheimnisvolle Schätze",
+    "series": "Diamant & Perl",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "101",
+    "set_total": 124,
+    "rarity": "Häufig",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 459,
+    "pokemon_category": "",
+    "flavor_text": "Es lebt im Schnee der Berge. Es hatte bisher kaum Kontakt zu Menschen und ist daher sehr neugierig.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Neugier",
+            "damage": null,
+            "effect": "Schau dir die Handkarten deines Gegners an."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Schneeballschlacht",
+            "damage": 30,
+            "effect": "Wirf 1 Münze. Bei „Zahl“ fügt sich Shnebedeck selbst 10 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+10"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp2-101"
+        }
+    ],
+    "print_key": "tcgdex:dp2-101",
+    "card_key": "459|60|2|Ken Sugimori|None,30|0,2",
+    "types_en": [
+        "Grass"
+    ]
+}

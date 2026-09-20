@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base2-28",
+    "name": "Aquali",
+    "img": "https://assets.tcgdex.net/fr/base/base2/28/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Base",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "28",
+    "set_total": 64,
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 134,
+    "pokemon_category": "",
+    "flavor_text": "Il vit au bord de l'eau. Sa queue lui donne l'apparence d'une sirène.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Vive-attaque",
+            "damage": "10+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 10 dégâts."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Pistolet à O",
+            "damage": "30+",
+            "effect": "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Aquali en plus du coût en Énergie de cette attaque. Les Énergies  supplémentaires après la seconde ne comptent pas."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Évoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base2-28"
+        }
+    ],
+    "print_key": "tcgdex:base2-28",
+    "card_key": "134|80|1|Kagemaru Himeno|10+,30+|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

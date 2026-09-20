@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh7-140",
+    "name": "Fiaro",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh7/140/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh7",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh7/symbol",
+    "set_full_name": "Drachenwandel",
+    "series": "Schwert & Schild",
+    "set_code": "swsh7",
+    "date": "2021-08-27",
+    "number": "140",
+    "set_total": 237,
+    "rarity": "Selten",
+    "author": [
+        "Tika Matsuno"
+    ],
+    "pokedex_number": 663,
+    "pokemon_category": "",
+    "flavor_text": "Fiaro ernährt sich vor allem von Vogel-Pokémon. Es nähert sich überfallartig seiner Beute und befördert sie mit einem kräftigen Tritt zu Boden.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Greifer",
+            "damage": 40,
+            "effect": "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Nitro-Sturzflug",
+            "damage": "80+",
+            "effect": "Wenn an dieses Pokémon mindestens 1 {R}-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 0,
+    "evolve_from": "Dartignis",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh7-140"
+        }
+    ],
+    "print_key": "tcgdex:swsh7-140",
+    "card_key": "663|140|0|Tika Matsuno|40,80+|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

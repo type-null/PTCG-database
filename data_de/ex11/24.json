@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex11-24",
+    "name": "Magnayen δ",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex11",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex11/symbol",
+    "set_full_name": "EX Delta Species",
+    "series": "EX",
+    "set_code": "ex11",
+    "date": "2005-10-31",
+    "number": "24",
+    "set_total": 114,
+    "rarity": "Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 262,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Unlicht",
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Delta-Fänge",
+            "damage": 20,
+            "effect": "Wenn das Verteidigende Pokémon ein Pokémon-ex ist, kann es im nächsten Zug deines Gegners nicht angreifen."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Alle auf Einen",
+            "damage": "10x",
+            "effect": "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl der  und -Pokémon zu, die du im Spiel hast."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex11-24"
+        }
+    ],
+    "print_key": "tcgdex:ex11-24",
+    "card_key": "262|70|1|Hajime Kusajima|20,10x|2,2",
+    "types_en": [
+        "Darkness",
+        "Metal"
+    ]
+}

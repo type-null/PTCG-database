@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo4-33",
+    "name": "Dunkles Kokowei",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "33",
+    "set_total": 113,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Toshinao Aoki"
+    ],
+    "pokedex_number": 103,
+    "pokemon_category": "",
+    "flavor_text": "Wenn einer seiner Köpfe herunterfällt, verwandelt sich dieser in ein Owei, der sofort nach anderen Oweis Ausschau hält und dabei eine Art Telepathie verwendet.",
+    "stage": "Rang 1",
+    "hp": 60,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Dreifache Kopfnuss",
+            "damage": "10x",
+            "effect": "Wirf drei Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Maxi-Explosion",
+            "damage": "20x",
+            "effect": "Wirf so viele Münzen, wie Energiekarten an das aktive Pokémon deines Gegners angelegt sind. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Owei",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo4-33"
+        }
+    ],
+    "print_key": "tcgdex:neo4-33",
+    "card_key": "103|60|2|Toshinao Aoki|10x,20x|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

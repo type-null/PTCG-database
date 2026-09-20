@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-16",
+    "name": "Électhor",
+    "img": "https://assets.tcgdex.net/fr/base/base1/16/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "16",
+    "set_total": 102,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "flavor_text": "L'oiseau légendaire de la foudre. Il surgit hors des nuages en lançant d'énormes éclairs.",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Tonnerre",
+            "damage": 60,
+            "effect": "Lancez une pièce. Si c'est pile, Électhor s'inflige 30 dégâts."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Fatal-Foudre",
+            "damage": 100,
+            "effect": "Défaussez toutes les cartes Énergie attachées à Électhor pour pouvoir utiliser cette attaque."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-16"
+        }
+    ],
+    "print_key": "tcgdex:base1-16",
+    "card_key": "145|90|3|Ken Sugimori|60,100|4,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

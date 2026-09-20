@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh9tg-TG13",
+    "name": "Bellektro V",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "V"
+    ],
+    "regulation": "D",
+    "set_name": "swsh9tg",
+    "set_full_name": "Strahlende Sterne Trainer-Galerie",
+    "series": "Schwert & Schild",
+    "set_code": "swsh9tg",
+    "date": "2022-02-25",
+    "number": "TG13",
+    "set_total": 30,
+    "rarity": "Ultra Selten",
+    "author": [
+        "GIDORA"
+    ],
+    "pokedex_number": 836,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 200,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Elektrifizierung",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu 2 {L}-Energiekarten und lege sie beliebig an die Pokémon auf deiner Bank an. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Elektrosturm",
+            "damage": "10+",
+            "effect": "Diese Attacke fügt für jede an alle deine Pokémon angelegte {L}-Energie 30 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh9tg-TG13"
+        }
+    ],
+    "print_key": "tcgdex:swsh9tg-TG13",
+    "card_key": "836|200|2|GIDORA|None,10+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

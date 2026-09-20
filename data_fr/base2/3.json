@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base2-3",
+    "name": "Pyroli",
+    "img": "https://assets.tcgdex.net/fr/base/base2/3/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Base",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "3",
+    "set_total": 64,
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 136,
+    "pokemon_category": "",
+    "flavor_text": "Il peut accumuler suffisamment de chaleur pour atteindre des températures de 1600 degrés.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Vive-attaque",
+            "damage": "10+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 10 dégâts."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Lance-flammes",
+            "damage": 60,
+            "effect": "Défaussez 1 carte Énergie  attachée à Pyroli pour pouvoir utiliser cette attaque."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Évoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base2-3"
+        }
+    ],
+    "print_key": "tcgdex:base2-3",
+    "card_key": "136|70|1|Kagemaru Himeno|10+,60|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp1-3",
+    "name": "Elevoltek",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perl",
+    "series": "Diamant & Perl",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "3",
+    "set_total": 130,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Nakaoka"
+    ],
+    "pokedex_number": 466,
+    "pokemon_category": "",
+    "flavor_text": "Es berührt den Gegner mit seinen beiden Schweifspitzen und entlädt dann über 20 000 Volt.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Starke Spannung",
+            "effect": "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du, wenn Elekid sich an beliebiger Stelle unter Elevoltek befindet, 1 {L}-Energie, die an 1 deiner Pokémon angelegt ist, an Elevoltek anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Elevoltek von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Gigastoß",
+            "damage": 60,
+            "effect": "Du kannst alle {L}-Energien, die an Elevoltek angelegt sind, auf deinen Ablagestapel legen. Wenn du das machst, beträgt der Grundschaden dieses Angriffs 120 Schadenspunkte anstelle von 60 Schadenspunkten."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Elektek",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp1-3"
+        }
+    ],
+    "print_key": "tcgdex:dp1-3",
+    "card_key": "466|100|3|Nakaoka|60|4",
+    "types_en": [
+        "Lightning"
+    ]
+}

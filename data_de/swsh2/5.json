@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh2-5",
+    "name": "Pottrott",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh2/5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Clash der Rebellen",
+    "series": "Schwert & Schild",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "5",
+    "set_total": 209,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "HYOGONOSUKE"
+    ],
+    "pokedex_number": 213,
+    "pokemon_category": "",
+    "flavor_text": "Es sammelt Beeren in seiner Schale. Um sich vor Attacken zu schützen, versteckt es sich unter Steinen und verharrt dort regungslos.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Beerenpflücken",
+            "damage": null,
+            "effect": "Mische bis zu 5 Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Klammergriff",
+            "damage": 50,
+            "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh2-5"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-5",
+    "card_key": "213|80|1|HYOGONOSUKE|None,50|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

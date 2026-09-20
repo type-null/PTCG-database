@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sv01-111",
+    "name": "Medicham",
+    "img": "https://assets.tcgdex.net/es/sv/sv01/111/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Escarlata y Púrpura",
+    "series": "Escarlata y Púrpura",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "111",
+    "set_total": 258,
+    "rarity": "Uncommon",
+    "author": [
+        "Jerky"
+    ],
+    "pokedex_number": 308,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 90,
+    "types": [
+        "Lucha"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lucha"
+            ],
+            "name": "Acupuñura",
+            "damage": 30,
+            "effect": "Elige uno de los ataques del Pokémon Activo de tu rival. Durante el próximo turno de tu rival, dicho Pokémon no puede usar ese ataque."
+        },
+        {
+            "cost": [
+                "Lucha"
+            ],
+            "name": "Disparo Patada",
+            "damage": 90,
+            "effect": "Lanza 1 moneda. Si sale cruz, este ataque no hace nada."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sv01-111"
+        }
+    ],
+    "print_key": "tcgdex:sv01-111",
+    "card_key": "308|90|1|Jerky|30,90|1,1",
+    "types_en": [
+        "Fighting"
+    ]
+}

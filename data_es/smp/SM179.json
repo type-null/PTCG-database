@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/smp-SM179",
+    "name": "Volcanion",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SL Cartas de promoción",
+    "series": "Sol y Luna",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM179",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 721,
+    "pokemon_category": "",
+    "hp": 120,
+    "types": [
+        "Fuego"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuego"
+            ],
+            "name": "Prender Fuego",
+            "damage": null,
+            "effect": "Busca en tu baraja 1 carta de Energía Fire y únela a 1 de tus Pokémon. Si sales segundo y es tu primer turno, busca hasta 3 cartas de Energía Fire y únelas a tus Pokémon de la manera que desees. Después, baraja las cartas de tu baraja."
+        },
+        {
+            "cost": [
+                "Fuego",
+                "Fuego"
+            ],
+            "name": "Explosión de Calor Intenso",
+            "damage": "50+",
+            "effect": "Si tienes por lo menos 4 Energías Fire en juego, este ataque hace 60 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Agua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/smp-SM179"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM179",
+    "card_key": "721|120|2|Hasuno|None,50+|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

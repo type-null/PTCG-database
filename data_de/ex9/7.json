@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex9-7",
+    "name": "Voltenso",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex9",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex9/symbol",
+    "set_full_name": "EX Smaragd",
+    "series": "EX",
+    "set_code": "ex9",
+    "date": "2005-05-09",
+    "number": "7",
+    "set_total": 107,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 310,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Sternschauer",
+            "damage": 20,
+            "effect": "This attacks damage isnt affected by Weakness, Resistance, Poke-Powers , Poke-Bodies, or any other effect on the Defending Pokémon"
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Tail Shock",
+            "damage": 40,
+            "effect": "Does 10 damage to each of your opponents Benched Pokémon. (Dont apply weakness and Resistance for Benched Pokémon)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex9-7"
+        }
+    ],
+    "print_key": "tcgdex:ex9-7",
+    "card_key": "310|80|1|Masakazu Fukuda|20,40|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

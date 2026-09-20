@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-5",
+    "name": "Magnézone",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "5",
+    "set_total": 106,
+    "rarity": "Rare Holo",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 462,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Métal"
+    ],
+    "abilities": [
+        {
+            "name": "Recherche magnétique",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre deck un Pokémon Lightning ou Metal. Montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck. Ce pouvoir ne peut être utilisé si Magnézone est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Coup d'boost",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur ce Pokémon."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Écras'volt",
+            "damage": 80,
+            "effect": "Défaussez une Énergie attachée à Magnézone."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Magnéton",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-5"
+        }
+    ],
+    "print_key": "tcgdex:dp7-5",
+    "card_key": "462|120|2|Masakazu Fukuda|None,80|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

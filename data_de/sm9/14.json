@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm9-14",
+    "name": "Glurak",
+    "img": "https://assets.tcgdex.net/de/sm/sm9/14/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm9",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm9/symbol",
+    "set_full_name": "Teams Sind Trumpf",
+    "series": "Sonne & Mond",
+    "set_code": "sm9",
+    "date": "2019-01-31",
+    "number": "14",
+    "set_total": 196,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "flavor_text": "Wenn dieses Pokémon einen Strahl glühenden Feuers speit, leuchtet seine Schwanzspitze auf.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "Brüllender Entschluss",
+            "effect": "Einmal während deines Zuges (bevor du angreifst) kannst du 2 Schadensmarken auf dieses Pokémon legen. Wenn du das machst, durchsuche dein Deck nach bis zu 2 {R}-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Dauerbrandball",
+            "damage": "30+",
+            "effect": "Lege alle {R}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 50 Schadenspunkte mehr mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Glutexo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm9-14"
+        }
+    ],
+    "print_key": "tcgdex:sm9-14",
+    "card_key": "6|150|2|Masakazu Fukuda|30+|2",
+    "types_en": [
+        "Fire"
+    ]
+}

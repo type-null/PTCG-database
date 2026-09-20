@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv04.5-021",
+    "name": "Lanturn",
+    "img": "https://assets.tcgdex.net/de/sv/sv04.5/021/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv04.5",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04.5/symbol",
+    "set_full_name": "Paldeas Schicksale",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv04.5",
+    "date": "2024-01-26",
+    "number": "021",
+    "set_total": 245,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "aspara"
+    ],
+    "pokedex_number": 171,
+    "pokemon_category": "",
+    "flavor_text": "Es blendet seine Beute mit einem grellen Licht. Sieht es eine Chance zuzuschlagen, greift es sie mit Elektrizität an.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Kugelblitz",
+            "damage": 50,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Aquafunke",
+            "damage": "80+",
+            "effect": "Wenn an dieses Pokémon mindestens 1 {W}-Energie angelegt ist, fügt diese Attacke 120 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Lampi",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv04.5-021"
+        }
+    ],
+    "print_key": "tcgdex:sv04.5-21",
+    "card_key": "171|120|2|aspara|50,80+|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm2-32",
+    "name": "Oniglali",
+    "img": "https://assets.tcgdex.net/fr/sm/sm2/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Gardiens Ascendants",
+    "series": "Soleil et Lune",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "32",
+    "set_total": 169,
+    "rarity": "Peu Commune",
+    "author": [
+        "so-taro"
+    ],
+    "pokedex_number": 362,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau"
+            ],
+            "name": "Mâchouille",
+            "damage": 40,
+            "effect": "Lancez une pièce. Si c’est face, défaussez une Énergie du Pokémon Actif de votre adversaire."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Eau"
+            ],
+            "name": "Banquise Furieuse",
+            "damage": "70+",
+            "effect": "Si des marqueurs de dégâts sont placés sur ce Pokémon, cette attaque inflige 80 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Métal"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Stalgamin",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm2-32"
+        }
+    ],
+    "print_key": "tcgdex:sm2-32",
+    "card_key": "362|120|3|so-taro|40,70+|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

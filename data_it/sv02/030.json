@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sv02-030",
+    "name": "Talonflame",
+    "img": "https://assets.tcgdex.net/it/sv/sv02/030/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "G",
+    "set_name": "sv02",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv02/symbol",
+    "set_full_name": "Evoluzioni a Paldea",
+    "series": "Scarlatto e Violetto",
+    "set_code": "sv02",
+    "date": "2023-06-09",
+    "number": "030",
+    "set_total": 279,
+    "rarity": "Non comune",
+    "author": [
+        "Nisota Niso"
+    ],
+    "pokedex_number": 663,
+    "pokemon_category": "",
+    "stage": "Livello 2",
+    "hp": 150,
+    "types": [
+        "Fuoco"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuoco"
+            ],
+            "name": "Grinfie",
+            "damage": 50,
+            "effect": "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi."
+        },
+        {
+            "cost": [
+                "Fuoco"
+            ],
+            "name": "Brezza Incandescente",
+            "damage": "70+",
+            "effect": "Se questo Pokémon ha dei segnalini danno, questo attacco infligge 90 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lampo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Fletchinder",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sv02-030"
+        }
+    ],
+    "print_key": "tcgdex:sv02-30",
+    "card_key": "663|150|1|Nisota Niso|50,70+|1,1",
+    "types_en": [
+        "Fire"
+    ]
+}

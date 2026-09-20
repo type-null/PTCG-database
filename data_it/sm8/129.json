@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sm8-129",
+    "name": "Cobalion",
+    "img": "https://assets.tcgdex.net/it/sm/sm8/129/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Tuoni Perduti",
+    "series": "Sole e Luna",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "129",
+    "set_total": 236,
+    "rarity": "Rara",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 638,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Metallo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metallo",
+                "Incolore"
+            ],
+            "name": "Pressadifesa",
+            "damage": 30,
+            "effect": "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza."
+        },
+        {
+            "cost": [
+                "Metallo",
+                "Metallo",
+                "Incolore"
+            ],
+            "name": "Arti Metallici",
+            "damage": "80+",
+            "effect": "Se questo Pokémon ha una carta Oggetto Pokémon assegnata, questo attacco infligge 40 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuoco"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psico"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sm8-129"
+        }
+    ],
+    "print_key": "tcgdex:sm8-129",
+    "card_key": "638|120|2|Kouki Saitou|30,80+|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

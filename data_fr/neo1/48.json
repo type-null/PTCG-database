@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-48",
+    "name": "Hypocéan",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "48",
+    "set_total": 111,
+    "rarity": "Peu Commune",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 117,
+    "pokemon_category": "",
+    "flavor_text": "L'observation de ses cellules a révélé la présence d'un gène inexistant dans Hypotrempe. C'est devenu un sujet très débattu.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Écume",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau"
+            ],
+            "name": "Jet d'boue",
+            "damage": 30,
+            "effect": "Si votre adversaire possède un ou plusieurs Pokémon sur son Banc, choisissez l'un d'eux et lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à ce Pokémon. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Hypotrempe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-48"
+        }
+    ],
+    "print_key": "tcgdex:neo1-48",
+    "card_key": "117|70|1|Shin-ichi Yoshida|10,30|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

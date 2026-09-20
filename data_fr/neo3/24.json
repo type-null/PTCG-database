@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo3-24",
+    "name": "Farfuret",
+    "img": "https://assets.tcgdex.net/fr/neo/neo3/24/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "24",
+    "set_total": 66,
+    "rarity": "Rare",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 215,
+    "pokemon_category": "",
+    "flavor_text": "Ses pattes cachent des griffes aiguisées. S'il est attaqué, il sort ses griffes et surprend son ennemi.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité"
+            ],
+            "name": "Griffe",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, défaussez toutes les cartes Dresseur attachées au Pokémon de votre adversaire."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Vive-attaque",
+            "damage": "10+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo3-24"
+        }
+    ],
+    "print_key": "tcgdex:neo3-24",
+    "card_key": "215|60|None|Sumiyoshi Kizuki|None,10+|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

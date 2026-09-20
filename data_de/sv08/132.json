@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv08-132",
+    "name": "Eisenhaupt",
+    "img": "https://assets.tcgdex.net/de/sv/sv08/132/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "H",
+    "set_name": "sv08",
+    "set_full_name": "Stürmische Funken",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv08",
+    "date": "2024-11-08",
+    "number": "132",
+    "set_total": 252,
+    "rarity": "Selten",
+    "author": [
+        "akagi"
+    ],
+    "pokedex_number": 1023,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Destruktorschnitt",
+            "damage": "40+",
+            "effect": "Wenn dein Gegner 3 oder mehr Pokémon auf seiner Bank hat, fügt diese Attacke 80 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schwertschneide",
+            "damage": 100,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv08-132"
+        }
+    ],
+    "print_key": "tcgdex:sv08-132",
+    "card_key": "1023|130|2|akagi|40+,100|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

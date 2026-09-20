@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw5-56",
+    "name": "Stalobor",
+    "img": "https://assets.tcgdex.net/de/bw/bw5/56/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw5",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw5/symbol",
+    "set_full_name": "Erforscher der Finsternis",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw5",
+    "date": "2012-05-09",
+    "number": "56",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 530,
+    "pokemon_category": "",
+    "flavor_text": "Sein verworrener Bau liegt 100 Meter tief unter der Erde. Gelegentlich gräbt es auch U-Bahn-Schächte an.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Tunnelhieb",
+            "damage": null,
+            "effect": "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Schaufelhaken",
+            "damage": 50,
+            "effect": "Nimm 1 Karte von deinem Ablagestapel auf deine Hand."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Rotomurf",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw5-56"
+        }
+    ],
+    "print_key": "tcgdex:bw5-56",
+    "card_key": "530|120|3|Mitsuhiro Arita|None,50|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

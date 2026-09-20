@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp1-28",
+    "name": "Skaraborn",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perl",
+    "series": "Diamant & Perl",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "28",
+    "set_total": 130,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 214,
+    "pokemon_category": "",
+    "flavor_text": "Auf der Suche nach Baumsaft durchstreift es die Wälder. Es ist stark genug, um Gegner wegzuschleudern.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Austoben",
+            "damage": 10,
+            "effect": "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Hornschlitzer",
+            "damage": "30+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp1-28"
+        }
+    ],
+    "print_key": "tcgdex:dp1-28",
+    "card_key": "214|80|2|Ken Sugimori|10,30+|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

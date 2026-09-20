@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy8-11",
+    "name": "Brigaron",
+    "img": "https://assets.tcgdex.net/de/xy/xy8/11/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy8",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy8/symbol",
+    "set_full_name": "TURBOstart",
+    "series": "XY",
+    "set_code": "xy8",
+    "date": "2015-11-04",
+    "number": "11",
+    "set_total": 165,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 652,
+    "pokemon_category": "",
+    "flavor_text": "Wenn es seine Fäuste vors Gesicht hält und so eine Verteidigungshaltung einnimmt, kann es selbst eine Explosion überstehen.",
+    "stage": "Rang 2",
+    "hp": 160,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Stachellasso",
+            "damage": "60+",
+            "effect": "Wenn auf dem Aktiven Pokémon deines Gegners bereits mindestens 1 Schadensmarke liegt, fügt dieser Angriff 60 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Steinharter Druck",
+            "damage": 100,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Igastarnish",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy8-11"
+        }
+    ],
+    "print_key": "tcgdex:xy8-11",
+    "card_key": "652|160|4|Mitsuhiro Arita|60+,100|3,4",
+    "types_en": [
+        "Grass"
+    ]
+}

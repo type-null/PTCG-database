@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/col1-66",
+    "name": "Phanpy",
+    "img": "https://assets.tcgdex.net/de/col/col1/66/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "Ruf der Legenden",
+    "series": "Ruf der Legenden",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "66",
+    "set_total": 106,
+    "rarity": "Häufig",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 231,
+    "pokemon_category": "",
+    "flavor_text": "Als Zeichen seiner Zuneigung stupst es dich mit dem Rüssel, was dich aber buchstäblich umwerfen könnte.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Ultradicke Haut",
+            "effect": "Solange mindestens 1 Energie an Phanpy angelegt ist, wird Schaden, der Phanpy durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Zertrümmerer",
+            "damage": "20+",
+            "effect": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/col1-66"
+        }
+    ],
+    "print_key": "tcgdex:col1-66",
+    "card_key": "231|60|2|Ken Sugimori|20+|2",
+    "types_en": [
+        "Fighting"
+    ]
+}

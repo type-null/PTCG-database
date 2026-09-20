@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv03.5-073",
+    "name": "Tentoxa",
+    "img": "https://assets.tcgdex.net/de/sv/sv03.5/073/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv03.5",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03.5/symbol",
+    "set_full_name": "151",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv03.5",
+    "date": "2023-09-22",
+    "number": "073",
+    "set_total": 207,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "miki kudo"
+    ],
+    "pokedex_number": 73,
+    "pokemon_category": "",
+    "flavor_text": "Tentoxa kann seine 80 Tentakel beliebig ausfahren und einziehen. Es breitet sie netzartig aus, um Beute zu fangen und dann zu vergiften.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Giftpeitsche",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Tentakelpanik",
+            "damage": "90×",
+            "effect": "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 90 Schadenspunkte pro Kopf zu. Wenn der erste Münzwurf Zahl zeigt, ist das Aktive Pokémon deines Gegners jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Tentacha",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv03.5-073"
+        }
+    ],
+    "print_key": "tcgdex:sv03.5-73",
+    "card_key": "73|120|2|miki kudo|30,90x|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

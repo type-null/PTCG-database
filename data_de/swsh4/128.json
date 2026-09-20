@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh4-128",
+    "name": "Magearna",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh4/128/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh4",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh4/symbol",
+    "set_full_name": "Farbenschock",
+    "series": "Schwert & Schild",
+    "set_code": "swsh4",
+    "date": "2020-11-13",
+    "number": "128",
+    "set_total": 203,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "AKIRA EGAWA"
+    ],
+    "pokedex_number": 801,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Überholung",
+            "damage": null,
+            "effect": "Mische deine Handkarten in dein Deck. Ziehe anschließend 6 Karten."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Aufziehkanone",
+            "damage": "10+",
+            "effect": "Diese Attacke fügt für jedes Pokémon auf der Bank deines Gegners 20 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh4-128"
+        }
+    ],
+    "print_key": "tcgdex:swsh4-128",
+    "card_key": "801|90|1|AKIRA EGAWA|None,10+|1,2",
+    "types_en": [
+        "Metal"
+    ]
+}

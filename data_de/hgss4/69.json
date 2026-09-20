@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss4-69",
+    "name": "Nidoran w",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss4/69/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss4",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss4/symbol",
+    "set_full_name": "Triumph",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss4",
+    "date": "2010-11-03",
+    "number": "69",
+    "set_total": 103,
+    "rarity": "Häufig",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 29,
+    "pokemon_category": "",
+    "flavor_text": "Obwohl es nicht aggressiv ist, malträtiert es seine Feinde bei Bedrohung mit seinen Giftstacheln.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Freunde suchen",
+            "damage": null,
+            "effect": "Schau dir die obersten 5 Karten deines Decks an, wähle 1 Pokémon-Karte, die du dort gefunden hast, zeige sie deinem Gegner und nimm sie auf die Hand. Mische die anderen Karten anschließend in dein Deck."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Doppelkick",
+            "damage": "20×",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss4-69"
+        }
+    ],
+    "print_key": "tcgdex:hgss4-69",
+    "card_key": "29|50|1|sui|None,20x|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

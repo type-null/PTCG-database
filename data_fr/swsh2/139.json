@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh2-139",
+    "name": "Zacian",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh2/139/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Clash des Rebelles",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "139",
+    "set_total": 209,
+    "rarity": "Rare",
+    "author": [
+        "Hideki Ishikawa"
+    ],
+    "pokedex_number": 888,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Courant d'Énergie",
+            "damage": 30,
+            "effect": "Attachez une carte Énergie Metal de votre pile de défausse à ce Pokémon."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Tranchant Fracassant",
+            "damage": 120,
+            "effect": "Lancez une pièce. Si c'est pile, défaussez 2 Énergies de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Plante"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh2-139"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-139",
+    "card_key": "888|120|2|Hideki Ishikawa|30,120|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

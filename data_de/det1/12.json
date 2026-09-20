@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/det1-12",
+    "name": "Mewtu",
+    "img": "https://assets.tcgdex.net/de/sm/det1/12/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "det1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/det1/symbol",
+    "set_full_name": "Meisterdetektiv Pikachu",
+    "series": "Sonne & Mond",
+    "set_code": "det1",
+    "date": "2019-03-29",
+    "number": "12",
+    "set_total": 18,
+    "rarity": "Ultra Selten",
+    "author": [
+        "MPC Film"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon ist das Resultat eines jahrelangen und skrupellosen Experimentes.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Mentale Entführung",
+            "damage": 30,
+            "effect": "Wähle 1 Attacke des Aktiven Pokémon deines Gegners. Jenes Pokémon kann jene Attacke während des nächsten Zuges deines Gegners nicht einsetzen."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Bruchbrand",
+            "damage": 130,
+            "effect": "Lege 2 {P}-Energien von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/det1-12"
+        }
+    ],
+    "print_key": "tcgdex:det1-12",
+    "card_key": "150|130|2|MPC Film|30,130|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

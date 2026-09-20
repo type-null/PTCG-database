@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw4-21",
+    "name": "Reshiram",
+    "img": "https://assets.tcgdex.net/de/bw/bw4/21/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw4",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw4/symbol",
+    "set_full_name": "Kommende Schicksale",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw4",
+    "date": "2012-02-08",
+    "number": "21",
+    "set_total": 103,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 643,
+    "pokemon_category": "",
+    "flavor_text": "Ein aus Mythen bekanntes Pokémon. Es wirbelt mit seinem Schweif Feuer auf, mit dem es alles in Asche legt.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wutanfall",
+            "damage": 20,
+            "effect": "Dieser Angriff fügt 10 weitere Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Blauflammen",
+            "damage": 120,
+            "effect": "Lege 2 an dieses Pokémon angelegte {R}-Energien auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw4-21"
+        }
+    ],
+    "print_key": "tcgdex:bw4-21",
+    "card_key": "643|130|2|5ban Graphics|20,120|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

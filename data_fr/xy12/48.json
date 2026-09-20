@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy12-48",
+    "name": "Spectrum",
+    "img": "https://assets.tcgdex.net/fr/xy/xy12/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Évolutions",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "48",
+    "set_total": 113,
+    "rarity": "Peu Commune",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 93,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Hypnose",
+            "damage": null,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Dévorêve",
+            "damage": 80,
+            "effect": "Si le Pokémon Actif de votre adversaire n'est pas Endormi, cette attaque ne fait rien."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Fantominus",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy12-48"
+        }
+    ],
+    "print_key": "tcgdex:xy12-48",
+    "card_key": "93|70|1|Keiji Kinebuchi|None,80|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

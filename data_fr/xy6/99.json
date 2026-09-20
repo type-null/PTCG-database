@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy6-99",
+    "name": "Gallame EX",
+    "img": "https://assets.tcgdex.net/fr/xy/xy6/99/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "xy6",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy6/symbol",
+    "set_full_name": "Ciel Rugissant",
+    "series": "XY",
+    "set_code": "xy6",
+    "date": "2015-05-06",
+    "number": "99",
+    "set_total": 112,
+    "rarity": "Ultra Rare",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 475,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 170,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Estocade",
+            "damage": 30,
+            "effect": "Vous pouvez demander à votre adversaire d'échanger son Pokémon Actif avec l'un de ses Pokémon de Banc."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Psy"
+            ],
+            "name": "Percée Récompense",
+            "damage": "50+",
+            "effect": "Cette attaque inflige 20 dégâts supplémentaires pour chacune des cartes Récompense qu'il vous reste."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy6-99"
+        }
+    ],
+    "print_key": "tcgdex:xy6-99",
+    "card_key": "475|170|2|Ryo Ueda|30,50+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

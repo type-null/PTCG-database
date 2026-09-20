@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm2-85",
+    "name": "Metagross GX",
+    "img": "https://assets.tcgdex.net/es/sm/sm2/85/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Albor de Guadianes",
+    "series": "Sol y Luna",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "85",
+    "set_total": 169,
+    "rarity": "Ultra Rara",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 376,
+    "pokemon_category": "",
+    "hp": 250,
+    "types": [
+        "Metálica"
+    ],
+    "abilities": [
+        {
+            "name": "Sistema Geotécnico",
+            "effect": "Una vez durante tu turno (antes de tu ataque), puedes unir 1 carta de Energía Psychic o Metal de tu pila de descartes a tu Pokémon Activo."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metálica",
+                "Metálica",
+                "Incolora"
+            ],
+            "name": "Gigamartillo",
+            "damage": 150,
+            "effect": "Este Pokémon no puede usar Gigamartillo durante tu próximo turno."
+        },
+        {
+            "cost": [
+                "Incolora"
+            ],
+            "name": "Algoritmo GX",
+            "damage": null,
+            "effect": "Busca en tu baraja hasta 5 cartas y ponlas en tu mano. Después, baraja las cartas de tu baraja. (No puedes usar más de 1 ataque GX en una partida)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm2-85"
+        }
+    ],
+    "print_key": "tcgdex:sm2-85",
+    "card_key": "376|250|3|5ban Graphics|150,None|3,1",
+    "types_en": [
+        "Metal"
+    ]
+}

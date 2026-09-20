@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv04-029",
+    "name": "Yuyu",
+    "img": "https://assets.tcgdex.net/de/sv/sv04/029/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv04",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04/symbol",
+    "set_full_name": "Paradoxrift",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv04",
+    "date": "2023-11-03",
+    "number": "029",
+    "set_total": 266,
+    "rarity": "Selten",
+    "author": [
+        "Oswaldo KATO"
+    ],
+    "pokedex_number": 1004,
+    "pokemon_category": "",
+    "flavor_text": "Es kontrolliert Flammen von 3000 ℃. Mühelos schwimmt es durch das Meer aus Lava, das es durch Schmelzen von Gestein und Kies erzeugt.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Fackelbringer",
+            "damage": null,
+            "effect": "Lege bis zu 2 Basis-{R}-Energiekarten aus deinem Ablagestapel an 1 deiner Pokémon an."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Megafeuer des Neids",
+            "damage": "50+",
+            "effect": "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv04-029"
+        }
+    ],
+    "print_key": "tcgdex:sv04-29",
+    "card_key": "1004|110|1|Oswaldo KATO|None,50+|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

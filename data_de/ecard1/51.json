@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard1-51",
+    "name": "Machomei",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-Card",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "51",
+    "set_total": 165,
+    "rarity": "Selten",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Erdumwälzung",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du dir die obersten 4 Karten deines Decks ansehen und sie in beliebiger Reihenfolge zurücklegen. Diese Fähigkeit kann nicht verwendet werden, falls Machomei von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Eisenfaust",
+            "damage": "50+",
+            "effect": "Zähle die Anzahl der Pokémon, die du im Spiel hast und auf denen Schadensmarken liegen. Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 50 Schadenspunkte plus weitere 10 Schadenspunkte für jedes dieser Pokémon zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Maschock",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard1-51"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-51",
+    "card_key": "68|120|2|Shin-ichi Yoshida|50+|4",
+    "types_en": [
+        "Fighting"
+    ]
+}

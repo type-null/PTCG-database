@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo3-65",
+    "name": "Schimmerndes Garados",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "65",
+    "set_total": 66,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "flavor_text": "Sobald es auftaucht, fängt es an, herumzuwüten. Es verbleibt in seiner Raserei, bis es alles um sich herum demoliert hat.",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Wutanfall",
+            "damage": "30+",
+            "effect": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus weitere 10 Schadenspunkte mal der Anzahl an Schadensmarken auf dem Schimmernden Garados zu. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Verwüsten",
+            "damage": 50,
+            "effect": "Lege 2 an Schimmerndes Garados angelegte {R}-Energiekarte auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen. Dieser Angriff fügt jedem Pokémon auf der gegnerischen Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Wirf dann eine Münze. Wähle bei „Kopf“ bei jedem Pokémon deines Gegners, an das mindestens eine Energiekarte angelegt ist, eine dieser Energiekarten und lege sie auf den Ablangestapel deines Gegners."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo3-65"
+        }
+    ],
+    "print_key": "tcgdex:neo3-65",
+    "card_key": "130|100|3|Ken Sugimori|30+,50|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

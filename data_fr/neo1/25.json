@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-25",
+    "name": "Farfuret",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "25",
+    "set_total": 111,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 215,
+    "pokemon_category": "",
+    "flavor_text": "Ses pattes cachent des griffes aiguisées. S'il est attaqué, il sort ses griffes et transperce son ennemi.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Combo-griffe",
+            "damage": "10x",
+            "effect": "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité"
+            ],
+            "name": "Baston",
+            "damage": "20x",
+            "effect": "Lancez une pièce pour chacun de vos Pokémon en jeu (y compris celui-là). Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-25"
+        }
+    ],
+    "print_key": "tcgdex:neo1-25",
+    "card_key": "215|60|None|Ken Sugimori|10x,20x|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

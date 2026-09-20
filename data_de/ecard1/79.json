@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard1-79",
+    "name": "Georok",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-Card",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "79",
+    "set_total": 165,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Aya Kusube"
+    ],
+    "pokedex_number": 75,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Steinschleuderer",
+            "damage": 20,
+            "effect": "Wende Resistenz nicht an."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Steinhagel",
+            "damage": 30,
+            "effect": "Bestimme 2 der Pokémon auf der Bank deines Gegners (1, wenn er nur 1 hat). Dieser Angriff fügt jedem dieser Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "x2"
+    },
+    "retreat": 3,
+    "evolve_from": "Kleinstein",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard1-79"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-79",
+    "card_key": "75|80|3|Aya Kusube|20,30|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

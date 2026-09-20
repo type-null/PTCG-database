@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/col1-57",
+    "name": "Nockchan",
+    "img": "https://assets.tcgdex.net/de/col/col1/57/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "Ruf der Legenden",
+    "series": "Ruf der Legenden",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "57",
+    "set_total": 106,
+    "rarity": "Häufig",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 107,
+    "pokemon_category": "",
+    "flavor_text": "Seine Fäuste zerschneiden die Luft. Es muss jedoch alle drei Minuten eine kurze Pause einlegen.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Scanner",
+            "damage": null,
+            "effect": "Wirf eine Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Nockchan zugefügt werden."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Himmelhieb",
+            "damage": 30,
+            "effect": "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/col1-57"
+        }
+    ],
+    "print_key": "tcgdex:col1-57",
+    "card_key": "107|70|1|Kouki Saitou|None,30|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base2-6",
+    "name": "Mr. Mime",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Originale",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "6",
+    "set_total": 64,
+    "rarity": "Rara",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 122,
+    "pokemon_category": "",
+    "flavor_text": "Se viene interrotto mentre fa un'imitazione, prende a sberle il nemico con le sue grandi mani.",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Psico"
+    ],
+    "abilities": [
+        {
+            "name": "Muro Invisibile",
+            "effect": "Ogni volta che un attacco (compresi i tuoi) infligge 30 o più danni a Mr. Mime (dopo avere applicato Debolezza e Resistenza), previeni quel danno (ogni altro effetto dell'attacco invece funziona). Questo potere non può essere usato se Mr. Mime è Addormentato, Confuso o Paralizzato."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psico",
+                "Incolore"
+            ],
+            "name": "Meditazione",
+            "damage": "10+",
+            "effect": "Infligge 10 danni più altri 10 danni per ogni segnalino danno presente sul Pokémon Difensore."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Mime Jr.",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base2-6"
+        }
+    ],
+    "print_key": "tcgdex:base2-6",
+    "card_key": "122|40|1|Ken Sugimori|10+|2",
+    "types_en": [
+        "Psychic"
+    ]
+}

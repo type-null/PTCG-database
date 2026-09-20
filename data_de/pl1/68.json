@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-68",
+    "name": "Venuflibis",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "68",
+    "set_total": 133,
+    "rarity": "Häufig",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 455,
+    "pokemon_category": "",
+    "flavor_text": "Klammert sich an Bäume in Sümpfen. Lockt Beute mit seinem süßlichen Speichel an und schluckt sie dann.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Gifthauch",
+            "damage": null,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Süßer Sabber",
+            "damage": 20,
+            "effect": "Entferne 1 Schadensmarke von jedem Pokémon auf deiner Bank."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-68"
+        }
+    ],
+    "print_key": "tcgdex:pl1-68",
+    "card_key": "455|80|2|Kagemaru Himeno|None,20|0,2",
+    "types_en": [
+        "Grass"
+    ]
+}

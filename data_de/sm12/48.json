@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm12-48",
+    "name": "Firnontor",
+    "img": "https://assets.tcgdex.net/de/sm/sm12/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm12",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm12/symbol",
+    "set_full_name": "Welten im Wandel",
+    "series": "Sonne & Mond",
+    "set_code": "sm12",
+    "date": "2019-11-01",
+    "number": "48",
+    "set_total": 271,
+    "rarity": "Selten",
+    "author": [
+        "Uta"
+    ],
+    "pokedex_number": 362,
+    "pokemon_category": "",
+    "flavor_text": "Es friert seine Beute ein und verschlingt sie im Ganzen. Am liebsten frisst es von vornherein gefrorene Pokémon wie Gelatini.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Eiszahn",
+            "damage": 30,
+            "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert und du legst 1 Energie von jenem Pokémon auf den Ablagestapel deines Gegners."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Frosttaifun",
+            "damage": 120,
+            "effect": "Dieses Pokémon kann Frosttaifun während deines nächsten Zuges nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Schneppke",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm12-48"
+        }
+    ],
+    "print_key": "tcgdex:sm12-48",
+    "card_key": "362|120|3|Uta|30,120|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

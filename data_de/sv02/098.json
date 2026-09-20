@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv02-098",
+    "name": "Azugladis",
+    "img": "https://assets.tcgdex.net/de/sv/sv02/098/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv02",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv02/symbol",
+    "set_full_name": "Entwicklungen in Paldea",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv02",
+    "date": "2023-06-09",
+    "number": "098",
+    "set_total": 279,
+    "rarity": "Selten",
+    "author": [
+        "Ryota Murayama"
+    ],
+    "pokedex_number": 937,
+    "pokemon_category": "",
+    "flavor_text": "Die Flammenschwerter an beiden Armen lodern mit dem Groll eines Schwertkämpfers, der fiel, ehe er sein Ziel erreichen konnte.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Lebenssauger",
+            "damage": 50,
+            "effect": "Heile 30 Schadenspunkte bei diesem Pokémon."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Kampfschwert",
+            "damage": "100+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex oder Pokémon-V ist, fügt diese Attacke 100 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Knarbon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv02-098"
+        }
+    ],
+    "print_key": "tcgdex:sv02-98",
+    "card_key": "937|140|2|Ryota Murayama|50,100+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh2-59",
+    "name": "Elevoltek",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh2/59/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Clash der Rebellen",
+    "series": "Schwert & Schild",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "59",
+    "set_total": 209,
+    "rarity": "Selten",
+    "author": [
+        "tetsuya koizumi"
+    ],
+    "pokedex_number": 466,
+    "pokemon_category": "",
+    "flavor_text": "Ein einzelnes Elevoltek erzeugt genügend Elektrizität, um eine Großstadt ein ganzes Jahr lang mit Strom zu versorgen.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Donnerschock",
+            "damage": 50,
+            "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Hochspannungsblitz",
+            "damage": "90+",
+            "effect": "Wenn an dieses Pokémon mindestens 1 Spezial-Energie angelegt ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Elektek",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh2-59"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-59",
+    "card_key": "466|140|3|tetsuya koizumi|50,90+|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

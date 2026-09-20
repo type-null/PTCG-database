@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw5-47",
+    "name": "Zapplarang",
+    "img": "https://assets.tcgdex.net/de/bw/bw5/47/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw5",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw5/symbol",
+    "set_full_name": "Erforscher der Finsternis",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw5",
+    "date": "2012-05-09",
+    "number": "47",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 604,
+    "pokemon_category": "",
+    "flavor_text": "Mit dem Saugnapf an seinem Maul hakt es sich an seiner Beute fest und versetzt ihr über seine Fangzähne Stromschläge.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Saugheilung",
+            "damage": 40,
+            "effect": "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Verteidigenden Pokémon zugefügt hast."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Ansaugen und Zuschlagen",
+            "damage": null,
+            "effect": "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus. Dieser Angriff fügt dem neuen Verteidigenden Pokémon 60 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Zapplalek",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw5-47"
+        }
+    ],
+    "print_key": "tcgdex:bw5-47",
+    "card_key": "604|140|3|kawayoo|40,None|3,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

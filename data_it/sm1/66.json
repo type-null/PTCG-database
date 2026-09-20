@@ -1,0 +1,81 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sm1-66",
+    "name": "Lunala GX",
+    "img": "https://assets.tcgdex.net/it/sm/sm1/66/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sole e Luna",
+    "series": "Sole e Luna",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "66",
+    "set_total": 163,
+    "rarity": "Ultrarara",
+    "author": [
+        "PLANETA"
+    ],
+    "pokedex_number": 792,
+    "pokemon_category": "",
+    "hp": 250,
+    "types": [
+        "Psico"
+    ],
+    "abilities": [
+        {
+            "name": "Psicotransfer",
+            "effect": "Durante il tuo turno, prima di attaccare, puoi spostare un’Energia Psychic da uno a un altro dei tuoi Pokémon tutte le volte che vuoi."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psico",
+                "Psico",
+                "Psico",
+                "Psico"
+            ],
+            "name": "Raggio d’Ombra",
+            "damage": 120,
+            "effect": "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può essere curato."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Psico",
+                "Psico"
+            ],
+            "name": "Caduta LunareGX",
+            "damage": null,
+            "effect": "Metti KO un Pokémon Base del tuo avversario che non è un Pokémon-GX. Non puoi usare più di un attacco GX a partita."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscurità"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sm1-66"
+        }
+    ],
+    "print_key": "tcgdex:sm1-66",
+    "card_key": "792|250|2|PLANETA|120,None|4,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

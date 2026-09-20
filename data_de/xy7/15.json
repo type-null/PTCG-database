@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy7-15",
+    "name": "Entei",
+    "img": "https://assets.tcgdex.net/de/xy/xy7/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy7",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy7/symbol",
+    "set_full_name": "Ewiger Anfang",
+    "series": "XY",
+    "set_code": "xy7",
+    "date": "2015-08-12",
+    "number": "15",
+    "set_total": 101,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 244,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "{title}:",
+            "effect": "{title}: An dieses Pokémon können bis zu 2 Pokémon-Ausrüstungen angelegt sein."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Flammenschirm",
+            "damage": 30,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Hitze Tackle",
+            "damage": 130,
+            "effect": "Wirf 1 Münze. Bei \"Zahl\" fügt sich dieses Pokémon selbst 30 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy7-15"
+        }
+    ],
+    "print_key": "tcgdex:xy7-15",
+    "card_key": "244|130|2|Mitsuhiro Arita|30,130|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

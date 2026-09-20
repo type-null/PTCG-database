@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base2-48",
+    "name": "Boustiflor",
+    "img": "https://assets.tcgdex.net/fr/base/base2/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Base",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "48",
+    "set_total": 64,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 70,
+    "pokemon_category": "",
+    "flavor_text": "Il crache de la poudre toxik pour immobiliser sa proie et il l'achève avec de l'acide.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Poudre toxik",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante"
+            ],
+            "name": "Tranch'herbe",
+            "damage": 30,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Chétiflor",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base2-48"
+        }
+    ],
+    "print_key": "tcgdex:base2-48",
+    "card_key": "70|70|1|Kagemaru Himeno|10,30|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

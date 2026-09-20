@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base5-60",
+    "name": "Magnetilo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Grund",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "60",
+    "set_total": 83,
+    "rarity": "Häufig",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 81,
+    "pokemon_category": "",
+    "flavor_text": "Man sagt, dass genügend Magnetilos und Magnetons zusammen an einem Ort eine starke magnetische Barriere errichten können.",
+    "stage": "Basis",
+    "hp": 40,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Tackle",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Magnetismus",
+            "damage": "10+",
+            "effect": "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Magnetilo, Magneton und Dunkle Magneton auf deiner Bank zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base5-60"
+        }
+    ],
+    "print_key": "tcgdex:base5-60",
+    "card_key": "81|40|1|Miki Tanaka|20,10+|2,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

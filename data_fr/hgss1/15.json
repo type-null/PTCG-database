@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/hgss1-15",
+    "name": "Migalos",
+    "img": "https://assets.tcgdex.net/fr/hgss/hgss1/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "hgss1",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss1/symbol",
+    "set_full_name": "HeartGold SoulSilver",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss1",
+    "date": "2010-02-10",
+    "number": "15",
+    "set_total": 124,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 168,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Vampirisme",
+            "damage": 30,
+            "effect": "Retirez de Migalos autant de marqueurs de dégâts que de dégâts que vous avez infligés au Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Salive empoisonnée",
+            "damage": 50,
+            "effect": "Le Pokémon Défenseur est maintenant Empoisonné."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Mimigal",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/hgss1-15"
+        }
+    ],
+    "print_key": "tcgdex:hgss1-15",
+    "card_key": "168|80|1|Ken Sugimori|30,50|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

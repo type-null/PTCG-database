@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv04-122",
+    "name": "Gambex",
+    "img": "https://assets.tcgdex.net/fr/sv/sv04/122/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv04",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04/symbol",
+    "set_full_name": "Faille Paradoxe",
+    "series": "Écarlate et Violet",
+    "set_code": "sv04",
+    "date": "2023-11-03",
+    "number": "122",
+    "set_total": 266,
+    "rarity": "Rare",
+    "author": [
+        "Souichirou Gunjima"
+    ],
+    "pokedex_number": 920,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité"
+            ],
+            "name": "Rebond",
+            "damage": 30,
+            "effect": "Échangez ce Pokémon contre l'un de vos Pokémon de Banc."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité"
+            ],
+            "name": "Coup de Pied Punitif",
+            "damage": "10+",
+            "effect": "Cette attaque inflige 40 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Actif de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Lilliterelle",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv04-122"
+        }
+    ],
+    "print_key": "tcgdex:sv04-122",
+    "card_key": "920|120|1|Souichirou Gunjima|30,10+|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

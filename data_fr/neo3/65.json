@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo3-65",
+    "name": "Léviator Brillant",
+    "img": "https://assets.tcgdex.net/fr/neo/neo3/65/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "65",
+    "set_total": 66,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "flavor_text": "Dès qu'il apparaît, il devient violent. Il reste enragé jusqu'à ce que tout ce qui l'entoure soit détruit.",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Combat",
+                "Combat"
+            ],
+            "name": "Colère",
+            "damage": "30+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Léviator Brillant. Si c'est pile, cette attaque ne fait rien."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Feu",
+                "Feu"
+            ],
+            "name": "Dévastation",
+            "damage": 50,
+            "effect": "Défaussez 2 cartes Énergie  attachées à Léviator Brillant pour utiliser cette attaque. Elle inflige 10 dégâts à tous les Pokémon du Banc de votre adversaire (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.) Puis lancez une pièce. Si c'est face, défaussez une carte Énergie attachée à chaque Pokémon du Banc de votre adversaire ayant au moins une carte Énergie."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo3-65"
+        }
+    ],
+    "print_key": "tcgdex:neo3-65",
+    "card_key": "130|100|3|Ken Sugimori|30+,50|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh5-45",
+    "name": "Elevoltek",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh5/45/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh5/symbol",
+    "set_full_name": "Kampfstile",
+    "series": "Schwert & Schild",
+    "set_code": "swsh5",
+    "date": "2021-03-19",
+    "number": "45",
+    "set_total": 183,
+    "rarity": "Selten",
+    "author": [
+        "Megumi Higuchi"
+    ],
+    "pokedex_number": 466,
+    "pokemon_category": "",
+    "flavor_text": "Ein einzelnes Elevoltek erzeugt genügend Elektrizität, um eine Großstadt ein ganzes Jahr lang mit Strom zu versorgen.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Taumler",
+            "damage": "60+",
+            "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Wuchtiger Einschlag",
+            "damage": 180,
+            "effect": "Während deines nächsten Zuges kann dieses Pokémon Wuchtiger Einschlag nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Elektek",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh5-45"
+        }
+    ],
+    "print_key": "tcgdex:swsh5-45",
+    "card_key": "466|140|3|Megumi Higuchi|60+,180|3,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

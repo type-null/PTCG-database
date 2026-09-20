@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-74",
+    "name": "Smogmog",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/74/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "74",
+    "set_total": 234,
+    "rarity": "Selten",
+    "author": [
+        "OOYAMA"
+    ],
+    "pokedex_number": 110,
+    "pokemon_category": "",
+    "flavor_text": "Pumpt sich eines der zwei Smogon auf, lässt das andere Luft ab. So findet ein Giftgasaustausch statt.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Hinderndes Gas",
+            "effect": "Solang dieses Pokémon dein Aktives Pokémon ist, lege zwischen den Zügen 1 Schadensmarke auf jedes Basis-Pokémon deines Gegners."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schlammspritzer",
+            "damage": 40,
+            "effect": "Diese Attacke fügt jedem Pokémon auf der Bank deines Gegners, auf dem mindestens 1 Schadensmarke liegt, 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Smogon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-74"
+        }
+    ],
+    "print_key": "tcgdex:sm10-74",
+    "card_key": "110|120|3|OOYAMA|40|2",
+    "types_en": [
+        "Psychic"
+    ]
+}

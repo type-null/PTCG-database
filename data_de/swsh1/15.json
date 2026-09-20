@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh1-15",
+    "name": "Gortrom",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh1/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Schwert & Schild",
+    "series": "Schwert & Schild",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "15",
+    "set_total": 216,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 812,
+    "pokemon_category": "",
+    "flavor_text": "Es kontrolliert die Macht seines speziellen Baumstumpfes durch Trommeln. Im Kampf manipuliert es damit Wurzeln.",
+    "stage": "Rang 2",
+    "hp": 190,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Trommelwirbel",
+            "damage": 90,
+            "effect": "Diese Attacke fügt auch jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Trommelschläge",
+            "damage": 180,
+            "effect": "Während deines nächsten Zuges kann dieses Pokémon Trommelschläge nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Chimstix",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh1-15"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-15",
+    "card_key": "812|190|4|Shin Nagasawa|90,180|3,4",
+    "types_en": [
+        "Grass"
+    ]
+}

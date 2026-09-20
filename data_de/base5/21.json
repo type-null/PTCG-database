@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base5-21",
+    "name": "Dunkles Glurak",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Grund",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "21",
+    "set_total": 83,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "flavor_text": "Wie besessen speit es Feuer wie ein Vulkan und versucht alles in seinem Blickfeld zu verbrennen.",
+    "stage": "Rang 2",
+    "hp": 80,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Nagelschnipp",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Dauerfeuerball",
+            "damage": "50x",
+            "effect": "Wirf eine Anzahl Münzen gleich der Anzahl {R}-Energiekarten auf Dunkles Glurak. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 50 Schadenspunkte zu. Entferne soviele {R}-Energiekarten von Dunkles Glurak wie „Kopf“ geworfen wurde."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Glutexo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base5-21"
+        }
+    ],
+    "print_key": "tcgdex:base5-21",
+    "card_key": "6|80|3|Ken Sugimori|10,50x|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

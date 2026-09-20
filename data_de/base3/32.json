@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base3-32",
+    "name": "Austos",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base3",
+    "set_img": "https://assets.tcgdex.net/univ/base/base3/symbol",
+    "set_full_name": "Fossil",
+    "series": "Grund",
+    "set_code": "base3",
+    "date": "1999-10-10",
+    "number": "32",
+    "set_total": 62,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 91,
+    "pokemon_category": "",
+    "flavor_text": "Wenn dieses Pokémon angegriffen wird, wirbelt es geschwind seine Hörner in die Höhe. Niemand hat jemals seine Innereien gesehen.",
+    "stage": "Rang 1",
+    "hp": 50,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Schnapper",
+            "damage": 30,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ hat dieser Angriff keine Auswirkungen (und fügt auch keine Schadenspunkte zu)."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Dornkanone",
+            "damage": "30x",
+            "effect": "Wirf zwei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 30 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Muschas",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base3-32"
+        }
+    ],
+    "print_key": "tcgdex:base3-32",
+    "card_key": "91|50|2|Kagemaru Himeno|30,30x|2,2",
+    "types_en": [
+        "Water"
+    ]
+}

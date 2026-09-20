@@ -1,0 +1,86 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex4-93",
+    "name": "Jungko ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex4/93/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex4",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex4/symbol",
+    "set_full_name": "EX Team Magma vs Team Aqua",
+    "series": "EX",
+    "set_code": "ex4",
+    "date": "2004-03-01",
+    "number": "93",
+    "set_total": 97,
+    "rarity": "Rare",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 254,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 150,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Guérison verte",
+            "damage": null,
+            "effect": "Retirez 4 marqueurs de dégât à chacun de vos Pokémon possédant une Énergie . Si ces Pokémon possèdent moins de 4 marqueurs de dégât, retirez-les tous."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Anneau de poison",
+            "damage": 40,
+            "effect": "Le Pokémon Défenseur est maintenant Empoisonné. Il ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coup déchirant",
+            "damage": 100,
+            "effect": "Jungko ex ne peut pas utiliser Coup déchirant lors de votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante",
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex4-93"
+        }
+    ],
+    "print_key": "tcgdex:ex4-93",
+    "card_key": "254|150|2|Hikaru Koike|None,40,100|1,3,5",
+    "types_en": [
+        "Grass"
+    ]
+}

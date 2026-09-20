@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh4.5-25",
+    "name": "Volcanion",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh4.5/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh4.5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh4.5/symbol",
+    "set_full_name": "Glänzendes Schicksal",
+    "series": "Schwert & Schild",
+    "set_code": "swsh4.5",
+    "date": "2021-02-19",
+    "number": "25",
+    "set_total": 73,
+    "rarity": "Selten",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 721,
+    "pokemon_category": "",
+    "flavor_text": "Über die Arme auf seinem Rücken stößt es Wasserdampf aus. Seine Kraft reicht aus, um Berge zu versetzen.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Einhämmern",
+            "damage": 50,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Dynamitdampf",
+            "damage": "120×",
+            "effect": "Wirf 2 Münzen. Diese Attacke fügt 120 Schadenspunkte pro Kopf zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh4.5-25"
+        }
+    ],
+    "print_key": "tcgdex:swsh4.5-25",
+    "card_key": "721|130|3|nagimiso|50,120x|2,4",
+    "types_en": [
+        "Water"
+    ]
+}

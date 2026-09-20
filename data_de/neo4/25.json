@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo4-25",
+    "name": "Helles Machomei",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "25",
+    "set_total": 113,
+    "rarity": "Selten",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "flavor_text": "Es verwendet seine vier Arme im Kampf, um seinen Gegner mit einem unglaublichen Schlaghagel einzudecken.",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Kampfpartner",
+            "effect": "Wenn du Helles Machomei aus deiner Hand spielst und es auf deine Bank legst, entferne 3 Schadensmarken von deinem aktiven Pokémon. Wenn es weniger Schadensmarken hat, entferne alle. Tausche dann Helles Machomei mit deinem aktiven Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Niederprügler",
+            "damage": 50,
+            "effect": "Wirf eine Münze, wenn das verteidigende Pokémon „Dunkles“ in seinem Namen hat oder ein {D}-Pokémon ist. Bei „Kopf“ fügt dieser Angriff 100 Schadenspunkte statt 50 zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Maschock",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo4-25"
+        }
+    ],
+    "print_key": "tcgdex:neo4-25",
+    "card_key": "68|100|2|Miki Tanaka|50|3",
+    "types_en": [
+        "Fighting"
+    ]
+}

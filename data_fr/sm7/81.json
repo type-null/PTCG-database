@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm7-81",
+    "name": "Groudon",
+    "img": "https://assets.tcgdex.net/fr/sm/sm7/81/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm7",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm7/symbol",
+    "set_full_name": "Tempête Céleste",
+    "series": "Soleil et Lune",
+    "set_code": "sm7",
+    "date": "2018-08-03",
+    "number": "81",
+    "set_total": 183,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 383,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Anéantissement",
+            "damage": "50+",
+            "effect": "S’il y a une carte Stade en jeu, cette attaque inflige 50 dégâts supplémentaires. Ensuite, défaussez la carte Stade."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tranch’Sol",
+            "damage": 130,
+            "effect": "Défaussez une Énergie de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm7-81"
+        }
+    ],
+    "print_key": "tcgdex:sm7-81",
+    "card_key": "383|130|4|Masakazu Fukuda|50+,130|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

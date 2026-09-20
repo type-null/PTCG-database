@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/me04-061",
+    "name": "Metagross",
+    "img": "https://assets.tcgdex.net/de/me/me04/061/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "J",
+    "set_name": "me04",
+    "set_img": "https://assets.tcgdex.net/univ/me/me04/symbol",
+    "set_full_name": "Wachsendes Chaos",
+    "series": "Mega-Entwicklung",
+    "set_code": "me04",
+    "date": "2026-05-22",
+    "number": "061",
+    "set_total": 122,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Bun Toujo"
+    ],
+    "pokedex_number": 376,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon hat sich aus mehreren Metang gebildet. Mit seinen vier Gehirnen besitzt es die Intelligenz eines Supercomputers.",
+    "stage": "Rang 2",
+    "hp": 180,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Zurückprallen",
+            "damage": 60,
+            "effect": "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)"
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Metallhammer",
+            "damage": "150+",
+            "effect": "Du kannst 3 {M}-Energien von diesem Pokémon auf deinen Ablagestapel legen und diese Attacke 150 Schadenspunkte mehr zufügen lassen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Metang",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/me04-061"
+        }
+    ],
+    "print_key": "tcgdex:me04-61",
+    "card_key": "376|180|3|Bun Toujo|60,150+|1,4",
+    "types_en": [
+        "Metal"
+    ]
+}

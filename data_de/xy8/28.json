@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy8-28",
+    "name": "Golking",
+    "img": "https://assets.tcgdex.net/de/xy/xy8/28/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy8",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy8/symbol",
+    "set_full_name": "TURBOstart",
+    "series": "XY",
+    "set_code": "xy8",
+    "date": "2015-11-04",
+    "number": "28",
+    "set_total": 165,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 119,
+    "pokemon_category": "",
+    "flavor_text": "Es baut Nester, indem es Steine im Fluss mit seinem Horn aushöhlt. Es verteidigt seine Eier mit dem Leben.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Triefendes Horn",
+            "damage": "10+",
+            "effect": "Wenn dieses Pokémon während dieses Zuges geheilt wurde, fügt dieser Angriff 80 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Waghalsiger Sturmangriff",
+            "damage": 40,
+            "effect": "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Goldini",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy8-28"
+        }
+    ],
+    "print_key": "tcgdex:xy8-28",
+    "card_key": "119|90|2|Kyoko Umemoto|10+,40|1,1",
+    "types_en": [
+        "Water"
+    ]
+}

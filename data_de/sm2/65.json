@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm2-65",
+    "name": "Machomei",
+    "img": "https://assets.tcgdex.net/de/sm/sm2/65/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Stunde der Wächter",
+    "series": "Sonne & Mond",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "65",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "flavor_text": "Gegner, die sich ihm in den Weg stellen, werden mit einem Faustschlag, dessen Wucht 1 Million Tonnen übersteigt, gen Horizont geschleudert.",
+    "stage": "Rang 2",
+    "hp": 160,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Rechnung begleichen",
+            "damage": "20+",
+            "effect": "Diese Attacke fügt 80 Schadenspunkte mehr mal der Anzahl der Preiskarten zu, die dein Gegner während seines letzten Zuges genommen hat."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Überroller",
+            "damage": 150,
+            "effect": "Dieses Pokémon fügt sich selbst 30 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Maschock",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm2-65"
+        }
+    ],
+    "print_key": "tcgdex:sm2-65",
+    "card_key": "68|160|3|Hitoshi Ariga|20+,150|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

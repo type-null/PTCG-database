@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-14",
+    "name": "Shaymin",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "14",
+    "set_total": 133,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 492,
+    "pokemon_category": "",
+    "flavor_text": "Es lebt auf Blumenwiesen und rollt sich ein, um wie eine Blume auszusehen und nicht entdeckt zu werden.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Blumenduft",
+            "damage": 10,
+            "effect": "Entferne 2 Schadensmarken von Shaymin. Das Verteidigende Pokémon schläft jetzt."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Schadensbeistand",
+            "damage": "30+",
+            "effect": "Wenn das Verteidigende Pokémon von einem Speziellen Zustand betroffen ist, fügt dieser Angriff 30 Schadenspunkte plus 50 weitere Schadenspunkte zu. Danach entferne alle Speziellen Zustände vom Verteidigenden Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-14"
+        }
+    ],
+    "print_key": "tcgdex:pl1-14",
+    "card_key": "492|70|1|Kagemaru Himeno|10,30+|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

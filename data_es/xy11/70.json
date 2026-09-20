@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/xy11-70",
+    "name": "Bastiodon",
+    "img": "https://assets.tcgdex.net/es/xy/xy11/70/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Asedio de Vapor",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "70",
+    "set_total": 116,
+    "rarity": "Rara",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 411,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 150,
+    "types": [
+        "Metálica"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Contraataque de Cabeza",
+            "damage": null,
+            "effect": "Durante el próximo turno de tu rival, si este Pokémon resulta dañado por un ataque (incluso si este Pokémon queda Fuera de Combate), pon un número de contadores de daño en el Pokémon Atacante igual al daño infligido a este Pokémon."
+        },
+        {
+            "cost": [
+                "Metálica",
+                "Metálica",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Fortaleza de Furia",
+            "damage": "100+",
+            "effect": "Este ataque hace 10 puntos de daño más por cada uno de tus Pokémon en Banca que tenga algún contador de daño sobre él."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Shieldon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/xy11-70"
+        }
+    ],
+    "print_key": "tcgdex:xy11-70",
+    "card_key": "411|150|4|match|None,100+|2,4",
+    "types_en": [
+        "Metal"
+    ]
+}

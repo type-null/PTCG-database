@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss1-24",
+    "name": "Lapras",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss1/24/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss1",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss1/symbol",
+    "set_full_name": "HeartGold SoulSilver",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss1",
+    "date": "2010-02-10",
+    "number": "24",
+    "set_total": 124,
+    "rarity": "Selten",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "pokedex_number": 131,
+    "pokemon_category": "",
+    "flavor_text": "Sie sind gutmütig. Da sie selten kämpfen, wurden sie oft gefangen. Ihre Anzahl ist stark reduziert.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Eisstrahl",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Eisklinge",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss1-24"
+        }
+    ],
+    "print_key": "tcgdex:hgss1-24",
+    "card_key": "131|90|2|Suwama Chiaki|20,None|2,2",
+    "types_en": [
+        "Water"
+    ]
+}

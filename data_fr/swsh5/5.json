@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh5-5",
+    "name": "Cacturne",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh5/5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "E",
+    "set_name": "swsh5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh5/symbol",
+    "set_full_name": "Styles de combat",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh5",
+    "date": "2021-03-19",
+    "number": "5",
+    "set_total": 183,
+    "rarity": "Peu Commune",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 332,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Tirer",
+            "damage": null,
+            "effect": "Échangez l'un des Pokémon de Banc de votre adversaire contre son Pokémon Actif."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Frappe Épineuse",
+            "damage": "60+",
+            "effect": "Si de l'Énergie Darkness est attachée à ce Pokémon, cette attaque inflige 70 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Cacnea",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh5-5"
+        }
+    ],
+    "print_key": "tcgdex:swsh5-5",
+    "card_key": "332|120|2|Tomokazu Komiya|None,60+|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

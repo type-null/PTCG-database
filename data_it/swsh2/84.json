@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/swsh2-84",
+    "name": "Hattrem",
+    "img": "https://assets.tcgdex.net/it/swsh/swsh2/84/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Fragore Ribelle",
+    "series": "Spada e Scudo",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "84",
+    "set_total": 209,
+    "rarity": "Non comune",
+    "author": [
+        "kirisAki"
+    ],
+    "pokedex_number": 857,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 80,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Calmamente",
+            "damage": null,
+            "effect": "Cura questo Pokémon da 30 danni."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Vorticolpo",
+            "damage": "30+",
+            "effect": "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscurità"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Hatenna",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/swsh2-84"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-84",
+    "card_key": "857|80|1|kirisAki|None,30+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/tk-dp-l-2",
+    "name": "Gravalanch",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "tk-dp-l",
+    "set_img": "https://assets.tcgdex.net/univ/tk/tk-dp-l/symbol",
+    "set_full_name": "DP Kit dresseur (Lucario)",
+    "series": "Kits du dresseur",
+    "set_code": "tk-dp-l",
+    "date": "2007-09-01",
+    "number": "2",
+    "set_total": 11,
+    "rarity": "Sans Rareté",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 75,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Canon à pierres",
+            "damage": "30×",
+            "effect": "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Éboulement",
+            "damage": "40",
+            "effect": "Inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Racaillou",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/tk-dp-l-2"
+        }
+    ],
+    "print_key": "tcgdex:tk-dp-l-2",
+    "card_key": "75|90|3|Mitsuhiro Arita|30x,40|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl2-73",
+    "name": "Nidorina Niv. 29",
+    "img": "https://assets.tcgdex.net/fr/pl/pl2/73/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Rivaux Émergeants",
+    "series": "Platine",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "73",
+    "set_total": 120,
+    "rarity": "Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 30,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Charge aérienne",
+            "damage": 30,
+            "effect": "Nidorina s'inflige 10 dégâts. N'appliquez pas la Faiblesse et la Résistance à ces dégâts."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Poison de stress",
+            "damage": "40+",
+            "effect": "Si Nidorina possède des marqueurs de dégât, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Empoisonné."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Nidoran♀",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl2-73"
+        }
+    ],
+    "print_key": "tcgdex:pl2-73",
+    "card_key": "30|80|2|Ken Sugimori|30,40+|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

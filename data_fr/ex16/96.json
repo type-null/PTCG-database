@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex16-96",
+    "name": "Drattak ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex16/96/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex16",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex16/symbol",
+    "set_full_name": "EX Gardiens du Pouvoir",
+    "series": "EX",
+    "set_code": "ex16",
+    "date": "2007-02-17",
+    "number": "96",
+    "set_total": 108,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 373,
+    "pokemon_category": "",
+    "hp": 160,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Flamme volcanique",
+            "damage": 150,
+            "effect": "Défaussez les 5 cartes du dessus de votre deck."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Hydro-vague",
+            "damage": null,
+            "effect": "Défaussez toutes les Énergies {W} attachées à Drattak ex. Cette attaque inflige 30 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Feu",
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Drackhaus",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex16-96"
+        }
+    ],
+    "print_key": "tcgdex:ex16-96",
+    "card_key": "373|160|2|Mitsuhiro Arita|150,None|4,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

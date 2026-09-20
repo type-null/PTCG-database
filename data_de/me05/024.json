@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/me05-024",
+    "name": "Voltenso",
+    "img": "https://assets.tcgdex.net/de/me/me05/024/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "J",
+    "set_name": "me05",
+    "set_img": "https://assets.tcgdex.net/univ/me/me05/symbol",
+    "set_full_name": "Dunkelnacht",
+    "series": "Mega-Entwicklung",
+    "set_code": "me05",
+    "date": "2026-07-17",
+    "number": "024",
+    "set_total": 120,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Uninori"
+    ],
+    "pokedex_number": 310,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Blitzbarriere",
+            "damage": 50,
+            "effect": "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von Entwicklungs-Pokémon zugefügt wird."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Schallkante",
+            "damage": 110,
+            "effect": "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Frizelbliz",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/me05-024"
+        }
+    ],
+    "print_key": "tcgdex:me05-24",
+    "card_key": "310|120|1|Uninori|50,110|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

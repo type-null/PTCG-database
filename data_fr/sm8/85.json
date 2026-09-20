@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm8-85",
+    "name": "Tokorico",
+    "img": "https://assets.tcgdex.net/fr/sm/sm8/85/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Tonnerre Perdu",
+    "series": "Soleil et Lune",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "85",
+    "set_total": 236,
+    "rarity": "Rare",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 785,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Bombarder",
+            "damage": 30,
+            "effect": "Vous pouvez échanger ce Pokémon avec l’un de vos Pokémon de Banc."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Éclair Aveuglant",
+            "damage": 120,
+            "effect": "Ce Pokémon ne peut pas utiliser Éclair Aveuglant pendant votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm8-85"
+        }
+    ],
+    "print_key": "tcgdex:sm8-85",
+    "card_key": "785|120|1|kawayoo|30,120|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

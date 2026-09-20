@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-54",
+    "name": "Noadkoko",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "54",
+    "set_total": 146,
+    "rarity": "Peu Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 103,
+    "pokemon_category": "",
+    "flavor_text": "On l'appelle \"jungle sur pattes\". Si une tête devient trop grosse, elle tombe et produit un NOEUNOEUF.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Stratégie psy",
+            "damage": null,
+            "effect": "Chaque joueur compte le nombre de cartes dans la main de son adversaire, Chaque joueur mélange sa main avec son deck. Ensuite, chaque joueur pioche autant de cartes que son adversaire avait en main."
+        },
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Super eggsplosion",
+            "damage": "50x",
+            "effect": "Défaussez autant de cartes Énergie attachées à votre Pokémon que vous le voulez. Pour chaque carte Énergie défaussée, lancez une pièce. Cette attaque inflige 50 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Owei",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-54"
+        }
+    ],
+    "print_key": "tcgdex:dp6-54",
+    "card_key": "103|80|1|Ken Sugimori|None,50x|0,1",
+    "types_en": [
+        "Psychic"
+    ]
+}

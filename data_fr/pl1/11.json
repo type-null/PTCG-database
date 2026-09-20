@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-11",
+    "name": "Élecsprint",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/11/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "11",
+    "set_total": 133,
+    "rarity": "Holo Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 310,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Barrière électrique",
+            "effect": "Prévenez tous les dégâts infligés par des attaques à vos Pokémon de Banc (Elecsprint exclus)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Vague puissante",
+            "damage": null,
+            "effect": "Cette attaque inflige 30 dégâts à chaque Pokémon possédant des Poké-Powers (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Courant électrique",
+            "damage": 40,
+            "effect": "Cherchez dans votre deck une carte Énergie Lightning et attachez-la à 1 de vos Pokémon. Ensuite, mélangez votre deck."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Dynavolt",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-11"
+        }
+    ],
+    "print_key": "tcgdex:pl1-11",
+    "card_key": "310|90|0|Kouki Saitou|None,40|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

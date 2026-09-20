@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex3-6",
+    "name": "Groink",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Drache",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "6",
+    "set_total": 100,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 326,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psychoknall",
+            "damage": "20+",
+            "effect": "Fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede am Verteidigenden Pokémon angelegte Energie zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Verstandesreise",
+            "damage": 50,
+            "effect": "Falls an Groink und dem Verteidigenden Pokémon gleich viel Energie angelegt ist, ist das Verteidigende jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "evolve_from": "Spoink",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex3-6"
+        }
+    ],
+    "print_key": "tcgdex:ex3-6",
+    "card_key": "326|80|1|Midori Harada|20+,50|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

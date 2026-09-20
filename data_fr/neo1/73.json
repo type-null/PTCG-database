@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-73",
+    "name": "Ramoloss",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/73/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "73",
+    "set_total": 111,
+    "rarity": "Commune",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 79,
+    "pokemon_category": "",
+    "flavor_text": "Il se la coule douce au bord de l'eau. Si quelque chose mord sa queue, il ne le remarquera pas de la journée.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Choc psy",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Pistolet à O",
+            "damage": "10+",
+            "effect": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {W} attachée à Ramoloss en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-73"
+        }
+    ],
+    "print_key": "tcgdex:neo1-73",
+    "card_key": "79|50|1|Tomokazu Komiya|10,10+|1,1",
+    "types_en": [
+        "Psychic"
+    ]
+}

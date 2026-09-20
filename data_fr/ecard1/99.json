@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard1-99",
+    "name": "Germignon",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard1/99/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-cards",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "99",
+    "set_total": 165,
+    "rarity": "Commune",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 152,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Regard hypnotique",
+            "damage": null,
+            "effect": "Le Pokémon Défenseur est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Double griffe",
+            "damage": "20×",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard1-99"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-99",
+    "card_key": "152|40|1|Miki Tanaka|None,20x|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

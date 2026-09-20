@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-17",
+    "name": "Typhlosion",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/17/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "17",
+    "set_total": 111,
+    "rarity": "Rare",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 157,
+    "pokemon_category": "",
+    "flavor_text": "Dans ses moments de rage, il devient tellement chaud que tout ce qu'il touche prend feu.",
+    "stage": "Niveau 2",
+    "hp": 100,
+    "types": [
+        "Feu"
+    ],
+    "abilities": [
+        {
+            "name": "Recharge de feu",
+            "effect": "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, attachez une carte Énergie {R} de votre pile de défausse sur un de vos Pokémon {R}. Ce pouvoir ne peut être utilisé si Typhlosion est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Feu",
+                "Feu"
+            ],
+            "name": "Éruption de flammes",
+            "damage": "60+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires et inflige 20 dégâts à Typhlosion. Si c'est pile, cette attaque inflige 60 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Feurisson",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-17"
+        }
+    ],
+    "print_key": "tcgdex:neo1-17",
+    "card_key": "157|100|2|Shin-ichi Yoshida|60+|4",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm1-108",
+    "name": "Tukanon",
+    "img": "https://assets.tcgdex.net/de/sm/sm1/108/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sonne & Mond",
+    "series": "Sonne & Mond",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "108",
+    "set_total": 172,
+    "rarity": "Selten",
+    "author": [
+        "Megumi Mizutani"
+    ],
+    "pokedex_number": 733,
+    "pokemon_category": "",
+    "flavor_text": "Lässt körpereigene Gase in seinem Schnabel explodieren, um Samen zu verschießen. Selbst große Felsen kann es damit zerstören.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Widerhall",
+            "damage": 60,
+            "effect": "Während deines nächsten Zuges fügt die Attacke Widerhall dieses Pokémon 60 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schnabelkanone",
+            "damage": 100,
+            "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt verbrannt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Trompeck",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm1-108"
+        }
+    ],
+    "print_key": "tcgdex:sm1-108",
+    "card_key": "733|140|2|Megumi Mizutani|60,100|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

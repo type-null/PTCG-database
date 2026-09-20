@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp2-26",
+    "name": "Garados",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Geheimnisvolle Schätze",
+    "series": "Diamant & Perl",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "26",
+    "set_total": 124,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "flavor_text": "Sobald es erscheint, nimmt seine Wut nicht eher ab, bis es die Felder und Berge ringsum zerstört hat.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Drachen-DNA",
+            "effect": "Garados kann alle Angriffe seiner Basis-Pokémon-Karte einsetzen. (Du musst die Energiekosten für diesen Angriff trotzdem zahlen.) Wenn Garados einen Angriff seiner Basis-Pokémon-Karte einsetzt, fügt dieser Angriff den Aktiven Pokémon weitere 30 Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Erzürnen",
+            "damage": 80,
+            "effect": "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Wähle für jedes Mal, wenn die Münze „Kopf“ gezeigt hat, eine Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Dein Gegner legt die gewählte Karte auf seinen Ablagestapel. Wenn der allererste Wurf „Zahl“ gezeigt hat, ist Garados jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Karpador",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp2-26"
+        }
+    ],
+    "print_key": "tcgdex:dp2-26",
+    "card_key": "130|120|3|Mitsuhiro Arita|80|4",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo2-27",
+    "name": "Tarpaud",
+    "img": "https://assets.tcgdex.net/fr/neo/neo2/27/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Discovery",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "27",
+    "set_total": 75,
+    "rarity": "Rare",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 186,
+    "pokemon_category": "",
+    "flavor_text": "Quand trois d'entre eux se retrouvent, ils chantent d'une voix tonitruante qui ressemble à des beuglements.",
+    "stage": "Niveau 2",
+    "hp": 100,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Chant de crapaud",
+            "effect": "Quand l'attaque de Tarpaud fait des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), s'il y a plus de 3 Ptitards, Têtartes, Tartards et/ou Tarpauds en jeu (y compris chez votre adversaire), cette attaque fait 40 dégâts supplémentaires (quel que soit le nombre de faces obtenu). Ce pouvoir cesse de faire effet si Tarpaud est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Torgnoles",
+            "damage": "40x",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Têtarte",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo2-27"
+        }
+    ],
+    "print_key": "tcgdex:neo2-27",
+    "card_key": "186|100|3|Tomokazu Komiya|40x|4",
+    "types_en": [
+        "Water"
+    ]
+}

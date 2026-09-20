@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-1",
+    "name": "Arkani",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "1",
+    "set_total": 120,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 59,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "Fackelstellung",
+            "effect": "Solange an Arkani mindestens 1 {R}-Energie angelegt ist, hat Arkani keine Schwäche."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Ausbrennen",
+            "damage": "30+",
+            "effect": "Du kannst mit diesem Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zufügen. Wenn du das machst, ist Arkani jetzt verbrannt."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wutflammen",
+            "damage": "60+",
+            "effect": "Lege 1 {R}-Energie, die an Arkani angelegt ist, auf deinen Ablagestapel. Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Arkani zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Fukano",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-1"
+        }
+    ],
+    "print_key": "tcgdex:pl2-1",
+    "card_key": "59|100|2|Masakazu Fukuda|30+,60+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex14-90",
+    "name": "Brasegali ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex14/90/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex14",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex14/symbol",
+    "set_full_name": "EX Gardiens de Cristal",
+    "series": "EX",
+    "set_code": "ex14",
+    "date": "2006-08-30",
+    "number": "90",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 257,
+    "pokemon_category": "",
+    "hp": 150,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Traîne",
+            "damage": 30,
+            "effect": "Avant d'infliger des dégâts, vous pouvez choisir 1 des Pokémon de Banc de votre adversaire et l'échanger avec 1 des Pokémon Défenseurs. Votre adversaire choisit le Pokémon Défenseur à échanger."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Grosse brûlure",
+            "damage": 100,
+            "effect": "Avant d'infliger des dégâts, comptabilisez le nombre de Points de vie restant au Pokémon Défenseur. Si ce Pokémon est mis K.O par cette attaque, Brasegali ex s'inflige autant de dégâts que les dégâts de cette attaque moins les Points de vie restant au Pokémon Défenseur. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Galifeu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex14-90"
+        }
+    ],
+    "print_key": "tcgdex:ex14-90",
+    "card_key": "257|150|2|Mitsuhiro Arita|30,100|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

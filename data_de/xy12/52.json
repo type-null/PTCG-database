@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy12-52",
+    "name": "Mewtu EX",
+    "img": "https://assets.tcgdex.net/de/xy/xy12/52/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Evolution",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "52",
+    "set_total": 113,
+    "rarity": "Ultra Selten",
+    "author": [
+        "Eske Yoshinob"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 180,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Energieaufnahme",
+            "damage": null,
+            "effect": "Nimm 1 Energiekarte von deinem Ablagestapel und lege sie an dieses Pokémon an."
+        },
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Regeneration",
+            "damage": null,
+            "effect": "Heile 60 Schadenspunkte bei diesem Pokémon."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Psychoverbrennung",
+            "damage": 110,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy12-52"
+        }
+    ],
+    "print_key": "tcgdex:xy12-52",
+    "card_key": "150|180|2|Eske Yoshinob|None,None,110|1,1,4",
+    "types_en": [
+        "Psychic"
+    ]
+}

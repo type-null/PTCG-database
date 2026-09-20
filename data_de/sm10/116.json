@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-116",
+    "name": "Rabigator",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/116/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "116",
+    "set_total": 234,
+    "rarity": "Selten",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 553,
+    "pokemon_category": "",
+    "flavor_text": "Entdeckt es Beute in bis zu 50 km Entfernung, bewegt es sich schwimmend durch die Wüste, bis es hervorspringt und nach ihr schnappt.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Mampfpanik",
+            "damage": "50×",
+            "effect": "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Knirscher",
+            "damage": 100,
+            "effect": "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Rokkaiman",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-116"
+        }
+    ],
+    "print_key": "tcgdex:sm10-116",
+    "card_key": "553|150|3|Anesaki Dynamic|50x,100|3,4",
+    "types_en": [
+        "Darkness"
+    ]
+}

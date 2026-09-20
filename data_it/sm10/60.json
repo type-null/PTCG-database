@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sm10-60",
+    "name": "Zeraora",
+    "img": "https://assets.tcgdex.net/it/sm/sm10/60/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Legami Inossidabili",
+    "series": "Sole e Luna",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "60",
+    "set_total": 234,
+    "rarity": "Rara",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 807,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Lampo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lampo"
+            ],
+            "name": "Triturartigli",
+            "damage": 20,
+            "effect": "Scarta un’Energia speciale assegnata al Pokémon attivo del tuo avversario."
+        },
+        {
+            "cost": [
+                "Lampo",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Scarica",
+            "damage": "50×",
+            "effect": "Scarta tutte le Energie Lightning assegnate a questo Pokémon. Questo attacco infligge 50 danni per ogni carta che hai scartato in questo modo."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metallo"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sm10-60"
+        }
+    ],
+    "print_key": "tcgdex:sm10-60",
+    "card_key": "807|120|1|kawayoo|20,50x|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

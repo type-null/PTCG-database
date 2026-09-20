@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-13",
+    "name": "Panzaeron",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "13",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 227,
+    "pokemon_category": "",
+    "flavor_text": "Seine kräftigen Flügel sehen schwer aus, aber sie sind eigentlich hohl und leicht, und lassen es frei im Himmel fliegen.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Klaue",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Stahlschwinge",
+            "damage": 30,
+            "effect": "Wirf eine Münze. Bei „Kopf“ wird aller Schaden, der Panzaeron während des nächsten gegnerischen Zuges durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-13"
+        }
+    ],
+    "print_key": "tcgdex:neo1-13",
+    "card_key": "227|60|2|Ken Sugimori|20,30|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

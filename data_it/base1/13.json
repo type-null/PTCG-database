@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-13",
+    "name": "Poliwrath",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "13",
+    "set_total": 102,
+    "rarity": "Rara",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 62,
+    "pokemon_category": "",
+    "flavor_text": "Abile nuotatore sia nel crawl sia a rana. Supera con facilità qualsiasi nuotatore di razza umana. LIV 48 N.62",
+    "stage": "Livello 2",
+    "hp": 90,
+    "types": [
+        "Acqua"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Acqua",
+                "Acqua",
+                "Incolore"
+            ],
+            "name": "Pistolacqua",
+            "damage": "30+",
+            "effect": "Infligge 30 danni più altri 10 danni per ogni carta Energia Acqua assegnata a Poliwrath che non viene usata per pagare il costo di Energia di questo attacco. Altre carte Energia Acqua dopo la 2ª non contano."
+        },
+        {
+            "cost": [
+                "Acqua",
+                "Acqua",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Mulinello",
+            "damage": 40,
+            "effect": "Se sono state assegnate carte Energia al Pokémon Difensore, scegline una e scartala."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Erba"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Poliwhirl",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-13"
+        }
+    ],
+    "print_key": "tcgdex:base1-13",
+    "card_key": "62|90|3|Ken Sugimori|30+,40|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

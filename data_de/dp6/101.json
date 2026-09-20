@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp6-101",
+    "name": "Kapoera",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Erwachte Legenden",
+    "series": "Diamant & Perl",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "101",
+    "set_total": 146,
+    "rarity": "Häufig",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 237,
+    "pokemon_category": "",
+    "flavor_text": "Es kämpft, während es sich wie ein Kreisel dreht. Die Zentrifugalkraft erhöht die Kampfkraft um 10.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Dreifachkick",
+            "damage": "20x",
+            "effect": "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Magendreher",
+            "damage": 50,
+            "effect": "Wenn Rabauz sich an beliebiger Stelle unter Kapoera befindet, kannst du Kapoera gegen 1 Pokémon auf deiner Bank austauschen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp6-101"
+        }
+    ],
+    "print_key": "tcgdex:dp6-101",
+    "card_key": "237|80|1|Masakazu Fukuda|20x,50|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

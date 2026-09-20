@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-73",
+    "name": "Nidorina",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "73",
+    "set_total": 120,
+    "rarity": "Häufig",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 30,
+    "pokemon_category": "",
+    "flavor_text": "Bei Gefahr fährt es die Widerhaken am Körper aus. Diese wachsen langsamer als die von NIDORINO.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Sprungtackle",
+            "damage": 30,
+            "effect": "Nidorina fügt sich selbst 10 Schadenspunkte zu, wende dabei Schwäche und Resistenz nicht an."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Belastungsgift",
+            "damage": "40+",
+            "effect": "Wenn auf Nidorina mindestens 1 Schadensmarke liegt, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Nidoran♀",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-73"
+        }
+    ],
+    "print_key": "tcgdex:pl2-73",
+    "card_key": "30|80|2|Ken Sugimori|30,40+|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

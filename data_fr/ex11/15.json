@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex11-15",
+    "name": "Staross δ",
+    "img": "https://assets.tcgdex.net/fr/ex/ex11/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex11",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex11/symbol",
+    "set_full_name": "EX Espèces Delta",
+    "series": "EX",
+    "set_code": "ex11",
+    "date": "2005-10-31",
+    "number": "15",
+    "set_total": 114,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 121,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Eau",
+        "Métal"
+    ],
+    "abilities": [
+        {
+            "name": "Navigation métallique",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre deck une carte Énergie {M} et l'attacher à Staross. Ensuite, mélangez votre deck. Ce pouvoir ne peut pas être utilisé si Staross est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Collectionner",
+            "damage": null,
+            "effect": "Piochez 3 cartes."
+        },
+        {
+            "cost": [
+                "Métal"
+            ],
+            "name": "Boucle d'énergie",
+            "damage": 30,
+            "effect": "Reprenez dans votre main une carte Énergie attachée à Staross."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Stari",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex11-15"
+        }
+    ],
+    "print_key": "tcgdex:ex11-15",
+    "card_key": "121|60|0|Masakazu Fukuda|None,30|1,1",
+    "types_en": [
+        "Water",
+        "Metal"
+    ]
+}

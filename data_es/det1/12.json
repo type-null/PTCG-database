@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/det1-12",
+    "name": "Mewtwo",
+    "img": "https://assets.tcgdex.net/es/sm/det1/12/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "det1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/det1/symbol",
+    "set_full_name": "Detective Pikachu",
+    "series": "Sol y Luna",
+    "set_code": "det1",
+    "date": "2019-03-29",
+    "number": "12",
+    "set_total": 18,
+    "rarity": "Ultra Rara",
+    "author": [
+        "MPC Film"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 130,
+    "types": [
+        "Psíquico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psíquico",
+                "Incolora"
+            ],
+            "name": "Secuestro Psíquico",
+            "damage": 30,
+            "effect": "Elige 1 de los ataques del Pokémon Activo de tu rival. Ese Pokémon no puede usar ese ataque durante el próximo turno de tu rival."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Psíquico",
+                "Incolora"
+            ],
+            "name": "Quiebre Quemadura",
+            "damage": 130,
+            "effect": "Descarta 2 Energías Psychic de este Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/det1-12"
+        }
+    ],
+    "print_key": "tcgdex:det1-12",
+    "card_key": "150|130|2|MPC Film|30,130|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

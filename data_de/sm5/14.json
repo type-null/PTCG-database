@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm5-14",
+    "name": "Schneid-Rotom",
+    "img": "https://assets.tcgdex.net/de/sm/sm5/14/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultra-Prisma",
+    "series": "Sonne & Mond",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "14",
+    "set_total": 173,
+    "rarity": "Selten",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 479,
+    "pokemon_category": "",
+    "flavor_text": "Sein Körper besteht aus Plasma. Mit ihm kann es in elektrische Geräte eindringen und für Chaos sorgen.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Roto-Motor",
+            "effect": "Wenn du 9 Pokémon-Ausrüstungen oder mehr in deinem Ablagestapel hast, ignoriere alle Energien in den Attackenkosten jeder Attacke dieses Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Spezialschnitt",
+            "damage": 60,
+            "effect": "Lege 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm5-14"
+        }
+    ],
+    "print_key": "tcgdex:sm5-14",
+    "card_key": "479|90|1|kawayoo|60|3",
+    "types_en": [
+        "Grass"
+    ]
+}

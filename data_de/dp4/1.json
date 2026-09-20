@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp4-1",
+    "name": "Lohgock",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp4",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp4/symbol",
+    "set_full_name": "Epische Begegnungen",
+    "series": "Diamant & Perl",
+    "set_code": "dp4",
+    "date": "2008-02-01",
+    "number": "1",
+    "set_total": 106,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 257,
+    "pokemon_category": "",
+    "flavor_text": "Aus seinen Handgelenken kommt Feuer, das seine Knöchel umhüllt. Schläge verbrennen den Gegner.",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Feuertanz",
+            "damage": 30,
+            "effect": "Durchsuche deinen Ablagestapel nach einer {R}-Energiekarte und lege sie an 1 deiner Pokémon an."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Flammenkick",
+            "damage": null,
+            "effect": "Entferne 2 {R}-Energien von Lohgock und lege sie auf deinen Ablagestapel. Dieser Angriff fügt 1 Pokémon deines Gegners 80 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+30"
+    },
+    "retreat": 1,
+    "evolve_from": "Jungglut",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp4-1"
+        }
+    ],
+    "print_key": "tcgdex:dp4-1",
+    "card_key": "257|130|1|Kagemaru Himeno|30,None|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

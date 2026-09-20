@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw3-100",
+    "name": "Kobalium",
+    "img": "https://assets.tcgdex.net/de/bw/bw3/100/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw3",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw3/symbol",
+    "set_full_name": "Königliche Siege",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw3",
+    "date": "2011-11-16",
+    "number": "100",
+    "set_total": 102,
+    "rarity": "Ultra Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 638,
+    "pokemon_category": "",
+    "flavor_text": "Sein Körper und sein Herz sind aus Stahl. Ein böser Blick genügt und selbst die wildesten Pokémon unterwerfen sich ihm.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Energiedruck",
+            "damage": 20,
+            "effect": "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an das Verteidigende Pokémon angelegte Energie zu."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Eisenbrecher",
+            "damage": 80,
+            "effect": "Das Verteidigende Pokémon kann während des nächsten Zuges deines Gegners nicht angreifen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw3-100"
+        }
+    ],
+    "print_key": "tcgdex:bw3-100",
+    "card_key": "638|120|2|5ban Graphics|20,80|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

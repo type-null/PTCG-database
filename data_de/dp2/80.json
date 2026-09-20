@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp2-80",
+    "name": "Dodu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Geheimnisvolle Schätze",
+    "series": "Diamant & Perl",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "80",
+    "set_total": 124,
+    "rarity": "Häufig",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 84,
+    "pokemon_category": "",
+    "flavor_text": "Die Gehirne der beiden Köpfe kommunizieren ihre Gefühle über Telepathie.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Doppelstich",
+            "damage": "10x",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Beschleunigter Stich",
+            "damage": 30,
+            "effect": "Dodu kann Beschleunigter Stich in deinem nächsten Zug nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp2-80"
+        }
+    ],
+    "print_key": "tcgdex:dp2-80",
+    "card_key": "84|60|1|Ken Sugimori|10x,30|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

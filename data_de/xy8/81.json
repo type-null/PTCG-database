@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy8-81",
+    "name": "Keifel",
+    "img": "https://assets.tcgdex.net/de/xy/xy8/81/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy8",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy8/symbol",
+    "set_full_name": "TURBOstart",
+    "series": "XY",
+    "set_code": "xy8",
+    "date": "2015-11-04",
+    "number": "81",
+    "set_total": 165,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "MAHOU"
+    ],
+    "pokedex_number": 221,
+    "pokemon_category": "",
+    "flavor_text": "Da sein haariges Fell seine Sicht enorm beeinträchtigt, greift es ständig an, um den Gegner zu treffen.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Runterdrücken",
+            "damage": 30,
+            "effect": "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Viele Spuren",
+            "damage": "30+",
+            "effect": "Dieser Angriff fügt 10 weitere Schadenspunkte für jedes {C}-Symbol in den Rückzugskosten deiner Quiekel, Keifel und Mamutel zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Quiekel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy8-81"
+        }
+    ],
+    "print_key": "tcgdex:xy8-81",
+    "card_key": "221|100|2|MAHOU|30,30+|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

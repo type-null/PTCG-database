@@ -1,0 +1,82 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex14-89",
+    "name": "Stolloss-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex14",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex14/symbol",
+    "set_full_name": "EX Crystal Guardians",
+    "series": "EX",
+    "set_code": "ex14",
+    "date": "2006-08-30",
+    "number": "89",
+    "set_total": 100,
+    "rarity": "Selten",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 306,
+    "pokemon_category": "",
+    "hp": 150,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Einschüchternde Rüstung",
+            "effect": "Solange Stolloss ex dein Aktives Pokémon ist, können die Basis-Pokémon deines Gegners nicht angreifen oder ihre Poké-Power oder Poké-Body benutzen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Splitterbombe",
+            "damage": null,
+            "effect": "Wähle 2 Pokémon deines Gegners. Dieser Angriff fügt beiden gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Megaverbrennung",
+            "damage": 100,
+            "effect": "Während deines nächsten Zuges kann Stolloss ex Megaverbrennung nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 4,
+    "evolve_from": "Stollrak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex14-89"
+        }
+    ],
+    "print_key": "tcgdex:ex14-89",
+    "card_key": "306|150|4|Ryo Ueda|None,100|3,4",
+    "types_en": [
+        "Metal"
+    ]
+}

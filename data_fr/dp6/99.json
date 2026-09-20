@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-99",
+    "name": "Tygnon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "99",
+    "set_total": 146,
+    "rarity": "Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 107,
+    "pokemon_category": "",
+    "flavor_text": "Même le béton cède sous ses poings dévastateurs. Au combat, il s'essouffle au bout de 3 minutes.",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Contre-poing",
+            "damage": null,
+            "effect": "Lors du prochain tour de votre adversaire, si une attaque de votre adversaire inflige des dégâts à Tygnon (même si Tygnon est mis K.O), placez 4 marqueurs de dégât sur le Pokémon Attaquant."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Coup d'tripes",
+            "damage": 30,
+            "effect": "Si Debugant se trouve sous Tygnon, les dégâts de base de cette attaque sont de 60 au lieu de 30."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-99"
+        }
+    ],
+    "print_key": "tcgdex:dp6-99",
+    "card_key": "107|70|1|Ken Sugimori|None,30|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

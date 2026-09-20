@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw2-51",
+    "name": "Sedimantur",
+    "img": "https://assets.tcgdex.net/de/bw/bw2/51/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw2",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw2/symbol",
+    "set_full_name": "Aufstreben der Mächtigen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw2",
+    "date": "2011-08-31",
+    "number": "51",
+    "set_total": 98,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 525,
+    "pokemon_category": "",
+    "flavor_text": "Wenn es voller Kraft steckt, funkeln die orangefarbenen Kristalle an seinem Leib. Es sucht Höhlen nach Grundwasser ab.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Katapult",
+            "damage": 20,
+            "effect": "Wenn das Verteidigende Pokémon eine Resistenz gegenüber {F} hat, fügt dieser Angriff 60 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Juwelenkraft",
+            "damage": 80,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Kiesling",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw2-51"
+        }
+    ],
+    "print_key": "tcgdex:bw2-51",
+    "card_key": "525|90|3|Kouki Saitou|20,80|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex10-17",
+    "name": "Tornupto",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Verborgene Mächte",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "17",
+    "set_total": 117,
+    "rarity": "Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 157,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 110,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "Burning Aura",
+            "effect": "As long as Typhlosion is your Active Pokémon, put 1 damage counter on each Active Pokémon (both yours and your opponent's) between turns."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Flickering Flames",
+            "damage": 20,
+            "effect": "The Defending Pokémon is now Asleep."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Rage",
+            "damage": "50+",
+            "effect": "Does 50 damage plus 10 more damage for each damage counter on Typhlosion."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex10-17"
+        }
+    ],
+    "print_key": "tcgdex:ex10-17",
+    "card_key": "157|110|1|Hajime Kusajima|20,50+|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

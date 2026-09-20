@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bwp-BW78",
+    "name": "Raichu",
+    "img": "https://assets.tcgdex.net/fr/bw/bwp/BW78/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bwp",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bwp/symbol",
+    "set_full_name": "Promo BW",
+    "series": "Noir & Blanc",
+    "set_code": "bwp",
+    "date": "2011-04-26",
+    "number": "BW78",
+    "set_total": 101,
+    "rarity": "Commune",
+    "author": [
+        "Mizue"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Vive-Attaque",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Grondement de Tonnerre",
+            "damage": 90,
+            "effect": "Défaussez une Énergie attachée à ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bwp-BW78"
+        }
+    ],
+    "print_key": "tcgdex:bwp-BW78",
+    "card_key": "26|100|1|Mizue|30,90|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

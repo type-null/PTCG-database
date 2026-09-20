@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex1-48",
+    "name": "Wailmer",
+    "img": "https://assets.tcgdex.net/fr/ex/ex1/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex1",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex1/symbol",
+    "set_full_name": "EX Rubis & Saphir",
+    "series": "EX",
+    "set_code": "ex1",
+    "date": "2003-07-01",
+    "number": "48",
+    "set_total": 109,
+    "rarity": "Peu Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 320,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Repos",
+            "damage": null,
+            "effect": "Retirez à Wailmer tous ses États Spéciaux ainsi que 4 marqueurs de dégât (si Wailmer a moins de dégâts que cela, retirez-les lui tous). Wailmer est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Pistolet à O",
+            "damage": "20+",
+            "effect": "Cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {W} attachée à Wailmer qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex1-48"
+        }
+    ],
+    "print_key": "tcgdex:ex1-48",
+    "card_key": "320|80|3|Mitsuhiro Arita|None,20+|2,2",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm5-80",
+    "name": "Magnetilo",
+    "img": "https://assets.tcgdex.net/de/sm/sm5/80/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultra-Prisma",
+    "series": "Sonne & Mond",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "80",
+    "set_total": 173,
+    "rarity": "Häufig",
+    "author": [
+        "MAHOU"
+    ],
+    "pokedex_number": 81,
+    "pokemon_category": "",
+    "flavor_text": "Es sendet elektromagnetische Wellen aus und segelt durch die Luft. Berührt man es, während es Strom saugt, bekommt man einen Schlag.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Suchmagnet",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu 3 {M}-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Tackle",
+            "damage": 10,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm5-80"
+        }
+    ],
+    "print_key": "tcgdex:sm5-80",
+    "card_key": "81|60|1|MAHOU|None,10|1,1",
+    "types_en": [
+        "Metal"
+    ]
+}

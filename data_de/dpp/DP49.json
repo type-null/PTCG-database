@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dpp-DP49",
+    "name": "Dialga",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dpp",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dpp/symbol",
+    "set_full_name": "Promo DP",
+    "series": "Diamant & Perl",
+    "set_code": "dpp",
+    "date": "2007-05-01",
+    "number": "DP49",
+    "set_total": 56,
+    "rarity": "Häufig",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 483,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Time Call",
+            "damage": null,
+            "effect": "Search your deck for a card that evolves from 1 of your Pokémon and put it onto that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Time Wager",
+            "damage": 100,
+            "effect": "Flip 2 coins. If either of them is tails, this attack's base damage is 50 instead of 100."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dpp-DP49"
+        }
+    ],
+    "print_key": "tcgdex:dpp-DP49",
+    "card_key": "483|100|2|Kagemaru Himeno|None,100|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

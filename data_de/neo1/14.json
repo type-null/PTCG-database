@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-14",
+    "name": "Laschoking",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "14",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 199,
+    "pokemon_category": "",
+    "flavor_text": "Als sein Kopf gebissen wurde, drangen Gifte in Flegmons Kopf ein und setzten außerordentliche Kräfte frei.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Denksport",
+            "effect": "Jedesmal, wenn dein Gegner eine Trainerkarte spielt, kannst du eine Münze werfen. Bei „Kopf“ hat diese Karte keine Auswirkungen. Lege sie oben auf das Deck deines Gegners. Diese Fähigkeit kann nicht verwendet werden, falls Laschoking schläft, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Gedankenexplosion",
+            "damage": "20+",
+            "effect": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu und das verteidigende Pokémon ist jetzt verwirrt. Bei „Zahl“ fügt dieser Angriff 20 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Flegmon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-14"
+        }
+    ],
+    "print_key": "tcgdex:neo1-14",
+    "card_key": "199|80|3|Ken Sugimori|20+|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

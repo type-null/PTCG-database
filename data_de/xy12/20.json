@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy12-20",
+    "name": "Magmar",
+    "img": "https://assets.tcgdex.net/de/xy/xy12/20/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Evolution",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "20",
+    "set_total": 113,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 126,
+    "pokemon_category": "",
+    "flavor_text": "Es wurde in der Nähe eines Vulkans gefunden. Die Körpertemperatur dieses Feuerspuckers liegt bei fast 1200 Grad Celsius.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Feuerschlag",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Flammenwurf",
+            "damage": 60,
+            "effect": "Lege 1 an dieses Pokémon angelegte {R}-Energie auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy12-20"
+        }
+    ],
+    "print_key": "tcgdex:xy12-20",
+    "card_key": "126|80|2|Ken Sugimori|30,60|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

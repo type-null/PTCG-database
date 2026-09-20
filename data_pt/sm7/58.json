@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/sm7-58",
+    "name": "Swalot",
+    "img": "https://assets.tcgdex.net/pt/sm/sm7/58/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "set_name": "sm7",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm7/symbol",
+    "set_full_name": "Tempestade Celestial",
+    "series": "Sol e Lua",
+    "set_code": "sm7",
+    "date": "2018-08-03",
+    "number": "58",
+    "set_total": 183,
+    "rarity": "Incomum",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 317,
+    "pokemon_category": "",
+    "stage": "Estágio 1",
+    "hp": 120,
+    "types": [
+        "Psíquico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolor"
+            ],
+            "name": "Amnésia",
+            "damage": 30,
+            "effect": "Escolha 1 dos ataques do Pokémon Ativo do seu oponente. Aquele Pokémon não poderá usar aquele ataque durante a próxima vez de jogar do seu oponente."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Engolir por Inteiro",
+            "damage": "40+",
+            "effect": "Se antes de causar dano o Pokémon Ativo do seu oponente tiver menos PS restante do que este Pokémon, este ataque causará 80 pontos de dano a mais."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/sm7-58"
+        }
+    ],
+    "print_key": "tcgdex:sm7-58",
+    "card_key": "317|120|2|Yuka Morii|30,40+|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

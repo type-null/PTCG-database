@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw3-49",
+    "name": "Miasmax",
+    "img": "https://assets.tcgdex.net/fr/bw/bw3/49/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw3",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw3/symbol",
+    "set_full_name": "Nobles Victoires",
+    "series": "Noir & Blanc",
+    "set_code": "bw3",
+    "date": "2011-11-16",
+    "number": "49",
+    "set_total": 102,
+    "rarity": "Peu Commune",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 569,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Enveloppe Douce",
+            "damage": 30,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Détricanon",
+            "damage": 60,
+            "effect": "Le Pokémon Défenseur est maintenant Empoisonné."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Miamiasme",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw3-49"
+        }
+    ],
+    "print_key": "tcgdex:bw3-49",
+    "card_key": "569|100|3|match|30,60|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

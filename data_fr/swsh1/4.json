@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh1-4",
+    "name": "Roserade",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh1/4/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Épée et Bouclier",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "4",
+    "set_total": 216,
+    "rarity": "Rare",
+    "author": [
+        "chibi"
+    ],
+    "pokedex_number": 407,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Poison Paralysant",
+            "damage": 30,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est également Paralysé."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Méga-Sangsue",
+            "damage": 90,
+            "effect": "Soignez 30 dégâts de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Rosélia",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh1-4"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-4",
+    "card_key": "407|120|1|chibi|30,90|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

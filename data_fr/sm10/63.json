@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm10-63",
+    "name": "Arbok",
+    "img": "https://assets.tcgdex.net/fr/sm/sm10/63/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Alliance Infaillible",
+    "series": "Soleil et Lune",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "63",
+    "set_total": 234,
+    "rarity": "Rare",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 24,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Ligotage",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Étouffement Lourd",
+            "damage": "50+",
+            "effect": "Si ce Pokémon a utilisé Ligotage pendant votre dernier tour, cette attaque inflige 120 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Abo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm10-63"
+        }
+    ],
+    "print_key": "tcgdex:sm10-63",
+    "card_key": "24|120|2|Yukiko Baba|30,50+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

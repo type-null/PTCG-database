@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-17",
+    "name": "Snibunna G",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "SP"
+    ],
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "17",
+    "set_total": 133,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Makoto Imai"
+    ],
+    "pokedex_number": 461,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Familienruf",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon SP-Karten und lege sie auf deine Bank. Mische dein Deck danach."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Teamangriff",
+            "damage": "10+",
+            "effect": "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Pokémon SP, das du im Spiel hast, zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-17"
+        }
+    ],
+    "print_key": "tcgdex:pl1-17",
+    "card_key": "461|80|0|Makoto Imai|None,10+|0,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

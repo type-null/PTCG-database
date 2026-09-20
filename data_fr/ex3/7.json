@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex3-7",
+    "name": "Négapi",
+    "img": "https://assets.tcgdex.net/fr/ex/ex3/7/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Dragon",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "7",
+    "set_total": 100,
+    "rarity": "Holo Rare",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 312,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Réactions en chaîne",
+            "effect": "Tant que Negapi est votre Pokémon Actif, dès que votre autre Pokémon Actif, si vous en avez un, attaque, vous pouvez utiliser Encouragement après la première attaque (vous avez toujours besoin du nombre d'Énergies nécessaires pour utiliser Encouragement). Vous ne pouvez pas utiliser Encouragement plus d'une fois, même si votre autre Pokémon Actif possède le Poké-Body Réactions en chaîne."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Encouragement",
+            "damage": null,
+            "effect": "Retirez un marqueur de dégât à chacun de vos Pokémon (Negapi inclus)."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Circuit spécial",
+            "damage": null,
+            "effect": "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. Si vous choisissez un Pokémon possédant un Poké-Power ou un Poké-Body, cette attaque inflige 40 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex3-7"
+        }
+    ],
+    "print_key": "tcgdex:ex3-7",
+    "card_key": "312|50|1|Atsuko Nishida|None,None|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

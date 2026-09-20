@@ -4,19 +4,25 @@
     May 29, 2024 by Weihang
 """
 
-import os
+import json
 import re
-import bs4
-import logging
-from tqdm import tqdm
 
+import bs4
+import paths
 from Card import Card
 from CardScraper import CardScraper
+from loguru import logger
+from tqdm import tqdm
 
-logger = logging.getLogger(__name__)
+SETS_URL = "https://pkmncards.com/sets/"
 
 
 class CardScraperEN(CardScraper):
+    #: This site answers a burst with 403, so it gets a slower cadence.
+    delay = 1.5
+    #: It also serves a proof-of-work page to newer user agents.
+    user_agent = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0"
+
     def get_img_url(self, card, soup):
         img = soup.find("img", class_="card-image")["src"]
         card.set_img(img)
@@ -291,7 +297,9 @@ class CardScraperEN(CardScraper):
             total = None
         card.set_collector(number, total)
         logger.debug(f"number: {card.number} out of {card.set_total}")
-        card.set_out_id(card.set_name + card.number)
+        # Hyphenated like every other language, so "SVI" + "001" does not read
+        # as one run-together word wherever this id is shown.
+        card.set_out_id(f"{card.set_name}-{card.number}")
 
         rarity = info.find("span", class_="rarity").find("a").get_text()
         card.set_rarity(rarity)
@@ -325,13 +333,16 @@ class CardScraperEN(CardScraper):
                 if "Tera Pokémon ex rule" in rule_text:
                     card.set_tera(lang="en")
                     continue
-                ignore = False
-                for ig in ignore_rule:
-                    if ig in rule_text:
-                        ignore = True
-                        break
-                if not ignore:
-                    rule_box += "\n" + rule_text.split(": ")[1]
+                if any(ig in rule_text for ig in ignore_rule):
+                    continue
+                text = rule_text.lstrip("·").strip()
+                mega = re.match(r"The Mega-Evolved form of (.+)", text)
+                if mega:
+                    card.set_mega_evolves_from(mega.group(1).strip())
+                    logger.debug(f"mega evolves from: {card.mega_evolves_from}")
+                    continue
+                # Named rules read "<name>: <rule>"; newer lines can omit the name.
+                rule_box += "\n" + (text.split(": ", 1)[1] if ": " in text else text)
             rule_box = rule_box.strip()
             if rule_box:
                 card.set_rule_box(rule_box.strip().replace("{*}", "Prism Star"))
@@ -374,75 +385,113 @@ class CardScraperEN(CardScraper):
         del card
         return card_id
 
-    def scrape_set(self, set_name):
-        set_link = f"https://pkmncards.com/set/{set_name}/"
-        content = self.get_content(set_link)
-        soup = bs4.BeautifulSoup(content, "html.parser")
-        cards = [a["href"] for a in soup.find("main", class_="content").find_all("a")]
+    def stored_card_urls(self):
+        """Every card url already saved under `data_en/`.
 
-        for url in tqdm(cards, desc=f"Downloading {set_name}"):
-            card_id = self.read_card(url)
-
-        self.save_list_to_file([set_name], "logs/scraped_en_set_list.txt")
-        logger.info(f"Scraped {len(cards)} cards from set: {set_name}.")
-
-        return card_id
-
-    def scrape_existed_set(self, set_name):
-        card_id = None
-        # specifically for SVP, needs to change for the next era
-        folder = "data_en/Scarlet & Violet/SVP/"
-        existed_cards = {
-            filename[:-5]
-            for filename in os.listdir(folder)
-            if filename.endswith(".json")
-        }
-
-        set_link = f"https://pkmncards.com/set/{set_name}/"
-        content = self.get_content(set_link)
-        soup = bs4.BeautifulSoup(content, "html.parser")
-        cards = [
-            a["href"]
-            for a in soup.find("main", class_="content").find_all("a")
-            if a["href"].split("svp-")[1].split("/")[0] not in existed_cards
-        ]
-
-        for url in tqdm(cards, desc=f"Downloading {set_name}"):
-            card_id = self.read_card(url)
-
-        self.save_list_to_file([set_name], "logs/scraped_en_set_list.txt")
-        logger.info(f"Scraped {len(cards)} cards from set: {set_name}.")
-
-        return card_id
-
-    def update(self):
+        Matching on the url rather than on a set-specific file-name rule lets
+        one code path skip what is already stored, in every set.
         """
-        Download the newest set.
+        urls = set()
+        for path in paths.data_dir("en").rglob("*.json"):
+            try:
+                urls.add(json.loads(path.read_text(encoding="utf-8")).get("url"))
+            except (ValueError, OSError):
+                logger.warning(f"Could not read {path}")
+        urls.discard(None)
+        return urls
 
+    def set_card_links(self, set_name):
+        """Every card url listed in one set."""
+        soup = self.get_soup(f"https://pkmncards.com/set/{set_name}/")
+        if soup is None:
+            logger.error(f"Could not open set {set_name}")
+            return []
+        main = soup.find("main", class_="content")
+        if main is None:
+            logger.error(f"Set {set_name} has no card list")
+            return []
+        return [a["href"] for a in main.find_all("a") if "/card/" in a.get("href", "")]
+
+    def scrape_set(self, set_name, skip_urls=frozenset()):
+        """Download the cards of one set that are not stored yet.
+
+        Returns the last card id written and how many cards the set listed.
+        A set that lists nothing was unreachable, never empty.
+        """
+        cards = self.set_card_links(set_name)
+        new_cards = [url for url in cards if url not in skip_urls]
+
+        card_id = None
+        for url in tqdm(new_cards, desc=f"Downloading {set_name}", leave=False, disable=None):
+            card_id = self.read_card_safely(url) or card_id
+
+        if cards:
+            self.save_list_to_file([set_name], "scraped_en_set_list.txt")
+
+        # How many of the set's cards were already on disk. Without it, "120
+        # listed, 0 downloaded" reads the same whether all 120 are stored or
+        # none are, which is how a whole set — 30th Celebration — sat missing
+        # without a single line saying so.
+        held = len(cards) - len(new_cards)
+        logger.info(f"Set {set_name}: {len(cards)} cards listed, {held} stored, {len(new_cards)} downloaded.")
+        if cards and held == 0 and card_id is None:
+            logger.error(f"Set {set_name} lists {len(cards)} cards and none of them is stored")
+        return card_id, len(cards)
+
+    def list_sets(self):
+        """Every set the site publishes."""
+        soup = self.get_soup(SETS_URL)
+        if soup is None:
+            logger.error("Could not open the set index")
+            return []
+        content = soup.find("div", class_="entry-content")
+        if content is None:
+            logger.error("Set index has no content block")
+            return []
+        set_list = []
+        for a in content.find_all("a"):
+            link = a.get("href", "")
+            if "/set/" in link and "collection/shiny-vault" not in link:
+                name = link.split("/set/")[1].strip("/")
+                if name and name not in set_list:
+                    set_list.append(name)
+        return set_list
+
+    def update(self, limit=None):
+        """Download every card that is listed but not stored yet.
+
+        Every set is re-checked, because promo sets keep growing after their
+        first release; cards already on disk are skipped by url.
         """
         logger.info("===== Updating started (en) =====")
-        downloaded_sets = self.get_downloaded_set_list(lang="en")
+        set_list = self.list_sets()
+        if not set_list:
+            logger.error("Could not list any set; aborting update.")
+            return
+        logger.info(f"Site lists {len(set_list)} sets.")
 
-        url = "https://pkmncards.com/sets/"
-        content = self.get_content(url)
-        soup = bs4.BeautifulSoup(content, "html.parser")
-        set_list = []
-        for ul in soup.find("div", class_="entry-content").find_all("ul"):
-            for a in ul.find_all("a"):
-                link = a["href"]
-                if "collection/shiny-vault" not in link:
-                    set_list.append(link.split("m/set/")[1].split("/")[0])
+        stored = self.stored_card_urls()
+        logger.info(f"{len(stored)} cards already stored.")
+        if limit:
+            set_list = set_list[:limit]
 
-        scraped = 0
-        # need to update promo sets sometimes
-        for s in set_list:
-            if s not in downloaded_sets:
-                last_id = self.scrape_set(s)
-                self.upadte_readme(last_id, lang="en")
-                downloaded_sets.add(s)
-                scraped += 1
-            elif s == "scarlet-violet-promos":
-                last_id = self.scrape_existed_set(s)
-                self.upadte_readme(last_id, lang="en")
-                scraped += 1
-        logger.info(f"Searched {len(set_list)} sets; downloaded {scraped} sets.")
+        last_id, failed = None, []
+        for set_name in tqdm(set_list, desc="Checking en sets", disable=None):
+            card_id, listed = self.scrape_set(set_name, skip_urls=stored)
+            last_id = card_id or last_id
+            if not listed:
+                failed.append(set_name)
+
+        # A set that would not list is usually a moment of throttling, so it
+        # is worth one more pass before the run gives up on it.
+        if failed:
+            logger.warning(f"Retrying {len(failed)} sets that did not list: {failed}")
+            for set_name in failed:
+                card_id, listed = self.scrape_set(set_name, skip_urls=stored)
+                last_id = card_id or last_id
+                if not listed:
+                    logger.error(f"Set {set_name} is still unreachable")
+
+        if last_id:
+            self.update_readme(last_id, lang="en")
+        logger.info(f"Checked {len(set_list)} sets.")

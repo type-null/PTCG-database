@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw10-69",
+    "name": "Maxax",
+    "img": "https://assets.tcgdex.net/de/bw/bw10/69/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw10",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw10/symbol",
+    "set_full_name": "Plasma-Blaster",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw10",
+    "date": "2013-08-14",
+    "number": "69",
+    "set_total": 105,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 612,
+    "pokemon_category": "",
+    "flavor_text": "Seine zerstörerischen Hauer durchbohren ohne Weiteres dicke Pfeiler aus hartem Stahl.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Drache"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Drachenaxt",
+            "damage": 40,
+            "effect": "Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten {M}-Energien zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Metall"
+            ],
+            "name": "Meisterstreich",
+            "damage": null,
+            "effect": "Wenn das Verteidigende Pokémon ein Team Plasma-Pokémon ist, wird es kampfunfähig. (Wenn das Verteidigende Pokémon kein Team Plasma-Pokémon ist, hat dieser Angriff keine Auswirkungen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Drache"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Sharfax",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw10-69"
+        }
+    ],
+    "print_key": "tcgdex:bw10-69",
+    "card_key": "612|140|2|Kouki Saitou|40,None|1,2",
+    "types_en": [
+        "Dragon"
+    ]
+}

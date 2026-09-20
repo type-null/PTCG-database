@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-12",
+    "name": "Rhinastoc",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "12",
+    "set_total": 130,
+    "rarity": "Rare Holo",
+    "author": [
+        "Nakaoka"
+    ],
+    "pokedex_number": 464,
+    "pokemon_category": "",
+    "flavor_text": "Il bande ses muscles pour projeter des pierres ou des Racaillou depuis le creux de ses paumes.",
+    "stage": "Niveau 2",
+    "hp": 140,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Fissure terrestre",
+            "effect": "Une seule fois lors de votre tour, lorsque vous jouez Rhinastoc de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez défausser les 3 cartes du dessus du deck de votre adversaire."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Roc-Boulet",
+            "damage": 80,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse et la Résistance. Rhinastoc ne pourra pas attaquer lors de votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Rhinoféros",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-12"
+        }
+    ],
+    "print_key": "tcgdex:dp1-12",
+    "card_key": "464|140|4|Nakaoka|80|3",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl4-14",
+    "name": "Bronzong",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl4",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl4/symbol",
+    "set_full_name": "Arceus",
+    "series": "Platin",
+    "set_code": "pl4",
+    "date": "2009-11-04",
+    "number": "14",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 437,
+    "pokemon_category": "",
+    "flavor_text": "Ihm wurden reiche Ernten zugeschrieben, da es durch Portale in andere Welten Regenfälle brachte.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Orakelpfeil",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners, auf dem bereits mindestens 1 Schadensmarke liegt. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Anti-Schwerkraft",
+            "damage": 60,
+            "effect": "Bronzong hat Rückzugskosten 0 bis zum Ende deines nächsten Zuges."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Bronzel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl4-14"
+        }
+    ],
+    "print_key": "tcgdex:pl4-14",
+    "card_key": "437|90|3|Atsuko Nishida|None,60|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

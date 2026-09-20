@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh3.5-26",
+    "name": "Machomei",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh3.5/26/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh3.5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh3.5/symbol",
+    "set_full_name": "Weg des Champs",
+    "series": "Schwert & Schild",
+    "set_code": "swsh3.5",
+    "date": "2020-09-25",
+    "number": "26",
+    "set_total": 80,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "flavor_text": "Es verwendet seine vier Arme, um seine Gegner unermüdlich mit schnellen Schlägen aus allen Winkeln einzudecken.",
+    "stage": "Rang 2",
+    "hp": 170,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Macho-Vergeltung",
+            "damage": "20×",
+            "effect": "Diese Attacke fügt für jedes {F}-Pokémon in deinem Ablagestapel 20 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Dynamitstoß",
+            "damage": 200,
+            "effect": "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Maschock",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh3.5-26"
+        }
+    ],
+    "print_key": "tcgdex:swsh3.5-26",
+    "card_key": "68|170|3|Anesaki Dynamic|20x,200|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

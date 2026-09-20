@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/sv03-146",
+    "name": "Probopass",
+    "img": "https://assets.tcgdex.net/pt/sv/sv03/146/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "regulation": "G",
+    "set_name": "sv03",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03/symbol",
+    "set_full_name": "Obsidiana em Chamas",
+    "series": "Escarlate e Violeta",
+    "set_code": "sv03",
+    "date": "2023-08-11",
+    "number": "146",
+    "set_total": 230,
+    "rarity": "Incomum",
+    "author": [
+        "takuyoa"
+    ],
+    "pokedex_number": 476,
+    "pokemon_category": "",
+    "stage": "Estágio 1",
+    "hp": 150,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Incolor"
+            ],
+            "name": "Nariz Triplo",
+            "damage": "40×",
+            "effect": "Jogue 3 moedas. Este ataque causa 40 pontos de dano para cada cara."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Incolor"
+            ],
+            "name": "Destruidor Férreo",
+            "damage": 160,
+            "effect": "Durante o seu próximo turno, este Pokémon não poderá atacar."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fogo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Planta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 4,
+    "evolve_from": "Nosepass",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/sv03-146"
+        }
+    ],
+    "print_key": "tcgdex:sv03-146",
+    "card_key": "476|150|4|takuyoa|40x,160|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

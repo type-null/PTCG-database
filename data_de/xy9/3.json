@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy9-3",
+    "name": "Meganie",
+    "img": "https://assets.tcgdex.net/de/xy/xy9/3/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy9",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy9/symbol",
+    "set_full_name": "TURBOfieber",
+    "series": "XY",
+    "set_code": "xy9",
+    "date": "2016-02-03",
+    "number": "3",
+    "set_total": 126,
+    "rarity": "Selten",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 154,
+    "pokemon_category": "",
+    "flavor_text": "Meganie kann mit seinem Atem abgestorbene Gräser und Pflanzen reanimieren. Sie sind dann gesund.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Notdünger",
+            "effect": "Wenn dieses Pokémon 50 oder weniger verbliebene KP hat, fügen seine Angriffe dem Aktiven Pokémon deines Gegners 70 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Pflanzenkraft",
+            "damage": 50,
+            "effect": "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Aktiven Pokémon deines Gegners zugefügt hast."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Lorblatt",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy9-3"
+        }
+    ],
+    "print_key": "tcgdex:xy9-3",
+    "card_key": "154|150|3|kawayoo|50|3",
+    "types_en": [
+        "Grass"
+    ]
+}

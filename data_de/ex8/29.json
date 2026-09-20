@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex8-29",
+    "name": "Xatu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "29",
+    "set_total": 108,
+    "rarity": "Selten",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 178,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Mirror Coat",
+            "effect": "If Xatu is Burned or Poisoned by an opponent's attack (even if Xatu is Knocked Out), the Attacking Pokémon is now affected by the same Special Conditions (1 if there is only 1)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Dazzle Dance",
+            "damage": null,
+            "effect": "Each Defending Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psyloop",
+            "damage": "30+",
+            "effect": "Does 30 damage plus 30 more damage for each Trainer card your opponent has in play."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 0,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex8-29"
+        }
+    ],
+    "print_key": "tcgdex:ex8-29",
+    "card_key": "178|70|0|Yuka Morii|None,30+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

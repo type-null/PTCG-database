@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm2-76",
+    "name": "Pampross",
+    "img": "https://assets.tcgdex.net/de/sm/sm2/76/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Stunde der Wächter",
+    "series": "Sonne & Mond",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "76",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 750,
+    "pokemon_category": "",
+    "flavor_text": "Der Schlamm, den es ausspuckt, schützt gegen Wind und Wetter, wenn er hart wird. Deshalb hat man früher auch Hauswände damit verstärkt.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Spezial-Stampfer",
+            "damage": "60+",
+            "effect": "Wenn an dieses Pokémon eine Pokémon-Ausrüstung angelegt ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Pferdestärke",
+            "damage": 180,
+            "effect": "Dieses Pokémon fügt sich selbst 40 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Pampuli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm2-76"
+        }
+    ],
+    "print_key": "tcgdex:sm2-76",
+    "card_key": "750|140|4|Mitsuhiro Arita|60+,180|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

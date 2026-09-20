@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy12-51",
+    "name": "Mewtu",
+    "img": "https://assets.tcgdex.net/de/xy/xy12/51/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Evolution",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "51",
+    "set_total": 113,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "flavor_text": "Der genetische Code dieses Pokémon wurde wiederholt aus Forschungsgründen umstrukturiert. Daher ist es so bösartig.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Psychokinese",
+            "damage": "20+",
+            "effect": "Dieser Angriff fügt 20 weitere Schadenspunkte für jede Energie zu, die an das Aktive Pokémon deines Gegners angelegt ist."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Barriere",
+            "damage": null,
+            "effect": "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon während des nächsten Zuges deines Gegners zugefügt werden. Falls 1 deiner Pokémon Barriere während deines letzten Zuges eingesetzt hat, kann diese Attacke nicht eingesetzt werden."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy12-51"
+        }
+    ],
+    "print_key": "tcgdex:xy12-51",
+    "card_key": "150|130|2|Ken Sugimori|20+,None|2,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-80",
+    "name": "Voltobal",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "80",
+    "set_total": 106,
+    "rarity": "Häufig",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 100,
+    "pokemon_category": "",
+    "flavor_text": "Sieht aus wie ein Pokéball. Es ist gefährlich, da es bei Berührung explodieren kann.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Kreideschrei",
+            "damage": null,
+            "effect": "Wenn bis zum Ende deines nächsten Zuges ein Angriff dem Verteidigenden Pokémon Schaden zufügt (nachdem Schwäche und Resistenz verrechnet wurden), fügt dieser Angriff diesem Pokémon 20 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Doppeldreher",
+            "damage": "10x",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-80"
+        }
+    ],
+    "print_key": "tcgdex:dp7-80",
+    "card_key": "100|60|1|Kent Kanetsuna|None,10x|0,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

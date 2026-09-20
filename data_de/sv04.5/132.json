@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv04.5-132",
+    "name": "Raichu",
+    "img": "https://assets.tcgdex.net/de/sv/sv04.5/132/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv04.5",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04.5/symbol",
+    "set_full_name": "Paldeas Schicksale",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv04.5",
+    "date": "2024-01-26",
+    "number": "132",
+    "set_total": 245,
+    "rarity": "Shiny rare",
+    "author": [
+        "Sanosuke Sakuma"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "flavor_text": "Mithilfe seines Schweifs entlädt es Elektrizität in den Boden, um sich auf diese Weise vor elektrischen Schlägen zu schützen.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Elektrische Erdung",
+            "effect": "Wenn 1 deiner Pokémon durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, kannst du 1 {L}-Energie von jenem Pokémon auf dieses Pokémon verschieben."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Donner",
+            "damage": 180,
+            "effect": "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv04.5-132"
+        }
+    ],
+    "print_key": "tcgdex:sv04.5-132",
+    "card_key": "26|120|1|Sanosuke Sakuma|180|3",
+    "types_en": [
+        "Lightning"
+    ]
+}

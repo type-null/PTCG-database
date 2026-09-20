@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/zh-cn/cards/SV8-079",
+    "name": "青銅鐘",
+    "img": "",
+    "card_type": "Pokemon",
+    "lang": "sc",
+    "regulation": "H",
+    "set_name": "SV8",
+    "set_full_name": "超電突圍",
+    "series": "朱&紫",
+    "set_code": "SV8",
+    "date": "2024-10-25",
+    "number": "079",
+    "set_total": 106,
+    "rarity": "Common",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 437,
+    "pokemon_category": "",
+    "flavor_text": "打開通往其他世界的洞， 從那裡降下雨來。 因此被叫做豐收之神。",
+    "stage": "Stage1",
+    "hp": 130,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Colorless"
+            ],
+            "name": "迴轉攻擊",
+            "damage": 50,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Metal",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "雙重衝擊",
+            "damage": "100×",
+            "effect": "擲2次硬幣，造成正面出現的次數×100點傷害。"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/zh-cn/cards/SV8-079"
+        }
+    ],
+    "print_key": "asia:SV8-79",
+    "card_key": "437|130|3|kawayoo|50,100x|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

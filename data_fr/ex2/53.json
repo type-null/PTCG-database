@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex2-53",
+    "name": "Muciole",
+    "img": "https://assets.tcgdex.net/fr/ex/ex2/53/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex2",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex2/symbol",
+    "set_full_name": "EX Tempête de sable",
+    "series": "EX",
+    "set_code": "ex2",
+    "date": "2003-09-18",
+    "number": "53",
+    "set_total": 100,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 313,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Lueur indicatrice",
+            "effect": "Tant que Lumivole est en jeu, le Coût de retraite de Muciole est de 0."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Vibration toxik",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Si c'est pile, le Pokémon Défenseur est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Abattre",
+            "damage": 20,
+            "effect": "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 40 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex2-53"
+        }
+    ],
+    "print_key": "tcgdex:ex2-53",
+    "card_key": "313|60|1|Kyoko Umemoto|None,20|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

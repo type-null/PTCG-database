@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm1-34",
+    "name": "Cloyster",
+    "img": "https://assets.tcgdex.net/es/sm/sm1/34/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sol y Luna",
+    "series": "Sol y Luna",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "34",
+    "set_total": 163,
+    "rarity": "Rara",
+    "author": [
+        "Yoshinobu Saito"
+    ],
+    "pokedex_number": 91,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 120,
+    "types": [
+        "Agua"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Agua",
+                "Incolora"
+            ],
+            "name": "Headlock",
+            "damage": "30+",
+            "effect": "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más. Si sale cruz, el Pokémon Activo de tu rival pasa a estar Paralizado."
+        },
+        {
+            "cost": [
+                "Agua",
+                "Agua",
+                "Incolora"
+            ],
+            "name": "Presión de Guardia",
+            "damage": 80,
+            "effect": "Durante el próximo turno de tu rival, los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm1-34"
+        }
+    ],
+    "print_key": "tcgdex:sm1-34",
+    "card_key": "91|120|3|Yoshinobu Saito|30+,80|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

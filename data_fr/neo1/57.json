@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-57",
+    "name": "Héricendre",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/57/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "57",
+    "set_total": 111,
+    "rarity": "Commune",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 155,
+    "pokemon_category": "",
+    "flavor_text": "Il est timide et se roule toujours en boule. Quand on l'attaque, il enflamme son dos pour se protéger.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Feu d'artifice",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est pile, défaussez 1 carte Énergie attachée à Héricendre."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Vive-attaque",
+            "damage": "10+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 10 points dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-57"
+        }
+    ],
+    "print_key": "tcgdex:neo1-57",
+    "card_key": "155|50|1|Shin-ichi Yoshida|20,10+|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

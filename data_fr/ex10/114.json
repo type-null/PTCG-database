@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex10-114",
+    "name": "Raikou ☆",
+    "img": "https://assets.tcgdex.net/fr/ex/ex10/114/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Forces Cachées",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "114",
+    "set_total": 117,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 243,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Tour éclair",
+            "damage": 20,
+            "effect": "Échangez Raikou ☆ avec 1 des Pokémon de votre Banc."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Méta voltage",
+            "damage": 70,
+            "effect": "S'il vous reste moins de cartes Récompense que votre adversaire, cette attaque inflige 40 dégâts à chacun de vos Pokémon. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex10-114"
+        }
+    ],
+    "print_key": "tcgdex:ex10-114",
+    "card_key": "243|80|1|Masakazu Fukuda|20,70|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

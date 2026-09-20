@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-20",
+    "name": "Joliflor",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "20",
+    "set_total": 146,
+    "rarity": "Rare",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 182,
+    "pokemon_category": "",
+    "flavor_text": "À la fin de la saison des pluies, il sort danser en plein air, attiré par la chaleur du soleil.",
+    "stage": "Niveau 2",
+    "hp": 100,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Gain parallèle",
+            "damage": 30,
+            "effect": "Retirez à chacun de vos Pokémon 1 marqueur de dégât."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Mélange de pollen",
+            "damage": "40+",
+            "effect": "Inflige 40 dégâts plus 20 dégâts supplémentaires pour chaque Rafflesia et chaque Joliflor que vous avez en jeu. Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Duflor",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-20"
+        }
+    ],
+    "print_key": "tcgdex:dp6-20",
+    "card_key": "182|100|1|Atsuko Nishida|30,40+|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

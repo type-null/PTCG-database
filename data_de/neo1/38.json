@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-38",
+    "name": "Lanturn",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "38",
+    "set_total": 111,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 171,
+    "pokemon_category": "",
+    "flavor_text": "Das Licht, das es ausstrahlt, ist so hell, dass es die Meeresoberfläche aus einer Tiefe von drei Meilen beleuchten kann.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Hydroelektrischer Strom",
+            "effect": "Du kannst mit Flutlicht 10 Schadenspunkte mehr für jede an Lanturn angelegte {W}-Energie, die nicht zum Zahlen der Energiekosten für Flutlicht verwendet wird, zufügen. Diese Fähigkeit kann nicht verwendet werden, falls Lanturn schläft, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Flutlicht",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-38"
+        }
+    ],
+    "print_key": "tcgdex:neo1-38",
+    "card_key": "171|70|2|Ken Sugimori|20|2",
+    "types_en": [
+        "Lightning"
+    ]
+}

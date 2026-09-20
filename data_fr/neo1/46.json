@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-46",
+    "name": "Feurisson",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/46/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "46",
+    "set_total": 111,
+    "rarity": "Peu Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 156,
+    "pokemon_category": "",
+    "flavor_text": "Ce Pokémon est entièrement recouvert de fourrure ininflammable. Il peut résister à n'importe quel type d'attaque par le feu.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Flammèche",
+            "damage": 30,
+            "effect": "Défaussez 1 carte Énergie {R} attachée à Feurisson afin d'utiliser cette attaque."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu"
+            ],
+            "name": "Vent de feu",
+            "damage": 20,
+            "effect": "Si votre adversaire possède un ou plusieurs Pokémon sur son Banc, choisissez l'un d'eux. Lancez 2 pièces. Pour chaque face, cette attaque inflige 10 dégâts à ce Pokémon. (Ne pas appliquer la Faiblesse et la Résistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Héricendre",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-46"
+        }
+    ],
+    "print_key": "tcgdex:neo1-46",
+    "card_key": "156|60|1|Ken Sugimori|30,20|2,2",
+    "types_en": [
+        "Fire"
+    ]
+}

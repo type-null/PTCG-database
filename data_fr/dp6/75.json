@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-75",
+    "name": "Tentacruel",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "75",
+    "set_total": 146,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 73,
+    "pokemon_category": "",
+    "flavor_text": "Ses 80 tentacules ligotent ses proies et les retiennent jusqu'à ce que son poison fasse effet.",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Coup de tentacule",
+            "damage": null,
+            "effect": "Choisissez dans la pile de défausse de votre adversaire jusqu'à 2 cartes Énergie et attachez-les à n'importe lequel des Pokémon de votre adversaire de la façon que vous voulez. Pour chaque carte Énergie attachée de cette façon, cette attaque inflige 20 dégâts au Pokémon correspondant. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Poison dangeureux",
+            "damage": 60,
+            "effect": "Si Tentacruel possède moins d'Énergie que le Pokémon Défenseur, celui-ci est maintenant Paralysé et Empoisonné."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Tentacha",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-75"
+        }
+    ],
+    "print_key": "tcgdex:dp6-75",
+    "card_key": "73|90|1|Kouki Saitou|None,60|0,3",
+    "types_en": [
+        "Water"
+    ]
+}

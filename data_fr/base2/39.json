@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base2-39",
+    "name": "Ossatueur",
+    "img": "https://assets.tcgdex.net/fr/base/base2/39/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Base",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "39",
+    "set_total": 64,
+    "rarity": "Peu Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 105,
+    "pokemon_category": "",
+    "flavor_text": "L'os qu'il tient dans sa main est une arme. Il peut le lancer avec adresse pour assommer sa proie.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Osmerang",
+            "damage": "30x",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "À la rescousse !",
+            "damage": null,
+            "effect": "Cherchez dans votre deck une carte Pokémon  de base et placez-la sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Osselait",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base2-39"
+        }
+    ],
+    "print_key": "tcgdex:base2-39",
+    "card_key": "105|60|1|Mitsuhiro Arita|30x,None|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

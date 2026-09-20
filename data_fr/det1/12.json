@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/det1-12",
+    "name": "Mewtwo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "det1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/det1/symbol",
+    "set_full_name": "Détective Pikachu",
+    "series": "Soleil et Lune",
+    "set_code": "det1",
+    "date": "2019-03-29",
+    "number": "12",
+    "set_total": 18,
+    "rarity": "Ultra Rare",
+    "author": [
+        "MPC Film"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Détournement Psy",
+            "damage": 30,
+            "effect": "Choisissez l’une des attaques du Pokémon Actif de votre adversaire. Ce Pokémon ne peut pas utiliser cette attaque pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Brûlure Brisante",
+            "damage": 130,
+            "effect": "Défaussez 2 Énergies Psychic de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/det1-12"
+        }
+    ],
+    "print_key": "tcgdex:det1-12",
+    "card_key": "150|130|2|MPC Film|30,130|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

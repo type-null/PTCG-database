@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw3-3",
+    "name": "Matrifol",
+    "img": "https://assets.tcgdex.net/de/bw/bw3/3/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw3",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw3/symbol",
+    "set_full_name": "Königliche Siege",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw3",
+    "date": "2011-11-16",
+    "number": "3",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 542,
+    "pokemon_category": "",
+    "flavor_text": "Findet es ein junges Pokémon, kann es nicht anders, als ihm mit seinen Scheren und Klebefäden ein Kleidchen zu nähen.",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Blattschneider",
+            "effect": "Jedes deiner Pokémon, an dem Energie angelegt ist, hat keine Schwäche."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schneidarm",
+            "damage": 40,
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Folikon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw3-3"
+        }
+    ],
+    "print_key": "tcgdex:bw3-3",
+    "card_key": "542|130|2|5ban Graphics|40|3",
+    "types_en": [
+        "Grass"
+    ]
+}

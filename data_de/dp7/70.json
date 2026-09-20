@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-70",
+    "name": "Pikachu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "70",
+    "set_total": 106,
+    "rarity": "Häufig",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "flavor_text": "Es lebt zusammen mit anderen in Wäldern. In seinen Backentaschen speichert es Elektrizität.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Pikahieb",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Tempoblitz",
+            "damage": 40,
+            "effect": "Wenn Pikachu sich in diesem Zug aus Pichu entwickelt hat, verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Pikachu zugefügt würden."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-70"
+        }
+    ],
+    "print_key": "tcgdex:dp7-70",
+    "card_key": "25|70|2|Hajime Kusajima|20,40|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

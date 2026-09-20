@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex14-17",
+    "name": "Téraclope",
+    "img": "https://assets.tcgdex.net/fr/ex/ex14/17/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex14",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex14/symbol",
+    "set_full_name": "EX Gardiens de Cristal",
+    "series": "EX",
+    "set_code": "ex14",
+    "date": "2006-08-30",
+    "number": "17",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 356,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Regard maléfique",
+            "effect": "Tant que Teraclope est votre Pokémon Actif, votre adversaire ne peut pas attacher de cartes Énergie spéciale (cartes Énergie {D} et {M} exceptées) de sa main à son Pokémon Actif."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Feu follet",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Bouclier psychique",
+            "damage": 50,
+            "effect": "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Teraclope par les Pokémon-ex de votre adversaire lors de son prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Skelénox",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex14-17"
+        }
+    ],
+    "print_key": "tcgdex:ex14-17",
+    "card_key": "356|70|1|Kagemaru Himeno|30,50|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

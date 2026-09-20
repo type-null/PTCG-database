@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp6-46",
+    "name": "Anorith",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Erwachte Legenden",
+    "series": "Diamant & Perl",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "46",
+    "set_total": 146,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 347,
+    "pokemon_category": "",
+    "flavor_text": "Ein Vorfahre der PKMN, der aus einem Fossil neu belebt wurde. Es lebte im Meer und jagte mit Klauen.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Abwehrklaue",
+            "damage": 20,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der Anorith durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Kreuzschere",
+            "damage": "30+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Klauenfossil",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp6-46"
+        }
+    ],
+    "print_key": "tcgdex:dp6-46",
+    "card_key": "347|80|1|Kouki Saitou|20,30+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

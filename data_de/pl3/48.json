@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl3-48",
+    "name": "Zapdos",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Ultimative Sieger",
+    "series": "Platin",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "48",
+    "set_total": 153,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Bohrschnabel",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Blitzflügel",
+            "damage": "50+",
+            "effect": "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl3-48"
+        }
+    ],
+    "print_key": "tcgdex:pl3-48",
+    "card_key": "145|100|2|Kagemaru Himeno|30,50+|3,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

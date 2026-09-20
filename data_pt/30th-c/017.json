@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/30th-c-017",
+    "name": "Solgaleo GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "30th-c",
+    "set_full_name": "Coleção Clássica de 30 Anos",
+    "series": "Megaevolução",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "017",
+    "set_total": 30,
+    "author": [
+        "PLANETA"
+    ],
+    "stage": "Básico",
+    "hp": 250,
+    "types": [
+        "Metal"
+    ],
+    "abilities": [
+        {
+            "name": "Ultracaminho",
+            "effect": "Uma vez durante a sua vez de jogar (antes de atacar), você pode trocar o seu Pokémon Ativo por 1 dos seus Pokémon no Banco."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Incolor"
+            ],
+            "name": "Ataque Solaraço",
+            "damage": 230,
+            "effect": "Descarte toda a Energia deste Pokémon."
+        },
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Irradiação Solar {GX}",
+            "damage": null,
+            "effect": "Procure por até 5 cartas de Energia no seu baralho e ligue-as aos seus Pokémon como desejar. Em seguida, embaralhe o seu baralho <em>(você não pode usar mais de 1 ataque <em>GX</em> por partida).</em>"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fogo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/30th-c-017"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-17",
+    "card_key": "791|250|3|PLANETA|230,None|3,1",
+    "types_en": [
+        "Metal"
+    ]
+}

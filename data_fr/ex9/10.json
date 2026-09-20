@@ -1,0 +1,81 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex9-10",
+    "name": "Jungko",
+    "img": "https://assets.tcgdex.net/fr/ex/ex9/10/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex9",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex9/symbol",
+    "set_full_name": "EX Émeraude",
+    "series": "EX",
+    "set_code": "ex9",
+    "date": "2005-05-09",
+    "number": "10",
+    "set_total": 107,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 254,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 100,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Extrait de plante",
+            "effect": "Tant que Jungko est en jeu, vos Pokémon Actifs possédant une Énergie  ne peuvent pas être affectés par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tranch'herbe",
+            "damage": 60,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Météores",
+            "damage": 30,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Massko",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex9-10"
+        }
+    ],
+    "print_key": "tcgdex:ex9-10",
+    "card_key": "254|100|2|Mitsuhiro Arita|60,30|4,4",
+    "types_en": [
+        "Grass"
+    ]
+}

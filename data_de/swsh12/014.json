@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh12-014",
+    "name": "Viridium",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh12/014/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh12",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12/symbol",
+    "set_full_name": "Silberne Sturmwinde",
+    "series": "Schwert & Schild",
+    "set_code": "swsh12",
+    "date": "2022-11-11",
+    "number": "014",
+    "set_total": 215,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 640,
+    "pokemon_category": "",
+    "flavor_text": "Eine Legende berichtet davon, wie Viridium einst mit Kobalium und Terrakium unermüdlich die Pokémon Einalls vor den Menschen beschützte.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Viererpakt",
+            "damage": "20+",
+            "effect": "Wenn sich Kobalium, Terrakium und Keldeo auf deiner Bank befinden, fügt diese Attacke 70 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Blattsauger",
+            "damage": 50,
+            "effect": "Heile 20 Schadenspunkte bei diesem Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh12-014"
+        }
+    ],
+    "print_key": "tcgdex:swsh12-14",
+    "card_key": "640|110|1|Kouki Saitou|20+,50|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

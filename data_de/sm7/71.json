@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm7-71",
+    "name": "Onix",
+    "img": "https://assets.tcgdex.net/de/sm/sm7/71/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm7",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm7/symbol",
+    "set_full_name": "Sturm Am Firmament",
+    "series": "Sonne & Mond",
+    "set_code": "sm7",
+    "date": "2018-08-03",
+    "number": "71",
+    "set_total": 183,
+    "rarity": "Häufig",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 95,
+    "pokemon_category": "",
+    "flavor_text": "Es lebt gewöhnlich unter der Erde. Während es sich mit 80 km/h durchs Erdreich bohrt, sucht es nach Nahrung.",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Kreideschrei",
+            "damage": null,
+            "effect": "Während deines nächsten Zuges werden dem Verteidigenden Pokémon durch Attacken 20 Schadenspunkte mehr zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Raserei",
+            "damage": "10+",
+            "effect": "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der Schadensmarken auf diesem Pokémon zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm7-71"
+        }
+    ],
+    "print_key": "tcgdex:sm7-71",
+    "card_key": "95|100|2|Mitsuhiro Arita|None,10+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

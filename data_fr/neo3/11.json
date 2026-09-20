@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo3-11",
+    "name": "Feuforêve",
+    "img": "https://assets.tcgdex.net/fr/neo/neo3/11/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "11",
+    "set_total": 66,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 200,
+    "pokemon_category": "",
+    "flavor_text": "Il adore jouer des mauvais tours, comme pousser des hurlements sinistres à l'oreille des gens la nuit pour leur faire peur.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Mauvais œil",
+            "damage": null,
+            "effect": "Le Pokémon Défenseur est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Psy"
+            ],
+            "name": "Requiem",
+            "damage": null,
+            "effect": "Si le Pokémon Défenseur est Endormi et s'il a subi l'attaque Mauvais œil durant votre tour précédent, il est mis K.O."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo3-11"
+        }
+    ],
+    "print_key": "tcgdex:neo3-11",
+    "card_key": "200|50|1|Ken Sugimori|None,None|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

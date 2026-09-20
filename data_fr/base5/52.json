@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base5-52",
+    "name": "Taupiqueur",
+    "img": "https://assets.tcgdex.net/fr/base/base5/52/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Base",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "52",
+    "set_total": 83,
+    "rarity": "Commune",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 50,
+    "pokemon_category": "",
+    "flavor_text": "Il suit les Onix dans leurs tunnels, à la recherche des restes de nourriture qu'ils ont laissé derrière eux.",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Terrassement",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts à ce Pokémon. N'appliquez pas la Faiblesse et la Résistance. (Tous les autres effets ayant lieu après application de la Faiblesse et de la Résistance subsistent.)"
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Griffe",
+            "damage": 20,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-30"
+    },
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base5-52"
+        }
+    ],
+    "print_key": "tcgdex:base5-52",
+    "card_key": "50|40|None|Sumiyoshi Kizuki|None,20|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

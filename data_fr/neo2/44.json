@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo2-44",
+    "name": "Têtarte",
+    "img": "https://assets.tcgdex.net/fr/neo/neo2/44/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Discovery",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "44",
+    "set_total": 75,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 61,
+    "pokemon_category": "",
+    "flavor_text": "La spirale sur son ventre ondule subtilement. A force de la regarder, on risque de s'assoupir.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Cognobidon",
+            "damage": null,
+            "effect": "Placez 3 marqueurs de dégâts sur Têtarte. S'il n'est pas K.O., cherchez dans votre deck 2 cartes Énergie de base et attachez-les à Têtarte. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Pistolet à O",
+            "damage": "30+",
+            "effect": "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Têtarte en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Ptitard",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo2-44"
+        }
+    ],
+    "print_key": "tcgdex:neo2-44",
+    "card_key": "61|70|1|Kagemaru Himeno|None,30+|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

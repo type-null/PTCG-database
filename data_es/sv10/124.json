@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sv10-124",
+    "name": "Muk del Team Rocket",
+    "img": "https://assets.tcgdex.net/es/sv/sv10/124/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "I",
+    "set_name": "sv10",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv10/symbol",
+    "set_full_name": "Rivales Predestinados",
+    "series": "Escarlata y Púrpura",
+    "set_code": "sv10",
+    "date": "2025-05-30",
+    "number": "124",
+    "set_total": 244,
+    "rarity": "Uncommon",
+    "author": [
+        "Uta"
+    ],
+    "pokedex_number": 89,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 150,
+    "types": [
+        "Oscura"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Oscura",
+                "Incolora"
+            ],
+            "name": "Pringue",
+            "damage": 40,
+            "effect": "El Pokémon Activo de tu rival pasa a estar Confundido. Durante el próximo turno de tu rival, ese Pokémon no puede retirarse."
+        },
+        {
+            "cost": [
+                "Oscura",
+                "Oscura",
+                "Incolora"
+            ],
+            "name": "Veneno Nocivo",
+            "damage": "100×",
+            "effect": "Este ataque hace 100 puntos de daño por cada Condición Especial que afecte al Pokémon Activo de tu rival."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Grimer del Team Rocket",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sv10-124"
+        }
+    ],
+    "print_key": "tcgdex:sv10-124",
+    "card_key": "89|150|4|Uta|40,100x|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

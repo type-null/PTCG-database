@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/30th-107",
+    "name": "Zamazenta",
+    "img": "https://assets.tcgdex.net/es/me/30th/107/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "30th",
+    "set_full_name": "Celebración 30.º Aniversario",
+    "series": "Megaevolución",
+    "set_code": "30th",
+    "date": "2026-09-16",
+    "number": "107",
+    "set_total": 158,
+    "rarity": "Rara",
+    "author": [
+        "Tsuyoshi Nagano"
+    ],
+    "stage": "Básico",
+    "hp": 130,
+    "types": [
+        "Metálica"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metálica"
+            ],
+            "name": "Apartar",
+            "damage": 20,
+            "effect": "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival."
+        },
+        {
+            "cost": [
+                "Metálica",
+                "Metálica",
+                "Incolora"
+            ],
+            "name": "Presión Escudo",
+            "damage": 100,
+            "effect": "Durante el próximo turno de tu rival, los ataques hacen 50 puntos de daño menos a este Pokémon <em>(después de aplicar Debilidad y Resistencia)</em>."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Planta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/30th-107"
+        }
+    ],
+    "print_key": "tcgdex:30th-107",
+    "card_key": "889|130|2|Tsuyoshi Nagano|20,100|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

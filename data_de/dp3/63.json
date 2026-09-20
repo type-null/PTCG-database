@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp3-63",
+    "name": "Zobiris",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Rätselhafte Wunder",
+    "series": "Diamant & Perl",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "63",
+    "set_total": 132,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 302,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Durchstöbern",
+            "damage": null,
+            "effect": "Schau dir die obersten 5 Karten deines Decks an. Wähle beliebig viele Trainerkarten, die du dort gefunden hast, zeige sie deinem Gegner und nimm sie auf die Hand. Lege die anderen Karten auf dein Deck. Mische dein Deck danach."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Schattenstoß",
+            "damage": "20+",
+            "effect": "Wenn du und dein Gegner eine unterschiedliche Anzahl Preise übrig haben, fügt dieser Angriff 20 Schadenspunkte plus weitere 20 Schadenspunkte zu."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp3-63"
+        }
+    ],
+    "print_key": "tcgdex:dp3-63",
+    "card_key": "302|60|1|Sumiyoshi Kizuki|None,20+|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

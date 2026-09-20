@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/swsh7-88",
+    "name": "Gigalith",
+    "img": "https://assets.tcgdex.net/pt/swsh/swsh7/88/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "regulation": "E",
+    "set_name": "swsh7",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh7/symbol",
+    "set_full_name": "Céus em Evolução",
+    "series": "Espada e Escudo",
+    "set_code": "swsh7",
+    "date": "2021-08-27",
+    "number": "88",
+    "set_total": 237,
+    "rarity": "Rara",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 526,
+    "pokemon_category": "",
+    "stage": "Estágio 2",
+    "hp": 180,
+    "types": [
+        "Lutador"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lutador"
+            ],
+            "name": "Guard Press",
+            "damage": 50,
+            "effect": "During your opponent's next turn, this Pokémon takes 50 less damage from attacks (after applying Weakness and Resistance)."
+        },
+        {
+            "cost": [
+                "Lutador",
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Pressure Shot",
+            "damage": 180,
+            "effect": "This Pokémon also does 10 damage to itself for each damage counter on it."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Boldore",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/swsh7-88"
+        }
+    ],
+    "print_key": "tcgdex:swsh7-88",
+    "card_key": "526|180|4|Masakazu Fukuda|50,180|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

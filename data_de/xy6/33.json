@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy6-33",
+    "name": "Deoxys",
+    "img": "https://assets.tcgdex.net/de/xy/xy6/33/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy6",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy6/symbol",
+    "set_full_name": "Drachenleuchten",
+    "series": "XY",
+    "set_code": "xy6",
+    "date": "2015-05-06",
+    "number": "33",
+    "set_total": 112,
+    "rarity": "Selten",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 386,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Erste Begegnung",
+            "damage": null,
+            "effect": "Wenn du als Erster am Zug bist, kannst du diesen Angriff während deines ersten Zuges einsetzen. Ziehe 2 Karten."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Turbosmash",
+            "damage": 30,
+            "effect": "Während deines nächsten Zuges fügt die Attacke Turbosmash dieses Pokémon 60 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy6-33"
+        }
+    ],
+    "print_key": "tcgdex:xy6-33",
+    "card_key": "386|110|1|kawayoo|None,30|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

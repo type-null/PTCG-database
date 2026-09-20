@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-88",
+    "name": "Chaffreux G",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/88/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "SP"
+    ],
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "88",
+    "set_total": 133,
+    "rarity": "Commune",
+    "author": [
+        "Ryota Saito"
+    ],
+    "pokedex_number": 432,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Grignoter",
+            "damage": 20,
+            "effect": "Si votre adversaire possède plus de 6 cartes en main, défaussez des cartes sans regarder jusqu'à ce qu'il ne reste à votre adversaire que 5 cartes en main."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Sommeil agité",
+            "damage": "50+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires et Chaffreux  est maintenant Endormi."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-88"
+        }
+    ],
+    "print_key": "tcgdex:pl1-88",
+    "card_key": "432|90|3|Ryota Saito|20,50+|1,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

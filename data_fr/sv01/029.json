@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv01-029",
+    "name": "Scovilain",
+    "img": "https://assets.tcgdex.net/fr/sv/sv01/029/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Écarlate et Violet",
+    "series": "Écarlate et Violet",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "029",
+    "set_total": 258,
+    "rarity": "Peu Commune",
+    "author": [
+        "KEIICHIRO ITO"
+    ],
+    "pokedex_number": 952,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Morsure Brûlante",
+            "damage": 20,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Souffle Super Pimenté",
+            "damage": "90+",
+            "effect": "Si au moins une Énergie {R} est attachée à ce Pokémon, cette attaque inflige 90 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Pimito",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv01-029"
+        }
+    ],
+    "print_key": "tcgdex:sv01-29",
+    "card_key": "952|110|1|KEIICHIRO ITO|20,90+|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

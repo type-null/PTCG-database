@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm2-9",
+    "name": "Tectass",
+    "img": "https://assets.tcgdex.net/de/sm/sm2/9/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Stunde der Wächter",
+    "series": "Sonne & Mond",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "9",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 768,
+    "pokemon_category": "",
+    "flavor_text": "Mithilfe seiner riesigen, glitzernden Klauen zerteilt es selbst Luft und Salzwasser mit einem Hieb.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Rüstung",
+            "effect": "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Resolute Klauen",
+            "damage": "80+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners ein Pokémon-GX oder ein Pokémon-EX ist, fügt diese Attacke 70 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Reißlaus",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm2-9"
+        }
+    ],
+    "print_key": "tcgdex:sm2-9",
+    "card_key": "768|130|2|Kouki Saitou|80+|3",
+    "types_en": [
+        "Grass"
+    ]
+}

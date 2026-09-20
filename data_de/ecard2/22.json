@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard2-22",
+    "name": "Magneton",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-Card",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "22",
+    "set_total": 186,
+    "rarity": "Selten",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 82,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Magnetisches Fließen",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff), kannst du, falls Magneton dein Aktives Pokémon ist, eine Münze werfen. Wähle bei „Kopf“ 2 der Pokémon deines Gegners, an die Energiekarten angelegt sind. Wähle jeweils 1 der an diese Pokémon angelegten Energiekarten und tausche sie zwischen diesen Pokémon. Diese Fähigkeit kann nicht verwendet werden, falls Magneton von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Stahlwelle",
+            "damage": 30,
+            "effect": "Dieser Angriff fügt allen Pokémon auf der Bank deines Gegner, die denselben Typ (dieselbe Farbe) wie das Verteidigende Pokémon haben, 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Magnetilo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard2-22"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-22",
+    "card_key": "82|70|2|Hikaru Koike|30|3",
+    "types_en": [
+        "Metal"
+    ]
+}

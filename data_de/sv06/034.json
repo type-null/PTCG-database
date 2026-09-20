@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv06-034",
+    "name": "Flampion",
+    "img": "https://assets.tcgdex.net/de/sv/sv06/034/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "H",
+    "set_name": "sv06",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv06/symbol",
+    "set_full_name": "Maskerade im Zwielicht",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv06",
+    "date": "2024-05-24",
+    "number": "034",
+    "set_total": 226,
+    "rarity": "Häufig",
+    "author": [
+        "osare"
+    ],
+    "pokedex_number": 554,
+    "pokemon_category": "",
+    "flavor_text": "Das Feuer in seinem Inneren ist die Quelle seiner Kraft. Wird die Flamme zu klein, schläft es auf der Stelle ein.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Stärke",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Feuertackle",
+            "damage": 50,
+            "effect": "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv06-034"
+        }
+    ],
+    "print_key": "tcgdex:sv06-34",
+    "card_key": "554|80|2|osare|10,50|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

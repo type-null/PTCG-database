@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/col1-30",
+    "name": "Roucarnage",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "L'appel des Légendes",
+    "series": "L'appel des Légendes",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "30",
+    "set_total": 106,
+    "rarity": "Rare",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "pokedex_number": 18,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Vent contraire",
+            "damage": 20,
+            "effect": "Pendant le prochain tour de votre adversaire, le coût de chaque attaque du Pokémon Défenseur est augmentée de ."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Vive-attaque",
+            "damage": "40+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Roucoups",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/col1-30"
+        }
+    ],
+    "print_key": "tcgdex:col1-30",
+    "card_key": "18|120|0|Suwama Chiaki|20,40+|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

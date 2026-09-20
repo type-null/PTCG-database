@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv09-005",
+    "name": "Parasect",
+    "img": "https://assets.tcgdex.net/fr/sv/sv09/005/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "I",
+    "set_name": "sv09",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv09/symbol",
+    "set_full_name": "Aventures Ensemble",
+    "series": "Écarlate et Violet",
+    "set_code": "sv09",
+    "date": "2025-03-28",
+    "number": "005",
+    "set_total": 190,
+    "rarity": "Commune",
+    "author": [
+        "Tetsu Kayama"
+    ],
+    "pokedex_number": 47,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Spore",
+            "damage": null,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Frappe Cisaille",
+            "damage": "60+",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Paras",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv09-005"
+        }
+    ],
+    "print_key": "tcgdex:sv09-5",
+    "card_key": "47|120|2|Tetsu Kayama|None,60+|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

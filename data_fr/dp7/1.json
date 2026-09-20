@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-1",
+    "name": "Noctunoir",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "1",
+    "set_total": 106,
+    "rarity": "Rare Holo",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 477,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Pouvoir ombre",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez piocher 2 cartes. Si vous avez au moins 7 cartes en main, défaussez des cartes jusqu'à ce que vous n'ayez plus que 6 cartes en main. Ensuite, placez 2 marqueurs de dégât sur Noctunoir. Ce pouvoir ne peut être utilisé que si Noctunoir est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Dégâts équilibrés",
+            "damage": null,
+            "effect": "Comptabilisez le nombre de marqueurs de dégât sur Noctunoir. Placez autant de marqueurs de dégât sur 1 des Pokémon de votre adversaire."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Tour nocturne",
+            "damage": 50,
+            "effect": "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Noctunoir par les Pokémon de votre adversaire possédant un maximum de 2 Énergies lors du prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Téraclope",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-1"
+        }
+    ],
+    "print_key": "tcgdex:dp7-1",
+    "card_key": "477|120|3|Mitsuhiro Arita|None,50|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

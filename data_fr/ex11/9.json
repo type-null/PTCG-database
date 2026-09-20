@@ -1,0 +1,82 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex11-9",
+    "name": "Latios δ",
+    "img": "https://assets.tcgdex.net/fr/ex/ex11/9/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex11",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex11/symbol",
+    "set_full_name": "EX Espèces Delta",
+    "series": "EX",
+    "set_code": "ex11",
+    "date": "2005-10-31",
+    "number": "9",
+    "set_total": 114,
+    "rarity": "Rare",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 381,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Électrique",
+        "Métal"
+    ],
+    "abilities": [
+        {
+            "name": "Aura Delta",
+            "effect": "Si vous avez un Latias ou un Latias ex en jeu, le Coût de l'attaque Force psychique de Latios est maintenant {L}{M}{C}."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Dracogriffe",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Métal",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Force psychique",
+            "damage": 80,
+            "effect": "Si votre adversaire n'a pas de Pokémon Évolué de niveau 2 en jeu, cette attaque est sans effet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Plante",
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex11-9"
+        }
+    ],
+    "print_key": "tcgdex:ex11-9",
+    "card_key": "381|80|2|Ryo Ueda|20,80|2,5",
+    "types_en": [
+        "Lightning",
+        "Metal"
+    ]
+}

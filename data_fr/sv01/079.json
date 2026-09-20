@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv01-079",
+    "name": "Fulgulairo",
+    "img": "https://assets.tcgdex.net/fr/sv/sv01/079/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Écarlate et Violet",
+    "series": "Écarlate et Violet",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "079",
+    "set_total": 258,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 941,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Plongeon Contrôlé",
+            "damage": null,
+            "effect": "Cette attaque inflige 50 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Grondement de Tonnerre",
+            "damage": 140,
+            "effect": "Défaussez une Énergie {L} de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Zapétrel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv01-079"
+        }
+    ],
+    "print_key": "tcgdex:sv01-79",
+    "card_key": "941|120|1|Kouki Saitou|None,140|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

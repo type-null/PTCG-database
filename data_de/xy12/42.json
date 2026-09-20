@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy12-42",
+    "name": "Zapdos",
+    "img": "https://assets.tcgdex.net/de/xy/xy12/42/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Evolution",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "42",
+    "set_total": 113,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "flavor_text": "Ein Legendäres Vogel-Pokémon. Beim Fliegen macht es knackende und schnappende Geräusche.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Donner",
+            "damage": 90,
+            "effect": "Dieses Pokémon fügt sich selbst 30 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Donnerblitz",
+            "damage": 170,
+            "effect": "Lege alle an dieses Pokémon angelegten Energien auf deinen Ablagestapel."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy12-42"
+        }
+    ],
+    "print_key": "tcgdex:xy12-42",
+    "card_key": "145|110|2|Ken Sugimori|90,170|4,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

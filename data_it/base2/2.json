@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base2-2",
+    "name": "Electrode",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Originale",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "2",
+    "set_total": 64,
+    "rarity": "Rara",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 101,
+    "pokemon_category": "",
+    "flavor_text": "Conserva energia elettrica sotto altissima pressione. Spesso esplode senza o con minima provocazione.",
+    "stage": "Livello 1",
+    "hp": 90,
+    "types": [
+        "Lampo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Azione",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Lampo",
+                "Lampo",
+                "Lampo"
+            ],
+            "name": "Saetta",
+            "damage": 20,
+            "effect": "Se il Pokémon Difensore non è di tipo Incolore, questo attacco infligge 10 danni a ogni Pokémon in Panchina dello stesso tipo del Pokémon Difensore (inclusi i tuoi)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Voltorb",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base2-2"
+        }
+    ],
+    "print_key": "tcgdex:base2-2",
+    "card_key": "101|90|1|Mitsuhiro Arita|20,20|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

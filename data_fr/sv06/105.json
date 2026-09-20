@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv06-105",
+    "name": "Bétochef",
+    "img": "https://assets.tcgdex.net/fr/sv/sv06/105/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "H",
+    "set_name": "sv06",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv06/symbol",
+    "set_full_name": "Mascarade Crépusculaire",
+    "series": "Écarlate et Violet",
+    "set_code": "sv06",
+    "date": "2024-05-24",
+    "number": "105",
+    "set_total": 226,
+    "rarity": "Peu Commune",
+    "author": [
+        "Takeshi Nakamura"
+    ],
+    "pokedex_number": 534,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 180,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Mauvaise Humeur",
+            "damage": 80,
+            "effect": "Ce Pokémon est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coup Courageux",
+            "damage": 250,
+            "effect": "Si ce Pokémon est affecté par un État Spécial, ignorez toutes les Énergies dans le coût de cette attaque."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Ouvrifier",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv06-105"
+        }
+    ],
+    "print_key": "tcgdex:sv06-105",
+    "card_key": "534|180|3|Takeshi Nakamura|80,250|1,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

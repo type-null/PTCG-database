@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-15",
+    "name": "Piondragi",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "15",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 452,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Skorpionkralle",
+            "damage": 10,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ kann sich das Verteidigende Pokémon im nächsten Zug deines Gegners nicht zurückziehen."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Giftstreich",
+            "damage": "20x",
+            "effect": "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu. Bei mindestens 2 Mal „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Entgleisen",
+            "damage": 60,
+            "effect": "Lege alle Spezialenergiekarten, die am Verteidigenden Pokémon angelegt sind, auf den Ablagestapel deines Gegners."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "retreat": 3,
+    "evolve_from": "Pionskora",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-15"
+        }
+    ],
+    "print_key": "tcgdex:dp7-15",
+    "card_key": "452|110|3|Kent Kanetsuna|10,20x,60|0,2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

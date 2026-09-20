@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm11-32",
+    "name": "Flambusard",
+    "img": "https://assets.tcgdex.net/fr/sm/sm11/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Harmonie des Esprits",
+    "series": "Soleil et Lune",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "32",
+    "set_total": 258,
+    "rarity": "Rare",
+    "author": [
+        "SATOSHI NAKAI"
+    ],
+    "pokedex_number": 663,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 130,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Canicule",
+            "damage": 40,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Raid Flamboyant",
+            "damage": 100,
+            "effect": "Défaussez une Énergie de ce Pokémon. Cette attaque inflige 50 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Braisillon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm11-32"
+        }
+    ],
+    "print_key": "tcgdex:sm11-32",
+    "card_key": "663|130|0|SATOSHI NAKAI|40,100|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

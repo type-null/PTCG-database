@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm4-77",
+    "name": "Grandiras",
+    "img": "https://assets.tcgdex.net/de/sm/sm4/77/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Aufziehen der Sturmröte",
+    "series": "Sonne & Mond",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "77",
+    "set_total": 125,
+    "rarity": "Selten",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 784,
+    "pokemon_category": "",
+    "flavor_text": "Wenn es einen Gegner sieht, rasselt es drohend mit seinen Schwanzschuppen. Schwache Gegner verlieren dadurch die Fassung und fliehen.",
+    "stage": "Rang 2",
+    "hp": 160,
+    "types": [
+        "Drache"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schlachtruf",
+            "damage": "30+",
+            "effect": "Wenn du weniger Pokémon im Spiel hast als dein Gegner, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Schuppenrasseln",
+            "damage": 130,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte mehr zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fee"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Mediras",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm4-77"
+        }
+    ],
+    "print_key": "tcgdex:sm4-77",
+    "card_key": "784|160|2|kawayoo|30+,130|2,3",
+    "types_en": [
+        "Dragon"
+    ]
+}

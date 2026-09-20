@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo4-34",
+    "name": "Lainergie obscur",
+    "img": "https://assets.tcgdex.net/fr/neo/neo4/34/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "34",
+    "set_total": 113,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 180,
+    "pokemon_category": "",
+    "flavor_text": "À cause des énormes quantités d'électricité qu'il stocke, sa laine ne pousse plus à certains endroits de son corps.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Haut voltage",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Dresseur pendant son prochain tour."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Para-vague",
+            "damage": 30,
+            "effect": "Si le Pokémon Défenseur a un Pouvoir Pokémon, ce pouvoir cesse de fonctionner jusqu'à la fin de votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Wattouat",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo4-34"
+        }
+    ],
+    "print_key": "tcgdex:neo4-34",
+    "card_key": "180|60|1|Kagemaru Himeno|10,30|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

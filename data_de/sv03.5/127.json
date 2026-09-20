@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv03.5-127",
+    "name": "Pinsir",
+    "img": "https://assets.tcgdex.net/de/sv/sv03.5/127/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv03.5",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03.5/symbol",
+    "set_full_name": "151",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv03.5",
+    "date": "2023-09-22",
+    "number": "127",
+    "set_total": 207,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Yuya Oka"
+    ],
+    "pokedex_number": 127,
+    "pokemon_category": "",
+    "flavor_text": "Pinsir nimmt Beute mit seinen Hörnern in die Zange, um sie anschließend entzweizureißen oder mit Wucht fortzuschleudern.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Klammer",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Waghalsiger Wurf",
+            "damage": "90+",
+            "effect": "Wenn du mehr verbleibende Preiskarten hast als dein Gegner, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv03.5-127"
+        }
+    ],
+    "print_key": "tcgdex:sv03.5-127",
+    "card_key": "127|120|2|Yuya Oka|30,90+|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

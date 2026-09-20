@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-80",
+    "name": "Natu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "80",
+    "set_total": 182,
+    "rarity": "Häufig",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 177,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Blick in die Zukunft",
+            "damage": null,
+            "effect": "Schaue dir die drei obersten Karten entweder von deinem Deck oder dem Deck deines Gegners an und lege sie in einer beliebigen Reihnvolge wieder zurück."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Entfernungsstrahl",
+            "damage": 10,
+            "effect": "Wirf eine Münze, falls an das verteidigende Pokémon mindestens eine Energiekarte angelegt ist. Wähle bei \"Kopf\" 1 dieser Energiekarten und lege sie auf den Ablagestapel deines Gegners."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-80"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-80",
+    "card_key": "177|50|1|Miki Tanaka|None,10|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

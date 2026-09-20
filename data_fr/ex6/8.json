@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex6-8",
+    "name": "Nidoking",
+    "img": "https://assets.tcgdex.net/fr/ex/ex6/8/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex6",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex6/symbol",
+    "set_full_name": "EX Rouge Feu & Vert Feuille",
+    "series": "EX",
+    "set_code": "ex6",
+    "date": "2004-09-01",
+    "number": "8",
+    "set_total": 116,
+    "rarity": "Rare",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 34,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Puissance génétique",
+            "effect": "Tant que Nidoking est en jeu, les attaques effectuées par Nidoran ♀, Nidorina, Nidoqueen, Nidoran ♂ et Nidorino infligent 10 dégâts supplémentaires au Pokémon Défenseur."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Poison de terre",
+            "damage": 40,
+            "effect": "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, il est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Saut destructeur",
+            "damage": null,
+            "effect": "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 60 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Nidoking ne pourra pas utiliser Saut destructeur lors de votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Nidorino",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex6-8"
+        }
+    ],
+    "print_key": "tcgdex:ex6-8",
+    "card_key": "34|120|3|Hisao Nakamura|40,None|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard2-18",
+    "name": "Rossana",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-Card",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "18",
+    "set_total": 186,
+    "rarity": "Selten",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 124,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Meditation",
+            "damage": "10+",
+            "effect": "Dieser Angriff fügt 10 Schadenspunkte plus zusätzlich 10 Schadenspunkte für jede Schadensmarke auf dem Verteidigenden Pokémon zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Konfustrahl",
+            "damage": 20,
+            "effect": "Wirf eine Münze, bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard2-18"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-18",
+    "card_key": "124|60|2|Hisao Nakamura|10+,20|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy5-112",
+    "name": "Linéon",
+    "img": "https://assets.tcgdex.net/fr/xy/xy5/112/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Primo-Choc",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "112",
+    "set_total": 164,
+    "rarity": "Peu Commune",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 264,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Combo-Griffe",
+            "damage": "30×",
+            "effect": "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Attaque Brusque",
+            "damage": null,
+            "effect": "Cette attaque inflige 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Zigzaton",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy5-112"
+        }
+    ],
+    "print_key": "tcgdex:xy5-112",
+    "card_key": "264|90|1|match|30x,None|2,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

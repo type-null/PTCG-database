@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw7-60",
+    "name": "Groink",
+    "img": "https://assets.tcgdex.net/de/bw/bw7/60/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw7",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw7/symbol",
+    "set_full_name": "Überschrittene Schwellen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw7",
+    "date": "2012-11-07",
+    "number": "60",
+    "set_total": 153,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 326,
+    "pokemon_category": "",
+    "flavor_text": "Mit schwarzen Perlen verstärkt es seine Psycho-Kräfte. Mit einem Tanz kontrolliert es seine Gegner.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psystrahl",
+            "damage": 30,
+            "effect": "Das Verteidigende Pokémon ist jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Sondersensor",
+            "damage": 60,
+            "effect": "Wenn du die gleiche Anzahl Karten auf der Hand hast wie dein Gegner, fügt dieser Angriff 60 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Spoink",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw7-60"
+        }
+    ],
+    "print_key": "tcgdex:bw7-60",
+    "card_key": "326|110|2|Kouki Saitou|30,60|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

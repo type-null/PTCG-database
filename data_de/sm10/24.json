@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-24",
+    "name": "Flampivian",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/24/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "24",
+    "set_total": 234,
+    "rarity": "Selten",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 555,
+    "pokemon_category": "",
+    "flavor_text": "Nimmt es in einem heißen Kampf Schaden, wird es hart wie Stein und fällt in eine Trance, um seinen Verstand zu schärfen.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Lauffeuer finden",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu 3 {R}-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Flammenblitz",
+            "damage": 110,
+            "effect": "Lege alle {R}-Energien von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Flampion",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-24"
+        }
+    ],
+    "print_key": "tcgdex:sm10-24",
+    "card_key": "555|130|3|Midori Harada|None,110|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

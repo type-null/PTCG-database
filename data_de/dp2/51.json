@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp2-51",
+    "name": "Georok",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Geheimnisvolle Schätze",
+    "series": "Diamant & Perl",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "51",
+    "set_total": 124,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 75,
+    "pokemon_category": "",
+    "flavor_text": "GEOROK leben an steilen Felsvorsprüngen. Sie graben dazu viele Löcher aus.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Felskanone",
+            "damage": "30x",
+            "effect": "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Steinhagel",
+            "damage": 40,
+            "effect": "Dieser Angriff fügt 2 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Kleinstein",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp2-51"
+        }
+    ],
+    "print_key": "tcgdex:dp2-51",
+    "card_key": "75|90|3|Mitsuhiro Arita|30x,40|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

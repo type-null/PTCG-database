@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-67",
+    "name": "Tuska",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "67",
+    "set_total": 133,
+    "rarity": "Häufig",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 331,
+    "pokemon_category": "",
+    "flavor_text": "Dieser Wüstenbewohner speichert Wasser in seinem Körper. So kann er 30 Tage ohne Wasser überleben.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Hinterhältiger Angriff",
+            "damage": "10+",
+            "effect": "Wenn an Tuska mindestens 1 {D}-Energie angelegt ist, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Stachelschuss",
+            "damage": null,
+            "effect": "Wirf 2 Münzen. Wähle für jedes Mal, wenn die Münze „Kopf“ gezeigt hat, 1 gegnerisches Pokémon und dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) (Du kannst das gleiche Pokémon mehrmals wählen, aber dem gewählten Pokémon können auf diese Weise nicht mehr als 10 Schadenspunkte zugefügt werden.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-67"
+        }
+    ],
+    "print_key": "tcgdex:pl1-67",
+    "card_key": "331|50|1|Sumiyoshi Kizuki|10+,None|1,1",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw9-73",
+    "name": "Caesurio",
+    "img": "https://assets.tcgdex.net/de/bw/bw9/73/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw9",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw9/symbol",
+    "set_full_name": "Plasma-Frost",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw9",
+    "date": "2013-05-08",
+    "number": "73",
+    "set_total": 122,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 625,
+    "pokemon_category": "",
+    "flavor_text": "Ein kaltblütiges Pokémon, das Gegner zunächst mit einer Schar von Gladiantri lähmt und dann zweiteilt.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Schlitzer",
+            "damage": 40,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Drachentöter",
+            "damage": 80,
+            "effect": "Wenn das Verteidigende Pokémon ein {N}-Pokémon ist, fügt dieser Angriff 40 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Gladiantri",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw9-73"
+        }
+    ],
+    "print_key": "tcgdex:bw9-73",
+    "card_key": "625|100|1|5ban Graphics|40,80|1,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

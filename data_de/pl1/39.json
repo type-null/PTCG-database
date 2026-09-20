@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-39",
+    "name": "Chelterrar",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "39",
+    "set_total": 133,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 389,
+    "pokemon_category": "",
+    "flavor_text": "Manche PKMN werden auf dem Rücken eines CHELTERRAR geboren und verbringen ihr ganzes Leben dort.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Naturstoß",
+            "damage": "40+",
+            "effect": "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede {G}-Energie, die an allen deinen Pokémon angelegt ist, zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Beruhigender Duft",
+            "damage": 80,
+            "effect": "Das Verteidigende Pokémon schläft jetzt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+30"
+    },
+    "retreat": 4,
+    "evolve_from": "Chelcarain",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-39"
+        }
+    ],
+    "print_key": "tcgdex:pl1-39",
+    "card_key": "389|140|4|Kagemaru Himeno|40+,80|3,4",
+    "types_en": [
+        "Grass"
+    ]
+}

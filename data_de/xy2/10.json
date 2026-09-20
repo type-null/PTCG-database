@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy2-10",
+    "name": "Maracamba",
+    "img": "https://assets.tcgdex.net/de/xy/xy2/10/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy2",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy2/symbol",
+    "set_full_name": "Flammenmeer",
+    "series": "XY",
+    "set_code": "xy2",
+    "date": "2014-05-07",
+    "number": "10",
+    "set_total": 110,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 556,
+    "pokemon_category": "",
+    "flavor_text": "Verjagt Vogel-Pokémon, die auf seine Blüten aus sind, mit einem flotten Tänzchen und lauter Untermalung.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Erquickendes Schütteln",
+            "damage": null,
+            "effect": "Wirf während deines nächsten Zuges 6 Münzen anstelle von 2 Münzen, wenn du die Attacke Stechende Dornen dieses Pokémon einsetzt."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Stechende Dornen",
+            "damage": "20×",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy2-10"
+        }
+    ],
+    "print_key": "tcgdex:xy2-10",
+    "card_key": "556|90|1|match|None,20x|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base2-40",
+    "name": "Nidorina",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Dschungel",
+    "series": "Grund",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "40",
+    "set_total": 64,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 30,
+    "pokemon_category": "",
+    "flavor_text": "Das Horn des Weibchens entwickelt sich nur langsam. Es zieht körperliche Angriffe wie z.B. Kratzen und Beißen vor.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Superschall",
+            "damage": null,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Doppelkick",
+            "damage": "30x",
+            "effect": "Wirf zwei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“zeigt, 30 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Nidoran♀",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base2-40"
+        }
+    ],
+    "print_key": "tcgdex:base2-40",
+    "card_key": "30|70|1|Ken Sugimori|None,30x|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

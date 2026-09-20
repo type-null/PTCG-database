@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw1-114",
+    "name": "Zekrom",
+    "img": "https://assets.tcgdex.net/de/bw/bw1/114/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw1",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw1/symbol",
+    "set_full_name": "Schwarz & Weiß",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw1",
+    "date": "2011-04-25",
+    "number": "114",
+    "set_total": 115,
+    "rarity": "Ultra Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 644,
+    "pokemon_category": "",
+    "flavor_text": "Ein Pokémon, von dem schon in Sagen die Rede ist. Sein Schweif enthält ein gewaltiges Organ zur Stromerzeugung.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wutanfall",
+            "damage": 20,
+            "effect": "Dieser Angriff fügt 10 weitere Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Blitzschlag",
+            "damage": 120,
+            "effect": "Dieses Pokémon fügt sich selbst 40 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw1-114"
+        }
+    ],
+    "print_key": "tcgdex:bw1-114",
+    "card_key": "644|130|2|5ban Graphics|20,120|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

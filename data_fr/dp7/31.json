@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-31",
+    "name": "Apireine",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "31",
+    "set_total": 106,
+    "rarity": "Rare",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 416,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Dignité verte",
+            "effect": "Tant qu'il vous reste plus de cartes Récompense que votre adversaire, les attaques d'Apireine inflige 10 dégâts supplémentaires au Pokémon Actif pour chaque Pokémon Grass sur votre Banc (avant application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Abeille épuisante",
+            "damage": 20,
+            "effect": "Après votre attaque, retirez à Apireine autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Poudre-abeille",
+            "damage": 50,
+            "effect": "Lancez 2 pièces. Si ce sont deux faces, le Pokémon Défenseur est maintenant Brûlé, Paralysé et Empoisonné."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Apitrini",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-31"
+        }
+    ],
+    "print_key": "tcgdex:dp7-31",
+    "card_key": "416|100|1|Kent Kanetsuna|20,50|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

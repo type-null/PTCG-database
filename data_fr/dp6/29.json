@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-29",
+    "name": "Groudon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "29",
+    "set_total": 146,
+    "rarity": "Rare",
+    "author": [
+        "Kazuaki Aihara"
+    ],
+    "pokedex_number": 383,
+    "pokemon_category": "",
+    "flavor_text": "Il dormait dans le magma souterrain depuis sa lutte féroce contre Kyogre, il a longtemps de cela.",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Sécheresse",
+            "damage": null,
+            "effect": "Choisissez jusqu'à 2 cartes Énergie de base Fighting de votre main et attachez-les à 1 de vos Pokémon."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Gros tremblement de terre",
+            "damage": 100,
+            "effect": "Défaussez 2 Énergies Fighting attachées à Groudon et cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-29"
+        }
+    ],
+    "print_key": "tcgdex:dp6-29",
+    "card_key": "383|100|3|Kazuaki Aihara|None,100|0,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

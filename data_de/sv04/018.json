@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv04-018",
+    "name": "Chongjian",
+    "img": "https://assets.tcgdex.net/de/sv/sv04/018/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv04",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04/symbol",
+    "set_full_name": "Paradoxrift",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv04",
+    "date": "2023-11-03",
+    "number": "018",
+    "set_total": 266,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 1001,
+    "pokemon_category": "",
+    "flavor_text": "Es entzieht der Vegetation Energie, sodass umliegende Wälder auf der Stelle verdorren und Felder unfruchtbar werden.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Laubbringer",
+            "damage": null,
+            "effect": "Lege bis zu 2 Basis-{G}-Energiekarten aus deinem Ablagestapel an 1 deiner Pokémon an."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Fesselnde Gier",
+            "damage": 140,
+            "effect": "Während des nächsten Zuges deines Gegners erhöhen sich die Kosten der vom Verteidigenden Pokémon eingesetzten Attacken um {C}{C}."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv04-018"
+        }
+    ],
+    "print_key": "tcgdex:sv04-18",
+    "card_key": "1001|130|3|Kouki Saitou|None,140|1,4",
+    "types_en": [
+        "Grass"
+    ]
+}

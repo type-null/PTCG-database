@@ -1,0 +1,61 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/svp-129",
+    "name": "Pêchaminus",
+    "img": "https://assets.tcgdex.net/fr/sv/svp/129/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "H",
+    "set_name": "svp",
+    "set_full_name": "SVP Black Star Promos",
+    "series": "Écarlate et Violet",
+    "set_code": "svp",
+    "date": "2023-03-31",
+    "number": "129",
+    "set_total": 225,
+    "rarity": "Promo",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 1025,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Obscurité"
+    ],
+    "abilities": [
+        {
+            "name": "Emprise Toxique",
+            "effect": "Tant que ce Pokémon est sur le Poste Actif, placez 5 marqueurs de dégâts supplémentaires sur les Pokémon Empoisonnés de votre adversaire pendant le Contrôle Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Chaîne Poison",
+            "damage": 10,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/svp-129"
+        }
+    ],
+    "print_key": "tcgdex:svp-129",
+    "card_key": "1025|80|1|nagimiso|10|2",
+    "types_en": [
+        "Darkness"
+    ]
+}

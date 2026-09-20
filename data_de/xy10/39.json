@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy10-39",
+    "name": "Kabutops",
+    "img": "https://assets.tcgdex.net/de/xy/xy10/39/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy10",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy10/symbol",
+    "set_full_name": "Schicksalsschmiede",
+    "series": "XY",
+    "set_code": "xy10",
+    "date": "2016-05-02",
+    "number": "39",
+    "set_total": 129,
+    "rarity": "Selten",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 141,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon ist ein sehr guter Schwimmer. Es attackiert Gegner mit seinen Sichelarmen.",
+    "stage": "Rang 1",
+    "hp": 150,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Klammern",
+            "damage": 50,
+            "effect": "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Aktiven Pokémon deines Gegners zugefügt hast."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Kreuzschere",
+            "damage": "80+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 60 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Kabuto",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy10-39"
+        }
+    ],
+    "print_key": "tcgdex:xy10-39",
+    "card_key": "141|150|2|Kyoko Umemoto|50,80+|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

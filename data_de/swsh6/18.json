@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh6-18",
+    "name": "Gortrom",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh6/18/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh6",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh6/symbol",
+    "set_full_name": "Schaurige Herrschaft",
+    "series": "Schwert & Schild",
+    "set_code": "swsh6",
+    "date": "2021-06-18",
+    "number": "18",
+    "set_total": 233,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "pokedex_number": 812,
+    "pokemon_category": "",
+    "flavor_text": "Wer die beste Trommeltechnik hat, wird zum Anführer. Da es ein ruhiges Gemüt hat, legt es viel Wert auf Harmonie in der Gruppe.",
+    "stage": "Rang 2",
+    "hp": 180,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Holzsauger",
+            "damage": 60,
+            "effect": "Heile 30 Schadenspunkte bei diesem Pokémon."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Tobender Wiederholungsschlag",
+            "damage": "120+",
+            "effect": "Lege beliebig viele Energien von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 30 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Chimstix",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh6-18"
+        }
+    ],
+    "print_key": "tcgdex:swsh6-18",
+    "card_key": "812|180|3|Hitoshi Ariga|60,120+|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

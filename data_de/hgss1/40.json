@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss1-40",
+    "name": "Donphan",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss1/40/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss1",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss1/symbol",
+    "set_full_name": "HeartGold SoulSilver",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss1",
+    "date": "2010-02-10",
+    "number": "40",
+    "set_total": 124,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 232,
+    "pokemon_category": "",
+    "flavor_text": "Aufgrund seiner scharfen Stoßzähne und seiner rauen Haut könnte es mit Tackle ein Haus niederreißen.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Steinschleuderer",
+            "damage": 50,
+            "effect": "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Doppeldreher",
+            "damage": "70×",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 70 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Phanpy",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss1-40"
+        }
+    ],
+    "print_key": "tcgdex:hgss1-40",
+    "card_key": "232|100|3|Midori Harada|50,70x|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

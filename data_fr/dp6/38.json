@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-38",
+    "name": "Regirock",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "38",
+    "set_total": 146,
+    "rarity": "Rare",
+    "author": [
+        "Kazuaki Aihara"
+    ],
+    "pokedex_number": 377,
+    "pokemon_category": "",
+    "flavor_text": "Tout son corps est fait de roche. S'il s'ébrèche au combat, il utilise des pierres pour le réparer.",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Regi-cycle",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), si vous possédez une carte Énergie Fighting dans votre pile de défausse, vous pouvez défausser 2 cartes de votre main. Ensuite, attachez une carte Énergie Fighting de votre pile de défausse sur Regirock. Ce pouvoir ne peut pas être utilisé si Regirock est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Lame de Roc",
+            "damage": "40+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-38"
+        }
+    ],
+    "print_key": "tcgdex:dp6-38",
+    "card_key": "377|90|3|Kazuaki Aihara|40+|3",
+    "types_en": [
+        "Fighting"
+    ]
+}

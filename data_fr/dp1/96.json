@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-96",
+    "name": "Rosélia",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "96",
+    "set_total": 130,
+    "rarity": "Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 315,
+    "pokemon_category": "",
+    "flavor_text": "Les Roselia élevés avec une eau claire et potable font de ravissantes fleurs bariolées.",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Pics Toxik",
+            "damage": null,
+            "effect": "Le Pokémon Défenseur est maintenant Empoisonné. Si Roselia évolue de Rozbouton, cette attaque inflige 10 dégâts au Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante"
+            ],
+            "name": "Douce pointe",
+            "damage": 10,
+            "effect": "Le Pokémon Défenseur est maintenant Endormi. Retirez à 1 de vos Pokémon 2 marqueurs de dégât."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+10"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-96"
+        }
+    ],
+    "print_key": "tcgdex:dp1-96",
+    "card_key": "315|70|1|Ken Sugimori|None,10|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/g1-13",
+    "name": "Vulnona-EX",
+    "img": "https://assets.tcgdex.net/de/xy/g1/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Generationen",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "13",
+    "set_total": 117,
+    "rarity": "Ultra Selten",
+    "author": [
+        "Eske Yoshinob"
+    ],
+    "pokedex_number": 38,
+    "pokemon_category": "",
+    "hp": 170,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Flammenbonus",
+            "damage": null,
+            "effect": "Lege 1 {R}-Energie aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 3 Karten."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Feuersturm",
+            "damage": 130,
+            "effect": "Wirf 1 Münze. Lege bei „Zahl“ 1 an dieses Pokémon angelegte {R}-Energie auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/g1-13"
+        }
+    ],
+    "print_key": "tcgdex:g1-13",
+    "card_key": "38|170|1|Eske Yoshinob|None,130|1,4",
+    "types_en": [
+        "Fire"
+    ]
+}

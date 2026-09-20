@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/swsh6-51",
+    "name": "Zebstrika",
+    "img": "https://assets.tcgdex.net/it/swsh/swsh6/51/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "E",
+    "set_name": "swsh6",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh6/symbol",
+    "set_full_name": "Regno Glaciale",
+    "series": "Spada e Scudo",
+    "set_code": "swsh6",
+    "date": "2021-06-18",
+    "number": "51",
+    "set_total": 233,
+    "rarity": "Rara",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 523,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 120,
+    "types": [
+        "Lampo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Lampo Coordinato",
+            "damage": "30+",
+            "effect": "Se uno dei tuoi altri Pokémon Colpo Rapido ha usato un attacco durante il tuo ultimo turno, questo attacco infligge 90 danni in più."
+        },
+        {
+            "cost": [
+                "Lampo",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Sfrecciascintilla",
+            "damage": "90×",
+            "effect": "Lancia una moneta finché non esce croce. Questo attacco infligge 90 danni ogni volta che esce testa."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Blitzle",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/swsh6-51"
+        }
+    ],
+    "print_key": "tcgdex:swsh6-51",
+    "card_key": "523|120|1|Hasuno|30+,90x|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

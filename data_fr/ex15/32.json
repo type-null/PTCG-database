@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex15-32",
+    "name": "Kirlia",
+    "img": "https://assets.tcgdex.net/fr/ex/ex15/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex15",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex15/symbol",
+    "set_full_name": "EX Île des Dragons",
+    "series": "EX",
+    "set_code": "ex15",
+    "date": "2006-11-08",
+    "number": "32",
+    "set_total": 101,
+    "rarity": "Peu Commune",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 281,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Choc psy",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Explosion en série",
+            "damage": 60,
+            "effect": "Si Kirlia et le Pokémon Défenseur possèdent un nombre d'Énergies différent, les dégâts de base de cette attaque sont de 30 au lieu de 60."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Tarsal",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex15-32"
+        }
+    ],
+    "print_key": "tcgdex:ex15-32",
+    "card_key": "281|70|1|Hajime Kusajima|20,60|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

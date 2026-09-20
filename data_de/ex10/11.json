@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex10-11",
+    "name": "Quappo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Verborgene Mächte",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "11",
+    "set_total": 117,
+    "rarity": "Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 62,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Spiral Swirl",
+            "effect": "If Poliwrath is your Active Pokémon and is Knocked Out by damage from an opponent's attack, the Attacking Pokémon is now Confused."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Beatdown",
+            "damage": "40+",
+            "effect": "If the Defending Pokémon is a  Pokémon or has Dark in its name, this attack does 40 damage plus 30 more damage."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Hyper Splash",
+            "damage": "60+",
+            "effect": "If the Defending Pokémon is a Stage 2 Evolved Pokémon, this attack does 60 damage plus 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex10-11"
+        }
+    ],
+    "print_key": "tcgdex:ex10-11",
+    "card_key": "62|120|2|Hajime Kusajima|40+,60+|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

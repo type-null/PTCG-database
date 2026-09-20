@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy1-96",
+    "name": "Xerneas",
+    "img": "https://assets.tcgdex.net/de/xy/xy1/96/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy1/symbol",
+    "set_full_name": "XY",
+    "series": "XY",
+    "set_code": "xy1",
+    "date": "2014-02-05",
+    "number": "96",
+    "set_total": 146,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 716,
+    "pokemon_category": "",
+    "flavor_text": "Legenden nach kann dieses Pokémon ewiges Leben spenden. In Gestalt eines Baumes ist es aus seinem tausendjährigen Schlaf erwacht.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Fee"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fee"
+            ],
+            "name": "Geokontrolle",
+            "damage": null,
+            "effect": "Wähle 2 Pokémon auf deiner Bank aus. Durchsuche dein Deck nach jeweils 1 {FAIRY}-Energiekarte für jedes dieser Pokémon und lege sie an das jeweilige Pokémon an. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Fee",
+                "Fee",
+                "Farblos"
+            ],
+            "name": "Regenbogenlanze",
+            "damage": 100,
+            "effect": "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy1-96"
+        }
+    ],
+    "print_key": "tcgdex:xy1-96",
+    "card_key": "716|130|2|5ban Graphics|None,100|1,3",
+    "types_en": [
+        "Fairy"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw4-50",
+    "name": "Zekrom",
+    "img": "https://assets.tcgdex.net/de/bw/bw4/50/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw4",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw4/symbol",
+    "set_full_name": "Kommende Schicksale",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw4",
+    "date": "2012-02-08",
+    "number": "50",
+    "set_total": 103,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 644,
+    "pokemon_category": "",
+    "flavor_text": "Ein Pokémon, von dem schon in Sagen die Rede ist. Sein Schweif enthält ein gewaltiges Organ zur Stromerzeugung.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wutanfall",
+            "damage": 20,
+            "effect": "Dieser Angriff fügt 10 weitere Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Blitzschlag",
+            "damage": 120,
+            "effect": "Dieses Pokémon fügt sich selbst 40 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw4-50"
+        }
+    ],
+    "print_key": "tcgdex:bw4-50",
+    "card_key": "644|130|2|5ban Graphics|20,120|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

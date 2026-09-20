@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy9-80",
+    "name": "Tentantel",
+    "img": "https://assets.tcgdex.net/de/xy/xy9/80/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy9",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy9/symbol",
+    "set_full_name": "TURBOfieber",
+    "series": "XY",
+    "set_code": "xy9",
+    "date": "2016-02-03",
+    "number": "80",
+    "set_total": 126,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 598,
+    "pokemon_category": "",
+    "flavor_text": "Es setzt sich an der Decke von Höhlen fest und wirft seine dornengespickten Schlingen auf vorbeigehende Beute ab.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Metallklaue",
+            "damage": 40,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Stachelhieb",
+            "damage": null,
+            "effect": "Dieser Angriff fügt jedem Pokémon deines Gegners 10 Schadenspunkte für jedes {C}-Symbol in den Rückzugskosten des jeweiligen Pokémon zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Kastadur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy9-80"
+        }
+    ],
+    "print_key": "tcgdex:xy9-80",
+    "card_key": "598|100|3|Kagemaru Himeno|40,None|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sv03.5-135",
+    "name": "Jolteon",
+    "img": "https://assets.tcgdex.net/es/sv/sv03.5/135/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "G",
+    "set_name": "sv03.5",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03.5/symbol",
+    "set_full_name": "151",
+    "series": "Escarlata y Púrpura",
+    "set_code": "sv03.5",
+    "date": "2023-09-22",
+    "number": "135",
+    "set_total": 207,
+    "rarity": "Rara",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 135,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 110,
+    "types": [
+        "Rayo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Rayo"
+            ],
+            "name": "Ataque Lineal",
+            "damage": null,
+            "effect": "Este ataque hace 30 puntos de daño a uno de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
+        },
+        {
+            "cost": [
+                "Rayo",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Rayo Luchador",
+            "damage": "90+",
+            "effect": "Si el Pokémon Activo de tu rival es un Pokémon ex o un Pokémon V, este ataque hace 90 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Eevee",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sv03.5-135"
+        }
+    ],
+    "print_key": "tcgdex:sv03.5-135",
+    "card_key": "135|110|0|sui|None,90+|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

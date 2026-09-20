@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp4-53",
+    "name": "Panzaeron",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp4",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp4/symbol",
+    "set_full_name": "Epische Begegnungen",
+    "series": "Diamant & Perl",
+    "set_code": "dp4",
+    "date": "2008-02-01",
+    "number": "53",
+    "set_total": 106,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 227,
+    "pokemon_category": "",
+    "flavor_text": "Es wird komplett von einer eisenharten Rüstung geschützt. Wenn es fliegt, erreicht es bis zu 300 km/h.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Absturz",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ lege eine Energie, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Stahlflügel",
+            "damage": 40,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der Panzaeron durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp4-53"
+        }
+    ],
+    "print_key": "tcgdex:dp4-53",
+    "card_key": "227|70|1|Mitsuhiro Arita|20,40|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

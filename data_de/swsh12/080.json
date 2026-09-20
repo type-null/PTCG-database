@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh12-080",
+    "name": "Megalon",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh12/080/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh12",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12/symbol",
+    "set_full_name": "Silberne Sturmwinde",
+    "series": "Schwert & Schild",
+    "set_code": "swsh12",
+    "date": "2022-11-11",
+    "number": "080",
+    "set_total": 215,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Shinji Kanda"
+    ],
+    "pokedex_number": 606,
+    "pokemon_category": "",
+    "flavor_text": "Jedes Mal, wenn ein Megalon auf einer Farm auftaucht, verschwindet bald darauf ein Zwollock unter mysteriösen Umständen.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Psychosphäre",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Psychopfeil",
+            "damage": null,
+            "effect": "Diese Attacke fügt 1 Pokémon deines Gegners 60 Schadenspunkte zu. Wende Schwäche und Resistenz auch bei Pokémon auf der Bank an."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Pygraulon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh12-080"
+        }
+    ],
+    "print_key": "tcgdex:swsh12-80",
+    "card_key": "606|90|1|Shinji Kanda|30,None|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

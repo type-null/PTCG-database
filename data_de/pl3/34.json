@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl3-34",
+    "name": "Meditalis",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Ultimative Sieger",
+    "series": "Platin",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "34",
+    "set_total": 153,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 308,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Kanalisieren",
+            "damage": 60,
+            "effect": "Dein Gegner zieht 2 Karten."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Chakrapunkte",
+            "damage": "10+",
+            "effect": "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede Handkarte deines Gegners zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl3-34"
+        }
+    ],
+    "print_key": "tcgdex:pl3-34",
+    "card_key": "308|90|1|Masakazu Fukuda|60,10+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

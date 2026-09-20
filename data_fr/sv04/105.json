@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv04-105",
+    "name": "Craparoi",
+    "img": "https://assets.tcgdex.net/fr/sv/sv04/105/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv04",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04/symbol",
+    "set_full_name": "Faille Paradoxe",
+    "series": "Écarlate et Violet",
+    "set_code": "sv04",
+    "date": "2023-11-03",
+    "number": "105",
+    "set_total": 266,
+    "rarity": "Peu Commune",
+    "author": [
+        "Yuya Oka"
+    ],
+    "pokedex_number": 950,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Ciseaux Déjantés",
+            "damage": "30+",
+            "effect": "Si ce Pokémon est affecté par un État Spécial, cette attaque inflige 160 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Pression Bouillonnante",
+            "damage": 80,
+            "effect": "Ce Pokémon est maintenant Brûlé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv04-105"
+        }
+    ],
+    "print_key": "tcgdex:sv04-105",
+    "card_key": "950|120|3|Yuya Oka|30+,80|2,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

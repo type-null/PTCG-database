@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo4-48",
+    "name": "Helles Blitza",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "48",
+    "set_total": 113,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 135,
+    "pokemon_category": "",
+    "flavor_text": "Es kann die elektrische Energie seiner Umgebung in seinen Zellen speichern und sie dann in massiven Entladungen wieder abgeben.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Aufpassimpuls",
+            "damage": null,
+            "effect": "Immer wenn im nächsten Zug deines Gegners Helles Blitza (nach der Verrechnung von Schwäche und Resistenz) 30 oder mehr Schadenspunkte zugefügt werden, verhindere diesen Schaden. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Donnernadel",
+            "damage": "20x",
+            "effect": "Wirf drei Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu. Wenn du zweimal oder öfter „Kopf“ wirfst, ist das verteidigende Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo4-48"
+        }
+    ],
+    "print_key": "tcgdex:neo4-48",
+    "card_key": "135|70|None|Naoyo Kimura|None,20x|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

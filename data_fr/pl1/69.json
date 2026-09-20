@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-69",
+    "name": "Leveinard",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/69/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "69",
+    "set_total": 133,
+    "rarity": "Commune",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 113,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Défi guérison",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, retirez à Leveinard 3 marqueurs de dégât. Si c'est pile, retirez au Pokémon Défenseur 3 marqueurs de dégât."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Poing-doux",
+            "damage": 40,
+            "effect": "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, les dégâts de base de cette attaque sont de 10 au lieu de 40."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-69"
+        }
+    ],
+    "print_key": "tcgdex:pl1-69",
+    "card_key": "113|90|2|Kouki Saitou|None,40|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

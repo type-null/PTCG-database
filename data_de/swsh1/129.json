@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh1-129",
+    "name": "Flunkifer",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh1/129/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Schwert & Schild",
+    "series": "Schwert & Schild",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "129",
+    "set_total": 216,
+    "rarity": "Häufig",
+    "author": [
+        "AKIRA EGAWA"
+    ],
+    "pokedex_number": 303,
+    "pokemon_category": "",
+    "flavor_text": "Sein riesiger Kiefer hat sich aus stählernen Hörnern entwickelt. Mit ihm beißt es seine Gegner.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Freunde finden",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Knirscher",
+            "damage": 40,
+            "effect": "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh1-129"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-129",
+    "card_key": "303|90|1|AKIRA EGAWA|None,40|1,2",
+    "types_en": [
+        "Metal"
+    ]
+}

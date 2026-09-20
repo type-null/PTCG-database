@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-34",
+    "name": "Téraclope",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "34",
+    "set_total": 106,
+    "rarity": "Peu Commune",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 356,
+    "pokemon_category": "",
+    "flavor_text": "Son corps est creux. On raconte que celui qui regarde à l'intérieur finira aspiré par le néant.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Borgne obscur",
+            "damage": 20,
+            "effect": "Vous pouvez défausser une carte de votre main. Votre adversaire défausse alors une carte de sa main."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Embuscade",
+            "damage": "40+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Skelénox",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-34"
+        }
+    ],
+    "print_key": "tcgdex:dp7-34",
+    "card_key": "356|80|1|Yukiko Baba|20,40+|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

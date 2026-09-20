@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh9-004",
+    "name": "Kapilz",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh9/004/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh9",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh9/symbol",
+    "set_full_name": "Strahlende Sterne",
+    "series": "Schwert & Schild",
+    "set_code": "swsh9",
+    "date": "2022-02-25",
+    "number": "004",
+    "set_total": 186,
+    "rarity": "Selten",
+    "author": [
+        "Sekio"
+    ],
+    "pokedex_number": 286,
+    "pokemon_category": "",
+    "flavor_text": "Erst lässt es den Gegner seine giftigen Sporen einatmen, dann traktiert es ihn mit Boxschlägen.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Sporenbällchen",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners schläft jetzt."
+        },
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Pudriger Kinnhaken",
+            "damage": 130,
+            "effect": "Du kannst diese Attacke nur einsetzen, wenn dieses Pokémon während deines letzten Zuges Sporenbällchen eingesetzt hat."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Knilz",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh9-004"
+        }
+    ],
+    "print_key": "tcgdex:swsh9-4",
+    "card_key": "286|110|1|Sekio|30,130|1,1",
+    "types_en": [
+        "Grass"
+    ]
+}

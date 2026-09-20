@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm8-86",
+    "name": "Zeraora GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm8/86/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Echo des Donners",
+    "series": "Sonne & Mond",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "86",
+    "set_total": 236,
+    "rarity": "Ultra Selten",
+    "author": [
+        "PLANETA Otani"
+    ],
+    "pokedex_number": 807,
+    "pokemon_category": "",
+    "hp": 190,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Blitzsturmzone",
+            "effect": "Jedes deiner Pokémon, an das mindestens 1 {L}-Energie angelegt ist, hat keine Rückzugskosten."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Plasmafäuste",
+            "damage": 160,
+            "effect": "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
+        },
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Volle Voltzahl-GX",
+            "damage": null,
+            "effect": "Lege 5 Basis-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm8-86"
+        }
+    ],
+    "print_key": "tcgdex:sm8-86",
+    "card_key": "807|190|2|PLANETA Otani|160,None|3,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

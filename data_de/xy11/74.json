@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy11-74",
+    "name": "Kobalium",
+    "img": "https://assets.tcgdex.net/de/xy/xy11/74/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Dampfkessel",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "74",
+    "set_total": 116,
+    "rarity": "Selten",
+    "author": [
+        "kirisAki"
+    ],
+    "pokedex_number": 638,
+    "pokemon_category": "",
+    "flavor_text": "Sein Körper und Herz sind aus Stahl. Gemeinsam mit seinen Gefährten bestrafte es alle Menschen, die Pokémon verletzen.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Rapidschutz",
+            "damage": null,
+            "effect": "Verhindere allen Schaden, der diesem Pokémon während des nächsten Zuges deines Gegners durch Angriffe von Basis-Pokémon zugefügt wird. Dieses Pokémon kann Rapidschutz während deines nächsten Zuges nicht einsetzen."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall"
+            ],
+            "name": "Rachestoß",
+            "damage": "30+",
+            "effect": "Dieser Angriff fügt 30 weitere Schadenspunkte für jede Preiskarte zu, die dein Gegner bereits genommen hat."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy11-74"
+        }
+    ],
+    "print_key": "tcgdex:xy11-74",
+    "card_key": "638|120|2|kirisAki|None,30+|1,2",
+    "types_en": [
+        "Metal"
+    ]
+}

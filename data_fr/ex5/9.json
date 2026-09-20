@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex5-9",
+    "name": "Mackogneur",
+    "img": "https://assets.tcgdex.net/fr/ex/ex5/9/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex5",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex5/symbol",
+    "set_full_name": "EX Légendes Oubliées",
+    "series": "EX",
+    "set_code": "ex5",
+    "date": "2004-06-01",
+    "number": "9",
+    "set_total": 102,
+    "rarity": "Holo Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Excès de zèle",
+            "effect": "Si votre adversaire a des Pokémon-ex en jeu, les attaques de Mackogneur infligent 30 dégâts supplémentaires au Pokémon Défenseur."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Casse-Brique",
+            "damage": 40,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies, ou tout autre effet sur le Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coup-croix",
+            "damage": "60+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts plus 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Machopeur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex5-9"
+        }
+    ],
+    "print_key": "tcgdex:ex5-9",
+    "card_key": "68|120|2|Hajime Kusajima|40,60+|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

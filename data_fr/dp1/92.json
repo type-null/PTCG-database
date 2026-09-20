@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-92",
+    "name": "Onix",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "92",
+    "set_total": 130,
+    "rarity": "Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 95,
+    "pokemon_category": "",
+    "flavor_text": "Il provoque des secousses sismiques en creusant. Il peut atteindre les 80 km/h.",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Creuser un tunnel",
+            "damage": null,
+            "effect": "Choisissez jusqu'à 2 des Pokémon de Banc de votre adversaire. Cette attaque inflige 10 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance au Pokémon de Banc.) Onix ne peut pas attaquer lors de votre prochain tour."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coup d'boule",
+            "damage": 20,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "+20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-92"
+        }
+    ],
+    "print_key": "tcgdex:dp1-92",
+    "card_key": "95|90|3|Ken Sugimori|None,20|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

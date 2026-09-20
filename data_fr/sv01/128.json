@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv01-128",
+    "name": "Séviper",
+    "img": "https://assets.tcgdex.net/fr/sv/sv01/128/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Écarlate et Violet",
+    "series": "Écarlate et Violet",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "128",
+    "set_total": 258,
+    "rarity": "Commune",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 336,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité"
+            ],
+            "name": "Crache-Venin",
+            "damage": null,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Choc Venin",
+            "damage": "60+",
+            "effect": "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 120 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv01-128"
+        }
+    ],
+    "print_key": "tcgdex:sv01-128",
+    "card_key": "336|120|2|sui|None,60+|1,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

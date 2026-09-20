@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base2-63",
+    "name": "Bluzuk",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Dschungel",
+    "series": "Grund",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "63",
+    "set_total": 64,
+    "rarity": "Häufig",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 48,
+    "pokemon_category": "",
+    "flavor_text": "Lebt im Schatten hoher Bäume, wo es Insekten frißt. Es wird nachts von Licht angezogen.",
+    "stage": "Basis",
+    "hp": 40,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Stachelspore",
+            "damage": 10,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Blutsauger",
+            "damage": 10,
+            "effect": "Entferne von Bluzuk Schadensmarken in Höhe des Schadens, der dem verteidigenden Pokémon durch diesen Angriff zugefügt wurden (nachdem Schwäche und Resistenz abgerechnet wurden). Falls Bluzuk weniger Schadensmarken als diese Anzahl hat, entferne sie alle."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base2-63"
+        }
+    ],
+    "print_key": "tcgdex:base2-63",
+    "card_key": "48|40|1|Mitsuhiro Arita|10,10|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh5-56",
+    "name": "Groink",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh5/56/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh5/symbol",
+    "set_full_name": "Kampfstile",
+    "series": "Schwert & Schild",
+    "set_code": "swsh5",
+    "date": "2021-03-19",
+    "number": "56",
+    "set_total": 183,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 326,
+    "pokemon_category": "",
+    "flavor_text": "Mit schwarzen Perlen verstärkt es seine Psycho-Kräfte. Mit einem Tanz kontrolliert es seine Gegner.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Verwirrender Tanz",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Juwelenkraft",
+            "damage": 120,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Spoink",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh5-56"
+        }
+    ],
+    "print_key": "tcgdex:swsh5-56",
+    "card_key": "326|130|3|Tomokazu Komiya|30,120|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

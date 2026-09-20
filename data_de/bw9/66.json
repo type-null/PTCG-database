@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw9-66",
+    "name": "Snibunna",
+    "img": "https://assets.tcgdex.net/de/bw/bw9/66/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw9",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw9/symbol",
+    "set_full_name": "Plasma-Frost",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw9",
+    "date": "2013-05-08",
+    "number": "66",
+    "set_total": 122,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 461,
+    "pokemon_category": "",
+    "flavor_text": "Sie sprechen sich miteinander ab, indem sie Muster in Steine ritzen, um ihre Gegner dann gemeinsam einzukreisen.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Hagelsturm",
+            "damage": null,
+            "effect": "Dieser Angriff fügt jedem Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Kalkuliertes Risiko",
+            "damage": 30,
+            "effect": "Lege beliebig viele Pokémon von deiner Hand auf deinen Ablagestapel. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl der von dir abgelegten Pokémon zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Sniebel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw9-66"
+        }
+    ],
+    "print_key": "tcgdex:bw9-66",
+    "card_key": "461|90|1|5ban Graphics|None,30|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

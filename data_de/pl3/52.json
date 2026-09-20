@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl3-52",
+    "name": "Kapilz",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Ultimative Sieger",
+    "series": "Platin",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "52",
+    "set_total": 153,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 286,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Schwebetreffer",
+            "damage": 40,
+            "effect": "Das Verteidigende Pokémon hat Rückzugskosten 0 bis zum Ende deines nächsten Zuges."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Trümmerbombe",
+            "damage": "20+",
+            "effect": "Wenn am Verteidigenden Pokémon mindestens 1 Spezialenergiekarte angelegt ist, fügt dieser Angriff 20 Schadenspunkte plus 40 weitere Schadenspunkte zu. Danach entferne 1 Spezialenergiekarte vom Verteidigenden Pokémon und lege sie auf den Ablagestapel deines Gegners."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl3-52"
+        }
+    ],
+    "print_key": "tcgdex:pl3-52",
+    "card_key": "286|90|1|Kyoko Umemoto|40,20+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

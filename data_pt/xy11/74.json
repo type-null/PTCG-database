@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/xy11-74",
+    "name": "Cobalion",
+    "img": "https://assets.tcgdex.net/pt/xy/xy11/74/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Cerco de Vapor",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "74",
+    "set_total": 116,
+    "rarity": "Rara",
+    "author": [
+        "kirisAki"
+    ],
+    "pokedex_number": 638,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 120,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Prevenção",
+            "damage": null,
+            "effect": "Previne todos os danos causados a este Pokémon por ataques de Pokémon Básicos durante a próxima vez de jogar do seu oponente. Este Pokémon não poderá usar Prevenção durante sua próxima vez de jogar."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal"
+            ],
+            "name": "Raio de Vingança",
+            "damage": "30+",
+            "effect": "Este ataque causa 30 de danos adicionais para cada card de Prêmio conquistado por seu oponente."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fogo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/xy11-74"
+        }
+    ],
+    "print_key": "tcgdex:xy11-74",
+    "card_key": "638|120|2|kirisAki|None,30+|1,2",
+    "types_en": [
+        "Metal"
+    ]
+}

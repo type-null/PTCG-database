@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo3-2",
+    "name": "Leuphorie",
+    "img": "https://assets.tcgdex.net/fr/neo/neo3/2/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "2",
+    "set_total": 66,
+    "rarity": "Rare",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 242,
+    "pokemon_category": "",
+    "flavor_text": "Quiconque mange une bouchée de l'œuf de Leuphorie devient tout de suite gentil avec tout le monde.",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Œuf-coque",
+            "effect": "Lorsque vous jouez Leuphorie depuis votre main, vous pouvez lancer une pièce. Si c'est face, retirez 8 marqueurs de dégâts sur Leuphorie. Si c'est pile, retirez-en 4. Dans les deux cas, si le nombre de marqueurs de dégâts sur Leuphorie est inférieur au nombre demandé, retirez-les tous."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Plaquage",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Leveinard",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo3-2"
+        }
+    ],
+    "print_key": "tcgdex:neo3-2",
+    "card_key": "242|120|2|Yuka Morii|30|4",
+    "types_en": [
+        "Colorless"
+    ]
+}

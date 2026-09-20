@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh5-48",
+    "name": "Luxray",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh5/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "E",
+    "set_name": "swsh5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh5/symbol",
+    "set_full_name": "Styles de combat",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh5",
+    "date": "2021-03-19",
+    "number": "48",
+    "set_total": 183,
+    "rarity": "Holo Rare",
+    "author": [
+        "Kazuma Koda"
+    ],
+    "pokedex_number": 405,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 150,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Électro-Pas",
+            "damage": null,
+            "effect": "Cette attaque inflige 40 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.) Échangez ce Pokémon contre l'un de vos Pokémon de Banc."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Acharnement",
+            "damage": "100+",
+            "effect": "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts, cette attaque inflige 100 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Luxio",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh5-48"
+        }
+    ],
+    "print_key": "tcgdex:swsh5-48",
+    "card_key": "405|150|1|Kazuma Koda|None,100+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

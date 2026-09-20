@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/col1-68",
+    "name": "Tannza",
+    "img": "https://assets.tcgdex.net/de/col/col1/68/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "Ruf der Legenden",
+    "series": "Ruf der Legenden",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "68",
+    "set_total": 106,
+    "rarity": "Häufig",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 204,
+    "pokemon_category": "",
+    "flavor_text": "Es fügt seiner Schale schichtenweise Baumrinde hinzu. Die zusätzliche Belastung ist ihm gleich.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Energiefokus",
+            "damage": null,
+            "effect": "In deinem nächsten Zug beträgt der Grundschaden von Tannzas Überraschungsangriff 80 Schadenspunkte."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Überraschungsangriff",
+            "damage": 40,
+            "effect": "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/col1-68"
+        }
+    ],
+    "print_key": "tcgdex:col1-68",
+    "card_key": "204|60|2|Kyoko Umemoto|None,40|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm4-73",
+    "name": "Xerneas",
+    "img": "https://assets.tcgdex.net/de/sm/sm4/73/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Aufziehen der Sturmröte",
+    "series": "Sonne & Mond",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "73",
+    "set_total": 125,
+    "rarity": "Selten",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 716,
+    "pokemon_category": "",
+    "flavor_text": "Legenden nach kann dieses Pokémon ewiges Leben spenden. In Gestalt eines Baumes ist es aus seinem tausendjährigen Schlaf erwacht.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Fee"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Führen",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Fee",
+                "Fee",
+                "Fee"
+            ],
+            "name": "Glänzendes Geweih",
+            "damage": 130,
+            "effect": "Dieses Pokémon kann Glänzendes Geweih während deines nächsten Zuges nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm4-73"
+        }
+    ],
+    "print_key": "tcgdex:sm4-73",
+    "card_key": "716|130|2|sui|None,130|1,3",
+    "types_en": [
+        "Fairy"
+    ]
+}

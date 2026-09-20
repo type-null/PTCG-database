@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-31",
+    "name": "Raichu GL",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "31",
+    "set_total": 120,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Donnerwurf",
+            "damage": null,
+            "effect": "Wähle 2 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt den gewählten Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Mehrfachblitz",
+            "damage": "30+",
+            "effect": "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Pokémon auf der Bank deines Gegners, auf dem bereits mindestens 1 Schadensmarke liegt, zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-31"
+        }
+    ],
+    "print_key": "tcgdex:pl2-31",
+    "card_key": "26|80|0|Kouki Saitou|None,30+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

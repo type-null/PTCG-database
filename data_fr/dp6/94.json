@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-94",
+    "name": "Scorplane",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "94",
+    "set_total": 146,
+    "rarity": "Commune",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 207,
+    "pokemon_category": "",
+    "flavor_text": "Il chevauche les vents en tendant ses membres pour frapper depuis le ciel. Il vise toujours au visage.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Poison léger",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Sauter",
+            "damage": "10+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-94"
+        }
+    ],
+    "print_key": "tcgdex:dp6-94",
+    "card_key": "207|60|1|Masakazu Fukuda|10,10+|0,1",
+    "types_en": [
+        "Fighting"
+    ]
+}

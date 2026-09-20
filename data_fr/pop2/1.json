@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pop2-1",
+    "name": "Entei",
+    "img": "https://assets.tcgdex.net/fr/pop/pop2/1/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pop2",
+    "set_img": "https://assets.tcgdex.net/univ/pop/pop2/symbol",
+    "set_full_name": "POP Série 2",
+    "series": "POP",
+    "set_code": "pop2",
+    "date": "2005-08-01",
+    "number": "1",
+    "set_total": 17,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 244,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Écrasement",
+            "damage": "10+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Danseflamme",
+            "damage": 50,
+            "effect": "Défaussez 2 cartes Énergie de base attachées à Entei ou cette attaque est sans effet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": null
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pop2-1"
+        }
+    ],
+    "print_key": "tcgdex:pop2-1",
+    "card_key": "244|70|1|Kouki Saitou|10+,50|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

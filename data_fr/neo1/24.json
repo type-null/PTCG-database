@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-24",
+    "name": "Cornèbre",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/24/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "24",
+    "set_total": 111,
+    "rarity": "Rare",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 198,
+    "pokemon_category": "",
+    "flavor_text": "On prétend que lorsqu'il est poursuivi, il attire son attaquant sur de sombres pistes de montagne où le traqueur se perd.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité"
+            ],
+            "name": "Regard noir",
+            "damage": null,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite aussi longtemps que Cornèbre est votre Pokémon Actif. (Envoyer l'un ou l'autre des Pokémon sur le Banc ou le faire évoluer met fin à cet effet.)"
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Feinte",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de votre adversaire. Cette attaque inflige 20 dégâts à ce Pokémon. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Pouvoirs Pokémon ou tout autre effet sur le Pokémon Défenseur."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-24"
+        }
+    ],
+    "print_key": "tcgdex:neo1-24",
+    "card_key": "198|50|None|Shin-ichi Yoshida|None,None|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

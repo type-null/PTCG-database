@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy4-26",
+    "name": "Wattzapf",
+    "img": "https://assets.tcgdex.net/de/xy/xy4/26/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy4",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy4/symbol",
+    "set_full_name": "Phantomkräfte",
+    "series": "XY",
+    "set_code": "xy4",
+    "date": "2014-11-05",
+    "number": "26",
+    "set_total": 124,
+    "rarity": "Häufig",
+    "author": [
+        "TOKIYA"
+    ],
+    "pokedex_number": 595,
+    "pokemon_category": "",
+    "flavor_text": "Da es selbst keinen Strom erzeugen kann, klettert es auf andere Pokémon, um ihnen elektrostatische Energie abzusaugen.",
+    "stage": "Basis",
+    "hp": 30,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Nagen",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Nachtwanderung",
+            "damage": "20×",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der Pokémon in deinem Ablagestapel, die Nachtwanderung beherrschen, zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy4-26"
+        }
+    ],
+    "print_key": "tcgdex:xy4-26",
+    "card_key": "595|30|1|TOKIYA|10,20x|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

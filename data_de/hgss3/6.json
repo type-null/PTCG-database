@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss3-6",
+    "name": "Magcargo",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss3/6/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss3",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss3/symbol",
+    "set_full_name": "Unerschrocken",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss3",
+    "date": "2010-08-18",
+    "number": "6",
+    "set_total": 91,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 219,
+    "pokemon_category": "",
+    "flavor_text": "Aus seinem porösen Schneckengehäuse sprudeln Feuerfontänen, die seinen Körper durchfluten.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Sengende Flammen",
+            "damage": 20,
+            "effect": "Das Verteidigende Pokémon ist jetzt verbrannt."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Lavaschub",
+            "damage": "60+",
+            "effect": "Du darfst beliebig viele der an Magcargo angelegten {R}-Energiekarten auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte für jede abgelegte {R}-Energiekarte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Schneckmag",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss3-6"
+        }
+    ],
+    "print_key": "tcgdex:hgss3-6",
+    "card_key": "219|100|3|Yuka Morii|20,60+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

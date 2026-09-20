@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh12-030",
+    "name": "Flamiau",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh12/030/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh12",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12/symbol",
+    "set_full_name": "Silberne Sturmwinde",
+    "series": "Schwert & Schild",
+    "set_code": "swsh12",
+    "date": "2022-11-11",
+    "number": "030",
+    "set_total": 215,
+    "rarity": "Häufig",
+    "author": [
+        "Narumi Sato"
+    ],
+    "pokedex_number": 725,
+    "pokemon_category": "",
+    "flavor_text": "Es erneuert sein Fell zweimal pro Jahr. Wenn es mal wieder soweit ist, steckt es seinen Körper in Brand, um sein altes Haarkleid loszuwerden.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Nagen",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Repressalie",
+            "damage": "20×",
+            "effect": "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 20 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh12-030"
+        }
+    ],
+    "print_key": "tcgdex:swsh12-30",
+    "card_key": "725|70|2|Narumi Sato|10,20x|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

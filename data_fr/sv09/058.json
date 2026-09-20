@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv09-058",
+    "name": "M. Mime",
+    "img": "https://assets.tcgdex.net/fr/sv/sv09/058/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "I",
+    "set_name": "sv09",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv09/symbol",
+    "set_full_name": "Aventures Ensemble",
+    "series": "Écarlate et Violet",
+    "set_code": "sv09",
+    "date": "2025-03-28",
+    "number": "058",
+    "set_total": 190,
+    "rarity": "Commune",
+    "author": [
+        "GOTO minori"
+    ],
+    "pokedex_number": 122,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Copie",
+            "damage": null,
+            "effect": "Mélangez votre main avec votre deck. Ensuite, piochez une carte pour chaque carte dans la main de votre adversaire."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Choc Mental",
+            "damage": 40,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv09-058"
+        }
+    ],
+    "print_key": "tcgdex:sv09-58",
+    "card_key": "122|90|1|GOTO minori|None,40|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

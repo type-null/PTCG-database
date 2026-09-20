@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/30th-106",
+    "name": "Zacian",
+    "img": "https://assets.tcgdex.net/fr/me/30th/106/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "30th",
+    "set_full_name": "30ᵉ Anniversaire",
+    "series": "Méga-Évolution",
+    "set_code": "30th",
+    "date": "2026-09-16",
+    "number": "106",
+    "set_total": 158,
+    "rarity": "Rare",
+    "author": [
+        "AKIRA EGAWA"
+    ],
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal"
+            ],
+            "name": "Lame Durcie",
+            "damage": "20+",
+            "effect": "Si un Outil Pokémon est attaché à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Coup Déchirant",
+            "damage": 120,
+            "effect": "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup Déchirant."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Plante"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/30th-106"
+        }
+    ],
+    "print_key": "tcgdex:30th-106",
+    "card_key": "888|130|2|AKIRA EGAWA|20+,120|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

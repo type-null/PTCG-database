@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-7",
+    "name": "Jugong",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "7",
+    "set_total": 182,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 87,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Frostsperre",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei 'Kopf' kann dein Gegner während seines nächsten Zuges keine Energie-Karten aus seiner Hand an sein aktives Pokémon anlegen."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Erdrückendes Eis",
+            "damage": "40+",
+            "effect": "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede -Energie in den Rückzugskosten des verteidigenden Pokémon zu. Beim Ermitteln des Schadens werden erst etwaige Effekte auf die Rückzugskosten angewandt und dann die Rückzugskosten des verteidigenden Pokémon verwendet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-7"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-7",
+    "card_key": "87|80|2|Kouki Saitou|20,40+|2,4",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm7-169",
+    "name": "Tengulist GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm7/169/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm7",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm7/symbol",
+    "set_full_name": "Sturm Am Firmament",
+    "series": "Sonne & Mond",
+    "set_code": "sm7",
+    "date": "2018-08-03",
+    "number": "169",
+    "set_total": 183,
+    "rarity": "Versteckt Selten",
+    "author": [
+        "PLANETA Igarashi"
+    ],
+    "pokedex_number": 275,
+    "pokemon_category": "",
+    "hp": 240,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Perplex",
+            "damage": 40,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Sondersensor",
+            "damage": "90+",
+            "effect": "Wenn du genauso viele Karten auf der Hand hast wie dein Gegner, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Höhle des Frevels-GX",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners. Dein Gegner mischt jenes Pokémon und alle an es angelegten Karten in sein Deck. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Blanas",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm7-169"
+        }
+    ],
+    "print_key": "tcgdex:sm7-169",
+    "card_key": "275|240|2|PLANETA Igarashi|40,90+,None|1,3,3",
+    "types_en": [
+        "Grass"
+    ]
+}

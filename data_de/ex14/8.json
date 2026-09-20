@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex14-8",
+    "name": "Voltenso",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex14",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex14/symbol",
+    "set_full_name": "EX Crystal Guardians",
+    "series": "EX",
+    "set_code": "ex14",
+    "date": "2006-08-30",
+    "number": "8",
+    "set_total": 100,
+    "rarity": "Selten",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 310,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Wegkicken",
+            "damage": 30,
+            "effect": "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Starke Strömung",
+            "damage": 50,
+            "effect": "Wenn an Voltenso eine Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff jedem Pokémon-ex auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Frizelbliz",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex14-8"
+        }
+    ],
+    "print_key": "tcgdex:ex14-8",
+    "card_key": "310|80|1|Hisao Nakamura|30,50|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/xy12-36",
+    "name": "Raichu",
+    "img": "https://assets.tcgdex.net/it/xy/xy12/36/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Evoluzioni",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "36",
+    "set_total": 113,
+    "rarity": "Rara",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 100,
+    "types": [
+        "Lampo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lampo"
+            ],
+            "name": "Energizza",
+            "damage": null,
+            "effect": "Assegna a questo Pokémon una carta Energia Lightning dalla tua pila degli scarti."
+        },
+        {
+            "cost": [
+                "Lampo",
+                "Lampo",
+                "Incolore"
+            ],
+            "name": "Scintillabolide",
+            "damage": "70+",
+            "effect": "Puoi scartare tutte le Energie assegnate a questo Pokémon. Se lo fai, questo attacco infligge 70 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metallo"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/xy12-36"
+        }
+    ],
+    "print_key": "tcgdex:xy12-36",
+    "card_key": "26|100|1|Ken Sugimori|None,70+|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

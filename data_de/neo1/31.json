@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-31",
+    "name": "Tyracroc",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "31",
+    "set_total": 111,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 159,
+    "pokemon_category": "",
+    "flavor_text": "Falls ihm ein Giftzahn ausfällt, wächst ihm dort ein neuer nach. Es verfügt immer über 48 Giftzähne im Maul.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Kreideschrei",
+            "damage": null,
+            "effect": "Falls bis zum Ende deines nächsten Zugs ein Angriff dem verteidigenden Pokémon Schadenspunkte zufügt (nachdem Schwäche und Resistenz verrechnet wurden), fügt dieser Angriff dem verteidigenden Pokémon 20 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Schnappkiefer",
+            "damage": 30,
+            "effect": "Das verteidigende Pokémon kann sich bis zum Ende des nächsten gegnerischen Zugs nicht zurückziehen, solange Tyracroc dein aktives Pokémon ist. Wenn die Auswirkungen eines Angriffs, einer Pokémon-Power oder einer Trainerkarte das aktive Pokémon dieses Spielers ändern würde, bleibt dieser Teil der Auswirkungen ohne Effekt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Karnimani",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-31"
+        }
+    ],
+    "print_key": "tcgdex:neo1-31",
+    "card_key": "159|70|2|Ken Sugimori|None,30|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl2-RT5",
+    "name": "Motisma Lavage Niv. 46",
+    "img": "https://assets.tcgdex.net/fr/pl/pl2/RT5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Rivaux Émergeants",
+    "series": "Platine",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "RT5",
+    "set_total": 120,
+    "rarity": "Rare",
+    "author": [
+        "Hiroki Fuchino"
+    ],
+    "pokedex_number": 479,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Mutation lavage",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Motisma Lavage est de type {W} jusqu'à la fin de votre tour."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Grand nettoyage",
+            "damage": null,
+            "effect": "Retirez à chacun de vos Pokémon de Banc 3 marqueurs de dégât."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Jet d'O éliminatoire",
+            "damage": 30,
+            "effect": "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, choisissez sans regarder 1 carte de la main de votre adversaire et défaussez-la."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl2-RT5"
+        }
+    ],
+    "print_key": "tcgdex:pl2-RT5",
+    "card_key": "479|90|2|Hiroki Fuchino|None,30|2,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

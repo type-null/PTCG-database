@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex13-102",
+    "name": "Leviator ☆ δ",
+    "img": "https://assets.tcgdex.net/fr/ex/ex13/102/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex13",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex13/symbol",
+    "set_full_name": "EX Fantômes Holon",
+    "series": "EX",
+    "set_code": "ex13",
+    "date": "2006-05-03",
+    "number": "102",
+    "set_total": 111,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Croissance en spirale",
+            "damage": 20,
+            "effect": "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, choisissez dans votre pile de défausse une carte Énergie de base et attachez-la à Leviator ☆."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Feu",
+                "Feu"
+            ],
+            "name": "Explosion totale",
+            "damage": "50+",
+            "effect": "Défaussez des cartes du dessus de votre deck jusqu'à ce qu'il ne vous reste plus qu'1 carte. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie défaussée."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex13-102"
+        }
+    ],
+    "print_key": "tcgdex:ex13-102",
+    "card_key": "130|80|2|Masakazu Fukuda|20,50+|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

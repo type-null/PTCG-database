@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm7-90",
+    "name": "Scherox GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm7/90/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm7",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm7/symbol",
+    "set_full_name": "Sturm Am Firmament",
+    "series": "Sonne & Mond",
+    "set_code": "sm7",
+    "date": "2018-08-03",
+    "number": "90",
+    "set_total": 183,
+    "rarity": "Ultra Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 212,
+    "pokemon_category": "",
+    "hp": 210,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Gefahrensinn",
+            "effect": "Wenn die verbleibenden KP dieses Pokémon 100 oder weniger betragen, fügen seine Attacken dem Aktiven Pokémon deines Gegners 80 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Stahlflügel",
+            "damage": 80,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Überkreuzzerschneider-GX",
+            "damage": "100+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 100 Schadenspunkte mehr zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Sichlor",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm7-90"
+        }
+    ],
+    "print_key": "tcgdex:sm7-90",
+    "card_key": "212|210|1|5ban Graphics|80,100+|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw4-41",
+    "name": "Électhor",
+    "img": "https://assets.tcgdex.net/fr/bw/bw4/41/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw4",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw4/symbol",
+    "set_full_name": "Destinées Futures",
+    "series": "Noir & Blanc",
+    "set_code": "bw4",
+    "date": "2012-02-08",
+    "number": "41",
+    "set_total": 103,
+    "rarity": "Rare",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Étincelle Surprise",
+            "damage": null,
+            "effect": "Cette attaque inflige 50 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Rafale d'Éclairs",
+            "damage": 50,
+            "effect": "Lancez 4 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw4-41"
+        }
+    ],
+    "print_key": "tcgdex:bw4-41",
+    "card_key": "145|120|2|Ryo Ueda|None,50|3,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/swsh3-25",
+    "name": "Heatran",
+    "img": "https://assets.tcgdex.net/pt/swsh/swsh3/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "regulation": "D",
+    "set_name": "swsh3",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh3/symbol",
+    "set_full_name": "Escuridão Incandescente",
+    "series": "Espada e Escudo",
+    "set_code": "swsh3",
+    "date": "2020-08-14",
+    "number": "25",
+    "set_total": 201,
+    "rarity": "Rara Holo",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 485,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 130,
+    "types": [
+        "Fogo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fogo",
+                "Incolor"
+            ],
+            "name": "Presas de Fogo",
+            "damage": 30,
+            "effect": "O Pokémon Ativo do seu oponente agora está Queimado."
+        },
+        {
+            "cost": [
+                "Fogo",
+                "Fogo",
+                "Incolor"
+            ],
+            "name": "Chamas Ferozes",
+            "damage": "80+",
+            "effect": "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Água"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/swsh3-25"
+        }
+    ],
+    "print_key": "tcgdex:swsh3-25",
+    "card_key": "485|130|4|Anesaki Dynamic|30,80+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

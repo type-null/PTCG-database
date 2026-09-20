@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-H29",
+    "name": "Stahlos",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "H29",
+    "set_total": 182,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 208,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Seltenes Metall",
+            "effect": "Alle an Stahlos angelegten Basis-Energiekarten produzieren -Energie statt ihrer normalen Energien."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Quetschen",
+            "damage": "20+",
+            "effect": "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu und das verteidigende Pokémon ist jetzt gelähmt."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Metallschweif",
+            "damage": 40,
+            "effect": "Bevor der Schaden zugefügt wird, kannst du eine Münze werfen. Bei 'Kopf' fügt dieser Angriff 80 Schadenspunkte zu. Bei 'Zahl' hat dieser Angriff keine Wirkung."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-H29"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-H29",
+    "card_key": "208|100|4|Hikaru Koike|20+,40|3,4",
+    "types_en": [
+        "Metal"
+    ]
+}

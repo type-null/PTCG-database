@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-41",
+    "name": "Glaziola",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "41",
+    "set_total": 120,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 471,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Frostwind",
+            "effect": "Solange Glaziola dein Aktives Pokémon ist, wird Schaden, der deinen Pokémon durch gegnerische Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Eisklinge",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Eisbindung",
+            "damage": 50,
+            "effect": "Wenn dein Gegner keine Karte von seiner Hand auf seinen Ablagestapel legt, ist das Verteidigende Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-41"
+        }
+    ],
+    "print_key": "tcgdex:pl2-41",
+    "card_key": "471|80|1|Naoyo Kimura|None,50|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

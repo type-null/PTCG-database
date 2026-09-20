@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo4-53",
+    "name": "Aéromite lumineux",
+    "img": "https://assets.tcgdex.net/fr/neo/neo4/53/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "53",
+    "set_total": 113,
+    "rarity": "Peu Commune",
+    "author": [
+        "Masako Yamashita"
+    ],
+    "pokedex_number": 49,
+    "pokemon_category": "",
+    "flavor_text": "Il se défend en battant des ailes à toute vitesse, libérant une poudre empoisonnée dans les airs.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Aile mystérieuse",
+            "damage": null,
+            "effect": "Votre adversaire peut choisir une carte Bébé Pokémon, Pokémon de base ou Évolution de sa pile de défausse et l'ajouter à sa main. Quelle que soit sa décision, vous pouvez faire de même."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Synchronisation",
+            "damage": 40,
+            "effect": "Si Aéromite lumineux et le Pokémon Défenseur ont un nombre différent de cartes Énergie attachées à eux, cette attaque ne fait rien."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "evolve_from": "Mimitoss",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo4-53"
+        }
+    ],
+    "print_key": "tcgdex:neo4-53",
+    "card_key": "49|80|None|Masako Yamashita|None,40|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

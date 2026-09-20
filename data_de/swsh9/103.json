@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh9-103",
+    "name": "Kliklak",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh9/103/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh9",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh9/symbol",
+    "set_full_name": "Strahlende Sterne",
+    "series": "Schwert & Schild",
+    "set_code": "swsh9",
+    "date": "2022-02-25",
+    "number": "103",
+    "set_total": 186,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Hataya"
+    ],
+    "pokedex_number": 600,
+    "pokemon_category": "",
+    "flavor_text": "Macht es Ernst, greift das kleine äußere Rad in das große Rad, was die Drehgeschwindigkeit merklich erhöht.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Strahl",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schutzdruck",
+            "damage": 70,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Klikk",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh9-103"
+        }
+    ],
+    "print_key": "tcgdex:swsh9-103",
+    "card_key": "600|90|2|Hataya|20,70|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

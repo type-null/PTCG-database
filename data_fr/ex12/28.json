@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex12-28",
+    "name": "Qulbutoké",
+    "img": "https://assets.tcgdex.net/fr/ex/ex12/28/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Créateurs de légendes",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "28",
+    "set_total": 93,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 202,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Niveaux d'Évolution",
+            "effect": "Tant que Qulbutoké est un Pokémon Évolué, votre adversaire paye un {C} supplémentaire pour faire battre en retraite son Pokémon Actif."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Écrase",
+            "damage": "10x",
+            "effect": "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées à Qulbutoké."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Marque d'ombre",
+            "damage": null,
+            "effect": "Placez 7 marqueurs de dégât sur le Pokémon Défenseur à la fin du prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex12-28"
+        }
+    ],
+    "print_key": "tcgdex:ex12-28",
+    "card_key": "202|80|2|Kouki Saitou|10x,None|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

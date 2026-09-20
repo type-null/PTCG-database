@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv03-102",
+    "name": "Friedwuff-ex",
+    "img": "https://assets.tcgdex.net/de/sv/sv03/102/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "regulation": "G",
+    "set_name": "sv03",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03/symbol",
+    "set_full_name": "Obsidian Flammen",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv03",
+    "date": "2023-08-11",
+    "number": "102",
+    "set_total": 230,
+    "rarity": "Doppelselten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 972,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 260,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Mächtiger Biss",
+            "damage": 30,
+            "effect": "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Letzte Ehre",
+            "damage": "160+",
+            "effect": "Diese Attacke fügt für jedes {P}-Pokémon in deinem Ablagestapel 10 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Gruff",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv03-102"
+        }
+    ],
+    "print_key": "tcgdex:sv03-102",
+    "card_key": "972|260|3|5ban Graphics|30,160+|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

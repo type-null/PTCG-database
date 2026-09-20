@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv02-024",
+    "name": "Horrerba",
+    "img": "https://assets.tcgdex.net/de/sv/sv02/024/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv02",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv02/symbol",
+    "set_full_name": "Entwicklungen in Paldea",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv02",
+    "date": "2023-06-09",
+    "number": "024",
+    "set_total": 279,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "KEIICHIRO ITO"
+    ],
+    "pokedex_number": 947,
+    "pokemon_category": "",
+    "flavor_text": "Es öffnet die Zweige auf dem Kopf, um Beute zu verschlingen. Hat es dieser genug Lebensenergie entzogen, spuckt es sie aus und entsorgt sie so.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Lebensverkoster",
+            "damage": 30,
+            "effect": "Heile 30 Schadenspunkte bei diesem Pokémon."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Trockenholzgitter",
+            "damage": 80,
+            "effect": "Während des nächsten Zuges deines Gegners erhöhen sich die Kosten der Attacken, die das Verteidigende Pokémon einsetzt, um {C}{C}."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Weherba",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv02-024"
+        }
+    ],
+    "print_key": "tcgdex:sv02-24",
+    "card_key": "947|100|3|KEIICHIRO ITO|30,80|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

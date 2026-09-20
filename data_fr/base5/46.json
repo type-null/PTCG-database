@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base5-46",
+    "name": "Carabaffe obscur",
+    "img": "https://assets.tcgdex.net/fr/base/base5/46/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Base",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "46",
+    "set_total": 83,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 8,
+    "pokemon_category": "",
+    "flavor_text": "Il a très mauvais caractère et se cache dans sa carapace dès qu'il est de mauvaise humeur - ce qui est souvent le cas.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Double gifle",
+            "damage": "10x",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Carapace miroir",
+            "damage": null,
+            "effect": "Si une attaque inflige des dégâts à Carabaffe obscur pendant le prochain tour de votre adversaire (même si Carabaffe obscur est K.O.), Carabaffe obscur attaque le Pokémon Défenseur avec une quantité de dégâts égale."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Carapuce",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base5-46"
+        }
+    ],
+    "print_key": "tcgdex:base5-46",
+    "card_key": "8|60|1|Kagemaru Himeno|10x,None|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

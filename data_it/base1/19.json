@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-19",
+    "name": "Dugtrio",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "19",
+    "set_total": 102,
+    "rarity": "Rara",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 51,
+    "pokemon_category": "",
+    "flavor_text": "Terzetto di Diglett che scatena disastrosi terremoti. LIV 36 N.51",
+    "stage": "Livello 1",
+    "hp": 70,
+    "types": [
+        "Lotta"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lotta",
+                "Lotta",
+                "Incolore"
+            ],
+            "name": "Lacerazione",
+            "damage": 40,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Lotta",
+                "Lotta",
+                "Lotta",
+                "Lotta"
+            ],
+            "name": "Terremoto",
+            "damage": 70,
+            "effect": "Infligge 10 danni a ogni Pokémon nella tua Panchina. (Non applicare Debolezza e Resistenza per i Pokémon in Panchina.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Erba"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lampo"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Diglett",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-19"
+        }
+    ],
+    "print_key": "tcgdex:base1-19",
+    "card_key": "51|70|2|Keiji Kinebuchi|40,70|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

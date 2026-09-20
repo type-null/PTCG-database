@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw2-39",
+    "name": "Rollum",
+    "img": "https://assets.tcgdex.net/de/bw/bw2/39/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw2",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw2/symbol",
+    "set_full_name": "Aufstreben der Mächtigen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw2",
+    "date": "2011-08-31",
+    "number": "39",
+    "set_total": 98,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 544,
+    "pokemon_category": "",
+    "flavor_text": "An sich ist es harmlos. Bringt man es jedoch in Bedrängnis, setzt es sich mit blitzschnellen Rollattacken zur Wehr.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Giftschock",
+            "damage": 10,
+            "effect": "Wenn das Verteidigende Pokémon vergiftet ist, fügt dieser Angriff 60 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Quetschwalze",
+            "damage": 40,
+            "effect": "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Toxiped",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw2-39"
+        }
+    ],
+    "print_key": "tcgdex:bw2-39",
+    "card_key": "544|90|3|Shin Nagasawa|10,40|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

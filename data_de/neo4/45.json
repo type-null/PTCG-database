@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo4-45",
+    "name": "Helles Jugong",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "45",
+    "set_total": 113,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Masako Yamashita"
+    ],
+    "pokedex_number": 87,
+    "pokemon_category": "",
+    "flavor_text": "Es hat eine aerodynamische Form, die ihm erlaubt, mit hoher Geschwindigkeit zu schwimmen. Je kälter das Wasser ist, desto aktiver wird es.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Eisiger Atem",
+            "damage": 10,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ schläft das verteidigende Pokémon jetzt."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Eissäule",
+            "damage": 40,
+            "effect": "Verhindere bis zum Ende des nächsten Zuges deines Gegners, solange Helles Jugong dein aktives Pokémon ist, allen Schaden, den Angriffe den Pokémon auf deiner Bank zufügen. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Jurob",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo4-45"
+        }
+    ],
+    "print_key": "tcgdex:neo4-45",
+    "card_key": "87|80|2|Masako Yamashita|10,40|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

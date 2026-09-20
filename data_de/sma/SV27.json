@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sma-SV27",
+    "name": "Magnetilo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sma",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sma/symbol",
+    "set_full_name": "Verborgenes Schicksal Glitzer-Tresor",
+    "series": "Sonne & Mond",
+    "set_code": "sma",
+    "date": "2019-08-23",
+    "number": "SV27",
+    "set_total": 94,
+    "rarity": "Shiny rare",
+    "author": [
+        "SATOSHI NAKAI"
+    ],
+    "pokedex_number": 81,
+    "pokemon_category": "",
+    "flavor_text": "Es sendet elektromagnetische Wellen aus und segelt durch die Luft. Berührt man es, während es Strom saugt, bekommt man einen Schlag.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Suchmagnet",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu 3 {M}-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Tackle",
+            "damage": 10,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sma-SV27"
+        }
+    ],
+    "print_key": "tcgdex:sma-SV27",
+    "card_key": "81|60|1|SATOSHI NAKAI|None,10|1,1",
+    "types_en": [
+        "Metal"
+    ]
+}

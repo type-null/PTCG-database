@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv01-077",
+    "name": "Voltrel",
+    "img": "https://assets.tcgdex.net/de/sv/sv01/077/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Karmesin & Purpur",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "077",
+    "set_total": 258,
+    "rarity": "Häufig",
+    "author": [
+        "Saya Tsuruta"
+    ],
+    "pokedex_number": 940,
+    "pokemon_category": "",
+    "flavor_text": "Trifft Wind auf seine Flügel, erzeugen deren Knochen Strom. Es fängt Beute, indem es ins Meer taucht und ihr einen Stromschlag verpasst.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Sammeln",
+            "damage": null,
+            "effect": "Ziehe 1 Karte."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Gleiten",
+            "damage": 20,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv01-077"
+        }
+    ],
+    "print_key": "tcgdex:sv01-77",
+    "card_key": "940|50|1|Saya Tsuruta|None,20|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

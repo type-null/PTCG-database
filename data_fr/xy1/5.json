@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy1-5",
+    "name": "Dardargnan",
+    "img": "https://assets.tcgdex.net/fr/xy/xy1/5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy1/symbol",
+    "set_full_name": "XY",
+    "series": "XY",
+    "set_code": "xy1",
+    "date": "2014-02-05",
+    "number": "5",
+    "set_total": 146,
+    "rarity": "Rare",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 15,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Direct Toxik",
+            "damage": 20,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante"
+            ],
+            "name": "Luminodard",
+            "damage": "40×",
+            "effect": "Lancez 3 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face. Si vous obtenez seulement des côtés face, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Coconfort",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy1-5"
+        }
+    ],
+    "print_key": "tcgdex:xy1-5",
+    "card_key": "15|120|1|Shin Nagasawa|20,40x|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

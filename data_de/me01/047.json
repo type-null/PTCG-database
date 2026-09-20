@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/me01-047",
+    "name": "Magnezone",
+    "img": "https://assets.tcgdex.net/de/me/me01/047/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "I",
+    "set_name": "me01",
+    "set_img": "https://assets.tcgdex.net/univ/me/me01/symbol",
+    "set_full_name": "Mega-Entwicklung",
+    "series": "Mega-Entwicklung",
+    "set_code": "me01",
+    "date": "2025-09-26",
+    "number": "047",
+    "set_total": 188,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 462,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 160,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Entwicklungsfunke",
+            "damage": "50+",
+            "effect": "Wenn sich dieses Pokémon während dieses Zuges aus Magneton entwickelt hat, fügt diese Attacke 120 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Leuchtblitz",
+            "damage": 160,
+            "effect": "Während deines nächsten Zuges kann dieses Pokémon Leuchtblitz nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Magneton",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/me01-047"
+        }
+    ],
+    "print_key": "tcgdex:me01-47",
+    "card_key": "462|160|3|nagimiso|50+,160|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

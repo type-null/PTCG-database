@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp2-2",
+    "name": "Simsala",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Geheimnisvolle Schätze",
+    "series": "Diamant & Perl",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "2",
+    "set_total": 124,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 65,
+    "pokemon_category": "",
+    "flavor_text": "Es besitzt ein fantastisches Gedächtnis und erinnert sich an alles seit seiner Geburt. IQ: Über 5 000.",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Power ausschalten",
+            "effect": "Einmal während des Zuges deines Gegners kannst du, wenn 1 Pokémon deines Gegners eine Poké-Power benutzt, 2 Karten von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, verhindere alle Effekte dieser Poké-Power. (Die Poké-Power gilt dennoch als benutzt.) Diese Poké-Power kann nicht benutzt werden, wenn Simsala von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psychobarriere",
+            "damage": 50,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der Simsala durch Angriffe von entwickelten Pokémon der Phase 2 deines Gegners zugefügt wird, um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+30"
+    },
+    "retreat": 1,
+    "evolve_from": "Kadabra",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp2-2"
+        }
+    ],
+    "print_key": "tcgdex:dp2-2",
+    "card_key": "65|100|1|Kouki Saitou|50|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh12-119",
+    "name": "Metagross",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh12/119/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh12",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12/symbol",
+    "set_full_name": "Silberne Sturmwinde",
+    "series": "Schwert & Schild",
+    "set_code": "swsh12",
+    "date": "2022-11-11",
+    "number": "119",
+    "set_total": 215,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Ryuta Fuse"
+    ],
+    "pokedex_number": 376,
+    "pokemon_category": "",
+    "flavor_text": "Metagross, die auf verschneiten Bergen leben, sind besonders aktiv, da Temperaturen unter dem Gefrierpunkt ihren Magnetismus verstärken.",
+    "stage": "Rang 2",
+    "hp": 170,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Noteinsatz",
+            "effect": "Einmal während deines Zuges, wenn du zu Beginn deines Zuges dieses Pokémon von deinem Deck gezogen hast und deine Bank nicht voll ist, kannst du es, bevor du es auf deine Hand nimmst, auf deine Bank legen. Wenn du das machst, ziehe 3 Karten."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Sternenhieb",
+            "damage": 100,
+            "effect": "Während deines nächsten Zuges fügt die Attacke Sternenhieb dieses Pokémon 100 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Metang",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh12-119"
+        }
+    ],
+    "print_key": "tcgdex:swsh12-119",
+    "card_key": "376|170|3|Ryuta Fuse|100|2",
+    "types_en": [
+        "Metal"
+    ]
+}

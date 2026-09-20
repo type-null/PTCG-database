@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex8-101",
+    "name": "Voltenso-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "101",
+    "set_total": 108,
+    "rarity": "Selten",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 310,
+    "pokemon_category": "",
+    "hp": 100,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Disconnect",
+            "damage": 40,
+            "effect": "Your opponent can't play any Trainer cards (except for Supporter cards) from his or her hand during your opponent's next turn."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Mega Shot",
+            "damage": null,
+            "effect": "Discard all  Energy attached to Manectric ex and then choose 1 of your opponent's Pokémon. This attack does 80 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex8-101"
+        }
+    ],
+    "print_key": "tcgdex:ex8-101",
+    "card_key": "310|100|1|Hikaru Koike|40,None|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

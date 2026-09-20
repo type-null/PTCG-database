@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm3-55",
+    "name": "Toxicroak",
+    "img": "https://assets.tcgdex.net/es/sm/sm3/55/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Sombras Ardientes",
+    "series": "Sol y Luna",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "55",
+    "set_total": 169,
+    "rarity": "Rara",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 454,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 110,
+    "types": [
+        "Psíquico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psíquico",
+                "Incolora"
+            ],
+            "name": "Puya Nociva",
+            "damage": 30,
+            "effect": "El Pokémon Activo de tu rival pasa a estar Envenenado."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Psíquico",
+                "Incolora"
+            ],
+            "name": "Impulso Veneno",
+            "damage": "80+",
+            "effect": "Si este Pokémon está Envenenado, este ataque hace 80 puntos de daño más. Después, elimina esa Condición Especial de este Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm3-55"
+        }
+    ],
+    "print_key": "tcgdex:sm3-55",
+    "card_key": "454|110|2|kawayoo|30,80+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

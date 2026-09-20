@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy4-10",
+    "name": "Fiaro",
+    "img": "https://assets.tcgdex.net/de/xy/xy4/10/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy4",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy4/symbol",
+    "set_full_name": "Phantomkräfte",
+    "series": "XY",
+    "set_code": "xy4",
+    "date": "2014-11-05",
+    "number": "10",
+    "set_total": 124,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 663,
+    "pokemon_category": "",
+    "flavor_text": "Die Aufregung eines harten Kampfes veranlasst es dazu, im Flug Funken aus den Zwischenräumen seines Gefieders zu sprühen.",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Akrobatik",
+            "damage": "30+",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 30 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Düsenschuss",
+            "damage": 120,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 40 Schadenspunkte erhöht (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Dartignis",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy4-10"
+        }
+    ],
+    "print_key": "tcgdex:xy4-10",
+    "card_key": "663|130|1|Mitsuhiro Arita|30+,120|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

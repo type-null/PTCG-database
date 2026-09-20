@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo2-31",
+    "name": "Despotar",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Entdeckung",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "31",
+    "set_total": 75,
+    "rarity": "Selten",
+    "author": [
+        "Hironobu Yoshida"
+    ],
+    "pokedex_number": 248,
+    "pokemon_category": "",
+    "flavor_text": "Es gibt keine Angriffe, die ihm richtig weh tun können. Daher ist es immer eifrig, seine Feinde sofort anzugreifen.",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Slam",
+            "damage": "30x",
+            "effect": "Wirf zwei Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Unlicht",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Niederschlagen",
+            "damage": 50,
+            "effect": "Wirf für jedes Pokémon im Spiel (deine und die deines Gegners) eine Münze. Bei „Kopf“ fügt dieser Angriff jenem Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Pupitar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo2-31"
+        }
+    ],
+    "print_key": "tcgdex:neo2-31",
+    "card_key": "248|100|3|Hironobu Yoshida|30x,50|3,4",
+    "types_en": [
+        "Darkness"
+    ]
+}

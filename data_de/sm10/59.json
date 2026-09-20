@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-59",
+    "name": "Donarion",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/59/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "59",
+    "set_total": 234,
+    "rarity": "Selten",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 738,
+    "pokemon_category": "",
+    "flavor_text": "Es erzeugt mit einem Organ in seinem Bauch Elektrizität. In seinem großen Kiefer speichert es Strom für enorm starke Elektrosalven.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Tarnkörper",
+            "effect": "Wenn eine Stadionkarte im Spiel ist, hat dieses Pokémon keine Schwäche."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Elektrokanone",
+            "damage": "120+",
+            "effect": "Du kannst alle {L}-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 100 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Akkup",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-59"
+        }
+    ],
+    "print_key": "tcgdex:sm10-59",
+    "card_key": "738|150|2|Hasuno|120+|4",
+    "types_en": [
+        "Lightning"
+    ]
+}

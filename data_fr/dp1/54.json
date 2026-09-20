@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-54",
+    "name": "Magnéton",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "54",
+    "set_total": 130,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 82,
+    "pokemon_category": "",
+    "flavor_text": "Il est formé de trois Magneti liés par magnétisme. En groupe, ils déclenchent un orage magnétique.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Triplattaque",
+            "damage": "20x",
+            "effect": "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Rayon magnétique",
+            "damage": 40,
+            "effect": "Avant d'infliger des dégâts, vous pouvez choisir 1 des Pokémon de Banc de votre adversaire possédant de l'Énergie et l'échanger avec 1 des Pokémon Défenseurs."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Magnéti",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-54"
+        }
+    ],
+    "print_key": "tcgdex:dp1-54",
+    "card_key": "82|70|2|Kouki Saitou|20x,40|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

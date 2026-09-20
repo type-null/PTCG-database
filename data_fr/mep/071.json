@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/mep-071",
+    "name": "Méga-Zygarde-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "regulation": "J",
+    "set_name": "mep",
+    "set_full_name": "MEP Black Star Promos",
+    "series": "Méga-Évolution",
+    "set_code": "mep",
+    "date": "2025-09-26",
+    "number": "071",
+    "set_total": 88,
+    "rarity": "Promo",
+    "author": [
+        "takuyoa"
+    ],
+    "pokedex_number": 718,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 310,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Combat"
+            ],
+            "name": "Onde de Gaïa",
+            "damage": 200,
+            "effect": "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Combat",
+                "Combat",
+                "Combat"
+            ],
+            "name": "Zéro Annihilant",
+            "damage": null,
+            "effect": "Pour chacun des Pokémon de votre adversaire, lancez une pièce. Si c'est face, cette attaque inflige 150 dégâts à ce Pokémon-là. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/mep-071"
+        }
+    ],
+    "print_key": "tcgdex:mep-71",
+    "card_key": "718|310|2|takuyoa|200,None|3,5",
+    "types_en": [
+        "Fighting"
+    ]
+}

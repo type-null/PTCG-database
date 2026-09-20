@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm3.5-26",
+    "name": "Keldeo",
+    "img": "https://assets.tcgdex.net/de/sm/sm3.5/26/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm3.5",
+    "set_full_name": "Schimmernde Legenden",
+    "series": "Sonne & Mond",
+    "set_code": "sm3.5",
+    "date": "2017-10-06",
+    "number": "26",
+    "set_total": 78,
+    "rarity": "Selten",
+    "author": [
+        "kodama"
+    ],
+    "pokedex_number": 647,
+    "pokemon_category": "",
+    "flavor_text": "Es kann auf dem Wasser laufen und reist auf Flüssen und Meeren um die Welt. Zu sehen in malerischen Küstengebieten.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Freilassen",
+            "damage": null,
+            "effect": "Nimm 1 {W}-Pokémon aus deinem Ablagestapel auf deine Hand."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Resolute Klinge",
+            "damage": "20+",
+            "effect": "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der Pokémon auf der Bank deines Gegners zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm3.5-26"
+        }
+    ],
+    "print_key": "tcgdex:sm3.5-26",
+    "card_key": "647|110|2|kodama|None,20+|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base5-40",
+    "name": "Machopeur obscur",
+    "img": "https://assets.tcgdex.net/fr/base/base5/40/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Base",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "40",
+    "set_total": 83,
+    "rarity": "Peu Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 67,
+    "pokemon_category": "",
+    "flavor_text": "Bien que d'un naturel paisible et amical, le nombre d'incidents mettant en cause des Machopeur cruels va grandissant.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Traîne",
+            "damage": 20,
+            "effect": "Avant d'appliquer les dégâts, choisissez 1 Pokémon du Banc de votre adversaire et échangez-le avec le Pokémon Défenseur. Infligez les dégâts au nouveau Pokémon Défenseur. Cette attaque ne peut pas être utilisée si votre adversaire n'a aucun Pokémon sur le Banc."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "A la tienne !",
+            "damage": 30,
+            "effect": "Si votre adversaire a au moins 1 Pokémon sur son Banc, il ou elle choisit l'un d'eux et l'échange avec le Pokémon Défenseur. (Infligez les dégâts avant d'échanger les Pokémon)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Machoc",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base5-40"
+        }
+    ],
+    "print_key": "tcgdex:base5-40",
+    "card_key": "67|60|2|Mitsuhiro Arita|20,30|3,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

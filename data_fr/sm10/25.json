@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm10-25",
+    "name": "Volcanion",
+    "img": "https://assets.tcgdex.net/fr/sm/sm10/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Alliance Infaillible",
+    "series": "Soleil et Lune",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "25",
+    "set_total": 234,
+    "rarity": "Rare",
+    "author": [
+        "Satoshi Shirai"
+    ],
+    "pokedex_number": 721,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Allume Flambée",
+            "damage": null,
+            "effect": "Cherchez une carte Énergie Fire dans votre deck et attachez-la à l’un de vos Pokémon. Si vous jouez en second et que c’est votre premier tour, cherchez jusqu’à 3 cartes Énergie Fire à la place et attachez-les à vos Pokémon, de la manière que vous voulez. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu"
+            ],
+            "name": "Explosion Haute Température",
+            "damage": "50+",
+            "effect": "Si vous avez au moins 4 Énergies Fire en jeu, cette attaque inflige 60 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm10-25"
+        }
+    ],
+    "print_key": "tcgdex:sm10-25",
+    "card_key": "721|120|2|Satoshi Shirai|None,50+|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

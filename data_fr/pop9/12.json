@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pop9-12",
+    "name": "Laporeille",
+    "img": "https://assets.tcgdex.net/fr/pop/pop9/12/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pop9",
+    "set_img": "https://assets.tcgdex.net/univ/pop/pop9/symbol",
+    "set_full_name": "POP Série 9",
+    "series": "POP",
+    "set_code": "pop9",
+    "date": "2009-03-01",
+    "number": "12",
+    "set_total": 17,
+    "rarity": "Commune",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 427,
+    "pokemon_category": "",
+    "flavor_text": "Il dresse les oreilles quand il sent le danger. Il dort la tête dans sa fourrure pendant les nuits froides.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Uppercut",
+            "damage": "10×",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Boul'Armure",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, évitez tous les dégâts infligés à Laporeille lors du prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+10"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pop9-12"
+        }
+    ],
+    "print_key": "tcgdex:pop9-12",
+    "card_key": "427|50|1|Midori Harada|10x,None|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

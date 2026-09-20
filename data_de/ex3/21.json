@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex3-21",
+    "name": "Panzaeron",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Drache",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "21",
+    "set_total": 100,
+    "rarity": "Selten",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 227,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Tyrannisieren",
+            "damage": null,
+            "effect": "Falls dein Gegner mindestens 6 Karten auf der Hand hat, wähle (ohne sie vorher anzusehen) so viele seiner Handkarten, dass dein Gegner nur noch 5 Karten auf der Hand hat. Dein Gegner mischt die gewählten Karten in sein Deck."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Kraftzähler",
+            "damage": "20+",
+            "effect": "Vergleiche wieviel Energie an allen deinen Pokémon und an allen gegnerischen Pokémon angelegt ist. Wenn an deinen Pokémon weniger Energie angelegt ist als an den gegnerischen Pokémon, fügt dieser Angriff 20 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex3-21"
+        }
+    ],
+    "print_key": "tcgdex:ex3-21",
+    "card_key": "227|70|1|Hisao Nakamura|None,20+|1,2",
+    "types_en": [
+        "Metal"
+    ]
+}

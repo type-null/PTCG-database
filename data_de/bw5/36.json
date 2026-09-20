@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw5-36",
+    "name": "Swaroness",
+    "img": "https://assets.tcgdex.net/de/bw/bw5/36/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw5",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw5/symbol",
+    "set_full_name": "Erforscher der Finsternis",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw5",
+    "date": "2012-05-09",
+    "number": "36",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Mizue"
+    ],
+    "pokedex_number": 581,
+    "pokemon_category": "",
+    "flavor_text": "Wenn der Morgen dämmert, fangen sie an zu tanzen. Das Swaroness in der Mitte führt die Gruppe an.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Heilender Reigen",
+            "damage": null,
+            "effect": "Heile 30 Schadenspunkte bei jedem deiner Pokémon."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Dauerpicker",
+            "damage": 60,
+            "effect": "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Piccolente",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw5-36"
+        }
+    ],
+    "print_key": "tcgdex:bw5-36",
+    "card_key": "581|90|1|Mizue|None,60|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

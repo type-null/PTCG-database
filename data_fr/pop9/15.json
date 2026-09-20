@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pop9-15",
+    "name": "Pikachu",
+    "img": "https://assets.tcgdex.net/fr/pop/pop9/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pop9",
+    "set_img": "https://assets.tcgdex.net/univ/pop/pop9/symbol",
+    "set_full_name": "POP Série 9",
+    "series": "POP",
+    "set_code": "pop9",
+    "date": "2009-03-01",
+    "number": "15",
+    "set_total": 17,
+    "rarity": "Commune",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "flavor_text": "Si les poches électriques de ses joues crépitent, c'est qu'il est sur ses gardes.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Rugissement",
+            "damage": null,
+            "effect": "Lors du prochain tour de votre adversaire, tous dégâts infligés par des attaques au Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Engourdi",
+            "damage": 30,
+            "effect": "Si Pikachu évolue de Pichu lors de ce tour, le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pop9-15"
+        }
+    ],
+    "print_key": "tcgdex:pop9-15",
+    "card_key": "25|60|1|Midori Harada|None,30|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw1-25",
+    "name": "Flampivian",
+    "img": "https://assets.tcgdex.net/de/bw/bw1/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw1",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw1/symbol",
+    "set_full_name": "Schwarz & Weiß",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw1",
+    "date": "2011-04-25",
+    "number": "25",
+    "set_total": 115,
+    "rarity": "Selten",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 555,
+    "pokemon_category": "",
+    "flavor_text": "Schwächt man es im Kampf, wird es reglos wie ein Stein und horcht in sich hinein, um mit der Kraft seines Geistes zu kämpfen.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Feuerzahn",
+            "damage": 20,
+            "effect": "Das Verteidigende Pokémon ist jetzt verbrannt."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Fuchtler",
+            "damage": 70,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu. Bei „Zahl“ fügt sich dieses Pokémon selbst 20 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Flampion",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw1-25"
+        }
+    ],
+    "print_key": "tcgdex:bw1-25",
+    "card_key": "555|120|2|Naoki Saito|20,70|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv04-132",
+    "name": "Duokles",
+    "img": "https://assets.tcgdex.net/de/sv/sv04/132/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv04",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04/symbol",
+    "set_full_name": "Paradoxrift",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv04",
+    "date": "2023-11-03",
+    "number": "132",
+    "set_total": 266,
+    "rarity": "Häufig",
+    "author": [
+        "Bun Toujo"
+    ],
+    "pokedex_number": 680,
+    "pokemon_category": "",
+    "flavor_text": "Seine zwei Schwerter wechseln sich in einer hektischen Aufeinanderfolge von Angriff und Verteidigung ab, um seine Beute zu erlegen.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Schlitzer",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Schlitzender Schlag",
+            "damage": 80,
+            "effect": "Während deines nächsten Zuges kann dieses Pokémon Schlitzender Schlag nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Gramokles",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv04-132"
+        }
+    ],
+    "print_key": "tcgdex:sv04-132",
+    "card_key": "680|90|2|Bun Toujo|20,80|1,2",
+    "types_en": [
+        "Metal"
+    ]
+}

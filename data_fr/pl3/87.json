@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl3-87",
+    "name": "Wailmer",
+    "img": "https://assets.tcgdex.net/fr/pl/pl3/87/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Vainqueurs Suprêmes",
+    "series": "Platine",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "87",
+    "set_total": 162,
+    "rarity": "Peu Commune",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 320,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Hydrocanon",
+            "damage": "20+",
+            "effect": "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Water attachée à Wailmer qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Bélier",
+            "damage": 50,
+            "effect": "Wailmer s'inflige 20 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl3-87"
+        }
+    ],
+    "print_key": "tcgdex:pl3-87",
+    "card_key": "320|80|3|Masakazu Fukuda|20+,50|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

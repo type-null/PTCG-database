@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dc1-19",
+    "name": "Grahyèna de la Team Magma",
+    "img": "https://assets.tcgdex.net/fr/xy/dc1/19/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dc1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/dc1/symbol",
+    "set_full_name": "Double Danger",
+    "series": "XY",
+    "set_code": "dc1",
+    "date": "2015-03-25",
+    "number": "19",
+    "set_total": 34,
+    "rarity": "Commune",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "pokedex_number": 262,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Morsure",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Croc Hostile",
+            "damage": "80＋",
+            "effect": "Si le Pokémon Actif de votre adversaire est un Pokémon de la Team Aqua, cette attaque inflige 40 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Medhyèna de la Team Magma",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dc1-19"
+        }
+    ],
+    "print_key": "tcgdex:dc1-19",
+    "card_key": "262|100|1|Hitoshi Ariga|30,80+|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

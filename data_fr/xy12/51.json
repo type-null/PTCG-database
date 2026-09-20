@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy12-51",
+    "name": "Mewtwo",
+    "img": "https://assets.tcgdex.net/fr/xy/xy12/51/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Évolutions",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "51",
+    "set_total": 113,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Psyko",
+            "damage": "20+",
+            "effect": "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy"
+            ],
+            "name": "Bouclier",
+            "damage": null,
+            "effect": "Pendant le prochain tour de votre adversaire, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon. Si l'un de vos Pokémon a utilisé Bouclier lors de votre dernier tour, cette attaque ne peut pas être utilisée."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy12-51"
+        }
+    ],
+    "print_key": "tcgdex:xy12-51",
+    "card_key": "150|130|2|Ken Sugimori|20+,None|2,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

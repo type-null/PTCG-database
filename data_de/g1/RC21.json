@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/g1-RC21",
+    "name": "Feelinara-EX",
+    "img": "https://assets.tcgdex.net/de/xy/g1/RC21/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Generationen",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "RC21",
+    "set_total": 117,
+    "rarity": "Ultra Selten",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 700,
+    "pokemon_category": "",
+    "hp": 170,
+    "types": [
+        "Fee"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "In Schale werfen",
+            "damage": "30+",
+            "effect": "Wenn an dieses Pokémon eine Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff 30 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Fee",
+                "Fee",
+                "Farblos"
+            ],
+            "name": "Edle Schleife",
+            "damage": 100,
+            "effect": "Verschiebe 1 an dieses Pokémon angelegte {FAIRY}-Energie auf 1 Pokémon auf deiner Bank. Wenn du das machst, heile 50 Schadenspunkte bei jenem Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/g1-RC21"
+        }
+    ],
+    "print_key": "tcgdex:g1-RC21",
+    "card_key": "700|170|2|sui|30+,100|2,3",
+    "types_en": [
+        "Fairy"
+    ]
+}

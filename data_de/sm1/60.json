@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm1-60",
+    "name": "Hypno",
+    "img": "https://assets.tcgdex.net/de/sm/sm1/60/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sonne & Mond",
+    "series": "Sonne & Mond",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "60",
+    "set_total": 172,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "OOYAMA"
+    ],
+    "pokedex_number": 97,
+    "pokemon_category": "",
+    "flavor_text": "Es versetzt jeden, dem es begegnet, sofort in Schlaf und kostet seine Träume. Schmeckt ihm ein Traum, nimmt es die Person mit.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Meditation",
+            "damage": "20+",
+            "effect": "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der Schadensmarken auf dem Aktiven Pokémon deines Gegners zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Hypnoschuss",
+            "damage": 70,
+            "effect": "Das Aktive Pokémon deines Gegners schläft jetzt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Traumato",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm1-60"
+        }
+    ],
+    "print_key": "tcgdex:sm1-60",
+    "card_key": "97|110|2|OOYAMA|20+,70|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

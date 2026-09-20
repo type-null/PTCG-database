@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-69",
+    "name": "Onix",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/69/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "69",
+    "set_total": 111,
+    "rarity": "Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 95,
+    "pokemon_category": "",
+    "flavor_text": "Il serpente et ondule à travers le sol. Le rugissement bruyant de son excavation résonne très loin.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Grincement",
+            "damage": null,
+            "effect": "Jusqu'à la fin de votre prochain tour, si une attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), cette attaque inflige 20 dégâts supplémentaires au Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Frénésie",
+            "damage": "10+",
+            "effect": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Onix."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-69"
+        }
+    ],
+    "print_key": "tcgdex:neo1-69",
+    "card_key": "95|60|2|Mitsuhiro Arita|None,10+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

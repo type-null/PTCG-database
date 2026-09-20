@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-4",
+    "name": "Charizard",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "4",
+    "set_total": 102,
+    "rarity": "Rara",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "flavor_text": "Sputa fiamme così intense da sciogliere le rocce. Senza volerlo, a volte causa incendi boschivi. LIV 76 N.6",
+    "stage": "Livello 2",
+    "hp": 120,
+    "types": [
+        "Fuoco"
+    ],
+    "abilities": [
+        {
+            "name": "Brucia energia",
+            "effect": "Quante volte vuoi durante il tuo turno (prima di attaccare), puoi trasformare tutte le carte Energia assegnate a Charizard in carte Energia Fuoco per il resto del turno. Questo potere non può essere usato se Charizard è Addormentato, Confuso o Paralizzato."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuoco",
+                "Fuoco",
+                "Fuoco",
+                "Fuoco"
+            ],
+            "name": "Turbofuoco",
+            "damage": 100,
+            "effect": "Scarta 2 carte Energia assegnate a Charizard per poter usare questo attacco."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Acqua"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Charmeleon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-4"
+        }
+    ],
+    "print_key": "tcgdex:base1-4",
+    "card_key": "6|120|3|Mitsuhiro Arita|100|4",
+    "types_en": [
+        "Fire"
+    ]
+}

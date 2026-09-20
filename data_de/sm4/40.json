@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm4-40",
+    "name": "Traunmagil",
+    "img": "https://assets.tcgdex.net/de/sm/sm4/40/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Aufziehen der Sturmröte",
+    "series": "Sonne & Mond",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "40",
+    "set_total": 125,
+    "rarity": "Selten",
+    "author": [
+        "chibi"
+    ],
+    "pokedex_number": 429,
+    "pokemon_category": "",
+    "flavor_text": "Es erscheint aus dem Nichts, flüstert Beschwörungen, spricht Flüche aus und erzeugt furchteinflößende Trugbilder.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Wirrsalsrad",
+            "damage": 30,
+            "effect": "Dein Gegner kann während seines nächsten Zuges keine Pokémon-Ausrüstungen, Spezial-Energien oder Stadionkarten aus seiner Hand spielen."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schwarze Kunst",
+            "damage": "20×",
+            "effect": "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl der Karten auf der Hand deines Gegners zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Traunfugil",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm4-40"
+        }
+    ],
+    "print_key": "tcgdex:sm4-40",
+    "card_key": "429|110|1|chibi|30,20x|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

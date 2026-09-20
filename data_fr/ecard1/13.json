@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard1-13",
+    "name": "Ectoplasma",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard1/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-cards",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "13",
+    "set_total": 165,
+    "rarity": "Holo Rare",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 94,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 90,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Mouvement chaotique",
+            "effect": "Une seule fois pendant votre tour (avant votre attaque), si votre adversaire a un maximum de 3 Récompenses, vous pouvez déplacer 1 marqueur de dégâts depuis un Pokémon (le vôtre ou celui de l'adversaire) vers un autre (même si cela met l'autre Pokémon K.O.). Ce pouvoir ne peut pas être utilisé si Ectoplasma est affecté par un État spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Cache-ombre",
+            "damage": 40,
+            "effect": "Échangez Ectoplasma contre l'un des Pokémon de votre Banc, si vous en avez."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Spectrum",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard1-13"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-13",
+    "card_key": "94|90|1|Yukiko Baba|40|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

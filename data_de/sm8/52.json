@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm8-52",
+    "name": "Kopplosio GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm8/52/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Echo des Donners",
+    "series": "Sonne & Mond",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "52",
+    "set_total": 236,
+    "rarity": "Ultra Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 806,
+    "pokemon_category": "",
+    "hp": 180,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Berstender Brand",
+            "damage": null,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt und verwirrt."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Knallkopf",
+            "damage": "50×",
+            "effect": "Lege beliebig viele der an deine Pokémon angelegten {R}-Energien ins Nirgendwo. Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der auf diese Weise ins Nirgendwo gelegten Karten zu."
+        },
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Detonation-GX",
+            "damage": null,
+            "effect": "Lege 1 deiner Preiskarten auf deinen Ablagestapel. Wenn es eine Energiekarte ist, lege sie an 1 deiner Pokémon an. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm8-52"
+        }
+    ],
+    "print_key": "tcgdex:sm8-52",
+    "card_key": "806|180|2|5ban Graphics|None,50x,None|1,2,1",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo2-13",
+    "name": "Nachtara",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Entdeckung",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "13",
+    "set_total": 75,
+    "rarity": "Selten",
+    "author": [
+        "Kimiya Masago"
+    ],
+    "pokedex_number": 197,
+    "pokemon_category": "",
+    "flavor_text": "Wenn es dunkel wird, fangen die Ringe in seinem Fell an zu glühen und jagen allen in der Nähe Angst ein.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Biss",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Finte",
+            "damage": "30+",
+            "effect": "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 30 Schadenspunkte zu. Die Schadenspunkte aus diesem Angriff werden von Schwäche, Resistenz, Pokémon-Power oder allen anderen Effekten auf das verteidigende Pokémon nicht beeinflusst."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo2-13"
+        }
+    ],
+    "print_key": "tcgdex:neo2-13",
+    "card_key": "197|80|1|Kimiya Masago|20,30+|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

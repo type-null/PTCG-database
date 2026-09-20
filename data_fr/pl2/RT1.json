@@ -1,0 +1,77 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl2-RT1",
+    "name": "Motisma Hélice Niv. 46",
+    "img": "https://assets.tcgdex.net/fr/pl/pl2/RT1/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Rivaux Émergeants",
+    "series": "Platine",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "RT1",
+    "set_total": 120,
+    "rarity": "Rare",
+    "author": [
+        "Motofumi Fujiwara"
+    ],
+    "pokedex_number": 479,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Mutation hélice",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Motisma Hélice est de type {C} jusqu'à la fin de votre tour."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Orage virevoltant",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, votre adversaire reprend dans sa main le Pokémon Défenseur ainsi que toutes les cartes qui lui sont attachées."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Lame d'Air",
+            "damage": 60,
+            "effect": "Lancez une pièce. Si c'est pile, défaussez une Énergie attachée à Motisma Hélice."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl2-RT1"
+        }
+    ],
+    "print_key": "tcgdex:pl2-RT1",
+    "card_key": "479|70|0|Motofumi Fujiwara|None,60|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-66",
+    "name": "Tangela",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "66",
+    "set_total": 102,
+    "rarity": "Häufig",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 114,
+    "pokemon_category": "",
+    "flavor_text": "Sein ganzer Körper ist von breiten, seetangähnlichen Kletterpflanzen umhüllt.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Klammergriff",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon gelähmt."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Giftpuder",
+            "damage": 20,
+            "effect": "Das verteidigende Pokémon ist vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-66"
+        }
+    ],
+    "print_key": "tcgdex:base1-66",
+    "card_key": "114|50|2|Mitsuhiro Arita|20,20|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

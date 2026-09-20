@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw2-35",
+    "name": "Voltolos",
+    "img": "https://assets.tcgdex.net/de/bw/bw2/35/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw2",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw2/symbol",
+    "set_full_name": "Aufstreben der Mächtigen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw2",
+    "date": "2011-08-31",
+    "number": "35",
+    "set_total": 98,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 642,
+    "pokemon_category": "",
+    "flavor_text": "Es greift mit elektrischer Ladung aus den Dornen seiner Rute an und bombardiert Einall aus der Luft mit Blitzen.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Ladevorgang",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 {L}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Stromschwall",
+            "damage": 80,
+            "effect": "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw2-35"
+        }
+    ],
+    "print_key": "tcgdex:bw2-35",
+    "card_key": "642|110|1|5ban Graphics|None,80|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

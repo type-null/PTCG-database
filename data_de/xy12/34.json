@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy12-34",
+    "name": "Garados",
+    "img": "https://assets.tcgdex.net/de/xy/xy12/34/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Evolution",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "34",
+    "set_total": 113,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "flavor_text": "Es ist von Natur aus sehr aggressiv. Der Hyperstrahl, den es aus seinem Maul verschießt, äschert seine Gegner ein.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Blubbstrahl",
+            "damage": 50,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Drachenwut",
+            "damage": 180,
+            "effect": "Wirf 2 Münzen. Wenn eine oder beide Münzen „Zahl“ zeigen, hat dieser Angriff keine Auswirkungen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Karpador",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy12-34"
+        }
+    ],
+    "print_key": "tcgdex:xy12-34",
+    "card_key": "130|130|3|Mitsuhiro Arita|50,180|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

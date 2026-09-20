@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp6-29",
+    "name": "Groudon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Erwachte Legenden",
+    "series": "Diamant & Perl",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "29",
+    "set_total": 146,
+    "rarity": "Selten",
+    "author": [
+        "Kazuaki Aihara"
+    ],
+    "pokedex_number": 383,
+    "pokemon_category": "",
+    "flavor_text": "Es hat seit dem Kampf gegen KYOGRE in Magma unter dem Erdboden geschlafen.",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Dürre",
+            "damage": null,
+            "effect": "Wähle bis zu 2 {F}-Basis-Energiekarten von deiner Hand und lege sie an 1 deiner Pokémon an."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Schweres Erdbeben",
+            "damage": 100,
+            "effect": "Lege 2 an Groudon angelegte {F}-Energien auf deinen Ablagestapel und dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp6-29"
+        }
+    ],
+    "print_key": "tcgdex:dp6-29",
+    "card_key": "383|100|3|Kazuaki Aihara|None,100|0,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

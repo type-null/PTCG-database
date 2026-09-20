@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sma-SV14",
+    "name": "Câblifère",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sma",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sma/symbol",
+    "set_full_name": "Destinées Occultes Coffre Étincelant",
+    "series": "Soleil et Lune",
+    "set_code": "sma",
+    "date": "2019-08-23",
+    "number": "SV14",
+    "set_total": 94,
+    "rarity": "Shiny rare",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 796,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Explosion de Lumière",
+            "damage": 20,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Câblogramme",
+            "damage": 100,
+            "effect": "S’il vous reste exactement 3 cartes Récompense, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sma-SV14"
+        }
+    ],
+    "print_key": "tcgdex:sma-SV14",
+    "card_key": "796|120|1|Naoki Saito|20,100|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

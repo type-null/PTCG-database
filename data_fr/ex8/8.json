@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex8-8",
+    "name": "Léviator",
+    "img": "https://assets.tcgdex.net/fr/ex/ex8/8/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "8",
+    "set_total": 108,
+    "rarity": "Rare",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Étincelle de dragon",
+            "damage": null,
+            "effect": "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc)."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Vengeance totale",
+            "damage": "20x",
+            "effect": "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégât sur tous vos Magicarpes."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Pulvériser",
+            "damage": "20x",
+            "effect": "Si le Pokémon Défenseur possède au moins 2 marqueurs de dégât, cette attaque inflige 50 dégâts plus 50 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Magicarpe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex8-8"
+        }
+    ],
+    "print_key": "tcgdex:ex8-8",
+    "card_key": "130|90|2|Hisao Nakamura|None,20x,20x|1,2,4",
+    "types_en": [
+        "Water"
+    ]
+}

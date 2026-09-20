@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/30th-c-001",
+    "name": "Glurak",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "30th-c",
+    "set_full_name": "30 Jahre: Klassische Sammlung",
+    "series": "Mega-Entwicklung",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "001",
+    "set_total": 30,
+    "rarity": "Keine",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "Energie verbrennen",
+            "effect": "Bist Du am Zug, kannst Du (vor Deinem Angriff) beliebig oft alle auf Glurak abgelegte Energie in Fire Energie für den Rest des Zugs verwandeln. Diese Fähigkeit kann nicht eingesetzt werden, falls Glurak schlafend, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Feuerwirbel",
+            "damage": 100,
+            "effect": "Entferne 2 auf Glurak abgelegte Energiekarten, um diesen Angriff auszuführen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/30th-c-001"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-1",
+    "card_key": "6|120|3|Mitsuhiro Arita|100|4",
+    "types_en": [
+        "Fire"
+    ]
+}

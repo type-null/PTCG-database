@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw4-74",
+    "name": "Irokex",
+    "img": "https://assets.tcgdex.net/de/bw/bw4/74/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw4",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw4/symbol",
+    "set_full_name": "Kommende Schicksale",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw4",
+    "date": "2012-02-08",
+    "number": "74",
+    "set_total": 103,
+    "rarity": "Selten",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 560,
+    "pokemon_category": "",
+    "flavor_text": "Wählt seinen Anführer über die Größe des Kamms auf dem Kopf. Ein Tritt von ihm reicht, um Betonblöcke zu zertrümmern.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht"
+            ],
+            "name": "Steinhaupt",
+            "damage": 20,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Hammerkick",
+            "damage": 50,
+            "effect": "Wenn dieses Pokémon weniger verbliebene KP hat als das Verteidigende Pokémon, fügt dieser Angriff 30 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Zurrokex",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw4-74"
+        }
+    ],
+    "print_key": "tcgdex:bw4-74",
+    "card_key": "560|90|2|Naoki Saito|20,50|1,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

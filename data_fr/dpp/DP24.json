@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dpp-DP24",
+    "name": "Darkrai",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dpp",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dpp/symbol",
+    "set_full_name": "Promo DP",
+    "series": "Diamant & Perle",
+    "set_code": "dpp",
+    "date": "2007-05-01",
+    "number": "DP24",
+    "set_total": 56,
+    "rarity": "Commune",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 491,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Spatio-Rift",
+            "damage": 10,
+            "effect": "Choisissez dans votre deck une carte Stade, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck. Si une carte Stade est en jeu, défaussez-la."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Métal"
+            ],
+            "name": "Hurle-Temps",
+            "damage": 80,
+            "effect": "Choisissez 3 Pokémon dans votre pile de défausse. Montrez-les à votre adversaire et placez-les sur le dessus de votre deck. Ensuite, mélangez votre deck. (Si vous ne possédez pas 3 Pokémon dans votre pile de défausse, cette attaque est sans effet.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dpp-DP24"
+        }
+    ],
+    "print_key": "tcgdex:dpp-DP24",
+    "card_key": "491|80|1|Kouki Saitou|10,80|1,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

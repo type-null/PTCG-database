@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy0-23",
+    "name": "Granbull",
+    "img": "https://assets.tcgdex.net/de/xy/xy0/23/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy0",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy0/symbol",
+    "set_full_name": "Willkommen in Kalos",
+    "series": "XY",
+    "set_code": "xy0",
+    "date": "2013-11-08",
+    "number": "23",
+    "set_total": 39,
+    "rarity": "Keine",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 210,
+    "pokemon_category": "",
+    "flavor_text": "Es ist trotz seines Äußeren schüchtern. Wird es wütend, schnappt es mit seinen Fängen zu.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Fee"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fee",
+                "Farblos"
+            ],
+            "name": "Kopfnuss",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Fee",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Doppelstampfer",
+            "damage": "50+",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Snubbull",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy0-23"
+        }
+    ],
+    "print_key": "tcgdex:xy0-23",
+    "card_key": "210|100|3|Masakazu Fukuda|30,50+|2,3",
+    "types_en": [
+        "Fairy"
+    ]
+}

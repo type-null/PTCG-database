@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/smp-SM109",
+    "name": "Pikachu de Sacha",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "Promo SM",
+    "series": "Soleil et Lune",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM109",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "2017 Pikachu Project"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Hâte",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c’est face, évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Fatal-Foudre",
+            "damage": 80,
+            "effect": "Lancez une pièce. Si c’est pile, ce Pokémon s’inflige 20 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/smp-SM109"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM109",
+    "card_key": "25|70|1|2017 Pikachu Project|None,80|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

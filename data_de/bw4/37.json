@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw4-37",
+    "name": "Siberio",
+    "img": "https://assets.tcgdex.net/de/bw/bw4/37/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw4",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw4/symbol",
+    "set_full_name": "Kommende Schicksale",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw4",
+    "date": "2012-02-08",
+    "number": "37",
+    "set_total": 103,
+    "rarity": "Selten",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 614,
+    "pokemon_category": "",
+    "flavor_text": "Kann seinen eigenen Atem zum Gefrieren bringen. Es schwimmt auf der Suche nach Beute die nördlichen Meere ab.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Entmutigen",
+            "damage": 40,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der durch Angriffe des Verteidigenden Pokémon zugefügt wird, um 20 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Hinterhalt",
+            "damage": 60,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Petznief",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw4-37"
+        }
+    ],
+    "print_key": "tcgdex:bw4-37",
+    "card_key": "614|120|3|kawayoo|40,60|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

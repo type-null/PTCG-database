@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv08-019",
+    "name": "Ho-Oh",
+    "img": "https://assets.tcgdex.net/fr/sv/sv08/019/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "H",
+    "set_name": "sv08",
+    "set_full_name": "Étincelles Déferlantes",
+    "series": "Écarlate et Violet",
+    "set_code": "sv08",
+    "date": "2024-11-08",
+    "number": "019",
+    "set_total": 252,
+    "rarity": "Peu Commune",
+    "author": [
+        "kodama"
+    ],
+    "pokedex_number": 250,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Battement",
+            "damage": 50,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Brasier Brillant",
+            "damage": "100+",
+            "effect": "Si vous avez au moins un Pokémon Téracristal sur votre Banc, cette attaque inflige 100 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv08-019"
+        }
+    ],
+    "print_key": "tcgdex:sv08-19",
+    "card_key": "250|130|2|kodama|50,100+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-24",
+    "name": "Charmeleon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "24",
+    "set_total": 102,
+    "rarity": "Non comune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 5,
+    "pokemon_category": "",
+    "flavor_text": "Quando rotea la coda incandescente, aumenta la temperatura a livelli insopportabilmente alti. LIV 32 N.5",
+    "stage": "Livello 1",
+    "hp": 80,
+    "types": [
+        "Fuoco"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Lacerazione",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Fuoco",
+                "Fuoco",
+                "Incolore"
+            ],
+            "name": "Lanciafiamme",
+            "damage": 50,
+            "effect": "Scarta una carta Energia Fuoco assegnata a Charmeleon per poter usare questo attacco."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Acqua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Charmander",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-24"
+        }
+    ],
+    "print_key": "tcgdex:base1-24",
+    "card_key": "5|80|1|Mitsuhiro Arita|30,50|3,3",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp2-12",
+    "name": "Maganon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Trésors Mystérieux",
+    "series": "Diamant & Perle",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "12",
+    "set_total": 124,
+    "rarity": "Rare Holo",
+    "author": [
+        "Hiroaki Ito"
+    ],
+    "pokedex_number": 467,
+    "pokemon_category": "",
+    "flavor_text": "Il projette des boules de feu de 2000°C à bout de bras. Il vit dans les cratères volcaniques.",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Bombe fumante",
+            "damage": 30,
+            "effect": "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Feu roulant",
+            "damage": 80,
+            "effect": "Si Magby ne se trouve pas sous Maganon, défaussez 2 cartes Énergie de votre main. (Si vous ne pouvez pas défausser 2 cartes Énergie de votre main, cette attaque est sans effet.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+30"
+    },
+    "retreat": 3,
+    "evolve_from": "Magmar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp2-12"
+        }
+    ],
+    "print_key": "tcgdex:dp2-12",
+    "card_key": "467|100|3|Hiroaki Ito|30,80|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

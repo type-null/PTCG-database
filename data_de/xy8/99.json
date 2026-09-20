@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy8-99",
+    "name": "Granbull",
+    "img": "https://assets.tcgdex.net/de/xy/xy8/99/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy8",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy8/symbol",
+    "set_full_name": "TURBOstart",
+    "series": "XY",
+    "set_code": "xy8",
+    "date": "2015-11-04",
+    "number": "99",
+    "set_total": 165,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 210,
+    "pokemon_category": "",
+    "flavor_text": "Es kann fast jedes Pokémon vertreiben, indem es sein Maul weit öffnet und seine scharfen Reißzähne zeigt.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Fee"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schreckgebell",
+            "damage": null,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ wähle 3 zufällige Karten aus der verdeckten Hand deines Gegners. Dein Gegner zeigt diese Karten und mischt sie zurück in sein Deck."
+        },
+        {
+            "cost": [
+                "Fee",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wutausbruch",
+            "damage": 120,
+            "effect": "Dieses Pokémon ist jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Snubbull",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy8-99"
+        }
+    ],
+    "print_key": "tcgdex:xy8-99",
+    "card_key": "210|120|3|Naoki Saito|None,120|2,3",
+    "types_en": [
+        "Fairy"
+    ]
+}

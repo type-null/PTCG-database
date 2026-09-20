@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-104",
+    "name": "Coxy",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "104",
+    "set_total": 146,
+    "rarity": "Commune",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 165,
+    "pokemon_category": "",
+    "flavor_text": "Il est si timide qu'il ne se déplace qu'au milieu d'un essaim. Il exprime ses émotions par l'odeur.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Ultrason",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Damoclès",
+            "damage": 30,
+            "effect": "Coxy s'inflige 10 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-104"
+        }
+    ],
+    "print_key": "tcgdex:dp6-104",
+    "card_key": "165|50|1|Atsuko Nishida|None,30|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

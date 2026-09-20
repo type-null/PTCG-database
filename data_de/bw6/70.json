@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw6-70",
+    "name": "Flunschlik",
+    "img": "https://assets.tcgdex.net/de/bw/bw6/70/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw6",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw6/symbol",
+    "set_full_name": "Hoheit der Drachen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw6",
+    "date": "2012-08-15",
+    "number": "70",
+    "set_total": 128,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "HiRON"
+    ],
+    "pokedex_number": 618,
+    "pokemon_category": "",
+    "flavor_text": "Es vergräbt sich im Morast am Meeresboden. Wird es von seiner Beute gestreift, lähmt es sie mit Strom.",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Lehmbrühe",
+            "damage": 20,
+            "effect": "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Grollen",
+            "damage": 40,
+            "effect": "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw6-70"
+        }
+    ],
+    "print_key": "tcgdex:bw6-70",
+    "card_key": "618|100|3|HiRON|20,40|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

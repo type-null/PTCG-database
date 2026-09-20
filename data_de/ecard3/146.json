@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-146",
+    "name": "Glurak",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "146",
+    "set_total": 182,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 110,
+    "types": [
+        "Farblos"
+    ],
+    "abilities": [
+        {
+            "name": "Kristall-Typ",
+            "effect": "Immer wenn du eine -, - oder -Basis-Energiekarte aus deiner Hand an Glurak anlegst, ändert sich Gluraks Typ (Farbe) bis zum Ende des Zuges zu dem gleichen Typ wie diese Energie."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Kampf"
+            ],
+            "name": "Feuerstoß",
+            "damage": 40,
+            "effect": "Lege eine an Glurak angelegte Energiekarte auf deinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Drachenschwanz",
+            "damage": "50×",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "x2"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-146"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-146",
+    "card_key": "6|110|4|Kouki Saitou|40,50x|3,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

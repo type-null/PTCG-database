@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw7-54",
+    "name": "Elevoltek",
+    "img": "https://assets.tcgdex.net/de/bw/bw7/54/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw7",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw7/symbol",
+    "set_full_name": "Überschrittene Schwellen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw7",
+    "date": "2012-11-07",
+    "number": "54",
+    "set_total": 153,
+    "rarity": "Selten",
+    "author": [
+        "BERUBURI"
+    ],
+    "pokedex_number": 466,
+    "pokemon_category": "",
+    "flavor_text": "Es berührt Gegner mit seinen beiden Schweifspitzen und entlädt dabei geballte 20 000 Volt.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Elektrowelle",
+            "damage": null,
+            "effect": "Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schockwelle",
+            "damage": 80,
+            "effect": "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Elektek",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw7-54"
+        }
+    ],
+    "print_key": "tcgdex:bw7-54",
+    "card_key": "466|120|3|BERUBURI|None,80|3,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

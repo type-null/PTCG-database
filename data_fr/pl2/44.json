@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl2-44",
+    "name": "Galegon Niv. 37",
+    "img": "https://assets.tcgdex.net/fr/pl/pl2/44/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Rivaux Émergeants",
+    "series": "Platine",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "44",
+    "set_total": 120,
+    "rarity": "Peu Commune",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 305,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Heavy Métal",
+            "damage": "10+",
+            "effect": "Lancez une pièce pour chaque Énergie {M} attachée à Galegon. Cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires pour chaque face."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tête de granit",
+            "damage": 40,
+            "effect": "Lors du prochain tour de votre adversaire, tous dégâts infligés à Galegon par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Galekid",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl2-44"
+        }
+    ],
+    "print_key": "tcgdex:pl2-44",
+    "card_key": "305|80|2|Yukiko Baba|10+,40|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm7-70",
+    "name": "Lunala",
+    "img": "https://assets.tcgdex.net/de/sm/sm7/70/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm7",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm7/symbol",
+    "set_full_name": "Sturm Am Firmament",
+    "series": "Sonne & Mond",
+    "set_code": "sm7",
+    "date": "2018-08-03",
+    "number": "70",
+    "set_total": 183,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 792,
+    "pokemon_category": "",
+    "flavor_text": "Es heißt, es sei die weibliche Endstufe der Entwicklungsreihe von Cosmog. Ist sein drittes Auge aktiviert, zieht es in eine andere Welt.",
+    "stage": "Rang 2",
+    "hp": 160,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Phantomschutz",
+            "effect": "Wenn an dieses Pokémon mindestens 1 {P}-Energie angelegt ist, werden ihm durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Vollmondstrahl",
+            "damage": "80+",
+            "effect": "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der an das Aktive Pokémon deines Gegners angelegten Energien zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Cosmovum",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm7-70"
+        }
+    ],
+    "print_key": "tcgdex:sm7-70",
+    "card_key": "792|160|2|5ban Graphics|80+|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

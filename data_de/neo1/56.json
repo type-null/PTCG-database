@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-56",
+    "name": "Feurigel",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "56",
+    "set_total": 111,
+    "rarity": "Häufig",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 155,
+    "pokemon_category": "",
+    "flavor_text": "Es macht normalerweise einen Buckel. Falls es wütend oder überrascht wird, schießt es Flammen aus seinem Rücken.",
+    "stage": "Basis",
+    "hp": 40,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Silberblick",
+            "damage": null,
+            "effect": "Wirf eine Münze. Bei „Kopf“ kann das verteidigende Pokémon Feurigel während des nächsten Zuges deines Gegners nicht angreifen. (Kommt eines dieser Pokémon auf die Bank oder entwickelt sich, endet diese Wirkung.)"
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Sternschauer",
+            "damage": 20,
+            "effect": "Die Schadenspunkte aus diesem Angriff werden Schwäche, Resistenz, Pokémon-Power oder allen anderen Effekten auf das verteidigende Pokémon nicht beeinflusst."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-56"
+        }
+    ],
+    "print_key": "tcgdex:neo1-56",
+    "card_key": "155|40|1|Ken Sugimori|None,20|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

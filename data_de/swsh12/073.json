@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh12-073",
+    "name": "Meditalis",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh12/073/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh12",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12/symbol",
+    "set_full_name": "Silberne Sturmwinde",
+    "series": "Schwert & Schild",
+    "set_code": "swsh12",
+    "date": "2022-11-11",
+    "number": "073",
+    "set_total": 215,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Aya Kusube"
+    ],
+    "pokedex_number": 308,
+    "pokemon_category": "",
+    "flavor_text": "Mit Yoga-Training hat es seine Psycho-Kräfte geschärft und ahnt so die Attacken seiner Gegner voraus.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Erwachende Chakras",
+            "effect": "Wenn du genau 4 Karten auf deiner Hand hast, verringern sich die Kosten der Attacken dieses Pokémon um {C}{C}{C}."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Energischer Tritt",
+            "damage": "80+",
+            "effect": "Wenn dein Gegner mindestens 1 Pokémon-VMAX im Spiel hat, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Meditie",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh12-073"
+        }
+    ],
+    "print_key": "tcgdex:swsh12-73",
+    "card_key": "308|120|2|Aya Kusube|80+|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

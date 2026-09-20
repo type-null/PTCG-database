@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/basep-9",
+    "name": "Mew",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "basep",
+    "set_img": "https://assets.tcgdex.net/univ/base/basep/symbol",
+    "set_full_name": "Wizards Black Star Promos",
+    "series": "Grund",
+    "set_code": "basep",
+    "date": "1999-07-01",
+    "number": "9",
+    "set_total": 53,
+    "rarity": "Häufig",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 151,
+    "pokemon_category": "",
+    "flavor_text": "So selten, dass es von viele Experten noch immer für eine Fata Morgana gehalten wird. Nur wenige Menschen weltweit haben es je erblickt.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Psywelle",
+            "damage": "10×",
+            "effect": "Fügt 10 Schadenspunkte mal der Anzahl der Energiekarten auf dem verteidigenden Pokémon zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Devolutionsstrahl",
+            "damage": null,
+            "effect": "Wähle ein entwickeltes Pokémon (dein eigenes oder ein gegnerisches). Nimm die höchste Evolutionsphasenkarte auf diesem Pokémon zurück auf die Hand des Spielers. Dieses Pokémon ist nicht mehr im Schlaf, verwirrt, gelähmt, vergiftet oder sonst in einem aus einem Angriff resultierenden Zustand (wie wenn du es entwickelt hättest)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/basep-9"
+        }
+    ],
+    "print_key": "tcgdex:basep-9",
+    "card_key": "151|50|1|Ken Sugimori|10x,None|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

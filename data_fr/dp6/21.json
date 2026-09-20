@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-21",
+    "name": "Vacilys",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "21",
+    "set_total": 146,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 346,
+    "pokemon_category": "",
+    "flavor_text": "Il vit dans les hauts-fonds des mers chaudes. Il déterre sa proie du sable quand la marée se retire.",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Assécher",
+            "damage": 30,
+            "effect": "Avant d'infliger des dégâts, vous pouvez échanger 1 des Pokémon Défenseurs avec 1 des Pokémon de Banc de votre adversaire. Cette attaque inflige alors 30 dégâts au nouveau Pokémon Défenseur. Si le Pokémon Défenseur est mis K.O par cette attaque, vous pouvez retirer à Vacilys tous ses marqueurs de dégât."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Acide",
+            "damage": 50,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+30"
+    },
+    "retreat": 3,
+    "evolve_from": "Liliep",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-21"
+        }
+    ],
+    "print_key": "tcgdex:dp6-21",
+    "card_key": "346|120|3|Masakazu Fukuda|30,50|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

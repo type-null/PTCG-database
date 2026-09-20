@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm11-243",
+    "name": "Latios GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm11/243/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Bund der Gleichgesinnten",
+    "series": "Sonne & Mond",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "243",
+    "set_total": 258,
+    "rarity": "Versteckt Selten",
+    "author": [
+        "ConceptLab"
+    ],
+    "pokedex_number": 381,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 170,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Kraftbindung",
+            "effect": "Wenn du 4 oder weniger Pokémon im Spiel hast, kann dieses Pokémon nicht angreifen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Team-Block",
+            "damage": 120,
+            "effect": "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von TAG TEAM Pokémon zugefügt wird."
+        },
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Freie Sicht GX",
+            "damage": null,
+            "effect": "Für den Rest des Spiels kann dein Gegner keine GX-Attacken einsetzen. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm11-243"
+        }
+    ],
+    "print_key": "tcgdex:sm11-243",
+    "card_key": "381|170|0|ConceptLab|120,None|3,1",
+    "types_en": [
+        "Psychic"
+    ]
+}

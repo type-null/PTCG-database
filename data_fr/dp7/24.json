@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-24",
+    "name": "Drattak",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "24",
+    "set_total": 106,
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 373,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 140,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Bataille précipitée",
+            "effect": "Si votre adversaire possède des Pokémon en jeu avec un maximum de 120 PV ou plus, ignorez toutes les Énergies Colorless nécessaires pour utiliser les attaques de Drattak."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Fournaise",
+            "damage": 50,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feu",
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tornade vapeur",
+            "damage": 120,
+            "effect": "Défaussez une Énergie Fire et une Énergie Water attachée à Drattak."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Drackhaus",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-24"
+        }
+    ],
+    "print_key": "tcgdex:dp7-24",
+    "card_key": "373|140|3|Kagemaru Himeno|50,120|2,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

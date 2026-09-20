@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv08-011",
+    "name": "Zarude",
+    "img": "https://assets.tcgdex.net/de/sv/sv08/011/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "H",
+    "set_name": "sv08",
+    "set_full_name": "Stürmische Funken",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv08",
+    "date": "2024-11-08",
+    "number": "011",
+    "set_total": 252,
+    "rarity": "Selten",
+    "author": [
+        "GOSSAN"
+    ],
+    "pokedex_number": 893,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Blattsauger",
+            "damage": 20,
+            "effect": "Heile 20 Schadenspunkte bei diesem Pokémon."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Dschungelpeitsche",
+            "damage": "80+",
+            "effect": "Du kannst alle an dieses Pokémon angelegten Energien auf deine Hand nehmen, sodass diese Attacke 80 Schadenspunkte mehr zufügt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv08-011"
+        }
+    ],
+    "print_key": "tcgdex:sv08-11",
+    "card_key": "893|120|1|GOSSAN|20,80+|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

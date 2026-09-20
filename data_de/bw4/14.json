@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw4-14",
+    "name": "Lavados",
+    "img": "https://assets.tcgdex.net/de/bw/bw4/14/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw4",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw4/symbol",
+    "set_full_name": "Kommende Schicksale",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw4",
+    "date": "2012-02-08",
+    "number": "14",
+    "set_total": 103,
+    "rarity": "Selten",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 146,
+    "pokemon_category": "",
+    "flavor_text": "Eines der Legendären Vogel-Pokémon. Es wird als Bote des Frühlings angesehen.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Sengende Flammen",
+            "damage": 50,
+            "effect": "Das Verteidigende Pokémon ist jetzt verbrannt."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Feuersturm",
+            "damage": 90,
+            "effect": "Lege 1 an dieses Pokémon angelegte {R}-Energie auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw4-14"
+        }
+    ],
+    "print_key": "tcgdex:bw4-14",
+    "card_key": "146|120|2|Ryo Ueda|50,90|3,4",
+    "types_en": [
+        "Fire"
+    ]
+}

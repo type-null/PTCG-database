@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/col1-5",
+    "name": "Foretress",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "L'appel des Légendes",
+    "series": "L'appel des Légendes",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "5",
+    "set_total": 106,
+    "rarity": "Holo Rare",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 205,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Miroi-Tir",
+            "damage": 30,
+            "effect": "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, cette attaque ne fait rien."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Explosion générale",
+            "damage": "30×",
+            "effect": "Inflige 30 dégâts multipliés par le nombre de et de Foretress que vous avez en jeu. Cette attaque inflige 30 dégâts à chacun de vos Pomdepik et Foretress en jeu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Pomdepik",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/col1-5"
+        }
+    ],
+    "print_key": "tcgdex:col1-5",
+    "card_key": "205|90|3|Kyoko Umemoto|30,30x|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

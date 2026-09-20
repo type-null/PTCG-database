@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard1-3",
+    "name": "Arbok",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard1/3/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-cards",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "3",
+    "set_total": 165,
+    "rarity": "Holo Rare",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 24,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Jet-venin",
+            "damage": null,
+            "effect": "Le Pokémon Défenseur est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Allergie poison",
+            "damage": "20+",
+            "effect": "Si le Pokémon Défenseur est Empoisonné, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "evolve_from": "Abo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard1-3"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-3",
+    "card_key": "24|70|1|Kyoko Umemoto|None,20+|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

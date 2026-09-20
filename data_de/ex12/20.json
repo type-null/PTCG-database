@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex12-20",
+    "name": "Lunastein",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Legend Maker",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "20",
+    "set_total": 93,
+    "rarity": "Selten",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 337,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Sonnenschatten",
+            "effect": "Solange du Sonnfel im Spiel hast, können die {R}-Pokémon beider Spieler (außer Pokémon-ex) keine Poké-Power benutzen"
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Mondführung",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach einer Trainerkarte (keine Unterstützerkarte), zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+        },
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Psychoschock",
+            "damage": 10,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex12-20"
+        }
+    ],
+    "print_key": "tcgdex:ex12-20",
+    "card_key": "337|60|1|Hisao Nakamura|None,10|1,1",
+    "types_en": [
+        "Psychic"
+    ]
+}

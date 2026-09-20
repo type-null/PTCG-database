@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw2-72",
+    "name": "Tentantel",
+    "img": "https://assets.tcgdex.net/de/bw/bw2/72/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw2",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw2/symbol",
+    "set_full_name": "Aufstreben der Mächtigen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw2",
+    "date": "2011-08-31",
+    "number": "72",
+    "set_total": 98,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 598,
+    "pokemon_category": "",
+    "flavor_text": "Es setzt sich an der Decke von Höhlen fest und wirft seine dornengespickten Schlingen auf vorbeigehende Beute ab.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Stahlfühler",
+            "damage": 30,
+            "effect": "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Gyroball",
+            "damage": 60,
+            "effect": "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus. Danach tauscht dein Gegner das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Kastadur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw2-72"
+        }
+    ],
+    "print_key": "tcgdex:bw2-72",
+    "card_key": "598|90|2|Shin Nagasawa|30,60|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

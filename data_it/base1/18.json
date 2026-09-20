@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-18",
+    "name": "Dragonair",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "18",
+    "set_total": 102,
+    "rarity": "Rara",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 148,
+    "pokemon_category": "",
+    "flavor_text": "Pokémon mistico con un'indole gentile. Ha l'abilità di cambiare le condizioni climatiche. LIV 33 N.148",
+    "stage": "Livello 1",
+    "hp": 80,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Schianto",
+            "damage": "30x",
+            "effect": "Lancia 2 volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Iper-raggio",
+            "damage": 20,
+            "effect": "Se il Pokémon Difensore ha delle carte Energie assegnate, scegline una e scartala."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Psico"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Dratini",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-18"
+        }
+    ],
+    "print_key": "tcgdex:base1-18",
+    "card_key": "148|80|2|Mitsuhiro Arita|30x,20|3,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

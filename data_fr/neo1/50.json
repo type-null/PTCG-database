@@ -1,0 +1,58 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-50",
+    "name": "Héliatronc",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/50/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "50",
+    "set_total": 111,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 192,
+    "pokemon_category": "",
+    "flavor_text": "Il convertit la lumière solaire en énergie. Dans l'obscurité après le coucher du soleil, il ferme ses pétales et demeure immobile.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Plante"
+            ],
+            "name": "Danse-fleur",
+            "damage": "30x",
+            "effect": "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces. Heliatronc est maintenant Confus (après application des dégâts)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Tournegrin",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-50"
+        }
+    ],
+    "print_key": "tcgdex:neo1-50",
+    "card_key": "192|70|1|Kagemaru Himeno|30x|3",
+    "types_en": [
+        "Grass"
+    ]
+}

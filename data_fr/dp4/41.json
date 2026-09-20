@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp4-41",
+    "name": "Hariyama",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp4",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp4/symbol",
+    "set_full_name": "Duels au Sommets",
+    "series": "Diamant & Perle",
+    "set_code": "dp4",
+    "date": "2008-02-01",
+    "number": "41",
+    "set_total": 106,
+    "rarity": "Peu Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 297,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Cou d'paume",
+            "damage": "20+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 40 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Lancer plein d'esprit",
+            "damage": 50,
+            "effect": "Si Hariyama possède moins de PV que le Pokémon Défenseur, les dégâts de base de cette attaque sont de 80."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+30"
+    },
+    "retreat": 3,
+    "evolve_from": "Makuhita",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp4-41"
+        }
+    ],
+    "print_key": "tcgdex:dp4-41",
+    "card_key": "297|100|3|Mitsuhiro Arita|20+,50|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

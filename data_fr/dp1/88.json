@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-88",
+    "name": "Marill",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "88",
+    "set_total": 130,
+    "rarity": "Commune",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 183,
+    "pokemon_category": "",
+    "flavor_text": "Il plonge sous l'eau en utilisant sa queue comme un flotteur. Il aime les plantes du fond des rivières.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Roulade",
+            "damage": "10+",
+            "effect": "Si Marill évolue d'Azurill, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau"
+            ],
+            "name": "Tour éclaboussant",
+            "damage": 20,
+            "effect": "Échangez Marill avec 1 des Pokémon de votre Banc."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+10"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-88"
+        }
+    ],
+    "print_key": "tcgdex:dp1-88",
+    "card_key": "183|60|1|Atsuko Nishida|10+,20|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

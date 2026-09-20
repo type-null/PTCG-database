@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-25",
+    "name": "Cizayox",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "25",
+    "set_total": 106,
+    "rarity": "Rare",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 212,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Défenseur de nid d'abeille",
+            "effect": "Si Cizayox possède au moins 6 marqueurs de dégât, tous dégâts infligés à Cizayox par des attaques sont réduits de 40 (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Accélérer",
+            "damage": 30,
+            "effect": "Si le Pokémon Défenseur est mis K.O par cette attaque, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Cizayox lors du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante"
+            ],
+            "name": "Mettre en bouillie",
+            "damage": "40+",
+            "effect": "Si vous n'avez pas de Pokémon possédant des Poké-Powers en jeu, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Insécateur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-25"
+        }
+    ],
+    "print_key": "tcgdex:dp7-25",
+    "card_key": "212|100|1|Midori Harada|30,40+|2,2",
+    "types_en": [
+        "Grass"
+    ]
+}

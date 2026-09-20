@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw10-44",
+    "name": "Symbios",
+    "img": "https://assets.tcgdex.net/fr/bw/bw10/44/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw10",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw10/symbol",
+    "set_full_name": "Explosion Plasma",
+    "series": "Noir & Blanc",
+    "set_code": "bw10",
+    "date": "2013-08-14",
+    "number": "44",
+    "set_total": 105,
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 579,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 100,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Attaque d'Obstacle",
+            "damage": 30,
+            "effect": "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 30 (après application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Noble Télékinésie",
+            "damage": 70,
+            "effect": "Échangez ce Pokémon avec 1 de vos Pokémon de Banc."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Méios",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw10-44"
+        }
+    ],
+    "print_key": "tcgdex:bw10-44",
+    "card_key": "579|100|2|Kagemaru Himeno|30,70|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

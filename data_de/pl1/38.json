@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-38",
+    "name": "Shaymin",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "38",
+    "set_total": 133,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 492,
+    "pokemon_category": "",
+    "flavor_text": "Es lebt auf Blumenwiesen und rollt sich ein, um wie eine Blume auszusehen und nicht entdeckt zu werden.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Energieschlag",
+            "damage": "10+",
+            "effect": "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Shaymin angelegte Energie zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Aromakur",
+            "damage": 40,
+            "effect": "Entferne 2 Schadensmarken von jedem deiner Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-38"
+        }
+    ],
+    "print_key": "tcgdex:pl1-38",
+    "card_key": "492|80|1|Kouki Saitou|10+,40|0,3",
+    "types_en": [
+        "Grass"
+    ]
+}

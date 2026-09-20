@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard2-101",
+    "name": "Pinsir",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-Card",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "101",
+    "set_total": 186,
+    "rarity": "Häufig",
+    "author": [
+        "Toshinao Aoki"
+    ],
+    "pokedex_number": 127,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Horngrabscher",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Superschnippler",
+            "damage": 90,
+            "effect": "Wirf 2 Münzen. Wenn mindestens eine von beiden „Zahl“ zeigt, hat dieser Angriff keine Auswirkungen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard2-101"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-101",
+    "card_key": "127|60|1|Toshinao Aoki|20,90|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

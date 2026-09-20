@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-50",
+    "name": "Starmie",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "50",
+    "set_total": 120,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 121,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Aqua-Recycling",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du deinen Ablagestapel nach 1 {W}-Energiekarte durchsuchen, sie deinem Gegner zeigen und auf die Hand nehmen. Diese Poké-Power kann nicht benutzt werden, wenn Starmie von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Synchro-Verstärkung",
+            "damage": 20,
+            "effect": "Wenn an Starmie und dem Verteidigenden Pokémon die gleiche Anzahl Energien angelegt sind, entferne 4 Schadensmarken von Starmie."
+        },
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Mächtiger Wirbler",
+            "damage": 40,
+            "effect": "Starmie kann in deinem nächsten Zug nicht angreifen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+20"
+    },
+    "retreat": 0,
+    "evolve_from": "Sterndu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-50"
+        }
+    ],
+    "print_key": "tcgdex:pl2-50",
+    "card_key": "121|80|0|Ken Sugimori|20,40|1,1",
+    "types_en": [
+        "Water"
+    ]
+}

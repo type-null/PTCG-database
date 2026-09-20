@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/smp-SM86",
+    "name": "Pikachu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SM Promokarten",
+    "series": "Sonne & Mond",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM86",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "kodama"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Schweifvertrimmer",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Funkensprung",
+            "damage": 20,
+            "effect": "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/smp-SM86"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM86",
+    "card_key": "25|60|1|kodama|10,20|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base2-63",
+    "name": "Venonat",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Originale",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "63",
+    "set_total": 64,
+    "rarity": "Comune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 48,
+    "pokemon_category": "",
+    "flavor_text": "Vive all'ombra di grandi alberi, dove si nutre di insetti. Di notte è attirato dalla luce artificiale.",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Erba"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Erba"
+            ],
+            "name": "Spore paralizzanti",
+            "damage": 10,
+            "effect": "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
+        },
+        {
+            "cost": [
+                "Erba",
+                "Incolore"
+            ],
+            "name": "Sanguisuga",
+            "damage": 10,
+            "effect": "Togli da Venonat un numero di segnalini danno pari ai danni inflitti al Pokémon Difensore (dopo avere applicato Debolezza e Resistenza). Se Venonat ha meno segnalini danno di quelli che gli verrebbero tolti, toglili tutti."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuoco"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base2-63"
+        }
+    ],
+    "print_key": "tcgdex:base2-63",
+    "card_key": "48|40|1|Mitsuhiro Arita|10,10|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

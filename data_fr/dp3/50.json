@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp3-50",
+    "name": "Lainergie",
+    "img": "https://assets.tcgdex.net/fr/dp/dp3/50/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Merveilles Secrètes",
+    "series": "Diamant & Perle",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "50",
+    "set_total": 132,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 180,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Courant électrique",
+            "damage": 10,
+            "effect": "Cherchez dans votre deck une carte Énergie Lightning et attachez-la à 1 de vos Pokémon. Ensuite, mélangez votre deck."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Coup électromagnétique",
+            "damage": 60,
+            "effect": "Lancez une pièce. Si c'est pile, Lainergie s'inflige 10 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Wattouat",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp3-50"
+        }
+    ],
+    "print_key": "tcgdex:dp3-50",
+    "card_key": "180|80|1|Kagemaru Himeno|10,60|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

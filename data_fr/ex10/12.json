@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex10-12",
+    "name": "Porygon2",
+    "img": "https://assets.tcgdex.net/fr/ex/ex10/12/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Forces Cachées",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "12",
+    "set_total": 117,
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 233,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Redémarrage en 3-D",
+            "effect": "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), reprenez dans votre main une carte Outil Pokémon attachée à 1 de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Porygon2 est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Récupération d'informations",
+            "damage": null,
+            "effect": "Si vous avez moins de 8 cartes en main, piochez des cartes jusqu'à ce que vous ayez 8 cartes en main."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Croche-pied codé",
+            "damage": "40+",
+            "effect": "Si une carte Énergie codée est attachée à Porygon2, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Porygon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex10-12"
+        }
+    ],
+    "print_key": "tcgdex:ex10-12",
+    "card_key": "233|70|1|Kagemaru Himeno|None,40+|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

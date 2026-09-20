@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl3-87",
+    "name": "Wailmer",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Ultimative Sieger",
+    "series": "Platin",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "87",
+    "set_total": 153,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 320,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Hydropumpe",
+            "damage": "20+",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Wailmer angelegte -Energie zu, die nicht zum Bezahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 20 Schadenspunkte hinzufügen."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Bodycheck",
+            "damage": 50,
+            "effect": "Wailmer fügt sich selbst 20 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl3-87"
+        }
+    ],
+    "print_key": "tcgdex:pl3-87",
+    "card_key": "320|80|3|Masakazu Fukuda|20+,50|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-37",
+    "name": "Nidorino",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "37",
+    "set_total": 102,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 33,
+    "pokemon_category": "",
+    "flavor_text": "Ein aggressives Pokémon, das schnell zum Angriff übergeht. Das Horn auf seinem Kopf sondert ein starkes Gift ab.",
+    "stage": "Rang 1",
+    "hp": 60,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Doppelkick",
+            "damage": "30x",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 30 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Hornbohrer",
+            "damage": 50,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Nidoran♂",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-37"
+        }
+    ],
+    "print_key": "tcgdex:base1-37",
+    "card_key": "33|60|1|Mitsuhiro Arita|30x,50|3,4",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swsh2-73",
+    "name": "Morpeko",
+    "img": "https://assets.tcgdex.net/es/swsh/swsh2/73/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Choque Rebelde",
+    "series": "Espada y Escudo",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "73",
+    "set_total": 209,
+    "rarity": "Uncommon",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 877,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 80,
+    "types": [
+        "Rayo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolora"
+            ],
+            "name": "Tormento",
+            "damage": 20,
+            "effect": "Elige 1 de los ataques del Pokémon Activo de tu rival. Durante el próximo turno de tu rival, dicho Pokémon no puede usar ese ataque."
+        },
+        {
+            "cost": [
+                "Rayo",
+                "Incolora"
+            ],
+            "name": "Chispa",
+            "damage": 50,
+            "effect": "Este ataque también hace 20 puntos de daño a 1 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swsh2-73"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-73",
+    "card_key": "877|80|1|Kouki Saitou|20,50|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

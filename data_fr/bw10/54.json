@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw10-54",
+    "name": "Aéroptéryx",
+    "img": "https://assets.tcgdex.net/fr/bw/bw10/54/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw10",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw10/symbol",
+    "set_full_name": "Explosion Plasma",
+    "series": "Noir & Blanc",
+    "set_code": "bw10",
+    "date": "2013-08-14",
+    "number": "54",
+    "set_total": 105,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 567,
+    "pokemon_category": "",
+    "flavor_text": "Il est plus doué pour courir que pour voler. Il doit s'élancer à 40 km/h avant de pouvoir s'envoler.",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Acrobatie",
+            "damage": 20,
+            "effect": "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Vive Plongée",
+            "damage": 100,
+            "effect": "S'il reste 50 PV ou moins à ce Pokémon, les dégâts de base de cette attaque sont de 50."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Arkéapti",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw10-54"
+        }
+    ],
+    "print_key": "tcgdex:bw10-54",
+    "card_key": "567|120|0|Kouki Saitou|20,100|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

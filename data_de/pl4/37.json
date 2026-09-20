@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl4-37",
+    "name": "Georok",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl4",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl4/symbol",
+    "set_full_name": "Arceus",
+    "series": "Platin",
+    "set_code": "pl4",
+    "date": "2009-11-04",
+    "number": "37",
+    "set_total": 111,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Sachiko Adachi"
+    ],
+    "pokedex_number": 75,
+    "pokemon_category": "",
+    "flavor_text": "Rollt auf Bergpfaden, um sich fortzubewegen. Hat es erst mal Schwung geholt, kann man es kaum bremsen.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Tackle",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Risikotackle",
+            "damage": 70,
+            "effect": "Georok fügt sich selbst 10 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Kleinstein",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl4-37"
+        }
+    ],
+    "print_key": "tcgdex:pl4-37",
+    "card_key": "75|90|3|Sachiko Adachi|30,70|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

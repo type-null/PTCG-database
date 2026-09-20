@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex3-89",
+    "name": "Pharamp ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex3/89/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Dragon",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "89",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 181,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 150,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Conductivité",
+            "effect": "Tant que Pharamp ex est en jeu, dès que votre adversaire attache une carte Énergie de sa main à un Pokémon, placez un marqueur de dégât sur ce Pokémon. Vous ne pouvez pas placer plus d'un marqueur de dégât même s'il y a plus d'un Pharamp ex en jeu."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Gigavolt",
+            "damage": "40+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 70 dégâts. Si c'est pile, le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Lainergie",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex3-89"
+        }
+    ],
+    "print_key": "tcgdex:ex3-89",
+    "card_key": "181|150|3|Ryo Ueda|40+|3",
+    "types_en": [
+        "Lightning"
+    ]
+}

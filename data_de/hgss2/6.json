@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss2-6",
+    "name": "Octillery",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss2/6/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss2",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss2/symbol",
+    "set_full_name": "Entfesselt",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss2",
+    "date": "2010-05-12",
+    "number": "6",
+    "set_total": 96,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 224,
+    "pokemon_category": "",
+    "flavor_text": "Beim Beutefang setzt es seine Tentakel ein. Es zermalmt seine Beute mit seinem steinharten Kopf.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Tauschkanone",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Tausche Octillery gegen 1 Pokémon auf deiner Bank aus."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Tintenbombe",
+            "damage": 50,
+            "effect": "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Remoraid",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss2-6"
+        }
+    ],
+    "print_key": "tcgdex:hgss2-6",
+    "card_key": "224|80|2|Ken Sugimori|None,50|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

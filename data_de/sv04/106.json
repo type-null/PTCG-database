@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv04-106",
+    "name": "Flaminkno",
+    "img": "https://assets.tcgdex.net/de/sv/sv04/106/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv04",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04/symbol",
+    "set_full_name": "Paradoxrift",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv04",
+    "date": "2023-11-03",
+    "number": "106",
+    "set_total": 266,
+    "rarity": "Häufig",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 973,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon verknotet offenbar seinen Hals am Ansatz, damit die im Bauch gespeicherte Energie nicht über den Schnabel entweicht.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Pikser",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Gefechtsschnabel",
+            "damage": "20+",
+            "effect": "Diese Attacke fügt für jedes Pokémon auf der Bank deines Gegners 20 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv04-106"
+        }
+    ],
+    "print_key": "tcgdex:sv04-106",
+    "card_key": "973|110|1|Anesaki Dynamic|30,20+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

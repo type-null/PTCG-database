@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo3-55",
+    "name": "Snubbull",
+    "img": "https://assets.tcgdex.net/fr/neo/neo3/55/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "55",
+    "set_total": 66,
+    "rarity": "Commune",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 209,
+    "pokemon_category": "",
+    "flavor_text": "Il est d'humeur joueuse et agitée. Bon nombre de personnes aiment batifoler avec lui parce qu'il est affectueux.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Morsure",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coup d'boule rageur",
+            "damage": "10+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Snubbull. Si c'est pile, cette attaque inflige 10 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo3-55"
+        }
+    ],
+    "print_key": "tcgdex:neo3-55",
+    "card_key": "209|50|1|Tomokazu Komiya|10,10+|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

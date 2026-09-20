@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/basep-2",
+    "name": "Élektek",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "basep",
+    "set_img": "https://assets.tcgdex.net/univ/base/basep/symbol",
+    "set_full_name": "Wizards Black Star Promos",
+    "series": "Base",
+    "set_code": "basep",
+    "date": "1999-07-01",
+    "number": "2",
+    "set_total": 53,
+    "rarity": "Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 125,
+    "pokemon_category": "",
+    "flavor_text": "Un Pokémon sauvage au mauvais caractère. Capable de reconnaître les couleurs et apprécie la couleur rouge.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Écran de lumière",
+            "damage": null,
+            "effect": "Dès qu'une attaque provoque des dégâts à Electabuzz (après application de la faiblesse et de la résistance), pendant le prochain tour de votre adversaire, cette attaque ne produit que la moitié des dégâts à Electabuzz (arrondis à la dizaine la plus proche). (Tout autre effet ou attaque est toujours valide.)"
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Attaque rapide",
+            "damage": "10+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 10 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/basep-2"
+        }
+    ],
+    "print_key": "tcgdex:basep-2",
+    "card_key": "125|60|2|Ken Sugimori|None,10+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

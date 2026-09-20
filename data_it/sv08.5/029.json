@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sv08.5-029",
+    "name": "Jolteon",
+    "img": "https://assets.tcgdex.net/it/sv/sv08.5/029/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "G",
+    "set_name": "sv08.5",
+    "set_full_name": "Evoluzioni Prismatiche",
+    "series": "Scarlatto e Violetto",
+    "set_code": "sv08.5",
+    "date": "2025-01-17",
+    "number": "029",
+    "set_total": 180,
+    "rarity": "Rara",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 135,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 110,
+    "types": [
+        "Lampo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lampo"
+            ],
+            "name": "Attacco Lineare",
+            "damage": null,
+            "effect": "Questo attacco infligge 30 danni a uno dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina."
+        },
+        {
+            "cost": [
+                "Lampo",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Fulmine Combattente",
+            "damage": "90+",
+            "effect": "Se il Pokémon attivo del tuo avversario è un Pokémon-ex o un Pokémon-V, questo attacco infligge 90 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Eevee",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sv08.5-029"
+        }
+    ],
+    "print_key": "tcgdex:sv08.5-29",
+    "card_key": "135|110|0|sui|None,90+|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

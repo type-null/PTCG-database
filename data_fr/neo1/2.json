@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-2",
+    "name": "Azumarill",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/2/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "2",
+    "set_total": 111,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 184,
+    "pokemon_category": "",
+    "flavor_text": "Lorsqu'il écoute attentivement sans bouger, il peut deviner ce qui se cache dans les rivières les plus sauvages et tumultueuses.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Charge",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Eau"
+            ],
+            "name": "Douche de bulles",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et cette attaque inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Marill",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-2"
+        }
+    ],
+    "print_key": "tcgdex:neo1-2",
+    "card_key": "184|70|1|Ken Sugimori|20,30|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

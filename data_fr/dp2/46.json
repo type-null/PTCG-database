@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp2-46",
+    "name": "Dodrio",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Trésors Mystérieux",
+    "series": "Diamant & Perle",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "46",
+    "set_total": 124,
+    "rarity": "Peu Commune",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 85,
+    "pokemon_category": "",
+    "flavor_text": "Quand Doduo connait cette étrange évolution, l'une de ses têtes se dédouble. Il atteint les 60 km/h.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Furie",
+            "damage": "10x",
+            "effect": "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Triplette",
+            "damage": null,
+            "effect": "Choisissez 3 des Pokémon Évolués de votre adversaire. Cette attaque inflige 30 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "evolve_from": "Dodrio",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp2-46"
+        }
+    ],
+    "print_key": "tcgdex:dp2-46",
+    "card_key": "85|80|None|Masakazu Fukuda|10x,None|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

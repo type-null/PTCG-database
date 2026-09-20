@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-34",
+    "name": "Maschock",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "34",
+    "set_total": 102,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 67,
+    "pokemon_category": "",
+    "flavor_text": "Sein muskulöser Körper ist so kräftig, dass es einen Powergurt tragen muss, um seine Bewegungen zu koordinieren.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Karateschlag",
+            "damage": "50-",
+            "effect": "Fügt 50 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf Maschock zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Überroller",
+            "damage": 60,
+            "effect": "Maschock fügt sich selbst 20 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Machollo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-34"
+        }
+    ],
+    "print_key": "tcgdex:base1-34",
+    "card_key": "67|80|3|Ken Sugimori|50-,60|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

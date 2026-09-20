@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-3",
+    "name": "Panferno",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "3",
+    "set_total": 106,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 392,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Lodertanz",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du Panferno von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, 1 Münze werfen. Bei „Kopf“ durchsuche dein Deck nach bis zu 4 {R}-Energiekarten und lege sie in beliebiger Verteilung an deine Pokémon an. Mische dein Deck danach."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Nahkampf",
+            "damage": 60,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der Panferno durch Angriffe zugefügt wird, um 30 Schadenspunkte erhöht (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Feuerübergriff",
+            "damage": 80,
+            "effect": "Lege 2 an Panferno angelegte {R}-Energien auf deinen Ablagestapel und dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+30"
+    },
+    "evolve_from": "Panpyro",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-3"
+        }
+    ],
+    "print_key": "tcgdex:dp7-3",
+    "card_key": "392|120|None|Mitsuhiro Arita|60,80|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

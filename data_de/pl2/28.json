@@ -1,0 +1,61 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-28",
+    "name": "Pantimos 4",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "28",
+    "set_total": 120,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 122,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Magische Heilung",
+            "damage": null,
+            "effect": "Wirf 3 Münzen. Entferne für jedes Mal, wenn die Münze „Kopf“ gezeigt hat, 1 Schadensmarke von 1 deiner Pokémon."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Angriffsbarriere",
+            "damage": 30,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der Pantimos 4 durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-28"
+        }
+    ],
+    "print_key": "tcgdex:pl2-28",
+    "card_key": "122|70|1|Mitsuhiro Arita|None,30|0,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

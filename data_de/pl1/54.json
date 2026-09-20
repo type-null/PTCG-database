@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-54",
+    "name": "Magnayen",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "54",
+    "set_total": 133,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 262,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Unlicht"
+    ],
+    "abilities": [
+        {
+            "name": "Kalte Füße",
+            "effect": "Wenn Magnayen von einem Speziellen Zustand betroffen ist, ignoriere alle Energiekosten von Magnayens Angriffen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Verschwören",
+            "damage": "20+",
+            "effect": "Wenn du in diesem Zug mindestens 1 Unterstützerkarte von deiner Hand gespielt hast, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Verzweifelter Angriff",
+            "damage": "50+",
+            "effect": "Wenn an das Verteidigende Pokémon mehr Energie angelegt ist als an Magnayen, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Fiffyen",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-54"
+        }
+    ],
+    "print_key": "tcgdex:pl1-54",
+    "card_key": "262|90|0|Kouki Saitou|20+,50+|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

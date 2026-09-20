@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy8-16",
+    "name": "Mähikel",
+    "img": "https://assets.tcgdex.net/de/xy/xy8/16/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy8",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy8/symbol",
+    "set_full_name": "TURBOstart",
+    "series": "XY",
+    "set_code": "xy8",
+    "date": "2015-11-04",
+    "number": "16",
+    "set_total": 165,
+    "rarity": "Häufig",
+    "author": [
+        "Kanako Eo"
+    ],
+    "pokedex_number": 672,
+    "pokemon_category": "",
+    "flavor_text": "Solange es Wasser und Sonnenlicht hat, kann es mit den Blättern auf seinem Rücken Energie erzeugen. Deswegen kommt es auch ohne Futter zurecht.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Rasierblatt",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Aufwärtsstoß",
+            "damage": "20+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy8-16"
+        }
+    ],
+    "print_key": "tcgdex:xy8-16",
+    "card_key": "672|70|2|Kanako Eo|10,20+|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

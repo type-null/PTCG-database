@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp1-6",
+    "name": "Lucario",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perl",
+    "series": "Diamant & Perl",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "6",
+    "set_total": 130,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 448,
+    "pokemon_category": "",
+    "flavor_text": "Es besitzt die Fähigkeit, die Aura aller Dinge zu spüren. Es versteht die menschliche Sprache.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Offenlegung",
+            "damage": 30,
+            "effect": "Der Schaden dieses Angriffs wird durch die Resistenz des Verteidigenden Pokémon nicht verändert."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Aurasphäre",
+            "damage": 40,
+            "effect": "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Riolu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp1-6"
+        }
+    ],
+    "print_key": "tcgdex:dp1-6",
+    "card_key": "448|90|1|Ken Sugimori|30,40|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

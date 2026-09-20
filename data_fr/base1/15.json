@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-15",
+    "name": "Florizarre",
+    "img": "https://assets.tcgdex.net/fr/base/base1/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "15",
+    "set_total": 102,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 3,
+    "pokemon_category": "",
+    "flavor_text": "Sa plante mûrit en absorbant les rayons du soleil. Il migre souvent vers les endroits ensoleillés.",
+    "stage": "Niveau 2",
+    "hp": 100,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Transfert d'Énergie",
+            "effect": "Aussi souvent que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez prendre 1 carte Énergie {G} attachée à 1 de vos Pokémon et l'attacher à un autre. Ce pouvoir ne peut être utilisé si Florizarre est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Plante",
+                "Plante"
+            ],
+            "name": "Lance-Soleil",
+            "damage": 60,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Herbizarre",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-15"
+        }
+    ],
+    "print_key": "tcgdex:base1-15",
+    "card_key": "3|100|2|Mitsuhiro Arita|60|4",
+    "types_en": [
+        "Grass"
+    ]
+}

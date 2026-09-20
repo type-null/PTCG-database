@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm9-91",
+    "name": "Zoroark",
+    "img": "https://assets.tcgdex.net/fr/sm/sm9/91/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm9",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm9/symbol",
+    "set_full_name": "Duo de Choc",
+    "series": "Soleil et Lune",
+    "set_code": "sm9",
+    "date": "2019-01-31",
+    "number": "91",
+    "set_total": 196,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 571,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité"
+            ],
+            "name": "Provoc",
+            "damage": null,
+            "effect": "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Punition Nocturne",
+            "damage": "20×",
+            "effect": "Cette attaque inflige 20 dégâts pour chaque Pokémon dans votre pile de défausse. Vous ne pouvez pas infliger plus de 200 dégâts de cette façon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Zorua",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm9-91"
+        }
+    ],
+    "print_key": "tcgdex:sm9-91",
+    "card_key": "571|110|2|Masakazu Fukuda|None,20x|1,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

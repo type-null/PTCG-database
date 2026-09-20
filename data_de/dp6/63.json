@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp6-63",
+    "name": "Knogga",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Erwachte Legenden",
+    "series": "Diamant & Perl",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "63",
+    "set_total": 146,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 105,
+    "pokemon_category": "",
+    "flavor_text": "Von Geburt an trägt dieses wilde Pokémon Knochen. Es setzt sie talentiert als Waffen ein.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Riesenknochen",
+            "damage": 40,
+            "effect": "Wirf 1 Münze. Bei „Zahl“ kann Knogga Riesenknochen in deinem nächsten Zug nicht einsetzen."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Knochenhatz",
+            "damage": "50x",
+            "effect": "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Tragosso",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp6-63"
+        }
+    ],
+    "print_key": "tcgdex:dp6-63",
+    "card_key": "105|90|2|Ken Sugimori|40,50x|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

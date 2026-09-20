@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base3-25",
+    "name": "Lapras",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base3",
+    "set_img": "https://assets.tcgdex.net/univ/base/base3/symbol",
+    "set_full_name": "Fossil",
+    "series": "Grund",
+    "set_code": "base3",
+    "date": "1999-10-10",
+    "number": "25",
+    "set_total": 62,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 131,
+    "pokemon_category": "",
+    "flavor_text": "Ein Pokémon, das von Jägern fast ausgerottet wurde. Es kann Menschen übers Wasser transportieren.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Aquaknarre",
+            "damage": "10+",
+            "effect": "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Lapras abgelegte {W}-Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich nicht mehr als 20 Schadenspunkte auf diese Art und Weise hinzufügen."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Konfusstrahl",
+            "damage": 10,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base3-25"
+        }
+    ],
+    "print_key": "tcgdex:base3-25",
+    "card_key": "131|80|2|Ken Sugimori|10+,10|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

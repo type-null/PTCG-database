@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh4.5sv-SV044",
+    "name": "Morpeko",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh4.5sv",
+    "set_full_name": "Destinées Radieuses Coffre Étincelant",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh4.5sv",
+    "date": "2021-02-19",
+    "number": "SV044",
+    "set_total": 122,
+    "rarity": "Shiny rare",
+    "author": [
+        "Akira Komayama"
+    ],
+    "pokedex_number": 877,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Tourmente",
+            "damage": 20,
+            "effect": "Choisissez l'une des attaques du Pokémon Actif de votre adversaire. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas utiliser cette attaque."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Étincelle",
+            "damage": 50,
+            "effect": "Cette attaque inflige aussi 20 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh4.5sv-SV044"
+        }
+    ],
+    "print_key": "tcgdex:swsh4.5sv-SV044",
+    "card_key": "877|80|1|Akira Komayama|20,50|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

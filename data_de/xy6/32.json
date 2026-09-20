@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy6-32",
+    "name": "Banette",
+    "img": "https://assets.tcgdex.net/de/xy/xy6/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy6",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy6/symbol",
+    "set_full_name": "Drachenleuchten",
+    "series": "XY",
+    "set_code": "xy6",
+    "date": "2015-05-06",
+    "number": "32",
+    "set_total": 112,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 354,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "{title}:",
+            "effect": "{title}: Du kannst diese Karte von deiner Hand spielen, um 1 Pokémon während deines ersten Zuges oder des Zuges, in dem du es spielst, zu entwickeln."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Evolutionsstörer",
+            "damage": 20,
+            "effect": "Dein Gegner kann keine Pokémon von seiner Hand spielen, um seine Pokémon während seines nächsten Zuges zu entwickeln."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Nachhaltiger Fluch",
+            "damage": null,
+            "effect": "Lege 5 Schadensmarken auf das Aktive Pokémon deines Gegners."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Shuppet",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy6-32"
+        }
+    ],
+    "print_key": "tcgdex:xy6-32",
+    "card_key": "354|90|1|Shin Nagasawa|20,None|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

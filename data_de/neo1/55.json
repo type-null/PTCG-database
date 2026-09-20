@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-55",
+    "name": "Lampi",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "55",
+    "set_total": 111,
+    "rarity": "Häufig",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 170,
+    "pokemon_category": "",
+    "flavor_text": "Es überträgt positive und negative Elektrizität zwischen den Spitzen seiner zwei Antennen hin und her und elektrisiert seine Feinde.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Superschall",
+            "damage": null,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Dreschflegel",
+            "damage": "10x",
+            "effect": "Fügt 10 Schadenspunkte mal der Anzahl der Schadensmarken auf Lampi zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-55"
+        }
+    ],
+    "print_key": "tcgdex:neo1-55",
+    "card_key": "170|50|1|Ken Sugimori|None,10x|1,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-56",
+    "name": "Groret",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "56",
+    "set_total": 146,
+    "rarity": "Peu Commune",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 326,
+    "pokemon_category": "",
+    "flavor_text": "Les perles noires amplifient ses pouvoirs psy. Sa danse étrange lui permet de contrôler ses ennemis.",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Pas magique",
+            "damage": null,
+            "effect": "Le Pokémon Défenseur est maintenant Confus. Placez sur le Pokémon Confus 6 marqueurs de dégât au lieu de 3."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Écrase",
+            "damage": "20x",
+            "effect": "Inflige 20 dégâts multipliés par le nombre d'Énergies attachées à Groret."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Spoink",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-56"
+        }
+    ],
+    "print_key": "tcgdex:dp6-56",
+    "card_key": "326|90|2|Masakazu Fukuda|None,20x|0,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm5-63",
+    "name": "Necrozma Ailes de l’Aurore GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm5/63/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultra-Prisme",
+    "series": "Soleil et Lune",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "63",
+    "set_total": 173,
+    "rarity": "Ultra Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 800,
+    "pokemon_category": "",
+    "hp": 180,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Invasion",
+            "effect": "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon est sur votre Banc, vous pouvez l’échanger avec votre Pokémon Actif."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Psy"
+            ],
+            "name": "Flash Sombre",
+            "damage": 120,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Psy"
+            ],
+            "name": "Éclipse Lunaire-GX",
+            "damage": 180,
+            "effect": "Vous pouvez utiliser cette attaque seulement s’il vous reste plus de cartes Récompense que votre adversaire. Évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm5-63"
+        }
+    ],
+    "print_key": "tcgdex:sm5-63",
+    "card_key": "800|180|2|5ban Graphics|120,180|3,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

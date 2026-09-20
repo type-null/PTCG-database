@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh9-085",
+    "name": "Sleimok",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh9/085/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh9",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh9/symbol",
+    "set_full_name": "Strahlende Sterne",
+    "series": "Schwert & Schild",
+    "set_code": "swsh9",
+    "date": "2022-02-25",
+    "number": "085",
+    "set_total": 186,
+    "rarity": "Selten",
+    "author": [
+        "Scav"
+    ],
+    "pokedex_number": 89,
+    "pokemon_category": "",
+    "flavor_text": "Da es Krankheitskeime verbreitet, hat man lange versucht, es auszurotten. Heute sieht man es daher nur noch selten.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Unlicht"
+    ],
+    "abilities": [
+        {
+            "name": "Schlammstraße",
+            "effect": "Die Rückzugskosten der vergifteten Pokémon deines Gegners erhöhen sich um {C}."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Kreischendes Gift",
+            "damage": 90,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Sleima",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh9-085"
+        }
+    ],
+    "print_key": "tcgdex:swsh9-85",
+    "card_key": "89|130|3|Scav|90|3",
+    "types_en": [
+        "Darkness"
+    ]
+}

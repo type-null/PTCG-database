@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard1-76",
+    "name": "Elektek",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-Card",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "76",
+    "set_total": 165,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Hiroaki Ito"
+    ],
+    "pokedex_number": 125,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Energieanziehung",
+            "damage": null,
+            "effect": "Du kannst dein Deck nach einer Basis-Energiekarte durchsuchen und sie an Elektek anlegen. Mische dein Deck danach."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Energiereflektion",
+            "damage": 20,
+            "effect": "Falls du mindestens ein Pokémon auf deiner Bank hast und mindestens eine Basis-Energiekarte an Elektek angelegt ist, nimm 1 dieser Energiekarten und lege sie an 1 dieser Pokémon an."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard1-76"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-76",
+    "card_key": "125|60|2|Hiroaki Ito|None,20|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

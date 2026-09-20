@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-21",
+    "name": "Electrode",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "21",
+    "set_total": 102,
+    "rarity": "Rara",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 101,
+    "pokemon_category": "",
+    "flavor_text": "Conserva energia elettrica sotto altissima pressione. Spesso esplode senza o con minima provocazione. LIV 40 N.102",
+    "stage": "Livello 1",
+    "hp": 80,
+    "types": [
+        "Lampo"
+    ],
+    "abilities": [
+        {
+            "name": "Buzzap",
+            "effect": "Quante volte vuoi durante il tuo turno (prima di attaccare) puoi mettere Electrode K.O. e assegnarlo a un altro dei tuoi Pokémon. In questo caso, scegli un tipo di Energia. Electrode diventa una carta Energia (invece di un Pokémon) che vale due Energia di quel tipo. Questo potere non può essere usato se Electrode è Addormentato, Confuso o Paralizzato."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lampo",
+                "Lampo",
+                "Lampo"
+            ],
+            "name": "Scossa elettrica",
+            "damage": 50,
+            "effect": "Lancia una moneta. Se esce croce, Electrode si infligge 10 danni."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Voltorb",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-21"
+        }
+    ],
+    "print_key": "tcgdex:base1-21",
+    "card_key": "101|80|1|Keiji Kinebuchi|50|3",
+    "types_en": [
+        "Lightning"
+    ]
+}

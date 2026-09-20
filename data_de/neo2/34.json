@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo2-34",
+    "name": "Ursaring",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Entdeckung",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "34",
+    "set_total": 75,
+    "rarity": "Selten",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 217,
+    "pokemon_category": "",
+    "flavor_text": "Obwohl es ein guter Kletterer ist, schüttelt es lieber die Bäume mit seinen Vorderpfoten an und isst heruntergefallenene Früchte.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schädeldruck",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ hat dieser Angriff keine Auswirkungen (nicht einmal Schadenspunkte)."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Doppel-Lasso",
+            "damage": "40x",
+            "effect": "Wirf zwei Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Teddiursa",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo2-34"
+        }
+    ],
+    "print_key": "tcgdex:neo2-34",
+    "card_key": "217|80|3|Naoyo Kimura|20,40x|2,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

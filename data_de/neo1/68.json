@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-68",
+    "name": "Myrapla",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "68",
+    "set_total": 111,
+    "rarity": "Häufig",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 43,
+    "pokemon_category": "",
+    "flavor_text": "Vom Mondlicht aufgeweckt, wandert es nachts aktiv umher. Während des Tages bleibt es geräuschlos im Untergrund.",
+    "stage": "Basis",
+    "hp": 40,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Verstecken",
+            "damage": null,
+            "effect": "Wirf eine Münze. Verhindere bei „Kopf“ während des nächsten gegnerischen Zugs alle Auswirkungen von Angriffen auf Myrapla (einschließlich der Schadenspunkte)."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Absorber",
+            "damage": 20,
+            "effect": "Entferne Schaden von Myrapla in Höhe der Hälfte des Schadens, der dem verteidigenden Pokémon zugefügt wurde (nachdem Schwäche und Resistenz verrechnet wurden) (auf die nächsten 10 aufgerundet). Falls Myrapla weniger Schaden hat, entferne allen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-68"
+        }
+    ],
+    "print_key": "tcgdex:neo1-68",
+    "card_key": "43|40|1|Sumiyoshi Kizuki|None,20|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

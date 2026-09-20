@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm8-103",
+    "name": "Skelabra",
+    "img": "https://assets.tcgdex.net/de/sm/sm8/103/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Echo des Donners",
+    "series": "Sonne & Mond",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "103",
+    "set_total": 236,
+    "rarity": "Selten",
+    "author": [
+        "so-taro"
+    ],
+    "pokedex_number": 609,
+    "pokemon_category": "",
+    "flavor_text": "Seelen, die das Feuer seiner schaurigen Flammen gekostet haben, irren bis ans Ende der Tage ziellos durch diese Welt.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Verfluchter Fall",
+            "damage": null,
+            "effect": "Lege 4 Schadensmarken beliebig auf die Pokémon deines Gegners."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Wirbel der Qual",
+            "damage": "20×",
+            "effect": "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl der Schadensmarken auf allen Pokémon deines Gegners zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Laternecto",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm8-103"
+        }
+    ],
+    "print_key": "tcgdex:sm8-103",
+    "card_key": "609|140|2|so-taro|None,20x|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

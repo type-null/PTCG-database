@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-64",
+    "name": "Muntier",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "64",
+    "set_total": 133,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 288,
+    "pokemon_category": "",
+    "flavor_text": "Sein Herz schlägt schneller als das anderer Lebewesen. Daher kann es nicht für einen Moment still sitzen.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Waghalsiger Sturmangriff",
+            "damage": 30,
+            "effect": "Wirf 1 Münze. Bei „Zahl“ fügt Muntier sich selbst 10 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zur Wehr setzen",
+            "damage": "50+",
+            "effect": "Wenn auf Muntier mindestens 1 Schadensmarke liegt, fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Bummelz",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-64"
+        }
+    ],
+    "print_key": "tcgdex:pl1-64",
+    "card_key": "288|80|1|Kouki Saitou|30,50+|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp4-30",
+    "name": "Wailord",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp4",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp4/symbol",
+    "set_full_name": "Epische Begegnungen",
+    "series": "Diamant & Perl",
+    "set_code": "dp4",
+    "date": "2008-02-01",
+    "number": "30",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 321,
+    "pokemon_category": "",
+    "flavor_text": "Das größte PKMN. Es kann mit nur einem Atemzug in Tiefen bis 3.000 Meter tauchen.",
+    "stage": "Rang 1",
+    "hp": 200,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Ruhepuls",
+            "effect": "Wenn Wailord schläft und zwischen zwei Zügen nicht aufwacht, entferne 1 Schadensmarke von Wailord."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Einnicken",
+            "damage": 60,
+            "effect": "Wenn auf Wailord mindestens 1 Schadensmarke liegt, schläft Wailord jetzt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Wailmer",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp4-30"
+        }
+    ],
+    "print_key": "tcgdex:dp4-30",
+    "card_key": "321|200|4|Mitsuhiro Arita|60|4",
+    "types_en": [
+        "Water"
+    ]
+}

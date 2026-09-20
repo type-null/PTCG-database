@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex2-21",
+    "name": "Sablaireau",
+    "img": "https://assets.tcgdex.net/fr/ex/ex2/21/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex2",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex2/symbol",
+    "set_full_name": "EX Tempête de sable",
+    "series": "EX",
+    "set_code": "ex2",
+    "date": "2003-09-18",
+    "number": "21",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 28,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Tourbillon de sable",
+            "damage": null,
+            "effect": "Inflige 20 dégâts à chaque Pokémon Défenseur. Le ou les Pokémon Défenseurs ne peuvent pas battre en retraite jusqu'à la fin du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Séisme",
+            "damage": 60,
+            "effect": "Inflige 10 dégâts à chaque Pokémon de votre Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Sabelette",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex2-21"
+        }
+    ],
+    "print_key": "tcgdex:ex2-21",
+    "card_key": "28|70|0|Kouki Saitou|None,60|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

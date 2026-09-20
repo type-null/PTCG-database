@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm10-59",
+    "name": "Lucanon",
+    "img": "https://assets.tcgdex.net/fr/sm/sm10/59/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Alliance Infaillible",
+    "series": "Soleil et Lune",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "59",
+    "set_total": 234,
+    "rarity": "Rare",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 738,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 150,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Corps Furtif",
+            "effect": "S’il y a une carte Stade en jeu, ce Pokémon n’a pas de Faiblesse."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Canon Électrique",
+            "damage": "120+",
+            "effect": "Vous pouvez défausser toute l’Énergie Lightning attachée à ce Pokémon. Dans ce cas, cette attaque inflige 100 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Chrysapile",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm10-59"
+        }
+    ],
+    "print_key": "tcgdex:sm10-59",
+    "card_key": "738|150|2|Hasuno|120+|4",
+    "types_en": [
+        "Lightning"
+    ]
+}

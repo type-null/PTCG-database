@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh12-107",
+    "name": "Corboss",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh12/107/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "F",
+    "set_name": "swsh12",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12/symbol",
+    "set_full_name": "Tempête Argentée",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh12",
+    "date": "2022-11-11",
+    "number": "107",
+    "set_total": 215,
+    "rarity": "Peu Commune",
+    "author": [
+        "aoki"
+    ],
+    "pokedex_number": 430,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Triple Pioche",
+            "damage": null,
+            "effect": "Piochez 3 cartes."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Ailes Cruelles",
+            "damage": 120,
+            "effect": "Vous pouvez échanger ce Pokémon contre l'un de vos Cornèbre de Banc."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Cornèbre",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh12-107"
+        }
+    ],
+    "print_key": "tcgdex:swsh12-107",
+    "card_key": "430|120|2|aoki|None,120|1,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm5-69",
+    "name": "Hippodocus",
+    "img": "https://assets.tcgdex.net/fr/sm/sm5/69/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultra-Prisme",
+    "series": "Soleil et Lune",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "69",
+    "set_total": 173,
+    "rarity": "Rare",
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "pokedex_number": 450,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 140,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tourbi-Sable",
+            "damage": 50,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Canon Poussière",
+            "damage": "100+",
+            "effect": "Cette attaque inflige 10 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Hippopotas",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm5-69"
+        }
+    ],
+    "print_key": "tcgdex:sm5-69",
+    "card_key": "450|140|4|Shigenori Negishi|50,100+|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

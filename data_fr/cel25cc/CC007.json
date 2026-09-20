@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/cel25cc-CC007",
+    "name": "Électhor de Rocket",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "cel25cc",
+    "set_full_name": "Célébrations Collection Classique",
+    "series": "Épée et Bouclier",
+    "set_code": "cel25cc",
+    "date": "2021-10-08",
+    "number": "CC007",
+    "set_total": 25,
+    "rarity": "Collection Classique",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Plasma",
+            "damage": 20,
+            "effect": "S'il y a au moins une carte Énergie Électrique dans votre pile de défausse, attachez l'une d'elles à Électhor de Rocket."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Électrobrûlure",
+            "damage": 70,
+            "effect": "Électhor de Rocket s'inflige une quantité de dégâts égale à 10 fois le nombre de cartes Énergie Électrique qui lui sont attachées."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/cel25cc-CC007"
+        }
+    ],
+    "print_key": "tcgdex:cel25cc-CC007",
+    "card_key": "145|70|2|Shin-ichi Yoshida|20,70|1,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard2-92",
+    "name": "Férosinge",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard2/92/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-cards",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "92",
+    "set_total": 186,
+    "rarity": "Commune",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 56,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Agression",
+            "damage": 10,
+            "effect": "Avant d'infliger les dégâts, défaussez toutes les cartes Dresseur attachées au Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Frénésie",
+            "damage": "10+",
+            "effect": "Cette attaque inflige 10 dégâts plus 10 dégâts pour chaque marqueur de dégâts sur Férosinge."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard2-92"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-92",
+    "card_key": "56|40|1|Tomokazu Komiya|10,10+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

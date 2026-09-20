@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swsh2-59",
+    "name": "Electivire",
+    "img": "https://assets.tcgdex.net/es/swsh/swsh2/59/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Choque Rebelde",
+    "series": "Espada y Escudo",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "59",
+    "set_total": 209,
+    "rarity": "Rara",
+    "author": [
+        "tetsuya koizumi"
+    ],
+    "pokedex_number": 466,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 140,
+    "types": [
+        "Rayo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Rayo",
+                "Incolora"
+            ],
+            "name": "Impactrueno",
+            "damage": 50,
+            "effect": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado."
+        },
+        {
+            "cost": [
+                "Rayo",
+                "Rayo",
+                "Incolora"
+            ],
+            "name": "Rayo Electrificado",
+            "damage": "90+",
+            "effect": "Si este Pokémon tiene alguna Energía Especial unida a él, este ataque hace 90 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Electabuzz",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swsh2-59"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-59",
+    "card_key": "466|140|3|tetsuya koizumi|50,90+|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

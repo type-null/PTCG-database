@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy11-64",
+    "name": "Caesurio",
+    "img": "https://assets.tcgdex.net/de/xy/xy11/64/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Dampfkessel",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "64",
+    "set_total": 116,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 625,
+    "pokemon_category": "",
+    "flavor_text": "Es rückt seinen Opfern mit einer Schar von Gladiantri im Gefolge auf den Pelz. Den letzten Hieb übernimmt es selbst.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Unlicht",
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Heimzahlung",
+            "damage": "30+",
+            "effect": "Falls eins deiner Pokémon während des letzten Zuges deines Gegners durch Schaden eines gegnerischen Angriffs kampfunfähig gemacht wurde, fügt dieser Angriff 60 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Tempoklaue",
+            "damage": 60,
+            "effect": "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Gladiantri",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy11-64"
+        }
+    ],
+    "print_key": "tcgdex:xy11-64",
+    "card_key": "625|100|2|Shin Nagasawa|30+,60|1,2",
+    "types_en": [
+        "Darkness",
+        "Metal"
+    ]
+}

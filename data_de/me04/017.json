@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/me04-017",
+    "name": "Octillery",
+    "img": "https://assets.tcgdex.net/de/me/me04/017/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "J",
+    "set_name": "me04",
+    "set_img": "https://assets.tcgdex.net/univ/me/me04/symbol",
+    "set_full_name": "Wachsendes Chaos",
+    "series": "Mega-Entwicklung",
+    "set_code": "me04",
+    "date": "2026-05-22",
+    "number": "017",
+    "set_total": 122,
+    "rarity": "Häufig",
+    "author": [
+        "matazo"
+    ],
+    "pokedex_number": 224,
+    "pokemon_category": "",
+    "flavor_text": "Es schläft instinktiv in Löchern. Oft usupiert es die Schlafplätze von anderen.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Hochdrucktinte",
+            "damage": 30,
+            "effect": "Wenn das Verteidigende Pokémon während des nächsten Zuges deines Gegners versucht, eine Attacke einzusetzen, wirft dein Gegner 2 Münzen. Zeigt mindestens 1 Zahl, wird jene Attacke nicht ausgeführt."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Rappel",
+            "damage": 120,
+            "effect": "Dieses Pokémon ist jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Remoraid",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/me04-017"
+        }
+    ],
+    "print_key": "tcgdex:me04-17",
+    "card_key": "224|110|2|matazo|30,120|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

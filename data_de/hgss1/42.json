@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss1-42",
+    "name": "Waaty",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss1/42/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss1",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss1/symbol",
+    "set_full_name": "HeartGold SoulSilver",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss1",
+    "date": "2010-02-10",
+    "number": "42",
+    "set_total": 124,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 180,
+    "pokemon_category": "",
+    "flavor_text": "Da es zu viel Elektrizität gespeichert hat, hat es Flecken, an denen nicht einmal feine Wolle wächst.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Donnerspeer",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Donnerschock",
+            "damage": 40,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Voltilamm",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss1-42"
+        }
+    ],
+    "print_key": "tcgdex:hgss1-42",
+    "card_key": "180|80|1|Masakazu Fukuda|None,40|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

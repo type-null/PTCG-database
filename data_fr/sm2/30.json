@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm2-30",
+    "name": "Wailord",
+    "img": "https://assets.tcgdex.net/fr/sm/sm2/30/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Gardiens Ascendants",
+    "series": "Soleil et Lune",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "30",
+    "set_total": 169,
+    "rarity": "Rare",
+    "author": [
+        "OOYAMA"
+    ],
+    "pokedex_number": 321,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 200,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Plongée",
+            "damage": 40,
+            "effect": "Lancez une pièce. Si c’est face, évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Grande Bleue",
+            "damage": 80,
+            "effect": "Soignez 30 dégâts à chacun de vos Pokémon Water."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Wailmer",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm2-30"
+        }
+    ],
+    "print_key": "tcgdex:sm2-30",
+    "card_key": "321|200|4|OOYAMA|40,80|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

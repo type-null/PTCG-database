@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex10-41",
+    "name": "Volcaropod",
+    "img": "https://assets.tcgdex.net/fr/ex/ex10/41/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Forces Cachées",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "41",
+    "set_total": 117,
+    "rarity": "Peu Commune",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 219,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Feu"
+    ],
+    "abilities": [
+        {
+            "name": "Double armure",
+            "effect": "Tant que Volcaropod possède des Énergies {F}, il est de type {R} et {F}."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Brouillard",
+            "damage": 30,
+            "effect": "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque est sans effet."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Flamme supplémentaire",
+            "damage": "40+",
+            "effect": "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Limagma",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex10-41"
+        }
+    ],
+    "print_key": "tcgdex:ex10-41",
+    "card_key": "219|80|2|Tomokazu Komiya|30,40+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy3-67",
+    "name": "Irokex",
+    "img": "https://assets.tcgdex.net/de/xy/xy3/67/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy3",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy3/symbol",
+    "set_full_name": "Fliegende Fäuste",
+    "series": "XY",
+    "set_code": "xy3",
+    "date": "2014-08-13",
+    "number": "67",
+    "set_total": 114,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 560,
+    "pokemon_category": "",
+    "flavor_text": "Es wehrt Angriffe mit seiner alten Haut ab und kontert mit Tritten. Sein Ego entspricht der Größe seines Kamms.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Fußkick",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Unlicht"
+            ],
+            "name": "Trommelfeuer-Kopfnuss",
+            "damage": "50×",
+            "effect": "Wirf 3 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu. Dieses Pokémon ist jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Zurrokex",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy3-67"
+        }
+    ],
+    "print_key": "tcgdex:xy3-67",
+    "card_key": "560|90|2|match|30,50x|2,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

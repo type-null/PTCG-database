@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-34",
+    "name": "Machopeur",
+    "img": "https://assets.tcgdex.net/fr/base/base1/34/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "34",
+    "set_total": 102,
+    "rarity": "Peu Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 67,
+    "pokemon_category": "",
+    "flavor_text": "Son corps est si puissant qu'il lui faut une ceinture de force pour équilibrer ses mouvements.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Poing-Karaté",
+            "damage": "50-",
+            "effect": "Inflige 50 dégâts moins 10 dégâts pour chaque marqueur de dégâts sur Machopeur."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Sacrifice",
+            "damage": 60,
+            "effect": "Machopeur s'inflige 20 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Machoc",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-34"
+        }
+    ],
+    "print_key": "tcgdex:base1-34",
+    "card_key": "67|80|3|Ken Sugimori|50-,60|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

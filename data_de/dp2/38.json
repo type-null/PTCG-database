@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp2-38",
+    "name": "Ursaring",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Geheimnisvolle Schätze",
+    "series": "Diamant & Perl",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "38",
+    "set_total": 124,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 217,
+    "pokemon_category": "",
+    "flavor_text": "Es durchstreift sein Revier und markiert Bäume, die Früchte oder Beeren tragen, mit Kratzern.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schlechte Laune",
+            "damage": 30,
+            "effect": "Das Verteidigende Pokémon ist jetzt verwirrt. Im nächsten Zug deines Gegners fügen Angriffe dieses Pokémon den Aktiven Pokémon 60 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schützende Krallen",
+            "damage": "60+",
+            "effect": "Wenn sich Teddiursa auf deiner Bank befindet, fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte zu. Wenn auf 1 Teddiursa auf deiner Bank mindestens 1 Schadensmarke liegt, fügt dieser Angriff 60 Schadenspunkte plus 40 weitere Schadenspunkte zu und entferne alle Schadensmarken von diesem Teddiursa."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Teddiursa",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp2-38"
+        }
+    ],
+    "print_key": "tcgdex:dp2-38",
+    "card_key": "217|100|2|Mitsuhiro Arita|30,60+|2,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

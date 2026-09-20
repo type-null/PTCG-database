@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-26",
+    "name": "Impoleon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "26",
+    "set_total": 133,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 395,
+    "pokemon_category": "",
+    "flavor_text": "Würde jemand seine Ehre verletzen, so würde es mit Flügeln angreifen, die Eis zerschneiden können.",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Abschlag",
+            "damage": 40,
+            "effect": "Wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen) und lege sie auf seinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schmetterdüse",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 70 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Impoleon kann Schmetterdüse in deinem nächsten Zug nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+30"
+    },
+    "retreat": 2,
+    "evolve_from": "Pliprin",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-26"
+        }
+    ],
+    "print_key": "tcgdex:pl1-26",
+    "card_key": "395|130|2|Mitsuhiro Arita|40,None|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

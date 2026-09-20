@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base3-24",
+    "name": "Kabutops",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base3",
+    "set_img": "https://assets.tcgdex.net/univ/base/base3/symbol",
+    "set_full_name": "Fossil",
+    "series": "Grund",
+    "set_code": "base3",
+    "date": "1999-10-10",
+    "number": "24",
+    "set_total": 62,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 141,
+    "pokemon_category": "",
+    "flavor_text": "Seine schlanke Figur macht es zu einem perfekten Schwimmer. Es schlitzt Beute mit seinen Klauen auf und saugt ihre Körperflüssigkeiten ab.",
+    "stage": "Rang 2",
+    "hp": 60,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Scharfe Sichel",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Absorber",
+            "damage": 40,
+            "effect": "Entferne von Kabutops Schadensmarken in Höhe der Hälfte des Schadens (auf die nächsten 10 aufgerundet), der dem verteidigenden Pokémon zugefügt wurde (nachdem Schwäche und Resistenz abgerechnet wurden). Falls Kabutops weniger Schadensmarken als diese Anzahl hat, entferne sie alle."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Kabuto",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base3-24"
+        }
+    ],
+    "print_key": "tcgdex:base3-24",
+    "card_key": "141|60|1|Ken Sugimori|30,40|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

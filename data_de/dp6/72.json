@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp6-72",
+    "name": "Schlukwech",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Erwachte Legenden",
+    "series": "Diamant & Perl",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "72",
+    "set_total": 146,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 317,
+    "pokemon_category": "",
+    "flavor_text": "Es verschluckt alles in einem Stück und sondert giftige Stoffe ab, mit denen es Gegner besprüht.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Runterschlucken",
+            "damage": 30,
+            "effect": "Bevor der Schaden zugefügt wird, vergleiche die verbliebenen KP von dem Verteidigenden Pokémon und Schlukwech. Wenn das Verteidigende Pokémon weniger verbliebene KP hat als Schlukwech, fügt dieser Angriff 80 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Mülltreffer",
+            "damage": 60,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Schluppuck",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp6-72"
+        }
+    ],
+    "print_key": "tcgdex:dp6-72",
+    "card_key": "317|90|2|Midori Harada|30,60|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

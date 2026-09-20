@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex3-91",
+    "name": "Geowaz-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Drache",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "91",
+    "set_total": 100,
+    "rarity": "Selten",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 76,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 160,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Intensität",
+            "damage": 60,
+            "effect": "Fügt allen Pokémon auf der Bank 10 Schadenspunkte zu (deinen und den gegnerischen). (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Risikotackle",
+            "damage": 120,
+            "effect": "Geowaz ex fügt sich selbst 50 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze",
+            "Wasser"
+        ],
+        "value": "x2"
+    },
+    "retreat": 5,
+    "evolve_from": "Georok",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex3-91"
+        }
+    ],
+    "print_key": "tcgdex:ex3-91",
+    "card_key": "76|160|5|Hikaru Koike|60,120|3,5",
+    "types_en": [
+        "Fighting"
+    ]
+}

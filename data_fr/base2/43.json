@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base2-43",
+    "name": "Colossinge",
+    "img": "https://assets.tcgdex.net/fr/base/base2/43/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Base",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "43",
+    "set_total": 64,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 57,
+    "pokemon_category": "",
+    "flavor_text": "Agressif et teigneux, il poursuit son gibier jusqu'à épuisement complet.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Combo-griffe",
+            "damage": "20x",
+            "effect": "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Mauvaise humeur",
+            "damage": 50,
+            "effect": "Lancez une pièce. Si c'est pile, Colossinge est maintenant Confus (après le calcul des dégâts)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Férosinge",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base2-43"
+        }
+    ],
+    "print_key": "tcgdex:base2-43",
+    "card_key": "57|70|1|Kagemaru Himeno|20x,50|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

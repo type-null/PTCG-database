@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sv03-062",
+    "name": "Palafin",
+    "img": "https://assets.tcgdex.net/es/sv/sv03/062/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "G",
+    "set_name": "sv03",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03/symbol",
+    "set_full_name": "Llamas Obsidianas",
+    "series": "Escarlata y Púrpura",
+    "set_code": "sv03",
+    "date": "2023-08-11",
+    "number": "062",
+    "set_total": 230,
+    "rarity": "Rara",
+    "author": [
+        "Souichirou Gunjima"
+    ],
+    "pokedex_number": 964,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 150,
+    "types": [
+        "Agua"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Agua"
+            ],
+            "name": "Puño Jet",
+            "damage": 30,
+            "effect": "Este ataque también hace 30 puntos de daño a uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
+        },
+        {
+            "cost": [
+                "Agua",
+                "Agua"
+            ],
+            "name": "Patada Justiciera",
+            "damage": 210,
+            "effect": "Si este Pokémon no se ha movido de la Banca al Puesto Activo en este turno, este ataque no hace nada."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Rayo"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Finizen",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sv03-062"
+        }
+    ],
+    "print_key": "tcgdex:sv03-62",
+    "card_key": "964|150|2|Souichirou Gunjima|30,210|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

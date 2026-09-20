@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw1-73",
+    "name": "Grypheldis",
+    "img": "https://assets.tcgdex.net/de/bw/bw1/73/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw1",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw1/symbol",
+    "set_full_name": "Schwarz & Weiß",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw1",
+    "date": "2011-04-25",
+    "number": "73",
+    "set_total": 115,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 630,
+    "pokemon_category": "",
+    "flavor_text": "Es baut sein Nest aus Knochen. Ist seine Beute geschwächt, packt es sie mit den Beinen und trägt sie zu seinem Nest.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht"
+            ],
+            "name": "Aus heiterem Himmel",
+            "damage": null,
+            "effect": "Dieser Angriff fügt 1 Pokémon deines Gegners, auf dem bereits mindestens 1 Schadensmarke liegt, 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Strafattacke",
+            "damage": 40,
+            "effect": "Wenn das Verteidigende Pokémon ein Phase-2-Pokémon ist, fügt dieser Angriff 60 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Skallyk",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw1-73"
+        }
+    ],
+    "print_key": "tcgdex:bw1-73",
+    "card_key": "630|90|1|Kouki Saitou|None,40|1,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

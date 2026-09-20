@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard1-70",
+    "name": "Smogmog",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-Card",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "70",
+    "set_total": 165,
+    "rarity": "Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 110,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Fäulnisgas",
+            "damage": null,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet. Bei „Zahl“ ist das Verteidigende Pokémon jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Fehlschuss",
+            "damage": 60,
+            "effect": "Wirf eine Münze. Lege bei „Zahl“ 6 Schadensmarken auf Smogmog."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Smogon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard1-70"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-70",
+    "card_key": "110|80|2|Hajime Kusajima|None,60|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

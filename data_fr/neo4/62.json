@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo4-62",
+    "name": "Octillery obscur",
+    "img": "https://assets.tcgdex.net/fr/neo/neo4/62/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "62",
+    "set_total": 113,
+    "rarity": "Commune",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 224,
+    "pokemon_category": "",
+    "flavor_text": "Il aime dormir dans les cavernes sous-marines et il lui arrive même de voler le nid d'un autre Octillery.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Explosion d'encre",
+            "damage": "20+",
+            "effect": "Cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Octillery obscur mais non utilisée pour payer le coût d'Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette manière."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Roule tentacule",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, pendant le prochain tour de votre adversaire, votre adversaire paie {C} supplémentaires pour faire battre en retraite le Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Rémoraid",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo4-62"
+        }
+    ],
+    "print_key": "tcgdex:neo4-62",
+    "card_key": "224|60|2|Shin-ichi Yoshida|20+,20|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

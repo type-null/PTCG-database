@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard2-110",
+    "name": "Farfuret",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard2/110/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-cards",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "110",
+    "set_total": 186,
+    "rarity": "Commune",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 215,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité"
+            ],
+            "name": "Dérober",
+            "damage": null,
+            "effect": "Regardez la main de votre adversaire. Choisissez-y toutes les cartes Outil Pokémon et Machine technique et placez-les dans son deck. Votre adversaire mélange ensuite son deck."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Mâchoire",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard2-110"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-110",
+    "card_key": "215|60|1|Midori Harada|None,30|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

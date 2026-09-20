@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex4-9",
+    "name": "Team Magmas Groudon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex4",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex4/symbol",
+    "set_full_name": "EX Team Magma vs Team Aqua",
+    "series": "EX",
+    "set_code": "ex4",
+    "date": "2004-03-01",
+    "number": "9",
+    "set_total": 97,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Kazuo Yazawa"
+    ],
+    "pokedex_number": 383,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Kampf",
+        "Unlicht"
+    ],
+    "abilities": [
+        {
+            "name": "Kraft sparen",
+            "effect": "Solange 3 oder weniger Pokémon mit „Team Magma“ im Namen im Spiel sind, kann Team Magmas Groudon nicht angreifen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Linearer Angriff",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Pulverisieren",
+            "damage": "50+",
+            "effect": "Wenn bereits 2 oder mehr Schadensmarken auf dem Verteidigenden Pokémon liegen, fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex4-9"
+        }
+    ],
+    "print_key": "tcgdex:ex4-9",
+    "card_key": "383|100|3|Kazuo Yazawa|None,50+|2,3",
+    "types_en": [
+        "Fighting",
+        "Darkness"
+    ]
+}

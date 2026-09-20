@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy3-11",
+    "name": "Maganon",
+    "img": "https://assets.tcgdex.net/fr/xy/xy3/11/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy3",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy3/symbol",
+    "set_full_name": "Poings Furieux",
+    "series": "XY",
+    "set_code": "xy3",
+    "date": "2014-08-13",
+    "number": "11",
+    "set_total": 114,
+    "rarity": "Rare",
+    "author": [
+        "PLANETA"
+    ],
+    "pokedex_number": 467,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Nitrocharge",
+            "damage": 30,
+            "effect": "Cherchez une carte Énergie Fire dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Explosions en Duo",
+            "damage": "80+",
+            "effect": "Si Élekable est sur votre Banc, cette attaque inflige 80 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Magmar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy3-11"
+        }
+    ],
+    "print_key": "tcgdex:xy3-11",
+    "card_key": "467|120|3|PLANETA|30,80+|1,4",
+    "types_en": [
+        "Fire"
+    ]
+}

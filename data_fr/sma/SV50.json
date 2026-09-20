@@ -1,0 +1,85 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sma-SV50",
+    "name": "Ho-Oh-GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sma",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sma/symbol",
+    "set_full_name": "Destinées Occultes Coffre Étincelant",
+    "series": "Soleil et Lune",
+    "set_code": "sma",
+    "date": "2019-08-23",
+    "number": "SV50",
+    "set_total": 94,
+    "rarity": "Shiny rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 250,
+    "pokemon_category": "",
+    "hp": 190,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Feu Sacré",
+            "damage": null,
+            "effect": "Cette attaque inflige 50 dégâts à l’un des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Éclat du Phénix",
+            "damage": 180,
+            "effect": "Ce Pokémon ne peut pas utiliser Éclat du Phénix pendant votre prochain tour."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Flamme Éternelle-GX",
+            "damage": null,
+            "effect": "Ajoutez de votre pile de défausse à votre Banc une combinaison de 3 cartes choisies parmi des Pokémon-GX Fire et des Pokémon-EX Fire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sma-SV50"
+        }
+    ],
+    "print_key": "tcgdex:sma-SV50",
+    "card_key": "250|190|2|5ban Graphics|None,180,None|3,4,3",
+    "types_en": [
+        "Fire"
+    ]
+}

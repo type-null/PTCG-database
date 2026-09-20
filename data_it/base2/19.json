@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base2-19",
+    "name": "Flareon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Originale",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "19",
+    "set_total": 64,
+    "rarity": "Rara",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 136,
+    "pokemon_category": "",
+    "flavor_text": "Quando immagazzina energia termica nel proprio corpo, la sua temperatura può aumentare oltre gli 850 °C.",
+    "stage": "Livello 1",
+    "hp": 70,
+    "types": [
+        "Fuoco"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Attacco Rapido",
+            "damage": "10+",
+            "effect": "Lancia una moneta. Se esce testa questo attacco infligge 10 danni più altri 20 danni; se esce croce questo attacco infligge 10 danni."
+        },
+        {
+            "cost": [
+                "Fuoco",
+                "Fuoco",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Lanciafiamme",
+            "damage": 60,
+            "effect": "Scarta una carta Energia Fuoco assegnata a Flareon per potere usare questo attacco."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Acqua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base2-19"
+        }
+    ],
+    "print_key": "tcgdex:base2-19",
+    "card_key": "136|70|1|Kagemaru Himeno|10+,60|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh2-104",
+    "name": "Golgopathe",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh2/104/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Clash des Rebelles",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "104",
+    "set_total": 209,
+    "rarity": "Rare",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 689,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Lance-Pierre",
+            "damage": 50,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Pression des Mains",
+            "damage": "80+",
+            "effect": "Si vous avez plus de cartes dans votre main que votre adversaire, cette attaque inflige 80 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Opermine",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh2-104"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-104",
+    "card_key": "689|120|3|Anesaki Dynamic|50,80+|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

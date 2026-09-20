@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base5-2",
+    "name": "Dunkles Arbok",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Grund",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "2",
+    "set_total": 83,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 24,
+    "pokemon_category": "",
+    "flavor_text": "Lässt seiner Beute mit seinem Starren das Blut in den Adern gefrieren. Falls du einem begegnen solltest, erinnere dich daran, ihm nicht in die Augen zu blicken.",
+    "stage": "Rang 1",
+    "hp": 60,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Starren",
+            "damage": null,
+            "effect": "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.) Falls dieses Pokémon über Pokémon-Power verfügt, funktioniert diese Fähigkeit bis zum Ende des nächsten gegnerischen Zuges nicht mehr."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Giftige Dämpfe",
+            "damage": 10,
+            "effect": "Das verteidigende Pokémon ist jetzt vergiftet. Dieser Angriff fügt jedem Pokémon auf der gegnerischen Bank 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Rettan",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base5-2"
+        }
+    ],
+    "print_key": "tcgdex:base5-2",
+    "card_key": "24|60|2|Mitsuhiro Arita|None,10|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

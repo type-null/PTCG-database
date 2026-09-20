@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex10-15",
+    "name": "Simularbre",
+    "img": "https://assets.tcgdex.net/fr/ex/ex10/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Forces Cachées",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "15",
+    "set_total": 117,
+    "rarity": "Rare",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 185,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Copiage",
+            "damage": null,
+            "effect": "Choisissez 1 des attaques du Pokémon Défenseur. Copiage copie cette attaque. Cette attaque est sans effet si Simularbre ne possède pas suffisamment d'Énergie pour utiliser cette attaque. (Vous devez toujours faire ce que l'attaque indique). Simularbre utilise cette attaque."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Poing-Karaté",
+            "damage": "50-",
+            "effect": "Inflige 50 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Simularbre."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex10-15"
+        }
+    ],
+    "print_key": "tcgdex:ex10-15",
+    "card_key": "185|60|1|Tomokazu Komiya|None,50-|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

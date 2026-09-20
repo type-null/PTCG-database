@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm3.5-35",
+    "name": "Zekrom",
+    "img": "https://assets.tcgdex.net/de/sm/sm3.5/35/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm3.5",
+    "set_full_name": "Schimmernde Legenden",
+    "series": "Sonne & Mond",
+    "set_code": "sm3.5",
+    "date": "2017-10-06",
+    "number": "35",
+    "set_total": 78,
+    "rarity": "Selten",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 644,
+    "pokemon_category": "",
+    "flavor_text": "Ein Legendäres Pokémon mit der Macht, die Welt durch Donner einzuäschern. Hilft allen, die einer Welt der Wünsche harren.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wutanfall",
+            "damage": "20+",
+            "effect": "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der Schadensmarken auf diesem Pokémon zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Sturmklinge",
+            "damage": 130,
+            "effect": "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm3.5-35"
+        }
+    ],
+    "print_key": "tcgdex:sm3.5-35",
+    "card_key": "644|130|3|nagimiso|20+,130|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

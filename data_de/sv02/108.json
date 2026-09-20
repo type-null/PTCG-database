@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv02-108",
+    "name": "Paldea-Tauros",
+    "img": "https://assets.tcgdex.net/de/sv/sv02/108/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv02",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv02/symbol",
+    "set_full_name": "Entwicklungen in Paldea",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv02",
+    "date": "2023-06-09",
+    "number": "108",
+    "set_total": 279,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 128,
+    "pokemon_category": "",
+    "flavor_text": "Es zeichnet sich durch seine dicken Muskeln und sein wildes Temperament aus. Diese Form wird „Gefechtvariante“ genannt.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Rasende Hörner",
+            "damage": "20+",
+            "effect": "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Gefechts-Tackle",
+            "damage": 130,
+            "effect": "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv02-108"
+        }
+    ],
+    "print_key": "tcgdex:sv02-108",
+    "card_key": "128|130|2|Shin Nagasawa|20+,130|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

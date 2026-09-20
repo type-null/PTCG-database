@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh2-30",
+    "name": "Maganon",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh2/30/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Clash des Rebelles",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "30",
+    "set_total": 209,
+    "rarity": "Rare",
+    "author": [
+        "Kazuma Koda"
+    ],
+    "pokedex_number": 467,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 140,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Poing d'Enfer",
+            "damage": 30,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Brûlure au Sol",
+            "damage": "80+",
+            "effect": "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 100 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Magmar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh2-30"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-30",
+    "card_key": "467|140|3|Kazuma Koda|30,80+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

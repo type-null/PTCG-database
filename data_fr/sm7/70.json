@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm7-70",
+    "name": "Lunala",
+    "img": "https://assets.tcgdex.net/fr/sm/sm7/70/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm7",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm7/symbol",
+    "set_full_name": "Tempête Céleste",
+    "series": "Soleil et Lune",
+    "set_code": "sm7",
+    "date": "2018-08-03",
+    "number": "70",
+    "set_total": 183,
+    "rarity": "Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 792,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 160,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Spectro-Bouclier",
+            "effect": "Si de l’Énergie Psychic est attachée à ce Pokémon, il subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Psy"
+            ],
+            "name": "Rayon Pleine Lune",
+            "damage": "80+",
+            "effect": "Cette attaque inflige 20 dégâts supplémentaires multipliés par le nombre d’Énergies attachées au Pokémon Actif de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Cosmovum",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm7-70"
+        }
+    ],
+    "print_key": "tcgdex:sm7-70",
+    "card_key": "792|160|2|5ban Graphics|80+|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

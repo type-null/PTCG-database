@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-29",
+    "name": "Spectrum",
+    "img": "https://assets.tcgdex.net/fr/base/base1/29/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "29",
+    "set_total": 102,
+    "rarity": "Peu Commune",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 93,
+    "pokemon_category": "",
+    "flavor_text": "Il peut se glisser à travers les murs comme une créature d'une autre dimension.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Hypnose",
+            "damage": null,
+            "effect": "Le Pokémon Défenseur est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy"
+            ],
+            "name": "Dévorêve",
+            "damage": 50,
+            "effect": "Vous ne pouvez utiliser cette attaque que si le Pokémon Défenseur est Endormi."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Fantominus",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-29"
+        }
+    ],
+    "print_key": "tcgdex:base1-29",
+    "card_key": "93|60|1|Keiji Kinebuchi|None,50|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

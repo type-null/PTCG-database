@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh2-73",
+    "name": "Morpeko",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh2/73/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Clash des Rebelles",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "73",
+    "set_total": 209,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 877,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Tourmente",
+            "damage": 20,
+            "effect": "Choisissez l'une des attaques du Pokémon Actif de votre adversaire. Pendant le prochain tour de votre adversaire, ce Pokémon ne peut pas utiliser cette attaque."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Étincelle",
+            "damage": 50,
+            "effect": "Cette attaque inflige aussi 20 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh2-73"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-73",
+    "card_key": "877|80|1|Kouki Saitou|20,50|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

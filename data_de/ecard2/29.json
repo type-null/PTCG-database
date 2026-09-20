@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard2-29",
+    "name": "Rasaff",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-Card",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "29",
+    "set_total": 186,
+    "rarity": "Selten",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 57,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Karateschlag",
+            "damage": "40-",
+            "effect": "Der Schaden durch diesen Angriff wird für jede Schadensmarke auf Rasaff um 10 reduziert."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Plötzlicher Ansturm",
+            "damage": 40,
+            "effect": "Rasaff fügt sich selber 10 Schadenspunkte zu. Dann tauscht dein Gegner das Verteidigende Pokémon mit 1 der Pokémon auf seiner Bank, falls er dort mindestens eins hat."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "evolve_from": "Menki",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard2-29"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-29",
+    "card_key": "57|80|1|Tomokazu Komiya|40-,40|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm8-198",
+    "name": "Volcaropod GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm8/198/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Tonnerre Perdu",
+    "series": "Soleil et Lune",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "198",
+    "set_total": 236,
+    "rarity": "Ultra Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 219,
+    "pokemon_category": "",
+    "hp": 210,
+    "types": [
+        "Feu"
+    ],
+    "abilities": [
+        {
+            "name": "Charge Écrasante",
+            "effect": "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser la carte du dessus de votre deck. Si c’est une carte Énergie de base, attachez-la à l’un de vos Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Torrent de Lave",
+            "damage": "50+",
+            "effect": "Défaussez n’importe quel nombre d’Énergies de base de ce Pokémon. Cette attaque inflige 50 dégâts supplémentaires pour chaque carte défaussée de cette façon."
+        },
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Magma Brûlant GX",
+            "damage": null,
+            "effect": "Défaussez les 5 cartes du dessus du deck de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Limagma",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm8-198"
+        }
+    ],
+    "print_key": "tcgdex:sm8-198",
+    "card_key": "219|210|3|5ban Graphics|50+,None|3,1",
+    "types_en": [
+        "Fire"
+    ]
+}

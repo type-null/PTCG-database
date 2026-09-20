@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex8-96",
+    "name": "Iksbat-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "96",
+    "set_total": 108,
+    "rarity": "Selten",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 169,
+    "pokemon_category": "",
+    "hp": 130,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Distortion",
+            "effect": "Once during yout turn (before your attack), if Crobat ex is your Active Pokémon, you may put 1 damage counter on 1 of your opponent's Pokémon. This power can't be used if Crobat ex is affected by a Special Condition."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Cross Attack",
+            "damage": "20x",
+            "effect": "Flip 4 coins. This attack does 20 damage times the number of heads. If you get 2 or more heads, the Defending Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Pester",
+            "damage": "60+",
+            "effect": "If the Defending Pokémon is affected by a Special Condition, this attack does 60 damage plus 40 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 0,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex8-96"
+        }
+    ],
+    "print_key": "tcgdex:ex8-96",
+    "card_key": "169|130|0|Ryo Ueda|20x,60+|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

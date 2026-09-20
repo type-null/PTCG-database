@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex15-15",
+    "name": "Lamantine δ",
+    "img": "https://assets.tcgdex.net/fr/ex/ex15/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex15",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex15/symbol",
+    "set_full_name": "EX Île des Dragons",
+    "series": "EX",
+    "set_code": "ex15",
+    "date": "2006-11-08",
+    "number": "15",
+    "set_total": 101,
+    "rarity": "Rare",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 87,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Protection Delta",
+            "effect": "Tous dégâts infligés à Lamantine par des attaques de Pokémon de votre adversaire possédant le symbole δ sont réduits de 40 (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Laser glace",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Déferlante",
+            "damage": "40+",
+            "effect": "Si Lamantine possède au moins 2 Énergies , cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Otaria",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex15-15"
+        }
+    ],
+    "print_key": "tcgdex:ex15-15",
+    "card_key": "87|80|2|Atsuko Nishida|20,40+|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

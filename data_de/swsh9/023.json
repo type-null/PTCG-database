@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh9-023",
+    "name": "Qurtel",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh9/023/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh9",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh9/symbol",
+    "set_full_name": "Strahlende Sterne",
+    "series": "Schwert & Schild",
+    "set_code": "swsh9",
+    "date": "2022-02-25",
+    "number": "023",
+    "set_total": 186,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 324,
+    "pokemon_category": "",
+    "flavor_text": "In seinem Panzer verbrennt es Kohle und gewinnt daraus Energie. Bei Gefahr sondert es Ruß ab.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Feuerhauch",
+            "damage": "30+",
+            "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schutzdruck",
+            "damage": 90,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh9-023"
+        }
+    ],
+    "print_key": "tcgdex:swsh9-23",
+    "card_key": "324|120|2|Kagemaru Himeno|30+,90|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

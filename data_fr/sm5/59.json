@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm5-59",
+    "name": "Cresselia",
+    "img": "https://assets.tcgdex.net/fr/sm/sm5/59/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultra-Prisme",
+    "series": "Soleil et Lune",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "59",
+    "set_total": 173,
+    "rarity": "Rare",
+    "author": [
+        "chibi"
+    ],
+    "pokedex_number": 488,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Vengeance Lunaire",
+            "damage": null,
+            "effect": "Défaussez une Énergie de ce Pokémon. Dans ce cas, échangez tous les marqueurs de dégâts de ce Pokémon avec ceux du Pokémon Actif de votre adversaire."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Psyko",
+            "damage": "60+",
+            "effect": "Cette attaque inflige 20 dégâts supplémentaires multipliés par le nombre d’Énergies attachées au Pokémon Actif de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm5-59"
+        }
+    ],
+    "print_key": "tcgdex:sm5-59",
+    "card_key": "488|120|1|chibi|None,60+|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

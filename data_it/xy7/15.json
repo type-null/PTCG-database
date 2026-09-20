@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/xy7-15",
+    "name": "Entei",
+    "img": "https://assets.tcgdex.net/it/xy/xy7/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "xy7",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy7/symbol",
+    "set_full_name": "Antiche Origini",
+    "series": "XY",
+    "set_code": "xy7",
+    "date": "2015-08-12",
+    "number": "15",
+    "set_total": 101,
+    "rarity": "Rara",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 244,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Fuoco"
+    ],
+    "abilities": [
+        {
+            "name": "{title}:",
+            "effect": "{title}: Questo Pokémon può avere fino a due carte Oggetto Pokémon assegnate."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuoco",
+                "Incolore"
+            ],
+            "name": "Muro di Fuoco",
+            "damage": 30,
+            "effect": "Durante il prossimo turno del tuo avversario, i danni inflitti a questo Pokémon dagli attacchi sono ridotti di 30, dopo aver applicato debolezza e resistenza."
+        },
+        {
+            "cost": [
+                "Fuoco",
+                "Fuoco",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Calorazione",
+            "damage": 130,
+            "effect": "Lancia una moneta. Se esce croce, questo Pokémon infligge 30 danni a se stesso."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Acqua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/xy7-15"
+        }
+    ],
+    "print_key": "tcgdex:xy7-15",
+    "card_key": "244|130|2|Mitsuhiro Arita|30,130|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

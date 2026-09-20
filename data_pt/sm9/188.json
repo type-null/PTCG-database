@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/sm9-188",
+    "name": "Incineroar GX",
+    "img": "https://assets.tcgdex.net/pt/sm/sm9/188/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm9",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm9/symbol",
+    "set_full_name": "União de Aliados",
+    "series": "Sol e Lua",
+    "set_code": "sm9",
+    "date": "2019-01-31",
+    "number": "188",
+    "set_total": 196,
+    "rarity": "Rare Secreta",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 727,
+    "pokemon_category": "",
+    "hp": 250,
+    "types": [
+        "Sombrio"
+    ],
+    "abilities": [
+        {
+            "name": "Ofensiva de Cicatriz",
+            "effect": "Uma vez durante a sua vez de jogar (antes de atacar), você pode colocar 3 contadores de dano neste Pokémon. Se fizer isto, procure por até 3 cartas de Energia Darkness no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolor",
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Soco Esmagador",
+            "damage": 130,
+            "effect": "Descarte 1 Energia Especial do Pokémon Ativo do seu oponente."
+        },
+        {
+            "cost": [
+                "Incolor",
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Tornado Escuro GX",
+            "damage": "10+",
+            "effect": "Este ataque causa 50 pontos de dano a mais para cada contador de dano neste Pokémon (você não pode usar mais de 1 ataque GX por partida)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lutador"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/sm9-188"
+        }
+    ],
+    "print_key": "tcgdex:sm9-188",
+    "card_key": "727|250|3|5ban Graphics|130,10+|3,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

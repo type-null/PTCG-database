@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm3.5-34",
+    "name": "Minun",
+    "img": "https://assets.tcgdex.net/de/sm/sm3.5/34/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm3.5",
+    "set_full_name": "Schimmernde Legenden",
+    "series": "Sonne & Mond",
+    "set_code": "sm3.5",
+    "date": "2017-10-06",
+    "number": "34",
+    "set_total": 78,
+    "rarity": "Häufig",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 312,
+    "pokemon_category": "",
+    "flavor_text": "Mit elektrischen Schlägen regen Plusle und Minun den Blutkreislauf an und lösen so Verspannungen.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Sammeln",
+            "damage": null,
+            "effect": "Ziehe 1 Karte."
+        },
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Funkensprung",
+            "damage": 20,
+            "effect": "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm3.5-34"
+        }
+    ],
+    "print_key": "tcgdex:sm3.5-34",
+    "card_key": "312|70|1|nagimiso|None,20|1,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

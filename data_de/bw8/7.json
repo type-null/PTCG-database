@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw8-7",
+    "name": "Kinoso",
+    "img": "https://assets.tcgdex.net/de/bw/bw8/7/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw8",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw8/symbol",
+    "set_full_name": "Plasma-Sturm",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw8",
+    "date": "2013-02-06",
+    "number": "7",
+    "set_total": 138,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 421,
+    "pokemon_category": "",
+    "flavor_text": "Spürt es Sonnenlicht, öffnet es seine Blütenblätter und nimmt die Energie der Sonnenstrahlen auf.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Gut-Wetter-Heilung",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du 20 Schadenspunkte bei 1 deiner Pokémon heilen, an das {G}-Energie angelegt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Zufälliger Schnabelhieb",
+            "damage": 20,
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Kikugi",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw8-7"
+        }
+    ],
+    "print_key": "tcgdex:bw8-7",
+    "card_key": "421|70|1|Kagemaru Himeno|20|2",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard1-72",
+    "name": "Leveinard",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard1/72/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-cards",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "72",
+    "set_total": 165,
+    "rarity": "Peu Commune",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 113,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Pansement",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, retirez 2 marqueurs de dégâts d'un de vos Pokémon (1 seul s'il n'en a qu'un)."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Empilage",
+            "damage": "10×",
+            "effect": "Comptez le nombre de Pokémon sur votre Banc. Cette attaque inflige 10 fois ce nombre de dégâts au Pokémon Défenseur, et Leveinard s'inflige 10 fois ce nombre de dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard1-72"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-72",
+    "card_key": "113|90|2|Sumiyoshi Kizuki|None,10x|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

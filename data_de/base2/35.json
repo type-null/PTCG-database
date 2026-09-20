@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base2-35",
+    "name": "Kokowei",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Dschungel",
+    "series": "Grund",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "35",
+    "set_total": 64,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 103,
+    "pokemon_category": "",
+    "flavor_text": "Der Legende nach soll in seltenen Fällen eines seiner Köpfe abfallen und als Owei weiterleben.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Teleport",
+            "damage": null,
+            "effect": "Tausche Kokowei mit einem Pokémon auf deiner Bank aus."
+        },
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Große Eggsplosion",
+            "damage": "20x",
+            "effect": "Wirf eine Anzahl Münzen, die der auf Kokowei abgelegten Energiemenge entspricht. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 20 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Owei",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base2-35"
+        }
+    ],
+    "print_key": "tcgdex:base2-35",
+    "card_key": "103|80|3|Kagemaru Himeno|None,20x|1,1",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-3",
+    "name": "Chaneira",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "3",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 113,
+    "pokemon_category": "",
+    "flavor_text": "Ein seltenes und schwer zu fangendes Pokémon. Man sagt, daß es denen Glück bringen soll, die es zu fangen vermögen.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zähneknirschen",
+            "damage": null,
+            "effect": "Wirf eine Münze. Bei „Kopf“ kannst Du den Schaden, der Chaneira während des nächsten Zuges zugefügt wird, verhindern. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Austeiler",
+            "damage": 80,
+            "effect": "Chaneira fügt sich selbst 80 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-3"
+        }
+    ],
+    "print_key": "tcgdex:base1-3",
+    "card_key": "113|120|1|Ken Sugimori|None,80|2,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

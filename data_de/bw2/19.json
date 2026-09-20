@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw2-19",
+    "name": "Grillchita",
+    "img": "https://assets.tcgdex.net/de/bw/bw2/19/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw2",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw2/symbol",
+    "set_full_name": "Aufstreben der Mächtigen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw2",
+    "date": "2011-08-31",
+    "number": "19",
+    "set_total": 98,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 514,
+    "pokemon_category": "",
+    "flavor_text": "Es entfacht in seinem Körper ein Feuer und verkohlt Gegner mit Funken aus seinem Kopf und Schweif.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wassermacht",
+            "damage": 30,
+            "effect": "Wenn an dieses Pokémon bereits {W}-Energie angelegt ist, schläft das Verteidigende Pokémon jetzt."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Flammenwurf",
+            "damage": 70,
+            "effect": "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Grillmak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw2-19"
+        }
+    ],
+    "print_key": "tcgdex:bw2-19",
+    "card_key": "514|90|1|Mitsuhiro Arita|30,70|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

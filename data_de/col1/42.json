@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/col1-42",
+    "name": "Donphan",
+    "img": "https://assets.tcgdex.net/de/col/col1/42/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "Ruf der Legenden",
+    "series": "Ruf der Legenden",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "42",
+    "set_total": 106,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 232,
+    "pokemon_category": "",
+    "flavor_text": "Aufgrund seiner scharfen Stoßzähne und seiner rauen Haut könnte es mit Tackle ein Haus niederreißen.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Steinschleuderer",
+            "damage": 50,
+            "effect": "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Doppeldreher",
+            "damage": "70×",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 70 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Phanpy",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/col1-42"
+        }
+    ],
+    "print_key": "tcgdex:col1-42",
+    "card_key": "232|100|3|Midori Harada|50,70x|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

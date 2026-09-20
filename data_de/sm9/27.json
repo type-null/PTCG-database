@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm9-27",
+    "name": "Entoron",
+    "img": "https://assets.tcgdex.net/de/sm/sm9/27/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm9",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm9/symbol",
+    "set_full_name": "Teams Sind Trumpf",
+    "series": "Sonne & Mond",
+    "set_code": "sm9",
+    "date": "2019-01-31",
+    "number": "27",
+    "set_total": 196,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 55,
+    "pokemon_category": "",
+    "flavor_text": "Es bringt selbst schnelle Fisch-Pokémon zum Stillstand und ergreift sie anschließend mit Leichtigkeit.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Amnesie",
+            "damage": 20,
+            "effect": "Wähle 1 Attacke des Aktiven Pokémon deines Gegners. Jenes Pokémon kann jene Attacke während des nächsten Zuges deines Gegners nicht einsetzen."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schwimmen",
+            "damage": 90,
+            "effect": "Wenn an die Pokémon deines Gegners mindestens 1 {W}-Energie angelegt ist, kannst du 1 Pokémon auf der Bank deines Gegners anstelle seines Aktiven Pokémon 90 Schadenspunkte zufügen. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Enton",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm9-27"
+        }
+    ],
+    "print_key": "tcgdex:sm9-27",
+    "card_key": "55|110|1|Masakazu Fukuda|20,90|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo2-42",
+    "name": "Safcon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Entdeckung",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "42",
+    "set_total": 75,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 11,
+    "pokemon_category": "",
+    "flavor_text": "In seiner Schale ist es weich und schwach, während es sich auf seine Entwicklung vorbereitet. Es verbleibt bewegungslos in seiner Schale.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Härtner",
+            "damage": null,
+            "effect": "Immer wenn Safcon während des nächsten Zuges deines Gegners 20 oder weniger Schadenspunkte zugefügt werden (nachdem Schwäche und Resistenz verrechnet wurden), verhindere diesen Schaden. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Schlüpfen",
+            "damage": null,
+            "effect": "Wirf eine Münze. Entferne bei \"Kopf\" alle Schadensmarken von Safcon. Durchsuche dann dein Deck nach einer Karte, die aus Safcon entsteht, und lege sie auf Safcon. Dies zählt als Entwicklung von Safcon. Mische danach dein Deck."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Raupy",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo2-42"
+        }
+    ],
+    "print_key": "tcgdex:neo2-42",
+    "card_key": "11|70|2|Sumiyoshi Kizuki|None,None|2,2",
+    "types_en": [
+        "Grass"
+    ]
+}

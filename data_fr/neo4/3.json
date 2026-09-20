@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo4-3",
+    "name": "Donphan obscur",
+    "img": "https://assets.tcgdex.net/fr/neo/neo4/3/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "3",
+    "set_total": 113,
+    "rarity": "Rare",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 232,
+    "pokemon_category": "",
+    "flavor_text": "Plus ses défenses sont grosses, plus c'est un membre important du troupeau.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Koud'défense",
+            "damage": null,
+            "effect": "Si votre adversaire a des Pokémon sur son Banc, lancez une pièce. Si c'est face, renvoyez le Pokémon Défenseur et toutes les cartes qui lui sont attachées dans la main de votre adversaire. Si c'est pile, votre adversaire choisit un des Pokémon de son Banc et l'échange contre le Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Défense géante",
+            "damage": 50,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Phanpy",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo4-3"
+        }
+    ],
+    "print_key": "tcgdex:neo4-3",
+    "card_key": "232|60|3|Shin-ichi Yoshida|None,50|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

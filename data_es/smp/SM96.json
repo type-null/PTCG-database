@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/smp-SM96",
+    "name": "Heatran",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SL Cartas de promoción",
+    "series": "Sol y Luna",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM96",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "tetsuya koizumi"
+    ],
+    "pokedex_number": 485,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 130,
+    "types": [
+        "Metálica"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metálica",
+                "Incolora"
+            ],
+            "name": "Presión de Guardia",
+            "damage": 30,
+            "effect": "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia)."
+        },
+        {
+            "cost": [
+                "Metálica",
+                "Metálica",
+                "Incolora"
+            ],
+            "name": "Impacto Abrasador",
+            "damage": 130,
+            "effect": "Descarta 2 Energías de este Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/smp-SM96"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM96",
+    "card_key": "485|130|3|tetsuya koizumi|30,130|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

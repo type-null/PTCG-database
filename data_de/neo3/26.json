@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo3-26",
+    "name": "Mogelbaum",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "26",
+    "set_total": 66,
+    "rarity": "Selten",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 185,
+    "pokemon_category": "",
+    "flavor_text": "Es tarnt sich selbst als Baum, um nicht angegriffen zu werden. Es mag kein Wasser und wird daher verschwinden, wenn es anfängt zu regnen.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Mimikry",
+            "effect": "Solange Mogelbaum dein aktives Pokémon ist, kopiert es alle Angriffe des verteidigenden Pokémon, einschließlich ihrer Kosten. Diese Fähigkeit kann nicht verwendet werden, falls Mogelbaum schläft, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Slam",
+            "damage": "20x",
+            "effect": "Wirf zwei Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo3-26"
+        }
+    ],
+    "print_key": "tcgdex:neo3-26",
+    "card_key": "185|60|3|Sumiyoshi Kizuki|20x|2",
+    "types_en": [
+        "Fighting"
+    ]
+}

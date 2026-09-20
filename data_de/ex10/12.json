@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex10-12",
+    "name": "Porygon2",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Verborgene Mächte",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "12",
+    "set_total": 117,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 233,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Farblos"
+    ],
+    "abilities": [
+        {
+            "name": "3-D Reset",
+            "effect": "As often as you like during your turn (before your attack), return a Pokémon Tool card attached to 1 of your Pokémon to your hand. This power can't be used if Porygon2 is affected by a Special Condition."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Data Retrieval",
+            "damage": null,
+            "effect": "If you have less than 8 cards in your hand, draw cards until you have 8 cards in your hand."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Scramble Trip",
+            "damage": "40+",
+            "effect": "If Porygon2 has a Scramble Energy attached to it, this attack does 40 damage plus 20 more damage and the Defending Pokémon is now Confused."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex10-12"
+        }
+    ],
+    "print_key": "tcgdex:ex10-12",
+    "card_key": "233|70|1|Kagemaru Himeno|None,40+|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

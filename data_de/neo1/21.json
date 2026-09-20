@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-21",
+    "name": "Donphan",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "21",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 232,
+    "pokemon_category": "",
+    "flavor_text": "Es hat scharfe, harte Hauer und eine robuste Haut. Mit seinem Angriff kann es sogar ein Haus niederreißen.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Dreschflegel",
+            "damage": "10x",
+            "effect": "Fügt 10 Schadenspunkte mal der Anzahl der Schadensmarken auf Donphan zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Turbodreher",
+            "damage": 50,
+            "effect": "Falls dein Gegner mindestens ein Pokémon auf der Bank hat, wählt er eines von ihnen und tauscht es mit seinem aktiven Pokémon aus. Falls du mindestens ein Pokémon auf der Bank hast, tauscht du dann eines von diesen mit deinem aktiven Pokémon aus. (Füge die Schadenspunkte vor dem Austauschen der Pokémon zu.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Phanpy",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-21"
+        }
+    ],
+    "print_key": "tcgdex:neo1-21",
+    "card_key": "232|70|3|Ken Sugimori|10x,50|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex8-104",
+    "name": "Sharpedo ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex8/104/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "104",
+    "set_total": 108,
+    "rarity": "Rare",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 319,
+    "pokemon_category": "",
+    "hp": 100,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Traîne",
+            "damage": 20,
+            "effect": "Avant d'infliger des dégâts, vous pouvez échanger 1 des Pokémon de Banc de votre adversaire avec le Pokémon Défenseur. Cette attaque inflige alors 20 dégâts au nouveau Pokémon Défenseur. Votre adversaire choisit le Pokémon Défenseur à échanger."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Explosion d'obscurité",
+            "damage": "60+",
+            "effect": "Vous pouvez défausser une Énergie {D} attachée à Sharpedo ex. Cette attaque inflige alors 60 dégâts plus 20 dégâts supplémentaires. Défaussez une carte Énergie attachée au Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "retreat": 0,
+    "evolve_from": "Carvanha",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex8-104"
+        }
+    ],
+    "print_key": "tcgdex:ex8-104",
+    "card_key": "319|100|0|Hikaru Koike|20,60+|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

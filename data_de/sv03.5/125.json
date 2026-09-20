@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv03.5-125",
+    "name": "Elektek",
+    "img": "https://assets.tcgdex.net/de/sv/sv03.5/125/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv03.5",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03.5/symbol",
+    "set_full_name": "151",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv03.5",
+    "date": "2023-09-22",
+    "number": "125",
+    "set_total": 207,
+    "rarity": "Häufig",
+    "author": [
+        "NC Empire"
+    ],
+    "pokedex_number": 125,
+    "pokemon_category": "",
+    "flavor_text": "Bei Gewittern versammeln sich Elektek in der Nähe von hohen Bäumen, wo sie regungslos auf Blitzeinschläge warten.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Elektrokombo",
+            "damage": "10+",
+            "effect": "Wenn sich Magmar auf deiner Bank befindet, fügt diese Attacke 40 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Leichter Hieb",
+            "damage": 30,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv03.5-125"
+        }
+    ],
+    "print_key": "tcgdex:sv03.5-125",
+    "card_key": "125|90|2|NC Empire|10+,30|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

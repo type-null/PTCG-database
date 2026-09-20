@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-22",
+    "name": "Tauboga",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "22",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 17,
+    "pokemon_category": "",
+    "flavor_text": "Sehr auf eigenes Territorium bedacht, vertreibt dieses Pokémon aggressiv jeden Eindringling.",
+    "stage": "Rang 1",
+    "hp": 60,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wirbelwind",
+            "damage": 20,
+            "effect": "Falls Dein Gegner irgendwelche Pokémon auf der Bank hat, muss er eines von ihnen wählen und mit dem verteidigenden Pokémon austauschen. (Füge die Schadenspunkte vor dem Auswechseln des Pokémon zu.)"
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Spiegeltrick",
+            "damage": null,
+            "effect": "Falls Tauboga im letzten Zug angegriffen wurde, füge dem verteidigenden Pokémon Schadenspunkte in Höhe der Endstärke dieses Angriffs zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Taubsi",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-22"
+        }
+    ],
+    "print_key": "tcgdex:base1-22",
+    "card_key": "17|60|1|Ken Sugimori|20,None|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

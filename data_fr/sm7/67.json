@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm7-67",
+    "name": "Deoxys",
+    "img": "https://assets.tcgdex.net/fr/sm/sm7/67/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm7",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm7/symbol",
+    "set_full_name": "Tempête Céleste",
+    "series": "Soleil et Lune",
+    "set_code": "sm7",
+    "date": "2018-08-03",
+    "number": "67",
+    "set_total": 183,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 386,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Psyko",
+            "damage": "20+",
+            "effect": "Cette attaque inflige 20 dégâts supplémentaires multipliés par le nombre d’Énergies attachées au Pokémon Actif de votre adversaire."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Violente Déflagration",
+            "damage": 120,
+            "effect": "Défaussez une Énergie de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm7-67"
+        }
+    ],
+    "print_key": "tcgdex:sm7-67",
+    "card_key": "386|120|1|Masakazu Fukuda|20+,120|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

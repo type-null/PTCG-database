@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/swsh8-41",
+    "name": "Heatmor",
+    "img": "https://assets.tcgdex.net/it/swsh/swsh8/41/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "E",
+    "set_name": "swsh8",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh8/symbol",
+    "set_full_name": "Colpo Fusione",
+    "series": "Spada e Scudo",
+    "set_code": "swsh8",
+    "date": "2021-11-12",
+    "number": "41",
+    "set_total": 284,
+    "rarity": "Non comune",
+    "author": [
+        "Oswaldo KATO"
+    ],
+    "pokedex_number": 631,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 110,
+    "types": [
+        "Fuoco"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuoco"
+            ],
+            "name": "Radunafuoco",
+            "damage": 20,
+            "effect": "Assegna a questo Pokémon una carta Energia {R} dalla tua pila degli scarti."
+        },
+        {
+            "cost": [
+                "Fuoco",
+                "Fuoco",
+                "Incolore"
+            ],
+            "name": "Ravvivafiamma",
+            "damage": 90,
+            "effect": "Se questo Pokémon ha almeno tre Energie extra assegnate, in aggiunta a quelle del costo di questo attacco, questo attacco infligge anche 180 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Acqua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/swsh8-41"
+        }
+    ],
+    "print_key": "tcgdex:swsh8-41",
+    "card_key": "631|110|2|Oswaldo KATO|20,90|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

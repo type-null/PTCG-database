@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-56",
+    "name": "Panpyro",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "56",
+    "set_total": 133,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 391,
+    "pokemon_category": "",
+    "flavor_text": "Es kontrolliert die Stärke des Feuers auf seinem Schweif geschickt, um Gegner auf Distanz zu halten.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Feuerschweifschlag",
+            "damage": 40,
+            "effect": "Wirf 1 Münze. Bei „Zahl“ entferne 1 {R}-Energie, die an Panpyro angelegt ist, und lege sie auf deinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Lähmender Blick",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+20"
+    },
+    "retreat": 0,
+    "evolve_from": "Panflam",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-56"
+        }
+    ],
+    "print_key": "tcgdex:pl1-56",
+    "card_key": "391|80|0|Kouki Saitou|40,20|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

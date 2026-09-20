@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm8-47",
+    "name": "Entei",
+    "img": "https://assets.tcgdex.net/de/sm/sm8/47/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Echo des Donners",
+    "series": "Sonne & Mond",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "47",
+    "set_total": 236,
+    "rarity": "Selten",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 244,
+    "pokemon_category": "",
+    "flavor_text": "Man sagt, wenn es brüllt, bricht irgendwo in der Welt ein Vulkan aus.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Feuerzahn",
+            "damage": 20,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Eruption",
+            "damage": "80+",
+            "effect": "Jeder Spieler legt die oberste Karte seines Decks auf seinen Ablagestapel. Diese Attacke fügt 60 Schadenspunkte mehr mal der Anzahl der auf diese Weise auf den Ablagestapel gelegten Energiekarten zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm8-47"
+        }
+    ],
+    "print_key": "tcgdex:sm8-47",
+    "card_key": "244|130|2|kawayoo|20,80+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

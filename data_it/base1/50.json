@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-50",
+    "name": "Gastly",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "50",
+    "set_total": 102,
+    "rarity": "Comune",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 92,
+    "pokemon_category": "",
+    "flavor_text": "Praticamente invisibile, questo Pokémon gassoso avvolge la sua preda in una nuvola di gas che la fa immediatamente addormentare. LIV 8 N.92",
+    "stage": "Base",
+    "hp": 30,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psico"
+            ],
+            "name": "Gas soporifero",
+            "damage": null,
+            "effect": "Lancia una moneta. Se esce testa, il Pokémon Difensore è Addormentato."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Incolore"
+            ],
+            "name": "Destino obbligato",
+            "damage": null,
+            "effect": "Scarta una carta Energia Psico assegnata a Gastly per usare questo attacco. Se un Pokémon mette K.O. Gastly durante il prossimo turno del tuo avversario, anche quel Pokémon verrà messo K.O."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-30"
+    },
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-50"
+        }
+    ],
+    "print_key": "tcgdex:base1-50",
+    "card_key": "92|30|None|Keiji Kinebuchi|None,None|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-153",
+    "name": "Schlurplek",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/153/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "153",
+    "set_total": 234,
+    "rarity": "Selten",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 463,
+    "pokemon_category": "",
+    "flavor_text": "Es gibt Wettbewerbe dazu, welches Schlurplek seine Zunge am weitesten herausstrecken kann. Der Rekord liegt bei 25 m.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Aufessen",
+            "damage": 40,
+            "effect": "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel. Wenn du mindestens 1 Pokémon-Ausrüstung auf diese Weise auf seinen Ablagestapel gelegt hast, heile allen Schaden bei diesem Pokémon."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schlecksturm",
+            "damage": "60×",
+            "effect": "Wirf 4 Münzen. Diese Attacke fügt 60 Schadenspunkte pro Kopf zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Schlurp",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-153"
+        }
+    ],
+    "print_key": "tcgdex:sm10-153",
+    "card_key": "463|130|4|sui|40,60x|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

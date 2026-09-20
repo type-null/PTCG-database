@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/sv08-103",
+    "name": "Donphan",
+    "img": "https://assets.tcgdex.net/pt/sv/sv08/103/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "regulation": "H",
+    "set_name": "sv08",
+    "set_full_name": "Fagulhas Impetuosas",
+    "series": "Escarlate e Violeta",
+    "set_code": "sv08",
+    "date": "2024-11-08",
+    "number": "103",
+    "set_total": 252,
+    "rarity": "Comum",
+    "author": [
+        "GOSSAN"
+    ],
+    "pokedex_number": 232,
+    "pokemon_category": "",
+    "stage": "Estágio 1",
+    "hp": 150,
+    "types": [
+        "Lutador"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lutador"
+            ],
+            "name": "Dar uma Sova",
+            "damage": 40,
+            "effect": "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente."
+        },
+        {
+            "cost": [
+                "Lutador",
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Proteção Rolante",
+            "damage": 120,
+            "effect": "Descarte 2 Energias deste Pokémon. Durante o próximo turno do seu oponente, este Pokémon receberá 100 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Phanpy",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/sv08-103"
+        }
+    ],
+    "print_key": "tcgdex:sv08-103",
+    "card_key": "232|150|4|GOSSAN|40,120|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

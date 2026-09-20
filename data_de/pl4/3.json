@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl4-3",
+    "name": "Heatran",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl4",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl4/symbol",
+    "set_full_name": "Arceus",
+    "series": "Platin",
+    "set_code": "pl4",
+    "date": "2009-11-04",
+    "number": "3",
+    "set_total": 111,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Keiko Moritsugu"
+    ],
+    "pokedex_number": 485,
+    "pokemon_category": "",
+    "flavor_text": "Sein Körper besteht aus Stahl, hat aber aufgrund der eigenen Temperatur geschmolzene Stellen.",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Feuerzahn",
+            "damage": 20,
+            "effect": "Das Verteidigende Pokémon ist jetzt verbrannt."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Magmahülle",
+            "damage": "60+",
+            "effect": "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 60 Schadenspunkte plus 20 weitere Schadenspunkte für jede auf diese Weise auf den Ablagestapel gelegte {R}- oder {M}-Energiekarte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl4-3"
+        }
+    ],
+    "print_key": "tcgdex:pl4-3",
+    "card_key": "485|100|3|Keiko Moritsugu|20,60+|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

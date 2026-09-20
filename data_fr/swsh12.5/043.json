@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh12.5-043",
+    "name": "Luxray",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh12.5/043/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "E",
+    "set_name": "swsh12.5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12.5/symbol",
+    "set_full_name": "Zénith Suprême",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh12.5",
+    "date": "2023-01-20",
+    "number": "043",
+    "set_total": 160,
+    "rarity": "Rare",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 405,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 150,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Électro-Pas",
+            "damage": null,
+            "effect": "Cette attaque inflige 40 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.) Échangez ce Pokémon contre l'un de vos Pokémon de Banc."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Acharnement",
+            "damage": "100+",
+            "effect": "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts, cette attaque inflige 100 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Luxio",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh12.5-043"
+        }
+    ],
+    "print_key": "tcgdex:swsh12.5-43",
+    "card_key": "405|150|1|sui|None,100+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

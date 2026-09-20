@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-27",
+    "name": "Étouraptor",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "27",
+    "set_total": 106,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 398,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Aile protectrice",
+            "effect": "Tant qu'Étouraptor est votre Pokémon Actif, tous dégâts infligés par des attaques de Pokémon Évolués de Niveau 2 de votre adversaire sont réduits de 20 (Après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Forte brise",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, placez 1 des Pokémon de Banc de votre adversaire ainsi que toutes les cartes qui lui sont attachées au dessus de son deck. Ensuite, votre adversaire mélange son deck."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Serre",
+            "damage": 60,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "evolve_from": "Etourvol",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-27"
+        }
+    ],
+    "print_key": "tcgdex:dp7-27",
+    "card_key": "398|120|None|Kouki Saitou|None,60|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

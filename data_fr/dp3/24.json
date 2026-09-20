@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp3-24",
+    "name": "Triopikeur",
+    "img": "https://assets.tcgdex.net/fr/dp/dp3/24/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Merveilles Secrètes",
+    "series": "Diamant & Perle",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "24",
+    "set_total": 132,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 51,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Creuse-piège",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Triopikeur lors du prochain tour de votre adversaire. Si Triopikeur est votre Pokémon Actif à la fin du prochain tour de votre adversaire, placez 6 marqueurs de dégât sur 1 des Pokémon de Banc de votre adversaire."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Trou piégé",
+            "damage": "50+",
+            "effect": "Votre adversaire lance une pièce. Si c'est pile, cette attaque inflige 50 dégâts plus 50 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "evolve_from": "Taupiqueur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp3-24"
+        }
+    ],
+    "print_key": "tcgdex:dp3-24",
+    "card_key": "51|90|None|Ken Sugimori|None,50+|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

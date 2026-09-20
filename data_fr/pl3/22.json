@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl3-22",
+    "name": "Kaorine",
+    "img": "https://assets.tcgdex.net/fr/pl/pl3/22/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Vainqueurs Suprêmes",
+    "series": "Platine",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "22",
+    "set_total": 162,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 344,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Magie antique",
+            "damage": null,
+            "effect": "Placez 3 marqueurs de dégât sur n'importe quel Pokémon (les vôtres et ceux de votre adversaire) de la façon que vous voulez."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy"
+            ],
+            "name": "Attaque synchro",
+            "damage": 30,
+            "effect": "Si le Pokémon Défenseur a le même nombre de PV que Kaorine, les dégâts de base de cette attaque sont de 90 au lieu de 30."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Balbuto",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl3-22"
+        }
+    ],
+    "print_key": "tcgdex:pl3-22",
+    "card_key": "344|90|1|Kouki Saitou|None,30|2,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

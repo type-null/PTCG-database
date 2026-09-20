@@ -1,0 +1,77 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm2-57",
+    "name": "Aggrostella GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm2/57/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Stunde der Wächter",
+    "series": "Sonne & Mond",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "57",
+    "set_total": 169,
+    "rarity": "Ultra Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 748,
+    "pokemon_category": "",
+    "hp": 210,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Dornkanone",
+            "damage": "30×",
+            "effect": "Wirf 4 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Quälendes Gift",
+            "damage": null,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Lege zwischen den Zügen 10 Schadensmarken anstelle von 1 Schadensmarke auf jenes Pokémon."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Vollschutz-GX",
+            "damage": 150,
+            "effect": "Verhindere während des nächsten Zuges deines Gegners alle Effekte von Attacken, einschließlich Schaden, die diesem Pokémon zugefügt werden. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Garstella",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm2-57"
+        }
+    ],
+    "print_key": "tcgdex:sm2-57",
+    "card_key": "748|210|3|5ban Graphics|30x,None,150|1,3,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

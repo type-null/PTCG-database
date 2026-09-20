@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/swsh2-25",
+    "name": "Ninetales",
+    "img": "https://assets.tcgdex.net/it/swsh/swsh2/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Fragore Ribelle",
+    "series": "Spada e Scudo",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "25",
+    "set_total": 209,
+    "rarity": "Rara",
+    "author": [
+        "AKIRA EGAWA"
+    ],
+    "pokedex_number": 38,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 120,
+    "types": [
+        "Fuoco"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuoco"
+            ],
+            "name": "Sciagura",
+            "damage": "30+",
+            "effect": "Se il Pokémon attivo del tuo avversario è influenzato da una condizione speciale, questo attacco infligge 90 danni in più."
+        },
+        {
+            "cost": [
+                "Fuoco",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Guizzafiamme",
+            "damage": 90,
+            "effect": "Il Pokémon attivo del tuo avversario viene addormentato."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Acqua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Vulpix",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/swsh2-25"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-25",
+    "card_key": "38|120|1|AKIRA EGAWA|30+,90|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp3-25",
+    "name": "Elevoltek",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Rätselhafte Wunder",
+    "series": "Diamant & Perl",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "25",
+    "set_total": 132,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 466,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Starthilfe",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du deinen Ablagestapel nach einer -Energiekarte durchsuchen und sie an Elevoltek anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Elevoltek von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Ladungsstoß",
+            "damage": "50x",
+            "effect": "Lege alle an Elevoltek angelegten -Energien auf deinen Ablagestapel. Wirf für jede auf diese Weise auf den Ablagestapel gelegte -Energie 1 Münze. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp3-25"
+        }
+    ],
+    "print_key": "tcgdex:dp3-25",
+    "card_key": "466|100|3|Kouki Saitou|50x|3",
+    "types_en": [
+        "Lightning"
+    ]
+}

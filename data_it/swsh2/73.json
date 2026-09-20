@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/swsh2-73",
+    "name": "Morpeko",
+    "img": "https://assets.tcgdex.net/it/swsh/swsh2/73/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Fragore Ribelle",
+    "series": "Spada e Scudo",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "73",
+    "set_total": 209,
+    "rarity": "Non comune",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 877,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Lampo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Attaccalite",
+            "damage": 20,
+            "effect": "Scegli un attacco del Pokémon attivo del tuo avversario. Durante il prossimo turno del tuo avversario, quel Pokémon non potrà utilizzarlo."
+        },
+        {
+            "cost": [
+                "Lampo",
+                "Incolore"
+            ],
+            "name": "Scintilla",
+            "damage": 50,
+            "effect": "Questo attacco infligge anche 20 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/swsh2-73"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-73",
+    "card_key": "877|80|1|Kouki Saitou|20,50|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

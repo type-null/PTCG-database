@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw8-9",
+    "name": "Folikon",
+    "img": "https://assets.tcgdex.net/de/bw/bw8/9/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw8",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw8/symbol",
+    "set_full_name": "Plasma-Sturm",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw8",
+    "date": "2013-02-06",
+    "number": "9",
+    "set_total": 138,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 541,
+    "pokemon_category": "",
+    "flavor_text": "Es hält sich bevorzugt an finsteren, feuchten Orten auf und knabbert den ganzen Tag an zu Boden gefallenem Laub.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Schutzwickel",
+            "damage": null,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 40 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Überraschungsangriff",
+            "damage": 40,
+            "effect": "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Strawickl",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw8-9"
+        }
+    ],
+    "print_key": "tcgdex:bw8-9",
+    "card_key": "541|80|2|Kyoko Umemoto|None,40|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy11-55",
+    "name": "Voluminas",
+    "img": "https://assets.tcgdex.net/de/xy/xy11/55/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Dampfkessel",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "55",
+    "set_total": 116,
+    "rarity": "Selten",
+    "author": [
+        "MAHOU"
+    ],
+    "pokedex_number": 476,
+    "pokemon_category": "",
+    "flavor_text": "Es steuert drei kleine Einheiten mithilfe von starkem Magnetismus. Man nennt sie Mininasen.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Zurückprallen",
+            "damage": 40,
+            "effect": "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Felsgrab",
+            "damage": 80,
+            "effect": "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Nasgnet",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy11-55"
+        }
+    ],
+    "print_key": "tcgdex:xy11-55",
+    "card_key": "476|120|4|MAHOU|40,80|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

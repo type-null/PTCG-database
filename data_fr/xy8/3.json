@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy8-3",
+    "name": "Scarabrute",
+    "img": "https://assets.tcgdex.net/fr/xy/xy8/3/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy8",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy8/symbol",
+    "set_full_name": "Impulsion Turbo",
+    "series": "XY",
+    "set_code": "xy8",
+    "date": "2015-11-04",
+    "number": "3",
+    "set_total": 165,
+    "rarity": "Peu Commune",
+    "author": [
+        "Satoshi Shirai"
+    ],
+    "pokedex_number": 127,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Soulève Corne",
+            "damage": 30,
+            "effect": "Cette attaque inflige 20 dégâts à l'un de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Suplex Imposant",
+            "damage": "40+",
+            "effect": "Cette attaque inflige 20 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy8-3"
+        }
+    ],
+    "print_key": "tcgdex:xy8-3",
+    "card_key": "127|100|2|Satoshi Shirai|30,40+|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

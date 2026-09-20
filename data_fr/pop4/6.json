@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pop4-6",
+    "name": "Galifeu",
+    "img": "https://assets.tcgdex.net/fr/pop/pop4/6/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pop4",
+    "set_img": "https://assets.tcgdex.net/univ/pop/pop4/symbol",
+    "set_full_name": "POP Série 4",
+    "series": "POP",
+    "set_code": "pop4",
+    "date": "2006-08-01",
+    "number": "6",
+    "set_total": 17,
+    "rarity": "Peu Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 256,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Brouillard",
+            "damage": 10,
+            "effect": "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Stratopercut",
+            "damage": 40,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "evolve_from": "Poussifeu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pop4-6"
+        }
+    ],
+    "print_key": "tcgdex:pop4-6",
+    "card_key": "256|70|1|Mitsuhiro Arita|10,40|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sv01-103",
+    "name": "Espathra",
+    "img": "https://assets.tcgdex.net/it/sv/sv01/103/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Scarlatto e Violetto",
+    "series": "Scarlatto e Violetto",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "103",
+    "set_total": 258,
+    "rarity": "Non comune",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "pokedex_number": 956,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 110,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psico"
+            ],
+            "name": "Occhioforza",
+            "damage": 20,
+            "effect": "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Psichico",
+            "damage": "30+",
+            "effect": "Questo attacco infligge 50 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscurità"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 0,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sv01-103"
+        }
+    ],
+    "print_key": "tcgdex:sv01-103",
+    "card_key": "956|110|0|Hitoshi Ariga|20,30+|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

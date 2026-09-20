@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/hgss2-24",
+    "name": "Steelix",
+    "img": "https://assets.tcgdex.net/fr/hgss/hgss2/24/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "hgss2",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss2/symbol",
+    "set_full_name": "Déchaînement",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss2",
+    "date": "2010-05-12",
+    "number": "24",
+    "set_total": 96,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 208,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Pression de garde",
+            "damage": 40,
+            "effect": "Tous les dégâts infligés à Steelix par des attaques pendant le prochain tour de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Frappe d’acier",
+            "damage": "80×",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Onix",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/hgss2-24"
+        }
+    ],
+    "print_key": "tcgdex:hgss2-24",
+    "card_key": "208|120|4|Masakazu Fukuda|40,80x|3,4",
+    "types_en": [
+        "Metal"
+    ]
+}

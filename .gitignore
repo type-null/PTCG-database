@@ -96,11 +96,25 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.venv/
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Card image archive: too large for git, rebuilt with code/downloadImages.py
+images/
+
+# Console output of a run; the real logs are logs/scrape_*.log
+logs/run_*.out
+
+# Search index for the viewer: build output, tens of MB, regenerated in
+# seconds by code/buildIndex.py. Commit it only if you publish GitHub Pages.
+docs/index/
+
+# macOS
+.DS_Store
 
 # Spyder project settings
 .spyderproject
@@ -125,3 +139,6 @@ dmypy.json
 
 # pytorch
 .ipynb_checkpoints/
+
+# `images` is only a local link to the picture archive beside the repository.
+/images

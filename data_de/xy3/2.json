@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy3-2",
+    "name": "Ultrigaria",
+    "img": "https://assets.tcgdex.net/de/xy/xy3/2/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy3",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy3/symbol",
+    "set_full_name": "Fliegende Fäuste",
+    "series": "XY",
+    "set_code": "xy3",
+    "date": "2014-08-13",
+    "number": "2",
+    "set_total": 114,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Mizue"
+    ],
+    "pokedex_number": 70,
+    "pokemon_category": "",
+    "flavor_text": "Die Blätter werden eingesetzt, um Gegner aufzuschlitzen. Dieses Pokémon spuckt eine Flüssigkeit, die alles auflöst.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Rankenhieb",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Giftspucke",
+            "damage": 40,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Knofensa",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy3-2"
+        }
+    ],
+    "print_key": "tcgdex:xy3-2",
+    "card_key": "70|80|2|Mizue|20,40|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo4-31",
+    "name": "Chaneira",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "31",
+    "set_total": 113,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 113,
+    "pokemon_category": "",
+    "flavor_text": "Es hält sein Ei beim Herumlaufen sehr vorsichtig fest, damit es nicht zerbricht. Trotzdem ist es noch schnell genug, um blitzschnell zu verschwinden.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Duplexhieb",
+            "damage": "20x",
+            "effect": "Wirf zwei Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Eierwurf",
+            "damage": 80,
+            "effect": "Wirf zwei Münzen. Wenn mindestens eine von beiden „Zahl“ zeigt, hat dieser Angriff keine Auswirkungen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo4-31"
+        }
+    ],
+    "print_key": "tcgdex:neo4-31",
+    "card_key": "113|90|2|Yuka Morii|20x,80|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

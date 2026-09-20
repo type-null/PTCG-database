@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/xy1-82",
+    "name": "Bisharp",
+    "img": "https://assets.tcgdex.net/es/xy/xy1/82/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "xy1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy1/symbol",
+    "set_full_name": "XY",
+    "series": "XY",
+    "set_code": "xy1",
+    "date": "2014-02-05",
+    "number": "82",
+    "set_total": 146,
+    "rarity": "Rara",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "pokedex_number": 625,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 90,
+    "types": [
+        "Metálica"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metálica"
+            ],
+            "name": "Eco Metálico",
+            "damage": null,
+            "effect": "El Pokémon Activo de tu rival pasa a estar Confundido."
+        },
+        {
+            "cost": [
+                "Metálica",
+                "Incolora"
+            ],
+            "name": "Golpazo Metálico",
+            "damage": 40,
+            "effect": "Durante tu próximo turno, el ataque Golpazo Metálico de este Pokémon hace 40 puntos de daño más (antes de aplicar Debilidad y Resistencia)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Pawniard",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/xy1-82"
+        }
+    ],
+    "print_key": "tcgdex:xy1-82",
+    "card_key": "625|90|2|Hitoshi Ariga|None,40|1,2",
+    "types_en": [
+        "Metal"
+    ]
+}

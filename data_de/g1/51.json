@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/g1-51",
+    "name": "Pixi",
+    "img": "https://assets.tcgdex.net/de/xy/g1/51/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Generationen",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "51",
+    "set_total": 117,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 36,
+    "pokemon_category": "",
+    "flavor_text": "Es kann eine Nadel hören, die in 1 km Entfernung zu Boden fällt. Es lebt in der Stille der Berge.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Fee"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Spotlight",
+            "damage": null,
+            "effect": "Tausche 1 Pokémon auf der Bank deines Gegners gegen das Aktive Pokémon deines Gegners aus."
+        },
+        {
+            "cost": [
+                "Fee",
+                "Farblos"
+            ],
+            "name": "Mondgewalt",
+            "damage": 30,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der durch Angriffe des Verteidigenden Pokémon zugefügt wird, um 30 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Piepi",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/g1-51"
+        }
+    ],
+    "print_key": "tcgdex:g1-51",
+    "card_key": "36|90|2|Atsuko Nishida|None,30|1,2",
+    "types_en": [
+        "Fairy"
+    ]
+}

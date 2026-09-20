@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dpp-DP30",
+    "name": "Regigigas",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dpp",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dpp/symbol",
+    "set_full_name": "Promo DP",
+    "series": "Diamant & Perle",
+    "set_code": "dpp",
+    "date": "2007-05-01",
+    "number": "DP30",
+    "set_total": 56,
+    "rarity": "Commune",
+    "author": [
+        "Shizurow"
+    ],
+    "pokedex_number": 486,
+    "pokemon_category": "",
+    "stage": "Niveau Sup",
+    "hp": 150,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Sacrifice",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez choisir 1 des Pokémon que vous avez en jeu. Ce Pokémon est mis K.O. Ensuite, choisissez dans votre pile de défausse jusqu'à 2 cartes Énergie de base, attachez-les à Regigigas et retirez-lui 8 marqueurs de dégât. Ce pouvoir ne peut pas être utilisé si Regigigas est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Combat",
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Giga blaster",
+            "damage": 100,
+            "effect": "Défaussez la carte du dessus du deck de votre adversaire. Ensuite, choisissez sans regarder 1 carte de la main de votre adversaire et défaussez-la. Regigigas ne peut pas utiliser Giga blaster lors de votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dpp-DP30"
+        }
+    ],
+    "print_key": "tcgdex:dpp-DP30",
+    "card_key": "486|150|4|Shizurow|100|4",
+    "types_en": [
+        "Colorless"
+    ]
+}

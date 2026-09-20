@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/svp-049",
+    "name": "Zapdos ex",
+    "img": "https://assets.tcgdex.net/es/sv/svp/049/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "tags": [
+        "ex"
+    ],
+    "regulation": "G",
+    "set_name": "svp",
+    "set_full_name": "SVP Black Star Promos",
+    "series": "Escarlata y Púrpura",
+    "set_code": "svp",
+    "date": "2023-03-31",
+    "number": "049",
+    "set_total": 225,
+    "rarity": "Promo",
+    "author": [
+        "takuyoa"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 200,
+    "types": [
+        "Rayo"
+    ],
+    "abilities": [
+        {
+            "name": "Flotación Voltaica",
+            "effect": "Si este Pokémon tiene alguna Energía {L} unida, no tiene ningún Coste de Retirada."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Rayo",
+                "Rayo",
+                "Rayo"
+            ],
+            "name": "Relámpago Multidisparo",
+            "damage": 120,
+            "effect": "Este ataque también hace 90 puntos de daño a uno de los Pokémon en Banca de tu rival que tenga algún contador de daño sobre él. (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Rayo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/svp-049"
+        }
+    ],
+    "print_key": "tcgdex:svp-49",
+    "card_key": "145|200|2|takuyoa|120|3",
+    "types_en": [
+        "Lightning"
+    ]
+}

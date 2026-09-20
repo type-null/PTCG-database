@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-26",
+    "name": "Blitza",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "26",
+    "set_total": 120,
+    "rarity": "Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 135,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Unentwickelt",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du Blitza rückentwickeln und Blitza auf deine Hand nehmen. Diese Poké-Power kann nicht benutzt werden, wenn Blitza von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Ruckzuckhieb",
+            "damage": "10+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Donner-Entwicklung",
+            "damage": 50,
+            "effect": "Wenn Blitza sich in diesem Zug aus Evoli entwickelt hat, fügt dieser Angriff jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-26"
+        }
+    ],
+    "print_key": "tcgdex:pl2-26",
+    "card_key": "135|80|0|Hajime Kusajima|10+,50|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

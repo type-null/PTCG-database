@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dv1-17",
+    "name": "Drakkarmin",
+    "img": "https://assets.tcgdex.net/fr/bw/dv1/17/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dv1",
+    "set_img": "https://assets.tcgdex.net/univ/bw/dv1/symbol",
+    "set_full_name": "Coffre des Dragons",
+    "series": "Noir & Blanc",
+    "set_code": "dv1",
+    "date": "2012-10-05",
+    "number": "17",
+    "set_total": 21,
+    "rarity": "Rare",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 621,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 110,
+    "types": [
+        "Dragon"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Mâchoire Serrée",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Draco-Queue",
+            "damage": 80,
+            "effect": "Lancez 2 pièces. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Dragon"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dv1-17"
+        }
+    ],
+    "print_key": "tcgdex:dv1-17",
+    "card_key": "621|110|2|kawayoo|20,80|2,3",
+    "types_en": [
+        "Dragon"
+    ]
+}

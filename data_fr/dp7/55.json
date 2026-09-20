@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-55",
+    "name": "Archéomire",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "55",
+    "set_total": 106,
+    "rarity": "Commune",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 436,
+    "pokemon_category": "",
+    "flavor_text": "Il rappelle les objets trouvés dans des sépultures anciennes. Nul ne sait s'ils sont liés.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Gyro-échange",
+            "damage": null,
+            "effect": "Placez autant de marqueurs de dégât sur le Pokémon Défenseur qu'il y a d'Énergies Colorless dans le Coût de Retraite d'Archéomire (après avoir appliqué les effets sur le Coût de Retraite)."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Choc psy",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Feu"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Archéomire",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-55"
+        }
+    ],
+    "print_key": "tcgdex:dp7-55",
+    "card_key": "436|60|2|Miki Tanaka|None,20|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

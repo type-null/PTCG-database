@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex3-1",
+    "name": "Absol",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Drache",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "1",
+    "set_total": 100,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 359,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht"
+            ],
+            "name": "Böse Neuigkeiten",
+            "damage": null,
+            "effect": "Falls dein Gegner mindestens 6 Karten auf der Hand hat, wähle (ohne sie vorher anzusehen) so viele seiner Handkarten, dass dein Gegner nur noch 5 Karten auf der Hand hat. Dein Gegner legt die gewählten Karten auf seinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Preiszähler",
+            "damage": "20+",
+            "effect": "Falls du mehr Preise übrig hast als dein Gegner, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex3-1"
+        }
+    ],
+    "print_key": "tcgdex:ex3-1",
+    "card_key": "359|70|1|Naoyo Kimura|None,20+|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

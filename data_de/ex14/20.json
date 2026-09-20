@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex14-20",
+    "name": "Groink",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex14",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex14/symbol",
+    "set_full_name": "EX Crystal Guardians",
+    "series": "EX",
+    "set_code": "ex14",
+    "date": "2006-08-30",
+    "number": "20",
+    "set_total": 100,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 326,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Speckschicht",
+            "effect": "Jeder Schaden, der Groink durch Angriffe von {R}-Pokémon und {W}-Pokémon zugefügt wird, wird um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Umkreisende Tanzschritte",
+            "damage": "10x",
+            "effect": "Dieser Angriff fügt 10 Schadenspunkte für jedes Pokémon im Spiel (deine und die deines Gegners), ausgenommen Groink, zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Spoink",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex14-20"
+        }
+    ],
+    "print_key": "tcgdex:ex14-20",
+    "card_key": "326|80|2|Mitsuhiro Arita|10x|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

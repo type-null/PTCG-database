@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm4-67",
+    "name": "Stolloss",
+    "img": "https://assets.tcgdex.net/de/sm/sm4/67/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Aufziehen der Sturmröte",
+    "series": "Sonne & Mond",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "67",
+    "set_total": 125,
+    "rarity": "Selten",
+    "author": [
+        "Yoshinobu Saito"
+    ],
+    "pokedex_number": 306,
+    "pokemon_category": "",
+    "flavor_text": "Ihre Reviere erstrecken sich über ganze Gebirge. Stolloss, die mit Narben übersät sind, sollte man besser meiden.",
+    "stage": "Rang 2",
+    "hp": 170,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Konterkanone",
+            "damage": "10+",
+            "effect": "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der Schadensmarken auf allen Pokémon auf deiner Bank zu."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Widerstandsbrecher",
+            "damage": 120,
+            "effect": "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Stollrak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm4-67"
+        }
+    ],
+    "print_key": "tcgdex:sm4-67",
+    "card_key": "306|170|4|Yoshinobu Saito|10+,120|3,4",
+    "types_en": [
+        "Metal"
+    ]
+}

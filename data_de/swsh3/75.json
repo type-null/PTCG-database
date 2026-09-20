@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh3-75",
+    "name": "Morbitesse",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh3/75/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh3",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh3/symbol",
+    "set_full_name": "Flammende Finsternis",
+    "series": "Schwert & Schild",
+    "set_code": "swsh3",
+    "date": "2020-08-14",
+    "number": "75",
+    "set_total": 201,
+    "rarity": "Selten",
+    "author": [
+        "Eri Yamaki"
+    ],
+    "pokedex_number": 576,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Gedankenverbiegung",
+            "damage": 40,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Verbiegung",
+            "damage": 90,
+            "effect": "Wähle 2 zufällige Karten aus der Hand deines Gegners. Dein Gegner zeigt dir jene Karten und mischt sie in sein Deck."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Hypnomorba",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh3-75"
+        }
+    ],
+    "print_key": "tcgdex:swsh3-75",
+    "card_key": "576|140|2|Eri Yamaki|40,90|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

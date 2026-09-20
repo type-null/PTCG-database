@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh5-104",
+    "name": "Caesurio",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh5/104/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh5/symbol",
+    "set_full_name": "Kampfstile",
+    "series": "Schwert & Schild",
+    "set_code": "swsh5",
+    "date": "2021-03-19",
+    "number": "104",
+    "set_total": 183,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "tetsuya koizumi"
+    ],
+    "pokedex_number": 625,
+    "pokemon_category": "",
+    "flavor_text": "Sie streiten sich mit Sharfax aufs Heftigste um das Vorrecht auf Orte mit Felsen, an denen sie ihre Klingen schärfen können.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Schlitzer",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Stahlschnitt",
+            "damage": "90+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners ein {M}-Pokémon ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Gladiantri",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh5-104"
+        }
+    ],
+    "print_key": "tcgdex:swsh5-104",
+    "card_key": "625|110|1|tetsuya koizumi|30,90+|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

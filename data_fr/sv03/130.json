@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv03-130",
+    "name": "Noctali",
+    "img": "https://assets.tcgdex.net/fr/sv/sv03/130/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv03",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03/symbol",
+    "set_full_name": "Flammes Obsidiennes",
+    "series": "Écarlate et Violet",
+    "set_code": "sv03",
+    "date": "2023-08-11",
+    "number": "130",
+    "set_total": 230,
+    "rarity": "Peu Commune",
+    "author": [
+        "rika"
+    ],
+    "pokedex_number": 197,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité"
+            ],
+            "name": "Feinte",
+            "damage": null,
+            "effect": "Cette attaque inflige 50 dégâts à l'un des Pokémon de votre adversaire. Ces dégâts ne sont pas affectés par la Faiblesse, la Résistance ou tout effet en action sur ce Pokémon."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Lame Fuligineuse",
+            "damage": 140,
+            "effect": "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Évoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv03-130"
+        }
+    ],
+    "print_key": "tcgdex:sv03-130",
+    "card_key": "197|110|1|rika|None,140|1,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

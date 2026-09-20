@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex12-2",
+    "name": "Stolloss",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Legend Maker",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "2",
+    "set_total": 93,
+    "rarity": "Selten",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 306,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 110,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schwerer Hieb",
+            "damage": "70-",
+            "effect": "Dieser Angriff fügt 70 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf Stolloss zu. Wenn mindestens eine Reaktions-Energiekarte an Stollos angelegt ist, fügt dieser Angriff stattdessen 70 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zermalmende Ranke",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 60 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Stolloss kann Zermalmende Ranke in deinem nächsten Zug nicht benutzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 4,
+    "evolve_from": "Stollrak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex12-2"
+        }
+    ],
+    "print_key": "tcgdex:ex12-2",
+    "card_key": "306|110|4|Hisao Nakamura|70-,None|3,4",
+    "types_en": [
+        "Metal"
+    ]
+}

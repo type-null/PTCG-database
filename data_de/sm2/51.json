@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm2-51",
+    "name": "Deponitox",
+    "img": "https://assets.tcgdex.net/de/sm/sm2/51/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Stunde der Wächter",
+    "series": "Sonne & Mond",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "51",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 569,
+    "pokemon_category": "",
+    "flavor_text": "Vorsicht vor dem Gift, das es aus seinem rechten Arm sprüht! Kleinste Mengen genügen, um einen unbekannten Giftstoff zu übertragen.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Mülllawine",
+            "damage": "20×",
+            "effect": "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl der Itemkarten im Ablagestapel deines Gegners zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Säurespeier",
+            "damage": 70,
+            "effect": "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Unratütox",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm2-51"
+        }
+    ],
+    "print_key": "tcgdex:sm2-51",
+    "card_key": "569|120|3|Mitsuhiro Arita|20x,70|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

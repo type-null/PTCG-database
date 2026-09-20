@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/col1-72",
+    "name": "Saquedeneu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "L'appel des Légendes",
+    "series": "L'appel des Légendes",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "72",
+    "set_total": 106,
+    "rarity": "Commune",
+    "author": [
+        "Hideaki Hakozaki"
+    ],
+    "pokedex_number": 114,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Support nutritionnel",
+            "damage": null,
+            "effect": "Cherchez dans votre deck 1 carte Énergie Grass et attachez-la à l’un de vos Pokémon. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Poudre Toxik",
+            "damage": 30,
+            "effect": "Le Pokémon Défenseur est maintenant Empoisonné."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/col1-72"
+        }
+    ],
+    "print_key": "tcgdex:col1-72",
+    "card_key": "114|70|2|Hideaki Hakozaki|None,30|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

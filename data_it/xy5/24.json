@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/xy5-24",
+    "name": "Magcargo",
+    "img": "https://assets.tcgdex.net/it/xy/xy5/24/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Scontro Primordiale",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "24",
+    "set_total": 164,
+    "rarity": "Rara",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 219,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 110,
+    "types": [
+        "Fuoco"
+    ],
+    "abilities": [
+        {
+            "name": "{title}:",
+            "effect": "{title}: Ogni volta che il tuo avversario gioca una carta Allenatore (escluse le carte Oggetto Pokémon e Stadio), previeni tutti gli effetti di quella carta inflitti a questo Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuoco",
+                "Incolore"
+            ],
+            "name": "Carica",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Fuoco",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Fiamma Indomita",
+            "damage": "60+",
+            "effect": "Se il Pokémon attivo del tuo avversario è un Pokémon-EX, questo attacco infligge 60 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Acqua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Slugma",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/xy5-24"
+        }
+    ],
+    "print_key": "tcgdex:xy5-24",
+    "card_key": "219|110|3|Kagemaru Himeno|30,60+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

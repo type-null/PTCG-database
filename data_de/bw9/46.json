@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw9-46",
+    "name": "Sleimok",
+    "img": "https://assets.tcgdex.net/de/bw/bw9/46/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw9",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw9/symbol",
+    "set_full_name": "Plasma-Frost",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw9",
+    "date": "2013-05-08",
+    "number": "46",
+    "set_total": 122,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 89,
+    "pokemon_category": "",
+    "flavor_text": "Ihr Gestank ist unerträglich. Das starke Gift, aus dem ihr Körper besteht, macht jeder Pflanze in ihrem Weg den Garaus.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Giftsauger",
+            "damage": 60,
+            "effect": "Wenn das Verteidigende Pokémon vergiftet ist, heile 60 Schadenspunkte bei diesem Pokémon."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schlammrutsch",
+            "damage": 80,
+            "effect": "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Lege pro „Kopf“ 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Sleima",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw9-46"
+        }
+    ],
+    "print_key": "tcgdex:bw9-46",
+    "card_key": "89|100|3|5ban Graphics|60,80|3,4",
+    "types_en": [
+        "Psychic"
+    ]
+}

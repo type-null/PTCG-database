@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp1-52",
+    "name": "Luxio",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perl",
+    "series": "Diamant & Perl",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "52",
+    "set_total": 130,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 404,
+    "pokemon_category": "",
+    "flavor_text": "Seine Krallen geben Elektrizität ab, die stark genug ist, jemanden bewusstlos zu machen.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Klauen anlegen",
+            "damage": "10+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Donnerzahn",
+            "damage": 30,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "evolve_from": "Sheinux",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp1-52"
+        }
+    ],
+    "print_key": "tcgdex:dp1-52",
+    "card_key": "404|80|None|Ken Sugimori|10+,30|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

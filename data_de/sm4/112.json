@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm4-112",
+    "name": "Garados GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm4/112/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Aufziehen der Sturmröte",
+    "series": "Sonne & Mond",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "112",
+    "set_total": 125,
+    "rarity": "Versteckt Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "hp": 240,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Kaskade",
+            "damage": 70,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Drakonisches Desaster",
+            "damage": "100+",
+            "effect": "Wenn mindestens 1 Stadionkarte im Spiel ist, fügt diese Attacke 100 Schadenspunkte mehr zu. Lege anschließend jene Stadionkarte auf den Ablagestapel."
+        },
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Sturm des Schreckens-GX",
+            "damage": null,
+            "effect": "Lege 1 Energie von jedem Pokémon deines Gegners auf seinen Ablagestapel. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Karpador",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm4-112"
+        }
+    ],
+    "print_key": "tcgdex:sm4-112",
+    "card_key": "130|240|4|5ban Graphics|70,100+,None|3,5,1",
+    "types_en": [
+        "Water"
+    ]
+}

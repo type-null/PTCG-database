@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-6",
+    "name": "Lucario",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "6",
+    "set_total": 130,
+    "rarity": "Rare Holo",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 448,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Ruse",
+            "damage": 30,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Aurasphère",
+            "damage": 40,
+            "effect": "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Riolu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-6"
+        }
+    ],
+    "print_key": "tcgdex:dp1-6",
+    "card_key": "448|90|1|Ken Sugimori|30,40|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

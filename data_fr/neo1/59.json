@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-59",
+    "name": "Scorplane",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/59/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "59",
+    "set_total": 111,
+    "rarity": "Commune",
+    "author": [
+        "Hironobu Yoshida"
+    ],
+    "pokedex_number": 207,
+    "pokemon_category": "",
+    "flavor_text": "Il vole droit sur le visage de sa cible, et s'accroche ensuite à sa victime effrayée pour lui injecter du poison.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Dard-venin",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tranche",
+            "damage": 20,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-59"
+        }
+    ],
+    "print_key": "tcgdex:neo1-59",
+    "card_key": "207|60|None|Hironobu Yoshida|10,20|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

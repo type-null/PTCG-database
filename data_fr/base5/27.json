@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base5-27",
+    "name": "Mackogneur obscur",
+    "img": "https://assets.tcgdex.net/fr/base/base5/27/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Base",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "27",
+    "set_total": 83,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "flavor_text": "Il est pratiquement impossible de se défendre contre les quatre bras d'un Mackogneur.",
+    "stage": "Niveau 2",
+    "hp": 70,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Ultimapoing",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Lancer",
+            "damage": null,
+            "effect": "Votre adversaire mélange son Pokémon Actif et toutes les cartes qui lui sont attachées à son deck. Cette attaque ne peut être utilisée si votre adversaire n'a pas de Pokémon sur son Banc."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Machopeur obscur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base5-27"
+        }
+    ],
+    "print_key": "tcgdex:base5-27",
+    "card_key": "68|70|3|Mitsuhiro Arita|30,None|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

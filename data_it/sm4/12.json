@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sm4-12",
+    "name": "Marowak di Alola",
+    "img": "https://assets.tcgdex.net/it/sm/sm4/12/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Invasione Scarlatta",
+    "series": "Sole e Luna",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "12",
+    "set_total": 124,
+    "rarity": "Rara",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 105,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 100,
+    "types": [
+        "Fuoco"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Danzafiamma",
+            "damage": null,
+            "effect": "Per ogni Energia assegnata ai Pokémon del tuo avversario, assegna a piacimento ai tuoi Pokémon una carta Energia Fire dalla tua pila degli scarti."
+        },
+        {
+            "cost": [
+                "Fuoco",
+                "Fuoco",
+                "Incolore"
+            ],
+            "name": "Ossomerang Ardente",
+            "damage": "70×",
+            "effect": "Lancia due volte una moneta. Questo attacco infligge 70 danni ogni volta che esce testa. Se esce almeno una volta testa, il Pokémon attivo del tuo avversario viene bruciato."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Acqua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sm4-12"
+        }
+    ],
+    "print_key": "tcgdex:sm4-12",
+    "card_key": "105|100|2|Mitsuhiro Arita|None,70x|0,3",
+    "types_en": [
+        "Fire"
+    ]
+}

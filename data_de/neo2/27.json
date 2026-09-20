@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo2-27",
+    "name": "Quaxo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Entdeckung",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "27",
+    "set_total": 75,
+    "rarity": "Selten",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 186,
+    "pokemon_category": "",
+    "flavor_text": "Wenn drei oder mehr Quaxos zusammenkommen, singen sie so laut, dass es eher wie Gebrüll wirkt.",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Frosch-Lied",
+            "effect": "Wenn mehr als drei Quapsels, Quaputzis, Quappos und/oder Quaxos im Spiel sind (auch die deines Gegners) und wenn Quaxos Angriff dem verteidigenden Pokémon Schaden zufügt (nachdem Schwäche und Resistenz verrechnet wurden), fügt dieser Angriff 40 weitere Schadenspunkte zu (unabhängig davon, wie oft du „Kopf“ geworfen hast). Diese Fähigkeit verliert ihre Wirkung, solange Quaxo schläft, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Duplexhieb",
+            "damage": "40x",
+            "effect": "Wirf zwei Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Quaputzi",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo2-27"
+        }
+    ],
+    "print_key": "tcgdex:neo2-27",
+    "card_key": "186|100|3|Tomokazu Komiya|40x|4",
+    "types_en": [
+        "Water"
+    ]
+}

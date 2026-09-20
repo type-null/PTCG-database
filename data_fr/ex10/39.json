@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex10-39",
+    "name": "Granbull",
+    "img": "https://assets.tcgdex.net/fr/ex/ex10/39/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Forces Cachées",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "39",
+    "set_total": 117,
+    "rarity": "Peu Commune",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 210,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Croc intimidant",
+            "effect": "Tant que Granbull est votre Pokémon Actif, les dégâts qui sont infligés à vos Pokémon par une attaque de votre adversaire sont réduits de 10 (avant application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coup écrasant",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Double lasso",
+            "damage": "50x",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Snubbull",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex10-39"
+        }
+    ],
+    "print_key": "tcgdex:ex10-39",
+    "card_key": "210|70|2|Midori Harada|30,50x|2,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv01-139",
+    "name": "Forstellka",
+    "img": "https://assets.tcgdex.net/de/sv/sv01/139/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Karmesin & Purpur",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "139",
+    "set_total": 258,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Lee HyunJung"
+    ],
+    "pokedex_number": 205,
+    "pokemon_category": "",
+    "flavor_text": "Sein gesamter Körper steckt in einer stahlharten Schale. Ihr Inneres bleibt ein Geheimnis.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Dauerdrehung",
+            "damage": "50×",
+            "effect": "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 50 Schadenspunkte pro Kopf zu."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Rollende Schale",
+            "damage": 90,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 50 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Tannza",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv01-139"
+        }
+    ],
+    "print_key": "tcgdex:sv01-139",
+    "card_key": "205|120|3|Lee HyunJung|50x,90|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

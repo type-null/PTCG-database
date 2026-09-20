@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo4-2",
+    "name": "Nostenfer obscur",
+    "img": "https://assets.tcgdex.net/fr/neo/neo4/2/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "2",
+    "set_total": 113,
+    "rarity": "Rare",
+    "pokedex_number": 169,
+    "pokemon_category": "",
+    "flavor_text": "Les ailes supplémentaires qui ornent ses pattes lui permettent de voler très vite, mais elles lui compliquent la vie quand il veut se percher.",
+    "stage": "Niveau 2",
+    "hp": 70,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Morsure surprise",
+            "effect": "Quand vous jouez Nostenfer obscur depuis votre main, vous pouvez choisir un des Pokémon de votre adversaire. Ce pouvoir inflige 20 dégâts à ce Pokémon. (N'appliquez ni la Faiblesse, ni la Résistance.)"
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Plante"
+            ],
+            "name": "Sombre saignée",
+            "damage": null,
+            "effect": "Lancez une pièce pour chaque Pokémon de votre adversaire. Pour chaque face, cette attaque inflige 10 dégâts à ce Pokémon. N'appliquez ni la Faiblesse, ni la Résistance. Retirez un nombre de marqueurs de dégâts sur Nostenfer obscur égal aux dégâts infligés. Si Nostenfer obscur a moins de marqueurs de dégâts, retirez-les tous."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "evolve_from": "Nosferalto obscur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo4-2"
+        }
+    ],
+    "print_key": "tcgdex:neo4-2",
+    "types_en": [
+        "Grass"
+    ]
+}

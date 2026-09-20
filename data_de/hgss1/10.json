@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss1-10",
+    "name": "Raichu",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss1/10/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss1",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss1/symbol",
+    "set_full_name": "HeartGold SoulSilver",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss1",
+    "date": "2010-02-10",
+    "number": "10",
+    "set_total": 124,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "flavor_text": "Wenn seine Backentaschen voll aufgeladen sind, stehen seine beiden Ohren senkrecht nach oben.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Eisenschweif",
+            "damage": "30×",
+            "effect": "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Donnerblitz",
+            "damage": 100,
+            "effect": "Lege alle Energien, die an Raichu angelegt sind, auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Pikachu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss1-10"
+        }
+    ],
+    "print_key": "tcgdex:hgss1-10",
+    "card_key": "26|90|0|match|30x,100|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp2-13",
+    "name": "Méganium",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Trésors Mystérieux",
+    "series": "Diamant & Perle",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "13",
+    "set_total": 124,
+    "rarity": "Rare Holo",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "pokedex_number": 154,
+    "pokemon_category": "",
+    "flavor_text": "Son souffle a l'incroyable capacité de ranimer les plantes et les fleurs flétries.",
+    "stage": "Niveau 2",
+    "hp": 130,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Poudre ultra",
+            "damage": 20,
+            "effect": "Lancez 3 pièces. Si la première pièce est face, le Pokémon Défenseur est maintenant Empoisonné. Si la deuxième pièce est face, le Pokémon Défenseur est maintenant Brûlé. Si la troisième pièce est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Contre-attaque de feu",
+            "damage": "60+",
+            "effect": "Si votre adversaire possède des Pokémon Fire en jeu, cette attaque inflige 60 dégâts plus 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Macronium",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp2-13"
+        }
+    ],
+    "print_key": "tcgdex:dp2-13",
+    "card_key": "154|130|2|Daisuke Ito|20,60+|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

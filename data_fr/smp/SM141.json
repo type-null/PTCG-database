@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/smp-SM141",
+    "name": "Kyurem Blanc GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "Promo SM",
+    "series": "Soleil et Lune",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM141",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 646,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 190,
+    "types": [
+        "Dragon"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Déchiquetage",
+            "damage": 40,
+            "effect": "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Lame en Furie",
+            "damage": "80+",
+            "effect": "Si des marqueurs de dégâts sont placés sur ce Pokémon, cette attaque inflige 80 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Nova Dragon GX",
+            "damage": 200,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Brûlé et Paralysé. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fée"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/smp-SM141"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM141",
+    "card_key": "646|190|3|5ban Graphics|40,80+,200|1,3,4",
+    "types_en": [
+        "Dragon"
+    ]
+}

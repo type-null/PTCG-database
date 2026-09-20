@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl3-70",
+    "name": "Milobellus",
+    "img": "https://assets.tcgdex.net/fr/pl/pl3/70/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Vainqueurs Suprêmes",
+    "series": "Platine",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "70",
+    "set_total": 162,
+    "rarity": "Peu Commune",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 350,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Cercle nettoyant",
+            "damage": 20,
+            "effect": "Vous pouvez défausser 2 cartes de votre main. Retirez alors à 1 de vos Pokémon 4 marqueurs de dégât."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coup d'écaille",
+            "damage": "90-",
+            "effect": "Inflige 90 dégâts moins 10 dégâts pour chaque carte se trouvant dans votre main."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Barpau",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl3-70"
+        }
+    ],
+    "print_key": "tcgdex:pl3-70",
+    "card_key": "350|90|1|Hajime Kusajima|20,90-|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

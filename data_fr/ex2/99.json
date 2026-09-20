@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex2-99",
+    "name": "Typhlosion ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex2/99/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex2",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex2/symbol",
+    "set_full_name": "EX Tempête de sable",
+    "series": "EX",
+    "set_code": "ex2",
+    "date": "2003-09-18",
+    "number": "99",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 157,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 160,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Anneau de feu",
+            "damage": 40,
+            "effect": "Le Pokémon Défenseur est maintenant Brûlé et ne peut pas battre en retraite jusqu'à la fin du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Exploser en deux",
+            "damage": 100,
+            "effect": "Défaussez une carte Énergie attachée à Typhlosion ex. Si votre adversaire a plus d'un Pokémon Défenseur, vous pouvez infliger 50 dégâts à chacun."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat",
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Feurisson",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex2-99"
+        }
+    ],
+    "print_key": "tcgdex:ex2-99",
+    "card_key": "157|160|2|Hikaru Koike|40,100|3,5",
+    "types_en": [
+        "Fire"
+    ]
+}

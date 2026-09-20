@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-33",
+    "name": "Élektek",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/33/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "33",
+    "set_total": 111,
+    "rarity": "Peu Commune",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 125,
+    "pokemon_category": "",
+    "flavor_text": "De l'électricité parcourt son corps sous sa peau. Dans le noir, il brille d'un éclat bleu.",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Punch",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Météores",
+            "damage": 30,
+            "effect": "Les dégâts infligés par cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Pouvoir Pokémon ou tout autre effet sur le Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-33"
+        }
+    ],
+    "print_key": "tcgdex:neo1-33",
+    "card_key": "125|70|1|Shin-ichi Yoshida|20,30|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

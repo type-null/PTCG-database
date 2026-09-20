@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp5-21",
+    "name": "Hippoterus",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp5",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp5/symbol",
+    "set_full_name": "Majestätischer Morgen",
+    "series": "Diamant & Perl",
+    "set_code": "dp5",
+    "date": "2008-05-01",
+    "number": "21",
+    "set_total": 100,
+    "rarity": "Selten",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 450,
+    "pokemon_category": "",
+    "flavor_text": "Sein Maul ist fast 2 m breit. Es hat genügend Kraft, um ein Auto zu zermalmen.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Sandsauger",
+            "damage": 20,
+            "effect": "Durchsuche deinen Ablagestapel nach 1 {F}-Energiekarte und lege sie an Hippoterus an."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Sandiger Einschlag",
+            "damage": "50+",
+            "effect": "Wirf 1 Münze für jede an Hippoterus angelegte {F}-Energie. Dieser Angriff fügt 50 Schadenspunkte plus 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+20"
+    },
+    "retreat": 3,
+    "evolve_from": "Hippopotas",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp5-21"
+        }
+    ],
+    "print_key": "tcgdex:dp5-21",
+    "card_key": "450|100|3|Kent Kanetsuna|20,50+|0,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-32",
+    "name": "Kadabra",
+    "img": "https://assets.tcgdex.net/fr/base/base1/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "32",
+    "set_total": 102,
+    "rarity": "Peu Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 64,
+    "pokemon_category": "",
+    "flavor_text": "Son corps émet des ondes alpha provoquant des migraines à ceux qui se trouvent à proximité.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Psy"
+            ],
+            "name": "Soin",
+            "damage": null,
+            "effect": "Défaussez 1 carte Énergie {P} attachée à Kadabra pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Kadabra."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Super Psy",
+            "damage": 50,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Abra",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-32"
+        }
+    ],
+    "print_key": "tcgdex:base1-32",
+    "card_key": "64|60|3|Ken Sugimori|None,50|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

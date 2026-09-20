@@ -4,31 +4,51 @@ Card class
 April 24, 2024 by Weihang
 """
 
-import os
 import json
-import logging
 
-logger = logging.getLogger(__name__)
+import cardkeys
+import paths
+from loguru import logger
 
 
+def one_segment(name):
+    """A field made safe to use as a single folder or file name.
+
+    A card names its own folder, and a page can state something unexpected
+    there: one Taiwanese promo gave its set as the printed `039/039`, whose
+    separator turned one folder into two and lost the card, because the parent
+    of the parent had never been made. A name is therefore kept to one segment,
+    so a surprising field misfiles a card at worst and never drops it.
+    """
+    return name.replace("/", "-").replace("\\", "-").strip() or "no_set"
+
+#: Substrings of a rule box that identify a card mechanic. Order matters:
+#: the longest form of a family comes first so "V-UNION" is not read as "V".
 RULE_TAGS = [
     "ACE SPEC",
     "ex",
     "Tera",
     "かがやく",
     "Radiant",
+    "찬란한",
     "VMAX",
     "VSTAR",
     "V-UNION",
     "V",
     "TAG TEAM",
+    "태그팀",
     "プリズムスター",
     "Prism Star",
+    "프리즘스타",
     "GX",
     "EX",
+    "Mega Evolution",
+    "メガシンカ",
+    "메가진화",
     "M進化",
     "Mega",
     "メガ",
+    "超級進化",
     "ゲンシ",
     "Primal",
     "BREAK",
@@ -50,6 +70,9 @@ RULE_TAGS = [
     "光輝",  # Radiant
 ]
 
+#: Card types whose rule box is expected to be free text rather than a mechanic.
+UNTAGGED_CARD_TYPES = {"特殊エネルギー", "特殊能量卡"}
+
 
 class Card:
     def __init__(self):
@@ -57,7 +80,6 @@ class Card:
         self.abilities = []
         self.attacks = []
         self.sources = []
-        pass
 
     def add_tag(self, tag):
         if tag not in self.tags:
@@ -77,6 +99,10 @@ class Card:
         self.en_id = id
         self.set_out_id(self.en_id)
 
+    def set_ko_id(self, id):
+        self.ko_id = id
+        self.set_out_id(self.ko_id)
+
     def set_out_id(self, id):
         self.out_id = id
 
@@ -91,6 +117,10 @@ class Card:
 
     def set_card_type(self, card_type):
         self.card_type = card_type
+
+    def set_sub_type(self, sub_type):
+        # Trainer: Item/Supporter/Stadium/Pokemon Tool; Energy: Basic/Special
+        self.sub_type = sub_type
 
     def set_mark(self, mark):
         self.regulation = mark
@@ -150,15 +180,25 @@ class Card:
             if tag in rule:
                 self.add_tag(tag)
                 known_tag = True
-        if not known_tag and self.card_type != "特殊エネルギー":
-            logger.error(f"Card {self.out_id} has unseen rule box!")
+        if not known_tag and getattr(self, "card_type", None) not in UNTAGGED_CARD_TYPES:
+            # Not an error: a rule box we cannot tag is still stored in full.
+            logger.warning(f"Card {getattr(self, 'out_id', '?')} has an untagged rule box: {rule[:60]}")
         # Clean up
-        if "LV.X" in self.tags:
+        if "LV.X" in self.tags and "V" in self.tags:
             self.tags.remove("V")
-        if "Prism Star" in self.tags:
+        if "Prism Star" in self.tags and "Star" in self.tags:
             self.tags.remove("Star")
-        if "獎賞卡" in rule:
+        if "獎賞卡" in rule and "賞" in self.tags:
             self.tags.remove("賞")
+        if "Mega Evolution" in self.tags and "Mega" in self.tags:
+            self.tags.remove("Mega")
+        if "メガシンカ" in self.tags and "メガ" in self.tags:
+            self.tags.remove("メガ")
+
+    def set_mega_evolves_from(self, pokemon):
+        """The Pokémon this Mega Evolution card is the Mega-Evolved form of."""
+        self.mega_evolves_from = pokemon
+        self.add_tag("Mega Evolution")
 
     def set_stage(self, stage):
         self.stage = stage
@@ -181,6 +221,8 @@ class Card:
             )
         elif lang == "en":
             self.tera_effect = "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s)."
+        elif lang == "ko":
+            self.tera_effect = "이 포켓몬은 벤치에 있는 한 기술의 데미지를 받지 않는다."
         else:
             logger.error(f"Unseen `lang` ({lang}) when setting tera!")
         self.add_tag("Tera")
@@ -258,10 +300,14 @@ class Card:
             card_dict["jp_id"] = self.jp_id
         if hasattr(self, "en_id"):
             card_dict["en_id"] = self.en_id
+        if hasattr(self, "ko_id"):
+            card_dict["ko_id"] = self.ko_id
         if hasattr(self, "game"):
             card_dict["game"] = self.game
         if hasattr(self, "lang"):
             card_dict["lang"] = self.lang
+        if hasattr(self, "sub_type"):
+            card_dict["sub_type"] = self.sub_type
         if self.tags:
             card_dict["tags"] = self.tags
         if hasattr(self, "regulation"):
@@ -330,6 +376,8 @@ class Card:
             card_dict["vstar_power"] = self.vstar_power
         if hasattr(self, "rule_box"):
             card_dict["rule_box"] = self.rule_box
+        if hasattr(self, "mega_evolves_from"):
+            card_dict["mega_evolves_from"] = self.mega_evolves_from
         if hasattr(self, "weakness"):
             card_dict["weakness"] = self.weakness
         if hasattr(self, "resistance"):
@@ -341,38 +389,151 @@ class Card:
         if self.sources:
             card_dict["sources"] = self.sources
 
+        # Some sources file part of what they publish in the wrong place. Fix
+        # that before the keys are derived, so a card links on corrected fields.
+        self.normalize_fields(card_dict)
+
+        # Derived from the fields above, so a card downloaded tomorrow links to
+        # its other printings without anything having to be rebuilt.
+        card_dict.update(cardkeys.keys_for(card_dict))
+
         return card_dict
 
-    def save(self, folder=""):
-        card_dict = self.to_dict()
+    @staticmethod
+    def normalize_fields(card_dict):
+        """Correct three ways a source's markup misfiles what it publishes.
 
-        if "jp_id" in card_dict:
-            # Japanese
-            folder = f"data_jp/{self.set_name}/"
-            filename = str(self.jp_id) + ".json"
-        elif hasattr(self, "game") and self.game == "TCG Pocket":
-            # Pocket
-            folder = f"data_pocket/{self.set_code}/"
-            filename = self.number + ".json"
-        elif hasattr(self, "lang") and self.lang == "tc":
-            folder = f"data_tc/{self.set_name}/"
-            filename = self.number + ".json"
-        else:
-            # English version
-            if self.series:
-                folder = f"data_en/{self.series}/{self.set_name}/"
+        A skill block with no name, no cost and no damage is not an attack. The
+        Traditional Chinese site closes most cards with an empty one, and files
+        a trainer rule in an unnamed one; that text is a rule, so it becomes the
+        rule box when the card has none.
+
+        A rule box and an attack's effect are never the same sentence. Where
+        they are, one is a copy: a card carrying a mechanic tag owns the rule,
+        so the attack's effect is the copy, and a card with no tag at all has a
+        rule box that was copied out of its own attack.
+
+        Returns what it corrected, so a repair can report it.
+        """
+        fixed = []
+        real, unnamed = [], []
+        for attack in card_dict.get("attacks") or []:
+            if (attack.get("name") or "").strip() or attack.get("cost") or attack.get("damage"):
+                real.append(attack)
             else:
-                folder = f"data_en/{self.set_name}/"
-            filename = self.number + ".json"
+                unnamed.append(attack)
 
-        os.makedirs(folder, exist_ok=True)
-        path = os.path.join(folder, filename)
-        # Check for duplicate filenames and append a number if necessary
-        base, extension = os.path.splitext(path)
+        if unnamed:
+            stored = {
+                (card_dict.get("effect") or "").strip(),
+                (card_dict.get("rule_box") or "").strip(),
+            }
+            for block in unnamed:
+                text = (block.get("effect") or "").strip()
+                if text and text not in stored and not card_dict.get("rule_box"):
+                    card_dict["rule_box"] = text
+                    stored.add(text)
+                    fixed.append("read the rule box from an unnamed block")
+            if real:
+                card_dict["attacks"] = real
+            else:
+                card_dict.pop("attacks", None)
+            fixed.append(f"dropped {len(unnamed)} unnamed attack(s)")
+
+        rule_box = (card_dict.get("rule_box") or "").strip()
+        copies = [a for a in real if (a.get("effect") or "").strip() == rule_box]
+        if rule_box and copies:
+            if card_dict.get("tags"):
+                for attack in copies:
+                    attack["effect"] = None
+                fixed.append("cleared an attack effect that only repeated the rule box")
+            else:
+                card_dict.pop("rule_box", None)
+                fixed.append("dropped a rule box copied out of an attack")
+        return fixed
+
+    # ------------------------------------------------------------------
+    # Saving
+    # ------------------------------------------------------------------
+
+    def destination(self):
+        """Folder and file name this card belongs in."""
+        # Some pages state no set at all — a handful of basic Energy cards.
+        # They belong together in `no_set`, not loose in the language's root.
+        set_folder = one_segment(str(getattr(self, "set_name", "") or "no_set"))
+        if hasattr(self, "jp_id"):
+            return paths.data_dir("jp") / set_folder, f"{self.jp_id}.json"
+        # A card whose page states no collector number still needs a name.
+        number = getattr(self, "number", None) or self.out_id
+        if hasattr(self, "game") and self.game == "TCG Pocket":
+            return paths.data_dir("pocket") / str(self.set_code), f"{number}.json"
+        if getattr(self, "lang", None) == "ko":
+            return paths.data_dir("ko") / set_folder, f"{number}.json"
+        if getattr(self, "lang", None) not in (None, "en"):
+            # Traditional Chinese and the other Pokémon Asia locales.
+            return paths.data_dir(self.lang) / set_folder, f"{number}.json"
+        if getattr(self, "series", None):
+            return paths.data_dir("en") / self.series / set_folder, f"{number}.json"
+        return paths.data_dir("en") / set_folder, f"{number}.json"
+
+    def claim_path(self, directory, filename):
+        """Pick the file this card owns.
+
+        A card keeps the file holding its own url, so re-scraping updates a
+        card in place instead of leaving `-2`, `-3`, ... copies behind. A
+        genuinely different card whose number collides still gets its own
+        numbered file.
+        """
+        stem = filename[: -len(".json")]
+        candidate = directory / filename
         counter = 2
-        while os.path.exists(path):
-            path = f"{base}-{counter}{extension}"
+        while candidate.exists():
+            try:
+                existing = json.loads(candidate.read_text(encoding="utf-8"))
+            except (ValueError, OSError):
+                return candidate
+            if existing.get("url") == self.url:
+                return candidate
+            candidate = directory / f"{stem}-{counter}.json"
             counter += 1
+        return candidate
 
-        with open(path, "w", encoding="utf-8") as json_file:
-            json.dump(card_dict, json_file, indent=4, ensure_ascii=False)
+    def save(self, folder="", merge=True):
+        """Write this card to disk and return the path written.
+
+        `merge` keeps fields an earlier scrape stored that this one did not
+        produce, so re-running a scraper never loses information.
+        """
+        card_dict = self.to_dict()
+        directory, filename = self.destination()
+        # The file is named after a printed field, and a printed field can hold
+        # anything: one Taiwanese promo states its number as "039/M-P", whose
+        # separator would place the card a directory below the one just made and
+        # lose it. The name is kept to one segment so that cannot happen.
+        filename = one_segment(filename)
+        directory.mkdir(parents=True, exist_ok=True)
+        path = self.claim_path(directory, filename)
+
+        if merge and path.exists():
+            try:
+                existing = json.loads(path.read_text(encoding="utf-8"))
+            except (ValueError, OSError):
+                existing = {}
+            kept = [key for key in existing if key not in card_dict]
+            if kept:
+                logger.debug(f"Keeping {kept} from the earlier scrape of {path.name}")
+                for key in kept:
+                    card_dict[key] = existing[key]
+
+                # A kept field can be one the normalisation above just removed,
+                # so correct the merged record again rather than let an earlier
+                # run's mistake come back, and derive its keys from the result.
+                if self.normalize_fields(card_dict):
+                    for key in ("print_key", "card_key"):
+                        card_dict.pop(key, None)
+                    card_dict.update(cardkeys.keys_for(card_dict))
+
+        path.write_text(
+            json.dumps(card_dict, indent=4, ensure_ascii=False), encoding="utf-8"
+        )
+        return path

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/me04-019",
+    "name": "Keldeo",
+    "img": "https://assets.tcgdex.net/de/me/me04/019/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "J",
+    "set_name": "me04",
+    "set_img": "https://assets.tcgdex.net/univ/me/me04/symbol",
+    "set_full_name": "Wachsendes Chaos",
+    "series": "Mega-Entwicklung",
+    "set_code": "me04",
+    "date": "2026-05-22",
+    "number": "019",
+    "set_total": 122,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 647,
+    "pokemon_category": "",
+    "flavor_text": "Durch seinen starken Kampfeswillen wurde sein Körper mit purer Willenskraft erfüllt, woraufhin es diese Form annehmen konnte.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Durchschießen",
+            "damage": 20,
+            "effect": "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Energiereflexion",
+            "damage": 70,
+            "effect": "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/me04-019"
+        }
+    ],
+    "print_key": "tcgdex:me04-19",
+    "card_key": "647|110|1|Mitsuhiro Arita|20,70|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

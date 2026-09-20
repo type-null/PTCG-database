@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-34",
+    "name": "Waaty",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "34",
+    "set_total": 111,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 180,
+    "pokemon_category": "",
+    "flavor_text": "Da es zuviel Elektrizität speichert, entwickelt es Flecken, an denen selbst Daunenwolle nicht wachsen würde.",
+    "stage": "Rang 1",
+    "hp": 60,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Entladung",
+            "damage": "30x",
+            "effect": "Lege alle an Waaty angelegten {L}-Energiekarten auf den Ablagestapel, um diesen Angriff zu verwenden. Wirf eine Anzahl Münzen gleich der Anzahl so abgelegter {L}-Energiekarten. Dieser Angriff fügt 30 Schadens-punkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Fließende Elektrizität",
+            "damage": 20,
+            "effect": "Nimm eine an Waaty angelegte {L}-Energiekarte und lege sie auf eines deiner Pokémon auf der Bank. Falls du keine Pokémon auf der Bank hast, lege diese Energiekarte auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Voltilamm",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-34"
+        }
+    ],
+    "print_key": "tcgdex:neo1-34",
+    "card_key": "180|60|1|Ken Sugimori|30x,20|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

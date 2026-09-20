@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss3-16",
+    "name": "Kramshef",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss3/16/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss3",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss3/symbol",
+    "set_full_name": "Unerschrocken",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss3",
+    "date": "2010-08-18",
+    "number": "16",
+    "set_total": 91,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 430,
+    "pokemon_category": "",
+    "flavor_text": "KRAMSHEF kennt kein Erbarmen. Einem untergebenen KRAMURX wird es niemals einen Fehler verzeihen.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Schattenbindung",
+            "damage": 30,
+            "effect": "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Rache",
+            "damage": "10+",
+            "effect": "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jedes {D}-Pokémon in deinem Ablagestapel zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Kramurx",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss3-16"
+        }
+    ],
+    "print_key": "tcgdex:hgss3-16",
+    "card_key": "430|90|2|Masakazu Fukuda|30,10+|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

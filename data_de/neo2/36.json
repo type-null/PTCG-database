@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo2-36",
+    "name": "Yanma",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Entdeckung",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "36",
+    "set_total": 75,
+    "rarity": "Selten",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 193,
+    "pokemon_category": "",
+    "flavor_text": "Wenn es sehr schnell flattert, kann es Druckwellen erzeugen, die Fensterscheiben zerspringen lassen.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Schockwelle",
+            "damage": null,
+            "effect": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff jedem Pokémon deines Gegners 10 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an. Wenn dein Gegner dann mindestens ein Pokémon auf seiner Bank hat, wählt er eines davon und tauscht es mit dem verteidigenden Pokémon aus."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Sternschauer",
+            "damage": 30,
+            "effect": "Die Schadenspunkte aus diesem Angriff werden von Schwäche, Resistenz, Pokémon-Power oder allen anderen Effekten auf das verteidigende Pokémon nicht beeinflusst."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo2-36"
+        }
+    ],
+    "print_key": "tcgdex:neo2-36",
+    "card_key": "193|60|None|Atsuko Nishida|None,30|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

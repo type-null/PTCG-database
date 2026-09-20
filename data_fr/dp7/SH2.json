@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-SH2",
+    "name": "Skelénox",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "SH2",
+    "set_total": 106,
+    "rarity": "Rare Holo LV.X",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 355,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Comptine",
+            "damage": null,
+            "effect": "Placez 3 marqueurs de dégât sur Skélénox. Ensuite, placez autant de marqueurs de dégât sur le Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Collision",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Lien nocturne",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, votre adversaire ne peut pas attacher de cartes Énergie de sa main aux Pokémon Actifs lors de son prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Skélénox",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-SH2"
+        }
+    ],
+    "print_key": "tcgdex:dp7-SH2",
+    "card_key": "355|60|1|Kouki Saitou|None,10,20|0,1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

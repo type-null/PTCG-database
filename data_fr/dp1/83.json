@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-83",
+    "name": "Chaglam",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "83",
+    "set_total": 130,
+    "rarity": "Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 431,
+    "pokemon_category": "",
+    "flavor_text": "Il griffe quand il est en colère et ronronne quand il est heureux. Certains aiment ce côté lunatique.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Charme",
+            "damage": null,
+            "effect": "Lors du prochain tour de votre adversaire, tous dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Pose",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+10"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-83"
+        }
+    ],
+    "print_key": "tcgdex:dp1-83",
+    "card_key": "431|50|1|Ken Sugimori|None,30|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

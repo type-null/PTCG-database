@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex9-25",
+    "name": "Jungglut",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex9",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex9/symbol",
+    "set_full_name": "EX Smaragd",
+    "series": "EX",
+    "set_code": "ex9",
+    "date": "2005-05-09",
+    "number": "25",
+    "set_total": 107,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 256,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Lava Burn",
+            "damage": 20,
+            "effect": "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Sharp Claws",
+            "damage": "40+",
+            "effect": "Flip a coin. If heads, this attack does 40 damage plus 10 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex9-25"
+        }
+    ],
+    "print_key": "tcgdex:ex9-25",
+    "card_key": "256|70|1|Midori Harada|20,40+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

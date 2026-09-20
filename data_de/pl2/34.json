@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-34",
+    "name": "Aquana",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "34",
+    "set_total": 120,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 134,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Unentwickelt",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du Aquana rückentwickeln und Aquana auf deine Hand nehmen. Diese Poké-Power kann nicht benutzt werden, wenn Aquana von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Lehmbrühe",
+            "damage": 20,
+            "effect": "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Aqua-Entwicklung",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners, auf dem mindestens 1 Schadensmarke liegt. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Wenn Aquana sich in diesem Zug aus Evoli entwickelt hat, fügt dieser Angriff stattdessen 60 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-34"
+        }
+    ],
+    "print_key": "tcgdex:pl2-34",
+    "card_key": "134|90|2|Masakazu Fukuda|20,None|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

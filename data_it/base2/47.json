@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base2-47",
+    "name": "Tauros",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Originale",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "47",
+    "set_total": 64,
+    "rarity": "Non comune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 128,
+    "pokemon_category": "",
+    "flavor_text": "Quando prende di mira un nemico, lo carica furiosamente, frustandolo con la lunga coda.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Pestone",
+            "damage": 20,
+            "effect": "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni più altri 10 danni, se esce croce questo attacco infligge 20 danni."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Infuriato",
+            "damage": "20+",
+            "effect": "Questo attacco infligge 20 danni più altri 10 per ogni segnalino danno presente su Tauros. Lancia una moneta. Se esce croce, Tauros è Confuso (dopo aver inflitto il danno)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psico"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base2-47"
+        }
+    ],
+    "print_key": "tcgdex:base2-47",
+    "card_key": "128|60|2|Kagemaru Himeno|20,20+|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

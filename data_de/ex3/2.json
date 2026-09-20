@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex3-2",
+    "name": "Altaria",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Drache",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "2",
+    "set_total": 100,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 334,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Drachentanz",
+            "damage": null,
+            "effect": "Falls eines deiner jetzigen Aktiven Pokémon im nächsten Zug einem Verteidigenden Pokémon Schaden zufügt, fügt der Angriff 40 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Elektro"
+            ],
+            "name": "Drachenlied",
+            "damage": 30,
+            "effect": "Alle Verteidigenden Pokémon schlafen jetzt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze",
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Wablu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex3-2"
+        }
+    ],
+    "print_key": "tcgdex:ex3-2",
+    "card_key": "334|80|1|Atsuko Nishida|None,30|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

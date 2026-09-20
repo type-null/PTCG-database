@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-H12",
+    "name": "Blitza",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "H12",
+    "set_total": 182,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 135,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Selbstheilung",
+            "effect": "Immer wenn du eine -Energiekarte aus deiner Hand an Blitza anlegst, entferne alle speziellen Zustände, die Blitza betreffen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Donnerschock",
+            "damage": 10,
+            "effect": "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Donnerfunken",
+            "damage": 40,
+            "effect": "Dieser Angriff fügt allen Pokémon auf der Bank (deinen und denen deines Gegners), an die mindestens 1 Energiekarte angelegt ist, 10 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "x2"
+    },
+    "retreat": 0,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-H12"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-H12",
+    "card_key": "135|70|0|Hikaru Koike|10,40|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

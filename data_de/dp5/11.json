@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp5-11",
+    "name": "Palkia",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp5",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp5/symbol",
+    "set_full_name": "Majestätischer Morgen",
+    "series": "Diamant & Perl",
+    "set_code": "dp5",
+    "date": "2008-05-01",
+    "number": "11",
+    "set_total": 100,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 484,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Weiß-Orb",
+            "damage": null,
+            "effect": "Wenn ein Aktives Pokémon eine Schwäche gegen {W}-Pokémon hat, fügen Palkias Angriffe diesem Pokémon 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zonenwechsel",
+            "damage": 60,
+            "effect": "Du kannst eine an Palkia angelegte Energiekarte zurück auf deine Hand nehmen. Wenn du das machst, wähle 1 am Verteidigenden Pokémon angelegte Energiekarte. Dein Gegner nimmt die gewählte Energiekarte auf die Hand. "
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp5-11"
+        }
+    ],
+    "print_key": "tcgdex:dp5-11",
+    "card_key": "484|100|3|Masakazu Fukuda|None,60|1,4",
+    "types_en": [
+        "Water"
+    ]
+}

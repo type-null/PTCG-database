@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm10-223",
+    "name": "Corboss GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm10/223/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Alliance Infaillible",
+    "series": "Soleil et Lune",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "223",
+    "set_total": 234,
+    "rarity": "Magnifique rare",
+    "author": [
+        "sadaji"
+    ],
+    "pokedex_number": 430,
+    "pokemon_category": "",
+    "hp": 210,
+    "types": [
+        "Obscurité"
+    ],
+    "abilities": [
+        {
+            "name": "Maître de la Nuit",
+            "effect": "Tant que ce Pokémon est votre Pokémon Actif, votre adversaire ne peut pas jouer de cartes Outil Pokémon, de cartes Énergie spéciale ou de cartes Stade de sa main."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Volée de Plumes",
+            "damage": 90,
+            "effect": "Cette attaque inflige 30 dégâts à 2 des Pokémon-GX et Pokémon-EX de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Injuste GX",
+            "damage": null,
+            "effect": "Votre adversaire dévoile sa main. Défaussez-en 2 cartes. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Cornèbre",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm10-223"
+        }
+    ],
+    "print_key": "tcgdex:sm10-223",
+    "card_key": "430|210|2|sadaji|90,None|3,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

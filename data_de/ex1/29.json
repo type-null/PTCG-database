@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex1-29",
+    "name": "Enekoro",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex1",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex1/symbol",
+    "set_full_name": "EX Rubin & Saphir",
+    "series": "EX",
+    "set_code": "ex1",
+    "date": "2003-07-01",
+    "number": "29",
+    "set_total": 109,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 301,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Energieruf",
+            "damage": 10,
+            "effect": "Nimm eine Energiekarte von deinem Ablagestapel und lege sie an das Aktive Pokémon an."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Kanonenkugel",
+            "damage": "30+",
+            "effect": "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Enekoro angelegte Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Eneco",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex1-29"
+        }
+    ],
+    "print_key": "tcgdex:ex1-29",
+    "card_key": "301|80|1|Ken Sugimori|10,30+|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

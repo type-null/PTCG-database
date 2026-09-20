@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-82",
+    "name": "Wattouat",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/82/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "82",
+    "set_total": 133,
+    "rarity": "Commune",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 179,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Rendez-vous mineur",
+            "damage": null,
+            "effect": "Choisissez dans votre deck une carte Énergie de base. Montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
+        },
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Pousstoidla",
+            "damage": 10,
+            "effect": "Lors du prochain tour de votre adversaire, tous dégâts infligés à Wattouat par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-82"
+        }
+    ],
+    "print_key": "tcgdex:pl1-82",
+    "card_key": "179|60|1|Yuka Morii|None,10|0,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

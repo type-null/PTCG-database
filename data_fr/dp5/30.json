@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp5-30",
+    "name": "Torterra",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp5",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp5/symbol",
+    "set_full_name": "Aube Majestueuse",
+    "series": "Diamant & Perle",
+    "set_code": "dp5",
+    "date": "2008-05-01",
+    "number": "30",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "pokedex_number": 389,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 140,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Séisme",
+            "damage": 60,
+            "effect": "Inflige 10 dégâts à chacun de vos Pokémon de Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Vege-Attak",
+            "damage": 100,
+            "effect": "Torterra ne peut pas utiliser Vege-Attak lors de votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+30"
+    },
+    "retreat": 4,
+    "evolve_from": "Boskara",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp5-30"
+        }
+    ],
+    "print_key": "tcgdex:dp5-30",
+    "card_key": "389|140|4|Daisuke Ito|60,100|2,4",
+    "types_en": [
+        "Grass"
+    ]
+}

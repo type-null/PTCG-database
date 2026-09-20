@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw3-46",
+    "name": "Echnatoll",
+    "img": "https://assets.tcgdex.net/de/bw/bw3/46/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw3",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw3/symbol",
+    "set_full_name": "Königliche Siege",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw3",
+    "date": "2011-11-16",
+    "number": "46",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 563,
+    "pokemon_category": "",
+    "flavor_text": "Angeblich verschlingt es jeden, der sich ihm auch nur nähert. Besonders gern frisst es Klumpen aus reinem Gold.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Schadtoll",
+            "damage": null,
+            "effect": "Verschiebe alle Schadensmarken von 1 Pokémon auf deiner Bank auf das Verteidigende Pokémon."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Perplex",
+            "damage": 30,
+            "effect": "Das Verteidigende Pokémon ist jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Makabaja",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw3-46"
+        }
+    ],
+    "print_key": "tcgdex:bw3-46",
+    "card_key": "563|90|3|Mitsuhiro Arita|None,30|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

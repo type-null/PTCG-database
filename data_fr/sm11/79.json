@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm11-79",
+    "name": "Jirachi GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Harmonie des Esprits",
+    "series": "Soleil et Lune",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "79",
+    "set_total": 258,
+    "rarity": "Ultra Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 385,
+    "pokemon_category": "",
+    "hp": 160,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Zone Psy",
+            "effect": "N’appliquez pas la Faiblesse Psychic lorsque les Pokémon (les vôtres et ceux de votre adversaire) subissent des dégâts d’attaques."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Recherche Étoile",
+            "damage": null,
+            "effect": "Cherchez une carte Énergie dans votre deck et attachez-la à l’un de vos Pokémon Psychic. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Psy"
+            ],
+            "name": "Bouclier Étoile GX",
+            "damage": 100,
+            "effect": "Évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm11-79"
+        }
+    ],
+    "print_key": "tcgdex:sm11-79",
+    "card_key": "385|160|1|5ban Graphics|None,100|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

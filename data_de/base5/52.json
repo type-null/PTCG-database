@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base5-52",
+    "name": "Digda",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Grund",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "52",
+    "set_total": 83,
+    "rarity": "Häufig",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 50,
+    "pokemon_category": "",
+    "flavor_text": "Es folgt den Onix-Pokémon in ihre Tunnel, um dort nach übriggebliebenen Essensresten zu suchen.",
+    "stage": "Basis",
+    "hp": 40,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Schaufel unter",
+            "damage": null,
+            "effect": "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Kratzer",
+            "damage": 20,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-30"
+    },
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base5-52"
+        }
+    ],
+    "print_key": "tcgdex:base5-52",
+    "card_key": "50|40|None|Sumiyoshi Kizuki|None,20|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

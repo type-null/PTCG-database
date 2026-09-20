@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm5-88",
+    "name": "Heatran",
+    "img": "https://assets.tcgdex.net/de/sm/sm5/88/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultra-Prisma",
+    "series": "Sonne & Mond",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "88",
+    "set_total": 173,
+    "rarity": "Selten",
+    "author": [
+        "tetsuya koizumi"
+    ],
+    "pokedex_number": 485,
+    "pokemon_category": "",
+    "flavor_text": "Das Blut, das durch seinen Körper fließt, brodelt heiß wie Magma. Es lebt in vulkanischen Höhlen.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Schutzdruck",
+            "damage": 30,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Siedeschlag",
+            "damage": 130,
+            "effect": "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm5-88"
+        }
+    ],
+    "print_key": "tcgdex:sm5-88",
+    "card_key": "485|130|3|tetsuya koizumi|30,130|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

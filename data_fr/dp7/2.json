@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-2",
+    "name": "Pingoléon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "2",
+    "set_total": 106,
+    "rarity": "Rare Holo",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 395,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 130,
+    "types": [
+        "Métal"
+    ],
+    "abilities": [
+        {
+            "name": "Aura empereur",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), lorsque vous jouez Pingoléon de votre main pour faire évoluer 1 de vos Pokémon Actifs, vous pouvez utiliser ce pouvoir. Votre adversaire ne peut pas attacher de cartes Énergie de sa main sur ses Pokémon lors de son prochain tour."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Aile d'acier",
+            "damage": 40,
+            "effect": "Lors du prochain tour de votre adversaire, tous dégâts infligés à Pingoléon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Siphon",
+            "damage": 60,
+            "effect": "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+30"
+    },
+    "retreat": 2,
+    "evolve_from": "Prinplouf",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-2"
+        }
+    ],
+    "print_key": "tcgdex:dp7-2",
+    "card_key": "395|130|2|Kouki Saitou|40,60|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

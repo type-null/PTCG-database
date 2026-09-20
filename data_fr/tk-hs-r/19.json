@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/tk-hs-r-19",
+    "name": "Raichu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "tk-hs-r",
+    "set_img": "https://assets.tcgdex.net/univ/tk/tk-hs-r/symbol",
+    "set_full_name": "HS Kit du dresseur (Raichu)",
+    "series": "Kits du dresseur",
+    "set_code": "tk-hs-r",
+    "date": "2010-05-01",
+    "number": "19",
+    "set_total": 30,
+    "rarity": "Sans Rareté",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Queue de fer",
+            "damage": "30×",
+            "effect": "Lancez une pièce jusqu’à ce qu’elle tombe sur pile. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Tonnerre",
+            "damage": 100,
+            "effect": "Défaussez toutes les cartes Énergie attachées à Raichu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Pikachu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/tk-hs-r-19"
+        }
+    ],
+    "print_key": "tcgdex:tk-hs-r-19",
+    "card_key": "26|90|0|match|30x,100|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

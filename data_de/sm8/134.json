@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm8-134",
+    "name": "Knuddeluff",
+    "img": "https://assets.tcgdex.net/de/sm/sm8/134/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Echo des Donners",
+    "series": "Sonne & Mond",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "134",
+    "set_total": 236,
+    "rarity": "Selten",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 40,
+    "pokemon_category": "",
+    "flavor_text": "Es kann sich größer machen, indem es Luft einatmet. Mit Artgenossen wetteifert es, wer sich am meisten aufblasen kann.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Fee"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Ausdehnen",
+            "damage": 30,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Fee",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schmuckschlag",
+            "damage": "70+",
+            "effect": "Wenn an dieses Pokémon eine Pokémon-Ausrüstung angelegt ist, bei der Feenschmuck zum Namen gehört, fügt diese Attacke 70 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Pummeluff",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm8-134"
+        }
+    ],
+    "print_key": "tcgdex:sm8-134",
+    "card_key": "40|120|2|nagimiso|30,70+|2,3",
+    "types_en": [
+        "Fairy"
+    ]
+}

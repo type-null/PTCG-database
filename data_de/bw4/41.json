@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw4-41",
+    "name": "Zapdos",
+    "img": "https://assets.tcgdex.net/de/bw/bw4/41/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw4",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw4/symbol",
+    "set_full_name": "Kommende Schicksale",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw4",
+    "date": "2012-02-08",
+    "number": "41",
+    "set_total": 103,
+    "rarity": "Selten",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "flavor_text": "Ein Legendäres Vogel-Pokémon, das in Gewitterwolken leben soll. Es kontrolliert Blitze.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zufälliger Funke",
+            "damage": null,
+            "effect": "Dieser Angriff fügt 1 Pokémon deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Donnernder Orkan",
+            "damage": 50,
+            "effect": "Wirf 4 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw4-41"
+        }
+    ],
+    "print_key": "tcgdex:bw4-41",
+    "card_key": "145|120|2|Ryo Ueda|None,50|3,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl2-10",
+    "name": "Magirêve GL Niv. 26",
+    "img": "https://assets.tcgdex.net/fr/pl/pl2/10/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Rivaux Émergeants",
+    "series": "Platine",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "10",
+    "set_total": 120,
+    "rarity": "Holo Rare",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 429,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Psycho-suppression",
+            "damage": 10,
+            "effect": "Lancez 2 pièces. Si ce sont 2 faces, défaussez toute l'Énergie attachée au Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Rancune",
+            "damage": "20+",
+            "effect": "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récolté."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl2-10"
+        }
+    ],
+    "print_key": "tcgdex:pl2-10",
+    "card_key": "429|80|1|Naoyo Kimura|10,20+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

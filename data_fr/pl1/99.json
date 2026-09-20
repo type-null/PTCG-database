@@ -1,0 +1,60 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-99",
+    "name": "Poussifeu",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/99/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "99",
+    "set_total": 133,
+    "rarity": "Commune",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 255,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Puissance",
+            "damage": null,
+            "effect": "Lors de votre prochain tour, les dégâts de base de l'attaque Écharde de feu de Poussifeu sont de 80."
+        },
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Écharde de feu",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+10"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-99"
+        }
+    ],
+    "print_key": "tcgdex:pl1-99",
+    "card_key": "255|60|1|Naoyo Kimura|None,20|0,1",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-11",
+    "name": "Rameidon GL",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "11",
+    "set_total": 120,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "pokedex_number": 409,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Niederschlagen",
+            "damage": null,
+            "effect": "Wirf für jedes Pokémon auf der Bank (deine und die deines Gegners) jeweils 1 Münze. Dieser Angriff fügt jedem Pokémon, für das auf diese Weise „Kopf“ geworfen wurde, 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Reißer",
+            "damage": "40+",
+            "effect": "Wenn auf dem Verteidigenden Pokémon mindestens 1 Schadensmarke liegt, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-11"
+        }
+    ],
+    "print_key": "tcgdex:pl2-11",
+    "card_key": "409|90|1|Suwama Chiaki|None,40+|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

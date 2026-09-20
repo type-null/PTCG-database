@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp5-7",
+    "name": "Phyllali",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp5",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp5/symbol",
+    "set_full_name": "Aube Majestueuse",
+    "series": "Diamant & Perle",
+    "set_code": "dp5",
+    "date": "2008-05-01",
+    "number": "7",
+    "set_total": 100,
+    "rarity": "Rare Holo",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 470,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Contraindre",
+            "damage": 30,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Feuille garde",
+            "damage": 60,
+            "effect": "Lors du prochain tour de votre adversaire, tous dégâts infligés à Phyllali par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp5-7"
+        }
+    ],
+    "print_key": "tcgdex:dp5-7",
+    "card_key": "470|90|2|Kouki Saitou|30,60|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

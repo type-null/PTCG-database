@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-22",
+    "name": "Roucoups",
+    "img": "https://assets.tcgdex.net/fr/base/base1/22/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "22",
+    "set_total": 102,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 17,
+    "pokemon_category": "",
+    "flavor_text": "Il protège son territoire avec ardeur et repousse à coups de bec tout intrus.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Cyclone",
+            "damage": 20,
+            "effect": "Si votre adversaire a au moins un Pokémon sur le Banc, il ou elle choisit l'1 d'eux et l'échange avec le Pokémon Défenseur. (Appliquez les dégâts avant d'échanger les Pokémon.)"
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Mimique",
+            "damage": null,
+            "effect": "Si Roucoups a été attaqué pendant le tour précédent, appliquez le résultat final de cette attaque infligée à Roucoups sur le Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Roucool",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-22"
+        }
+    ],
+    "print_key": "tcgdex:base1-22",
+    "card_key": "17|60|1|Ken Sugimori|20,None|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

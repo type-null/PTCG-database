@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/30th-086",
+    "name": "Koraidon",
+    "img": "https://assets.tcgdex.net/fr/me/30th/086/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "30th",
+    "set_full_name": "30ᵉ Anniversaire",
+    "series": "Méga-Évolution",
+    "set_code": "30th",
+    "date": "2026-09-16",
+    "number": "086",
+    "set_total": 158,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Balayage",
+            "damage": 50,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Nitro Crash",
+            "damage": 140,
+            "effect": "Défaussez 2 Énergies <span class=\"energy-symbol Fighting\" title=\"Combat\">Fighting</span> de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/30th-086"
+        }
+    ],
+    "print_key": "tcgdex:30th-86",
+    "card_key": "1007|130|2|Mitsuhiro Arita|50,140|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

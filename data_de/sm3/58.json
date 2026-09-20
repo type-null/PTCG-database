@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm3-58",
+    "name": "Cerapendra",
+    "img": "https://assets.tcgdex.net/de/sm/sm3/58/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Nacht in Flammen",
+    "series": "Sonne & Mond",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "58",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "Ayaka Yoshida"
+    ],
+    "pokedex_number": 545,
+    "pokemon_category": "",
+    "flavor_text": "Lähmt seine Beute, indem es sie mit den Zacken an seinem Hals aufspießt. Mit einer Ladung Gift gibt es ihr den Rest.",
+    "stage": "Rang 2",
+    "hp": 160,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Gifthorn",
+            "damage": 80,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Quetschwalze",
+            "damage": 140,
+            "effect": "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Rollum",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm3-58"
+        }
+    ],
+    "print_key": "tcgdex:sm3-58",
+    "card_key": "545|160|4|Ayaka Yoshida|80,140|3,4",
+    "types_en": [
+        "Psychic"
+    ]
+}

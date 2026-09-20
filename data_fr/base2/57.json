@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base2-57",
+    "name": "Nidoran ♀",
+    "img": "https://assets.tcgdex.net/fr/base/base2/57/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Base",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "57",
+    "set_total": 64,
+    "rarity": "Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 29,
+    "pokemon_category": "",
+    "flavor_text": "Ce Pokémon est hérissé de dards empoisonnés. Les femelles ont des dards plus petits.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Combo-griffe",
+            "damage": "10x",
+            "effect": "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante"
+            ],
+            "name": "Appel à la famille",
+            "damage": null,
+            "effect": "Cherchez dans votre deck un Pokémon de base appelé Nidoran ♀ or Nidoran ♂ et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base2-57"
+        }
+    ],
+    "print_key": "tcgdex:base2-57",
+    "card_key": "29|60|1|Ken Sugimori|10x,None|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

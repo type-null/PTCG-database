@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-44",
+    "name": "Stollrak",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "44",
+    "set_total": 120,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 305,
+    "pokemon_category": "",
+    "flavor_text": "Es ernährt sich von Eisenerz. Um sein Revier zu sichern, setzt es seinen harten Körper ein.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schwermetall",
+            "damage": "10+",
+            "effect": "Wirf 1 Münze für jede an Stollrak angelegte {M}-Energie. Dieser Angriff fügt 10 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Granitkopf",
+            "damage": 40,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der Stollrak durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Stollunior",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-44"
+        }
+    ],
+    "print_key": "tcgdex:pl2-44",
+    "card_key": "305|80|2|Yukiko Baba|10+,40|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

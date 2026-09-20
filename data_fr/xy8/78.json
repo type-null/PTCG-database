@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy8-78",
+    "name": "Ossatueur",
+    "img": "https://assets.tcgdex.net/fr/xy/xy8/78/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy8",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy8/symbol",
+    "set_full_name": "Impulsion Turbo",
+    "series": "XY",
+    "set_code": "xy8",
+    "date": "2015-11-04",
+    "number": "78",
+    "set_total": 165,
+    "rarity": "Rare",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 105,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Tir de Précision",
+            "damage": null,
+            "effect": "Cette attaque inflige 30 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Moulin Osseux",
+            "damage": 60,
+            "effect": "Si le Pokémon Actif de votre adversaire est un Pokémon-EX, échangez ce Pokémon avec l'un de vos Pokémon de Banc."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Osselait",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy8-78"
+        }
+    ],
+    "print_key": "tcgdex:xy8-78",
+    "card_key": "105|100|2|match|None,60|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

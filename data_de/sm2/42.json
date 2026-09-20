@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm2-42",
+    "name": "Alola-Geowaz",
+    "img": "https://assets.tcgdex.net/de/sm/sm2/42/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Stunde der Wächter",
+    "series": "Sonne & Mond",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "42",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 76,
+    "pokemon_category": "",
+    "flavor_text": "Es feuert elektrisch geladene Felsen ab. Selbst eine Schramme genügt, um seine Gegner damit bewusstlos zu machen.",
+    "stage": "Rang 2",
+    "hp": 160,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Elektromagnetischer Felswerfer",
+            "damage": "80×",
+            "effect": "Wirf 1 Münze für jede an dieses Pokémon angelegte {L}-Energie. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Rammboss",
+            "damage": "200-",
+            "effect": "Diese Attacke fügt 30 Schadenspunkte weniger mal der Anzahl der {C}-Symbole in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Alola-Georok",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm2-42"
+        }
+    ],
+    "print_key": "tcgdex:sm2-42",
+    "card_key": "76|160|4|Shin Nagasawa|80x,200-|3,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

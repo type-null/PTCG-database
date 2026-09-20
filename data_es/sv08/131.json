@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sv08-131",
+    "name": "Gholdengo",
+    "img": "https://assets.tcgdex.net/es/sv/sv08/131/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "H",
+    "set_name": "sv08",
+    "set_full_name": "Chispas Fulgurantes",
+    "series": "Escarlata y Púrpura",
+    "set_code": "sv08",
+    "date": "2024-11-08",
+    "number": "131",
+    "set_total": 252,
+    "rarity": "Uncommon",
+    "author": [
+        "Dsuke"
+    ],
+    "pokedex_number": 1000,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 130,
+    "types": [
+        "Metálica"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metálica"
+            ],
+            "name": "Enriquecerse",
+            "damage": "30+",
+            "effect": "Si este Pokémon ha evolucionado de Gimmighoul durante este turno, este ataque hace 90 puntos de daño más."
+        },
+        {
+            "cost": [
+                "Incolora",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Surfeo Regreso",
+            "damage": 100,
+            "effect": "Puedes poner este Pokémon y todas las cartas unidas a él en tu baraja y barajarlas todas."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Planta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Gimmighoul",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sv08-131"
+        }
+    ],
+    "print_key": "tcgdex:sv08-131",
+    "card_key": "1000|130|2|Dsuke|30+,100|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

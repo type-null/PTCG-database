@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss3-4",
+    "name": "Skorgro",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss3/4/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss3",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss3/symbol",
+    "set_full_name": "Unerschrocken",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss3",
+    "date": "2010-08-18",
+    "number": "4",
+    "set_total": 91,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 472,
+    "pokemon_category": "",
+    "flavor_text": "Es fliegt völlig lautlos. Erst fängt es seine Beute mit seinem langen Schweif, dann saugt es sie aus.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Ninjafänge",
+            "damage": 30,
+            "effect": "Falls auf dem Verteidigenden Pokémon vor durch Skorgro zugefügtem Schaden keine Schadensmarken liegen, und ihm durch diesen Angriff Schaden zugefügt wird (nachdem Schwäche und Resistenz verrechnet wurden), ist das Verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Gifthieb",
+            "damage": 50,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Skorgla",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss3-4"
+        }
+    ],
+    "print_key": "tcgdex:hgss3-4",
+    "card_key": "472|90|1|Naoki Saito|30,50|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

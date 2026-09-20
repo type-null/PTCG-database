@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex8-26",
+    "name": "Panzaeron",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "26",
+    "set_total": 108,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 227,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Metallic Lift",
+            "effect": "If Skarmory has nay  Energy attached to it, the Retreat Cost for Skarmory is 0."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Spearhead",
+            "damage": null,
+            "effect": "Draw a card."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Heavy Metal",
+            "damage": "10+",
+            "effect": "Flip a coin for each  Energy attached to Skarmory. This attack does 10 damage plus 20 more danage for each heads."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex8-26"
+        }
+    ],
+    "print_key": "tcgdex:ex8-26",
+    "card_key": "227|70|1|Kouki Saitou|None,10+|1,2",
+    "types_en": [
+        "Metal"
+    ]
+}

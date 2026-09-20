@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-10",
+    "name": "Mewtwo",
+    "img": "https://assets.tcgdex.net/fr/base/base1/10/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "10",
+    "set_total": 102,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "flavor_text": "Il est le fruit de nombreuses expériences génétiques horribles et malsaines.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Psyko",
+            "damage": "10+",
+            "effect": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée au Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy"
+            ],
+            "name": "Bouclier",
+            "damage": null,
+            "effect": "Défaussez 1 carte Énergie {P} attachée à Mewtwo pour pouvoir utiliser cette attaque. Pendant le prochain tour de votre adversaire, prévenez tous les effets ou attaques, y compris les dégâts, infligés à Mewtwo."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-10"
+        }
+    ],
+    "print_key": "tcgdex:base1-10",
+    "card_key": "150|60|3|Ken Sugimori|10+,None|2,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

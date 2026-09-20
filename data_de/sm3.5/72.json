@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm3.5-72",
+    "name": "Mewtu GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm3.5/72/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm3.5",
+    "set_full_name": "Schimmernde Legenden",
+    "series": "Sonne & Mond",
+    "set_code": "sm3.5",
+    "date": "2017-10-06",
+    "number": "72",
+    "set_total": 78,
+    "rarity": "Ultra Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "hp": 190,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Vollkraft",
+            "damage": "30×",
+            "effect": "Diese Attacke fügt 30 Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten Energien zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Super-Absorber",
+            "damage": 60,
+            "effect": "Heile 30 Schadenspunkte bei diesem Pokémon."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Psychostoß-GX",
+            "damage": 200,
+            "effect": "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm3.5-72"
+        }
+    ],
+    "print_key": "tcgdex:sm3.5-72",
+    "card_key": "150|190|2|5ban Graphics|30x,60,200|1,2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

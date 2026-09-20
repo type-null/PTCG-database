@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw8-47",
+    "name": "Magnezone",
+    "img": "https://assets.tcgdex.net/de/bw/bw8/47/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw8",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw8/symbol",
+    "set_full_name": "Plasma-Sturm",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw8",
+    "date": "2013-02-06",
+    "number": "47",
+    "set_total": 138,
+    "rarity": "Selten",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 462,
+    "pokemon_category": "",
+    "flavor_text": "Gelegentlich erzeugen sie so starke Magnetfelder, dass sie sich gegenseitig anziehen und einander immobilisieren.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Doppelstütze",
+            "damage": 30,
+            "effect": "Lege 2 Basis-Energiekarten von deinem Ablagestapel an 1 deiner Pokémon an."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Taumler",
+            "damage": 70,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Magneton",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw8-47"
+        }
+    ],
+    "print_key": "tcgdex:bw8-47",
+    "card_key": "462|140|2|match|30,70|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

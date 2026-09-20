@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw8-48",
+    "name": "Électhor-EX",
+    "img": "https://assets.tcgdex.net/fr/bw/bw8/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "bw8",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw8/symbol",
+    "set_full_name": "Tempète Plasma",
+    "series": "Noir & Blanc",
+    "set_code": "bw8",
+    "date": "2013-02-06",
+    "number": "48",
+    "set_total": 138,
+    "rarity": "Rare",
+    "author": [
+        "Eske Yoshinob"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "hp": 170,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Hâte",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Méga Voltage",
+            "damage": 80,
+            "effect": "Si de l'Énergie Plasma est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw8-48"
+        }
+    ],
+    "print_key": "tcgdex:bw8-48",
+    "card_key": "145|170|1|Eske Yoshinob|30,80|2,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

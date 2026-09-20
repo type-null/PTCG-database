@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy11-70",
+    "name": "Bastiodon",
+    "img": "https://assets.tcgdex.net/fr/xy/xy11/70/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Offensive Vapeur",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "70",
+    "set_total": 116,
+    "rarity": "Rare",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 411,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 150,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tête Riposte",
+            "damage": null,
+            "effect": "Pendant le prochain tour de votre adversaire, si ce Pokémon subit les dégâts d'une attaque (même si ce Pokémon est mis K.O.), placez des marqueurs de dégâts sur le Pokémon Attaquant équivalents au nombre de dégâts infligés à ce Pokémon."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Forteresse de Rage",
+            "damage": "100+",
+            "effect": "Cette attaque inflige 10 dégâts supplémentaires pour chaque Pokémon de Banc de votre adversaire ayant au moins 1 marqueur de dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Dinoclier",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy11-70"
+        }
+    ],
+    "print_key": "tcgdex:xy11-70",
+    "card_key": "411|150|4|match|None,100+|2,4",
+    "types_en": [
+        "Metal"
+    ]
+}

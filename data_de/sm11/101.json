@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm11-101",
+    "name": "Necrozma",
+    "img": "https://assets.tcgdex.net/de/sm/sm11/101/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Bund der Gleichgesinnten",
+    "series": "Sonne & Mond",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "101",
+    "set_total": 258,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 800,
+    "pokemon_category": "",
+    "flavor_text": "Diese Kreatur stammt wohl aus einer anderen Welt. Sie wirkt gequält, wenn sie auf der Suche nach Licht, seiner Energiequelle, herumwütet.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Angriffsbarriere",
+            "damage": 30,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Spezial-Laser",
+            "damage": "100+",
+            "effect": "Wenn an dieses Pokémon mindestens 1 Spezial-Energie angelegt ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm11-101"
+        }
+    ],
+    "print_key": "tcgdex:sm11-101",
+    "card_key": "800|130|2|Masakazu Fukuda|30,100+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm1-153",
+    "name": "Lunala GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm1/153/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Soleil et Lune",
+    "series": "Soleil et Lune",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "153",
+    "set_total": 163,
+    "rarity": "Magnifique rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 792,
+    "pokemon_category": "",
+    "hp": 250,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Transfert Psy",
+            "effect": "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez déplacer une Énergie Psychic de l’un de vos Pokémon vers un autre de vos Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Psy",
+                "Psy"
+            ],
+            "name": "Rayon Spectral",
+            "damage": 120,
+            "effect": "Le Pokémon Défenseur ne peut pas être soigné pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Psy"
+            ],
+            "name": "Chute Lunaire GX",
+            "damage": null,
+            "effect": "Mettez K.O. l’un des Pokémon de base de votre adversaire qui n’est pas un Pokémon-GX. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Cosmovum",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm1-153"
+        }
+    ],
+    "print_key": "tcgdex:sm1-153",
+    "card_key": "792|250|2|5ban Graphics|120,None|4,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

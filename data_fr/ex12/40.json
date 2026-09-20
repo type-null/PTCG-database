@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex12-40",
+    "name": "Feuforêve",
+    "img": "https://assets.tcgdex.net/fr/ex/ex12/40/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Créateurs de légendes",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "40",
+    "set_total": 93,
+    "rarity": "Peu Commune",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 200,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Gros dodo",
+            "effect": "Tant que Feuforêve est votre Pokémon Actif, chaque joueur lance 2 pièces pour son Pokémon Endormi entre deux tours. Si une des pièces est pile, ce Pokémon reste Endormi."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Retour de transe",
+            "damage": null,
+            "effect": "Reprenez dans votre main une carte Énergie attachée à Feuforêve. Le Pokémon Défenseur est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Dévorêve",
+            "damage": 30,
+            "effect": "Si le Pokémon Défenseur n'est pas Endormi, cette attaque est sans effet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex12-40"
+        }
+    ],
+    "print_key": "tcgdex:ex12-40",
+    "card_key": "200|50|1|Yukiko Baba|None,30|1,1",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw10-54",
+    "name": "Aeropteryx",
+    "img": "https://assets.tcgdex.net/de/bw/bw10/54/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw10",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw10/symbol",
+    "set_full_name": "Plasma-Blaster",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw10",
+    "date": "2013-08-14",
+    "number": "54",
+    "set_total": 105,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 567,
+    "pokemon_category": "",
+    "flavor_text": "Zu Fuß ist es schneller als in der Luft. Es muss ein Tempo von 40 km/h erreichen, bevor es sich in die Lüfte aufschwingt.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Akrobatik",
+            "damage": 20,
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Turbotaucher",
+            "damage": 100,
+            "effect": "Wenn dieses Pokémon 50 oder weniger verbliebene KP hat, beträgt der Grundschaden dieser Attacke 50 Schadenspunkte."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Flapteryx",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw10-54"
+        }
+    ],
+    "print_key": "tcgdex:bw10-54",
+    "card_key": "567|120|0|Kouki Saitou|20,100|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

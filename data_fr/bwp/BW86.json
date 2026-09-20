@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bwp-BW86",
+    "name": "Genesect",
+    "img": "https://assets.tcgdex.net/fr/bw/bwp/BW86/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bwp",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bwp/symbol",
+    "set_full_name": "Promo BW",
+    "series": "Noir & Blanc",
+    "set_code": "bwp",
+    "date": "2011-04-26",
+    "number": "BW86",
+    "set_total": 101,
+    "rarity": "Commune",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 649,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Rayon Signal",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Boost Atomisant",
+            "damage": 60,
+            "effect": "Pendant votre prochain tour, l'attaque Boost Atomisant de ce Pokémon inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bwp-BW86"
+        }
+    ],
+    "print_key": "tcgdex:bwp-BW86",
+    "card_key": "649|100|2|5ban Graphics|30,60|2,4",
+    "types_en": [
+        "Grass"
+    ]
+}

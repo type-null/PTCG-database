@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm8-70",
+    "name": "Knirfish",
+    "img": "https://assets.tcgdex.net/de/sm/sm8/70/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Echo des Donners",
+    "series": "Sonne & Mond",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "70",
+    "set_total": 236,
+    "rarity": "Häufig",
+    "author": [
+        "tetsuya koizumi"
+    ],
+    "pokedex_number": 779,
+    "pokemon_category": "",
+    "flavor_text": "Es lähmt seine Beute mit Psycho-Kräften und zerkaut sie mit seinen kräftigen Zähnen. Auch die Schale von Muschas knackt es problemlos.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Gedankenverbiegung",
+            "damage": 20,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Zusätzlicher Schmerz",
+            "damage": null,
+            "effect": "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners, auf dem mindestens 1 Schadensmarke liegt, 60 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm8-70"
+        }
+    ],
+    "print_key": "tcgdex:sm8-70",
+    "card_key": "779|90|1|tetsuya koizumi|20,None|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

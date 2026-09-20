@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/xy3-36",
+    "name": "Hypno",
+    "img": "https://assets.tcgdex.net/it/xy/xy3/36/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "xy3",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy3/symbol",
+    "set_full_name": "Colpi Furiosi",
+    "series": "XY",
+    "set_code": "xy3",
+    "date": "2014-08-13",
+    "number": "36",
+    "set_total": 114,
+    "rarity": "Rara",
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "pokedex_number": 97,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 90,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psico"
+            ],
+            "name": "Controllamano",
+            "damage": null,
+            "effect": "Il tuo avversario mostra le carte che ha in mano. Puoi scegliere una carta Aiuto presente tra quelle carte. Se lo fai, il tuo avversario gioca quella carta Aiuto. Tuttavia, prendi tu le decisioni per quella carta (la carta Aiuto viene poi scartata)."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Psico",
+                "Psico"
+            ],
+            "name": "Ipnobomba",
+            "damage": 60,
+            "effect": "Il Pokémon attivo del tuo avversario viene addormentato."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Drowzee",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/xy3-36"
+        }
+    ],
+    "print_key": "tcgdex:xy3-36",
+    "card_key": "97|90|2|Shigenori Negishi|None,60|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xyp-XY22",
+    "name": "Darkrai",
+    "img": "https://assets.tcgdex.net/fr/xy/xyp/XY22/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xyp",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xyp/symbol",
+    "set_full_name": "Promo XY",
+    "series": "XY",
+    "set_code": "xyp",
+    "date": "2013-10-12",
+    "number": "XY22",
+    "set_total": 216,
+    "rarity": "Promo",
+    "author": [
+        "Sanosuke Sakuma"
+    ],
+    "pokedex_number": 491,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Hypnoblast",
+            "damage": 30,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Vent Puissant",
+            "damage": "60＋",
+            "effect": "Si le Pokémon Actif de votre adversaire est Endormi, cette attaque inflige 60 dégâts supplémentaires et vous soignez 30 dégâts à ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "−20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xyp-XY22"
+        }
+    ],
+    "print_key": "tcgdex:xyp-XY22",
+    "card_key": "491|120|1|Sanosuke Sakuma|30,60+|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp2-40",
+    "name": "Welsar",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Geheimnisvolle Schätze",
+    "series": "Diamant & Perl",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "40",
+    "set_total": 124,
+    "rarity": "Selten",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "pokedex_number": 340,
+    "pokemon_category": "",
+    "flavor_text": "Es verteidigt sein Revier, indem es Erschütterungen auslöst, die noch in 5 km Entfernung zu spüren sind.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Tobsucht",
+            "damage": "20x",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte für jede Schadensmarke auf Welsar zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Intensität",
+            "damage": 60,
+            "effect": "Dieser Angriff fügt jedem Pokémon auf der Bank (deinen und denen deines Gegners) 20 Schadenpunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Schmerbe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp2-40"
+        }
+    ],
+    "print_key": "tcgdex:dp2-40",
+    "card_key": "340|90|3|Daisuke Ito|20x,60|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

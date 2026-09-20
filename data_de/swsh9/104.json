@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh9-104",
+    "name": "Klikdiklak",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh9/104/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh9",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh9/symbol",
+    "set_full_name": "Strahlende Sterne",
+    "series": "Schwert & Schild",
+    "set_code": "swsh9",
+    "date": "2022-02-25",
+    "number": "104",
+    "set_total": 186,
+    "rarity": "Selten",
+    "author": [
+        "Megumi Higuchi"
+    ],
+    "pokedex_number": 601,
+    "pokemon_category": "",
+    "flavor_text": "Die Stachelspitzen können starke Elektrizität abfeuern. Im roten Zentralbestandteil sind Unmengen von Energie gespeichert.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Schutzgetriebe",
+            "effect": "Deinen Basis-Pokémon werden durch Attacken von Pokémon deines Gegners 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Taumler",
+            "damage": "90+",
+            "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 90 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Kliklak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh9-104"
+        }
+    ],
+    "print_key": "tcgdex:swsh9-104",
+    "card_key": "601|150|3|Megumi Higuchi|90+|3",
+    "types_en": [
+        "Metal"
+    ]
+}

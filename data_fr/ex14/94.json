@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex14-94",
+    "name": "Jirachi ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex14/94/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex14",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex14/symbol",
+    "set_full_name": "EX Gardiens de Cristal",
+    "series": "EX",
+    "set_code": "ex14",
+    "date": "2006-08-30",
+    "number": "94",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Shizurow"
+    ],
+    "pokedex_number": 385,
+    "pokemon_category": "",
+    "hp": 90,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Lumière d'étoile",
+            "effect": "Tant que votre adversaire possède des Pokémon-ex ou des Pokémon Évolués de Niveau 2 en jeu, Jirachi ex paye une Énergie {C} de moins pour utiliser Rayon protecteur ou Super psy."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Rayon protecteur",
+            "damage": 30,
+            "effect": "Lors du prochain tour de votre adversaire, celui-ci ne pourra pas utiliser de Poké-Powers sur son Pokémon."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Super psy",
+            "damage": 50,
+            "effect": ""
+        }
+    ],
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex14-94"
+        }
+    ],
+    "print_key": "tcgdex:ex14-94",
+    "card_key": "385|90|1|Shizurow|30,50|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm11-1",
+    "name": "Rowlet y Exeggutor de Alola GX",
+    "img": "https://assets.tcgdex.net/es/sm/sm11/1/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "tags": [
+        "RELEVOS",
+        "GX"
+    ],
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Mentes Unidas",
+    "series": "Sol y Luna",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "1",
+    "set_total": 258,
+    "rarity": "Ultra Rara",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 103,
+    "pokemon_category": "",
+    "hp": 270,
+    "types": [
+        "Planta"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Supercrecimiento",
+            "damage": null,
+            "effect": "Busca en tu baraja 1 carta que evolucione de 1 de tus Pokémon Grass y ponla sobre ese Pokémon para hacerlo evolucionar. Si ese Pokémon es ahora un Pokémon de Fase 1, busca en tu baraja 1 Pokémon de Fase 2 que evolucione de ese Pokémon y ponlo sobre ese Pokémon para hacerlo evolucionar. Después, baraja las cartas de tu baraja."
+        },
+        {
+            "cost": [
+                "Planta",
+                "Planta",
+                "Incolora"
+            ],
+            "name": "Huracán Calmante",
+            "damage": 150,
+            "effect": "Cura 30 puntos de daño a este Pokémon."
+        },
+        {
+            "cost": [
+                "Planta",
+                "Planta",
+                "Planta"
+            ],
+            "name": "Hora Tropical GX",
+            "damage": 200,
+            "effect": "Si este Pokémon tiene por lo menos 3 Energías adicionales unidas a él (además de las del coste de este ataque), tu rival pone todas las Energías de todos sus Pokémon en su baraja y las baraja todas. (No puedes usar más de 1 ataque GX en una partida)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm11-1"
+        }
+    ],
+    "print_key": "tcgdex:sm11-1",
+    "card_key": "103|270|3|Mitsuhiro Arita|None,150,200|0,3,3",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm1-34",
+    "name": "Austos",
+    "img": "https://assets.tcgdex.net/de/sm/sm1/34/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sonne & Mond",
+    "series": "Sonne & Mond",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "34",
+    "set_total": 172,
+    "rarity": "Selten",
+    "author": [
+        "Yoshinobu Saito"
+    ],
+    "pokedex_number": 91,
+    "pokemon_category": "",
+    "flavor_text": "Seine Schale ist so hart, dass nicht einmal eine Bombe sie zerschmettern kann. Bis heute weiß niemand, wie das Innere seiner Schale aussieht.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Würgegriff",
+            "damage": "30+",
+            "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu. Bei Zahl ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Schutzdruck",
+            "damage": 80,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Muschas",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm1-34"
+        }
+    ],
+    "print_key": "tcgdex:sm1-34",
+    "card_key": "91|120|3|Yoshinobu Saito|30+,80|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

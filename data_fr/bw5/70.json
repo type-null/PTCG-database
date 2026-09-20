@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw5-70",
+    "name": "Zorua",
+    "img": "https://assets.tcgdex.net/fr/bw/bw5/70/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw5",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw5/symbol",
+    "set_full_name": "Explorateurs Obscurs",
+    "series": "Noir & Blanc",
+    "set_code": "bw5",
+    "date": "2012-05-09",
+    "number": "70",
+    "set_total": 111,
+    "rarity": "Commune",
+    "author": [
+        "Akira Komayama"
+    ],
+    "pokedex_number": 570,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Regard Paralysant",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Étreinte d'Ombre",
+            "damage": 20,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw5-70"
+        }
+    ],
+    "print_key": "tcgdex:bw5-70",
+    "card_key": "570|60|1|Akira Komayama|None,20|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp6-94",
+    "name": "Skorgla",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Erwachte Legenden",
+    "series": "Diamant & Perl",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "94",
+    "set_total": 146,
+    "rarity": "Häufig",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 207,
+    "pokemon_category": "",
+    "flavor_text": "Es segelt durch die Lüfte und breitet seine Gliedmaßen aus, um aus der Luft anzugreifen.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Schwaches Gift",
+            "damage": 10,
+            "effect": "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Draufspringen",
+            "damage": "10+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp6-94"
+        }
+    ],
+    "print_key": "tcgdex:dp6-94",
+    "card_key": "207|60|1|Masakazu Fukuda|10,10+|0,1",
+    "types_en": [
+        "Fighting"
+    ]
+}

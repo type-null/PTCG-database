@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl2-45",
+    "name": "Phyllali Niv. 49",
+    "img": "https://assets.tcgdex.net/fr/pl/pl2/45/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Rivaux Émergeants",
+    "series": "Platine",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "45",
+    "set_total": 120,
+    "rarity": "Peu Commune",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "pokedex_number": 470,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Regain d'énergie",
+            "effect": "Tant que Phyllali est votre Pokémon Actif, lorsque vous attachez une carte Énergie de votre main à 1 de vos Pokémon, retirez à ce Pokémon 2 marqueurs de dégât."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Énergie plus",
+            "damage": 40,
+            "effect": "Attachez une carte Énergie de base de votre main à 1 de vos Pokémon."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Senteur apaisante",
+            "damage": 60,
+            "effect": "Le Pokémon Défenseur est maintenant Endormi."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl2-45"
+        }
+    ],
+    "print_key": "tcgdex:pl2-45",
+    "card_key": "470|90|2|Suwama Chiaki|40,60|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

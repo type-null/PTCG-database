@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/basep-37",
+    "name": "Kapoera",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "basep",
+    "set_img": "https://assets.tcgdex.net/univ/base/basep/symbol",
+    "set_full_name": "Wizards Black Star Promos",
+    "series": "Base",
+    "set_code": "basep",
+    "date": "1999-07-01",
+    "number": "37",
+    "set_total": 53,
+    "rarity": "Commune",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 237,
+    "pokemon_category": "",
+    "flavor_text": "Il lance des coups de pieds tournant. S'il tournoie assez vite, il peut s'enfoncer dans le sol.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Coup de pied rafale",
+            "damage": "20×",
+            "effect": "Lancez une pièce jusqu'à obtenir pile. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Tour Rapide",
+            "damage": 30,
+            "effect": "Si votre adversaire a des Pokémon sur son Banc, il choisit l'un d'eux et l'échange avec son Pokémon Actif, ensuite, si vous avez des Pokémon sur votre banc, vous choisissez l'un d'eux et vous l'échangez avec votre Pokémon Actif. (Infligez les dégâts avant d'échanger les Pokémon)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/basep-37"
+        }
+    ],
+    "print_key": "tcgdex:basep-37",
+    "card_key": "237|60|1|Atsuko Nishida|20x,30|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

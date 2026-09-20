@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex1-48",
+    "name": "Wailmer",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex1",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex1/symbol",
+    "set_full_name": "EX Rubin & Saphir",
+    "series": "EX",
+    "set_code": "ex1",
+    "date": "2003-07-01",
+    "number": "48",
+    "set_total": 109,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 320,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Ruhe",
+            "damage": null,
+            "effect": "Entferne alle Speziellen Zustände und 4 Schadensmarken von Wailmer (entferne alle, wenn weniger als 4 auf Wailmer liegen). Wailmer schläft jetzt."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Aquaknarre",
+            "damage": "20+",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Wailmer angelegt {W}-Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 20 Schadenspunkte hinzufügen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex1-48"
+        }
+    ],
+    "print_key": "tcgdex:ex1-48",
+    "card_key": "320|80|3|Mitsuhiro Arita|None,20+|2,2",
+    "types_en": [
+        "Water"
+    ]
+}

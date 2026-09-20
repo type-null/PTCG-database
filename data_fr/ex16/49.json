@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex16-49",
+    "name": "Loupio",
+    "img": "https://assets.tcgdex.net/fr/ex/ex16/49/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex16",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex16/symbol",
+    "set_full_name": "EX Gardiens du Pouvoir",
+    "series": "EX",
+    "set_code": "ex16",
+    "date": "2007-02-17",
+    "number": "49",
+    "set_total": 108,
+    "rarity": "Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 170,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Ion positif",
+            "damage": "10+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Ion négatif",
+            "damage": 10,
+            "effect": "Lors du prochain tour de votre adversaire, tous dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 10 (avant application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex16-49"
+        }
+    ],
+    "print_key": "tcgdex:ex16-49",
+    "card_key": "170|50|1|Mitsuhiro Arita|10+,10|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

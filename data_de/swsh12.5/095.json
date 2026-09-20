@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh12.5-095",
+    "name": "Zacian V",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh12.5/095/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "V"
+    ],
+    "regulation": "F",
+    "set_name": "swsh12.5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12.5/symbol",
+    "set_full_name": "Zenit der Könige",
+    "series": "Schwert & Schild",
+    "set_code": "swsh12.5",
+    "date": "2023-01-20",
+    "number": "095",
+    "set_total": 160,
+    "rarity": "Holografisch Selten V",
+    "author": [
+        "aky CG Works"
+    ],
+    "pokedex_number": 888,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 220,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Durchbohrender Schlag",
+            "damage": 40,
+            "effect": "Der Schaden dieser Attacke wird durch Schwäche, Resistenz oder Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Gigantenhieb",
+            "damage": "100+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners ein Pokémon-VMAX ist, fügt diese Attacke 160 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh12.5-095"
+        }
+    ],
+    "print_key": "tcgdex:swsh12.5-95",
+    "card_key": "888|220|2|aky CG Works|40,100+|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

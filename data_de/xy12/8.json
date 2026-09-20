@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy12-8",
+    "name": "Tangela",
+    "img": "https://assets.tcgdex.net/de/xy/xy12/8/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Evolution",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "8",
+    "set_total": 113,
+    "rarity": "Häufig",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 114,
+    "pokemon_category": "",
+    "flavor_text": "Blaue Lianen verdecken die wahre Identität dieses Pokémon. Es verheddert alles, was ihm zu nahe kommt.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Klammergriff",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Giftpuder",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy12-8"
+        }
+    ],
+    "print_key": "tcgdex:xy12-8",
+    "card_key": "114|80|2|Mitsuhiro Arita|20,30|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

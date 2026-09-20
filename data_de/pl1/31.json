@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-31",
+    "name": "Panferno",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "31",
+    "set_total": 133,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 392,
+    "pokemon_category": "",
+    "flavor_text": "Es verwendet einzigartige Attacken mit dem Feuer an seinen Händen und Füßen. Stellt sich jedem Gegner.",
+    "stage": "Rang 2",
+    "hp": 110,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Brausende Flammen",
+            "damage": "80×",
+            "effect": "Entferne beliebig viele {R}-Energien von deinen Pokémon und lege sie auf deinen Ablagestapel. Wirf für jede auf diese Weise auf deinen Ablagestapel gelegte Energiekarte 1 Münze. Dieser Angriff fügt 80 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Raserei",
+            "damage": "30+",
+            "effect": "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Panferno zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+30"
+    },
+    "retreat": 0,
+    "evolve_from": "Panpyro",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-31"
+        }
+    ],
+    "print_key": "tcgdex:pl1-31",
+    "card_key": "392|110|0|Kouki Saitou|80x,30+|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

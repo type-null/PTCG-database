@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp1-15",
+    "name": "Skuntank",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perl",
+    "series": "Diamant & Perl",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "15",
+    "set_total": 130,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Hiroaki Ito"
+    ],
+    "pokedex_number": 435,
+    "pokemon_category": "",
+    "flavor_text": "Über seine Schweifspitze versprüht es eine übelriechende Substanz. Die Reichweite liegt bei über 50 Metern.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht",
+                "Unlicht"
+            ],
+            "name": "Frustration",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners, auf dem keine Schadensmarken liegen. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Giftschwaden",
+            "damage": 30,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das Verteidigende Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Skunkapuh",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp1-15"
+        }
+    ],
+    "print_key": "tcgdex:dp1-15",
+    "card_key": "435|90|1|Hiroaki Ito|None,30|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-32",
+    "name": "Mélokrik",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "32",
+    "set_total": 133,
+    "rarity": "Rare",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 402,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Mélodie vengeresse",
+            "damage": "20×",
+            "effect": "Inflige 20 dégâts multipliés par le nombre de Crikzik et Mélokrik dans votre pile de défausse."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante"
+            ],
+            "name": "Bourdon",
+            "damage": "50+",
+            "effect": "Si le Pokémon Défenseur est Endormi, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires. Retirez-lui l'État Spécial Endormi."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Crikzik",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-32"
+        }
+    ],
+    "print_key": "tcgdex:pl1-32",
+    "card_key": "402|90|1|Atsuko Nishida|20x,50+|2,2",
+    "types_en": [
+        "Grass"
+    ]
+}

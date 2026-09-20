@@ -1,0 +1,61 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex16-9",
+    "name": "Gardevoir",
+    "img": "https://assets.tcgdex.net/fr/ex/ex16/9/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex16",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex16/symbol",
+    "set_full_name": "EX Gardiens du Pouvoir",
+    "series": "EX",
+    "set_code": "ex16",
+    "date": "2007-02-17",
+    "number": "9",
+    "set_total": 108,
+    "rarity": "Rare",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 282,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 100,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Ombre Psy",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre deck une carte Énergie {P} et l'attacher à 1 de vos Pokémon. Placez 2 marqueurs de dégât sur ce Pokémon. Ensuite, mélangez votre deck. Ce pouvoir ne peut pas être utilisé si Gardevoir est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Explosion d'énergie",
+            "damage": "10x",
+            "effect": "Inflige 10 dégâts multipliés par le nombre total d'Énergies attachées à Gardevoir et au Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Kirlia",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex16-9"
+        }
+    ],
+    "print_key": "tcgdex:ex16-9",
+    "card_key": "282|100|2|Midori Harada|10x|1",
+    "types_en": [
+        "Psychic"
+    ]
+}

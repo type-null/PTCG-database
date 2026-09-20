@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw5-52",
+    "name": "Echnatoll",
+    "img": "https://assets.tcgdex.net/de/bw/bw5/52/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw5",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw5/symbol",
+    "set_full_name": "Erforscher der Finsternis",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw5",
+    "date": "2012-05-09",
+    "number": "52",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 563,
+    "pokemon_category": "",
+    "flavor_text": "Angeblich verschlingt es jeden, der sich ihm auch nur nähert. Besonders gern frisst es Klumpen aus reinem Gold.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wurf",
+            "damage": 40,
+            "effect": "Lege beliebig viele Pokémon-Ausrüstungen von deiner Hand auf deinen Ablagestapel. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl der von dir abgelegten Karten zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Einsperren",
+            "damage": 40,
+            "effect": "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Makabaja",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw5-52"
+        }
+    ],
+    "print_key": "tcgdex:bw5-52",
+    "card_key": "563|100|2|kawayoo|40,40|2,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

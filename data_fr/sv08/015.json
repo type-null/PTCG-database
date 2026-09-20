@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv08-015",
+    "name": "Chongjian",
+    "img": "https://assets.tcgdex.net/fr/sv/sv08/015/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "H",
+    "set_name": "sv08",
+    "set_full_name": "Étincelles Déferlantes",
+    "series": "Écarlate et Violet",
+    "set_code": "sv08",
+    "date": "2024-11-08",
+    "number": "015",
+    "set_total": 252,
+    "rarity": "Peu Commune",
+    "author": [
+        "danciao"
+    ],
+    "pokedex_number": 1001,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Avidité Risquée",
+            "damage": 20,
+            "effect": "S'il y a 3 cartes ou moins dans votre deck, cette attaque inflige aussi 120 dégâts à 2 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Fouet Emmêlant",
+            "damage": 130,
+            "effect": "Défaussez les 3 cartes du dessus de votre deck."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv08-015"
+        }
+    ],
+    "print_key": "tcgdex:sv08-15",
+    "card_key": "1001|130|3|danciao|20,130|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

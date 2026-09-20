@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-29",
+    "name": "Haunter",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "29",
+    "set_total": 102,
+    "rarity": "Non comune",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 93,
+    "pokemon_category": "",
+    "flavor_text": "Per la sua abilità di passare attraverso i muri, si dice che venga da un'altra dimensione.",
+    "stage": "Livello 1",
+    "hp": 60,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psico"
+            ],
+            "name": "Ipnosi",
+            "damage": null,
+            "effect": "Il Pokémon Difensore è Addormentato."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Psico"
+            ],
+            "name": "Mangiasogni",
+            "damage": 50,
+            "effect": "Puoi usare questo attacco solo se il Pokémon Difensore è Addormentato."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Gastly",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-29"
+        }
+    ],
+    "print_key": "tcgdex:base1-29",
+    "card_key": "93|60|1|Keiji Kinebuchi|None,50|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

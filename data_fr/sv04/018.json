@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv04-018",
+    "name": "Chongjian",
+    "img": "https://assets.tcgdex.net/fr/sv/sv04/018/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv04",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04/symbol",
+    "set_full_name": "Faille Paradoxe",
+    "series": "Écarlate et Violet",
+    "set_code": "sv04",
+    "date": "2023-11-03",
+    "number": "018",
+    "set_total": 266,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 1001,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Porteur de Feuilles",
+            "damage": null,
+            "effect": "Attachez jusqu'à 2 cartes Énergie {G} de base de votre pile de défausse à l'un de vos Pokémon."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Avidité Contraignante",
+            "damage": 140,
+            "effect": "Pendant le prochain tour de votre adversaire, les attaques utilisées par le Pokémon Défenseur coûtent {C}{C} de plus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv04-018"
+        }
+    ],
+    "print_key": "tcgdex:sv04-18",
+    "card_key": "1001|130|3|Kouki Saitou|None,140|1,4",
+    "types_en": [
+        "Grass"
+    ]
+}

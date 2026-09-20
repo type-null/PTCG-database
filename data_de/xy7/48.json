@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy7-48",
+    "name": "Metang",
+    "img": "https://assets.tcgdex.net/de/xy/xy7/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy7",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy7/symbol",
+    "set_full_name": "Ewiger Anfang",
+    "series": "XY",
+    "set_code": "xy7",
+    "date": "2015-08-12",
+    "number": "48",
+    "set_total": 101,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "pokedex_number": 375,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Metallklaue",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Patronenhieb",
+            "damage": "50+",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Tanhel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy7-48"
+        }
+    ],
+    "print_key": "tcgdex:xy7-48",
+    "card_key": "375|90|3|Shigenori Negishi|30,50+|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

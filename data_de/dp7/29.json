@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-29",
+    "name": "Tangoloss",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "29",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 465,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Grüne Erneuerung",
+            "effect": "Entferne zwischen den Zügen 1 Schadensmarke von Tangoloss."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Grüne Säure",
+            "damage": 20,
+            "effect": "Wirf 2 Münzen. Wenn die erste Münze „Kopf“ gezeigt hat, ist das Verteidigende Pokémon jetzt verwirrt. Wenn die zweite Münze „Kopf“ gezeigt hat, ist das Verteidigende Pokémon jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Greifranke",
+            "damage": 60,
+            "effect": "Dieser Angriff fügt 2 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Tangela",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-29"
+        }
+    ],
+    "print_key": "tcgdex:dp7-29",
+    "card_key": "465|110|3|Kouki Saitou|20,60|2,4",
+    "types_en": [
+        "Grass"
+    ]
+}

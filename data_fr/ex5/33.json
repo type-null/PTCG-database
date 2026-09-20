@@ -1,0 +1,77 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex5-33",
+    "name": "Dodrio",
+    "img": "https://assets.tcgdex.net/fr/ex/ex5/33/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex5",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex5/symbol",
+    "set_full_name": "EX Légendes Oubliées",
+    "series": "EX",
+    "set_code": "ex5",
+    "date": "2004-06-01",
+    "number": "33",
+    "set_total": 102,
+    "rarity": "Peu Commune",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 85,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Fugafacile",
+            "effect": "Dodrio peut battre en retraite même s'il est Endormi ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Représailles",
+            "damage": "10×",
+            "effect": "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Dodrio."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coup déchirant",
+            "damage": 40,
+            "effect": "Lancez une pièce. Si c'est pile, Dodrio ne peut pas utiliser Coup déchirant lors de votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 0,
+    "evolve_from": "Doduo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex5-33"
+        }
+    ],
+    "print_key": "tcgdex:ex5-33",
+    "card_key": "85|80|0|Miki Tanaka|10x,40|2,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

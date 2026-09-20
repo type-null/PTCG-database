@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy9-65",
+    "name": "Trombork",
+    "img": "https://assets.tcgdex.net/de/xy/xy9/65/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy9",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy9/symbol",
+    "set_full_name": "TURBOfieber",
+    "series": "XY",
+    "set_code": "xy9",
+    "date": "2016-02-03",
+    "number": "65",
+    "set_total": 126,
+    "rarity": "Selten",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 709,
+    "pokemon_category": "",
+    "flavor_text": "Es nutzt seine Wurzeln als Nervensystem und kontrolliert so andere Bäume. Es ist nett zu den Pokémon, die in ihm leben.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Nervensaat",
+            "effect": "Solang dieses Pokémon dein Aktives Pokémon ist, erhöhen sich die Angriffskosten der Basis-Pokémon deines Gegners um {C}."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Energiedruck",
+            "damage": "70+",
+            "effect": "Dieser Angriff fügt 10 weitere Schadenspunkte für jede Energie zu, die an das Aktive Pokémon deines Gegners angelegt ist."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Paragoni",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy9-65"
+        }
+    ],
+    "print_key": "tcgdex:xy9-65",
+    "card_key": "709|110|3|Midori Harada|70+|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

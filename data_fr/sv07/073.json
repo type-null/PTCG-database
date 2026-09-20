@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv07-073",
+    "name": "Ossatueur",
+    "img": "https://assets.tcgdex.net/fr/sv/sv07/073/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "H",
+    "set_name": "sv07",
+    "set_full_name": "Couronne Stellaire",
+    "series": "Écarlate et Violet",
+    "set_code": "sv07",
+    "date": "2024-09-13",
+    "number": "073",
+    "set_total": 175,
+    "rarity": "Peu Commune",
+    "author": [
+        "cochi8i"
+    ],
+    "pokedex_number": 105,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Rugissement",
+            "damage": null,
+            "effect": "Pendant le prochain tour de votre adversaire, les attaques utilisées par le Pokémon Défenseur infligent 40 dégâts de moins (avant application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Os Vengeur",
+            "damage": "60+",
+            "effect": "Si au moins un marqueur de dégâts est placé sur au moins l'un de vos Osselait de Banc, cette attaque inflige 120 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Osselait",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv07-073"
+        }
+    ],
+    "print_key": "tcgdex:sv07-73",
+    "card_key": "105|120|2|cochi8i|None,60+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp4-42",
+    "name": "Aalabyss",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp4",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp4/symbol",
+    "set_full_name": "Epische Begegnungen",
+    "series": "Diamant & Perl",
+    "set_code": "dp4",
+    "date": "2008-02-01",
+    "number": "42",
+    "set_total": 106,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 367,
+    "pokemon_category": "",
+    "flavor_text": "Es lebt tief im Meer. Sein Schweif ist wie ein kleiner Fisch geformt. Mit ihm lockt es Beute an.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Grimasse",
+            "damage": null,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ kann das Verteidigende Pokémon im nächsten Zug deines Gegners weder angreifen noch sich zurückziehen."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Bedrohen und Abwerfen",
+            "damage": "30+",
+            "effect": "Wenn an Aalabyss mindestens 1 {D}-Energie angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu und lege, falls am Verteidigenden Pokémon eine Spezialenergiekarte angelegt ist, diese auf den Ablagestapel deines Gegners."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Perlu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp4-42"
+        }
+    ],
+    "print_key": "tcgdex:dp4-42",
+    "card_key": "367|90|1|Ken Sugimori|None,30+|0,2",
+    "types_en": [
+        "Water"
+    ]
+}

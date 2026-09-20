@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-23",
+    "name": "Dialga",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/23/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "23",
+    "set_total": 133,
+    "rarity": "Rare",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 483,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Courant d'énergie",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, choisissez dans votre pile de défausse une carte Énergie de base et attachez-la à Dialga."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Coup diamant",
+            "damage": 100,
+            "effect": "Dialga ne peut pas attaquer lors de votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-23"
+        }
+    ],
+    "print_key": "tcgdex:pl1-23",
+    "card_key": "483|100|3|Kent Kanetsuna|20,100|2,4",
+    "types_en": [
+        "Metal"
+    ]
+}

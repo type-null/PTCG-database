@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/30th-c-001",
+    "name": "Charizard",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "30th-c",
+    "set_full_name": "Collzione Classica del 30°",
+    "series": "Megaevoluzione",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "001",
+    "set_total": 30,
+    "rarity": "Nessuna",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Livello 2",
+    "hp": 120,
+    "types": [
+        "Fuoco"
+    ],
+    "abilities": [
+        {
+            "name": "Brucia energia",
+            "effect": "Quante volte vuoi durante il tuo turno (prima di attaccare), puoi trasformare tutte le carte Energia assegnate a Charizard in carte Energia Fire per il resto del turno. Questo potere non può essere usato se Charizard è Addormentato, Confuso o Paralizzato."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuoco",
+                "Fuoco",
+                "Fuoco",
+                "Fuoco"
+            ],
+            "name": "Turbofuoco",
+            "damage": 100,
+            "effect": "Scarta 2 carte Energia assegnate a Charizard per poter usare questo attacco."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Acqua"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/30th-c-001"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-1",
+    "card_key": "6|120|3|Mitsuhiro Arita|100|4",
+    "types_en": [
+        "Fire"
+    ]
+}

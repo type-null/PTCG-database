@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/xy4-57",
+    "name": "Liepard",
+    "img": "https://assets.tcgdex.net/es/xy/xy4/57/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "xy4",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy4/symbol",
+    "set_full_name": "Fuerzas Fantasmales",
+    "series": "XY",
+    "set_code": "xy4",
+    "date": "2014-11-05",
+    "number": "57",
+    "set_total": 124,
+    "rarity": "Uncommon",
+    "author": [
+        "TOKIYA"
+    ],
+    "pokedex_number": 510,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 90,
+    "types": [
+        "Oscura"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Oscura"
+            ],
+            "name": "Mordisco Gentil",
+            "damage": 10,
+            "effect": "Durante el próximo turno de tu rival, cualquier daño infligido por ataques del Pokémon Defensor se reduce en 60 (antes de aplicar Debilidad y Resistencia)."
+        },
+        {
+            "cost": [
+                "Oscura",
+                "Oscura"
+            ],
+            "name": "Garra Mach",
+            "damage": 40,
+            "effect": "El daño de este ataque no se ve afectado por Resistencia."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Purrloin",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/xy4-57"
+        }
+    ],
+    "print_key": "tcgdex:xy4-57",
+    "card_key": "510|90|1|TOKIYA|10,40|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

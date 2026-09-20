@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp5-21",
+    "name": "Hippodocus",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp5",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp5/symbol",
+    "set_full_name": "Aube Majestueuse",
+    "series": "Diamant & Perle",
+    "set_code": "dp5",
+    "date": "2008-05-01",
+    "number": "21",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 450,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Sable aspirant",
+            "damage": 20,
+            "effect": "Cherchez dans votre pile de défausse une carte Énergie Fighting et attachez-la à Hippodocus."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Impact sablonneux",
+            "damage": "50+",
+            "effect": "Lancez une pièce pour chaque Énergie Fighting attachée à Hippodocus. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+20"
+    },
+    "retreat": 3,
+    "evolve_from": "Hippopotas",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp5-21"
+        }
+    ],
+    "print_key": "tcgdex:dp5-21",
+    "card_key": "450|100|3|Kent Kanetsuna|20,50+|0,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

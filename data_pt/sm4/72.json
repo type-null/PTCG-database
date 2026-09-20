@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/sm4-72",
+    "name": "Wigglytuff",
+    "img": "https://assets.tcgdex.net/pt/sm/sm4/72/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Invasão Carmim",
+    "series": "Sol e Lua",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "72",
+    "set_total": 124,
+    "rarity": "Rara",
+    "author": [
+        "0313"
+    ],
+    "pokedex_number": 40,
+    "pokemon_category": "",
+    "stage": "Estágio 1",
+    "hp": 120,
+    "types": [
+        "Fada"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Borrifada Hipnótica",
+            "damage": 30,
+            "effect": "O Pokémon Ativo do seu oponente agora está Adormecido."
+        },
+        {
+            "cost": [
+                "Fada",
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Tapa de Punição",
+            "damage": "60+",
+            "effect": "Se algum dos Pokémon do seu oponente tiver alguma Energia Darkness ligada a ele, este ataque causará 60 pontos de dano a mais."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Sombrio"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/sm4-72"
+        }
+    ],
+    "print_key": "tcgdex:sm4-72",
+    "card_key": "40|120|2|0313|30,60+|2,3",
+    "types_en": [
+        "Fairy"
+    ]
+}

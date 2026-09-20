@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw8-28",
+    "name": "Mamutel",
+    "img": "https://assets.tcgdex.net/de/bw/bw8/28/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw8",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw8/symbol",
+    "set_full_name": "Plasma-Sturm",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw8",
+    "date": "2013-02-06",
+    "number": "28",
+    "set_total": 138,
+    "rarity": "Selten",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 473,
+    "pokemon_category": "",
+    "flavor_text": "Man sagt, als gegen Ende der letzten Eiszeit die Temperaturen wieder stiegen, seien viele Mamutel verschwunden.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Frostfelsen",
+            "damage": 50,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt paralysiert."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Anhaltender Kopfstoß",
+            "damage": 90,
+            "effect": "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 90 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Keifel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw8-28"
+        }
+    ],
+    "print_key": "tcgdex:bw8-28",
+    "card_key": "473|150|4|match|50,90|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base3-48",
+    "name": "Tadmorv",
+    "img": "https://assets.tcgdex.net/fr/base/base3/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base3",
+    "set_img": "https://assets.tcgdex.net/univ/base/base3/symbol",
+    "set_full_name": "Fossile",
+    "series": "Base",
+    "set_code": "base3",
+    "date": "1999-10-10",
+    "number": "48",
+    "set_total": 62,
+    "rarity": "Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 88,
+    "pokemon_category": "",
+    "flavor_text": "Vivant dans les tas d'ordures, il se nourrit des déchets polluants rejetés par les usines.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Mauvaise mélasse",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Lilliput",
+            "damage": null,
+            "effect": "Tous les dégâts infligés à Tadmorv par des attaques durant le prochain tour de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base3-48"
+        }
+    ],
+    "print_key": "tcgdex:base3-48",
+    "card_key": "88|50|1|Mitsuhiro Arita|10,None|1,1",
+    "types_en": [
+        "Grass"
+    ]
+}

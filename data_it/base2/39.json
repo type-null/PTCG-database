@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base2-39",
+    "name": "Marowak",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Originale",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "39",
+    "set_total": 64,
+    "rarity": "Non comune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 105,
+    "pokemon_category": "",
+    "flavor_text": "Usa le ossa come vere e proprie armi. Le lancia abilmente come se fossero boomerang per mettere K.O. i nemici.",
+    "stage": "Livello 1",
+    "hp": 60,
+    "types": [
+        "Lotta"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lotta",
+                "Lotta"
+            ],
+            "name": "Ossomerang",
+            "damage": "30x",
+            "effect": "Lancia 2 volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa."
+        },
+        {
+            "cost": [
+                "Lotta",
+                "Lotta",
+                "Incolore"
+            ],
+            "name": "Cerca Amici",
+            "damage": null,
+            "effect": "Cerca nel tuo mazzo un Pokémon Base Combattimento e mettilo nella tua Panchina. Poi rimischia le carte del tuo mazzo (se la tua Panchina è già completa non puoi usare questo attacco)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Erba"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lampo"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Cubone",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base2-39"
+        }
+    ],
+    "print_key": "tcgdex:base2-39",
+    "card_key": "105|60|1|Mitsuhiro Arita|30x,None|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

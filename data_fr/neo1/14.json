@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-14",
+    "name": "Roigada",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/14/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "14",
+    "set_total": 111,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 199,
+    "pokemon_category": "",
+    "flavor_text": "Un jour qu'il fut mordu à la tête, des toxines pénétrèrent dans le cerveau de Ramoloss en libérant un pouvoir extraordinaire.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Jeux d'Esprit",
+            "effect": "À chaque fois que votre adversaire joue une carte Dresseur, vous pouvez lancer une pièce. Si c'est face, cette carte ne fait rien. Placez-la sur le dessus du deck de votre adversaire. Ce pouvoir ne peut être utilisé si Roigada est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Psy"
+            ],
+            "name": "Explosion cérébrale",
+            "damage": "20+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires, le Pokémon Défenseur est maintenant Confus. Si c'est pile, cette attaque inflige 20 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Ramoloss",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-14"
+        }
+    ],
+    "print_key": "tcgdex:neo1-14",
+    "card_key": "199|80|3|Ken Sugimori|20+|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

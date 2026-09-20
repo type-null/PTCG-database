@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-58",
+    "name": "Octillery",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/58/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "58",
+    "set_total": 133,
+    "rarity": "Peu Commune",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 224,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Filon d'eau",
+            "damage": "50×",
+            "effect": "Retournez les 5 cartes du dessus de votre deck. Lancez une pièce pour chaque carte Énergie que vous y trouvez. Cette attaque inflige 50 dégâts multipliés par le nombre de faces. Mélangez les cartes retournées à votre deck."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau"
+            ],
+            "name": "Octazooka",
+            "damage": 40,
+            "effect": "Chaque fois que le Pokémon Défenseur essaye d'attaquer, votre adversaire lance une pièce. Si c'est pile, cette attaque est sans effet. (Si le Pokémon Défenseur n'est plus le Pokémon Actif de votre adversaire, cet effet se termine.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Rémoraid",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-58"
+        }
+    ],
+    "print_key": "tcgdex:pl1-58",
+    "card_key": "224|90|2|Midori Harada|50x,40|0,2",
+    "types_en": [
+        "Water"
+    ]
+}

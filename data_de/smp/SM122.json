@@ -1,0 +1,77 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/smp-SM122",
+    "name": "Zygarde GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SM Promokarten",
+    "series": "Sonne & Mond",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM122",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 718,
+    "pokemon_category": "",
+    "hp": 180,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Schwingung",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zellsturm",
+            "damage": 80,
+            "effect": "Heile 30 Schadenspunkte bei diesem Pokémon."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Befreiungsschlag GX",
+            "damage": "120×",
+            "effect": "Dein Gegner zeigt dir seine Handkarten. Diese Attacke fügt 120 Schadenspunkte mal der Anzahl der Energiekarten zu, die du dort findest. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/smp-SM122"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM122",
+    "card_key": "718|180|2|5ban Graphics|20,80,120x|1,3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy9-70",
+    "name": "Knakrack",
+    "img": "https://assets.tcgdex.net/de/xy/xy9/70/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy9",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy9/symbol",
+    "set_full_name": "TURBOfieber",
+    "series": "XY",
+    "set_code": "xy9",
+    "date": "2016-02-03",
+    "number": "70",
+    "set_total": 126,
+    "rarity": "Selten",
+    "author": [
+        "TOKIYA"
+    ],
+    "pokedex_number": 445,
+    "pokemon_category": "",
+    "flavor_text": "Es fliegt mit der Geschwindigkeit eines Kampfjets. Es lässt nicht zu, dass ihm seine Beute entkommt.",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Turboüberfall",
+            "damage": 60,
+            "effect": "Lege 1 Energiekarte von deinem Ablagestapel an 1 deiner Pokémon an."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Abbeißen",
+            "damage": "80+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners ein Pokémon-EX ist, fügt dieser Angriff 80 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Knarksel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy9-70"
+        }
+    ],
+    "print_key": "tcgdex:xy9-70",
+    "card_key": "445|130|0|TOKIYA|60,80+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh3.5-45",
+    "name": "Calamanero",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh3.5/45/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh3.5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh3.5/symbol",
+    "set_full_name": "Weg des Champs",
+    "series": "Schwert & Schild",
+    "set_code": "swsh3.5",
+    "date": "2020-09-25",
+    "number": "45",
+    "set_total": 80,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 687,
+    "pokemon_category": "",
+    "flavor_text": "Blickt man in das Licht, das es mit seinem Körper erzeugt, wird man sofort hypnotisiert und steht danach unter der Kontrolle von Calamanero.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Gespenstische Woge",
+            "damage": 50,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Zufälliger Schnabelhieb",
+            "damage": "80+",
+            "effect": "Wirf 2 Münzen. Diese Attacke fügt 40 Schadenspunkte mehr pro Kopf zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Iscalar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh3.5-45"
+        }
+    ],
+    "print_key": "tcgdex:swsh3.5-45",
+    "card_key": "687|120|3|kawayoo|50,80+|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy12-15",
+    "name": "Feunard",
+    "img": "https://assets.tcgdex.net/fr/xy/xy12/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Évolutions",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "15",
+    "set_total": 113,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 38,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Leurre",
+            "damage": null,
+            "effect": "Échangez l'un des Pokémon de Banc de votre adversaire avec son Pokémon Actif. Le nouveau Pokémon Actif ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Déflagration",
+            "damage": 120,
+            "effect": "Défaussez une Énergie Fire attachée à ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Goupix",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy12-15"
+        }
+    ],
+    "print_key": "tcgdex:xy12-15",
+    "card_key": "38|100|1|Ken Sugimori|None,120|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

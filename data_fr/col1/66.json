@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/col1-66",
+    "name": "Phanpy",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "L'appel des Légendes",
+    "series": "L'appel des Légendes",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "66",
+    "set_total": 106,
+    "rarity": "Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 231,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Peau ultra-épaisse",
+            "effect": "Tant que Phanpy possède au moins une Énergie, les dégâts infligés à Phanpy par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Éclate-roc",
+            "damage": "20+",
+            "effect": "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/col1-66"
+        }
+    ],
+    "print_key": "tcgdex:col1-66",
+    "card_key": "231|60|2|Ken Sugimori|20+|2",
+    "types_en": [
+        "Fighting"
+    ]
+}

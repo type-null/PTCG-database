@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex1-23",
+    "name": "Sumpex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex1",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex1/symbol",
+    "set_full_name": "EX Rubin & Saphir",
+    "series": "EX",
+    "set_code": "ex1",
+    "date": "2003-07-01",
+    "number": "23",
+    "set_total": 109,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 260,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Natürliche Heilung",
+            "effect": "Einmal in deinem Zug (vor deinem Angriff), wenn du eine {W}-Energiekarte von der Hand an Sumpex anlegst, entferne 1 Schadensmarke von Sumpex."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Wasserpfeil",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Kaskade",
+            "damage": 50,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Moorabbel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex1-23"
+        }
+    ],
+    "print_key": "tcgdex:ex1-23",
+    "card_key": "260|100|2|Ken Sugimori|None,50|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

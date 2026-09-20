@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-10",
+    "name": "Giratina",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/10/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "10",
+    "set_total": 133,
+    "rarity": "Holo Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 487,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Sur-trancher",
+            "damage": null,
+            "effect": "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc)."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy"
+            ],
+            "name": "Battements d'ailes obscurs",
+            "damage": 20,
+            "effect": "Choisissez sans regarder 1 carte de la main de votre adversaire. Regardez-la et demandez à votre adversaire de la mélanger à son deck."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Réduire en poussière",
+            "damage": 60,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-10"
+        }
+    ],
+    "print_key": "tcgdex:pl1-10",
+    "card_key": "487|100|3|Hajime Kusajima|None,20,60|2,2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

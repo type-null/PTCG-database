@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm8-37",
+    "name": "Kapu-Toro",
+    "img": "https://assets.tcgdex.net/de/sm/sm8/37/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Echo des Donners",
+    "series": "Sonne & Mond",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "37",
+    "set_total": 236,
+    "rarity": "Selten",
+    "author": [
+        "Satoshi Shirai"
+    ],
+    "pokedex_number": 787,
+    "pokemon_category": "",
+    "flavor_text": "Der träge Schutzpatron von Ula-Ula. Es stoppt seine Gegner mithilfe von Pflanzen und spießt sie dann mit seinen Hörnern auf.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Schwerer Schlag",
+            "damage": "20×",
+            "effect": "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl der Pokémon auf der Bank deines Gegners zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Wilder Tackle",
+            "damage": 120,
+            "effect": "Wirf 1 Münze. Bei Zahl fügt sich dieses Pokémon selbst 30 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm8-37"
+        }
+    ],
+    "print_key": "tcgdex:sm8-37",
+    "card_key": "787|130|2|Satoshi Shirai|20x,120|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

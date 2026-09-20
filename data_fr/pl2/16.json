@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl2-16",
+    "name": "Archéodong 4 Niv. 54",
+    "img": "https://assets.tcgdex.net/fr/pl/pl2/16/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Rivaux Émergeants",
+    "series": "Platine",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "16",
+    "set_total": 120,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 437,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Regain manuel",
+            "damage": null,
+            "effect": "Chaque joueur mélange sa main avec son deck et pioche jusqu'à 4 cartes. (Vous piochez vos cartes en premier)."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Représailles",
+            "damage": "10+",
+            "effect": "Si votre adversaire ne possède plus qu'1 carte Récompense, cette attaque inflige 10 dégâts plus 50 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Feu"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl2-16"
+        }
+    ],
+    "print_key": "tcgdex:pl2-16",
+    "card_key": "437|90|3|Mitsuhiro Arita|None,10+|0,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

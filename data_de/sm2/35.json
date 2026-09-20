@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm2-35",
+    "name": "Gelatwino",
+    "img": "https://assets.tcgdex.net/de/sm/sm2/35/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Stunde der Wächter",
+    "series": "Sonne & Mond",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "35",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 584,
+    "pokemon_category": "",
+    "flavor_text": "Seine zwei Köpfe haben je ein eigenes Gehirn. Sind sich beide einig, greifen sie den Gegner an, indem sie heftige Eisböen ausstoßen.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Hagelsturm",
+            "damage": null,
+            "effect": "Diese Attacke fügt jedem Pokémon deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Bitterkalter Atem",
+            "damage": 80,
+            "effect": "Du kannst 2 {W}-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Gelatroppo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm2-35"
+        }
+    ],
+    "print_key": "tcgdex:sm2-35",
+    "card_key": "584|140|2|kawayoo|None,80|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

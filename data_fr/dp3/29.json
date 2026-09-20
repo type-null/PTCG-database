@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp3-29",
+    "name": "Grolem",
+    "img": "https://assets.tcgdex.net/fr/dp/dp3/29/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Merveilles Secrètes",
+    "series": "Diamant & Perle",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "29",
+    "set_total": 132,
+    "rarity": "Rare",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 76,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 130,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Double lancer",
+            "damage": null,
+            "effect": "Choisissez 2 des Pokémon de votre adversaire. Cette attaque leur inflige 30 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc)."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Pierre mégatonne",
+            "damage": 80,
+            "effect": "Vous pouvez infliger 40 dégâts au lieu de 80 au Pokémon Défenseur. Lors du prochain tour de votre adversaire, tous dégâts infligés à Grolem par des attaques sont alors réduits de 40 (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Gravalanch",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp3-29"
+        }
+    ],
+    "print_key": "tcgdex:dp3-29",
+    "card_key": "76|130|4|Naoyo Kimura|None,80|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

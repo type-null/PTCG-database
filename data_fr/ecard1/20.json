@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard1-20",
+    "name": "Mewtwo",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard1/20/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-cards",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "20",
+    "set_total": 165,
+    "rarity": "Holo Rare",
+    "author": [
+        "Kimiya Masago"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Hypnose",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Psyko",
+            "damage": "20+",
+            "effect": "Cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée au Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard1-20"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-20",
+    "card_key": "150|70|2|Kimiya Masago|None,20+|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

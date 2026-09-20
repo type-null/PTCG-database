@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-13",
+    "name": "Charkos",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "13",
+    "set_total": 133,
+    "rarity": "Holo Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 409,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 130,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Crâne de fer",
+            "effect": "Les dégâts de l'attaque de Charkos ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Fracass'Tête",
+            "damage": 80,
+            "effect": "Si le Pokémon Défenseur est mis K.O par cette attaque, Charkos s'inflige 40 dégâts."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Brise Moule",
+            "damage": 40,
+            "effect": "Tous dégâts infligés à Charkos par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance) jusqu'à la fin de votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "+30"
+    },
+    "retreat": 1,
+    "evolve_from": "Kranidos",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-13"
+        }
+    ],
+    "print_key": "tcgdex:pl1-13",
+    "card_key": "409|130|1|Masakazu Fukuda|80,40|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

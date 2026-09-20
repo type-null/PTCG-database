@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sv06-016",
+    "name": "Rillaboom",
+    "img": "https://assets.tcgdex.net/it/sv/sv06/016/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "H",
+    "set_name": "sv06",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv06/symbol",
+    "set_full_name": "Crepuscolo Mascherato",
+    "series": "Scarlatto e Violetto",
+    "set_code": "sv06",
+    "date": "2024-05-24",
+    "number": "016",
+    "set_total": 226,
+    "rarity": "Non comune",
+    "author": [
+        "toriyufu"
+    ],
+    "pokedex_number": 812,
+    "pokemon_category": "",
+    "stage": "Livello 2",
+    "hp": 180,
+    "types": [
+        "Erba"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Erba"
+            ],
+            "name": "Tamburattacco",
+            "damage": 60,
+            "effect": "Durante il prossimo turno del tuo avversario, il costo degli attacchi usati dal Pokémon difensore aumenta di {C} e il suo costo di ritirata aumenta di {C}."
+        },
+        {
+            "cost": [
+                "Erba",
+                "Erba"
+            ],
+            "name": "Mazzuolegno",
+            "damage": 180,
+            "effect": "Questo Pokémon infligge anche 50 danni a se stesso."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuoco"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Thwackey",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sv06-016"
+        }
+    ],
+    "print_key": "tcgdex:sv06-16",
+    "card_key": "812|180|4|toriyufu|60,180|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

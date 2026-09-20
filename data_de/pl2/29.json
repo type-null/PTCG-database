@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-29",
+    "name": "Nidoking",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "29",
+    "set_total": 120,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 34,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Revierverhalten",
+            "effect": "Wenn dein Aktives Pokémon durch einen gegnerischen Angriff Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 2 Schadensmarken auf das Angreifende Pokémon. Du kannst auf diese Weise nicht mehr als 2 Schadensmarken verteilen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wegschleudern",
+            "damage": 60,
+            "effect": "Wenn dein Gegner mindestens 1 Pokémon auf seiner Bank hat, beträgt der Grundschaden dieses Angriffs 30 Schadenspunkte anstelle von 60 Schadenspunkten und dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Gigahorn",
+            "damage": 100,
+            "effect": "Wirf 2 Münzen. Wenn beide „Zahl“ zeigen, hat dieser Angriff keine Auswirkungen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Nidorino",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-29"
+        }
+    ],
+    "print_key": "tcgdex:pl2-29",
+    "card_key": "34|130|2|Masakazu Fukuda|60,100|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

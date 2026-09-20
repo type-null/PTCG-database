@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/hgss1-10",
+    "name": "Raichu",
+    "img": "https://assets.tcgdex.net/fr/hgss/hgss1/10/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "hgss1",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss1/symbol",
+    "set_full_name": "HeartGold SoulSilver",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss1",
+    "date": "2010-02-10",
+    "number": "10",
+    "set_total": 124,
+    "rarity": "Holo Rare",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Queue de fer",
+            "damage": "30×",
+            "effect": "Lancez une pièce jusqu’à ce qu’elle tombe sur pile. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Tonnerre",
+            "damage": 100,
+            "effect": "Défaussez-vous de toutes les cartes Énergie attachées à Raichu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Pikachu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/hgss1-10"
+        }
+    ],
+    "print_key": "tcgdex:hgss1-10",
+    "card_key": "26|90|0|match|30x,100|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

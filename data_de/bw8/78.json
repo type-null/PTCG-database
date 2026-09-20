@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw8-78",
+    "name": "Lucario",
+    "img": "https://assets.tcgdex.net/de/bw/bw8/78/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw8",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw8/symbol",
+    "set_full_name": "Plasma-Sturm",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw8",
+    "date": "2013-02-06",
+    "number": "78",
+    "set_total": 138,
+    "rarity": "Selten",
+    "author": [
+        "Satoshi Shirai"
+    ],
+    "pokedex_number": 448,
+    "pokemon_category": "",
+    "flavor_text": "Kann aus einem Kilometer Entfernung die Gefühle anderer Wesen erfassen, indem es die Wellen liest, die sie aussenden.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Doppelte Rüstung",
+            "effect": "Wenn an dieses Pokémon bereits {M}-Energie angelegt ist, ist dieses Pokémon sowohl vom Typ {F} als auch {M}."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Orkantritt",
+            "damage": 60,
+            "effect": "Dieser Angriff fügt 30 weitere Schadenspunkte für jede Preiskarte zu, die dein Gegner bereits genommen hat."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Riolu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw8-78"
+        }
+    ],
+    "print_key": "tcgdex:bw8-78",
+    "card_key": "448|100|2|Satoshi Shirai|60|3",
+    "types_en": [
+        "Fighting"
+    ]
+}

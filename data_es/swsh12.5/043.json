@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swsh12.5-043",
+    "name": "Luxray",
+    "img": "https://assets.tcgdex.net/es/swsh/swsh12.5/043/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "E",
+    "set_name": "swsh12.5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12.5/symbol",
+    "set_full_name": "Cenit Supremo",
+    "series": "Espada y Escudo",
+    "set_code": "swsh12.5",
+    "date": "2023-01-20",
+    "number": "043",
+    "set_total": 160,
+    "rarity": "Rara",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 405,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 150,
+    "types": [
+        "Rayo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Rayo"
+            ],
+            "name": "Electropaso",
+            "damage": null,
+            "effect": "Este ataque hace 40 puntos de daño a 1 de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca). Cambia este Pokémon por 1 de tus Pokémon en Banca."
+        },
+        {
+            "cost": [
+                "Rayo",
+                "Incolora"
+            ],
+            "name": "Golpes en la Cicatriz",
+            "damage": "100+",
+            "effect": "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 100 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Luxio",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swsh12.5-043"
+        }
+    ],
+    "print_key": "tcgdex:swsh12.5-43",
+    "card_key": "405|150|1|sui|None,100+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

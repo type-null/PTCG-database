@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex2-95",
+    "name": "Galeking ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex2/95/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex2",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex2/symbol",
+    "set_full_name": "EX Tempête de sable",
+    "series": "EX",
+    "set_code": "ex2",
+    "date": "2003-09-18",
+    "number": "95",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 306,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 150,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Déchirer",
+            "damage": "30+",
+            "effect": "Si le Pokémon Défenseur possède des marqueurs de dégât, cette attaque inflige 60 dégâts."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Vague métallique",
+            "damage": 50,
+            "effect": "Inflige 20 dégâts à chacun des Pokémon du Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat",
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Plante"
+        ],
+        "value": "-30"
+    },
+    "retreat": 4,
+    "evolve_from": "Galegon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex2-95"
+        }
+    ],
+    "print_key": "tcgdex:ex2-95",
+    "card_key": "306|150|4|Hikaru Koike|30+,50|3,5",
+    "types_en": [
+        "Metal"
+    ]
+}

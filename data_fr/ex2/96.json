@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex2-96",
+    "name": "Gardevoir ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex2/96/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex2",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex2/symbol",
+    "set_full_name": "EX Tempête de sable",
+    "series": "EX",
+    "set_code": "ex2",
+    "date": "2003-09-18",
+    "number": "96",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 282,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 150,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Réaction",
+            "damage": null,
+            "effect": "Comptez le nombre de cartes dans la main de votre adversaire. Placez sur le Pokémon Défenseur autant de marqueurs de dégât qu'il y a de cartes."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tempête Psy",
+            "damage": "10×",
+            "effect": "Inflige 10 dégâts multipliés par le nombre de cartes Énergie attachées à tous les Pokémon en jeu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante",
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Kirlia",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex2-96"
+        }
+    ],
+    "print_key": "tcgdex:ex2-96",
+    "card_key": "282|150|2|Hikaru Koike|None,10x|2,4",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv03-145",
+    "name": "Archéodong",
+    "img": "https://assets.tcgdex.net/fr/sv/sv03/145/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv03",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03/symbol",
+    "set_full_name": "Flammes Obsidiennes",
+    "series": "Écarlate et Violet",
+    "set_code": "sv03",
+    "date": "2023-08-11",
+    "number": "145",
+    "set_total": 230,
+    "rarity": "Peu Commune",
+    "author": [
+        "Nobuhiro Imagawa"
+    ],
+    "pokedex_number": 437,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 140,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal"
+            ],
+            "name": "Pression Oracle",
+            "damage": 20,
+            "effect": "Pendant le prochain tour de votre adversaire, évitez tous les effets infligés à ce Pokémon provenant des attaques utilisées par les Pokémon de votre adversaire. (Les dégâts ne sont pas un effet.)"
+        },
+        {
+            "cost": [
+                "Métal",
+                "Métal"
+            ],
+            "name": "Extrasenseur",
+            "damage": "70+",
+            "effect": "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 90 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Plante"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Archéomire",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv03-145"
+        }
+    ],
+    "print_key": "tcgdex:sv03-145",
+    "card_key": "437|140|3|Nobuhiro Imagawa|20,70+|1,2",
+    "types_en": [
+        "Metal"
+    ]
+}

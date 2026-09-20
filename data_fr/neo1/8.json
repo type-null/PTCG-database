@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-8",
+    "name": "Hyporoi",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/8/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "8",
+    "set_total": 111,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 230,
+    "pokemon_category": "",
+    "flavor_text": "On prétend qu'il se cache dans des grottes sous-marines. Il peut créer des tourbillons rien que par son bâillement.",
+    "stage": "Niveau 2",
+    "hp": 90,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Hâte",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Hyporoi."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Eau",
+                "Eau"
+            ],
+            "name": "Tornade du dragon",
+            "damage": 50,
+            "effect": "Si cette attaque ne met pas K.O. le Pokémon Défenseur, et s'il y a des Pokémon sur le Banc de votre adversaire, choisissez l'un d'eux et échangez-le avec le Pokémon Défenseur"
+        }
+    ],
+    "retreat": 2,
+    "evolve_from": "Hypocéan",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-8"
+        }
+    ],
+    "print_key": "tcgdex:neo1-8",
+    "card_key": "230|90|2|Ken Sugimori|30,50|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

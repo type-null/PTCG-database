@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/me05-024",
+    "name": "Élecsprint",
+    "img": "https://assets.tcgdex.net/fr/me/me05/024/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "J",
+    "set_name": "me05",
+    "set_img": "https://assets.tcgdex.net/univ/me/me05/symbol",
+    "set_full_name": "Nuit Noire",
+    "series": "Méga-Évolution",
+    "set_code": "me05",
+    "date": "2026-07-17",
+    "number": "024",
+    "set_total": 120,
+    "rarity": "Peu Commune",
+    "author": [
+        "Uninori"
+    ],
+    "pokedex_number": 310,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Barrière Aveuglante",
+            "damage": 50,
+            "effect": "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon Évolutifs."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Tranchant Sonique",
+            "damage": 110,
+            "effect": "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Dynavolt",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/me05-024"
+        }
+    ],
+    "print_key": "tcgdex:me05-24",
+    "card_key": "310|120|1|Uninori|50,110|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

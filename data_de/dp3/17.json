@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp3-17",
+    "name": "Roserade",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Rätselhafte Wunder",
+    "series": "Diamant & Perl",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "17",
+    "set_total": 132,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 407,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Schlafgift",
+            "damage": 20,
+            "effect": "Das Verteidigende Pokémon schläft jetzt und ist vergiftet."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zauberblatt",
+            "damage": "40+",
+            "effect": "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu und entferne 3 Schadensmarken von Roserade."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp3-17"
+        }
+    ],
+    "print_key": "tcgdex:dp3-17",
+    "card_key": "407|90|1|Ken Sugimori|20,40+|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

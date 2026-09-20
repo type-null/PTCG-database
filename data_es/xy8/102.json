@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/xy8-102",
+    "name": "Floette",
+    "img": "https://assets.tcgdex.net/es/xy/xy8/102/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "xy8",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy8/symbol",
+    "set_full_name": "Turbo Impulso",
+    "series": "XY",
+    "set_code": "xy8",
+    "date": "2015-11-04",
+    "number": "102",
+    "set_total": 165,
+    "rarity": "Uncommon",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 670,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 70,
+    "types": [
+        "Hada"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Hada"
+            ],
+            "name": "Aromaterapia",
+            "damage": null,
+            "effect": "Cura 30 puntos de daño a cada uno de tus Pokémon."
+        },
+        {
+            "cost": [
+                "Hada",
+                "Hada"
+            ],
+            "name": "Hoja Mágica",
+            "damage": "20+",
+            "effect": "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más y cura 20 puntos de daño a este Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metálica"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Oscura"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Flabébé",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/xy8-102"
+        }
+    ],
+    "print_key": "tcgdex:xy8-102",
+    "card_key": "670|70|1|Midori Harada|None,20+|1,2",
+    "types_en": [
+        "Fairy"
+    ]
+}

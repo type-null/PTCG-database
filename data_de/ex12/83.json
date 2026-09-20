@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex12-83",
+    "name": "Arkani-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Legend Maker",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "83",
+    "set_total": 93,
+    "rarity": "Selten",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 59,
+    "pokemon_category": "",
+    "hp": 120,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "Feuriges Heilmittel",
+            "effect": "Immer wenn du eine {R}-Energiekarte von deiner Hand an Arkani ex anlegst, entferne 1 Schadensmarke und alle Speziellen Zustände von Arkani ex."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Überrennen",
+            "damage": 30,
+            "effect": "Dieser Angriff fügt 1 gegnerischen Pokémon auf der Bank 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Flammenwirbel",
+            "damage": 100,
+            "effect": "Lege 2 -Energie oder 1 Reaktions-Energiekarte, die an Arkani ex angelegt ist, auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Fukano",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex12-83"
+        }
+    ],
+    "print_key": "tcgdex:ex12-83",
+    "card_key": "59|120|2|Hikaru Koike|30,100|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

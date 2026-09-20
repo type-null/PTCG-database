@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex6-50",
+    "name": "Schillok",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex6",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex6/symbol",
+    "set_full_name": "EX Feuerrot & Blattgrün",
+    "series": "EX",
+    "set_code": "ex6",
+    "date": "2004-09-01",
+    "number": "50",
+    "set_total": 116,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 8,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Water Gun",
+            "damage": "20+",
+            "effect": "Does 20 damage plus 10 more damage for each  Energy attached to Wartortle but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Smash Turn",
+            "damage": 40,
+            "effect": "After your attack, you may switch Wartortle with 1 of your Benched Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex6-50"
+        }
+    ],
+    "print_key": "tcgdex:ex6-50",
+    "card_key": "8|80|2|Mitsuhiro Arita|20+,40|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

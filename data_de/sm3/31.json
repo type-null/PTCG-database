@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm3-31",
+    "name": "Seedraking",
+    "img": "https://assets.tcgdex.net/de/sm/sm3/31/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Nacht in Flammen",
+    "series": "Sonne & Mond",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "31",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 230,
+    "pokemon_category": "",
+    "flavor_text": "Man sagt, es hause in Unterwasserhöhlen. Es kann mächtige Strudel generieren, wenn es gähnt.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Lake",
+            "damage": null,
+            "effect": "Diese Attacke fügt 1 Pokémon deines Gegners, auf dem mindestens 1 Schadensmarke liegt, 90 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Tornadoschuss",
+            "damage": 90,
+            "effect": "Lege 1 {W}-Energie von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Seemon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm3-31"
+        }
+    ],
+    "print_key": "tcgdex:sm3-31",
+    "card_key": "230|140|1|Mitsuhiro Arita|None,90|1,1",
+    "types_en": [
+        "Water"
+    ]
+}

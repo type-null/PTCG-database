@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv03-086",
+    "name": "Psiana",
+    "img": "https://assets.tcgdex.net/de/sv/sv03/086/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv03",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03/symbol",
+    "set_full_name": "Obsidian Flammen",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv03",
+    "date": "2023-08-11",
+    "number": "086",
+    "set_total": 230,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Cona Nitanda"
+    ],
+    "pokedex_number": 196,
+    "pokemon_category": "",
+    "flavor_text": "Die Spitze seines geteilten Schweifs bebt, wenn es die nächste Attacke seines Feindes voraussagt.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Psycho-Ansturm",
+            "damage": "30+",
+            "effect": "Diese Attacke fügt für jede Schadensmarke auf dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Mentale Blockade",
+            "damage": 60,
+            "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv03-086"
+        }
+    ],
+    "print_key": "tcgdex:sv03-86",
+    "card_key": "196|110|1|Cona Nitanda|30+,60|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

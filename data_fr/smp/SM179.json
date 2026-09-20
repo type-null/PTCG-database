@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/smp-SM179",
+    "name": "Volcanion",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "Promo SM",
+    "series": "Soleil et Lune",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM179",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 721,
+    "pokemon_category": "",
+    "hp": 120,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Allume Flambée",
+            "damage": null,
+            "effect": "Cherchez une carte Énergie Fire dans votre deck et attachez-la à l’un de vos Pokémon. Si vous jouez en second et que c’est votre premier tour, cherchez jusqu’à 3 cartes Énergie Fire à la place et attachez-les à vos Pokémon, de la manière que vous voulez. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu"
+            ],
+            "name": "Explosion Haute Température",
+            "damage": "50+",
+            "effect": "Si vous avez au moins 4 Énergies Fire en jeu, cette attaque inflige 60 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/smp-SM179"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM179",
+    "card_key": "721|120|2|Hasuno|None,50+|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

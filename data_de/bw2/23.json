@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw2-23",
+    "name": "Sodachita",
+    "img": "https://assets.tcgdex.net/de/bw/bw2/23/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw2",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw2/symbol",
+    "set_full_name": "Aufstreben der Mächtigen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw2",
+    "date": "2011-08-31",
+    "number": "23",
+    "set_total": 98,
+    "rarity": "Selten",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 516,
+    "pokemon_category": "",
+    "flavor_text": "Speichert Wasser im Büschel auf seinem Kopf. Sinkt der Wasserstand, tankt es über seinen Schweif neue Flüssigkeit.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Pflanzenmacht",
+            "damage": 30,
+            "effect": "Wenn an dieses Pokémon bereits {G}-Energie angelegt ist, heile 20 Schadenspunkte bei diesem Pokémon."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Stromschnelle",
+            "damage": 60,
+            "effect": "Verschiebe 1 an das Verteidigende Pokémon angelegte Energie auf 1 Pokémon auf der Bank deines Gegners."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Sodamak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw2-23"
+        }
+    ],
+    "print_key": "tcgdex:bw2-23",
+    "card_key": "516|90|1|Sumiyoshi Kizuki|30,60|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

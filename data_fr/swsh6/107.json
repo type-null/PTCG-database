@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh6-107",
+    "name": "Brutapode",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh6/107/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "E",
+    "set_name": "swsh6",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh6/symbol",
+    "set_full_name": "Règne de Glace",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh6",
+    "date": "2021-06-18",
+    "number": "107",
+    "set_total": 233,
+    "rarity": "Rare",
+    "author": [
+        "Megumi Higuchi"
+    ],
+    "pokedex_number": 545,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 160,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité"
+            ],
+            "name": "Dard-Venin",
+            "damage": 50,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Choc Venin",
+            "damage": "100+",
+            "effect": "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 120 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Scobolide",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh6-107"
+        }
+    ],
+    "print_key": "tcgdex:swsh6-107",
+    "card_key": "545|160|3|Megumi Higuchi|50,100+|1,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

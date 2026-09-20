@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm7-87",
+    "name": "Tyranitar",
+    "img": "https://assets.tcgdex.net/es/sm/sm7/87/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "sm7",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm7/symbol",
+    "set_full_name": "Tormenta Celestial",
+    "series": "Sol y Luna",
+    "set_code": "sm7",
+    "date": "2018-08-03",
+    "number": "87",
+    "set_total": 183,
+    "rarity": "Rara",
+    "author": [
+        "Hironobu Yoshida"
+    ],
+    "pokedex_number": 248,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 170,
+    "types": [
+        "Oscura"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolora",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Atizar",
+            "damage": "60×",
+            "effect": "Lanza 2 monedas. Este ataque hace 60 puntos de daño por cada cara."
+        },
+        {
+            "cost": [
+                "Oscura",
+                "Oscura",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Aplastamiento",
+            "damage": 120,
+            "effect": "Por cada Pokémon en Banca (tanto tuyos como de tu rival), lanza 1 moneda. Si sale cara, este ataque hace 60 puntos de daño a ese Pokémon. El daño de este ataque no se ve afectado por Debilidad o Resistencia."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm7-87"
+        }
+    ],
+    "print_key": "tcgdex:sm7-87",
+    "card_key": "248|170|3|Hironobu Yoshida|60x,120|3,4",
+    "types_en": [
+        "Darkness"
+    ]
+}

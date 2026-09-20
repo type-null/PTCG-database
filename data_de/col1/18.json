@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/col1-18",
+    "name": "Pachirisu",
+    "img": "https://assets.tcgdex.net/de/col/col1/18/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "Ruf der Legenden",
+    "series": "Ruf der Legenden",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "18",
+    "set_total": 106,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Noriko Hotta"
+    ],
+    "pokedex_number": 417,
+    "pokemon_category": "",
+    "flavor_text": "Seine Backentaschen produzieren Elektrizität. Den so gesammelten Strom gibt es über den Schweif ab.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Eigengenerator",
+            "effect": "Einmal während deines Zuges kannst du, wenn du Pachirisu von deiner Hand auf deine Bank legst, bis zu 2 {L}-Energiekarten von deiner Hand an Pachirisu anlegen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Schockbolzen",
+            "damage": 50,
+            "effect": "Lege alle an Pachirisu angelegten Energiekarten ins Nirgendwo."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/col1-18"
+        }
+    ],
+    "print_key": "tcgdex:col1-18",
+    "card_key": "417|60|1|Noriko Hotta|50|2",
+    "types_en": [
+        "Lightning"
+    ]
+}

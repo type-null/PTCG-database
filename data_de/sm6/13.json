@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm6-13",
+    "name": "Heatran",
+    "img": "https://assets.tcgdex.net/de/sm/sm6/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm6",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm6/symbol",
+    "set_full_name": "Grauen Der Lichtfinsternis",
+    "series": "Sonne & Mond",
+    "set_code": "sm6",
+    "date": "2018-05-04",
+    "number": "13",
+    "set_total": 146,
+    "rarity": "Selten",
+    "author": [
+        "tetsuya koizumi"
+    ],
+    "pokedex_number": 485,
+    "pokemon_category": "",
+    "flavor_text": "Das Blut, das durch seinen Körper fließt, brodelt heiß wie Magma. Es lebt in vulkanischen Höhlen.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Schutzdruck",
+            "damage": 30,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Siedeschlag",
+            "damage": 130,
+            "effect": "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm6-13"
+        }
+    ],
+    "print_key": "tcgdex:sm6-13",
+    "card_key": "485|130|3|tetsuya koizumi|30,130|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

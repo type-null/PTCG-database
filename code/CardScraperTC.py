@@ -1,22 +1,56 @@
 """
-    Scrape card info from Traditional Chinese (Taiwan) website
+    Scrape card info from the Pokémon Asia websites
+
+    One site serves several locales from the same layout and the same card
+    ids, so one scraper covers Traditional Chinese and its sibling regions.
 
     Februray 25, 2025 by Weihang
 """
 
-import bs4
-import time
-import logging
+import re
 
+import paths
 from Card import Card
 from CardScraper import CardScraper
+from loguru import logger
+from tqdm import tqdm
 
-logger = logging.getLogger(__name__)
+#: Locale code on asia.pokemon-card.com -> folder suffix used under `data_`.
+LOCALES = {
+    "tw": "tc",  # Traditional Chinese (Taiwan)
+    "hk": "hk",  # Traditional Chinese (Hong Kong)
+    "th": "th",  # Thai
+    "id": "id",  # Indonesian
+    "sg": "sg",  # English (Singapore)
+    "my": "my",  # English (Malaysia)
+    "ph": "ph",  # English (Philippines)
+}
+
+#: Cards are listed 20 to a page.
+PAGE_SIZE = 20
+
+#: A promo symbol carries no set code, so the product name has to name the set.
+PROMO_SETS = {
+    "特典卡 朱&紫": "SV-P",
+    "特典卡 劍&盾": "S-P",
+    "特典卡 超級進化": "M-P",
+}
 
 
 class CardScraperTC(CardScraper):
+    def __init__(self, locale="tw", delay=None):
+        super().__init__(delay=delay)
+        if locale not in LOCALES:
+            raise ValueError(f"Unknown locale {locale!r}; expected one of {sorted(LOCALES)}")
+        self.locale = locale
+        self.lang = LOCALES[locale]
+        self._expansion_codes = None
+
     def get_url(self, card_id):
-        return f"https://asia.pokemon-card.com/tw/card-search/detail/{card_id}/"
+        return f"https://asia.pokemon-card.com/{self.locale}/card-search/detail/{card_id}/"
+
+    def get_list_url(self, page):
+        return f"https://asia.pokemon-card.com/{self.locale}/card-search/list/?pageNo={page}"
 
     def extract_energy(self, url):
         """
@@ -26,9 +60,95 @@ class CardScraperTC(CardScraper):
         return url.split(".png")[0].split("/")[-1]
 
     def format_set_name(self, s):
-        if s != -1 and len(s) >= 3 and not s[1].isdigit():
-            return s[:2].upper() + s[2:]
-        return str(s)
+        """Turn a set-symbol file name into the set code it stands for.
+
+        The symbol file names are inconsistent across eras, carrying image
+        suffixes (`@4x`), locale prefixes (`twhk_`), stray spaces and even
+        Japanese words, so everything that is not the code is stripped here.
+        """
+        name = str(s)
+        name = name.split("/")[-1].split("?")[0]
+        for suffix in (".png", ".jpg", ".gif", ".webp"):
+            if name.lower().endswith(suffix):
+                name = name[: -len(suffix)]
+        name = re.sub(r"@\d*x", "", name)
+        name = re.sub(r"[^\x00-\x7F]+", "", name)  # drop エキスパンションマーク & co.
+        for affix in (
+            "exp_twhk_",
+            "twhk_exp_",
+            "mark_expantion_",
+            "expansion_mark_",
+            "expantion_",
+            "twhk_",
+            "exp_",
+        ):
+            name = name.replace(affix, "")
+        name = re.sub(r"^(tw|hk|th|id|sg|my|ph)_", "", name, flags=re.IGNORECASE)
+        name = re.sub(r"^S_(?=S)", "", name)  # S_S5R_F_OL -> S5R_F_OL
+        name = re.sub(r"(_F)?(_OL)?$", "", name)  # S5R_F_OL -> S5R
+        name = re.sub(r"[_\-]?(exp|expansion|out)$", "", name, flags=re.IGNORECASE)
+        name = name.strip(" _-")
+        if not name:
+            return str(s)
+
+        # Keep a spelling already used on disk, so a clean name never churns.
+        # Compared by name rather than by path, because a case-insensitive
+        # file system would otherwise accept `svf` for the folder `SVF`.
+        folder = paths.data_dir(self.lang)
+        if folder.is_dir() and name in {entry.name for entry in folder.iterdir()}:
+            return name
+        official = self.canonical_set_code(name)
+        if official:
+            return official
+        if len(name) >= 3 and not name[1].isdigit():
+            name = name[:2].upper() + name[2:]
+        return name
+
+    def parse_collector(self, collector):
+        """Split "108/086" into the card number and the set total.
+
+        A card printed with two numbers reads "151/103,152/103", where the
+        first pair names it. A card with no numbered slot reads "n/a" and is
+        kept exactly as printed rather than split into nonsense.
+        """
+        parts = collector.split(" ")[0].split(",")[0].split("/")
+        if len(parts) == 2 and any(char.isdigit() for char in parts[1]):
+            return parts[0], parts[1]
+        # Some promos print the set code where the total belongs — "039/M-P".
+        # The first half still names the card, and keeping the pair whole would
+        # put a separator in the card's own file name.
+        if len(parts) == 2 and any(char.isdigit() for char in parts[0]):
+            return parts[0], -1
+        if len(parts) == 1:
+            return parts[0], -1
+        logger.debug(f"collector number kept as printed: {collector!r}")
+        return collector, -1
+
+    def expansion_codes(self):
+        """The set codes the site itself publishes, longest first."""
+        if self._expansion_codes is None:
+            codes = set()
+            soup = self.get_soup(self.get_list_url(1))
+            modal = soup.find("section", id="productSelectorModal") if soup else None
+            if modal:
+                for tag in modal.find_all("input"):
+                    value = tag.get("value", "")
+                    if value and not value.isdigit():
+                        codes.add(value)
+            self._expansion_codes = sorted(codes, key=len, reverse=True)
+            logger.info(f"Loaded {len(self._expansion_codes)} expansion codes")
+        return self._expansion_codes
+
+    def canonical_set_code(self, name):
+        """Match a cleaned symbol name to an official set code."""
+        lowered = name.lower()
+        for code in self.expansion_codes():
+            if lowered == code.lower():
+                return code
+        for code in self.expansion_codes():
+            if lowered.startswith(code.lower()):
+                return code
+        return None
 
     def get_name_stage(self, card, page):
         focus = page.find("h1", class_="pageHeader cardDetail")
@@ -69,6 +189,25 @@ class CardScraperTC(CardScraper):
         for skill in array:
             name = skill.find("span", class_="skillName").get_text(strip=True)
             skill_effect = skill.find("p", class_="skillEffect").get_text(strip=True)
+
+            # The site closes most cards with an empty skill block, and files a
+            # trainer rule in an unnamed one. A block with no name, no cost and
+            # no damage is never an attack: its text is a rule, or nothing.
+            if not name:
+                cost_tag = skill.find("span", class_="skillCost")
+                damage_tag = skill.find("span", class_="skillDamage")
+                has_cost = bool(cost_tag and (cost_tag.find_all("img") or cost_tag.get_text(strip=True)))
+                has_damage = bool(damage_tag and damage_tag.get_text(strip=True))
+                if not has_cost and not has_damage:
+                    stored = {getattr(card, "effect", None), getattr(card, "rule_box", None)}
+                    if skill_effect and skill_effect not in stored:
+                        if getattr(card, "rule_box", None):
+                            logger.info(f"Unnamed block holds a second rule: {skill_effect[:60]}")
+                        else:
+                            card.set_rule_box(skill_effect)
+                            logger.debug(f"rule box from an unnamed block: {card.rule_box}")
+                    continue
+
             if "[VSTAR力量]" in name:
                 vstar_skill = True
 
@@ -199,46 +338,21 @@ class CardScraperTC(CardScraper):
             collector = focus.find("span", class_="collectorNumber").get_text(
                 strip=True
             )
-            collector_series = collector.split(" ")[0].split("/")
-            logger.debug(collector_series)
-            if len(collector_series) == 2:
-                number, total = collector_series
-            elif len(collector_series) == 1:
-                number = collector_series[0]
-                total = -1
-            else:
-                logger.error(f"number/total can't identified: {collector_series}")
-                self.result_code = "Something wrong"
+            number, total = self.parse_collector(collector)
             card.set_collector(number, total)
             logger.debug(f"number: {card.number} out of {card.set_total}")
 
             set_img = focus.find("span", class_="expansionSymbol").find("img")["src"]
             set_name = set_img.split("mark/")[-1]
-            if "twhk_exp_" in set_name:
-                set_name = set_name.split("twhk_exp_")[-1].split(".png")[0]
-            elif "twhk_" in set_name:
-                set_name = set_name.split("twhk_")[-1].split("_")[0]
-            elif "SM_" in set_name:
-                set_name = (
-                    set_name.split("mark_")[-1]
-                    .split("expantion_")[-1]
-                    .split("OUT")[0]
-                    .split("Out")[0]
-                    .split("out")[0]
-                    .split(".png")[0]
-                )
-                set_name = set_name[:2].upper() + set_name[2:]
-                set_name = set_name.split("_")[0]
-            elif "mark_expantion_" in set_name:
-                set_name = set_name.split("mark_expantion_")[-1].split(".png")[0]
-            elif "PROMO" in set_name:
-                set_name = card.set_total
-            elif "@" in set_name:
-                set_name = set_name.split("@")[0]
-            else:
-                set_name = set_name.split("_")[0]
-            if isinstance(set_name, str):
-                set_name = set_name.split("_F")[0]
+            if "PROMO" in set_name:
+                # A promo symbol carries no code; the number does.
+                set_name = card.number.split("/")[0] if "/" in str(card.number) else "PROMO"
+                # A few promo pages state the printed "039/039" as the total. That
+                # is a number, not a set code, and using it as one both misfiles
+                # the card and puts a separator in its folder name, so it is left
+                # to the promo lookup below instead.
+                if str(card.set_total) not in ("-1", "None") and "/" not in str(card.set_total):
+                    set_name = str(card.set_total)
             card.set_set(self.format_set_name(set_name), set_img)
             logger.debug(f"set: {card.set_name}, {card.set_img}")
 
@@ -246,13 +360,17 @@ class CardScraperTC(CardScraper):
             card.set_mark(mark)
             logger.debug(f"regulation: {card.regulation}")
 
-            card.set_out_id(card.set_name + "-" + card.number)
+            card.set_out_id(card.set_name + "-" + str(card.number))
 
         expansion = page.find("section", class_="expansionLinkColumn")
         if expansion:
             set_full_name = expansion.find("a").get_text(strip=True)
             card.set_set_full_name(set_full_name)
             logger.debug(f"set full name: {card.set_full_name}")
+            if card.set_name == "PROMO" and set_full_name in PROMO_SETS:
+                card.set_set(PROMO_SETS[set_full_name], card.set_img)
+                card.set_out_id(card.set_name + "-" + str(card.number))
+                logger.debug(f"promo set resolved to {card.set_name}")
 
     def get_author(self, card, page):
         focus = page.find("div", class_="illustrator")
@@ -312,7 +430,7 @@ class CardScraperTC(CardScraper):
 
             # height, weight, flavor
             size = focus.find("p", class_="size")
-            if size.find("span"):
+            if size and size.find("span"):
                 height, weight = size.find_all("span", class_="value")
                 card.set_ht_wt(height.get_text(strip=True), weight.get_text(strip=True))
                 logger.debug(f"height: {card.height}, weight: {card.weight}")
@@ -325,20 +443,20 @@ class CardScraperTC(CardScraper):
     def read_card(self, web_id):
         self.result_code = "Successfully scraped"
         card = Card()
-        card.set_lang("tc")
+        card.set_lang(self.lang)
 
         card.set_url(self.get_url(web_id))
         logger.debug(f"url: {card.url}")
 
-        content = self.get_content(card.url)
-        soup = bs4.BeautifulSoup(content, "html.parser")
+        soup = self.get_soup(card.url)
+        if soup is None:
+            logger.error(f"Card id {web_id} could not be fetched")
+            return "Page not found"
 
         card_page = soup.find("div", class_="wrapper")
-        if (
-            card_page.find("h1", class_="pageHeader").get_text(strip=True)
-            == "卡牌搜尋結果"
-        ):
-            logger.error(f"Card id {web_id} not found!")
+        header = card_page.find("h1", class_="pageHeader") if card_page else None
+        if header is None or header.get_text(strip=True) == "卡牌搜尋結果":
+            logger.debug(f"Card id {web_id} not found!")
             self.result_code = "Page not found"
         else:
             self.get_name_stage(card, card_page)
@@ -355,54 +473,95 @@ class CardScraperTC(CardScraper):
         del card
         return self.result_code
 
-    def update(self, explore_range=10):
+    # ------------------------------------------------------------------
+    # Updating
+    # ------------------------------------------------------------------
+
+    def known_ids(self):
+        """Card ids already saved for this locale, read from the stored urls."""
+        ids = set()
+        for path in paths.data_dir(self.lang).glob("*/*.json"):
+            match = re.search(r"/detail/(\d+)", path.read_text(encoding="utf-8")[:300])
+            if match:
+                ids.add(int(match.group(1)))
+        return ids
+
+    def list_site_ids(self):
+        """Every card id the site lists, newest first.
+
+        The ids are not consecutive — whole blocks are unused — so the card
+        list is walked instead of guessing the next id, which used to stop
+        dead at the first gap wider than the look-ahead.
         """
-        Download the newest cards
+        ids = []
+        failed = []
+        page = 1
+        total_pages = None
+        while total_pages is None or page <= total_pages:
+            soup = self.get_soup(self.get_list_url(page))
+            if soup is None:
+                if total_pages is None:
+                    logger.error("Could not open the card list at all")
+                    break
+                # One unreadable page must not hide the pages behind it.
+                logger.error(f"Card list page {page} unavailable; carrying on")
+                failed.append(page)
+                page += 1
+                continue
+            if total_pages is None:
+                total = soup.find("p", class_="resultNumber")
+                count = int(total.get_text(strip=True)) if total else 0
+                total_pages = max(1, -(-count // PAGE_SIZE))
+                logger.info(f"Site lists {count} cards over {total_pages} pages ({self.locale}).")
+            found = [
+                int(match)
+                for match in re.findall(
+                    rf"/{self.locale}/card-search/detail/(\d+)/", str(soup)
+                )
+            ]
+            if not found:
+                logger.warning(f"Card list page {page} held no card")
+            ids += found
+            page += 1
+        if failed:
+            logger.warning(f"{len(failed)} list pages could not be read: {failed[:10]}")
+        return ids
 
-        """
-        logger.info("===== Updating started (tc) =====")
+    def update(self, limit=None):
+        """Download every card the site lists that is not on disk yet."""
+        logger.info(f"===== Updating started ({self.lang}) =====")
 
-        downloaded_list = self.get_downloaded_id_list(lang="tc")
-        last_downloaded = max(downloaded_list) if downloaded_list else 1
-        logger.info(f"Last downloaded card is {last_downloaded}.")
+        site_ids = set(self.list_site_ids())
+        if not site_ids:
+            logger.error("Could not list any card; aborting update.")
+            return
 
-        card_id = last_downloaded + 1
+        known = self.known_ids()
+        if self.lang == "tc":
+            known |= self.get_downloaded_id_list(lang="tc")
+        missing = sorted(site_ids - known)
+        logger.info(f"{len(site_ids)} cards listed, {len(known)} already stored, {len(missing)} to download.")
+        if limit:
+            missing = missing[:limit]
+
         scraped_list, question_list, missing_list = [], [], []
-        max_explore = last_downloaded + explore_range
-
-        while card_id <= max_explore:
-            code = self.read_card(card_id)
+        for card_id in tqdm(missing, desc=f"Downloading {self.lang}", disable=None):
+            code = self.read_card_safely(card_id, default="Something wrong")
             if code == "Successfully scraped":
                 scraped_list.append(card_id)
-                max_explore = card_id + explore_range
             elif code == "Something wrong":
+                # The card was not written: something in its page or its saving
+                # failed. Recording it as scraped would hide it from every later
+                # run, so it is only ever queried, and the next run tries again.
                 question_list.append(card_id)
             elif code == "Page not found":
                 missing_list.append(card_id)
             else:
                 logger.error(f"Card {card_id} has unseen result code: {code}")
-                self.result_code = "Something wrong"
 
-            if card_id % 200 == 0:
-
-                self.save_list_to_file(scraped_list, "logs/scraped_tc_id_list.txt")
-                self.save_list_to_file(question_list, "logs/question_tc_id_list.txt")
-                self.save_list_to_file(missing_list, "logs/missing_tc_id_list.txt")
-                if scraped_list:
-                    self.upadte_readme(max(scraped_list), lang="tc")
-                logger.info(
-                    f"Searched {card_id - last_downloaded} cards; checked up to card {card_id}."
-                )
-
-                time.sleep(10)
-
-            card_id += 1
-
-        # self.save_list_to_file(scraped_list, "logs/scraped_tc_id_list.txt")
-        # self.save_list_to_file(question_list, "logs/question_tc_id_list.txt")
-        # self.save_list_to_file(missing_list, "logs/missing_tc_id_list.txt")
-        # if scraped_list:
-        #     self.upadte_readme(max(scraped_list), lang="tc")
-        # logger.info(
-        #     f"Searched {card_id - last_downloaded} cards; checked up to card {card_id}."
-        # )
+        self.save_list_to_file(scraped_list, f"scraped_{self.lang}_id_list.txt")
+        self.save_list_to_file(question_list, f"question_{self.lang}_id_list.txt")
+        self.save_list_to_file(missing_list, f"missing_{self.lang}_id_list.txt")
+        if scraped_list:
+            self.update_readme(max(scraped_list), lang=self.lang)
+        logger.info(f"Downloaded {len(scraped_list)} cards; {len(missing_list)} had no page.")

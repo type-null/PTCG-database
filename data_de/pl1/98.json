@@ -1,0 +1,61 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-98",
+    "name": "Tauros",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "98",
+    "set_total": 133,
+    "rarity": "Häufig",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 128,
+    "pokemon_category": "",
+    "flavor_text": "Sobald es einen Gegner ins Visier genommen hat, rennt es mit dem Kopf voran auf ihn zu.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Vorzeigen",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+        },
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Bodycheck",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Bei „Zahl“ fügt Tauros sich selbst 10 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+10"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-98"
+        }
+    ],
+    "print_key": "tcgdex:pl1-98",
+    "card_key": "128|70|1|Mitsuhiro Arita|None,20|0,1",
+    "types_en": [
+        "Colorless"
+    ]
+}

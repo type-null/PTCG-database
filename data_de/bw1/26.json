@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw1-26",
+    "name": "Reshiram",
+    "img": "https://assets.tcgdex.net/de/bw/bw1/26/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw1",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw1/symbol",
+    "set_full_name": "Schwarz & Weiß",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw1",
+    "date": "2011-04-25",
+    "number": "26",
+    "set_total": 115,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 643,
+    "pokemon_category": "",
+    "flavor_text": "Ein aus Mythen bekanntes Pokémon. Es wirbelt mit seinem Schweif Feuer auf, mit dem es alles in Asche legt.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wutanfall",
+            "damage": 20,
+            "effect": "Dieser Angriff fügt 10 weitere Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Blauflammen",
+            "damage": 120,
+            "effect": "Lege 2 an dieses Pokémon angelegte {R}-Energien auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw1-26"
+        }
+    ],
+    "print_key": "tcgdex:bw1-26",
+    "card_key": "643|130|2|5ban Graphics|20,120|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

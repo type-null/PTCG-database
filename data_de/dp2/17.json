@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp2-17",
+    "name": "Despotar",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Geheimnisvolle Schätze",
+    "series": "Diamant & Perl",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "17",
+    "set_total": 124,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 248,
+    "pokemon_category": "",
+    "flavor_text": "Bei einem Tobsuchtsanfall zerstört es ganze Gebirge und legt Flüsse trocken.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Gegenstoß",
+            "damage": "40+",
+            "effect": "Wenn dein Gegner nur noch 1 Preis übrig hat, fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu und dein Gegner legt die obersten 3 Karten seines Decks auf seinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Unlicht",
+                "Unlicht"
+            ],
+            "name": "Bodenbrand",
+            "damage": "80+",
+            "effect": "Jeder Spieler legt die oberste Karte seines Decks auf seinen Ablagestapel. Dieser Angriff fügt 80 Schadenspunkte plus 20 weitere Schadenspunkte für jede Energiekarte, die auf diese Weise auf den Ablagestapel gelegt wurde, zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Pupitar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp2-17"
+        }
+    ],
+    "print_key": "tcgdex:dp2-17",
+    "card_key": "248|140|4|Masakazu Fukuda|40+,80+|2,4",
+    "types_en": [
+        "Darkness"
+    ]
+}

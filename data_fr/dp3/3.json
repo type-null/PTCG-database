@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp3-3",
+    "name": "Dracaufeu",
+    "img": "https://assets.tcgdex.net/fr/dp/dp3/3/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Merveilles Secrètes",
+    "series": "Diamant & Perle",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "3",
+    "set_total": 132,
+    "rarity": "Rare Holo",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 130,
+    "types": [
+        "Feu"
+    ],
+    "abilities": [
+        {
+            "name": "Flammes frénétiques",
+            "effect": "Si votre adversaire possède moins de 3 cartes Récompense, chacune des attaques de Dracaufeu inflige 50 dégâts supplémentaires aux Pokémon Actifs (avant application de la Faiblesse et de la Résistance.)"
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Rafale feu",
+            "damage": 120,
+            "effect": "Lancez une pièce. Si c'est face, défaussez 2 cartes Énergie attachées à Dracaufeu. Si c'est pile, défaussez 4 cartes Énergie attachées à Dracaufeu. (Si vous ne pouvez pas, cette attaque est sans effet)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+40"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Reptincel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp3-3"
+        }
+    ],
+    "print_key": "tcgdex:dp3-3",
+    "card_key": "6|130|3|Daisuke Ito|120|4",
+    "types_en": [
+        "Fire"
+    ]
+}

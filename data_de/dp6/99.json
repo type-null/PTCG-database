@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp6-99",
+    "name": "Nockchan",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Erwachte Legenden",
+    "series": "Diamant & Perl",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "99",
+    "set_total": 146,
+    "rarity": "Häufig",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 107,
+    "pokemon_category": "",
+    "flavor_text": "Die Schläge, die es austeilt, können Beton pulverisieren. Es muss sich im Kampf alle 3 Minuten ausruhen.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Konterhieb",
+            "damage": null,
+            "effect": "Wenn Nockchan im nächsten Zug deines Gegners durch einen gegnerischen Angriff Schaden erhält (auch wenn Nockchan dadurch kampfunfähig wird), lege 4 Schadensmarken auf das Angreifende Pokémon."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Magenschlag",
+            "damage": 30,
+            "effect": "Wenn Rabauz sich an beliebiger Stelle unter Nockchan befindet, beträgt der Grundschaden dieses Angriffs 60 Schadenspunkte."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp6-99"
+        }
+    ],
+    "print_key": "tcgdex:dp6-99",
+    "card_key": "107|70|1|Ken Sugimori|None,30|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

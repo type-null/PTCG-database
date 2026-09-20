@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm5-44",
+    "name": "Elevoltek",
+    "img": "https://assets.tcgdex.net/de/sm/sm5/44/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultra-Prisma",
+    "series": "Sonne & Mond",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "44",
+    "set_total": 173,
+    "rarity": "Selten",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 466,
+    "pokemon_category": "",
+    "flavor_text": "Wenn es sich aufregt, schlägt es sich kräftig auf die Brust. Bei jedem Schlag sprühen Funken und es ertönt ein Donnern.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Stahlschock",
+            "damage": 60,
+            "effect": "Wenn das Aktive Pokémon deines Gegners ein {M}-Pokémon ist, ist es jetzt paralysiert."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Voltfaust",
+            "damage": 130,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Elektek",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm5-44"
+        }
+    ],
+    "print_key": "tcgdex:sm5-44",
+    "card_key": "466|140|4|Anesaki Dynamic|60,130|3,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

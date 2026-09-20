@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-102",
+    "name": "Vulpix",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "102",
+    "set_total": 133,
+    "rarity": "Häufig",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 37,
+    "pokemon_category": "",
+    "flavor_text": "Es beherrscht Feuerbälle. Während es wächst, teilen sich seine sechs Schweife, um weitere zu bilden.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Wiedererwärmen",
+            "damage": null,
+            "effect": "Lege bis zu 2 Energiekarten von deiner Hand auf deinen Ablagestapel. Ziehe für jede auf diese Weise auf den Ablagestapel gelegte Karte 2 Karten."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Konfustrahl",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+10"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-102"
+        }
+    ],
+    "print_key": "tcgdex:pl1-102",
+    "card_key": "37|50|1|Mitsuhiro Arita|None,20|0,2",
+    "types_en": [
+        "Fire"
+    ]
+}

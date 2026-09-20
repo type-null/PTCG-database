@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-99",
+    "name": "Rapion",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "99",
+    "set_total": 130,
+    "rarity": "Commune",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 451,
+    "pokemon_category": "",
+    "flavor_text": "Il saisit sa proie avec les pinces de sa queue, lui injecte un poison et la retient jusqu'à ce qu'il agisse.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Dard-venin",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Dard-nuée",
+            "damage": "10x",
+            "effect": "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+10"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-99"
+        }
+    ],
+    "print_key": "tcgdex:dp1-99",
+    "card_key": "451|60|2|Kouki Saitou|None,10x|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

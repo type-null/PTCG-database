@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm11-75",
+    "name": "Alola-Knogga",
+    "img": "https://assets.tcgdex.net/de/sm/sm11/75/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Bund der Gleichgesinnten",
+    "series": "Sonne & Mond",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "75",
+    "set_total": 258,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 105,
+    "pokemon_category": "",
+    "flavor_text": "Die vielfältige Flora der Alola-Region ist ein gefährliches Terrain für Knogga. Alola-Knogga kämpfen deshalb mit Feuer, um zu überleben.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Seelenhieb",
+            "damage": null,
+            "effect": "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel. Wenn die abgelegte Karte ein Pokémon ist, fügt diese Attacke dem Aktiven Pokémon deines Gegners Schaden in Höhe der KP des abgelegten Pokémon zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Knochenprügel",
+            "damage": 60,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Tragosso",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm11-75"
+        }
+    ],
+    "print_key": "tcgdex:sm11-75",
+    "card_key": "105|120|2|Masakazu Fukuda|None,60|0,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

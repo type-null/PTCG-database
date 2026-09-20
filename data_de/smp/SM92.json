@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/smp-SM92",
+    "name": "Kapu-Kime",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SM Promokarten",
+    "series": "Sonne & Mond",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM92",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "Sanosuke Sakuma"
+    ],
+    "pokedex_number": 788,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Aquawelle",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners schläft jetzt."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schimmernde Gezeiten",
+            "damage": "60+",
+            "effect": "Wenn mindestens 1 deiner Water Pokémon während dieses Zuges geheilt wurde, fügt diese Attacke 60 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/smp-SM92"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM92",
+    "card_key": "788|120|2|Sanosuke Sakuma|30,60+|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

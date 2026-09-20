@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-10",
+    "name": "Gengar",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "10",
+    "set_total": 182,
+    "rarity": "Selten",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 94,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Manipulieren",
+            "effect": "Wenn du Gengar aus deiner Hand spielst, um dein aktives Pokémon zu entwickeln, kannst du ein Basis-Pokémon (aber kein Baby-Pokémon) aus deinem Ablagestapel nehmen und auf deine Bank legen. Wirf dann 3 Münzen. Wähle für jeden geworfenen 'Kopf' eine Basis-Energiekarte aus deinem Ablagestapel und lege sie an dieses Pokémon an."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Hydrokinese",
+            "damage": 40,
+            "effect": "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt verbrannt. Bei 'Zahl' ist das verteidigende Pokémon jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-10"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-10",
+    "card_key": "94|100|2|Kyoko Umemoto|40|4",
+    "types_en": [
+        "Psychic"
+    ]
+}

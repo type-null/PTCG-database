@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard1-61",
+    "name": "Raichu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-Card",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "61",
+    "set_total": 165,
+    "rarity": "Selten",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Plasma",
+            "damage": 10,
+            "effect": "Wenn mindestens eine {L}-Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei „Kopf“ 1 davon an Raichu an."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Schock-Blitz",
+            "damage": 60,
+            "effect": "Lege alle an Raichu angelegten {L}-Energiekarten auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard1-61"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-61",
+    "card_key": "26|80|1|Atsuko Nishida|10,60|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

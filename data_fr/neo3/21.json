@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo3-21",
+    "name": "Raichu",
+    "img": "https://assets.tcgdex.net/fr/neo/neo3/21/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "21",
+    "set_total": 66,
+    "rarity": "Rare",
+    "author": [
+        "Masako Yamashita"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "flavor_text": "Si les poches électriques de ses joues sont complètement chargées, ses deux oreilles se dressent sur sa tête.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Éclair",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Frap'éclair",
+            "damage": 40,
+            "effect": "Vous pouvez défausser toutes les cartes Énergie  attachées à Raichu. Si vous le faites, cette attaque inflige 80 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo3-21"
+        }
+    ],
+    "print_key": "tcgdex:neo3-21",
+    "card_key": "26|80|1|Masako Yamashita|20,40|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

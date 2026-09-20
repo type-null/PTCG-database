@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy5-61",
+    "name": "Voltenso",
+    "img": "https://assets.tcgdex.net/de/xy/xy5/61/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Protoshock",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "61",
+    "set_total": 164,
+    "rarity": "Selten",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 310,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Blitzartige Drehung",
+            "damage": 30,
+            "effect": "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Elektroschock",
+            "damage": 70,
+            "effect": "Lege alle an dieses Pokémon angelegten Lightning-Energien auf deinen Ablagestapel. Das Aktive Pokémon deines Gegners ist jetzt paralysiert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Frizelbliz",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy5-61"
+        }
+    ],
+    "print_key": "tcgdex:xy5-61",
+    "card_key": "310|100|1|Naoki Saito|30,70|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

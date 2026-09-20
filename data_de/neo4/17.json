@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo4-17",
+    "name": "Dunkles Ariados",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "17",
+    "set_total": 113,
+    "rarity": "Selten",
+    "author": [
+        "Toshinao Aoki"
+    ],
+    "pokedex_number": 168,
+    "pokemon_category": "",
+    "flavor_text": "Wo auch immer es hingeht, spinnt es einen Faden, der zurück zu seinem Nest führt.",
+    "stage": "Rang 1",
+    "hp": 60,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Falle stellen",
+            "damage": null,
+            "effect": "Falls dein Gegner mindestens ein Pokémon auf der Bank hat, wähle eines von diesen und tausche es mit dem verteidigenden Pokémon aus. Wirf dann eine Münze. Bei „Kopf“ ist das neue verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Giftfesselung",
+            "damage": 30,
+            "effect": "Das verteidigende Pokémon ist jetzt vergiftet. Wirf eine Münze. Bei „Kopf“ kann sich das verteidigende Pokémon bis zum Ende des nächsten Zuges deines Gegners nicht zurückziehen, und wenn der Effekt eines Angriffs, einer Pokémon-Power oder Trainerkarte das aktive Pokémon dieses Spielers ändern würde, hat dieser Teil des Effekts dann keine Wirkung."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Webarak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo4-17"
+        }
+    ],
+    "print_key": "tcgdex:neo4-17",
+    "card_key": "168|60|2|Toshinao Aoki|None,30|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

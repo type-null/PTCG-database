@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-48",
+    "name": "Ténéfix",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "48",
+    "set_total": 106,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 302,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Obscurité"
+    ],
+    "abilities": [
+        {
+            "name": "Enthousiaste",
+            "effect": "Si Ténéfix est votre Pokémon Actif au début de la partie, vous commencez. (Si le Pokémon Actif de chaque joueur possède le Poké-Body Enthousiaste, ce pouvoir est sans effet.)"
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Personnifier",
+            "damage": null,
+            "effect": "Choisissez dans votre deck une carte Supporter et défaussez-la. Ensuite, mélangez votre deck. Puis, utilisez l'effet de cette carte comme l'effet de cette attaque."
+        },
+        {
+            "cost": [
+                "Obscurité"
+            ],
+            "name": "Plein de zèle",
+            "damage": 10,
+            "effect": "Si le Pokémon Défenseur possède moins de PV que Ténéfix, les dégâts de base de cette attaque sont de 40."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Ténéfix",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-48"
+        }
+    ],
+    "print_key": "tcgdex:dp7-48",
+    "card_key": "302|60|1|Kyoko Umemoto|None,10|0,1",
+    "types_en": [
+        "Darkness"
+    ]
+}

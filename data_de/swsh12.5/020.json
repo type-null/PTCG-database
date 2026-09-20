@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh12.5-020",
+    "name": "Strahlendes Glurak",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh12.5/020/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh12.5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12.5/symbol",
+    "set_full_name": "Zenit der Könige",
+    "series": "Schwert & Schild",
+    "set_code": "swsh12.5",
+    "date": "2023-01-20",
+    "number": "020",
+    "set_total": 160,
+    "rarity": "Selten, Strahlend",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon kann mit seinem Feueratem Felsen schmelzen. Es verursacht ab und zu Waldbrände.",
+    "stage": "Basis",
+    "hp": 160,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "Herzrasen",
+            "effect": "Die Kosten der Attacken dieses Pokémon verringern sich für jede von deinem Gegner genommene Preiskarte um {C}."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Brandbombe",
+            "damage": 250,
+            "effect": "Während deines nächsten Zuges kann dieses Pokémon Brandbombe nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh12.5-020"
+        }
+    ],
+    "print_key": "tcgdex:swsh12.5-20",
+    "card_key": "6|160|3|Kouki Saitou|250|5",
+    "types_en": [
+        "Fire"
+    ]
+}

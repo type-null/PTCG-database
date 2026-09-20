@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-19",
+    "name": "Charmillon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "19",
+    "set_total": 130,
+    "rarity": "Rare",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 267,
+    "pokemon_category": "",
+    "flavor_text": "Il est très agressif. Il pique sa proie avec son long museau étroit et absorbe sa vitalité.",
+    "stage": "Niveau 2",
+    "hp": 100,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Cyclone",
+            "damage": 30,
+            "effect": "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Giga-sangsue",
+            "damage": 50,
+            "effect": "Après votre attaque, retirez à Charmillon autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Armulys",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-19"
+        }
+    ],
+    "print_key": "tcgdex:dp1-19",
+    "card_key": "267|100|1|Atsuko Nishida|30,50|2,4",
+    "types_en": [
+        "Grass"
+    ]
+}

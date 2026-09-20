@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swsh1-1",
+    "name": "Celebi V",
+    "img": "https://assets.tcgdex.net/es/swsh/swsh1/1/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "tags": [
+        "V"
+    ],
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Espada y Escudo",
+    "series": "Espada y Escudo",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "1",
+    "set_total": 216,
+    "rarity": "Holo Rara V",
+    "author": [
+        "PLANETA Igarashi"
+    ],
+    "pokedex_number": 251,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 180,
+    "types": [
+        "Planta"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Planta"
+            ],
+            "name": "Encontrar un Amigo",
+            "damage": null,
+            "effect": "Busca en tu baraja hasta 2 Pokémon, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja."
+        },
+        {
+            "cost": [
+                "Planta",
+                "Incolora"
+            ],
+            "name": "Fuerza Lineal",
+            "damage": "50+",
+            "effect": "Este ataque hace 20 puntos de daño más por cada uno de tus Pokémon en Banca."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swsh1-1"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-1",
+    "card_key": "251|180|1|PLANETA Igarashi|None,50+|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

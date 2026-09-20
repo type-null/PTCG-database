@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm1-34",
+    "name": "Crustabri",
+    "img": "https://assets.tcgdex.net/fr/sm/sm1/34/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Soleil et Lune",
+    "series": "Soleil et Lune",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "34",
+    "set_total": 163,
+    "rarity": "Rare",
+    "author": [
+        "Yoshinobu Saito"
+    ],
+    "pokedex_number": 91,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Prise de Tête",
+            "damage": "30+",
+            "effect": "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires. Si c’est pile, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Pression de Garde",
+            "damage": 80,
+            "effect": "Pendant le prochain tour de votre adversaire, ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Kokiyas",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm1-34"
+        }
+    ],
+    "print_key": "tcgdex:sm1-34",
+    "card_key": "91|120|3|Yoshinobu Saito|30+,80|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

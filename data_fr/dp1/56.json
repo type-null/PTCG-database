@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-56",
+    "name": "Chimpenfeu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "56",
+    "set_total": 130,
+    "rarity": "Peu Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 391,
+    "pokemon_category": "",
+    "flavor_text": "Pour intimider ses agresseurs, il gonfle les flammes de sa queue pour paraître plus grand.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Danse enflammée",
+            "damage": 30,
+            "effect": "Chercher dans votre pile de défausse une carte Énergie Fire et attachez-la à Chimpenfeu."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Combo-griffe",
+            "damage": "20x",
+            "effect": "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+20"
+    },
+    "evolve_from": "Ouisticram",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-56"
+        }
+    ],
+    "print_key": "tcgdex:dp1-56",
+    "card_key": "391|70|None|Ken Sugimori|30,20x|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

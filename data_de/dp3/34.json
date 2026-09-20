@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp3-34",
+    "name": "Nidoking",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Rätselhafte Wunder",
+    "series": "Diamant & Perl",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "34",
+    "set_total": 132,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 34,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Rubbelgift",
+            "damage": 20,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet. Bevor der Schaden zugefügt wird, kannst du 1 Verteidigendes Pokémon gegen ein Pokémon auf der Bank deines Gegners austauschen. Das neue Verteidigende Pokémon ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Rudelangriff",
+            "damage": "60+",
+            "effect": "Wirf für jedes Nidoqueen auf deiner Bank 1 Münze. Dieser Angriff fügt 60 Schadenspunkte plus 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp3-34"
+        }
+    ],
+    "print_key": "tcgdex:dp3-34",
+    "card_key": "34|130|2|Kouki Saitou|20,60+|2,4",
+    "types_en": [
+        "Psychic"
+    ]
+}

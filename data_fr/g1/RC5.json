@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/g1-RC5",
+    "name": "Dracaufeu",
+    "img": "https://assets.tcgdex.net/fr/xy/g1/RC5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Générations",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "RC5",
+    "set_total": 117,
+    "rarity": "Peu Commune",
+    "author": [
+        "Akira Komayama"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 160,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Récupération",
+            "damage": null,
+            "effect": "Choisissez l'une des attaques de pré-évolutions de ce Pokémon et utilisez-la en tant que cette attaque."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Explo-Combustion",
+            "damage": 130,
+            "effect": "Ce Pokémon ne peut pas utiliser Explo-Combustion pendant votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Reptincel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/g1-RC5"
+        }
+    ],
+    "print_key": "tcgdex:g1-RC5",
+    "card_key": "6|160|3|Akira Komayama|None,130|1,4",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex16-32",
+    "name": "Stollrak",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex16",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex16/symbol",
+    "set_full_name": "EX Power Keepers",
+    "series": "EX",
+    "set_code": "ex16",
+    "date": "2007-02-17",
+    "number": "32",
+    "set_total": 108,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Sachiko Adachi"
+    ],
+    "pokedex_number": 305,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Granitkopf",
+            "damage": 20,
+            "effect": "Im nächsten Zug deines Gegners wird Schaden, der Stollrak durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Stampfer",
+            "damage": "30+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Stollunior",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex16-32"
+        }
+    ],
+    "print_key": "tcgdex:ex16-32",
+    "card_key": "305|70|2|Sachiko Adachi|20,30+|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

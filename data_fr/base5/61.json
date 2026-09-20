@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base5-61",
+    "name": "Férosinge",
+    "img": "https://assets.tcgdex.net/fr/base/base5/61/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Base",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "61",
+    "set_total": 83,
+    "rarity": "Commune",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 56,
+    "pokemon_category": "",
+    "flavor_text": "De nature amicale, il se met très vite en colère s'il n'obtient pas ce qu'il veut.",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Éspièglerie",
+            "damage": null,
+            "effect": "Mélangez le deck de votre adversaire."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Combat"
+            ],
+            "name": "Colère",
+            "damage": "20+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 20 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base5-61"
+        }
+    ],
+    "print_key": "tcgdex:base5-61",
+    "card_key": "56|40|None|Sumiyoshi Kizuki|None,20+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

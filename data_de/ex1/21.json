@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex1-21",
+    "name": "Golking",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex1",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex1/symbol",
+    "set_full_name": "EX Rubin & Saphir",
+    "series": "EX",
+    "set_code": "ex1",
+    "date": "2003-07-01",
+    "number": "21",
+    "set_total": 109,
+    "rarity": "Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 119,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Wasserpfeil",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Reißender Strom",
+            "damage": 30,
+            "effect": "Nimm 1 Energiekarte von dem Verteidigenden Pokémon und lege sie an das andere Verteidigende Pokémon an. (Dieser Effekt hat keine Auswirkung, wenn der Gegner nur 1 Verteidigendes Pokémon hat.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Goldini",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex1-21"
+        }
+    ],
+    "print_key": "tcgdex:ex1-21",
+    "card_key": "119|70|0|Hajime Kusajima|None,30|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/svp-199",
+    "name": "Zarude",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "H",
+    "set_name": "svp",
+    "set_full_name": "SVP Black Star Promos",
+    "series": "Scarlatto e Violetto",
+    "set_code": "svp",
+    "date": "2023-03-31",
+    "number": "199",
+    "set_total": 225,
+    "rarity": "Promo",
+    "author": [
+        "Uninori"
+    ],
+    "pokedex_number": 893,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Erba"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Erba"
+            ],
+            "name": "Cogliere",
+            "damage": null,
+            "effect": "Cerca nel tuo mazzo fino a tre carte Energia base {G}, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo."
+        },
+        {
+            "cost": [
+                "Erba",
+                "Erba",
+                "Erba"
+            ],
+            "name": "Martelfrustata",
+            "damage": 130,
+            "effect": "Durante il tuo prossimo turno, questo Pokémon non può attaccare."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuoco"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/svp-199"
+        }
+    ],
+    "print_key": "tcgdex:svp-199",
+    "card_key": "893|120|2|Uninori|None,130|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

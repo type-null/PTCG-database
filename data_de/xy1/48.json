@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy1-48",
+    "name": "Arbok",
+    "img": "https://assets.tcgdex.net/de/xy/xy1/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy1/symbol",
+    "set_full_name": "XY",
+    "series": "XY",
+    "set_code": "xy1",
+    "date": "2014-02-05",
+    "number": "48",
+    "set_total": 146,
+    "rarity": "Selten",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 24,
+    "pokemon_category": "",
+    "flavor_text": "Das Muster auf seinem Bauch ähnelt einer Fratze. Schwache Gegner nehmen bereits beim Anblick Reißaus.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Magensäfte",
+            "damage": 20,
+            "effect": "Das Verteidigende Pokémon hat bis zum Ende deines nächsten Zuges keine Fähigkeit."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Gifthieb",
+            "damage": 50,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Rettan",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy1-48"
+        }
+    ],
+    "print_key": "tcgdex:xy1-48",
+    "card_key": "24|90|1|Naoki Saito|20,50|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

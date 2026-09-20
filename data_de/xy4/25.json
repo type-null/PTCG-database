@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy4-25",
+    "name": "Pachirisu",
+    "img": "https://assets.tcgdex.net/de/xy/xy4/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy4",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy4/symbol",
+    "set_full_name": "Phantomkräfte",
+    "series": "XY",
+    "set_code": "xy4",
+    "date": "2014-11-05",
+    "number": "25",
+    "set_total": 124,
+    "rarity": "Selten",
+    "author": [
+        "Mizue"
+    ],
+    "pokedex_number": 417,
+    "pokemon_category": "",
+    "flavor_text": "Es bildet ein Fellknäuel, der vor statischer Energie knistert. Es speichert die Energie in Bäumen.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Trick-Sticker",
+            "damage": 10,
+            "effect": "Bis zum Ende deines nächsten Zuges ist die Schwäche des Verteidigenden Pokémon jetzt {L}. (Die Höhe der Schwäche ändert sich nicht.)"
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Brzzzl",
+            "damage": "20+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy4-25"
+        }
+    ],
+    "print_key": "tcgdex:xy4-25",
+    "card_key": "417|70|1|Mizue|10,20+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

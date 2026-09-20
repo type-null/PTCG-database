@@ -1,0 +1,57 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base2-60",
+    "name": "Pikachu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Dschungel",
+    "series": "Grund",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "60",
+    "set_total": 64,
+    "rarity": "Häufig",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "flavor_text": "Wenn mehrere dieser Pokémon sich versammeln, kann ihre Elektrizität Gewitter verursachen.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Funkenregen",
+            "damage": 20,
+            "effect": "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wählt er eines von ihnen und dieser Angriff fügt ihm 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Pichu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base2-60"
+        }
+    ],
+    "print_key": "tcgdex:base2-60",
+    "card_key": "25|50|1|Ken Sugimori|20|2",
+    "types_en": [
+        "Lightning"
+    ]
+}

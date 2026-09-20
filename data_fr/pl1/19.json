@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-19",
+    "name": "Branette",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/19/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "19",
+    "set_total": 133,
+    "rarity": "Rare",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 354,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Piquer une colère",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez défausser de votre main autant de cartes que vous voulez. Vous pouvez alors placer autant de marqueurs de dégât sur Branette. Ce pouvoir ne peut pas être utilisé si Branette est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Échange obscurité",
+            "damage": null,
+            "effect": "Défaussez une carte Énergie attachée à Branette puis échangez tous les marqueurs de dégât se trouvant sur Branette avec ceux du Pokémon Défenseur. (Si un effet de cette attaque est contré, cette attaque est sans effet.)"
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Solitude",
+            "damage": "30+",
+            "effect": "Vous pouvez montrer votre main à votre adversaire. Si vous ne possédez pas de Pokémon, cette attaque inflige alors 30 dégâts plus 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Polychombr",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-19"
+        }
+    ],
+    "print_key": "tcgdex:pl1-19",
+    "card_key": "354|90|1|Tomokazu Komiya|None,30+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

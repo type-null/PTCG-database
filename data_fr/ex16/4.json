@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex16-4",
+    "name": "Branette",
+    "img": "https://assets.tcgdex.net/fr/ex/ex16/4/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex16",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex16/symbol",
+    "set_full_name": "EX Gardiens du Pouvoir",
+    "series": "EX",
+    "set_code": "ex16",
+    "date": "2007-02-17",
+    "number": "4",
+    "set_total": 108,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 354,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Rancune",
+            "damage": "20+",
+            "effect": "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque carte Récompense récoltée par votre adversaire."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Manipulation de Banc",
+            "damage": "40x",
+            "effect": "Votre adversaire lance autant de pièces qu'il a de Pokémon de Banc. Cette attaque inflige 40 dégâts multipliés par le nombre de piles. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse et la Résistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Polichombr",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex16-4"
+        }
+    ],
+    "print_key": "tcgdex:ex16-4",
+    "card_key": "354|70|1|Ken Sugimori|20+,40x|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

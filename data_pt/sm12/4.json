@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/sm12-4",
+    "name": "Vileplume GX",
+    "img": "https://assets.tcgdex.net/pt/sm/sm12/4/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm12",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm12/symbol",
+    "set_full_name": "Eclipse Cósmico",
+    "series": "Sol e Lua",
+    "set_code": "sm12",
+    "date": "2019-11-01",
+    "number": "4",
+    "set_total": 271,
+    "rarity": "Ultra Rara",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 45,
+    "pokemon_category": "",
+    "hp": 240,
+    "types": [
+        "Planta"
+    ],
+    "abilities": [
+        {
+            "name": "Jardim de Flores Perfumadas",
+            "effect": "Uma vez durante a sua vez de jogar (antes de atacar), você pode curar 30 pontos de dano de cada um dos seus Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Planta",
+                "Incolor"
+            ],
+            "name": "Florescer Intenso",
+            "damage": "180-",
+            "effect": "Este ataque causa 10 pontos de dano a menos para cada contador de dano neste Pokémon."
+        },
+        {
+            "cost": [
+                "Planta"
+            ],
+            "name": "Explosão Alérgica GX",
+            "damage": 50,
+            "effect": "O Pokémon Ativo do seu oponente agora está Envenenado, Paralisado e Queimado (você não pode usar mais de 1 ataque GX por partida)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fogo"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/sm12-4"
+        }
+    ],
+    "print_key": "tcgdex:sm12-4",
+    "card_key": "45|240|2|Kagemaru Himeno|180-,50|2,1",
+    "types_en": [
+        "Grass"
+    ]
+}

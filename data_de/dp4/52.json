@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp4-52",
+    "name": "Vipitis",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp4",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp4/symbol",
+    "set_full_name": "Epische Begegnungen",
+    "series": "Diamant & Perl",
+    "set_code": "dp4",
+    "date": "2008-02-01",
+    "number": "52",
+    "set_total": 106,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 336,
+    "pokemon_category": "",
+    "flavor_text": "Seit Generationen ist es mit SENGO verfeindet. Es wetzt seinen scharfen Schweif an Felsen.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Schweifklinge",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ kann dein Gegner in seinem nächsten Zug keine Trainerkarten von seiner Hand spielen."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Giftschweif",
+            "damage": "30+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp4-52"
+        }
+    ],
+    "print_key": "tcgdex:dp4-52",
+    "card_key": "336|80|2|Masakazu Fukuda|20,30+|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

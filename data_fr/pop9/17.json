@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pop9-17",
+    "name": "Tortipouss",
+    "img": "https://assets.tcgdex.net/fr/pop/pop9/17/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pop9",
+    "set_img": "https://assets.tcgdex.net/univ/pop/pop9/symbol",
+    "set_full_name": "POP Série 9",
+    "series": "POP",
+    "set_code": "pop9",
+    "date": "2009-03-01",
+    "number": "17",
+    "set_total": 17,
+    "rarity": "Commune",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 387,
+    "pokemon_category": "",
+    "flavor_text": "Son corps produit de l'oxygène par photosynthèse. La feuille sur sa tête flétrit quand il a soif.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Vol-Vie",
+            "damage": 10,
+            "effect": "Retirez un marqueur de dégât à Tortipouss."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Parboil",
+            "damage": "40+",
+            "effect": "Si vous avez Ouisticram en jeu, cette attaque inflige 40 dégâts plus 20 dégâts. Le Pokémon Défenseur est maintenant Brûlé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pop9-17"
+        }
+    ],
+    "print_key": "tcgdex:pop9-17",
+    "card_key": "387|60|2|Midori Harada|10,40+|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

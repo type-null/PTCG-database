@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/swsh4-101",
+    "name": "Grapploct",
+    "img": "https://assets.tcgdex.net/it/swsh/swsh4/101/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "D",
+    "set_name": "swsh4",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh4/symbol",
+    "set_full_name": "Voltaggio Sfolgorante",
+    "series": "Spada e Scudo",
+    "set_code": "swsh4",
+    "date": "2020-11-13",
+    "number": "101",
+    "set_total": 203,
+    "rarity": "Rara",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "pokedex_number": 853,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 130,
+    "types": [
+        "Lotta"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lotta"
+            ],
+            "name": "Doppia Nelson",
+            "damage": 30,
+            "effect": "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi."
+        },
+        {
+            "cost": [
+                "Lotta",
+                "Incolore"
+            ],
+            "name": "Tentacolo Distruttivo",
+            "damage": "50+",
+            "effect": "Se questo Pokémon ha usato Doppia Nelson durante il tuo ultimo turno, questo attacco infligge 120 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Clobbopus",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/swsh4-101"
+        }
+    ],
+    "print_key": "tcgdex:swsh4-101",
+    "card_key": "853|130|2|Hitoshi Ariga|30,50+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-101",
+    "name": "Chelast",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "101",
+    "set_total": 133,
+    "rarity": "Häufig",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 387,
+    "pokemon_category": "",
+    "flavor_text": "Der Panzer auf seinem Rücken besteht aus Erdreich. Bei gesunden CHELAST ist der Panzer feucht.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Ramme",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Bodyslam",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-101"
+        }
+    ],
+    "print_key": "tcgdex:pl1-101",
+    "card_key": "387|60|2|Kagemaru Himeno|10,20|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

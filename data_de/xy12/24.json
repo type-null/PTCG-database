@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy12-24",
+    "name": "Quaputzi",
+    "img": "https://assets.tcgdex.net/de/xy/xy12/24/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Evolution",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "24",
+    "set_total": 113,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 61,
+    "pokemon_category": "",
+    "flavor_text": "Seine beiden Beine sind gut entwickelt. Auch wenn es an Land leben kann, bevorzugt es das Leben im Wasser.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Amnesie",
+            "damage": 30,
+            "effect": "Wähle 1 Angriff des Aktiven Pokémon deines Gegners. Das Pokémon kann den gewählten Angriff während des nächsten Zuges deines Gegners nicht einsetzen."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Duplexhieb",
+            "damage": "50×",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Quapsel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy12-24"
+        }
+    ],
+    "print_key": "tcgdex:xy12-24",
+    "card_key": "61|80|1|Ken Sugimori|30,50x|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh2-65",
+    "name": "Akkup",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh2/65/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Clash der Rebellen",
+    "series": "Schwert & Schild",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "65",
+    "set_total": 209,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 737,
+    "pokemon_category": "",
+    "flavor_text": "Es schützt sich mithilfe seines robusten Panzers. Durch die Spitzen an seinem Kiefer leitet es Strom, mit dem es sich gegen Angreifer wehrt.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Ladevorgang",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu 2 {L}-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Kugelblitz",
+            "damage": 70,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Mabula",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh2-65"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-65",
+    "card_key": "737|90|2|Masakazu Fukuda|None,70|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

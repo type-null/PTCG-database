@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-19",
+    "name": "Triopikeur",
+    "img": "https://assets.tcgdex.net/fr/base/base1/19/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "19",
+    "set_total": 102,
+    "rarity": "Rare",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 51,
+    "pokemon_category": "",
+    "flavor_text": "Un groupe de Taupiqueur. Ils créent des séismes en creusant à plus de 100 km de profondeur.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Tranche",
+            "damage": 40,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Combat",
+                "Combat"
+            ],
+            "name": "Séisme",
+            "damage": 70,
+            "effect": "Inflige 10 dégâts à chacun des Pokémon sur votre propre Banc. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon sur le Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Taupiqueur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-19"
+        }
+    ],
+    "print_key": "tcgdex:base1-19",
+    "card_key": "51|70|2|Keiji Kinebuchi|40,70|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

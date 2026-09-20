@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy8-78",
+    "name": "Knogga",
+    "img": "https://assets.tcgdex.net/de/xy/xy8/78/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy8",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy8/symbol",
+    "set_full_name": "TURBOstart",
+    "series": "XY",
+    "set_code": "xy8",
+    "date": "2015-11-04",
+    "number": "78",
+    "set_total": 165,
+    "rarity": "Selten",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 105,
+    "pokemon_category": "",
+    "flavor_text": "Der Knochen, den dieses Pokémon hält, ist seine Primärwaffe. Es wirft ihn wie einen Bumerang.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Scharfschuss",
+            "damage": null,
+            "effect": "Dieser Angriff fügt 1 Pokémon deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Knochenmühle",
+            "damage": 60,
+            "effect": "Wenn das Aktive Pokémon deines Gegners ein Pokémon-EX ist, tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Tragosso",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy8-78"
+        }
+    ],
+    "print_key": "tcgdex:xy8-78",
+    "card_key": "105|100|2|match|None,60|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

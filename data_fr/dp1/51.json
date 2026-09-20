@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-51",
+    "name": "Hippopotas",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "51",
+    "set_total": 130,
+    "rarity": "Peu Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 449,
+    "pokemon_category": "",
+    "flavor_text": "Il vit dans des endroits arides. Il exsude du sable granuleux au lieu de transpirer.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Baillement",
+            "damage": null,
+            "effect": "Le Pokémon Défenseur est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Jet de sable",
+            "damage": 10,
+            "effect": "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque est sans effet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-51"
+        }
+    ],
+    "print_key": "tcgdex:dp1-51",
+    "card_key": "449|60|2|Mitsuhiro Arita|None,10|1,1",
+    "types_en": [
+        "Fighting"
+    ]
+}

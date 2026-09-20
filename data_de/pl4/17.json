@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl4-17",
+    "name": "Gengar",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl4",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl4/symbol",
+    "set_full_name": "Arceus",
+    "series": "Platin",
+    "set_code": "pl4",
+    "date": "2009-11-04",
+    "number": "17",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 94,
+    "pokemon_category": "",
+    "flavor_text": "Der heimtückische Blick im Dunkel gehört einem GENGAR, das sich freut, Flüche auszustoßen.",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Scharfschuss",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Gifthieb",
+            "damage": 60,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Alpollo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl4-17"
+        }
+    ],
+    "print_key": "tcgdex:pl4-17",
+    "card_key": "94|120|0|Mitsuhiro Arita|None,60|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex12-44",
+    "name": "Saquedeneu",
+    "img": "https://assets.tcgdex.net/fr/ex/ex12/44/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Créateurs de légendes",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "44",
+    "set_total": 93,
+    "rarity": "Peu Commune",
+    "author": [
+        "Aya Kusube"
+    ],
+    "pokedex_number": 114,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Guérison réactive",
+            "effect": "Lorsque vous attachez une carte Énergie réaction de votre main à Saquedeneu, retirez à Saquedeneu tous ses marqueurs de dégât."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Plantes emmêlantes",
+            "damage": 10,
+            "effect": "Si le Pokémon Défenseur est une Pokémon de base, il ne peut pas attaquer lors du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Enveloppe douce",
+            "damage": 30,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex12-44"
+        }
+    ],
+    "print_key": "tcgdex:ex12-44",
+    "card_key": "114|60|1|Aya Kusube|10,30|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

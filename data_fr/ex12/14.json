@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex12-14",
+    "name": "Wailord",
+    "img": "https://assets.tcgdex.net/fr/ex/ex12/14/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Créateurs de légendes",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "14",
+    "set_total": 93,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 321,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Ascension réactive",
+            "effect": "Tant que Wailord possède des cartes Énergie réaction, le Coût de retraite de chacun de vos Pokémon {W} (Pokémon-ex exclus) est de 0."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Hypnoplouf",
+            "damage": 40,
+            "effect": "Le Pokémon Défenseur est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Eau",
+                "Eau"
+            ],
+            "name": "Compter sur les amis",
+            "damage": "40+",
+            "effect": "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chacun de vos Pokémon Évolués de niveau 1 sur votre Banc."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Wailmer",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex12-14"
+        }
+    ],
+    "print_key": "tcgdex:ex12-14",
+    "card_key": "321|120|4|Kouki Saitou|40,40+|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

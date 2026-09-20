@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp2-94",
+    "name": "Pikachu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Geheimnisvolle Schätze",
+    "series": "Diamant & Perl",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "94",
+    "set_total": 124,
+    "rarity": "Häufig",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "flavor_text": "Es lebt zusammen mit anderen in Wäldern. In seinen Backentaschen speichert es Elektrizität.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Elektro-Recycling",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Pichu sich an beliebiger Stelle unter Pikachu befindet, deinen Ablagestapel nach einer {L}-Energiekarte durchsuchen. Zeige sie deinem Gegner und nimm sie auf die Hand. Diese Poké-Power kann nicht benutzt werden, wenn Pikachu von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "PikaPika",
+            "damage": "20+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp2-94"
+        }
+    ],
+    "print_key": "tcgdex:dp2-94",
+    "card_key": "25|60|1|Sumiyoshi Kizuki|20+|2",
+    "types_en": [
+        "Lightning"
+    ]
+}

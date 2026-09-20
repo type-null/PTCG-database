@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm5-18",
+    "name": "Magmar",
+    "img": "https://assets.tcgdex.net/de/sm/sm5/18/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultra-Prisma",
+    "series": "Sonne & Mond",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "18",
+    "set_total": 173,
+    "rarity": "Häufig",
+    "author": [
+        "Yumi"
+    ],
+    "pokedex_number": 126,
+    "pokemon_category": "",
+    "flavor_text": "Ist es wütend, stößt es glühend heiße Flammen aus. Es hört damit erst auf, wenn von seinem Gegner nur noch Asche übrig ist.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Brandrodung",
+            "damage": null,
+            "effect": "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Flammenwurf",
+            "damage": 80,
+            "effect": "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm5-18"
+        }
+    ],
+    "print_key": "tcgdex:sm5-18",
+    "card_key": "126|80|2|Yumi|None,80|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

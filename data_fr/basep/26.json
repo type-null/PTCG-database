@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/basep-26",
+    "name": "Pikachu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "basep",
+    "set_img": "https://assets.tcgdex.net/univ/base/basep/symbol",
+    "set_full_name": "Wizards Black Star Promos",
+    "series": "Base",
+    "set_code": "basep",
+    "date": "1999-07-01",
+    "number": "26",
+    "set_total": 53,
+    "rarity": "Commune",
+    "author": [
+        "Gakuji Nomoto"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "flavor_text": "Il utilise sa queue sensible pour explorer son environnement et réagit violemment si on l'attrape par la queue.",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Griffe",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Tonnerre",
+            "damage": 40,
+            "effect": "Défaussez toutes les cartes Énergie attachées à Pikachu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/basep-26"
+        }
+    ],
+    "print_key": "tcgdex:basep-26",
+    "card_key": "25|40|1|Gakuji Nomoto|10,40|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

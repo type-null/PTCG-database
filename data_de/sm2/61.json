@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm2-61",
+    "name": "Lunala",
+    "img": "https://assets.tcgdex.net/de/sm/sm2/61/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Stunde der Wächter",
+    "series": "Sonne & Mond",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "61",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 792,
+    "pokemon_category": "",
+    "flavor_text": "Es heißt, es sei die weibliche Endstufe der Entwicklungsreihe von Cosmog. Ist sein drittes Auge aktiviert, zieht es in eine andere Welt.",
+    "stage": "Rang 2",
+    "hp": 160,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Splitterschuss",
+            "damage": "40×",
+            "effect": "Diese Attacke fügt 40 Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten {P}-Energien zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Mondscheiben-Flügel",
+            "damage": 130,
+            "effect": "Verschiebe alle Energien von diesem Pokémon beliebig auf die Pokémon auf deiner Bank."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Cosmovum",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm2-61"
+        }
+    ],
+    "print_key": "tcgdex:sm2-61",
+    "card_key": "792|160|2|5ban Graphics|40x,130|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

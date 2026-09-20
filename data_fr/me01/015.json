@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/me01-015",
+    "name": "Tengalice",
+    "img": "https://assets.tcgdex.net/fr/me/me01/015/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "I",
+    "set_name": "me01",
+    "set_img": "https://assets.tcgdex.net/univ/me/me01/symbol",
+    "set_full_name": "Méga-Évolution",
+    "series": "Méga-Évolution",
+    "set_code": "me01",
+    "date": "2025-09-26",
+    "number": "015",
+    "set_total": 188,
+    "rarity": "Peu Commune",
+    "author": [
+        "Uninori"
+    ],
+    "pokedex_number": 275,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 160,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Bourrasque Renvoi",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, choisissez l'un des Pokémon de votre adversaire. Mélangez avec son deck ce Pokémon-là et toutes les cartes qui lui sont attachées."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Affolement",
+            "damage": 100,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Confus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Pifeuil",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/me01-015"
+        }
+    ],
+    "print_key": "tcgdex:me01-15",
+    "card_key": "275|160|2|Uninori|None,100|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

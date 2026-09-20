@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sma-SV72",
+    "name": "Cizayox-GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sma",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sma/symbol",
+    "set_full_name": "Destinées Occultes Coffre Étincelant",
+    "series": "Soleil et Lune",
+    "set_code": "sma",
+    "date": "2019-08-23",
+    "number": "SV72",
+    "set_total": 94,
+    "rarity": "Shiny rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 212,
+    "pokemon_category": "",
+    "hp": 210,
+    "types": [
+        "Métal"
+    ],
+    "abilities": [
+        {
+            "name": "Perception du Danger",
+            "effect": "S’il reste 100 PV ou moins à ce Pokémon, ses attaques infligent 80 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Aile d’Acier",
+            "damage": 80,
+            "effect": "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coupe Transversale-GX",
+            "damage": 100,
+            "effect": "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 100 dégâts supplémentaires. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Insécateur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sma-SV72"
+        }
+    ],
+    "print_key": "tcgdex:sma-SV72",
+    "card_key": "212|210|1|5ban Graphics|80,100|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

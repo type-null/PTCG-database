@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv03-003",
+    "name": "Joliflor",
+    "img": "https://assets.tcgdex.net/fr/sv/sv03/003/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv03",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03/symbol",
+    "set_full_name": "Flammes Obsidiennes",
+    "series": "Écarlate et Violet",
+    "set_code": "sv03",
+    "date": "2023-08-11",
+    "number": "003",
+    "set_total": 230,
+    "rarity": "Peu Commune",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 182,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 130,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Poudre Dodo",
+            "damage": 30,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Danse Puissante",
+            "damage": "90×",
+            "effect": "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 90 dégâts pour chaque côté face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Ortide",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv03-003"
+        }
+    ],
+    "print_key": "tcgdex:sv03-3",
+    "card_key": "182|130|1|sui|30,90x|1,1",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl4-30",
+    "name": "Gewaldro",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl4",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl4/symbol",
+    "set_full_name": "Arceus",
+    "series": "Platin",
+    "set_code": "pl4",
+    "date": "2009-11-04",
+    "number": "30",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Reiko Tanoue"
+    ],
+    "pokedex_number": 254,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Grüner Atem",
+            "effect": "Wenn du 1 {G}-Energiekarte von deiner Hand an Gewaldro anlegst, entferne 2 Schadensmarken von Gewaldro."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Blätterkanonade",
+            "damage": "20×",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an Gewaldro angelegten {G}-Energien zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Giftkrallen",
+            "damage": 60,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Reptain",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl4-30"
+        }
+    ],
+    "print_key": "tcgdex:pl4-30",
+    "card_key": "254|120|2|Reiko Tanoue|20x,60|1,4",
+    "types_en": [
+        "Grass"
+    ]
+}

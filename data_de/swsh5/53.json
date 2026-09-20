@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh5-53",
+    "name": "Bellektro",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh5/53/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh5/symbol",
+    "set_full_name": "Kampfstile",
+    "series": "Schwert & Schild",
+    "set_code": "swsh5",
+    "date": "2021-03-19",
+    "number": "53",
+    "set_total": 183,
+    "rarity": "Selten",
+    "author": [
+        "chibi"
+    ],
+    "pokedex_number": 836,
+    "pokemon_category": "",
+    "flavor_text": "Mit Elektrizität verstärkt es seine Beinkraft. So erreicht es mit Leichtigkeit eine Höchstgeschwindigkeit von über 90 km/h.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Bedrängen",
+            "damage": 30,
+            "effect": "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Trotzfunke",
+            "damage": 130,
+            "effect": "Wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt, kann diese Attacke für {L} eingesetzt werden."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Voldi",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh5-53"
+        }
+    ],
+    "print_key": "tcgdex:swsh5-53",
+    "card_key": "836|130|1|chibi|30,130|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

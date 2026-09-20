@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sm2-32",
+    "name": "Glalie",
+    "img": "https://assets.tcgdex.net/it/sm/sm2/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Guardiani Nascenti",
+    "series": "Sole e Luna",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "32",
+    "set_total": 169,
+    "rarity": "Non comune",
+    "author": [
+        "so-taro"
+    ],
+    "pokedex_number": 362,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 120,
+    "types": [
+        "Acqua"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Acqua",
+                "Acqua"
+            ],
+            "name": "Sgranocchio",
+            "damage": 40,
+            "effect": "Lancia una moneta. Se esce testa, scarta un’Energia assegnata al Pokémon attivo del tuo avversario."
+        },
+        {
+            "cost": [
+                "Acqua",
+                "Acqua",
+                "Acqua"
+            ],
+            "name": "Furiobanchina",
+            "damage": "70+",
+            "effect": "Se questo Pokémon ha dei segnalini danno, questo attacco infligge 80 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metallo"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sm2-32"
+        }
+    ],
+    "print_key": "tcgdex:sm2-32",
+    "card_key": "362|120|3|so-taro|40,70+|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

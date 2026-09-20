@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-42",
+    "name": "Hippoterus 4",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "42",
+    "set_total": 120,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 450,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Sandrüstung",
+            "effect": "Wenn an Hippoterus 4 mindestens 1 {F}-Energie angelegt ist, wird Schaden, der Hippoterus 4 durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Beißen und Zerkleinern",
+            "damage": "30+",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-42"
+        }
+    ],
+    "print_key": "tcgdex:pl2-42",
+    "card_key": "450|90|2|Kagemaru Himeno|30+|3",
+    "types_en": [
+        "Fighting"
+    ]
+}

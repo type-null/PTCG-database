@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss4-24",
+    "name": "Zirpeise",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss4/24/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss4",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss4/symbol",
+    "set_full_name": "Triumph",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss4",
+    "date": "2010-11-03",
+    "number": "24",
+    "set_total": 103,
+    "rarity": "Selten",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 402,
+    "pokemon_category": "",
+    "flavor_text": "Seinen wunderschönen Ruf erzeugt es durch einen Hohlraum im Körper, der als Verstärker fungiert.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Zaubermelodie",
+            "damage": 30,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Zornklinge",
+            "damage": "20+",
+            "effect": "Wirf 3 Münzen. Bei 1 Mal „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu. Bei 2 Mal „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 40 weitere Schadenspunkte zu. Bei 3 Mal „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 100 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Zirpurze",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss4-24"
+        }
+    ],
+    "print_key": "tcgdex:hgss4-24",
+    "card_key": "402|80|1|Tomokazu Komiya|30,20+|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

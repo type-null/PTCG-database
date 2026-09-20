@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-5",
+    "name": "Impergator",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "5",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 160,
+    "pokemon_category": "",
+    "flavor_text": "Es kann sein Eigengewicht nur sehr schwer außerhalb des Wassers unterstützen. Daher läuft es auf allen Vieren, bewegt sich aber schnell.",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Wolkenbruch",
+            "effect": "Bist du am Zug, kannst du (vor deinem Angriff) beliebig viele {W}-Energiekarten aus deiner Hand abwerfen. Diese Fähigkeit kann nicht verwendet werden, wenn Impergator schläft, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Springflut",
+            "damage": "10+",
+            "effect": "Fügt 10 Schadenspunkte plus 10 Schadenspunkte mal der Anzahl an {W}-Energiekarten in deinem Ablagestapel zu. Mische danach alle {W}-Energiekarten aus deinem Ablagestapel in dein Deck."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Tyracroc",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-5"
+        }
+    ],
+    "print_key": "tcgdex:neo1-5",
+    "card_key": "160|120|3|Ken Sugimori|10+|3",
+    "types_en": [
+        "Water"
+    ]
+}

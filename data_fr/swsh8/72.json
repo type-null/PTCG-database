@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh8-72",
+    "name": "Darumacho de Galar",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh8/72/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "E",
+    "set_name": "swsh8",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh8/symbol",
+    "set_full_name": "Poing de Fusion",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh8",
+    "date": "2021-11-12",
+    "number": "72",
+    "set_total": 284,
+    "rarity": "Peu Commune",
+    "author": [
+        "SATOSHI NAKAI"
+    ],
+    "pokedex_number": 555,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 130,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Poudreuse",
+            "damage": 30,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Coup d'Boule Daruma",
+            "damage": 130,
+            "effect": "Si au moins un marqueur de dégâts est placé sur ce Pokémon, cette attaque peut être utilisée pour {W}."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Métal"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Darumarond de Galar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh8-72"
+        }
+    ],
+    "print_key": "tcgdex:swsh8-72",
+    "card_key": "555|130|2|SATOSHI NAKAI|30,130|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

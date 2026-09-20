@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-46",
+    "name": "Cochignon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "46",
+    "set_total": 106,
+    "rarity": "Peu Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 221,
+    "pokemon_category": "",
+    "flavor_text": "Il ne voit rien à cause de sa fourrure touffue et se repère à l'aide de son nez délicat.",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Éveiller",
+            "damage": "20+",
+            "effect": "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Cochignon. Ensuite, retirez à Cochignon 4 marqueurs de dégât."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Dépassement",
+            "damage": 60,
+            "effect": "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Marcacrin",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-46"
+        }
+    ],
+    "print_key": "tcgdex:dp7-46",
+    "card_key": "221|90|2|Mitsuhiro Arita|20+,60|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

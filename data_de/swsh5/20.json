@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh5-20",
+    "name": "Entei",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh5/20/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh5/symbol",
+    "set_full_name": "Kampfstile",
+    "series": "Schwert & Schild",
+    "set_code": "swsh5",
+    "date": "2021-03-19",
+    "number": "20",
+    "set_total": 183,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "kodama"
+    ],
+    "pokedex_number": 244,
+    "pokemon_category": "",
+    "flavor_text": "Man sagt, wenn es brüllt, bricht irgendwo in der Welt ein Vulkan aus.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Hitzespurt",
+            "damage": 30,
+            "effect": "Du kannst 1 {R}-Energiekarte aus deiner Hand an dieses Pokémon anlegen."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Feuerzahn",
+            "damage": 90,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh5-20"
+        }
+    ],
+    "print_key": "tcgdex:swsh5-20",
+    "card_key": "244|130|2|kodama|30,90|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

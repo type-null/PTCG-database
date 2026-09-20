@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex14-17",
+    "name": "Zwirrklop",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex14",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex14/symbol",
+    "set_full_name": "EX Crystal Guardians",
+    "series": "EX",
+    "set_code": "ex14",
+    "date": "2006-08-30",
+    "number": "17",
+    "set_total": 100,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 356,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Verfluchender Blick",
+            "effect": "Solange Zwirrklop dein Aktives Pokémon ist, kann dein Gegner keine Spezialenergiekarten (außer {D}- und {M}-Energiekarten) von seiner Hand an sein Aktives Pokémon anlegen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Irrlicht",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psychoschild",
+            "damage": 50,
+            "effect": "Verhindere während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Zwirrklop von gegnerischen Pokémon-ex zugefügt werden."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Zwirrlicht",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex14-17"
+        }
+    ],
+    "print_key": "tcgdex:ex14-17",
+    "card_key": "356|70|1|Kagemaru Himeno|30,50|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

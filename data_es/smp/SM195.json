@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/smp-SM195",
+    "name": "Charizard GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SL Cartas de promoción",
+    "series": "Sol y Luna",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM195",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "Framestore"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "hp": 250,
+    "types": [
+        "Fuego"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuego"
+            ],
+            "name": "Destrucción Furiosa",
+            "damage": null,
+            "effect": "Descarta las 8 primeras cartas de tu baraja. Si entre esas cartas hay cartas de Energía Fire, únelas a este Pokémon."
+        },
+        {
+            "cost": [
+                "Fuego",
+                "Fuego",
+                "Incolora",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Artillería de Vapor",
+            "damage": 200,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Fuego",
+                "Fuego",
+                "Incolora",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Llamas Espantosas GX",
+            "damage": 250,
+            "effect": "Descarta 1 Energía de cada uno de los Pokémon de tu rival. (No puedes usar más de 1 ataque GX en una partida)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Agua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/smp-SM195"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM195",
+    "card_key": "6|250|4|Framestore|None,200,250|1,5,5",
+    "types_en": [
+        "Fire"
+    ]
+}

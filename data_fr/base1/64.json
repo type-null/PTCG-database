@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-64",
+    "name": "Staross",
+    "img": "https://assets.tcgdex.net/fr/base/base1/64/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "64",
+    "set_total": 102,
+    "rarity": "Commune",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 121,
+    "pokemon_category": "",
+    "flavor_text": "Son cœur brille des couleurs de l'arc-en-ciel. On raconte que c'est une pierre précieuse.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau"
+            ],
+            "name": "Soin",
+            "damage": null,
+            "effect": "Défaussez 1 carte Énergie {W} attachée à Staross pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Staross."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Étoile gelante",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Stari",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-64"
+        }
+    ],
+    "print_key": "tcgdex:base1-64",
+    "card_key": "121|60|1|Keiji Kinebuchi|None,20|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

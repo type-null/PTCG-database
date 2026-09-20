@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex16-4",
+    "name": "Banette",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex16",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex16/symbol",
+    "set_full_name": "EX Power Keepers",
+    "series": "EX",
+    "set_code": "ex16",
+    "date": "2007-02-17",
+    "number": "4",
+    "set_total": 108,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 354,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Nachspiel",
+            "damage": "20+",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jeden Preis, den dein Gegner bereits genommen hat, zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Bankmanipulation",
+            "damage": "40x",
+            "effect": "Dein Gegner wirft eine Anzahl Münzen, die der Anzahl der Pokémon auf seiner Bank entspricht. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Zahl“ zu. Der Schaden dieses Angriffs wird durch Schwäche und Resistenz des Verteidigenden Pokémon nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Shuppet",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex16-4"
+        }
+    ],
+    "print_key": "tcgdex:ex16-4",
+    "card_key": "354|70|1|Ken Sugimori|20+,40x|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

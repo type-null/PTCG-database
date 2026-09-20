@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex12-92",
+    "name": "Registeel ☆",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Legend Maker",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "92",
+    "set_total": 93,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 379,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Angriffsbarriere",
+            "damage": 10,
+            "effect": "Im nächsten Zug deines Gegners wird Schaden, der Registeel ☆ durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Finaler Laser",
+            "damage": null,
+            "effect": "Lege 3 Schadensmarken in beliebiger Verteilung auf die gegnerischen Pokémon. Wenn dein Gegner nur noch einen Preis übrig hat, und Registeel ☆ das einzige Pokémon ist, das du im Spiel hast, lege stattdessen 6 Schadensmarken in beliebiger Verteilung auf die gegnerischen Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex12-92"
+        }
+    ],
+    "print_key": "tcgdex:ex12-92",
+    "card_key": "379|90|3|Masakazu Fukuda|10,None|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp4-7",
+    "name": "Motisma",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp4",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp4/symbol",
+    "set_full_name": "Duels au Sommets",
+    "series": "Diamant & Perle",
+    "set_code": "dp4",
+    "date": "2008-02-01",
+    "number": "7",
+    "set_total": 106,
+    "rarity": "Rare Holo",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "pokedex_number": 479,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Étonnement",
+            "damage": 20,
+            "effect": "Choisissez sans regarder 1 carte de la main de votre adversaire. Regardez cette carte et demandez à votre adversaire de la mélanger à son deck."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Télérayon",
+            "damage": "30+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires et le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp4-7"
+        }
+    ],
+    "print_key": "tcgdex:dp4-7",
+    "card_key": "479|70|1|Daisuke Ito|20,30+|2,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

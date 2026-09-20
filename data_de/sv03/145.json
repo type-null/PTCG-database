@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv03-145",
+    "name": "Bronzong",
+    "img": "https://assets.tcgdex.net/de/sv/sv03/145/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv03",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03/symbol",
+    "set_full_name": "Obsidian Flammen",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv03",
+    "date": "2023-08-11",
+    "number": "145",
+    "set_total": 230,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Nobuhiro Imagawa"
+    ],
+    "pokedex_number": 437,
+    "pokemon_category": "",
+    "flavor_text": "Vor Urzeiten wurden sie als Regenmacher verehrt. Manchmal findet man eines von ihnen im Boden vergraben.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Orakelpresse",
+            "damage": 20,
+            "effect": "Verhindere während des nächsten Zuges deines Gegners alle Effekte der von den Pokémon deines Gegners eingesetzten Attacken, die diesem Pokémon zugefügt werden. (Schaden ist kein Effekt.)"
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall"
+            ],
+            "name": "Sondersensor",
+            "damage": "70+",
+            "effect": "Wenn du genauso viele Karten auf der Hand hast wie dein Gegner, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Bronzel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv03-145"
+        }
+    ],
+    "print_key": "tcgdex:sv03-145",
+    "card_key": "437|140|3|Nobuhiro Imagawa|20,70+|1,2",
+    "types_en": [
+        "Metal"
+    ]
+}

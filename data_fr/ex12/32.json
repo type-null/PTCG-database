@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex12-32",
+    "name": "Électrode",
+    "img": "https://assets.tcgdex.net/fr/ex/ex12/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Créateurs de légendes",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "32",
+    "set_total": 93,
+    "rarity": "Peu Commune",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 101,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Ultrason",
+            "damage": 10,
+            "effect": "Le Pokémon Défenseur est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Attaque trébuchante",
+            "damage": "40+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Voltorbe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex12-32"
+        }
+    ],
+    "print_key": "tcgdex:ex12-32",
+    "card_key": "101|70|0|Midori Harada|10,40+|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

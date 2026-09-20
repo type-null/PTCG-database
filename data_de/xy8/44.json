@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy8-44",
+    "name": "Gelatroppo",
+    "img": "https://assets.tcgdex.net/de/xy/xy8/44/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy8",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy8/symbol",
+    "set_full_name": "TURBOstart",
+    "series": "XY",
+    "set_code": "xy8",
+    "date": "2015-11-04",
+    "number": "44",
+    "set_total": 165,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 583,
+    "pokemon_category": "",
+    "flavor_text": "Es lebt auf schneebedeckten Bergen. Vor vielen Jahren fand es während einer Eiszeit seinen Weg in den Süden.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Eisiger Abgrund",
+            "damage": "10+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Eissturm",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners schläft jetzt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Gelatini",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy8-44"
+        }
+    ],
+    "print_key": "tcgdex:xy8-44",
+    "card_key": "583|70|2|Kagemaru Himeno|10+,30|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

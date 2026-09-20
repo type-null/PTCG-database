@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm7.5-14",
+    "name": "Amfira",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm7.5",
+    "set_full_name": "Majestät Der Drachen",
+    "series": "Sonne & Mond",
+    "set_code": "sm7.5",
+    "date": "2018-09-07",
+    "number": "14",
+    "set_total": 78,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 758,
+    "pokemon_category": "",
+    "flavor_text": "Ihr Giftgas enthält viele Pheromone. Verdünnt man es, lässt sich daraus ein sinnliches Parfüm herstellen.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Feuerring",
+            "damage": 20,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt. Es kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Flammenwurf",
+            "damage": 80,
+            "effect": "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Molunk",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm7.5-14"
+        }
+    ],
+    "print_key": "tcgdex:sm7.5-14",
+    "card_key": "758|110|1|Naoki Saito|20,80|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

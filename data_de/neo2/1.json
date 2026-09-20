@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo2-1",
+    "name": "Psiana",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Entdeckung",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "1",
+    "set_total": 75,
+    "rarity": "Selten",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 196,
+    "pokemon_category": "",
+    "flavor_text": "Es benutzt das feine Haar, mit dem sein Körper bedeckt ist, um Luftströme zu spüren und die Aktionen seines Gegners zu erahnen.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Biss",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psychokinese",
+            "damage": "30+",
+            "effect": "Fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede an das verteidigende Pokémon angelegte Energiekarte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo2-1"
+        }
+    ],
+    "print_key": "tcgdex:neo2-1",
+    "card_key": "196|80|None|Atsuko Nishida|20,30+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

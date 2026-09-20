@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw10-61",
+    "name": "Cavalanzas",
+    "img": "https://assets.tcgdex.net/de/bw/bw10/61/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw10",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw10/symbol",
+    "set_full_name": "Plasma-Blaster",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw10",
+    "date": "2013-08-14",
+    "number": "61",
+    "set_total": 105,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 589,
+    "pokemon_category": "",
+    "flavor_text": "Eine von einem Schnuthelm gestohlene Muschel dient ihm als Helm. Es greift Gegner mit seinen beiden Lanzen an.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Überrollen",
+            "damage": 40,
+            "effect": "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schlitzender Schlag",
+            "damage": 80,
+            "effect": "Dieses Pokémon kann Schlitzender Schlag während deines nächsten Zuges nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Laukaps",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw10-61"
+        }
+    ],
+    "print_key": "tcgdex:bw10-61",
+    "card_key": "589|100|3|5ban Graphics|40,80|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

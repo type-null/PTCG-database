@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-2",
+    "name": "Blastoise",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "2",
+    "set_total": 102,
+    "rarity": "Rara",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 9,
+    "pokemon_category": "",
+    "flavor_text": "Pokémon aggressivo con getti d'acqua pressurizzata dal guscio, che vengo usati per placcaggi ad alta velocità. LIV 52 N.9",
+    "stage": "Livello 2",
+    "hp": 100,
+    "types": [
+        "Acqua"
+    ],
+    "abilities": [
+        {
+            "name": "Danza della Pioggia",
+            "effect": "Quante volte vuoi durante il tuo turno (prima di attaccare), puoi assegnare una carta Energia Acqua a uno dei tuoi Pokémon Acqua. (Questo non esaurisce la tua assegnazione di una carta Energia per turno.) Questo potere non può essere usato se Blastoise è Addormentato, Confuso o Paralizzato."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Acqua",
+                "Acqua",
+                "Acqua"
+            ],
+            "name": "Idropompa",
+            "damage": "40+",
+            "effect": "Infligge 40 danni più altri 10 danni per ogni carta Energia Acqua assegnata a Blastoise che non viene utilizzata per pagare il costo di Energia di questo attacco. Altre carte Energia Acqua dopo la 2ª non contano."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lampo"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Wartortle",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-2"
+        }
+    ],
+    "print_key": "tcgdex:base1-2",
+    "card_key": "9|100|3|Ken Sugimori|40+|3",
+    "types_en": [
+        "Water"
+    ]
+}

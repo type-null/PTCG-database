@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swsh2-80",
+    "name": "Sigilyph",
+    "img": "https://assets.tcgdex.net/es/swsh/swsh2/80/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Choque Rebelde",
+    "series": "Espada y Escudo",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "80",
+    "set_total": 209,
+    "rarity": "Rara",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 561,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 110,
+    "types": [
+        "Psíquico"
+    ],
+    "abilities": [
+        {
+            "name": "Contragolpe",
+            "effect": "Si este Pokémon es tu Pokémon Activo y resulta dañado por un ataque de tu rival (incluso si este Pokémon queda Fuera de Combate), pon 3 contadores de daño en el Pokémon Atacante."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psíquico",
+                "Incolora"
+            ],
+            "name": "Asalto Psíquico",
+            "damage": "30+",
+            "effect": "Este ataque hace 10 puntos de daño más por cada contador de daño en el Pokémon Activo de tu rival."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Rayo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swsh2-80"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-80",
+    "card_key": "561|110|1|Naoyo Kimura|30+|2",
+    "types_en": [
+        "Psychic"
+    ]
+}

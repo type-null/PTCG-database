@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss1-6",
+    "name": "Papungha",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss1/6/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss1",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss1/symbol",
+    "set_full_name": "HeartGold SoulSilver",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss1",
+    "date": "2010-02-10",
+    "number": "6",
+    "set_total": 124,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 189,
+    "pokemon_category": "",
+    "flavor_text": "Wenn es einmal vom Wind erfasst wurde, wird es mit seinen Fallschirmchen um den ganzen Erdball getragen.",
+    "stage": "Rang 2",
+    "hp": 90,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Massenangriff",
+            "damage": "10×",
+            "effect": "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl der Pokémon im Spiel (deiner und der deines Gegners) zu."
+        },
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Floraschild",
+            "damage": 30,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der Papungha durch Angriffe zugefügt wird, um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Hubelupf",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss1-6"
+        }
+    ],
+    "print_key": "tcgdex:hgss1-6",
+    "card_key": "189|90|0|sui|10x,30|1,1",
+    "types_en": [
+        "Grass"
+    ]
+}

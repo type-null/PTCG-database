@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl3-24",
+    "name": "Lamantine",
+    "img": "https://assets.tcgdex.net/fr/pl/pl3/24/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Vainqueurs Suprêmes",
+    "series": "Platine",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "24",
+    "set_total": 162,
+    "rarity": "Rare",
+    "author": [
+        "Kanako Eo"
+    ],
+    "pokedex_number": 87,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Isograisse",
+            "effect": "Tous les dégâts infligés à Lamantine par des attaques de Pokémon Fire et Water sont réduits de 30 (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Éclats glace",
+            "damage": 30,
+            "effect": "Si le Pokémon Défenseur est un Pokémon Fighting, les dégâts de base de cette attaque sont de 80 au lieu de 30."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Onde boréale",
+            "damage": 70,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Métal"
+        ],
+        "value": "+20"
+    },
+    "retreat": 3,
+    "evolve_from": "Otaria",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl3-24"
+        }
+    ],
+    "print_key": "tcgdex:pl3-24",
+    "card_key": "87|100|3|Kanako Eo|30,70|2,4",
+    "types_en": [
+        "Water"
+    ]
+}

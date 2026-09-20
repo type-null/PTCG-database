@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv02-045",
+    "name": "Azumarill",
+    "img": "https://assets.tcgdex.net/de/sv/sv02/045/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv02",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv02/symbol",
+    "set_full_name": "Entwicklungen in Paldea",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv02",
+    "date": "2023-06-09",
+    "number": "045",
+    "set_total": 279,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "En Morikura"
+    ],
+    "pokedex_number": 184,
+    "pokemon_category": "",
+    "flavor_text": "Seine langen Ohren sind hervorragende Sensoren, mit denen es Geräusche unter Wasser unterscheiden und zuordnen kann.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Blasengully",
+            "damage": 50,
+            "effect": "Heile 30 Schadenspunkte bei diesem Pokémon."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Slam",
+            "damage": "100×",
+            "effect": "Wirf 2 Münzen. Diese Attacke fügt 100 Schadenspunkte pro Kopf zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Marill",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv02-045"
+        }
+    ],
+    "print_key": "tcgdex:sv02-45",
+    "card_key": "184|120|1|En Morikura|50,100x|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

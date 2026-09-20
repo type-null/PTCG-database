@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-150",
+    "name": "Kabutops",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "150",
+    "set_total": 182,
+    "rarity": "Selten",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 141,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 90,
+    "types": [
+        "Farblos"
+    ],
+    "abilities": [
+        {
+            "name": "Kristall-Typ",
+            "effect": "Immer wenn du eine  -,  -oder eine  - Basis Energiekarte aus deiner Hand an Kabutops anlegst, ändert sich Kabutops'Typ (Farbe) bis zum Ende des Zuges zum gleichen Typ wie diese Energie."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Kampf"
+            ],
+            "name": "Entwäserungsschnitt",
+            "damage": 20,
+            "effect": "Entferne eine Schadensmarke von Kabutops."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Dreifachklinge",
+            "damage": "30×",
+            "effect": "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "x2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-150"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-150",
+    "card_key": "141|90|3|Atsuko Nishida|20,30x|3,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

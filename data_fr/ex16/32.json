@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex16-32",
+    "name": "Galegon",
+    "img": "https://assets.tcgdex.net/fr/ex/ex16/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex16",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex16/symbol",
+    "set_full_name": "EX Gardiens du Pouvoir",
+    "series": "EX",
+    "set_code": "ex16",
+    "date": "2007-02-17",
+    "number": "32",
+    "set_total": 108,
+    "rarity": "Peu Commune",
+    "author": [
+        "Sachiko Adachi"
+    ],
+    "pokedex_number": 305,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Tête de granit",
+            "damage": 20,
+            "effect": "Lors du prochain tour de votre adversaire, tous dégâts infligés à Galegon par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Écrasement",
+            "damage": "30+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Plante"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Galekid",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex16-32"
+        }
+    ],
+    "print_key": "tcgdex:ex16-32",
+    "card_key": "305|70|2|Sachiko Adachi|20,30+|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

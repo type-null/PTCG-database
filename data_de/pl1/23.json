@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-23",
+    "name": "Dialga",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "23",
+    "set_total": 133,
+    "rarity": "Selten",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 483,
+    "pokemon_category": "",
+    "flavor_text": "Ein Legendäres Pokémon aus der Sinnoh-Region. Schlägt das Herz von DIALGA, läuft die Zeit normal.",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Energiestrom",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ durchsuche deinen Ablagestapel nach 1 Basis-Energiekarte und lege sie an Dialga an."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Diamantschlag",
+            "damage": 100,
+            "effect": "Dialga kann in deinem nächsten Zug nicht angreifen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-23"
+        }
+    ],
+    "print_key": "tcgdex:pl1-23",
+    "card_key": "483|100|3|Kent Kanetsuna|20,100|2,4",
+    "types_en": [
+        "Metal"
+    ]
+}

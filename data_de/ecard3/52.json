@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-52",
+    "name": "Digdri",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "52",
+    "set_total": 182,
+    "rarity": "Häufig",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 51,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Tunnelbau",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Verhindere bei \"Kopf\" allen Schaden, der Digdri während des nächsten Zuges deines Gegners durch Angriffe zugefügt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Vergraben",
+            "damage": null,
+            "effect": "Wähle 1 der Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 30 Schadenspunkte zu. Wende keine Schwäche oder Resistenz an. (Alle anderen Auswirkungen von Angriffen, die nach der Anwendung von Schwäche und Resistenz stattfinden, finden immer noch statt.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-52"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-52",
+    "card_key": "51|70|1|Tomokazu Komiya|20,None|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

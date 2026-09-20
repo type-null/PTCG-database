@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-8",
+    "name": "Raichu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "8",
+    "set_total": 106,
+    "rarity": "Rare Holo",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Mettre en tranche",
+            "damage": 30,
+            "effect": "Raichu ne peut pas utiliser Mettre en tranche lors de votre prochain tour."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Balle coupée",
+            "damage": 50,
+            "effect": "Déplacez une carte Énergie attachée à Raichu sur 1 de vos Pokémon de Banc."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Balle explosive",
+            "damage": 100,
+            "effect": "Défaussez 3 Énergies attachées à n'importe lequel de vos Pokémon de la façon que vous voulez."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "evolve_from": "Pikachu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-8"
+        }
+    ],
+    "print_key": "tcgdex:dp7-8",
+    "card_key": "26|90|None|Kagemaru Himeno|30,50,100|0,3,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-2",
+    "name": "Dracolosse",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "2",
+    "set_total": 146,
+    "rarity": "Rare Holo",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 149,
+    "pokemon_category": "",
+    "flavor_text": "On raconte qu'il vit quelque part en mer. Il guide les équipages naufragés jusqu'à la terre ferme.",
+    "stage": "Niveau 2",
+    "hp": 140,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Ultralaser",
+            "damage": 40,
+            "effect": "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Draco Météor",
+            "damage": null,
+            "effect": "Lancez une pièce pour chaque Pokémon que possède votre adversaire. Si c'est une face, cette attaque inflige 50 dégâts au Pokémon correspondant. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Dragonir",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-2"
+        }
+    ],
+    "print_key": "tcgdex:dp6-2",
+    "card_key": "149|140|3|Mitsuhiro Arita|40,None|3,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

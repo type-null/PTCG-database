@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm5-5",
+    "name": "Roserade",
+    "img": "https://assets.tcgdex.net/de/sm/sm5/5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultra-Prisma",
+    "series": "Sonne & Mond",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "5",
+    "set_total": 173,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 407,
+    "pokemon_category": "",
+    "flavor_text": "Mit den Bewegungen eines Tänzers holt es aus und schlägt mit Ranken um sich, die giftige Dornen haben.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Einladendes Gift",
+            "damage": null,
+            "effect": "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus. Das neue Aktive Pokémon ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Blumenmixer",
+            "damage": 100,
+            "effect": "Verschiebe beliebig viele {G}-Energien von deinen Pokémon beliebig auf deine anderen Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Roselia",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm5-5"
+        }
+    ],
+    "print_key": "tcgdex:sm5-5",
+    "card_key": "407|100|1|Mitsuhiro Arita|None,100|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

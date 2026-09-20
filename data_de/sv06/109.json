@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv06-109",
+    "name": "Lumiflora",
+    "img": "https://assets.tcgdex.net/de/sv/sv06/109/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "H",
+    "set_name": "sv06",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv06/symbol",
+    "set_full_name": "Maskerade im Zwielicht",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv06",
+    "date": "2024-05-24",
+    "number": "109",
+    "set_total": 226,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kazumasa Yasukuni"
+    ],
+    "pokedex_number": 970,
+    "pokemon_category": "",
+    "flavor_text": "Vor Kurzem wurde festgestellt, dass seine Blütenblätter, die aus kristallisierter toxischer Energie bestehen, Terakristallen ähneln.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Nervengift",
+            "damage": null,
+            "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert und vergiftet."
+        },
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Giftschock",
+            "damage": "30+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners vergiftet ist, fügt diese Attacke 100 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Lumispross",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv06-109"
+        }
+    ],
+    "print_key": "tcgdex:sv06-109",
+    "card_key": "970|130|3|Kazumasa Yasukuni|None,30+|1,1",
+    "types_en": [
+        "Fighting"
+    ]
+}

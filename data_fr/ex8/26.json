@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex8-26",
+    "name": "Airmure",
+    "img": "https://assets.tcgdex.net/fr/ex/ex8/26/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "26",
+    "set_total": 108,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 227,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Métal"
+    ],
+    "abilities": [
+        {
+            "name": "Élévation métallique",
+            "effect": "Si Airmure possède une Énergie {M}, son Coût de retraite est de 0."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Meneur",
+            "damage": null,
+            "effect": "Piochez une carte."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Heavy Métal",
+            "damage": "10+",
+            "effect": "Lancez une pièce pour chaque Énergie {M} attachée à Airmure. Cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex8-26"
+        }
+    ],
+    "print_key": "tcgdex:ex8-26",
+    "card_key": "227|70|1|Kouki Saitou|None,10+|1,2",
+    "types_en": [
+        "Metal"
+    ]
+}

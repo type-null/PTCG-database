@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/swsh5-67",
+    "name": "Primeape",
+    "img": "https://assets.tcgdex.net/pt/swsh/swsh5/67/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "regulation": "E",
+    "set_name": "swsh5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh5/symbol",
+    "set_full_name": "Estilos de Batalha",
+    "series": "Espada e Escudo",
+    "set_code": "swsh5",
+    "date": "2021-03-19",
+    "number": "67",
+    "set_total": 183,
+    "rarity": "Rara",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 57,
+    "pokemon_category": "",
+    "stage": "Estágio 1",
+    "hp": 120,
+    "types": [
+        "Lutador"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolor"
+            ],
+            "name": "Esmagamento de Campo",
+            "damage": 20,
+            "effect": "Se o seu oponente tiver um Estádio em jogo, descarte-o."
+        },
+        {
+            "cost": [
+                "Lutador",
+                "Lutador"
+            ],
+            "name": "Golpe Cabeça Quente",
+            "damage": "50×",
+            "effect": "Este ataque causa 50 pontos de dano para cada um dos seus Pokémon no Banco que tiver algum contador de dano nele."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Mankey",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/swsh5-67"
+        }
+    ],
+    "print_key": "tcgdex:swsh5-67",
+    "card_key": "57|120|2|Kouki Saitou|20,50x|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

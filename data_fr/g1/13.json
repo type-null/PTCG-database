@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/g1-13",
+    "name": "Feunard-EX",
+    "img": "https://assets.tcgdex.net/fr/xy/g1/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Générations",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "13",
+    "set_total": 117,
+    "rarity": "Ultra Rare",
+    "author": [
+        "Eske Yoshinob"
+    ],
+    "pokedex_number": 38,
+    "pokemon_category": "",
+    "hp": 170,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Fulmi-Bonus",
+            "damage": null,
+            "effect": "Défaussez une carte Énergie Fire de votre main. Dans ce cas, piochez 3 cartes."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Déflagration",
+            "damage": 130,
+            "effect": "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/g1-13"
+        }
+    ],
+    "print_key": "tcgdex:g1-13",
+    "card_key": "38|170|1|Eske Yoshinob|None,130|1,4",
+    "types_en": [
+        "Fire"
+    ]
+}

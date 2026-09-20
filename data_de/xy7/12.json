@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy7-12",
+    "name": "Viridium",
+    "img": "https://assets.tcgdex.net/de/xy/xy7/12/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy7",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy7/symbol",
+    "set_full_name": "Ewiger Anfang",
+    "series": "XY",
+    "set_code": "xy7",
+    "date": "2015-08-12",
+    "number": "12",
+    "set_total": 101,
+    "rarity": "Selten",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 640,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Freilassen",
+            "damage": null,
+            "effect": "Nimm 2 Pokémon von deinem Ablagestapel auf deine Hand."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Preiszähler",
+            "damage": "40+",
+            "effect": "Wenn du mehr Preiskarten übrig hast als dein Gegner, fügt dieser Angriff 80 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy7-12"
+        }
+    ],
+    "print_key": "tcgdex:xy7-12",
+    "card_key": "640|110|1|match|None,40+|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

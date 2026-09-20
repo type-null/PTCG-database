@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/g1-23",
+    "name": "Garados",
+    "img": "https://assets.tcgdex.net/de/xy/g1/23/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Generationen",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "23",
+    "set_total": 117,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "flavor_text": "Ein gigantisches, sehr kraftvolles Pokémon. Es ist fähig, ganze Städte zu zerstören.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wahnsinnsplatscher",
+            "damage": 80,
+            "effect": "Dieser Angriff fügt jedem Pokémon auf der Bank (deinen und denen deines Gegners) 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Nassschweif",
+            "damage": "90+",
+            "effect": "Wirf für jede an dieses Pokémon angelegte {W}-Energie 1 Münze. Dieser Angriff fügt 30 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Karpador",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/g1-23"
+        }
+    ],
+    "print_key": "tcgdex:g1-23",
+    "card_key": "130|130|3|Shin Nagasawa|80,90+|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

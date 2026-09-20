@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard2-21",
+    "name": "Lanturn",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-Card",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "21",
+    "set_total": 186,
+    "rarity": "Selten",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 171,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Ionen-Umfärbung",
+            "effect": "Du kannst diese Power während jedem deiner Züge (vor deinem Angriff) verwenden. Alle an dein Aktives Pokémon angelegte {L}-Energie wird bis zum Ende des Zuges zu {W}-Energie. (Dieser Effekt endet, wenn sich dein Aktives Pokémon zurückzieht oder auf deine Hand zurückgeht.) Diese Fähigkeit kann nicht verwendet werden, falls Lanturn von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Elektrischer Tackle",
+            "damage": "20+",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte plus weitere 10 Schadenspunkte für jede an Lanturn angelegte {L}-Energie zu. Wirf eine Münze. Bei „Zahl“ fügt sich Lanturn für jede an es angelegte {L}-Energiekarte 10 Schadenspunkte selber zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "evolve_from": "Lampi",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard2-21"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-21",
+    "card_key": "171|80|1|Yuka Morii|20+|2",
+    "types_en": [
+        "Lightning"
+    ]
+}

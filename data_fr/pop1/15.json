@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pop1-15",
+    "name": "Hélédelle",
+    "img": "https://assets.tcgdex.net/fr/pop/pop1/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pop1",
+    "set_img": "https://assets.tcgdex.net/univ/pop/pop1/symbol",
+    "set_full_name": "POP Série 1",
+    "series": "POP",
+    "set_code": "pop1",
+    "date": "2004-09-01",
+    "number": "15",
+    "set_total": 17,
+    "rarity": "Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 277,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Puissance",
+            "damage": null,
+            "effect": "Lors de votre prochain tour, la base des dégâts d'Hâte d'Heledelle est de 70 au lieu de 30."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Hâte",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Heledelle lors du prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": null
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Nirondelle",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pop1-15"
+        }
+    ],
+    "print_key": "tcgdex:pop1-15",
+    "card_key": "277|70|1|Kagemaru Himeno|None,30|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

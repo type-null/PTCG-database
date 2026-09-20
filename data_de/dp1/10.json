@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp1-10",
+    "name": "Traunmagil",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perl",
+    "series": "Diamant & Perl",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "10",
+    "set_total": 130,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Mikiko Takeda"
+    ],
+    "pokedex_number": 429,
+    "pokemon_category": "",
+    "flavor_text": "Seine Rufe klingen wie Beschwörungen. Die, die sie hören, kriegen Kopfschmerzen und Halluzinationen.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Abrechnen",
+            "damage": null,
+            "effect": "Zähle die Anzahl deiner Pokémon, auf denen Schadensmarken liegen. Lege die gleiche Anzahl Schadensmarken auf das Verteidigende Pokémon."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psywelle",
+            "damage": "30+",
+            "effect": "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede Energie, die am Verteidigenden Pokémon angelegt ist, zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Traunfugil",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp1-10"
+        }
+    ],
+    "print_key": "tcgdex:dp1-10",
+    "card_key": "429|90|1|Mikiko Takeda|None,30+|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

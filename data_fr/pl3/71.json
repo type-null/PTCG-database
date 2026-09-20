@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl3-71",
+    "name": "Négapi",
+    "img": "https://assets.tcgdex.net/fr/pl/pl3/71/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Vainqueurs Suprêmes",
+    "series": "Platine",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "71",
+    "set_total": 162,
+    "rarity": "Peu Commune",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 312,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Appel à la famille",
+            "damage": null,
+            "effect": "Choisissez dans votre deck jusqu'à 2 Pokémon de Base Lightning et placez-les sur votre Banc. Ensuite, mélangez votre deck."
+        },
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Charge d'ordures",
+            "damage": 10,
+            "effect": "Cherchez dans votre pile de défausse une carte Énergie Lightning et attachez-la à 1 de vos Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl3-71"
+        }
+    ],
+    "print_key": "tcgdex:pl3-71",
+    "card_key": "312|60|1|Yuka Morii|None,10|0,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

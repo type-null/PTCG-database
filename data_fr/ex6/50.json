@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex6-50",
+    "name": "Carabaffe",
+    "img": "https://assets.tcgdex.net/fr/ex/ex6/50/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex6",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex6/symbol",
+    "set_full_name": "EX Rouge Feu & Vert Feuille",
+    "series": "EX",
+    "set_code": "ex6",
+    "date": "2004-09-01",
+    "number": "50",
+    "set_total": 116,
+    "rarity": "Peu Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 8,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Pistolet à O",
+            "damage": "20+",
+            "effect": "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {W} attachée à Carabaffe qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tour fracassant",
+            "damage": 40,
+            "effect": "Après votre attaque, vous pouvez échanger Carabaffe avec 1 des Pokémon de votre Banc."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Carapuce",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex6-50"
+        }
+    ],
+    "print_key": "tcgdex:ex6-50",
+    "card_key": "8|80|2|Mitsuhiro Arita|20+,40|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

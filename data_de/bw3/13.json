@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw3-13",
+    "name": "Viridium",
+    "img": "https://assets.tcgdex.net/de/bw/bw3/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw3",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw3/symbol",
+    "set_full_name": "Königliche Siege",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw3",
+    "date": "2011-11-16",
+    "number": "13",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 640,
+    "pokemon_category": "",
+    "flavor_text": "Das Horn an seinem Kopf ist eine scharfe Klinge. Neckt seine Gegner mit quirligen Bewegungen und greift blitzartig an.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Zweifachzug",
+            "damage": null,
+            "effect": "Ziehe 2 Karten."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Blattprügel",
+            "damage": 40,
+            "effect": "Während deines nächsten Zuges fügt die Attacke Blattprügel dieses Pokémon 40 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw3-13"
+        }
+    ],
+    "print_key": "tcgdex:bw3-13",
+    "card_key": "640|110|1|5ban Graphics|None,40|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

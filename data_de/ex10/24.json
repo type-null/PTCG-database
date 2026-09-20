@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex10-24",
+    "name": "Nockchan",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Verborgene Mächte",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "24",
+    "set_total": 117,
+    "rarity": "Selten",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 107,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Stages of Evolution",
+            "effect": "As long as Hitmonchan is an Evolved Pokémon, Hitmonchan gets +30 HP."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Heavy Punch",
+            "damage": "10x",
+            "effect": "Does 10 damage times the number of your opponent's Benched Pokémon."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Speedy Uppercut",
+            "damage": 50,
+            "effect": "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex10-24"
+        }
+    ],
+    "print_key": "tcgdex:ex10-24",
+    "card_key": "107|70|1|Hisao Nakamura|10x,50|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

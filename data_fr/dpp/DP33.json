@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dpp-DP33",
+    "name": "Noctunoir",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dpp",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dpp/symbol",
+    "set_full_name": "Promo DP",
+    "series": "Diamant & Perle",
+    "set_code": "dpp",
+    "date": "2007-05-01",
+    "number": "DP33",
+    "set_total": 56,
+    "rarity": "Commune",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 477,
+    "pokemon_category": "",
+    "flavor_text": "L'antenne sur sa tête capte les ondes radio du monde des esprits lui ordonnant d'y porter les gens.",
+    "stage": "Niveau 2",
+    "hp": 130,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Cachette obscure",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, regardez la main de votre adversaire, choisissez-y un Pokémon et placez-le au dessous de son deck. Ce pouvoir ne peut pas être utilisé si Noctunoir est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Pouls maléfique",
+            "damage": 70,
+            "effect": "Déplacez jusqu'à 2 marqueurs de dégât de Noctunoir sur 1 des Pokémon de Banc de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Téraclope",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dpp-DP33"
+        }
+    ],
+    "print_key": "tcgdex:dpp-DP33",
+    "card_key": "477|130|2|Kent Kanetsuna|70|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

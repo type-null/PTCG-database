@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-46",
+    "name": "Anorith",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "46",
+    "set_total": 146,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 347,
+    "pokemon_category": "",
+    "flavor_text": "Un ancêtre Pokémon réanimé à partir d'un fossile. Il vivait en mer et chassait avec ses pinces.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Griffe de garde",
+            "damage": 20,
+            "effect": "Lors du prochain tour de votre adversaire, tous dégâts infligés à Anorith par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Plaie-Croix",
+            "damage": "30+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Klauenfossil",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-46"
+        }
+    ],
+    "print_key": "tcgdex:dp6-46",
+    "card_key": "347|80|1|Kouki Saitou|20,30+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

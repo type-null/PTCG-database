@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/xy5-69",
+    "name": "Nidoqueen",
+    "img": "https://assets.tcgdex.net/es/xy/xy5/69/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Duelos Primigenios",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "69",
+    "set_total": 164,
+    "rarity": "Rara",
+    "author": [
+        "PLANETA"
+    ],
+    "pokedex_number": 31,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 140,
+    "types": [
+        "Psíquico"
+    ],
+    "abilities": [
+        {
+            "name": "{title}:",
+            "effect": "{title}: Este Pokémon puede atacar 2 veces por turno. (Si el primer ataque deja Fuera de Combate al Pokémon Activo de tu rival, puedes atacar otra vez después de que tu rival elija un nuevo Pokémon Activo)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psíquico"
+            ],
+            "name": "Puya Nociva",
+            "damage": 30,
+            "effect": "El Pokémon Activo de tu rival pasa a estar Envenenado."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Psíquico",
+                "Incolora"
+            ],
+            "name": "Puño Dinamita",
+            "damage": 70,
+            "effect": "Este Pokémon se hace 20 puntos de daño a sí mismo. No apliques Debilidad a este daño."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Nidorina",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/xy5-69"
+        }
+    ],
+    "print_key": "tcgdex:xy5-69",
+    "card_key": "31|140|2|PLANETA|30,70|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

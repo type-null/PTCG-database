@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pop3-5",
+    "name": "Posipi",
+    "img": "https://assets.tcgdex.net/fr/pop/pop3/5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pop3",
+    "set_img": "https://assets.tcgdex.net/univ/pop/pop3/symbol",
+    "set_full_name": "POP Série 3",
+    "series": "POP",
+    "set_code": "pop3",
+    "date": "2006-04-01",
+    "number": "5",
+    "set_total": 17,
+    "rarity": "Rare",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 311,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Courage !",
+            "damage": null,
+            "effect": "Piochez une carte. Si vous avez Négapi en jeu, piochez 2 cartes à la place."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Ion positif",
+            "damage": "20+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "« Boulon corporel »",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de votre adversaire qui a un Poké-Body. Cette attaque inflige 30 dégâts à ce Pokémon. (N'appliquez pas la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pop3-5"
+        }
+    ],
+    "print_key": "tcgdex:pop3-5",
+    "card_key": "311|50|1|Sumiyoshi Kizuki|None,20+,None|1,2,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

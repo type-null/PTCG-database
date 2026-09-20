@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv02-043",
+    "name": "Garados",
+    "img": "https://assets.tcgdex.net/de/sv/sv02/043/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv02",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv02/symbol",
+    "set_full_name": "Entwicklungen in Paldea",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv02",
+    "date": "2023-06-09",
+    "number": "043",
+    "set_total": 279,
+    "rarity": "Selten",
+    "author": [
+        "Yuya Oka"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "flavor_text": "Taucht es auf, randaliert es. Es beruhigt sich erst, wenn es alles um sich zerstört hat.",
+    "stage": "Rang 1",
+    "hp": 180,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Rachesturm",
+            "damage": "80+",
+            "effect": "Wenn du mehr verbleibende Preiskarten hast als dein Gegner, fügt diese Attacke 100 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Berserkerwut",
+            "damage": 200,
+            "effect": "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Karpador",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv02-043"
+        }
+    ],
+    "print_key": "tcgdex:sv02-43",
+    "card_key": "130|180|4|Yuya Oka|80+,200|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

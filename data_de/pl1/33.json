@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-33",
+    "name": "Schlurplek",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "33",
+    "set_total": 133,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 463,
+    "pokemon_category": "",
+    "flavor_text": "Die lange Zunge ist immer feucht. Ihr Speichel enthält eine Substanz, die Taubheit hervorrufen kann.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Grumpf",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Bevor der Schaden zugefügt wird, entferne alle Trainerkarten, die an dem gewählten Pokémon angelegt sind, und lege sie auf den Ablagestapel deines Gegners."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Platt drücken",
+            "damage": 60,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt und lege 1 am Verteidigenden Pokémon angelegte Energiekarte auf den Ablagestapel deines Gegners."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+20"
+    },
+    "retreat": 4,
+    "evolve_from": "Schlurp",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-33"
+        }
+    ],
+    "print_key": "tcgdex:pl1-33",
+    "card_key": "463|120|4|Mitsuhiro Arita|None,60|3,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

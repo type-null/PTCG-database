@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/sm1-34",
+    "name": "Cloyster",
+    "img": "https://assets.tcgdex.net/pt/sm/sm1/34/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sol e Lua",
+    "series": "Sol e Lua",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "34",
+    "set_total": 163,
+    "rarity": "Rara",
+    "author": [
+        "Yoshinobu Saito"
+    ],
+    "pokedex_number": 91,
+    "pokemon_category": "",
+    "stage": "Estágio 1",
+    "hp": 120,
+    "types": [
+        "Água"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Água",
+                "Incolor"
+            ],
+            "name": "Gravata",
+            "damage": "30+",
+            "effect": "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais. Se sair coroa, o Pokémon Ativo do seu oponente será Paralisado."
+        },
+        {
+            "cost": [
+                "Água",
+                "Água",
+                "Incolor"
+            ],
+            "name": "Aperto Protetor",
+            "damage": 80,
+            "effect": "Durante a próxima vez de jogar do seu oponente, este Pokémon receberá 20 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/sm1-34"
+        }
+    ],
+    "print_key": "tcgdex:sm1-34",
+    "card_key": "91|120|3|Yoshinobu Saito|30+,80|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

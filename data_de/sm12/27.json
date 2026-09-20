@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm12-27",
+    "name": "Magcargo",
+    "img": "https://assets.tcgdex.net/de/sm/sm12/27/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm12",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm12/symbol",
+    "set_full_name": "Welten im Wandel",
+    "series": "Sonne & Mond",
+    "set_code": "sm12",
+    "date": "2019-11-01",
+    "number": "27",
+    "set_total": 271,
+    "rarity": "Selten",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 219,
+    "pokemon_category": "",
+    "flavor_text": "Aus seinem porösen Schneckengehäuse sprudeln Feuerfontänen, die seinen Körper durchfluten.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Davonstapfen",
+            "damage": null,
+            "effect": "Lege die obersten 2 Karten des Decks deines Gegners auf seinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Flammenwurf",
+            "damage": 80,
+            "effect": "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Schneckmag",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm12-27"
+        }
+    ],
+    "print_key": "tcgdex:sm12-27",
+    "card_key": "219|120|3|Miki Tanaka|None,80|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

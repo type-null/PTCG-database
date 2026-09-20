@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-107",
+    "name": "Feuforêve",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "107",
+    "set_total": 146,
+    "rarity": "Commune",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 200,
+    "pokemon_category": "",
+    "flavor_text": "Il adore se faufiler derrière les gens la nuit pour les effrayer avec son cri strident.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Crâneur",
+            "damage": null,
+            "effect": "Choisissez dans votre deck une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
+        },
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Représailles",
+            "damage": "10+",
+            "effect": "S'il ne reste à votre adversaire qu'1 carte Récompense, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-107"
+        }
+    ],
+    "print_key": "tcgdex:dp6-107",
+    "card_key": "200|60|1|Sumiyoshi Kizuki|None,10+|0,1",
+    "types_en": [
+        "Psychic"
+    ]
+}

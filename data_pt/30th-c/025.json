@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/30th-c-025",
+    "name": "Scizor ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "30th-c",
+    "set_full_name": "Coleção Clássica de 30 Anos",
+    "series": "Megaevolução",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "025",
+    "set_total": 30,
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Básico",
+    "hp": 120,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal",
+                "Incolor"
+            ],
+            "name": "Asa de Aço",
+            "damage": 40,
+            "effect": "Durante o próximo turno do seu oponente, qualquer dano causado ao Scizor <em>ex</em> por ataques é reduzido em 20 <em>(após aplicar Fraqueza e Resistência)</em>."
+        },
+        {
+            "cost": [
+                "Incolor",
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Corte em Cruz",
+            "damage": "50+",
+            "effect": "Se o Pokémon Defensor for um Pokémon Evoluído, este ataque causa 50 de dano mais 30 de dano adicionais."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fogo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Planta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/30th-c-025"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-25",
+    "card_key": "212|120|1|Mitsuhiro Arita|40,50+|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

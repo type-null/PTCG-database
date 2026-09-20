@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw6-43",
+    "name": "Voltenso",
+    "img": "https://assets.tcgdex.net/de/bw/bw6/43/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw6",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw6/symbol",
+    "set_full_name": "Hoheit der Drachen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw6",
+    "date": "2012-08-15",
+    "number": "43",
+    "set_total": 128,
+    "rarity": "Selten",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 310,
+    "pokemon_category": "",
+    "flavor_text": "Aus seiner Mähne entlädt es Elektrizität. Es generiert eine Gewitterwolke, aus der es Blitze entlädt.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Zermalmende Energie",
+            "damage": 20,
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an allen Pokémon deines Gegners angelegten Energien zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Blitzeinschlag",
+            "damage": 80,
+            "effect": "Dieser Angriff fügt 1 deiner Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Frizelbliz",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw6-43"
+        }
+    ],
+    "print_key": "tcgdex:bw6-43",
+    "card_key": "310|90|0|Naoyo Kimura|20,80|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

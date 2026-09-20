@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base5-45",
+    "name": "Aquali obscur",
+    "img": "https://assets.tcgdex.net/fr/base/base5/45/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Base",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "45",
+    "set_total": 83,
+    "rarity": "Peu Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 134,
+    "pokemon_category": "",
+    "flavor_text": "Ce Pokémon est capable de contrôler l'eau, il est de ce fait capable de créer des tourbillons géants.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Morsure",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Tourbillon",
+            "damage": 20,
+            "effect": "Si le Pokémon Défenseur a au moins 1 carte Énergie attachée à lui, choisissez l'une d'elle et défaussez-la."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Évoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base5-45"
+        }
+    ],
+    "print_key": "tcgdex:base5-45",
+    "card_key": "134|60|1|Mitsuhiro Arita|30,20|3,3",
+    "types_en": [
+        "Water"
+    ]
+}

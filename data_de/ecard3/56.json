@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-56",
+    "name": "Forstellka",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "56",
+    "set_total": 182,
+    "rarity": "Häufig",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 205,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Exoskelett",
+            "effect": "Jeder Schaden der Frostellka durch Angriff zugefügt wird, wird um 10 reduziert (nachdem Schwäche udn resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Schalenbruch",
+            "damage": null,
+            "effect": "Dieser Angriff fügt jedem Pokémon auf der gegnerischen Bank 10 Schadenspunkte zu. (Wende keine Schwäche oder Resistenz bei Pokémon auf der Bank an.)"
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Doppeldreher",
+            "damage": "40×",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-56"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-56",
+    "card_key": "205|70|2|Kouki Saitou|None,40x|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

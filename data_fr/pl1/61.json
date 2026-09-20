@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-61",
+    "name": "Séviper",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/61/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "61",
+    "set_total": 133,
+    "rarity": "Peu Commune",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 336,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Mue",
+            "damage": null,
+            "effect": "Retirez à Seviper 4 marqueurs de dégât."
+        },
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Mordre avant de s'échapper",
+            "damage": 20,
+            "effect": "Vous pouvez échanger Seviper avec 1 des Pokémon de votre Banc."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Poison paralysant",
+            "damage": 40,
+            "effect": "Le Pokémon Défenseur est maintenant Empoisonné. Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-61"
+        }
+    ],
+    "print_key": "tcgdex:pl1-61",
+    "card_key": "336|80|1|Sumiyoshi Kizuki|None,20,40|0,1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss4-31",
+    "name": "Wailord",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss4/31/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss4",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss4/symbol",
+    "set_full_name": "Triumph",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss4",
+    "date": "2010-11-03",
+    "number": "31",
+    "set_total": 103,
+    "rarity": "Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 321,
+    "pokemon_category": "",
+    "flavor_text": "Das größte Pokémon. Es treibt seine Beute in der Gruppe zusammen, indem es aus dem Wasser springt.",
+    "stage": "Rang 1",
+    "hp": 180,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Unterwasserausflug",
+            "damage": null,
+            "effect": "Wirf 2 Münzen. Entferne pro „Kopf“ 3 Schadensmarken von Wailord."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Runterschlucken",
+            "damage": "50+",
+            "effect": "Bevor der Schaden zugefügt wird, vergleiche die verbliebenen KP des Verteidigenden Pokémon und Wailord. Wenn das Verteidigende Pokémon weniger verbliebene KP hat als Wailord, fügt dieser Angriff 50 Schadenspunkte plus 50 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Wailmer",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss4-31"
+        }
+    ],
+    "print_key": "tcgdex:hgss4-31",
+    "card_key": "321|180|4|Hajime Kusajima|None,50+|2,4",
+    "types_en": [
+        "Water"
+    ]
+}

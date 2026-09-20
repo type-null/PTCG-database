@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm4-77",
+    "name": "Ékaïser",
+    "img": "https://assets.tcgdex.net/fr/sm/sm4/77/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Invasion Carmin",
+    "series": "Soleil et Lune",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "77",
+    "set_total": 125,
+    "rarity": "Rare",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 784,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 160,
+    "types": [
+        "Dragon"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Cri de Guerre",
+            "damage": "30+",
+            "effect": "S’il vous reste moins de Pokémon en jeu que votre adversaire, cette attaque inflige 90 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Vibrécaille",
+            "damage": 130,
+            "effect": "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts supplémentaires provenant des attaques (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fée"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Écaïd",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm4-77"
+        }
+    ],
+    "print_key": "tcgdex:sm4-77",
+    "card_key": "784|160|2|kawayoo|30+,130|2,3",
+    "types_en": [
+        "Dragon"
+    ]
+}

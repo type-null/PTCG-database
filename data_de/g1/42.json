@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/g1-42",
+    "name": "Machomei",
+    "img": "https://assets.tcgdex.net/de/xy/g1/42/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Generationen",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "42",
+    "set_total": 117,
+    "rarity": "Selten",
+    "author": [
+        "PLANETA"
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "flavor_text": "Seine markigen Arme können innerhalb von nur zwei Sekunden 1 000 Schläge verteilen.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Kampfgeist",
+            "effect": "Jeder Angriff deiner {F}-Pokémon fügt dem Aktiven Pokémon deines Gegners 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Machomei-Mühle",
+            "damage": 80,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der durch Angriffe des Verteidigenden Pokémon zugefügt wird, um 40 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Maschock",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/g1-42"
+        }
+    ],
+    "print_key": "tcgdex:g1-42",
+    "card_key": "68|150|2|PLANETA|80|3",
+    "types_en": [
+        "Fighting"
+    ]
+}

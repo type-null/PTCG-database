@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy9-49",
+    "name": "Zéblitz",
+    "img": "https://assets.tcgdex.net/fr/xy/xy9/49/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy9",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy9/symbol",
+    "set_full_name": "Rupture Turbo",
+    "series": "XY",
+    "set_code": "xy9",
+    "date": "2016-02-03",
+    "number": "49",
+    "set_total": 126,
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 523,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Zone Électrique",
+            "effect": "Les dégâts des attaques de vos Pokémon Lightning ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Éclair Fracassant",
+            "damage": "50+",
+            "effect": "Si le Pokémon Actif de votre adversaire a une Résistance à Fighting, cette attaque inflige 60 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Zébibron",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy9-49"
+        }
+    ],
+    "print_key": "tcgdex:xy9-49",
+    "card_key": "523|100|1|Hajime Kusajima|50+|2",
+    "types_en": [
+        "Lightning"
+    ]
+}

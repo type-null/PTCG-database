@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-20",
+    "name": "Bastiodon",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/20/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "20",
+    "set_total": 133,
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 411,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 130,
+    "types": [
+        "Métal"
+    ],
+    "abilities": [
+        {
+            "name": "Trait métallique",
+            "effect": "Tant que Bastiodon possède un Outil Pokémon, retirez-lui 1 marqueur de dégât entre 2 tours."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Mur de fer",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Bastiodon lors du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Charge de fer",
+            "damage": 80,
+            "effect": "Bastiodon s'inflige 30 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Dinoclier",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-20"
+        }
+    ],
+    "print_key": "tcgdex:pl1-20",
+    "card_key": "411|130|4|Kagemaru Himeno|30,80|3,4",
+    "types_en": [
+        "Metal"
+    ]
+}

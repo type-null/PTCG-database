@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/hgssp-HGSS03",
+    "name": "Pikachu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "hgssp",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgssp/symbol",
+    "set_full_name": "Promo HGSS",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgssp",
+    "date": "2010-02-11",
+    "number": "HGSS03",
+    "set_total": 25,
+    "rarity": "Promo",
+    "author": [
+        "Kanako Eo"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Recharge",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, cherchez une carte Énergie  dans votre deck et attachez-la à Pikachu. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tonnerre",
+            "damage": 100,
+            "effect": "Défaussez toutes les cartes Énergie attachées à Pikachu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/hgssp-HGSS03"
+        }
+    ],
+    "print_key": "tcgdex:hgssp-HGSS03",
+    "card_key": "25|70|1|Kanako Eo|None,100|1,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

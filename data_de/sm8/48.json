@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm8-48",
+    "name": "Heatran",
+    "img": "https://assets.tcgdex.net/de/sm/sm8/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Echo des Donners",
+    "series": "Sonne & Mond",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "48",
+    "set_total": 236,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 485,
+    "pokemon_category": "",
+    "flavor_text": "Das Blut, das durch seinen Körper fließt, brodelt heiß wie Magma. Es lebt in vulkanischen Höhlen.",
+    "stage": "Basis",
+    "hp": 140,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Brennende Lava",
+            "damage": 60,
+            "effect": "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Heat-Bazooka",
+            "damage": 150,
+            "effect": "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm8-48"
+        }
+    ],
+    "print_key": "tcgdex:sm8-48",
+    "card_key": "485|140|4|Kagemaru Himeno|60,150|3,4",
+    "types_en": [
+        "Fire"
+    ]
+}

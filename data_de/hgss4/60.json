@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss4-60",
+    "name": "Tragosso",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss4/60/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss4",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss4/symbol",
+    "set_full_name": "Triumph",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss4",
+    "date": "2010-11-03",
+    "number": "60",
+    "set_total": 103,
+    "rarity": "Häufig",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 104,
+    "pokemon_category": "",
+    "flavor_text": "Ist es einsam oder traurig, wackelt der Schädel den es trägt und man hört es jammern und wimmern.",
+    "stage": "Basis",
+    "hp": 40,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Einsamer Knochen",
+            "effect": "Schaden, der Tragosso durch Angriffe deines Gegners zugefügt wird, wird für jedes Knogga in deinem Ablagestapel um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Knochenhatz",
+            "damage": "20×",
+            "effect": "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss4-60"
+        }
+    ],
+    "print_key": "tcgdex:hgss4-60",
+    "card_key": "104|40|1|kawayoo|20x|2",
+    "types_en": [
+        "Fighting"
+    ]
+}

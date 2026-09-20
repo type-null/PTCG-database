@@ -1,0 +1,61 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/col1-11",
+    "name": "Jirachi",
+    "img": "https://assets.tcgdex.net/de/col/col1/11/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "Ruf der Legenden",
+    "series": "Ruf der Legenden",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "11",
+    "set_total": 106,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 385,
+    "pokemon_category": "",
+    "flavor_text": "Wenn JIRACHI erwacht, erfüllt es die Wünsche, die man auf die Zettel an seinem Kopf geschrieben hat.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Lied des Sternenstaubs",
+            "effect": "Einmal während deines Zuges kannst du, wenn du Jirachi von deiner Hand auf deine Bank legst, 3 Münzen werfen. Durchsuche pro „Kopf“ deinen Ablagestapel nach einer {P}-Energiekarte und lege sie an Jirachi an."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Zeitumkehrung",
+            "damage": null,
+            "effect": "Wähle maximal so viele entwickelte Phase-1- oder Phase-2-Pokémon deines Gegners, wie Energien an Jirachi angelegt sind. Entferne die höchste Evolutionskarte von jedem der gewählten Pokémon. Dein Gegner nimmt diese Karten auf seine Hand zurück."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/col1-11"
+        }
+    ],
+    "print_key": "tcgdex:col1-11",
+    "card_key": "385|60|1|match|None|1",
+    "types_en": [
+        "Psychic"
+    ]
+}

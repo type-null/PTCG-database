@@ -1,0 +1,84 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-22",
+    "name": "Gastrodon Westliches Meer",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "22",
+    "set_total": 120,
+    "rarity": "Selten",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 423,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Tackle",
+            "damage": 50,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Lehmbombe",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte und allen anderen Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Tosende See",
+            "damage": "60+",
+            "effect": "Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Pokémon auf deiner Bank, auf dem mindestens 1 Schadensmarke liegt, zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Schalellos Westliches Meer",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-22"
+        }
+    ],
+    "print_key": "tcgdex:pl2-22",
+    "card_key": "423|110|3|Kyoko Umemoto|50,None,60+|3,3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/me04-061",
+    "name": "Metagross",
+    "img": "https://assets.tcgdex.net/es/me/me04/061/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "J",
+    "set_name": "me04",
+    "set_img": "https://assets.tcgdex.net/univ/me/me04/symbol",
+    "set_full_name": "Caos Creciente",
+    "series": "Megaevolución",
+    "set_code": "me04",
+    "date": "2026-05-22",
+    "number": "061",
+    "set_total": 122,
+    "rarity": "Uncommon",
+    "author": [
+        "Bun Toujo"
+    ],
+    "pokedex_number": 376,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 180,
+    "types": [
+        "Metálica"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metálica"
+            ],
+            "name": "Recuperarse",
+            "damage": 60,
+            "effect": "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo)."
+        },
+        {
+            "cost": [
+                "Metálica",
+                "Metálica",
+                "Metálica",
+                "Incolora"
+            ],
+            "name": "Martillo Metálico",
+            "damage": "150+",
+            "effect": "Puedes descartar 3 Energías {M} de este Pokémon y hacer que este ataque haga 150 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Planta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/me04-061"
+        }
+    ],
+    "print_key": "tcgdex:me04-61",
+    "card_key": "376|180|3|Bun Toujo|60,150+|1,4",
+    "types_en": [
+        "Metal"
+    ]
+}

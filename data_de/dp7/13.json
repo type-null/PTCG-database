@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-13",
+    "name": "Bronzong",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "13",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 437,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Recycler",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Karte von deiner Hand wählen und auf dein Deck legen. Danach durchsuche dein Deck nach bis zu 2 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Bronzong von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Seltsamer Drall",
+            "damage": "20+",
+            "effect": "Wenn du die gleiche Anzahl Karten auf der Hand hast wie dein Gegner, fügt dieser Angriff 20 Schadenspunkte plus 40 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Starkes Potenzial",
+            "damage": null,
+            "effect": "Lege auf jedes Pokémon deines Gegners für jede {C}-Energie in seinen Rückzugskosten (nachdem Effekte auf die Rückzugskosten verrechnet wurden) 1 Schadensmarke."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Bronzel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-13"
+        }
+    ],
+    "print_key": "tcgdex:dp7-13",
+    "card_key": "437|90|3|Kyoko Umemoto|20+,None|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

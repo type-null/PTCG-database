@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm3-11",
+    "name": "Skaraborn",
+    "img": "https://assets.tcgdex.net/de/sm/sm3/11/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Nacht in Flammen",
+    "series": "Sonne & Mond",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "11",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 214,
+    "pokemon_category": "",
+    "flavor_text": "Dieses kräftige Pokémon rammt sein stolzes Horn unter den Rumpf des Gegners und wirft ihn um.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Adrenalin",
+            "effect": "Wenn dieses Pokémon durch Schaden einer Attacke kampfunfähig würde, wirf 1 Münze. Bei Kopf wird dieses Pokémon nicht kampfunfähig und seine verbleibenden KP sind gleich 10."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Einwerfen",
+            "damage": 50,
+            "effect": "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm3-11"
+        }
+    ],
+    "print_key": "tcgdex:sm3-11",
+    "card_key": "214|110|2|Shin Nagasawa|50|2",
+    "types_en": [
+        "Grass"
+    ]
+}

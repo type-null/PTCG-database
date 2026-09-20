@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy11-86",
+    "name": "Trikephalo",
+    "img": "https://assets.tcgdex.net/de/xy/xy11/86/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Dampfkessel",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "86",
+    "set_total": 116,
+    "rarity": "Selten",
+    "author": [
+        "Hideki Ishikawa"
+    ],
+    "pokedex_number": 635,
+    "pokemon_category": "",
+    "flavor_text": "Ein kaltblütiges Pokémon, das auf alles reagiert, was sich bewegt, indem es mit seinen drei Köpfen danach schnappt.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Drache"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Grausame Fänge",
+            "damage": 40,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der durch Angriffe des Verteidigenden Pokémon zugefügt wird, um 40 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Schwarzer Brand",
+            "damage": "50×",
+            "effect": "Lege beliebig viele an deine Pokémon angelegte {D}-Energien auf deinen Ablagestapel. Dieser Angriff fügt 50 Schadenspunkte für jede der auf diese Weise abgelegte {D}-Energie zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fee"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Duodino",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy11-86"
+        }
+    ],
+    "print_key": "tcgdex:xy11-86",
+    "card_key": "635|150|3|Hideki Ishikawa|40,50x|2,3",
+    "types_en": [
+        "Dragon"
+    ]
+}

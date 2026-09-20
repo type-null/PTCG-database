@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/sm3-55",
+    "name": "Toxicroak",
+    "img": "https://assets.tcgdex.net/pt/sm/sm3/55/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Sombras Ardentes",
+    "series": "Sol e Lua",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "55",
+    "set_total": 169,
+    "rarity": "Rara",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 454,
+    "pokemon_category": "",
+    "stage": "Estágio 1",
+    "hp": 110,
+    "types": [
+        "Psíquico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psíquico",
+                "Incolor"
+            ],
+            "name": "Golpe Envenenado",
+            "damage": 30,
+            "effect": "O Pokémon Ativo do seu oponente agora está Envenenado."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Psíquico",
+                "Incolor"
+            ],
+            "name": "Impulso de Veneno",
+            "damage": "80+",
+            "effect": "Se este Pokémon estiver Envenenado, este ataque causará 80 pontos de dano a mais. Em seguida, remova aquela Condição Especial deste Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/sm3-55"
+        }
+    ],
+    "print_key": "tcgdex:sm3-55",
+    "card_key": "454|110|2|kawayoo|30,80+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

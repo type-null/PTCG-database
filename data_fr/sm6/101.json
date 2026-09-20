@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm6-101",
+    "name": "Bruyverne",
+    "img": "https://assets.tcgdex.net/fr/sm/sm6/101/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm6",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm6/symbol",
+    "set_full_name": "Lumière Interdite",
+    "series": "Soleil et Lune",
+    "set_code": "sm6",
+    "date": "2018-05-04",
+    "number": "101",
+    "set_total": 146,
+    "rarity": "Rare",
+    "author": [
+        "You Iribi"
+    ],
+    "pokedex_number": 715,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Ultrason",
+            "damage": 20,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Résonance",
+            "damage": "70+",
+            "effect": "Si le Pokémon Actif de votre adversaire est Confus, cette attaque inflige 70 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Sonistrelle",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm6-101"
+        }
+    ],
+    "print_key": "tcgdex:sm6-101",
+    "card_key": "715|120|1|You Iribi|20,70+|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh4-92",
+    "name": "Terrakium",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh4/92/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh4",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh4/symbol",
+    "set_full_name": "Voltage Éclatant",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh4",
+    "date": "2020-11-13",
+    "number": "92",
+    "set_total": 203,
+    "rarity": "Rare",
+    "author": [
+        "NC Empire"
+    ],
+    "pokedex_number": 639,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 140,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Pression de Garde",
+            "damage": 30,
+            "effect": "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Puissance Tellurique",
+            "damage": "80+",
+            "effect": "Si vous avez un Stade en jeu, cette attaque inflige 80 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh4-92"
+        }
+    ],
+    "print_key": "tcgdex:swsh4-92",
+    "card_key": "639|140|4|NC Empire|30,80+|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

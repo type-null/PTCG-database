@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex8-96",
+    "name": "Nostenfer ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex8/96/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "96",
+    "set_total": 108,
+    "rarity": "Rare",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 169,
+    "pokemon_category": "",
+    "hp": 130,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Déformation",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), si Nostenfer ex est votre Pokémon Actif, vous pouvez placer 1 marqueur de dégât sur 1 des Pokémon de votre adversaire. Ce pouvoir ne peut pas être utilisé si Nostenfer ex est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Attaque croisée",
+            "damage": "20x",
+            "effect": "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces. Si vous obtenez 2 faces ou plus, le Pokémon Défenseur est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Abattre",
+            "damage": "60+",
+            "effect": "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 60 dégâts plus 40 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 0,
+    "evolve_from": "Nosferalto",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex8-96"
+        }
+    ],
+    "print_key": "tcgdex:ex8-96",
+    "card_key": "169|130|0|Ryo Ueda|20x,60+|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

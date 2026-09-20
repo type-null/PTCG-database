@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-34",
+    "name": "Lainergie",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/34/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "34",
+    "set_total": 111,
+    "rarity": "Peu Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 180,
+    "pokemon_category": "",
+    "flavor_text": "Parce qu'il stocke trop d'électricité, il développe des plaques où sa laine ne pousse plus.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Décharge",
+            "damage": "30x",
+            "effect": "Défaussez toutes les cartes Énergie {L} attachées à Lainergie afin de pouvoir utiliser cette attaque. Lancez un nombre de pièces égal au nombre de cartes Énergie {L} que vous avez défaussé. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Courant électrique",
+            "damage": 20,
+            "effect": "Prenez une carte Énergie {L} attachée à Lainergie et attachez-la à 1 des Pokémon de votre Banc. Si vous n'avez pas de Pokémon sur votre Banc, défaussez cette carte énergie."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Wattouat",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-34"
+        }
+    ],
+    "print_key": "tcgdex:neo1-34",
+    "card_key": "180|60|1|Ken Sugimori|30x,20|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw7-79",
+    "name": "Sablaireau",
+    "img": "https://assets.tcgdex.net/fr/bw/bw7/79/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw7",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw7/symbol",
+    "set_full_name": "Frontières Franchies",
+    "series": "Noir & Blanc",
+    "set_code": "bw7",
+    "date": "2012-11-07",
+    "number": "79",
+    "set_total": 153,
+    "rarity": "Peu Commune",
+    "author": [
+        "BERUBURI"
+    ],
+    "pokedex_number": 28,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Jet de Sable",
+            "damage": 20,
+            "effect": "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c’est pile, son attaque ne fait rien."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Séisme",
+            "damage": 80,
+            "effect": "Inflige 10 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Sabelette",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw7-79"
+        }
+    ],
+    "print_key": "tcgdex:bw7-79",
+    "card_key": "28|90|1|BERUBURI|20,80|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

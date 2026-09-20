@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/cel25cc-CC019",
+    "name": "Donphan",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "Primo"
+    ],
+    "set_name": "cel25cc",
+    "set_full_name": "Célébrations Collection Classique",
+    "series": "Épée et Bouclier",
+    "set_code": "cel25cc",
+    "date": "2021-10-08",
+    "number": "CC019",
+    "set_total": 25,
+    "rarity": "Collection Classique",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 232,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Exosquelette",
+            "effect": "Tout dégât infligé à Donphan par des attaques est réduit de 20 (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Séisme",
+            "damage": 60,
+            "effect": "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Combat"
+            ],
+            "name": "Gros impact",
+            "damage": 90,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/cel25cc-CC019"
+        }
+    ],
+    "print_key": "tcgdex:cel25cc-CC019",
+    "card_key": "232|120|4|Kent Kanetsuna|60,90|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

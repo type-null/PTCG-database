@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-17",
+    "name": "Yanmega",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "17",
+    "set_total": 146,
+    "rarity": "Rare Holo",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 469,
+    "pokemon_category": "",
+    "flavor_text": "Les ondes de choc qu'il génère en battant des ailes infligent de graves blessures internes.",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Vague sonique",
+            "damage": 10,
+            "effect": "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Métal",
+                "Métal"
+            ],
+            "name": "Chasser et tourner",
+            "damage": "60+",
+            "effect": "Si le Pokémon Défenseur possède au moins 2 marqueurs de dégât, cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires. Échangez Yanmega avec 1 des Pokémon de votre Banc."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "evolve_from": "Yanma",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-17"
+        }
+    ],
+    "print_key": "tcgdex:dp6-17",
+    "card_key": "469|90|None|Kent Kanetsuna|10,60+|0,4",
+    "types_en": [
+        "Grass"
+    ]
+}

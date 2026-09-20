@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm6-78",
+    "name": "Pandagro",
+    "img": "https://assets.tcgdex.net/de/sm/sm6/78/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm6",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm6/symbol",
+    "set_full_name": "Grauen Der Lichtfinsternis",
+    "series": "Sonne & Mond",
+    "set_code": "sm6",
+    "date": "2018-05-04",
+    "number": "78",
+    "set_total": 146,
+    "rarity": "Selten",
+    "author": [
+        "SATOSHI NAKAI"
+    ],
+    "pokedex_number": 675,
+    "pokemon_category": "",
+    "flavor_text": "Mit seinem Blatt erspürt es die Bewegungen des Gegners. Es ist sehr grob und streitlustig, hält aber stets zu seinen Artgenossen.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Wilder Schlag",
+            "damage": "50+",
+            "effect": "Wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt, fügt diese Attacke 50 Schadenspunkte mehr zu und beide Aktiven Pokémon sind jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Doppelstampfer",
+            "damage": "80+",
+            "effect": "Wirf 2 Münzen. Diese Attacke fügt 40 Schadenspunkte mehr pro Kopf zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Pam-Pam",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm6-78"
+        }
+    ],
+    "print_key": "tcgdex:sm6-78",
+    "card_key": "675|130|3|SATOSHI NAKAI|50+,80+|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

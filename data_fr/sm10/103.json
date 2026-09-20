@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm10-103",
+    "name": "Démétéros",
+    "img": "https://assets.tcgdex.net/fr/sm/sm10/103/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Alliance Infaillible",
+    "series": "Soleil et Lune",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "103",
+    "set_total": 234,
+    "rarity": "Rare",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 645,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Attaque Linéaire",
+            "damage": null,
+            "effect": "Cette attaque inflige 30 dégâts à l’un des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Cyclone d’Énergie",
+            "damage": 60,
+            "effect": "Déplacez une Énergie de ce Pokémon vers l’un de vos Pokémon de Banc."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm10-103"
+        }
+    ],
+    "print_key": "tcgdex:sm10-103",
+    "card_key": "645|120|1|Hasuno|None,60|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm2-139",
+    "name": "Métalosse GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm2/139/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Gardiens Ascendants",
+    "series": "Soleil et Lune",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "139",
+    "set_total": 169,
+    "rarity": "Ultra Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 376,
+    "pokemon_category": "",
+    "hp": 250,
+    "types": [
+        "Métal"
+    ],
+    "abilities": [
+        {
+            "name": "Système Géotechnique",
+            "effect": "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Psychic ou Metal de votre pile de défausse à votre Pokémon Actif."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Giga Marteau",
+            "damage": 150,
+            "effect": "Ce Pokémon ne peut pas utiliser Giga Marteau pendant votre prochain tour."
+        },
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Algorithme GX",
+            "damage": null,
+            "effect": "Cherchez jusqu’à 5 cartes dans votre deck et ajoutez-les à votre main. Mélangez ensuite votre deck. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Métang",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm2-139"
+        }
+    ],
+    "print_key": "tcgdex:sm2-139",
+    "card_key": "376|250|3|5ban Graphics|150,None|3,1",
+    "types_en": [
+        "Metal"
+    ]
+}

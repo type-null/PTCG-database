@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp3-64",
+    "name": "Draschel",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Rätselhafte Wunder",
+    "series": "Diamant & Perl",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "64",
+    "set_total": 132,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 372,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Energiefokus",
+            "damage": null,
+            "effect": "In deinem nächsten Zug beträgt der Grundschaden des Angriffs Schützender Sturmangriff 80 Schadenspunkte."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schützender Sturmangriff",
+            "damage": 30,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der Draschel durch Angriffe zugefügt wird, um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp3-64"
+        }
+    ],
+    "print_key": "tcgdex:dp3-64",
+    "card_key": "372|80|2|Kouki Saitou|None,30|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

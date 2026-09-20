@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv06-122",
+    "name": "Galeking",
+    "img": "https://assets.tcgdex.net/fr/sv/sv06/122/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "H",
+    "set_name": "sv06",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv06/symbol",
+    "set_full_name": "Mascarade Crépusculaire",
+    "series": "Écarlate et Violet",
+    "set_code": "sv06",
+    "date": "2024-05-24",
+    "number": "122",
+    "set_total": 226,
+    "rarity": "Peu Commune",
+    "author": [
+        "Dsuke"
+    ],
+    "pokedex_number": 306,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 180,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal"
+            ],
+            "name": "Poussée Furieuse",
+            "damage": "50×",
+            "effect": "Cette attaque inflige 50 dégâts pour chacun de vos Pokémon ayant au moins un marqueur de dégâts."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Griffe de Garde",
+            "damage": 120,
+            "effect": "Pendant le prochain tour de votre adversaire, ce Pokémon subit 50 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Plante"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Galegon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv06-122"
+        }
+    ],
+    "print_key": "tcgdex:sv06-122",
+    "card_key": "306|180|3|Dsuke|50x,120|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

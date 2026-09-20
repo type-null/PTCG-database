@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm3-88",
+    "name": "Darkrai GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm3/88/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Ombres Ardentes",
+    "series": "Soleil et Lune",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "88",
+    "set_total": 169,
+    "rarity": "Ultra Rare",
+    "author": [
+        "PLANETA"
+    ],
+    "pokedex_number": 491,
+    "pokemon_category": "",
+    "hp": 180,
+    "types": [
+        "Obscurité"
+    ],
+    "abilities": [
+        {
+            "name": "Renouveau",
+            "effect": "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon se trouve dans votre pile de défausse, vous pouvez le placer sur votre Banc. Ensuite, attachez une carte Énergie Darkness de votre pile de défausse à ce Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Pénombre Pourfendue",
+            "damage": 130,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Sans Issue GX",
+            "damage": null,
+            "effect": "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, ce dernier est mis K.O. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm3-88"
+        }
+    ],
+    "print_key": "tcgdex:sm3-88",
+    "card_key": "491|180|2|PLANETA|130,None|3,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

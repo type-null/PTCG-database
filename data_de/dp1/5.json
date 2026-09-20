@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp1-5",
+    "name": "Panferno",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perl",
+    "series": "Diamant & Perl",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "5",
+    "set_total": 130,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Nakaoka"
+    ],
+    "pokedex_number": 392,
+    "pokemon_category": "",
+    "flavor_text": "Es kämpft auf besondere Art, indem es alle Gliedmaßen einsetzt. Sein Feuer erlöscht nie.",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Meteorhieb",
+            "damage": "30x",
+            "effect": "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Flammenblitz",
+            "damage": 90,
+            "effect": "Entferne alle an Panferno angelegten {R}-Energien und lege sie auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+30"
+    },
+    "evolve_from": "Panpyro",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp1-5"
+        }
+    ],
+    "print_key": "tcgdex:dp1-5",
+    "card_key": "392|100|None|Nakaoka|30x,90|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

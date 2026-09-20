@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex3-16",
+    "name": "Girafarig",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Drache",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "16",
+    "set_total": 100,
+    "rarity": "Selten",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 203,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Synchronsuche",
+            "damage": null,
+            "effect": "Falls an Girafarig und dem Verteidigenden Pokémon gleich viel Energie angelegt ist, wähle 1 Karte aus deinem Deck und nimm sie auf deine Hand."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Brechender Einfluss",
+            "damage": null,
+            "effect": "Wähle 1 gegnerisches Pokémon. Dieser Angriff fügt 10 Schadenspunkte für jede {C}-Energie in den Rückzugskosten des gewählten Pokémon zu (nachdem alle Effekte auf die Rückzugskosten verrechnet wurden). (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex3-16"
+        }
+    ],
+    "print_key": "tcgdex:ex3-16",
+    "card_key": "203|70|1|Midori Harada|None,None|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

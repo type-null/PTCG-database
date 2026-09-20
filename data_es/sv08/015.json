@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sv08-015",
+    "name": "Wo-Chien",
+    "img": "https://assets.tcgdex.net/es/sv/sv08/015/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "H",
+    "set_name": "sv08",
+    "set_full_name": "Chispas Fulgurantes",
+    "series": "Escarlata y Púrpura",
+    "set_code": "sv08",
+    "date": "2024-11-08",
+    "number": "015",
+    "set_total": 252,
+    "rarity": "Uncommon",
+    "author": [
+        "danciao"
+    ],
+    "pokedex_number": 1001,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 130,
+    "types": [
+        "Planta"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Planta",
+                "Incolora"
+            ],
+            "name": "Avaricia Peligrosa",
+            "damage": 20,
+            "effect": "Si hay 3 cartas o menos en tu baraja, este ataque también hace 120 puntos de daño a 2 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
+        },
+        {
+            "cost": [
+                "Planta",
+                "Planta",
+                "Incolora"
+            ],
+            "name": "Látigo Estrangulador",
+            "damage": 130,
+            "effect": "Descarta las 3 primeras cartas de tu baraja."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sv08-015"
+        }
+    ],
+    "print_key": "tcgdex:sv08-15",
+    "card_key": "1001|130|3|danciao|20,130|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

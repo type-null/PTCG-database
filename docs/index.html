@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pokémon Card Atlas</title>
+<!-- Everything this page needs is beside it on disk: the indexes under
+     docs/index/ and the pictures through the ignored `images` link. It asks the
+     network for nothing at all, so the type falls back to the system's own. -->
+<style>
+  html { color-scheme: light dark; }
+  img { max-width: 100%; }
+  :root {
+    --ground: #f4f6fb;
+    --surface: #ffffff;
+    --surface-2: #eef1f8;
+    --ink: #151a24;
+    --muted: #5d6879;
+    --line: #dde3ee;
+    --accent: #2b5cc4;
+    --accent-soft: #e6ecfa;
+    --gold: #9a6a12;
+    --gold-soft: #f7edd8;
+    --shadow: 0 1px 2px rgba(18, 28, 52, .06), 0 10px 28px rgba(18, 28, 52, .07);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #0e1118;
+      --surface: #161b26;
+      --surface-2: #1d2430;
+      --ink: #e7ebf3;
+      --muted: #97a1b3;
+      --line: #28303f;
+      --accent: #7da4f5;
+      --accent-soft: #1b2740;
+      --gold: #dcae54;
+      --gold-soft: #2c2415;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .5), 0 12px 30px rgba(0, 0, 0, .38);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #0e1118;
+    --surface: #161b26;
+    --surface-2: #1d2430;
+    --ink: #e7ebf3;
+    --muted: #97a1b3;
+    --line: #28303f;
+    --accent: #7da4f5;
+    --accent-soft: #1b2740;
+    --gold: #dcae54;
+    --gold-soft: #2c2415;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .5), 0 12px 30px rgba(0, 0, 0, .38);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font: 400 15px/1.55 "Public Sans", ui-sans-serif, system-ui, "Hiragino Sans",
+          "Noto Sans CJK JP", "Noto Sans CJK TC", "Noto Sans CJK KR", sans-serif;
+  }
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 20px; }
+
+  header { border-bottom: 1px solid var(--line); background: var(--surface); }
+  .masthead { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; padding-block: 20px 14px; }
+  h1 {
+    font-family: "Bricolage Grotesque", ui-sans-serif, sans-serif;
+    font-weight: 700; font-size: clamp(22px, 3.4vw, 30px); letter-spacing: -.02em;
+    margin: 0; text-wrap: balance;
+  }
+  .tagline { color: var(--muted); font-size: 14px; }
+  .tagline b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+
+  .langs { display: flex; flex-wrap: wrap; gap: 6px; padding-bottom: 14px; }
+  .lang {
+    display: inline-flex; align-items: baseline; gap: 7px;
+    border: 1px solid var(--line); background: var(--surface-2); color: var(--ink);
+    border-radius: 7px; padding: 5px 10px; cursor: pointer;
+    font: 500 13px/1 "Public Sans", sans-serif;
+  }
+  .lang:hover { border-color: var(--accent); }
+  .lang[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .lang .n { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11px; opacity: .75; font-variant-numeric: tabular-nums; }
+  .lang .flag { font-size: 13px; line-height: 1; margin-right: 1px; }
+
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding-bottom: 16px; }
+  input, select, button {
+    font: 400 14px "Public Sans", sans-serif; color: var(--ink);
+    background: var(--surface-2); border: 1px solid var(--line); border-radius: 7px; padding: 7px 10px;
+  }
+  #q { flex: 1 1 260px; min-width: 0; }
+  input:focus-visible, select:focus-visible, button:focus-visible, .lang:focus-visible, .card:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 2px;
+  }
+  button { cursor: pointer; }
+  button:hover { border-color: var(--accent); }
+  /* The grid runs to tens of thousands of cards, so the way back is a long one. */
+  #top {
+    position: fixed; right: 18px; bottom: 18px; z-index: 5;
+    padding: 9px 14px; border-radius: 999px; box-shadow: var(--shadow);
+    background: var(--surface); font-weight: 500;
+  }
+  .count { color: var(--muted); font-family: "IBM Plex Mono", monospace; font-size: 12px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  main { padding-block: 18px 56px; }
+  #grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(158px, 1fr)); }
+  .card {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+    overflow: hidden; cursor: pointer; text-align: left; padding: 0; box-shadow: var(--shadow);
+  }
+  .card:hover { border-color: var(--accent); }
+  /* A published page may load only pictures it ships with, and there are
+     171,961 cards, so a card is drawn rather than photographed: its energy
+     type tints the face, and the type is what the eye sorts the grid by. */
+  .face {
+    aspect-ratio: .717; display: flex; flex-direction: column; justify-content: space-between;
+    gap: 10px; padding: 12px; color: var(--ink);
+    background: linear-gradient(158deg, color-mix(in srgb, var(--tint) 24%, var(--surface)) 0%, var(--surface) 64%);
+  }
+  .face.big {
+    aspect-ratio: auto; min-height: 232px; border-radius: 8px; border: 1px solid var(--line);
+  }
+  .frow { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+  .ftype {
+    font: 600 10.5px/1.25 "Public Sans", sans-serif; letter-spacing: .08em; text-transform: uppercase;
+    color: color-mix(in srgb, var(--tint) 70%, var(--ink));
+  }
+  .fhp, .fset { font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .fname {
+    font-family: "Bricolage Grotesque", ui-sans-serif, sans-serif; font-weight: 700;
+    font-size: 16px; line-height: 1.12; letter-spacing: -.01em; text-wrap: balance;
+  }
+  .face.big .fname { font-size: 27px; }
+  .frar { font-size: 10.5px; font-weight: 600; color: var(--gold); white-space: nowrap; }
+  .sub { color: var(--muted); font-size: 11.5px; font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; }
+  /* The picture sits over the drawn face. If the archive has no copy of it, the
+     image is removed and the face below is what the reader sees. */
+  .shot { position: relative; display: block; }
+  .shot > img {
+    position: absolute; inset: 0; width: 100%; height: 100%;
+    object-fit: cover; display: block; background: var(--surface-2);
+  }
+  .shot.big { border-radius: 8px; overflow: hidden; }
+  .shot.big > img { position: static; height: auto; border-radius: 8px; }
+  .shot.big .face { display: none; }
+  .shot.big.bare .face { display: flex; }
+  .move { display: grid; gap: 2px; margin-bottom: 8px; }
+  .move b { font-weight: 600; }
+  .move span { color: var(--muted); white-space: pre-wrap; }
+  dd.long { white-space: pre-wrap; }
+  .rar { font-size: 11px; color: var(--gold); font-weight: 600; }
+
+  dialog {
+    border: 1px solid var(--line); border-radius: 12px; padding: 0; width: min(880px, 94vw);
+    background: var(--surface); color: var(--ink); box-shadow: var(--shadow);
+  }
+  dialog::backdrop { background: rgba(8, 12, 22, .58); }
+  .detail { display: grid; grid-template-columns: 260px 1fr; gap: 22px; padding: 22px; }
+  @media (max-width: 680px) { .detail { grid-template-columns: 1fr; } }
+  .detail img { width: 100%; border-radius: 8px; }
+  .detail h2 { font-family: "Bricolage Grotesque", sans-serif; font-size: 21px; margin: 0 0 2px; text-wrap: balance; }
+  .chips { display: flex; flex-wrap: wrap; gap: 5px; margin: 8px 0 14px; }
+  .chip { border: 1px solid var(--line); background: var(--surface-2); border-radius: 999px; padding: 2px 9px; font-size: 12px; }
+  .chip.gold { background: var(--gold-soft); border-color: transparent; color: var(--gold); font-weight: 600; }
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; margin: 0 0 14px; }
+  dt { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .05em; }
+  dd { margin: 0; font-size: 14px; }
+  .text { border-top: 1px solid var(--line); padding-top: 12px; white-space: pre-wrap; font-size: 14px; max-height: 260px; overflow: auto; }
+  .close { position: absolute; top: 12px; right: 14px; }
+  .note { color: var(--muted); font-size: 12.5px; margin-top: 14px; }
+
+  /* Other printings of the same card: same slot in every row, so the eye can
+     run down the language column. */
+  .vgroup { border-top: 1px solid var(--line); margin-top: 14px; padding-top: 12px; }
+  .vgroup h3 { font: 600 12px/1 "Public Sans", sans-serif; color: var(--muted);
+               text-transform: uppercase; letter-spacing: .05em; margin: 0 0 8px; }
+  .vlist { display: grid; gap: 4px; max-height: 190px; overflow: auto; }
+  .ver {
+    display: grid; grid-template-columns: 5.5rem 1fr auto auto; gap: 10px; align-items: baseline;
+    text-align: left; background: var(--surface-2); border: 1px solid var(--line);
+    border-radius: 7px; padding: 5px 9px; cursor: pointer; font: 400 13px "Public Sans", sans-serif;
+  }
+  .ver:hover { border-color: var(--accent); }
+  .vlang { color: var(--accent); font-weight: 600; font-size: 12px; }
+  .vname { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .vset { color: var(--muted); font-family: "IBM Plex Mono", monospace; font-size: 11.5px; font-variant-numeric: tabular-nums; }
+  .vrar { color: var(--gold); font-size: 11.5px; font-weight: 600; }
+  .vnone { color: var(--muted); font-size: 12.5px; }
+  .note a, footer a { color: var(--accent); }
+  footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; padding-block: 18px 40px; }
+  .status { color: var(--muted); padding: 30px 2px; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="masthead">
+      <h1>Pokémon Card Atlas</h1>
+      <span class="tagline"><b id="total">—</b> cards scraped from the official card databases, in <b id="nlang">—</b> languages</span>
+    </div>
+    <div class="langs" id="langs"></div>
+    <div class="filters">
+      <input id="q" type="search" placeholder="Search name, attacks, abilities, rules, type — in any language…">
+      <select id="set"><option value="">All sets</option></select>
+      <select id="type"><option value="">All card types</option></select>
+      <select id="rarity"><option value="">All rarities</option></select>
+      <select id="order" title="English, the European languages and Simplified Chinese carry a release date. Japanese, Korean, Traditional Chinese and TCG Pocket publish none, so those are ordered by the numbering their sites issue, which runs the same way.">
+        <option value="index">Set order</option>
+        <option value="new">Newest first</option>
+        <option value="old">Oldest first</option>
+      </select>
+      <button id="reset" type="button">Reset</button>
+      <span class="count" id="count"></span>
+    </div>
+  </div>
+</header>
+
+<button id="top" type="button" hidden aria-label="Back to the top of the list">↑ Top</button>
+
+<main class="wrap">
+  <div id="grid"></div>
+  <div class="status" id="status">Loading the English index…</div>
+</main>
+
+<footer class="wrap">
+  <p>
+    Pictures are read from the archive beside this repository, through the
+    ignored <code>images</code> link — run <code>code/downloadImages.py</code> to
+    fill it. A card whose picture has not been downloaded, or whose source
+    publishes none, is drawn from its own record instead. Open this page over a
+    local server (<code>python3 -m http.server</code> from the repository root,
+    then <code>/docs/</code>) so the browser is allowed to read them.
+  </p>
+  Japanese, Traditional Chinese and Korean come from the official Pokémon card
+  sites; English from pkmncards; TCG Pocket from limitlesstcg. French, German,
+  Spanish, Italian, Portuguese and Simplified Chinese have no official database
+  to read, so they come from the community TCGdex API — every one of those
+  cards names it under <code>sources</code>, and older sets there often publish
+  no picture, Simplified Chinese none at all. This page carries the searchable
+  index; the complete stored record for each card lives in the repository as
+  <code>data_&lt;lang&gt;/&lt;set&gt;/&lt;card&gt;.json</code>.
+</footer>
+
+<dialog id="detail">
+  <button class="close" type="button" onclick="detail.close()">Close</button>
+  <div class="detail" id="detailBody"></div>
+</dialog>
+
+<script>
+const PAGE = 120;
+const el = id => document.getElementById(id);
+const LANG_NAME = { jp: "Japanese", en: "English", tc: "Traditional Chinese", ko: "Korean",
+                    fr: "French", sc: "Simplified Chinese", pocket: "TCG Pocket",
+                    de: "German", es: "Spanish", it: "Italian", pt: "Portuguese" };
+
+// Where each card database is published. TCG Pocket is a game, not a country,
+// so it takes the phone it is played on.
+const FLAG = { jp: "🇯🇵", en: "🇺🇸", tc: "🇹🇼", ko: "🇰🇷", sc: "🇨🇳", pocket: "📱",
+               fr: "🇫🇷", de: "🇩🇪", es: "🇪🇸", it: "🇮🇹", pt: "🇵🇹" };
+let fields = [], cards = [], filtered = [], shown = 0, lang = "en";
+const idx = name => fields.indexOf(name);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+// A published page may load only the pictures it ships with, and there are
+// 171,961 cards, so none are shown here. A card is drawn instead: its energy
+// type tints the face, which is the one thing about a card the eye reads first.
+const TYPE_TINT = {
+  Grass: "#3f8f4f", Fire: "#d2552e", Water: "#2f7ecd", Lightning: "#cfa015",
+  Psychic: "#9457b0", Fighting: "#b45a2c", Darkness: "#44515f", Metal: "#7e8b98",
+  Fairy: "#d0649a", Dragon: "#a3872f", Colorless: "#8b8d93",
+};
+
+// Every index this page has read, kept so a card can be shown in another
+// language without leaving the one in front of you.
+const indexes = {};
+
+async function indexFor(which) {
+  if (!indexes[which]) {
+    const data = await loadJson(`index/${which}.json`);
+    indexes[which] = { fields: data.fields, cards: data.cards };
+  }
+  return indexes[which];
+}
+
+//: A column's place differs between languages — only Japanese stores `jp_id` —
+//: so a renderer is told which fields it is reading rather than assuming the
+//: language on screen.
+const column = (row, fields, name) => {
+  const at = fields.indexOf(name);
+  return at < 0 ? undefined : row[at];
+};
+
+//: Where `downloadImages.py` put this card's picture, reached through the
+//: gitignored `images` link beside this page. The card's stored path names the
+//: folder — which is not always its set name — and the extension comes from the
+//: url it was fetched from. A card with no picture, or an archive that has not
+//: been downloaded, simply returns nothing.
+const SUFFIXES = ["jpg", "jpeg", "png", "webp", "gif"];
+
+function archived(c, fields, which) {
+  const column = name => { const at = fields.indexOf(name); return at < 0 ? undefined : c[at]; };
+  const stored = column("path");
+  const url = column("img");
+  if (!stored || !url) return "";
+  let suffix = String(url).split("?")[0].split(".").pop().toLowerCase();
+  if (!SUFFIXES.includes(suffix)) suffix = "jpg";
+  const inside = String(stored).replace(/^data_/, "").replace(/\.json$/, `.${suffix}`);
+  return `../images/${inside.split("/").map(encodeURIComponent).join("/")}`;
+}
+
+// The picture if the archive holds it, and the drawn face underneath either way:
+// if the file is not there the image is dropped and the face shows through.
+function picture(c, fields, which, big) {
+  const drawn = face(c, fields, big);
+  const src = archived(c, fields, which);
+  if (!src) return drawn;
+  return `<span class="shot${big ? " big" : ""}">${drawn}<img src="${src}" alt="" loading="lazy"></span>`;
+}
+
+function face(c, fields, big) {
+  const column = name => { const at = fields.indexOf(name); return at < 0 ? undefined : c[at]; };
+  const english = column("types_en") || [];
+  const printed = column("types") || [];
+  const tint = TYPE_TINT[english[0]] || "var(--accent)";
+  const kind = (printed.length ? printed : english).join(" · ") || column("card_type") || "";
+  const hp = column("hp");
+  const rarity = column("rarity");
+  return `<span class="face${big ? " big" : ""}" style="--tint:${tint}">
+      <span class="frow">
+        <span class="ftype">${esc(kind)}</span>
+        ${hp ? `<span class="fhp">${esc(hp)} HP</span>` : ""}
+      </span>
+      <span class="fname">${esc(column("name"))}</span>
+      <span class="frow">
+        <span class="fset">${esc(column("set_name"))} · ${esc(column("number"))}</span>
+        ${rarity ? `<span class="frar">${esc(rarity)}</span>` : ""}
+      </span>
+    </span>`;
+}
+
+// Every language of plain index is more than one page may carry, so each one
+// arrives compressed, base64 inside a small JSON envelope. A file without that
+// envelope — the summary — is already what it claims to be.
+async function loadJson(path) {
+  const response = await fetch(path);
+  if (!response.ok) throw new Error(`${path} answered ${response.status}`);
+  const payload = await response.json();
+  if (!payload || typeof payload.gz !== "string") return payload;
+  const packed = atob(payload.gz);
+  const bytes = new Uint8Array(packed.length);
+  for (let at = 0; at < packed.length; at += 1) bytes[at] = packed.charCodeAt(at);
+  const unzipped = new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"));
+  return JSON.parse(await new Response(unzipped).text());
+}
+
+async function boot() {
+  const summary = await loadJson("index/summary.json");
+  const langs = Object.keys(summary);
+  el("total").textContent = Object.values(summary).reduce((a, s) => a + s.cards, 0).toLocaleString();
+  el("nlang").textContent = langs.length;
+  el("langs").innerHTML = langs.map(l =>
+    `<button class="lang" type="button" data-lang="${l}" aria-pressed="${l === lang}">
+       <span class="flag" aria-hidden="true">${FLAG[l] || ""}</span>
+       ${esc(LANG_NAME[l] || l.toUpperCase())} <span class="n">${summary[l].cards.toLocaleString()}</span>
+     </button>`).join("");
+  el("langs").addEventListener("click", e => {
+    const b = e.target.closest(".lang");
+    if (b) load(b.dataset.lang);
+  });
+  await load(lang);
+}
+
+async function load(next) {
+  lang = next;
+  document.querySelectorAll(".lang").forEach(b => b.setAttribute("aria-pressed", b.dataset.lang === lang));
+  el("grid").innerHTML = "";
+  el("status").textContent = `Loading the ${LANG_NAME[lang] || lang} index…`;
+  const data = await loadJson(`index/${lang}.json`);
+  fields = data.fields;
+  cards = data.cards;
+  fillFilters();
+  apply();
+}
+
+function fillFilters() {
+  const fill = (id, field, label) => {
+    const seen = [...new Set(cards.map(c => c[idx(field)]).filter(Boolean))].sort();
+    el(id).innerHTML = `<option value="">${label}</option>` +
+      seen.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join("");
+  };
+
+  // A set reads better by its name than by its code — SCR is Stellar Crown —
+  // but the filter still matches on the code the cards are stored under.
+  const iSet = idx("set_name"), iFull = idx("set_full_name");
+  const titles = new Map();
+  for (const card of cards) {
+    const code = card[iSet];
+    if (!code || titles.has(code)) continue;
+    // Korea stores some titles twice, once with the spaces run together and
+    // once spread apart, so the spacing is evened out before either is shown.
+    const full = iFull < 0 ? "" : String(card[iFull] || "").replace(/\s+/g, " ").trim();
+    titles.set(code, full && full !== code ? `${code} — ${full}` : String(code));
+  }
+  el("set").innerHTML = `<option value="">All sets</option>` +
+    [...titles.entries()]
+      .sort((a, b) => a[1].localeCompare(b[1]))
+      .map(([code, shown]) => `<option value="${esc(code)}">${esc(shown)}</option>`).join("");
+
+  fill("type", "card_type", "All card types");
+  fill("rarity", "rarity", "All rarities");
+}
+
+//: What a language can be ordered by. Only pkmncards and the languages TCGdex
+//: serves publish a release date; Japan and Korea number their cards upwards
+//: over time, and Taiwan numbers its pages, which runs the same way.
+function releaseOrder(card) {
+  const date = idx("date") < 0 ? null : card[idx("date")];
+  if (date) {
+    const when = Date.parse(date);
+    if (!Number.isNaN(when)) return when;
+  }
+  for (const field of ["jp_id", "ko_id"]) {
+    const at = idx(field);
+    if (at > -1 && card[at]) return Number(String(card[at]).replace(/\D/g, "")) || 0;
+  }
+  // TCG Pocket publishes no date, and its urls end in the card's own number
+  // rather than anything about when the set came out. Its sets run A1, A1a, A2
+  // … B1, B1a, which is the order they were released in, so they are read the
+  // way `update.py` reads them — the viewer and the badges then cannot disagree
+  // about which set is newest.
+  const iGame = idx("game"), iCode = idx("set_code");
+  if (iCode > -1 && String(card[iGame] ?? "") === "TCG Pocket") {
+    const ranked = pocketOrder(String(card[iCode] || ""));
+    if (ranked !== null) return ranked;
+  }
+  // Taiwan numbers its pages upwards over time, so the id in the url orders the
+  // cards. Every digit counts: its first sets are numbered 2 to 9, and reading
+  // only longer ids would leave 98 cards sharing one place.
+  const url = idx("url") < 0 ? "" : String(card[idx("url")] || "");
+  const numbered = url.match(/\/(\d+)\/?$/);
+  return numbered ? Number(numbered[1]) : 0;
+}
+
+//: A Pocket set code: a series letter, a number, and sometimes a letter after
+//: it (A4b), or a promo run written P-A.
+const POCKET_CODE = /^([A-Z]+)-?([A-Z]*)(\d*)([a-z]*)$/;
+
+function pocketOrder(code) {
+  const shape = POCKET_CODE.exec(code);
+  if (!shape) return null;
+  const [, series, promo, number, suffix] = shape;
+  const within = Number(number || 0) * 100 + (suffix ? suffix.charCodeAt(0) - 96 : 0);
+  return (series.charCodeAt(0) - 64) * 1e6 + within * 10 + (promo ? promo.charCodeAt(0) - 64 : 0);
+}
+
+function apply() {
+  const q = el("q").value.trim().toLowerCase();
+  const set = el("set").value, type = el("type").value, rarity = el("rarity").value;
+  const iT = idx("text"), iS = idx("set_name"), iC = idx("card_type"), iR = idx("rarity");
+  filtered = cards.filter(c =>
+    (!set || c[iS] === set) && (!type || c[iC] === type) && (!rarity || c[iR] === rarity) &&
+    (!q || (c[iT] || "").toLowerCase().includes(q)));
+
+  const order = el("order") ? el("order").value : "index";
+  if (order !== "index") {
+    const ranked = filtered.map(card => [releaseOrder(card), card]);
+    ranked.sort((a, b) => (order === "new" ? b[0] - a[0] : a[0] - b[0]));
+    filtered = ranked.map(pair => pair[1]);
+  }
+  shown = 0;
+  el("grid").innerHTML = "";
+  el("count").textContent = `${filtered.length.toLocaleString()} of ${cards.length.toLocaleString()}`;
+  more();
+}
+
+function more() {
+  const iN = idx("name"), iS = idx("set_name"), iNum = idx("number"), iImg = idx("img"), iR = idx("rarity");
+  const slice = filtered.slice(shown, shown + PAGE);
+  el("grid").insertAdjacentHTML("beforeend", slice.map((c, n) => `
+    <button class="card" type="button" data-i="${shown + n}">
+      ${picture(c, fields, lang, false)}
+    </button>`).join(""));
+  shown += slice.length;
+  el("status").textContent = shown < filtered.length
+    ? `Showing ${shown.toLocaleString()} — scroll for more`
+    : (filtered.length ? "" : "No card matches these filters.");
+}
+
+let links = null;
+async function getLinks() {
+  if (!links) {
+    links = await loadJson("index/links.json").catch(() => ({ prints: {}, cards: {} }));
+  }
+  return links;
+}
+
+// One row per other printing. `dropSameLanguage` is for the exact-printing
+// list, where the interesting versions are the ones in another language.
+function versionRows(entries, here, dropSameLanguage) {
+  return (entries || [])
+    .filter(e => e.join("|") !== here && !(dropSameLanguage && e[0] === lang))
+    .map(e => `<button class="ver" type="button" data-lang="${e[0]}" data-name="${esc(e[1])}" data-set="${esc(e[2])}" data-number="${esc(e[3])}">
+        <span class="vlang">${esc(LANG_NAME[e[0]] || e[0].toUpperCase())}</span>
+        <span class="vname">${esc(e[1])}</span>
+        <span class="vset">${esc(e[2])} · ${esc(e[3])}</span>
+        <span class="vrar">${esc(e[4] || "")}</span>
+      </button>`).join("");
+}
+
+// The index carries every field a card stores, so the card view shows every
+// field — including the url the picture was fetched from.
+const ABOVE = ["name", "set_name", "number", "rarity", "tags", "text", "file"];
+const LINK_FIELDS = ["url", "img"];
+const LONG = ["effect", "flavor_text", "rule_box", "tera_effect"];
+const LABEL = {
+  hp: "HP", card_type: "Card type", set_code: "Set code", set_full_name: "Set",
+  set_total: "Cards in set", types: "Types", types_en: "Types in English",
+  print_key: "Printing key", card_key: "Fingerprint", flavor_text: "Flavour text",
+  rule_box: "Rule box", evolve_from: "Evolves from", mega_evolves_from: "Mega evolves from",
+  img: "Picture", url: "Source page", author: "Illustrator", jp_id: "Japanese id",
+  ko_id: "Korean id", out_id: "Card id", vstar_power: "VSTAR power", tera_effect: "Tera",
+  sources: "Sources", regulation: "Regulation mark", retreat: "Retreat cost",
+  pokedex_number: "Pokédex number", set_img: "Set symbol", rarity_img: "Rarity symbol",
+  poke_body: "Poké-Body", poke_power: "Poké-Power", ancient_trait: "Ancient trait",
+  held_berry: "Held berry", held_item: "Held item", pokemon_category: "Category",
+  technical_machine_rule: "Technical Machine rule", set_code: "Set code",
+};
+
+function label(field) {
+  return LABEL[field] || field.replace(/_/g, " ").replace(/^./, s => s.toUpperCase());
+}
+
+// One source writes an attack's damage as "30", another as {amount, suffix}.
+function damage(value) {
+  if (value == null || value === "") return "";
+  if (typeof value === "object") return `${value.amount ?? ""}${value.suffix ?? ""}`;
+  return String(value);
+}
+
+// Attacks and abilities are shaped {name, cost, damage, effect}, sources
+// {name, link}, weakness and resistance {type, value}. Anything else is shown
+// as the pairs it holds, so a field this page has never seen still reads.
+function entry(item) {
+  if (item.link) {
+    return `<a href="${esc(item.link)}" target="_blank" rel="noopener">${esc(item.name || item.link)}</a>`;
+  }
+  const cost = (item.cost || []).join(" ");
+  const hit = damage(item.damage);
+  const head = [item.name, cost ? `[${cost}]` : "", hit ? `— ${hit}` : ""]
+    .filter(Boolean).map(esc).join(" ");
+  if (head || item.effect) {
+    return `${head ? `<b>${head}</b>` : ""}${item.effect ? `<span>${esc(item.effect)}</span>` : ""}`;
+  }
+  return Object.entries(item)
+    .filter(([, value]) => value != null && value !== "" && !(Array.isArray(value) && !value.length))
+    .map(([key, value]) => `${esc(label(key))}: ${esc(Array.isArray(value) ? value.join(" ") : value)}`)
+    .join(" · ");
+}
+
+function moves(list) {
+  return list.map(item =>
+    `<div class="move">${item && typeof item === "object" ? entry(item) : esc(item)}</div>`).join("");
+}
+
+function fieldValue(field, value) {
+  const isLink = typeof value === "string" && /^https?:\/\//.test(value);
+  if (LINK_FIELDS.includes(field) || isLink) {
+    return `<a href="${esc(value)}" target="_blank" rel="noopener">${esc(value)}</a>`;
+  }
+  if (Array.isArray(value)) {
+    return value.some(item => item && typeof item === "object") ? moves(value) : esc(value.join(", "));
+  }
+  if (value && typeof value === "object") return moves([value]);
+  return esc(value);
+}
+
+function everyField(c, fields) {
+  return fields.map((field, at) => {
+    const value = c[at];
+    if (ABOVE.includes(field)) return "";
+    if (value == null || value === "" || (Array.isArray(value) && !value.length)) return "";
+    // A source can store an empty shape — resistance as {type: [], value: ""}.
+    // If nothing renders from it, the card does not carry that field at all.
+    const rendered = fieldValue(field, value);
+    if (!rendered.replace(/<[^>]*>/g, "").trim()) return "";
+    return `<dt>${esc(label(field))}</dt><dd${LONG.includes(field) ? ' class="long"' : ""}>${rendered}</dd>`;
+  }).join("");
+}
+
+function openCard(i) {
+  return openRow(filtered[i], fields, lang);
+}
+
+// One card, shown from whichever language's index its row came from. Choosing
+// another version swaps this view rather than sending the reader back to a
+// search result: the card is what they were looking at, not the list.
+async function openRow(c, fields, which) {
+  // A field that language does not carry must read as absent. Without the
+  // guard, indexOf returns -1 and c[-1] hands back the last column instead.
+  const get = f => { const at = fields.indexOf(f); return at < 0 ? undefined : c[at]; };
+  el("detailBody").innerHTML = `
+    <div>${picture(c, fields, which, true)}</div>
+    <div>
+      <h2>${esc(get("name"))}</h2>
+      <div class="sub">
+        <span class="flag" aria-hidden="true">${FLAG[which] || ""}</span>
+        ${esc(LANG_NAME[which] || which)} · ${esc(get("set_name"))} · ${esc(get("number"))}
+      </div>
+      <div class="chips">
+        ${get("rarity") ? `<span class="chip gold">${esc(get("rarity"))}</span>` : ""}
+        ${(get("tags") || []).map(t => `<span class="chip">${esc(t)}</span>`).join("")}
+      </div>
+      <dl>${everyField(c, fields)}</dl>
+      <div id="versions"></div>
+      <p class="note">Every field stored for this card is listed above, exactly
+      as it was read from its source.</p>
+    </div>`;
+  if (!detail.open) detail.showModal();
+
+  const store = await getLinks();
+  const here = [which, get("name"), get("set_name"), String(get("number") ?? ""), get("rarity")].join("|");
+  const samePrint = versionRows(store.prints[get("print_key")], here, true);
+  const sameCard = versionRows(store.cards[get("card_key")], here, false);
+  const block = (title, rows, empty) => `
+    <div class="vgroup"><h3>${title}</h3>
+      ${rows ? `<div class="vlist">${rows}</div>` : `<p class="vnone">${empty}</p>`}
+    </div>`;
+  const versions = el("versions");
+  if (versions) {
+    versions.innerHTML =
+      block("This printing in other languages", samePrint,
+            "This printing is only stored in this language so far.") +
+      block("Other printings of this card", sameCard,
+            "No other printing recorded — Trainer and Energy cards carry no Pokédex number to match on.");
+  }
+}
+
+// Choosing a version shows that language's own record — its own name, set,
+// rarity, rules text and picture — in the card view already open. The list
+// behind it is left where it was.
+document.addEventListener("click", async e => {
+  const chosen = e.target.closest(".ver");
+  if (!chosen) return;
+  const { lang: which, set, number, name } = chosen.dataset;
+  const other = await indexFor(which).catch(() => null);
+  if (!other) return;
+
+  const at = other.fields.indexOf.bind(other.fields);
+  const [iSet, iNum, iName] = [at("set_name"), at("number"), at("name")];
+  const found =
+    other.cards.find(row => String(row[iSet]) === set && String(row[iNum]) === number) ||
+    other.cards.find(row => String(row[iName]) === name);
+  if (found) openRow(found, other.fields, which);
+});
+
+el("grid").addEventListener("click", e => {
+  const card = e.target.closest(".card");
+  if (card) openCard(Number(card.dataset.i));
+});
+addEventListener("scroll", () => {
+  if (shown < filtered.length && innerHeight + scrollY > document.body.offsetHeight - 700) more();
+  // Far enough down that the filters have scrolled away and are worth offering back.
+  el("top").hidden = scrollY < 600;
+});
+el("top").addEventListener("click", () => {
+  const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  scrollTo({ top: 0, behavior: still ? "auto" : "smooth" });
+});
+["q", "set", "type", "rarity", "order"].forEach(id => el(id).addEventListener("input", apply));
+el("reset").addEventListener("click", () => {
+  ["q", "set", "type", "rarity"].forEach(id => el(id).value = "");
+  el("order").value = "index";  // an empty value matches no option, and would sort
+  apply();
+});
+
+// A picture the archive does not hold must not cover the card: drop the image
+// and let the face drawn underneath show through instead.
+addEventListener("error", event => {
+  const img = event.target;
+  if (!(img instanceof HTMLImageElement)) return;
+  const shot = img.closest(".shot");
+  img.remove();
+  if (shot) shot.classList.add("bare");
+}, true);
+
+boot().catch(err => {
+  // Opened straight from disk, a browser refuses to read the index beside this
+  // page, and the failure arrives as an ordinary network error. Say which it is.
+  el("status").innerHTML = location.protocol === "file:"
+    ? `This page was opened from a file, and browsers will not let it read the
+       index beside it. Serve the repository instead — <code>python3 -m
+       http.server</code> from the repository root, then open
+       <code>http://localhost:8000/docs/</code>.`
+    : `Could not load the index: ${esc(err.message)}. Run
+       <code>uv run code/buildIndex.py</code> to write <code>docs/index/</code>.`;
+});
+</script>
+</body>
+</html>

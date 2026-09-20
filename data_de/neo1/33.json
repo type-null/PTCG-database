@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-33",
+    "name": "Elektek",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "33",
+    "set_total": 111,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 125,
+    "pokemon_category": "",
+    "flavor_text": "Elektrizität strömt über die Oberfläche seines Körpers. In der Dunkelheit leuchtet sein ganzer Körper weiß-bläulich.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Boxhieb",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Sternschauer",
+            "damage": 30,
+            "effect": "Die Schadenspunkte aus diesem Angriff werden von der Schwäche, Resistenz, Pokémon-Power oder allen anderen Effekten auf das verteidigende Pokémon nicht beeinflusst."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-33"
+        }
+    ],
+    "print_key": "tcgdex:neo1-33",
+    "card_key": "125|70|1|Shin-ichi Yoshida|20,30|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

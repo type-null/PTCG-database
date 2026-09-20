@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex1-19",
+    "name": "Pelipper",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex1",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex1/symbol",
+    "set_full_name": "EX Rubin & Saphir",
+    "series": "EX",
+    "set_code": "ex1",
+    "date": "2003-07-01",
+    "number": "19",
+    "set_total": 109,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 279,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Horter",
+            "damage": null,
+            "effect": "In deinem nächsten Zug beträgt der Grundschaden des Angriffs Entfessler 70 Schadenspunkte anstelle von 30 und der Grundschaden des Angriffs Verschlucken 60 Schadenspunkte anstelle von 20."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Entfessler",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Verschlucken",
+            "damage": 20,
+            "effect": "Entferne nach deinem Angriff Schadensmarken von Pelipper entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon zugefügt wurden. Sollten weniger Schadensmarken auf Pelipper liegen, entferne alle."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Wingull",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex1-19"
+        }
+    ],
+    "print_key": "tcgdex:ex1-19",
+    "card_key": "279|70|1|Kouki Saitou|None,30,20|1,2,3",
+    "types_en": [
+        "Water"
+    ]
+}

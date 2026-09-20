@@ -1,0 +1,82 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/smp-SM232",
+    "name": "Pikachu GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SM Promokarten",
+    "series": "Sonne & Mond",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM232",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "aky CG Works"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "hp": 160,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Agilität",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Verhindere bei Kopf während des nächsten Zuges deines Gegners alle Effekte von Attacken, einschließlich Schaden, die diesem Pokémon zugefügt werden."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Volttackle",
+            "damage": 150,
+            "effect": "Dieses Pokémon fügt sich selbst 30 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Schweifbruch GX",
+            "damage": 100,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt paralysiert. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/smp-SM232"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM232",
+    "card_key": "25|160|1|aky CG Works|20,150,100|1,3,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

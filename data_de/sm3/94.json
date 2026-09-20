@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm3-94",
+    "name": "Diancie",
+    "img": "https://assets.tcgdex.net/de/sm/sm3/94/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Nacht in Flammen",
+    "series": "Sonne & Mond",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "94",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "TOKIYA"
+    ],
+    "pokedex_number": 719,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon ist eine Mutation von Rocara. Sein rosafarben schimmernder Körper gilt als schönster Anblick überhaupt.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Fee"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fee"
+            ],
+            "name": "Funkelnder Wunsch",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 Karte, die sich aus 1 deiner Pokémon entwickelt, und lege sie auf jenes Pokémon, um es zu entwickeln. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Fee",
+                "Farblos"
+            ],
+            "name": "Diamantsturm",
+            "damage": 30,
+            "effect": "Heile 30 Schadenspunkte bei jedem deiner {FAIRY}-Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm3-94"
+        }
+    ],
+    "print_key": "tcgdex:sm3-94",
+    "card_key": "719|90|1|TOKIYA|None,30|1,2",
+    "types_en": [
+        "Fairy"
+    ]
+}

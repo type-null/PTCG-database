@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh8-123",
+    "name": "Symvolara",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh8/123/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh8",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh8/symbol",
+    "set_full_name": "Fusionsangriff",
+    "series": "Schwert & Schild",
+    "set_code": "swsh8",
+    "date": "2021-11-12",
+    "number": "123",
+    "set_total": 284,
+    "rarity": "Häufig",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 561,
+    "pokemon_category": "",
+    "flavor_text": "In den Wüsten, in denen man Symvolara fliegen sieht, wurden Ruinen gefunden, die man für die Überreste einer Stadt aus uralten Zeiten hält.",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Lanzenstich",
+            "damage": 20,
+            "effect": "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Energiereflexion",
+            "damage": 60,
+            "effect": "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh8-123"
+        }
+    ],
+    "print_key": "tcgdex:swsh8-123",
+    "card_key": "561|100|1|Yukiko Baba|20,60|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh9-066",
+    "name": "Symvolara",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh9/066/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh9",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh9/symbol",
+    "set_full_name": "Strahlende Sterne",
+    "series": "Schwert & Schild",
+    "set_code": "swsh9",
+    "date": "2022-02-25",
+    "number": "066",
+    "set_total": 186,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 561,
+    "pokemon_category": "",
+    "flavor_text": "Es fliegt mithilfe seiner Psycho-Kräfte. Einige sagen, es war einst der Wächter einer Stadt aus uralten Zeiten. Andere sagen, es war sein Bote.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Dreifache Aufladung",
+            "damage": null,
+            "effect": "Wirf 3 Münzen. Lege bis zu so viele Basis-Energiekarten, wie du Kopf geworfen hast, aus deinem Ablagestapel beliebig an 1 Pokémon auf deiner Bank an."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psychokinese",
+            "damage": "10+",
+            "effect": "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 30 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh9-066"
+        }
+    ],
+    "print_key": "tcgdex:swsh9-66",
+    "card_key": "561|110|1|Sumiyoshi Kizuki|None,10+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

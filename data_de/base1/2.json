@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-2",
+    "name": "Turtok",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "2",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 9,
+    "pokemon_category": "",
+    "flavor_text": "Ein Pokémon mit Hochdruckwasserwerfern auf seinem Panzer. Sie werden zum Angriff verwendet.",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Regentanz",
+            "effect": "Bist Du am Zug, kannst Du (vor Deinem Angriff) beliebig oft eine {W} Energiekarte auf eines Deiner Pokémon ablegen. (Damit ist die Ablegemöglichkeit von einer {W} Energiekarte pro Zug nicht aufgebraucht.) Diese Fähigkeit kann nicht eingesetzt werden, falls Turtok schlafend, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Hydropumpe",
+            "damage": "40+",
+            "effect": "Fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Turtok abgelegte {W} Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Du kannst nicht mehr als 20 Schadenspunkte auf diese Weise hinzufügen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Schillok",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-2"
+        }
+    ],
+    "print_key": "tcgdex:base1-2",
+    "card_key": "9|100|3|Ken Sugimori|40+|3",
+    "types_en": [
+        "Water"
+    ]
+}

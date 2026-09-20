@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm11-104",
+    "name": "Stahlos",
+    "img": "https://assets.tcgdex.net/de/sm/sm11/104/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Bund der Gleichgesinnten",
+    "series": "Sonne & Mond",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "104",
+    "set_total": 258,
+    "rarity": "Selten",
+    "author": [
+        "Ayaka Yoshida"
+    ],
+    "pokedex_number": 208,
+    "pokemon_category": "",
+    "flavor_text": "Hoher Druck und hohe Temperaturen haben seinen Körper härter als Stahl werden lassen.",
+    "stage": "Rang 1",
+    "hp": 170,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Landstrom",
+            "damage": 20,
+            "effect": "Lege 2 {F}-Energiekarten aus deinem Ablagestapel an dieses Pokémon an."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Gigatonnen-Erschütterung",
+            "damage": 220,
+            "effect": "Während deines nächsten Zuges können deine Pokémon nicht angreifen. (Dies schließt Pokémon, die während jenes Zuges ins Spiel gebracht werden, ein.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Onix",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm11-104"
+        }
+    ],
+    "print_key": "tcgdex:sm11-104",
+    "card_key": "208|170|4|Ayaka Yoshida|20,220|1,5",
+    "types_en": [
+        "Fighting"
+    ]
+}

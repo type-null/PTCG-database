@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-74",
+    "name": "Nidorino",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "74",
+    "set_total": 120,
+    "rarity": "Häufig",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 33,
+    "pokemon_category": "",
+    "flavor_text": "Es ist aggressiv und greift seine Gegner mit dem Horn an, welches bei Berührung Gift absondert.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Toxin",
+            "damage": null,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das Verteidigende Pokémon."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Frustration",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners, auf dem keine Schadensmarken liegen. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Nidoran♂",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-74"
+        }
+    ],
+    "print_key": "tcgdex:pl2-74",
+    "card_key": "33|80|1|kawayoo|None,None|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

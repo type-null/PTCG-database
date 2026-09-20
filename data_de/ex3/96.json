@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex3-96",
+    "name": "Sleimok-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Drache",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "96",
+    "set_total": 100,
+    "rarity": "Selten",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 89,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Giftgas",
+            "effect": "Solange Sleimok ex dein Aktives Pokémon ist, ignoriere jede Poké-Power und jeden Poké-Body außer Giftgas."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Gifthauch",
+            "damage": 10,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Glitschiges Wasser",
+            "damage": "40+",
+            "effect": "Fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede {C}-Energie in den Rückzugskosten des Verteidigenden Pokémon (nachdem Effekte auf die Rückzugskosten verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Sleima",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex3-96"
+        }
+    ],
+    "print_key": "tcgdex:ex3-96",
+    "card_key": "89|100|2|Hikaru Koike|10,40+|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

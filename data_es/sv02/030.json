@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sv02-030",
+    "name": "Talonflame",
+    "img": "https://assets.tcgdex.net/es/sv/sv02/030/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "G",
+    "set_name": "sv02",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv02/symbol",
+    "set_full_name": "Evoluciones en Paldea",
+    "series": "Escarlata y Púrpura",
+    "set_code": "sv02",
+    "date": "2023-06-09",
+    "number": "030",
+    "set_total": 279,
+    "rarity": "Uncommon",
+    "author": [
+        "Nisota Niso"
+    ],
+    "pokedex_number": 663,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 150,
+    "types": [
+        "Fuego"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuego"
+            ],
+            "name": "Embrague",
+            "damage": 50,
+            "effect": "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse."
+        },
+        {
+            "cost": [
+                "Fuego"
+            ],
+            "name": "Brisa Ígnea",
+            "damage": "70+",
+            "effect": "Si este Pokémon tiene algún contador de daño sobre él, este ataque hace 90 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Rayo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Fletchinder",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sv02-030"
+        }
+    ],
+    "print_key": "tcgdex:sv02-30",
+    "card_key": "663|150|1|Nisota Niso|50,70+|1,1",
+    "types_en": [
+        "Fire"
+    ]
+}

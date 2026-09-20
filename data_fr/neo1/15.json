@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-15",
+    "name": "Steelix",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "15",
+    "set_total": 111,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 208,
+    "pokemon_category": "",
+    "flavor_text": "Son corps a été compressé à une profondeur incroyable. Il en résulte qu'il est plus dur que le diamant.",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Charge",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Ecras'queue",
+            "damage": "30+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires ; si c'est pile cette attaque inflige 30 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Plante"
+        ],
+        "value": "-30"
+    },
+    "retreat": 4,
+    "evolve_from": "Onix",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-15"
+        }
+    ],
+    "print_key": "tcgdex:neo1-15",
+    "card_key": "208|110|4|Ken Sugimori|20,30+|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

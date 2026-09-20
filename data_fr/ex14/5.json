@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex14-5",
+    "name": "Triopikeur",
+    "img": "https://assets.tcgdex.net/fr/ex/ex14/5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex14",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex14/symbol",
+    "set_full_name": "EX Gardiens de Cristal",
+    "series": "EX",
+    "set_code": "ex14",
+    "date": "2006-08-30",
+    "number": "5",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 51,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Voile ensablant",
+            "effect": "Prévenez tous les dégâts infligés à vos Pokémon de Banc par les attaques de votre adversaire."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Terrassement",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. Les dégâts ne sont pas affectés par la Faiblesse et la Résistance."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Damoclès",
+            "damage": 60,
+            "effect": "Triopikeur s'inflige 10 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Dynavolt",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex14-5"
+        }
+    ],
+    "print_key": "tcgdex:ex14-5",
+    "card_key": "51|70|1|Tomokazu Komiya|None,60|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh2-30",
+    "name": "Magbrant",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh2/30/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Clash der Rebellen",
+    "series": "Schwert & Schild",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "30",
+    "set_total": 209,
+    "rarity": "Selten",
+    "author": [
+        "Kazuma Koda"
+    ],
+    "pokedex_number": 467,
+    "pokemon_category": "",
+    "flavor_text": "Es schießt Feuerbälle auf seine Gegner. Da alles, was es damit trifft, verkohlt wird, sieht es auf der Jagd nach Beute von dieser Methode ab.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Explosionshieb",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Bodenbrand",
+            "damage": "80+",
+            "effect": "Jeder Spieler legt die oberste Karte seines Decks auf seinen Ablagestapel. Diese Attacke fügt für jede Energiekarte, die auf diese Weise auf den Ablagestapel gelegt wurde, 100 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Magmar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh2-30"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-30",
+    "card_key": "467|140|3|Kazuma Koda|30,80+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

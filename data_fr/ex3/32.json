@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex3-32",
+    "name": "Léviator",
+    "img": "https://assets.tcgdex.net/fr/ex/ex3/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Dragon",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "32",
+    "set_total": 100,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Écras'dragon",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chaque Pokémon Défenseur. Défaussez une carte Énergie de chacun de ces Pokémon."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Aquasonique",
+            "damage": 80,
+            "effect": "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Magicarpe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex3-32"
+        }
+    ],
+    "print_key": "tcgdex:ex3-32",
+    "card_key": "130|100|2|Kouki Saitou|None,80|1,5",
+    "types_en": [
+        "Water"
+    ]
+}

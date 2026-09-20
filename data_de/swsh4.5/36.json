@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh4.5-36",
+    "name": "Morpeko",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh4.5/36/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh4.5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh4.5/symbol",
+    "set_full_name": "Glänzendes Schicksal",
+    "series": "Schwert & Schild",
+    "set_code": "swsh4.5",
+    "date": "2021-02-19",
+    "number": "36",
+    "set_total": 73,
+    "rarity": "Häufig",
+    "author": [
+        "Hideki Ishikawa"
+    ],
+    "pokedex_number": 877,
+    "pokemon_category": "",
+    "flavor_text": "Dieses immerzu hungrige Pokémon frisst Samen, die es in seinen beutelartigen Taschen verwahrt, und produziert so Elektrizität.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Ausgehungert",
+            "damage": null,
+            "effect": "Ziehe 1 Karte."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Donnerschock",
+            "damage": 40,
+            "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh4.5-36"
+        }
+    ],
+    "print_key": "tcgdex:swsh4.5-36",
+    "card_key": "877|80|1|Hideki Ishikawa|None,40|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

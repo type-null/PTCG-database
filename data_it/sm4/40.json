@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sm4-40",
+    "name": "Mismagius",
+    "img": "https://assets.tcgdex.net/it/sm/sm4/40/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Invasione Scarlatta",
+    "series": "Sole e Luna",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "40",
+    "set_total": 124,
+    "rarity": "Rara",
+    "author": [
+        "chibi"
+    ],
+    "pokedex_number": 429,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 110,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psico"
+            ],
+            "name": "Ruotacaos",
+            "damage": 30,
+            "effect": "Il tuo avversario non può giocare carte Oggetto Pokémon, Energia speciale o Stadio dalla sua mano durante il suo prossimo turno."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Arti Occulte",
+            "damage": "20×",
+            "effect": "Questo attacco infligge 20 danni per ogni carta che ha in mano il tuo avversario."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscurità"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sm4-40"
+        }
+    ],
+    "print_key": "tcgdex:sm4-40",
+    "card_key": "429|110|1|chibi|30,20x|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

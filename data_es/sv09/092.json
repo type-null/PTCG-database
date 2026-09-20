@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sv09-092",
+    "name": "Weezing",
+    "img": "https://assets.tcgdex.net/es/sv/sv09/092/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "I",
+    "set_name": "sv09",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv09/symbol",
+    "set_full_name": "Juntos de Aventuras",
+    "series": "Escarlata y Púrpura",
+    "set_code": "sv09",
+    "date": "2025-03-28",
+    "number": "092",
+    "set_total": 190,
+    "rarity": "Uncommon",
+    "author": [
+        "KEIICHIRO ITO"
+    ],
+    "pokedex_number": 110,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 130,
+    "types": [
+        "Oscura"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Oscura"
+            ],
+            "name": "Gas Penetrante",
+            "damage": 30,
+            "effect": "El Pokémon Activo de tu rival pasa a estar Confundido."
+        },
+        {
+            "cost": [
+                "Oscura",
+                "Incolora"
+            ],
+            "name": "Explosión Salvaje",
+            "damage": "50+",
+            "effect": "Si este Pokémon usó Gas Penetrante durante tu último turno, este ataque hace 120 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Koffing",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sv09-092"
+        }
+    ],
+    "print_key": "tcgdex:sv09-92",
+    "card_key": "110|130|2|KEIICHIRO ITO|30,50+|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

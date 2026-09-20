@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xyp-XY164",
+    "name": "Volcanion",
+    "img": "https://assets.tcgdex.net/fr/xy/xyp/XY164/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xyp",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xyp/symbol",
+    "set_full_name": "Promo XY",
+    "series": "XY",
+    "set_code": "xyp",
+    "date": "2013-10-12",
+    "number": "XY164",
+    "set_total": 216,
+    "rarity": "Promo",
+    "author": [
+        "TOKIYA"
+    ],
+    "pokedex_number": 721,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Feu Concentré",
+            "damage": 50,
+            "effect": "Lancez une pièce pour chaque Énergie {R} attachée à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Impact de Combustion",
+            "damage": 100,
+            "effect": "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xyp-XY164"
+        }
+    ],
+    "print_key": "tcgdex:xyp-XY164",
+    "card_key": "721|130|4|TOKIYA|50,100|3,4",
+    "types_en": [
+        "Fire"
+    ]
+}

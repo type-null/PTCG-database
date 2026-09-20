@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy12-34",
+    "name": "Léviator",
+    "img": "https://assets.tcgdex.net/fr/xy/xy12/34/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Évolutions",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "34",
+    "set_total": 113,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 130,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Eau"
+            ],
+            "name": "Bulles d'O",
+            "damage": 50,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Eau",
+                "Eau"
+            ],
+            "name": "Draco-Rage",
+            "damage": 180,
+            "effect": "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Magicarpe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy12-34"
+        }
+    ],
+    "print_key": "tcgdex:xy12-34",
+    "card_key": "130|130|3|Mitsuhiro Arita|50,180|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

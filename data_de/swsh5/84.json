@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh5-84",
+    "name": "Humanolith",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh5/84/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh5/symbol",
+    "set_full_name": "Kampfstile",
+    "series": "Schwert & Schild",
+    "set_code": "swsh5",
+    "date": "2021-03-19",
+    "number": "84",
+    "set_total": 183,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 874,
+    "pokemon_category": "",
+    "flavor_text": "Sie haben die Angewohnheit, sich einmal im Jahr zu einer bestimmten Zeit wie aus dem Nichts zu versammeln und in einem Kreis aufzustellen.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Bodenpuls",
+            "damage": "30+",
+            "effect": "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Gigahammer",
+            "damage": 120,
+            "effect": "Während deines nächsten Zuges kann dieses Pokémon Gigahammer nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh5-84"
+        }
+    ],
+    "print_key": "tcgdex:swsh5-84",
+    "card_key": "874|130|3|Masakazu Fukuda|30+,120|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

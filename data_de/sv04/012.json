@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv04-012",
+    "name": "Maritellit",
+    "img": "https://assets.tcgdex.net/de/sv/sv04/012/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv04",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04/symbol",
+    "set_full_name": "Paradoxrift",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv04",
+    "date": "2023-11-03",
+    "number": "012",
+    "set_total": 266,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Oku"
+    ],
+    "pokedex_number": 826,
+    "pokemon_category": "",
+    "flavor_text": "Indem es Psycho-Kräfte ausstrahlt, erfasst es die Umgebung. Seine Observation umfasst dabei einen beeindruckenden Umkreis von 10 km.",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Satellitenstrahl",
+            "damage": "30×",
+            "effect": "Diese Attacke fügt für jede Energiekarte im Ablagestapel deines Gegners 30 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Gehirnschütteln",
+            "damage": 100,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Keradar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv04-012"
+        }
+    ],
+    "print_key": "tcgdex:sv04-12",
+    "card_key": "826|130|1|Oku|30x,100|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

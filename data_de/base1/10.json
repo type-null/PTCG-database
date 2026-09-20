@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-10",
+    "name": "Mewtu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "10",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "flavor_text": "Ein Wissenschaftler erschuf dieses Pokémon nach Jahren schrecklicher Gensplitting- und DNS-Experimente.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psychokinese",
+            "damage": "10+",
+            "effect": "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf dem verteidigenden Pokémon abgelegte Energiekarte zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Barriere",
+            "damage": null,
+            "effect": "Entferne eine auf Mewtu abgelegte {P} Energiekarte, um diesen Angriff auszuführen. Verhindere während des nächsten gegnerischen Zugs alle Auswirkungen von Angriffen auf Mewtu (einschließlich der Schadenspunkte)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-10"
+        }
+    ],
+    "print_key": "tcgdex:base1-10",
+    "card_key": "150|60|3|Ken Sugimori|10+,None|2,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

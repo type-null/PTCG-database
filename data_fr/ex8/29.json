@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex8-29",
+    "name": "Xatu",
+    "img": "https://assets.tcgdex.net/fr/ex/ex8/29/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "29",
+    "set_total": 108,
+    "rarity": "Rare",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 178,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Voile miroir",
+            "effect": "Si Xatu est Brûlé ou Empoisonné par une attaque de votre adversaire (même si Xatu est mis K.O), le Pokémon Attaquant est maintenant affecté par les mêmes États Spéciaux (ou 1 s'il n'y en a qu'1)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Danse éblouissante",
+            "damage": null,
+            "effect": "Chaque Pokémon Défenseur est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Psy-boucle",
+            "damage": "30+",
+            "effect": "Inflige 30 dégâts plus 30 dégâts supplémentaires pour chaque carte Dresseur que votre adversaire a en jeu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 0,
+    "evolve_from": "Natu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex8-29"
+        }
+    ],
+    "print_key": "tcgdex:ex8-29",
+    "card_key": "178|70|0|Yuka Morii|None,30+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

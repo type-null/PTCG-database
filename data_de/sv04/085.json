@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv04-085",
+    "name": "Granforgita",
+    "img": "https://assets.tcgdex.net/de/sv/sv04/085/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv04",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04/symbol",
+    "set_full_name": "Paradoxrift",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv04",
+    "date": "2023-11-03",
+    "number": "085",
+    "set_total": 266,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "KEIICHIRO ITO"
+    ],
+    "pokedex_number": 959,
+    "pokemon_category": "",
+    "flavor_text": "Granforgita schwingt den über 100 kg schweren Hammer mühelos umher. Es schleppt alles mit sich nach Hause, was ihm gefällt.",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Brechschlag",
+            "damage": 30,
+            "effect": "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Legierter Hammer",
+            "damage": "60+",
+            "effect": "Wenn an dieses Pokémon mindestens 1 {M}-Energie angelegt ist, fügt diese Attacke 120 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Tafforgita",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv04-085"
+        }
+    ],
+    "print_key": "tcgdex:sv04-85",
+    "card_key": "959|130|2|KEIICHIRO ITO|30,60+|1,1",
+    "types_en": [
+        "Psychic"
+    ]
+}

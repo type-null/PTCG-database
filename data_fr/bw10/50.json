@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw10-50",
+    "name": "Mackogneur",
+    "img": "https://assets.tcgdex.net/fr/bw/bw10/50/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw10",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw10/symbol",
+    "set_full_name": "Explosion Plasma",
+    "series": "Noir & Blanc",
+    "set_code": "bw10",
+    "date": "2013-08-14",
+    "number": "50",
+    "set_total": 105,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 140,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Sabotage",
+            "damage": 60,
+            "effect": "Défaussez au hasard une carte de la main de votre adversaire."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Bras Renforcés",
+            "damage": 80,
+            "effect": "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Machopeur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw10-50"
+        }
+    ],
+    "print_key": "tcgdex:bw10-50",
+    "card_key": "68|140|3|Kouki Saitou|60,80|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

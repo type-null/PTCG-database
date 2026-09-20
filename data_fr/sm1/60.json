@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm1-60",
+    "name": "Hypnomade",
+    "img": "https://assets.tcgdex.net/fr/sm/sm1/60/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Soleil et Lune",
+    "series": "Soleil et Lune",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "60",
+    "set_total": 163,
+    "rarity": "Peu Commune",
+    "author": [
+        "OOYAMA"
+    ],
+    "pokedex_number": 97,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Yoga",
+            "damage": "20+",
+            "effect": "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Actif de votre adversaire."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Hypnoblast",
+            "damage": 70,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Soporifik",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm1-60"
+        }
+    ],
+    "print_key": "tcgdex:sm1-60",
+    "card_key": "97|110|2|OOYAMA|20+,70|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

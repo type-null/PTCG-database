@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-4",
+    "name": "Giratina",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "4",
+    "set_total": 146,
+    "rarity": "Rare Holo",
+    "author": [
+        "Kazuaki Aihara"
+    ],
+    "pokedex_number": 487,
+    "pokemon_category": "",
+    "flavor_text": "Un Pokémon censé vivre dans un monde à l'opposé du nôtre. Il apparaît dans un cimetière ancien.",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Revenant",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Giratina lors du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tranche brutale",
+            "damage": "50+",
+            "effect": "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-4"
+        }
+    ],
+    "print_key": "tcgdex:dp6-4",
+    "card_key": "487|100|3|Kazuaki Aihara|None,50+|2,4",
+    "types_en": [
+        "Psychic"
+    ]
+}

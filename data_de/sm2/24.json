@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm2-24",
+    "name": "Tentoxa",
+    "img": "https://assets.tcgdex.net/de/sm/sm2/24/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Stunde der Wächter",
+    "series": "Sonne & Mond",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "24",
+    "set_total": 169,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 73,
+    "pokemon_category": "",
+    "flavor_text": "Es hat für gewöhnlich 80 giftige Tentakel. Mit dem Alter verliert es diese jedoch nach und nach.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Giftstachel",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wallende Tentakel",
+            "damage": "40+",
+            "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 40 Schadenspunkte mehr zu. Bei Zahl ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Tentacha",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm2-24"
+        }
+    ],
+    "print_key": "tcgdex:sm2-24",
+    "card_key": "73|110|2|Masakazu Fukuda|30,40+|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

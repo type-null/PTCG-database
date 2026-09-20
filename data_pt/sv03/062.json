@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/sv03-062",
+    "name": "Palafin",
+    "img": "https://assets.tcgdex.net/pt/sv/sv03/062/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "regulation": "G",
+    "set_name": "sv03",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03/symbol",
+    "set_full_name": "Obsidiana em Chamas",
+    "series": "Escarlate e Violeta",
+    "set_code": "sv03",
+    "date": "2023-08-11",
+    "number": "062",
+    "set_total": 230,
+    "rarity": "Rara",
+    "author": [
+        "Souichirou Gunjima"
+    ],
+    "pokedex_number": 964,
+    "pokemon_category": "",
+    "stage": "Estágio 1",
+    "hp": 150,
+    "types": [
+        "Água"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Água"
+            ],
+            "name": "Soco Jato",
+            "damage": 30,
+            "effect": "Este ataque também causa 30 pontos de dano a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
+        },
+        {
+            "cost": [
+                "Água",
+                "Água"
+            ],
+            "name": "Chute Justiceiro",
+            "damage": 210,
+            "effect": "Se este Pokémon não foi movido do Banco para o Campo Ativo durante este turno, este ataque não fará nada."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elétrico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Finizen",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/sv03-062"
+        }
+    ],
+    "print_key": "tcgdex:sv03-62",
+    "card_key": "964|150|2|Souichirou Gunjima|30,210|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

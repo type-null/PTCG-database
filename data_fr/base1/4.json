@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-4",
+    "name": "Dracaufeu",
+    "img": "https://assets.tcgdex.net/fr/base/base1/4/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "4",
+    "set_total": 102,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "flavor_text": "Il peut fondre la roche de son souffle brûlant. Il est souvent la cause de nombreux incendies.",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Feu"
+    ],
+    "abilities": [
+        {
+            "name": "Combustion d'Énergie",
+            "effect": "Aussi souvent que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez transformer toutes les Énergies attachées à Dracaufeu en Énergie {R} jusqu'à la fin du tour. Ce pouvoir ne peut être utilisé si Dracaufeu est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Feu",
+                "Feu"
+            ],
+            "name": "Danseflamme",
+            "damage": 100,
+            "effect": "Défaussez 2 cartes Énergie attachées à Dracaufeu pour pouvoir utiliser cette attaque."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Reptincel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-4"
+        }
+    ],
+    "print_key": "tcgdex:base1-4",
+    "card_key": "6|120|3|Mitsuhiro Arita|100|4",
+    "types_en": [
+        "Fire"
+    ]
+}

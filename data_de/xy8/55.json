@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy8-55",
+    "name": "Raikou",
+    "img": "https://assets.tcgdex.net/de/xy/xy8/55/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy8",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy8/symbol",
+    "set_full_name": "TURBOstart",
+    "series": "XY",
+    "set_code": "xy8",
+    "date": "2015-11-04",
+    "number": "55",
+    "set_total": 165,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 243,
+    "pokemon_category": "",
+    "flavor_text": "Dieses aggressive Pokémon speichert Energie in seinem Körper und entlädt sie, wenn es über das Land streift.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Strahlender Körper",
+            "effect": "Wenn an dieses Pokémon bereits mindestens 1 {L}-Energie angelegt ist, wird Schaden, der diesem Pokémon durch einen gegnerischen Angriff zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Donnerlanze",
+            "damage": "50+",
+            "effect": "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte {L}-Energie zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy8-55"
+        }
+    ],
+    "print_key": "tcgdex:xy8-55",
+    "card_key": "243|120|1|Shin Nagasawa|50+|3",
+    "types_en": [
+        "Lightning"
+    ]
+}

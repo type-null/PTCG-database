@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm2-79",
+    "name": "Kramshef",
+    "img": "https://assets.tcgdex.net/de/sm/sm2/79/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Stunde der Wächter",
+    "series": "Sonne & Mond",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "79",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "Hideki Ishikawa"
+    ],
+    "pokedex_number": 430,
+    "pokemon_category": "",
+    "flavor_text": "Dieses nachtaktive Pokémon kann mit einem einzigen Ruf über 100 seiner untergebenen Kramurx versammeln.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht"
+            ],
+            "name": "Finte",
+            "damage": null,
+            "effect": "Diese Attacke fügt 1 Pokémon deines Gegners 30 Schadenspunkte zu. Der Schaden dieser Attacke wird durch Schwäche, Resistenz oder alle anderen Effekte auf jenem Pokémon nicht verändert."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Rabenkralle",
+            "damage": "10+",
+            "effect": "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der Schadensmarken auf allen Pokémon deines Gegners zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Kramurx",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm2-79"
+        }
+    ],
+    "print_key": "tcgdex:sm2-79",
+    "card_key": "430|110|1|Hideki Ishikawa|None,10+|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

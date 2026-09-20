@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm8-46",
+    "name": "Hundemon",
+    "img": "https://assets.tcgdex.net/de/sm/sm8/46/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Echo des Donners",
+    "series": "Sonne & Mond",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "46",
+    "set_total": 236,
+    "rarity": "Selten",
+    "author": [
+        "Sekio"
+    ],
+    "pokedex_number": 229,
+    "pokemon_category": "",
+    "flavor_text": "Ist es wütend, spuckt es giftige Flammen. Die Schmerzen der Verbrennungen dauern ewig an.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Ränkeschmied",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Angriffseinsatz",
+            "damage": "50+",
+            "effect": "Wenn du mehr Karten auf der Hand hast als dein Gegner, fügt diese Attacke 80 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Hunduster",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm8-46"
+        }
+    ],
+    "print_key": "tcgdex:sm8-46",
+    "card_key": "229|110|1|Sekio|None,50+|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-145",
+    "name": "Celebi",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "145",
+    "set_total": 182,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 251,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Farblos"
+    ],
+    "abilities": [
+        {
+            "name": "Kristall-Typ",
+            "effect": "Immer wenn du eine -, - oder -Basis-Energiekarte aus deiner Hand an Celebi anlegst, ändert sich Celebis Typ (Farbe) bis zum Ende des Zuges zu dem gleichen Typ wie diese Energie."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Wasser"
+            ],
+            "name": "Empathische Heilung",
+            "damage": null,
+            "effect": "Entferne 2 Schadensmarken von Celebi und allen Pokémon, die den gleichen Typ (die gleiche Farbe) wie Celebi haben."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Schädelbrummen",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-145"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-145",
+    "card_key": "251|60|1|Mitsuhiro Arita|None,20|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

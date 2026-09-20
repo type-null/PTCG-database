@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy12-56",
+    "name": "Digdri",
+    "img": "https://assets.tcgdex.net/de/xy/xy12/56/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Evolution",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "56",
+    "set_total": 113,
+    "rarity": "Selten",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 51,
+    "pokemon_category": "",
+    "flavor_text": "Im Kampf gräbt es sich ein und attackiert den Gegner aus einer unvorhersehbaren Richtung.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schlitzer",
+            "damage": 40,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Erdbeben",
+            "damage": 130,
+            "effect": "Dieser Angriff fügt jedem Pokémon auf deiner Bank 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Digda",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy12-56"
+        }
+    ],
+    "print_key": "tcgdex:xy12-56",
+    "card_key": "51|90|1|Keiji Kinebuchi|40,130|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

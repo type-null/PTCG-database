@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex12-16",
+    "name": "Girafarig",
+    "img": "https://assets.tcgdex.net/fr/ex/ex12/16/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Créateurs de légendes",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "16",
+    "set_total": 93,
+    "rarity": "Rare",
+    "author": [
+        "Aya Kusube"
+    ],
+    "pokedex_number": 203,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Détecteur arrière",
+            "effect": "Les Pokémon de base Actifs de chaque joueur (Pokémon-ex exclus) ne peuvent pas utiliser de Poké-Powers."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Prévoyance",
+            "damage": null,
+            "effect": "Regardez les 5 cartes du dessus du deck de n'importe quel joueur et replacez-les au dessus du deck dans l'ordre que vous voulez."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Désordre",
+            "damage": 20,
+            "effect": "Si le Pokémon Défenseur possède des cartes Énergie spéciale, le Pokémon Défenseur est maintenant Confus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex12-16"
+        }
+    ],
+    "print_key": "tcgdex:ex12-16",
+    "card_key": "203|70|1|Aya Kusube|None,20|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

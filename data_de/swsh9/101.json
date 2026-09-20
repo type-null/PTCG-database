@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh9-101",
+    "name": "Cavalanzas",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh9/101/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh9",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh9/symbol",
+    "set_full_name": "Strahlende Sterne",
+    "series": "Schwert & Schild",
+    "set_code": "swsh9",
+    "date": "2022-02-25",
+    "number": "101",
+    "set_total": 186,
+    "rarity": "Selten",
+    "author": [
+        "Nurikabe"
+    ],
+    "pokedex_number": 589,
+    "pokemon_category": "",
+    "flavor_text": "In der Galar-Region ist es besonders beliebt. Es stiehlt die Muschel eines Schnuthelms und vollendet damit seine Ganzkörperrüstung.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Wundersame Rüstung",
+            "effect": "Diesem Pokémon werden durch Attacken von Pokémon-V deines Gegners 100 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Langspieß",
+            "damage": 90,
+            "effect": "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Laukaps",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh9-101"
+        }
+    ],
+    "print_key": "tcgdex:swsh9-101",
+    "card_key": "589|120|2|Nurikabe|90|3",
+    "types_en": [
+        "Metal"
+    ]
+}

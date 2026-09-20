@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw2-24",
+    "name": "Barschuft",
+    "img": "https://assets.tcgdex.net/de/bw/bw2/24/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw2",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw2/symbol",
+    "set_full_name": "Aufstreben der Mächtigen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw2",
+    "date": "2011-08-31",
+    "number": "24",
+    "set_total": 98,
+    "rarity": "Häufig",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 550,
+    "pokemon_category": "",
+    "flavor_text": "Rot gestreifte und blau gestreifte Exemplare kriegen sich sofort in die Haare. Ein äußerst aggressives Pokémon.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Dreschflegel",
+            "damage": 10,
+            "effect": "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wagemut",
+            "damage": 80,
+            "effect": "Wirf 2 Münzen. Zeigen beide „Zahl“, fügt sich dieses Pokémon selbst 80 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw2-24"
+        }
+    ],
+    "print_key": "tcgdex:bw2-24",
+    "card_key": "550|80|1|match|10,80|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

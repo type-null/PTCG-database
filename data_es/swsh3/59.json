@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swsh3-59",
+    "name": "Manectric",
+    "img": "https://assets.tcgdex.net/es/swsh/swsh3/59/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "D",
+    "set_name": "swsh3",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh3/symbol",
+    "set_full_name": "Oscuridad Incandescente",
+    "series": "Espada y Escudo",
+    "set_code": "swsh3",
+    "date": "2020-08-14",
+    "number": "59",
+    "set_total": 201,
+    "rarity": "Rara",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 310,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 110,
+    "types": [
+        "Rayo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Rayo"
+            ],
+            "name": "Pasada de Ataque",
+            "damage": 30,
+            "effect": "Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca."
+        },
+        {
+            "cost": [
+                "Rayo",
+                "Rayo",
+                "Incolora"
+            ],
+            "name": "Impacto Resplandor",
+            "damage": 150,
+            "effect": "Este ataque también hace 30 puntos de daño a 1 de tus Pokémon en Banca. (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Electrike",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swsh3-59"
+        }
+    ],
+    "print_key": "tcgdex:swsh3-59",
+    "card_key": "310|110|1|nagimiso|30,150|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

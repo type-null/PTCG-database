@@ -1,0 +1,77 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard2-44",
+    "name": "Electhor",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard2/44/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-cards",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "44",
+    "set_total": 186,
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Anti-éclair",
+            "effect": "Vous ne pouvez pas attacher de cartes Énergie {L} depuis votre main à Electhor."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Plasma",
+            "damage": 10,
+            "effect": "Si vous avez des cartes Énergie {L} dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Electhor."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Orage d'éclairs",
+            "damage": 60,
+            "effect": "Lancez une pièce. Si c'est face, placez 2 marqueurs de dégâts sur Electhor."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard2-44"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-44",
+    "card_key": "145|80|2|Hajime Kusajima|10,60|1,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

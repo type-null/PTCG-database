@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-25",
+    "name": "Papinox",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "25",
+    "set_total": 133,
+    "rarity": "Rare",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 269,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 130,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Motif camouflage",
+            "effect": "Prévenez tous les effets d'attaques, dégâts inclus, infligés à Papinox par des Pokémon de votre adversaire étant affectés par au moins 2 États Spéciaux."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Para-brouillard",
+            "damage": 20,
+            "effect": "Le Pokémon Défenseur est maintenant Empoisonné. Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Écaille chimique",
+            "damage": 60,
+            "effect": "Si le Pokémon Défenseur possède des Poké-Powers ou des Poké-Bodies, il est maintenant Brûlé et Confus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+30"
+    },
+    "retreat": 0,
+    "evolve_from": "Blindalys",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-25"
+        }
+    ],
+    "print_key": "tcgdex:pl1-25",
+    "card_key": "269|130|0|Yukiko Baba|20,60|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

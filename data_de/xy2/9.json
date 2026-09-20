@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy2-9",
+    "name": "Roserade",
+    "img": "https://assets.tcgdex.net/de/xy/xy2/9/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy2",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy2/symbol",
+    "set_full_name": "Flammenmeer",
+    "series": "XY",
+    "set_code": "xy2",
+    "date": "2014-05-07",
+    "number": "9",
+    "set_total": 110,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 407,
+    "pokemon_category": "",
+    "flavor_text": "Es lockt seine Beute mit süßem Duft an, um sie danach mit seinen dornigen Ranken zu peitschen oder zu würgen.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Peitschenhieb",
+            "damage": null,
+            "effect": "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Lege pro „Kopf“ 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Megasauger",
+            "damage": 70,
+            "effect": "Heile 20 Schadenspunkte bei diesem Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Roselia",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy2-9"
+        }
+    ],
+    "print_key": "tcgdex:xy2-9",
+    "card_key": "407|90|1|Masakazu Fukuda|None,70|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy5-81",
+    "name": "Meditalis",
+    "img": "https://assets.tcgdex.net/de/xy/xy5/81/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Protoshock",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "81",
+    "set_total": 164,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 308,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "{title}:",
+            "effect": "{title}: Dieses Pokémon kann während eines Zuges zweimal angreifen. (Falls der erste Angriff das Aktive Pokémon deines Gegners kampfunfähig macht, kannst du erneut angreifen, nachdem dein Gegner ein neues Aktives Pokémon ausgewählt hat.)"
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Gedankengut",
+            "damage": null,
+            "effect": "Heile 30 Schadenspunkte bei diesem Pokémon."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Yogakick",
+            "damage": 30,
+            "effect": "Der Schaden dieses Angriffs wird durch Schwäche und Resistenz nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Meditie",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy5-81"
+        }
+    ],
+    "print_key": "tcgdex:xy5-81",
+    "card_key": "308|90|1|Mitsuhiro Arita|None,30|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

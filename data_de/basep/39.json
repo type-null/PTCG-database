@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/basep-39",
+    "name": "Traunfugil",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "basep",
+    "set_img": "https://assets.tcgdex.net/univ/base/basep/symbol",
+    "set_full_name": "Wizards Black Star Promos",
+    "series": "Grund",
+    "set_code": "basep",
+    "date": "1999-07-01",
+    "number": "39",
+    "set_total": 53,
+    "rarity": "Häufig",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 200,
+    "pokemon_category": "",
+    "flavor_text": "Es beißt gerne Leute von hinten oder zieht sie ohne Vorwarnung an den Haaren, nur um ihre schockierte Reaktion zu sehen.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Leidteiler",
+            "damage": null,
+            "effect": "Lege für jede Schadensmarke auf Traunfugil eine Schadensmarke auf das verteidigende Pokémon."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Konfustrahl",
+            "damage": 10,
+            "effect": "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon jetzt verwirrt."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/basep-39"
+        }
+    ],
+    "print_key": "tcgdex:basep-39",
+    "card_key": "200|50|1|Shin-ichi Yoshida|None,10|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

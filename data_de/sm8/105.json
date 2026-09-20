@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm8-105",
+    "name": "Garstella",
+    "img": "https://assets.tcgdex.net/de/sm/sm8/105/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Echo des Donners",
+    "series": "Sonne & Mond",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "105",
+    "set_total": 236,
+    "rarity": "Häufig",
+    "author": [
+        "Sanosuke Sakuma"
+    ],
+    "pokedex_number": 747,
+    "pokemon_category": "",
+    "flavor_text": "Mit seinem Giftstachel am Kopf attackiert es Beute. Ist diese geschwächt, umschlingt es sie mit seinen zehn Tentakeln und gibt ihr den Rest.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Schnabel",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Nadelrakete",
+            "damage": "10×",
+            "effect": "Wirf 4 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm8-105"
+        }
+    ],
+    "print_key": "tcgdex:sm8-105",
+    "card_key": "747|60|1|Sanosuke Sakuma|10,10x|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

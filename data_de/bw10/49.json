@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw10-49",
+    "name": "Machomei",
+    "img": "https://assets.tcgdex.net/de/bw/bw10/49/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw10",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw10/symbol",
+    "set_full_name": "Plasma-Blaster",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw10",
+    "date": "2013-08-14",
+    "number": "49",
+    "set_total": 105,
+    "rarity": "Selten",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "flavor_text": "Es erwischt Gegner mit harten Schlägen seiner kräftigen Arme und hackt mit enormer Geschwindigkeit.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Zeugnis der Selbstkontrolle",
+            "effect": "Der Schaden jedes Angriffs deiner {F}-Pokémon wird durch Resistenz nicht verändert."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Nahkampf",
+            "damage": 120,
+            "effect": "Wirf 1 Münze. Bei „Zahl“ wird Schaden, der diesem Pokémon durch Angriffe während des nächsten Zuges deines Gegners zugefügt wird, um 30 Schadenspunkte erhöht (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Maschock",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw10-49"
+        }
+    ],
+    "print_key": "tcgdex:bw10-49",
+    "card_key": "68|150|3|Naoki Saito|120|4",
+    "types_en": [
+        "Fighting"
+    ]
+}

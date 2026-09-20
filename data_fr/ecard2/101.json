@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard2-101",
+    "name": "Scarabrute",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard2/101/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-cards",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "101",
+    "set_total": 186,
+    "rarity": "Commune",
+    "author": [
+        "Toshinao Aoki"
+    ],
+    "pokedex_number": 127,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Attrap'korne",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, cette attaque ne fait rien."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Super tranche",
+            "damage": 90,
+            "effect": "Lancez 2 pièces. Si vous obtenez un pile, cette attaque ne fait rien."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard2-101"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-101",
+    "card_key": "127|60|1|Toshinao Aoki|20,90|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp4-14",
+    "name": "Smettbo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp4",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp4/symbol",
+    "set_full_name": "Epische Begegnungen",
+    "series": "Diamant & Perl",
+    "set_code": "dp4",
+    "date": "2008-02-01",
+    "number": "14",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 12,
+    "pokemon_category": "",
+    "flavor_text": "Es liebt Blütenhonig. Es findet selbst Blumen, die sehr wenig Pollen haben.",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Parallelsauger",
+            "damage": 30,
+            "effect": "Entferne nach deinem Angriff Schadensmarken von 1 deiner Pokémon entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon zugefügt wurden."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Schlummerschuppen",
+            "damage": 60,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt. Bei „Zahl“ ist das Verteidigende Pokémon jetzt vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+30"
+    },
+    "evolve_from": "Safcon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp4-14"
+        }
+    ],
+    "print_key": "tcgdex:dp4-14",
+    "card_key": "12|120|None|Sumiyoshi Kizuki|30,60|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

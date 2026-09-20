@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy12-110",
+    "name": "Fliegendes Pikachu",
+    "img": "https://assets.tcgdex.net/de/xy/xy12/110/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Evolution",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "110",
+    "set_total": 113,
+    "rarity": "Versteckt Selten",
+    "author": [
+        "Toshinao Aoki"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "flavor_text": "Indem es das Fliegen erlernte, bezwang Pikachu seine Schwäche gegenüber Kampf-Pokémon.",
+    "stage": "Basis",
+    "hp": 40,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Donnerschock",
+            "damage": 10,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Fliegen",
+            "damage": 30,
+            "effect": "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy12-110"
+        }
+    ],
+    "print_key": "tcgdex:xy12-110",
+    "card_key": "25|40|1|Toshinao Aoki|10,30|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

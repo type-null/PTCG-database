@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl3-5",
+    "name": "Knakrack",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Ultimative Sieger",
+    "series": "Platin",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "5",
+    "set_total": 153,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 445,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Farblos"
+    ],
+    "abilities": [
+        {
+            "name": "Drachendroher",
+            "effect": "Wenn Knakrack dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Knakrack dadurch kampfunfähig wird), wähle 1 Energiekarte, die am Angreifenden Pokémon angelegt ist und dein Gegner nimmt diese auf die Hand."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Abwehrklaue",
+            "damage": 40,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der Knakrack durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Turboaufprall",
+            "damage": "120-",
+            "effect": "Dieser Angriff fügt 120 Schadenspunkte minus 20 Schadenspunkte für jede Energie, die am Verteidigenden Pokémon angelegt ist, zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "+30"
+    },
+    "retreat": 0,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl3-5"
+        }
+    ],
+    "print_key": "tcgdex:pl3-5",
+    "card_key": "445|130|0|Mitsuhiro Arita|40,120-|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

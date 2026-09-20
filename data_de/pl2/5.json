@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-5",
+    "name": "Libelldra",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "5",
+    "set_total": 120,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 330,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Farblos"
+    ],
+    "abilities": [
+        {
+            "name": "Regenbogenschweber",
+            "effect": "Jedes deiner Pokémon, das denselben Typ hat wie eine beliebige an Libelldra angelegte Basis-Energiekarte, hat Rückzugskosten 0."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Sandwall",
+            "damage": 40,
+            "effect": "Lege eine Stadion-Karte deines Gegners auf den Ablagestapel deines Gegners. Wenn du das machst, verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Libelldra zugefügt würden."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schwungkraft",
+            "damage": "60+",
+            "effect": "Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jedes entwickelte Pokémon auf deiner Bank zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Vibrava",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-5"
+        }
+    ],
+    "print_key": "tcgdex:pl2-5",
+    "card_key": "330|120|0|Kouki Saitou|40,60+|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

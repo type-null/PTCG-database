@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm7-42",
+    "name": "Aalabyss",
+    "img": "https://assets.tcgdex.net/de/sm/sm7/42/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm7",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm7/symbol",
+    "set_full_name": "Sturm Am Firmament",
+    "series": "Sonne & Mond",
+    "set_code": "sm7",
+    "date": "2018-08-03",
+    "number": "42",
+    "set_total": 183,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "pokedex_number": 367,
+    "pokemon_category": "",
+    "flavor_text": "Es lebt tief im Meer. Sein Schweif ist wie ein kleiner Fisch geformt. Mit ihm lockt es Beute an.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Mächtiger Biss",
+            "damage": 30,
+            "effect": "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Gefährlicher Biss",
+            "damage": "40+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Perlu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm7-42"
+        }
+    ],
+    "print_key": "tcgdex:sm7-42",
+    "card_key": "367|110|1|Shigenori Negishi|30,40+|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

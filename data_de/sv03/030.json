@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv03-030",
+    "name": "Entei",
+    "img": "https://assets.tcgdex.net/de/sv/sv03/030/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv03",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03/symbol",
+    "set_full_name": "Obsidian Flammen",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv03",
+    "date": "2023-08-11",
+    "number": "030",
+    "set_total": 230,
+    "rarity": "Selten",
+    "author": [
+        "toriyufu"
+    ],
+    "pokedex_number": 244,
+    "pokemon_category": "",
+    "flavor_text": "Man sagt, wenn es brüllt, bricht irgendwo in der Welt ein Vulkan aus.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "Erzwinger",
+            "effect": "Solange dieses Pokémon in der Aktiven Position ist, fügen die vom Aktiven Pokémon deines Gegners eingesetzten Attacken 20 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Brandball",
+            "damage": "60+",
+            "effect": "Diese Attacke fügt für jede an dieses Pokémon angelegte {R}-Energie 20 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv03-030"
+        }
+    ],
+    "print_key": "tcgdex:sv03-30",
+    "card_key": "244|130|2|toriyufu|60+|3",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh1-75",
+    "name": "Bellektro",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh1/75/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Schwert & Schild",
+    "series": "Schwert & Schild",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "75",
+    "set_total": 216,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Misa Tsutsui"
+    ],
+    "pokedex_number": 836,
+    "pokemon_category": "",
+    "flavor_text": "Es generiert Strom und lässt ihn zur Unterstützung beim Rennen in seine Beine fließen. Dadurch kann es drei Tage und Nächte ohne Pause rennen.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Mächtiger Biss",
+            "damage": 50,
+            "effect": "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Kämpfende Reißzähne",
+            "damage": "90+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners ein Pokémon-V oder Pokémon-GX ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Voldi",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh1-75"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-75",
+    "card_key": "836|130|1|Misa Tsutsui|50,90+|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

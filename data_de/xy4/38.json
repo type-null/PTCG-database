@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy4-38",
+    "name": "Schlukwech",
+    "img": "https://assets.tcgdex.net/de/xy/xy4/38/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy4",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy4/symbol",
+    "set_full_name": "Phantomkräfte",
+    "series": "XY",
+    "set_code": "xy4",
+    "date": "2014-11-05",
+    "number": "38",
+    "set_total": 124,
+    "rarity": "Selten",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 317,
+    "pokemon_category": "",
+    "flavor_text": "Es verschluckt alles in einem Stück und sondert giftige Stoffe ab, mit denen es Gegner besprüht.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Giftwolke",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Runterschlucken",
+            "damage": "50+",
+            "effect": "Wenn, bevor du Schaden zufügst, das Aktive Pokémon deines Gegners weniger verbliebene KP hat als dieses Pokémon, fügt dieser Angriff 50 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Schluppuck",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy4-38"
+        }
+    ],
+    "print_key": "tcgdex:xy4-38",
+    "card_key": "317|110|3|Tomokazu Komiya|30,50+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw7-69",
+    "name": "Somnivora",
+    "img": "https://assets.tcgdex.net/de/bw/bw7/69/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw7",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw7/symbol",
+    "set_full_name": "Überschrittene Schwellen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw7",
+    "date": "2012-11-07",
+    "number": "69",
+    "set_total": 153,
+    "rarity": "Selten",
+    "author": [
+        "Satoshi Shirai"
+    ],
+    "pokedex_number": 518,
+    "pokemon_category": "",
+    "flavor_text": "Je nach Inhalt der Träume, die es frisst, nimmt der Dunst, der aus seiner Stirn austritt, unterschiedliche Farben an.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Telekinese",
+            "damage": null,
+            "effect": "Dieser Angriff fügt 1 Pokémon deines Gegners 30 Schadenspunkte zu. Der Schaden dieses Angriffs wird durch Schwäche und Resistenz nicht verändert."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Traumwalzer",
+            "damage": 60,
+            "effect": "Dieser Angriff kann sogar eingesetzt werden, wenn dieses Pokémon schläft. Wenn dieses Pokémon schläft, fügt dieser Angriff 30 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Somniam",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw7-69"
+        }
+    ],
+    "print_key": "tcgdex:bw7-69",
+    "card_key": "518|100|3|Satoshi Shirai|None,60|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

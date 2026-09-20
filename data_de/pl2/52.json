@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-52",
+    "name": "Tropius",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "52",
+    "set_total": 120,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 357,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Fliegen",
+            "damage": 30,
+            "effect": "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen. Bei „Kopf“ verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Tropius zugefügt würden."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Gnadenfrucht",
+            "damage": null,
+            "effect": "Entferne alle Schadensmarken von 1 {G}-Pokémon auf deiner Bank."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Solarstrahl",
+            "damage": 60,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-52"
+        }
+    ],
+    "print_key": "tcgdex:pl2-52",
+    "card_key": "357|80|2|Ken Sugimori|30,None,60|1,2,4",
+    "types_en": [
+        "Grass"
+    ]
+}

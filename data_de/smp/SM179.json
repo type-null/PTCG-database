@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/smp-SM179",
+    "name": "Volcanion",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SM Promokarten",
+    "series": "Sonne & Mond",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM179",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 721,
+    "pokemon_category": "",
+    "hp": 120,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Feuerfächer",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 Fire-Energiekarte und lege sie an 1 deiner Pokémon an. Wenn du als Zweiter am Zug bist und es dein erster Zug ist, durchsuche dein Deck stattdessen nach bis zu 3 Fire-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Starker Hitzestoß",
+            "damage": "50+",
+            "effect": "Wenn du mindestens 4 Fire-Energien im Spiel hast, fügt diese Attacke 60 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/smp-SM179"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM179",
+    "card_key": "721|120|2|Hasuno|None,50+|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

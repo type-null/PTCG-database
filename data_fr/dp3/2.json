@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp3-2",
+    "name": "Tortank",
+    "img": "https://assets.tcgdex.net/fr/dp/dp3/2/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Merveilles Secrètes",
+    "series": "Diamant & Perle",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "2",
+    "set_total": 132,
+    "rarity": "Rare Holo",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "pokedex_number": 9,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Imbibé d'O",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez attacher autant de cartes Énergie de base Water de votre main que vous voulez à vos Pokémon de la façon que vous voulez. Votre tour se termine. Ce pouvoir ne peut pas être utilisé si Tortank est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Hydrocanon",
+            "damage": "50+",
+            "effect": "Inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque Énergie Water attachée à Tortank mais qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 40 dégâts de cette façon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+30"
+    },
+    "retreat": 2,
+    "evolve_from": "Carabaffe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp3-2"
+        }
+    ],
+    "print_key": "tcgdex:dp3-2",
+    "card_key": "9|120|2|Daisuke Ito|50+|3",
+    "types_en": [
+        "Water"
+    ]
+}

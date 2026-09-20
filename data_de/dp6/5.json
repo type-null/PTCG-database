@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp6-5",
+    "name": "Skorgro",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Erwachte Legenden",
+    "series": "Diamant & Perl",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "5",
+    "set_total": 146,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 472,
+    "pokemon_category": "",
+    "flavor_text": "Es hängt kopfüber von einem Ast und beobachtet seine Beute. Bei Gelegenheit stürzt es sich auf sie.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Giftbrand",
+            "damage": null,
+            "effect": "Wähle „verbrannt“ oder „vergiftet“. Das Verteidigende Pokémon ist jetzt vom gewählten Speziellen Zustand betroffen. Du kannst Skorgro und alle daran angelegten Karten auf deine Hand zurücknehmen."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Verfolgung",
+            "damage": "40+",
+            "effect": "Wenn das Verteidigende Pokémon von einem Speziellen Zustand betroffen ist, fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Skorgla",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp6-5"
+        }
+    ],
+    "print_key": "tcgdex:dp6-5",
+    "card_key": "472|80|1|Kent Kanetsuna|None,40+|0,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

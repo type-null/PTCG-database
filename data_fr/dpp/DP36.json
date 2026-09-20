@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dpp-DP36",
+    "name": "Scorvol",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dpp",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dpp/symbol",
+    "set_full_name": "Promo DP",
+    "series": "Diamant & Perle",
+    "set_code": "dpp",
+    "date": "2007-05-01",
+    "number": "DP36",
+    "set_total": 56,
+    "rarity": "Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 472,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Aveugle d'un oeil",
+            "effect": "Tant que Scorvol est votre Pokémon Actif, votre adversaire ne peut pas retirer d'États Spéciaux en faisant évoluer ou en dés-évoluant son Pokémon. (Placer une carte Niveau Sup sur ce Pokémon inclus.)"
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Tour coupant",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, placez des marqueurs de dégât sur le Pokémon Défenseur jusqu'à ce qu'il ne lui reste plus que 10 PV. Mélangez ensuite à votre deck Scorvol ainsi que toutes les cartes qui lui sont attachées."
+        },
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Friction chauffante",
+            "damage": 20,
+            "effect": "Le Pokémon Défenseur est maintenant Brûlé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "evolve_from": "Scorplane",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dpp-DP36"
+        }
+    ],
+    "print_key": "tcgdex:dpp-DP36",
+    "card_key": "472|90|None|Kagemaru Himeno|None,20|1,1",
+    "types_en": [
+        "Fighting"
+    ]
+}

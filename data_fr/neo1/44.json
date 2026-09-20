@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-44",
+    "name": "Cochignon",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/44/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "44",
+    "set_total": 111,
+    "rarity": "Peu Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 221,
+    "pokemon_category": "",
+    "flavor_text": "Comme il ne voit rien à cause des longs poils qui recouvrent son corps, il passe son temps à charger tout ce qui bouge.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau"
+            ],
+            "name": "Plus un geste !",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer. (Envoyer le Pokémon Défenseur sur son Banc ou le faire évoluer met fin à cet effet.)"
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Eau"
+            ],
+            "name": "Blizzard",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire. Si c'est pile, cette attaque inflige 10 dégâts à chacun des Pokémon de votre Banc. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Marcacrin",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-44"
+        }
+    ],
+    "print_key": "tcgdex:neo1-44",
+    "card_key": "221|80|3|Ken Sugimori|10,30|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

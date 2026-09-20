@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw3-76",
+    "name": "Caesurio",
+    "img": "https://assets.tcgdex.net/de/bw/bw3/76/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw3",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw3/symbol",
+    "set_full_name": "Königliche Siege",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw3",
+    "date": "2011-11-16",
+    "number": "76",
+    "set_total": 102,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 625,
+    "pokemon_category": "",
+    "flavor_text": "Es rückt seinen Opfern mit einer Schar von Gladiantri im Gefolge auf den Pelz. Den letzten Hieb übernimmt es selbst.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht"
+            ],
+            "name": "Finalhieb",
+            "damage": 20,
+            "effect": "Wenn auf dem Verteidigenden Pokémon bereits mindestens 1 Schadensmarke liegt, fügt dieser Angriff 50 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Nachthieb",
+            "damage": 30,
+            "effect": "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Gladiantri",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw3-76"
+        }
+    ],
+    "print_key": "tcgdex:bw3-76",
+    "card_key": "625|90|1|Kouki Saitou|20,30|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

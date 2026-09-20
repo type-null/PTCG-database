@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex6-8",
+    "name": "Nidoking",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex6",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex6/symbol",
+    "set_full_name": "EX Feuerrot & Blattgrün",
+    "series": "EX",
+    "set_code": "ex6",
+    "date": "2004-09-01",
+    "number": "8",
+    "set_total": 116,
+    "rarity": "Selten",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 34,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Power Gene",
+            "effect": "As long as Nidoking is in play, your attacks by Nidoran (f), Nidorina, Nidoqueen, Nidoran (m) and Nidorino do 10 more damage to the Defending Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Earth Poison",
+            "damage": 40,
+            "effect": "If the Defending Pokémon has already any Damage counters on it, the Defending Pokémon is now Poisoned."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Bound Crush",
+            "damage": null,
+            "effect": "Choose 1 of your opponent´s Pokémon. This attack does 60 damage on this Pokémon. (Don´t apply Weakness and Resistance on Benched Pokémon.) Nidoking can´t use Bound Crush during next turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex6-8"
+        }
+    ],
+    "print_key": "tcgdex:ex6-8",
+    "card_key": "34|120|3|Hisao Nakamura|40,None|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm1-112",
+    "name": "Chelours",
+    "img": "https://assets.tcgdex.net/fr/sm/sm1/112/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Soleil et Lune",
+    "series": "Soleil et Lune",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "112",
+    "set_total": 163,
+    "rarity": "Rare",
+    "author": [
+        "kirisAki"
+    ],
+    "pokedex_number": 760,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 130,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Câlin d’Ours",
+            "damage": 40,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Surpuissance",
+            "damage": "80+",
+            "effect": "Vous pouvez infliger 40 dégâts supplémentaires. Dans ce cas, ce Pokémon s’inflige 20 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Nounourson",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm1-112"
+        }
+    ],
+    "print_key": "tcgdex:sm1-112",
+    "card_key": "760|130|3|kirisAki|40,80+|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

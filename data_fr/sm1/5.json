@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm1-5",
+    "name": "Parasect",
+    "img": "https://assets.tcgdex.net/fr/sm/sm1/5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Soleil et Lune",
+    "series": "Soleil et Lune",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "5",
+    "set_total": 163,
+    "rarity": "Rare",
+    "author": [
+        "Eri Yamaki"
+    ],
+    "pokedex_number": 47,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Taillade",
+            "damage": "10+",
+            "effect": "Lancez 3 pièces. S’il n’y a qu’un côté face, cette attaque inflige 20 dégâts supplémentaires. S’il y a 2 côtés face, cette attaque inflige 60 dégâts supplémentaires. S’il y a 3 côtés face, cette attaque inflige 120 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Champi Drain",
+            "damage": 70,
+            "effect": "Soignez 30 dégâts à ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Paras",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm1-5"
+        }
+    ],
+    "print_key": "tcgdex:sm1-5",
+    "card_key": "47|110|3|Eri Yamaki|10+,70|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

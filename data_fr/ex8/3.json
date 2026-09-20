@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex8-3",
+    "name": "Chapignon",
+    "img": "https://assets.tcgdex.net/fr/ex/ex8/3/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "3",
+    "set_total": 108,
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 286,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Feuille-poison",
+            "damage": 20,
+            "effect": "Si Chapignon possède des Énergies {G}, le Pokémon Défenseur est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Pousse-poing",
+            "damage": "70-",
+            "effect": "Lors de votre prochain tour, les dégâts de base de l'attaque Pousse-poing sont de 50 au lieu de 70."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Balignon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex8-3"
+        }
+    ],
+    "print_key": "tcgdex:ex8-3",
+    "card_key": "286|80|1|Hajime Kusajima|20,70-|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

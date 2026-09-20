@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy12-47",
+    "name": "Nebulak",
+    "img": "https://assets.tcgdex.net/de/xy/xy12/47/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Evolution",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "47",
+    "set_total": 113,
+    "rarity": "Häufig",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 92,
+    "pokemon_category": "",
+    "flavor_text": "Ein Wesen, das aus Gas besteht. Es kann einen indischen Elefanten umstoßen, indem es ihn innerhalb von zwei Sekunden einhüllt.",
+    "stage": "Basis",
+    "hp": 40,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Kleiner Groll",
+            "damage": null,
+            "effect": "Wenn dieses Pokémon während des nächsten Zuges deines Gegners durch Schaden eines Angriffs kampfunfähig wird, lege 1 an das Angreifende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Nachtmahr",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ schläft das Aktive Pokémon deines Gegners jetzt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy12-47"
+        }
+    ],
+    "print_key": "tcgdex:xy12-47",
+    "card_key": "92|40|1|Keiji Kinebuchi|None,20|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

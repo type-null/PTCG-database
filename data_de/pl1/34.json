@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-34",
+    "name": "Kappalores",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "34",
+    "set_total": 133,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 272,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Fröhliche Stimme",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power benutzen. Wenn du das machst, ist dein Zug beendet. In deinem nächsten Zug fügen Kappalores' Angriffe dem Verteidigenden Pokémon 60 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden). Diese Poké-Power kann nicht benutzt werden, wenn Kappalores von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Wilder Tanz",
+            "damage": 20,
+            "effect": "Das Verteidigende Pokémon ist jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Bester Tanz",
+            "damage": 60,
+            "effect": "Nachdem der Schaden zugefügt wurde, entferne Schadensmarken von Kappalores entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon zugefügt wurden. Kappalores kann Bester Tanz in deinem nächsten Zug nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+30"
+    },
+    "retreat": 2,
+    "evolve_from": "Lombrero",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-34"
+        }
+    ],
+    "print_key": "tcgdex:pl1-34",
+    "card_key": "272|120|2|Kagemaru Himeno|20,60|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy4-30",
+    "name": "Elezard",
+    "img": "https://assets.tcgdex.net/de/xy/xy4/30/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy4",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy4/symbol",
+    "set_full_name": "Phantomkräfte",
+    "series": "XY",
+    "set_code": "xy4",
+    "date": "2014-11-05",
+    "number": "30",
+    "set_total": 124,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 695,
+    "pokemon_category": "",
+    "flavor_text": "Die Strommenge, die ein Elezard mit ausgebreiteten Hautlappen durch Umwandlung von Sonnenstrahlen erzeugt, genügt zur Versorgung eines Wolkenkratzers.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Pfund",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Parabolfunken",
+            "damage": "30×",
+            "effect": "Lege beliebig viele an deine Pokémon angelegte {L}-Energien auf deinen Ablagestapel. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl abgelegter Energiekarten zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Eguana",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy4-30"
+        }
+    ],
+    "print_key": "tcgdex:xy4-30",
+    "card_key": "695|90|1|Kouki Saitou|30,30x|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

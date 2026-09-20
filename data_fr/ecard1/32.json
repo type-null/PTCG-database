@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard1-32",
+    "name": "Smogogo",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard1/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-cards",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "32",
+    "set_total": 165,
+    "rarity": "Holo Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 110,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Gaz infect",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Si c'est pile, le Pokémon Défenseur est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Raté",
+            "damage": 60,
+            "effect": "Lancez une pièce. Si c'est face, placez 6 marqueurs de dégâts sur Smogogo."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Smogo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard1-32"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-32",
+    "card_key": "110|80|2|Hajime Kusajima|None,60|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-18",
+    "name": "Gengar",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "18",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 94,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 110,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Ohnmachtsanfall",
+            "effect": "Einmal während des Zuges deines Gegners kannst du, wenn Gengar durch Schaden eines Angriffs kampfunfähig würde, 1 Münze werfen. Bei „Kopf“ ist das Angreifende Pokémon jetzt kampfunfähig."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Schattenraum",
+            "damage": null,
+            "effect": "Lege 3 Schadensmarken auf 1 Pokémon deines Gegners. Wenn dieses Pokémon mindestens 1 Poké-Power hat, lege stattdessen 6 Schadensmarken darauf."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Poltergeist",
+            "damage": "30x",
+            "effect": "Schau dir die Handkarten deines Gegners an. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl der Trainer-, Unterstützer- und Stadion-Karten, die du dort gefunden hast, zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "evolve_from": "Alpollo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-18"
+        }
+    ],
+    "print_key": "tcgdex:dp7-18",
+    "card_key": "94|110|None|Hajime Kusajima|None,30x|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw10-22",
+    "name": "Firnontor",
+    "img": "https://assets.tcgdex.net/de/bw/bw10/22/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw10",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw10/symbol",
+    "set_full_name": "Plasma-Blaster",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw10",
+    "date": "2013-08-14",
+    "number": "22",
+    "set_total": 105,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 362,
+    "pokemon_category": "",
+    "flavor_text": "Es verhindert, dass Beute flieht, indem es die Feuchtigkeit in der Luft augenblicklich einfriert.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Pulverschnee",
+            "damage": 30,
+            "effect": "Das Verteidigende Pokémon schläft jetzt."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Energiereflexion",
+            "damage": 60,
+            "effect": "Verschiebe 1 an dieses Pokémon angelegte {W}-Energie auf 1 Pokémon auf deiner Bank."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Schneppke",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw10-22"
+        }
+    ],
+    "print_key": "tcgdex:bw10-22",
+    "card_key": "362|100|2|5ban Graphics|30,60|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

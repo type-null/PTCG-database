@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy11-23",
+    "name": "Némélios",
+    "img": "https://assets.tcgdex.net/fr/xy/xy11/23/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Offensive Vapeur",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "23",
+    "set_total": 116,
+    "rarity": "Rare",
+    "author": [
+        "Yumi"
+    ],
+    "pokedex_number": 668,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Nitrocharge",
+            "damage": 60,
+            "effect": "Cherchez une carte Énergie Fire dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Calcination",
+            "damage": 90,
+            "effect": "Avant d'infliger des dégâts, défaussez toutes les cartes Outil Pokémon attachées au Pokémon Actif de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Hélionceau",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy11-23"
+        }
+    ],
+    "print_key": "tcgdex:xy11-23",
+    "card_key": "668|120|2|Yumi|60,90|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

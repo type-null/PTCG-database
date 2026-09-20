@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/30th-c-006",
+    "name": "Tyranocif obscur",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "30th-c",
+    "set_full_name": "Collection Classique30ᵉ Anniversaire",
+    "series": "Méga-Évolution",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "006",
+    "set_total": 30,
+    "rarity": "Sans Rareté",
+    "author": [
+        "Nakaoka"
+    ],
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Écrase",
+            "damage": "10+",
+            "effect": "Inflige 10 dégâts plus 10 supplémentaires pour chaque Énergie attachée à Tyranocif obscur."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Queue tournante",
+            "damage": null,
+            "effect": "Inflige 20 dégâts à chacun des Pokémon de votre adversaire. <em>(N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)</em>"
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Arracher d'un coup de dent",
+            "damage": "70+",
+            "effect": "Si le Pokémon Défenseur est un Pokémon-<em>ex</em>, cette attaque inflige 70 dégâts plus 50 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/30th-c-006"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-6",
+    "card_key": "248|120|2|Nakaoka|10+,None,70+|1,3,5",
+    "types_en": [
+        "Darkness"
+    ]
+}

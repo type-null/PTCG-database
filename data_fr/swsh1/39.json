@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh1-39",
+    "name": "Scolocendre",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh1/39/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Épée et Bouclier",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "39",
+    "set_total": 216,
+    "rarity": "Rare",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 851,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 130,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Flammes Mille-Pattes",
+            "damage": null,
+            "effect": "Pour chaque Énergie Fire attachée à ce Pokémon, défaussez la carte du dessus du deck de votre adversaire."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Flammes Calcinantes",
+            "damage": 110,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Grillepattes",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh1-39"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-39",
+    "card_key": "851|130|3|Anesaki Dynamic|None,110|1,4",
+    "types_en": [
+        "Fire"
+    ]
+}

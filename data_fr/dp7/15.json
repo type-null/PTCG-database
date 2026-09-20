@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-15",
+    "name": "Drascore",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "15",
+    "set_total": 106,
+    "rarity": "Rare",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 452,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Lutte scorpion",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Poison-croix",
+            "damage": "20x",
+            "effect": "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces. Si vous obtenez au moins 2 faces, le Pokémon Défenseur est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Dérailler",
+            "damage": 60,
+            "effect": "Défaussez toutes les cartes Énergie Spéciale attachées au Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+20"
+    },
+    "retreat": 3,
+    "evolve_from": "Rapion",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-15"
+        }
+    ],
+    "print_key": "tcgdex:dp7-15",
+    "card_key": "452|110|3|Kent Kanetsuna|10,20x,60|0,2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

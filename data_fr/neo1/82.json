@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-82",
+    "name": "Axoloto",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/82/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "82",
+    "set_total": 111,
+    "rarity": "Commune",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 194,
+    "pokemon_category": "",
+    "flavor_text": "Ce Pokémon vit dans les eaux froides. Il sort de l'eau pour chercher de la nourriture lorsque la température baisse à l'extérieur.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Amnésie",
+            "damage": null,
+            "effect": "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Souplesse",
+            "damage": "20x",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-82"
+        }
+    ],
+    "print_key": "tcgdex:neo1-82",
+    "card_key": "194|50|1|Miki Tanaka|None,20x|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

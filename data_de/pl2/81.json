@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-81",
+    "name": "Relaxo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "81",
+    "set_total": 120,
+    "rarity": "Häufig",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 143,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Farblos"
+    ],
+    "abilities": [
+        {
+            "name": "Üble Schlafgewohnheiten",
+            "effect": "Solange Relaxo schläft, können sich Aktive Pokémon deines Gegners nicht zurückziehen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Herumwälzen",
+            "damage": "20+",
+            "effect": "Wenn Relaxo schläft, fügt dieser Angriff 20 Schadenspunkte plus 30 weitere Schadenspunkte zu. (Dieser Angriff kann auch eingesetzt werden, wenn Relaxo schläft.)"
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Plattbügeln",
+            "damage": "40+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu. Bei „Zahl“ schläft Relaxo jetzt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+20"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-81"
+        }
+    ],
+    "print_key": "tcgdex:pl2-81",
+    "card_key": "143|100|4|Kouki Saitou|20+,40+|2,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

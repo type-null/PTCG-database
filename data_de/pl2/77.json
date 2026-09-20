@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-77",
+    "name": "Seejong",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "77",
+    "set_total": 120,
+    "rarity": "Häufig",
+    "author": [
+        "Saya Tsuruta"
+    ],
+    "pokedex_number": 364,
+    "pokemon_category": "",
+    "flavor_text": "Es balanciert Dinge auf seiner Nase. Dabei lernt es etwas über die Beschaffenheit und den Geruch.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Eis finden",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu 2 {W}-Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Eiseskälte",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ kann das Verteidigende Pokémon im nächsten Zug deines Gegners nicht angreifen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Seemops",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-77"
+        }
+    ],
+    "print_key": "tcgdex:pl2-77",
+    "card_key": "364|80|2|Saya Tsuruta|None,20|0,2",
+    "types_en": [
+        "Water"
+    ]
+}

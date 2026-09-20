@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-33",
+    "name": "Aquana",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "33",
+    "set_total": 182,
+    "rarity": "Selten",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 134,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Selbstheilung",
+            "effect": "Immer wenn du eine -Energiekarte aus deiner Hand an Aquana anlegst, entferne alle speziellen Zustände, die Aquana betreffen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Hypnospritzer",
+            "damage": 10,
+            "effect": "Das verteidigende Pokémon schläft jetzt."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wasser-Trick",
+            "damage": 40,
+            "effect": "Wirf eine Münze, falls an das verteidigende Pokémon mindestens eine Energiekarte angelegt ist. Wähle bei 'Kopf' 1 dieser Energiekarten und lege sie auf 1 der Pokémon auf der Bank deines Gegners. Hat dein Gegner kein Pokémon auf seiner Bank, ignoriere diesen Effekt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-33"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-33",
+    "card_key": "134|70|1|Naoyo Kimura|10,40|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

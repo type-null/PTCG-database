@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-52",
+    "name": "Xatu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "52",
+    "set_total": 111,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 178,
+    "pokemon_category": "",
+    "flavor_text": "Es wird gesagt, dass es still und ruhig bleibt, weil es sowohl die Vergangenheit als auch die Zukunft gleichzeitig sieht.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Vorhersagung",
+            "damage": null,
+            "effect": "Schaue dir die drei obersten Karten entweder von deinem Deck oder vom Deck deines Gegners an und lege sie in einer beliebigen Reihenfolge wieder zurück."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Konfustrahl",
+            "damage": 30,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Natu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-52"
+        }
+    ],
+    "print_key": "tcgdex:neo1-52",
+    "card_key": "178|80|1|Ken Sugimori|None,30|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

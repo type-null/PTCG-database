@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw6-26",
+    "name": "Wailord",
+    "img": "https://assets.tcgdex.net/de/bw/bw6/26/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw6",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw6/symbol",
+    "set_full_name": "Hoheit der Drachen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw6",
+    "date": "2012-08-15",
+    "number": "26",
+    "set_total": 128,
+    "rarity": "Selten",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 321,
+    "pokemon_category": "",
+    "flavor_text": "Das größte Pokémon. Es kann mit nur einem Atemzug in Tiefen bis 3 000 Meter tauchen.",
+    "stage": "Rang 1",
+    "hp": 200,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Aquakanone",
+            "damage": 30,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten {W}-Energien zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Riesenwelle",
+            "damage": 80,
+            "effect": "Dieses Pokémon kann während deines nächsten Zuges Riesenwelle nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Wailmer",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw6-26"
+        }
+    ],
+    "print_key": "tcgdex:bw6-26",
+    "card_key": "321|200|4|match|30,80|1,4",
+    "types_en": [
+        "Water"
+    ]
+}

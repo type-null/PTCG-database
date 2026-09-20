@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm3-72",
+    "name": "Karaclée",
+    "img": "https://assets.tcgdex.net/fr/sm/sm3/72/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Ombres Ardentes",
+    "series": "Soleil et Lune",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "72",
+    "set_total": 169,
+    "rarity": "Commune",
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "pokedex_number": 539,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Prévention",
+            "damage": null,
+            "effect": "Évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon de base pendant le prochain tour de votre adversaire. Ce Pokémon ne peut pas utiliser Prévention pendant votre prochain tour."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Casse-Brique",
+            "damage": 40,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Résistance ou tout autre effet en action sur le Pokémon Actif de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm3-72"
+        }
+    ],
+    "print_key": "tcgdex:sm3-72",
+    "card_key": "539|90|2|Shigenori Negishi|None,40|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

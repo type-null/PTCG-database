@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base3-40",
+    "name": "Amonistar",
+    "img": "https://assets.tcgdex.net/fr/base/base3/40/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base3",
+    "set_img": "https://assets.tcgdex.net/univ/base/base3/symbol",
+    "set_full_name": "Fossile",
+    "series": "Base",
+    "set_code": "base3",
+    "date": "1999-10-10",
+    "number": "40",
+    "set_total": 62,
+    "rarity": "Peu Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 139,
+    "pokemon_category": "",
+    "flavor_text": "Un Pokémon préhistorique qui disparut quand sa coquille devint trop lourde à déplacer.",
+    "stage": "Niveau 2",
+    "hp": 70,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Pistolet à O",
+            "damage": "20+",
+            "effect": "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Amonistar en plus du coût d'Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau"
+            ],
+            "name": "Picanon",
+            "damage": "30x",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Amonita",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base3-40"
+        }
+    ],
+    "print_key": "tcgdex:base3-40",
+    "card_key": "139|70|1|Ken Sugimori|20+,30x|2,2",
+    "types_en": [
+        "Water"
+    ]
+}

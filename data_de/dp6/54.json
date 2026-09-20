@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp6-54",
+    "name": "Kokowei",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Erwachte Legenden",
+    "series": "Diamant & Perl",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "54",
+    "set_total": 146,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 103,
+    "pokemon_category": "",
+    "flavor_text": "Man nennt es den “Laufenden Dschungel”. Wird ein Kopf zu groß, fällt er ab und wird zu einem OWEI.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Psycho-Strategie",
+            "damage": null,
+            "effect": "Jeder Spieler zählt die Anzahl der Karten auf der Hand seines Gegners. Jeder Spieler mischt seine Handkarten in sein Deck. Danach zieht jeder Spieler ebenso viele Karten, wie sein Gegner auf der Hand hatte. (Du ziehst zuerst.)"
+        },
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Super-Eggsplosion",
+            "damage": "50x",
+            "effect": "Du kannst beliebig viele Energiekarten von deinen Pokémon entfernen und auf deinen Ablagestapel legen. Wirf für jede auf diese Weise auf den Ablagestapel gelegte Energiekarte 1 Münze. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Owei",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp6-54"
+        }
+    ],
+    "print_key": "tcgdex:dp6-54",
+    "card_key": "103|80|1|Ken Sugimori|None,50x|0,1",
+    "types_en": [
+        "Psychic"
+    ]
+}

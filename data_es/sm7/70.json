@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm7-70",
+    "name": "Lunala",
+    "img": "https://assets.tcgdex.net/es/sm/sm7/70/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "sm7",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm7/symbol",
+    "set_full_name": "Tormenta Celestial",
+    "series": "Sol y Luna",
+    "set_code": "sm7",
+    "date": "2018-08-03",
+    "number": "70",
+    "set_total": 183,
+    "rarity": "Rara",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 792,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 160,
+    "types": [
+        "Psíquico"
+    ],
+    "abilities": [
+        {
+            "name": "Guardia Espectro",
+            "effect": "Si este Pokémon tiene alguna Energía Psychic unida a él, los ataques le hacen 20 puntos de daño menos (después de aplicar Debilidad y Resistencia)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psíquico",
+                "Psíquico",
+                "Psíquico"
+            ],
+            "name": "Rayo Luna Llena",
+            "damage": "80+",
+            "effect": "Este ataque hace 20 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscura"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm7-70"
+        }
+    ],
+    "print_key": "tcgdex:sm7-70",
+    "card_key": "792|160|2|5ban Graphics|80+|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

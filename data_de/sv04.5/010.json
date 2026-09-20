@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv04.5-010",
+    "name": "Magbrant",
+    "img": "https://assets.tcgdex.net/de/sv/sv04.5/010/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv04.5",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04.5/symbol",
+    "set_full_name": "Paldeas Schicksale",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv04.5",
+    "date": "2024-01-26",
+    "number": "010",
+    "set_total": 245,
+    "rarity": "Selten",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 467,
+    "pokemon_category": "",
+    "flavor_text": "Durch das Leben in Vulkankratern ähnelt Magbrants Körper seinem Umfeld. Es besitzt ein Organ, das einer Magmakammer gleicht.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Flackern",
+            "damage": 40,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Vulkanhitze",
+            "damage": 170,
+            "effect": "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Magmar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv04.5-010"
+        }
+    ],
+    "print_key": "tcgdex:sv04.5-10",
+    "card_key": "467|140|3|Hasuno|40,170|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

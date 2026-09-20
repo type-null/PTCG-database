@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp6-118",
+    "name": "Sheinux",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Erwachte Legenden",
+    "series": "Diamant & Perl",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "118",
+    "set_total": 146,
+    "rarity": "Häufig",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 403,
+    "pokemon_category": "",
+    "flavor_text": "In Gefahr blendet es seinen Gegner mit seinem Fell und flieht, während der Gegner einen Moment blind ist.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Auffüllen",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 {L}-Energiekarte und lege sie an Sheinux an. Mische dein Deck danach."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Doppelkick",
+            "damage": "20x",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp6-118"
+        }
+    ],
+    "print_key": "tcgdex:dp6-118",
+    "card_key": "403|50|1|Masakazu Fukuda|None,20x|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex13-16",
+    "name": "Rayquaza δ",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex13",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex13/symbol",
+    "set_full_name": "EX Holon Phantoms",
+    "series": "EX",
+    "set_code": "ex13",
+    "date": "2006-05-03",
+    "number": "16",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 384,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Wasser",
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Hydrobarriere",
+            "effect": "Solange an Rayquaza eine Holon-Energiekarte angelegt ist, haben deine {W}-Pokémon keine Schwäche."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Delta-Suche",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach einer Holon-Energiekarte und lege sie an Rayquaza an. Mische dein Deck danach."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Ozonfackel",
+            "damage": 60,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser",
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex13-16"
+        }
+    ],
+    "print_key": "tcgdex:ex13-16",
+    "card_key": "384|80|2|Mitsuhiro Arita|None,60|1,4",
+    "types_en": [
+        "Water",
+        "Metal"
+    ]
+}

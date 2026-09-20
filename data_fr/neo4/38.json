@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo4-38",
+    "name": "Ymphect obscur",
+    "img": "https://assets.tcgdex.net/fr/neo/neo4/38/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "38",
+    "set_total": 113,
+    "rarity": "Peu Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 247,
+    "pokemon_category": "",
+    "flavor_text": "Il est protégé par une solide carapace, mais il garde une grande mobilité... Une combinaison dangereuse.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Plaquage roc",
+            "damage": 40,
+            "effect": "Ymphect obscur s'inflige 10 dégâts. Ymphect obscur ne peut pas utiliser cette attaque pendant votre prochain tour."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Évolution explosive",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chaque Pokémon de votre adversaire. N'appliquez ni la Faiblesse, ni la Résistance. Cherchez ensuite dans votre deck une carte Évolution appelée Tyranocif obscur et placez-la sur Ymphect obscur. (Cela revient à faire évoluer Ymphect obscur.) Mélangez ensuite votre deck."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Embrylex",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo4-38"
+        }
+    ],
+    "print_key": "tcgdex:neo4-38",
+    "card_key": "247|60|1|Mitsuhiro Arita|40,None|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

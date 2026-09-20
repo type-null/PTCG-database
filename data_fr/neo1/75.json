@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-75",
+    "name": "Mimigal",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/75/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "75",
+    "set_total": 111,
+    "rarity": "Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 167,
+    "pokemon_category": "",
+    "flavor_text": "Il reste immobile dans sa toile pendant des jours, à l'affût d'une proie vulnérable.",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Grimace",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer ou battre en retraite jusqu'à la fin du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Sécrétion",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-75"
+        }
+    ],
+    "print_key": "tcgdex:neo1-75",
+    "card_key": "167|40|1|Ken Sugimori|None,10|1,1",
+    "types_en": [
+        "Grass"
+    ]
+}

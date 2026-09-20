@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm4-6",
+    "name": "Noktuska",
+    "img": "https://assets.tcgdex.net/de/sm/sm4/6/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Aufziehen der Sturmröte",
+    "series": "Sonne & Mond",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "6",
+    "set_total": 125,
+    "rarity": "Selten",
+    "author": [
+        "Mina Nakai"
+    ],
+    "pokedex_number": 332,
+    "pokemon_category": "",
+    "flavor_text": "Ein nachtaktives Pokémon, das Beute sucht, die durch die Tageshitze der Wüste bereits erschöpft ist.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Zerreißende Dornen",
+            "damage": "30+",
+            "effect": "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 60 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Jagd",
+            "damage": null,
+            "effect": "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus. Diese Attacke fügt dem neuen Aktiven Pokémon 40 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Tuska",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm4-6"
+        }
+    ],
+    "print_key": "tcgdex:sm4-6",
+    "card_key": "332|110|2|Mina Nakai|30+,None|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

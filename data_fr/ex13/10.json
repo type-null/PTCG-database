@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex13-10",
+    "name": "Hyporoi δ",
+    "img": "https://assets.tcgdex.net/fr/ex/ex13/10/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex13",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex13/symbol",
+    "set_full_name": "EX Fantômes Holon",
+    "series": "EX",
+    "set_code": "ex13",
+    "date": "2006-05-03",
+    "number": "10",
+    "set_total": 111,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 230,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 110,
+    "types": [
+        "Feu",
+        "Métal"
+    ],
+    "abilities": [
+        {
+            "name": "Malédiction de dragon",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), si Hyporoi est votre Pokémon Actif, vous pouvez placer 2 marqueurs de dégât sur 1 des Pokémon de votre adversaire possédant le symbole δ. Ce pouvoir ne peut pas être utilisé si Hyporoi est affecté par un État spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Flamme supplémentaire",
+            "damage": "30+",
+            "effect": "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Explosion de chaleur",
+            "damage": 80,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Hypocéan",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex13-10"
+        }
+    ],
+    "print_key": "tcgdex:ex13-10",
+    "card_key": "230|110|2|Masakazu Fukuda|30+,80|2,4",
+    "types_en": [
+        "Fire",
+        "Metal"
+    ]
+}

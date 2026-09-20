@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/col1-13",
+    "name": "Phyllali",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "L'appel des Légendes",
+    "series": "L'appel des Légendes",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "13",
+    "set_total": 106,
+    "rarity": "Holo Rare",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 470,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Vent miasme",
+            "damage": "50×",
+            "effect": "Inflige 50 dégâts multipliés par le nombre d'États Spéciaux affectant le Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Senteur apaisante",
+            "damage": 30,
+            "effect": "Le Pokémon Défenseur est maintenant Endormi."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Évoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/col1-13"
+        }
+    ],
+    "print_key": "tcgdex:col1-13",
+    "card_key": "470|90|1|match|50x,30|1,1",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw1-13",
+    "name": "Sesokitz",
+    "img": "https://assets.tcgdex.net/de/bw/bw1/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw1",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw1/symbol",
+    "set_full_name": "Schwarz & Weiß",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw1",
+    "date": "2011-04-25",
+    "number": "13",
+    "set_total": 115,
+    "rarity": "Häufig",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 585,
+    "pokemon_category": "",
+    "flavor_text": "Sein Fell nimmt Farbe und Duft des Feldes oder des Grases unter ihm an. Bei Gefahr sucht es im hohen Gras Schutz.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Doppelkick",
+            "damage": 10,
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Egelsamen",
+            "damage": 20,
+            "effect": "Heile 10 Schadenspunkte bei diesem Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw1-13"
+        }
+    ],
+    "print_key": "tcgdex:bw1-13",
+    "card_key": "585|60|1|Atsuko Nishida|10,20|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base2-19",
+    "name": "Flamara",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Dschungel",
+    "series": "Grund",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "19",
+    "set_total": 64,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 136,
+    "pokemon_category": "",
+    "flavor_text": "Beim Speichern von Wärmeenergie in seinem Körper erreicht es eine Temperatur von über 900 Grad.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Ruckzuckhieb",
+            "damage": "10+",
+            "effect": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 10 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Flammenwurf",
+            "damage": 60,
+            "effect": "Entferne eine auf Flamara abgelegte {R}-Energiekarte, um diesen Angriff auszuführen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base2-19"
+        }
+    ],
+    "print_key": "tcgdex:base2-19",
+    "card_key": "136|70|1|Kagemaru Himeno|10+,60|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

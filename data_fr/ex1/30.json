@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex1-30",
+    "name": "Dynavolt",
+    "img": "https://assets.tcgdex.net/fr/ex/ex1/30/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex1",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex1/symbol",
+    "set_full_name": "EX Rubis & Saphir",
+    "series": "EX",
+    "set_code": "ex1",
+    "date": "2003-07-01",
+    "number": "30",
+    "set_total": 109,
+    "rarity": "Peu Commune",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 309,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Recharge",
+            "damage": null,
+            "effect": "Attachez une carte Énergie {L} de votre pile de défausse à Dynavolt."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Secousse tonnerre",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est pile, Dynavolt s'inflige 10 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex1-30"
+        }
+    ],
+    "print_key": "tcgdex:ex1-30",
+    "card_key": "309|50|1|Hajime Kusajima|None,30|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

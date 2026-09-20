@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp4-10",
+    "name": "Bouldeneu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp4",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp4/symbol",
+    "set_full_name": "Duels au Sommets",
+    "series": "Diamant & Perle",
+    "set_code": "dp4",
+    "date": "2008-02-01",
+    "number": "10",
+    "set_total": 106,
+    "rarity": "Rare Holo",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 465,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Mégafouet",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts pour chaque carte Énergie de base attachée à Bouldeneu. (Vous ne pouvez pas appliquer la Faiblesse ou la Résistance aux Pokémon de Banc)."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Colle et absorbe",
+            "damage": 60,
+            "effect": "Retirez à Bouldeneu 3 marqueurs de dégât. Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Saquedeneu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp4-10"
+        }
+    ],
+    "print_key": "tcgdex:dp4-10",
+    "card_key": "465|110|2|Kent Kanetsuna|None,60|1,4",
+    "types_en": [
+        "Grass"
+    ]
+}

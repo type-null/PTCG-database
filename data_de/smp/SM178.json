@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/smp-SM178",
+    "name": "Melmetal GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SM Promokarten",
+    "series": "Sonne & Mond",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM178",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "PLANETA Otani"
+    ],
+    "pokedex_number": 809,
+    "pokemon_category": "",
+    "hp": 220,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Schutzschicht",
+            "effect": "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Metallexplosion",
+            "damage": "110+",
+            "effect": "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten Metal-Energien zu."
+        },
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Eisenkraft GX",
+            "damage": null,
+            "effect": "Lege beliebig viele Metal-Energiekarten aus deinem Ablagestapel an dieses Pokémon an. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/smp-SM178"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM178",
+    "card_key": "809|220|4|PLANETA Otani|110+,None|4,1",
+    "types_en": [
+        "Metal"
+    ]
+}

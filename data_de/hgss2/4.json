@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss2-4",
+    "name": "Metagross",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss2/4/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss2",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss2/symbol",
+    "set_full_name": "Entfesselt",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss2",
+    "date": "2010-05-12",
+    "number": "4",
+    "set_total": 96,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Wataru Kawahara"
+    ],
+    "pokedex_number": 376,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Psychoschweber",
+            "effect": "Wenn an dein Aktives Pokémon mindestens 1 {P}-Energie angelegt ist, hat dieses Pokémon Rückzugskosten von 0."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Pulsierender Schuss",
+            "damage": 60,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Doppelter Beinhammer",
+            "damage": null,
+            "effect": "Wähle 2 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt jedem der gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Metang",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss2-4"
+        }
+    ],
+    "print_key": "tcgdex:hgss2-4",
+    "card_key": "376|130|4|Wataru Kawahara|60,None|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

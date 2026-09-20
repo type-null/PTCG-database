@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-123",
+    "name": "Drascore",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/123/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "123",
+    "set_total": 133,
+    "rarity": "Rare Holo LV.X",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 452,
+    "pokemon_category": "",
+    "stage": "Niveau Sup",
+    "hp": 130,
+    "types": [
+        "Obscurité"
+    ],
+    "abilities": [
+        {
+            "name": "Tri-poison",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, choisissez 1 des Pokémon Défenseurs. Il est maintenant Empoisonné. Placez 3 marqueurs de dégât au lieu d'1 sur ce Pokémon entre deux tours. Ce pouvoir ne peut pas être utilisé si Drascore est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Queue-sniper",
+            "damage": 40,
+            "effect": "Inflige 40 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-123"
+        }
+    ],
+    "print_key": "tcgdex:pl1-123",
+    "card_key": "452|130|3|Ryo Ueda|40|4",
+    "types_en": [
+        "Darkness"
+    ]
+}

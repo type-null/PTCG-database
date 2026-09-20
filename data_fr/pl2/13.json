@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl2-13",
+    "name": "Tengalice Niv. 55",
+    "img": "https://assets.tcgdex.net/fr/pl/pl2/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Rivaux Émergeants",
+    "series": "Platine",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "13",
+    "set_total": 120,
+    "rarity": "Holo Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 275,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 130,
+    "types": [
+        "Obscurité"
+    ],
+    "abilities": [
+        {
+            "name": "Vent malchanceux",
+            "effect": "Tant que Tengalice est votre Pokémon Actif, lorsque votre adversaire lance une pièce lors de son tour, considérez que c'est pile."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Se conformer",
+            "damage": 40,
+            "effect": "Si vous possédez le même nombre de cartes en main que votre adversaire, le Pokémon Défenseur est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Interdire d'accès",
+            "damage": 60,
+            "effect": "Le Pokémon Défenseur ne peut pas utiliser de Poké-Powers ou de Poké-Bodies lors du prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Pifeuil",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl2-13"
+        }
+    ],
+    "print_key": "tcgdex:pl2-13",
+    "card_key": "275|130|1|Kagemaru Himeno|40,60|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

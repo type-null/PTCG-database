@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/swsh5-63",
+    "name": "Necrozma V",
+    "img": "https://assets.tcgdex.net/it/swsh/swsh5/63/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "tags": [
+        "V"
+    ],
+    "regulation": "E",
+    "set_name": "swsh5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh5/symbol",
+    "set_full_name": "Stili di Lotta",
+    "series": "Spada e Scudo",
+    "set_code": "swsh5",
+    "date": "2021-03-19",
+    "number": "63",
+    "set_total": 183,
+    "rarity": "Olografica Rara V",
+    "author": [
+        "PLANETA Tsuji"
+    ],
+    "pokedex_number": 800,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 220,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psico"
+            ],
+            "name": "Raggio Prismatico",
+            "damage": 20,
+            "effect": "Questo attacco infligge anche 20 danni a due dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Psico",
+                "Incolore"
+            ],
+            "name": "Laser Speciale",
+            "damage": "100+",
+            "effect": "Se questo Pokémon ha delle Energie speciali assegnate, questo attacco infligge 120 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscurità"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/swsh5-63"
+        }
+    ],
+    "print_key": "tcgdex:swsh5-63",
+    "card_key": "800|220|3|PLANETA Tsuji|20,100+|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

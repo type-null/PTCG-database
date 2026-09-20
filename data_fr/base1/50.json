@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-50",
+    "name": "Fantominus",
+    "img": "https://assets.tcgdex.net/fr/base/base1/50/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "50",
+    "set_total": 102,
+    "rarity": "Commune",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 92,
+    "pokemon_category": "",
+    "flavor_text": "Ce Pokémon gazeux plonge ses victimes dans un profond sommeil sans qu'elles s'en aperçoivent.",
+    "stage": "Base",
+    "hp": 30,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Gaz Soporifique",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Prélèvement du Destin",
+            "damage": null,
+            "effect": "Défaussez 1 carte Énergie {P} attachée à Fantominus pour pouvoir utiliser cette attaque. Si un Pokémon met Fantominus K.O. pendant le prochain tour de votre adversaire, mettez ce Pokémon K.O."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-50"
+        }
+    ],
+    "print_key": "tcgdex:base1-50",
+    "card_key": "92|30|None|Keiji Kinebuchi|None,None|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

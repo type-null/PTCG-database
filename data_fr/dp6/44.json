@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-44",
+    "name": "Empiflor",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "44",
+    "set_total": 146,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 71,
+    "pokemon_category": "",
+    "flavor_text": "Sa bouche sécrète un fluide à l'odeur du miel, qui s'avère être un acide extrêmement corrosif.",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Odeur de brûlé",
+            "damage": null,
+            "effect": "Le Pokémon Défenseur est maintenant Brûlé et Empoisonné. Avant d'appliquer ces effets, vous pouvez échanger 1 des Pokémon Défenseurs avec 1 des Pokémon de Banc de votre adversaire. Le nouveau Pokémon Défenseur est maintenant Brûlé et Empoisonné."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Élimination d'Énergie",
+            "damage": 60,
+            "effect": "Défaussez une Énergie attachée au Pokémon Défenseur à la fin du prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+30"
+    },
+    "retreat": 3,
+    "evolve_from": "Ultrigaria",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-44"
+        }
+    ],
+    "print_key": "tcgdex:dp6-44",
+    "card_key": "71|120|3|Kouki Saitou|None,60|0,3",
+    "types_en": [
+        "Grass"
+    ]
+}

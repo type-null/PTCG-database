@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-103",
+    "name": "Demeteros",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/103/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "103",
+    "set_total": 234,
+    "rarity": "Selten",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 645,
+    "pokemon_category": "",
+    "flavor_text": "Da an Orten, wo es sich blicken lässt, mit reicher Ernte zu rechnen ist, nennt man es auch den „Herrn des Ackerbaus“.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Linearer Angriff",
+            "damage": null,
+            "effect": "Diese Attacke fügt 1 Pokémon deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Kraftwirbel",
+            "damage": 60,
+            "effect": "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-103"
+        }
+    ],
+    "print_key": "tcgdex:sm10-103",
+    "card_key": "645|120|1|Hasuno|None,60|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

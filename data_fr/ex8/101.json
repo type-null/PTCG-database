@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex8-101",
+    "name": "Elecsprint ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex8/101/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "101",
+    "set_total": 108,
+    "rarity": "Rare",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 310,
+    "pokemon_category": "",
+    "hp": 100,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Déconnecter",
+            "damage": 40,
+            "effect": "Votre adversaire ne peut pas jouer de cartes Dresseur de sa main (cartes Supporter exclues) lors de son prochain tour."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Mega coup",
+            "damage": null,
+            "effect": "Défaussez toutes les Énergies {L} attachées à Elecsprint ex puis choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 80 dégâts (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Dynavolt",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex8-101"
+        }
+    ],
+    "print_key": "tcgdex:ex8-101",
+    "card_key": "310|100|1|Hikaru Koike|40,None|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

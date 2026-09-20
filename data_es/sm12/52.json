@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm12-52",
+    "name": "Walrein",
+    "img": "https://assets.tcgdex.net/es/sm/sm12/52/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "sm12",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm12/symbol",
+    "set_full_name": "Eclipse Cósmico",
+    "series": "Sol y Luna",
+    "set_code": "sm12",
+    "date": "2019-11-01",
+    "number": "52",
+    "set_total": 271,
+    "rarity": "Rara",
+    "author": [
+        "Ayaka Yoshida"
+    ],
+    "pokedex_number": 365,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 160,
+    "types": [
+        "Agua"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Agua"
+            ],
+            "name": "Ola de Frío",
+            "damage": 60,
+            "effect": "Tu rival no puede jugar ninguna carta de Entrenador de su mano durante su próximo turno. Si 1 de tus Pokémon usó Ola de Frío durante tu último turno, este ataque no se puede usar."
+        },
+        {
+            "cost": [
+                "Agua",
+                "Incolora",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Ventisca",
+            "damage": 120,
+            "effect": "Este ataque hace 10 puntos de daño a cada uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metálica"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm12-52"
+        }
+    ],
+    "print_key": "tcgdex:sm12-52",
+    "card_key": "365|160|4|Ayaka Yoshida|60,120|1,4",
+    "types_en": [
+        "Water"
+    ]
+}

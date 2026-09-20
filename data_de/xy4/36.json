@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy4-36",
+    "name": "Woingenau",
+    "img": "https://assets.tcgdex.net/de/xy/xy4/36/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy4",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy4/symbol",
+    "set_full_name": "Phantomkräfte",
+    "series": "XY",
+    "set_code": "xy4",
+    "date": "2014-11-05",
+    "number": "36",
+    "set_total": 124,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 202,
+    "pokemon_category": "",
+    "flavor_text": "Es hasst Licht und Schläge. Wird es angegriffen, pumpt es sich auf, um einen Gegenschlag vorzubereiten.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Sperrzeit",
+            "effect": "Solang dieses Pokémon dein Aktives Pokémon ist, hat jedes Pokémon im Spiel, in der Hand beider Spieler oder im Ablagestapel beider Spieler keine Fähigkeit (außer {P}-Pokémon)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psycho-Ansturm",
+            "damage": "10+",
+            "effect": "Dieser Angriff fügt 10 weitere Schadenspunkte für jede Schadensmarke auf dem Aktiven Pokémon deines Gegners zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy4-36"
+        }
+    ],
+    "print_key": "tcgdex:xy4-36",
+    "card_key": "202|110|2|sui|10+|2",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo3-51",
+    "name": "Pottrott",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "51",
+    "set_total": 66,
+    "rarity": "Häufig",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 213,
+    "pokemon_category": "",
+    "flavor_text": "Es sammelt in seiner Muschel Beeren. Um Angriffe zu vermeiden, versteckt es sich zwischen Felsen und verhält sich ganz still.",
+    "stage": "Basis",
+    "hp": 40,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Harte Schale",
+            "effect": "Immer wenn ein Angriff (einschließlich deiner eigenen) Pottrott 40 oder weniger Schadenspunkte zufügt (nach Verrechnung von Schwäche und Resistenz), reduziere diesen Schaden um 10. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.) Diese Fähigkeit verliert ihre Wirkung, solange Pottrott schläft, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Ätzender Speichel",
+            "damage": null,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet. Es erleidet jetzt 20 statt 10 Schadenspunkte durch Gift nach dem Zug jedes Spielers (selbst wenn es bereits vergiftet war)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo3-51"
+        }
+    ],
+    "print_key": "tcgdex:neo3-51",
+    "card_key": "213|40|1|Yuka Morii|None|2",
+    "types_en": [
+        "Fighting"
+    ]
+}

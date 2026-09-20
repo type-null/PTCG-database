@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm12-67",
+    "name": "Raichu",
+    "img": "https://assets.tcgdex.net/de/sm/sm12/67/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm12",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm12/symbol",
+    "set_full_name": "Welten im Wandel",
+    "series": "Sonne & Mond",
+    "set_code": "sm12",
+    "date": "2019-11-01",
+    "number": "67",
+    "set_total": 271,
+    "rarity": "Selten",
+    "author": [
+        "AKIRA EGAWA"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "flavor_text": "Je mehr es sich elektrisch auflädt, desto aggressiver wird es. Man vermutet, dass die Elektrizität den Stress verursache.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Wangenrubbler",
+            "damage": null,
+            "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        },
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Mächtiger Funke",
+            "damage": "20×",
+            "effect": "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl der an alle deine Pokémon angelegten {L}-Energien zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Pikachu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm12-67"
+        }
+    ],
+    "print_key": "tcgdex:sm12-67",
+    "card_key": "26|120|2|AKIRA EGAWA|None,20x|1,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

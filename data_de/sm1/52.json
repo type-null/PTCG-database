@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm1-52",
+    "name": "Donarion",
+    "img": "https://assets.tcgdex.net/de/sm/sm1/52/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sonne & Mond",
+    "series": "Sonne & Mond",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "52",
+    "set_total": 172,
+    "rarity": "Selten",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "pokedex_number": 738,
+    "pokemon_category": "",
+    "flavor_text": "In seinem Bauch hat es ein elektrisches Organ, welches Strom erzeugt. Mit seinem Elektrostrahl kann es auch Vogel-Pokémon überwältigen.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Kräftige Aufladung",
+            "effect": "Einmal während deines Zuges (bevor du angreifst) kannst du dein Deck nach 1 {G}-Energiekarte und 1 {L}-Energiekarte durchsuchen und sie beliebig an deine Pokémon anlegen. Mische anschließend dein Deck."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Elektrogeschütz",
+            "damage": 150,
+            "effect": "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Akkup",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm1-52"
+        }
+    ],
+    "print_key": "tcgdex:sm1-52",
+    "card_key": "738|150|3|Hitoshi Ariga|150|4",
+    "types_en": [
+        "Lightning"
+    ]
+}

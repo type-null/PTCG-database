@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm12-138",
+    "name": "Sablaireau d’Alola",
+    "img": "https://assets.tcgdex.net/fr/sm/sm12/138/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm12",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm12/symbol",
+    "set_full_name": "Éclipse Cosmique",
+    "series": "Soleil et Lune",
+    "set_code": "sm12",
+    "date": "2019-11-01",
+    "number": "138",
+    "set_total": 271,
+    "rarity": "Rare",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 28,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Courbe-Frappe",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c’est face, évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Épine Renforcée",
+            "damage": "60+",
+            "effect": "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 60 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Sabelette d’Alola",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm12-138"
+        }
+    ],
+    "print_key": "tcgdex:sm12-138",
+    "card_key": "28|120|1|Hasuno|30,60+|0,3",
+    "types_en": [
+        "Metal"
+    ]
+}

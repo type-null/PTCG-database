@@ -1,0 +1,77 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss4-95",
+    "name": "Machomei",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss4/95/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "Proto"
+    ],
+    "set_name": "hgss4",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss4/symbol",
+    "set_full_name": "Triumph",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss4",
+    "date": "2010-11-03",
+    "number": "95",
+    "set_total": 103,
+    "rarity": "selten, Primus",
+    "author": [
+        "Shizurow"
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Aufforderung zum Kampf",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn sich Machomei auf deiner Bank befindet, alle an dein Aktives Pokémon angelegten {F}-Energien an Machomei anlegen. Wenn du das machst, tausche Machomei gegen dein Aktives Pokémon aus."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schmetterhieb",
+            "damage": 60,
+            "effect": "Lege 1 Spezialenergiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Champ-Sprenger",
+            "damage": "100+",
+            "effect": "Dieser Angriff fügt 100 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Pokémon auf deiner Bank, auf dem bereits mindestens 1 Schadensmarke liegt, zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Maschock",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss4-95"
+        }
+    ],
+    "print_key": "tcgdex:hgss4-95",
+    "card_key": "68|150|3|Shizurow|60,100+|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

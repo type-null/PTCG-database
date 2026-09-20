@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-33",
+    "name": "Lockpin",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "33",
+    "set_total": 146,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 428,
+    "pokemon_category": "",
+    "flavor_text": "Un Pokémon extrêmement prudent. Il couvre son corps de ses oreilles pelucheuses en cas de danger.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Queue guérisseuse",
+            "effect": "Tant que Lockpin est votre Pokémon Actif, retirez à chacun de vos Pokémon de Banc 1 marqueur de dégât entre deux tours."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Collectionner",
+            "damage": null,
+            "effect": "Piochez 3 cartes."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coupe transversale",
+            "damage": "30+",
+            "effect": "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Haspiror",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-33"
+        }
+    ],
+    "print_key": "tcgdex:dp6-33",
+    "card_key": "428|80|1|Kouki Saitou|None,30+|0,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

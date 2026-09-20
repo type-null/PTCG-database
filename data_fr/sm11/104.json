@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm11-104",
+    "name": "Steelix",
+    "img": "https://assets.tcgdex.net/fr/sm/sm11/104/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Harmonie des Esprits",
+    "series": "Soleil et Lune",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "104",
+    "set_total": 258,
+    "rarity": "Rare",
+    "author": [
+        "Ayaka Yoshida"
+    ],
+    "pokedex_number": 208,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 170,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Ruisseau Terrestre",
+            "damage": 20,
+            "effect": "Attachez 2 cartes Énergie Fighting de votre pile de défausse à ce Pokémon."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Secousse Gigatonne",
+            "damage": 220,
+            "effect": "Pendant votre prochain tour, vos Pokémon ne peuvent pas attaquer. (Cela comprend les Pokémon qui sont mis en jeu pendant ce tour.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Onix",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm11-104"
+        }
+    ],
+    "print_key": "tcgdex:sm11-104",
+    "card_key": "208|170|4|Ayaka Yoshida|20,220|1,5",
+    "types_en": [
+        "Fighting"
+    ]
+}

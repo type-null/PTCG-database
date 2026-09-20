@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex8-30",
+    "name": "Donphan",
+    "img": "https://assets.tcgdex.net/fr/ex/ex8/30/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "30",
+    "set_total": 108,
+    "rarity": "Peu Commune",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 232,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Corne tournante",
+            "damage": null,
+            "effect": "Inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Lance-pierre",
+            "damage": 50,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Phanpy",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex8-30"
+        }
+    ],
+    "print_key": "tcgdex:ex8-30",
+    "card_key": "232|80|1|Yuka Morii|None,50|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

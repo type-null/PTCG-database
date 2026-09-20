@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/xy10-63",
+    "name": "Lucario",
+    "img": "https://assets.tcgdex.net/it/xy/xy10/63/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "xy10",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy10/symbol",
+    "set_full_name": "Destini Incrociati",
+    "series": "XY",
+    "set_code": "xy10",
+    "date": "2016-05-02",
+    "number": "63",
+    "set_total": 129,
+    "rarity": "Rara",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "pokedex_number": 448,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 110,
+    "types": [
+        "Metallo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metallo"
+            ],
+            "name": "Vuotonda",
+            "damage": 50,
+            "effect": "I danni di questo attacco non sono influenzati dalla debolezza o dalla resistenza."
+        },
+        {
+            "cost": [
+                "Metallo",
+                "Incolore"
+            ],
+            "name": "Minoranza",
+            "damage": "30+",
+            "effect": "Se hai meno Pokémon in gioco del tuo avversario, questo attacco infligge 60 danni in più per ogni Pokémon che hai in meno in gioco."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuoco"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psico"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Riolu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/xy10-63"
+        }
+    ],
+    "print_key": "tcgdex:xy10-63",
+    "card_key": "448|110|2|Hitoshi Ariga|50,30+|1,2",
+    "types_en": [
+        "Metal"
+    ]
+}

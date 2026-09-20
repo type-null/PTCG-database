@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-81",
+    "name": "Loturzel",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "81",
+    "set_total": 133,
+    "rarity": "Häufig",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 270,
+    "pokemon_category": "",
+    "flavor_text": "Es sieht aus wie eine Wasserpflanze. Es dient den PKMN, die nicht schwimmen können, als Fähre.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Energieball",
+            "damage": "10+",
+            "effect": "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Loturzel angelegte Energie zu, die nicht zum Bezahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 20 Schadenspunkte hinzufügen."
+        },
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Synthese",
+            "damage": null,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ durchsuche dein Deck nach 1 {G}-Energiekarte und lege sie an 1 deiner Pokémon an. Mische dein Deck danach."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+10"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-81"
+        }
+    ],
+    "print_key": "tcgdex:pl1-81",
+    "card_key": "270|50|1|Masakazu Fukuda|10+,None|1,1",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/smp-SM105",
+    "name": "Lougaroc",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "Promo SM",
+    "series": "Soleil et Lune",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM105",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 745,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Morsure",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Lame de Roc",
+            "damage": "90+",
+            "effect": "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Rocabot",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/smp-SM105"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM105",
+    "card_key": "745|120|2|Shin Nagasawa|30,90+|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

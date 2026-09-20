@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-80",
+    "name": "Schlurp",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "80",
+    "set_total": 133,
+    "rarity": "Häufig",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 108,
+    "pokemon_category": "",
+    "flavor_text": "Streckt es seine ca. zwei Meter lange Zunge, zittert sein Schweif. Sie scheinen verbunden zu sein.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Streckzunge",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. Der Schaden dieses Angriffs wird durch Schwäche und Resistenz nicht verändert."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Abschlag",
+            "damage": 40,
+            "effect": "Wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen) und lege sie auf seinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-80"
+        }
+    ],
+    "print_key": "tcgdex:pl1-80",
+    "card_key": "108|90|3|Yuka Morii|None,40|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

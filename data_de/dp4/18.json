@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp4-18",
+    "name": "Hundemon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp4",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp4/symbol",
+    "set_full_name": "Epische Begegnungen",
+    "series": "Diamant & Perl",
+    "set_code": "dp4",
+    "date": "2008-02-01",
+    "number": "18",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 229,
+    "pokemon_category": "",
+    "flavor_text": "In alten Zeiten glaubte man, das Heulen dieses PKMN sei der Ruf des Todes.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht"
+            ],
+            "name": "Finsterzahn",
+            "damage": 20,
+            "effect": "Wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen) und lege sie auf seinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Schwarzes Feuer",
+            "damage": "40+",
+            "effect": "Du kannst 1 an Hundemon angelegte {R}- oder {D}-Energie auf deinen Ablagestapel legen. Wenn du 1 {R}-Energie auf deinen Ablagestapel legst, ist das Verteidigende Pokémon jetzt verbrannt. Wenn du 1 {D}-Energie auf deinen Ablagestapel legst, fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Hunduster",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp4-18"
+        }
+    ],
+    "print_key": "tcgdex:dp4-18",
+    "card_key": "229|90|1|Ken Sugimori|20,40+|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

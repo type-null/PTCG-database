@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sv02-135",
+    "name": "Tyranitar",
+    "img": "https://assets.tcgdex.net/es/sv/sv02/135/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "G",
+    "set_name": "sv02",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv02/symbol",
+    "set_full_name": "Evoluciones en Paldea",
+    "series": "Escarlata y Púrpura",
+    "set_code": "sv02",
+    "date": "2023-06-09",
+    "number": "135",
+    "set_total": 279,
+    "rarity": "Rara",
+    "author": [
+        "hncl"
+    ],
+    "pokedex_number": 248,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 180,
+    "types": [
+        "Oscura"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Oscura"
+            ],
+            "name": "Esparcir",
+            "damage": "30+",
+            "effect": "Este ataque hace 30 puntos de daño más por cada uno de los Pokémon en Banca de tu rival."
+        },
+        {
+            "cost": [
+                "Oscura",
+                "Oscura"
+            ],
+            "name": "Montaña Pavorosa",
+            "damage": 230,
+            "effect": "Descarta las 4 primeras cartas de tu baraja."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Pupitar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sv02-135"
+        }
+    ],
+    "print_key": "tcgdex:sv02-135",
+    "card_key": "248|180|3|hncl|30+,230|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

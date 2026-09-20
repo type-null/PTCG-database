@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex12-83",
+    "name": "Arcanin ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex12/83/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Créateurs de légendes",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "83",
+    "set_total": 93,
+    "rarity": "Rare",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 59,
+    "pokemon_category": "",
+    "hp": 120,
+    "types": [
+        "Feu"
+    ],
+    "abilities": [
+        {
+            "name": "Remède de feu",
+            "effect": "Lorsque vous attachez une Énergie {R} de votre main à Arcanin ex, retirez-lui 1 marqueur de dégât et tous ses États Spéciaux."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Dépassement",
+            "damage": 30,
+            "effect": "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Tourbillon de flamme",
+            "damage": 100,
+            "effect": "Défaussez 2 Énergies {R} ou 1 carte Énergie réaction attachée à Arcanin ex."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Caninos",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex12-83"
+        }
+    ],
+    "print_key": "tcgdex:ex12-83",
+    "card_key": "59|120|2|Hikaru Koike|30,100|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-9",
+    "name": "Giratina",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/9/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "9",
+    "set_total": 133,
+    "rarity": "Holo Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 487,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Libérer",
+            "effect": "Une seule fois lors de votre tour, lorsque vous placez Giratina de votre main sur votre Banc, vous pouvez utiliser ce pouvoir. Chaque joueur mélange sa main à son deck et pioche jusqu'à 4 cartes. (Vous piochez vos cartes en premier.)"
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Telluriforce",
+            "damage": 60,
+            "effect": "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-9"
+        }
+    ],
+    "print_key": "tcgdex:pl1-9",
+    "card_key": "487|100|3|Kouki Saitou|60|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

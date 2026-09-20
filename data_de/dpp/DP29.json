@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dpp-DP29",
+    "name": "Rihornior",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dpp",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dpp/symbol",
+    "set_full_name": "Promo DP",
+    "series": "Diamant & Perl",
+    "set_code": "dpp",
+    "date": "2007-05-01",
+    "number": "DP29",
+    "set_total": 56,
+    "rarity": "Häufig",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 464,
+    "pokemon_category": "",
+    "stage": "Level Up",
+    "hp": 170,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Heftiger Zermalmer",
+            "damage": "50x",
+            "effect": "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt für jede Energiekarte, die auf diese Weise abgelegt wurde, 50 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Verwerfung",
+            "damage": 60,
+            "effect": "Durchsuche deinen Ablagestapel nach allen -Energiekarten, zeige sie deinem Gegner und mische sie in dein Deck."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dpp-DP29"
+        }
+    ],
+    "print_key": "tcgdex:dpp-DP29",
+    "card_key": "464|170|4|Ryo Ueda|50x,60|0,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

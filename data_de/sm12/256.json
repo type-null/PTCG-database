@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm12-256",
+    "name": "Libelldra GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm12/256/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm12",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm12/symbol",
+    "set_full_name": "Welten im Wandel",
+    "series": "Sonne & Mond",
+    "set_code": "sm12",
+    "date": "2019-11-01",
+    "number": "256",
+    "set_total": 271,
+    "rarity": "Versteckt Selten",
+    "author": [
+        "PLANETA Tsuji"
+    ],
+    "pokedex_number": 330,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 240,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Staubige Verteidigung",
+            "effect": "Solang dieses Pokémon dein Aktives Pokémon ist, werden jedem deiner Pokémon durch Attacken deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Wüstenhurrikan",
+            "damage": "120+",
+            "effect": "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 120 Schadenspunkte mehr zu. Lege anschließend jene Stadionkarte auf den Ablagestapel."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Schallkante-GX",
+            "damage": 220,
+            "effect": "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Vibrava",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm12-256"
+        }
+    ],
+    "print_key": "tcgdex:sm12-256",
+    "card_key": "330|240|2|PLANETA Tsuji|120+,220|3,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

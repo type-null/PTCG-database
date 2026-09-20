@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex16-96",
+    "name": "Brutalanda-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex16",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex16/symbol",
+    "set_full_name": "EX Power Keepers",
+    "series": "EX",
+    "set_code": "ex16",
+    "date": "2007-02-17",
+    "number": "96",
+    "set_total": 108,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 373,
+    "pokemon_category": "",
+    "hp": 160,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Vulkanfeuer",
+            "damage": 150,
+            "effect": "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Hydrowelle",
+            "damage": null,
+            "effect": "Lege alle {W}-Energie, die an Brutalanda ex angelegt ist, auf deinen Ablagestapel. Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Feuer",
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Draschel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex16-96"
+        }
+    ],
+    "print_key": "tcgdex:ex16-96",
+    "card_key": "373|160|2|Mitsuhiro Arita|150,None|4,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

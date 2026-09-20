@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm2-59",
+    "name": "Moruda",
+    "img": "https://assets.tcgdex.net/de/sm/sm2/59/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Stunde der Wächter",
+    "series": "Sonne & Mond",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "59",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 781,
+    "pokemon_category": "",
+    "flavor_text": "Wenn es seinen riesigen Anker schwingt, kann es sogar ein Wailord mit einem Schlag K.O. hauen. Der grüne Seetang ist sein Körper.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Stahlprofi",
+            "effect": "Die Attacken deiner {M}-Pokémon fügen dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Ankerschuss",
+            "damage": 70,
+            "effect": "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm2-59"
+        }
+    ],
+    "print_key": "tcgdex:sm2-59",
+    "card_key": "781|120|2|Hasuno|70|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

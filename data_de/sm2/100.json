@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm2-100",
+    "name": "Grandiras GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm2/100/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Stunde der Wächter",
+    "series": "Sonne & Mond",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "100",
+    "set_total": 169,
+    "rarity": "Ultra Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 784,
+    "pokemon_category": "",
+    "hp": 240,
+    "types": [
+        "Drache"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Steinharter Druck",
+            "damage": 30,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zerfetzer",
+            "damage": 130,
+            "effect": "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Ultrahieb-GX",
+            "damage": 240,
+            "effect": "(Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fee"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Mediras",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm2-100"
+        }
+    ],
+    "print_key": "tcgdex:sm2-100",
+    "card_key": "784|240|2|5ban Graphics|30,130,240|1,4,4",
+    "types_en": [
+        "Dragon"
+    ]
+}

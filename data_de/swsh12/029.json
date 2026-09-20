@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh12-029",
+    "name": "Fiaro",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh12/029/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh12",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12/symbol",
+    "set_full_name": "Silberne Sturmwinde",
+    "series": "Schwert & Schild",
+    "set_code": "swsh12",
+    "date": "2022-11-11",
+    "number": "029",
+    "set_total": 215,
+    "rarity": "Selten",
+    "author": [
+        "KEIICHIRO ITO"
+    ],
+    "pokedex_number": 663,
+    "pokemon_category": "",
+    "flavor_text": "Fiaro ernährt sich vor allem von Vogel-Pokémon. Aus den Zwischenräumen seines Gefieders sprüht es Funken, um seine Gegner einzuschüchtern.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Schnelltaucher",
+            "damage": null,
+            "effect": "Diese Attacke fügt 1 Pokémon deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Gnadenloser Schlag",
+            "damage": "80+",
+            "effect": "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 80 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Dartignis",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh12-029"
+        }
+    ],
+    "print_key": "tcgdex:swsh12-29",
+    "card_key": "663|140|1|KEIICHIRO ITO|None,80+|1,1",
+    "types_en": [
+        "Fire"
+    ]
+}

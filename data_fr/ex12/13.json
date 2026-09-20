@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex12-13",
+    "name": "Empiflor",
+    "img": "https://assets.tcgdex.net/fr/ex/ex12/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Créateurs de légendes",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "13",
+    "set_total": 93,
+    "rarity": "Rare",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 71,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 100,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Poche de nectar",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez échanger 1 des Pokémon Évolués de niveau 2 sur le Banc de votre adversaire avec 1 des Pokémon Défenseurs. Votre adversaire choisit le Pokémon Défenseur à échanger. Ce pouvoir ne peut pas être utilisé si Empiflor est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Poison dodo",
+            "damage": 10,
+            "effect": "Le Pokémon Défenseur est maintenant Endormi et Empoisonné."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Feuille tranchante",
+            "damage": "40+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Boustiflor",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex12-13"
+        }
+    ],
+    "print_key": "tcgdex:ex12-13",
+    "card_key": "71|100|2|Sumiyoshi Kizuki|10,40+|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

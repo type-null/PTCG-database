@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw7-26",
+    "name": "Flambirex",
+    "img": "https://assets.tcgdex.net/de/bw/bw7/26/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw7",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw7/symbol",
+    "set_full_name": "Überschrittene Schwellen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw7",
+    "date": "2012-11-07",
+    "number": "26",
+    "set_total": 153,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 500,
+    "pokemon_category": "",
+    "flavor_text": "Es trägt einen Backenbart aus Feuer und beherrscht Kampftechniken, die ebenso wuchtig wie schnell sind.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Feuerhauch",
+            "damage": 40,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Feuersturm",
+            "damage": 120,
+            "effect": "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Ferkokel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw7-26"
+        }
+    ],
+    "print_key": "tcgdex:bw7-26",
+    "card_key": "500|150|4|Shin Nagasawa|40,120|3,4",
+    "types_en": [
+        "Fire"
+    ]
+}

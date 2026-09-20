@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm1-41",
+    "name": "Primarene",
+    "img": "https://assets.tcgdex.net/de/sm/sm1/41/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sonne & Mond",
+    "series": "Sonne & Mond",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "41",
+    "set_total": 172,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 730,
+    "pokemon_category": "",
+    "flavor_text": "Es kontrolliert mit seinem Gesang Wasserblasen. Die Melodie, die über Generationen im Rudel überliefert wird, lernt es von seinen Kameraden.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Säuselstimme",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Schaumserenade",
+            "damage": 100,
+            "effect": "Heile 30 Schadenspunkte bei diesem Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Marikeck",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm1-41"
+        }
+    ],
+    "print_key": "tcgdex:sm1-41",
+    "card_key": "730|150|2|Kagemaru Himeno|30,100|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

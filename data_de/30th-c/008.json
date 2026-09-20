@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/30th-c-008",
+    "name": "Pikachu & Zekrom GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "30th-c",
+    "set_full_name": "30 Jahre: Klassische Sammlung",
+    "series": "Mega-Entwicklung",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "008",
+    "set_total": 30,
+    "rarity": "Keine",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Basis",
+    "hp": 240,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Mächtiger Blitz",
+            "damage": 150,
+            "effect": "Durchsuche dein Deck nach bis zu 3 <span class=\"energy-symbol Lightning\" title=\"Elektro\">Lightning</span>-Energiekarten und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Doppel-Blitzschlag {GX}",
+            "damage": 200,
+            "effect": "Wenn an dieses Pokémon mindestens 3 extra <span class=\"energy-symbol Lightning\" title=\"Elektro\">Lightning</span>-Energien angelegt sind <em>(zusätzlich zu den Kosten dieser Attacke)</em>, fügt diese Attacke 1 Pokémon auf der Bank deines Gegners 170 Schadenspunkte zu. <em>(Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) (Du kannst pro Spiel nur 1 <em>GX</em>-Attacke einsetzen.)</em>"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/30th-c-008"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-8",
+    "card_key": "25|240|3|Mitsuhiro Arita|150,200|3,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

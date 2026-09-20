@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh1-4",
+    "name": "Roserade",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh1/4/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Schwert & Schild",
+    "series": "Schwert & Schild",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "4",
+    "set_total": 216,
+    "rarity": "Selten",
+    "author": [
+        "chibi"
+    ],
+    "pokedex_number": 407,
+    "pokemon_category": "",
+    "flavor_text": "Mit dem süßlichen Duft seiner Blüten betört es seine Gegner, bevor es sie mit dornigen Ranken heftig auspeitscht.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Lähmendes Gift",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners auch paralysiert."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Megasauger",
+            "damage": 90,
+            "effect": "Heile 30 Schadenspunkte bei diesem Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Roselia",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh1-4"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-4",
+    "card_key": "407|120|1|chibi|30,90|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

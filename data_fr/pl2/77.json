@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl2-77",
+    "name": "Phogleur Niv. 31",
+    "img": "https://assets.tcgdex.net/fr/pl/pl2/77/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Rivaux Émergeants",
+    "series": "Platine",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "77",
+    "set_total": 120,
+    "rarity": "Commune",
+    "author": [
+        "Saya Tsuruta"
+    ],
+    "pokedex_number": 364,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Trouver de la glace",
+            "damage": null,
+            "effect": "Cherchez dans votre deck 2 cartes Énergie {W}, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Glaciation",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Métal"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Obalie",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl2-77"
+        }
+    ],
+    "print_key": "tcgdex:pl2-77",
+    "card_key": "364|80|2|Saya Tsuruta|None,20|0,2",
+    "types_en": [
+        "Water"
+    ]
+}

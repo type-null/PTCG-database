@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss2-21",
+    "name": "Quappo",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss2/21/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss2",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss2/symbol",
+    "set_full_name": "Entfesselt",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss2",
+    "date": "2010-05-12",
+    "number": "21",
+    "set_total": 96,
+    "rarity": "Selten",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 62,
+    "pokemon_category": "",
+    "flavor_text": "Obwohl es ein geschickter und ausdauernder Schwimmer ist, der alle Muskeln einsetzt, lebt es an Land.",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Überrollen",
+            "damage": 40,
+            "effect": "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wuchtschlag",
+            "damage": "60+",
+            "effect": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 60 Schadenspunkte plus 40 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Quaputzi",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss2-21"
+        }
+    ],
+    "print_key": "tcgdex:hgss2-21",
+    "card_key": "62|130|3|Naoyo Kimura|40,60+|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

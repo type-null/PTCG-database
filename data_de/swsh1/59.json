@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh1-59",
+    "name": "Intelleon",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh1/59/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Schwert & Schild",
+    "series": "Schwert & Schild",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "59",
+    "set_total": 216,
+    "rarity": "Selten",
+    "author": [
+        "Akira Komayama"
+    ],
+    "pokedex_number": 818,
+    "pokemon_category": "",
+    "flavor_text": "Zu seinen vielen geheimen Talenten gehört es, Wasser aus den Fingern zu schießen und mit der Membran am Rücken durch die Lüfte zu segeln.",
+    "stage": "Rang 2",
+    "hp": 160,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Stiller Schuss",
+            "damage": 40,
+            "effect": "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Hydroschütze",
+            "damage": 100,
+            "effect": "Du kannst deinem Gegner 1 an sein Aktives Pokémon angelegte Energie auf seine Hand geben."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Phlegleon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh1-59"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-59",
+    "card_key": "818|160|1|Akira Komayama|40,100|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

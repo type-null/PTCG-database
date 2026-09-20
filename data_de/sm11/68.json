@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm11-68",
+    "name": "Voltolos",
+    "img": "https://assets.tcgdex.net/de/sm/sm11/68/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Bund der Gleichgesinnten",
+    "series": "Sonne & Mond",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "68",
+    "set_total": 258,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 642,
+    "pokemon_category": "",
+    "flavor_text": "Es greift mit elektrischer Ladung aus den Dornen seiner Rute an und bombardiert Einall aus der Luft mit Blitzen.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Donnernder Wind",
+            "damage": "20+",
+            "effect": "Wenn sich Boreos auf deiner Bank befindet, fügt diese Attacke 50 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Tosender Donner",
+            "damage": 120,
+            "effect": "Diese Attacke fügt 1 Pokémon auf deiner Bank 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm11-68"
+        }
+    ],
+    "print_key": "tcgdex:sm11-68",
+    "card_key": "642|120|1|Anesaki Dynamic|20+,120|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

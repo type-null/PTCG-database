@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp1-80",
+    "name": "Zwirrlicht",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perl",
+    "series": "Diamant & Perl",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "80",
+    "set_total": 130,
+    "rarity": "Häufig",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 355,
+    "pokemon_category": "",
+    "flavor_text": "Verbissen verfolgt es seine Beute überallhin. Doch sobald die Sonne aufgeht, ist die Jagd vorbei.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Aussetzer",
+            "damage": null,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ wähle 1 Angriff des Verteidigenden Pokémon. Dieses Pokémon kann den gewählten Angriff im nächsten Zug deines Gegners nicht einsetzen."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Nachtnebel",
+            "damage": 20,
+            "effect": "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp1-80"
+        }
+    ],
+    "print_key": "tcgdex:dp1-80",
+    "card_key": "355|50|1|Atsuko Nishida|None,20|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

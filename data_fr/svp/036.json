@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/svp-036",
+    "name": "Superdofin",
+    "img": "https://assets.tcgdex.net/fr/sv/svp/036/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "svp",
+    "set_full_name": "SVP Black Star Promos",
+    "series": "Écarlate et Violet",
+    "set_code": "svp",
+    "date": "2023-03-31",
+    "number": "036",
+    "set_total": 225,
+    "rarity": "Promo",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 964,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 150,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Poing Sonique",
+            "damage": 30,
+            "effect": "Cette attaque inflige aussi 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau"
+            ],
+            "name": "Coup Juste",
+            "damage": 210,
+            "effect": "Si ce Pokémon n'a pas été déplacé du Banc vers le Poste Actif pendant ce tour, cette attaque ne fait rien."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Dofin",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/svp-036"
+        }
+    ],
+    "print_key": "tcgdex:svp-36",
+    "card_key": "964|150|2|nagimiso|30,210|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

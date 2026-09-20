@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-19",
+    "name": "Digdri",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "19",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 51,
+    "pokemon_category": "",
+    "flavor_text": "Die Digda-Drillinge lösen gewaltige Erdbeben durch Tunnel von 80 Kilometern Länge aus.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Schlitzer",
+            "damage": 40,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Erdbeben",
+            "damage": 70,
+            "effect": "Fügt jedem Deiner eigenen Pokémon auf der Bank 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden!)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Digda",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-19"
+        }
+    ],
+    "print_key": "tcgdex:base1-19",
+    "card_key": "51|70|2|Keiji Kinebuchi|40,70|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

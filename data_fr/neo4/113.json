@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo4-113",
+    "name": "Tyranocif brillant",
+    "img": "https://assets.tcgdex.net/fr/neo/neo4/113/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "113",
+    "set_total": 113,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 248,
+    "pokemon_category": "",
+    "flavor_text": "Il est si puissant qu'il peut renverser une montagne d'un coup de coude.",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité",
+                "Combat",
+                "Combat"
+            ],
+            "name": "Écrase-montagne",
+            "damage": 30,
+            "effect": "Lancez une pièce jusqu'à faire pile. Pour chaque face, votre adversaire se défausse de la carte du dessus de son deck."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Feu",
+                "Feu",
+                "Feu"
+            ],
+            "name": "Feu destructeur",
+            "damage": 50,
+            "effect": "Lancez une pièce pour chaque carte Énergie {R} attachée à Tyranocif brillant. Pour chaque face, défaussez-vous d'une carte Énergie {R} attachée à Tyranocif brillant ou cette attaque ne fait rien. Puis, pour chaque face, choisissez une carte Énergie attachée au Pokémon Défenseur et obligez votre adversaire à s'en défausser. S'il a moins de cartes Énergie, il doit se défausser de toutes ses cartes Énergie."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo4-113"
+        }
+    ],
+    "print_key": "tcgdex:neo4-113",
+    "card_key": "248|80|3|Ken Sugimori|30,50|3,4",
+    "types_en": [
+        "Darkness"
+    ]
+}

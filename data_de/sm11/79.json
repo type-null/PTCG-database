@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm11-79",
+    "name": "Jirachi GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm11/79/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Bund der Gleichgesinnten",
+    "series": "Sonne & Mond",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "79",
+    "set_total": 258,
+    "rarity": "Ultra Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 385,
+    "pokemon_category": "",
+    "hp": 160,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Psychozone",
+            "effect": "Wende {P}-Schwäche nicht an, wenn Pokémon (deinen und denen deines Gegners) durch Attacken Schaden zugefügt wird."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Sternenfund",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 Energiekarte und lege sie an 1 deiner {P}-Pokémon an. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Sternenschild-GX",
+            "damage": 100,
+            "effect": "Verhindere während des nächsten Zuges deines Gegners alle Effekte von Attacken, einschließlich Schaden, die diesem Pokémon zugefügt werden. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm11-79"
+        }
+    ],
+    "print_key": "tcgdex:sm11-79",
+    "card_key": "385|160|1|5ban Graphics|None,100|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

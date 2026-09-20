@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh1-13",
+    "name": "Badabouin",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh1/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Épée et Bouclier",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "13",
+    "set_total": 216,
+    "rarity": "Peu Commune",
+    "author": [
+        "Akira Komayama"
+    ],
+    "pokedex_number": 811,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Bataille",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Embuscade",
+            "damage": "50+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Ouistempo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh1-13"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-13",
+    "card_key": "811|100|2|Akira Komayama|30,50+|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

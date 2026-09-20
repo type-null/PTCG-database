@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw10-59",
+    "name": "Stolloss",
+    "img": "https://assets.tcgdex.net/de/bw/bw10/59/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw10",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw10/symbol",
+    "set_full_name": "Plasma-Blaster",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw10",
+    "date": "2013-08-14",
+    "number": "59",
+    "set_total": 105,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 306,
+    "pokemon_category": "",
+    "flavor_text": "Ihre Reviere erstrecken sich über ganze Gebirge. Stolloss, die mit Narben übersät sind, sollte man besser meiden.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Schlag versetzen",
+            "damage": 50,
+            "effect": "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Natürliches Geheiß",
+            "damage": 80,
+            "effect": "Dieser Angriff fügt jedem Pokémon auf der Bank (deinen und denen deines Gegners) 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Stollrak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw10-59"
+        }
+    ],
+    "print_key": "tcgdex:bw10-59",
+    "card_key": "306|140|4|Kouki Saitou|50,80|2,4",
+    "types_en": [
+        "Metal"
+    ]
+}

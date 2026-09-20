@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-43",
+    "name": "Keifel",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "43",
+    "set_total": 182,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 221,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Durchbohrender Stoßzahn",
+            "damage": 40,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Dauernder Ansturm",
+            "damage": "30+",
+            "effect": "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte pro geworfenem \"Kopf\" zu. Lege für jeden \"Kopf\" eine Schadensmarke auf Keifel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-43"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-43",
+    "card_key": "221|80|3|Shin-ichi Yoshida|40,30+|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

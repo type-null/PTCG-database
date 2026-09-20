@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-49",
+    "name": "Insécateur",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "49",
+    "set_total": 106,
+    "rarity": "Peu Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 123,
+    "pokemon_category": "",
+    "flavor_text": "Ses coups de faux sont pratiquement imparables. Il se déplace comme un ninja.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Danse-lames",
+            "damage": null,
+            "effect": "Lors de votre prochain tour, les dégâts de base de l'attaque Coup déchirant d'Insécateur sont de 60."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Coup déchirant",
+            "damage": 30,
+            "effect": "Lors de votre prochain tour, Insécateur ne peut pas utiliser Coup déchirant."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "evolve_from": "Insécateur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-49"
+        }
+    ],
+    "print_key": "tcgdex:dp7-49",
+    "card_key": "123|60|None|Mitsuhiro Arita|None,30|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

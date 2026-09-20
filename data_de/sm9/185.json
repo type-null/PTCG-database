@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm9-185",
+    "name": "Ampharos GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm9/185/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm9",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm9/symbol",
+    "set_full_name": "Teams Sind Trumpf",
+    "series": "Sonne & Mond",
+    "set_code": "sm9",
+    "date": "2019-01-31",
+    "number": "185",
+    "set_total": 196,
+    "rarity": "Versteckt Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 181,
+    "pokemon_category": "",
+    "hp": 240,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Kraftzufuhr",
+            "damage": 30,
+            "effect": "Nimm alle Elektrokraft-Karten aus deinem Ablagestapel auf deine Hand."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Druckblitz",
+            "damage": 150,
+            "effect": "Lege alle {L}-Energien von diesem Pokémon auf deinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Elektrisch-GX",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu 7 Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Waaty",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm9-185"
+        }
+    ],
+    "print_key": "tcgdex:sm9-185",
+    "card_key": "181|240|3|5ban Graphics|30,150,None|1,2,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

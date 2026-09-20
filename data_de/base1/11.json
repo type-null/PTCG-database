@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-11",
+    "name": "Nidoking",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "11",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 34,
+    "pokemon_category": "",
+    "flavor_text": "Setzt seinen mächtigen Schwanz in der Schlacht ein, um die Knochen seiner Beute zu zerschmettern, einzuschnüren und dann zu brechen.",
+    "stage": "Rang 2",
+    "hp": 90,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Prügel",
+            "damage": "30+",
+            "effect": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 30 Schadenspunkte zu, und Nidoking fügt sich selbst 10 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Toxin",
+            "damage": 20,
+            "effect": "Das verteidigende Pokémon ist vergiftet. Es erleidet 20 Vergiftungsschadenspunkte anstatt 10 nach dem Zug jedes Spielers (selbst wenn es bereits vergiftet war)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Nidorino",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-11"
+        }
+    ],
+    "print_key": "tcgdex:base1-11",
+    "card_key": "34|90|3|Ken Sugimori|30+,20|3,3",
+    "types_en": [
+        "Grass"
+    ]
+}

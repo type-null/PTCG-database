@@ -1,0 +1,77 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl2-RT2",
+    "name": "Motisma Froid Niv. 46",
+    "img": "https://assets.tcgdex.net/fr/pl/pl2/RT2/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Rivaux Émergeants",
+    "series": "Platine",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "RT2",
+    "set_total": 120,
+    "rarity": "Rare",
+    "author": [
+        "Hironobu Yoshida"
+    ],
+    "pokedex_number": 479,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Mutation froide",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Motisma Froid est de type {W} jusqu'à la fin de votre tour."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Grêle",
+            "damage": null,
+            "effect": "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc)."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Brise-glace",
+            "damage": "40+",
+            "effect": "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {C} dans le Coût de retraite du Pokémon Défenseur (après application des effets sur le Coût de retraite)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl2-RT2"
+        }
+    ],
+    "print_key": "tcgdex:pl2-RT2",
+    "card_key": "479|90|3|Hironobu Yoshida|None,40+|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

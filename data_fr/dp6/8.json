@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-8",
+    "name": "Luxray",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "8",
+    "set_total": 146,
+    "rarity": "Rare Holo",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 405,
+    "pokemon_category": "",
+    "flavor_text": "Ses yeux voient à travers tout. Il repère les proies cachées derrière un objet pour les capturer.",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Rivalité",
+            "effect": "Si votre adversaire possède des Pokémon NIV.X en jeu, chacune des attaques de Luxray inflige 50 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Plasma",
+            "damage": 40,
+            "effect": "Cherchez dans votre pile de défausse une carte Énergie Lightning et attachez-la à Luxray."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Choc'éclair",
+            "damage": 100,
+            "effect": "Défaussez une Énergie Lightning attachée à Luxray."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "evolve_from": "Luxio",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-8"
+        }
+    ],
+    "print_key": "tcgdex:dp6-8",
+    "card_key": "405|120|None|Mitsuhiro Arita|40,100|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

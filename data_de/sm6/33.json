@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm6-33",
+    "name": "Aranestro",
+    "img": "https://assets.tcgdex.net/de/sm/sm6/33/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm6",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm6/symbol",
+    "set_full_name": "Grauen Der Lichtfinsternis",
+    "series": "Sonne & Mond",
+    "set_code": "sm6",
+    "date": "2018-05-04",
+    "number": "33",
+    "set_total": 146,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "kodama"
+    ],
+    "pokedex_number": 752,
+    "pokemon_category": "",
+    "flavor_text": "Es ist fürsorglicher, als es aussieht. Findet es einen kleinen, schwachen Artgenossen, gewährt es ihm Einlass in seine Wasserblase.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Blubber",
+            "damage": 30,
+            "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Blasenfalle",
+            "damage": "40+",
+            "effect": "Wenn 1 deiner Pokémon während deines letzten Zuges Blubber eingesetzt hat, fügt diese Attacke 80 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Araqua",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm6-33"
+        }
+    ],
+    "print_key": "tcgdex:sm6-33",
+    "card_key": "752|100|1|kodama|30,40+|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

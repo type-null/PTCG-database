@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm11-240",
+    "name": "Keldeo GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm11/240/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Harmonie des Esprits",
+    "series": "Soleil et Lune",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "240",
+    "set_total": 258,
+    "rarity": "Magnifique rare",
+    "author": [
+        "ConceptLab"
+    ],
+    "pokedex_number": 647,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 170,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Cœur Pur",
+            "effect": "Évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon par les Pokémon-GX ou les Pokémon-EX de votre adversaire."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Tranchant Sonique",
+            "damage": 110,
+            "effect": "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Lame Décidée GX",
+            "damage": "50×",
+            "effect": "Cette attaque inflige 50 dégâts pour chaque Pokémon de Banc de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm11-240"
+        }
+    ],
+    "print_key": "tcgdex:sm11-240",
+    "card_key": "647|170|2|ConceptLab|110,50x|3,3",
+    "types_en": [
+        "Water"
+    ]
+}

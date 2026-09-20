@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pop9-16",
+    "name": "Tiplouf",
+    "img": "https://assets.tcgdex.net/fr/pop/pop9/16/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pop9",
+    "set_img": "https://assets.tcgdex.net/univ/pop/pop9/symbol",
+    "set_full_name": "POP Série 9",
+    "series": "POP",
+    "set_code": "pop9",
+    "date": "2009-03-01",
+    "number": "16",
+    "set_total": 17,
+    "rarity": "Commune",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 393,
+    "pokemon_category": "",
+    "flavor_text": "Il vit sur les côtes des régions nordiques. C'est un nageur doué, qui peut plonger durant 10 minutes.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Tourniquet",
+            "damage": "10+",
+            "effect": "Si Tiplouf possède moins d'Énergies que le Pokémon Défenseur, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Vaguelette",
+            "damage": 40,
+            "effect": "Si vous avez Mustébouée en jeu, cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+10"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pop9-16"
+        }
+    ],
+    "print_key": "tcgdex:pop9-16",
+    "card_key": "393|50|1|Midori Harada|10+,40|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

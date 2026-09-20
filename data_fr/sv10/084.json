@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv10-084",
+    "name": "Kaorine de Pierre",
+    "img": "https://assets.tcgdex.net/fr/sv/sv10/084/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "I",
+    "set_name": "sv10",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv10/symbol",
+    "set_full_name": "Rivalités Destinées",
+    "series": "Écarlate et Violet",
+    "set_code": "sv10",
+    "date": "2025-05-30",
+    "number": "084",
+    "set_total": 244,
+    "rarity": "Peu Commune",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 344,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Lumière Étrange",
+            "damage": 20,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Explosion d'Argile",
+            "damage": 220,
+            "effect": "Défaussez toutes les Énergies de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Balbuto de Pierre",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv10-084"
+        }
+    ],
+    "print_key": "tcgdex:sv10-84",
+    "card_key": "344|120|2|nagimiso|20,220|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

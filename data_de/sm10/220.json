@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-220",
+    "name": "Sleimok & Alola-Sleimok GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/220/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "TAG TEAM-GX",
+        "GX"
+    ],
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "220",
+    "set_total": 234,
+    "rarity": "Versteckt Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 89,
+    "pokemon_category": "",
+    "hp": 270,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Pures Gift",
+            "damage": null,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Lege zwischen den Zügen 8 Schadensmarken anstelle von 1 Schadensmarke auf jenes Pokémon."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Giftabsorption",
+            "damage": 120,
+            "effect": "Wenn das Aktive Pokémon deines Gegners vergiftet ist, heile 100 Schadenspunkte bei diesem Pokémon."
+        },
+        {
+            "cost": [],
+            "name": "Ekelschleim-Mix-GX",
+            "damage": null,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt paralysiert und vergiftet. Wenn an dieses Pokémon mindestens 4 extra Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), lege zwischen den Zügen 15 Schadensmarken anstelle von 1 Schadensmarke auf jenes Pokémon. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-220"
+        }
+    ],
+    "print_key": "tcgdex:sm10-220",
+    "card_key": "89|270|4|5ban Graphics|None,120,None|3,4,0",
+    "types_en": [
+        "Psychic"
+    ]
+}

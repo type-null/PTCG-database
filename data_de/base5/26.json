@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base5-26",
+    "name": "Dunkles Hypno",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Grund",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "26",
+    "set_total": 83,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 97,
+    "pokemon_category": "",
+    "flavor_text": "Es trägt stets ein Pendel bei sich. Es erscheint manchmal zur Abenddämmerung auf weniger befahrenen Straßen und in der Nähe von Schulen.",
+    "stage": "Rang 1",
+    "hp": 60,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Psyhieb",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Bankmanipulation",
+            "damage": "20x",
+            "effect": "Dein Gegner wirft eine Anzahl Münzen, die der Anzahl Pokémon auf seiner oder ihrer Bank entspricht. Dieser Angriff fügt jedesmal, wenn die Münze „Zahl“ zeigt, 20 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Traumato",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base5-26"
+        }
+    ],
+    "print_key": "tcgdex:base5-26",
+    "card_key": "97|60|2|Kagemaru Himeno|20,20x|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

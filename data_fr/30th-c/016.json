@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/30th-c-016",
+    "name": "Rayquaza EX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "30th-c",
+    "set_full_name": "Collection Classique30ᵉ Anniversaire",
+    "series": "Méga-Évolution",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "016",
+    "set_total": 30,
+    "rarity": "Sans Rareté",
+    "author": [
+        "Eske Yoshinob"
+    ],
+    "stage": "Base",
+    "hp": 170,
+    "types": [
+        "Dragon"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Cri du Ciel",
+            "damage": null,
+            "effect": "Défaussez les 3 cartes du dessus de votre deck. Si vous y trouvez des cartes Énergie, attachez-les à ce Pokémon."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Électrique"
+            ],
+            "name": "Fureur du Dragon",
+            "damage": "60×",
+            "effect": "Défaussez toutes les Énergies <span class=\"energy-symbol Fire\" title=\"Feu\">Fire</span> de base ou toutes les Énergies <span class=\"energy-symbol Lightning\" title=\"Électrique\">Lightning</span> de base attachées à ce Pokémon. Cette attaque inflige 60 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Dragon"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/30th-c-016"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-16",
+    "card_key": "384|170|1|Eske Yoshinob|None,60x|1,2",
+    "types_en": [
+        "Dragon"
+    ]
+}

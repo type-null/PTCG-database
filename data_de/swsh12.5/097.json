@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh12.5-097",
+    "name": "Zamazenta",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh12.5/097/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh12.5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12.5/symbol",
+    "set_full_name": "Zenit der Könige",
+    "series": "Schwert & Schild",
+    "set_code": "swsh12.5",
+    "date": "2023-01-20",
+    "number": "097",
+    "set_total": 160,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "GIDORA"
+    ],
+    "pokedex_number": 889,
+    "pokemon_category": "",
+    "flavor_text": "Weil es alles und jeden abwehren konnte, trug es einst den Namen „Kämpferkönigsschild“ und wurde gleichermaßen gefürchtet und verehrt.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Metallschild",
+            "effect": "Wenn an dieses Pokémon mindestens 1 Energie angelegt ist, werden ihm durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Heimzahlung",
+            "damage": "100+",
+            "effect": "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde, fügt diese Attacke 120 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh12.5-097"
+        }
+    ],
+    "print_key": "tcgdex:swsh12.5-97",
+    "card_key": "889|130|2|GIDORA|100+|3",
+    "types_en": [
+        "Metal"
+    ]
+}

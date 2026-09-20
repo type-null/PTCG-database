@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sv08.5-033",
+    "name": "Espeon",
+    "img": "https://assets.tcgdex.net/es/sv/sv08.5/033/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "G",
+    "set_name": "sv08.5",
+    "set_full_name": "Evoluciones Prismáticas",
+    "series": "Escarlata y Púrpura",
+    "set_code": "sv08.5",
+    "date": "2025-01-17",
+    "number": "033",
+    "set_total": 180,
+    "rarity": "Rara",
+    "author": [
+        "Kariya"
+    ],
+    "pokedex_number": 196,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 110,
+    "types": [
+        "Psíquico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psíquico"
+            ],
+            "name": "Asalto Psíquico",
+            "damage": "30+",
+            "effect": "Este ataque hace 10 puntos de daño más por cada contador de daño en el Pokémon Activo de tu rival."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Incolora"
+            ],
+            "name": "Rayo Psi",
+            "damage": 60,
+            "effect": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscura"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sv08.5-033"
+        }
+    ],
+    "print_key": "tcgdex:sv08.5-33",
+    "card_key": "196|110|1|Kariya|30+,60|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

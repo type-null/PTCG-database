@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm4-6",
+    "name": "Cacturne",
+    "img": "https://assets.tcgdex.net/fr/sm/sm4/6/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Invasion Carmin",
+    "series": "Soleil et Lune",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "6",
+    "set_total": 125,
+    "rarity": "Rare",
+    "author": [
+        "Mina Nakai"
+    ],
+    "pokedex_number": 332,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Pointe Déchirante",
+            "damage": "30+",
+            "effect": "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts, cette attaque inflige 60 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Chasse",
+            "damage": null,
+            "effect": "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif. Cette attaque inflige 40 dégâts au nouveau Pokémon Actif."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Cacnea",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm4-6"
+        }
+    ],
+    "print_key": "tcgdex:sm4-6",
+    "card_key": "332|110|2|Mina Nakai|30+,None|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

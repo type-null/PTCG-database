@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh6-49",
+    "name": "Ampharos",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh6/49/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh6",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh6/symbol",
+    "set_full_name": "Schaurige Herrschaft",
+    "series": "Schwert & Schild",
+    "set_code": "swsh6",
+    "date": "2021-06-18",
+    "number": "49",
+    "set_total": 233,
+    "rarity": "Selten",
+    "author": [
+        "Megumi Mizutani"
+    ],
+    "pokedex_number": 181,
+    "pokemon_category": "",
+    "flavor_text": "Seine Schweifspitze strahlt ein starkes, helles Licht aus. Auf See gilt dieses Leuchten von alters her als bedeutender Wegweiser.",
+    "stage": "Rang 2",
+    "hp": 160,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Donnerschock",
+            "damage": 50,
+            "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Suchlichtschweif",
+            "damage": "90+",
+            "effect": "Dein Gegner zeigt dir seine Handkarten. Wenn du dort mindestens 1 Energiekarte findest, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Waaty",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh6-49"
+        }
+    ],
+    "print_key": "tcgdex:swsh6-49",
+    "card_key": "181|160|2|Megumi Mizutani|50,90+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

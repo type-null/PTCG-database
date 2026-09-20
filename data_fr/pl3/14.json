@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl3-14",
+    "name": "Yanmega",
+    "img": "https://assets.tcgdex.net/fr/pl/pl3/14/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Vainqueurs Suprêmes",
+    "series": "Platine",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "14",
+    "set_total": 162,
+    "rarity": "Holo Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 469,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Turbo",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), si Yanmega est votre Pokémon Actif, vous pouvez chercher dans votre pile de défausse une carte Énergie Grass et l'attacher à Yanmega. Ce pouvoir ne peut pas être utilisé si Yanmega est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Retour de vent",
+            "damage": "20+",
+            "effect": "Vous pouvez reprendre dans votre main toutes les Énergies Grass attachées à Yanmega. Cette attaque inflige alors 20 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie reprise."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Équilibre Plongée",
+            "damage": 70,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Yanma",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl3-14"
+        }
+    ],
+    "print_key": "tcgdex:pl3-14",
+    "card_key": "469|100|0|Masakazu Fukuda|20+,70|2,4",
+    "types_en": [
+        "Grass"
+    ]
+}

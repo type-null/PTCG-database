@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-7",
+    "name": "Jirachi",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "7",
+    "set_total": 120,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Kenkichi Toyama"
+    ],
+    "pokedex_number": 385,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Letzter Wunsch",
+            "effect": "Einmal während des Zuges deines Gegners kannst du, wenn Jirachi durch Schaden eines Angriffs kampfunfähig würde, dein Deck nach 1 Karte durchsuchen und sie auf die Hand nehmen. Mische dein Deck danach."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Umweg",
+            "damage": null,
+            "effect": "Wenn du 1 Unterstützerkarte im Spiel hast, nutze den Effekt der Unterstützerkarte als Effekt dieses Angriffs."
+        },
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Sternschauer",
+            "damage": 20,
+            "effect": "Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-7"
+        }
+    ],
+    "print_key": "tcgdex:pl2-7",
+    "card_key": "385|60|0|Kenkichi Toyama|None,20|0,1",
+    "types_en": [
+        "Metal"
+    ]
+}

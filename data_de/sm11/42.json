@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm11-42",
+    "name": "Rexblisar",
+    "img": "https://assets.tcgdex.net/de/sm/sm11/42/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Bund der Gleichgesinnten",
+    "series": "Sonne & Mond",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "42",
+    "set_total": 258,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 460,
+    "pokemon_category": "",
+    "flavor_text": "Es bedeckt weite Gebiete mit Schnee, indem es Blizzards auslöst. Man nennt es „Das Eismonster“.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schnellfrost",
+            "damage": 70,
+            "effect": "Wenn an das Aktive Pokémon deines Gegners mindestens 1 {W}-Energie angelegt ist, ist es jetzt paralysiert."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wilder Tackle",
+            "damage": 140,
+            "effect": "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Shnebedeck",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm11-42"
+        }
+    ],
+    "print_key": "tcgdex:sm11-42",
+    "card_key": "460|140|4|Shin Nagasawa|70,140|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex10-109",
+    "name": "Stahlos-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Verborgene Mächte",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "109",
+    "set_total": 117,
+    "rarity": "Selten",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 208,
+    "pokemon_category": "",
+    "hp": 150,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Poison Resistance",
+            "effect": "Steelix ex can't be Poisoned."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Metal Charge",
+            "damage": 70,
+            "effect": "Put 1 damage counter on Steelix ex."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Mudslide",
+            "damage": null,
+            "effect": "Discard 2  Energy attached to Steelix ex and choose 1 of your opponent's Pokémon. This attack does 100 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer",
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze",
+            "Elektro"
+        ],
+        "value": "-30"
+    },
+    "retreat": 5,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex10-109"
+        }
+    ],
+    "print_key": "tcgdex:ex10-109",
+    "card_key": "208|150|5|Ryo Ueda|70,None|3,4",
+    "types_en": [
+        "Metal"
+    ]
+}

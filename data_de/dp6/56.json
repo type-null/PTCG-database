@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp6-56",
+    "name": "Groink",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Erwachte Legenden",
+    "series": "Diamant & Perl",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "56",
+    "set_total": 146,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 326,
+    "pokemon_category": "",
+    "flavor_text": "Mit schwarzen Perlen verstärkt es seine Psycho-Kräfte. Mit einem Tanz kontrolliert es seine Gegner.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Zauberschritt",
+            "damage": null,
+            "effect": "Das Verteidigende Pokémon ist jetzt verwirrt. Wenn wegen des Speziellen Zustands „verwirrt“ 3 Schadensmarken auf das Verteidigende Pokémon gelegt werden sollen, lege stattdessen 6 Schadensmarken darauf."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Zermahlen",
+            "damage": "20x",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an Groink angelegten Energien zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Spoink",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp6-56"
+        }
+    ],
+    "print_key": "tcgdex:dp6-56",
+    "card_key": "326|90|2|Masakazu Fukuda|None,20x|0,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

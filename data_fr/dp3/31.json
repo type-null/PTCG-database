@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp3-31",
+    "name": "Maganon",
+    "img": "https://assets.tcgdex.net/fr/dp/dp3/31/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Merveilles Secrètes",
+    "series": "Diamant & Perle",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "31",
+    "set_total": 132,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 467,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Feu"
+    ],
+    "abilities": [
+        {
+            "name": "Corps ardent",
+            "effect": "Lorsque vous attachez une carte Énergie Fire de votre main à Maganon, retirez à Maganon 2 marqueurs de dégât."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Explosion de flammes",
+            "damage": "20x",
+            "effect": "Inflige 20 dégâts multipliés par le nombre d'Énergies Fire attachées à Maganon."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Boule de feu bazooka",
+            "damage": 40,
+            "effect": "Inflige 20 dégâts à 2 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+30"
+    },
+    "retreat": 3,
+    "evolve_from": "Magmar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp3-31"
+        }
+    ],
+    "print_key": "tcgdex:dp3-31",
+    "card_key": "467|110|3|Kouki Saitou|20x,40|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

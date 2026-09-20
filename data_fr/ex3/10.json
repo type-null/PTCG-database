@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex3-10",
+    "name": "Drattak",
+    "img": "https://assets.tcgdex.net/fr/ex/ex3/10/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Dragon",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "10",
+    "set_total": 100,
+    "rarity": "Holo Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 373,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Vent de dragon",
+            "effect": "Une seule fois pendant votre tour (avant votre attaque), si Drattak est votre Pokémon Actif, vous pouvez échanger un des Pokémon du Banc de votre adversaire contre un des Pokémon Défenseurs. Votre adversaire choisit le Pokémon Défenseur à échanger. Ce pouvoir ne peut pas être utilisé si Drattak est affecté par un État spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Hâte",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaque, y compris les dégâts, infligés à Drattak."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Griffe de dragon",
+            "damage": 60,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Combat",
+            "Feu"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Drackhaus",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex3-10"
+        }
+    ],
+    "print_key": "tcgdex:ex3-10",
+    "card_key": "373|120|2|Mitsuhiro Arita|20,60|2,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

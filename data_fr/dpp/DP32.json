@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dpp-DP32",
+    "name": "Magnézone",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dpp",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dpp/symbol",
+    "set_full_name": "Promo DP",
+    "series": "Diamant & Perle",
+    "set_code": "dpp",
+    "date": "2007-05-01",
+    "number": "DP32",
+    "set_total": 56,
+    "rarity": "Commune",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 462,
+    "pokemon_category": "",
+    "flavor_text": "Il a évolué suite à son exposition à un champ magnétique spécial. Ses 3 unités génèrent du magnétisme.",
+    "stage": "Niveau 2",
+    "hp": 130,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Miroi-Tir",
+            "damage": 40,
+            "effect": "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tranche magnétique",
+            "damage": 100,
+            "effect": "Défaussez toutes l'Énergie Lightning attachées à Magnézone."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Magnéton",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dpp-DP32"
+        }
+    ],
+    "print_key": "tcgdex:dpp-DP32",
+    "card_key": "462|130|2|Kent Kanetsuna|40,100|2,4",
+    "types_en": [
+        "Metal"
+    ]
+}

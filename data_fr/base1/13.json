@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-13",
+    "name": "Tartard",
+    "img": "https://assets.tcgdex.net/fr/base/base1/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "13",
+    "set_total": 102,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 62,
+    "pokemon_category": "",
+    "flavor_text": "Excellent nageur, il pratique le crawl ou la nage papillon mieux qu'un champion olympique.",
+    "stage": "Niveau 2",
+    "hp": 90,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Pistolet à O",
+            "damage": "30+",
+            "effect": "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {W} attachée à Tartard en plus du coût en Énergie de cette attaque. Les Énergies {W} supplémentaires après la seconde ne comptent pas."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Lessiveuse",
+            "damage": 40,
+            "effect": "Si des cartes Énergie sont attachées au Pokémon Défenseur, choisissez 1 d'elle et défaussez-la."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Têtarte",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-13"
+        }
+    ],
+    "print_key": "tcgdex:base1-13",
+    "card_key": "62|90|3|Ken Sugimori|30+,40|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

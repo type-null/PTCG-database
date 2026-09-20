@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sv10-070",
+    "name": "Zapdos del Team Rocket",
+    "img": "https://assets.tcgdex.net/it/sv/sv10/070/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "I",
+    "set_name": "sv10",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv10/symbol",
+    "set_full_name": "Rivali Predestinati",
+    "series": "Scarlatto e Violetto",
+    "set_code": "sv10",
+    "date": "2025-05-30",
+    "number": "070",
+    "set_total": 244,
+    "rarity": "Rara",
+    "author": [
+        "Nurikabe"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Lampo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Ala di Interferenza",
+            "damage": 30,
+            "effect": "Puoi spostare un'Energia dal Pokémon attivo del tuo avversario a uno dei suoi Pokémon in panchina."
+        },
+        {
+            "cost": [
+                "Lampo",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tuono Malvagio",
+            "damage": "60+",
+            "effect": "Se questo Pokémon ha delle Energie del Team Rocket assegnate, questo attacco infligge 60 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lampo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sv10-070"
+        }
+    ],
+    "print_key": "tcgdex:sv10-70",
+    "card_key": "145|120|1|Nurikabe|30,60+|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

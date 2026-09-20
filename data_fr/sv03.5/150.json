@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv03.5-150",
+    "name": "Mewtwo",
+    "img": "https://assets.tcgdex.net/fr/sv/sv03.5/150/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv03.5",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03.5/symbol",
+    "set_full_name": "151",
+    "series": "Écarlate et Violet",
+    "set_code": "sv03.5",
+    "date": "2023-09-22",
+    "number": "150",
+    "set_total": 207,
+    "rarity": "Rare",
+    "author": [
+        "AKIRA EGAWA"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Bouclier Réfléchissant",
+            "damage": 20,
+            "effect": "Pendant le prochain tour de votre adversaire, si ce Pokémon subit les dégâts d'une attaque (même s'il est mis K.O.), placez des marqueurs de dégâts sur le Pokémon Attaquant équivalents aux dégâts infligés à ce Pokémon."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Psykochoc",
+            "damage": 130,
+            "effect": "Défaussez 2 Énergies de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv03.5-150"
+        }
+    ],
+    "print_key": "tcgdex:sv03.5-150",
+    "card_key": "150|130|2|AKIRA EGAWA|20,130|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

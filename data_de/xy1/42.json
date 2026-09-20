@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy1-42",
+    "name": "Pikachu",
+    "img": "https://assets.tcgdex.net/de/xy/xy1/42/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy1/symbol",
+    "set_full_name": "XY",
+    "series": "XY",
+    "set_code": "xy1",
+    "date": "2014-02-05",
+    "number": "42",
+    "set_total": 146,
+    "rarity": "Häufig",
+    "author": [
+        "MAHOU"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "flavor_text": "Es streckt seinen Schwanz nach oben, um seine Umgebung zu prüfen. Häufig fährt ein Blitz hinein.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Wangenrubbler",
+            "damage": null,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Ruckzuckhieb",
+            "damage": "20+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy1-42"
+        }
+    ],
+    "print_key": "tcgdex:xy1-42",
+    "card_key": "25|60|1|MAHOU|None,20+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

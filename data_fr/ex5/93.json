@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex5-93",
+    "name": "Groudon ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex5/93/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex5",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex5/symbol",
+    "set_full_name": "EX Légendes Oubliées",
+    "series": "EX",
+    "set_code": "ex5",
+    "date": "2004-06-01",
+    "number": "93",
+    "set_total": 102,
+    "rarity": "Rare",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 383,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Marque d'antiquité",
+            "effect": "Tant que Groudon ex est votre Pokémon Actif, les Kyogre ex et Rayquaza ex de chaque Joueur ne peuvent pas attaquer."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Roule-pierre",
+            "damage": 30,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Cape écrasante",
+            "damage": "50+",
+            "effect": "Vous pouvez défausser de votre main autant de cartes Énergie que vous le voulez. Cette attaque inflige alors 50 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie défaussée."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex5-93"
+        }
+    ],
+    "print_key": "tcgdex:ex5-93",
+    "card_key": "383|100|3|Hikaru Koike|30,50+|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

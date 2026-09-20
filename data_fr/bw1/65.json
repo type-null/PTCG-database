@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw1-65",
+    "name": "Crocorible",
+    "img": "https://assets.tcgdex.net/fr/bw/bw1/65/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw1",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw1/symbol",
+    "set_full_name": "Noir & Blanc",
+    "series": "Noir & Blanc",
+    "set_code": "bw1",
+    "date": "2011-04-25",
+    "number": "65",
+    "set_total": 115,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 553,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 140,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tourmente",
+            "damage": 30,
+            "effect": "Choisissez 1 des attaques du Pokémon Défenseur. Le Pokémon Défenseur ne pourra pas l'utiliser lors du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Crocoroulade",
+            "damage": 60,
+            "effect": "Si le Pokémon Défenseur a déjà des marqueurs de dégâts, cette attaque inflige 40 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Escroco",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw1-65"
+        }
+    ],
+    "print_key": "tcgdex:bw1-65",
+    "card_key": "553|140|3|Masakazu Fukuda|30,60|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

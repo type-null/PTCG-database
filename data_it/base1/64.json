@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-64",
+    "name": "Starmie",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "64",
+    "set_total": 102,
+    "rarity": "Comune",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 121,
+    "pokemon_category": "",
+    "flavor_text": "Il suo nucleo centrale brilla  dei sette colori dell'arcobaleno. Valutato da alcuni come una gemma preziosa. LIV 28 N.121",
+    "stage": "Livello 1",
+    "hp": 60,
+    "types": [
+        "Acqua"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Acqua",
+                "Acqua"
+            ],
+            "name": "Ripresa",
+            "damage": null,
+            "effect": "Scarta una carta Energia Acqua assegnata a Starmie per poter usare questo attacco. Togli tutti i segnalini danno da Starmie."
+        },
+        {
+            "cost": [
+                "Acqua",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Assideramento stellare",
+            "damage": 20,
+            "effect": "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lampo"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Staryu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-64"
+        }
+    ],
+    "print_key": "tcgdex:base1-64",
+    "card_key": "121|60|1|Keiji Kinebuchi|None,20|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

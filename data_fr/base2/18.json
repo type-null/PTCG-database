@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base2-18",
+    "name": "Électrode",
+    "img": "https://assets.tcgdex.net/fr/base/base2/18/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Base",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "18",
+    "set_total": 64,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 101,
+    "pokemon_category": "",
+    "flavor_text": "Il emmagasine des quantités énormes de courant électrique sous pression pouvant exploser.",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Charge",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Rafale de foudre",
+            "damage": 20,
+            "effect": "Si le Pokémon Défenseur n'est pas de type Incolore, cette attaque inflige 10 dégâts à chacun des Pokémon du même type que le Pokémon Défenseur qui sont sur un Banc (y compris le vôtre)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Voltorbe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base2-18"
+        }
+    ],
+    "print_key": "tcgdex:base2-18",
+    "card_key": "101|90|1|Mitsuhiro Arita|20,20|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

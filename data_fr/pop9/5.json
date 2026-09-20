@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pop9-5",
+    "name": "Motisma",
+    "img": "https://assets.tcgdex.net/fr/pop/pop9/5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pop9",
+    "set_img": "https://assets.tcgdex.net/univ/pop/pop9/symbol",
+    "set_full_name": "POP Série 9",
+    "series": "POP",
+    "set_code": "pop9",
+    "date": "2009-03-01",
+    "number": "5",
+    "set_total": 17,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 479,
+    "pokemon_category": "",
+    "flavor_text": "Son corps parcouru d'électricité lui permet de prendre le contrôle de certains appareils ménagers.",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Transfert de type",
+            "effect": "Une seule fois pendant votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Le type de Motisma est  jusqu'à la fin de votre tour."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Poltergeist",
+            "damage": "30+",
+            "effect": "Regardez la main de votre adversaire. Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque carte Dresseur, Supporter et Stade dans la main de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pop9-5"
+        }
+    ],
+    "print_key": "tcgdex:pop9-5",
+    "card_key": "479|70|1|Masakazu Fukuda|30+|2",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv10-124",
+    "name": "Grotadmorv de la Team Rocket",
+    "img": "https://assets.tcgdex.net/fr/sv/sv10/124/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "I",
+    "set_name": "sv10",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv10/symbol",
+    "set_full_name": "Rivalités Destinées",
+    "series": "Écarlate et Violet",
+    "set_code": "sv10",
+    "date": "2025-05-30",
+    "number": "124",
+    "set_total": 244,
+    "rarity": "Peu Commune",
+    "author": [
+        "Uta"
+    ],
+    "pokedex_number": 89,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 150,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Engluement",
+            "damage": 40,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Confus. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Venin Nocif",
+            "damage": "100×",
+            "effect": "Cette attaque inflige 100 dégâts pour chaque État Spécial affectant le Pokémon Actif de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Tadmorv de la Team Rocket",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv10-124"
+        }
+    ],
+    "print_key": "tcgdex:sv10-124",
+    "card_key": "89|150|4|Uta|40,100x|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

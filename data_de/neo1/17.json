@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-17",
+    "name": "Tornupto",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "17",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 157,
+    "pokemon_category": "",
+    "flavor_text": "Falls seine Raserei den Höhepunkt erreicht, wird es so heiß, dass alles, was mit ihm in Berührung kommt, sofort in Flammen aufgeht.",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "Feueraufladung",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Münze werfen. Lege bei „Kopf“ eine {R}-Energiekarte aus deinem Ablagestapel auf eines deiner {R}-Pokémon. Diese Fähigkeit kann nicht verwendet werden, falls Tornupto schläft, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Flammenexplosion",
+            "damage": "60+",
+            "effect": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte zu und fügt Tornupto ebenfalls 20 Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 60 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Igelavar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-17"
+        }
+    ],
+    "print_key": "tcgdex:neo1-17",
+    "card_key": "157|100|2|Shin-ichi Yoshida|60+|4",
+    "types_en": [
+        "Fire"
+    ]
+}

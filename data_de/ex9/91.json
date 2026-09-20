@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex9-91",
+    "name": "Noktuska-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex9",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex9/symbol",
+    "set_full_name": "EX Smaragd",
+    "series": "EX",
+    "set_code": "ex9",
+    "date": "2005-05-09",
+    "number": "91",
+    "set_total": 107,
+    "rarity": "Selten",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 332,
+    "pokemon_category": "",
+    "hp": 110,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Cursed Glare",
+            "effect": "As long as Cacturne ex is your Active Pokémon, your Opponent cant attach any Special Energy cards (except for  and  Energy cards) from his or her hand to his or her Active Pokémon"
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Psybeam",
+            "damage": 20,
+            "effect": "The Defending Pokémon is now Confused."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Spike Rend",
+            "damage": "50+",
+            "effect": "If the Defending Pokémon already has any damage counters on it, this attack does 50 damage plus 20 more damage"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex9-91"
+        }
+    ],
+    "print_key": "tcgdex:ex9-91",
+    "card_key": "332|110|1|Hikaru Koike|20,50+|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

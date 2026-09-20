@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm9-19",
+    "name": "Sulfura",
+    "img": "https://assets.tcgdex.net/fr/sm/sm9/19/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm9",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm9/symbol",
+    "set_full_name": "Duo de Choc",
+    "series": "Soleil et Lune",
+    "set_code": "sm9",
+    "date": "2019-01-31",
+    "number": "19",
+    "set_total": 196,
+    "rarity": "Rare",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 146,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Super Pyro",
+            "damage": null,
+            "effect": "Défaussez toute l’Énergie Fire de ce Pokémon. Ensuite, défaussez une carte du dessus du deck de votre adversaire pour chaque Énergie défaussée de cette façon."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Danse Flamme",
+            "damage": 180,
+            "effect": "Défaussez 3 Énergies de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm9-19"
+        }
+    ],
+    "print_key": "tcgdex:sm9-19",
+    "card_key": "146|120|2|Shin Nagasawa|None,180|1,4",
+    "types_en": [
+        "Fire"
+    ]
+}

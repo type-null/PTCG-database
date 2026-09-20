@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm1-23",
+    "name": "Chartor",
+    "img": "https://assets.tcgdex.net/fr/sm/sm1/23/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Soleil et Lune",
+    "series": "Soleil et Lune",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "23",
+    "set_total": 163,
+    "rarity": "Commune",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 324,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 110,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Roussi",
+            "damage": null,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Plaquage",
+            "damage": 50,
+            "effect": "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm1-23"
+        }
+    ],
+    "print_key": "tcgdex:sm1-23",
+    "card_key": "324|110|3|sui|None,50|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex4-22",
+    "name": "Rhinoféros de Team Magma",
+    "img": "https://assets.tcgdex.net/fr/ex/ex4/22/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex4",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex4/symbol",
+    "set_full_name": "EX Team Magma vs Team Aqua",
+    "series": "EX",
+    "set_code": "ex4",
+    "date": "2004-03-01",
+    "number": "22",
+    "set_total": 97,
+    "rarity": "Rare",
+    "author": [
+        "T. Honda"
+    ],
+    "pokedex_number": 112,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Deuxième coup",
+            "damage": "20+",
+            "effect": "Si le Pokémon Défenseur possède déjà au moins 2 marqueurs de dégâts, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Écrasement au sol",
+            "damage": 60,
+            "effect": "Lancez une pièce. Si c'est pile, défaussez une carte Énergie attachée à Rhinoféros de Team Magma."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex4-22"
+        }
+    ],
+    "print_key": "tcgdex:ex4-22",
+    "card_key": "112|80|2|T. Honda|20+,60|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

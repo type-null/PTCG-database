@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm1-22",
+    "name": "Arkani",
+    "img": "https://assets.tcgdex.net/de/sm/sm1/22/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sonne & Mond",
+    "series": "Sonne & Mond",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "22",
+    "set_total": 172,
+    "rarity": "Selten",
+    "author": [
+        "kodama"
+    ],
+    "pokedex_number": 59,
+    "pokemon_category": "",
+    "flavor_text": "Ein anmutiges Pokémon, das Kraft und Stolz ausstrahlt. Bereits in alten Legenden aus dem weit entfernten Osten wurde von ihm berichtet.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Sengende Flammen",
+            "damage": 60,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Brandsturm",
+            "damage": 190,
+            "effect": "Lege 3 {R}-Energien von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Fukano",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm1-22"
+        }
+    ],
+    "print_key": "tcgdex:sm1-22",
+    "card_key": "59|130|2|kodama|60,190|3,4",
+    "types_en": [
+        "Fire"
+    ]
+}

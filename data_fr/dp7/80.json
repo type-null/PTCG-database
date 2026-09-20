@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-80",
+    "name": "Voltorbe",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "80",
+    "set_total": 106,
+    "rarity": "Commune",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 100,
+    "pokemon_category": "",
+    "flavor_text": "Il ressemble à une Poké Ball. Ce Pokémon dangereux peut exploser ou s'électrifier au toucher.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Voix stridente",
+            "damage": null,
+            "effect": "Si une attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), cette attaque lui inflige 20 dégâts supplémentaires jusqu'à la fin de votre prochain tour."
+        },
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Double tour",
+            "damage": "10x",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Voltorbe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-80"
+        }
+    ],
+    "print_key": "tcgdex:dp7-80",
+    "card_key": "100|60|1|Kent Kanetsuna|None,10x|0,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

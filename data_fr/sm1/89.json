@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm1-89",
+    "name": "Solgaleo GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm1/89/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Soleil et Lune",
+    "series": "Soleil et Lune",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "89",
+    "set_total": 163,
+    "rarity": "Ultra Rare",
+    "author": [
+        "PLANETA"
+    ],
+    "pokedex_number": 791,
+    "pokemon_category": "",
+    "hp": 250,
+    "types": [
+        "Métal"
+    ],
+    "abilities": [
+        {
+            "name": "Ultra-Route",
+            "effect": "Une seule fois pendant votre tour (avant votre attaque), vous pouvez échanger votre Pokémon Actif avec l’un de vos Pokémon de Banc."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Choc Météore",
+            "damage": 230,
+            "effect": "Défaussez toute l’Énergie de ce Pokémon."
+        },
+        {
+            "cost": [
+                "Métal"
+            ],
+            "name": "Éclat Solaire GX",
+            "damage": null,
+            "effect": "Cherchez jusqu’à 5 cartes Énergie dans votre deck et attachez-les à vos Pokémon, de la manière que vous voulez. Mélangez ensuite votre deck. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Cosmovum",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm1-89"
+        }
+    ],
+    "print_key": "tcgdex:sm1-89",
+    "card_key": "791|250|3|PLANETA|230,None|3,1",
+    "types_en": [
+        "Metal"
+    ]
+}

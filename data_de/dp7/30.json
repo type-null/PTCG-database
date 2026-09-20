@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-30",
+    "name": "Despotar",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "30",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 248,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Unlicht"
+    ],
+    "abilities": [
+        {
+            "name": "Finsterer Antrieb",
+            "effect": "Nachdem dein Gegner 1 Poké-Power benutzt hat, kannst du deinen Ablagestapel nach 1 {D}-Basis-Energiekarte durchsuchen und an Despotar anlegen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zermahlen",
+            "damage": "20x",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an Despotar angelegten Energien zu."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Unlicht",
+                "Unlicht",
+                "Unlicht",
+                "Unlicht"
+            ],
+            "name": "Kreisender Schweif",
+            "damage": null,
+            "effect": "Dieser Angriff fügt allen Pokémon deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Pupitar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-30"
+        }
+    ],
+    "print_key": "tcgdex:dp7-30",
+    "card_key": "248|140|4|Kagemaru Himeno|20x,None|2,5",
+    "types_en": [
+        "Darkness"
+    ]
+}

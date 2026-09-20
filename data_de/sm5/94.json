@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm5-94",
+    "name": "Kapu-Fala",
+    "img": "https://assets.tcgdex.net/de/sm/sm5/94/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultra-Prisma",
+    "series": "Sonne & Mond",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "94",
+    "set_total": 173,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 786,
+    "pokemon_category": "",
+    "flavor_text": "Der arglose, doch unbarmherzige Schutzpatron von Akala. Seine Energie zieht es aus dem lieblichen Duft von Blumen.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Fee"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fee"
+            ],
+            "name": "Psywelle",
+            "damage": "20×",
+            "effect": "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl der an das Aktive Pokémon deines Gegners angelegten Energien zu."
+        },
+        {
+            "cost": [
+                "Fee",
+                "Farblos"
+            ],
+            "name": "Magischer Austausch",
+            "damage": null,
+            "effect": "Verschiebe beliebig viele Schadensmarken auf den Pokémon deines Gegners beliebig auf seine anderen Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm5-94"
+        }
+    ],
+    "print_key": "tcgdex:sm5-94",
+    "card_key": "786|110|1|Shin Nagasawa|20x,None|1,2",
+    "types_en": [
+        "Fairy"
+    ]
+}

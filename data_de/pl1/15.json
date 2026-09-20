@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-15",
+    "name": "Shaymin",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "15",
+    "set_total": 133,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 492,
+    "pokemon_category": "",
+    "flavor_text": "Wird es umarmt, empfindet es Dankbarkeit, was wiederum dazu führt, dass seine Blumen blühen.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Wachstum",
+            "damage": null,
+            "effect": "Lege 1 {G}-Energiekarte von deiner Hand an Shaymin an."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Luftschnitt",
+            "damage": 40,
+            "effect": "Wirf 1 Münze. Bei „Zahl“ entferne 1 Energie, die an Shaymin angelegt ist, und lege sie auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-15"
+        }
+    ],
+    "print_key": "tcgdex:pl1-15",
+    "card_key": "492|80|1|Atsuko Nishida|None,40|0,2",
+    "types_en": [
+        "Grass"
+    ]
+}

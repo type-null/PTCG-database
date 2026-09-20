@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/xy12-41",
+    "name": "Electabuzz",
+    "img": "https://assets.tcgdex.net/it/xy/xy12/41/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Evoluzioni",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "41",
+    "set_total": 113,
+    "rarity": "Comune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 125,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Lampo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lampo"
+            ],
+            "name": "Tuonoshock",
+            "damage": 10,
+            "effect": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato."
+        },
+        {
+            "cost": [
+                "Lampo",
+                "Incolore"
+            ],
+            "name": "Tuonopugno",
+            "damage": "30+",
+            "effect": "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più. Se esce croce, questo Pokémon infligge 10 danni a se stesso."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metallo"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/xy12-41"
+        }
+    ],
+    "print_key": "tcgdex:xy12-41",
+    "card_key": "125|70|2|Ken Sugimori|10,30+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

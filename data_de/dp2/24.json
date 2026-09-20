@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp2-24",
+    "name": "Kokowei",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Geheimnisvolle Schätze",
+    "series": "Diamant & Perl",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "24",
+    "set_total": 124,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 103,
+    "pokemon_category": "",
+    "flavor_text": "Man nennt es den „Laufenden Dschungel“. Wird ein Kopf zu groß, fällt er ab und wird zu einem OWEI.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Fadenbombe",
+            "damage": "30x",
+            "effect": "Wirf 1 Münze für jede an Kokowei und das Verteidigende Pokémon angelegte Basis-Energiekarte. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Nahrungsversorgung",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu 2 {G}-Energiekarten und lege sie in beliebiger Verteilung an deine Pokémon an. Mische dein Deck danach."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Owei",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp2-24"
+        }
+    ],
+    "print_key": "tcgdex:dp2-24",
+    "card_key": "103|90|2|Masakazu Fukuda|30x,None|1,1",
+    "types_en": [
+        "Grass"
+    ]
+}

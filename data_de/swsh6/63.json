@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh6-63",
+    "name": "Banette",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh6/63/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh6",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh6/symbol",
+    "set_full_name": "Schaurige Herrschaft",
+    "series": "Schwert & Schild",
+    "set_code": "swsh6",
+    "date": "2021-06-18",
+    "number": "63",
+    "set_total": 233,
+    "rarity": "Selten",
+    "author": [
+        "Megumi Higuchi"
+    ],
+    "pokedex_number": 354,
+    "pokemon_category": "",
+    "flavor_text": "Geboren aus Hass, weil es weggeworfen wurde, soll es sich wieder in eine Plüschpuppe zurückverwandeln, wenn es sich geliebt fühlt.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Resoluter Groll",
+            "damage": "20×",
+            "effect": "Lege bis zu 7 Schadensmarken auf dieses Pokémon. Diese Attacke fügt für jede auf diese Weise platzierte Schadensmarke 20 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Gespenstisches Licht",
+            "damage": 50,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Shuppet",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh6-63"
+        }
+    ],
+    "print_key": "tcgdex:swsh6-63",
+    "card_key": "354|80|1|Megumi Higuchi|20x,50|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

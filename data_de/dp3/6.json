@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp3-6",
+    "name": "Galagladi",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Rätselhafte Wunder",
+    "series": "Diamant & Perl",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "6",
+    "set_total": 132,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "pokedex_number": 475,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Schallklinge",
+            "damage": null,
+            "effect": "Lege so viele Schadensmarken auf das Verteidigende Pokémon, dass es nur noch 50 Schadenspunkte davon entfernt ist, kampfunfähig zu sein. Wenn du das machst, tauscht dein Gegner das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Psychoklinge",
+            "damage": "60+",
+            "effect": "Du kannst beliebig viele deiner verdeckten Preise wählen und aufdecken. Wenn du das machst, fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte für jeden so gewählten Preis zu. (Die gewählten Preise werden nicht wieder verdeckt.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp3-6"
+        }
+    ],
+    "print_key": "tcgdex:dp3-6",
+    "card_key": "475|130|2|Daisuke Ito|None,60+|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

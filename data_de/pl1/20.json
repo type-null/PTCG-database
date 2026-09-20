@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-20",
+    "name": "Bollterus",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "20",
+    "set_total": 133,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 411,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Metallcharakter",
+            "effect": "Solange an Bollterus 1 Pokémon-Ausrüstung angelegt ist, entferne zwischen den Zügen 1 Schadensmarke von Bollterus."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Eisenabwehr",
+            "damage": 30,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Bollterus zugefügt würden."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Eisentackle",
+            "damage": 80,
+            "effect": "Bollterus fügt sich selbst 30 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Schilterus",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-20"
+        }
+    ],
+    "print_key": "tcgdex:pl1-20",
+    "card_key": "411|130|4|Kagemaru Himeno|30,80|3,4",
+    "types_en": [
+        "Metal"
+    ]
+}

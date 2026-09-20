@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex10-114",
+    "name": "Raikou ☆",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Verborgene Mächte",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "114",
+    "set_total": 117,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 243,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Lightning Turn",
+            "damage": 20,
+            "effect": "Switch Raikou ☆ with 1 of your Benched Pokémon."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Meta Voltage",
+            "damage": 70,
+            "effect": "If you have lass Prize cards leftthan your opponent, this attack does 40 damage to each of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex10-114"
+        }
+    ],
+    "print_key": "tcgdex:ex10-114",
+    "card_key": "243|80|1|Masakazu Fukuda|20,70|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

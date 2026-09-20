@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp4-90",
+    "name": "Arcko",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp4",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp4/symbol",
+    "set_full_name": "Duels au Sommets",
+    "series": "Diamant & Perle",
+    "set_code": "dp4",
+    "date": "2008-02-01",
+    "number": "90",
+    "set_total": 106,
+    "rarity": "Commune",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 252,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Eco-Sphère",
+            "damage": "10+",
+            "effect": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Arcko qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Vol-vie",
+            "damage": 20,
+            "effect": "Retirez à Arcko 1 marqueur de dégât."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp4-90"
+        }
+    ],
+    "print_key": "tcgdex:dp4-90",
+    "card_key": "252|50|1|Kouki Saitou|10+,20|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

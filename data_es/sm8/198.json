@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm8-198",
+    "name": "Magcargo GX",
+    "img": "https://assets.tcgdex.net/es/sm/sm8/198/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Truenos Perdidos",
+    "series": "Sol y Luna",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "198",
+    "set_total": 236,
+    "rarity": "Ultra Rara",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 219,
+    "pokemon_category": "",
+    "hp": 210,
+    "types": [
+        "Fuego"
+    ],
+    "abilities": [
+        {
+            "name": "Carga Colisión",
+            "effect": "Una vez durante tu turno (antes de tu ataque), puedes descartar la primera carta de tu baraja. Si es una carta de Energía Básica, únela a 1 de tus Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuego",
+                "Fuego",
+                "Incolora"
+            ],
+            "name": "Corriente de Lava",
+            "damage": "50+",
+            "effect": "Descarta cualquier cantidad de Energías Básicas de este Pokémon. Este ataque hace 50 puntos de daño más por cada carta que hayas descartado de esta manera."
+        },
+        {
+            "cost": [
+                "Fuego"
+            ],
+            "name": "Magma Ardiente GX",
+            "damage": null,
+            "effect": "Descarta las 5 primeras cartas de la baraja de tu rival. (No puedes usar más de 1 ataque GX en una partida)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Agua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm8-198"
+        }
+    ],
+    "print_key": "tcgdex:sm8-198",
+    "card_key": "219|210|3|5ban Graphics|50+,None|3,1",
+    "types_en": [
+        "Fire"
+    ]
+}

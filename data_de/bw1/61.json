@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw1-61",
+    "name": "Jiutesto",
+    "img": "https://assets.tcgdex.net/de/bw/bw1/61/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw1",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw1/symbol",
+    "set_full_name": "Schwarz & Weiß",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw1",
+    "date": "2011-04-25",
+    "number": "61",
+    "set_total": 115,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 538,
+    "pokemon_category": "",
+    "flavor_text": "Hat von Natur aus den Drang, Gegner zu werfen, die größer sind als es selbst. Es bildet stets Fünferrudel.",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Überkopfwurf",
+            "damage": 30,
+            "effect": "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Bergsturm",
+            "damage": 80,
+            "effect": "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw1-61"
+        }
+    ],
+    "print_key": "tcgdex:bw1-61",
+    "card_key": "538|100|3|Mitsuhiro Arita|30,80|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

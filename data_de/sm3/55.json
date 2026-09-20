@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm3-55",
+    "name": "Toxiquak",
+    "img": "https://assets.tcgdex.net/de/sm/sm3/55/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Nacht in Flammen",
+    "series": "Sonne & Mond",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "55",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 454,
+    "pokemon_category": "",
+    "flavor_text": "Verfügt über einen Giftsack an seiner Kehle. Quakt es, schäumt das Gift und wird so noch stärker.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Gifthieb",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Giftverstärker",
+            "damage": "80+",
+            "effect": "Wenn dieses Pokémon vergiftet ist, fügt diese Attacke 80 Schadenspunkte mehr zu. Jener Spezielle Zustand auf diesem Pokémon verliert anschließend seine Wirkung."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Glibunkel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm3-55"
+        }
+    ],
+    "print_key": "tcgdex:sm3-55",
+    "card_key": "454|110|2|kawayoo|30,80+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

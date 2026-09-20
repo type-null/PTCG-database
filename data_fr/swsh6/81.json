@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh6-81",
+    "name": "Gallame",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh6/81/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "E",
+    "set_name": "swsh6",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh6/symbol",
+    "set_full_name": "Règne de Glace",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh6",
+    "date": "2021-06-18",
+    "number": "81",
+    "set_total": 233,
+    "rarity": "Rare",
+    "author": [
+        "NC Empire"
+    ],
+    "pokedex_number": 475,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 170,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Ruse",
+            "damage": 60,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Dynalame",
+            "damage": "60×",
+            "effect": "Cette attaque inflige 60 dégâts pour chacun des Pokémon-V en jeu de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Kirlia",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh6-81"
+        }
+    ],
+    "print_key": "tcgdex:swsh6-81",
+    "card_key": "475|170|2|NC Empire|60,60x|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

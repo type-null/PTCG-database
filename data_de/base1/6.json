@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-6",
+    "name": "Garados",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "6",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "flavor_text": "Selten in freier Wildbahn gesichtet. Riesig und bösartig, kann bei einem Wutanfall ganze Städte zerstören.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Drachenwut",
+            "damage": 50,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Blubbstrahl",
+            "damage": 40,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Karpador",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-6"
+        }
+    ],
+    "print_key": "tcgdex:base1-6",
+    "card_key": "130|100|3|Mitsuhiro Arita|50,40|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl3-12",
+    "name": "Sumpex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Ultimative Sieger",
+    "series": "Platin",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "12",
+    "set_total": 153,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 260,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Wurzelschutz",
+            "effect": "Schaden, der Sumpex durch Angriffe von Pokémon deines Gegners, die keine entwickelten Pokémon sind, zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wegzerren",
+            "damage": 30,
+            "effect": "Bevor der Schaden zugefügt wird, kannst du das Aktive Pokémon deines Gegners gegen 1 Pokémon auf der Bank deines Gegners austauschen."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Umschubsen",
+            "damage": "60+",
+            "effect": "Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Sumpex angelegte -Energie zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "+30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl3-12"
+        }
+    ],
+    "print_key": "tcgdex:pl3-12",
+    "card_key": "260|130|2|Kagemaru Himeno|30,60+|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

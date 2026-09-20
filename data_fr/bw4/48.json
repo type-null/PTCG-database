@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw4-48",
+    "name": "Zéblitz",
+    "img": "https://assets.tcgdex.net/fr/bw/bw4/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw4",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw4/symbol",
+    "set_full_name": "Destinées Futures",
+    "series": "Noir & Blanc",
+    "set_code": "bw4",
+    "date": "2012-02-08",
+    "number": "48",
+    "set_total": 103,
+    "rarity": "Rare",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 523,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Déconnexion",
+            "damage": 40,
+            "effect": "Votre adversaire ne peut pas jouer de cartes Objet de sa main pendant son prochain tour."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Chute d'Éclairs",
+            "damage": null,
+            "effect": "Défaussez toutes les Énergies Lightning attachées à ce Pokémon. Cette attaque inflige 80 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Zébibron",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw4-48"
+        }
+    ],
+    "print_key": "tcgdex:bw4-48",
+    "card_key": "523|90|0|Naoki Saito|40,None|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

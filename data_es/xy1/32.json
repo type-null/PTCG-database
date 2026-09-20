@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/xy1-32",
+    "name": "Cloyster",
+    "img": "https://assets.tcgdex.net/es/xy/xy1/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "xy1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy1/symbol",
+    "set_full_name": "XY",
+    "series": "XY",
+    "set_code": "xy1",
+    "date": "2014-02-05",
+    "number": "32",
+    "set_total": 146,
+    "rarity": "Rara",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 91,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 100,
+    "types": [
+        "Agua"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Agua",
+                "Incolora"
+            ],
+            "name": "Machaque Tenaza",
+            "damage": 30,
+            "effect": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado, y descartas 1 Energía unida a ese Pokémon."
+        },
+        {
+            "cost": [
+                "Agua",
+                "Agua",
+                "Incolora"
+            ],
+            "name": "Clavo Cañón",
+            "damage": "30×",
+            "effect": "Lanza 5 monedas. Este ataque hace 30 puntos de daño por cada cara."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Shellder",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/xy1-32"
+        }
+    ],
+    "print_key": "tcgdex:xy1-32",
+    "card_key": "91|100|3|Masakazu Fukuda|30,30x|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw2-57",
+    "name": "Minotaupe",
+    "img": "https://assets.tcgdex.net/fr/bw/bw2/57/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw2",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw2/symbol",
+    "set_full_name": "Pouvoirs Émergents",
+    "series": "Noir & Blanc",
+    "set_code": "bw2",
+    "date": "2011-08-31",
+    "number": "57",
+    "set_total": 98,
+    "rarity": "Rare",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 530,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Tunnel",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Séisme",
+            "damage": 70,
+            "effect": "Inflige 10 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Rototaupe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw2-57"
+        }
+    ],
+    "print_key": "tcgdex:bw2-57",
+    "card_key": "530|120|2|Shin Nagasawa|30,70|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

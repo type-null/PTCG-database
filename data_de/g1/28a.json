@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/g1-28a",
+    "name": "Blitza-EX",
+    "img": "https://assets.tcgdex.net/de/xy/g1/28a/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Generationen",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "28a",
+    "set_total": 117,
+    "rarity": "Selten",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 135,
+    "pokemon_category": "",
+    "hp": 160,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Sternschauer",
+            "damage": 30,
+            "effect": "Der Schaden dieses Angriffs wird durch Schwäche, Resistenz oder alle anderen Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Blitzstrahl",
+            "damage": 70,
+            "effect": "Verhindere allen Schaden, der diesem Pokémon während des nächsten Zuges deines Gegners durch Angriffe von Basis-Pokémon zugefügt wird."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/g1-28a"
+        }
+    ],
+    "print_key": "tcgdex:g1-28a",
+    "card_key": "135|160|None|Naoki Saito|30,70|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

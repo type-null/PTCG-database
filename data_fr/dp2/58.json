@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp2-58",
+    "name": "Parasect",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Trésors Mystérieux",
+    "series": "Diamant & Perle",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "58",
+    "set_total": 124,
+    "rarity": "Peu Commune",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 47,
+    "pokemon_category": "",
+    "flavor_text": "Un champignon parasite plus gros que Parasect contrôle son corps. Il répand des spores empoisonnées.",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Spores sauvages",
+            "damage": 20,
+            "effect": "Si Parasect a évolué de Paras lors de ce tour, cette attaque inflige 40 dégâts et le Pokémon Défenseur est maintenant Endormi et Empoisonné."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Champignon grandissant",
+            "damage": 60,
+            "effect": "Retirez à Parasect 2 marqueurs de dégât."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Paras",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp2-58"
+        }
+    ],
+    "print_key": "tcgdex:dp2-58",
+    "card_key": "47|90|2|Masakazu Fukuda|20,60|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

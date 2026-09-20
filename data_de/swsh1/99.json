@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh1-99",
+    "name": "Rihornior",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh1/99/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Schwert & Schild",
+    "series": "Schwert & Schild",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "99",
+    "set_total": 216,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Satoshi Shirai"
+    ],
+    "pokedex_number": 464,
+    "pokemon_category": "",
+    "flavor_text": "Mit seinem Schützer wehrt es Angriffe ab und durchsticht dann den verdutzten Gegner mit seinem Bohrer, auf den es sehr stolz ist.",
+    "stage": "Rang 2",
+    "hp": 190,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Rollende Felsen",
+            "damage": 90,
+            "effect": "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Felsrüttler",
+            "damage": 120,
+            "effect": "Diese Attacke fügt auch jedem Pokémon auf der Bank (deiner und der deines Gegners), auf dem mindestens eine Schadensmarke liegt, 60 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Rizeros",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh1-99"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-99",
+    "card_key": "464|190|4|Satoshi Shirai|90,120|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

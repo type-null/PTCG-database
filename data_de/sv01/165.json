@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv01-165",
+    "name": "Flaminkno",
+    "img": "https://assets.tcgdex.net/de/sv/sv01/165/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Karmesin & Purpur",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "165",
+    "set_total": 258,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "kantaro"
+    ],
+    "pokedex_number": 973,
+    "pokemon_category": "",
+    "flavor_text": "Dank ihres synchronisierten Verhaltens können alle Mitglieder eines Schwarms perfekt aufeinander abgestimmte Angriffe ausführen.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Flattern",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Sturzflugangriff",
+            "damage": 110,
+            "effect": "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv01-165"
+        }
+    ],
+    "print_key": "tcgdex:sv01-165",
+    "card_key": "973|110|1|kantaro|30,110|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

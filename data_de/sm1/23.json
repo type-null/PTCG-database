@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm1-23",
+    "name": "Qurtel",
+    "img": "https://assets.tcgdex.net/de/sm/sm1/23/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sonne & Mond",
+    "series": "Sonne & Mond",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "23",
+    "set_total": 172,
+    "rarity": "Häufig",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 324,
+    "pokemon_category": "",
+    "flavor_text": "Kohle ist die Quelle seiner Energie. Ein Glück, dass in den von Qurtel bewohnten Bergen große Kohlevorkommen schlummern.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Versengung",
+            "damage": null,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Bodyslam",
+            "damage": 50,
+            "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm1-23"
+        }
+    ],
+    "print_key": "tcgdex:sm1-23",
+    "card_key": "324|110|3|sui|None,50|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

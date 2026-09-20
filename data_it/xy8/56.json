@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/xy8-56",
+    "name": "Stunfisk",
+    "img": "https://assets.tcgdex.net/it/xy/xy8/56/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "xy8",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy8/symbol",
+    "set_full_name": "Turbo Blitz",
+    "series": "XY",
+    "set_code": "xy8",
+    "date": "2015-11-04",
+    "number": "56",
+    "set_total": 165,
+    "rarity": "Non comune",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 618,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 110,
+    "types": [
+        "Lampo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lampo",
+                "Incolore"
+            ],
+            "name": "Vendetta",
+            "damage": "20+",
+            "effect": "Se uno qualsiasi dei tuoi Pokémon è stato messo KO dai danni inflitti da un attacco del tuo avversario durante il suo ultimo turno, questo attacco infligge 80 danni in più."
+        },
+        {
+            "cost": [
+                "Lampo",
+                "Lampo",
+                "Incolore"
+            ],
+            "name": "Tuonobomba",
+            "damage": 80,
+            "effect": "Scarta un'Energia assegnata a questo Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metallo"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/xy8-56"
+        }
+    ],
+    "print_key": "tcgdex:xy8-56",
+    "card_key": "618|110|3|Naoki Saito|20+,80|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy1-62",
+    "name": "Rihornior",
+    "img": "https://assets.tcgdex.net/de/xy/xy1/62/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy1/symbol",
+    "set_full_name": "XY",
+    "series": "XY",
+    "set_code": "xy1",
+    "date": "2014-02-05",
+    "number": "62",
+    "set_total": 146,
+    "rarity": "Selten",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 464,
+    "pokemon_category": "",
+    "flavor_text": "Es feuert Kleinstein aus seinen Handflächen. Durch seinen Schützer erträgt es sogar Vulkanausbrüche.",
+    "stage": "Rang 2",
+    "hp": 160,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Felswurf",
+            "damage": "50×",
+            "effect": "Wirf für jede an dieses Pokémon angelegte {F}-Energie 1 Münze. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Felswerfer",
+            "damage": 130,
+            "effect": "Der Schaden dieses Angriffs wird durch Schwäche und Resistenz nicht verändert. Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Rizeros",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy1-62"
+        }
+    ],
+    "print_key": "tcgdex:xy1-62",
+    "card_key": "464|160|4|Naoki Saito|50x,130|1,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

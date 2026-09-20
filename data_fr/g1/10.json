@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/g1-10",
+    "name": "Phyllali-EX",
+    "img": "https://assets.tcgdex.net/fr/xy/g1/10/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Générations",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "10",
+    "set_total": 117,
+    "rarity": "Ultra Rare",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 470,
+    "pokemon_category": "",
+    "hp": 170,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Lame-Feuille",
+            "damage": "30+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Souffle de la Nature",
+            "damage": "90+",
+            "effect": "S'il y a une carte Stade en jeu, cette attaque inflige 30 dégâts supplémentaires et vous soignez 30 dégâts à ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/g1-10"
+        }
+    ],
+    "print_key": "tcgdex:g1-10",
+    "card_key": "470|170|2|Naoki Saito|30+,90+|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw8-87",
+    "name": "Panzaeron",
+    "img": "https://assets.tcgdex.net/de/bw/bw8/87/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw8",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw8/symbol",
+    "set_full_name": "Plasma-Sturm",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw8",
+    "date": "2013-02-06",
+    "number": "87",
+    "set_total": 138,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 227,
+    "pokemon_category": "",
+    "flavor_text": "Sein stählerner Körper ist dünner und leichter, als er wirkt und erlaubt eine Fluggeschwindigkeit von bis zu 300 km/h.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Frachtflugzeug",
+            "damage": null,
+            "effect": "Lege 1 Team Plasma-Karte von deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 3 Karten."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Stahlflügel",
+            "damage": 40,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw8-87"
+        }
+    ],
+    "print_key": "tcgdex:bw8-87",
+    "card_key": "227|90|1|5ban Graphics|None,40|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

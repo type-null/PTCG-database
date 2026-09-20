@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm6-119",
+    "name": "Palkia GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm6/119/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm6",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm6/symbol",
+    "set_full_name": "Grauen Der Lichtfinsternis",
+    "series": "Sonne & Mond",
+    "set_code": "sm6",
+    "date": "2018-05-04",
+    "number": "119",
+    "set_total": 146,
+    "rarity": "Ultra Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 484,
+    "pokemon_category": "",
+    "hp": 180,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Raumkontrolle",
+            "damage": null,
+            "effect": "Verschiebe beliebig viele Energien von den Pokémon auf deiner Bank auf dieses Pokémon."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wasserkraft",
+            "damage": "60+",
+            "effect": "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten {W}-Energien zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Nullwert-GX",
+            "damage": 150,
+            "effect": "Mische alle Energien von jedem Pokémon deines Gegners in sein Deck. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm6-119"
+        }
+    ],
+    "print_key": "tcgdex:sm6-119",
+    "card_key": "484|180|3|5ban Graphics|None,60+,150|1,3,5",
+    "types_en": [
+        "Water"
+    ]
+}

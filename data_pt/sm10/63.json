@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/sm10-63",
+    "name": "Arbok",
+    "img": "https://assets.tcgdex.net/pt/sm/sm10/63/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Elos Inquebráveis",
+    "series": "Sol e Lua",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "63",
+    "set_total": 234,
+    "rarity": "Rara",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 24,
+    "pokemon_category": "",
+    "stage": "Estágio 1",
+    "hp": 120,
+    "types": [
+        "Psíquico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolor"
+            ],
+            "name": "Embrulho",
+            "damage": 30,
+            "effect": "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Incolor"
+            ],
+            "name": "Asfixia Pesada",
+            "damage": "50+",
+            "effect": "Se este Pokémon usou Embrulho durante a sua última vez de jogar, este ataque causará 120 pontos de dano a mais."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/sm10-63"
+        }
+    ],
+    "print_key": "tcgdex:sm10-63",
+    "card_key": "24|120|2|Yukiko Baba|30,50+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

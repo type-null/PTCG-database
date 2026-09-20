@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-SH3",
+    "name": "Voltorbe",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "SH3",
+    "set_total": 106,
+    "rarity": "Rare Holo LV.X",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 100,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Balle rapide",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de votre adversaire. Lancez une pièce. Si c'est face, cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Rayon chargé",
+            "damage": 10,
+            "effect": "Choisissez dans votre pile de défausse une carte Énergie Lightning et attachez-la à Voltorbe."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Éclair",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Voltorbe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-SH3"
+        }
+    ],
+    "print_key": "tcgdex:dp7-SH3",
+    "card_key": "100|60|1|Kent Kanetsuna|None,10,20|1,1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

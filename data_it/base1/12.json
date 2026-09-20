@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-12",
+    "name": "Ninetales",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "12",
+    "set_total": 102,
+    "rarity": "Rara",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 38,
+    "pokemon_category": "",
+    "flavor_text": "Molto intelligente, ma anche molto vendicativo. Chi osa afferrare una delle sue numerose code viene punito con una maledizione che durerà 1.000 anni. LIV 32 N.38",
+    "stage": "Livello 1",
+    "hp": 80,
+    "types": [
+        "Fuoco"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Esca",
+            "damage": null,
+            "effect": "Se il tuo avversario ha dei Pokémon in Panchina, scegliene uno e scambialo con il Pokémon Difensore"
+        },
+        {
+            "cost": [
+                "Fuoco",
+                "Fuoco",
+                "Fuoco",
+                "Fuoco"
+            ],
+            "name": "Fuocobomba",
+            "damage": 80,
+            "effect": "Scarta una carta Energia Fuoco assegnata a Ninetales per poter usare questo attacco."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Acqua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Vulpix",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-12"
+        }
+    ],
+    "print_key": "tcgdex:base1-12",
+    "card_key": "38|80|1|Ken Sugimori|None,80|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

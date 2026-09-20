@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm11-1",
+    "name": "Bauz & Alola-Kokowei GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm11/1/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "TAG TEAM-GX",
+        "GX"
+    ],
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Bund der Gleichgesinnten",
+    "series": "Sonne & Mond",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "1",
+    "set_total": 258,
+    "rarity": "Ultra Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 103,
+    "pokemon_category": "",
+    "hp": 270,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Superwachstum",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 Karte, die sich aus 1 deiner {G}-Pokémon entwickelt, und lege sie auf jenes Pokémon, um es zu entwickeln. Wenn jenes Pokémon jetzt ein Phase-1-Pokémon ist, durchsuche dein Deck nach 1 Phase-2-Pokémon, das sich aus jenem Pokémon entwickelt, und lege es auf jenes Pokémon, um es zu entwickeln. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Sturmruhe",
+            "damage": 150,
+            "effect": "Heile 30 Schadenspunkte bei diesem Pokémon."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Tropenstunde-GX",
+            "damage": 200,
+            "effect": "Wenn an dieses Pokémon mindestens 3 extra Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), mischt dein Gegner alle an jedes seiner Pokémon angelegten Energien in sein Deck. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm11-1"
+        }
+    ],
+    "print_key": "tcgdex:sm11-1",
+    "card_key": "103|270|3|Mitsuhiro Arita|None,150,200|0,3,3",
+    "types_en": [
+        "Grass"
+    ]
+}

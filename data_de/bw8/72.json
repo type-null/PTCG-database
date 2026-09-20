@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw8-72",
+    "name": "Donphan",
+    "img": "https://assets.tcgdex.net/de/bw/bw8/72/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw8",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw8/symbol",
+    "set_full_name": "Plasma-Sturm",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw8",
+    "date": "2013-02-06",
+    "number": "72",
+    "set_total": 138,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 232,
+    "pokemon_category": "",
+    "flavor_text": "Wenn es angreift, rollt es sich zusammen und auf den Gegner zu. Es kann Häuser zum Einsturz bringen.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Fliegender Wechsel",
+            "damage": 40,
+            "effect": "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Abreißen",
+            "damage": 80,
+            "effect": "Wenn eine Stadionkarte im Spiel ist, fügt dieser Angriff 60 weitere Schadenspunkte zu. Lege diese Stadionkarte auf den Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Phanpy",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw8-72"
+        }
+    ],
+    "print_key": "tcgdex:bw8-72",
+    "card_key": "232|130|4|Shin Nagasawa|40,80|1,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

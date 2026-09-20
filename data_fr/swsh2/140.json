@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh2-140",
+    "name": "Zamazenta",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh2/140/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Clash des Rebelles",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "140",
+    "set_total": 209,
+    "rarity": "Rare",
+    "author": [
+        "Hideki Ishikawa"
+    ],
+    "pokedex_number": 889,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Pression de Garde",
+            "damage": 30,
+            "effect": "Pendant le prochain tour de votre adversaire, ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Ruée Puissante",
+            "damage": 120,
+            "effect": "Lancez une pièce. Si c'est pile, ce Pokémon ne peut pas attaquer pendant votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Plante"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh2-140"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-140",
+    "card_key": "889|120|2|Hideki Ishikawa|30,120|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

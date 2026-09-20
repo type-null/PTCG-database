@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/cel25-1",
+    "name": "Ho-Oh",
+    "img": "https://assets.tcgdex.net/fr/swsh/cel25/1/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "E",
+    "set_name": "cel25",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/cel25/symbol",
+    "set_full_name": "Célébrations",
+    "series": "Épée et Bouclier",
+    "set_code": "cel25",
+    "date": "2021-10-08",
+    "number": "1",
+    "set_total": 25,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 250,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Feu Sacré",
+            "damage": null,
+            "effect": "Cette attaque inflige 50 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Déflagration",
+            "damage": 120,
+            "effect": "Défaussez une Énergie de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/cel25-1"
+        }
+    ],
+    "print_key": "tcgdex:cel25-1",
+    "card_key": "250|130|2|Kouki Saitou|None,120|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

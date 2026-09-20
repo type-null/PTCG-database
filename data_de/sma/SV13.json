@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sma-SV13",
+    "name": "Voltobal",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sma",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sma/symbol",
+    "set_full_name": "Verborgenes Schicksal Glitzer-Tresor",
+    "series": "Sonne & Mond",
+    "set_code": "sma",
+    "date": "2019-08-23",
+    "number": "SV13",
+    "set_total": 94,
+    "rarity": "Shiny rare",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 100,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon wird oftmals mit einem Pokéball verwechselt. Es lebt vorwiegend in Kraftwerken.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Schwebende Elektronen",
+            "effect": "Wenn an dieses Pokémon mindestens 1 Energie angelegt ist, hat es keine Rückzugskosten."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Donnerschock",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sma-SV13"
+        }
+    ],
+    "print_key": "tcgdex:sma-SV13",
+    "card_key": "100|50|1|Shin Nagasawa|20|2",
+    "types_en": [
+        "Lightning"
+    ]
+}

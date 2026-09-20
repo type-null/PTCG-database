@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm7-42",
+    "name": "Serpang",
+    "img": "https://assets.tcgdex.net/fr/sm/sm7/42/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm7",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm7/symbol",
+    "set_full_name": "Tempête Céleste",
+    "series": "Soleil et Lune",
+    "set_code": "sm7",
+    "date": "2018-08-03",
+    "number": "42",
+    "set_total": 183,
+    "rarity": "Peu Commune",
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "pokedex_number": 367,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Grosse Morsure",
+            "damage": 30,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Morsure Dangereuse",
+            "damage": "40+",
+            "effect": "Si le Pokémon Actif de votre adversaire est un Pokémon de base, cette attaque inflige 80 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Coquiperl",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm7-42"
+        }
+    ],
+    "print_key": "tcgdex:sm7-42",
+    "card_key": "367|110|1|Shigenori Negishi|30,40+|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo4-48",
+    "name": "Voltali lumineux",
+    "img": "https://assets.tcgdex.net/fr/neo/neo4/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "48",
+    "set_total": 113,
+    "rarity": "Peu Commune",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 135,
+    "pokemon_category": "",
+    "flavor_text": "Il peut stocker l'énergie électrique ambiante dans ses cellules et l'expulser sous forme d'explosions massives.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Pulsation protectrice",
+            "damage": null,
+            "effect": "Pendant le prochain tour de votre adversaire, si Voltali lumineux se voit infliger 30 dégâts ou plus (après application de la Faiblesse et de la Résistance), prévenez ces dégâts. (Tous les autres effets dus à des attaques subsistent.)"
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Pic-éclair",
+            "damage": "20x",
+            "effect": "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces. Si vous obtenez au moins 2 faces, le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "evolve_from": "Évoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo4-48"
+        }
+    ],
+    "print_key": "tcgdex:neo4-48",
+    "card_key": "135|70|None|Naoyo Kimura|None,20x|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

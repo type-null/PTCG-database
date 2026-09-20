@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy1-73",
+    "name": "Zoroark",
+    "img": "https://assets.tcgdex.net/fr/xy/xy1/73/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy1/symbol",
+    "set_full_name": "XY",
+    "series": "XY",
+    "set_code": "xy1",
+    "date": "2014-02-05",
+    "number": "73",
+    "set_total": 146,
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 571,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité"
+            ],
+            "name": "Coinçage",
+            "damage": 30,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Griffe Nocturne",
+            "damage": 100,
+            "effect": "Lancez une pièce. Si c'est pile, défaussez 2 Énergies attachées à ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Zorua",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy1-73"
+        }
+    ],
+    "print_key": "tcgdex:xy1-73",
+    "card_key": "571|100|1|Kagemaru Himeno|30,100|1,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

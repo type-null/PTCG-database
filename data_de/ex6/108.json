@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex6-108",
+    "name": "Gengar-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex6",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex6/symbol",
+    "set_full_name": "EX Feuerrot & Blattgrün",
+    "series": "EX",
+    "set_code": "ex6",
+    "date": "2004-09-01",
+    "number": "108",
+    "set_total": 116,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 94,
+    "pokemon_category": "",
+    "hp": 150,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Poltergeist",
+            "damage": "40+",
+            "effect": "Look at your opponent's hand. This attack does 40 damage plus 10 more damage for each Trainer card in your opponent's hand."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Prize Count",
+            "damage": "60+",
+            "effect": "If you have more Prize cards left than your opponent, this attack does 60 damage plus 40 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho",
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf",
+            "Farblos"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex6-108"
+        }
+    ],
+    "print_key": "tcgdex:ex6-108",
+    "card_key": "94|150|2|Mitsuhiro Arita|40+,60+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

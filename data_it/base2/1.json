@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base2-1",
+    "name": "Clefable",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Originale",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "1",
+    "set_total": 64,
+    "rarity": "Rara",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 36,
+    "pokemon_category": "",
+    "flavor_text": "È un timido Pokémon che si vede raramente; corre a nascondersi appena sente che qualche persona si avvicina.",
+    "stage": "Livello 1",
+    "hp": 70,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Metronomo",
+            "damage": null,
+            "effect": "Scegli uno degli attacchi del Pokémon Difensore. Il Metronomo copia quell'attacco, a eccezione dei costi di Energia e di altre azioni necessarie per portare a termine quell'attacco, come scartare carte Energia (non importa di quale tipo sia il Pokémon Difensore, Clefable rimane sempre di tipo Incolore)."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Minimizzazione",
+            "damage": null,
+            "effect": "Tutto il danno che verrà inflitto a Clefable da attacchi nel prossimo turno del tuo avversario, va ridotto di 20 (dopo aver applicato Debolezza e Resistenza)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psico"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Clefairy",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base2-1"
+        }
+    ],
+    "print_key": "tcgdex:base2-1",
+    "card_key": "36|70|2|Mitsuhiro Arita|None,None|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

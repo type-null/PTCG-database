@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy12-11",
+    "name": "Glurak",
+    "img": "https://assets.tcgdex.net/de/xy/xy12/11/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Evolution",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "11",
+    "set_total": 113,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon kann mit seinen Flügeln eine Höhe von bis zu 1 400 m erreichen. Es spuckt sehr heißes Feuer.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "Energie verbrennen",
+            "effect": "Alle Energien, die an dieses Pokémon angelegt sind, liefern {R}-Energie anstelle ihres normalen Typs."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Feuerwirbel",
+            "damage": 200,
+            "effect": "Lege 3 an dieses Pokémon angelegte Energien auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Glutexo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy12-11"
+        }
+    ],
+    "print_key": "tcgdex:xy12-11",
+    "card_key": "6|150|3|Mitsuhiro Arita|200|4",
+    "types_en": [
+        "Fire"
+    ]
+}

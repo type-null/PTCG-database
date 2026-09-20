@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base2-52",
+    "name": "Owei",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Dschungel",
+    "series": "Grund",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "52",
+    "set_total": 64,
+    "rarity": "Häufig",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 102,
+    "pokemon_category": "",
+    "flavor_text": "Oft mit Eiern verwechselt. Wenn sie gestört werden, sammeln sie sich und greifen in Geschwadern an.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Hypnose",
+            "damage": null,
+            "effect": "Das verteidigende Pokémon ist jetzt schlafend."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Egelsamen",
+            "damage": 20,
+            "effect": "Falls nicht aller Schaden von diesem Angriff verhindert wird, kannst du eine Schadensmarke von Owei entfernen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base2-52"
+        }
+    ],
+    "print_key": "tcgdex:base2-52",
+    "card_key": "102|50|1|Mitsuhiro Arita|None,20|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

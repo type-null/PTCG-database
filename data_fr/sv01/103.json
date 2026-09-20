@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv01-103",
+    "name": "Cléopsytra",
+    "img": "https://assets.tcgdex.net/fr/sv/sv01/103/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Écarlate et Violet",
+    "series": "Écarlate et Violet",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "103",
+    "set_total": 258,
+    "rarity": "Peu Commune",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "pokedex_number": 956,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Œil Inflexible",
+            "damage": 20,
+            "effect": "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Psyko",
+            "damage": "30+",
+            "effect": "Cette attaque inflige 50 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 0,
+    "evolve_from": "Flotillon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv01-103"
+        }
+    ],
+    "print_key": "tcgdex:sv01-103",
+    "card_key": "956|110|0|Hitoshi Ariga|20,30+|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

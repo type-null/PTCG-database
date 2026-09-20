@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-74",
+    "name": "Snubbull",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/74/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "74",
+    "set_total": 111,
+    "rarity": "Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 209,
+    "pokemon_category": "",
+    "flavor_text": "Bien qu'il soit effrayant, il est en fait doux et attentionné. Il est très populaire.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Hurlement",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face et si votre adversaire a un ou plusieurs Pokémon sur son Banc, il choisit l'un d'eux et l'échange avec le Pokémon Défenseur. (Infligez les dégâts avant d'échanger les Pokémon.)"
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Léchouille",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-74"
+        }
+    ],
+    "print_key": "tcgdex:neo1-74",
+    "card_key": "209|50|1|Mitsuhiro Arita|None,10|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

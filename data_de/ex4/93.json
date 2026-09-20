@@ -1,0 +1,86 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex4-93",
+    "name": "Gewaldro-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex4",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex4/symbol",
+    "set_full_name": "EX Team Magma vs Team Aqua",
+    "series": "EX",
+    "set_code": "ex4",
+    "date": "2004-03-01",
+    "number": "93",
+    "set_total": 97,
+    "rarity": "Selten",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 254,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Grüne Heilung",
+            "damage": null,
+            "effect": "Entferne 4 Schadensmarken von allen deinen Pokémon, an denen mindestens 1 {G}-Energie angelegt ist. Entferne alle, wenn weniger als 4 Schadensmarken auf dem Pokémon liegen."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Giftring",
+            "damage": 40,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet. Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schlitzender Schlag",
+            "damage": 100,
+            "effect": "Gewaldro ex kann Schlitzender Schlag in deinem nächsten Zug nicht benutzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze",
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex4-93"
+        }
+    ],
+    "print_key": "tcgdex:ex4-93",
+    "card_key": "254|150|2|Hikaru Koike|None,40,100|1,3,5",
+    "types_en": [
+        "Grass"
+    ]
+}

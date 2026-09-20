@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy4-23",
+    "name": "Élecsprint EX",
+    "img": "https://assets.tcgdex.net/fr/xy/xy4/23/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "xy4",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy4/symbol",
+    "set_full_name": "Vigueur Spectrale",
+    "series": "XY",
+    "set_code": "xy4",
+    "date": "2014-11-05",
+    "number": "23",
+    "set_total": 124,
+    "rarity": "Ultra Rare",
+    "author": [
+        "Eske Yoshinob"
+    ],
+    "pokedex_number": 310,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 170,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Dépassement",
+            "damage": 20,
+            "effect": "Cette attaque inflige 20 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Laser d'Assaut",
+            "damage": "60+",
+            "effect": "Si une carte Outil Pokémon est attachée au Pokémon Actif de votre adversaire, cette attaque inflige 60 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy4-23"
+        }
+    ],
+    "print_key": "tcgdex:xy4-23",
+    "card_key": "310|170|1|Eske Yoshinob|20,60+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

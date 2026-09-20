@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp2-89",
+    "name": "Karpador",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Geheimnisvolle Schätze",
+    "series": "Diamant & Perl",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "89",
+    "set_total": 124,
+    "rarity": "Häufig",
+    "author": [
+        "Yusuke Ohmura"
+    ],
+    "pokedex_number": 129,
+    "pokemon_category": "",
+    "flavor_text": "Man sagt, es sei das schwächste PKMN der Welt. Niemand weiß, wie es bisher überleben konnte.",
+    "stage": "Basis",
+    "hp": 30,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Dreschflegel",
+            "damage": "10x",
+            "effect": "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Karpador zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Drachenwut",
+            "damage": 60,
+            "effect": "Wirf 2 Münzen. Wenn eine oder beide Münzen „Zahl“ gezeigt haben, hat dieser Angriff keine Auswirklungen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+10"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp2-89"
+        }
+    ],
+    "print_key": "tcgdex:dp2-89",
+    "card_key": "129|30|1|Yusuke Ohmura|10x,60|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

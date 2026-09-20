@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm2-71",
+    "name": "Barbicha",
+    "img": "https://assets.tcgdex.net/fr/sm/sm2/71/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Gardiens Ascendants",
+    "series": "Soleil et Lune",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "71",
+    "set_total": 169,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 340,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 130,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Vibraqua",
+            "damage": 60,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Affaissement de Terrain",
+            "damage": "100×",
+            "effect": "Défaussez les 3 cartes du dessus de votre deck. Cette attaque inflige 100 dégâts pour chaque carte Énergie défaussée de cette façon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Barloche",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm2-71"
+        }
+    ],
+    "print_key": "tcgdex:sm2-71",
+    "card_key": "340|130|3|Masakazu Fukuda|60,100x|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

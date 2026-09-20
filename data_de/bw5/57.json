@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw5-57",
+    "name": "Stalobor",
+    "img": "https://assets.tcgdex.net/de/bw/bw5/57/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw5",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw5/symbol",
+    "set_full_name": "Erforscher der Finsternis",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw5",
+    "date": "2012-05-09",
+    "number": "57",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 530,
+    "pokemon_category": "",
+    "flavor_text": "Seine zu Stahl weiterentwickelten Bohrer kriegen selbst Eisenplatten klein. Im Tunnelbau ist es ein absolutes Ass.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Starkbohrer",
+            "damage": 50,
+            "effect": "Wenn an dieses Pokémon eine Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff 30 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Tempoklaue",
+            "damage": 70,
+            "effect": "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Rotomurf",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw5-57"
+        }
+    ],
+    "print_key": "tcgdex:bw5-57",
+    "card_key": "530|120|4|Masakazu Fukuda|50,70|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

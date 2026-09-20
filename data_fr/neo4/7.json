@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo4-7",
+    "name": "Démolosse obscur",
+    "img": "https://assets.tcgdex.net/fr/neo/neo4/7/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "7",
+    "set_total": 113,
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 229,
+    "pokemon_category": "",
+    "flavor_text": "Les flammes qu'il crache sont en fait un poison qu'il sécrète et qui s'enflamme au contact de l'air.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Hurlement étrange",
+            "damage": null,
+            "effect": "Si le Banc de votre adversaire n'est pas plein, regardez sa main. Si elle contient des Bébés Pokémon ou des Pokémon de base, choisissez-en un et placez-le sur son Banc. Puis échangez-le contre le Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Sombre feu",
+            "damage": "30+",
+            "effect": "S'il y a des cartes Énergie {D} attachées à Démolosse obscur, défaussez-vous en d'une. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires (plus 10 dégâts pour la carte Énergie {D} défaussée). Sinon, cette attaque inflige 30 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Malosse",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo4-7"
+        }
+    ],
+    "print_key": "tcgdex:neo4-7",
+    "card_key": "229|60|1|Kagemaru Himeno|None,30+|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

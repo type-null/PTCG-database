@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy6-81",
+    "name": "Déflaisan",
+    "img": "https://assets.tcgdex.net/fr/xy/xy6/81/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy6",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy6/symbol",
+    "set_full_name": "Ciel Rugissant",
+    "series": "XY",
+    "set_code": "xy6",
+    "date": "2015-05-06",
+    "number": "81",
+    "set_total": 112,
+    "rarity": "Rare",
+    "author": [
+        "TOKIYA"
+    ],
+    "pokedex_number": 521,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 140,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Évolution Δ",
+            "effect": "Vous pouvez jouer cette carte de votre main pour faire évoluer un Pokémon pendant votre premier tour ou pendant le tour où vous le jouez."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Danse-Plume",
+            "damage": null,
+            "effect": "Pendant votre prochain tour, chaque attaque de ce Pokémon inflige 80 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Piqué",
+            "damage": 120,
+            "effect": "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Colombeau",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy6-81"
+        }
+    ],
+    "print_key": "tcgdex:xy6-81",
+    "card_key": "521|140|0|TOKIYA|None,120|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

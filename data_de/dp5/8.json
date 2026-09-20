@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp5-8",
+    "name": "Manaphy",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp5",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp5/symbol",
+    "set_full_name": "Majestätischer Morgen",
+    "series": "Diamant & Perl",
+    "set_code": "dp5",
+    "date": "2008-05-01",
+    "number": "8",
+    "set_total": 100,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "pokedex_number": 490,
+    "pokemon_category": "",
+    "flavor_text": "Geboren auf dem Meeresboden, legt es große Entfernungen zurück, um dorthin zurückzukehren.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Aquahaut",
+            "effect": "Wenn du 1 {W}-Energiekarte von deiner Hand an Manaphy anlegst, entferne 2 Schadensmarken von Manaphy."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Dampf machen",
+            "damage": null,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ durchsuche dein Deck nach 1 Karte und nimm sie auf die Hand. Mische dein Deck danach."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Fontäne",
+            "damage": 30,
+            "effect": "Du kannst bis zu 2 {W}-Basis-Energiekarten von deiner Hand in beliebiger Verteilung an Pokémon auf deiner Bank anlegen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp5-8"
+        }
+    ],
+    "print_key": "tcgdex:dp5-8",
+    "card_key": "490|70|1|Suwama Chiaki|None,30|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base3-41",
+    "name": "Sablaireau",
+    "img": "https://assets.tcgdex.net/fr/base/base3/41/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base3",
+    "set_img": "https://assets.tcgdex.net/univ/base/base3/symbol",
+    "set_full_name": "Fossile",
+    "series": "Base",
+    "set_code": "base3",
+    "date": "1999-10-10",
+    "number": "41",
+    "set_total": 62,
+    "rarity": "Peu Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 28,
+    "pokemon_category": "",
+    "flavor_text": "Il se roule en boule hérissée de piques s'il est menacé. Il peut ainsi s'enfuir ou attaquer.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tranche",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Combo-griffe",
+            "damage": "20x",
+            "effect": "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Sabelette",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base3-41"
+        }
+    ],
+    "print_key": "tcgdex:base3-41",
+    "card_key": "28|70|1|Ken Sugimori|20,20x|2,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

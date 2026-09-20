@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-18",
+    "name": "Typhlosion",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/18/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "18",
+    "set_total": 111,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 157,
+    "pokemon_category": "",
+    "flavor_text": "Il possède une botte secrète dévastatrice. Il frotte sa fourrure de flamme pour provoquer de gigantesques explosions.",
+    "stage": "Niveau 2",
+    "hp": 100,
+    "types": [
+        "Feu"
+    ],
+    "abilities": [
+        {
+            "name": "Attise feu",
+            "effect": "Lorsque vous jouez Typhlosion depuis votre main, vous pouvez lancer une pièce. Si c'est face, cherchez jusqu'à 4 cartes Énergie {R} et attachez-les à Typhlosion. Mélangez ensuite votre deck."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Feu",
+                "Feu"
+            ],
+            "name": "Roue de flammes",
+            "damage": 80,
+            "effect": "Défaussez 3 cartes Énergie {R} attachées à Typhlosion afin de pouvoir utiliser cette attaque. Inflige 20 dégâts à chaque Pokémon du Banc (le vôtre et celui de votre adversaire). (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Feurisson",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-18"
+        }
+    ],
+    "print_key": "tcgdex:neo1-18",
+    "card_key": "157|100|2|Ken Sugimori|80|4",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-8",
+    "name": "Raichu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "8",
+    "set_total": 106,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Schnippeln",
+            "damage": 30,
+            "effect": "Raichu kann Schnippeln in deinem nächsten Zug nicht einsetzen."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zerteilball",
+            "damage": 50,
+            "effect": "Entferne 1 an Raichu angelegte Energiekarte und lege sie an 1 Pokémon auf deiner Bank an."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Sprengball",
+            "damage": 100,
+            "effect": "Entferne in beliebiger Verteilung 3 Energien, die an deinen Pokémon angelegt sind und lege sie auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "evolve_from": "Pikachu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-8"
+        }
+    ],
+    "print_key": "tcgdex:dp7-8",
+    "card_key": "26|90|None|Kagemaru Himeno|30,50,100|0,3,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

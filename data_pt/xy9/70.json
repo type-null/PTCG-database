@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/xy9-70",
+    "name": "Garchomp",
+    "img": "https://assets.tcgdex.net/pt/xy/xy9/70/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "set_name": "xy9",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy9/symbol",
+    "set_full_name": "Turbo Colisão",
+    "series": "XY",
+    "set_code": "xy9",
+    "date": "2016-02-03",
+    "number": "70",
+    "set_total": 126,
+    "rarity": "Rara",
+    "author": [
+        "TOKIYA"
+    ],
+    "pokedex_number": 445,
+    "pokemon_category": "",
+    "stage": "Estágio 2",
+    "hp": 130,
+    "types": [
+        "Lutador"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lutador"
+            ],
+            "name": "Turbo Ataque",
+            "damage": 60,
+            "effect": "Ligue um card de Energia da sua pilha de descarte a 1 dos seus Pokémon."
+        },
+        {
+            "cost": [
+                "Lutador",
+                "Lutador"
+            ],
+            "name": "Mordida Estraçalhante",
+            "damage": "80+",
+            "effect": "Se o Pokémon Ativo do seu oponente for um Pokémon-EX, este ataque causará 80 de danos adicionais."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Gabite",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/xy9-70"
+        }
+    ],
+    "print_key": "tcgdex:xy9-70",
+    "card_key": "445|130|0|TOKIYA|60,80+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

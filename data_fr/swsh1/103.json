@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh1-103",
+    "name": "Kaorine",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh1/103/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Épée et Bouclier",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "103",
+    "set_total": 216,
+    "rarity": "Rare",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 344,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Rafale Psy",
+            "damage": 30,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Explosion",
+            "damage": 200,
+            "effect": "Ce Pokémon s'inflige aussi 120 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Balbuto",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh1-103"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-103",
+    "card_key": "344|120|2|Tomokazu Komiya|30,200|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

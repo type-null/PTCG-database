@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard1-2",
+    "name": "Pharamp",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard1/2/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-cards",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "2",
+    "set_total": 165,
+    "rarity": "Holo Rare",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 181,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 100,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Connexion d'énergie",
+            "effect": "Aussi souvent que vous le désirez pendant votre tour (avant votre attaque), vous pouvez prendre une carte Énergie de base attachée à l'un des Pokémon de votre Banc et l'attacher à votre Pokémon Actif. Ce pouvoir ne peut pas être utilisé si Pharamp est affecté par un État spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Frap'éclair",
+            "damage": 40,
+            "effect": "Vous pouvez vous défausser de toutes les cartes Énergie {L} attachées à Pharamp. Si vous faites ainsi, cette attaque inflige 80 dégâts de base au lieu de 40."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Lainergie",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard1-2"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-2",
+    "card_key": "181|100|2|Atsuko Nishida|40|4",
+    "types_en": [
+        "Lightning"
+    ]
+}

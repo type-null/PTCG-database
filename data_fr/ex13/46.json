@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex13-46",
+    "name": "Élecsprint",
+    "img": "https://assets.tcgdex.net/fr/ex/ex13/46/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex13",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex13/symbol",
+    "set_full_name": "EX Fantômes Holon",
+    "series": "EX",
+    "set_code": "ex13",
+    "date": "2006-05-03",
+    "number": "46",
+    "set_total": 111,
+    "rarity": "Peu Commune",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 310,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Plasma",
+            "damage": 20,
+            "effect": "Cherchez dans votre pile de défausse une carte Énergie  et attachez-la à Elecsprint."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coup d'poing éclair",
+            "damage": "40+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Dynavolt",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex13-46"
+        }
+    ],
+    "print_key": "tcgdex:ex13-46",
+    "card_key": "310|80|1|Midori Harada|20,40+|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

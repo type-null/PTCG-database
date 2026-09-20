@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex12-13",
+    "name": "Sarzenia",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Legend Maker",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "13",
+    "set_total": 93,
+    "rarity": "Selten",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 71,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Nektarschote",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 entwickeltes Pokémon der Phase 2 auf der Bank deines Gegners mit 1 der Verteidigenden Pokémon austauschen. Dein Gegner wählt das Pokémon aus, das ausgetauscht wird. Diese Poké-Power kann nicht benutzt werden, wenn Sarzenia von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Schlafgift",
+            "damage": 10,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet und schläft."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Scharfes Blatt",
+            "damage": "40+",
+            "effect": "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Ultrigaria",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex12-13"
+        }
+    ],
+    "print_key": "tcgdex:ex12-13",
+    "card_key": "71|100|2|Sumiyoshi Kizuki|10,40+|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

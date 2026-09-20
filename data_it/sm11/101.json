@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sm11-101",
+    "name": "Necrozma",
+    "img": "https://assets.tcgdex.net/it/sm/sm11/101/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Sintonia Mentale",
+    "series": "Sole e Luna",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "101",
+    "set_total": 258,
+    "rarity": "Rara",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 800,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Attacco Barriera",
+            "damage": 30,
+            "effect": "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Psico",
+                "Incolore"
+            ],
+            "name": "Laser Speciale",
+            "damage": "100+",
+            "effect": "Se questo Pokémon ha delle Energie speciali assegnate, questo attacco infligge 60 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sm11-101"
+        }
+    ],
+    "print_key": "tcgdex:sm11-101",
+    "card_key": "800|130|2|Masakazu Fukuda|30,100+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

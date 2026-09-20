@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp2-3",
+    "name": "Capidextre",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Trésors Mystérieux",
+    "series": "Diamant & Perle",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "3",
+    "set_total": 124,
+    "rarity": "Rare Holo",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 424,
+    "pokemon_category": "",
+    "flavor_text": "Il se nourrit de noix qu'il épluche avec ses deux queues habiles. Il utilise de moins en moins ses bras.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Effet queue",
+            "damage": 30,
+            "effect": "Votre adversaire lance une pièce jusqu'à ce qu'il ou elle obtienne face. Pour chaque pile, retirez une carte Énergie attachée au Pokémon Défenseur et placez-la au dessous du deck de votre adversaire."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Queue charitable",
+            "damage": 80,
+            "effect": "Avant que Capidextre n'inflige des dégâts, votre adversaire peut défausser 2 cartes de sa main. Les dégâts de base de cette attaque sont alors de 10 au lieu de 80."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Capumain",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp2-3"
+        }
+    ],
+    "print_key": "tcgdex:dp2-3",
+    "card_key": "424|80|1|Kouki Saitou|30,80|2,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

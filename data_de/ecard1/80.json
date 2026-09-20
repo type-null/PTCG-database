@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard1-80",
+    "name": "Alpollo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-Card",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "80",
+    "set_total": 165,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 93,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Nachtmahr",
+            "damage": 20,
+            "effect": "Das Verteidigende Pokémon schläft jetzt."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Traumfresser",
+            "damage": 50,
+            "effect": "Falls das Verteidigende Pokémon nicht schläft, hat dieser Angriff keine Auswirkungen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Nebulak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard1-80"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-80",
+    "card_key": "93|70|1|Yukiko Baba|20,50|2,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

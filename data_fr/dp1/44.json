@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-44",
+    "name": "Blindalys",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "44",
+    "set_total": 130,
+    "rarity": "Peu Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 268,
+    "pokemon_category": "",
+    "flavor_text": "Il est au chaud dans son cocon. Ses cellules produisent l'énergie nécessaire à son évolution.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Armure",
+            "damage": null,
+            "effect": "Lors du prochain tour de votre adversaire, si une attaque inflige des dégâts à Blindalys, prévenez ces dégâts s'ils sont de 30 ou moins."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Fil gluant",
+            "damage": 20,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "retreat": 3,
+    "evolve_from": "Chenipotte",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-44"
+        }
+    ],
+    "print_key": "tcgdex:dp1-44",
+    "card_key": "268|80|3|Ken Sugimori|None,20|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

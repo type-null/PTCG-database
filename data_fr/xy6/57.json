@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy6-57",
+    "name": "Drattak",
+    "img": "https://assets.tcgdex.net/fr/xy/xy6/57/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy6",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy6/symbol",
+    "set_full_name": "Ciel Rugissant",
+    "series": "XY",
+    "set_code": "xy6",
+    "date": "2015-05-06",
+    "number": "57",
+    "set_total": 112,
+    "rarity": "Rare",
+    "author": [
+        "TOKIYA"
+    ],
+    "pokedex_number": 373,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 160,
+    "types": [
+        "Dragon"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Fracas",
+            "damage": 60,
+            "effect": "Défaussez toute carte Stade en jeu."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Hurlement Puissant",
+            "damage": "20×",
+            "effect": "Cette attaque inflige 20 dégâts multipliés par le nombre de cartes dans la main de votre adversaire."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Geyser de Vapeur",
+            "damage": 170,
+            "effect": "Défaussez 3 Énergies attachées à ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fée"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Drackhaus",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy6-57"
+        }
+    ],
+    "print_key": "tcgdex:xy6-57",
+    "card_key": "373|160|4|TOKIYA|60,20x,170|1,3,4",
+    "types_en": [
+        "Dragon"
+    ]
+}

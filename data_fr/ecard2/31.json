@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard2-31",
+    "name": "Galopa",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard2/31/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-cards",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "31",
+    "set_total": 186,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 78,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Hâte",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Galopa."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Galop",
+            "damage": "30+",
+            "effect": "Lancez une pièce. Si c'est face, défaussez-vous d'une carte Énergie {R} attachée à Galopa et cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "x2"
+    },
+    "retreat": 0,
+    "evolve_from": "Ponyta",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard2-31"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-31",
+    "card_key": "78|70|0|Kouki Saitou|10,30+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

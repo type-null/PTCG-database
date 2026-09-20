@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw8-49",
+    "name": "Motisma",
+    "img": "https://assets.tcgdex.net/fr/bw/bw8/49/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw8",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw8/symbol",
+    "set_full_name": "Tempète Plasma",
+    "series": "Noir & Blanc",
+    "set_code": "bw8",
+    "date": "2013-02-06",
+    "number": "49",
+    "set_total": 138,
+    "rarity": "Peu Commune",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 479,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Électribonus",
+            "damage": null,
+            "effect": "Défaussez une carte Énergie Lightning de votre main. Dans ce cas, piochez 3 cartes."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Poltergeist",
+            "damage": 20,
+            "effect": "Votre adversaire montre sa main. Cette attaque inflige 20 dégâts multipliés par le nombre de cartes Dresseur dans la main de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw8-49"
+        }
+    ],
+    "print_key": "tcgdex:bw8-49",
+    "card_key": "479|60|1|5ban Graphics|None,20|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

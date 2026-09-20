@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh6-81",
+    "name": "Galagladi",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh6/81/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh6",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh6/symbol",
+    "set_full_name": "Schaurige Herrschaft",
+    "series": "Schwert & Schild",
+    "set_code": "swsh6",
+    "date": "2021-06-18",
+    "number": "81",
+    "set_total": 233,
+    "rarity": "Selten",
+    "author": [
+        "NC Empire"
+    ],
+    "pokedex_number": 475,
+    "pokemon_category": "",
+    "flavor_text": "Es spürt sofort, wenn jemand in Not ist, und eilt ihm unverzüglich zu Hilfe.",
+    "stage": "Rang 2",
+    "hp": 170,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Offenlegung",
+            "damage": 60,
+            "effect": "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Dynamische Klinge",
+            "damage": "60×",
+            "effect": "Diese Attacke fügt für jedes Pokémon-V deines Gegners im Spiel 60 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Kirlia",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh6-81"
+        }
+    ],
+    "print_key": "tcgdex:swsh6-81",
+    "card_key": "475|170|2|NC Empire|60,60x|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

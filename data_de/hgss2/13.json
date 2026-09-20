@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss2-13",
+    "name": "Turtok",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss2/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss2",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss2/symbol",
+    "set_full_name": "Entfesselt",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss2",
+    "date": "2010-05-12",
+    "number": "13",
+    "set_total": 96,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 9,
+    "pokemon_category": "",
+    "flavor_text": "Es macht sich absichtlich schwer, um den Rückstoß seiner Hydropumpe abzufangen.",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Wegspülen",
+            "effect": "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 {W}-Energie, die an 1 Pokémon auf deiner Bank angelegt ist, an dein Aktives Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Turtok von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wasserwerfer",
+            "damage": null,
+            "effect": "Nimm 2 {W}-Energie, die an Turtok angelegt sind, zurück auf deine Hand und wähle dann 1 Pokémon deines Gegners. Dieser Angriff fügt dem ausgewählten Pokémon 100 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Schillok",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss2-13"
+        }
+    ],
+    "print_key": "tcgdex:hgss2-13",
+    "card_key": "9|130|3|Masakazu Fukuda|None|4",
+    "types_en": [
+        "Water"
+    ]
+}

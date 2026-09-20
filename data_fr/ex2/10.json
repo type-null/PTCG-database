@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex2-10",
+    "name": "Ténéfix",
+    "img": "https://assets.tcgdex.net/fr/ex/ex2/10/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex2",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex2/symbol",
+    "set_full_name": "EX Tempête de sable",
+    "series": "EX",
+    "set_code": "ex2",
+    "date": "2003-09-18",
+    "number": "10",
+    "set_total": 100,
+    "rarity": "Holo Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 302,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Surnaturel",
+            "damage": null,
+            "effect": "Regardez la main de votre adversaire. Vous pouvez utiliser l'effet d'une carte Supporter pour cette attaque. (Votre adversaire garde la carte Supporter en main)."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Sombre étreinte",
+            "damage": 20,
+            "effect": "Vous pouvez défausser une carte Énergie {D} attachée à Tenefix. Dans ce cas, le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex2-10"
+        }
+    ],
+    "print_key": "tcgdex:ex2-10",
+    "card_key": "302|60|1|Hajime Kusajima|None,20|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

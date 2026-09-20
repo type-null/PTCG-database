@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/me01-007",
+    "name": "Tangrowth",
+    "img": "https://assets.tcgdex.net/it/me/me01/007/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "I",
+    "set_name": "me01",
+    "set_img": "https://assets.tcgdex.net/univ/me/me01/symbol",
+    "set_full_name": "Megaevoluzione",
+    "series": "Megaevoluzione",
+    "set_code": "me01",
+    "date": "2025-09-26",
+    "number": "007",
+    "set_total": 188,
+    "rarity": "Non comune",
+    "author": [
+        "REND"
+    ],
+    "pokedex_number": 465,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 150,
+    "types": [
+        "Erba"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Erba",
+                "Incolore"
+            ],
+            "name": "Assorbimento",
+            "damage": 30,
+            "effect": "Cura questo Pokémon da 30 danni."
+        },
+        {
+            "cost": [
+                "Erba",
+                "Erba",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Frustata Rinforzata",
+            "damage": "120+",
+            "effect": "Se questo Pokémon ha almeno due Energie extra assegnate, in aggiunta a quelle del costo di questo attacco, questo attacco infligge 140 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuoco"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Tangela",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/me01-007"
+        }
+    ],
+    "print_key": "tcgdex:me01-7",
+    "card_key": "465|150|4|REND|30,120+|2,4",
+    "types_en": [
+        "Grass"
+    ]
+}

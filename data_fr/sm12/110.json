@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm12-110",
+    "name": "Libégon GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm12/110/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm12",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm12/symbol",
+    "set_full_name": "Éclipse Cosmique",
+    "series": "Soleil et Lune",
+    "set_code": "sm12",
+    "date": "2019-11-01",
+    "number": "110",
+    "set_total": 271,
+    "rarity": "Ultra Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 330,
+    "pokemon_category": "",
+    "hp": 240,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Défense Poussiéreuse",
+            "effect": "Tant que ce Pokémon est votre Pokémon Actif, tous vos Pokémon subissent 30 dégâts de moins provenant des attaques de votre adversaire (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Combat"
+            ],
+            "name": "Ouragan du Désert",
+            "damage": "120+",
+            "effect": "S’il y a une carte Stade en jeu, cette attaque inflige 120 dégâts supplémentaires. Ensuite, défaussez la carte Stade."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Combat"
+            ],
+            "name": "Tranchant Sonique GX",
+            "damage": 220,
+            "effect": "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Vibraninf",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm12-110"
+        }
+    ],
+    "print_key": "tcgdex:sm12-110",
+    "card_key": "330|240|2|5ban Graphics|120+,220|3,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

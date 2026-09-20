@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw1-39",
+    "name": "Mamolida",
+    "img": "https://assets.tcgdex.net/de/bw/bw1/39/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw1",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw1/symbol",
+    "set_full_name": "Schwarz & Weiß",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw1",
+    "date": "2011-04-25",
+    "number": "39",
+    "set_total": 115,
+    "rarity": "Selten",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 594,
+    "pokemon_category": "",
+    "flavor_text": "Es treibt durch den Ozean. Findet es ein verletztes Pokémon, nimmt es dieses auf und trägt es zurück an Land.",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Aquawelle",
+            "damage": 20,
+            "effect": "Das Verteidigende Pokémon schläft jetzt."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Hydropumpe",
+            "damage": 40,
+            "effect": "Dieser Angriff fügt 10 weitere Schadenspunkte für jede an dieses Pokémon angelegte {W}-Energie zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw1-39"
+        }
+    ],
+    "print_key": "tcgdex:bw1-39",
+    "card_key": "594|100|3|Naoyo Kimura|20,40|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

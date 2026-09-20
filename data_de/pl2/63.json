@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-63",
+    "name": "Fukano",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "63",
+    "set_total": 120,
+    "rarity": "Häufig",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 58,
+    "pokemon_category": "",
+    "flavor_text": "Ein loyales Pokémon. Es wird erst dann aktiv, wenn sein Trainer ihm Anweisungen gegeben hat.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Anheizen",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 {R}-Energiekarte und lege sie an Fukano an. Mische dein Deck danach."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Bodycheck",
+            "damage": 50,
+            "effect": "Fukano fügt sich selbst 10 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-63"
+        }
+    ],
+    "print_key": "tcgdex:pl2-63",
+    "card_key": "58|70|2|Naoyo Kimura|None,50|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

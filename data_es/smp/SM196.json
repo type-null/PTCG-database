@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/smp-SM196",
+    "name": "Mewtwo GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SL Cartas de promoción",
+    "series": "Sol y Luna",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM196",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "MPC Film"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "hp": 190,
+    "types": [
+        "Psíquico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psíquico",
+                "Incolora"
+            ],
+            "name": "Telequinesis",
+            "damage": null,
+            "effect": "Este ataque hace 50 puntos de daño a 1 de los Pokémon de tu rival. Este daño no se ve afectado por Debilidad o Resistencia."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Psíquico",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Pulso Imperante",
+            "damage": 120,
+            "effect": "El Pokémon Activo de tu rival pasa a estar Confundido."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Psíquico",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Estrella Psíquica GX",
+            "damage": 180,
+            "effect": "Evita todo el daño infligido a este Pokémon por ataques durante el próximo turno de tu rival. (No puedes usar más de 1 ataque GX en una partida)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/smp-SM196"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM196",
+    "card_key": "150|190|2|MPC Film|None,120,180|2,4,4",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm5-101",
+    "name": "Palkia GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm5/101/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultra-Prisme",
+    "series": "Soleil et Lune",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "101",
+    "set_total": 173,
+    "rarity": "Ultra Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 484,
+    "pokemon_category": "",
+    "hp": 180,
+    "types": [
+        "Dragon"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Contrôle Spatial",
+            "damage": null,
+            "effect": "Déplacez autant d’Énergies que vous voulez de vos Pokémon de Banc vers ce Pokémon."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Pression Hydroélectrique",
+            "damage": "60+",
+            "effect": "Cette attaque inflige 20 dégâts supplémentaires multipliés par le nombre d’Énergies Water attachées à ce Pokémon."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Zéro Disparaissant-GX",
+            "damage": 150,
+            "effect": "Mélangez l’Énergie de chacun des Pokémon de votre adversaire dans son deck. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fée"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm5-101"
+        }
+    ],
+    "print_key": "tcgdex:sm5-101",
+    "card_key": "484|180|3|5ban Graphics|None,60+,150|1,3,5",
+    "types_en": [
+        "Dragon"
+    ]
+}

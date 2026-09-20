@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/xy12-51",
+    "name": "Mewtwo",
+    "img": "https://assets.tcgdex.net/it/xy/xy12/51/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Evoluzioni",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "51",
+    "set_total": 113,
+    "rarity": "Rara",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Psichico",
+            "damage": "20+",
+            "effect": "Questo attacco infligge 20 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Psico"
+            ],
+            "name": "Barriera",
+            "damage": null,
+            "effect": "Durante il prossimo turno del tuo avversario, previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon. Se uno dei tuoi Pokémon ha usato Barriera durante il tuo ultimo turno, questo attacco non può essere usato."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/xy12-51"
+        }
+    ],
+    "print_key": "tcgdex:xy12-51",
+    "card_key": "150|130|2|Ken Sugimori|20+,None|2,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

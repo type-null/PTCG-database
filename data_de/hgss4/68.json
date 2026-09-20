@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss4-68",
+    "name": "Magnetilo",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss4/68/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss4",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss4/symbol",
+    "set_full_name": "Triumph",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss4",
+    "date": "2010-11-03",
+    "number": "68",
+    "set_total": 103,
+    "rarity": "Häufig",
+    "author": [
+        "Noriko Hotta"
+    ],
+    "pokedex_number": 81,
+    "pokemon_category": "",
+    "flavor_text": "Die Magneten an seinem Körper erzeugen ein AntiGrav.-Feld, um es ständig in der Schwebe zu halten.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Magnettausch",
+            "damage": null,
+            "effect": "Tausche Magnetilo gegen 1 Pokémon auf deiner Bank aus."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Donnerschock",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss4-68"
+        }
+    ],
+    "print_key": "tcgdex:hgss4-68",
+    "card_key": "81|50|1|Noriko Hotta|None,20|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pop7-4",
+    "name": "Latios",
+    "img": "https://assets.tcgdex.net/fr/pop/pop7/4/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pop7",
+    "set_img": "https://assets.tcgdex.net/univ/pop/pop7/symbol",
+    "set_full_name": "POP Série 7",
+    "series": "POP",
+    "set_code": "pop7",
+    "date": "2008-03-01",
+    "number": "4",
+    "set_total": 17,
+    "rarity": "Rare",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "pokedex_number": 381,
+    "pokemon_category": "",
+    "flavor_text": "Un Pokémon très intelligent. Il peut voler plus vite qu'un avion à réaction en repliant ses ailes.",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Absorption d'énergie",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, choisissez dans votre deck une carte Énergie de base et attachez-la à Latios. Ensuite, mélangez votre deck."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Lumi-Eclat",
+            "damage": 120,
+            "effect": "Défaussez 3 Énergies attachée à Latios."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pop7-4"
+        }
+    ],
+    "print_key": "tcgdex:pop7-4",
+    "card_key": "381|90|2|Daisuke Ito|10,120|1,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

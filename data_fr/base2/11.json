@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base2-11",
+    "name": "Ronflex",
+    "img": "https://assets.tcgdex.net/fr/base/base2/11/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Base",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "11",
+    "set_total": 64,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 143,
+    "pokemon_category": "",
+    "flavor_text": "Très paresseux, il ne fait que manger et dormir. Plus il est gros, plus il devient fainéant.",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Dur à cuire",
+            "effect": "Ronflex ne peut pas devenir Endormi, Confus, Paralysé ou Empoisonné. Ce pouvoir ne peut être utilisé si Ronflex est déjà Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Plaquage",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "retreat": 4,
+    "evolve_from": "Goinfrex",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base2-11"
+        }
+    ],
+    "print_key": "tcgdex:base2-11",
+    "card_key": "143|90|4|Ken Sugimori|30|4",
+    "types_en": [
+        "Colorless"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-46",
+    "name": "Koknodon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "46",
+    "set_total": 133,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 408,
+    "pokemon_category": "",
+    "flavor_text": "Es lebt seit Urzeiten im Dschungel. Kann im Weg befindliche Bäume mit Kopfstößen aus dem Weg räumen.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Zertrümmerer",
+            "damage": "20+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Umwerfen",
+            "damage": 40,
+            "effect": "Du kannst eine beliebige Stadion-Karte aus dem Spiel auf den Ablagestapel legen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Kopffossil",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-46"
+        }
+    ],
+    "print_key": "tcgdex:pl1-46",
+    "card_key": "408|80|1|Kouki Saitou|20+,40|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

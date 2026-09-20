@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex3-97",
+    "name": "Rayquaza-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Drache",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "97",
+    "set_total": 100,
+    "rarity": "Selten",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 384,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Spiralwachstum",
+            "damage": null,
+            "effect": "Wirf 1 Münze, bis du „Zahl“ wirfst. Jedesmal, wenn die Münze „Kopf“ zeigt, durchsuche deinen Ablagestapel nach 1 Basis-Energiekarte und lege sie an Rayquaza ex an."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Elektro"
+            ],
+            "name": "Drachensalve",
+            "damage": "40×",
+            "effect": "Entferne entweder jede {R}-Energie oder jede {L}-Energie, die an Rayquaza ex angelegt ist, und lege sie auf deinen Ablagestapel. Dieser Angriff fügt für jede auf diese Weise abgelegte Energie 40 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf",
+            "Wasser"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex3-97"
+        }
+    ],
+    "print_key": "tcgdex:ex3-97",
+    "card_key": "384|100|2|Hikaru Koike|None,40x|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

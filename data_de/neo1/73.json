@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-73",
+    "name": "Flegmon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "73",
+    "set_total": 111,
+    "rarity": "Häufig",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 79,
+    "pokemon_category": "",
+    "flavor_text": "Es faulenzt sorgenlos in der Nähe von Wasser. Falls etwas seinen Schweif beißt, merkt es das einen ganzen langen Tag nicht.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Psychoschock",
+            "damage": 10,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Aquaknarre",
+            "damage": "10+",
+            "effect": "Fügt 10 Schadenspunkte 10 weitere Schadenspunkte für jede an Flegmon angelegte {W}-Energie, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wird, zu. Du kannst auf diese Weise höchstens 20 weitere Schadenspunkte zufügen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-73"
+        }
+    ],
+    "print_key": "tcgdex:neo1-73",
+    "card_key": "79|50|1|Tomokazu Komiya|10,10+|1,1",
+    "types_en": [
+        "Psychic"
+    ]
+}

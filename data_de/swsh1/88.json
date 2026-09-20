@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh1-88",
+    "name": "Somnivora",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh1/88/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Schwert & Schild",
+    "series": "Schwert & Schild",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "88",
+    "set_total": 216,
+    "rarity": "Selten",
+    "author": [
+        "MAHOU"
+    ],
+    "pokedex_number": 518,
+    "pokemon_category": "",
+    "flavor_text": "Es schlummert und träumt immerzu. Wenn es geweckt wird, bekommt es schlechte Laune. Deshalb sollte man es lieber in Ruhe lassen.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Schläfriger Puls",
+            "damage": null,
+            "effect": "Das Aktive Pokémon deines Gegners schläft jetzt. Beim Pokémon-Check wirft dein Gegner 2 Münzen anstelle von 1. Wenn eine oder beide Münzen Zahl zeigen, schläft jenes Pokémon weiter."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Super Hypnoschuss",
+            "damage": "10+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners schläft, fügt diese Attacke 120 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Somniam",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh1-88"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-88",
+    "card_key": "518|120|3|MAHOU|None,10+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

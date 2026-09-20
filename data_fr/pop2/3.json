@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pop2-3",
+    "name": "Raikou",
+    "img": "https://assets.tcgdex.net/fr/pop/pop2/3/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pop2",
+    "set_img": "https://assets.tcgdex.net/univ/pop/pop2/symbol",
+    "set_full_name": "POP Série 2",
+    "series": "POP",
+    "set_code": "pop2",
+    "date": "2005-08-01",
+    "number": "3",
+    "set_total": 17,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 243,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Hurlement",
+            "damage": null,
+            "effect": "Si votre adversaire a des Pokémon sur son Banc, il choisit l'un d'eux et l'échange contre le Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Fatal-Foudre",
+            "damage": 50,
+            "effect": "Lancez une pièce. Si c'est pile, Raikou s'inflige 20 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": null
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pop2-3"
+        }
+    ],
+    "print_key": "tcgdex:pop2-3",
+    "card_key": "243|70|1|Kouki Saitou|None,50|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

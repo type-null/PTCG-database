@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp3-33",
+    "name": "Moterpel",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Rätselhafte Wunder",
+    "series": "Diamant & Perl",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "33",
+    "set_total": 132,
+    "rarity": "Selten",
+    "author": [
+        "Kazuyuki Kano"
+    ],
+    "pokedex_number": 414,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Silberhauch",
+            "damage": null,
+            "effect": "Während deines nächsten Zuges, wenn ein Angriff dem Verteidigenden Pokémon Schaden zufügt (nachdem Schwäche und Resistenz verrechnet wurden), fügt dieser Angriff 40 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Wütende Schuppen",
+            "damage": "30+",
+            "effect": "Wenn auf Moterpel mindestens 1 Schadensmarke liegt, fügt dieser Angriff 30 Schadenspunkte plus 40 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp3-33"
+        }
+    ],
+    "print_key": "tcgdex:dp3-33",
+    "card_key": "414|80|None|Kazuyuki Kano|None,30+|0,2",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex11-109",
+    "name": "Voltali ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex11/109/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex11",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex11/symbol",
+    "set_full_name": "EX Espèces Delta",
+    "series": "EX",
+    "set_code": "ex11",
+    "date": "2005-10-31",
+    "number": "109",
+    "set_total": 114,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 135,
+    "pokemon_category": "",
+    "hp": 100,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Tonnerre évolutif",
+            "effect": "Une seule fois lors de votre tour, lorsque vous jouez Voltali ex de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez placer 1 marqueur de dégât sur chacun des Pokémon de votre adversaire."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Électrique"
+            ],
+            "name": "Point douloureux",
+            "damage": "20+",
+            "effect": "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Électrique"
+            ],
+            "name": "Grondement de tonnerre",
+            "damage": 70,
+            "effect": "Défaussez une carte Énergie {L} attachée à Voltali ex."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-30"
+    },
+    "retreat": 0,
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex11-109"
+        }
+    ],
+    "print_key": "tcgdex:ex11-109",
+    "card_key": "135|100|0|Mitsuhiro Arita|20+,70|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

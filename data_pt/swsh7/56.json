@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/swsh7-56",
+    "name": "Ampharos",
+    "img": "https://assets.tcgdex.net/pt/swsh/swsh7/56/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "regulation": "E",
+    "set_name": "swsh7",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh7/symbol",
+    "set_full_name": "Céus em Evolução",
+    "series": "Espada e Escudo",
+    "set_code": "swsh7",
+    "date": "2021-08-27",
+    "number": "56",
+    "set_total": 237,
+    "rarity": "Rara",
+    "author": [
+        "Saya Tsuruta"
+    ],
+    "pokedex_number": 181,
+    "pokemon_category": "",
+    "stage": "Estágio 2",
+    "hp": 150,
+    "types": [
+        "Elétrico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elétrico"
+            ],
+            "name": "Thunder Shock",
+            "damage": 40,
+            "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Elétrico",
+                "Elétrico",
+                "Elétrico",
+                "Incolor"
+            ],
+            "name": "Electron Crush",
+            "damage": "100+",
+            "effect": "You may discard 3 Lightning Energy from this Pokémon. If you do, this attack does 120 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lutador"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Flaaffy",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/swsh7-56"
+        }
+    ],
+    "print_key": "tcgdex:swsh7-56",
+    "card_key": "181|150|2|Saya Tsuruta|40,100+|1,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

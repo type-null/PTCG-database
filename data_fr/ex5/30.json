@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex5-30",
+    "name": "Morphéo",
+    "img": "https://assets.tcgdex.net/fr/ex/ex5/30/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex5",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex5/symbol",
+    "set_full_name": "EX Légendes Oubliées",
+    "series": "EX",
+    "set_code": "ex5",
+    "date": "2004-06-01",
+    "number": "30",
+    "set_total": 102,
+    "rarity": "Peu Commune",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 351,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Météo capricieuse",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre deck Morpheo Soleil, Morpheo Pluie ou Morpheo Neige et l'échanger avec Morpheo. (Toutes les cartes attachées à Morpheo, les marqueurs de dégât et les effets se trouvent maintenant sur le nouveau Pokémon.) Mélangez Morpheo à votre deck. Vous ne pouvez pas utiliser plus d'1 Météo capricieuse par tour."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Prévisions météo",
+            "damage": null,
+            "effect": "Choisissez une carte Stade dans votre deck et mettez-la en jeu. Ensuite, mélangez votre deck."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Boule suppplémentaire",
+            "damage": "20+",
+            "effect": "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex5-30"
+        }
+    ],
+    "print_key": "tcgdex:ex5-30",
+    "card_key": "351|60|1|Sumiyoshi Kizuki|None,20+|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

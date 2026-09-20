@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/col1-27",
+    "name": "Meganie",
+    "img": "https://assets.tcgdex.net/de/col/col1/27/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "Ruf der Legenden",
+    "series": "Ruf der Legenden",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "27",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 154,
+    "pokemon_category": "",
+    "flavor_text": "MEGANIE kann mit seinem Atem abgestorbene Gräser und Planzen reanimieren. Sie sind dann gesund.",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Schlafpuder",
+            "damage": 30,
+            "effect": "Das Verteidigende Pokémon schläft jetzt."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Riesenblüte",
+            "damage": 60,
+            "effect": "Entferne 2 Schadensmarken von Meganie."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Lorblatt",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/col1-27"
+        }
+    ],
+    "print_key": "tcgdex:col1-27",
+    "card_key": "154|130|2|Shin Nagasawa|30,60|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

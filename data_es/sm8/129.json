@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm8-129",
+    "name": "Cobalion",
+    "img": "https://assets.tcgdex.net/es/sm/sm8/129/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Truenos Perdidos",
+    "series": "Sol y Luna",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "129",
+    "set_total": 236,
+    "rarity": "Rara",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 638,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 120,
+    "types": [
+        "Metálica"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metálica",
+                "Incolora"
+            ],
+            "name": "Presión de Guardia",
+            "damage": 30,
+            "effect": "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia)."
+        },
+        {
+            "cost": [
+                "Metálica",
+                "Metálica",
+                "Incolora"
+            ],
+            "name": "Extremidades Metálicas",
+            "damage": "80+",
+            "effect": "Si este Pokémon tiene 1 carta de Herramienta Pokémon unida a él, este ataque hace 40 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm8-129"
+        }
+    ],
+    "print_key": "tcgdex:sm8-129",
+    "card_key": "638|120|2|Kouki Saitou|30,80+|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

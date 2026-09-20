@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl4-11",
+    "name": "Toxiquak",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl4",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl4/symbol",
+    "set_full_name": "Arceus",
+    "series": "Platin",
+    "set_code": "pl4",
+    "date": "2009-11-04",
+    "number": "11",
+    "set_total": 111,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 454,
+    "pokemon_category": "",
+    "flavor_text": "Verfügt über einen Giftsack an seiner Kehle. Quakt es, schäumt das Gift und wird so noch stärker.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Bedrängen",
+            "damage": 20,
+            "effect": "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Umwandlungsschlag",
+            "damage": "30+",
+            "effect": "Wenn an Toxiquak mindestens 1 {P}-Energie angelegt ist, ist das Verteidigende Pokémon jetzt vergiftet. Wenn an Toxiquak mindestens 1 {F}-Energie angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Glibunkel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl4-11"
+        }
+    ],
+    "print_key": "tcgdex:pl4-11",
+    "card_key": "454|90|1|Kouki Saitou|20,30+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

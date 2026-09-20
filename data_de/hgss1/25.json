@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss1-25",
+    "name": "Ledian",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss1/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss1",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss1/symbol",
+    "set_full_name": "HeartGold SoulSilver",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss1",
+    "date": "2010-02-10",
+    "number": "25",
+    "set_total": 124,
+    "rarity": "Selten",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 166,
+    "pokemon_category": "",
+    "flavor_text": "Die Größe des Sternenmusters hängt direkt mit der Anzahl der Sterne am Firmament zusammen.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Schnellzieher",
+            "damage": 10,
+            "effect": "Ziehe 3 Karten."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Sternschauer",
+            "damage": 40,
+            "effect": "Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Ledyba",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss1-25"
+        }
+    ],
+    "print_key": "tcgdex:hgss1-25",
+    "card_key": "166|80|0|Yuka Morii|10,40|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

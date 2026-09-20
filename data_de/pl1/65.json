@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-65",
+    "name": "Schillok",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "65",
+    "set_total": 133,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 8,
+    "pokemon_category": "",
+    "flavor_text": "Man sagt, es werde 10 000 Jahre alt. Sein buschiger Schweif ist ein Symbol für langes Leben.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Duplexhieb",
+            "damage": "20×",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Raketenstart",
+            "damage": 30,
+            "effect": "Schillok fügt sich selbst 10 Schadenspunkte zu. Wirf 1 Münze. Bei „Kopf“ verhindere allen Schaden, der Schillok im nächsten Zug deines Gegners durch Angriffe zugefügt würde."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Schiggy",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-65"
+        }
+    ],
+    "print_key": "tcgdex:pl1-65",
+    "card_key": "8|80|1|Midori Harada|20x,30|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

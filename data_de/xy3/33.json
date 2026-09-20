@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy3-33",
+    "name": "Voltolos",
+    "img": "https://assets.tcgdex.net/de/xy/xy3/33/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy3",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy3/symbol",
+    "set_full_name": "Fliegende Fäuste",
+    "series": "XY",
+    "set_code": "xy3",
+    "date": "2014-08-13",
+    "number": "33",
+    "set_total": 114,
+    "rarity": "Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 642,
+    "pokemon_category": "",
+    "flavor_text": "Es greift mit elektrischer Ladung aus den Dornen seiner Rute an und bombardiert Einall aus der Luft mit Blitzen.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Wütender Donnerschlag",
+            "damage": "30+",
+            "effect": "Wenn an das Aktive Pokémon deines Gegners eine Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff 30 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Wuchtiger Einschlag",
+            "damage": 100,
+            "effect": "Dieses Pokémon kann Wuchtiger Einschlag während deines nächsten Zuges nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy3-33"
+        }
+    ],
+    "print_key": "tcgdex:xy3-33",
+    "card_key": "642|120|1|Hajime Kusajima|30+,100|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

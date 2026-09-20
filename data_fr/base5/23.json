@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base5-23",
+    "name": "Triopikeur obscur",
+    "img": "https://assets.tcgdex.net/fr/base/base5/23/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Base",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "23",
+    "set_total": 83,
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 51,
+    "pokemon_category": "",
+    "flavor_text": "Il creuse de larges pièges dans le sol afin d'attraper ses ennemis.",
+    "stage": "Niveau 1",
+    "hp": 50,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Chausse-trappe",
+            "effect": "Chaque fois que le Pokémon Actif de votre adversaire bat en retraite, votre adversaire lance une pièce. Si c'est pile, ce pouvoir inflige 20 dégâts à ce Pokémon. (N'appliquez pas la Faiblesse et la Résistance). Ce pouvoir cesse de fonctionner lorsque Triopikeur obscur est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Renversement",
+            "damage": "20+",
+            "effect": "Votre adversaire lance une pièce. Si c'est pile, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires ; si c'est face, cette attaque inflige 20 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Taupiqueur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base5-23"
+        }
+    ],
+    "print_key": "tcgdex:base5-23",
+    "card_key": "51|50|2|Kagemaru Himeno|20+|2",
+    "types_en": [
+        "Fighting"
+    ]
+}

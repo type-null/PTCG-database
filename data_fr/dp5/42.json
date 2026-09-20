@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp5-42",
+    "name": "Papilord",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp5",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp5/symbol",
+    "set_full_name": "Aube Majestueuse",
+    "series": "Diamant & Perle",
+    "set_code": "dp5",
+    "date": "2008-05-01",
+    "number": "42",
+    "set_total": 100,
+    "rarity": "Peu Commune",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 414,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Écailles tapageuses",
+            "effect": "Tous dégâts infligés par des attaques de vos Pokémon sur le Pokémon Défenseur ne sont pas affectés par la Résistance."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "À l'aide",
+            "damage": "30x",
+            "effect": "Inflige 30 dégâts multipliés par le nombre de types différents de Cheniselle sur votre Banc."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Touche rapide",
+            "damage": 40,
+            "effect": "Vous pouvez échanger Papilord avec 1 des Pokémon de votre Banc. Déplacez alors sur le nouveau Pokémon Actif autant de cartes Énergie attachées à Papilord que vous le voulez."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "evolve_from": "Cheniti",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp5-42"
+        }
+    ],
+    "print_key": "tcgdex:dp5-42",
+    "card_key": "414|80|None|Masakazu Fukuda|30x,40|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

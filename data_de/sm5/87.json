@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm5-87",
+    "name": "Bronzong",
+    "img": "https://assets.tcgdex.net/de/sm/sm5/87/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultra-Prisma",
+    "series": "Sonne & Mond",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "87",
+    "set_total": 173,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 437,
+    "pokemon_category": "",
+    "flavor_text": "Früher verehrten die Menschen die Bronzong, weil sie sich davon Regen oder gute Ernten erhofften.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Mentale Blockade",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Psycho-Resonanz",
+            "damage": "60+",
+            "effect": "Wenn dein Gegner mindestens 1 {P}-Pokémon im Spiel hat, fügt diese Attacke 60 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Bronzel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm5-87"
+        }
+    ],
+    "print_key": "tcgdex:sm5-87",
+    "card_key": "437|110|3|Kagemaru Himeno|20,60+|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

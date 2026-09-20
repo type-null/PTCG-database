@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-38",
+    "name": "Quaputzi",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "38",
+    "set_total": 102,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 61,
+    "pokemon_category": "",
+    "flavor_text": "Lebt wie eine Amphibie. Außerhalb des Wassers schwitzt es, um seinen Körper feucht zu halten.",
+    "stage": "Rang 1",
+    "hp": 60,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Amnesie",
+            "damage": null,
+            "effect": "Wähle einen der Angriffe des verteidigenden Pokémon. Dieses Pokémon kann diesen Angriff während des nächsten gegnerischen Zugs nicht einsetzen."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Duplexhieb",
+            "damage": "30x",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 30 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Quapsel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-38"
+        }
+    ],
+    "print_key": "tcgdex:base1-38",
+    "card_key": "61|60|1|Ken Sugimori|None,30x|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

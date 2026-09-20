@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex12-15",
+    "name": "Absol",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Legend Maker",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "15",
+    "set_total": 93,
+    "rarity": "Selten",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 359,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Unlicht"
+    ],
+    "abilities": [
+        {
+            "name": "Glänzendes Horn",
+            "effect": "Solange Absol das einzige Pokémon ist, das du im Spiel hast, können die Basis-Pokémon deines Gegners nicht angreifen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Extraruf",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach einem Pokémon-ex, zeige es deinem Gegner und nimm es danach auf deine Hand. Mische dein Deck danach."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Finte",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex12-15"
+        }
+    ],
+    "print_key": "tcgdex:ex12-15",
+    "card_key": "359|70|1|Midori Harada|None,None|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

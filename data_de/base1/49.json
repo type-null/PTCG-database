@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-49",
+    "name": "Traumato",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "49",
+    "set_total": 102,
+    "rarity": "Häufig",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 96,
+    "pokemon_category": "",
+    "flavor_text": "Versetzt Feinde in Schlaf und frisst dann ihre Träume. Ab und zu wird ihm von schlechten Träumen jedoch übel.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Pfund",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Konfustrahl",
+            "damage": 10,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-49"
+        }
+    ],
+    "print_key": "tcgdex:base1-49",
+    "card_key": "96|50|1|Ken Sugimori|10,10|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

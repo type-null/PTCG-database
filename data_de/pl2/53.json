@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-53",
+    "name": "Vibrava",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "53",
+    "set_total": 120,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 329,
+    "pokemon_category": "",
+    "flavor_text": "Es schlägt wild mit den Flügeln. So entstehen Ultraschallwellen, die Kopfschmerzen verursachen.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Energietaifun",
+            "damage": "20x",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl Energiekarten im Ablagestapel deines Gegners zu. Lege danach alle diese Energiekarten auf das Deck deines Gegners. Dein Gegner mischt sein Deck danach."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Ruckzuckhieb",
+            "damage": "20+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Knacklion",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-53"
+        }
+    ],
+    "print_key": "tcgdex:pl2-53",
+    "card_key": "329|70|1|Kyoko Umemoto|20x,20+|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm1-99",
+    "name": "Kangama",
+    "img": "https://assets.tcgdex.net/de/sm/sm1/99/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sonne & Mond",
+    "series": "Sonne & Mond",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "99",
+    "set_total": 172,
+    "rarity": "Selten",
+    "author": [
+        "TOKIYA"
+    ],
+    "pokedex_number": 115,
+    "pokemon_category": "",
+    "flavor_text": "Die Mutterliebe des ausgewachsenen Kangama ist tief. Es wäre sogar bereit, sein eigenes Leben zu opfern, um sein Junges zu beschützen.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Überkreuzzerschneider",
+            "damage": "30+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Hurrikanhieb",
+            "damage": "50×",
+            "effect": "Wirf 4 Münzen. Diese Attacke fügt 50 Schadenspunkte pro Kopf zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm1-99"
+        }
+    ],
+    "print_key": "tcgdex:sm1-99",
+    "card_key": "115|130|3|TOKIYA|30+,50x|1,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

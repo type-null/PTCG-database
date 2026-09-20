@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/hgss2-12",
+    "name": "Dardargnan",
+    "img": "https://assets.tcgdex.net/fr/hgss/hgss2/12/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "hgss2",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss2/symbol",
+    "set_full_name": "Déchaînement",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss2",
+    "date": "2010-05-12",
+    "number": "12",
+    "set_total": 96,
+    "rarity": "Rare",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 15,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 110,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Double-dard",
+            "damage": "50×",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Poison paralysant",
+            "damage": 20,
+            "effect": "Le Pokémon Défenseur est maintenant Empoisonné. Lancez une pièce. Si c’est face, le Pokémon Défenseur est aussi Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Coconfort",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/hgss2-12"
+        }
+    ],
+    "print_key": "tcgdex:hgss2-12",
+    "card_key": "15|110|0|Kyoko Umemoto|50x,20|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

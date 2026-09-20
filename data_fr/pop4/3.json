@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pop4-3",
+    "name": "Libegon",
+    "img": "https://assets.tcgdex.net/fr/pop/pop4/3/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pop4",
+    "set_img": "https://assets.tcgdex.net/univ/pop/pop4/symbol",
+    "set_full_name": "POP Série 4",
+    "series": "POP",
+    "set_code": "pop4",
+    "date": "2006-08-01",
+    "number": "3",
+    "set_total": 17,
+    "rarity": "Rare",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 330,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Lévitation",
+            "effect": "Tant que Libegon possède de l'Énergie, son Coût de retraite est de 0."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Morsure",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Bac à sable",
+            "damage": 70,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Vibraninf",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pop4-3"
+        }
+    ],
+    "print_key": "tcgdex:pop4-3",
+    "card_key": "330|120|2|Hisao Nakamura|30,70|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

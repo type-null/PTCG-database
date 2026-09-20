@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-61",
+    "name": "Vipitis",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "61",
+    "set_total": 133,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 336,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Expidermis",
+            "damage": null,
+            "effect": "Entferne 4 Schadensmarken von Vipitis."
+        },
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Beißen und Abhauen",
+            "damage": 20,
+            "effect": "Du kannst Vipitis gegen 1 Pokémon auf deiner Bank austauschen."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Lähmendes Gift",
+            "damage": 40,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet. Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt und vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-61"
+        }
+    ],
+    "print_key": "tcgdex:pl1-61",
+    "card_key": "336|80|1|Sumiyoshi Kizuki|None,20,40|0,1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

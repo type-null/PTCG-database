@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo4-42",
+    "name": "Kicklee",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "42",
+    "set_total": 113,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 106,
+    "pokemon_category": "",
+    "flavor_text": "Es hat eine perfekte Balance und kann aus jeder Position kräftige Tritte austeilen.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Tritt-Kombination",
+            "damage": "20x",
+            "effect": "Wirf zwei Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Hackentrick",
+            "damage": 60,
+            "effect": "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo4-42"
+        }
+    ],
+    "print_key": "tcgdex:neo4-42",
+    "card_key": "106|60|1|Yukiko Baba|20x,60|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

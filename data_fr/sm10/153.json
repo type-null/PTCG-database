@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm10-153",
+    "name": "Coudlangue",
+    "img": "https://assets.tcgdex.net/fr/sm/sm10/153/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Alliance Infaillible",
+    "series": "Soleil et Lune",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "153",
+    "set_total": 234,
+    "rarity": "Rare",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 463,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 130,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Dévorer",
+            "damage": 40,
+            "effect": "Avant d’infliger des dégâts, défaussez toutes les cartes Outil Pokémon du Pokémon Actif de votre adversaire. Si vous avez défaussé une carte Outil Pokémon de cette façon, soignez tous les dégâts de ce Pokémon."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Déferlante de Langues",
+            "damage": "60×",
+            "effect": "Lancez 4 pièces. Cette attaque inflige 60 dégâts pour chaque côté face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Excelangue",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm10-153"
+        }
+    ],
+    "print_key": "tcgdex:sm10-153",
+    "card_key": "463|130|4|sui|40,60x|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

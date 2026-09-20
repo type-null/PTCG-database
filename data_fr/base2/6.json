@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base2-6",
+    "name": "M. Mime",
+    "img": "https://assets.tcgdex.net/fr/base/base2/6/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Base",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "6",
+    "set_total": 64,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 122,
+    "pokemon_category": "",
+    "flavor_text": "Dérangez-le pendant qu'il mime et il se battra en distribuant des volées de claques.",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Mur invisible",
+            "effect": "Chaque fois qu'une attaque (y compris les vôtres) inflige 30 dégâts ou plus à M. Mime (après application de la Faiblesse et de la Résistance), prévenez ces dégâts. (Tout autre effet ou attaque subsiste.) Ce pouvoir ne peut être utilisé si M. Mime est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Yoga",
+            "damage": "10+",
+            "effect": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Mime Jr.",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base2-6"
+        }
+    ],
+    "print_key": "tcgdex:base2-6",
+    "card_key": "122|40|1|Ken Sugimori|10+|2",
+    "types_en": [
+        "Psychic"
+    ]
+}

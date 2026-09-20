@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex10-11",
+    "name": "Tartard",
+    "img": "https://assets.tcgdex.net/fr/ex/ex10/11/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Forces Cachées",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "11",
+    "set_total": 117,
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 62,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Tourbillon en spirale",
+            "effect": "Si Tartard est votre Pokémon Actif et qu'il est mis K.O par les dégâts d'une attaque de votre adversaire, le Pokémon Attaquant est maintenant Confus."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Combat",
+            "damage": "40+",
+            "effect": "Si le Pokémon Défenseur est un Pokémon {D} ou si son nom comporte Obscur, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Hyper éclaboussure",
+            "damage": "60+",
+            "effect": "Si le Pokémon Défenseur est un Pokémon Évolué de niveau 2, cette attaque inflige 60 dégâts plus 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Têtarte",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex10-11"
+        }
+    ],
+    "print_key": "tcgdex:ex10-11",
+    "card_key": "62|120|2|Hajime Kusajima|40+,60+|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard2-H15",
+    "name": "Lanturn",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard2/H15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-cards",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "H15",
+    "set_total": 186,
+    "rarity": "Holo Rare",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 171,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Couche ionique",
+            "effect": "Vous pouvez utiliser ce pouvoir une seule fois pendant chacun de vos tours (avant votre attaque). Toutes les Énergies {L} attachées à votre Pokémon Actif deviennent de l'Énergie {W} pour le reste de votre tour. (Cet effet cesse si votre Pokémon Actif bat en retraite ou s'il revient dans votre main.) Ce pouvoir ne peut pas être utilisé si Lanturn est affecté par un État spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Plaquage électrik",
+            "damage": "20+",
+            "effect": "Cette attaque inflige 20 dégâts plus 10 dégâts pour chaque énergie {L} attachée à Lanturn. Lancez une pièce. Si c'est pile, Lanturn s'inflige 10 dégâts pour chaque Énergie {L} qui lui est attachée."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "evolve_from": "Loupio",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard2-H15"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-H15",
+    "card_key": "171|80|1|Yuka Morii|20+|2",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-16",
+    "name": "Togetic",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "16",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 176,
+    "pokemon_category": "",
+    "flavor_text": "Man sagt, dass es vor gutherzigen, fürsorglichen Menschen erscheint und sie mit Glückseligkeit erfüllt.",
+    "stage": "Rang 1",
+    "hp": 60,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Supermetronom",
+            "damage": null,
+            "effect": "Wirf eine Münze. Wähle bei „Kopf“ einen der Angriffe eines der gegnerischen Pokémon. Supermetronom kopiert diesen Angriff außer den Energiekosten. (Du musst allerdings alles andere tun, um diesen Angriff zu verwenden.) (Unabhängig vom Typ des gegnerischen Pokémon ist Togetics Typ immer noch {C}.) Togetic führt diesen Angriff aus. (Togetic kann diesen Angriff ausführen, selbst wenn nicht die entsprechende Anzahl und Sorte Energiekarten daran angelegt sind, die nötig wären, um diesen Angriff auszuführen.)"
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Fliegen",
+            "damage": 30,
+            "effect": "Wirf eine Münze. Verhindere bei „Kopf“ während des nächsten gegnerischen Zugs alle Auswirkungen von Angriffen auf Togetic (einschließlich der Schadenspunkte); bei „Zahl“ hat dieser Angriff keine Auswirkungen (nicht einmal Schadenspunkte)."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "evolve_from": "Togepi",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-16"
+        }
+    ],
+    "print_key": "tcgdex:neo1-16",
+    "card_key": "176|60|None|Ken Sugimori|None,30|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/30th-c-008",
+    "name": "Pikachu y Zekrom GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "30th-c",
+    "set_full_name": "Colección Clásica del 30.º Aniversario",
+    "series": "Megaevolución",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "008",
+    "set_total": 30,
+    "rarity": "Ninguno",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Básico",
+    "hp": 240,
+    "types": [
+        "Rayo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Rayo",
+                "Rayo",
+                "Rayo"
+            ],
+            "name": "Envite Total",
+            "damage": 150,
+            "effect": "Busca en tu baraja hasta 3 cartas de Energía <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> y únelas a 1 de tus Pokémon. Después, baraja las cartas de tu baraja."
+        },
+        {
+            "cost": [
+                "Rayo",
+                "Rayo",
+                "Rayo"
+            ],
+            "name": "Rayo Relevo {GX}",
+            "damage": 200,
+            "effect": "Si este Pokémon tiene por lo menos 3 Energías <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> adicionales unidas a él <em>(además de las del coste de este ataque)</em>, este ataque hace 170 puntos de daño a 1 de los Pokémon en Banca de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca). (No puedes usar más de 1 ataque <em>GX</em> en una partida).</em>"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metálica"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/30th-c-008"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-8",
+    "card_key": "25|240|3|Mitsuhiro Arita|150,200|3,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

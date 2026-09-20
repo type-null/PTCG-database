@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh5-53",
+    "name": "Fulgudog",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh5/53/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "E",
+    "set_name": "swsh5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh5/symbol",
+    "set_full_name": "Styles de combat",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh5",
+    "date": "2021-03-19",
+    "number": "53",
+    "set_total": 183,
+    "rarity": "Rare",
+    "author": [
+        "chibi"
+    ],
+    "pokedex_number": 836,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 130,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Coinçage",
+            "damage": 30,
+            "effect": "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Étincelle Rebelle",
+            "damage": 130,
+            "effect": "Si des marqueurs de dégâts sont placés sur ce Pokémon, cette attaque peut être utilisée pour Lightning."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Voltoutou",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh5-53"
+        }
+    ],
+    "print_key": "tcgdex:swsh5-53",
+    "card_key": "836|130|1|chibi|30,130|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

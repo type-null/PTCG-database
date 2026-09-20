@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl3-55",
+    "name": "Ceriflor",
+    "img": "https://assets.tcgdex.net/fr/pl/pl3/55/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Vainqueurs Suprêmes",
+    "series": "Platine",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "55",
+    "set_total": 162,
+    "rarity": "Peu Commune",
+    "author": [
+        "Saya Tsuruta"
+    ],
+    "pokedex_number": 421,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Collision",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Danse-fleur",
+            "damage": "30x",
+            "effect": "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces. Ceriflor est maintenant Confus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Ceribou",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl3-55"
+        }
+    ],
+    "print_key": "tcgdex:pl3-55",
+    "card_key": "421|80|1|Saya Tsuruta|20,30x|0,1",
+    "types_en": [
+        "Grass"
+    ]
+}

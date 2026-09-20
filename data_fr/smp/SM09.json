@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/smp-SM09",
+    "name": "Togedemaru",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "Promo SM",
+    "series": "Soleil et Lune",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM09",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 777,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Boul’Armure",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c’est face, évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Coup d’Jus",
+            "damage": "30×",
+            "effect": "Défaussez toutes les Énergies Lightning de ce Pokémon. Cette attaque inflige 30 dégâts pour chaque carte défaussée de cette façon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/smp-SM09"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM09",
+    "card_key": "777|70|1|match|None,30x|1,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

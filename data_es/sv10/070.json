@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sv10-070",
+    "name": "Zapdos del Team Rocket",
+    "img": "https://assets.tcgdex.net/es/sv/sv10/070/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "I",
+    "set_name": "sv10",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv10/symbol",
+    "set_full_name": "Rivales Predestinados",
+    "series": "Escarlata y Púrpura",
+    "set_code": "sv10",
+    "date": "2025-05-30",
+    "number": "070",
+    "set_total": 244,
+    "rarity": "Rara",
+    "author": [
+        "Nurikabe"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 120,
+    "types": [
+        "Rayo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Ala Fastidiosa",
+            "damage": 30,
+            "effect": "Puedes mover 1 Energía del Pokémon Activo de tu rival a uno de sus Pokémon en Banca."
+        },
+        {
+            "cost": [
+                "Rayo",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Trueno Malvado",
+            "damage": "60+",
+            "effect": "Si este Pokémon tiene alguna Energía del Team Rocket unida, este ataque hace 60 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Rayo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sv10-070"
+        }
+    ],
+    "print_key": "tcgdex:sv10-70",
+    "card_key": "145|120|1|Nurikabe|30,60+|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex3-21",
+    "name": "Airmure",
+    "img": "https://assets.tcgdex.net/fr/ex/ex3/21/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Dragon",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "21",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 227,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal"
+            ],
+            "name": "Choix",
+            "damage": null,
+            "effect": "Si votre adversaire a au moins six cartes en main, regardez sa main. Choisissez suffisamment de cartes pour qu'il ne lui reste plus que cinq cartes. Votre adversaire défausse les cartes que vous avez choisi et les mélange avec son deck."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Compteur de puissance",
+            "damage": "20+",
+            "effect": "Comptabilisez le nombre d'Énergies attachées à tous vos Pokémon ainsi qu'à tous les Pokémon de votre adversaire. Si vos Pokémon possèdent moins d'Énergies que ceux de votre adversaire, cette attaque inflige 50 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Plante"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex3-21"
+        }
+    ],
+    "print_key": "tcgdex:ex3-21",
+    "card_key": "227|70|1|Hisao Nakamura|None,20+|1,2",
+    "types_en": [
+        "Metal"
+    ]
+}

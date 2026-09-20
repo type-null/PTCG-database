@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/hgss4-31",
+    "name": "Wailord",
+    "img": "https://assets.tcgdex.net/fr/hgss/hgss4/31/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "hgss4",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss4/symbol",
+    "set_full_name": "Triomphant",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss4",
+    "date": "2010-11-03",
+    "number": "31",
+    "set_total": 103,
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 321,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 180,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Plongée sous-marine",
+            "damage": null,
+            "effect": "Lancez 2 pièces. Pour chaque côté face, retirez 3 marqueurs de dégât à Wailord."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Engloutir",
+            "damage": "50+",
+            "effect": "Avant d’infliger des dégâts, comptez les PV restant au Pokémon Défenseur et à Wailord. S’il reste moins de PV au Pokémon Défenseur qu’à Wailord, cette attaque inflige 50 dégâts plus 50 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Wailmer",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/hgss4-31"
+        }
+    ],
+    "print_key": "tcgdex:hgss4-31",
+    "card_key": "321|180|4|Hajime Kusajima|None,50+|2,4",
+    "types_en": [
+        "Water"
+    ]
+}

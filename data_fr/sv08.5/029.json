@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv08.5-029",
+    "name": "Voltali",
+    "img": "https://assets.tcgdex.net/fr/sv/sv08.5/029/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv08.5",
+    "set_full_name": "Évolutions Prismatiques",
+    "series": "Écarlate et Violet",
+    "set_code": "sv08.5",
+    "date": "2025-01-17",
+    "number": "029",
+    "set_total": 180,
+    "rarity": "Rare",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 135,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Attaque Linéaire",
+            "damage": null,
+            "effect": "Cette attaque inflige 30 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Foudre Hostile",
+            "damage": "90+",
+            "effect": "Si le Pokémon Actif de votre adversaire est un Pokémon-ex ou un Pokémon-V, cette attaque inflige 90 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Évoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv08.5-029"
+        }
+    ],
+    "print_key": "tcgdex:sv08.5-29",
+    "card_key": "135|110|0|sui|None,90+|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

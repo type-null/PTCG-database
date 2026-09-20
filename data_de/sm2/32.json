@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm2-32",
+    "name": "Firnontor",
+    "img": "https://assets.tcgdex.net/de/sm/sm2/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Stunde der Wächter",
+    "series": "Sonne & Mond",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "32",
+    "set_total": 169,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "so-taro"
+    ],
+    "pokedex_number": 362,
+    "pokemon_category": "",
+    "flavor_text": "Man sagt, Firnontor sei aus dem Unmut verunglückter Bergsteiger geboren, der von einem Felsen Besitz ergriff.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Knirscher",
+            "damage": 40,
+            "effect": "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Wütende Scholle",
+            "damage": "70+",
+            "effect": "Wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt, fügt diese Attacke 80 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Schneppke",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm2-32"
+        }
+    ],
+    "print_key": "tcgdex:sm2-32",
+    "card_key": "362|120|3|so-taro|40,70+|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

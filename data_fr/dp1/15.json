@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-15",
+    "name": "Moufflair",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "15",
+    "set_total": 130,
+    "rarity": "Rare Holo",
+    "author": [
+        "Hiroaki Ito"
+    ],
+    "pokedex_number": 435,
+    "pokemon_category": "",
+    "flavor_text": "Il attaque en projetant un liquide fétide du bout de sa queue. Il peut tirer à 50 mètres.",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité"
+            ],
+            "name": "Frustration",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de votre adversaire ne possédant pas de marqueurs de dégât. Cette attaque lui inflige 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Nuage Toxik",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Moufouette",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-15"
+        }
+    ],
+    "print_key": "tcgdex:dp1-15",
+    "card_key": "435|90|1|Hiroaki Ito|None,30|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

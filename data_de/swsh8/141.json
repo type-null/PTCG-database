@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh8-141",
+    "name": "Skorgro",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh8/141/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh8",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh8/symbol",
+    "set_full_name": "Fusionsangriff",
+    "series": "Schwert & Schild",
+    "set_code": "swsh8",
+    "date": "2021-11-12",
+    "number": "141",
+    "set_total": 284,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "SATOSHI NAKAI"
+    ],
+    "pokedex_number": 472,
+    "pokemon_category": "",
+    "flavor_text": "Es fliegt völlig lautlos. Erst fängt es seine Beute mit seinem langen Schweif, dann saugt es sie aus.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Umsägen",
+            "damage": 30,
+            "effect": "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Giftiger Schlag",
+            "damage": 100,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Skorgla",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh8-141"
+        }
+    ],
+    "print_key": "tcgdex:swsh8-141",
+    "card_key": "472|110|1|SATOSHI NAKAI|30,100|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv01-038",
+    "name": "Skelokrok",
+    "img": "https://assets.tcgdex.net/de/sv/sv01/038/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Karmesin & Purpur",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "038",
+    "set_total": 258,
+    "rarity": "Selten",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 911,
+    "pokemon_category": "",
+    "flavor_text": "Sein sanfter Gesang beruhigt die Seelen all derer, die ihm lauschen. Feinde verbrennt es mit 3000 ℃ heißen Flammen zu Asche.",
+    "stage": "Rang 2",
+    "hp": 180,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Feuriger Gesang",
+            "damage": 50,
+            "effect": "Lege bis zu 2 Basis-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Lodernder Schrei",
+            "damage": 190,
+            "effect": "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Lokroko",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv01-038"
+        }
+    ],
+    "print_key": "tcgdex:sv01-38",
+    "card_key": "911|180|3|nagimiso|50,190|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

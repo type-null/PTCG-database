@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-57",
+    "name": "Feurigel",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "57",
+    "set_total": 111,
+    "rarity": "Häufig",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 155,
+    "pokemon_category": "",
+    "flavor_text": "Es ist furchtsam und rollt sich immer zu einem Ball zusammen. Wenn es angegriffen wird, entflammt es seinen Rücken zum Schutz.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Feuerwerk",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Lege bei „Zahl“ eine an Feurigel angelegte Energiekarte auf deinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Ruckzuckhieb",
+            "damage": "10+",
+            "effect": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 10 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-57"
+        }
+    ],
+    "print_key": "tcgdex:neo1-57",
+    "card_key": "155|50|1|Shin-ichi Yoshida|20,10+|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

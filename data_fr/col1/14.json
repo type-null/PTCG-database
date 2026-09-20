@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/col1-14",
+    "name": "Lucario",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "L'appel des Légendes",
+    "series": "L'appel des Légendes",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "14",
+    "set_total": 106,
+    "rarity": "Holo Rare",
+    "author": [
+        "Takashi Yamaguchi"
+    ],
+    "pokedex_number": 448,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Sphère dimensionnelle",
+            "damage": "30+",
+            "effect": "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chacun de vos Pokémon se trouvant dans la Zone Perdue."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Stratopercut",
+            "damage": 70,
+            "effect": "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "evolve_from": "Riolu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/col1-14"
+        }
+    ],
+    "print_key": "tcgdex:col1-14",
+    "card_key": "448|90|1|Takashi Yamaguchi|30+,70|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

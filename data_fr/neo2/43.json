@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo2-43",
+    "name": "Amonistar",
+    "img": "https://assets.tcgdex.net/fr/neo/neo2/43/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Discovery",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "43",
+    "set_total": 75,
+    "rarity": "Peu Commune",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 139,
+    "pokemon_category": "",
+    "flavor_text": "Apparemment, il a brisé la coquille de Kokiyas avec ses crocs acérés et il a mangé ce qui était à l'intérieur.",
+    "stage": "Niveau 2",
+    "hp": 80,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Compression",
+            "damage": "10+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque fait 10 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est Paralysé. Si c'est pile, l'attaque ne fait que 10 dégâts."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Eau"
+            ],
+            "name": "Barrage de pics",
+            "damage": "20+",
+            "effect": "Lancez un nombre de pièces équivalent au nombre d'Énergies  attachées à Amonistar. Cette attaque fait 20 dégâts plus 20 dégâts par face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Amonita",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo2-43"
+        }
+    ],
+    "print_key": "tcgdex:neo2-43",
+    "card_key": "139|80|2|Shin-ichi Yoshida|10+,20+|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

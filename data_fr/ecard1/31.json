@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard1-31",
+    "name": "Raflésia",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard1/31/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-cards",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "31",
+    "set_total": 165,
+    "rarity": "Holo Rare",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 45,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 90,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Pollen toxik",
+            "effect": "Une fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Ce pouvoir ne peut pas être utilisé si Raflésia est affecté par un État spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Danse-fleur",
+            "damage": "30×",
+            "effect": "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces. Raflésia est maintenant Confus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Ortide",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard1-31"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-31",
+    "card_key": "45|90|2|Miki Tanaka|30x|2",
+    "types_en": [
+        "Grass"
+    ]
+}

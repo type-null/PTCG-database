@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/cel25-1",
+    "name": "Ho-Oh",
+    "img": "https://assets.tcgdex.net/de/swsh/cel25/1/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "cel25",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/cel25/symbol",
+    "set_full_name": "Celebrations",
+    "series": "Schwert & Schild",
+    "set_code": "cel25",
+    "date": "2021-10-08",
+    "number": "1",
+    "set_total": 25,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 250,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Läuterfeuer",
+            "damage": null,
+            "effect": "Diese Attacke fügt 1 Pokémon deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Feuersturm",
+            "damage": 120,
+            "effect": "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/cel25-1"
+        }
+    ],
+    "print_key": "tcgdex:cel25-1",
+    "card_key": "250|130|2|Kouki Saitou|None,120|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

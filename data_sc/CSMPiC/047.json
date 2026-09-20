@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/zh-cn/cards/CSMPiC-047",
+    "name": "班基拉斯GX",
+    "img": "",
+    "card_type": "Pokemon",
+    "lang": "sc",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "CSMPiC",
+    "set_full_name": "对战派对组合 奖励包",
+    "series": "太阳&月亮",
+    "set_code": "CSMPiC",
+    "date": "2023-04-15",
+    "number": "047",
+    "set_total": 48,
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 248,
+    "pokemon_category": "",
+    "stage": "Stage2",
+    "hp": 250,
+    "types": [
+        "Darkness"
+    ],
+    "abilities": [
+        {
+            "name": "送入迷失区",
+            "effect": "若对手的宝可梦因这只宝可梦的招式的伤害而【昏厥】，则将那只宝可梦与附于其身上的全部卡放置于迷失区，而不是弃牌区。"
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness",
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "尘土骚动",
+            "damage": 130,
+            "effect": "对手的所有后备基础宝可梦各受到30点伤害。【后备宝可梦不计算弱点・抵抗力。】"
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "重压制裁GX",
+            "damage": 220,
+            "effect": "这个招式的伤害不受对手战斗宝可梦身上的效果影响。【对战中，己方的GX招式只能使用1次。】"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "沙基拉斯",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/zh-cn/cards/CSMPiC-047"
+        }
+    ],
+    "print_key": "asia:CSMPiC-47",
+    "card_key": "248|250|3|5ban Graphics|130,220|3,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

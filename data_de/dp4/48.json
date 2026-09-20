@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp4-48",
+    "name": "Pelipper",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp4",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp4/symbol",
+    "set_full_name": "Epische Begegnungen",
+    "series": "Diamant & Perl",
+    "set_code": "dp4",
+    "date": "2008-02-01",
+    "number": "48",
+    "set_total": 106,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 279,
+    "pokemon_category": "",
+    "flavor_text": "Es taucht seinen großen Schnabel ins Wasser und fängt so eine Menge Beute.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Hinunterschlingen",
+            "damage": null,
+            "effect": "Wähle bis zu 2 {W}-Basis-Energiekarten von deiner Hand und lege sie an Pelipper an. Entferne für jede so angelegte Energiekarte 2 Schadensmarken von Pelipper."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Rückkehrstrahl",
+            "damage": "30x",
+            "effect": "Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl der an Pelipper angelegten Energiekarten zu. Entferne danach alle an Pelipper angelegten Energiekarten und lege sie auf dein Deck. Mische dein Deck danach."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Wingull",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp4-48"
+        }
+    ],
+    "print_key": "tcgdex:dp4-48",
+    "card_key": "279|80|1|Ken Sugimori|None,30x|0,3",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/30th-c-025",
+    "name": "Scizor ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "30th-c",
+    "set_full_name": "Colección Clásica del 30.º Aniversario",
+    "series": "Megaevolución",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "025",
+    "set_total": 30,
+    "rarity": "Ninguno",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Básico",
+    "hp": 120,
+    "types": [
+        "Metálica"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metálica",
+                "Incolora"
+            ],
+            "name": "Ala de acero",
+            "damage": 40,
+            "effect": "Durante el siguiente turno de tu rival, cualquier daño hecho a Scizor-<em>ex</em> por ataques es reducido en 20 <em>(después de aplicar Debilidad y Resistencia)</em>."
+        },
+        {
+            "cost": [
+                "Incolora",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Atajar",
+            "damage": "50+",
+            "effect": "Si el Pokémon Defensor es un Pokémon Evolucionado, este ataque hace 50 puntos de daño más 30 puntos de daño adicional."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Planta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/30th-c-025"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-25",
+    "card_key": "212|120|1|Mitsuhiro Arita|40,50+|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

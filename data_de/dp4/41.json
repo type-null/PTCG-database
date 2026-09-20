@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp4-41",
+    "name": "Hariyama",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp4",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp4/symbol",
+    "set_full_name": "Epische Begegnungen",
+    "series": "Diamant & Perl",
+    "set_code": "dp4",
+    "date": "2008-02-01",
+    "number": "41",
+    "set_total": 106,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 297,
+    "pokemon_category": "",
+    "flavor_text": "Es liebt das Kräftemessen mit großen PKMN. Mit seinem Armwurf kann es LKW durch die Luft werfen.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Handkantenschlag",
+            "damage": "20+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 40 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Energischer Wurf",
+            "damage": 50,
+            "effect": "Wenn Hariyama weniger verbliebene KP hat als das Verteidigende Pokémon, beträgt der Grundschaden dieses Angriffs 80 Schadenspunkte."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+30"
+    },
+    "retreat": 3,
+    "evolve_from": "Makuhita",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp4-41"
+        }
+    ],
+    "print_key": "tcgdex:dp4-41",
+    "card_key": "297|100|3|Mitsuhiro Arita|20+,50|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

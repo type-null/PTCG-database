@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss4-33",
+    "name": "Elektek",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss4/33/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss4",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss4/symbol",
+    "set_full_name": "Triumph",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss4",
+    "date": "2010-11-03",
+    "number": "33",
+    "set_total": 103,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "TOKIYA"
+    ],
+    "pokedex_number": 125,
+    "pokemon_category": "",
+    "flavor_text": "Sein Körper entlädt sich ständig. Kommt man ihm zu nahe, stehen einem die Haare senkrecht vom Kopf ab.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Leichter Hieb",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Schock-Blitz",
+            "damage": 60,
+            "effect": "Wirf eine Münze. Bei „Zahl“ lege alle an Elektek angelegten {L}-Energien auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss4-33"
+        }
+    ],
+    "print_key": "tcgdex:hgss4-33",
+    "card_key": "125|70|2|TOKIYA|10,60|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

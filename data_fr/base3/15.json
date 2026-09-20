@@ -1,0 +1,58 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base3-15",
+    "name": "Élector",
+    "img": "https://assets.tcgdex.net/fr/base/base3/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base3",
+    "set_img": "https://assets.tcgdex.net/univ/base/base3/symbol",
+    "set_full_name": "Fossile",
+    "series": "Base",
+    "set_code": "base3",
+    "date": "1999-10-10",
+    "number": "15",
+    "set_total": 62,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "flavor_text": "L'oiseau légendaire de la foudre. Il surgit hors des nuages en lançant d'énormes éclairs.",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Orage",
+            "damage": 40,
+            "effect": "Pour chacun des Pokémon du Banc de votre adversaire, lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts au Pokémon concerné. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Ensuite, Élector s'inflige 10 dégâts pour chaque pile."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base3-15"
+        }
+    ],
+    "print_key": "tcgdex:base3-15",
+    "card_key": "145|80|2|Mitsuhiro Arita|40|4",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard1-2",
+    "name": "Ampharos",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-Card",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "2",
+    "set_total": 165,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 181,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Energieverknüpfung",
+            "effect": "Du darfst in deinem Zug so oft, wie du willst (vor deinem Angriff), eine Basis-Energiekarte, die an 1 deiner Pokémon auf der Bank angelegt ist, nehmen und an dein Aktives Pokémon anlegen. Diese Fähigkeit kann nicht verwendet werden, falls Ampharos von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Blitzschlag",
+            "damage": 40,
+            "effect": "Du kannst alle {L}-Energiekarten, die an Ampharos angelegt sind, auf deinen Ablagestapel legen. Falls du dies tust, ist der Basisschaden dieses Angriffs 80 anstatt 40."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Waaty",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard1-2"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-2",
+    "card_key": "181|100|2|Atsuko Nishida|40|4",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base2-50",
+    "name": "Cubone",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Originale",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "50",
+    "set_total": 64,
+    "rarity": "Comune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 104,
+    "pokemon_category": "",
+    "flavor_text": "Nessuno è mai riuscito a vedere la sua vera faccia, dal momento che non toglie mai il suo elmo-teschio.",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Lotta"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Piagnisteo",
+            "damage": null,
+            "effect": "Se l'attuale Pokémon Difensore attacca Cubone durante il prossimo turno del tuo avversario, tutto il danno inflitto dall'attacco viene ridotto di 20 (dopo avere applicato Debolezza e Resistenza) (mettendo in Panchina uno dei due Pokémon l'effetto termina)."
+        },
+        {
+            "cost": [
+                "Lotta",
+                "Lotta"
+            ],
+            "name": "Ira",
+            "damage": "10+",
+            "effect": "Infligge 10 danni, più altri 10 danni per ogni segnalino danno presente su Cubone."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Erba"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lampo"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base2-50"
+        }
+    ],
+    "print_key": "tcgdex:base2-50",
+    "card_key": "104|40|1|Mitsuhiro Arita|None,10+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

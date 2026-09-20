@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw9-42",
+    "name": "Nidoqueen",
+    "img": "https://assets.tcgdex.net/de/bw/bw9/42/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw9",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw9/symbol",
+    "set_full_name": "Plasma-Frost",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw9",
+    "date": "2013-05-08",
+    "number": "42",
+    "set_total": 122,
+    "rarity": "Selten",
+    "author": [
+        "Mizue"
+    ],
+    "pokedex_number": 31,
+    "pokemon_category": "",
+    "flavor_text": "Sein ganzer Körper ist mit harten Schuppen bedeckt. Es beschützt sein Junges mit seinem Leben.",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Gifthorn",
+            "damage": 50,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Doppelstampfer",
+            "damage": 60,
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 30 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Nidorina",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw9-42"
+        }
+    ],
+    "print_key": "tcgdex:bw9-42",
+    "card_key": "31|130|3|Mizue|50,60|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

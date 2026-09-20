@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw8-49",
+    "name": "Rotom",
+    "img": "https://assets.tcgdex.net/de/bw/bw8/49/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw8",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw8/symbol",
+    "set_full_name": "Plasma-Sturm",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw8",
+    "date": "2013-02-06",
+    "number": "49",
+    "set_total": 138,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 479,
+    "pokemon_category": "",
+    "flavor_text": "Es kann mit seinem Körper in elektrische Geräte eindringen und dann für Chaos sorgen.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Elektrobonus",
+            "damage": null,
+            "effect": "Lege 1 {L}-Energie aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 3 Karten."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Poltergeist",
+            "damage": 20,
+            "effect": "Dein Gegner deckt seine Handkarten auf. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der Trainerkarten auf der Hand deines Gegners zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw8-49"
+        }
+    ],
+    "print_key": "tcgdex:bw8-49",
+    "card_key": "479|60|1|5ban Graphics|None,20|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

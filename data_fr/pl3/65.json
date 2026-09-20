@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl3-65",
+    "name": "Magmar",
+    "img": "https://assets.tcgdex.net/fr/pl/pl3/65/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Vainqueurs Suprêmes",
+    "series": "Platine",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "65",
+    "set_total": 162,
+    "rarity": "Peu Commune",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 126,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Brouillard",
+            "damage": null,
+            "effect": "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Feux d'artifices",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Magmar."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl3-65"
+        }
+    ],
+    "print_key": "tcgdex:pl3-65",
+    "card_key": "126|70|1|Midori Harada|None,30|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base2-15",
+    "name": "Raflésia",
+    "img": "https://assets.tcgdex.net/fr/base/base2/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Base",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "15",
+    "set_total": 64,
+    "rarity": "Rare",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 45,
+    "pokemon_category": "",
+    "flavor_text": "Plus ses pétales sont grands, plus ils contiennent de pollen toxique.",
+    "stage": "Niveau 2",
+    "hp": 80,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Soins",
+            "effect": "Une fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, retirez 1 marqueur de dégâts d'un de vos Pokémon. Ce pouvoir ne peut être utilisé si Raflésia est Endormi, Confus, ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Plante"
+            ],
+            "name": "Danse-fleur",
+            "damage": "40x",
+            "effect": "Lancez 3 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces. Raflésia est maintenant Confus (après résolution des dégâts)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Ortide",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base2-15"
+        }
+    ],
+    "print_key": "tcgdex:base2-15",
+    "card_key": "45|80|2|Keiji Kinebuchi|40x|3",
+    "types_en": [
+        "Grass"
+    ]
+}

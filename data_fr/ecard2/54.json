@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard2-54",
+    "name": "Ossatueur",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard2/54/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-cards",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "54",
+    "set_total": 186,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 105,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Triple os",
+            "damage": null,
+            "effect": "Choisissez un des Pokémon du Banc de votre adversaire. Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces à ce Pokémon. N'appliquez ni la Faiblesse, ni la Résistance."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Charge-os",
+            "damage": "50×",
+            "effect": "Lancez une pièce jusqu'à obtenir pile. Cette attaque inflige 50 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Osselait",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard2-54"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-54",
+    "card_key": "105|70|1|Kagemaru Himeno|None,50x|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

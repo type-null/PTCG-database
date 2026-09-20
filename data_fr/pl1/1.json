@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-1",
+    "name": "Pharamp",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/1/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "1",
+    "set_total": 133,
+    "rarity": "Holo Rare",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 181,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 130,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Attache-dégâts",
+            "effect": "Chaque Pokémon possédant des marqueurs de dégâts (les vôtres et ceux de votre adversaire) ne peut pas utiliser de Poké-Powers."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Gigavolt",
+            "damage": "30+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires. Si c'est pile, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Renvoi d'énergie",
+            "damage": 70,
+            "effect": "Déplacez une carte Énergie attachée à Pharamp sur 1 des Pokémon de votre Banc."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Lainergie",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-1"
+        }
+    ],
+    "print_key": "tcgdex:pl1-1",
+    "card_key": "181|130|2|Atsuko Nishida|30+,70|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/smp-SM171",
+    "name": "Flareon GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SL Cartas de promoción",
+    "series": "Sol y Luna",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM171",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "PLANETA Otani"
+    ],
+    "pokedex_number": 136,
+    "pokemon_category": "",
+    "hp": 210,
+    "types": [
+        "Fuego"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuego"
+            ],
+            "name": "Escenario Ígneo",
+            "damage": 30,
+            "effect": "Puedes unir hasta 3 cartas de Energía Fire de tu mano a tus Pokémon de la manera que desees."
+        },
+        {
+            "cost": [
+                "Fuego",
+                "Fuego",
+                "Incolora"
+            ],
+            "name": "Llama Viva",
+            "damage": 190,
+            "effect": "Descarta 2 Energías Fire de este Pokémon."
+        },
+        {
+            "cost": [
+                "Fuego"
+            ],
+            "name": "Fogón Vigoroso GX",
+            "damage": "20×",
+            "effect": "Este ataque hace 20 puntos de daño por cada carta de Energía Fire en tu pila de descartes. (No puedes usar más de 1 ataque GX en una partida)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Agua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/smp-SM171"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM171",
+    "card_key": "136|210|2|PLANETA Otani|30,190,20x|1,3,1",
+    "types_en": [
+        "Fire"
+    ]
+}

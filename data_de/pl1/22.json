@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-22",
+    "name": "Heiteira",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "22",
+    "set_total": 133,
+    "rarity": "Selten",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 242,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Farblos"
+    ],
+    "abilities": [
+        {
+            "name": "Pflegeruf",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Karte von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, entferne 2 Schadensmarken von 1 deiner Pokémon. Du kannst nicht mehr als 1 Pflegeruf Poké-Power pro Zug benutzen. Diese Poké-Power kann nicht benutzt werden, wenn Heiteira von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Rückkehr",
+            "damage": 20,
+            "effect": "Ziehe so viele Karten, bis du 6 Karten auf der Hand hast."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Risikotackle",
+            "damage": 100,
+            "effect": "Heiteira fügt sich selbst 60 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+30"
+    },
+    "retreat": 2,
+    "evolve_from": "Chaneira",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-22"
+        }
+    ],
+    "print_key": "tcgdex:pl1-22",
+    "card_key": "242|120|2|Atsuko Nishida|20,100|1,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

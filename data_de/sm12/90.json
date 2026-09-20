@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm12-90",
+    "name": "Golgantes",
+    "img": "https://assets.tcgdex.net/de/sm/sm12/90/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm12",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm12/symbol",
+    "set_full_name": "Welten im Wandel",
+    "series": "Sonne & Mond",
+    "set_code": "sm12",
+    "date": "2019-11-01",
+    "number": "90",
+    "set_total": 271,
+    "rarity": "Selten",
+    "author": [
+        "Ayaka Yoshida"
+    ],
+    "pokedex_number": 623,
+    "pokemon_category": "",
+    "flavor_text": "Es heißt, Golgantes sei von einem alten Volk erschaffen worden, um diesem als Arbeiter zu dienen. Deshalb befolgt es ergeben Befehle.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Rollende Felsen",
+            "damage": 40,
+            "effect": "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Faust des Altertums",
+            "damage": 160,
+            "effect": "Wenn du mindestens 1 Unterstützerkarte in deinem Ablagestapel hast, hat diese Attacke keine Auswirkungen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Golbit",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm12-90"
+        }
+    ],
+    "print_key": "tcgdex:sm12-90",
+    "card_key": "623|140|4|Ayaka Yoshida|40,160|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

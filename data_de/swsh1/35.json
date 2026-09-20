@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh1-35",
+    "name": "Liberlo",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh1/35/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Schwert & Schild",
+    "series": "Schwert & Schild",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "35",
+    "set_total": 216,
+    "rarity": "Holografisch Selten VMAX",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 815,
+    "pokemon_category": "",
+    "flavor_text": "Es jongliert kleine Steine mit den Füßen und erschafft daraus einen Flammenfußball. Seine Gegner verbrennt es mit scharfen Schüssen.",
+    "stage": "Rang 2",
+    "hp": 170,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Feuerball",
+            "damage": 50,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Brennender Schuss",
+            "damage": 160,
+            "effect": "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Kickerlo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh1-35"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-35",
+    "card_key": "815|170|1|Naoki Saito|50,160|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

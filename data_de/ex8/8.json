@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex8-8",
+    "name": "Garados",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "8",
+    "set_total": 108,
+    "rarity": "Selten",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Dragon Spark",
+            "damage": null,
+            "effect": "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and resistance for Benched Pokémon.)"
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Full Retaliation",
+            "damage": "20x",
+            "effect": "Does 20 damage times the number of damage counters on all of your Magikarp."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Pulverize",
+            "damage": "20x",
+            "effect": "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 50 damage plus 50 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex8-8"
+        }
+    ],
+    "print_key": "tcgdex:ex8-8",
+    "card_key": "130|90|2|Hisao Nakamura|None,20x,20x|1,2,4",
+    "types_en": [
+        "Water"
+    ]
+}

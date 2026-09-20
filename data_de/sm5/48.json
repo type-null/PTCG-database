@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm5-48",
+    "name": "Luxtra",
+    "img": "https://assets.tcgdex.net/de/sm/sm5/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultra-Prisma",
+    "series": "Sonne & Mond",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "48",
+    "set_total": 173,
+    "rarity": "Selten",
+    "author": [
+        "Akira Komayama"
+    ],
+    "pokedex_number": 405,
+    "pokemon_category": "",
+    "flavor_text": "Beim Aufspüren von Gefahren sind Luxtras hellseherische Fähigkeiten äußerst hilfreich.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Hammerhauer",
+            "effect": "Solang dieses Pokémon dein Aktives Pokémon ist, fügen die Attacken des Aktiven Pokémon deines Gegners 30 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Strombolzen",
+            "damage": null,
+            "effect": "Lege alle {L}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 1 Pokémon deines Gegners 150 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Luxio",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm5-48"
+        }
+    ],
+    "print_key": "tcgdex:sm5-48",
+    "card_key": "405|150|0|Akira Komayama|None|3",
+    "types_en": [
+        "Lightning"
+    ]
+}

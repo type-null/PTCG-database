@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex1-4",
+    "name": "Camerupt",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex1",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex1/symbol",
+    "set_full_name": "EX Rubin & Saphir",
+    "series": "EX",
+    "set_code": "ex1",
+    "date": "2003-07-01",
+    "number": "4",
+    "set_total": 109,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 323,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Brennende Lava",
+            "damage": 20,
+            "effect": "Wähle 1 gegnerisches Pokémon auf der Bank. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Feuerwirbel",
+            "damage": 100,
+            "effect": "Entferne 2 Basis-Energiekarten von Camerupt und lege sie auf den Ablagestapel, sonst hat dieser Angriff keine Auswirkungen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Camaub",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex1-4"
+        }
+    ],
+    "print_key": "tcgdex:ex1-4",
+    "card_key": "323|90|3|Ken Sugimori|20,100|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

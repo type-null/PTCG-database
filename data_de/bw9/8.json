@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw9-8",
+    "name": "Gewaldro",
+    "img": "https://assets.tcgdex.net/de/bw/bw9/8/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw9",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw9/symbol",
+    "set_full_name": "Plasma-Frost",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw9",
+    "date": "2013-05-08",
+    "number": "8",
+    "set_total": 122,
+    "rarity": "Selten",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 254,
+    "pokemon_category": "",
+    "flavor_text": "Die Blätter an seinen Armen können dicke Bäume fällen. Im Dschungelkampf gibt es kein stärkeres Pokémon.",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Kreuzschere",
+            "damage": 30,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 40 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Energieschwall",
+            "damage": 80,
+            "effect": "Heile 20 Schadenspunkte bei jedem deiner Pokémon, an das Energie angelegt ist."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Reptain",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw9-8"
+        }
+    ],
+    "print_key": "tcgdex:bw9-8",
+    "card_key": "254|130|2|kawayoo|30,80|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

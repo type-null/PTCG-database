@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swsh4-92",
+    "name": "Terrakion",
+    "img": "https://assets.tcgdex.net/es/swsh/swsh4/92/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "D",
+    "set_name": "swsh4",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh4/symbol",
+    "set_full_name": "Voltaje Vívido",
+    "series": "Espada y Escudo",
+    "set_code": "swsh4",
+    "date": "2020-11-13",
+    "number": "92",
+    "set_total": 203,
+    "rarity": "Rara",
+    "author": [
+        "NC Empire"
+    ],
+    "pokedex_number": 639,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 140,
+    "types": [
+        "Lucha"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lucha",
+                "Incolora"
+            ],
+            "name": "Presión de Guardia",
+            "damage": 30,
+            "effect": "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia)."
+        },
+        {
+            "cost": [
+                "Lucha",
+                "Lucha",
+                "Incolora"
+            ],
+            "name": "Poder Terrestre",
+            "damage": "80+",
+            "effect": "Si tienes un Estadio en juego, este ataque hace 80 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swsh4-92"
+        }
+    ],
+    "print_key": "tcgdex:swsh4-92",
+    "card_key": "639|140|4|NC Empire|30,80+|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

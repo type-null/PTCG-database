@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex2-12",
+    "name": "Tengalice",
+    "img": "https://assets.tcgdex.net/fr/ex/ex2/12/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex2",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex2/symbol",
+    "set_full_name": "EX Tempête de sable",
+    "series": "EX",
+    "set_code": "ex2",
+    "date": "2003-09-18",
+    "number": "12",
+    "set_total": 100,
+    "rarity": "Holo Rare",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 275,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Faire de l'air",
+            "effect": "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, votre adversaire reprend dans sa main une carte Énergie attachée au Pokémon Défenseur. Ce pouvoir ne peut pas être utilisé si Tengalice est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Lancer léger",
+            "damage": "80-",
+            "effect": "Inflige 80 dégâts moins 10 dégâts pour chaque Énergie attachée au Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Pifeuil",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex2-12"
+        }
+    ],
+    "print_key": "tcgdex:ex2-12",
+    "card_key": "275|120|2|Atsuko Nishida|80-|4",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dpp-DP11",
+    "name": "Pingoléon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dpp",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dpp/symbol",
+    "set_full_name": "Promo DP",
+    "series": "Diamant & Perle",
+    "set_code": "dpp",
+    "date": "2007-05-01",
+    "number": "DP11",
+    "set_total": 56,
+    "rarity": "Commune",
+    "author": [
+        "Shizurow"
+    ],
+    "pokedex_number": 395,
+    "pokemon_category": "",
+    "stage": "Niveau Sup",
+    "hp": 140,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Commandant en chef",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez choisir sans regarder jusqu'à 2 cartes de la main de votre adversaire et les placer face cachée à côté du Pokémon Défenseur. (Ces cartes ne sont ni en jeu ni dans la main de votre adversaire.) À la fin du prochain tour de votre adversaire, replacez ces cartes dans la main de votre adversaire. Ce pouvoir ne peut pas être utilisé si Pingoléon est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Eau"
+            ],
+            "name": "Hydro-impact",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 80 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc). Pingoléon ne peut pas attaquer lors de votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dpp-DP11"
+        }
+    ],
+    "print_key": "tcgdex:dpp-DP11",
+    "card_key": "395|140|2|Shizurow|None|3",
+    "types_en": [
+        "Water"
+    ]
+}

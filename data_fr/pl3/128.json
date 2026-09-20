@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl3-128",
+    "name": "Rapion",
+    "img": "https://assets.tcgdex.net/fr/pl/pl3/128/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Vainqueurs Suprêmes",
+    "series": "Platine",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "128",
+    "set_total": 162,
+    "rarity": "Commune",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 451,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Dard-venin",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Éclate-queue",
+            "damage": 40,
+            "effect": "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+10"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl3-128"
+        }
+    ],
+    "print_key": "tcgdex:pl3-128",
+    "card_key": "451|50|2|Hajime Kusajima|10,40|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

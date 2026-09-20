@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy2-26",
+    "name": "Walraisa",
+    "img": "https://assets.tcgdex.net/de/xy/xy2/26/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy2",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy2/symbol",
+    "set_full_name": "Flammenmeer",
+    "series": "XY",
+    "set_code": "xy2",
+    "date": "2014-05-07",
+    "number": "26",
+    "set_total": 110,
+    "rarity": "Selten",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 365,
+    "pokemon_category": "",
+    "flavor_text": "Mit seinen Stoßzähnen bricht es durch Eis. Eine Speckschicht schützt es vor Kälte und Angriffen.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Pulverschnee",
+            "damage": 60,
+            "effect": "Das Aktive Pokémon deines Gegners schläft jetzt."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Großer Stoßzahn",
+            "damage": "120-",
+            "effect": "Dieser Angriff fügt 120 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Seejong",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy2-26"
+        }
+    ],
+    "print_key": "tcgdex:xy2-26",
+    "card_key": "365|150|4|Naoki Saito|60,120-|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/smp-SM68",
+    "name": "Câblifère GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "Promo SM",
+    "series": "Soleil et Lune",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM68",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 796,
+    "pokemon_category": "",
+    "hp": 180,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Tête Clignotante",
+            "effect": "Évitez tous les dégâts d’attaque infligés à ce Pokémon par les Pokémon de votre adversaire auxquels est attachée de l’Énergie spéciale."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Câbles Grondants",
+            "damage": 100,
+            "effect": "Défaussez la première carte du dessus du deck de votre adversaire."
+        },
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Éclair GX",
+            "damage": null,
+            "effect": "Votre adversaire dévoile sa main. Ajoutez une des cartes que vous y trouvez à ses cartes Récompense, face cachée. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/smp-SM68"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM68",
+    "card_key": "796|180|2|5ban Graphics|100,None|3,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

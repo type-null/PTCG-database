@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv06-169",
+    "name": "Sonnflora",
+    "img": "https://assets.tcgdex.net/de/sv/sv06/169/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "H",
+    "set_name": "sv06",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv06/symbol",
+    "set_full_name": "Maskerade im Zwielicht",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv06",
+    "date": "2024-05-24",
+    "number": "169",
+    "set_total": 226,
+    "rarity": "Selten, Illustration",
+    "author": [
+        "Shinya Komatsu"
+    ],
+    "pokedex_number": 192,
+    "pokemon_category": "",
+    "flavor_text": "Tagsüber richtet es sich stets auf die Sonne aus, um ihr Licht aufzufangen und in Energie umzuwandeln.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Umgeleitetes Sonnenlicht",
+            "damage": "60×",
+            "effect": "Diese Attacke fügt für jede an alle Pokémon deines Gegners angelegte {R}-Energie 60 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Megasauger",
+            "damage": 50,
+            "effect": "Heile 30 Schadenspunkte bei diesem Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Sonnkern",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv06-169"
+        }
+    ],
+    "print_key": "tcgdex:sv06-169",
+    "card_key": "192|100|1|Shinya Komatsu|60x,50|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

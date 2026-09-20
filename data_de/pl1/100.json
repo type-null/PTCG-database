@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-100",
+    "name": "Qurtel",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "100",
+    "set_total": 133,
+    "rarity": "Häufig",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 324,
+    "pokemon_category": "",
+    "flavor_text": "In seinem Panzer verbrennt es Kohle und gewinnt daraus Energie. Bei Gefahr sondert es Ruß ab.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Super-Versengung",
+            "damage": 10,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verbrannt."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Flammender Ball",
+            "damage": 40,
+            "effect": "Entferne 1 an Qurtel angelegte Energiekarte und lege sie an 1 Pokémon auf deiner Bank an."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-100"
+        }
+    ],
+    "print_key": "tcgdex:pl1-100",
+    "card_key": "324|80|2|Kouki Saitou|10,40|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

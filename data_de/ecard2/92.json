@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard2-92",
+    "name": "Menki",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-Card",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "92",
+    "set_total": 186,
+    "rarity": "Häufig",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 56,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 40,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Ausrauben",
+            "damage": 10,
+            "effect": "Lege alle Trainerkarten, die an das Verteidigende Pokémon angelegt sind, auf den Ablagestapel deines Gegners, bevor der Schaden zugefügt wird."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Raserei",
+            "damage": "10+",
+            "effect": "Dieser Angriff fügt 10 Schadenspunkte plus 10 zusätzliche Schadenspunkte für jede Schadensmarke auf Menki zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard2-92"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-92",
+    "card_key": "56|40|1|Tomokazu Komiya|10,10+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

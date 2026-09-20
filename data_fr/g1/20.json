@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/g1-20",
+    "name": "Crustabri",
+    "img": "https://assets.tcgdex.net/fr/xy/g1/20/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Générations",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "20",
+    "set_total": 117,
+    "rarity": "Peu Commune",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 91,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Pince Broyeuse",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé, et vous défaussez une Énergie lui étant attachée."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Picanon",
+            "damage": "30×",
+            "effect": "Lancez 5 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Kokiyas",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/g1-20"
+        }
+    ],
+    "print_key": "tcgdex:g1-20",
+    "card_key": "91|100|3|Masakazu Fukuda|30,30x|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

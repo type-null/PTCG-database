@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard2-112",
+    "name": "Saquedeneu",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard2/112/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-cards",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "112",
+    "set_total": 186,
+    "rarity": "Commune",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 114,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Chatouillianes",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Double pied",
+            "damage": "30×",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard2-112"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-112",
+    "card_key": "114|60|2|Tomokazu Komiya|10,30x|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

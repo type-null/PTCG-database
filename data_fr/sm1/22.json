@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm1-22",
+    "name": "Arcanin",
+    "img": "https://assets.tcgdex.net/fr/sm/sm1/22/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Soleil et Lune",
+    "series": "Soleil et Lune",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "22",
+    "set_total": 163,
+    "rarity": "Rare",
+    "author": [
+        "kodama"
+    ],
+    "pokedex_number": 59,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 130,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Flammes Calcinantes",
+            "damage": 60,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Orage de Flammes",
+            "damage": 190,
+            "effect": "Défaussez 3 Énergies Fire de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Caninos",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm1-22"
+        }
+    ],
+    "print_key": "tcgdex:sm1-22",
+    "card_key": "59|130|2|kodama|60,190|3,4",
+    "types_en": [
+        "Fire"
+    ]
+}

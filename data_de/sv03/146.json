@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv03-146",
+    "name": "Voluminas",
+    "img": "https://assets.tcgdex.net/de/sv/sv03/146/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv03",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03/symbol",
+    "set_full_name": "Obsidian Flammen",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv03",
+    "date": "2023-08-11",
+    "number": "146",
+    "set_total": 230,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "takuyoa"
+    ],
+    "pokedex_number": 476,
+    "pokemon_category": "",
+    "flavor_text": "Sein Körper selbst befehligt meist nur die drei kleinen Einheiten, die an seiner Stelle kämpfen und für die Nahrungssuche zuständig sind.",
+    "stage": "Rang 1",
+    "hp": 150,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Dreifachnase",
+            "damage": "40×",
+            "effect": "Wirf 3 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Eisensprenger",
+            "damage": 160,
+            "effect": "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 4,
+    "evolve_from": "Nasgnet",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv03-146"
+        }
+    ],
+    "print_key": "tcgdex:sv03-146",
+    "card_key": "476|150|4|takuyoa|40x,160|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

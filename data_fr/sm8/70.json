@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm8-70",
+    "name": "Denticrisse",
+    "img": "https://assets.tcgdex.net/fr/sm/sm8/70/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Tonnerre Perdu",
+    "series": "Soleil et Lune",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "70",
+    "set_total": 236,
+    "rarity": "Commune",
+    "author": [
+        "tetsuya koizumi"
+    ],
+    "pokedex_number": 779,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Contrôleur d’Esprit",
+            "damage": 20,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Bonjour les Dégâts",
+            "damage": null,
+            "effect": "Cette attaque inflige 60 dégâts à l’un des Pokémon de Banc de votre adversaire ayant au moins un marqueur de dégâts. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm8-70"
+        }
+    ],
+    "print_key": "tcgdex:sm8-70",
+    "card_key": "779|90|1|tetsuya koizumi|20,None|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-14",
+    "name": "Tengalice",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "14",
+    "set_total": 130,
+    "rarity": "Rare Holo",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 275,
+    "pokemon_category": "",
+    "flavor_text": "D'un coup de sa feuille éventail, il génère des bourrasques de 30 m/s capables de souffler une maison.",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Obscurité"
+    ],
+    "abilities": [
+        {
+            "name": "Ventilateur Obscurité",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), si Tengalice est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, choisissez 1 Pokémon Évolué sur le Banc de votre adversaire, retirez-lui la carte Évolution au niveau le plus élevé et replacez-la dans sa main. Ce pouvoir ne peut pas être utilisé si Tengalice est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Danse spirituelle",
+            "damage": "50+",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Pifeuil",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-14"
+        }
+    ],
+    "print_key": "tcgdex:dp1-14",
+    "card_key": "275|120|2|Masakazu Fukuda|50+|3",
+    "types_en": [
+        "Darkness"
+    ]
+}

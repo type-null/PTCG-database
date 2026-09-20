@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-10",
+    "name": "Mewtwo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "10",
+    "set_total": 102,
+    "rarity": "Rara",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "flavor_text": "Questo Pokémon è stato creato da uno scienziato pazzo, dopo anni di esperimenti con mutazioni genetiche e manipolazioni di DNA. LIV 53 N.150",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psico",
+                "Incolore"
+            ],
+            "name": "Psichico",
+            "damage": "10+",
+            "effect": "Infligge 10 danni più altri 10 danni per ogni carta Energia assegnata al Pokémon Difensore."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Psico"
+            ],
+            "name": "Barriera",
+            "damage": null,
+            "effect": "Scarta una carta Energia Psico assegnata a Mewtwo per poter usare questo attacco. Durante il prossimo turno del tuo avversario, previeni tutti gli effetti degli attacchi inflitti a Mewtwo, compresi i danni."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-10"
+        }
+    ],
+    "print_key": "tcgdex:base1-10",
+    "card_key": "150|60|3|Ken Sugimori|10+,None|2,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

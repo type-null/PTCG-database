@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh3.5-27",
+    "name": "Lucario V",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh3.5/27/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "V"
+    ],
+    "regulation": "D",
+    "set_name": "swsh3.5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh3.5/symbol",
+    "set_full_name": "La Voie du Maître",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh3.5",
+    "date": "2020-09-25",
+    "number": "27",
+    "set_total": 80,
+    "rarity": "Holo Rare V",
+    "author": [
+        "AKIRA EGAWA"
+    ],
+    "pokedex_number": 448,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 210,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Aurasphère",
+            "damage": 40,
+            "effect": "Cette attaque inflige aussi 20 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Dérouillée Fracassante",
+            "damage": 180,
+            "effect": "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Dérouillée Fracassante."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh3.5-27"
+        }
+    ],
+    "print_key": "tcgdex:swsh3.5-27",
+    "card_key": "448|210|2|AKIRA EGAWA|40,180|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

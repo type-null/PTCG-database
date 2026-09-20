@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base5-18",
+    "name": "Dunkles Simsala",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Grund",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "18",
+    "set_total": 83,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 65,
+    "pokemon_category": "",
+    "flavor_text": "Fast als ob es ferngesteuert wäre, ändert es selbst in der Mitte der Schlacht seinen Gesichtsausdruck nie.",
+    "stage": "Rang 2",
+    "hp": 60,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Teleportstoß",
+            "damage": 30,
+            "effect": "Du kannst Dunkles Simsala mit einem Pokémon auf deiner Bank austauschen. (Füge die Schadenspunkte vor dem Auswechseln der Pokémon zu.)"
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Verstandesschock",
+            "damage": 40,
+            "effect": "Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Kadabra",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base5-18"
+        }
+    ],
+    "print_key": "tcgdex:base5-18",
+    "card_key": "65|60|3|Ken Sugimori|30,40|3,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

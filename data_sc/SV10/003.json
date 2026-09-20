@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/zh-cn/cards/SV10-003",
+    "name": "斗笠菇",
+    "img": "",
+    "card_type": "Pokemon",
+    "lang": "sc",
+    "regulation": "I",
+    "set_name": "SV10",
+    "set_full_name": "火箭隊的榮耀",
+    "series": "朱&紫",
+    "set_code": "SV10",
+    "date": "2025-05-02",
+    "number": "003",
+    "set_total": 98,
+    "rarity": "Common",
+    "author": [
+        "nisimono"
+    ],
+    "pokedex_number": 286,
+    "pokemon_category": "",
+    "flavor_text": "會撒出毒孢子，然後再讓 因吸入孢子而痛苦不堪的 對手吃上一記重拳。",
+    "stage": "Stage1",
+    "hp": 120,
+    "types": [
+        "Grass"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "傷害衝刺",
+            "damage": "30+",
+            "effect": "擲硬幣直到出現反面，增加正面出現的次數×50點傷害。"
+        },
+        {
+            "cost": [
+                "Grass",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "超級吸取",
+            "damage": 90,
+            "effect": "將這隻寶可夢恢復「30」HP。"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/zh-cn/cards/SV10-003"
+        }
+    ],
+    "print_key": "asia:SV10-3",
+    "card_key": "286|120|2|nisimono|30+,90|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh12-060",
+    "name": "Traumato",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh12/060/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh12",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12/symbol",
+    "set_full_name": "Silberne Sturmwinde",
+    "series": "Schwert & Schild",
+    "set_code": "swsh12",
+    "date": "2022-11-11",
+    "number": "060",
+    "set_total": 215,
+    "rarity": "Häufig",
+    "author": [
+        "Souichirou Gunjima"
+    ],
+    "pokedex_number": 96,
+    "pokemon_category": "",
+    "flavor_text": "Traumato versetzt seine Beute in den Schlaf und frisst ihre Träume. Alpträume mag es aufgrund ihres säuerlichen Geschmacks nicht so gern.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Psyhieb",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Hypnotischer Strahl",
+            "damage": 20,
+            "effect": "Das Aktive Pokémon deines Gegners schläft jetzt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh12-060"
+        }
+    ],
+    "print_key": "tcgdex:swsh12-60",
+    "card_key": "96|70|2|Souichirou Gunjima|10,20|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

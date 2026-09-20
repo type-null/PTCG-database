@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bwp-BW67",
+    "name": "Pharamp",
+    "img": "https://assets.tcgdex.net/fr/bw/bwp/BW67/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bwp",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bwp/symbol",
+    "set_full_name": "Promo BW",
+    "series": "Noir & Blanc",
+    "set_code": "bwp",
+    "date": "2011-04-26",
+    "number": "BW67",
+    "set_total": 101,
+    "rarity": "Commune",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 181,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 140,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Étincelle Surprise",
+            "damage": null,
+            "effect": "Cette attaque inflige 30 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Canon Électrique",
+            "damage": 60,
+            "effect": "Vous pouvez défausser toutes les Énergies Lightning attachées à ce Pokémon. Dans ce cas, cette attaque inflige 60 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Lainergie",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bwp-BW67"
+        }
+    ],
+    "print_key": "tcgdex:bwp-BW67",
+    "card_key": "181|140|2|Naoki Saito|None,60|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-6",
+    "name": "Scarhino",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/6/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "6",
+    "set_total": 111,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 214,
+    "pokemon_category": "",
+    "flavor_text": "Ce puissant Pokémon enfonce sa corne très recherchée sous le ventre de ses ennemis, puis les soulève et les jette au loin.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Souffle final",
+            "effect": "Si Scarhino a 20 points de vie ou moins, vous pouvez changer les dégâts de son attaque Megacorne pour 120 au lieu de 60. Ce pouvoir ne peut être utilisé si Scarhino est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Plante"
+            ],
+            "name": "Megacorne",
+            "damage": 60,
+            "effect": "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-6"
+        }
+    ],
+    "print_key": "tcgdex:neo1-6",
+    "card_key": "214|60|2|Ken Sugimori|60|3",
+    "types_en": [
+        "Grass"
+    ]
+}

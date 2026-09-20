@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw5-37",
+    "name": "Blitza",
+    "img": "https://assets.tcgdex.net/de/bw/bw5/37/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw5",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw5/symbol",
+    "set_full_name": "Erforscher der Finsternis",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw5",
+    "date": "2012-05-09",
+    "number": "37",
+    "set_total": 111,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 135,
+    "pokemon_category": "",
+    "flavor_text": "Bringt man es aus der Ruhe, verwendet es Elektrizität, um kleine Knäuel seines Fells abzufeuern.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Elektroknarre",
+            "damage": 20,
+            "effect": "Du kannst 1 an dieses Pokémon angelegte {L}-Energie auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 40 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Nadelrakete",
+            "damage": 40,
+            "effect": "Wirf 4 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw5-37"
+        }
+    ],
+    "print_key": "tcgdex:bw5-37",
+    "card_key": "135|90|0|Sumiyoshi Kizuki|20,40|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy8-72",
+    "name": "Rhinolove",
+    "img": "https://assets.tcgdex.net/fr/xy/xy8/72/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy8",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy8/symbol",
+    "set_full_name": "Impulsion Turbo",
+    "series": "XY",
+    "set_code": "xy8",
+    "date": "2015-11-04",
+    "number": "72",
+    "set_total": 165,
+    "rarity": "Peu Commune",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 528,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Amplification d'Onde",
+            "damage": null,
+            "effect": "Pendant votre prochain tour, l'attaque Écho de Retour de ce Pokémon inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Écho de Retour",
+            "damage": 60,
+            "effect": "Lancez une pièce. Si c'est pile, reprenez ce Pokémon et toutes les cartes qui lui sont attachées dans votre main."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Chovsourir",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy8-72"
+        }
+    ],
+    "print_key": "tcgdex:xy8-72",
+    "card_key": "528|90|1|sui|None,60|1,1",
+    "types_en": [
+        "Psychic"
+    ]
+}

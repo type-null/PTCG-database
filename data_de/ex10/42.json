@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex10-42",
+    "name": "Miltank",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Verborgene Mächte",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "42",
+    "set_total": 117,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 241,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Farblos"
+    ],
+    "abilities": [
+        {
+            "name": "Thick Fat",
+            "effect": "Any damage done to Miltank by attacks from  Pokémon and  Pokémon is reduced by 30 (after applying Weakness and Resistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Healing Milk",
+            "damage": null,
+            "effect": "Flip 2 coins. For each heads, remove 2 damage counters from 1 of your Pokémon."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Body Slam",
+            "damage": 20,
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex10-42"
+        }
+    ],
+    "print_key": "tcgdex:ex10-42",
+    "card_key": "241|60|1|Tomokazu Komiya|None,20|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

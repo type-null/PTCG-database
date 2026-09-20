@@ -1,0 +1,77 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex12-1",
+    "name": "Ptéra",
+    "img": "https://assets.tcgdex.net/fr/ex/ex12/1/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Créateurs de légendes",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "1",
+    "set_total": 93,
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 142,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Protection réactive",
+            "effect": "Tous dégâts infligés à Ptera par des attaques de Pokémon de votre adversaire sont réduits de 10 pour chaque carte Énergie réaction attachée à Ptera (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Coup puissant",
+            "damage": "10+",
+            "effect": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Ptera."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coup foudroyant",
+            "damage": 40,
+            "effect": "Lors du prochain tour de votre adversaire, prévenez tous les effets, dégâts inclus, infligés à Ptera par des attaques de Pokémon-ex de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 0,
+    "evolve_from": "Mystérieux fossile",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex12-1"
+        }
+    ],
+    "print_key": "tcgdex:ex12-1",
+    "card_key": "142|70|0|Hajime Kusajima|10+,40|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

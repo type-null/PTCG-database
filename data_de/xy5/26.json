@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy5-26",
+    "name": "Flemmli",
+    "img": "https://assets.tcgdex.net/de/xy/xy5/26/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Protoshock",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "26",
+    "set_total": 164,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 255,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "{title}:",
+            "effect": "{title}: Dieses Pokémon kann während eines Zuges zweimal angreifen. (Falls der erste Angriff das Aktive Pokémon deines Gegners kampfunfähig macht, kannst du erneut angreifen, nachdem dein Gegner ein neues Aktives Pokémon ausgewählt hat.)"
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Flammenbonus",
+            "damage": null,
+            "effect": "Lege 1 Fire-Energie aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 2 Karten."
+        },
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Klaue",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy5-26"
+        }
+    ],
+    "print_key": "tcgdex:xy5-26",
+    "card_key": "255|50|1|5ban Graphics|None,20|1,1",
+    "types_en": [
+        "Fire"
+    ]
+}

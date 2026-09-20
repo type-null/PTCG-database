@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex13-104",
+    "name": "Pikachu *",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex13",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex13/symbol",
+    "set_full_name": "EX Holon Phantoms",
+    "series": "EX",
+    "set_code": "ex13",
+    "date": "2006-05-03",
+    "number": "104",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Donnerschock",
+            "damage": 10,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Zurückspringen",
+            "damage": "20+",
+            "effect": "Wenn dein Gegner nur noch 1 Preis übrig hat, fügt dieser Angriff 20 Schadenspunkte plus weitere 50 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex13-104"
+        }
+    ],
+    "print_key": "tcgdex:ex13-104",
+    "card_key": "25|60|1|Masakazu Fukuda|10,20+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh4.5sv-SV112",
+    "name": "Riffex V",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "V"
+    ],
+    "regulation": "D",
+    "set_name": "swsh4.5sv",
+    "set_full_name": "Glänzendes Schicksal Glitzer-Tresor",
+    "series": "Schwert & Schild",
+    "set_code": "swsh4.5sv",
+    "date": "2021-02-19",
+    "number": "SV112",
+    "set_total": 122,
+    "rarity": "Shiny rare V",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 849,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 210,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Gifthieb",
+            "damage": 20,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Elektro-Aufstand",
+            "damage": "90+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners vergiftet ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh4.5sv-SV112"
+        }
+    ],
+    "print_key": "tcgdex:swsh4.5sv-SV112",
+    "card_key": "849|210|2|5ban Graphics|20,90+|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

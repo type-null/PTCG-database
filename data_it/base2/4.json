@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base2-4",
+    "name": "Jolteon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Originale",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "4",
+    "set_total": 64,
+    "rarity": "Rara",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 135,
+    "pokemon_category": "",
+    "flavor_text": "Attira ioni negativi dall'atmosfera per lanciare fulmini da 10.000 volt.",
+    "stage": "Livello 1",
+    "hp": 70,
+    "types": [
+        "Lampo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Attacco Rapido",
+            "damage": "10+",
+            "effect": "Lancia una moneta. Se esce testa questo attacco infligge 10 danni più altri 20 danni; se esce croce questo attacco infligge 10 danni."
+        },
+        {
+            "cost": [
+                "Lampo",
+                "Lampo",
+                "Incolore"
+            ],
+            "name": "Missilspillo",
+            "damage": "20x",
+            "effect": "Lancia 4 volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base2-4"
+        }
+    ],
+    "print_key": "tcgdex:base2-4",
+    "card_key": "135|70|1|Kagemaru Himeno|10+,20x|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

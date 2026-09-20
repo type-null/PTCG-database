@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/me01-047",
+    "name": "Magnezone",
+    "img": "https://assets.tcgdex.net/it/me/me01/047/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "I",
+    "set_name": "me01",
+    "set_img": "https://assets.tcgdex.net/univ/me/me01/symbol",
+    "set_full_name": "Megaevoluzione",
+    "series": "Megaevoluzione",
+    "set_code": "me01",
+    "date": "2025-09-26",
+    "number": "047",
+    "set_total": 188,
+    "rarity": "Non comune",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 462,
+    "pokemon_category": "",
+    "stage": "Livello 2",
+    "hp": 160,
+    "types": [
+        "Lampo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lampo"
+            ],
+            "name": "Scintilla Crescente",
+            "damage": "50+",
+            "effect": "Se questo Pokémon si è evoluto da Magneton durante questo turno, questo attacco infligge 120 danni in più."
+        },
+        {
+            "cost": [
+                "Lampo",
+                "Lampo"
+            ],
+            "name": "Bolide Abbagliante",
+            "damage": 160,
+            "effect": "Durante il tuo prossimo turno, questo Pokémon non può usare Bolide Abbagliante."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Magneton",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/me01-047"
+        }
+    ],
+    "print_key": "tcgdex:me01-47",
+    "card_key": "462|160|3|nagimiso|50+,160|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

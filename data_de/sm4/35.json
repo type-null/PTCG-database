@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm4-35",
+    "name": "Emolga",
+    "img": "https://assets.tcgdex.net/de/sm/sm4/35/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Aufziehen der Sturmröte",
+    "series": "Sonne & Mond",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "35",
+    "set_total": 125,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 587,
+    "pokemon_category": "",
+    "flavor_text": "Es gleitet mit seinen Fluglappen, die einem Cape ähneln, durch die Luft. Es entlädt ständig Strom, der Freund und Feind Stromschläge verpasst.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Energieschnapper",
+            "damage": null,
+            "effect": "Nimm 3 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand."
+        },
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Voltwechsel",
+            "damage": 30,
+            "effect": "Tausche dieses Pokémon gegen 1 {L}-Pokémon auf deiner Bank aus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm4-35"
+        }
+    ],
+    "print_key": "tcgdex:sm4-35",
+    "card_key": "587|60|1|Kagemaru Himeno|None,30|1,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

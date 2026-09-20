@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv10-006",
+    "name": "Chapignon",
+    "img": "https://assets.tcgdex.net/fr/sv/sv10/006/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "I",
+    "set_name": "sv10",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv10/symbol",
+    "set_full_name": "Rivalités Destinées",
+    "series": "Écarlate et Violet",
+    "set_code": "sv10",
+    "date": "2025-05-30",
+    "number": "006",
+    "set_total": 244,
+    "rarity": "Commune",
+    "author": [
+        "nisimono"
+    ],
+    "pokedex_number": 286,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Charge Destructrice",
+            "damage": "30+",
+            "effect": "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 50 dégâts supplémentaires pour chaque côté face."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Méga-Sangsue",
+            "damage": 90,
+            "effect": "Soignez 30 dégâts de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Balignon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv10-006"
+        }
+    ],
+    "print_key": "tcgdex:sv10-6",
+    "card_key": "286|120|2|nisimono|30+,90|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

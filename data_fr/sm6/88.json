@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm6-88",
+    "name": "Dedenne",
+    "img": "https://assets.tcgdex.net/fr/sm/sm6/88/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm6",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm6/symbol",
+    "set_full_name": "Lumière Interdite",
+    "series": "Soleil et Lune",
+    "set_code": "sm6",
+    "date": "2018-05-04",
+    "number": "88",
+    "set_total": 146,
+    "rarity": "Peu Commune",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 702,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Fée"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fée"
+            ],
+            "name": "Trouver un Ami",
+            "damage": null,
+            "effect": "Cherchez un Pokémon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Électrichaîne",
+            "damage": "30+",
+            "effect": "Si vous avez un Pokémon Lightning sur votre Banc, cette attaque inflige 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Métal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm6-88"
+        }
+    ],
+    "print_key": "tcgdex:sm6-88",
+    "card_key": "702|60|1|Tomokazu Komiya|None,30+|1,2",
+    "types_en": [
+        "Fairy"
+    ]
+}

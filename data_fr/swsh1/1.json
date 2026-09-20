@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh1-1",
+    "name": "Celebi V",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh1/1/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "V"
+    ],
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Épée et Bouclier",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "1",
+    "set_total": 216,
+    "rarity": "Holo Rare V",
+    "author": [
+        "PLANETA Igarashi"
+    ],
+    "pokedex_number": 251,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 180,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Trouver un Ami",
+            "damage": null,
+            "effect": "Cherchez dans votre deck jusqu'à 2 Pokémon, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Force Linéaire",
+            "damage": "50+",
+            "effect": "Cette attaque inflige 20 dégâts supplémentaires pour chacun de vos Pokémon de Banc."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh1-1"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-1",
+    "card_key": "251|180|1|PLANETA Igarashi|None,50+|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

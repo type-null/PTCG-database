@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm3-48",
+    "name": "Laschoking",
+    "img": "https://assets.tcgdex.net/de/sm/sm3/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Nacht in Flammen",
+    "series": "Sonne & Mond",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "48",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "Eri Yamaki"
+    ],
+    "pokedex_number": 199,
+    "pokemon_category": "",
+    "flavor_text": "Durch einen giftigen Biss wurde es zu einer wahren Intelligenzbestie. Es verfügt über Psycho-Kräfte.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Anschwemmen",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Wehrlos",
+            "damage": 110,
+            "effect": "Wenn du keine Karten auf deiner Hand hast, ignoriere alle Energien in den Kosten dieser Attacke."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Flegmon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm3-48"
+        }
+    ],
+    "print_key": "tcgdex:sm3-48",
+    "card_key": "199|120|2|Eri Yamaki|None,110|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

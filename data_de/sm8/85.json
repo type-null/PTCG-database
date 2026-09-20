@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm8-85",
+    "name": "Kapu-Riki",
+    "img": "https://assets.tcgdex.net/de/sm/sm8/85/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Echo des Donners",
+    "series": "Sonne & Mond",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "85",
+    "set_total": 236,
+    "rarity": "Selten",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 785,
+    "pokemon_category": "",
+    "flavor_text": "Mit atemberaubendem Tempo bringt es Gegner aus dem Konzept. Es ist aufbrausend, vergisst aber sofort, warum es so wütend geworden ist.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Beharken",
+            "damage": 30,
+            "effect": "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Leuchtblitz",
+            "damage": 120,
+            "effect": "Dieses Pokémon kann Leuchtblitz während deines nächsten Zuges nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm8-85"
+        }
+    ],
+    "print_key": "tcgdex:sm8-85",
+    "card_key": "785|120|1|kawayoo|30,120|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

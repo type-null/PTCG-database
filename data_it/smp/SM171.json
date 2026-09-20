@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/smp-SM171",
+    "name": "Flareon GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SL Promo",
+    "series": "Sole e Luna",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM171",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "PLANETA Otani"
+    ],
+    "pokedex_number": 136,
+    "pokemon_category": "",
+    "hp": 210,
+    "types": [
+        "Fuoco"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuoco"
+            ],
+            "name": "Fase di Fuoco",
+            "damage": 30,
+            "effect": "Puoi assegnare a piacimento ai tuoi Pokémon fino a tre carte Energia Fire dalla tua mano."
+        },
+        {
+            "cost": [
+                "Fuoco",
+                "Fuoco",
+                "Incolore"
+            ],
+            "name": "Splendifiamma",
+            "damage": 190,
+            "effect": "Scarta due Energie Fire assegnate a questo Pokémon."
+        },
+        {
+            "cost": [
+                "Fuoco"
+            ],
+            "name": "Combustione Energetica GX",
+            "damage": "20×",
+            "effect": "Questo attacco infligge 20 danni per ogni carta Energia Fire nella tua pila degli scarti. Non puoi usare più di un attacco GX a partita."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Acqua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/smp-SM171"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM171",
+    "card_key": "136|210|2|PLANETA Otani|30,190,20x|1,3,1",
+    "types_en": [
+        "Fire"
+    ]
+}

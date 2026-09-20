@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv04.5-193",
+    "name": "Knattatox",
+    "img": "https://assets.tcgdex.net/de/sv/sv04.5/193/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv04.5",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04.5/symbol",
+    "set_full_name": "Paldeas Schicksale",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv04.5",
+    "date": "2024-01-26",
+    "number": "193",
+    "set_total": 245,
+    "rarity": "Shiny rare",
+    "author": [
+        "GOSSAN"
+    ],
+    "pokedex_number": 966,
+    "pokemon_category": "",
+    "flavor_text": "Mit seinen nunmehr acht Zylindern lässt es ein Gasgemisch aus Gift und Gesteinsmineralien explodieren, um daraus Energie zu gewinnen.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Knatternder Motor",
+            "effect": "Du musst 1 Energiekarte aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du so lange Karten ziehen, bis du 6 Karten auf deiner Hand hast."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zurückschlagen",
+            "damage": "90+",
+            "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 90 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Knattox",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv04.5-193"
+        }
+    ],
+    "print_key": "tcgdex:sv04.5-193",
+    "card_key": "966|140|2|GOSSAN|90+|4",
+    "types_en": [
+        "Metal"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/xy11-23",
+    "name": "Pyroar",
+    "img": "https://assets.tcgdex.net/it/xy/xy11/23/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Vapori Accesi",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "23",
+    "set_total": 116,
+    "rarity": "Rara",
+    "author": [
+        "Yumi"
+    ],
+    "pokedex_number": 668,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 120,
+    "types": [
+        "Fuoco"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuoco",
+                "Incolore"
+            ],
+            "name": "Nitrocarica",
+            "damage": 60,
+            "effect": "Cerca nel tuo mazzo una carta Energia Fire e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo."
+        },
+        {
+            "cost": [
+                "Fuoco",
+                "Fuoco",
+                "Incolore"
+            ],
+            "name": "Bruciatutto",
+            "damage": 90,
+            "effect": "Prima di infliggere i danni, scarta tutte le carte Oggetto Pokémon assegnate al Pokémon attivo del tuo avversario."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Acqua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Litleo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/xy11-23"
+        }
+    ],
+    "print_key": "tcgdex:xy11-23",
+    "card_key": "668|120|2|Yumi|60,90|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

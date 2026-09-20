@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dpp-DP52",
+    "name": "Darkrai",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dpp",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dpp/symbol",
+    "set_full_name": "Promo DP",
+    "series": "Diamant & Perl",
+    "set_code": "dpp",
+    "date": "2007-05-01",
+    "number": "DP52",
+    "set_total": 56,
+    "rarity": "Häufig",
+    "author": [
+        "Wataru Kawahara"
+    ],
+    "pokedex_number": 491,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Unlicht"
+    ],
+    "abilities": [
+        {
+            "name": "Darkness Aura",
+            "effect": "If you have Cresselia in play, each of Darkrai's attacks does 20 more damage to the Defending Pokémon (before applying Weakness and Resistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht",
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Hypnoblast",
+            "damage": 60,
+            "effect": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dpp-DP52"
+        }
+    ],
+    "print_key": "tcgdex:dpp-DP52",
+    "card_key": "491|90|2|Wataru Kawahara|60|3",
+    "types_en": [
+        "Darkness"
+    ]
+}

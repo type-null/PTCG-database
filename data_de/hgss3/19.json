@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss3-19",
+    "name": "Traunmagil",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss3/19/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss3",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss3/symbol",
+    "set_full_name": "Unerschrocken",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss3",
+    "date": "2010-08-18",
+    "number": "19",
+    "set_total": 91,
+    "rarity": "Selten",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "pokedex_number": 429,
+    "pokemon_category": "",
+    "flavor_text": "Sein bizarrer, bannfluchartiger Ruf quält seine Gegner. Es verschwindet so plötzlich, wie es auftaucht.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Schlafzauber",
+            "damage": 30,
+            "effect": "Wirf eine Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Poltergeist",
+            "damage": "30×",
+            "effect": "Schau dir die Handkarten deines Gegners an. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl der Trainer-, Unterstützer- und Stadion-Karten, die du dort gefunden hast, zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Traunfugil",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss3-19"
+        }
+    ],
+    "print_key": "tcgdex:hgss3-19",
+    "card_key": "429|80|1|Suwama Chiaki|30,30x|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

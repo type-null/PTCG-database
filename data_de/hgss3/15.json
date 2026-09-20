@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss3-15",
+    "name": "Kramshef",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss3/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss3",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss3/symbol",
+    "set_full_name": "Unerschrocken",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss3",
+    "date": "2010-08-18",
+    "number": "15",
+    "set_total": 91,
+    "rarity": "Selten",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 430,
+    "pokemon_category": "",
+    "flavor_text": "KRAMSHEF kennt kein Erbarmen. Einem untergebenen KRAMURX wird es niemals einen Fehler verzeihen.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wirbelwind",
+            "damage": 20,
+            "effect": "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Unlicht"
+            ],
+            "name": "Aus heiterem Himmel",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners, auf dem bereits mindestens 1 Schadensmarke liegt. Dieser Angriff fügt dem gewählten Pokémon 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Kramurx",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss3-15"
+        }
+    ],
+    "print_key": "tcgdex:hgss3-15",
+    "card_key": "430|90|2|kawayoo|20,None|2,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

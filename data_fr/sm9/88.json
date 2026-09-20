@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm9-88",
+    "name": "Absol",
+    "img": "https://assets.tcgdex.net/fr/sm/sm9/88/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm9",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm9/symbol",
+    "set_full_name": "Duo de Choc",
+    "series": "Soleil et Lune",
+    "set_code": "sm9",
+    "date": "2019-01-31",
+    "number": "88",
+    "set_total": 196,
+    "rarity": "Rare",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 359,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Obscurité"
+    ],
+    "abilities": [
+        {
+            "name": "Noire Ambition",
+            "effect": "Si le Pokémon Actif de votre adversaire est un Pokémon de base, son Coût de Retraite augmente de Colorless."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Chercheur d’Ombres",
+            "damage": "30+",
+            "effect": "Cette attaque inflige 30 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm9-88"
+        }
+    ],
+    "print_key": "tcgdex:sm9-88",
+    "card_key": "359|100|1|nagimiso|30+|3",
+    "types_en": [
+        "Darkness"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/g1-8",
+    "name": "Tangela",
+    "img": "https://assets.tcgdex.net/de/xy/g1/8/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Generationen",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "8",
+    "set_total": 117,
+    "rarity": "Häufig",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 114,
+    "pokemon_category": "",
+    "flavor_text": "Es berührt alles, was sich bewegt, mit seinen Ranken. Diese Berührungen kitzeln sehr.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Absorber",
+            "damage": 20,
+            "effect": "Heile 20 Schadenspunkte bei diesem Pokémon."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Rankenhieb",
+            "damage": 30,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/g1-8"
+        }
+    ],
+    "print_key": "tcgdex:g1-8",
+    "card_key": "114|80|2|match|20,30|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

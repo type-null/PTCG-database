@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-23",
+    "name": "Arkani",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "23",
+    "set_total": 102,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 59,
+    "pokemon_category": "",
+    "flavor_text": "Ein Pokémon, das schon lange für seine Schönheit bewundert wird. Es läuft anmutig wie auf Flügeln.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Flammenwurf",
+            "damage": 50,
+            "effect": "Entferne eine auf Arkani abgelegte {R} Energiekarte, um diesen Angriff auszuführen."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Bodycheck",
+            "damage": 80,
+            "effect": "Arkani fügt sich selbst 30 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Fukano",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-23"
+        }
+    ],
+    "print_key": "tcgdex:base1-23",
+    "card_key": "59|100|3|Ken Sugimori|50,80|3,4",
+    "types_en": [
+        "Fire"
+    ]
+}

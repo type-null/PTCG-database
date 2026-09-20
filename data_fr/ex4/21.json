@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex4-21",
+    "name": "Grahyena de Team Magma",
+    "img": "https://assets.tcgdex.net/fr/ex/ex4/21/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex4",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex4/symbol",
+    "set_full_name": "EX Team Magma vs Team Aqua",
+    "series": "EX",
+    "set_code": "ex4",
+    "date": "2004-03-01",
+    "number": "21",
+    "set_total": 97,
+    "rarity": "Rare",
+    "author": [
+        "Shin-ichi Yoshikawa"
+    ],
+    "pokedex_number": 262,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Dépassement",
+            "damage": 10,
+            "effect": "Choisissez 1 des Pokémon du Banc de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Arracher d'un coup de dent",
+            "damage": "40+",
+            "effect": "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex4-21"
+        }
+    ],
+    "print_key": "tcgdex:ex4-21",
+    "card_key": "262|70|1|Shin-ichi Yoshikawa|10,40+|1,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

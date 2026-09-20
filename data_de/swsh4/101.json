@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh4-101",
+    "name": "Kaocto",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh4/101/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh4",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh4/symbol",
+    "set_full_name": "Farbenschock",
+    "series": "Schwert & Schild",
+    "set_code": "swsh4",
+    "date": "2020-11-13",
+    "number": "101",
+    "set_total": 203,
+    "rarity": "Selten",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "pokedex_number": 853,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Doppelnelson",
+            "damage": 30,
+            "effect": "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Tentakelknacker",
+            "damage": "50+",
+            "effect": "Wenn dieses Pokémon während deines letzten Zuges Doppelnelson eingesetzt hat, fügt diese Attacke 120 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Klopptopus",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh4-101"
+        }
+    ],
+    "print_key": "tcgdex:swsh4-101",
+    "card_key": "853|130|2|Hitoshi Ariga|30,50+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

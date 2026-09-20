@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex6-41",
+    "name": "Nidorino",
+    "img": "https://assets.tcgdex.net/fr/ex/ex6/41/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex6",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex6/symbol",
+    "set_full_name": "EX Rouge Feu & Vert Feuille",
+    "series": "EX",
+    "set_code": "ex6",
+    "date": "2004-09-01",
+    "number": "41",
+    "set_total": 116,
+    "rarity": "Peu Commune",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 33,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Coup double",
+            "damage": "20x",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Déchirer",
+            "damage": "30+",
+            "effect": "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque lui inflige 30 dégâts plus 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Nidoran",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex6-41"
+        }
+    ],
+    "print_key": "tcgdex:ex6-41",
+    "card_key": "33|70|1|Hisao Nakamura|20x,30+|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

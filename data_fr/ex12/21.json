@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex12-21",
+    "name": "Magmar",
+    "img": "https://assets.tcgdex.net/fr/ex/ex12/21/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Créateurs de légendes",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "21",
+    "set_total": 93,
+    "rarity": "Rare",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 126,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Feu"
+    ],
+    "abilities": [
+        {
+            "name": "Niveaux d'Évolution",
+            "effect": "Tant que Magmar est un Pokémon Évolué, toutes les Énergies qui lui sont attachées sont des Énergies {R} au lieu de leur type habituel."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Attaque linéaire",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Feu"
+            ],
+            "name": "Sensation brûlante",
+            "damage": 40,
+            "effect": "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, le Pokémon Défenseur est maintenant Brûlé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex12-21"
+        }
+    ],
+    "print_key": "tcgdex:ex12-21",
+    "card_key": "126|70|1|Sumiyoshi Kizuki|None,40|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

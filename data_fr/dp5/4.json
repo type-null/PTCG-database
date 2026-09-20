@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp5-4",
+    "name": "Dialga",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp5",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp5/symbol",
+    "set_full_name": "Aube Majestueuse",
+    "series": "Diamant & Perle",
+    "set_code": "dp5",
+    "date": "2008-05-01",
+    "number": "4",
+    "set_total": 100,
+    "rarity": "Rare Holo",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 483,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal"
+            ],
+            "name": "Modification temporelle",
+            "damage": null,
+            "effect": "Piochez des cartes jusqu'à ce que vous ayez 6 cartes en main."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Explosion diamant",
+            "damage": "60+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp5-4"
+        }
+    ],
+    "print_key": "tcgdex:dp5-4",
+    "card_key": "483|100|3|Masakazu Fukuda|None,60+|1,4",
+    "types_en": [
+        "Metal"
+    ]
+}

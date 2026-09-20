@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-36",
+    "name": "Magmar",
+    "img": "https://assets.tcgdex.net/fr/base/base1/36/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "36",
+    "set_total": 102,
+    "rarity": "Peu Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 126,
+    "pokemon_category": "",
+    "flavor_text": "Son corps en fusion brûle d'une flamme orangée, le rendant invisible dans le feu.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Feu"
+            ],
+            "name": "Poing de Feu",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Lance-flamme",
+            "damage": 50,
+            "effect": "Défaussez 1 carte Énergie {R} attachée à Magmar pour pouvoir utiliser cette attaque."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-36"
+        }
+    ],
+    "print_key": "tcgdex:base1-36",
+    "card_key": "126|50|2|Ken Sugimori|30,50|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

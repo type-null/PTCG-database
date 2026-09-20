@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex10-18",
+    "name": "Ursaring",
+    "img": "https://assets.tcgdex.net/fr/ex/ex10/18/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Forces Cachées",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "18",
+    "set_total": 117,
+    "rarity": "Rare",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 217,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Cercle intimidant",
+            "effect": "Tant qu'Ursaring est votre Pokémon Actif, les Pokémon de base de votre adversaire ne peuvent pas attaquer ou utiliser des Poké-Powers."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Traîne",
+            "damage": 20,
+            "effect": "Avant d'infliger des dégâts, vous pouvez échanger 1 des Pokémon de Banc de votre adversaire avec le Pokémon Défenseur. Cette attaque inflige alors 20 dégâts au nouveau Pokémon Défenseur. Votre adversaire choisit le Pokémon Défenseur à échanger."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Éclate-roc",
+            "damage": "40+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Teddiursa",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex10-18"
+        }
+    ],
+    "print_key": "tcgdex:ex10-18",
+    "card_key": "217|80|2|Atsuko Nishida|20,40+|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

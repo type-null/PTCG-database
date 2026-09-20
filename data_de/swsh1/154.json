@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh1-154",
+    "name": "Zwollock",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh1/154/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Schwert & Schild",
+    "series": "Schwert & Schild",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "154",
+    "set_total": 216,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "You Iribi"
+    ],
+    "pokedex_number": 832,
+    "pokemon_category": "",
+    "flavor_text": "Seine prächtig gewachsenen Hörner dienen dazu, dem anderen Geschlecht zu imponieren. Es nutzt sie nicht als Waffe.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Watteschild",
+            "damage": 30,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Risikotackle",
+            "damage": 120,
+            "effect": "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Wolly",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh1-154"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-154",
+    "card_key": "832|130|2|You Iribi|30,120|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/smp-SM114",
+    "name": "Pikachu de Sacha",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "Promo SM",
+    "series": "Soleil et Lune",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM114",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "2017 Pikachu Project"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Queue de Fer",
+            "damage": 20,
+            "effect": "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Tonnerre",
+            "damage": 100,
+            "effect": "Défaussez toute l’Énergie de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/smp-SM114"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM114",
+    "card_key": "25|70|1|2017 Pikachu Project|20,100|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

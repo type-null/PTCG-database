@@ -1,0 +1,61 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/30th-042",
+    "name": "Pikachu",
+    "img": "https://assets.tcgdex.net/fr/me/30th/042/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "30th",
+    "set_full_name": "30ᵉ Anniversaire",
+    "series": "Méga-Évolution",
+    "set_code": "30th",
+    "date": "2026-09-16",
+    "number": "042",
+    "set_total": 158,
+    "rarity": "Pikachu Rare",
+    "author": [
+        "Akira Komayama"
+    ],
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Ruée Chargée",
+            "damage": null,
+            "effect": "Lancez une pièce jusqu'à obtenir un côté pile. Cherchez dans votre deck une quantité d'Énergies <span class=\"energy-symbol Lightning\" title=\"Électrique\">Lightning</span> de base inférieure ou égale au nombre de côtés face obtenus, puis attachez celles-ci à ce Pokémon. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Pik'Éclair",
+            "damage": 50,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/30th-042"
+        }
+    ],
+    "print_key": "tcgdex:30th-42",
+    "card_key": "25|60|1|Akira Komayama|None,50|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

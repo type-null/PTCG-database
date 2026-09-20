@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp1-56",
+    "name": "Panpyro",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perl",
+    "series": "Diamant & Perl",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "56",
+    "set_total": 130,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 391,
+    "pokemon_category": "",
+    "flavor_text": "Um Angreifer abzuschrecken, verstärkt es das Feuer auf seinem Schweif, wodurch es größer wirkt.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Flammentanz",
+            "damage": 30,
+            "effect": "Durchsuche deinen Ablagestapel nach einer {R}-Energiekarte und lege sie an Panpyro an."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Kratzfurie",
+            "damage": "20x",
+            "effect": "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+20"
+    },
+    "evolve_from": "Panflam",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp1-56"
+        }
+    ],
+    "print_key": "tcgdex:dp1-56",
+    "card_key": "391|70|None|Ken Sugimori|30,20x|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

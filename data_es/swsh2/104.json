@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swsh2-104",
+    "name": "Barbaracle",
+    "img": "https://assets.tcgdex.net/es/swsh/swsh2/104/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Choque Rebelde",
+    "series": "Espada y Escudo",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "104",
+    "set_total": 209,
+    "rarity": "Rara",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 689,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 120,
+    "types": [
+        "Lucha"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lucha",
+                "Incolora"
+            ],
+            "name": "Lanzamiento de Rocas",
+            "damage": 50,
+            "effect": "El daño de este ataque no se ve afectado por Resistencia."
+        },
+        {
+            "cost": [
+                "Lucha",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Presión de Manos",
+            "damage": "80+",
+            "effect": "Si tienes más cartas en tu mano que tu rival, este ataque hace 80 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Binacle",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swsh2-104"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-104",
+    "card_key": "689|120|3|Anesaki Dynamic|50,80+|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

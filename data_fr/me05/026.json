@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/me05-026",
+    "name": "Lucanon",
+    "img": "https://assets.tcgdex.net/fr/me/me05/026/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "J",
+    "set_name": "me05",
+    "set_img": "https://assets.tcgdex.net/univ/me/me05/symbol",
+    "set_full_name": "Nuit Noire",
+    "series": "Méga-Évolution",
+    "set_code": "me05",
+    "date": "2026-07-17",
+    "number": "026",
+    "set_total": 120,
+    "rarity": "Peu Commune",
+    "author": [
+        "KEIICHIRO ITO"
+    ],
+    "pokedex_number": 738,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 160,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Plongeon Rapide",
+            "damage": null,
+            "effect": "Cette attaque inflige 50 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Giga Canon",
+            "damage": 260,
+            "effect": "Si aucune Énergie {L} Voltaïque n'est attachée à ce Pokémon, cette attaque ne fait rien."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Chrysapile",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/me05-026"
+        }
+    ],
+    "print_key": "tcgdex:me05-26",
+    "card_key": "738|160|2|KEIICHIRO ITO|None,260|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

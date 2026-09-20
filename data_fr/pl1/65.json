@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-65",
+    "name": "Carabaffe",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/65/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "65",
+    "set_total": 133,
+    "rarity": "Peu Commune",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 8,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Torgnoles",
+            "damage": "20×",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Lance roquette",
+            "damage": 30,
+            "effect": "Carabaffe s'inflige 10 dégâts. Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Carabaffe par des attaques lors du prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Carapuce",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-65"
+        }
+    ],
+    "print_key": "tcgdex:pl1-65",
+    "card_key": "8|80|1|Midori Harada|20x,30|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-117",
+    "name": "Quajutsu",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/117/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "117",
+    "set_total": 234,
+    "rarity": "Selten",
+    "author": [
+        "Yusuke Ohmura"
+    ],
+    "pokedex_number": 658,
+    "pokemon_category": "",
+    "flavor_text": "Es stellt Wurfsterne aus komprimiertem Wasser her, die durch ihre hohe Drehgeschwindigkeit beim Werfen sogar Metall durchtrennen.",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Ausschalten",
+            "damage": null,
+            "effect": "Das Pokémon mit den wenigsten verbleibenden KP, außer diesem Pokémon, ist kampfunfähig. (Wenn mehrere Pokémon die gleiche Anzahl von KP haben, wähle 1.)"
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Unlicht"
+            ],
+            "name": "Schleierschlitzer",
+            "damage": 70,
+            "effect": "Der Schaden dieser Attacke wird durch Schwäche, Resistenz oder alle anderen Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Amphizel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-117"
+        }
+    ],
+    "print_key": "tcgdex:sm10-117",
+    "card_key": "658|130|0|Yusuke Ohmura|None,70|2,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

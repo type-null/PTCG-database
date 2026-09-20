@@ -1,0 +1,61 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-35",
+    "name": "Liebiskus",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "35",
+    "set_total": 133,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 370,
+    "pokemon_category": "",
+    "flavor_text": "Es lebt in warmen Meeren. Man sagt, dass Verliebte, die es sehen, mit ewiger Liebe gesegnet sind.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Liebesruf",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners. Durchsuche dein Deck nach 1 Pokémon-Karte, die den gleichen Typ wie das gewählte Pokémon hat, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+        },
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Bitterkuss",
+            "damage": 30,
+            "effect": "Dein Gegner kann 1 Karte ziehen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+10"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-35"
+        }
+    ],
+    "print_key": "tcgdex:pl1-35",
+    "card_key": "370|70|1|Kagemaru Himeno|None,30|0,1",
+    "types_en": [
+        "Water"
+    ]
+}

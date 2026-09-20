@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/smp-SM195",
+    "name": "Glurak GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SM Promokarten",
+    "series": "Sonne & Mond",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM195",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "Framestore"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "hp": 250,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Wütende Verwüstung",
+            "damage": null,
+            "effect": "Lege die obersten 8 Karten von deinem Deck auf deinen Ablagestapel. Wenn unter jenen Karten Fire-Energiekarten sind, lege sie an dieses Pokémon an."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Dampfgeschütz",
+            "damage": 200,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Furchtbare Flammen GX",
+            "damage": 250,
+            "effect": "Lege 1 Energie von jedem Pokémon deines Gegners auf seinen Ablagestapel. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/smp-SM195"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM195",
+    "card_key": "6|250|4|Framestore|None,200,250|1,5,5",
+    "types_en": [
+        "Fire"
+    ]
+}

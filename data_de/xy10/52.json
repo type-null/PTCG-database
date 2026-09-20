@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy10-52",
+    "name": "Zygarde",
+    "img": "https://assets.tcgdex.net/de/xy/xy10/52/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy10",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy10/symbol",
+    "set_full_name": "Schicksalsschmiede",
+    "series": "XY",
+    "set_code": "xy10",
+    "date": "2016-05-02",
+    "number": "52",
+    "set_total": 129,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 718,
+    "pokemon_category": "",
+    "flavor_text": "Es wird gemutmaßt, dass es von seiner Höhle aus all jene beobachtet, die dem Ökosystem Schaden zufügen.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Wachsamkeit",
+            "damage": null,
+            "effect": "Tausche 1 Pokémon auf der Bank deines Gegners gegen das Aktive Pokémon deines Gegners aus."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Aura-Umkehr",
+            "damage": 70,
+            "effect": "Wenn das Verteidigende Pokémon ein {D}- oder {FAIRY}-Pokémon ist, kann es während des nächsten Zuges deines Gegners nicht angreifen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy10-52"
+        }
+    ],
+    "print_key": "tcgdex:xy10-52",
+    "card_key": "718|90|1|5ban Graphics|None,70|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

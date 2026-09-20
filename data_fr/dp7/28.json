@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-28",
+    "name": "Steelix",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "28",
+    "set_total": 106,
+    "rarity": "Rare",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 208,
+    "pokemon_category": "",
+    "flavor_text": "Grâce à la température élevée et la haute pression souterraine, son corps est plus dur que le métal.",
+    "stage": "Niveau 1",
+    "hp": 130,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Éruption de pouvoir",
+            "damage": null,
+            "effect": "Choisissez autant de Pokémon de votre adversaire qu'il y a d'Énergie attachée à Steelix. Cette attaque inflige 20 dégâts à chacun de ces Pokémon. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Queue de fer",
+            "damage": "100x",
+            "effect": "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 100 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Onix",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-28"
+        }
+    ],
+    "print_key": "tcgdex:dp7-28",
+    "card_key": "208|130|4|Naoyo Kimura|None,100x|1,4",
+    "types_en": [
+        "Metal"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swsh6-49",
+    "name": "Ampharos",
+    "img": "https://assets.tcgdex.net/es/swsh/swsh6/49/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "E",
+    "set_name": "swsh6",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh6/symbol",
+    "set_full_name": "Reinado Escalofriante",
+    "series": "Espada y Escudo",
+    "set_code": "swsh6",
+    "date": "2021-06-18",
+    "number": "49",
+    "set_total": 233,
+    "rarity": "Rara",
+    "author": [
+        "Megumi Mizutani"
+    ],
+    "pokedex_number": 181,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 160,
+    "types": [
+        "Rayo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Rayo"
+            ],
+            "name": "Impactrueno",
+            "damage": 50,
+            "effect": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado."
+        },
+        {
+            "cost": [
+                "Rayo",
+                "Incolora"
+            ],
+            "name": "Cola Reflectora",
+            "damage": "90+",
+            "effect": "Tu rival enseña las cartas de su mano. Si encuentras alguna carta de Energía entre ellas, este ataque hace 90 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Flaaffy",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swsh6-49"
+        }
+    ],
+    "print_key": "tcgdex:swsh6-49",
+    "card_key": "181|160|2|Megumi Mizutani|50,90+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

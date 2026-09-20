@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy3-13",
+    "name": "Jungglut",
+    "img": "https://assets.tcgdex.net/de/xy/xy3/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy3",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy3/symbol",
+    "set_full_name": "Fliegende Fäuste",
+    "series": "XY",
+    "set_code": "xy3",
+    "date": "2014-08-13",
+    "number": "13",
+    "set_total": 114,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 256,
+    "pokemon_category": "",
+    "flavor_text": "Es kann zehn Tritte pro Sekunde austeilen. Es gibt schrille Schreie von sich, um Gegner einzuschüchtern.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schlitzer",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Sprunghieb",
+            "damage": "50+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Flemmli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy3-13"
+        }
+    ],
+    "print_key": "tcgdex:xy3-13",
+    "card_key": "256|80|1|Shin Nagasawa|30,50+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

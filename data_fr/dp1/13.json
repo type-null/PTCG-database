@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-13",
+    "name": "Roserade",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "13",
+    "set_total": 130,
+    "rarity": "Rare Holo",
+    "author": [
+        "Nakaoka"
+    ],
+    "pokedex_number": 407,
+    "pokemon_category": "",
+    "flavor_text": "Il attire ses proies avec son doux parfum et les achève grâce aux fouets d'épines de ses bras.",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Plante"
+            ],
+            "name": "Dard-venin",
+            "damage": 30,
+            "effect": "Le Pokémon Défenseur est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Fouet à clou",
+            "damage": 50,
+            "effect": "Si Rozbouton se trouve sous Roserade, choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Rosélia",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-13"
+        }
+    ],
+    "print_key": "tcgdex:dp1-13",
+    "card_key": "407|90|1|Nakaoka|30,50|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

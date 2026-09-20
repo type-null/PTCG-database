@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/smp-SM196",
+    "name": "Mewtwo GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "Promo SM",
+    "series": "Soleil et Lune",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM196",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "MPC Film"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "hp": 190,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Lévikinésie",
+            "damage": null,
+            "effect": "Cette attaque inflige 50 dégâts à l’un des Pokémon de votre adversaire. Ces dégâts ne sont pas affectés par la Faiblesse ou la Résistance."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Vibration Régnante",
+            "damage": 120,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Nova Psy GX",
+            "damage": 180,
+            "effect": "Évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/smp-SM196"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM196",
+    "card_key": "150|190|2|MPC Film|None,120,180|2,4,4",
+    "types_en": [
+        "Psychic"
+    ]
+}

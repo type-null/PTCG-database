@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/g1-RC5",
+    "name": "Glurak",
+    "img": "https://assets.tcgdex.net/de/xy/g1/RC5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Generationen",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "RC5",
+    "set_total": 117,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Akira Komayama"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "flavor_text": "Wenn wir zusammenhalten, können wir alles überstehen, egal, was auch passiert. Für immer und ewig.",
+    "stage": "Rang 2",
+    "hp": 160,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Abruf",
+            "damage": null,
+            "effect": "Wähle 1 Attacke aus den vorangegangenen Entwicklungsstufen dieses Pokémon und verwende sie für diesen Angriff."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Brandbombe",
+            "damage": 130,
+            "effect": "Dieses Pokémon kann Brandbombe während deines nächsten Zuges nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Glutexo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/g1-RC5"
+        }
+    ],
+    "print_key": "tcgdex:g1-RC5",
+    "card_key": "6|160|3|Akira Komayama|None,130|1,4",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-5",
+    "name": "Scorvol",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "5",
+    "set_total": 146,
+    "rarity": "Rare Holo",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 472,
+    "pokemon_category": "",
+    "flavor_text": "Il guette sa proie pendu à une branche la tête en bas, et s'en saisit à la première occasion.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Poison brûlant",
+            "damage": null,
+            "effect": "Choisissez entre Brûlé et Empoisonné. Le Pokémon Défenseur est maintenant affecté par cet État Spécial. Vous pouvez reprendre Scorvol dans votre main ainsi que toutes les cartes qui lui sont attachées."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Abattre",
+            "damage": "40+",
+            "effect": "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Skorgla",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-5"
+        }
+    ],
+    "print_key": "tcgdex:dp6-5",
+    "card_key": "472|80|1|Kent Kanetsuna|None,40+|0,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

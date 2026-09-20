@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw3-65",
+    "name": "Bétochef",
+    "img": "https://assets.tcgdex.net/fr/bw/bw3/65/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw3",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw3/symbol",
+    "set_full_name": "Nobles Victoires",
+    "series": "Noir & Blanc",
+    "set_code": "bw3",
+    "date": "2011-11-16",
+    "number": "65",
+    "set_total": 102,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 534,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 140,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Attrition",
+            "damage": 40,
+            "effect": "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Balançoire",
+            "damage": 60,
+            "effect": "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Ouvrifier",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw3-65"
+        }
+    ],
+    "print_key": "tcgdex:bw3-65",
+    "card_key": "534|140|3|Kouki Saitou|40,60|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

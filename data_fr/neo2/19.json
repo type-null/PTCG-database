@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo2-19",
+    "name": "Papilusion",
+    "img": "https://assets.tcgdex.net/fr/neo/neo2/19/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Discovery",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "19",
+    "set_total": 75,
+    "rarity": "Rare",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 12,
+    "pokemon_category": "",
+    "flavor_text": "Il ramasse du miel tous les jours en le frottant contre les poils de ses pattes pour le rapporter dans son nid.",
+    "stage": "Niveau 2",
+    "hp": 80,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Poussière magique",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est Endormi, Confus, Paralysé ou Empoisonné (selon votre choix)."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Hyper Inversion",
+            "damage": null,
+            "effect": "Infligez 10 dégâts multipliés par le nombre de cartes Énergie attachées au Pokémon Défenseur. Après avoir appliqué les dégâts, retirez autant de marqueurs de dégâts à Papilusion que le Pokémon Défenseur en a reçu (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "evolve_from": "Chrysacier",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo2-19"
+        }
+    ],
+    "print_key": "tcgdex:neo2-19",
+    "card_key": "12|80|None|Atsuko Nishida|20,None|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

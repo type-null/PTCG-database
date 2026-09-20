@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/basep-2",
+    "name": "Elektek",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "basep",
+    "set_img": "https://assets.tcgdex.net/univ/base/basep/symbol",
+    "set_full_name": "Wizards Black Star Promos",
+    "series": "Grund",
+    "set_code": "basep",
+    "date": "1999-07-01",
+    "number": "2",
+    "set_total": 53,
+    "rarity": "Häufig",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 125,
+    "pokemon_category": "",
+    "flavor_text": "Ein wildes, hitzköpfiges Pokémon. Es kann Farben unterscheiden und ihm gefällt die Farbe Rot.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Lichtschirm",
+            "damage": null,
+            "effect": "Immer dann, wenn Elektek Schaden zugefügt wird, während Dein Mitspieler am Zug ist, (nach Anwendung von Schwäche und Widerstand), richtet dieser Angriff bei Elektek nur den halben Schaden an (auf die nächste 10 abrunden). (Andere Auswirkungen von Angriffen treten weiter ein.)"
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schnellangriff",
+            "damage": "10+",
+            "effect": "Wirf eine Münze. Bei Kopf erhältst Du 10 Schadenspunkte plus 20 weitere; bei Zahl verursacht der Angriff 10 Schadenspunkte."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/basep-2"
+        }
+    ],
+    "print_key": "tcgdex:basep-2",
+    "card_key": "125|60|2|Ken Sugimori|None,10+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

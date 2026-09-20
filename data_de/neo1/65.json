@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-65",
+    "name": "Voltilamm",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "65",
+    "set_total": 111,
+    "rarity": "Häufig",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 179,
+    "pokemon_category": "",
+    "flavor_text": "Falls sich Statik in seinem Körper aufbaut, verdoppelt sich der Umfang seines Fells. Eine Berührung führt zu einem elektrischen Schlag.",
+    "stage": "Basis",
+    "hp": 40,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Statische Elektrizität",
+            "damage": null,
+            "effect": "Für jedes Voltilamm im Spiel kannst du dein Deck nach einer {L}-Energiekarte durchsuchen und sie an Voltilamm anlegen. Mische dein Deck danach."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Donnerschock",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-65"
+        }
+    ],
+    "print_key": "tcgdex:neo1-65",
+    "card_key": "179|40|1|Ken Sugimori|None,20|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp2-17",
+    "name": "Tyranocif",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Trésors Mystérieux",
+    "series": "Diamant & Perle",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "17",
+    "set_total": 124,
+    "rarity": "Rare Holo",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 248,
+    "pokemon_category": "",
+    "flavor_text": "Lorsqu'il est en colère, il abat des montagnes et enterre des fleuves. On doit alors modifier les cartes.",
+    "stage": "Niveau 2",
+    "hp": 140,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Représailles",
+            "damage": "40+",
+            "effect": "S'il ne reste à votre adversaire qu'1 carte Récompense, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires et défausse les 3 cartes du dessus du deck de votre adversaire."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Obscurité",
+                "Obscurité"
+            ],
+            "name": "Brûlure au sol",
+            "damage": "80+",
+            "effect": "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 80 dégâts plus 20 dégâts supplémentaires pour chaque Carte Énergie défaussée de cette façon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Ymphect",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp2-17"
+        }
+    ],
+    "print_key": "tcgdex:dp2-17",
+    "card_key": "248|140|4|Masakazu Fukuda|40+,80+|2,4",
+    "types_en": [
+        "Darkness"
+    ]
+}

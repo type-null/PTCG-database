@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl3-10",
+    "name": "Rhinastoc",
+    "img": "https://assets.tcgdex.net/fr/pl/pl3/10/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Vainqueurs Suprêmes",
+    "series": "Platine",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "10",
+    "set_total": 162,
+    "rarity": "Holo Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 464,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 140,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Perceuse enragée",
+            "damage": "30+",
+            "effect": "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Rhinastoc."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Grosse bagarre",
+            "damage": 60,
+            "effect": "Si le Pokémon Défenseur est mis K.O. par cette attaque, défaussez les 3 cartes du dessus du deck de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Rhinoféros",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl3-10"
+        }
+    ],
+    "print_key": "tcgdex:pl3-10",
+    "card_key": "464|140|4|Hajime Kusajima|30+,60|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

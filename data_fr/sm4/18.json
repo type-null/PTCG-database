@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm4-18",
+    "name": "Léviator GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm4/18/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Invasion Carmin",
+    "series": "Soleil et Lune",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "18",
+    "set_total": 125,
+    "rarity": "Ultra Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "hp": 240,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Cascade",
+            "damage": 70,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Désastre Draconien",
+            "damage": "100+",
+            "effect": "S’il y a une carte Stade en jeu, cette attaque inflige 100 dégâts supplémentaires. Ensuite, défaussez la carte Stade."
+        },
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Tempête d’Effroi GX",
+            "damage": null,
+            "effect": "Défaussez une Énergie de chacun des Pokémon de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Magicarpe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm4-18"
+        }
+    ],
+    "print_key": "tcgdex:sm4-18",
+    "card_key": "130|240|4|5ban Graphics|70,100+,None|3,5,1",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp1-12",
+    "name": "Rihornior",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perl",
+    "series": "Diamant & Perl",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "12",
+    "set_total": 130,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Nakaoka"
+    ],
+    "pokedex_number": 464,
+    "pokemon_category": "",
+    "flavor_text": "Es legt Steine in die Löcher seiner Hände und wirft sie mit Muskelkraft. Sogar GEOROK werden verwendet.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Erdspalte",
+            "effect": "Einmal während deines Zuges, wenn du Rihornior von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du die obersten 3 Karten vom Deck deines Gegners auf seinen Ablagestapel legen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Felswerfer",
+            "damage": 80,
+            "effect": "Der Schaden dieses Angriffs wird durch die Schwäche und Resistenz des Verteidigenden Pokémon nicht verändert. Rihornior kann in deinem nächsten Zug nicht angreifen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Rizeros",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp1-12"
+        }
+    ],
+    "print_key": "tcgdex:dp1-12",
+    "card_key": "464|140|4|Nakaoka|80|3",
+    "types_en": [
+        "Fighting"
+    ]
+}

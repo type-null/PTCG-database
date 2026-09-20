@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/xy8-3",
+    "name": "Pinsir",
+    "img": "https://assets.tcgdex.net/es/xy/xy8/3/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "xy8",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy8/symbol",
+    "set_full_name": "Turbo Impulso",
+    "series": "XY",
+    "set_code": "xy8",
+    "date": "2015-11-04",
+    "number": "3",
+    "set_total": 165,
+    "rarity": "Uncommon",
+    "author": [
+        "Satoshi Shirai"
+    ],
+    "pokedex_number": 127,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 100,
+    "types": [
+        "Planta"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Planta"
+            ],
+            "name": "Lanzamiento Elevado",
+            "damage": 30,
+            "effect": "Este ataque hace 20 puntos de daño a 1 de tus Pokémon en Banca. (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
+        },
+        {
+            "cost": [
+                "Planta",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Suplex Pesado",
+            "damage": "40+",
+            "effect": "Este ataque hace 20 puntos de daño más por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/xy8-3"
+        }
+    ],
+    "print_key": "tcgdex:xy8-3",
+    "card_key": "127|100|2|Satoshi Shirai|30,40+|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

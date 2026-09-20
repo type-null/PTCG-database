@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv01-002",
+    "name": "Scarhino",
+    "img": "https://assets.tcgdex.net/fr/sv/sv01/002/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Écarlate et Violet",
+    "series": "Écarlate et Violet",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "002",
+    "set_total": 258,
+    "rarity": "Peu Commune",
+    "author": [
+        "Taira Akitsu"
+    ],
+    "pokedex_number": 214,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Lancer Surpuissant",
+            "damage": "10+",
+            "effect": "Cette attaque inflige 30 dégâts supplémentaires pour chaque {C} dans le Coût de Retraite du Pokémon Actif de votre adversaire."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Koud'Korne",
+            "damage": 90,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv01-002"
+        }
+    ],
+    "print_key": "tcgdex:sv01-2",
+    "card_key": "214|120|2|Taira Akitsu|10+,90|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

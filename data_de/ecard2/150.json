@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard2-150",
+    "name": "Nidoking",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-Card",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "150",
+    "set_total": 186,
+    "rarity": "Selten",
+    "author": [
+        "Hironobu Yoshida"
+    ],
+    "pokedex_number": 34,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Farblos"
+    ],
+    "abilities": [
+        {
+            "name": "Kristall-Typ",
+            "effect": "Immer wenn du eine {G}-, {L}- oder {F}-Basis-Energiekarte aus deiner Hand an Nidoking anlegst, wird Nidokings Typ (Farbe) bis zum Ende des Zuges zu demselben Typ wie die Energiekarte."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Gifthorn",
+            "damage": 20,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Rollender Donner",
+            "damage": 50,
+            "effect": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff jedem Pokémon auf der gegnerischen Bank 10 Schadenspunkte zu. Bei „Zahl“ fügt dieser Angriff jedem der Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "x2"
+    },
+    "retreat": 3,
+    "evolve_from": "Nidorino",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard2-150"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-150",
+    "card_key": "34|100|3|Hironobu Yoshida|20,50|3,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

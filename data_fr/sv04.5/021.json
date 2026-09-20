@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv04.5-021",
+    "name": "Lanturn",
+    "img": "https://assets.tcgdex.net/fr/sv/sv04.5/021/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv04.5",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04.5/symbol",
+    "set_full_name": "Destinées de Paldea",
+    "series": "Écarlate et Violet",
+    "set_code": "sv04.5",
+    "date": "2024-01-26",
+    "number": "021",
+    "set_total": 245,
+    "rarity": "Peu Commune",
+    "author": [
+        "aspara"
+    ],
+    "pokedex_number": 171,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Boule Éclair",
+            "damage": 50,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Aqua-Étincelle",
+            "damage": "80+",
+            "effect": "Si au moins une Énergie {W} est attachée à ce Pokémon, cette attaque inflige 120 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Loupio",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv04.5-021"
+        }
+    ],
+    "print_key": "tcgdex:sv04.5-21",
+    "card_key": "171|120|2|aspara|50,80+|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

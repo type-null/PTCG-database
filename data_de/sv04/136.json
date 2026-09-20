@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv04-136",
+    "name": "Zacian",
+    "img": "https://assets.tcgdex.net/de/sv/sv04/136/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv04",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04/symbol",
+    "set_full_name": "Paradoxrift",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv04",
+    "date": "2023-11-03",
+    "number": "136",
+    "set_total": 266,
+    "rarity": "Selten",
+    "author": [
+        "Tonji Matsuno"
+    ],
+    "pokedex_number": 888,
+    "pokemon_category": "",
+    "flavor_text": "Weil es alles und jeden vernichten konnte, trug es einst den Namen „Feenkönigsschwert“ und wurde gleichermaßen gefürchtet und verehrt.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Eisengebrüll",
+            "damage": 30,
+            "effect": "Lege 1 Basis-{M}-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Couragierte Klinge",
+            "damage": 130,
+            "effect": "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv04-136"
+        }
+    ],
+    "print_key": "tcgdex:sv04-136",
+    "card_key": "888|120|2|Tonji Matsuno|30,130|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-36",
+    "name": "Électrode",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "36",
+    "set_total": 106,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 101,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Rayonnement",
+            "effect": "Si Electrode est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Electrode est mis K.O), placez 1 marqueur de dégât sur chacun des Pokémon de votre adversaire."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Bas courant",
+            "damage": 30,
+            "effect": "Si une attaque a infligé des dégâts à Electrode lors du dernier tour de votre adversaire, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Météores",
+            "damage": 60,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "evolve_from": "Voltorbe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-36"
+        }
+    ],
+    "print_key": "tcgdex:dp7-36",
+    "card_key": "101|90|None|Kent Kanetsuna|30,60|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

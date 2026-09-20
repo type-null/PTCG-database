@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sv01-088",
+    "name": "Banette ex",
+    "img": "https://assets.tcgdex.net/es/sv/sv01/088/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "tags": [
+        "ex"
+    ],
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Escarlata y Púrpura",
+    "series": "Escarlata y Púrpura",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "088",
+    "set_total": 258,
+    "rarity": "Rara Doble",
+    "author": [
+        "PLANETA Mochizuki"
+    ],
+    "pokedex_number": 354,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 250,
+    "types": [
+        "Psíquico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psíquico"
+            ],
+            "name": "Oscuridad Eterna",
+            "damage": 30,
+            "effect": "Durante el próximo turno de tu rival, este no puede jugar ninguna carta de Objeto de su mano."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Incolora"
+            ],
+            "name": "Poltergeist",
+            "damage": "60×",
+            "effect": "Tu rival enseña las cartas de su mano. Este ataque hace 60 puntos de daño por cada carta de Entrenador que encuentres entre ellas."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscura"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sv01-088"
+        }
+    ],
+    "print_key": "tcgdex:sv01-88",
+    "card_key": "354|250|2|PLANETA Mochizuki|30,60x|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

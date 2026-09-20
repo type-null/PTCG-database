@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv07-088",
+    "name": "Hexadron",
+    "img": "https://assets.tcgdex.net/fr/sv/sv07/088/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "H",
+    "set_name": "sv07",
+    "set_full_name": "Couronne Stellaire",
+    "series": "Écarlate et Violet",
+    "set_code": "sv07",
+    "date": "2024-09-13",
+    "number": "088",
+    "set_total": 175,
+    "rarity": "Commune",
+    "author": [
+        "Gapao"
+    ],
+    "pokedex_number": 870,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 110,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Formation d'Escadron",
+            "damage": null,
+            "effect": "Cherchez dans votre deck jusqu'à 2 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Attaque Totale",
+            "damage": "30+",
+            "effect": "Si ce Pokémon a utilisé Formation d'Escadron pendant votre dernier tour, cette attaque inflige 90 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv07-088"
+        }
+    ],
+    "print_key": "tcgdex:sv07-88",
+    "card_key": "870|110|2|Gapao|None,30+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

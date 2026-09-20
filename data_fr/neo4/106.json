@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo4-106",
+    "name": "Celebi brillant",
+    "img": "https://assets.tcgdex.net/fr/neo/neo4/106/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "106",
+    "set_total": 113,
+    "rarity": "Rare",
+    "author": [
+        "Hironobu Yoshida"
+    ],
+    "pokedex_number": 251,
+    "pokemon_category": "",
+    "flavor_text": "Il est adoré comme un dieu de la forêt. Il n'apparaît que dans des forêts anciennes et paisibles.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Eau de soin",
+            "damage": null,
+            "effect": "Retirez un nombre de marqueurs de dégâts sur un des Pokémon de votre Banc égal au nombre d'Énergies {W} attachées à Celebi brillant. Si le Pokémon a moins de marqueurs de dégâts, retirez-les tous."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Psy"
+            ],
+            "name": "Feuille miracle",
+            "damage": 10,
+            "effect": "Lancez un nombre de pièces égal au nombre de cartes Énergie attachées au Pokémon Défenseur. Si vous obtenez au moins une face, le Pokémon Défenseur est maintenant Endormi, Confus ou Empoisonné (selon votre choix)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo4-106"
+        }
+    ],
+    "print_key": "tcgdex:neo4-106",
+    "card_key": "251|50|1|Hironobu Yoshida|None,10|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

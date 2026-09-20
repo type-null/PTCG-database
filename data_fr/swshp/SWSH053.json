@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swshp-SWSH053",
+    "name": "Mackogneur",
+    "img": "https://assets.tcgdex.net/fr/swsh/swshp/SWSH053/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swshp",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swshp/symbol",
+    "set_full_name": "Promo SWSH",
+    "series": "Épée et Bouclier",
+    "set_code": "swshp",
+    "date": "2019-11-15",
+    "number": "SWSH053",
+    "set_total": 307,
+    "rarity": "Promo",
+    "author": [
+        "SATOSHI NAKAI"
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 170,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Revanche Macho",
+            "damage": "20×",
+            "effect": "Cette attaque inflige 20 dégâts pour chaque Pokémon {F} dans votre pile de défausse."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Poing Dynamite",
+            "damage": 200,
+            "effect": "Ce Pokémon s'inflige aussi 50 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Machopeur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swshp-SWSH053"
+        }
+    ],
+    "print_key": "tcgdex:swshp-SWSH053",
+    "card_key": "68|170|3|SATOSHI NAKAI|20x,200|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

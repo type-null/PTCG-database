@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp2-91",
+    "name": "Nidoran♀",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Trésors Mystérieux",
+    "series": "Diamant & Perle",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "91",
+    "set_total": 124,
+    "rarity": "Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 29,
+    "pokemon_category": "",
+    "flavor_text": "Bien qu'il rechigne à se battre, une goutte du poison sécrété par ses piquants peut s'avérer fatale.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Appel à la famille",
+            "damage": null,
+            "effect": "Cherchez dans votre deck Nidoran♂ ou Nidoran♀ et placez-le sur votre Banc. Ensuite, mélangez votre deck."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Dard-venin",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+10"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp2-91"
+        }
+    ],
+    "print_key": "tcgdex:dp2-91",
+    "card_key": "29|50|1|Ken Sugimori|None,20|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

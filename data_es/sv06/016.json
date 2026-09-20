@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sv06-016",
+    "name": "Rillaboom",
+    "img": "https://assets.tcgdex.net/es/sv/sv06/016/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "H",
+    "set_name": "sv06",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv06/symbol",
+    "set_full_name": "Mascarada Crepuscular",
+    "series": "Escarlata y Púrpura",
+    "set_code": "sv06",
+    "date": "2024-05-24",
+    "number": "016",
+    "set_total": 226,
+    "rarity": "Uncommon",
+    "author": [
+        "toriyufu"
+    ],
+    "pokedex_number": 812,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 180,
+    "types": [
+        "Planta"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Planta"
+            ],
+            "name": "Batería Asalto",
+            "damage": 60,
+            "effect": "Durante el próximo turno de tu rival, los ataques usados por el Pokémon Defensor cuestan {C} más, y su Coste de Retirada es de {C} más."
+        },
+        {
+            "cost": [
+                "Planta",
+                "Planta"
+            ],
+            "name": "Mazazo",
+            "damage": 180,
+            "effect": "Este Pokémon también se hace 50 puntos de daño a sí mismo."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Thwackey",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sv06-016"
+        }
+    ],
+    "print_key": "tcgdex:sv06-16",
+    "card_key": "812|180|4|toriyufu|60,180|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

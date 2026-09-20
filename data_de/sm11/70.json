@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm11-70",
+    "name": "Voltriant",
+    "img": "https://assets.tcgdex.net/de/sm/sm11/70/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Bund der Gleichgesinnten",
+    "series": "Sonne & Mond",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "70",
+    "set_total": 258,
+    "rarity": "Selten",
+    "author": [
+        "Satoshi Shirai"
+    ],
+    "pokedex_number": 796,
+    "pokemon_category": "",
+    "flavor_text": "In dieser Welt wirkt sein Aussehen gefährlich und fremdartig, doch in seiner ursprünglichen Welt ist es ein ganz gewöhnliches Lebewesen.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Drei Spiegel",
+            "damage": "30+",
+            "effect": "Wenn dein Gegner genau 3 verbleibende Preiskarten hat, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Ampelleuchte",
+            "damage": 50,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm11-70"
+        }
+    ],
+    "print_key": "tcgdex:sm11-70",
+    "card_key": "796|120|2|Satoshi Shirai|30+,50|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

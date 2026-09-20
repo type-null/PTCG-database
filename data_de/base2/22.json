@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base2-22",
+    "name": "Pantimos",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Dschungel",
+    "series": "Grund",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "22",
+    "set_total": 64,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 122,
+    "pokemon_category": "",
+    "flavor_text": "Falls es bei der Pantomime unterbrochen wird, schlägt es den Feind mit seinen breiten Händen.",
+    "stage": "Basis",
+    "hp": 40,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Unsichtbare Mauer",
+            "effect": "Immer wenn ein Angriff (auch dein eigener) Pantimos 30 oder mehr Schadenspunkte zufügt (nachdem Schwäche und Resistenz abgerechnet wurden), verhindere diesen Schaden. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.) Diese Fähigkeit kann nicht eingesetzt werden, falls Pantimos schlafend, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Meditation",
+            "damage": "10+",
+            "effect": "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf dem verteidigenden Pokémon zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Pantimimi",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base2-22"
+        }
+    ],
+    "print_key": "tcgdex:base2-22",
+    "card_key": "122|40|1|Ken Sugimori|10+|2",
+    "types_en": [
+        "Psychic"
+    ]
+}

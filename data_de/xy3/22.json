@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy3-22",
+    "name": "Siberio",
+    "img": "https://assets.tcgdex.net/de/xy/xy3/22/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy3",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy3/symbol",
+    "set_full_name": "Fliegende Fäuste",
+    "series": "XY",
+    "set_code": "xy3",
+    "date": "2014-08-13",
+    "number": "22",
+    "set_total": 114,
+    "rarity": "Selten",
+    "author": [
+        "PLANETA"
+    ],
+    "pokedex_number": 614,
+    "pokemon_category": "",
+    "flavor_text": "Es liebt die kalten Meere im Norden und überquert ihre Flächen auf Stegen, die es mit seinem gefrorenen Atem baut.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Iglugriff",
+            "damage": "20+",
+            "effect": "Dieser Angriff fügt 20 weitere Schadenspunkte für jedes {C}-Symbol in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Gebirgssturz",
+            "damage": "80+",
+            "effect": "Wenn eine Stadionkarte im Spiel ist, fügt dieser Angriff 40 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Petznief",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy3-22"
+        }
+    ],
+    "print_key": "tcgdex:xy3-22",
+    "card_key": "614|130|4|PLANETA|20+,80+|2,4",
+    "types_en": [
+        "Water"
+    ]
+}

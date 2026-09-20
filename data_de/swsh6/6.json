@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh6-6",
+    "name": "Skaraborn",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh6/6/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh6",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh6/symbol",
+    "set_full_name": "Schaurige Herrschaft",
+    "series": "Schwert & Schild",
+    "set_code": "swsh6",
+    "date": "2021-06-18",
+    "number": "6",
+    "set_total": 233,
+    "rarity": "Häufig",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 214,
+    "pokemon_category": "",
+    "flavor_text": "Auf der Suche nach süßem Honig durchstreift es die Wälder. Es ist stolz auf seine Stärke, aber fliegen kann es nicht besonders gut.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Hornattacke",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Einzelhornwurf",
+            "damage": "40+",
+            "effect": "Wirf 2 Münzen. Zeigen beide Münzen Kopf, fügt diese Attacke 160 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh6-6"
+        }
+    ],
+    "print_key": "tcgdex:swsh6-6",
+    "card_key": "214|120|2|Hasuno|20,40+|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

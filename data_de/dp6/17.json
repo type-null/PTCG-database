@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp6-17",
+    "name": "Yanmega",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Erwachte Legenden",
+    "series": "Diamant & Perl",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "17",
+    "set_total": 146,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 469,
+    "pokemon_category": "",
+    "flavor_text": "Durch die Bewegung seiner Flügel entstehen Schockwellen, die dem Gegner innere Verletzungen zufügen.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Überschallwelle",
+            "damage": 10,
+            "effect": "Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Metall",
+                "Metall"
+            ],
+            "name": "Verfolgen und Abdrehen",
+            "damage": "60+",
+            "effect": "Wenn auf dem Verteidigenden Pokémon mindestens 2 Schadensmarken liegen, fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte zu und tausche Yanmega gegen 1 Pokémon auf deiner Bank aus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "evolve_from": "Yanma",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp6-17"
+        }
+    ],
+    "print_key": "tcgdex:dp6-17",
+    "card_key": "469|90|None|Kent Kanetsuna|10,60+|0,4",
+    "types_en": [
+        "Grass"
+    ]
+}

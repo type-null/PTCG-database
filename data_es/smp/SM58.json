@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/smp-SM58",
+    "name": "Necrozma GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SL Cartas de promoción",
+    "series": "Sol y Luna",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM58",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 800,
+    "pokemon_category": "",
+    "hp": 180,
+    "types": [
+        "Psíquico"
+    ],
+    "abilities": [
+        {
+            "name": "Fulgor Final",
+            "effect": "Evita todo el daño infligido a este Pokémon por ataques de Pokémon Colorless."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolora",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Explosión Prisma",
+            "damage": "10+",
+            "effect": "Descarta todas las Energías Psychic de este Pokémon. Este ataque hace 60 puntos de daño más por cada carta que hayas descartado de esta manera."
+        },
+        {
+            "cost": [
+                "Incolora",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Rayo Negro GX",
+            "damage": null,
+            "effect": "Este ataque hace 100 puntos de daño a cada uno de los Pokémon-GX y Pokémon-EX de tu rival. Este daño no se ve afectado por Debilidad o Resistencia. (No puedes usar más de 1 ataque GX en una partida)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/smp-SM58"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM58",
+    "card_key": "800|180|2|5ban Graphics|10+,None|3,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

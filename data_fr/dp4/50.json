@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp4-50",
+    "name": "Chaffreux",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp4",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp4/symbol",
+    "set_full_name": "Duels au Sommets",
+    "series": "Diamant & Perle",
+    "set_code": "dp4",
+    "date": "2008-02-01",
+    "number": "50",
+    "set_total": 106,
+    "rarity": "Peu Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 432,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Vantardise",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Combo-griffe",
+            "damage": "40x",
+            "effect": "Lancez 3 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Chaglam",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp4-50"
+        }
+    ],
+    "print_key": "tcgdex:dp4-50",
+    "card_key": "432|90|2|Ken Sugimori|20,40x|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

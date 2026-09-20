@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-29",
+    "name": "Alpollo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "29",
+    "set_total": 102,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 93,
+    "pokemon_category": "",
+    "flavor_text": "Es stammt aus einer anderen Dimension und kann daher auch durch feste Mauern schweben.",
+    "stage": "Rang 1",
+    "hp": 60,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Hypnose",
+            "damage": null,
+            "effect": "Das verteidigende Pokémon ist schlafend."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Traumfresser",
+            "damage": 50,
+            "effect": "Du kannst diesen Angriff nur dann einsetzen, wenn das verteidigende Pokémon schlafend ist."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Nebulak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-29"
+        }
+    ],
+    "print_key": "tcgdex:base1-29",
+    "card_key": "93|60|1|Keiji Kinebuchi|None,50|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

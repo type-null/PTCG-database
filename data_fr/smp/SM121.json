@@ -1,0 +1,85 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/smp-SM121",
+    "name": "Raikou GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "Promo SM",
+    "series": "Soleil et Lune",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM121",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 243,
+    "pokemon_category": "",
+    "hp": 170,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Creusogriffes",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Fatal-Foudre",
+            "damage": 150,
+            "effect": "Lancez une pièce. Si c’est pile, ce Pokémon s’inflige 50 dégâts."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Pluie Tonitruante GX",
+            "damage": null,
+            "effect": "Cette attaque inflige 100 dégâts à tout Pokémon de votre adversaire auquel de l’Énergie est attachée. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.) (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/smp-SM121"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM121",
+    "card_key": "243|170|1|5ban Graphics|30,150,None|2,4,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

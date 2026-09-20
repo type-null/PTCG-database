@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv01-088",
+    "name": "Branette-ex",
+    "img": "https://assets.tcgdex.net/fr/sv/sv01/088/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Écarlate et Violet",
+    "series": "Écarlate et Violet",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "088",
+    "set_total": 258,
+    "rarity": "Double rare",
+    "author": [
+        "PLANETA Mochizuki"
+    ],
+    "pokedex_number": 354,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 250,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Obscurité Éternelle",
+            "damage": 30,
+            "effect": "Pendant le prochain tour de votre adversaire, il ne peut pas jouer de cartes Objet de sa main."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Esprit Frappeur",
+            "damage": "60×",
+            "effect": "Votre adversaire montre sa main. Cette attaque inflige 60 dégâts pour chaque carte Dresseur que vous y trouvez."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Polichombr",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv01-088"
+        }
+    ],
+    "print_key": "tcgdex:sv01-88",
+    "card_key": "354|250|2|PLANETA Mochizuki|30,60x|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

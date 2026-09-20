@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex16-93",
+    "name": "Kaorine ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex16/93/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex16",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex16/symbol",
+    "set_full_name": "EX Gardiens du Pouvoir",
+    "series": "EX",
+    "set_code": "ex16",
+    "date": "2007-02-17",
+    "number": "93",
+    "set_total": 108,
+    "rarity": "Rare",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 344,
+    "pokemon_category": "",
+    "hp": 120,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Transfert de type",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Le type de Kaorine ex est {F} jusqu'à la fin de votre tour."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Psycho-boom",
+            "damage": "20+",
+            "effect": "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Écras'ombre",
+            "damage": 60,
+            "effect": "Vous pouvez défausser une carte Énergie {P} attachée à Kaorine ex. Défaussez alors une carte Énergie attachée au Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Balbuto",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex16-93"
+        }
+    ],
+    "print_key": "tcgdex:ex16-93",
+    "card_key": "344|120|2|Ryo Ueda|20+,60|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

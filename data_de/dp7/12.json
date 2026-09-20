@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-12",
+    "name": "Rexblisar",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "12",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 460,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Schneeschleier",
+            "effect": "Solange Rexblisar dein Aktives Pokémon ist, wird Schaden, der deinen Pokémon durch gegnerische Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schneespiele",
+            "damage": 20,
+            "effect": "Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners, außer {G}- und {W}-Pokémon, 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Unter Null",
+            "damage": 60,
+            "effect": "Wenn Rexblisar sich in diesem Zug aus Shnebedeck entwickelt hat, ist das Verteidigende Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+30"
+    },
+    "retreat": 3,
+    "evolve_from": "Shnebedeck",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-12"
+        }
+    ],
+    "print_key": "tcgdex:dp7-12",
+    "card_key": "460|100|3|Mitsuhiro Arita|20,60|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

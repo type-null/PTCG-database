@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sv08.5-033",
+    "name": "Espeon",
+    "img": "https://assets.tcgdex.net/it/sv/sv08.5/033/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "G",
+    "set_name": "sv08.5",
+    "set_full_name": "Evoluzioni Prismatiche",
+    "series": "Scarlatto e Violetto",
+    "set_code": "sv08.5",
+    "date": "2025-01-17",
+    "number": "033",
+    "set_total": 180,
+    "rarity": "Rara",
+    "author": [
+        "Kariya"
+    ],
+    "pokedex_number": 196,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 110,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psico"
+            ],
+            "name": "Psicoassalto",
+            "damage": "30+",
+            "effect": "Questo attacco infligge 10 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Incolore"
+            ],
+            "name": "Psico",
+            "damage": 60,
+            "effect": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscurità"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sv08.5-033"
+        }
+    ],
+    "print_key": "tcgdex:sv08.5-33",
+    "card_key": "196|110|1|Kariya|30+,60|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

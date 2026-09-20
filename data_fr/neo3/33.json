@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo3-33",
+    "name": "Volcaropod",
+    "img": "https://assets.tcgdex.net/fr/neo/neo3/33/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "33",
+    "set_total": 66,
+    "rarity": "Peu Commune",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 219,
+    "pokemon_category": "",
+    "flavor_text": "La carapace qu'il porte sur le dos n'est qu'une excroissance de peau, refroidie et durcie. Elle se brise au moindre contact.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Feu"
+    ],
+    "abilities": [
+        {
+            "name": "Braises",
+            "effect": "Si Volcaropod est votre Pokémon Actif et s'il retourne sur votre Banc, retirez 1 carte Énergie  attachée à Volcaropod, le cas échéant, et attachez-la au nouveau Pokémon Actif. (Vous ne pouvez pas utiliser une carte Énergie que vous avez déjà utilisée pour payer le Coût de Retraite.)"
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Feu"
+            ],
+            "name": "Torrent de lave",
+            "damage": "40+",
+            "effect": "Vous pouvez défausser autant de cartes Énergie  attachées à Volcaropod que vous le désirez. Dans ce cas, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie  que vous choisissez de défausser."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Limagma",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo3-33"
+        }
+    ],
+    "print_key": "tcgdex:neo3-33",
+    "card_key": "219|80|3|Shin-ichi Yoshida|40+|3",
+    "types_en": [
+        "Fire"
+    ]
+}

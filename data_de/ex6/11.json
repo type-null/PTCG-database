@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex6-11",
+    "name": "Quappo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex6",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex6/symbol",
+    "set_full_name": "EX Feuerrot & Blattgrün",
+    "series": "EX",
+    "set_code": "ex6",
+    "date": "2004-09-01",
+    "number": "11",
+    "set_total": 116,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 62,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Spirale",
+            "effect": "Solange Quappo dein Aktives Pokémon ist, können die verwirrten Pokémon deines Gegner sich nicht zurückziehen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Spiralhieb",
+            "damage": 20,
+            "effect": "Das Verteidigende Pokémon ist jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Mega Wurf",
+            "damage": "50+",
+            "effect": "Wenn das Verteidigende Pokmeon ein Pokémon-ex ist, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex6-11"
+        }
+    ],
+    "print_key": "tcgdex:ex6-11",
+    "card_key": "62|120|2|Ken Sugimori|20,50+|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

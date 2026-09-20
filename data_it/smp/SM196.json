@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/smp-SM196",
+    "name": "Mewtwo GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SL Promo",
+    "series": "Sole e Luna",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM196",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "MPC Film"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "hp": 190,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psico",
+                "Incolore"
+            ],
+            "name": "Telecinesi",
+            "damage": null,
+            "effect": "Questo attacco infligge 50 danni a uno dei Pokémon del tuo avversario. Questi danni non sono influenzati dalla debolezza o dalla resistenza."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Psico",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Regiopulsar",
+            "damage": 120,
+            "effect": "Il Pokémon attivo del tuo avversario viene confuso."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Psico",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Psiconova GX",
+            "damage": 180,
+            "effect": "Durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon da qualsiasi attacco. Non puoi usare più di un attacco GX a partita."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/smp-SM196"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM196",
+    "card_key": "150|190|2|MPC Film|None,120,180|2,4,4",
+    "types_en": [
+        "Psychic"
+    ]
+}

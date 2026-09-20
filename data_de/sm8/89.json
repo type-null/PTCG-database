@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm8-89",
+    "name": "Psiana",
+    "img": "https://assets.tcgdex.net/de/sm/sm8/89/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Echo des Donners",
+    "series": "Sonne & Mond",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "89",
+    "set_total": 236,
+    "rarity": "Selten",
+    "author": [
+        "Ryota Murayama"
+    ],
+    "pokedex_number": 196,
+    "pokemon_category": "",
+    "flavor_text": "Über die Kugel an seiner Stirn feuert es Psycho-Kräfte ab. Geht ihm die Kraft aus, verliert die Farbe der Kugel an Glanz.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Verlockung",
+            "damage": null,
+            "effect": "Ziehe 3 Karten."
+        },
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Zermalmende Energie",
+            "damage": "20+",
+            "effect": "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der an alle Pokémon deines Gegners angelegten Energien zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm8-89"
+        }
+    ],
+    "print_key": "tcgdex:sm8-89",
+    "card_key": "196|90|1|Ryota Murayama|None,20+|1,1",
+    "types_en": [
+        "Psychic"
+    ]
+}

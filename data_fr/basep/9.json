@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/basep-9",
+    "name": "Mew",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "basep",
+    "set_img": "https://assets.tcgdex.net/univ/base/basep/symbol",
+    "set_full_name": "Wizards Black Star Promos",
+    "series": "Base",
+    "set_code": "basep",
+    "date": "1999-07-01",
+    "number": "9",
+    "set_total": 53,
+    "rarity": "Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 151,
+    "pokemon_category": "",
+    "flavor_text": "Unique et rare, son existence est remise en cause par les experts. Peu nombreux sont ceux qui l'ont vu.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Vague psy",
+            "damage": "10×",
+            "effect": "Inflige 10 dégâts multipliés par le nombre de cartes Énergie attachés au Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy"
+            ],
+            "name": "Rayon rétrograde",
+            "damage": null,
+            "effect": "Choisissez un Pokémon évolué (l'un des vôtres ou l'un de ceux de votre adversaire). Retournez la plus haute carte Évolution sur ce Pokémon dans la main de son propriétaire. Ce Pokémon n'est plus Endormi, Confus, Paralysé, Empoisonné ou tout autre effet résultant d'une attaque (comme s'il venait juste d'évoluer)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/basep-9"
+        }
+    ],
+    "print_key": "tcgdex:basep-9",
+    "card_key": "151|50|1|Ken Sugimori|10x,None|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm1-5",
+    "name": "Parasect",
+    "img": "https://assets.tcgdex.net/es/sm/sm1/5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sol y Luna",
+    "series": "Sol y Luna",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "5",
+    "set_total": 163,
+    "rarity": "Rara",
+    "author": [
+        "Eri Yamaki"
+    ],
+    "pokedex_number": 47,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 110,
+    "types": [
+        "Planta"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Corte Furia",
+            "damage": "10+",
+            "effect": "Lanza 3 monedas. Si sale cara en 1 de ellas, este ataque hace 20 puntos de daño más. Si sale cara en 2, hace 60 puntos de daño más. Si sale cara en las 3, hace 120 puntos de daño más."
+        },
+        {
+            "cost": [
+                "Planta",
+                "Planta",
+                "Incolora"
+            ],
+            "name": "Drenaje Seta",
+            "damage": 70,
+            "effect": "Cura 30 puntos de daño a este Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm1-5"
+        }
+    ],
+    "print_key": "tcgdex:sm1-5",
+    "card_key": "47|110|3|Eri Yamaki|10+,70|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

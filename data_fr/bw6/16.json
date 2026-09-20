@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw6-16",
+    "name": "Maracachi",
+    "img": "https://assets.tcgdex.net/fr/bw/bw6/16/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw6",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw6/symbol",
+    "set_full_name": "Dragons Éxaltés",
+    "series": "Noir & Blanc",
+    "set_code": "bw6",
+    "date": "2012-08-15",
+    "number": "16",
+    "set_total": 128,
+    "rarity": "Peu Commune",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 556,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Para-Dard",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Épine Renforcée",
+            "damage": 40,
+            "effect": "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw6-16"
+        }
+    ],
+    "print_key": "tcgdex:bw6-16",
+    "card_key": "556|90|2|sui|20,40|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex16-11",
+    "name": "Mackogneur",
+    "img": "https://assets.tcgdex.net/fr/ex/ex16/11/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex16",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex16/symbol",
+    "set_full_name": "EX Gardiens du Pouvoir",
+    "series": "EX",
+    "set_code": "ex16",
+    "date": "2007-02-17",
+    "number": "11",
+    "set_total": 108,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Excès de zèle",
+            "effect": "Si votre adversaire possède des Pokémon-ex en jeu, chacune des attaques de Mackogneur inflige 30 dégâts supplémentaires au Pokémon Défenseur."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Casse-Brique",
+            "damage": 40,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coup-croix",
+            "damage": "60+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts plus 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Machopeur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex16-11"
+        }
+    ],
+    "print_key": "tcgdex:ex16-11",
+    "card_key": "68|120|2|Ken Sugimori|40,60+|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

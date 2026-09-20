@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl2-50",
+    "name": "Staross Niv. 44",
+    "img": "https://assets.tcgdex.net/fr/pl/pl2/50/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Rivaux Émergeants",
+    "series": "Platine",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "50",
+    "set_total": 120,
+    "rarity": "Peu Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 121,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Aqua recyclage",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre pile de défausse une carte Énergie {W}. Montrez-la à votre adversaire et placez-la dans votre main. Ce pouvoir ne peut pas être utilisé si Staross est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Synchro-gain",
+            "damage": 20,
+            "effect": "Si Staross et le Pokémon Défenseur possèdent le même nombre d'Énergies, retirez à Staross 4 marqueurs de dégât."
+        },
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Pirouette puissante",
+            "damage": 40,
+            "effect": "Staross ne peut pas attaquer lors de votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+20"
+    },
+    "retreat": 0,
+    "evolve_from": "Stari",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl2-50"
+        }
+    ],
+    "print_key": "tcgdex:pl2-50",
+    "card_key": "121|80|0|Ken Sugimori|20,40|1,1",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm12-6",
+    "name": "Tangoloss",
+    "img": "https://assets.tcgdex.net/de/sm/sm12/6/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm12",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm12/symbol",
+    "set_full_name": "Welten im Wandel",
+    "series": "Sonne & Mond",
+    "set_code": "sm12",
+    "date": "2019-11-01",
+    "number": "6",
+    "set_total": 271,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 465,
+    "pokemon_category": "",
+    "flavor_text": "Es umwickelt Beute, indem es seine Arme, die aus Ranken bestehen, verlängert.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Strauchler",
+            "damage": "10+",
+            "effect": "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Slam",
+            "damage": "80×",
+            "effect": "Wirf 2 Münzen. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Tangela",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm12-6"
+        }
+    ],
+    "print_key": "tcgdex:sm12-6",
+    "card_key": "465|140|3|nagimiso|10+,80x|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

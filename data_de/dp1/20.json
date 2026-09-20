@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp1-20",
+    "name": "Bidifas",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perl",
+    "series": "Diamant & Perl",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "20",
+    "set_total": 130,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 400,
+    "pokemon_category": "",
+    "flavor_text": "Es baut sein Nest, indem es in Flüssen Dämme aus Schlamm und Ästen baut. Ein fleißiger Arbeiter.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Ruhe",
+            "damage": null,
+            "effect": "Entferne alle Speziellen Zustände und 4 Schadensmarken von Bidifas. Bidifas schläft jetzt."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Bodycheck",
+            "damage": 60,
+            "effect": "Bidifas fügt sich selbst 10 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Bidiza",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp1-20"
+        }
+    ],
+    "print_key": "tcgdex:dp1-20",
+    "card_key": "400|100|2|Ken Sugimori|None,60|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

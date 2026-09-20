@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp5-9",
+    "name": "Mewtu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp5",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp5/symbol",
+    "set_full_name": "Majestätischer Morgen",
+    "series": "Diamant & Perl",
+    "set_code": "dp5",
+    "date": "2008-05-01",
+    "number": "9",
+    "set_total": 100,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "flavor_text": "Die Gene von MEW wurden neu angeordnet, wodurch dieses PKMN entstand. Es hat ein wildes Herz.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Energieaufnahme",
+            "damage": null,
+            "effect": "Durchsuche deinen Ablagestapel nach bis zu 2 Energiekarten und lege sie an Mewtu an."
+        },
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Genesung",
+            "damage": null,
+            "effect": "Lege 1 an Mewtu angelegte {P}-Energie auf deinen Ablagestapel und entferne 6 Schadensmarken von Mewtu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psychoverbrennung",
+            "damage": 60,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp5-9"
+        }
+    ],
+    "print_key": "tcgdex:dp5-9",
+    "card_key": "150|90|2|Kent Kanetsuna|None,None,60|0,1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

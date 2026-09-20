@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dpp-DP21",
+    "name": "Raichu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dpp",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dpp/symbol",
+    "set_full_name": "Promo DP",
+    "series": "Diamant & Perl",
+    "set_code": "dpp",
+    "date": "2007-05-01",
+    "number": "DP21",
+    "set_total": 56,
+    "rarity": "Häufig",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Elektromagnetische Induktion",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu 2 -Energiekarten und lege sie an 1 deiner Pokémon an. Mische dein Deck danach."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Explosiver Donner",
+            "damage": "30x",
+            "effect": "Lege alle an Raichu angelegten -Basis-Energiekarten auf deinen Ablagestapel. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl der auf diese Weise auf den Ablagestapel gelegten -Energiekarten zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dpp-DP21"
+        }
+    ],
+    "print_key": "tcgdex:dpp-DP21",
+    "card_key": "26|90|1|Daisuke Ito|None,30x|0,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

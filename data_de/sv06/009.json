@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv06-009",
+    "name": "Volbeat",
+    "img": "https://assets.tcgdex.net/de/sv/sv06/009/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "H",
+    "set_name": "sv06",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv06/symbol",
+    "set_full_name": "Maskerade im Zwielicht",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv06",
+    "date": "2024-05-24",
+    "number": "009",
+    "set_total": 226,
+    "rarity": "Häufig",
+    "author": [
+        "Orca"
+    ],
+    "pokedex_number": 313,
+    "pokemon_category": "",
+    "flavor_text": "Volbeat kommuniziert mit seinen Artgenossen, indem es mit dem Licht an seinem Hinterteil blinkt. Es liebt den süßen Duft von Illumise.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Schnelles Zeichen",
+            "damage": null,
+            "effect": "Wenn du als Erster am Zug bist, kannst du diese Attacke während deines ersten Zuges einsetzen. Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Koordinierter Angriff",
+            "damage": "20+",
+            "effect": "Wenn sich Illumise auf deiner Bank befindet, fügt diese Attacke 60 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv06-009"
+        }
+    ],
+    "print_key": "tcgdex:sv06-9",
+    "card_key": "313|70|1|Orca|None,20+|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

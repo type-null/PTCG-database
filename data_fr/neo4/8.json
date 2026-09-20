@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo4-8",
+    "name": "Porygon2 obscur",
+    "img": "https://assets.tcgdex.net/fr/neo/neo4/8/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "8",
+    "set_total": 113,
+    "rarity": "Rare",
+    "pokedex_number": 233,
+    "pokemon_category": "",
+    "flavor_text": "Les progrès de la technologie lui ont permis d'évoluer. Parfois, il affiche un comportement qui n'a pas été inclus dans sa programmation.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Distorsion spatiale",
+            "effect": "Une fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, choisissez une carte Stade dans votre pile de défausse et mettez-la en jeu. (S'il y a déjà une carte Stade en jeu, défaussez-vous en.) Ce pouvoir ne fonctionne pas si Porygon2 obscur est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Courbattaque",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, prévenez tous les dégâts des attaques sur Porygon2 obscur pendant le prochain tour de votre adversaire. (Tous les autres effets dus à des attaques subsistent.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Porygon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo4-8"
+        }
+    ],
+    "print_key": "tcgdex:neo4-8",
+    "types_en": [
+        "Colorless"
+    ]
+}

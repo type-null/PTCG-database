@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw7-20",
+    "name": "Glurak",
+    "img": "https://assets.tcgdex.net/de/bw/bw7/20/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw7",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw7/symbol",
+    "set_full_name": "Überschrittene Schwellen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw7",
+    "date": "2012-11-07",
+    "number": "20",
+    "set_total": 153,
+    "rarity": "Selten",
+    "author": [
+        "hatachu"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "flavor_text": "Man sagt, Gluraks Feuer lodert stärker, wenn es harte Kämpfe überstanden hat.",
+    "stage": "Rang 2",
+    "hp": 160,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Splitterbombe",
+            "damage": null,
+            "effect": "Dieser Angriff fügt 2 Pokémon deines Gegners 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Versengendes Feuer",
+            "damage": 150,
+            "effect": "Lege 1 an dieses Pokémon angelegte {R}-Energie auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Glutexo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw7-20"
+        }
+    ],
+    "print_key": "tcgdex:bw7-20",
+    "card_key": "6|160|3|hatachu|None,150|3,5",
+    "types_en": [
+        "Fire"
+    ]
+}

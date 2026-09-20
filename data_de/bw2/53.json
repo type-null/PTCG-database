@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw2-53",
+    "name": "Brockoloss",
+    "img": "https://assets.tcgdex.net/de/bw/bw2/53/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw2",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw2/symbol",
+    "set_full_name": "Aufstreben der Mächtigen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw2",
+    "date": "2011-08-31",
+    "number": "53",
+    "set_total": 98,
+    "rarity": "Selten",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 526,
+    "pokemon_category": "",
+    "flavor_text": "Es absorbiert über seine orangefarbenen Kristalle das Sonnenlicht und schießt die so gewonnene Energie aus seinem Maul.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Scherer",
+            "damage": null,
+            "effect": "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel. Wenn darunter {F}-Energiekarten sind, lege sie an dieses Pokémon an."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Steinkugel",
+            "damage": 40,
+            "effect": "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte {F}-Energie zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Sedimantur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw2-53"
+        }
+    ],
+    "print_key": "tcgdex:bw2-53",
+    "card_key": "526|140|4|Naoki Saito|None,40|1,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh1-28",
+    "name": "Amfira",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh1/28/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Schwert & Schild",
+    "series": "Schwert & Schild",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "28",
+    "set_total": 216,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 758,
+    "pokemon_category": "",
+    "flavor_text": "Es existieren nur weibliche Exemplare. Sie stoßen Pheromongase aus, mit denen sie sich männliche Molunk hörig machen.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Sengende Flammen",
+            "damage": 20,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Helle Flamme",
+            "damage": 120,
+            "effect": "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Molunk",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh1-28"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-28",
+    "card_key": "758|120|1|Tomokazu Komiya|20,120|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

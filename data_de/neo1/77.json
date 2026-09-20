@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-77",
+    "name": "Mogelbaum",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "77",
+    "set_total": 111,
+    "rarity": "Häufig",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 185,
+    "pokemon_category": "",
+    "flavor_text": "Obwohl es immer vorgibt, ein Baum zu sein, erinnert seine Aufmachung eher an einen Felsen als an eine Pflanze.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Dreschflegel",
+            "damage": "10x",
+            "effect": "Fügt 10 Schadenspunkte mal der Anzahl der Schadensmarken auf Mogelbaum zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Steinwurf",
+            "damage": 30,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-77"
+        }
+    ],
+    "print_key": "tcgdex:neo1-77",
+    "card_key": "185|60|3|Ken Sugimori|10x,30|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

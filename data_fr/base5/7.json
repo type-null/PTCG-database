@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base5-7",
+    "name": "Nosferalto obscur",
+    "img": "https://assets.tcgdex.net/fr/base/base5/7/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Base",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "7",
+    "set_total": 83,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 42,
+    "pokemon_category": "",
+    "flavor_text": "Il se faufile silencieusement derrière ses proies pour les attaquer, les tuant parfois d'une seule morsure.",
+    "stage": "Niveau 1",
+    "hp": 50,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Attaque sournoise",
+            "effect": "Lorsque vous jouez Nosferalto obscur depuis votre main, vous pouvez choisir 1 des Pokémon de votre adversaire. Dans ce cas, Nosferalto obscur inflige 10 dégâts à ce Pokémon. (N'appliquez pas la Faiblesse et la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Plante"
+            ],
+            "name": "Voltige",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de votre adversaire. Cette attaque inflige 20 dégâts à ce Pokémon. N'appliquez pas la Faiblesse et la Résistance pour cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et de la Résistance subsistent.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "evolve_from": "Nosferapti",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base5-7"
+        }
+    ],
+    "print_key": "tcgdex:base5-7",
+    "card_key": "42|50|None|Mitsuhiro Arita|None|2",
+    "types_en": [
+        "Grass"
+    ]
+}

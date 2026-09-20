@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex8-48",
+    "name": "Starmie",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "48",
+    "set_total": 108,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 121,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Core Guard",
+            "effect": "As long as Starmie has any  Energy attached to it, damage done to Starmie by attacks is reduced by 10 (after applying Weakness and Resistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Energy Flip",
+            "damage": null,
+            "effect": "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) You may move an Enegry attached to that Pokémon to another of your opponent's Pokémon."
+        },
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Psychic Boom",
+            "damage": "10+",
+            "effect": "Does 10 damage plus 10 more damage for each Energy attached to the Defending Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex8-48"
+        }
+    ],
+    "print_key": "tcgdex:ex8-48",
+    "card_key": "121|70|1|Yukiko Baba|None,10+|1,1",
+    "types_en": [
+        "Water"
+    ]
+}

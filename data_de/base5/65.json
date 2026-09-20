@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base5-65",
+    "name": "Enton",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Grund",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "65",
+    "set_total": 83,
+    "rarity": "Häufig",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 54,
+    "pokemon_category": "",
+    "flavor_text": "Man sieht es oft mit den Pfoten überm Kopf, als ob es Kopfweh hätte.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Schwindelgefühl",
+            "damage": null,
+            "effect": "Ziehe eine Karte."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Wasser"
+            ],
+            "name": "Aquaknarre",
+            "damage": "20+",
+            "effect": "Fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Enton abgelegte {W}-Energie zu, die nicht zum Zahlen für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 20 Schadenspunkte hinzufügen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base5-65"
+        }
+    ],
+    "print_key": "tcgdex:base5-65",
+    "card_key": "54|50|1|Mitsuhiro Arita|None,20+|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

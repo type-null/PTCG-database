@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex8-7",
+    "name": "Zwirrklop",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "7",
+    "set_total": 108,
+    "rarity": "Selten",
+    "author": [
+        "Tomoko Wakai"
+    ],
+    "pokedex_number": 356,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Psychic Removal",
+            "damage": 20,
+            "effect": "Flip 2 coins. If both of them are heads, discard all Energy attached to the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Powerful Hand.",
+            "damage": null,
+            "effect": "Count the number of cards in your hand. Put that many damage counters on the Defending Pokémon. You can't put more than 7 damage counters in this way."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex8-7"
+        }
+    ],
+    "print_key": "tcgdex:ex8-7",
+    "card_key": "356|70|1|Tomoko Wakai|20,None|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

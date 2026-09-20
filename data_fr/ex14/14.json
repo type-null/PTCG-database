@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex14-14",
+    "name": "Tortank",
+    "img": "https://assets.tcgdex.net/fr/ex/ex14/14/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex14",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex14/symbol",
+    "set_full_name": "EX Gardiens de Cristal",
+    "series": "EX",
+    "set_code": "ex14",
+    "date": "2006-08-30",
+    "number": "14",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 9,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Pression aquatique",
+            "effect": "Tant qu'il lui reste 40 Points de vie ou moins, Tortank inflige 40 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Hydrocanon",
+            "damage": "50+",
+            "effect": "Inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque Énergie {W} attachée à Tortank qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 40 dégâts de cette façon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Carabaffe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex14-14"
+        }
+    ],
+    "print_key": "tcgdex:ex14-14",
+    "card_key": "9|120|2|Kouki Saitou|50+|3",
+    "types_en": [
+        "Water"
+    ]
+}

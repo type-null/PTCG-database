@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base3-23",
+    "name": "Hypnomade",
+    "img": "https://assets.tcgdex.net/fr/base/base3/23/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base3",
+    "set_img": "https://assets.tcgdex.net/univ/base/base3/symbol",
+    "set_full_name": "Fossile",
+    "series": "Base",
+    "set_code": "base3",
+    "date": "1999-10-10",
+    "number": "23",
+    "set_total": 62,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 97,
+    "pokemon_category": "",
+    "flavor_text": "En fixant son adversaire, il l'assaille avec les attaques Psy Hypnose et Convulsion.",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Prophétie",
+            "damage": null,
+            "effect": "Regardez jusqu'à 3 cartes du dessus du deck d'un des deux joueurs et réarrangez-les comme bon vous semble."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Psy"
+            ],
+            "name": "Sombre-esprit",
+            "damage": 30,
+            "effect": "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Résistance et la Faiblesse au Pokémon du Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Soporifik",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base3-23"
+        }
+    ],
+    "print_key": "tcgdex:base3-23",
+    "card_key": "97|90|2|Ken Sugimori|None,30|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

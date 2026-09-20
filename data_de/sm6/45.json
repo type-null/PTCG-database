@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm6-45",
+    "name": "Psiaugon",
+    "img": "https://assets.tcgdex.net/de/sm/sm6/45/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm6",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm6/symbol",
+    "set_full_name": "Grauen Der Lichtfinsternis",
+    "series": "Sonne & Mond",
+    "set_code": "sm6",
+    "date": "2018-05-04",
+    "number": "45",
+    "set_total": 146,
+    "rarity": "Selten",
+    "author": [
+        "0313"
+    ],
+    "pokedex_number": 678,
+    "pokemon_category": "",
+    "flavor_text": "Über das Augenmuster auf der Innenseite seiner Ohren setzt es seine Psycho-Kräfte frei. Da diese aber viel zu stark sind, hält es das Muster bedeckt.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Blitz-Teleportation",
+            "damage": 20,
+            "effect": "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psychokinese",
+            "damage": "30+",
+            "effect": "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der an das Aktive Pokémon deines Gegners angelegten Energien zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Psiau",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm6-45"
+        }
+    ],
+    "print_key": "tcgdex:sm6-45",
+    "card_key": "678|90|1|0313|20,30+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

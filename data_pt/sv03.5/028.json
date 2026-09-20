@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/sv03.5-028",
+    "name": "Sandslash",
+    "img": "https://assets.tcgdex.net/pt/sv/sv03.5/028/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "regulation": "G",
+    "set_name": "sv03.5",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03.5/symbol",
+    "set_full_name": "151",
+    "series": "Escarlate e Violeta",
+    "set_code": "sv03.5",
+    "date": "2023-09-22",
+    "number": "028",
+    "set_total": 207,
+    "rarity": "Incomum",
+    "author": [
+        "kodama"
+    ],
+    "pokedex_number": 28,
+    "pokemon_category": "",
+    "stage": "Estágio 1",
+    "hp": 120,
+    "types": [
+        "Lutador"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lutador"
+            ],
+            "name": "Estrondo",
+            "damage": 30,
+            "effect": "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar."
+        },
+        {
+            "cost": [
+                "Lutador",
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Espinho Despedaçador",
+            "damage": "80+",
+            "effect": "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 100 pontos de dano a mais."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Sandshrew",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/sv03.5-028"
+        }
+    ],
+    "print_key": "tcgdex:sv03.5-28",
+    "card_key": "28|120|2|kodama|30,80+|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

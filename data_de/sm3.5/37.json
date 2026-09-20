@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm3.5-37",
+    "name": "Arbok",
+    "img": "https://assets.tcgdex.net/de/sm/sm3.5/37/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm3.5",
+    "set_full_name": "Schimmernde Legenden",
+    "series": "Sonne & Mond",
+    "set_code": "sm3.5",
+    "date": "2017-10-06",
+    "number": "37",
+    "set_total": 78,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "kodama"
+    ],
+    "pokedex_number": 24,
+    "pokemon_category": "",
+    "flavor_text": "Das Muster auf seinem Bauch ähnelt einer Fratze. Schwache Gegner nehmen bereits beim Anblick Reißaus.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Einschüchterndes Muster",
+            "effect": "Solang dieses Pokémon dein Aktives Pokémon ist, fügen die Attacken des Aktiven Pokémon deines Gegners 30 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Gifthauer",
+            "damage": 70,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Rettan",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm3.5-37"
+        }
+    ],
+    "print_key": "tcgdex:sm3.5-37",
+    "card_key": "24|120|3|kodama|70|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

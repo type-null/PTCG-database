@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv03.5-126",
+    "name": "Magmar",
+    "img": "https://assets.tcgdex.net/de/sv/sv03.5/126/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv03.5",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03.5/symbol",
+    "set_full_name": "151",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv03.5",
+    "date": "2023-09-22",
+    "number": "126",
+    "set_total": 207,
+    "rarity": "Häufig",
+    "author": [
+        "Toshinao Aoki"
+    ],
+    "pokedex_number": 126,
+    "pokemon_category": "",
+    "flavor_text": "Sein Körper ist ständig in Flammen gehüllt, wodurch es als eine Ursache von Bränden gefürchtet wird.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Glühende Kohlen",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Flammenkombo",
+            "damage": "80+",
+            "effect": "Wenn sich Elektek auf deiner Bank befindet, fügt diese Attacke 80 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv03.5-126"
+        }
+    ],
+    "print_key": "tcgdex:sv03.5-126",
+    "card_key": "126|90|2|Toshinao Aoki|10,80+|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

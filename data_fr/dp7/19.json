@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-19",
+    "name": "Léviator",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "19",
+    "set_total": 106,
+    "rarity": "Rare",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 130,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Queue vengeance",
+            "damage": "30x",
+            "effect": "Inflige 30 dégâts multipliés par le nombre de Magicarpes dans votre pile de défausse."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Causer des ravages",
+            "damage": 40,
+            "effect": "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, défaussez la carte du dessus du deck de votre adversaire."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Draco-battement",
+            "damage": 100,
+            "effect": "Lancez une pièce. Si c'est face, défaussez une carte Énergie de chacun des Pokémon de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Magicarpe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-19"
+        }
+    ],
+    "print_key": "tcgdex:dp7-19",
+    "card_key": "130|130|3|Midori Harada|30x,40,100|0,2,5",
+    "types_en": [
+        "Water"
+    ]
+}

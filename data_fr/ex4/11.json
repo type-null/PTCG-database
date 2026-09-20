@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex4-11",
+    "name": "Rhinoféros de Team Magma",
+    "img": "https://assets.tcgdex.net/fr/ex/ex4/11/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex4",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex4/symbol",
+    "set_full_name": "EX Team Magma vs Team Aqua",
+    "series": "EX",
+    "set_code": "ex4",
+    "date": "2004-03-01",
+    "number": "11",
+    "set_total": 97,
+    "rarity": "Holo Rare",
+    "author": [
+        "T. Honda"
+    ],
+    "pokedex_number": 112,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Combat",
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Taquet de Magma",
+            "damage": 20,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Démolir",
+            "damage": 50,
+            "effect": "Si le nom du Pokémon Défenseur comporte Team Aqua, le Pokémon Défenseur est maintenant Confus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex4-11"
+        }
+    ],
+    "print_key": "tcgdex:ex4-11",
+    "card_key": "112|90|2|T. Honda|20,50|2,3",
+    "types_en": [
+        "Fighting",
+        "Darkness"
+    ]
+}

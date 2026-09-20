@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss1-34",
+    "name": "Smogmog",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss1/34/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss1",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss1/symbol",
+    "set_full_name": "HeartGold SoulSilver",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss1",
+    "date": "2010-02-10",
+    "number": "34",
+    "set_total": 124,
+    "rarity": "Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 110,
+    "pokemon_category": "",
+    "flavor_text": "Pumpt sich eines der zwei SMOGON auf, lässt das andere Luft ab. So findet ein Giftgasaustausch statt.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Super-Gifthauch",
+            "damage": null,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Super-Explosion",
+            "damage": 90,
+            "effect": "Smogmog fügt sich selbst 90 Schadenspunkte zu, wende dabei Schwäche nicht an."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Smogon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss1-34"
+        }
+    ],
+    "print_key": "tcgdex:hgss1-34",
+    "card_key": "110|90|2|Hajime Kusajima|None,90|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

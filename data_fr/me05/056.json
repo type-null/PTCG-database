@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/me05-056",
+    "name": "Zarude",
+    "img": "https://assets.tcgdex.net/fr/me/me05/056/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "J",
+    "set_name": "me05",
+    "set_img": "https://assets.tcgdex.net/univ/me/me05/symbol",
+    "set_full_name": "Nuit Noire",
+    "series": "Méga-Évolution",
+    "set_code": "me05",
+    "date": "2026-07-17",
+    "number": "056",
+    "set_total": 120,
+    "rarity": "Rare",
+    "author": [
+        "matazo"
+    ],
+    "pokedex_number": 893,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité"
+            ],
+            "name": "Soulève Corne",
+            "damage": 30,
+            "effect": "Cette attaque inflige aussi 30 dégâts à l'un de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité",
+                "Obscurité"
+            ],
+            "name": "Fouet Sombre",
+            "damage": "100+",
+            "effect": "Si au moins une Énergie {D} Sombre est attachée à vos Pokémon de Banc, cette attaque inflige 70 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/me05-056"
+        }
+    ],
+    "print_key": "tcgdex:me05-56",
+    "card_key": "893|130|2|matazo|30,100+|1,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

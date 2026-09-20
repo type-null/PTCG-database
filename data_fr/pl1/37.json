@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-37",
+    "name": "Palkia",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/37/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "37",
+    "set_total": 133,
+    "rarity": "Rare",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 484,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Tsunami",
+            "damage": 10,
+            "effect": "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Vibraqua",
+            "damage": 60,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-37"
+        }
+    ],
+    "print_key": "tcgdex:pl1-37",
+    "card_key": "484|100|2|Kent Kanetsuna|10,60|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

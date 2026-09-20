@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex12-22",
+    "name": "Magnéton",
+    "img": "https://assets.tcgdex.net/fr/ex/ex12/22/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Créateurs de légendes",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "22",
+    "set_total": 93,
+    "rarity": "Rare",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 82,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Recharge réactive",
+            "effect": "Si Magneton doit être mis K.O par les dégâts d'une attaque de votre adversaire, vous pouvez déplacer autant de cartes Énergie réaction que vous voulez de Magneton sur vos Pokémon, de la façon que vous voulez."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Forces multiples",
+            "damage": "30+",
+            "effect": "Si Magneton possède des cartes Énergie réaction, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Magneti et Magneton en jeu (les vôtres et ceux de votre adversaire)."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Explosion magnétique",
+            "damage": 60,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Magnéti",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex12-22"
+        }
+    ],
+    "print_key": "tcgdex:ex12-22",
+    "card_key": "82|70|1|Hisao Nakamura|30+,60|2,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

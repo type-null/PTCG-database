@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/g1-15",
+    "name": "Gallopa",
+    "img": "https://assets.tcgdex.net/de/xy/g1/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Generationen",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "15",
+    "set_total": 117,
+    "rarity": "Selten",
+    "author": [
+        "DemizuPosuka"
+    ],
+    "pokedex_number": 78,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon verfolgt schnelle Objekte in der Hoffnung, ein Wettrennen gegen sie zu gewinnen.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Agilität",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Überrennen",
+            "damage": 40,
+            "effect": "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Ponita",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/g1-15"
+        }
+    ],
+    "print_key": "tcgdex:g1-15",
+    "card_key": "78|90|0|DemizuPosuka|20,40|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-47",
+    "name": "Camérupt",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "47",
+    "set_total": 146,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 323,
+    "pokemon_category": "",
+    "flavor_text": "Il porte des volcans sur son dos. Quand le magma remonte, il frissonne et entre en éruption.",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Éruption",
+            "damage": "30+",
+            "effect": "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Bélier",
+            "damage": 80,
+            "effect": "Camerupt s'inflige 20 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+20"
+    },
+    "retreat": 3,
+    "evolve_from": "Camaub",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-47"
+        }
+    ],
+    "print_key": "tcgdex:dp6-47",
+    "card_key": "323|100|3|Kagemaru Himeno|30+,80|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

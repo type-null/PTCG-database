@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo3-13",
+    "name": "Raikou",
+    "img": "https://assets.tcgdex.net/fr/neo/neo3/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "13",
+    "set_total": 66,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 243,
+    "pokemon_category": "",
+    "flavor_text": "Les nuages gorgés de pluie qui l'accompagnent lui permettent de lancer des éclairs à volonté. On raconte qu'il est issu de la foudre.",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Explosion d'éclairs",
+            "effect": "Lorsque vous attachez une carte Énergie  à Raikou depuis votre main, si votre adversaire à des Pokémon sur son Banc, il choisit l'un d'entre eux et l'échange avec le Pokémon Défenseur. Ce pouvoir cesse de fonctionner si Raikou est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Charge éclair",
+            "damage": 50,
+            "effect": "Lancez une pièce. Si c'est pile, Raikou s'inflige 20 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo3-13"
+        }
+    ],
+    "print_key": "tcgdex:neo3-13",
+    "card_key": "243|80|1|Ken Sugimori|50|3",
+    "types_en": [
+        "Lightning"
+    ]
+}

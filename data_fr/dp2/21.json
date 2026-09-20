@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp2-21",
+    "name": "Bastiodon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Trésors Mystérieux",
+    "series": "Diamant & Perle",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "21",
+    "set_total": 124,
+    "rarity": "Rare",
+    "author": [
+        "Kazuyuki Kano"
+    ],
+    "pokedex_number": 411,
+    "pokemon_category": "",
+    "flavor_text": "Il résiste à toute attaque frontale. C'est un Pokémon docile qui se nourrit d'herbe et de Baies.",
+    "stage": "Niveau 2",
+    "hp": 130,
+    "types": [
+        "Métal"
+    ],
+    "abilities": [
+        {
+            "name": "Mur protecteur",
+            "effect": "Prévenez tous les dégâts infligés à vos Pokémon de Banc par des attaques de votre adversaire."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Vengeance furieuse",
+            "damage": 60,
+            "effect": "Si des dégâts ont été infligés à Bastiodon par une attaque lors du dernier tour de votre adversaire, cette attaque inflige 40 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+40"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Dinoclier",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp2-21"
+        }
+    ],
+    "print_key": "tcgdex:dp2-21",
+    "card_key": "411|130|3|Kazuyuki Kano|60|3",
+    "types_en": [
+        "Metal"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh7-49",
+    "name": "Pikachu",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh7/49/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh7",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh7/symbol",
+    "set_full_name": "Drachenwandel",
+    "series": "Schwert & Schild",
+    "set_code": "swsh7",
+    "date": "2021-08-27",
+    "number": "49",
+    "set_total": 237,
+    "rarity": "Häufig",
+    "author": [
+        "chibi"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "flavor_text": "Pikachu begrüßen einander, indem sie ihre Schweife aneinanderreiben und eine Ladung Strom durch diese gleiten lassen.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Energiezufuhr",
+            "damage": null,
+            "effect": "Lege 1 {L}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Elektroball",
+            "damage": 30,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh7-49"
+        }
+    ],
+    "print_key": "tcgdex:swsh7-49",
+    "card_key": "25|60|1|chibi|None,30|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

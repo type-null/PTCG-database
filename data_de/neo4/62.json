@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo4-62",
+    "name": "Dunkles Octillery",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "62",
+    "set_total": 113,
+    "rarity": "Häufig",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 224,
+    "pokemon_category": "",
+    "flavor_text": "Es zieht sich zum Schlafen in Felshöhlen zurück und raubt manchmal auch die Nester anderer Octillerys aus.",
+    "stage": "Rang 1",
+    "hp": 60,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Tintenstrahl",
+            "damage": "20+",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Dunkles Octillery angelegte Energiekarte, die nicht verwendet wurde, um für die Energiekosten dieses Angriffs zu bezahlen, zu. Du kannst auf diese Weise höchstens 20 weitere Schadenspunkte zufügen."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Tentakelumarmung",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ bezahlt dein Gegner während seines nächsten Zuges {C} mehr, wenn er das verteidigende Pokémon zurückziehen will."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Remoraid",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo4-62"
+        }
+    ],
+    "print_key": "tcgdex:neo4-62",
+    "card_key": "224|60|2|Shin-ichi Yoshida|20+,20|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

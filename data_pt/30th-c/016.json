@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/30th-c-016",
+    "name": "Rayquaza EX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "30th-c",
+    "set_full_name": "Coleção Clássica de 30 Anos",
+    "series": "Megaevolução",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "016",
+    "set_total": 30,
+    "author": [
+        "Eske Yoshinob"
+    ],
+    "stage": "Básico",
+    "hp": 170,
+    "types": [
+        "Dragão"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolor"
+            ],
+            "name": "Rugido Celestial",
+            "damage": null,
+            "effect": "Descarte os 3 cards de cima do seu baralho. Se qualquer um desses cards for um card de Energia, ligue-o a este Pokémon."
+        },
+        {
+            "cost": [
+                "Fogo",
+                "Elétrico"
+            ],
+            "name": "Rajada do Dragão",
+            "damage": "60×",
+            "effect": "Descarte todas as Energias <span class=\"energy-symbol Fire\" title=\"Fogo\">Fire</span> ou <span class=\"energy-symbol Lightning\" title=\"Raios\">Lightning</span> básicas ligadas a este Pokémon. Esse ataque causa 60 de danos vezes o número de cards de Energia descartados."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Dragão"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/30th-c-016"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-16",
+    "card_key": "384|170|1|Eske Yoshinob|None,60x|1,2",
+    "types_en": [
+        "Dragon"
+    ]
+}

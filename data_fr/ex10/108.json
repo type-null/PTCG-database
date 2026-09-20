@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex10-108",
+    "name": "Cizayox ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex10/108/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Forces Cachées",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "108",
+    "set_total": 117,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 212,
+    "pokemon_category": "",
+    "hp": 120,
+    "types": [
+        "Métal"
+    ],
+    "abilities": [
+        {
+            "name": "Perception du danger",
+            "effect": "Tant qu'il reste à Cizayox ex 60 Points de vie ou moins, Cizayox ex inflige 40 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Aile d'acier",
+            "damage": 40,
+            "effect": "Lors du prochain tour de votre adversaire, les dégâts infligés à Cizayox ex par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coupe transversale",
+            "damage": "50+",
+            "effect": "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Plante"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Insécateur ou Insécateur ex",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex10-108"
+        }
+    ],
+    "print_key": "tcgdex:ex10-108",
+    "card_key": "212|120|1|Mitsuhiro Arita|40,50+|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

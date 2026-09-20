@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/swsh2-59",
+    "name": "Electivire",
+    "img": "https://assets.tcgdex.net/it/swsh/swsh2/59/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Fragore Ribelle",
+    "series": "Spada e Scudo",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "59",
+    "set_total": 209,
+    "rarity": "Rara",
+    "author": [
+        "tetsuya koizumi"
+    ],
+    "pokedex_number": 466,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 140,
+    "types": [
+        "Lampo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lampo",
+                "Incolore"
+            ],
+            "name": "Tuonoshock",
+            "damage": 50,
+            "effect": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato."
+        },
+        {
+            "cost": [
+                "Lampo",
+                "Lampo",
+                "Incolore"
+            ],
+            "name": "Lampo Caricato",
+            "damage": "90+",
+            "effect": "Se questo Pokémon ha delle Energie speciali assegnate, questo attacco infligge 90 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Electabuzz",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/swsh2-59"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-59",
+    "card_key": "466|140|3|tetsuya koizumi|50,90+|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex8-103",
+    "name": "Drattak ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex8/103/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "103",
+    "set_total": 108,
+    "rarity": "Rare",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 373,
+    "pokemon_category": "",
+    "hp": 160,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Élévation de dragon",
+            "effect": "Le Coût de retraite de chacun de vos Pokémon (Pokémon-ex et Bébé Pokémon exclus) est de 0."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Jet de flamme",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 40 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Flamme éclatante",
+            "damage": 120,
+            "effect": "Défaussez 2 Énergies attachées à Drattak ex."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Feu",
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Drackhaus",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex8-103"
+        }
+    ],
+    "print_key": "tcgdex:ex8-103",
+    "card_key": "373|160|2|Hikaru Koike|None,120|2,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

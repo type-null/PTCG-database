@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex4-90",
+    "name": "Wielie-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex4",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex4/symbol",
+    "set_full_name": "EX Team Magma vs Team Aqua",
+    "series": "EX",
+    "set_code": "ex4",
+    "date": "2004-03-01",
+    "number": "90",
+    "set_total": 97,
+    "rarity": "Selten",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 346,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Primitive Ausstrahlung",
+            "effect": "Solange Wielie ex dein Aktives Pokémon ist, kann dein Gegner kein Pokémon von seiner Hand spielen, um eines seiner Pokémon zu entwickeln."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Gespenstisches Licht",
+            "damage": 30,
+            "effect": "Das Verteidigende Pokémon ist jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Ätzendes Gift",
+            "damage": 60,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet und verbrannt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser",
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex4-90"
+        }
+    ],
+    "print_key": "tcgdex:ex4-90",
+    "card_key": "346|150|2|Ryo Ueda|30,60|2,4",
+    "types_en": [
+        "Grass"
+    ]
+}

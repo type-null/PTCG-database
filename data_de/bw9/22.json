@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw9-22",
+    "name": "Morlord",
+    "img": "https://assets.tcgdex.net/de/bw/bw9/22/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw9",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw9/symbol",
+    "set_full_name": "Plasma-Frost",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw9",
+    "date": "2013-05-08",
+    "number": "22",
+    "set_total": 122,
+    "rarity": "Selten",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 195,
+    "pokemon_category": "",
+    "flavor_text": "Es ist sehr unbekümmert und stört sich nicht daran, wenn es während des Schwimmens an etwas stößt.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Entspannt",
+            "effect": "Schaden, der diesem Pokémon durch Angriffe zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schlammkanone",
+            "damage": 60,
+            "effect": "Wenn an dieses Pokémon bereits {F}-Energie angelegt ist, fügt dieser Angriff 30 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Felino",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw9-22"
+        }
+    ],
+    "print_key": "tcgdex:bw9-22",
+    "card_key": "195|100|3|Atsuko Nishida|60|3",
+    "types_en": [
+        "Water"
+    ]
+}

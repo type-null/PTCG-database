@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw2-2",
+    "name": "Vegichita",
+    "img": "https://assets.tcgdex.net/de/bw/bw2/2/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw2",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw2/symbol",
+    "set_full_name": "Aufstreben der Mächtigen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw2",
+    "date": "2011-08-31",
+    "number": "2",
+    "set_total": 98,
+    "rarity": "Selten",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 512,
+    "pokemon_category": "",
+    "flavor_text": "Ein hitziger Geselle, der im Kampf seinen dornigen Schweif umherschwingt. Auf seinem Kopf wachsen bittere Kräuter.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Feuermacht",
+            "damage": 30,
+            "effect": "Wenn an dieses Pokémon bereits {R}-Energie angelegt ist, ist das Verteidigende Pokémon jetzt verbrannt."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Samenbomben",
+            "damage": 60,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Vegimak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw2-2"
+        }
+    ],
+    "print_key": "tcgdex:bw2-2",
+    "card_key": "512|90|2|match|30,60|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

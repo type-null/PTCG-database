@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex11-27",
+    "name": "Sablaireau δ",
+    "img": "https://assets.tcgdex.net/fr/ex/ex11/27/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex11",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex11/symbol",
+    "set_full_name": "EX Espèces Delta",
+    "series": "EX",
+    "set_code": "ex11",
+    "date": "2005-10-31",
+    "number": "27",
+    "set_total": 114,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 28,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Combat",
+        "Métal"
+    ],
+    "abilities": [
+        {
+            "name": "Tempête Delta",
+            "effect": "Tant que Sablaireau est votre Pokémon Actif, placez 1 marqueur de dégât sur chacun des Pokémon-ex de votre adversaire entre deux tours."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Déchirer",
+            "damage": "20+",
+            "effect": "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tranche",
+            "damage": 50,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Sabelette",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex11-27"
+        }
+    ],
+    "print_key": "tcgdex:ex11-27",
+    "card_key": "28|80|1|Mitsuhiro Arita|20+,50|2,3",
+    "types_en": [
+        "Fighting",
+        "Metal"
+    ]
+}

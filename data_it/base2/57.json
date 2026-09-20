@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base2-57",
+    "name": "Nidoran♀",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Originale",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "57",
+    "set_total": 64,
+    "rarity": "Comune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 29,
+    "pokemon_category": "",
+    "flavor_text": "Sebbene sia piccolo, i suoi barbigli velenosi rendono questo Pokémon molto pericoloso. La femmina ha i corni più piccoli.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Erba"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Erba"
+            ],
+            "name": "Sfuriate",
+            "damage": "10x",
+            "effect": "Lancia 3 volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa."
+        },
+        {
+            "cost": [
+                "Erba",
+                "Erba"
+            ],
+            "name": "Cerca Famiglia",
+            "damage": null,
+            "effect": "Cerca nel tuo mazzo un Pokémon base chiamato Nidoran♀ o Nidoran♂ e mettilo nella tua Panchina. Poi rimischia le carte del tuo mazzo (se la tua Panchina è già completa, non puoi usare questo attacco)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base2-57"
+        }
+    ],
+    "print_key": "tcgdex:base2-57",
+    "card_key": "29|60|1|Ken Sugimori|10x,None|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

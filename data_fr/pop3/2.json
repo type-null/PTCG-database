@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pop3-2",
+    "name": "Pyroli",
+    "img": "https://assets.tcgdex.net/fr/pop/pop3/2/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pop3",
+    "set_img": "https://assets.tcgdex.net/univ/pop/pop3/symbol",
+    "set_full_name": "POP Série 3",
+    "series": "POP",
+    "set_code": "pop3",
+    "date": "2006-04-01",
+    "number": "2",
+    "set_total": 17,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 136,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Vive-attaque",
+            "damage": "10+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Danseflamme",
+            "damage": 70,
+            "effect": "Défaussez 2 cartes Énergie de base attachées à Pyroli ou cette attaque est sans effet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pop3-2"
+        }
+    ],
+    "print_key": "tcgdex:pop3-2",
+    "card_key": "136|70|1|Masakazu Fukuda|10+,70|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

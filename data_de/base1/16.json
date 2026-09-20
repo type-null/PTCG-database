@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-16",
+    "name": "Zapdos",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "16",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "flavor_text": "Ein legendäres Vogel-Pokémon, welches der Sage nach aus den Wolken sticht und mit Blitzen um sich wirft.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Donner",
+            "damage": 60,
+            "effect": "Wirf eine Münze. Bei „Zahl“ fügt Zapdos sich selbst 30 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Donnerblitz",
+            "damage": 100,
+            "effect": "Entferne alle auf Zapdos abgelegten Energiekarten, um diesen Angriff auszuführen."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-16"
+        }
+    ],
+    "print_key": "tcgdex:base1-16",
+    "card_key": "145|90|3|Ken Sugimori|60,100|4,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

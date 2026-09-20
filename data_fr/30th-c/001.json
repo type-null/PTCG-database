@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/30th-c-001",
+    "name": "Dracaufeu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "30th-c",
+    "set_full_name": "Collection Classique30ᵉ Anniversaire",
+    "series": "Méga-Évolution",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "001",
+    "set_total": 30,
+    "rarity": "Sans Rareté",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Feu"
+    ],
+    "abilities": [
+        {
+            "name": "Combustion d'Énergie",
+            "effect": "Aussi souvent que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez transformer toutes les Énergies attachées à Dracaufeu en Énergies Fire jusqu'à la fin du tour. Ce pouvoir ne peut être utilisé si Dracaufeu est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Feu",
+                "Feu"
+            ],
+            "name": "Danseflamme",
+            "damage": 100,
+            "effect": "Défaussez 2 cartes Énergies attachées à Dracaufeu pour pouvoir utiliser cette attaque."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/30th-c-001"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-1",
+    "card_key": "6|120|3|Mitsuhiro Arita|100|4",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sm5-87",
+    "name": "Bronzong",
+    "img": "https://assets.tcgdex.net/it/sm/sm5/87/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultraprisma",
+    "series": "Sole e Luna",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "87",
+    "set_total": 173,
+    "rarity": "Non comune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 437,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 110,
+    "types": [
+        "Metallo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metallo"
+            ],
+            "name": "Psico",
+            "damage": 20,
+            "effect": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato."
+        },
+        {
+            "cost": [
+                "Metallo",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Risonanza Psichica",
+            "damage": "60+",
+            "effect": "Se il tuo avversario ha dei Pokémon Psychic in gioco, questo attacco infligge 60 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuoco"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psico"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sm5-87"
+        }
+    ],
+    "print_key": "tcgdex:sm5-87",
+    "card_key": "437|110|3|Kagemaru Himeno|20,60+|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

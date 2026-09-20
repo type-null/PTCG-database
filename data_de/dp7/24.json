@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-24",
+    "name": "Brutalanda",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "24",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 373,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Farblos"
+    ],
+    "abilities": [
+        {
+            "name": "Kampfdrang",
+            "effect": "Wenn dein Gegner mindestens 1 Pokémon im Spiel hat, dessen Grund-KP 120 oder mehr betragen, ignoriere alle {C}-Energien, die notwendig wären, um Brutalandas Angriffe einzusetzen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Glühen",
+            "damage": 50,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Dampfwirbel",
+            "damage": 120,
+            "effect": "Lege 1 {R}-Energie und 1 {W}-Energie, die an Brutalanda angelegt sind, auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Draschel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-24"
+        }
+    ],
+    "print_key": "tcgdex:dp7-24",
+    "card_key": "373|140|3|Kagemaru Himeno|50,120|2,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

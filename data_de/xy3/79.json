@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy3-79",
+    "name": "Schlurplek",
+    "img": "https://assets.tcgdex.net/de/xy/xy3/79/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy3",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy3/symbol",
+    "set_full_name": "Fliegende Fäuste",
+    "series": "XY",
+    "set_code": "xy3",
+    "date": "2014-08-13",
+    "number": "79",
+    "set_total": 114,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 463,
+    "pokemon_category": "",
+    "flavor_text": "Es umklammert Dinge mit seiner dehnbaren Zunge. Kommt man ihm zu nahe, wird man eingespeichelt.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Abschlag",
+            "damage": 50,
+            "effect": "Nimm 1 zufällige Karte aus der verdeckten Hand deines Gegners und lege sie auf dessen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schlurstakkato",
+            "damage": "60+",
+            "effect": "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 30 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Schlurp",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy3-79"
+        }
+    ],
+    "print_key": "tcgdex:xy3-79",
+    "card_key": "463|120|4|Hajime Kusajima|50,60+|3,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

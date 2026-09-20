@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp2-77",
+    "name": "Germignon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Trésors Mystérieux",
+    "series": "Diamant & Perle",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "77",
+    "set_total": 124,
+    "rarity": "Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 152,
+    "pokemon_category": "",
+    "flavor_text": "Il jauge la température et l'humidité grâce à la feuille sur sa tête. Il raffole des bains de soleil.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Parfum dodo",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Sauter",
+            "damage": "10+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp2-77"
+        }
+    ],
+    "print_key": "tcgdex:dp2-77",
+    "card_key": "152|50|1|Kagemaru Himeno|None,10+|0,1",
+    "types_en": [
+        "Grass"
+    ]
+}

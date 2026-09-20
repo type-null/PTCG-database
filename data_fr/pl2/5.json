@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl2-5",
+    "name": "Flygon Niv. 65",
+    "img": "https://assets.tcgdex.net/fr/pl/pl2/5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Rivaux Émergeants",
+    "series": "Platine",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "5",
+    "set_total": 120,
+    "rarity": "Holo Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 330,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Flottement arc-en-ciel",
+            "effect": "Si une carte Énergie de base attachée à Libegon est du même type qu'un de vos Pokémon, le Coût de retraite de ces Pokémon est de 0."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Mur de sable",
+            "damage": 40,
+            "effect": "Défaussez une carte Stade que votre adversaire a en jeu. Prévenez alors tous les effets d'attaque, dégâts inclus, infligés à Libegon lors du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Va-et-vient puissant",
+            "damage": "60+",
+            "effect": "Inflige 60 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon Évolué se trouvant sur votre Banc."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Vibraninf",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl2-5"
+        }
+    ],
+    "print_key": "tcgdex:pl2-5",
+    "card_key": "330|120|0|Kouki Saitou|40,60+|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

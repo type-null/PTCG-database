@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/svp-209",
+    "name": "Fulguris",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "I",
+    "set_name": "svp",
+    "set_full_name": "SVP Black Star Promos",
+    "series": "Écarlate et Violet",
+    "set_code": "svp",
+    "date": "2023-03-31",
+    "number": "209",
+    "set_total": 225,
+    "rarity": "Promo",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 642,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Chargeur",
+            "damage": null,
+            "effect": "Cherchez dans votre deck une carte Énergie {L} de base, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Éclair Désastre",
+            "damage": 110,
+            "effect": "Défaussez une Énergie de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/svp-209"
+        }
+    ],
+    "print_key": "tcgdex:svp-209",
+    "card_key": "642|120|1|Anesaki Dynamic|None,110|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw10-49",
+    "name": "Mackogneur",
+    "img": "https://assets.tcgdex.net/fr/bw/bw10/49/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw10",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw10/symbol",
+    "set_full_name": "Explosion Plasma",
+    "series": "Noir & Blanc",
+    "set_code": "bw10",
+    "date": "2013-08-14",
+    "number": "49",
+    "set_total": 105,
+    "rarity": "Rare",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 150,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Badge de la Discipline",
+            "effect": "Les dégâts des attaques de chacun de vos Pokémon Fighting ne sont pas affectés par la Résistance."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Close Combat",
+            "damage": 120,
+            "effect": "Lancez une pièce. Si c'est pile, pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont augmentés de 30 (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Machopeur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw10-49"
+        }
+    ],
+    "print_key": "tcgdex:bw10-49",
+    "card_key": "68|150|3|Naoki Saito|120|4",
+    "types_en": [
+        "Fighting"
+    ]
+}

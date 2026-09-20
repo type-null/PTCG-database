@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dpp-DP21",
+    "name": "Raichu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dpp",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dpp/symbol",
+    "set_full_name": "Promo DP",
+    "series": "Diamant & Perle",
+    "set_code": "dpp",
+    "date": "2007-05-01",
+    "number": "DP21",
+    "set_total": 56,
+    "rarity": "Commune",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "flavor_text": "Il devient agressif lorsque son corps contient trop d'électricité. Il la décharge par sa queue.",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Démarrage électromagnétìque",
+            "damage": null,
+            "effect": "Choisissez dans votre deck jusqu'à 2 cartes Énergie Lightning et attachez-les à 1 de vos Pokémon. Ensuite, mélangez votre deck."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Tonnerre explosif",
+            "damage": "30x",
+            "effect": "Défaussez toutes les cartes Énergie Lightning attachées à Raichu. Cette attaque inflige 30 dégâts multipliés par le nombre de cartes Énergie défaussées."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dpp-DP21"
+        }
+    ],
+    "print_key": "tcgdex:dpp-DP21",
+    "card_key": "26|90|1|Daisuke Ito|None,30x|0,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

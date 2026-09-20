@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp1-37",
+    "name": "Relaxo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perl",
+    "series": "Diamant & Perl",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "37",
+    "set_total": 130,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 143,
+    "pokemon_category": "",
+    "flavor_text": "Sein Magen kann jede Art von Nahrung verdauen, selbst wenn sie verschimmelt und verdorben ist.",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Rückentzug",
+            "damage": null,
+            "effect": "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Entspannungsangriff",
+            "damage": "40+",
+            "effect": "Relaxo schläft jetzt. Wenn Relaxo sich aus Mampfaxo entwickelt hat, fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+20"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp1-37"
+        }
+    ],
+    "print_key": "tcgdex:dp1-37",
+    "card_key": "143|100|4|Ken Sugimori|None,40+|1,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

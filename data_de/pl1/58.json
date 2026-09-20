@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-58",
+    "name": "Octillery",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "58",
+    "set_total": 133,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 224,
+    "pokemon_category": "",
+    "flavor_text": "Es lauert gerne in den Löchern von Felsen, um vorbeischwimmende Beute mit Tinte zu bespritzen.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Wasserader",
+            "damage": "50×",
+            "effect": "Decke die obersten 5 Karten deines Decks auf. Wirf für jede Energiekarte, die auf diese Weise aufgedeckt wurde, 1 Münze. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu. Mische die aufgedeckten Karten zurück in dein Deck."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Octazooka",
+            "damage": 40,
+            "effect": "Immer wenn das Verteidigende Pokémon angreift, wirft dein Gegner 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen. (Dieser Effekt endet, sobald das Verteidigende Pokémon nicht mehr das Aktive Pokémon deines Gegners ist.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Remoraid",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-58"
+        }
+    ],
+    "print_key": "tcgdex:pl1-58",
+    "card_key": "224|90|2|Midori Harada|50x,40|0,2",
+    "types_en": [
+        "Water"
+    ]
+}

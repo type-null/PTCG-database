@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex10-4",
+    "name": "Aligatueur",
+    "img": "https://assets.tcgdex.net/fr/ex/ex10/4/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Forces Cachées",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "4",
+    "set_total": 117,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 160,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Croc intimidant",
+            "effect": "Tant qu'Aligatueur est votre Pokémon Actif, les dégâts infligés à votre Pokémon par une attaque de votre adversaire sont réduits de 10 (avant application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Arracher",
+            "damage": 30,
+            "effect": "Si votre adversaire a au moins 5 cartes en main, il ou elle doit défausser des cartes jusqu'à ce qu'il ou elle n'ait plus que 4 cartes en main."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Surpuissance",
+            "damage": "50+",
+            "effect": "Vous pouvez infliger 50 dégâts plus 30 dégâts supplémentaires. Aligatueur s'inflige alors 30 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Crocodil",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex10-4"
+        }
+    ],
+    "print_key": "tcgdex:ex10-4",
+    "card_key": "160|120|2|Masakazu Fukuda|30,50+|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

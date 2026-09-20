@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex10-22",
+    "name": "Elektek",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Verborgene Mächte",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "22",
+    "set_total": 117,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 125,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Stages of Evolution",
+            "effect": "As long as Electabuzz is an Evolved Pokémon, any damage done to Electabuzz by attacks from your opponent's Pokémon that has any Special Energy cards attached to it is reduced by 40 (after applying Weakness and Resistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Double Shock",
+            "damage": "10x",
+            "effect": "Flip 2 coins. This attack does 10 damage times the number of heads. If either one of the coins is heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Luster Blast",
+            "damage": 70,
+            "effect": "Discard 3 Energy attached to Electabuzz."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex10-22"
+        }
+    ],
+    "print_key": "tcgdex:ex10-22",
+    "card_key": "125|70|1|Mitsuhiro Arita|10x,70|2,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard2-32",
+    "name": "Cizayox",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard2/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-cards",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "32",
+    "set_total": 186,
+    "rarity": "Rare",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 212,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Métal"
+    ],
+    "abilities": [
+        {
+            "name": "Résistance au poison",
+            "effect": "Cizayox ne peut pas être Empoisonné."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Arrachage",
+            "damage": 20,
+            "effect": "Avant d'infliger des dégâts, vous pouvez choisir un des Pokémon du Banc de votre adversaire sans marqueurs de dégâts et l'échanger contre le Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Heavy Métal",
+            "damage": "30+",
+            "effect": "Lancez un nombre de pièces équivalent au nombre d'Énergie {M} attachées à Cizayox. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Insécateur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard2-32"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-32",
+    "card_key": "212|80|2|Hisao Nakamura|20,30+|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm5-62",
+    "name": "Lunala ◇",
+    "img": "https://assets.tcgdex.net/de/sm/sm5/62/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultra-Prisma",
+    "series": "Sonne & Mond",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "62",
+    "set_total": 173,
+    "rarity": "Selten",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "pokedex_number": 792,
+    "pokemon_category": "",
+    "flavor_text": "Man sagt, es komme aus einer anderen Welt. Es verschlingt unaufhörlich Licht und sorgt so auch am helllichten Tag für Dunkelheit.",
+    "stage": "Basis",
+    "hp": 160,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Vollmondstern",
+            "damage": null,
+            "effect": "Lege für jedes Pokémon deines Gegners im Spiel 1 {P}-Energiekarte aus deinem Ablagestapel beliebig an deine Pokémon an."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Psisturm",
+            "damage": "20×",
+            "effect": "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl der an alle Pokémon angelegten Energien zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm5-62"
+        }
+    ],
+    "print_key": "tcgdex:sm5-62",
+    "card_key": "792|160|3|Hitoshi Ariga|None,20x|1,4",
+    "types_en": [
+        "Psychic"
+    ]
+}

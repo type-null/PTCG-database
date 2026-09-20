@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy5-104",
+    "name": "Azumarill",
+    "img": "https://assets.tcgdex.net/de/xy/xy5/104/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Protoshock",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "104",
+    "set_total": 164,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 184,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Fee"
+    ],
+    "abilities": [
+        {
+            "name": "{title}:",
+            "effect": "{title}: Wenn dieses Pokémon geheilt wird, verdoppele die geheilten Schadenspunkte."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fee",
+                "Farblos"
+            ],
+            "name": "Schweifklopfen",
+            "damage": "30×",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+        },
+        {
+            "cost": [
+                "Fee",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schwindende Welle",
+            "damage": "100-",
+            "effect": "Dieser Angriff fügt 100 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Marill",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy5-104"
+        }
+    ],
+    "print_key": "tcgdex:xy5-104",
+    "card_key": "184|100|2|5ban Graphics|30x,100-|2,3",
+    "types_en": [
+        "Fairy"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard2-149",
+    "name": "Lugia",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard2/149/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-cards",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "149",
+    "set_total": 186,
+    "rarity": "Rare",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 249,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Type de cristal",
+            "effect": "À chaque fois que vous attachez une carte Énergie de base {R}, {W}, ou {P} de votre main à Lugia, le type de Lugia (sa couleur) devient identique au type de carte Énergie jusqu'à la fin du tour."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Feu"
+            ],
+            "name": "Psyko",
+            "damage": "10×",
+            "effect": "Inflige 10 dégâts multipliés par le nombre de cartes Énergie attachées au Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Coud' vapeur",
+            "damage": 50,
+            "effect": "Défaussez-vous d'une carte Énergie attachée à Lugia."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "x2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard2-149"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-149",
+    "card_key": "249|80|3|Naoyo Kimura|10x,50|2,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

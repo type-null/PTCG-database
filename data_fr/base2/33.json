@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base2-33",
+    "name": "Papilusion",
+    "img": "https://assets.tcgdex.net/fr/base/base2/33/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Base",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "33",
+    "set_total": 64,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 12,
+    "pokemon_category": "",
+    "flavor_text": "En combat, il bat des ailes très rapidement pour projeter des poudres toxiques sur ses ennemis.",
+    "stage": "Niveau 2",
+    "hp": 70,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Cyclone",
+            "damage": 20,
+            "effect": "Si votre adversaire a au moins 1 Pokémon sur son Banc, il choisit l'un d'eux et l'échange avec son Pokémon Défenseur. (Infligez les dégâts avant de faire l'échange des Pokémon.)"
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Plante",
+                "Plante"
+            ],
+            "name": "Mega-sangsue",
+            "damage": 40,
+            "effect": "Retirez de Papilusion un nombre de marqueurs de dégâts égal à la moitié des dégâts infligés au Pokémon Défenseur (après application de la Faiblesse et de la Résistance) (arrondir à la dizaine la plus proche). Si Papilusion a moins de marqueurs de 10 dégâts, retirez-les tous."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "evolve_from": "Chrysacier",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base2-33"
+        }
+    ],
+    "print_key": "tcgdex:base2-33",
+    "card_key": "12|70|None|Kagemaru Himeno|20,40|2,4",
+    "types_en": [
+        "Grass"
+    ]
+}

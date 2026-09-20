@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp1-99",
+    "name": "Pionskora",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perl",
+    "series": "Diamant & Perl",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "99",
+    "set_total": 130,
+    "rarity": "Häufig",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 451,
+    "pokemon_category": "",
+    "flavor_text": "Es greift seine Beute mit den Krallen an seinem Schweif und vergiftet sie. Dann wartet es ab...",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Giftstachel",
+            "damage": null,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Nadelrakete",
+            "damage": "10x",
+            "effect": "Wirf 4 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+10"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp1-99"
+        }
+    ],
+    "print_key": "tcgdex:dp1-99",
+    "card_key": "451|60|2|Kouki Saitou|None,10x|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

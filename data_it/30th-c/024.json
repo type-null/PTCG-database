@@ -1,0 +1,60 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/30th-c-024",
+    "name": "Shining Celebi",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "30th-c",
+    "set_full_name": "Collzione Classica del 30°",
+    "series": "Megaevoluzione",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "024",
+    "set_total": 30,
+    "rarity": "Nessuna",
+    "author": [
+        "Hironobu Yoshida"
+    ],
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Erba"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Acqua"
+            ],
+            "name": "Acqua Curativa",
+            "damage": null,
+            "effect": "Togli da uno dei tuoi Pokémon in Panchina un numero di segnalini danno uguale al numero di Energie <span class=\"energy-symbol Water\" title=\"Acqua\">Water</span> assegnate a Shining Celebi. Se quel Pokémon ha meno segnalini danno di quelli che gli verrebbero tolti, toglili tutti."
+        },
+        {
+            "cost": [
+                "Erba",
+                "Psico"
+            ],
+            "name": "Foglia Miracolosa",
+            "damage": 10,
+            "effect": "Lancia una moneta un numero di volte uguale al numero di carte Energia assegnate al Pokémon Difensore. Se esce una o più volte testa, il Pokémon Difensore è Addormentato, Confuso o Avvelenato <em>(a tua scelta)</em>."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuoco"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/30th-c-024"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-24",
+    "card_key": "251|50|1|Hironobu Yoshida|None,10|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

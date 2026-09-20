@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo2-12",
+    "name": "Tyranocif",
+    "img": "https://assets.tcgdex.net/fr/neo/neo2/12/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Discovery",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "12",
+    "set_total": 75,
+    "rarity": "Rare",
+    "author": [
+        "Hironobu Yoshida"
+    ],
+    "pokedex_number": 248,
+    "pokemon_category": "",
+    "flavor_text": "Son corps est invulnérable à toutes les attaques, alors il s'empresse de défier ses ennemis.",
+    "stage": "Niveau 2",
+    "hp": 100,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Souplesse",
+            "damage": "30x",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Bousculade",
+            "damage": 50,
+            "effect": "Pour chaque Pokémon sur le Banc (celui de votre adversaire et le vôtre), lancez une pièce. Si c'est face, cette attaque fait 30 dégâts à ce Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Ymphect",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo2-12"
+        }
+    ],
+    "print_key": "tcgdex:neo2-12",
+    "card_key": "248|100|3|Hironobu Yoshida|30x,50|3,4",
+    "types_en": [
+        "Darkness"
+    ]
+}

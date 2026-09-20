@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw1-64",
+    "name": "Escroco",
+    "img": "https://assets.tcgdex.net/fr/bw/bw1/64/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw1",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw1/symbol",
+    "set_full_name": "Noir & Blanc",
+    "series": "Noir & Blanc",
+    "set_code": "bw1",
+    "date": "2011-04-25",
+    "number": "64",
+    "set_total": 115,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 552,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Tourmente",
+            "damage": 10,
+            "effect": "Choisissez 1 des attaques du Pokémon Défenseur. Le Pokémon Défenseur ne pourra pas l'utiliser lors du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Morsure",
+            "damage": 50,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Mascaïman",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw1-64"
+        }
+    ],
+    "print_key": "tcgdex:bw1-64",
+    "card_key": "552|90|2|Kouki Saitou|10,50|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

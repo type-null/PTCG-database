@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw2-11",
+    "name": "Elfun",
+    "img": "https://assets.tcgdex.net/de/bw/bw2/11/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw2",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw2/symbol",
+    "set_full_name": "Aufstreben der Mächtigen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw2",
+    "date": "2011-08-31",
+    "number": "11",
+    "set_total": 98,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 547,
+    "pokemon_category": "",
+    "flavor_text": "Passiert wie ein Luftzug mühelos jeden noch so engen Spalt und hinterlässt dort nichts als ein weißes Fellknäuel.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Rechte Hand",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 Basis-Energiekarte und lege sie an 1 Pokémon auf deiner Bank an. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Watteschild",
+            "damage": 30,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Waumboll",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw2-11"
+        }
+    ],
+    "print_key": "tcgdex:bw2-11",
+    "card_key": "547|80|0|sui|None,30|1,1",
+    "types_en": [
+        "Grass"
+    ]
+}

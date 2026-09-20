@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base2-58",
+    "name": "Myrapla",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Dschungel",
+    "series": "Grund",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "58",
+    "set_total": 64,
+    "rarity": "Häufig",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 43,
+    "pokemon_category": "",
+    "flavor_text": "Tagsüber hält es sein Gesicht im Sand vergraben. Nachts wandert es durch die Gegend und verstreut seinen Samen.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Stachelspore",
+            "damage": 10,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Sprössling",
+            "damage": null,
+            "effect": "Suche in deinem Deck nach einer Basis-Pokémon-Karte mit dem Namen Myrapla und lege sie auf deine Bank. Mische dein Deck danach. (du kannst diesen Angriff nicht einsetzen, wenn deine Bank voll ist.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base2-58"
+        }
+    ],
+    "print_key": "tcgdex:base2-58",
+    "card_key": "43|50|1|Keiji Kinebuchi|10,None|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

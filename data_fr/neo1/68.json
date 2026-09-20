@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-68",
+    "name": "Mystherbe",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/68/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "68",
+    "set_total": 111,
+    "rarity": "Commune",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 43,
+    "pokemon_category": "",
+    "flavor_text": "Réveillé par le clair de lune, il rode pendant la nuit. Le jour, il reste tranquillement sous terre.",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Cachette",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Mystherbe."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante"
+            ],
+            "name": "Vol-vie",
+            "damage": 20,
+            "effect": "Retirez de Mystherbe un nombre de marqueurs de dégâts égal à la moitié des dégâts infligés au Pokémon Défenseur (après application de la Faiblesse et de la Résistance) (arrondis à la dizaine la plus proche). Si Mystherbe a moins de marqueurs de dégâts que cela, retirez-les tous."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-68"
+        }
+    ],
+    "print_key": "tcgdex:neo1-68",
+    "card_key": "43|40|1|Sumiyoshi Kizuki|None,20|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

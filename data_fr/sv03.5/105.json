@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv03.5-105",
+    "name": "Ossatueur",
+    "img": "https://assets.tcgdex.net/fr/sv/sv03.5/105/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv03.5",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03.5/symbol",
+    "set_full_name": "151",
+    "series": "Écarlate et Violet",
+    "set_code": "sv03.5",
+    "date": "2023-09-22",
+    "number": "105",
+    "set_total": 207,
+    "rarity": "Rare",
+    "author": [
+        "Shinya Komatsu"
+    ],
+    "pokedex_number": 105,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Lancer d'Os",
+            "damage": 30,
+            "effect": "Cette attaque inflige aussi 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Puissance Illimitée",
+            "damage": 120,
+            "effect": "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Osselait",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv03.5-105"
+        }
+    ],
+    "print_key": "tcgdex:sv03.5-105",
+    "card_key": "105|120|2|Shinya Komatsu|30,120|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm7-50",
+    "name": "Lanturn",
+    "img": "https://assets.tcgdex.net/de/sm/sm7/50/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm7",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm7/symbol",
+    "set_full_name": "Sturm Am Firmament",
+    "series": "Sonne & Mond",
+    "set_code": "sm7",
+    "date": "2018-08-03",
+    "number": "50",
+    "set_total": 183,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Aya Kusube"
+    ],
+    "pokedex_number": 171,
+    "pokemon_category": "",
+    "flavor_text": "Es blendet seine Beute mit einem starken Blitz. Sieht es eine Chance zuzuschlagen, greift es sie mit Elektrizität an.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Energieerdung",
+            "effect": "Wenn 1 deiner Pokémon durch den Schaden einer Attacke deines Gegners kampfunfähig wird, kannst du 1 Basis-Energiekarte von jenem Pokémon auf dieses Pokémon verschieben."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Blitzschlag",
+            "damage": "70+",
+            "effect": "Du kannst alle {L}-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 70 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Lampi",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm7-50"
+        }
+    ],
+    "print_key": "tcgdex:sm7-50",
+    "card_key": "171|110|2|Aya Kusube|70+|3",
+    "types_en": [
+        "Lightning"
+    ]
+}

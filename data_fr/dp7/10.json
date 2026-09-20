@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-10",
+    "name": "Jungko",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "10",
+    "set_total": 106,
+    "rarity": "Rare Holo",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "pokedex_number": 254,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 110,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Transfert d'énergie",
+            "effect": "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), déplacez une Énergie Grass attachée à 1 de vos Pokémon sur 1 autre de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Jungko est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Feuille poison",
+            "damage": 40,
+            "effect": "Le Pokémon Défenseur est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Trancher jusqu'au bout",
+            "damage": 60,
+            "effect": "Retirez à Jungko jusqu'à 2 marqueurs de dégât."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Massko",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-10"
+        }
+    ],
+    "print_key": "tcgdex:dp7-10",
+    "card_key": "254|110|1|Suwama Chiaki|40,60|2,4",
+    "types_en": [
+        "Grass"
+    ]
+}

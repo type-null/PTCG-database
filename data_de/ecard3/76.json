@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-76",
+    "name": "Magnetilo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "76",
+    "set_total": 182,
+    "rarity": "Häufig",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 81,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 40,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Donnerwelle",
+            "damage": null,
+            "effect": "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Magnetische Linien",
+            "damage": 10,
+            "effect": "Wirf eine Münze, falls an das verteidigende Pokémon mindestens eine Basis-Energiekarte angelegt ist. Wähle bei 'Kopf' 1 dieser Energiekarten und lege sie auf 1 der Pokémon auf der Bank deines Gegners. Hat dein Gegner kein Pokémon auf seiner Bank, ignoriere diesen Effekt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-76"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-76",
+    "card_key": "81|40|1|Shin-ichi Yoshida|None,10|1,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

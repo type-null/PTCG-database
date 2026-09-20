@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/me01-007",
+    "name": "Bouldeneu",
+    "img": "https://assets.tcgdex.net/fr/me/me01/007/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "I",
+    "set_name": "me01",
+    "set_img": "https://assets.tcgdex.net/univ/me/me01/symbol",
+    "set_full_name": "Méga-Évolution",
+    "series": "Méga-Évolution",
+    "set_code": "me01",
+    "date": "2025-09-26",
+    "number": "007",
+    "set_total": 188,
+    "rarity": "Peu Commune",
+    "author": [
+        "REND"
+    ],
+    "pokedex_number": 465,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 150,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Vole-Vie",
+            "damage": 30,
+            "effect": "Soignez 30 dégâts de ce Pokémon."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Fouet Gonflé à Bloc",
+            "damage": "120+",
+            "effect": "Si au moins 2 Énergies supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), cette attaque inflige 140 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Saquedeneu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/me01-007"
+        }
+    ],
+    "print_key": "tcgdex:me01-7",
+    "card_key": "465|150|4|REND|30,120+|2,4",
+    "types_en": [
+        "Grass"
+    ]
+}

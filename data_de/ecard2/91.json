@@ -1,0 +1,61 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard2-91",
+    "name": "Magnetilo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-Card",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "91",
+    "set_total": 186,
+    "rarity": "Häufig",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 81,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Leitender Körper",
+            "effect": "Für jedes Magnetilo auf deiner Bank zahlst du {C} weniger, wenn du Magnetilo zurückziehst."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Magnetische Bombe",
+            "damage": "20+",
+            "effect": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu. Bei „Zahl“ fügt sich Magnetilo selber 10 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard2-91"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-91",
+    "card_key": "81|50|1|Hajime Kusajima|20+|2",
+    "types_en": [
+        "Lightning"
+    ]
+}

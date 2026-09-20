@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp5-16",
+    "name": "Archéodong",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp5",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp5/symbol",
+    "set_full_name": "Aube Majestueuse",
+    "series": "Diamant & Perle",
+    "set_code": "dp5",
+    "date": "2008-05-01",
+    "number": "16",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 437,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Allié maudit",
+            "effect": "Tant qu'Archéodong est votre Pokémon Actif, placez entre deux tours 1 marqueur de dégât sur chacun des Pokémon de votre adversaire possédant des Poké-Powers."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Amplificateur de douleur",
+            "damage": null,
+            "effect": "Placez 1 marqueur de dégât sur chacun des Pokémon de votre adversaire possédant déjà des marqueurs de dégât."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Mettre une couche",
+            "damage": 60,
+            "effect": "Lors du prochain tour de votre adversaire, tous dégâts infligés à Archéodong par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Feu"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Archéomire",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp5-16"
+        }
+    ],
+    "print_key": "tcgdex:dp5-16",
+    "card_key": "437|90|3|Kouki Saitou|None,60|0,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

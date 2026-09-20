@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp2-21",
+    "name": "Bollterus",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Geheimnisvolle Schätze",
+    "series": "Diamant & Perl",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "21",
+    "set_total": 124,
+    "rarity": "Selten",
+    "author": [
+        "Kazuyuki Kano"
+    ],
+    "pokedex_number": 411,
+    "pokemon_category": "",
+    "flavor_text": "Jeder Frontalangriff wird abgeschmettert. Dieses friedliche PKMN ernährt sich von Gras und Beeren.",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Schutzwall",
+            "effect": "Verhindere allen Schaden, der Pokémon auf deiner Bank durch gegnerische Angriffe zugefügt wird."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Zornesrache",
+            "damage": 60,
+            "effect": "Wenn Bollterus im letzten Zug deines Gegners durch einen Angriff Schaden zugefügt wurde, fügt dieser Angriff 1 Pokémon auf der Bank deines Gegners 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+40"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Schilterus",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp2-21"
+        }
+    ],
+    "print_key": "tcgdex:dp2-21",
+    "card_key": "411|130|3|Kazuyuki Kano|60|3",
+    "types_en": [
+        "Metal"
+    ]
+}

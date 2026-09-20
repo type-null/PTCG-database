@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sma-SV24",
+    "name": "Masskito",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sma",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sma/symbol",
+    "set_full_name": "Verborgenes Schicksal Glitzer-Tresor",
+    "series": "Sonne & Mond",
+    "set_code": "sma",
+    "date": "2019-08-23",
+    "number": "SV24",
+    "set_total": 94,
+    "rarity": "Shiny rare",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 794,
+    "pokemon_category": "",
+    "flavor_text": "Eine rätselhafte Ultrabestie, die angeblich mit einem einzigen Schlag einen beladenen Laster pulverisieren kann.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Vorschlaghammer",
+            "damage": 30,
+            "effect": "Wenn dein Gegner genau 4 verbleibende Preiskarten hat, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Gegenschwung",
+            "damage": 80,
+            "effect": "Wirf 2 Münzen. Diese Attacke fügt 20 Schadenspunkte mehr pro Kopf zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sma-SV24"
+        }
+    ],
+    "print_key": "tcgdex:sma-SV24",
+    "card_key": "794|130|2|Shin Nagasawa|30,80|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

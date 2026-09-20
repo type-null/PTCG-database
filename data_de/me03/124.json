@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/me03-124",
+    "name": "Mega-Zygarde-ex",
+    "img": "https://assets.tcgdex.net/de/me/me03/124/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "regulation": "J",
+    "set_name": "me03",
+    "set_img": "https://assets.tcgdex.net/univ/me/me03/symbol",
+    "set_full_name": "Optimale Ordnung",
+    "series": "Mega-Entwicklung",
+    "set_code": "me03",
+    "date": "2026-03-27",
+    "number": "124",
+    "set_total": 124,
+    "rarity": "Mega Hyper Selten",
+    "author": [
+        "takuyoa"
+    ],
+    "pokedex_number": 718,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 310,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Gaia-Welle",
+            "damage": 200,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Kampf",
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Tilgendes Nichts",
+            "damage": null,
+            "effect": "Wirf für jedes Pokémon deines Gegners 1 Münze. Bei Kopf fügt diese Attacke jenem Pokémon 150 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/me03-124"
+        }
+    ],
+    "print_key": "tcgdex:me03-124",
+    "card_key": "718|310|2|takuyoa|200,None|3,5",
+    "types_en": [
+        "Fighting"
+    ]
+}

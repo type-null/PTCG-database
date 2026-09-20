@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-19",
+    "name": "Katagami",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/19/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "19",
+    "set_total": 234,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 798,
+    "pokemon_category": "",
+    "flavor_text": "Der Körper dieser Ultrabestie ist dünn wie Papier und so scharfkantig wie eine geschliffene Klinge.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Tiefer Schnitt",
+            "damage": "10+",
+            "effect": "Wenn du genau 4 verbleibende Preiskarten hast, fügt diese Attacke 120 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Trugschlag",
+            "damage": null,
+            "effect": "Wirf 1 Münze. Lege bei Kopf so lang Schadensmarken auf das Aktive Pokémon deines Gegners, bis seine verbleibenden KP 10 betragen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-19"
+        }
+    ],
+    "print_key": "tcgdex:sm10-19",
+    "card_key": "798|70|0|Shin Nagasawa|10+,None|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

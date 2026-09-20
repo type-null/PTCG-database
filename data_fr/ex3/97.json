@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex3-97",
+    "name": "Rayquaza ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex3/97/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Dragon",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "97",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 384,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Croissance en spirale",
+            "damage": null,
+            "effect": "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, cherchez dans votre deck une carte Énergie de base et attachez-la à Rayquaza ex."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Électrique"
+            ],
+            "name": "Jet de dragon",
+            "damage": "40×",
+            "effect": "Défaussez soit toutes les Énergies {R} soit toutes les Énergies {L} attachées à Rayquaza ex. Cette attaque inflige 40 dégâts multipliés par le nombre d'Énergie {R} ou {L} défaussées."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Combat",
+            "Eau"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex3-97"
+        }
+    ],
+    "print_key": "tcgdex:ex3-97",
+    "card_key": "384|100|2|Hikaru Koike|None,40x|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

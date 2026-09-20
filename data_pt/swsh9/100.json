@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/swsh9-100",
+    "name": "Heatran",
+    "img": "https://assets.tcgdex.net/pt/swsh/swsh9/100/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "regulation": "F",
+    "set_name": "swsh9",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh9/symbol",
+    "set_full_name": "Astros Cintilantes",
+    "series": "Espada e Escudo",
+    "set_code": "swsh9",
+    "date": "2022-02-25",
+    "number": "100",
+    "set_total": 186,
+    "rarity": "Rara",
+    "author": [
+        "Yuya Oka"
+    ],
+    "pokedex_number": 485,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 140,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Garra Protetora",
+            "damage": 30,
+            "effect": "Durante o próximo turno do seu oponente, este Pokémon receberá 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência)."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Incolor"
+            ],
+            "name": "Martelo de Ferro",
+            "damage": "80+",
+            "effect": "Se este Pokémon tiver alguma Energia Fire ligada a ele, este ataque causará 80 pontos de dano a mais."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fogo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Planta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/swsh9-100"
+        }
+    ],
+    "print_key": "tcgdex:swsh9-100",
+    "card_key": "485|140|4|Yuya Oka|30,80+|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

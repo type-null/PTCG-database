@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw3-33",
+    "name": "Frigometri",
+    "img": "https://assets.tcgdex.net/de/bw/bw3/33/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw3",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw3/symbol",
+    "set_full_name": "Königliche Siege",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw3",
+    "date": "2011-11-16",
+    "number": "33",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 615,
+    "pokemon_category": "",
+    "flavor_text": "Es fängt seine Beute mit Ketten, die sich aus Eiskristallen zusammensetzen. Entstanden ist es aus einer Schneewolke.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Eiskette",
+            "damage": null,
+            "effect": "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Frostauflöser",
+            "damage": 40,
+            "effect": "Du kannst dieses Pokémon und alle daran angelegten Karten zurück auf deine Hand nehmen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw3-33"
+        }
+    ],
+    "print_key": "tcgdex:bw3-33",
+    "card_key": "615|80|1|Kagemaru Himeno|None,40|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

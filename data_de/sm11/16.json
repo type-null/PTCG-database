@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm11-16",
+    "name": "Mantidea",
+    "img": "https://assets.tcgdex.net/de/sm/sm11/16/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Bund der Gleichgesinnten",
+    "series": "Sonne & Mond",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "16",
+    "set_total": 258,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "AKIRA EGAWA"
+    ],
+    "pokedex_number": 754,
+    "pokemon_category": "",
+    "flavor_text": "Es tarnt sich zu seinem eigenen Schutz als Käfer-Pokémon. Die Blütenblätter an seinen beiden Armen sind scharfkantig.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Blütenwirbel",
+            "damage": null,
+            "effect": "Diese Attacke fügt jedem Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Solarschnitt",
+            "damage": "50+",
+            "effect": "Wenn an dieses Pokémon mindestens 1 {R}-Energie angelegt ist, fügt diese Attacke 50 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Imantis",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm11-16"
+        }
+    ],
+    "print_key": "tcgdex:sm11-16",
+    "card_key": "754|110|1|AKIRA EGAWA|None,50+|1,1",
+    "types_en": [
+        "Grass"
+    ]
+}

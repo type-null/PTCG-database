@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm6-70",
+    "name": "Resladero",
+    "img": "https://assets.tcgdex.net/de/sm/sm6/70/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm6",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm6/symbol",
+    "set_full_name": "Grauen Der Lichtfinsternis",
+    "series": "Sonne & Mond",
+    "set_code": "sm6",
+    "date": "2018-05-04",
+    "number": "70",
+    "set_total": 146,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 701,
+    "pokemon_category": "",
+    "flavor_text": "Es nutzt seine Flügel, um sich am Himmel in Position zu halten. Gegen seine Angriffe aus der Luft kann man sich nur schwer zur Wehr setzen.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Turmkick",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Freier Fall",
+            "damage": "80-",
+            "effect": "Diese Attacke fügt 20 Schadenspunkte weniger mal der Anzahl der {C}-Symbole in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm6-70"
+        }
+    ],
+    "print_key": "tcgdex:sm6-70",
+    "card_key": "701|80|1|Naoki Saito|20,80-|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

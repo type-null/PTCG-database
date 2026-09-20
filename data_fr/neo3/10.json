@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo3-10",
+    "name": "Magnéton",
+    "img": "https://assets.tcgdex.net/fr/neo/neo3/10/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "10",
+    "set_total": 66,
+    "rarity": "Rare",
+    "pokedex_number": 82,
+    "pokemon_category": "",
+    "flavor_text": "Trois Magneti sont reliés par une puissante force magnétique. Vous risquez d'avoir mal aux oreilles si vous approchez de trop près.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Métal"
+    ],
+    "abilities": [
+        {
+            "name": "Pouvoir électromagnétique",
+            "effect": "Aussi souvent que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez prendre 1 carte Énergie attachée à l'un de vos Magneti, Magneton ou Magneton Obscur et l'attacher à 1 Magneti, Magneton ou Magneton Obscur différent. Ce pouvoir ne peut être utilisé si Magneton est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Plasma",
+            "damage": 30,
+            "effect": "S'il y a des cartes Énergie  dans votre pile de défausse, attachez-en une à Magneton."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Plante"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Magnéti",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo3-10"
+        }
+    ],
+    "print_key": "tcgdex:neo3-10",
+    "types_en": [
+        "Metal"
+    ]
+}

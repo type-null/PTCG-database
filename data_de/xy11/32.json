@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy11-32",
+    "name": "Admurai",
+    "img": "https://assets.tcgdex.net/de/xy/xy11/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Dampfkessel",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "32",
+    "set_total": 116,
+    "rarity": "Selten",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 503,
+    "pokemon_category": "",
+    "flavor_text": "Besiegt Gegner durch einen einzigen Hieb mit der Klinge an seinem Panzer. Ein böser Blick und seine Feinde verstummen.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Vollendete Klinge",
+            "damage": 40,
+            "effect": "Wenn der Schaden dieses Angriffs die KP des Aktiven Pokémon deines Gegners auf 60 oder weniger reduziert, wird jenes Pokémon kampfunfähig."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Langspieß",
+            "damage": 90,
+            "effect": "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Zwottronin",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy11-32"
+        }
+    ],
+    "print_key": "tcgdex:xy11-32",
+    "card_key": "503|140|2|Naoyo Kimura|40,90|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

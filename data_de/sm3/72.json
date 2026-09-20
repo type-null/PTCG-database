@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm3-72",
+    "name": "Karadonis",
+    "img": "https://assets.tcgdex.net/de/sm/sm3/72/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Nacht in Flammen",
+    "series": "Sonne & Mond",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "72",
+    "set_total": 169,
+    "rarity": "Häufig",
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "pokedex_number": 539,
+    "pokemon_category": "",
+    "flavor_text": "Es lebt zurückgezogen in den Bergen und trainiert Tag und Nacht, um seinen Karateschlag zu perfektionieren.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Rapidschutz",
+            "damage": null,
+            "effect": "Verhindere allen Schaden, der diesem Pokémon während des nächsten Zuges deines Gegners durch Attacken von Basis-Pokémon zugefügt wird. Dieses Pokémon kann Rapidschutz während deines nächsten Zuges nicht einsetzen."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Durchbruch",
+            "damage": 40,
+            "effect": "Der Schaden dieser Attacke wird durch Resistenz oder Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm3-72"
+        }
+    ],
+    "print_key": "tcgdex:sm3-72",
+    "card_key": "539|90|2|Shigenori Negishi|None,40|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

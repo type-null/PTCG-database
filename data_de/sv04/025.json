@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv04-025",
+    "name": "Knarbon",
+    "img": "https://assets.tcgdex.net/de/sv/sv04/025/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv04",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04/symbol",
+    "set_full_name": "Paradoxrift",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv04",
+    "date": "2023-11-03",
+    "number": "025",
+    "set_total": 266,
+    "rarity": "Häufig",
+    "author": [
+        "kantaro"
+    ],
+    "pokedex_number": 935,
+    "pokemon_category": "",
+    "flavor_text": "Ein verbranntes Stück Holzkohle ist als Pokémon zum Leben erwacht. Es fordert selbst starke Gegner heraus und hat einen feurigen Kampfgeist.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Schutzschild",
+            "damage": null,
+            "effect": "Wirf 1 Münze. Verhindere bei Kopf während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Magmahieb",
+            "damage": 20,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv04-025"
+        }
+    ],
+    "print_key": "tcgdex:sv04-25",
+    "card_key": "935|60|1|kantaro|None,20|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

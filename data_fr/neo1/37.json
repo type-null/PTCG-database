@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-37",
+    "name": "Granbull",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/37/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "37",
+    "set_total": 111,
+    "rarity": "Peu Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 210,
+    "pokemon_category": "",
+    "flavor_text": "Il est timide et effarouché. Si on l'attaque, it flails about parer son attaquant.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Charge",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Charge furieuse",
+            "damage": "10+",
+            "effect": "Cette attaque inflige 10 dégâts plus 10 dégâts pour chaque marqueur de dégâts sur Granbull. Ensuite, Granbull s'inflige 20 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Snubbull",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-37"
+        }
+    ],
+    "print_key": "tcgdex:neo1-37",
+    "card_key": "210|70|2|Ken Sugimori|20,10+|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

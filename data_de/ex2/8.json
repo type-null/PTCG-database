@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex2-8",
+    "name": "Lunastein",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex2",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex2/symbol",
+    "set_full_name": "EX Sandsturm",
+    "series": "EX",
+    "set_code": "ex2",
+    "date": "2003-09-18",
+    "number": "8",
+    "set_total": 100,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 337,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Mondfinsternis",
+            "effect": "Du kannst diese Poké-Power einmal während deines Zuges (vor deinem Angriff) anwenden, falls sich Sonnfel im Spiel befindet. Bis zum Ende des Zuges erhält Lunastein den Typ {D}. Diese Poké-Power kann nicht verwendet werden, falls Lunastein von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Kosmische Anziehungskraft",
+            "damage": null,
+            "effect": "Wenn dein Gegner mindestens ein entwickeltes Pokémon im Spiel hat, ziehe 3 Karten."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Mondsturm",
+            "damage": 30,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex2-8"
+        }
+    ],
+    "print_key": "tcgdex:ex2-8",
+    "card_key": "337|60|1|Hajime Kusajima|None,30|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base3-36",
+    "name": "Grolem",
+    "img": "https://assets.tcgdex.net/fr/base/base3/36/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base3",
+    "set_img": "https://assets.tcgdex.net/univ/base/base3/symbol",
+    "set_full_name": "Fossile",
+    "series": "Base",
+    "set_code": "base3",
+    "date": "1999-10-10",
+    "number": "36",
+    "set_total": 62,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 76,
+    "pokemon_category": "",
+    "flavor_text": "Son corps de pierre est indestructible. Il peut supporter des explosions de dynamite.",
+    "stage": "Niveau 2",
+    "hp": 80,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Avalanche",
+            "damage": 60,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Combat",
+                "Combat"
+            ],
+            "name": "Destruction",
+            "damage": 100,
+            "effect": "Inflige 20 dégâts à chacun des Pokémon du Banc de chaque joueur. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Grolem s'inflige 100 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Gravalanch",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base3-36"
+        }
+    ],
+    "print_key": "tcgdex:base3-36",
+    "card_key": "76|80|4|Kagemaru Himeno|60,100|4,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

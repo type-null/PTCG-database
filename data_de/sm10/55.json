@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-55",
+    "name": "Raichu",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/55/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "55",
+    "set_total": 234,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "flavor_text": "Je mehr es sich elektrisch auflädt, desto aggressiver wird es. Man vermutet, dass die Elektrizität den Stress verursache.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Niemals aufgeben",
+            "damage": null,
+            "effect": "Du kannst diese Attacke nur einsetzen, wenn du mindestens 3 verbleibende Preiskarten mehr hast als dein Gegner. Lege alle {L}-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Kopf-Blitz",
+            "damage": 110,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Pikachu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-55"
+        }
+    ],
+    "print_key": "tcgdex:sm10-55",
+    "card_key": "26|120|2|Shin Nagasawa|None,110|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

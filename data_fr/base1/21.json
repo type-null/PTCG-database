@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-21",
+    "name": "Électrode",
+    "img": "https://assets.tcgdex.net/fr/base/base1/21/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "21",
+    "set_total": 102,
+    "rarity": "Rare",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 101,
+    "pokemon_category": "",
+    "flavor_text": "Il emmagasine des quantités énormes de courant électrique sous pression pouvant exploser.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Buzzap",
+            "effect": "N'importe quand durant votre tour (avant votre attaque), vous pouvez mettre Électrode K.O. et l'attacher à 1 de vos autres Pokémon. Si vous le faites, choisissez un type d'Énergie. Électrode est maintenant une carte Énergie (au lieu d'un Pokémon) qui fournit 2 Énergies de ce type. Ce pouvoir ne peut être utilisé si Électrode est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Choc Électrique",
+            "damage": 50,
+            "effect": "Lancez une pièce. Si c'est pile, Électrode s'inflige 10 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Voltorbe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-21"
+        }
+    ],
+    "print_key": "tcgdex:base1-21",
+    "card_key": "101|80|1|Keiji Kinebuchi|50|3",
+    "types_en": [
+        "Lightning"
+    ]
+}

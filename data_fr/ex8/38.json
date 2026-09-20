@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex8-38",
+    "name": "Élecsprint",
+    "img": "https://assets.tcgdex.net/fr/ex/ex8/38/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "38",
+    "set_total": 108,
+    "rarity": "Peu Commune",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 310,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Lance-éclair",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc)."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Charge magnétique",
+            "damage": "40+",
+            "effect": "Vous pouvez infliger 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {L} attachée à Elecsprint. Elecsprint s'inflige alors 10 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Dynavolt",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex8-38"
+        }
+    ],
+    "print_key": "tcgdex:ex8-38",
+    "card_key": "310|70|1|Hajime Kusajima|None,40+|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

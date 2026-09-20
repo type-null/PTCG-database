@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm9-30",
+    "name": "Garados",
+    "img": "https://assets.tcgdex.net/de/sm/sm9/30/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm9",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm9/symbol",
+    "set_full_name": "Teams Sind Trumpf",
+    "series": "Sonne & Mond",
+    "set_code": "sm9",
+    "date": "2019-01-31",
+    "number": "30",
+    "set_total": 196,
+    "rarity": "Selten",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "flavor_text": "Mit seinem Hyperstrahl legt es die Umgebung in Schutt und Asche. Manchmal wird es auch als „Gottheit der Zerstörung“ bezeichnet.",
+    "stage": "Rang 1",
+    "hp": 150,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Destillierter Schlag",
+            "damage": "30+",
+            "effect": "Zeige deinem Gegner die obersten 7 Karten deines Decks. Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der {W}-Energien zu, die du dort findest. Mische anschließend jene Energiekarten zurück in dein Deck und lege die anderen Karten auf deinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Hyperstrahl",
+            "damage": 100,
+            "effect": "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Karpador",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm9-30"
+        }
+    ],
+    "print_key": "tcgdex:sm9-30",
+    "card_key": "130|150|4|Hasuno|30+,100|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

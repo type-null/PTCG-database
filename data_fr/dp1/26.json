@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-26",
+    "name": "Mustéflott",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "26",
+    "set_total": 130,
+    "rarity": "Rare",
+    "author": [
+        "Masahiko Ishii"
+    ],
+    "pokedex_number": 419,
+    "pokemon_category": "",
+    "flavor_text": "Il flotte grâce à sa bouée très développée. Il vole au secours des gens sur le point de se noyer.",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Queue cloutée",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau"
+            ],
+            "name": "Pistolet à O",
+            "damage": "40+",
+            "effect": "Inflige 40 dégâts plus 20 dégâts supplémentaires pour chaque Énergie Water attachée à Mustéflott qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 40 dégâts de cette façon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Mustébouée",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-26"
+        }
+    ],
+    "print_key": "tcgdex:dp1-26",
+    "card_key": "419|90|1|Masahiko Ishii|30,40+|2,2",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/sv10-070",
+    "name": "Zapdos da Equipe Rocket",
+    "img": "https://assets.tcgdex.net/pt/sv/sv10/070/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "regulation": "I",
+    "set_name": "sv10",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv10/symbol",
+    "set_full_name": "Rivais Predestinados",
+    "series": "Escarlate e Violeta",
+    "set_code": "sv10",
+    "date": "2025-05-30",
+    "number": "070",
+    "set_total": 244,
+    "rarity": "Rara",
+    "author": [
+        "Nurikabe"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 120,
+    "types": [
+        "Elétrico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Asa Bloqueadora",
+            "damage": 30,
+            "effect": "Você pode mover uma Energia do Pokémon Ativo do seu oponente para 1 dos Pokémon no Banco dele."
+        },
+        {
+            "cost": [
+                "Elétrico",
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Trovão Traiçoeiro",
+            "damage": "60+",
+            "effect": "Se este Pokémon tiver alguma Energia da Equipe Rocket ligada a ele, este ataque causará 60 pontos de dano a mais."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elétrico"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lutador"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/sv10-070"
+        }
+    ],
+    "print_key": "tcgdex:sv10-70",
+    "card_key": "145|120|1|Nurikabe|30,60+|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

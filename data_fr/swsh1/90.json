@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh1-90",
+    "name": "Polthégeist",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh1/90/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Épée et Bouclier",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "90",
+    "set_total": 216,
+    "rarity": "Rare",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 855,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Thérémonie",
+            "damage": null,
+            "effect": "Chaque joueur pioche 2 cartes."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Poltergeist",
+            "damage": "50×",
+            "effect": "Votre adversaire dévoile sa main. Cette attaque inflige 50 dégâts pour chaque carte Dresseur que vous y trouvez."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Théffroi",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh1-90"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-90",
+    "card_key": "855|60|1|Shin Nagasawa|None,50x|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

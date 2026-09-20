@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-16",
+    "name": "Zapdos",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "16",
+    "set_total": 102,
+    "rarity": "Rara",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "flavor_text": "Leggendario uccello Pokémon. Si dice che appaia dalle nuvole brandendo enormi fulmini. LIV 64 N.145",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Lampo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lampo",
+                "Lampo",
+                "Lampo",
+                "Incolore"
+            ],
+            "name": "Tuono",
+            "damage": 60,
+            "effect": "Lancia una moneta. Se esce croce, Zapdos si infligge 30 danni."
+        },
+        {
+            "cost": [
+                "Lampo",
+                "Lampo",
+                "Lampo",
+                "Lampo"
+            ],
+            "name": "Fulmine",
+            "damage": 100,
+            "effect": "Scarta tutte le carte Energia assegnate a Zapdos per poter usare questo attacco."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-16"
+        }
+    ],
+    "print_key": "tcgdex:base1-16",
+    "card_key": "145|90|3|Ken Sugimori|60,100|4,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

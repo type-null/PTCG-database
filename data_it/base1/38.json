@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-38",
+    "name": "Poliwhirl",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "38",
+    "set_total": 102,
+    "rarity": "Non comune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 61,
+    "pokemon_category": "",
+    "flavor_text": "Capace di vivere sia sulla terra che sott'acqua. Quando non è in acqua, suda in continuazione per mantenere lubrificato il suo corpo. LIV 28 N.61",
+    "stage": "Livello 1",
+    "hp": 60,
+    "types": [
+        "Acqua"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Acqua",
+                "Acqua"
+            ],
+            "name": "Amnesia",
+            "damage": null,
+            "effect": "Scegli uno degli attacchi del Pokémon Difensore. Quel Pokémon non potrà usare quell'attacco durante il prossimo turno del tuo avversario."
+        },
+        {
+            "cost": [
+                "Acqua",
+                "Acqua",
+                "Incolore"
+            ],
+            "name": "Doppiasberla",
+            "damage": "30x",
+            "effect": "Lancia 2 volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Erba"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Poliwag",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-38"
+        }
+    ],
+    "print_key": "tcgdex:base1-38",
+    "card_key": "61|60|1|Ken Sugimori|None,30x|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

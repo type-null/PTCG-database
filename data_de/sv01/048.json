@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv01-048",
+    "name": "Mamolida",
+    "img": "https://assets.tcgdex.net/de/sv/sv01/048/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Karmesin & Purpur",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "048",
+    "set_total": 258,
+    "rarity": "Häufig",
+    "author": [
+        "Shinji Kanda"
+    ],
+    "pokedex_number": 594,
+    "pokemon_category": "",
+    "flavor_text": "Es umarmt verletzte und geschwächte Pokémon liebevoll mit seinen Flossen und heilt sie mithilfe seiner speziellen Schleimschicht.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Surfer",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Aquaschlag",
+            "damage": 120,
+            "effect": "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv01-048"
+        }
+    ],
+    "print_key": "tcgdex:sv01-48",
+    "card_key": "594|120|2|Shinji Kanda|30,120|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv01-117",
+    "name": "Rabigator",
+    "img": "https://assets.tcgdex.net/de/sv/sv01/117/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Karmesin & Purpur",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "117",
+    "set_total": 258,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Misa Tsutsui"
+    ],
+    "pokedex_number": 553,
+    "pokemon_category": "",
+    "flavor_text": "Wenn es mit seinem mächtigen Kiefer zubeißt, zerteilt es seine Beute mit einer Drehung seines Körpers.",
+    "stage": "Rang 2",
+    "hp": 170,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Mampfbiss",
+            "damage": 50,
+            "effect": "Wirf so lange 1 Münze, bis sie Zahl zeigt. Lege pro Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Erdbeben",
+            "damage": 180,
+            "effect": "Diese Attacke fügt auch jedem Pokémon auf deiner Bank 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Rokkaiman",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv01-117"
+        }
+    ],
+    "print_key": "tcgdex:sv01-117",
+    "card_key": "553|170|3|Misa Tsutsui|50,180|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

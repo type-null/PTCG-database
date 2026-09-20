@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-69",
+    "name": "Onix",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "69",
+    "set_total": 106,
+    "rarity": "Commune",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 95,
+    "pokemon_category": "",
+    "flavor_text": "Il provoque des secousses sismiques en creusant. Il peut atteindre les 80 km/h.",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Armure",
+            "damage": null,
+            "effect": "Lors du prochain tour de votre adversaire, si une attaque inflige des dégâts à Onix, prévenez ces dégâts s'ils sont de 40 ou moins."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Étreinte",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "+20"
+    },
+    "retreat": 3,
+    "evolve_from": "Onix",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-69"
+        }
+    ],
+    "print_key": "tcgdex:dp7-69",
+    "card_key": "95|90|3|Kyoko Umemoto|None,30|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

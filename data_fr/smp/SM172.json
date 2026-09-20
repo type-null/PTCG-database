@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/smp-SM172",
+    "name": "Aquali GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "Promo SM",
+    "series": "Soleil et Lune",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM172",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "PLANETA Otani"
+    ],
+    "pokedex_number": 134,
+    "pokemon_category": "",
+    "hp": 210,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Gouttes Hydratantes",
+            "effect": "Une seule fois pendant votre tour (avant votre attaque), vous pouvez soigner 30 dégâts à votre Pokémon Actif Water."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Hydrocanon",
+            "damage": "40+",
+            "effect": "Cette attaque inflige 30 dégâts supplémentaires multipliés par le nombre d’Énergies Water attachées à ce Pokémon."
+        },
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Pluie Curative GX",
+            "damage": null,
+            "effect": "Soignez tous les dégâts de vos Pokémon Water. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Évoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/smp-SM172"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM172",
+    "card_key": "134|210|2|PLANETA Otani|40+,None|3,1",
+    "types_en": [
+        "Water"
+    ]
+}

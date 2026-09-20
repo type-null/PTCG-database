@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo3-33",
+    "name": "Magcargo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "33",
+    "set_total": 66,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 219,
+    "pokemon_category": "",
+    "flavor_text": "Die Muschel auf seinem Rücken ist nur Haut, die sich abgekühlt und verhärtet hat. Sie zerbricht schon bei der leichtesten Berührung.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "Magmavorrat",
+            "effect": "Falls Magcargo dein aktives Pokémon ist und auf die Bank bewegt wird, entferne eine an Magcargo angelegte {R}-Energiekarte und lege sie an das neue aktive Pokémon an. (Du kannst dazu keine Energiekarte verwenden, mit der du die Rückzugskosten bezahlt hast.)"
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Lavaschub",
+            "damage": "40+",
+            "effect": "Du kannst eine beliebige Anzahl an Magcargo angelegte {R}-Energiekarten auf deinen Ablagestapel legen, wenn du diesen Angriff verwendest. Wenn du dies tust, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte für jede auf diese Weise abgelegte {R}-Energiekarte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Schneckmag",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo3-33"
+        }
+    ],
+    "print_key": "tcgdex:neo3-33",
+    "card_key": "219|80|3|Shin-ichi Yoshida|40+|3",
+    "types_en": [
+        "Fire"
+    ]
+}

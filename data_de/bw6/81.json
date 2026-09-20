@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw6-81",
+    "name": "Registeel-EX",
+    "img": "https://assets.tcgdex.net/de/bw/bw6/81/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "bw6",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw6/symbol",
+    "set_full_name": "Hoheit der Drachen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw6",
+    "date": "2012-08-15",
+    "number": "81",
+    "set_total": 128,
+    "rarity": "Selten",
+    "author": [
+        "Eske Yoshinob"
+    ],
+    "pokedex_number": 379,
+    "pokemon_category": "",
+    "hp": 180,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Dreifachlaser",
+            "damage": null,
+            "effect": "Dieser Angriff fügt 3 Pokémon deines Gegners jeweils 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schützender Sturmangriff",
+            "damage": 80,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw6-81"
+        }
+    ],
+    "print_key": "tcgdex:bw6-81",
+    "card_key": "379|180|4|Eske Yoshinob|None,80|3,4",
+    "types_en": [
+        "Metal"
+    ]
+}

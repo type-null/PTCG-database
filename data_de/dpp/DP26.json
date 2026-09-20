@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dpp-DP26",
+    "name": "Dialga",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dpp",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dpp/symbol",
+    "set_full_name": "Promo DP",
+    "series": "Diamant & Perl",
+    "set_code": "dpp",
+    "date": "2007-05-01",
+    "number": "DP26",
+    "set_total": 56,
+    "rarity": "Häufig",
+    "author": [
+        "Kazuyuki Kano"
+    ],
+    "pokedex_number": 483,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Zeitschrei",
+            "damage": 10,
+            "effect": "Ziehe 1 Karte."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Lichtkanone",
+            "damage": 40,
+            "effect": "Du kannst alle an Dialga angelegten Energiekarten zurück auf deine Hand nehmen. Wenn du das machst, entferne die höchste Evolutionskarte vom Verteidigenden Pokémon. Dein Gegner mischt diese Karte in sein Deck."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dpp-DP26"
+        }
+    ],
+    "print_key": "tcgdex:dpp-DP26",
+    "card_key": "483|90|2|Kazuyuki Kano|10,40|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

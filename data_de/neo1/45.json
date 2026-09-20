@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-45",
+    "name": "Morlord",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "45",
+    "set_total": 111,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 195,
+    "pokemon_category": "",
+    "flavor_text": "Aufgrund seiner entspannten und unbesorgten Einstellung stößt es beim Schwimmen mit dem Kopf oft an Felsen und Bootskörper an.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Surfer",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Erdbeben",
+            "damage": 60,
+            "effect": "Fügt jedem Pokémon auf deiner eigenen Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Felino",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-45"
+        }
+    ],
+    "print_key": "tcgdex:neo1-45",
+    "card_key": "195|70|2|Atsuko Nishida|30,60|2,4",
+    "types_en": [
+        "Water"
+    ]
+}

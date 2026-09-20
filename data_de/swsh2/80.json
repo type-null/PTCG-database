@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh2-80",
+    "name": "Symvolara",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh2/80/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Clash der Rebellen",
+    "series": "Schwert & Schild",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "80",
+    "set_total": 209,
+    "rarity": "Selten",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 561,
+    "pokemon_category": "",
+    "flavor_text": "Es fliegt mithilfe seiner Psycho-Kräfte. Einige sagen, es war einst der Wächter einer Stadt aus uralten Zeiten. Andere sagen, es war sein Bote.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Gegenangriff",
+            "effect": "Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke deines Gegners Schaden erhält (auch wenn es dadurch kampfunfähig wird), lege 3 Schadensmarken auf das Angreifende Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psycho-Ansturm",
+            "damage": "30+",
+            "effect": "Diese Attacke fügt für jede Schadensmarke auf dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh2-80"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-80",
+    "card_key": "561|110|1|Naoyo Kimura|30+|2",
+    "types_en": [
+        "Psychic"
+    ]
+}

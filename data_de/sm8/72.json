@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm8-72",
+    "name": "Elevoltek",
+    "img": "https://assets.tcgdex.net/de/sm/sm8/72/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Echo des Donners",
+    "series": "Sonne & Mond",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "72",
+    "set_total": 236,
+    "rarity": "Selten",
+    "author": [
+        "Akira Komayama"
+    ],
+    "pokedex_number": 466,
+    "pokemon_category": "",
+    "flavor_text": "Wenn es sich aufregt, schlägt es sich kräftig auf die Brust. Bei jedem Schlag sprühen Funken und es ertönt ein Donnern.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Elektroladung",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu 2 {L}-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Starkstromfaust",
+            "damage": 190,
+            "effect": "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Elektek",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm8-72"
+        }
+    ],
+    "print_key": "tcgdex:sm8-72",
+    "card_key": "466|140|4|Akira Komayama|None,190|1,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

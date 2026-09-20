@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-61",
+    "name": "Écayon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "61",
+    "set_total": 106,
+    "rarity": "Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 456,
+    "pokemon_category": "",
+    "flavor_text": "Après une longue exposition au soleil, les motifs de ses nageoires caudales luisent à la nuit tombée.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Aqua-paquebot",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Bouche-pompe",
+            "damage": "10+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+10"
+    },
+    "retreat": 1,
+    "evolve_from": "Ecayon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-61"
+        }
+    ],
+    "print_key": "tcgdex:dp7-61",
+    "card_key": "456|50|1|Kagemaru Himeno|None,10+|0,1",
+    "types_en": [
+        "Water"
+    ]
+}

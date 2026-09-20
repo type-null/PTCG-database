@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/cel25-1",
+    "name": "Ho-Oh",
+    "img": "https://assets.tcgdex.net/it/swsh/cel25/1/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "E",
+    "set_name": "cel25",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/cel25/symbol",
+    "set_full_name": "Gran Festa",
+    "series": "Spada e Scudo",
+    "set_code": "cel25",
+    "date": "2021-10-08",
+    "number": "1",
+    "set_total": 25,
+    "rarity": "Rara",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 250,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Fuoco"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuoco",
+                "Incolore"
+            ],
+            "name": "Magifuoco",
+            "damage": null,
+            "effect": "Questo attacco infligge 50 danni a uno dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina."
+        },
+        {
+            "cost": [
+                "Fuoco",
+                "Fuoco",
+                "Incolore"
+            ],
+            "name": "Fuocobomba",
+            "damage": 120,
+            "effect": "Scarta un'Energia da questo Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lampo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/cel25-1"
+        }
+    ],
+    "print_key": "tcgdex:cel25-1",
+    "card_key": "250|130|2|Kouki Saitou|None,120|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

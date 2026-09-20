@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy3-14",
+    "name": "Lohgock",
+    "img": "https://assets.tcgdex.net/de/xy/xy3/14/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy3",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy3/symbol",
+    "set_full_name": "Fliegende Fäuste",
+    "series": "XY",
+    "set_code": "xy3",
+    "date": "2014-08-13",
+    "number": "14",
+    "set_total": 114,
+    "rarity": "Selten",
+    "author": [
+        "PLANETA"
+    ],
+    "pokedex_number": 257,
+    "pokemon_category": "",
+    "flavor_text": "Mühelos springt es selbst über 30-stöckige Häuser. Sein Feuerschlag fügt dem Gegner Verbrennungen zu.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Greifer",
+            "damage": 50,
+            "effect": "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Brandschuss",
+            "damage": null,
+            "effect": "Lege 2 an dieses Pokémon angelegte Energien auf deinen Ablagestapel. Dieser Angriff fügt 1 Pokémon deines Gegners 150 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Jungglut",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy3-14"
+        }
+    ],
+    "print_key": "tcgdex:xy3-14",
+    "card_key": "257|140|2|PLANETA|50,None|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex12-40",
+    "name": "Traunfugil",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Legend Maker",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "40",
+    "set_total": 93,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 200,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Tiefer Schlaf",
+            "effect": "Solange Traunfugil dein Aktives Pokémon ist, wirft jeder Spieler für jedes seiner Pokémon, das schläft, am Ende jedes Zuges 2 Münzen. Wenn mindestens eine davon „Zahl“ zeigt, schläft das betreffende Pokémon weiter."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Wiederbringende Trance",
+            "damage": null,
+            "effect": "Nimm eine an Traunfugil angelegte Energiekarte zurück auf die Hand. Das Verteidigende Pokémon schläft jetzt."
+        },
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Traumfresser",
+            "damage": 30,
+            "effect": "Du kannst diesen Angriff nur dann einsetzen, wenn das Verteidigende Pokémon schläft."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex12-40"
+        }
+    ],
+    "print_key": "tcgdex:ex12-40",
+    "card_key": "200|50|1|Yukiko Baba|None,30|1,1",
+    "types_en": [
+        "Psychic"
+    ]
+}

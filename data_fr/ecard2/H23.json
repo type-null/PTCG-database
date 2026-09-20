@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard2-H23",
+    "name": "Steelix",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard2/H23/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-cards",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "H23",
+    "set_total": 186,
+    "rarity": "Holo Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 208,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Faille terreste",
+            "damage": 10,
+            "effect": "Cette attaque inflige 10 dégâts à tous les Pokémon du Banc de votre adversaire. (N'appliquez pas la Faiblesse et la Résistance aux Pokémon du Banc.) Lancez ensuite une pièce. Si c'est pile, cette attaque ne peut pas être utilisée à nouveau durant votre prochain tour."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Éclate-fer",
+            "damage": "50+",
+            "effect": "Lancez 2 pièces. Si vous obtenez 2 faces, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires. Si vous obtenez 2 piles, cette attaque ne fait rien. Si l'une est face et l'autre est pile, cette attaque n'inflige que 50 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Plante"
+        ],
+        "value": "-30"
+    },
+    "retreat": 4,
+    "evolve_from": "Onix",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard2-H23"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-H23",
+    "card_key": "208|100|4|Hajime Kusajima|10,50+|2,4",
+    "types_en": [
+        "Metal"
+    ]
+}

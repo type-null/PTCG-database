@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo2-1",
+    "name": "Mentali",
+    "img": "https://assets.tcgdex.net/fr/neo/neo2/1/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Discovery",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "1",
+    "set_total": 75,
+    "rarity": "Rare",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 196,
+    "pokemon_category": "",
+    "flavor_text": "La belle fourrure qui recouvre son corps peut sentir les courants aériens et prédire les actions de son ennemi.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Morsure",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Psyko",
+            "damage": "30+",
+            "effect": "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée au Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "evolve_from": "Évoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo2-1"
+        }
+    ],
+    "print_key": "tcgdex:neo2-1",
+    "card_key": "196|80|None|Atsuko Nishida|20,30+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

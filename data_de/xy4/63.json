@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy4-63",
+    "name": "Heatran",
+    "img": "https://assets.tcgdex.net/de/xy/xy4/63/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy4",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy4/symbol",
+    "set_full_name": "Phantomkräfte",
+    "series": "XY",
+    "set_code": "xy4",
+    "date": "2014-11-05",
+    "number": "63",
+    "set_total": 124,
+    "rarity": "Selten",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 485,
+    "pokemon_category": "",
+    "flavor_text": "Es lebt in vulkanischen Höhlen. Mit seinen kreuzförmigen Klauen kann es sogar an der Decke laufen.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Stahlsturz",
+            "damage": "40+",
+            "effect": "Wenn eine Stadionkarte im Spiel ist, fügt dieser Angriff 40 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Dampfstrahl",
+            "damage": 130,
+            "effect": "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy4-63"
+        }
+    ],
+    "print_key": "tcgdex:xy4-63",
+    "card_key": "485|130|3|Midori Harada|40+,130|3,4",
+    "types_en": [
+        "Metal"
+    ]
+}

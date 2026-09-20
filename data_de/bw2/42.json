@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw2-42",
+    "name": "Symvolara",
+    "img": "https://assets.tcgdex.net/de/bw/bw2/42/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw2",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw2/symbol",
+    "set_full_name": "Aufstreben der Mächtigen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw2",
+    "date": "2011-08-31",
+    "number": "42",
+    "set_total": 98,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 561,
+    "pokemon_category": "",
+    "flavor_text": "Erinnerungen an seine Tage als Wächter einer uralten Stadt veranlassen es, Tag für Tag dieselbe Route abzufliegen.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Schnelldrehung",
+            "damage": 10,
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Psycho-Ansturm",
+            "damage": 40,
+            "effect": "Dieser Angriff fügt 10 weitere Schadenspunkte für jede Schadensmarke auf dem Verteidigenden Pokémon zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw2-42"
+        }
+    ],
+    "print_key": "tcgdex:bw2-42",
+    "card_key": "561|90|1|match|10,40|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

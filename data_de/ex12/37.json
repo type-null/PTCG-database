@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex12-37",
+    "name": "Kecleon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Legend Maker",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "37",
+    "set_total": 93,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 352,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Farblos"
+    ],
+    "abilities": [
+        {
+            "name": "Reaktive Farben",
+            "effect": "Wenn an Kecleon mindestens eine Reaktions-Energiekarte angelegt ist, ist es vom Typ {G}, {R}, {W}, {L}, {P} und {F}."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Zungenpeitsche",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Ruckzuckhieb",
+            "damage": "10+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex12-37"
+        }
+    ],
+    "print_key": "tcgdex:ex12-37",
+    "card_key": "352|60|1|Tomokazu Komiya|None,10+|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

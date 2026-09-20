@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm8-85",
+    "name": "Tapu Koko",
+    "img": "https://assets.tcgdex.net/es/sm/sm8/85/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Truenos Perdidos",
+    "series": "Sol y Luna",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "85",
+    "set_total": 236,
+    "rarity": "Rara",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 785,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 120,
+    "types": [
+        "Rayo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Pasada de Ataque",
+            "damage": 30,
+            "effect": "Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca."
+        },
+        {
+            "cost": [
+                "Rayo",
+                "Rayo",
+                "Incolora"
+            ],
+            "name": "Rayo Destellante",
+            "damage": 120,
+            "effect": "Este Pokémon no puede usar Rayo Destellante durante tu próximo turno."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metálica"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm8-85"
+        }
+    ],
+    "print_key": "tcgdex:sm8-85",
+    "card_key": "785|120|1|kawayoo|30,120|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

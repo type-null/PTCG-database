@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swshp-SWSH194",
+    "name": "Phyllali V",
+    "img": "https://assets.tcgdex.net/fr/swsh/swshp/SWSH194/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "V"
+    ],
+    "regulation": "F",
+    "set_name": "swshp",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swshp/symbol",
+    "set_full_name": "Promo SWSH",
+    "series": "Épée et Bouclier",
+    "set_code": "swshp",
+    "date": "2019-11-15",
+    "number": "SWSH194",
+    "set_total": 307,
+    "rarity": "Promo",
+    "pokedex_number": 470,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 210,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Feuille Garde",
+            "damage": 30,
+            "effect": "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Coup Déchirant",
+            "damage": 180,
+            "effect": "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup Déchirant."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swshp-SWSH194"
+        }
+    ],
+    "print_key": "tcgdex:swshp-SWSH194",
+    "types_en": [
+        "Grass"
+    ]
+}

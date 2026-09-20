@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-30",
+    "name": "Piepi",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "30",
+    "set_total": 111,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 35,
+    "pokemon_category": "",
+    "flavor_text": "Das in seinen Flügeln auf dem Rücken gespeicherte Mondlicht gibt ihm anscheinend die Fähigkeit, mitten in der Luft zu schweben.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Duplexhieb",
+            "damage": "10x",
+            "effect": "Wirf zwei Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Squaredance",
+            "damage": null,
+            "effect": "Wirf eine Anzahl Münzen gleich der Gesamtanzahl der Pokémon im Spiel. Bei jedem „Kopf“ kannst du dein Deck nach einer Basis-Energiekarte durchsuchen, sie deinem Gegner zeigen und auf deine Hand nehmen. Mische dein Deck danach."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-30"
+        }
+    ],
+    "print_key": "tcgdex:neo1-30",
+    "card_key": "35|50|1|Sumiyoshi Kizuki|10x,None|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

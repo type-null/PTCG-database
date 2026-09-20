@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-56",
+    "name": "Onix",
+    "img": "https://assets.tcgdex.net/fr/base/base1/56/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "56",
+    "set_total": 102,
+    "rarity": "Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 95,
+    "pokemon_category": "",
+    "flavor_text": "Les parties en pierre de son corps durcissent pour devenir comme un diamant de couleur noire.",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Jet-Pierres",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Armure",
+            "damage": null,
+            "effect": "Pendant le prochain tour de votre adversaire, à chaque fois que 30 dégâts ou moins sont infligés à Onix (après application de la Faiblesse et de la Résistance), prévenez ces dégâts. (Tout autre effet ou attaque est toujours valide.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-56"
+        }
+    ],
+    "print_key": "tcgdex:base1-56",
+    "card_key": "95|90|3|Ken Sugimori|10,None|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

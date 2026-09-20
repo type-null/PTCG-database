@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bwp-BW79",
+    "name": "Démétéros",
+    "img": "https://assets.tcgdex.net/fr/bw/bwp/BW79/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bwp",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bwp/symbol",
+    "set_full_name": "Promo BW",
+    "series": "Noir & Blanc",
+    "set_code": "bwp",
+    "date": "2011-04-26",
+    "number": "BW79",
+    "set_total": 101,
+    "rarity": "Commune",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 645,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 110,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Extrasenseur",
+            "damage": 20,
+            "effect": "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 30 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tomberoche",
+            "damage": 90,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bwp-BW79"
+        }
+    ],
+    "print_key": "tcgdex:bwp-BW79",
+    "card_key": "645|110|2|5ban Graphics|20,90|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

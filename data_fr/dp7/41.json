@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-41",
+    "name": "Machopeur",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "41",
+    "set_total": 106,
+    "rarity": "Peu Commune",
+    "author": [
+        "Sachiko Adachi"
+    ],
+    "pokedex_number": 67,
+    "pokemon_category": "",
+    "flavor_text": "La force herculéenne du MACHOPEUR est très dangereuse. Il utilise une ceinture pour contenir son énergie.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Poing énergétique",
+            "damage": "20+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Casse-brique",
+            "damage": 30,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Machoc",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-41"
+        }
+    ],
+    "print_key": "tcgdex:dp7-41",
+    "card_key": "67|80|2|Sachiko Adachi|20+,30|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

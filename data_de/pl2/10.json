@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-10",
+    "name": "Traunmagil GL",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "10",
+    "set_total": 120,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 429,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Telepathisches Entfernen",
+            "damage": 10,
+            "effect": "Wirf 2 Münzen. Wenn beide Münzen „Kopf“ gezeigt haben, lege alle Energien, die am Verteidigenden Pokémon angelegt sind, auf den Ablagestapel deines Gegners."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Nachspiel",
+            "damage": "20+",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jeden Preis, den dein Gegner bereits genommen hat, zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-10"
+        }
+    ],
+    "print_key": "tcgdex:pl2-10",
+    "card_key": "429|80|1|Naoyo Kimura|10,20+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

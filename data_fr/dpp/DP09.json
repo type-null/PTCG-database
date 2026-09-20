@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dpp-DP09",
+    "name": "Torterra",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dpp",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dpp/symbol",
+    "set_full_name": "Promo DP",
+    "series": "Diamant & Perle",
+    "set_code": "dpp",
+    "date": "2007-05-01",
+    "number": "DP09",
+    "set_total": 56,
+    "rarity": "Commune",
+    "author": [
+        "Shizurow"
+    ],
+    "pokedex_number": 389,
+    "pokemon_category": "",
+    "stage": "Niveau Sup",
+    "hp": 160,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Murmures de la forêt",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), si vous possédez plus de cartes Récompense que votre adversaire, vous pouvez choisir 1 des Pokémon de Banc de votre adversaire et l'échanger avec 1 des Pokémon Défenseurs. Ce pouvoir ne peut pas être utilisé si Torterra est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Ruée vigoureuse",
+            "damage": 100,
+            "effect": "Inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Torterra s'inflige 30 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+30"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dpp-DP09"
+        }
+    ],
+    "print_key": "tcgdex:dpp-DP09",
+    "card_key": "389|160|4|Shizurow|100|4",
+    "types_en": [
+        "Grass"
+    ]
+}

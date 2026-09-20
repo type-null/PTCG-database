@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-38",
+    "name": "Lanturn",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/38/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "38",
+    "set_total": 111,
+    "rarity": "Peu Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 171,
+    "pokemon_category": "",
+    "flavor_text": "La lumière qu'il produit est si brillante qu'elle atteint la surface de la mer depuis plus de 5 kilomètres de profondeur.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Pouvoir hydroélectrique",
+            "effect": "Vous pouvez augmenter de 10 le nombre de dégâts infligés par Projecteur pour chaque Énergie {W} attachée à Lanturn mais non utilisée pour payer le coût en Énergie de Projecteur. Ce pouvoir ne peut être utilisé si Lanturn est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Projecteur",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-38"
+        }
+    ],
+    "print_key": "tcgdex:neo1-38",
+    "card_key": "171|70|2|Ken Sugimori|20|2",
+    "types_en": [
+        "Lightning"
+    ]
+}

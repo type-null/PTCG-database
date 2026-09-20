@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-72",
+    "name": "Pottrott",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "72",
+    "set_total": 111,
+    "rarity": "Häufig",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 213,
+    "pokemon_category": "",
+    "flavor_text": "Die Beeren, die es in seinem vasenähnlichen Panzer speichert, zersetzen sich und werden zu einer klebrigen Flüssigkeit.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Panzerschutz",
+            "damage": null,
+            "effect": "Wirf eine Münze. Verhindere bei „Kopf“ alle Schadenspunkte, die Pottrott während des nächsten gegnerischen Zuges zugefügt werden. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Wickel",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigenden Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-72"
+        }
+    ],
+    "print_key": "tcgdex:neo1-72",
+    "card_key": "213|50|1|Ken Sugimori|None,20|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm1-85",
+    "name": "Rabigator",
+    "img": "https://assets.tcgdex.net/de/sm/sm1/85/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sonne & Mond",
+    "series": "Sonne & Mond",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "85",
+    "set_total": 172,
+    "rarity": "Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 553,
+    "pokemon_category": "",
+    "flavor_text": "Seine Augen sind so außergewöhnlich, dass es sogar in einem Sandsturm kleinste Beute aus 50 km Entfernung entdecken kann.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Falsche Anschuldigung",
+            "damage": "20+",
+            "effect": "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der Karten auf der Hand deines Gegners zu."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Schwarze Fänge",
+            "damage": 120,
+            "effect": "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Rokkaiman",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm1-85"
+        }
+    ],
+    "print_key": "tcgdex:sm1-85",
+    "card_key": "553|150|3|Hajime Kusajima|20+,120|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

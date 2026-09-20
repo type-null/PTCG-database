@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-30",
+    "name": "Mélofée",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/30/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "30",
+    "set_total": 111,
+    "rarity": "Peu Commune",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 35,
+    "pokemon_category": "",
+    "flavor_text": "Le clair de lune qui est stocké dans les ailes qu'il porte sur son dos lui donne apparemment la possibilité de flotter dans les airs.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Torgnoles",
+            "damage": "10x",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Bourrée",
+            "damage": null,
+            "effect": "Lancez un nombre de pièces égal au nombre total de Pokémon en jeu. Pour chaque face, vous pouvez chercher une carte Énergie de base dans votre deck, montrez-la à votre adversaire et placez-la dans votre main. Mélangez ensuite votre deck."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-30"
+        }
+    ],
+    "print_key": "tcgdex:neo1-30",
+    "card_key": "35|50|1|Sumiyoshi Kizuki|10x,None|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

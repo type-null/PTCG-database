@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw4-70",
+    "name": "Dimoret",
+    "img": "https://assets.tcgdex.net/fr/bw/bw4/70/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw4",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw4/symbol",
+    "set_full_name": "Destinées Futures",
+    "series": "Noir & Blanc",
+    "set_code": "bw4",
+    "date": "2012-02-08",
+    "number": "70",
+    "set_total": 103,
+    "rarity": "Rare",
+    "author": [
+        "Akira Komayama"
+    ],
+    "pokedex_number": 461,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité"
+            ],
+            "name": "Punition Obscure",
+            "damage": 90,
+            "effect": "S'il n'y a pas de carte Outil Pokémon attachée au Pokémon Défenseur, cette attaque ne fait rien."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Combo-Griffe",
+            "damage": 30,
+            "effect": "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Farfuret",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw4-70"
+        }
+    ],
+    "print_key": "tcgdex:bw4-70",
+    "card_key": "461|90|1|Akira Komayama|90,30|1,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

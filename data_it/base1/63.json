@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-63",
+    "name": "Squirtle",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "63",
+    "set_total": 102,
+    "rarity": "Comune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 7,
+    "pokemon_category": "",
+    "flavor_text": "Dopo la nascita, il suo dorso si gonfia e si indurisce in un guscio. Sprizza potenti schizzi di schiuma dalla bocca. LIV 8 N.7",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Acqua"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Acqua"
+            ],
+            "name": "Bolla",
+            "damage": 10,
+            "effect": "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
+        },
+        {
+            "cost": [
+                "Acqua",
+                "Incolore"
+            ],
+            "name": "Ritirata",
+            "damage": null,
+            "effect": "Lancia una moneta. Se esce testa, previeni tutti i danni inflitti a Squirtle durante il prossimo turno del tuo avversario. (Tutti gli altri effetti degli attacchi restano validi.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lampo"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-63"
+        }
+    ],
+    "print_key": "tcgdex:base1-63",
+    "card_key": "7|40|1|Mitsuhiro Arita|10,None|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

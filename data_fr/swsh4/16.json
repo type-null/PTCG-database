@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh4-16",
+    "name": "Genesect",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh4/16/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh4",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh4/symbol",
+    "set_full_name": "Voltage Éclatant",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh4",
+    "date": "2020-11-13",
+    "number": "16",
+    "set_total": 203,
+    "rarity": "Holo Rare",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 649,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Attaque Linéaire",
+            "damage": null,
+            "effect": "Cette attaque inflige 50 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Techno-Buster",
+            "damage": 120,
+            "effect": "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh4-16"
+        }
+    ],
+    "print_key": "tcgdex:swsh4-16",
+    "card_key": "649|120|2|kawayoo|None,120|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

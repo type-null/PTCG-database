@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/smp-SM201",
+    "name": "Reshiram y Charizard GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "tags": [
+        "RELEVOS",
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SL Cartas de promoción",
+    "series": "Sol y Luna",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM201",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "Ryota Murayama"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 270,
+    "types": [
+        "Fuego"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuego",
+                "Incolora"
+            ],
+            "name": "Enfado",
+            "damage": "30+",
+            "effect": "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon."
+        },
+        {
+            "cost": [
+                "Fuego",
+                "Fuego",
+                "Fuego",
+                "Incolora"
+            ],
+            "name": "Impacto Ígneo",
+            "damage": 230,
+            "effect": "Este Pokémon no puede usar Impacto Ígneo durante tu próximo turno."
+        },
+        {
+            "cost": [
+                "Fuego",
+                "Fuego",
+                "Fuego"
+            ],
+            "name": "Doble Llama GX",
+            "damage": "200+",
+            "effect": "Si este Pokémon tiene por lo menos 3 Energías Fire adicionales unidas a él (además de las del coste de este ataque), este ataque hace 100 puntos de daño más, y el daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival. (No puedes usar más de 1 ataque GX en una partida)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Agua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/smp-SM201"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM201",
+    "card_key": "6|270|3|Ryota Murayama|30+,230,200+|2,4,3",
+    "types_en": [
+        "Fire"
+    ]
+}

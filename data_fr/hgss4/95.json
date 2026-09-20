@@ -1,0 +1,77 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/hgss4-95",
+    "name": "Mackogneur",
+    "img": "https://assets.tcgdex.net/fr/hgss/hgss4/95/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "Primo"
+    ],
+    "set_name": "hgss4",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss4/symbol",
+    "set_full_name": "Triomphant",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss4",
+    "date": "2010-11-03",
+    "number": "95",
+    "set_total": 103,
+    "rarity": "Rare Prime",
+    "author": [
+        "Shizurow"
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 150,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Relève guerrière",
+            "effect": "Une fois pendant votre tour (avant votre attaque), si Mackogneur est sur votre Banc, vous pouvez lui attribuer toutes les cartes Énergie Fighting attachées à votre Pokémon Actif. Dans ce cas, échangez Mackogneur avec votre Pokémon Actif."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Poing dévastateur",
+            "damage": 60,
+            "effect": "Défaussez une carte Énergie Spéciale attachée au Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Explos’tout",
+            "damage": "100+",
+            "effect": "Inflige 100 dégâts plus 10 dégâts supplémentaires pour chacun de vos Pokémon de Banc ayant des marqueurs de dégât."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Machopeur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/hgss4-95"
+        }
+    ],
+    "print_key": "tcgdex:hgss4-95",
+    "card_key": "68|150|3|Shizurow|60,100+|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

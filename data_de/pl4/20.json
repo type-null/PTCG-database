@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl4-20",
+    "name": "Hariyama",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl4",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl4/symbol",
+    "set_full_name": "Arceus",
+    "series": "Platin",
+    "set_code": "pl4",
+    "date": "2009-11-04",
+    "number": "20",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 297,
+    "pokemon_category": "",
+    "flavor_text": "Es liebt das Kräftemessen mit großen PKMN. Mit seinem Armwurf kann es LKW durch die Luft werfen.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Verdrängen",
+            "damage": 50,
+            "effect": "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wirbelsturm-Schlag",
+            "damage": 60,
+            "effect": "Wenn das Verteidigende Pokémon mindestens eine Resistenz hat, beträgt der Grundschaden dieses Angriffs 120 Schadenspunkte anstelle von 60 Schadenspunkten."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+30"
+    },
+    "retreat": 4,
+    "evolve_from": "Makuhita",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl4-20"
+        }
+    ],
+    "print_key": "tcgdex:pl4-20",
+    "card_key": "297|110|4|Midori Harada|50,60|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

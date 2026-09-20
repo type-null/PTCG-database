@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex9-25",
+    "name": "Galifeu",
+    "img": "https://assets.tcgdex.net/fr/ex/ex9/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex9",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex9/symbol",
+    "set_full_name": "EX Émeraude",
+    "series": "EX",
+    "set_code": "ex9",
+    "date": "2005-05-09",
+    "number": "25",
+    "set_total": 107,
+    "rarity": "Peu Commune",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 256,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Brûlure de lave",
+            "damage": 20,
+            "effect": "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Griffes affûtées",
+            "damage": "40+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Poussifeu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex9-25"
+        }
+    ],
+    "print_key": "tcgdex:ex9-25",
+    "card_key": "256|70|1|Midori Harada|20,40+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh7-53",
+    "name": "Lanturn",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh7/53/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh7",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh7/symbol",
+    "set_full_name": "Drachenwandel",
+    "series": "Schwert & Schild",
+    "set_code": "swsh7",
+    "date": "2021-08-27",
+    "number": "53",
+    "set_total": 237,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "ryoma uratsuka"
+    ],
+    "pokedex_number": 171,
+    "pokemon_category": "",
+    "flavor_text": "Es blendet seine Beute mit einem grellen Licht. Sieht es eine Chance zuzuschlagen, greift es sie mit Elektrizität an.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Blendender Schein",
+            "damage": 40,
+            "effect": "Wenn das Verteidigende Pokémon während des nächsten Zuges deines Gegners versucht anzugreifen, wirft dein Gegner 1 Münze. Bei Zahl wird jene Attacke nicht ausgeführt."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Elektroball",
+            "damage": 120,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Lampi",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh7-53"
+        }
+    ],
+    "print_key": "tcgdex:swsh7-53",
+    "card_key": "171|120|2|ryoma uratsuka|40,120|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base2-44",
+    "name": "Rapidash",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Originale",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "44",
+    "set_total": 64,
+    "rarity": "Non comune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 78,
+    "pokemon_category": "",
+    "flavor_text": "Molto competitivo, questo Pokémon insegue tutto ciò che si muove velocemente, nella speranza di gareggiarci.",
+    "stage": "Livello 1",
+    "hp": 70,
+    "types": [
+        "Fuoco"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Pestone",
+            "damage": "20+",
+            "effect": "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni più 10 danni, se esce croce, causa solo 20 danni."
+        },
+        {
+            "cost": [
+                "Fuoco",
+                "Fuoco",
+                "Incolore"
+            ],
+            "name": "Agilità",
+            "damage": 30,
+            "effect": "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario previeni tutti gli effetti degli attacchi inflitti a Rapidash, incluso il danno."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Acqua"
+        ],
+        "value": "×2"
+    },
+    "evolve_from": "Ponyta",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base2-44"
+        }
+    ],
+    "print_key": "tcgdex:base2-44",
+    "card_key": "78|70|None|Mitsuhiro Arita|20+,30|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

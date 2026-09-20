@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/col1-72",
+    "name": "Tangela",
+    "img": "https://assets.tcgdex.net/de/col/col1/72/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "Ruf der Legenden",
+    "series": "Ruf der Legenden",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "72",
+    "set_total": 106,
+    "rarity": "Häufig",
+    "author": [
+        "Hideaki Hakozaki"
+    ],
+    "pokedex_number": 114,
+    "pokemon_category": "",
+    "flavor_text": "Es berührt alles, was sich bewegt, mit seinen Ranken. Diese Berührungen sind sehr kitzelig.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Nahrungsversorgung",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 {G}-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Giftpuder",
+            "damage": 30,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/col1-72"
+        }
+    ],
+    "print_key": "tcgdex:col1-72",
+    "card_key": "114|70|2|Hideaki Hakozaki|None,30|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

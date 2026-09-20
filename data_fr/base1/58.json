@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-58",
+    "name": "Pikachu",
+    "img": "https://assets.tcgdex.net/fr/base/base1/58/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "58",
+    "set_total": 102,
+    "rarity": "Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "flavor_text": "Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages.",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Rogne",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Secousse Tonnerre",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est pile, Pikachu s'inflige 10 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-58"
+        }
+    ],
+    "print_key": "tcgdex:base1-58",
+    "card_key": "25|40|1|Mitsuhiro Arita|10,30|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

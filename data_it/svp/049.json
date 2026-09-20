@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/svp-049",
+    "name": "Zapdos-ex",
+    "img": "https://assets.tcgdex.net/it/sv/svp/049/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "tags": [
+        "ex"
+    ],
+    "regulation": "G",
+    "set_name": "svp",
+    "set_full_name": "SVP Black Star Promos",
+    "series": "Scarlatto e Violetto",
+    "set_code": "svp",
+    "date": "2023-03-31",
+    "number": "049",
+    "set_total": 225,
+    "rarity": "Promo",
+    "author": [
+        "takuyoa"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 200,
+    "types": [
+        "Lampo"
+    ],
+    "abilities": [
+        {
+            "name": "Salvagente Voltaico",
+            "effect": "Se questo Pokémon ha delle Energie {L} assegnate, non ha costo di ritirata."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lampo",
+                "Lampo",
+                "Lampo"
+            ],
+            "name": "Fulmine Multicolpo",
+            "damage": 120,
+            "effect": "Questo attacco infligge anche 90 danni a uno dei Pokémon nella panchina del tuo avversario che ha dei segnalini danno. Non applicare debolezza e resistenza ai Pokémon in panchina."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lampo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/svp-049"
+        }
+    ],
+    "print_key": "tcgdex:svp-49",
+    "card_key": "145|200|2|takuyoa|120|3",
+    "types_en": [
+        "Lightning"
+    ]
+}

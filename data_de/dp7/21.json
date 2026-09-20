@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-21",
+    "name": "Mamutel",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "21",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 473,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Rammstoß",
+            "damage": "30x",
+            "effect": "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu oder du kannst eine neue Münzwurfserie beginnen. Für jede Münzwurfserie, die du neu beginnst, lege 2 Schadensmarken auf Mamutel. (Du darfst nicht erneut werfen, wenn Mamutel dadurch kampfunfähig würde.)"
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Vorbeimarsch",
+            "damage": "60+",
+            "effect": "Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Quiekel auf deiner Bank plus 20 weitere Schadenspunkte für jedes Keifel auf deiner Bank plus 40 weitere Schadenspunkte für jedes Mamutel auf deiner Bank zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 5,
+    "evolve_from": "Keifel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-21"
+        }
+    ],
+    "print_key": "tcgdex:dp7-21",
+    "card_key": "473|140|5|Kent Kanetsuna|30x,60+|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh2-120",
+    "name": "Grypheldis",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh2/120/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Clash der Rebellen",
+    "series": "Schwert & Schild",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "120",
+    "set_total": 209,
+    "rarity": "Selten",
+    "author": [
+        "kodama"
+    ],
+    "pokedex_number": 630,
+    "pokemon_category": "",
+    "flavor_text": "Grypheldis sind ziemliche Grobiane. Begegnet ihnen ein verirrtes Skallyk, kümmern sie sich aber liebevoll um es, bis es das Nest verlassen kann.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht"
+            ],
+            "name": "Knochenhatz",
+            "damage": "30×",
+            "effect": "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Unlicht"
+            ],
+            "name": "Aus heiterem Himmel",
+            "damage": null,
+            "effect": "Diese Attacke fügt 1 Pokémon deines Gegners, auf dem mindestens 1 Schadensmarke liegt, 100 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Skallyk",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh2-120"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-120",
+    "card_key": "630|120|2|kodama|30x,None|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

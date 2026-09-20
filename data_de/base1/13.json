@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-13",
+    "name": "Quappo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "13",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 62,
+    "pokemon_category": "",
+    "flavor_text": "Ein sowohl im Kraulen als auch im Brustschwimmen erfahrenes Pokémon. Überholt menschliche Schwimmer problemlos.",
+    "stage": "Rang 2",
+    "hp": 90,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Aquaknarre",
+            "damage": "30+",
+            "effect": "Fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Quappo abgelegte {W} Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Du kannst nicht mehr als 20 Schadenspunkte auf diese Weise hinzufügen."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Strudel",
+            "damage": 40,
+            "effect": "Sind auf dem verteidigenden Pokémon Energiekarten abgelegt, wähle eine von ihnen und entferne sie."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Quaputzi",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-13"
+        }
+    ],
+    "print_key": "tcgdex:base1-13",
+    "card_key": "62|90|3|Ken Sugimori|30+,40|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

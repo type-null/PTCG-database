@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard1-48",
+    "name": "Gengar",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-Card",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "48",
+    "set_total": 165,
+    "rarity": "Selten",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 94,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Chaotische Bewegung",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls dein Gegner 3 oder weniger Preise hat, 1 Schadensmarke von 1 Pokémon (von dir oder deinem Gegner) nehmen und auf ein anderes legen (selbst wenn dies das andere Pokémon kampfunfähig macht). Diese Fähigkeit kann nicht verwendet werden, falls Gengar von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Im Schatten verstecken",
+            "damage": 40,
+            "effect": "Tausche Gengar mit 1 der Pokémon auf deiner Bank, falls du dort mindestens eins hast."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Alpollo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard1-48"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-48",
+    "card_key": "94|90|1|Yukiko Baba|40|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

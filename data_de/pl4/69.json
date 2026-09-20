@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl4-69",
+    "name": "Nasgnet",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl4",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl4/symbol",
+    "set_full_name": "Arceus",
+    "series": "Platin",
+    "set_code": "pl4",
+    "date": "2009-11-04",
+    "number": "69",
+    "set_total": 111,
+    "rarity": "Häufig",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 299,
+    "pokemon_category": "",
+    "flavor_text": "Es schützt sich bei Gefahr durch Gegenstände aus Eisen, die es mit erhöhtem Magnetismus an sich zieht.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Härtner",
+            "damage": null,
+            "effect": "Wenn Nasgnet während des nächsten Zuges deines Gegners durch einen Angriff 30 oder weniger Schadenspunkte zugefügt wurden, verhindere diesen Schaden."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Zurückschlagen",
+            "damage": "20+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+10"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl4-69"
+        }
+    ],
+    "print_key": "tcgdex:pl4-69",
+    "card_key": "299|70|1|Midori Harada|None,20+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

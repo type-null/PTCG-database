@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy5-104",
+    "name": "Azumarill",
+    "img": "https://assets.tcgdex.net/fr/xy/xy5/104/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Primo-Choc",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "104",
+    "set_total": 164,
+    "rarity": "Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 184,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Fée"
+    ],
+    "abilities": [
+        {
+            "name": "Régénération α",
+            "effect": "Lorsque ce Pokémon est soigné, doublez la quantité de soins."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fée",
+                "Incolore"
+            ],
+            "name": "Frap'Keu",
+            "damage": "30×",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+        },
+        {
+            "cost": [
+                "Fée",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Vague Faiblissante",
+            "damage": "100-",
+            "effect": "Cette attaque inflige 100 dégâts moins 10 dégâts pour chaque marqueur de dégâts placé sur ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Métal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Marill",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy5-104"
+        }
+    ],
+    "print_key": "tcgdex:xy5-104",
+    "card_key": "184|100|2|5ban Graphics|30x,100-|2,3",
+    "types_en": [
+        "Fairy"
+    ]
+}

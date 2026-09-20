@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard1-1",
+    "name": "Simsala",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-Card",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "1",
+    "set_total": 165,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 65,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Psymimikry",
+            "effect": "Einmal während deines Zuges kannst du anstatt Simsalas normalem Angriff 1 der Angriffe der Pokémon deines Gegners wählen. Simsala kopiert diesen Angriff (einschließlich der Energiekosten und allem anderen, was du tun musst, um diesen Angriff zu verwenden). (Unabhängig vom Typ dieses Pokémon bleibt Simsalas Typ Psycho.) Diese Fähigkeit kann nicht verwendet werden, falls Simsala von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Synchronexplosion",
+            "damage": 80,
+            "effect": "Wenn an Simsala und das Verteidigende Pokémon nicht dieselbe Anzahl von Energiekarten angelegt ist, ist der Basisschaden dieses Angriffs 20 anstatt 80."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Kadabra",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard1-1"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-1",
+    "card_key": "65|100|2|Hajime Kusajima|80|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

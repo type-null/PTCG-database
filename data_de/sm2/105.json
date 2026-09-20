@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm2-105",
+    "name": "Formeo",
+    "img": "https://assets.tcgdex.net/de/sm/sm2/105/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Stunde der Wächter",
+    "series": "Sonne & Mond",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "105",
+    "set_total": 169,
+    "rarity": "Häufig",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 351,
+    "pokemon_category": "",
+    "flavor_text": "Es ändert seine Erscheinung je nach Wetter. Seine Zellen reagieren anscheinend auf Temperatur- und Feuchtigkeitsschwankungen.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Wettervorhersage",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu 2 Stadionkarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Aquawelle",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners schläft jetzt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm2-105"
+        }
+    ],
+    "print_key": "tcgdex:sm2-105",
+    "card_key": "351|70|1|sui|None,30|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

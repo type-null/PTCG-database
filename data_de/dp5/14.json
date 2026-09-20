@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp5-14",
+    "name": "Zapdos",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp5",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp5/symbol",
+    "set_full_name": "Majestätischer Morgen",
+    "series": "Diamant & Perl",
+    "set_code": "dp5",
+    "date": "2008-05-01",
+    "number": "14",
+    "set_total": 100,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "flavor_text": "Ein Legendäres Vogel-Pokémon, das in Gewitterwolken leben soll. Es kontrolliert Blitze.",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Flächenblitz",
+            "effect": "Einmal während deines Zuges kannst du, wenn du Zapdos von deiner Hand auf deine Bank legst, 1 Münze werfen. Bei „Kopf“ lege 1 Schadensmarke auf jedes Pokémon deines Gegners."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Tosender Donner",
+            "damage": 80,
+            "effect": "Dieser Angriff fügt 1 deiner Pokémon 40 Schadenspunkte zu, wende dabei Schwäche und Resistenz nicht an."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp5-14"
+        }
+    ],
+    "print_key": "tcgdex:dp5-14",
+    "card_key": "145|100|2|Mitsuhiro Arita|80|3",
+    "types_en": [
+        "Lightning"
+    ]
+}

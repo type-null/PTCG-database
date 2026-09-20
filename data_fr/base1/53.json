@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-53",
+    "name": "Magnéti",
+    "img": "https://assets.tcgdex.net/fr/base/base1/53/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "53",
+    "set_total": 102,
+    "rarity": "Commune",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 81,
+    "pokemon_category": "",
+    "flavor_text": "Il contrôle la gravité pour pouvoir voler. Il attaque avec des Cages-Éclair.",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Cage-Éclair",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Destruction",
+            "damage": 40,
+            "effect": "Inflige 10 dégâts à chaque Pokémon sur le Banc de chaque joueur. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon sur le Banc.) Magneti s'inflige 40 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-53"
+        }
+    ],
+    "print_key": "tcgdex:base1-53",
+    "card_key": "81|40|1|Keiji Kinebuchi|10,40|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

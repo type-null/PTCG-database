@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-13",
+    "name": "Tengulist",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "13",
+    "set_total": 120,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 275,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Unlicht"
+    ],
+    "abilities": [
+        {
+            "name": "Unglücksböen",
+            "effect": "Solange Tengulist dein Aktives Pokémon ist, wird jedes Mal, wenn dein Gegner in seinem Zug eine Münze wirft, das Ergebnis des Münzwurfs als „Zahl“ gezählt."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Anpasser",
+            "damage": 40,
+            "effect": "Wenn du die gleiche Anzahl Karten auf der Hand hast wie dein Gegner, ist das Verteidigende Pokémon jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Abriegeln",
+            "damage": 60,
+            "effect": "Das Verteidigende Pokémon kann im nächsten Zug deines Gegners keine Poké-Power oder Poké-Body benutzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Blanas",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-13"
+        }
+    ],
+    "print_key": "tcgdex:pl2-13",
+    "card_key": "275|130|1|Kagemaru Himeno|40,60|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

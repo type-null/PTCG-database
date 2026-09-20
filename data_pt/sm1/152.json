@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/sm1-152",
+    "name": "Espeon GX",
+    "img": "https://assets.tcgdex.net/pt/sm/sm1/152/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sol e Lua",
+    "series": "Sol e Lua",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "152",
+    "set_total": 163,
+    "rarity": "Rare Secreta",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 196,
+    "pokemon_category": "",
+    "hp": 200,
+    "types": [
+        "Psíquico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psíquico"
+            ],
+            "name": "Feixe Psíquico",
+            "damage": 30,
+            "effect": "O Pokémon Ativo do seu oponente agora está Confuso."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Psíquico",
+            "damage": "60+",
+            "effect": "Este ataque causa 30 pontos de dano a mais vezes a quantidade de Energia ligada ao Pokémon Ativo do seu oponente."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Partilha GX",
+            "damage": null,
+            "effect": "Coloque 10 contadores de dano nos Pokémon do seu oponente como desejar (você não pode usar mais de 1 ataque GX por partida)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/sm1-152"
+        }
+    ],
+    "print_key": "tcgdex:sm1-152",
+    "card_key": "196|200|1|5ban Graphics|30,60+,None|1,3,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

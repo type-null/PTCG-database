@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw5-17",
+    "name": "Lohgock",
+    "img": "https://assets.tcgdex.net/de/bw/bw5/17/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw5",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw5/symbol",
+    "set_full_name": "Erforscher der Finsternis",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw5",
+    "date": "2012-05-09",
+    "number": "17",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "TOKIYA"
+    ],
+    "pokedex_number": 257,
+    "pokemon_category": "",
+    "flavor_text": "Aus seinen Handgelenken kommt Feuer, das seine Knöchel umhüllt. Schläge verbrennen den Gegner.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Feuerfeger",
+            "damage": 40,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu. Bei „Zahl“ ist das Verteidigende Pokémon jetzt verbrannt."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Flammenwurf",
+            "damage": 130,
+            "effect": "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Jungglut",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw5-17"
+        }
+    ],
+    "print_key": "tcgdex:bw5-17",
+    "card_key": "257|140|2|TOKIYA|40,130|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-82",
+    "name": "Felino",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "82",
+    "set_total": 111,
+    "rarity": "Häufig",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 194,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon lebt in kaltem Wasser. Es verlässt das Wasser auf der Suche nach Futter nur dann, wenn es draußen kalt wird.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Amnesie",
+            "damage": null,
+            "effect": "Wähle einen der Angriffe des verteidigenden Pokémon. Dieses Pokémon kann diesen Angriff während des nächsten Zuges deines Gegners nicht verwenden."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Slam",
+            "damage": "20x",
+            "effect": "Wirf zwei Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-82"
+        }
+    ],
+    "print_key": "tcgdex:neo1-82",
+    "card_key": "194|50|1|Miki Tanaka|None,20x|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

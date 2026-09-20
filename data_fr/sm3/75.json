@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm3-75",
+    "name": "Lougaroc",
+    "img": "https://assets.tcgdex.net/fr/sm/sm3/75/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Ombres Ardentes",
+    "series": "Soleil et Lune",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "75",
+    "set_total": 169,
+    "rarity": "Rare",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 745,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Griffes Redoutables",
+            "damage": "30+",
+            "effect": "Si le Pokémon Actif de votre adversaire est un Pokémon de base, cette attaque inflige 30 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coinçage",
+            "damage": 90,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Rocabot",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm3-75"
+        }
+    ],
+    "print_key": "tcgdex:sm3-75",
+    "card_key": "745|110|2|Shin Nagasawa|30+,90|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

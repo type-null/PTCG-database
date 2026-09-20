@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv08-110",
+    "name": "Demeteros",
+    "img": "https://assets.tcgdex.net/de/sv/sv08/110/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "H",
+    "set_name": "sv08",
+    "set_full_name": "Stürmische Funken",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv08",
+    "date": "2024-11-08",
+    "number": "110",
+    "set_total": 252,
+    "rarity": "Selten",
+    "author": [
+        "Souichirou Gunjima"
+    ],
+    "pokedex_number": 645,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Fokus-Faust",
+            "damage": 30,
+            "effect": "Lege 1 Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Widerstandsbrecher",
+            "damage": 130,
+            "effect": "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv08-110"
+        }
+    ],
+    "print_key": "tcgdex:sv08-110",
+    "card_key": "645|130|2|Souichirou Gunjima|30,130|1,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

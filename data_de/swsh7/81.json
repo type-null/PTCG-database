@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh7-81",
+    "name": "Nockchan",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh7/81/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh7",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh7/symbol",
+    "set_full_name": "Drachenwandel",
+    "series": "Schwert & Schild",
+    "set_code": "swsh7",
+    "date": "2021-08-27",
+    "number": "81",
+    "set_total": 237,
+    "rarity": "Häufig",
+    "author": [
+        "Uta"
+    ],
+    "pokedex_number": 107,
+    "pokemon_category": "",
+    "flavor_text": "Seine Fäuste zerschneiden die Luft. Es muss jedoch alle drei Minuten eine kurze Pause einlegen.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Sauberer Treffer",
+            "damage": "20+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 50 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Geschossgerade",
+            "damage": 40,
+            "effect": "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh7-81"
+        }
+    ],
+    "print_key": "tcgdex:swsh7-81",
+    "card_key": "107|110|1|Uta|20+,40|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

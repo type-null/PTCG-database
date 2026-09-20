@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard1-92",
+    "name": "Carabaffe",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard1/92/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-cards",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "92",
+    "set_total": 165,
+    "rarity": "Peu Commune",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 8,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Torgnoles",
+            "damage": "10×",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau"
+            ],
+            "name": "Vague géante",
+            "damage": 40,
+            "effect": "Carabaffe ne peut pas attaquer pendant votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "evolve_from": "Carapuce",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard1-92"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-92",
+    "card_key": "8|80|1|Atsuko Nishida|10x,40|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

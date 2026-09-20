@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm7.5-49",
+    "name": "Zygarde",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm7.5",
+    "set_full_name": "Majesté Des Dragons",
+    "series": "Soleil et Lune",
+    "set_code": "sm7.5",
+    "date": "2018-09-07",
+    "number": "49",
+    "set_total": 78,
+    "rarity": "Peu Commune",
+    "author": [
+        "Misa Tsutsui"
+    ],
+    "pokedex_number": 718,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Dragon"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Bagarre",
+            "damage": 20,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Lame en Furie",
+            "damage": "60+",
+            "effect": "Si des marqueurs de dégâts sont placés sur ce Pokémon, cette attaque inflige 60 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fée"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm7.5-49"
+        }
+    ],
+    "print_key": "tcgdex:sm7.5-49",
+    "card_key": "718|130|3|Misa Tsutsui|20,60+|1,3",
+    "types_en": [
+        "Dragon"
+    ]
+}

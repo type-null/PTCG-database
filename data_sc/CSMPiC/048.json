@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/zh-cn/cards/CSMPiC-048",
+    "name": "超梦GX",
+    "img": "",
+    "card_type": "Pokemon",
+    "lang": "sc",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "CSMPiC",
+    "set_full_name": "对战派对组合 奖励包",
+    "series": "太阳&月亮",
+    "set_code": "CSMPiC",
+    "date": "2023-04-15",
+    "number": "048",
+    "set_total": 48,
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "stage": "Basic",
+    "hp": 190,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "全力爆发",
+            "damage": "30×",
+            "effect": "造成这只宝可梦身上所附能量的数量×30点伤害。"
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "超级吸收",
+            "damage": 60,
+            "effect": "恢复这只宝可梦的HP「30」点。"
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Psychic",
+                "Psychic"
+            ],
+            "name": "精神击破GX",
+            "damage": 200,
+            "effect": "这个招式的伤害不受对手战斗宝可梦身上的效果影响。【对战中，己方的GX招式只能使用1次。】"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psychic"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/zh-cn/cards/CSMPiC-048"
+        }
+    ],
+    "print_key": "asia:CSMPiC-48",
+    "card_key": "150|190|2|Mitsuhiro Arita|30x,60,200|1,2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

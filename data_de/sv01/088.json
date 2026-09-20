@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv01-088",
+    "name": "Banette-ex",
+    "img": "https://assets.tcgdex.net/de/sv/sv01/088/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Karmesin & Purpur",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "088",
+    "set_total": 258,
+    "rarity": "Doppelselten",
+    "author": [
+        "PLANETA Mochizuki"
+    ],
+    "pokedex_number": 354,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 250,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Ewige Finsternis",
+            "damage": 30,
+            "effect": "Dein Gegner kann während seines nächsten Zuges keine Itemkarten aus seiner Hand spielen."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Poltergeist",
+            "damage": "60×",
+            "effect": "Dein Gegner zeigt dir seine Handkarten. Diese Attacke fügt für jede Trainerkarte, die du dort findest, 60 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Shuppet",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv01-088"
+        }
+    ],
+    "print_key": "tcgdex:sv01-88",
+    "card_key": "354|250|2|PLANETA Mochizuki|30,60x|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

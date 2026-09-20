@@ -1,0 +1,61 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swshp-SWSH191",
+    "name": "Leafeon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "E",
+    "set_name": "swshp",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swshp/symbol",
+    "set_full_name": "Cartas de promoción ESES",
+    "series": "Espada y Escudo",
+    "set_code": "swshp",
+    "date": "2019-11-15",
+    "number": "SWSH191",
+    "set_total": 307,
+    "rarity": "Promo",
+    "pokedex_number": 470,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 110,
+    "types": [
+        "Planta"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Planta"
+            ],
+            "name": "Defensa Hoja",
+            "damage": 30,
+            "effect": "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia)."
+        },
+        {
+            "cost": [
+                "Planta",
+                "Incolora"
+            ],
+            "name": "Hierba Lazo",
+            "damage": "50+",
+            "effect": "Este ataque hace 30 puntos de daño más por cada {C} en el Coste de Retirada del Pokémon Activo de tu rival."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swshp-SWSH191"
+        }
+    ],
+    "print_key": "tcgdex:swshp-SWSH191",
+    "types_en": [
+        "Grass"
+    ]
+}

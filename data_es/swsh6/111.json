@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swsh6-111",
+    "name": "Aggron",
+    "img": "https://assets.tcgdex.net/es/swsh/swsh6/111/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "E",
+    "set_name": "swsh6",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh6/symbol",
+    "set_full_name": "Reinado Escalofriante",
+    "series": "Espada y Escudo",
+    "set_code": "swsh6",
+    "date": "2021-06-18",
+    "number": "111",
+    "set_total": 233,
+    "rarity": "Rara",
+    "author": [
+        "Teeziro"
+    ],
+    "pokedex_number": 306,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 180,
+    "types": [
+        "Metálica"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metálica",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Presión de Guardia",
+            "damage": 100,
+            "effect": "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia)."
+        },
+        {
+            "cost": [
+                "Metálica",
+                "Metálica",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Grieta Sísmica",
+            "damage": 240,
+            "effect": "Este ataque también hace 30 puntos de daño a cada uno de tus Pokémon. (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Planta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 4,
+    "evolve_from": "Lairon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swsh6-111"
+        }
+    ],
+    "print_key": "tcgdex:swsh6-111",
+    "card_key": "306|180|4|Teeziro|100,240|3,4",
+    "types_en": [
+        "Metal"
+    ]
+}

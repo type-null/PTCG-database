@@ -1,0 +1,85 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm3-21",
+    "name": "Ho-Oh GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm3/21/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Ombres Ardentes",
+    "series": "Soleil et Lune",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "21",
+    "set_total": 169,
+    "rarity": "Ultra Rare",
+    "author": [
+        "PLANETA"
+    ],
+    "pokedex_number": 250,
+    "pokemon_category": "",
+    "hp": 190,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Feu Sacré",
+            "damage": null,
+            "effect": "Cette attaque inflige 50 dégâts à l’un des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Éclat du Phénix",
+            "damage": 180,
+            "effect": "Ce Pokémon ne peut pas utiliser Éclat du Phénix pendant votre prochain tour."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Flamme Éternelle GX",
+            "damage": null,
+            "effect": "Ajoutez de votre pile de défausse à votre Banc une combinaison de 3 cartes choisies parmi des Pokémon-GX Fire et des Pokémon-EX Fire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm3-21"
+        }
+    ],
+    "print_key": "tcgdex:sm3-21",
+    "card_key": "250|190|2|PLANETA|None,180,None|3,4,3",
+    "types_en": [
+        "Fire"
+    ]
+}

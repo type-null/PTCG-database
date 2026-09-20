@@ -4,16 +4,16 @@
     Februray 18, 2025 by Weihang
 """
 
-import os
+import json
 import re
-import bs4
-import logging
-from tqdm import tqdm
 
+import paths
 from Card import Card
 from CardScraper import CardScraper
+from loguru import logger
+from tqdm import tqdm
 
-logger = logging.getLogger(__name__)
+SITE = "https://pocket.limitlesstcg.com"
 
 
 class CardScraperPocket(CardScraper):
@@ -32,6 +32,11 @@ class CardScraperPocket(CardScraper):
         "+": "+",
     }
 
+    def __init__(self, delay=None):
+        super().__init__(delay=delay)
+        #: set url -> (release date, number of cards), so one lookup per set
+        self._releases = {}
+
     img_to_rarity = {
         "◊": "1 diamond",
         "◊◊": "2 diamond",
@@ -49,21 +54,17 @@ class CardScraperPocket(CardScraper):
         logger.debug(f"img: {card.img}")
 
     def read_effect(self, text):
-        pattern = r"\[([A-Z0-9+])\]"
-        return re.sub(
-            r"\.(\S)",
-            r". \1",
-            re.sub(
-                pattern,
-                lambda m: (
-                    f" {{{self.letter_to_type[m.group(1)]}}} "
-                    if m.group(1) in self.letter_to_type
-                    and m.group(1) not in {"0", "+"}
-                    else m.group(0)
-                ),
-                text,
-            ),
-        )
+        """Card text with energy letters written out and spacing tidied."""
+
+        def energy(match):
+            letter = match.group(1)
+            if letter in self.letter_to_type and letter not in {"0", "+"}:
+                return f" {{{self.letter_to_type[letter]}}} "
+            return match.group(0)
+
+        text = re.sub(r"\[([A-Z0-9+])\]", energy, text)
+        text = re.sub(r"\.(\S)", r". \1", text)
+        return re.sub(r"\s+", " ", text).strip()
 
     def get_name_types_hp(self, card, page):
         texts = page.find("p", class_="card-text-title").get_text().split(" -")
@@ -86,8 +87,10 @@ class CardScraperPocket(CardScraper):
             logger.debug(f"hp: {card.hp}")
 
     def get_trainer_text(self, card, page):
+        # Joined with a space: the page puts part of the sentence in its own
+        # element, and stripping without a separator glues the words together.
         effect_text = self.read_effect(
-            page.find_all("div", class_="card-text-section")[1].get_text(strip=True)
+            page.find_all("div", class_="card-text-section")[1].get_text(" ", strip=True)
         )
         card.set_effect(effect_text.strip())
         logger.debug(f"effect: {card.effect}")
@@ -127,7 +130,7 @@ class CardScraperPocket(CardScraper):
             )
             ability_effect = self.read_effect(
                 ability_info.find("p", class_="card-text-ability-effect").get_text(
-                    strip=True
+                    " ", strip=True
                 )
             )
             card.add_ability(ability_name, ability_effect)
@@ -162,7 +165,7 @@ class CardScraperPocket(CardScraper):
 
             attack_effect = self.read_effect(
                 attack_info.find("p", class_="card-text-attack-effect").get_text(
-                    strip=True
+                    " ", strip=True
                 )
             )
 
@@ -201,6 +204,22 @@ class CardScraperPocket(CardScraper):
             card.set_author(author)
             logger.debug(f"author: {card.author}")
 
+    def get_set_release(self, set_url):
+        """Release date and card count of a set, read once per set."""
+        if set_url in self._releases:
+            return self._releases[set_url]
+
+        date, set_total = None, None
+        soup = self.get_soup(set_url)
+        line = soup.find("div", class_="infobox-line") if soup else None
+        if line:
+            release_info = line.get_text().strip().split("•")
+            if len(release_info) > 1:
+                date = release_info[0].strip()
+                set_total = int(release_info[1].strip().split()[0])
+        self._releases[set_url] = (date, set_total)
+        return date, set_total
+
     def get_set_info(self, card, page):
         set_name = page.find("span", class_="text-lg").get_text().split("(")[0].strip()
         set_code = page.find("img")["alt"]
@@ -211,16 +230,9 @@ class CardScraperPocket(CardScraper):
         logger.debug(f"set code: {card.set_code}")
         logger.debug(f"set img: {card.set_img}")
 
-        set_url = "https://pocket.limitlesstcg.com" + page.find("a")["href"]
-        content = self.get_content(set_url)
-        soup = bs4.BeautifulSoup(content, "html.parser")
-        release_info = (
-            soup.find("div", class_="infobox-line").get_text().strip().split("•")
-        )
-        set_total = None
-        if len(release_info) > 1:
-            date = release_info[0].strip()
-            set_total = int(release_info[1].strip().split()[0])
+        set_url = SITE + page.find("a")["href"]
+        date, set_total = self.get_set_release(set_url)
+        if date:
             card.set_set_date(date)
             logger.debug(f"set date: {card.date}")
 
@@ -234,8 +246,13 @@ class CardScraperPocket(CardScraper):
         pack = None
         for info in collector_info[1:]:
             clean_info = info.strip()
-            if clean_info in self.img_to_rarity.keys():
+            if clean_info in self.img_to_rarity:
                 rarity = self.img_to_rarity[clean_info]
+            elif set(clean_info) <= set("◊☆✵♦") and clean_info:
+                # An unseen symbol is still a rarity: keep it rather than
+                # mistaking it for a pack name.
+                rarity = clean_info
+                logger.warning(f"Unseen rarity symbol {clean_info!r} on {card.url}")
             else:
                 pack = clean_info.replace("  ", " ")
 
@@ -255,8 +272,10 @@ class CardScraperPocket(CardScraper):
         card.set_url(url)
         logger.debug(f"url: {card.url}")
 
-        content = self.get_content(card.url)
-        soup = bs4.BeautifulSoup(content, "html.parser")
+        soup = self.get_soup(card.url)
+        if soup is None:
+            logger.error(f"Could not fetch {url}")
+            return None
 
         self.get_img_url(card, soup)
 
@@ -278,81 +297,104 @@ class CardScraperPocket(CardScraper):
         del card
         return card_id
 
-    def scrape_set(self, set_code):
-        set_link = f"https://pocket.limitlesstcg.com/cards/{set_code}/"
-        content = self.get_content(set_link)
-        soup = bs4.BeautifulSoup(content, "html.parser")
-        cards = [
-            a["href"] for a in soup.find("div", class_="card-search-grid").find_all("a")
-        ]
+    def stored_card_urls(self):
+        """Every card url already saved under `data_pocket/`."""
+        urls = set()
+        for path in paths.data_dir("pocket").rglob("*.json"):
+            try:
+                urls.add(json.loads(path.read_text(encoding="utf-8")).get("url"))
+            except (ValueError, OSError):
+                logger.warning(f"Could not read {path}")
+        urls.discard(None)
+        return urls
 
-        for url_tail in tqdm(cards, desc=f"Downloading {set_code}"):
-            url = "https://pocket.limitlesstcg.com" + url_tail
-            card_id = self.read_card(url)
+    def set_card_links(self, set_code):
+        """Every card url listed in one set."""
+        soup = self.get_soup(f"{SITE}/cards/{set_code}/")
+        if soup is None:
+            logger.error(f"Could not open set {set_code}")
+            return []
+        grid = soup.find("div", class_="card-search-grid")
+        if grid is None:
+            logger.error(f"Set {set_code} has no card grid")
+            return []
+        return [SITE + a["href"] for a in grid.find_all("a") if a.get("href")]
 
-        self.save_list_to_file([set_code], "logs/scraped_pocket_set_list.txt")
-        logger.info(f"Scraped {len(cards)} cards from set: {set_code}.")
+    def scrape_set(self, set_code, skip_urls=frozenset()):
+        """Download the cards of one set that are not stored yet.
 
-        return card_id
-
-    def scrape_existed_set(self, set_code):
-        card_id = None
-        # specifically for Promo sets, needs to change for the next era
-        folder = "data_pocket/P-A/"
-        existed_cards = {
-            filename[:-5]
-            for filename in os.listdir(folder)
-            if filename.endswith(".json")
-        }
-
-        set_link = f"https://pocket.limitlesstcg.com/cards/{set_code}/"
-        content = self.get_content(set_link)
-        soup = bs4.BeautifulSoup(content, "html.parser")
-        cards = [
-            a["href"]
-            for a in soup.find("div", class_="card-search-grid").find_all("a")
-            if a["href"].split("P-A/")[1] not in existed_cards
-        ]
-
-        for url_tail in tqdm(cards, desc=f"Downloading {set_code}"):
-            url = "https://pocket.limitlesstcg.com" + url_tail
-            card_id = self.read_card(url)
-
-        self.save_list_to_file([set_code], "logs/scraped_pocket_set_list.txt")
-        logger.info(f"Scraped {len(cards)} cards from set: {set_code}.")
-
-        return card_id
-
-    def update(self):
+        Returns the last card id written and how many cards the set listed.
+        A set that lists nothing was unreachable, never empty.
         """
-        Download the newest set.
+        cards = self.set_card_links(set_code)
+        new_cards = [url for url in cards if url not in skip_urls]
 
+        card_id = None
+        for url in tqdm(new_cards, desc=f"Downloading {set_code}", leave=False, disable=None):
+            card_id = self.read_card_safely(url) or card_id
+
+        if cards:
+            self.save_list_to_file([set_code], "scraped_pocket_set_list.txt")
+        # How many were already on disk: "120 listed, 0 downloaded" otherwise
+        # reads the same whether every card is stored or none is.
+        held = len(cards) - len(new_cards)
+        logger.info(f"Set {set_code}: {len(cards)} cards listed, {held} stored, {len(new_cards)} downloaded.")
+        if cards and held == 0 and card_id is None:
+            logger.error(f"Set {set_code} lists {len(cards)} cards and none of them is stored")
+        return card_id, len(cards)
+
+    def list_sets(self):
+        """Every set the site publishes, oldest first."""
+        soup = self.get_soup(f"{SITE}/cards")
+        if soup is None:
+            logger.error("Could not open the set index")
+            return []
+        table = soup.find("table", class_="data-table sets-table striped")
+        if table is None:
+            logger.error("Set index has no set table")
+            return []
+        set_list = []
+        for a in table.find_all("a"):
+            code = a.get("href", "").split("cards/")[-1]
+            if code and code not in set_list:
+                set_list.append(code)
+        return set_list
+
+    def update(self, limit=None):
+        """Download every card that is listed but not stored yet.
+
+        Every set is re-checked, because promo sets keep growing after their
+        first release; cards already on disk are skipped by url.
         """
         logger.info("===== Updating started (pocket) =====")
-        downloaded_sets = self.get_downloaded_set_list(lang="pocket")
+        set_list = self.list_sets()
+        if not set_list:
+            logger.error("Could not list any set; aborting update.")
+            return
+        logger.info(f"Site lists {len(set_list)} sets.")
 
-        url = "https://pocket.limitlesstcg.com/cards"
-        content = self.get_content(url)
-        soup = bs4.BeautifulSoup(content, "html.parser")
-        set_list = []
-        for link in set(
-            a["href"]
-            for a in soup.find(
-                "table", class_="data-table sets-table striped"
-            ).find_all("a")
-        ):
-            set_list.append(link.split("cards/")[1])
+        stored = self.stored_card_urls()
+        logger.info(f"{len(stored)} cards already stored.")
+        if limit:
+            set_list = set_list[:limit]
 
-        scraped = 0
-        # need to update promo sets sometimes
-        for s in set_list:
-            if s not in downloaded_sets:
-                last_id = self.scrape_set(s)
-                self.upadte_readme(last_id, lang="pocket")
-                downloaded_sets.add(s)
-                scraped += 1
-            elif s == "P-A":
-                last_id = self.scrape_existed_set(s)
-                self.upadte_readme(last_id, lang="pocket")
-                scraped += 1
-        logger.info(f"Searched {len(set_list)} sets; downloaded {scraped} sets.")
+        last_id, failed = None, []
+        for set_code in tqdm(set_list, desc="Checking pocket sets", disable=None):
+            card_id, listed = self.scrape_set(set_code, skip_urls=stored)
+            last_id = card_id or last_id
+            if not listed:
+                failed.append(set_code)
+
+        # A set that would not list is usually a moment of throttling, so it
+        # is worth one more pass before the run gives up on it.
+        if failed:
+            logger.warning(f"Retrying {len(failed)} sets that did not list: {failed}")
+            for set_code in failed:
+                card_id, listed = self.scrape_set(set_code, skip_urls=stored)
+                last_id = card_id or last_id
+                if not listed:
+                    logger.error(f"Set {set_code} is still unreachable")
+
+        if last_id:
+            self.update_readme(last_id, lang="pocket")
+        logger.info(f"Checked {len(set_list)} sets.")

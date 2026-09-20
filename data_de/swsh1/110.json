@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh1-110",
+    "name": "Sanaconda",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh1/110/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Schwert & Schild",
+    "series": "Schwert & Schild",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "110",
+    "set_total": 216,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 844,
+    "pokemon_category": "",
+    "flavor_text": "Zieht es seinen ganzen Körper zusammen, kann es 100 kg Sand aus seinen Nasenlöchern feuern. Geht ihm der Sand aus, verliert es den Mut.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Sandbeutel",
+            "effect": "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Powerdruck",
+            "damage": "60+",
+            "effect": "Wenn an dieses Pokémon mindestens 1 extra {F}-Energie angelegt ist (zusätzlich zu den Kosten dieser Attacke), fügt diese Attacke 70 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Salanga",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh1-110"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-110",
+    "card_key": "844|130|2|nagimiso|60+|2",
+    "types_en": [
+        "Fighting"
+    ]
+}

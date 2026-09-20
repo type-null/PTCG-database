@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh2-139",
+    "name": "Zacian",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh2/139/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Clash der Rebellen",
+    "series": "Schwert & Schild",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "139",
+    "set_total": 209,
+    "rarity": "Selten",
+    "author": [
+        "Hideki Ishikawa"
+    ],
+    "pokedex_number": 888,
+    "pokemon_category": "",
+    "flavor_text": "Es trägt nun eine Waffe, die es vor langer Zeit einmal führte. Selbst Gigadynamax-Pokémon bezwingt es damit auf einen Streich.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Energiestrom",
+            "damage": 30,
+            "effect": "Lege 1 {M}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Schmetterklinge",
+            "damage": 120,
+            "effect": "Wirf 1 Münze. Lege bei Zahl 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh2-139"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-139",
+    "card_key": "888|120|2|Hideki Ishikawa|30,120|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

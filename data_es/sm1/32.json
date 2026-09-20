@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm1-32",
+    "name": "Poliwrath",
+    "img": "https://assets.tcgdex.net/es/sm/sm1/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sol y Luna",
+    "series": "Sol y Luna",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "32",
+    "set_total": 163,
+    "rarity": "Rara",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 62,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 150,
+    "types": [
+        "Agua"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Agua"
+            ],
+            "name": "Puño en Espiral Cortante",
+            "damage": 30,
+            "effect": "El Pokémon Activo de tu rival pasa a estar Confundido."
+        },
+        {
+            "cost": [
+                "Agua",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Espabila",
+            "damage": "80+",
+            "effect": "Si el Pokémon Activo de tu rival se ve afectado por una Condición Especial, este ataque hace 80 puntos de daño más. Después, elimina todas las Condiciones Especiales de ese Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm1-32"
+        }
+    ],
+    "print_key": "tcgdex:sm1-32",
+    "card_key": "62|150|3|Midori Harada|30,80+|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

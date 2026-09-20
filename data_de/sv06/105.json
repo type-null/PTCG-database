@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv06-105",
+    "name": "Meistagrif",
+    "img": "https://assets.tcgdex.net/de/sv/sv06/105/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "H",
+    "set_name": "sv06",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv06/symbol",
+    "set_full_name": "Maskerade im Zwielicht",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv06",
+    "date": "2024-05-24",
+    "number": "105",
+    "set_total": 226,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Takeshi Nakamura"
+    ],
+    "pokedex_number": 534,
+    "pokemon_category": "",
+    "flavor_text": "Anstatt sich auf seine Stärke zu verlassen, setzt es Attacken ein, bei denen es seine Betonpfeiler mithilfe der Zentrifugalkraft umherschwingt.",
+    "stage": "Rang 2",
+    "hp": 180,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Rappel",
+            "damage": 80,
+            "effect": "Dieses Pokémon ist jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Mutiger Schwung",
+            "damage": 250,
+            "effect": "Wenn dieses Pokémon von einem Speziellen Zustand betroffen ist, ignoriere alle Energien in den Kosten dieser Attacke."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Strepoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv06-105"
+        }
+    ],
+    "print_key": "tcgdex:sv06-105",
+    "card_key": "534|180|3|Takeshi Nakamura|80,250|1,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

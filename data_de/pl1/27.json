@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-27",
+    "name": "Giratina",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "27",
+    "set_total": 133,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 487,
+    "pokemon_category": "",
+    "flavor_text": "Ein PKMN, von dem man sagt, es lebt in der Spiegelwelt unserer Welt. Es erscheint auf alten Friedhöfen.",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Beharken",
+            "damage": 20,
+            "effect": "Du kannst Giratina gegen 1 Pokémon auf deiner Bank austauschen."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Raumzerfetzschlag",
+            "damage": 50,
+            "effect": "Wenn das Verteidigende Pokémon durch diesen Angriff kampfunfähig wird, legt dein Gegner dieses Pokémon und alle Karten, die an es angelegt sind, nicht auf den Ablagestapel, sondern ins Nirgendwo."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-27"
+        }
+    ],
+    "print_key": "tcgdex:pl1-27",
+    "card_key": "487|100|3|Mitsuhiro Arita|20,50|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

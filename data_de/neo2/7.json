@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo2-7",
+    "name": "Magnetilo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Entdeckung",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "7",
+    "set_total": 75,
+    "rarity": "Selten",
+    "pokedex_number": 81,
+    "pokemon_category": "",
+    "flavor_text": "Diese Pokémon mögen elektrische Ausstrahlung und folgen daher oft Leuten, die PokéGear verwenden.",
+    "stage": "Basis",
+    "hp": 40,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Zielschuss",
+            "damage": null,
+            "effect": "Wenn du in deinem nächsten Zug Magnetilos Blitzkanone-Angriff gegen das verteidigende Pokémon benutzt, behandle dabei alle Münzwürfe, die „Zahl“ ergeben, als ob sie „Kopf“ zeigen würden. (Kommt eins der beiden Pokémon auf die Bank oder entwickelt sich, endet diese Wirkung.)"
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Blitzkanone",
+            "damage": 50,
+            "effect": "Wirf zwei Münzen. Wenn beide „Kopf“ zeigen, ist das verteidigende Pokémon jetzt gelähmt. Wenn mindestens eine „Zahl“ zeigt, hat dieser Angriff keine Auswirkungen (noch nicht einmal Schaden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo2-7"
+        }
+    ],
+    "print_key": "tcgdex:neo2-7",
+    "types_en": [
+        "Metal"
+    ]
+}

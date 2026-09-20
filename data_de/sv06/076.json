@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv06-076",
+    "name": "Voltrean",
+    "img": "https://assets.tcgdex.net/de/sv/sv06/076/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "H",
+    "set_name": "sv06",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv06/symbol",
+    "set_full_name": "Maskerade im Zwielicht",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv06",
+    "date": "2024-05-24",
+    "number": "076",
+    "set_total": 226,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 941,
+    "pokemon_category": "",
+    "flavor_text": "Mit den Flügeln erzeugt es Strom, den es in seinem Kehlsack speichert. Da sein Gefieder kaum Öl enthält, kann es nicht gut schwimmen.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Windenergie tanken",
+            "damage": 10,
+            "effect": "Während deines nächsten Zuges fügen die von diesem Pokémon eingesetzten Attacken dem Aktiven Pokémon deines Gegners 120 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Voltkraft",
+            "damage": 100,
+            "effect": "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Voltrel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv06-076"
+        }
+    ],
+    "print_key": "tcgdex:sv06-76",
+    "card_key": "941|120|1|Anesaki Dynamic|10,100|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

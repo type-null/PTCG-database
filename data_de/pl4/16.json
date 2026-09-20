@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl4-16",
+    "name": "Gengar",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl4",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl4/symbol",
+    "set_full_name": "Arceus",
+    "series": "Platin",
+    "set_code": "pl4",
+    "date": "2009-11-04",
+    "number": "16",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 94,
+    "pokemon_category": "",
+    "flavor_text": "Der heimtückische Blick im Dunkel gehört einem GENGAR, das sich freut, Flüche auszustoßen.",
+    "stage": "Rang 2",
+    "hp": 110,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Fluch",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Schadensmarke von 1 Pokémon deines Gegners entfernen und auf 1 anderes Pokémon deines Gegners legen. Diese Poké-Power kann nicht benutzt werden, wenn Gengar von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Schattensprung",
+            "damage": 60,
+            "effect": "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Du kannst Gengar gegen 1 Pokémon auf deiner Bank austauschen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Alpollo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl4-16"
+        }
+    ],
+    "print_key": "tcgdex:pl4-16",
+    "card_key": "94|110|0|Midori Harada|60|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

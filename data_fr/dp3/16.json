@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp3-16",
+    "name": "Raikou",
+    "img": "https://assets.tcgdex.net/fr/dp/dp3/16/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Merveilles Secrètes",
+    "series": "Diamant & Perle",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "16",
+    "set_total": 132,
+    "rarity": "Rare Holo",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 243,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Roulement de tonnerre",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), lorsque vous attachez une carte Énergie Lightning de votre main à Raikou, vous pouvez placer 1 marqueur de dégât sur 1 des Pokémon de Banc de votre adversaire."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Tonnerre grimpant",
+            "damage": "50+",
+            "effect": "Défaussez 3 cartes du dessus de votre deck. Cette attaque inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie Lightning défaussée. Ensuite, attachez ces cartes Énergie Lightning à 1 de vos Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp3-16"
+        }
+    ],
+    "print_key": "tcgdex:dp3-16",
+    "card_key": "243|80|2|Ryo Ueda|50+|3",
+    "types_en": [
+        "Lightning"
+    ]
+}

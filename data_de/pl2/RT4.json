@@ -1,0 +1,77 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-RT4",
+    "name": "Schneid-Rotom",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "RT4",
+    "set_total": 120,
+    "rarity": "Selten",
+    "author": [
+        "Yusuke Ohmura"
+    ],
+    "pokedex_number": 479,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Schneid-Wechsel",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power benutzen. Schneid-Rotoms Typ ist {G} bis zum Ende des Zuges."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schlitzer",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Niedermähen",
+            "damage": 50,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ entferne 1 Energiekarte von jedem Pokémon deines Gegners und lege sie auf seinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-RT4"
+        }
+    ],
+    "print_key": "tcgdex:pl2-RT4",
+    "card_key": "479|90|2|Yusuke Ohmura|20,50|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

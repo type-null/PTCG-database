@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-63",
+    "name": "Arbok",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/63/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "63",
+    "set_total": 234,
+    "rarity": "Selten",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 24,
+    "pokemon_category": "",
+    "flavor_text": "Jüngsten Forschungsergebnissen zufolge gibt es mehr als 20 verschiedene Musterungen, die Arboks Bauch aufweisen kann.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Wickel",
+            "damage": 30,
+            "effect": "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Würger",
+            "damage": "50+",
+            "effect": "Wenn dieses Pokémon während deines letzten Zuges Wickel eingesetzt hat, fügt diese Attacke 120 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Rettan",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-63"
+        }
+    ],
+    "print_key": "tcgdex:sm10-63",
+    "card_key": "24|120|2|Yukiko Baba|30,50+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

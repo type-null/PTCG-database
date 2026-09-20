@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-104",
+    "name": "Krabbox",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/104/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "104",
+    "set_total": 234,
+    "rarity": "Häufig",
+    "author": [
+        "Akira Komayama"
+    ],
+    "pokedex_number": 739,
+    "pokemon_category": "",
+    "flavor_text": "Seine harten Scheren eignen sich sowohl für offensive als auch defensive Techniken. Kämpfe zwischen zwei Krabbox ähneln Boxkämpfen.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Korkenzieherhieb",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Knöchelbomber",
+            "damage": "30+",
+            "effect": "Wenn du mehr verbleibende Preiskarten hast als dein Gegner, fügt diese Attacke 60 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-104"
+        }
+    ],
+    "print_key": "tcgdex:sm10-104",
+    "card_key": "739|80|2|Akira Komayama|20,30+|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

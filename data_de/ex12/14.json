@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex12-14",
+    "name": "Wailord",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Legend Maker",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "14",
+    "set_total": 93,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 321,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Reaktiver Transporter",
+            "effect": "Solange an Wailord mindestens eine Reaktions-Energiekarte angelegt ist, sind die Rückzugskosten deiner {W}-Pokémon (außer Pokémon-ex) 0."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Hypnospritzer",
+            "damage": 40,
+            "effect": "Das Verteidigende Pokémon schläft jetzt."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Auf Freunde verlassen",
+            "damage": "40+",
+            "effect": "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jedes entwickelte Pokémon der Phase 1 auf deiner Bank zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Wailmer",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex12-14"
+        }
+    ],
+    "print_key": "tcgdex:ex12-14",
+    "card_key": "321|120|4|Kouki Saitou|40,40+|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

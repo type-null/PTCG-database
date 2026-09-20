@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base5-30",
+    "name": "Rafflesia obscur",
+    "img": "https://assets.tcgdex.net/fr/base/base5/30/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Base",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "30",
+    "set_total": 83,
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 45,
+    "pokemon_category": "",
+    "flavor_text": "Les autres Pokémon restent à l'écart des endroits où vivent les Rafflesia, peut être en raison du fort parfum de leur pollen.",
+    "stage": "Niveau 2",
+    "hp": 60,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Rhume des foins",
+            "effect": "Aucune carte Dresseur ne peut être jouée. Ce pouvoir cesse de fonctionner lorsque Rafflesia obscur est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Plante"
+            ],
+            "name": "Tourbillon de pétales",
+            "damage": "30x",
+            "effect": "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces. Si vous obtenez 2 faces ou plus, Rafflesia obscur est maintenant Confus (après application des dégâts)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Ortide obscur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base5-30"
+        }
+    ],
+    "print_key": "tcgdex:base5-30",
+    "card_key": "45|60|2|Kagemaru Himeno|30x|3",
+    "types_en": [
+        "Grass"
+    ]
+}

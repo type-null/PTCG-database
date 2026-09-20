@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo2-32",
+    "name": "Nachtara",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Entdeckung",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "32",
+    "set_total": 75,
+    "rarity": "Selten",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 197,
+    "pokemon_category": "",
+    "flavor_text": "Wenn es beunruhigt ist, schützt es sich, indem es Giftschweiß aus seinem Körper ausströmt.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Ruckzuckhieb",
+            "damage": "10+",
+            "effect": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 10 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Verfolgung",
+            "damage": 30,
+            "effect": "Wenn während des nächsten Zugs deines Gegners das verteidigende Pokémon versucht, sich zurückzuziehen, fügt ihm 10 Schadenspunkte zu. (Wende Schwäche und Resistenz nicht an.)"
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo2-32"
+        }
+    ],
+    "print_key": "tcgdex:neo2-32",
+    "card_key": "197|70|1|Naoyo Kimura|10+,30|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

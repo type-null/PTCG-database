@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp6-62",
+    "name": "Luxio",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Erwachte Legenden",
+    "series": "Diamant & Perl",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "62",
+    "set_total": 146,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 404,
+    "pokemon_category": "",
+    "flavor_text": "Seine Krallen geben Elektrizität ab, die stark genug ist, jemanden bewusstlos zu machen.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Funkensprung",
+            "damage": 30,
+            "effect": "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Donnerklaue",
+            "damage": 70,
+            "effect": "Wirf 1 Münze. Bei „Zahl“ entferne alle {L}-Energien, die an Luxio angelegt sind, und lege sie auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Sheinux",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp6-62"
+        }
+    ],
+    "print_key": "tcgdex:dp6-62",
+    "card_key": "404|80|1|Naoyo Kimura|30,70|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

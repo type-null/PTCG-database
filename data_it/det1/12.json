@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/det1-12",
+    "name": "Mewtwo",
+    "img": "https://assets.tcgdex.net/it/sm/det1/12/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "det1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/det1/symbol",
+    "set_full_name": "Detective Pikachu",
+    "series": "Sole e Luna",
+    "set_code": "det1",
+    "date": "2019-03-29",
+    "number": "12",
+    "set_total": 18,
+    "rarity": "Ultrarara",
+    "author": [
+        "MPC Film"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psico",
+                "Incolore"
+            ],
+            "name": "Sequestro Psichico",
+            "damage": 30,
+            "effect": "Scegli un attacco del Pokémon attivo del tuo avversario. Durante il prossimo turno del tuo avversario, quel Pokémon non potrà utilizzarlo."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Psico",
+                "Incolore"
+            ],
+            "name": "Sconfitta Cocente",
+            "damage": 130,
+            "effect": "Scarta due Energie Psychic assegnate a questo Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/det1-12"
+        }
+    ],
+    "print_key": "tcgdex:det1-12",
+    "card_key": "150|130|2|MPC Film|30,130|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/basep-4",
+    "name": "Pikachu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "basep",
+    "set_img": "https://assets.tcgdex.net/univ/base/basep/symbol",
+    "set_full_name": "Wizards Black Star Promos",
+    "series": "Grund",
+    "set_code": "basep",
+    "date": "1999-07-01",
+    "number": "4",
+    "set_total": 53,
+    "rarity": "Häufig",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "flavor_text": "Wenn sich mehrere dieser Pokémon versammeln, ziehen sie so viel Elektrizität an, dass dadurch ein Blitzeinschlag verursacht wird.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Wieder aufladen",
+            "damage": null,
+            "effect": "Suche in Deinem Kartenstapel nach einer {L} Energiekarte und füge sie an Pikachu. Danach mische Deine Spielkarten."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Donnerblitz",
+            "damage": 50,
+            "effect": "Lege alle Pikachu zugeteilten Energiekarten ab, um diesen Angriff durchzuführen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/basep-4"
+        }
+    ],
+    "print_key": "tcgdex:basep-4",
+    "card_key": "25|50|1|Ken Sugimori|None,50|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

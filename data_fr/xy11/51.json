@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy11-51",
+    "name": "Hoopa",
+    "img": "https://assets.tcgdex.net/fr/xy/xy11/51/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Offensive Vapeur",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "51",
+    "set_total": 116,
+    "rarity": "Rare",
+    "author": [
+        "Yoshinobu Saito"
+    ],
+    "pokedex_number": 720,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Poing Hyperespace",
+            "damage": null,
+            "effect": "Cette attaque inflige 20 dégâts à 2 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Psy"
+            ],
+            "name": "Frappe Dimensionnelle",
+            "damage": 130,
+            "effect": "Ce Pokémon ne peut pas utiliser Frappe Dimensionnelle pendant votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy11-51"
+        }
+    ],
+    "print_key": "tcgdex:xy11-51",
+    "card_key": "720|130|2|Yoshinobu Saito|None,130|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

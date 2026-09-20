@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-218",
+    "name": "Turtok GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/218/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "218",
+    "set_total": 234,
+    "rarity": "Versteckt Selten",
+    "author": [
+        "sadaji"
+    ],
+    "pokedex_number": 9,
+    "pokemon_category": "",
+    "hp": 240,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Solider Panzer",
+            "effect": "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Raketenplatscher",
+            "damage": "60×",
+            "effect": "Mische beliebig viele {W}-Energien von deinen Pokémon in dein Deck. Diese Attacke fügt 60 Schadenspunkte mal der Anzahl der auf diese Weise in dein Deck gemischten Karten zu."
+        },
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Riesengeysir-GX",
+            "damage": null,
+            "effect": "Lege beliebig viele {W}-Energiekarten aus deiner Hand beliebig an deine Pokémon an. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Schillok",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-218"
+        }
+    ],
+    "print_key": "tcgdex:sm10-218",
+    "card_key": "9|240|3|sadaji|60x,None|2,1",
+    "types_en": [
+        "Water"
+    ]
+}

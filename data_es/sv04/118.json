@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sv04-118",
+    "name": "Yveltal",
+    "img": "https://assets.tcgdex.net/es/sv/sv04/118/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "G",
+    "set_name": "sv04",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04/symbol",
+    "set_full_name": "Brecha Paradójica",
+    "series": "Escarlata y Púrpura",
+    "set_code": "sv04",
+    "date": "2023-11-03",
+    "number": "118",
+    "set_total": 266,
+    "rarity": "Rara",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 717,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 130,
+    "types": [
+        "Oscura"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Atajar",
+            "damage": "30+",
+            "effect": "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 60 puntos de daño más."
+        },
+        {
+            "cost": [
+                "Oscura",
+                "Oscura",
+                "Incolora"
+            ],
+            "name": "Filo Siniestro",
+            "damage": 120,
+            "effect": "Descarta 1 Energía de este Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Rayo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sv04-118"
+        }
+    ],
+    "print_key": "tcgdex:sv04-118",
+    "card_key": "717|130|2|kawayoo|30+,120|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

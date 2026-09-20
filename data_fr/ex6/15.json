@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex6-15",
+    "name": "Ronflex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex6/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex6",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex6/symbol",
+    "set_full_name": "EX Rouge Feu & Vert Feuille",
+    "series": "EX",
+    "set_code": "ex6",
+    "date": "2004-09-01",
+    "number": "15",
+    "set_total": 116,
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 143,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Repos",
+            "effect": "Si Ronflex reste Endormi entre deux tours, retirez-lui 2 marqueurs de dégât (ou un s'il n'y en a qu'un)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Effondrement",
+            "damage": 10,
+            "effect": "Ronflex est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Retournement",
+            "damage": "30+",
+            "effect": "Si Ronflex est Endormi, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires. (Cette attaque peut être utilisée même si Ronflex est Endormi.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex6-15"
+        }
+    ],
+    "print_key": "tcgdex:ex6-15",
+    "card_key": "143|90|3|Kagemaru Himeno|10,30+|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

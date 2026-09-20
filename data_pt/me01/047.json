@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/me01-047",
+    "name": "Magnezone",
+    "img": "https://assets.tcgdex.net/pt/me/me01/047/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "regulation": "I",
+    "set_name": "me01",
+    "set_img": "https://assets.tcgdex.net/univ/me/me01/symbol",
+    "set_full_name": "Megaevolução",
+    "series": "Megaevolução",
+    "set_code": "me01",
+    "date": "2025-09-26",
+    "number": "047",
+    "set_total": 188,
+    "rarity": "Incomum",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 462,
+    "pokemon_category": "",
+    "stage": "Estágio 2",
+    "hp": 160,
+    "types": [
+        "Elétrico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elétrico"
+            ],
+            "name": "Centelha Superior",
+            "damage": "50+",
+            "effect": "Se este Pokémon evoluiu de Magneton durante este turno, este ataque causará 120 pontos de dano a mais."
+        },
+        {
+            "cost": [
+                "Elétrico",
+                "Elétrico"
+            ],
+            "name": "Raio Piscante",
+            "damage": 160,
+            "effect": "Durante o seu próximo turno, este Pokémon não poderá usar Raio Piscante."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lutador"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Magneton",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/me01-047"
+        }
+    ],
+    "print_key": "tcgdex:me01-47",
+    "card_key": "462|160|3|nagimiso|50+,160|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

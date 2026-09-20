@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-59",
+    "name": "Galopa",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "59",
+    "set_total": 130,
+    "rarity": "Peu Commune",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 78,
+    "pokemon_category": "",
+    "flavor_text": "Son galop dépasse les 240 km/h. Il file comme une flèche, laissant flotter sa crinière ardente.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Dépassement",
+            "damage": 20,
+            "effect": "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "S'embraser",
+            "damage": 50,
+            "effect": "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Galopa et cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+20"
+    },
+    "evolve_from": "Ponyta",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-59"
+        }
+    ],
+    "print_key": "tcgdex:dp1-59",
+    "card_key": "78|80|None|Naoyo Kimura|20,50|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

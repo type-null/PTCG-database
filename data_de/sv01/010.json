@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv01-010",
+    "name": "Vivillon",
+    "img": "https://assets.tcgdex.net/de/sv/sv01/010/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Karmesin & Purpur",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "010",
+    "set_total": 258,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 666,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon erblickte in Landen mit blühenden Blumen das Licht der Welt. Im Kampf verstreut es bunten, giftigen Flügelstaub.",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Wunderstaub",
+            "damage": 50,
+            "effect": "Wirf 1 Münze. Wähle bei Kopf 1 Speziellen Zustand. Das Aktive Pokémon deines Gegners ist jetzt von jenem Speziellen Zustand betroffen."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Käfergebrumm",
+            "damage": 110,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Puponcho",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv01-010"
+        }
+    ],
+    "print_key": "tcgdex:sv01-10",
+    "card_key": "666|120|1|Atsuko Nishida|50,110|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

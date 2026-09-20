@@ -1,0 +1,77 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard2-H32",
+    "name": "Zapdos",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-Card",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "H32",
+    "set_total": 186,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Anti-Blitz",
+            "effect": "Du kannst keine {L}-Energiekarten aus deiner Hand an Zapdos anlegen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Plasma",
+            "damage": 10,
+            "effect": "Wenn mindestens eine {L}-Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei „Kopf“ 1 davon an Zapdos an."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Blitzsturm",
+            "damage": 60,
+            "effect": "Wirf eine Münze. Lege bei „Zahl“ 2 Schadensmarken auf Zapdos."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard2-H32"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-H32",
+    "card_key": "145|80|2|Hajime Kusajima|10,60|1,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

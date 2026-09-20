@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm9-19",
+    "name": "Lavados",
+    "img": "https://assets.tcgdex.net/de/sm/sm9/19/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm9",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm9/symbol",
+    "set_full_name": "Teams Sind Trumpf",
+    "series": "Sonne & Mond",
+    "set_code": "sm9",
+    "date": "2019-01-31",
+    "number": "19",
+    "set_total": 196,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 146,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon ist der Legendäre Feuervogel. Sein Flügelschlag entfacht ein helles Feuermeer.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Top-Burner",
+            "damage": null,
+            "effect": "Lege alle {R}-Energien von diesem Pokémon auf deinen Ablagestapel. Lege anschließend für jede auf diese Weise auf deinen Ablagestapel gelegte Energie 1 Karte vom Deck deines Gegners auf seinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Feuerwirbel",
+            "damage": 180,
+            "effect": "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm9-19"
+        }
+    ],
+    "print_key": "tcgdex:sm9-19",
+    "card_key": "146|120|2|Shin Nagasawa|None,180|1,4",
+    "types_en": [
+        "Fire"
+    ]
+}

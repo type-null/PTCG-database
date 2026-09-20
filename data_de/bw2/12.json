@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw2-12",
+    "name": "Elfun",
+    "img": "https://assets.tcgdex.net/de/bw/bw2/12/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw2",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw2/symbol",
+    "set_full_name": "Aufstreben der Mächtigen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw2",
+    "date": "2011-08-31",
+    "number": "12",
+    "set_total": 98,
+    "rarity": "Selten",
+    "author": [
+        "Mizue"
+    ],
+    "pokedex_number": 547,
+    "pokemon_category": "",
+    "flavor_text": "Es kommt auf Sturmböen geritten und dringt durch kleine Spalten in Häuser ein, um dort Schabernack zu treiben.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Zugabe",
+            "damage": 20,
+            "effect": "Wähle 1 Angriff des Verteidigenden Pokémon. Dieses Pokémon kann während des nächsten Zuges deines Gegners nur den gewählten Angriff einsetzen."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Kehrtwende",
+            "damage": 40,
+            "effect": "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Waumboll",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw2-12"
+        }
+    ],
+    "print_key": "tcgdex:bw2-12",
+    "card_key": "547|80|1|Mizue|20,40|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

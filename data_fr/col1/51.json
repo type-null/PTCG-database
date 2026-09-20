@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/col1-51",
+    "name": "Séviper",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "L'appel des Légendes",
+    "series": "L'appel des Légendes",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "51",
+    "set_total": 106,
+    "rarity": "Peu Commune",
+    "author": [
+        "Wataru Kawahara"
+    ],
+    "pokedex_number": 336,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Empoisonnement",
+            "damage": null,
+            "effect": "Seviper est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Effets du poison",
+            "damage": "20+",
+            "effect": "Si Seviper est Empoisonné, cette attaque inflige 20 dégâts plus 60 dégâts supplémentaires. Retirez ensuite l’État Spécial Empoisonné de Seviper."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/col1-51"
+        }
+    ],
+    "print_key": "tcgdex:col1-51",
+    "card_key": "336|90|2|Wataru Kawahara|None,20+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

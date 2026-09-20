@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swsh2-120",
+    "name": "Mandibuzz",
+    "img": "https://assets.tcgdex.net/es/swsh/swsh2/120/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Choque Rebelde",
+    "series": "Espada y Escudo",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "120",
+    "set_total": 209,
+    "rarity": "Rara",
+    "author": [
+        "kodama"
+    ],
+    "pokedex_number": 630,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 120,
+    "types": [
+        "Oscura"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Oscura"
+            ],
+            "name": "Ataque Óseo",
+            "damage": "30×",
+            "effect": "Lanza 1 moneda hasta que salga cruz. Este ataque hace 30 puntos de daño por cada cara."
+        },
+        {
+            "cost": [
+                "Oscura",
+                "Oscura"
+            ],
+            "name": "Lado Ciego",
+            "damage": null,
+            "effect": "Este ataque hace 100 puntos de daño a 1 de los Pokémon de tu rival que tenga algún contador de daño sobre él. (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Rayo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Vullaby",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swsh2-120"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-120",
+    "card_key": "630|120|2|kodama|30x,None|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

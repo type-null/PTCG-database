@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-12",
+    "name": "Feunard",
+    "img": "https://assets.tcgdex.net/fr/base/base1/12/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "12",
+    "set_total": 102,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 38,
+    "pokemon_category": "",
+    "flavor_text": "Très intelligent et rancunier. Attrapez-lui une de ses queues et il vous maudira pour 1000 ans.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Leurre",
+            "damage": null,
+            "effect": "Si votre adversaire a des Pokémon sur le Banc, choisissez 1 d'entre eux et échangez-le avec le Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Feu",
+                "Feu"
+            ],
+            "name": "Déflagration",
+            "damage": 80,
+            "effect": "Défaussez 1 carte Énergie {R} attachée à Feunard pour pouvoir utiliser cette attaque."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Goupix",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-12"
+        }
+    ],
+    "print_key": "tcgdex:base1-12",
+    "card_key": "38|80|1|Ken Sugimori|None,80|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

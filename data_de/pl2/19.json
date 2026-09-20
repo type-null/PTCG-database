@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-19",
+    "name": "Flamara",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "19",
+    "set_total": 120,
+    "rarity": "Selten",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 136,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "Unentwickelt",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du Flamara rückentwickeln und Flamara auf deine Hand nehmen. Diese Poké-Power kann nicht benutzt werden, wenn Flamara von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Schweifschlag",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Fackel-Entwicklung",
+            "damage": "40+",
+            "effect": "Wenn Flamara sich in diesem Zug aus Evoli entwickelt hat, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt verbrannt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-19"
+        }
+    ],
+    "print_key": "tcgdex:pl2-19",
+    "card_key": "136|80|1|Midori Harada|30,40+|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

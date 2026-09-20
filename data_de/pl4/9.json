@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl4-9",
+    "name": "Schlukwech",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl4",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl4/symbol",
+    "set_full_name": "Arceus",
+    "series": "Platin",
+    "set_code": "pl4",
+    "date": "2009-11-04",
+    "number": "9",
+    "set_total": 111,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Aya Kusube"
+    ],
+    "pokedex_number": 317,
+    "pokemon_category": "",
+    "flavor_text": "Es verschluckt alles in einem Stück und sondert giftige Stoffe ab, mit denen es Gegner besprüht.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Schadenswalze",
+            "damage": null,
+            "effect": "Lege so viele Schadensmarken auf das Verteidigende Pokémon, bis das Verteidigende Pokémon gleich viel verbliebene KP hat wie Schlukwech. (Wenn das Verteidigende Pokémon nicht mehr verbliebene KP hat als Schlukwech, hat dieser Angriff keine Auswirkungen.)"
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Einschnürtackle",
+            "damage": "50+",
+            "effect": "Du kannst mit diesem Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zufügen. Wenn du das machst, fügt dieser Angriff 1 deiner Pokémon 30 Schadenspunkte zu, wende dabei Schwäche und Resistenz nicht an."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "retreat": 3,
+    "evolve_from": "Schluppuck",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl4-9"
+        }
+    ],
+    "print_key": "tcgdex:pl4-9",
+    "card_key": "317|100|3|Aya Kusube|None,50+|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

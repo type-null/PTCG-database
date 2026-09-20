@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm12-256",
+    "name": "Flygon GX",
+    "img": "https://assets.tcgdex.net/es/sm/sm12/256/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm12",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm12/symbol",
+    "set_full_name": "Eclipse Cósmico",
+    "series": "Sol y Luna",
+    "set_code": "sm12",
+    "date": "2019-11-01",
+    "number": "256",
+    "set_total": 271,
+    "rarity": "Rara Secreta",
+    "author": [
+        "PLANETA Tsuji"
+    ],
+    "pokedex_number": 330,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 240,
+    "types": [
+        "Lucha"
+    ],
+    "abilities": [
+        {
+            "name": "Defensa Polvorienta",
+            "effect": "Mientras este Pokémon sea tu Pokémon Activo, los ataques de tu rival hacen 30 puntos de daño menos a todos tus Pokémon (después de aplicar Debilidad y Resistencia)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lucha",
+                "Lucha",
+                "Lucha"
+            ],
+            "name": "Huracán del Desierto",
+            "damage": "120+",
+            "effect": "Si hay alguna carta de Estadio en juego, este ataque hace 120 puntos de daño más. Después, descarta esa carta de Estadio."
+        },
+        {
+            "cost": [
+                "Lucha",
+                "Lucha",
+                "Lucha"
+            ],
+            "name": "Tajo Sónico GX",
+            "damage": 220,
+            "effect": "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival. (No puedes usar más de 1 ataque GX en una partida)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm12-256"
+        }
+    ],
+    "print_key": "tcgdex:sm12-256",
+    "card_key": "330|240|2|PLANETA Tsuji|120+,220|3,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

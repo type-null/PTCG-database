@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pop9-4",
+    "name": "Regigigas",
+    "img": "https://assets.tcgdex.net/fr/pop/pop9/4/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pop9",
+    "set_img": "https://assets.tcgdex.net/univ/pop/pop9/symbol",
+    "set_full_name": "POP Série 9",
+    "series": "POP",
+    "set_code": "pop9",
+    "date": "2009-03-01",
+    "number": "4",
+    "set_total": 17,
+    "rarity": "Rare",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 486,
+    "pokemon_category": "",
+    "flavor_text": "Une légende tenace veut que ce Pokémon ait traîné les continents en les attachant à des cordes.",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Plaquage",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Double écrasement",
+            "damage": "50+",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "x2"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pop9-4"
+        }
+    ],
+    "print_key": "tcgdex:pop9-4",
+    "card_key": "486|100|4|Kent Kanetsuna|20,50+|3,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

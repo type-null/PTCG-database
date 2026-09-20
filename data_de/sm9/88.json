@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm9-88",
+    "name": "Absol",
+    "img": "https://assets.tcgdex.net/de/sm/sm9/88/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm9",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm9/symbol",
+    "set_full_name": "Teams Sind Trumpf",
+    "series": "Sonne & Mond",
+    "set_code": "sm9",
+    "date": "2019-01-31",
+    "number": "88",
+    "set_total": 196,
+    "rarity": "Selten",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 359,
+    "pokemon_category": "",
+    "flavor_text": "Es heißt, Absol sei ein Unheilsbote, doch in Wahrheit hat es ein sanftes Wesen. Es warnt die Menschen vor drohenden Katastrophen.",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Unlicht"
+    ],
+    "abilities": [
+        {
+            "name": "Finsteres Streben",
+            "effect": "Wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist, erhöhen sich dessen Rückzugskosten um {C}."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schattensucher",
+            "damage": "30+",
+            "effect": "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm9-88"
+        }
+    ],
+    "print_key": "tcgdex:sm9-88",
+    "card_key": "359|100|1|nagimiso|30+|3",
+    "types_en": [
+        "Darkness"
+    ]
+}

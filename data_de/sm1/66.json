@@ -1,0 +1,82 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm1-66",
+    "name": "Lunala GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm1/66/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sonne & Mond",
+    "series": "Sonne & Mond",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "66",
+    "set_total": 172,
+    "rarity": "Ultra Selten",
+    "author": [
+        "PLANETA"
+    ],
+    "pokedex_number": 792,
+    "pokemon_category": "",
+    "hp": 250,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Psychotransfer",
+            "effect": "Beliebig oft während deines Zuges (bevor du angreifst) kannst du 1 {P}-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Schattenstrahl",
+            "damage": 120,
+            "effect": "Das Verteidigende Pokémon kann während des nächsten Zuges deines Gegners nicht geheilt werden."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Lunarfall GX",
+            "damage": null,
+            "effect": "Mache 1 Basis-Pokémon deines Gegners, das kein Pokémon-GX ist, kampfunfähig. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Cosmovum",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm1-66"
+        }
+    ],
+    "print_key": "tcgdex:sm1-66",
+    "card_key": "792|250|2|PLANETA|120,None|4,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy5-84",
+    "name": "Groudon",
+    "img": "https://assets.tcgdex.net/de/xy/xy5/84/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Protoshock",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "84",
+    "set_total": 164,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 383,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Zertrümmerer",
+            "damage": "20+",
+            "effect": "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Boden gewinnen",
+            "damage": 100,
+            "effect": "Dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy5-84"
+        }
+    ],
+    "print_key": "tcgdex:xy5-84",
+    "card_key": "383|130|4|Mitsuhiro Arita|20+,100|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

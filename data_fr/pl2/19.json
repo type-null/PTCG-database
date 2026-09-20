@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl2-19",
+    "name": "Pyroli Niv. 38",
+    "img": "https://assets.tcgdex.net/fr/pl/pl2/19/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Rivaux Émergeants",
+    "series": "Platine",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "19",
+    "set_total": 120,
+    "rarity": "Rare",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 136,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Feu"
+    ],
+    "abilities": [
+        {
+            "name": "Dé-développer",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez dés-évoluer Pyroli et le placer dans votre main. Ce pouvoir ne peut pas être utilisé si Pyroli est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Coud'keu",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Éclat évolutif",
+            "damage": "40+",
+            "effect": "Si Pyroli évolue d'Evoli lors de ce tour, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Brûlé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl2-19"
+        }
+    ],
+    "print_key": "tcgdex:pl2-19",
+    "card_key": "136|80|1|Midori Harada|30,40+|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

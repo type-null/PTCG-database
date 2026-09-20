@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm11-70",
+    "name": "Câblifère",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Harmonie des Esprits",
+    "series": "Soleil et Lune",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "70",
+    "set_total": 258,
+    "rarity": "Rare",
+    "author": [
+        "Satoshi Shirai"
+    ],
+    "pokedex_number": 796,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Triple Reflet",
+            "damage": "30+",
+            "effect": "S’il reste exactement 3 cartes Récompense à votre adversaire, cette attaque inflige 90 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Rayon Signal",
+            "damage": 50,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Confus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm11-70"
+        }
+    ],
+    "print_key": "tcgdex:sm11-70",
+    "card_key": "796|120|2|Satoshi Shirai|30+,50|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

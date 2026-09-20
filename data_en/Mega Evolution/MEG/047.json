@@ -1,0 +1,66 @@
+{
+    "url": "https://pkmncards.com/card/magnezone-mega-evolution-meg-047/",
+    "name": "Magnezone",
+    "img": "https://pkmncards.com/wp-content/uploads/me1_en_047_std.jpg",
+    "card_type": "Pokémon",
+    "regulation": "I",
+    "set_name": "MEG",
+    "set_full_name": "Mega Evolution",
+    "series": "Mega Evolution",
+    "set_code": "me1",
+    "date": "Sep 26, 2025",
+    "number": "047",
+    "set_total": "132",
+    "rarity": "Uncommon",
+    "author": [
+        "nagimiso"
+    ],
+    "flavor_text": "As it zooms through the sky, this Pokémon seems to be receiving signals of unknown origin while transmitting signals of unknown purpose.",
+    "stage": "Stage 2",
+    "hp": 160,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "Upper Spark",
+            "damage": {
+                "amount": 50,
+                "suffix": "+"
+            },
+            "effect": "If this Pokémon evolved from Magneton during this turn, this attack does 120 more damage."
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning"
+            ],
+            "name": "Flashing Bolt",
+            "damage": {
+                "amount": 160,
+                "suffix": ""
+            },
+            "effect": "During your next turn, this Pokémon can’t use Flashing Bolt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [],
+        "value": null
+    },
+    "retreat": 3,
+    "evolve_from": "Magneton",
+    "print_key": "en:me1-47",
+    "card_key": "462|160|3|nagimiso|50+,160|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

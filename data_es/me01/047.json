@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/me01-047",
+    "name": "Magnezone",
+    "img": "https://assets.tcgdex.net/es/me/me01/047/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "I",
+    "set_name": "me01",
+    "set_img": "https://assets.tcgdex.net/univ/me/me01/symbol",
+    "set_full_name": "Megaevolución",
+    "series": "Megaevolución",
+    "set_code": "me01",
+    "date": "2025-09-26",
+    "number": "047",
+    "set_total": 188,
+    "rarity": "Uncommon",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 462,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 160,
+    "types": [
+        "Rayo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Rayo"
+            ],
+            "name": "Chispa Superior",
+            "damage": "50+",
+            "effect": "Si este Pokémon ha evolucionado de Magneton durante este turno, este ataque hace 120 puntos de daño más."
+        },
+        {
+            "cost": [
+                "Rayo",
+                "Rayo"
+            ],
+            "name": "Rayo Destellante",
+            "damage": 160,
+            "effect": "Durante tu próximo turno, este Pokémon no puede usar Rayo Destellante."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Magneton",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/me01-047"
+        }
+    ],
+    "print_key": "tcgdex:me01-47",
+    "card_key": "462|160|3|nagimiso|50+,160|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

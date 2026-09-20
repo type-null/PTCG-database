@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw10-13",
+    "name": "Ramoth",
+    "img": "https://assets.tcgdex.net/de/bw/bw10/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw10",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw10/symbol",
+    "set_full_name": "Plasma-Blaster",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw10",
+    "date": "2013-08-14",
+    "number": "13",
+    "set_total": 105,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 637,
+    "pokemon_category": "",
+    "flavor_text": "Es erschien während eines harten Winters und rettete Pokémon vor dem Erfrieren. Angeblich eine Verkörperung der Sonne.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Solartransporter",
+            "damage": null,
+            "effect": "Decke die obersten 5 Karten deines Decks auf und nimm alle Team Plasma-Karten, die du darunter findest, auf deine Hand. Lege die anderen Karten auf deinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Blutsauger",
+            "damage": 50,
+            "effect": "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Verteidigenden Pokémon zugefügt hast."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Ignivor",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw10-13"
+        }
+    ],
+    "print_key": "tcgdex:bw10-13",
+    "card_key": "637|100|1|5ban Graphics|None,50|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

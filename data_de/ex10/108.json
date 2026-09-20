@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex10-108",
+    "name": "Scherox-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Verborgene Mächte",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "108",
+    "set_total": 117,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 212,
+    "pokemon_category": "",
+    "hp": 120,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Danger Perception",
+            "effect": "As long as Scizor ex's remaining HP is 60 or less, Scizor ex does 40 more damage to the Defending Pokémon (before applying Weakness and Resistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Steel Wing",
+            "damage": 40,
+            "effect": "During your opponent's next turn, any damage done to Scizor ex by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Cross-Cut",
+            "damage": "50+",
+            "effect": "If the Defending Pokémon is an Evolved Pokémon, this attack does 50 damage plus 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex10-108"
+        }
+    ],
+    "print_key": "tcgdex:ex10-108",
+    "card_key": "212|120|1|Mitsuhiro Arita|40,50+|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

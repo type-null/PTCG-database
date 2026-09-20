@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/xy4-17",
+    "name": "Feraligatr",
+    "img": "https://assets.tcgdex.net/es/xy/xy4/17/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "xy4",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy4/symbol",
+    "set_full_name": "Fuerzas Fantasmales",
+    "series": "XY",
+    "set_code": "xy4",
+    "date": "2014-11-05",
+    "number": "17",
+    "set_total": 124,
+    "rarity": "Rara",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 160,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 150,
+    "types": [
+        "Agua"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Agua",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Hipertorbellino",
+            "damage": 60,
+            "effect": "Lanza 1 moneda hasta que salga cruz. Por cada cara, descarta 1 Energía unida al Pokémon Activo de tu rival."
+        },
+        {
+            "cost": [
+                "Agua",
+                "Agua",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Segundo Golpe",
+            "damage": "80+",
+            "effect": "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 80 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Croconaw",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/xy4-17"
+        }
+    ],
+    "print_key": "tcgdex:xy4-17",
+    "card_key": "160|150|3|Shin Nagasawa|60,80+|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

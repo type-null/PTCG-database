@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/xy12-34",
+    "name": "Gyarados",
+    "img": "https://assets.tcgdex.net/it/xy/xy12/34/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Evoluzioni",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "34",
+    "set_total": 113,
+    "rarity": "Rara",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 130,
+    "types": [
+        "Acqua"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Acqua",
+                "Acqua",
+                "Acqua"
+            ],
+            "name": "Bollaraggio",
+            "damage": 50,
+            "effect": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato."
+        },
+        {
+            "cost": [
+                "Acqua",
+                "Acqua",
+                "Acqua",
+                "Acqua"
+            ],
+            "name": "Ira di Drago",
+            "damage": 180,
+            "effect": "Lancia due volte una moneta. Se esce almeno una volta croce, questo attacco non ha effetto."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lampo"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Magikarp",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/xy12-34"
+        }
+    ],
+    "print_key": "tcgdex:xy12-34",
+    "card_key": "130|130|3|Mitsuhiro Arita|50,180|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

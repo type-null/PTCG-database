@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh1-90",
+    "name": "Mortipot",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh1/90/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Schwert & Schild",
+    "series": "Schwert & Schild",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "90",
+    "set_total": 216,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 855,
+    "pokemon_category": "",
+    "flavor_text": "Sie lassen sich in alten Teekannen nieder. Die meisten dieser Kannen sind billige Fälschungen, aber es gibt auch ein paar sehr seltene Originale.",
+    "stage": "Rang 1",
+    "hp": 60,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Teatime",
+            "damage": null,
+            "effect": "Jeder Spieler zieht 2 Karten."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Poltergeist",
+            "damage": "50×",
+            "effect": "Dein Gegner zeigt dir seine Handkarten. Diese Attacke fügt für jede Trainerkarte, die du dort findest, 50 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Fatalitee",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh1-90"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-90",
+    "card_key": "855|60|1|Shin Nagasawa|None,50x|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

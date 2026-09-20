@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl3-70",
+    "name": "Milotic",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Ultimative Sieger",
+    "series": "Platin",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "70",
+    "set_total": 153,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 350,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Reinigungsring",
+            "damage": 20,
+            "effect": "Du kannst 2 Karten von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, entferne 4 Schadensmarken von 1 deiner Pokémon."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schuppenschlag",
+            "damage": "90-",
+            "effect": "Dieser Angriff fügt 90 Schadenspunkte minus 10 Schadenspunkte für jede Karte auf deiner Hand zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl3-70"
+        }
+    ],
+    "print_key": "tcgdex:pl3-70",
+    "card_key": "350|90|1|Hajime Kusajima|20,90-|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

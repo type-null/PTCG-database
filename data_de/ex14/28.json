@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex14-28",
+    "name": "Bisaflor",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex14",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex14/symbol",
+    "set_full_name": "EX Crystal Guardians",
+    "series": "EX",
+    "set_code": "ex14",
+    "date": "2006-08-30",
+    "number": "28",
+    "set_total": 100,
+    "rarity": "Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 3,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 110,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Chlorophyll",
+            "effect": "Alle Energiekarten, die nur {C}-Energie liefern und an deine Pokémon vom Typ {G} angelegt sind, liefern stattdessen {G}-Energie."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Naturstoß",
+            "damage": "20+",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an deine Pokémon angelegte {G}-Energie zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Toxischer Schlaf",
+            "damage": null,
+            "effect": "Das Verteidigende Pokémon schläft jetzt und ist vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das Verteidigende Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Bisaknosp",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex14-28"
+        }
+    ],
+    "print_key": "tcgdex:ex14-28",
+    "card_key": "3|110|3|Hajime Kusajima|20+,None|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

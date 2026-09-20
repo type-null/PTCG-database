@@ -1,29 +1,19 @@
 """
     Download card info from pkmncards.com
 
+    A shortcut for `code/updateDatabase.py en`; every option of that script
+    works here too.
+
     May 29, 2024 by Weihang
 """
 
-from CardScraperEN import CardScraperEN
-import logging
+import sys
+from pathlib import Path
 
-MODE = "DEBUG"
-MODE = "BUILD"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-logging.basicConfig(
-    filename="logs/log_file.log" if MODE == "DEBUG" else "logs/scrape_en_log.log",
-    encoding="utf-8",
-    format="%(asctime)s | %(levelname)s | %(module)s | %(message)s",
-    level=logging.DEBUG if MODE == "DEBUG" else logging.INFO,
-)
+import updateDatabase
 
-logger = logging.getLogger(__name__)
-
-scraper = CardScraperEN()
-
-if MODE == "BUILD":
-    scraper.update()
-if MODE == "DEBUG":
-    card_link = "https://pkmncards.com/set/miscellaneous/"
-    scraper.read_card(card_link)
-    # scraper.scrape_set("legendary-collection")
+if __name__ == "__main__":
+    sys.argv = [sys.argv[0], "en", *sys.argv[1:]]
+    updateDatabase.main()

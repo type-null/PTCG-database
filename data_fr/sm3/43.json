@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm3-43",
+    "name": "Élekable",
+    "img": "https://assets.tcgdex.net/fr/sm/sm3/43/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Ombres Ardentes",
+    "series": "Soleil et Lune",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "43",
+    "set_total": 169,
+    "rarity": "Rare",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 466,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 140,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Poing-Éclair",
+            "damage": "60+",
+            "effect": "Lancez une pièce. Si c’est face, cette attaque inflige 60 dégâts supplémentaires. Si c’est pile, ce Pokémon s’inflige 20 dégâts."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Giga Impact",
+            "damage": 170,
+            "effect": "Ce Pokémon ne peut pas attaquer pendant votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Élektek",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm3-43"
+        }
+    ],
+    "print_key": "tcgdex:sm3-43",
+    "card_key": "466|140|4|kawayoo|60+,170|3,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

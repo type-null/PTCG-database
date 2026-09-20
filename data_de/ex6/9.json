@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex6-9",
+    "name": "Nidoqueen",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex6",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex6/symbol",
+    "set_full_name": "EX Feuerrot & Blattgrün",
+    "series": "EX",
+    "set_code": "ex6",
+    "date": "2004-09-01",
+    "number": "9",
+    "set_total": 116,
+    "rarity": "Selten",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 31,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Famiienbande",
+            "effect": "Solange Nidoqueen im Spiel ist, haben Nioran, Nidorina, Nidorino und Nidoking Rückzugskosten 0."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Toxin",
+            "damage": null,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das verteidigende Pokémon."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Powerlasso",
+            "damage": "40+",
+            "effect": "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere für jedes entwickelte Pokémon zu, das du im Spiel hast."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex6-9"
+        }
+    ],
+    "print_key": "tcgdex:ex6-9",
+    "card_key": "31|120|2|Naoyo Kimura|None,40+|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

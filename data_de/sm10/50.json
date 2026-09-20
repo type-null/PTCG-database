@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-50",
+    "name": "Kyurem",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/50/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "50",
+    "set_total": 234,
+    "rarity": "Selten",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 646,
+    "pokemon_category": "",
+    "flavor_text": "Ein Legendäres Eis-Pokémon, das auf den Helden wartet, der seinen verstümmelten Körper mit Wunsch und Wirklichkeit heilt.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Kälteruf",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 {W}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Hagelknast",
+            "damage": 110,
+            "effect": "Lege 2 {W}-Energien von diesem Pokémon auf deinen Ablagestapel. Das Aktive Pokémon deines Gegners ist jetzt paralysiert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-50"
+        }
+    ],
+    "print_key": "tcgdex:sm10-50",
+    "card_key": "646|130|2|Anesaki Dynamic|None,110|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

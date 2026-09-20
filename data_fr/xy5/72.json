@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy5-72",
+    "name": "Tentacruel",
+    "img": "https://assets.tcgdex.net/fr/xy/xy5/72/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Primo-Choc",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "72",
+    "set_total": 164,
+    "rarity": "Rare",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 73,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Tentacules Dansantes",
+            "damage": null,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Colle et Absorbe",
+            "damage": 30,
+            "effect": "Soignez 30 dégâts à ce Pokémon. Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Tentacool",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy5-72"
+        }
+    ],
+    "print_key": "tcgdex:xy5-72",
+    "card_key": "73|100|3|match|None,30|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

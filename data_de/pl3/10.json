@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl3-10",
+    "name": "Rihornior",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Ultimative Sieger",
+    "series": "Platin",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "10",
+    "set_total": 153,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 464,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Zornbohrer",
+            "damage": "30+",
+            "effect": "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Rihornior zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Tiefenschrottung",
+            "damage": 60,
+            "effect": "Wenn das Verteidigende Pokémon durch diesen Angriff kampfunfähig würde, lege die obersten 3 Karten vom Deck deines Gegners auf seinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl3-10"
+        }
+    ],
+    "print_key": "tcgdex:pl3-10",
+    "card_key": "464|140|4|Hajime Kusajima|30+,60|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

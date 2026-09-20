@@ -1,0 +1,83 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl4-19",
+    "name": "Geowaz",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl4",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl4/symbol",
+    "set_full_name": "Arceus",
+    "series": "Platin",
+    "set_code": "pl4",
+    "date": "2009-11-04",
+    "number": "19",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 76,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Sprungangriff",
+            "damage": 50,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Hinabstürzen",
+            "damage": "30×",
+            "effect": "Lege beliebig viele {F}-Energiekarten von deiner Hand auf deinen Ablagestapel. Dieser Angriff fügt für jede auf diese Weise auf den Ablagestapel gelegte {F}-Energiekarte 30 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Rollende Felsen",
+            "damage": 80,
+            "effect": "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Georok",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl4-19"
+        }
+    ],
+    "print_key": "tcgdex:pl4-19",
+    "card_key": "76|140|4|Masakazu Fukuda|50,30x,80|2,3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

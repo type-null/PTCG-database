@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex11-44",
+    "name": "Hariyama",
+    "img": "https://assets.tcgdex.net/fr/ex/ex11/44/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex11",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex11/symbol",
+    "set_full_name": "EX Espèces Delta",
+    "series": "EX",
+    "set_code": "ex11",
+    "date": "2005-10-31",
+    "number": "44",
+    "set_total": 114,
+    "rarity": "Peu Commune",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 297,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Feu"
+    ],
+    "abilities": [
+        {
+            "name": "Échange d'aura",
+            "effect": "Tant qu'il vous reste plus de cartes Récompense que votre adversaire, chacune des attaques d'Hariyama inflige 20 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance) et les dégâts infligés à Hariyama par le Pokémon Actif sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Gifle",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Casse-Brique",
+            "damage": 50,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Makuhita",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex11-44"
+        }
+    ],
+    "print_key": "tcgdex:ex11-44",
+    "card_key": "297|80|1|Hisao Nakamura|30,50|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

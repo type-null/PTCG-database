@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex16-93",
+    "name": "Lepumentas-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex16",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex16/symbol",
+    "set_full_name": "EX Power Keepers",
+    "series": "EX",
+    "set_code": "ex16",
+    "date": "2007-02-17",
+    "number": "93",
+    "set_total": 108,
+    "rarity": "Selten",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 344,
+    "pokemon_category": "",
+    "hp": 120,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Typenwechsel",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power einsetzen. Lepumentas ex erhält den Typ {F} bis zum Ende des Zuges."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Psychoknall",
+            "damage": "20+",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an das Verteidigende Pokémon angelegte Energie zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Schattenzermalmer",
+            "damage": 60,
+            "effect": "Du kannst 1 {P}-Energiekarte, die an Lepumentas ex angelegt ist, auf deinen Ablagestapel legen. Wenn du das machst, lege 1 Energiekarte, die an das Verteidigende Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Puppance",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex16-93"
+        }
+    ],
+    "print_key": "tcgdex:ex16-93",
+    "card_key": "344|120|2|Ryo Ueda|20+,60|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

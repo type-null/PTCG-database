@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-63",
+    "name": "Embrylex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "63",
+    "set_total": 106,
+    "rarity": "Commune",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 246,
+    "pokemon_category": "",
+    "flavor_text": "Un Pokémon qui se nourrit de terre. Après avoir dévoré une montagne, il s'endort pour grandir.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Morsure",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Éboulement",
+            "damage": 20,
+            "effect": "Inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Embrylex",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-63"
+        }
+    ],
+    "print_key": "tcgdex:dp7-63",
+    "card_key": "246|50|1|Yuka Morii|10,20|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pop7-5",
+    "name": "Papilord",
+    "img": "https://assets.tcgdex.net/fr/pop/pop7/5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pop7",
+    "set_img": "https://assets.tcgdex.net/univ/pop/pop7/symbol",
+    "set_full_name": "POP Série 7",
+    "series": "POP",
+    "set_code": "pop7",
+    "date": "2008-03-01",
+    "number": "5",
+    "set_total": 17,
+    "rarity": "Rare",
+    "author": [
+        "Kazuyuki Kano"
+    ],
+    "pokedex_number": 414,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Vent argenté",
+            "damage": null,
+            "effect": "Lors de votre prochain tour, si une attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), cette attaque inflige 40 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Écailles enragées",
+            "damage": "30+",
+            "effect": "Si Papilord possède des marqueurs de dégât, cette attaque inflige 30 dégâts plus 40 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Cheniti",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pop7-5"
+        }
+    ],
+    "print_key": "tcgdex:pop7-5",
+    "card_key": "414|80|0|Kazuyuki Kano|None,30+|0,2",
+    "types_en": [
+        "Grass"
+    ]
+}

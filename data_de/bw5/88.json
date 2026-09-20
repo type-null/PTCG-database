@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw5-88",
+    "name": "Bissbark",
+    "img": "https://assets.tcgdex.net/de/bw/bw5/88/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw5",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw5/symbol",
+    "set_full_name": "Erforscher der Finsternis",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw5",
+    "date": "2012-05-09",
+    "number": "88",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 508,
+    "pokemon_category": "",
+    "flavor_text": "Es rettet Menschen, die aufgrund eines Schneesturmes im Gebirge festsitzen. Sein langes Fell schützt es vor Kälte.",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Spezial-Reißzähne",
+            "damage": 40,
+            "effect": "Wenn an dieses Pokémon bereits Spezial-Energie angelegt ist, fügt dieser Angriff 40 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wildes Kläffen",
+            "damage": 60,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der durch Angriffe des Verteidigenden Pokémon zugefügt wird, um 30 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Terribark",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw5-88"
+        }
+    ],
+    "print_key": "tcgdex:bw5-88",
+    "card_key": "508|130|3|Atsuko Nishida|40,60|3,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

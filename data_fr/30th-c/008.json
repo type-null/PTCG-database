@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/30th-c-008",
+    "name": "Pikachu et Zekrom GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "30th-c",
+    "set_full_name": "Collection Classique30ᵉ Anniversaire",
+    "series": "Méga-Évolution",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "008",
+    "set_total": 30,
+    "rarity": "Sans Rareté",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Base",
+    "hp": 240,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Attaque Absolue",
+            "damage": 150,
+            "effect": "Cherchez jusqu'à 3 cartes Énergie <span class=\"energy-symbol Lightning\" title=\"Électrique\">Lightning</span> dans votre deck et attachez-les à l'un de vos Pokémon. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Escouade Foudroyante {GX}",
+            "damage": 200,
+            "effect": "Si au moins 3 Énergies <span class=\"energy-symbol Lightning\" title=\"Électrique\">Lightning</span> supplémentaires sont attachées à ce Pokémon <em>(en plus du coût de cette attaque)</em>, cette attaque inflige 170 dégâts à l'un des Pokémon de Banc de votre adversaire. <em>(N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)</em><em>(Vous ne pouvez utiliser qu'une attaque <em>GX</em> par partie.)</em>"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/30th-c-008"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-8",
+    "card_key": "25|240|3|Mitsuhiro Arita|150,200|3,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

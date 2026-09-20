@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sv08-015",
+    "name": "Wo-Chien",
+    "img": "https://assets.tcgdex.net/it/sv/sv08/015/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "H",
+    "set_name": "sv08",
+    "set_full_name": "Scintille Folgoranti",
+    "series": "Scarlatto e Violetto",
+    "set_code": "sv08",
+    "date": "2024-11-08",
+    "number": "015",
+    "set_total": 252,
+    "rarity": "Non comune",
+    "author": [
+        "danciao"
+    ],
+    "pokedex_number": 1001,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Erba"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Erba",
+                "Incolore"
+            ],
+            "name": "Avidità Pericolosa",
+            "damage": 20,
+            "effect": "Se ci sono tre o meno carte nel tuo mazzo, questo attacco infligge anche 120 danni a due dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina."
+        },
+        {
+            "cost": [
+                "Erba",
+                "Erba",
+                "Incolore"
+            ],
+            "name": "Frustata Avvolgente",
+            "damage": 130,
+            "effect": "Scarta le prime tre carte del tuo mazzo."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuoco"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sv08-015"
+        }
+    ],
+    "print_key": "tcgdex:sv08-15",
+    "card_key": "1001|130|3|danciao|20,130|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

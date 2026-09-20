@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/sm8-222",
+    "name": "Sigilyph GX",
+    "img": "https://assets.tcgdex.net/pt/sm/sm8/222/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Trovões Perdidos",
+    "series": "Sol e Lua",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "222",
+    "set_total": 236,
+    "rarity": "Rare Secreta",
+    "author": [
+        "PLANETA Igarashi"
+    ],
+    "pokedex_number": 561,
+    "pokemon_category": "",
+    "hp": 170,
+    "types": [
+        "Psíquico"
+    ],
+    "abilities": [
+        {
+            "name": "Contra-ataque Espelhado",
+            "effect": "Se este Pokémon for o seu Pokémon Ativo e for danificado por um ataque de um dos Pokémon-GX ou Pokémon-EX do seu oponente (mesmo que este Pokémon seja Nocauteado), coloque contadores de dano no Pokémon Atacante equivalentes ao dano causado a este Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psíquico",
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Asa Sônica",
+            "damage": 80,
+            "effect": "O dano deste ataque não é afetado por Resistência."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Interceptar GX",
+            "damage": "60×",
+            "effect": "Este ataque causa 60 pontos de dano vezes a quantidade de Energia ligada ao Pokémon Ativo do seu oponente (você não pode usar mais de 1 ataque GX por partida)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elétrico"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lutador"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/sm8-222"
+        }
+    ],
+    "print_key": "tcgdex:sm8-222",
+    "card_key": "561|170|2|PLANETA Igarashi|80,60x|3,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex8-48",
+    "name": "Statoss",
+    "img": "https://assets.tcgdex.net/fr/ex/ex8/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "48",
+    "set_total": 108,
+    "rarity": "Peu Commune",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 121,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Protection principale",
+            "effect": "Tant que Statoss possède une Énergie {P}, les dégâts qui lui sont infligés par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Échange d'énergie",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc). Vous pouvez déplacer une Énergie attachée à ce Pokémon à un autre Pokémon de votre adversaire."
+        },
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Psycho-boom",
+            "damage": "10+",
+            "effect": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Stari",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex8-48"
+        }
+    ],
+    "print_key": "tcgdex:ex8-48",
+    "card_key": "121|70|1|Yukiko Baba|None,10+|1,1",
+    "types_en": [
+        "Water"
+    ]
+}

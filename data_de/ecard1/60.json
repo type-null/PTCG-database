@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard1-60",
+    "name": "Quappo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-Card",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "60",
+    "set_total": 165,
+    "rarity": "Selten",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 62,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Untertauchen",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Quappo auf deiner Bank ist, eine Münze werfen. Nimm bei „Kopf“ alle an dein Aktives Pokémon angelegte Energiekarten, falls vorhanden, und lege sie an Quappo an. Tausche dann Quappo mit deinem aktiven Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wasserhieb",
+            "damage": "40+",
+            "effect": "Wirf so viele Münzen, wie {W}-Energie an Quappo angelegt ist. Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte pro geworfenem „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Quaputzi",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard1-60"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-60",
+    "card_key": "62|100|2|Yuka Morii|40+|4",
+    "types_en": [
+        "Water"
+    ]
+}

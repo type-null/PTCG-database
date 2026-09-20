@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex3-100",
+    "name": "Glurak",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Drache",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "100",
+    "set_total": 100,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Feuersammeln",
+            "damage": 30,
+            "effect": "Wirf 1 Münze. Durchsuche bei „Kopf“ deinen Ablagestapel nach 2 {R}-Energiekarten und lege sie an Glurak an (1 falls nur 1 vorhanden)."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Flammensäule",
+            "damage": 60,
+            "effect": "Du darfst 1 an Glurak abgelegte {R}-Energie auf deinen Ablagestapel legen, wenn du diesen Angriff einsetzt. Wenn du das machst, wähle 1 Pokémon auf der Bank deines Gegners und dieser Angriff fügt ihm 30 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Glutexo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex3-100"
+        }
+    ],
+    "print_key": "tcgdex:ex3-100",
+    "card_key": "6|120|2|Mitsuhiro Arita|30,60|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

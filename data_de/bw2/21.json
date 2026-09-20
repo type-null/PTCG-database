@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw2-21",
+    "name": "Flampivian",
+    "img": "https://assets.tcgdex.net/de/bw/bw2/21/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw2",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw2/symbol",
+    "set_full_name": "Aufstreben der Mächtigen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw2",
+    "date": "2011-08-31",
+    "number": "21",
+    "set_total": 98,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 555,
+    "pokemon_category": "",
+    "flavor_text": "Erhitzt das Innere seines Körpers auf 1400 Grad und erlangt so dieKraft, um mit der Faust Laster zu zerstören.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zertrümmerer",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Flammenschlag",
+            "damage": 70,
+            "effect": "Das Verteidigende Pokémon ist jetzt verbrannt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Flampion",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw2-21"
+        }
+    ],
+    "print_key": "tcgdex:bw2-21",
+    "card_key": "555|100|3|Mitsuhiro Arita|20,70|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

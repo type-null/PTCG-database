@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/hgss1-45",
+    "name": "Démanta",
+    "img": "https://assets.tcgdex.net/fr/hgss/hgss1/45/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "hgss1",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss1/symbol",
+    "set_full_name": "HeartGold SoulSilver",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss1",
+    "date": "2010-02-10",
+    "number": "45",
+    "set_total": 124,
+    "rarity": "Peu Commune",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 226,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Nage de groupe",
+            "damage": null,
+            "effect": "Cherchez un Pokémon Water dans votre deck, montrez-le à votre adversaire, puis ajoutez-le à votre main. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau"
+            ],
+            "name": "Aqua-tranche",
+            "damage": 40,
+            "effect": "Demanta ne peut pas attaquer pendant votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/hgss1-45"
+        }
+    ],
+    "print_key": "tcgdex:hgss1-45",
+    "card_key": "226|80|1|Naoyo Kimura|None,40|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

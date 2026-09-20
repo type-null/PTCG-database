@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp2-20",
+    "name": "Migalos",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Trésors Mystérieux",
+    "series": "Diamant & Perle",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "20",
+    "set_total": 124,
+    "rarity": "Rare",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 168,
+    "pokemon_category": "",
+    "flavor_text": "Il attache un fil à sa proie avant de la libérer. Il s'en servira pour la retrouver, elle et ses amis.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Collant",
+            "effect": "Le Coût de retraite des Pokémon de chaque joueur (Migalos exclu) est de Colorless de plus."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Aiguille offensive",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Si c'est pile, le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Mimigal",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp2-20"
+        }
+    ],
+    "print_key": "tcgdex:dp2-20",
+    "card_key": "168|80|1|Midori Harada|20|2",
+    "types_en": [
+        "Grass"
+    ]
+}

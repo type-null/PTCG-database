@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sv01-212",
+    "name": "Kirlia",
+    "img": "https://assets.tcgdex.net/it/sv/sv01/212/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Scarlatto e Violetto",
+    "series": "Scarlatto e Violetto",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "212",
+    "set_total": 258,
+    "rarity": "Rara illustrazione",
+    "author": [
+        "Jiro Sasumo"
+    ],
+    "pokedex_number": 281,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 90,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psico",
+                "Incolore"
+            ],
+            "name": "Magicolpo",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psico",
+                "Psico",
+                "Incolore"
+            ],
+            "name": "Psichico",
+            "damage": "60+",
+            "effect": "Questo attacco infligge 20 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscurità"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sv01-212"
+        }
+    ],
+    "print_key": "tcgdex:sv01-212",
+    "card_key": "281|90|1|Jiro Sasumo|30,60+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

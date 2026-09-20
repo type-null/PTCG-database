@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex4-9",
+    "name": "Groudon de Team Magma",
+    "img": "https://assets.tcgdex.net/fr/ex/ex4/9/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex4",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex4/symbol",
+    "set_full_name": "EX Team Magma vs Team Aqua",
+    "series": "EX",
+    "set_code": "ex4",
+    "date": "2004-03-01",
+    "number": "9",
+    "set_total": 97,
+    "rarity": "Holo Rare",
+    "author": [
+        "Kazuo Yazawa"
+    ],
+    "pokedex_number": 383,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Combat",
+        "Obscurité"
+    ],
+    "abilities": [
+        {
+            "name": "Économisateur de puissance",
+            "effect": "Tant que jusqu'à 3 Pokémon (les vôtres et ceux de votre adversaire) dont les noms comportent Team Magma sont en jeu, Groudon de Team Magma ne peut pas attaquer."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Attaque linéaire",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Pulvériser",
+            "damage": "50+",
+            "effect": "Si le Pokémon Défenseur possède au moins 2 marqueurs de dégât, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex4-9"
+        }
+    ],
+    "print_key": "tcgdex:ex4-9",
+    "card_key": "383|100|3|Kazuo Yazawa|None,50+|2,3",
+    "types_en": [
+        "Fighting",
+        "Darkness"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-37",
+    "name": "Granbull",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "37",
+    "set_total": 111,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 210,
+    "pokemon_category": "",
+    "flavor_text": "Es ist eigentlich furchtsam und lässt sich leicht erschrecken. Wenn es angegriffen wird, schlägt es wild um sich, um den Angreifer abzuwehren.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Tackle",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wutausbruch",
+            "damage": "10+",
+            "effect": "Dieser Angriff fügt 10 Schadenspunkte plus 10 Schadenspunkte für jede Schadensmarke auf Granbull zu. Dann fügt sich Granbull selbst 20 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Snubbull",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-37"
+        }
+    ],
+    "print_key": "tcgdex:neo1-37",
+    "card_key": "210|70|2|Ken Sugimori|20,10+|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh12.5-056",
+    "name": "Britzigel",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh12.5/056/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh12.5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12.5/symbol",
+    "set_full_name": "Zenit der Könige",
+    "series": "Schwert & Schild",
+    "set_code": "swsh12.5",
+    "date": "2023-01-20",
+    "number": "056",
+    "set_total": 160,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Saya Tsuruta"
+    ],
+    "pokedex_number": 871,
+    "pokemon_category": "",
+    "flavor_text": "Aus den Spitzen seiner Stacheln setzt es Elektrizität frei. Mit seinen scharfen Zähnen schabt es Algen von Steinen ab und frisst sie.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Familienruf",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Dauerrollen",
+            "damage": "30+",
+            "effect": "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 30 Schadenspunkte mehr pro Kopf zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh12.5-056"
+        }
+    ],
+    "print_key": "tcgdex:swsh12.5-56",
+    "card_key": "871|80|1|Saya Tsuruta|None,30+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

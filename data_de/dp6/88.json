@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp6-88",
+    "name": "Lampi",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Erwachte Legenden",
+    "series": "Diamant & Perl",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "88",
+    "set_total": 146,
+    "rarity": "Häufig",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 170,
+    "pokemon_category": "",
+    "flavor_text": "Über seine Antennen entlädt es Elektrizität, mit der es seinen Gegnern einen Schlag versetzt.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Rasierflosse",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Aquafunke",
+            "damage": "20+",
+            "effect": "Wenn an Lampi mindestens 1 {W}-Energie angelegt ist, fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+10"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp6-88"
+        }
+    ],
+    "print_key": "tcgdex:dp6-88",
+    "card_key": "170|50|1|Midori Harada|10,20+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

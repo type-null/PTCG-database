@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/30th-c-006",
+    "name": "Dark Tyranitar",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "30th-c",
+    "set_full_name": "Collzione Classica del 30°",
+    "series": "Megaevoluzione",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "006",
+    "set_total": 30,
+    "rarity": "Nessuna",
+    "author": [
+        "Nakaoka"
+    ],
+    "stage": "Livello 2",
+    "hp": 120,
+    "types": [
+        "Oscurità"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Spremuta",
+            "damage": "10+",
+            "effect": "Infligge 10 danni più altri 10 danni per ogni Energia assegnata a Dark Tyranitar."
+        },
+        {
+            "cost": [
+                "Oscurità",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coda Rotante",
+            "damage": null,
+            "effect": "Infligge 20 danni a ogni Pokémon del tuo avversario. <em>(Non applicare Debolezza e Resistenza ai Pokémon in Panchina.)</em>"
+        },
+        {
+            "cost": [
+                "Oscurità",
+                "Oscurità",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Addentare",
+            "damage": "70+",
+            "effect": "Se il Pokémon Difensore è un Pokémon-<em>ex</em>, questo attacco infligge 70 danni più altri 50 danni."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psico"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/30th-c-006"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-6",
+    "card_key": "248|120|2|Nakaoka|10+,None,70+|1,3,5",
+    "types_en": [
+        "Darkness"
+    ]
+}

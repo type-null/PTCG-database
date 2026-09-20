@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard2-24",
+    "name": "Nidoking",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard2/24/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-cards",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "24",
+    "set_total": 186,
+    "rarity": "Rare",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 34,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 110,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Frénésie-terre",
+            "effect": "Une seule fois pendant votre tour (avant votre attaque), si Nidoking est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, placez un marqueur de dégâts sur chacun des Pokémon du Banc de votre adversaire. Ce pouvoir ne peut pas être utilisé si Nidoking est affecté par un État spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Corne géante",
+            "damage": "50+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Nidorino",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard2-24"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-24",
+    "card_key": "34|110|3|Naoyo Kimura|50+|4",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh5-5",
+    "name": "Noktuska",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh5/5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh5/symbol",
+    "set_full_name": "Kampfstile",
+    "series": "Schwert & Schild",
+    "set_code": "swsh5",
+    "date": "2021-03-19",
+    "number": "5",
+    "set_total": 183,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 332,
+    "pokemon_category": "",
+    "flavor_text": "Gruppen von Noktuska folgen müden Wüstenreisenden und warten, bis diese bewegungsunfähig werden.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Ziehen",
+            "damage": null,
+            "effect": "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Stachelschlag",
+            "damage": "60+",
+            "effect": "Wenn an dieses Pokémon mindestens 1 {D}-Energie angelegt ist, fügt diese Attacke 70 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Tuska",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh5-5"
+        }
+    ],
+    "print_key": "tcgdex:swsh5-5",
+    "card_key": "332|120|2|Tomokazu Komiya|None,60+|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

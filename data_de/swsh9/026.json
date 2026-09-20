@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh9-026",
+    "name": "Panferno",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh9/026/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh9",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh9/symbol",
+    "set_full_name": "Strahlende Sterne",
+    "series": "Schwert & Schild",
+    "set_code": "swsh9",
+    "date": "2022-02-25",
+    "number": "026",
+    "set_total": 186,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 392,
+    "pokemon_category": "",
+    "flavor_text": "Es hält den Gegner mit flinken Bewegungen zum Narren. Im Kampf setzt es alle Gliedmaßen ein.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Infernalischer Wirbel",
+            "damage": "80×",
+            "effect": "Zeige deinem Gegner die obersten 5 Karten deines Decks. Diese Attacke fügt für jede Energiekarte, die du dort findest, 80 Schadenspunkte zu. Lege anschließend jene Energiekarten auf deinen Ablagestapel und mische die anderen Karten zurück in dein Deck."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Brennender Schuss",
+            "damage": 160,
+            "effect": "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Panpyro",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh9-026"
+        }
+    ],
+    "print_key": "tcgdex:swsh9-26",
+    "card_key": "392|150|1|Anesaki Dynamic|80x,160|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

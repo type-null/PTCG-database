@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv09-063",
+    "name": "Metagross",
+    "img": "https://assets.tcgdex.net/de/sv/sv09/063/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "I",
+    "set_name": "sv09",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv09/symbol",
+    "set_full_name": "Reisegefährten",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv09",
+    "date": "2025-03-28",
+    "number": "063",
+    "set_total": 190,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 376,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 170,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Niederschleudern",
+            "damage": 60,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Verbundene Strahlen",
+            "damage": "130+",
+            "effect": "Wenn sich Tanhel und Metang auf deiner Bank befinden, fügt diese Attacke 150 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Metang",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv09-063"
+        }
+    ],
+    "print_key": "tcgdex:sv09-63",
+    "card_key": "376|170|3|Mitsuhiro Arita|60,130+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

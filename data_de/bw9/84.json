@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw9-84",
+    "name": "Seedraking",
+    "img": "https://assets.tcgdex.net/de/bw/bw9/84/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw9",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw9/symbol",
+    "set_full_name": "Plasma-Frost",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw9",
+    "date": "2013-05-08",
+    "number": "84",
+    "set_total": 122,
+    "rarity": "Selten",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 230,
+    "pokemon_category": "",
+    "flavor_text": "Es lebt in Höhlen auf dem Meeresgrund. Jedes Mal, wenn es sich bewegt, entsteht ein Strudel.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Drache"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Drachenwirbel",
+            "damage": 20,
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der {W}- und {L}-Energiekarten in deinem Ablagestapel zu. Mische diese Karten anschließend zurück in dein Deck."
+        },
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Kugeltrio",
+            "damage": null,
+            "effect": "Dieser Angriff fügt 3 Pokémon deines Gegners jeweils 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Drache"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Seemon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw9-84"
+        }
+    ],
+    "print_key": "tcgdex:bw9-84",
+    "card_key": "230|140|1|Naoyo Kimura|20,None|1,1",
+    "types_en": [
+        "Dragon"
+    ]
+}

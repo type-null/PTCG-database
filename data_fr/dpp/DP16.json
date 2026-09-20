@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dpp-DP16",
+    "name": "Pikachu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dpp",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dpp/symbol",
+    "set_full_name": "Promo DP",
+    "series": "Diamant & Perle",
+    "set_code": "dpp",
+    "date": "2007-05-01",
+    "number": "DP16",
+    "set_total": 56,
+    "rarity": "Commune",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "flavor_text": "Il vit en forêt avec ses pairs. Il accumule l'électricité dans les poches de ses joues.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Électro-recyclage",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), si Pichu se trouve sous Pikachu, vous pouvez chercher une carte Énergie Lightning dans votre pile de défausse. Montrez-la à votre adversaire et placez-la dans votre main. Ce pouvoir ne peut pas être utilisé ne peut pas être utilisé si Pikachu est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "BikeBika",
+            "damage": "20+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dpp-DP16"
+        }
+    ],
+    "print_key": "tcgdex:dpp-DP16",
+    "card_key": "25|60|1|Sumiyoshi Kizuki|20+|2",
+    "types_en": [
+        "Lightning"
+    ]
+}

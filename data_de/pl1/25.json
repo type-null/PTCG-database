@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-25",
+    "name": "Pudox",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "25",
+    "set_total": 133,
+    "rarity": "Selten",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 269,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Tarnmuster",
+            "effect": "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die Pudox von gegnerischen Pokémon, die von mindestens 2 Speziellen Zuständen betroffen sind, zugefügt würden."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Rauchwolke",
+            "damage": 20,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet. Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Chemische Schuppe",
+            "damage": 60,
+            "effect": "Wenn das Verteidigende Pokémon mindestens 1 Poké-Power oder Poké-Body hat, ist es jetzt verbrannt und verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+30"
+    },
+    "retreat": 0,
+    "evolve_from": "Panekon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-25"
+        }
+    ],
+    "print_key": "tcgdex:pl1-25",
+    "card_key": "269|130|0|Yukiko Baba|20,60|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

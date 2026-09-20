@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm7-22",
+    "name": "Moruda",
+    "img": "https://assets.tcgdex.net/de/sm/sm7/22/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm7",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm7/symbol",
+    "set_full_name": "Sturm Am Firmament",
+    "series": "Sonne & Mond",
+    "set_code": "sm7",
+    "date": "2018-08-03",
+    "number": "22",
+    "set_total": 183,
+    "rarity": "Selten",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 781,
+    "pokemon_category": "",
+    "flavor_text": "Es ist die Wiedergeburt der Seelen von im Meer treibendem Seetang. Es schützt seinen Körper, indem es Meeresmüll an Seetang bindet.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Gigasauger",
+            "damage": 30,
+            "effect": "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Aktiven Pokémon deines Gegners zugefügt hast."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Mächtiger Wirbler",
+            "damage": 130,
+            "effect": "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm7-22"
+        }
+    ],
+    "print_key": "tcgdex:sm7-22",
+    "card_key": "781|130|3|Kyoko Umemoto|30,130|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

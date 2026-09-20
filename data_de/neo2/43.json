@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo2-43",
+    "name": "Amoroso",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Entdeckung",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "43",
+    "set_total": 75,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 139,
+    "pokemon_category": "",
+    "flavor_text": "Anscheinend hat es Muschas Muschel mit seinen scharfen Zähnen geknackt und sie dann ausgesaugt.",
+    "stage": "Rang 2",
+    "hp": 80,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Quetschen",
+            "damage": "10+",
+            "effect": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu, und das verteidigende Pokémon ist jetzt gelähmt. Bei „Zahl“ fügt dieser Angriff 10 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Stachel-Stakkato",
+            "damage": "20+",
+            "effect": "Wirf so viele Münzen, wie {W}-Energie an Amoroso angelegt ist. Dieser Angriff fügt 20 Schadenspunkte pro geworfenem „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Amonitas",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo2-43"
+        }
+    ],
+    "print_key": "tcgdex:neo2-43",
+    "card_key": "139|80|2|Shin-ichi Yoshida|10+,20+|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

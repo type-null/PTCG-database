@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh4-92",
+    "name": "Terrakium",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh4/92/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh4",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh4/symbol",
+    "set_full_name": "Farbenschock",
+    "series": "Schwert & Schild",
+    "set_code": "swsh4",
+    "date": "2020-11-13",
+    "number": "92",
+    "set_total": 203,
+    "rarity": "Selten",
+    "author": [
+        "NC Empire"
+    ],
+    "pokedex_number": 639,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 140,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Schutzdruck",
+            "damage": 30,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Erdenkraft",
+            "damage": "80+",
+            "effect": "Wenn du eine Stadionkarte im Spiel hast, fügt diese Attacke 80 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh4-92"
+        }
+    ],
+    "print_key": "tcgdex:swsh4-92",
+    "card_key": "639|140|4|NC Empire|30,80+|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

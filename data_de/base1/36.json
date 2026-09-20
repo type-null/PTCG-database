@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-36",
+    "name": "Magmar",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "36",
+    "set_total": 102,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 126,
+    "pokemon_category": "",
+    "flavor_text": "Sein Körper glüht stets orangefarben, damit es sich perfekt in Flammen verstecken kann.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Feuerschlag",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Flammenwurf",
+            "damage": 50,
+            "effect": "Entferne eine auf Magmar abgelegte {R} Energiekarte, um diesen Angriff auszuführen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-36"
+        }
+    ],
+    "print_key": "tcgdex:base1-36",
+    "card_key": "126|50|2|Ken Sugimori|30,50|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

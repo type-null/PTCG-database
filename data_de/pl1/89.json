@@ -1,0 +1,61 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-89",
+    "name": "Trasla",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "89",
+    "set_total": 133,
+    "rarity": "Häufig",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 280,
+    "pokemon_category": "",
+    "flavor_text": "Es erfasst warme Gefühle von Menschen und PKMN mit seinen Hörnern und wärmt sich daran auf.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Seher",
+            "damage": null,
+            "effect": "Schau dir die obersten 5 Karten des Decks eines Spielers an und lege die Karten in beliebiger Reihenfolge auf das Deck dieses Spielers zurück."
+        },
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Hypnoschuss",
+            "damage": 10,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+10"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-89"
+        }
+    ],
+    "print_key": "tcgdex:pl1-89",
+    "card_key": "280|60|1|Miki Tanaka|None,10|0,1",
+    "types_en": [
+        "Psychic"
+    ]
+}

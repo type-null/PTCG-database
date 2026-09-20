@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl3-18",
+    "name": "Camerupt",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Ultimative Sieger",
+    "series": "Platin",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "18",
+    "set_total": 153,
+    "rarity": "Selten",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 323,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Bewegtes Feuer",
+            "damage": 30,
+            "effect": "Du kannst 1 -Energiekarte, die an 1 Pokémon auf deiner Bank angelegt ist, an Camerupt anlegen."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Vulkanzusammenbruch",
+            "damage": 100,
+            "effect": "Wirf 3 Münzen. Für jedes Mal, wenn die Münze \"Zahl\" gezeigt hat, lege die oberste Karte deines Decks auf deinen Ablagestapel. Dieser Effekt wirkt nur, wenn dein Gegner keine -Pokémon im Spiel hat."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+30"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl3-18"
+        }
+    ],
+    "print_key": "tcgdex:pl3-18",
+    "card_key": "323|120|4|Yukiko Baba|30,100|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

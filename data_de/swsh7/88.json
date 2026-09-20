@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh7-88",
+    "name": "Brockoloss",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh7/88/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh7",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh7/symbol",
+    "set_full_name": "Drachenwandel",
+    "series": "Schwert & Schild",
+    "set_code": "swsh7",
+    "date": "2021-08-27",
+    "number": "88",
+    "set_total": 237,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 526,
+    "pokemon_category": "",
+    "flavor_text": "Seine Energiekugeln können einen Lastwagen durch die Luft schleudern. Diese kann es aber nur bei schönem Wetter abfeuern.",
+    "stage": "Rang 2",
+    "hp": 180,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Schutzdruck",
+            "damage": 50,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 50 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Druckgeschoss",
+            "damage": 180,
+            "effect": "Dieses Pokémon fügt für jede auf ihm liegende Schadensmarke auch sich selbst 10 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Sedimantur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh7-88"
+        }
+    ],
+    "print_key": "tcgdex:swsh7-88",
+    "card_key": "526|180|4|Masakazu Fukuda|50,180|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

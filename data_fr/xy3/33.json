@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy3-33",
+    "name": "Fulguris",
+    "img": "https://assets.tcgdex.net/fr/xy/xy3/33/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy3",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy3/symbol",
+    "set_full_name": "Poings Furieux",
+    "series": "XY",
+    "set_code": "xy3",
+    "date": "2014-08-13",
+    "number": "33",
+    "set_total": 114,
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 642,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Poing-Éclair Déchaîné",
+            "damage": "30+",
+            "effect": "Si une carte Outil Pokémon est attachée au Pokémon Actif de votre adversaire, cette attaque inflige 30 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Tacle Foudroyant",
+            "damage": 100,
+            "effect": "Ce Pokémon ne peut pas utiliser Tacle Foudroyant pendant votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy3-33"
+        }
+    ],
+    "print_key": "tcgdex:xy3-33",
+    "card_key": "642|120|1|Hajime Kusajima|30+,100|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

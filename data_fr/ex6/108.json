@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex6-108",
+    "name": "Ectoplasma ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex6/108/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex6",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex6/symbol",
+    "set_full_name": "EX Rouge Feu & Vert Feuille",
+    "series": "EX",
+    "set_code": "ex6",
+    "date": "2004-09-01",
+    "number": "108",
+    "set_total": 116,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 94,
+    "pokemon_category": "",
+    "hp": 150,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Poltergeist",
+            "damage": "40+",
+            "effect": "Regardez la main de votre adversaire. Cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque carte Dresseur dans la main de votre adversaire."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Compteur de Récompense",
+            "damage": "60+",
+            "effect": "Si vous avez plus de cartes Récompense que votre adversaire, cette attaque inflige 60 dégâts plus 40 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy",
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat",
+            "Incolore"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Spectrum",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex6-108"
+        }
+    ],
+    "print_key": "tcgdex:ex6-108",
+    "card_key": "94|150|2|Mitsuhiro Arita|40+,60+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

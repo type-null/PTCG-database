@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv01-114",
+    "name": "Lucario",
+    "img": "https://assets.tcgdex.net/fr/sv/sv01/114/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Écarlate et Violet",
+    "series": "Écarlate et Violet",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "114",
+    "set_total": 258,
+    "rarity": "Peu Commune",
+    "author": [
+        "Nurikabe"
+    ],
+    "pokedex_number": 448,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 130,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Poing Vengeur",
+            "damage": "30+",
+            "effect": "Si au moins l'un de vos Pokémon {F} a été mis K.O. par les dégâts d'une attaque pendant le dernier tour de votre adversaire, cette attaque inflige 120 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Poignard Accélérateur",
+            "damage": 120,
+            "effect": "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Poignard Accélérateur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Riolu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv01-114"
+        }
+    ],
+    "print_key": "tcgdex:sv01-114",
+    "card_key": "448|130|2|Nurikabe|30+,120|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

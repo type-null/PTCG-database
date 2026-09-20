@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm1-56",
+    "name": "Iksbat",
+    "img": "https://assets.tcgdex.net/de/sm/sm1/56/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sonne & Mond",
+    "series": "Sonne & Mond",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "56",
+    "set_total": 172,
+    "rarity": "Selten",
+    "author": [
+        "DemizuPosuka"
+    ],
+    "pokedex_number": 169,
+    "pokemon_category": "",
+    "flavor_text": "Es kann sich nur schwer am Boden fortbewegen, da aus seinen zwei Beinen Flügel geworden sind. Daher ist es nur zu Kriechbewegungen fähig.",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Dreifachgift",
+            "damage": null,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Lege zwischen den Zügen 3 Schadensmarken anstelle von 1 Schadensmarke auf jenes Pokémon."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Überraschungsschlag",
+            "damage": "60+",
+            "effect": "Wenn dieses Pokémon auf der Bank war und in diesem Zug zu deinem Aktiven Pokémon wurde, fügt diese Attacke 60 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Golbat",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm1-56"
+        }
+    ],
+    "print_key": "tcgdex:sm1-56",
+    "card_key": "169|130|0|DemizuPosuka|None,60+|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

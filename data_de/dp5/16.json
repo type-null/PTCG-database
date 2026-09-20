@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp5-16",
+    "name": "Bronzong",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp5",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp5/symbol",
+    "set_full_name": "Majestätischer Morgen",
+    "series": "Diamant & Perl",
+    "set_code": "dp5",
+    "date": "2008-05-01",
+    "number": "16",
+    "set_total": 100,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 437,
+    "pokemon_category": "",
+    "flavor_text": "Dieses PKMN fand man bei Grabungen auf einer Baustelle, an deren Ort es 2000 Jahre geschlafen hatte.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Fluchlegierung",
+            "effect": "Solange Bronzong dein Aktives Pokémon ist, lege zwischen den Zügen 1 Schadensmarke auf jedes Pokémon deines Gegners, das mindestens 1 Poké-Power hat."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Schmerzverstärker",
+            "damage": null,
+            "effect": "Lege 1 Schadensmarke auf jedes Pokémon deines Gegners, auf dem bereits mindestens 1 Schadensmarke liegt."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Beschichtung",
+            "damage": 60,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der Bronzong durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Bronzel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp5-16"
+        }
+    ],
+    "print_key": "tcgdex:dp5-16",
+    "card_key": "437|90|3|Kouki Saitou|None,60|0,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

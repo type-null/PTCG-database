@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh2-25",
+    "name": "Vulnona",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh2/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Clash der Rebellen",
+    "series": "Schwert & Schild",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "25",
+    "set_total": 209,
+    "rarity": "Selten",
+    "author": [
+        "AKIRA EGAWA"
+    ],
+    "pokedex_number": 38,
+    "pokemon_category": "",
+    "flavor_text": "Man sagt, es lebe 1 000 Jahre und jedem seiner Schweife wohnen übernatürliche Kräfte inne.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Bürde",
+            "damage": "30+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners von einem Speziellen Zustand betroffen ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Züngelnde Flammen",
+            "damage": 90,
+            "effect": "Das Aktive Pokémon deines Gegners schläft jetzt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Vulpix",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh2-25"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-25",
+    "card_key": "38|120|1|AKIRA EGAWA|30+,90|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

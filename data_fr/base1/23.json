@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-23",
+    "name": "Arcanin",
+    "img": "https://assets.tcgdex.net/fr/base/base1/23/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "23",
+    "set_total": 102,
+    "rarity": "Peu Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 59,
+    "pokemon_category": "",
+    "flavor_text": "Un Pokémon très recherché pour sa grâce légendaire. Son pas élégant semble glisser sur le vent.",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Lance-Flamme",
+            "damage": 50,
+            "effect": "Défaussez 1 carte Énergie {R} attachée à Arcanin pour pouvoir utiliser cette attaque."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Bélier",
+            "damage": 80,
+            "effect": "Arcanin s'inflige 30 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Caninos",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-23"
+        }
+    ],
+    "print_key": "tcgdex:base1-23",
+    "card_key": "59|100|3|Ken Sugimori|50,80|3,4",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sm12-252",
+    "name": "Volcarona GX",
+    "img": "https://assets.tcgdex.net/it/sm/sm12/252/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm12",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm12/symbol",
+    "set_full_name": "Eclissi Cosmica",
+    "series": "Sole e Luna",
+    "set_code": "sm12",
+    "date": "2019-11-01",
+    "number": "252",
+    "set_total": 271,
+    "rarity": "Segreto rara",
+    "author": [
+        "PLANETA Tsuji"
+    ],
+    "pokedex_number": 637,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 210,
+    "types": [
+        "Fuoco"
+    ],
+    "abilities": [
+        {
+            "name": "Colpo Fiammeggiante",
+            "effect": "Una sola volta durante il tuo turno, prima di attaccare, puoi scartare una carta Energia Fire che hai in mano. Se lo fai, metti due segnalini danno su uno dei Pokémon del tuo avversario."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuoco",
+                "Fuoco",
+                "Incolore"
+            ],
+            "name": "Fiammata di Ritorno",
+            "damage": 160,
+            "effect": "Prendi due Energie Fire assegnate a questo Pokémon e aggiungile alle carte che hai in mano."
+        },
+        {
+            "cost": [
+                "Fuoco"
+            ],
+            "name": "Ondata Rovente GX",
+            "damage": null,
+            "effect": "Scarta un’Energia assegnata a ciascuno dei Pokémon del tuo avversario. Non puoi usare più di un attacco GX a partita."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Acqua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sm12-252"
+        }
+    ],
+    "print_key": "tcgdex:sm12-252",
+    "card_key": "637|210|3|PLANETA Tsuji|160,None|3,1",
+    "types_en": [
+        "Fire"
+    ]
+}

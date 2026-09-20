@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw1-63",
+    "name": "Ganovil",
+    "img": "https://assets.tcgdex.net/de/bw/bw1/63/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw1",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw1/symbol",
+    "set_full_name": "Schwarz & Weiß",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw1",
+    "date": "2011-04-25",
+    "number": "63",
+    "set_total": 115,
+    "rarity": "Häufig",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 551,
+    "pokemon_category": "",
+    "flavor_text": "Wenn es sich durch den Sand gräbt, ragen nur noch Nase und Augen hervor. Die schwarze Haut dient als Augenschutz.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Sandgrab",
+            "damage": 10,
+            "effect": "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Biss",
+            "damage": 30,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw1-63"
+        }
+    ],
+    "print_key": "tcgdex:bw1-63",
+    "card_key": "551|70|2|Naoyo Kimura|10,30|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

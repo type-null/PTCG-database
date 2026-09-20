@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv01-226",
+    "name": "Magnézone-ex",
+    "img": "https://assets.tcgdex.net/fr/sv/sv01/226/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Écarlate et Violet",
+    "series": "Écarlate et Violet",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "226",
+    "set_total": 258,
+    "rarity": "Ultra Rare",
+    "author": [
+        "PLANETA Tsuji"
+    ],
+    "pokedex_number": 462,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 330,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Écras'Énergie",
+            "damage": "50×",
+            "effect": "Cette attaque inflige 50 dégâts pour chaque Énergie attachée à tous les Pokémon de votre adversaire."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Lanceur d'Impulsions",
+            "damage": 220,
+            "effect": "Ce Pokémon s'inflige aussi 30 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Magnéton",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv01-226"
+        }
+    ],
+    "print_key": "tcgdex:sv01-226",
+    "card_key": "462|330|3|PLANETA Tsuji|50x,220|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-37",
+    "name": "Nidorino",
+    "img": "https://assets.tcgdex.net/fr/base/base1/37/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "37",
+    "set_total": 102,
+    "rarity": "Peu Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 33,
+    "pokemon_category": "",
+    "flavor_text": "Très agressif, il est prompt à répondre à la violence. La corne sur sa tête est venimeuse.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Double Pied",
+            "damage": "30x",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Empal' Korne",
+            "damage": 50,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Nidoran",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-37"
+        }
+    ],
+    "print_key": "tcgdex:base1-37",
+    "card_key": "33|60|1|Mitsuhiro Arita|30x,50|3,4",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl2-34",
+    "name": "Aquali Niv. 48",
+    "img": "https://assets.tcgdex.net/fr/pl/pl2/34/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Rivaux Émergeants",
+    "series": "Platine",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "34",
+    "set_total": 120,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 134,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Dé-développer",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez dés-évoluer Aquali et le placer dans votre main. Ce pouvoir ne peut pas être utilisé si Aquali est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Ocroupi",
+            "damage": 20,
+            "effect": "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc)."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Aqua évolutive",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de votre adversaire possédant des marqueurs de dégât. Cette attaque lui inflige 40 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc). Si Aquali a évolué d'Evoli lors de ce tour, cette attaque inflige 60 dégâts à la place."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl2-34"
+        }
+    ],
+    "print_key": "tcgdex:pl2-34",
+    "card_key": "134|90|2|Masakazu Fukuda|20,None|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

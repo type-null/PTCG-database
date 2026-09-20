@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sm12-138",
+    "name": "Sandslash di Alola",
+    "img": "https://assets.tcgdex.net/it/sm/sm12/138/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "sm12",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm12/symbol",
+    "set_full_name": "Eclissi Cosmica",
+    "series": "Sole e Luna",
+    "set_code": "sm12",
+    "date": "2019-11-01",
+    "number": "138",
+    "set_total": 271,
+    "rarity": "Rara",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 28,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 120,
+    "types": [
+        "Metallo"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Colpo Curvo",
+            "damage": 30,
+            "effect": "Lancia una moneta. Se esce testa, previeni tutti i danni inflitti a questo Pokémon da qualsiasi attacco durante il prossimo turno del tuo avversario."
+        },
+        {
+            "cost": [
+                "Metallo",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Agorobusto",
+            "damage": "60+",
+            "effect": "Se questo Pokémon ha una carta Oggetto Pokémon assegnata, questo attacco infligge 60 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuoco"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psico"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sm12-138"
+        }
+    ],
+    "print_key": "tcgdex:sm12-138",
+    "card_key": "28|120|1|Hasuno|30,60+|0,3",
+    "types_en": [
+        "Metal"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-14",
+    "name": "Raichu",
+    "img": "https://assets.tcgdex.net/fr/base/base1/14/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "14",
+    "set_total": 102,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "flavor_text": "Il doit garder sa queue en contact avec le sol pour éviter toute électrocution.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Hâte",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets ou attaques, y compris les dégâts, infligés à Raichu."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Fatal-Foudre",
+            "damage": 60,
+            "effect": "Lancez une pièce. Si c'est pile, Raichu s'inflige 30 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-14"
+        }
+    ],
+    "print_key": "tcgdex:base1-14",
+    "card_key": "26|80|1|Ken Sugimori|20,60|3,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

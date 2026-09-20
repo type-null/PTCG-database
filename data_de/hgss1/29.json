@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss1-29",
+    "name": "Sandamer",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss1/29/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss1",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss1/symbol",
+    "set_full_name": "HeartGold SoulSilver",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss1",
+    "date": "2010-02-10",
+    "number": "29",
+    "set_total": 124,
+    "rarity": "Selten",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 28,
+    "pokemon_category": "",
+    "flavor_text": "Wenn es schnell gräbt, können seine Stacheln und Krallen abbrechen. Sie wachsen binnen eines Tages nach.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Giftstachel",
+            "damage": 30,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Kratzfurie",
+            "damage": "30×",
+            "effect": "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Sandan",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss1-29"
+        }
+    ],
+    "print_key": "tcgdex:hgss1-29",
+    "card_key": "28|80|0|Yukiko Baba|30,30x|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/svp-049",
+    "name": "Électhor-ex",
+    "img": "https://assets.tcgdex.net/fr/sv/svp/049/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "regulation": "G",
+    "set_name": "svp",
+    "set_full_name": "SVP Black Star Promos",
+    "series": "Écarlate et Violet",
+    "set_code": "svp",
+    "date": "2023-03-31",
+    "number": "049",
+    "set_total": 225,
+    "rarity": "Promo",
+    "author": [
+        "takuyoa"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 200,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Flottaison Voltaïque",
+            "effect": "Si au moins une Énergie {L} est attachée à ce Pokémon, il n'a pas de Coût de Retraite."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Éclair Démultiplié",
+            "damage": 120,
+            "effect": "Cette attaque inflige aussi 90 dégâts à l'un des Pokémon de Banc de votre adversaire ayant au moins un marqueur de dégâts. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/svp-049"
+        }
+    ],
+    "print_key": "tcgdex:svp-49",
+    "card_key": "145|200|2|takuyoa|120|3",
+    "types_en": [
+        "Lightning"
+    ]
+}

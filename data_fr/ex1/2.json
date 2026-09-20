@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex1-2",
+    "name": "Charmillon",
+    "img": "https://assets.tcgdex.net/fr/ex/ex1/2/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex1",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex1/symbol",
+    "set_full_name": "EX Rubis & Saphir",
+    "series": "EX",
+    "set_code": "ex1",
+    "date": "2003-07-01",
+    "number": "2",
+    "set_total": 109,
+    "rarity": "Holo Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 267,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 80,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Poussière desséchante",
+            "effect": "Tant que Charmillon est en jeu, vous ne pouvez pas appliquer la Résistance aux Pokémon Actifs."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Poussière paralysante",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Gain parallèle",
+            "damage": 50,
+            "effect": "Retirez un marqueur de dégât à tous vos Pokémon, Charmillon inclus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Armulys",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex1-2"
+        }
+    ],
+    "print_key": "tcgdex:ex1-2",
+    "card_key": "267|80|0|Hajime Kusajima|20,50|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

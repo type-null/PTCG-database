@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo3-1",
+    "name": "Pharamp",
+    "img": "https://assets.tcgdex.net/fr/neo/neo3/1/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "1",
+    "set_total": 66,
+    "rarity": "Rare",
+    "author": [
+        "Toshinao Aoki"
+    ],
+    "pokedex_number": 181,
+    "pokemon_category": "",
+    "flavor_text": "L'extrémité lumineuse de sa queue est visible de très loin. Depuis l'antiquité, elle sert de balise aux gens perdus.",
+    "stage": "Niveau 2",
+    "hp": 90,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Courant d'attraction",
+            "damage": 20,
+            "effect": "Lancez 3 pièces. Pour chaque face, vous pouvez chercher une carte Énergie  dans votre deck et l'attacher à l'un de vos Pokémon . Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Gigavolt",
+            "damage": "40+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires. Si c'est pile, cette attaque inflige 40 dégâts et le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Lainergie",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo3-1"
+        }
+    ],
+    "print_key": "tcgdex:neo3-1",
+    "card_key": "181|90|3|Toshinao Aoki|20,40+|1,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

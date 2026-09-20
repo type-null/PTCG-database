@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base2-43",
+    "name": "Primeape",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Originale",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "43",
+    "set_total": 64,
+    "rarity": "Non comune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 57,
+    "pokemon_category": "",
+    "flavor_text": "Inseguitore tenace e instancabile, non abbandona la preda finché non l'ha catturata.",
+    "stage": "Livello 1",
+    "hp": 70,
+    "types": [
+        "Lotta"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lotta",
+                "Lotta"
+            ],
+            "name": "Sfuriate",
+            "damage": "20x",
+            "effect": "Lancia 3 volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa."
+        },
+        {
+            "cost": [
+                "Lotta",
+                "Lotta",
+                "Incolore"
+            ],
+            "name": "Collera",
+            "damage": 50,
+            "effect": "Lancia una moneta. Se esce croce, Primeape è Confuso (dopo aver inflitto il danno)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Mankey",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base2-43"
+        }
+    ],
+    "print_key": "tcgdex:base2-43",
+    "card_key": "57|70|1|Kagemaru Himeno|20x,50|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/det1-13",
+    "name": "Machamp",
+    "img": "https://assets.tcgdex.net/es/sm/det1/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "det1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/det1/symbol",
+    "set_full_name": "Detective Pikachu",
+    "series": "Sol y Luna",
+    "set_code": "det1",
+    "date": "2019-03-29",
+    "number": "13",
+    "set_total": 18,
+    "rarity": "Rara",
+    "author": [
+        "MPC Film"
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 160,
+    "types": [
+        "Lucha"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lucha"
+            ],
+            "name": "Dirigir el Tráfico",
+            "damage": null,
+            "effect": "Mira las 5 primeras cartas de tu baraja y vuelve a ponerlas en la parte superior de tu baraja en el orden que quieras."
+        },
+        {
+            "cost": [
+                "Lucha",
+                "Lucha"
+            ],
+            "name": "Tajo Cruzado",
+            "damage": "80+",
+            "effect": "Lanza 1 moneda. Si sale cara, este ataque hace 60 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/det1-13"
+        }
+    ],
+    "print_key": "tcgdex:det1-13",
+    "card_key": "68|160|2|MPC Film|None,80+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

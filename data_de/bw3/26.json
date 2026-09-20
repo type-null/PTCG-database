@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw3-26",
+    "name": "Karippas",
+    "img": "https://assets.tcgdex.net/de/bw/bw3/26/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw3",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw3/symbol",
+    "set_full_name": "Königliche Siege",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw3",
+    "date": "2011-11-16",
+    "number": "26",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 565,
+    "pokemon_category": "",
+    "flavor_text": "Es lebt im Meer und an Land. Es ist so stark, dass es mit einem einzigen Hieb ein Loch in ein Schiff reißen kann.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Felskern",
+            "effect": "Wirf 1 Münze, wenn diesem Pokémon durch Angriffe Schaden zugefügt wird. Bei „Kopf“ wird der Schaden um 50 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Knirscher",
+            "damage": 80,
+            "effect": "Lege 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Galapaflos",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw3-26"
+        }
+    ],
+    "print_key": "tcgdex:bw3-26",
+    "card_key": "565|140|4|match|80|4",
+    "types_en": [
+        "Water"
+    ]
+}

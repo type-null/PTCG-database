@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-18",
+    "name": "Armaldo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "18",
+    "set_total": 146,
+    "rarity": "Rare",
+    "author": [
+        "Kazuaki Aihara"
+    ],
+    "pokedex_number": 348,
+    "pokemon_category": "",
+    "flavor_text": "Il a gagné la côte après son évolution. Une armure robuste recouvre son corps.",
+    "stage": "Niveau 2",
+    "hp": 140,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Armure fossile",
+            "effect": "Si une attaque inflige des dégâts à Armaldo, prévenez les dégâts de cette attaque si ces dégâts sont de 60 ou moins."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Éclategriffe",
+            "damage": 60,
+            "effect": "Lors de votre prochain tour, si une attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), cette attaque inflige 40 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "+30"
+    },
+    "retreat": 2,
+    "evolve_from": "Anorith",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-18"
+        }
+    ],
+    "print_key": "tcgdex:dp6-18",
+    "card_key": "348|140|2|Kazuaki Aihara|60|3",
+    "types_en": [
+        "Fighting"
+    ]
+}

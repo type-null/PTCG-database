@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv01-085",
+    "name": "Kirlia",
+    "img": "https://assets.tcgdex.net/de/sv/sv01/085/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Karmesin & Purpur",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "085",
+    "set_total": 258,
+    "rarity": "Häufig",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 281,
+    "pokemon_category": "",
+    "flavor_text": "Seine Psycho-Kräfte erlauben es ihm, den Raum um sich selbst zu verformen und so in die Zukunft zu sehen.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Magischer Schuss",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psychokinese",
+            "damage": "60+",
+            "effect": "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 20 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Trasla",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv01-085"
+        }
+    ],
+    "print_key": "tcgdex:sv01-85",
+    "card_key": "281|90|1|kawayoo|30,60+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

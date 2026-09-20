@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard1-60",
+    "name": "Tartard",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard1/60/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-cards",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "60",
+    "set_total": 165,
+    "rarity": "Rare",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 62,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 100,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Plongeon",
+            "effect": "Une seule fois pendant votre tour (avant votre attaque), si Tartard est sur votre Banc, vous pouvez lancer une pièce. Si c'est face, prenez toutes les cartes Énergie attachées à votre Pokémon Actif, s'il en possède, et attachez-les à Tartard. Échangez ensuite Tartard contre votre Pokémon Actif."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Poing d'O",
+            "damage": "40+",
+            "effect": "Lancez un nombre de pièces équivalent au nombre d'Énergie {W} attachées à Tartard. Cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Têtarte",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard1-60"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-60",
+    "card_key": "62|100|2|Yuka Morii|40+|4",
+    "types_en": [
+        "Water"
+    ]
+}

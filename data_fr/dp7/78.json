@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-78",
+    "name": "Saquedeneu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "78",
+    "set_total": 106,
+    "rarity": "Commune",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 114,
+    "pokemon_category": "",
+    "flavor_text": "Il s'abrite derrière des lianes bleues. Nul n'a jamais vu le visage qu'elles dissimulent.",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Racines",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, cherchez dans votre deck une carte Énergie Grass et attachez-la à Saquedeneu. Ensuite, mélangez votre deck. Prévenez alors tous les effets d'une attaque, dégâts inclus, infligés à Saquedeneu lors du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Chatouille",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Saquedeneu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-78"
+        }
+    ],
+    "print_key": "tcgdex:dp7-78",
+    "card_key": "114|70|1|Yukiko Baba|None,20|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-50",
+    "name": "Demolosse G",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/50/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "SP"
+    ],
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "50",
+    "set_total": 133,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 229,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Cri noir",
+            "damage": 20,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite ou utiliser de Poké-Powers lors du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Entaille",
+            "damage": "40+",
+            "effect": "Vous pouvez défausser une Énergie Darkness attachée à Demolosse . Cette attaque inflige alors 40 dégâts plus 20 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-50"
+        }
+    ],
+    "print_key": "tcgdex:pl1-50",
+    "card_key": "229|90|1|Kent Kanetsuna|20,40+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

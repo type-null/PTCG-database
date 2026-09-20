@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh1-88",
+    "name": "Mushana",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh1/88/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Épée et Bouclier",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "88",
+    "set_total": 216,
+    "rarity": "Rare",
+    "author": [
+        "MAHOU"
+    ],
+    "pokedex_number": 518,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Pouls Léthargique",
+            "damage": null,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Endormi. Pendant le Contrôle Pokémon, votre adversaire lance 2 pièces au lieu d'une. S'il obtient au moins un côté pile, ce Pokémon-là reste Endormi."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Super Hypno-Rafale",
+            "damage": "10+",
+            "effect": "Si le Pokémon Actif de votre adversaire est Endormi, cette attaque inflige 120 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Munna",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh1-88"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-88",
+    "card_key": "518|120|3|MAHOU|None,10+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex10-41",
+    "name": "Magcargo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Verborgene Mächte",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "41",
+    "set_total": 117,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 219,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "Dual Armor",
+            "effect": "As long as Magcargo has any  Energy attached to it, Magcargo is both  and  type."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Smokescreen",
+            "damage": 30,
+            "effect": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Extra Flame",
+            "damage": "40+",
+            "effect": "If the Defending Pokémon is Pokémon-ex, this attack does 40 damage plus 30 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex10-41"
+        }
+    ],
+    "print_key": "tcgdex:ex10-41",
+    "card_key": "219|80|2|Tomokazu Komiya|30,40+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

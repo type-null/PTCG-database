@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw8-13",
+    "name": "Hutsassa",
+    "img": "https://assets.tcgdex.net/de/bw/bw8/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw8",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw8/symbol",
+    "set_full_name": "Plasma-Sturm",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw8",
+    "date": "2013-02-06",
+    "number": "13",
+    "set_total": 138,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 591,
+    "pokemon_category": "",
+    "flavor_text": "Es rüttelt die Hüte an seinen Armen und lockt Beute mit einem Tanz an. Es hält sich bevorzugt an feuchten Orten auf.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Erstauner",
+            "damage": null,
+            "effect": "Wirf 1 Münze. Wähle bei „Kopf“ 3 zufällige Karten aus der verdeckten Hand deines Gegners. Dein Gegner zeigt diese Karten und mischt sie zurück in sein Deck."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Wunderstaub",
+            "damage": 30,
+            "effect": "Wirf 1 Münze. Wähle bei „Kopf“ 1 Speziellen Zustand. Das Verteidigende Pokémon ist jetzt vom diesem Speziellen Zustand betroffen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Tarnpignon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw8-13"
+        }
+    ],
+    "print_key": "tcgdex:bw8-13",
+    "card_key": "591|90|2|5ban Graphics|None,30|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

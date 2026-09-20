@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-1",
+    "name": "Simsala",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "1",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 65,
+    "pokemon_category": "",
+    "flavor_text": "Sein Gehirn übertrifft einen Supercomputer. Sein Intelligenzquotient soll 5000 betragen.",
+    "stage": "Rang 2",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Schadenstausch",
+            "effect": "Bist Du am Zug, kannst Du (vor Deinem Angriff) beliebig oft eine Schadensmarke von einem Deiner Pokémon auf ein anderes verschieben, solange Du dieses Pokémon nicht kampfunfähig machst. Diese Fähigkeit kann nicht eingesetzt werden, falls Simsala schlafend, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Konfustrahl",
+            "damage": 30,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Kadabra",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-1"
+        }
+    ],
+    "print_key": "tcgdex:base1-1",
+    "card_key": "65|80|3|Ken Sugimori|30|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

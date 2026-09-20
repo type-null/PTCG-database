@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base5-6",
+    "name": "Dunkles Digdri",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Grund",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "6",
+    "set_total": 83,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 51,
+    "pokemon_category": "",
+    "flavor_text": "Gräbt riesige Löcher in die Erde und versucht seinen Gegnern damit eine Falle zu stellen.",
+    "stage": "Rang 1",
+    "hp": 50,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Erdloch",
+            "effect": "Jedesmal, wenn sich das aktive Pokémon deines Gegners zurückzieht, wirft dein Gegner eine Münze. Bei „Zahl“ fügt diese Fähigkeit diesem Pokémon 20 Schadenspunkte zu. (Schwäche und Resistenz nicht anwenden.) Diese Fähigkeit verliert ihre Wirkung, solange Dunkles Digdri schläft, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Niederreissen",
+            "damage": "20+",
+            "effect": "Dein Gegner wirft eine Münze. Bei „Zahl“ fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Digda",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base5-6"
+        }
+    ],
+    "print_key": "tcgdex:base5-6",
+    "card_key": "51|50|2|Kagemaru Himeno|20+|2",
+    "types_en": [
+        "Fighting"
+    ]
+}

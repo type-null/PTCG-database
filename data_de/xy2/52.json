@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy2-52",
+    "name": "Snibunna",
+    "img": "https://assets.tcgdex.net/de/xy/xy2/52/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy2",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy2/symbol",
+    "set_full_name": "Flammenmeer",
+    "series": "XY",
+    "set_code": "xy2",
+    "date": "2014-05-07",
+    "number": "52",
+    "set_total": 110,
+    "rarity": "Selten",
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "pokedex_number": 461,
+    "pokemon_category": "",
+    "flavor_text": "Es lebt in schneereichen Gebieten. Snibunna senden einander Signale, indem sie Zeichen in Rinde ritzen.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Familienruf",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Reißer",
+            "damage": "60+",
+            "effect": "Wenn auf dem Aktiven Pokémon deines Gegners bereits mindestens 1 Schadensmarke liegt, fügt dieser Angriff 30 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Sniebel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy2-52"
+        }
+    ],
+    "print_key": "tcgdex:xy2-52",
+    "card_key": "461|90|1|Shigenori Negishi|None,60+|1,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

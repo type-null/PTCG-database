@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swshp-SWSH174",
+    "name": "Espeon",
+    "img": "https://assets.tcgdex.net/es/swsh/swshp/SWSH174/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "E",
+    "set_name": "swshp",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swshp/symbol",
+    "set_full_name": "Cartas de promoción ESES",
+    "series": "Espada y Escudo",
+    "set_code": "swshp",
+    "date": "2019-11-15",
+    "number": "SWSH174",
+    "set_total": 307,
+    "rarity": "Promo",
+    "pokedex_number": 196,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 110,
+    "types": [
+        "Psíquico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psíquico"
+            ],
+            "name": "Rayo Psi",
+            "damage": 20,
+            "effect": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Incolora"
+            ],
+            "name": "Psíquico",
+            "damage": "10+",
+            "effect": "Este ataque hace 40 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscura"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swshp-SWSH174"
+        }
+    ],
+    "print_key": "tcgdex:swshp-SWSH174",
+    "types_en": [
+        "Psychic"
+    ]
+}

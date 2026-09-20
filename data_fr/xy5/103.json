@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy5-103",
+    "name": "Azumarill",
+    "img": "https://assets.tcgdex.net/fr/xy/xy5/103/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Primo-Choc",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "103",
+    "set_total": 164,
+    "rarity": "Rare",
+    "author": [
+        "MAHOU"
+    ],
+    "pokedex_number": 184,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Fée"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Bulles d'O",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Fée",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Surpuissance",
+            "damage": "60+",
+            "effect": "Vous pouvez infliger 30 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige 30 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Métal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Marill",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy5-103"
+        }
+    ],
+    "print_key": "tcgdex:xy5-103",
+    "card_key": "184|90|2|MAHOU|30,60+|2,3",
+    "types_en": [
+        "Fairy"
+    ]
+}

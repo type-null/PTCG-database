@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sv01-212",
+    "name": "Kirlia",
+    "img": "https://assets.tcgdex.net/es/sv/sv01/212/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Escarlata y Púrpura",
+    "series": "Escarlata y Púrpura",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "212",
+    "set_total": 258,
+    "rarity": "Rara Ilustración",
+    "author": [
+        "Jiro Sasumo"
+    ],
+    "pokedex_number": 281,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 90,
+    "types": [
+        "Psíquico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psíquico",
+                "Incolora"
+            ],
+            "name": "Disparo Mágico",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Psíquico",
+                "Incolora"
+            ],
+            "name": "Psíquico",
+            "damage": "60+",
+            "effect": "Este ataque hace 20 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscura"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sv01-212"
+        }
+    ],
+    "print_key": "tcgdex:sv01-212",
+    "card_key": "281|90|1|Jiro Sasumo|30,60+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

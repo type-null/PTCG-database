@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy4-71",
+    "name": "Diancie",
+    "img": "https://assets.tcgdex.net/de/xy/xy4/71/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy4",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy4/symbol",
+    "set_full_name": "Phantomkräfte",
+    "series": "XY",
+    "set_code": "xy4",
+    "date": "2014-11-05",
+    "number": "71",
+    "set_total": 124,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 719,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon ist eine Mutation von Rocara. Sein rosafarben schimmernder Körper gilt als schönster Anblick überhaupt.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Fee"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fee"
+            ],
+            "name": "Glitzern",
+            "damage": null,
+            "effect": "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
+        },
+        {
+            "cost": [
+                "Fee",
+                "Fee",
+                "Farblos"
+            ],
+            "name": "Diamantsturm",
+            "damage": 60,
+            "effect": "Heile 30 Schadenspunkte bei jedem deiner {FAIRY}-Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy4-71"
+        }
+    ],
+    "print_key": "tcgdex:xy4-71",
+    "card_key": "719|90|1|5ban Graphics|None,60|1,3",
+    "types_en": [
+        "Fairy"
+    ]
+}

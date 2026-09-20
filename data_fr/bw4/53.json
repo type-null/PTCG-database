@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw4-53",
+    "name": "Grotadmorv",
+    "img": "https://assets.tcgdex.net/fr/bw/bw4/53/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw4",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw4/symbol",
+    "set_full_name": "Destinées Futures",
+    "series": "Noir & Blanc",
+    "set_code": "bw4",
+    "date": "2012-02-08",
+    "number": "53",
+    "set_total": 103,
+    "rarity": "Rare",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 89,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Enveloppe Douce",
+            "damage": 20,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Sécrétion Toxique",
+            "damage": 60,
+            "effect": "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Tadmorv",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw4-53"
+        }
+    ],
+    "print_key": "tcgdex:bw4-53",
+    "card_key": "89|110|4|match|20,60|2,4",
+    "types_en": [
+        "Psychic"
+    ]
+}

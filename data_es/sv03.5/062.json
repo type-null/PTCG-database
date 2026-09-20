@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sv03.5-062",
+    "name": "Poliwrath",
+    "img": "https://assets.tcgdex.net/es/sv/sv03.5/062/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "G",
+    "set_name": "sv03.5",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03.5/symbol",
+    "set_full_name": "151",
+    "series": "Escarlata y Púrpura",
+    "set_code": "sv03.5",
+    "date": "2023-09-22",
+    "number": "062",
+    "set_total": 207,
+    "rarity": "Uncommon",
+    "author": [
+        "Kurata So"
+    ],
+    "pokedex_number": 62,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 160,
+    "types": [
+        "Agua"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Agua"
+            ],
+            "name": "Rayo Burbuja",
+            "damage": 50,
+            "effect": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado."
+        },
+        {
+            "cost": [
+                "Agua",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Puño Heroico",
+            "damage": "100+",
+            "effect": "Lanza 1 moneda. Si sale cara, este ataque hace 150 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Rayo"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Poliwhirl",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sv03.5-062"
+        }
+    ],
+    "print_key": "tcgdex:sv03.5-62",
+    "card_key": "62|160|2|Kurata So|50,100+|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/col1-SL11",
+    "name": "Suicune",
+    "img": "https://assets.tcgdex.net/de/col/col1/SL11/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "Ruf der Legenden",
+    "series": "Ruf der Legenden",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "SL11",
+    "set_total": 106,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Ayaka Yoshida"
+    ],
+    "pokedex_number": 245,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon jagt über das Land. Man sagt, der kalte Nordwind begleite es auf seinen Wegen.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Turbotempo",
+            "effect": "Die Rückzugskosten von Suicune verringern sich für jede an Suicune angelegte {W}-Energie um {C}."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Tsunami",
+            "damage": null,
+            "effect": "Dieser Angriff fügt jedem Pokémon deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/col1-SL11"
+        }
+    ],
+    "print_key": "tcgdex:col1-SL11",
+    "card_key": "245|90|2|Ayaka Yoshida|None|3",
+    "types_en": [
+        "Water"
+    ]
+}

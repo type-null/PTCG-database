@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm2-111",
+    "name": "Flambusard",
+    "img": "https://assets.tcgdex.net/fr/sm/sm2/111/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Gardiens Ascendants",
+    "series": "Soleil et Lune",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "111",
+    "set_total": 169,
+    "rarity": "Rare",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 663,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 130,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Nitrocharge",
+            "damage": 30,
+            "effect": "Cherchez une carte Énergie Fire dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Looping",
+            "damage": 90,
+            "effect": "Placez toutes les Énergies attachées à ce Pokémon dans votre main."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Braisillon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm2-111"
+        }
+    ],
+    "print_key": "tcgdex:sm2-111",
+    "card_key": "663|130|0|Shin Nagasawa|30,90|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-16",
+    "name": "Drifzepeli",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "16",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 426,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Anlieferung",
+            "damage": null,
+            "effect": "Wähle 1 Karte aus deinem Ablagestapel und nimm sie auf deine Hand."
+        },
+        {
+            "cost": [],
+            "name": "Hochziehen",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon-Karten und lege sie auf deine Bank. Für jedes Basis-Pokémon, das du auf diese Weise auf deine Bank gelegt hast, kannst du dein Deck nach 1 Basis-Energiekarte durchsuchen und an dieses Pokémon anlegen. Mische dein Deck danach."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Unheilböen",
+            "damage": 40,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt und kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "evolve_from": "Driftlon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-16"
+        }
+    ],
+    "print_key": "tcgdex:dp7-16",
+    "card_key": "426|90|None|Hajime Kusajima|None,None,40|0,0,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

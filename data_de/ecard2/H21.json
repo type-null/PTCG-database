@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard2-H21",
+    "name": "Scherox",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-Card",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "H21",
+    "set_total": 186,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 212,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Giftresistenz",
+            "effect": "Scherox kann nicht vergiftet werden."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Haschen",
+            "damage": 20,
+            "effect": "Bevor Schaden zugefügt wird, kannst du 1 der Pokémon auf der Bank deines Gegners wählen, auf dem keine Schadensmarken liegen, und es mit dem Verteidigenden Pokémon austauschen."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schwermetall",
+            "damage": "30+",
+            "effect": "Wirf so viele Münzen, wie {M}-Energie an Scherox angelegt ist. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte pro geworfenem „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Sichlor",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard2-H21"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-H21",
+    "card_key": "212|80|2|Hisao Nakamura|20,30+|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

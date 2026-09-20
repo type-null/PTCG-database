@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm5-50",
+    "name": "Rotom",
+    "img": "https://assets.tcgdex.net/de/sm/sm5/50/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultra-Prisma",
+    "series": "Sonne & Mond",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "50",
+    "set_total": 173,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 479,
+    "pokemon_category": "",
+    "flavor_text": "Sein Körper besteht aus Plasma. Mit ihm kann es in elektrische Geräte eindringen und für Chaos sorgen.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Roto-Motor",
+            "effect": "Wenn du 9 Pokémon-Ausrüstungen oder mehr in deinem Ablagestapel hast, ignoriere alle Energien in den Attackenkosten jeder Attacke dieses Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Plasmaschnitt",
+            "damage": 120,
+            "effect": "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm5-50"
+        }
+    ],
+    "print_key": "tcgdex:sm5-50",
+    "card_key": "479|70|1|Naoyo Kimura|120|3",
+    "types_en": [
+        "Lightning"
+    ]
+}

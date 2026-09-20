@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp2-11",
+    "name": "Lumineon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Geheimnisvolle Schätze",
+    "series": "Diamant & Perl",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "11",
+    "set_total": 124,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 457,
+    "pokemon_category": "",
+    "flavor_text": "Es lebt tief auf dem Meeresboden. Das blinkende Muster auf seinen vier Rückenflossen zieht Beute an.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Lockring",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Lumineon dein Aktives Pokémon ist, 1 Pokémon auf der Bank deines Gegners wählen, dessen Grund-KP 100 oder mehr betragen, und es gegen 1 Verteidigendes Pokémon austauschen. Diese Poké-Power kann nicht benutzt werden, wenn Lumineon von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Gegenströmung",
+            "damage": "30+",
+            "effect": "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Lumineon angelegte {W}-Energie zu. Danach nimm alle an Lumineon angelegte {W}-Energie zurück auf deine Hand."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Finneon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp2-11"
+        }
+    ],
+    "print_key": "tcgdex:dp2-11",
+    "card_key": "457|80|1|Mitsuhiro Arita|30+|2",
+    "types_en": [
+        "Water"
+    ]
+}

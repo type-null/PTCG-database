@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh5-84",
+    "name": "Dolman",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh5/84/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "E",
+    "set_name": "swsh5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh5/symbol",
+    "set_full_name": "Styles de combat",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh5",
+    "date": "2021-03-19",
+    "number": "84",
+    "set_total": 183,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 874,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Vibration Terrestre",
+            "damage": "30+",
+            "effect": "Si un Stade est en jeu, cette attaque inflige 30 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Giga Marteau",
+            "damage": 120,
+            "effect": "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Giga Marteau."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh5-84"
+        }
+    ],
+    "print_key": "tcgdex:swsh5-84",
+    "card_key": "874|130|3|Masakazu Fukuda|30+,120|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

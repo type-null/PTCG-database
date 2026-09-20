@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/30th-c-016",
+    "name": "Rayquaza EX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "30th-c",
+    "set_full_name": "Colección Clásica del 30.º Aniversario",
+    "series": "Megaevolución",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "016",
+    "set_total": 30,
+    "rarity": "Ninguno",
+    "author": [
+        "Eske Yoshinob"
+    ],
+    "stage": "Básico",
+    "hp": 170,
+    "types": [
+        "Dragón"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolora"
+            ],
+            "name": "Rugido Celestial",
+            "damage": null,
+            "effect": "Descarta las 3 primeras cartas de tu baraja. Si entre esas cartas hay cartas de Energía, únelas a este Pokémon."
+        },
+        {
+            "cost": [
+                "Fuego",
+                "Rayo"
+            ],
+            "name": "Explosión Dragón",
+            "damage": "60×",
+            "effect": "Descarta todas las Energías Básicas <span class=\"energy-symbol Fire\" title=\"Fuego\">Fire</span> o todas las Energías Básicas <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> unidas a este Pokémon. Este ataque hace 60 puntos de daño por cada carta de Energía que hayas descartado."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Dragón"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/30th-c-016"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-16",
+    "card_key": "384|170|1|Eske Yoshinob|None,60x|1,2",
+    "types_en": [
+        "Dragon"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy2-68",
+    "name": "Rocara",
+    "img": "https://assets.tcgdex.net/de/xy/xy2/68/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy2",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy2/symbol",
+    "set_full_name": "Flammenmeer",
+    "series": "XY",
+    "set_code": "xy2",
+    "date": "2014-05-07",
+    "number": "68",
+    "set_total": 110,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 703,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon entstand aus Druck und Hitze in den tiefsten Erdschichten. Mithilfe des Steines in seinem Kopf feuert es Energiestrahlen ab.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Fee"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fee"
+            ],
+            "name": "Kristallbarriere",
+            "damage": null,
+            "effect": "Wirf 1 Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wunderknall",
+            "damage": "40+",
+            "effect": "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte {FAIRY}-Energie zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy2-68"
+        }
+    ],
+    "print_key": "tcgdex:xy2-68",
+    "card_key": "703|70|2|5ban Graphics|None,40+|1,3",
+    "types_en": [
+        "Fairy"
+    ]
+}

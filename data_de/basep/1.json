@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/basep-1",
+    "name": "Pikachu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "basep",
+    "set_img": "https://assets.tcgdex.net/univ/base/basep/symbol",
+    "set_full_name": "Wizards Black Star Promos",
+    "series": "Grund",
+    "set_code": "basep",
+    "date": "1999-07-01",
+    "number": "1",
+    "set_total": 53,
+    "rarity": "Häufig",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "flavor_text": "Wenn mehrere dieser Pokémon sich versammeln, kann ihre gesammelte Elektrizität sogar Gewitter verursachen.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Heuler",
+            "damage": null,
+            "effect": "Falls das verteidigende Pokémon Pikachu während des nächsten gegnerischen Zuges angreift, werden die Schadenspunkte dieses Angriffs um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz abgerechnet wurden). (Wenn einer der beiden Pokémon auf die Bank geht, ist dieser Effekt somit beendet.)"
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Donnerschock",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/basep-1"
+        }
+    ],
+    "print_key": "tcgdex:basep-1",
+    "card_key": "25|60|1|Keiji Kinebuchi|None,20|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

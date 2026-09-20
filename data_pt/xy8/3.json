@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/xy8-3",
+    "name": "Pinsir",
+    "img": "https://assets.tcgdex.net/pt/xy/xy8/3/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "set_name": "xy8",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy8/symbol",
+    "set_full_name": "Turbo Revolução",
+    "series": "XY",
+    "set_code": "xy8",
+    "date": "2015-11-04",
+    "number": "3",
+    "set_total": 165,
+    "rarity": "Incomum",
+    "author": [
+        "Satoshi Shirai"
+    ],
+    "pokedex_number": 127,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 100,
+    "types": [
+        "Planta"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Planta"
+            ],
+            "name": "Arremessar por Cima",
+            "damage": 30,
+            "effect": "Este ataque causa 20 de danos a 1 dos seus Pokémon no Banco. (Não aplique Fraqueza e Resistência a Pokémon no Banco.)"
+        },
+        {
+            "cost": [
+                "Planta",
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Suplex Pesado",
+            "damage": "40+",
+            "effect": "Este ataque causa 20 de danos adicionais para cada Colorless no Custo para Recuar do Pokémon Ativo do seu oponente."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fogo"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/xy8-3"
+        }
+    ],
+    "print_key": "tcgdex:xy8-3",
+    "card_key": "127|100|2|Satoshi Shirai|30,40+|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

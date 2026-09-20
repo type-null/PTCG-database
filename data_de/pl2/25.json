@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-25",
+    "name": "Hippoterus",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "25",
+    "set_total": 120,
+    "rarity": "Selten",
+    "author": [
+        "Tomoaki Imakuni"
+    ],
+    "pokedex_number": 450,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Sanddeckung",
+            "effect": "Solange Hippoterus dein Aktives Pokémon ist, lege zwischen den Zügen 1 Schadensmarke auf jedes Pokémon LV.X deines Gegners."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Sandspeicher",
+            "damage": "20+",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Hippoterus angelegte Energie zu. Bevor der Schaden zugefügt wird kannst du deinen Ablagestapel nach einer {F}-Energiekarte durchsuchen und sie an Hippoterus anlegen."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Untergrundbeben",
+            "damage": 80,
+            "effect": "Dieser Angriff fügt allen Pokémon (deinen und denen deines Gegners) auf der Bank, die keine entwickelten Pokémon sind, 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Hippopotas",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-25"
+        }
+    ],
+    "print_key": "tcgdex:pl2-25",
+    "card_key": "450|110|4|Tomoaki Imakuni|20+,80|1,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

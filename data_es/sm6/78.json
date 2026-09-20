@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm6-78",
+    "name": "Pangoro",
+    "img": "https://assets.tcgdex.net/es/sm/sm6/78/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "sm6",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm6/symbol",
+    "set_full_name": "Luz Prohibida",
+    "series": "Sol y Luna",
+    "set_code": "sm6",
+    "date": "2018-05-04",
+    "number": "78",
+    "set_total": 146,
+    "rarity": "Rara",
+    "author": [
+        "SATOSHI NAKAI"
+    ],
+    "pokedex_number": 675,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 130,
+    "types": [
+        "Oscura"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Oscura",
+                "Incolora"
+            ],
+            "name": "Golpe Salvaje",
+            "damage": "50+",
+            "effect": "Si este Pokémon tiene algún contador de daño sobre él, este ataque hace 50 puntos de daño más, y ambos Pokémon Activos pasan a estar Confundidos."
+        },
+        {
+            "cost": [
+                "Oscura",
+                "Oscura",
+                "Incolora"
+            ],
+            "name": "Pisotón Doble",
+            "damage": "80+",
+            "effect": "Lanza 2 monedas. Este ataque hace 40 puntos de daño más por cada cara."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm6-78"
+        }
+    ],
+    "print_key": "tcgdex:sm6-78",
+    "card_key": "675|130|3|SATOSHI NAKAI|50+,80+|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

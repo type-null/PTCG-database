@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy3-30",
+    "name": "Élekable",
+    "img": "https://assets.tcgdex.net/fr/xy/xy3/30/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy3",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy3/symbol",
+    "set_full_name": "Poings Furieux",
+    "series": "XY",
+    "set_code": "xy3",
+    "date": "2014-08-13",
+    "number": "30",
+    "set_total": 114,
+    "rarity": "Rare",
+    "author": [
+        "PLANETA"
+    ],
+    "pokedex_number": 466,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Étincelle Groupée",
+            "damage": "20+",
+            "effect": "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie attachée à vos Maganon."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Gigavolt",
+            "damage": "60+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires. Si c'est pile, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Élektek",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy3-30"
+        }
+    ],
+    "print_key": "tcgdex:xy3-30",
+    "card_key": "466|120|3|PLANETA|20+,60+|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp1-18",
+    "name": "Azumarill",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perl",
+    "series": "Diamant & Perl",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "18",
+    "set_total": 130,
+    "rarity": "Selten",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 184,
+    "pokemon_category": "",
+    "flavor_text": "Es lebt in Flüssen und Seen. Im Wasser verwirrt es seine Gegner durch seine Farbe und Muster.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Einigler",
+            "damage": null,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ verhindere allen Schaden, der Azumarill während des nächsten Zuges deines Gegners zugefügt wird."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Blubbpumpe",
+            "damage": "40+",
+            "effect": "Wenn an Azumarill 3 oder mehr Energien angelegt sind, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu. Wenn Azurill sich an beliebiger Stelle unter Azumarill befindet, wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Marill",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp1-18"
+        }
+    ],
+    "print_key": "tcgdex:dp1-18",
+    "card_key": "184|80|2|Naoyo Kimura|None,40+|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy1-53",
+    "name": "Cerapendra",
+    "img": "https://assets.tcgdex.net/de/xy/xy1/53/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy1/symbol",
+    "set_full_name": "XY",
+    "series": "XY",
+    "set_code": "xy1",
+    "date": "2014-02-05",
+    "number": "53",
+    "set_total": 146,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 545,
+    "pokemon_category": "",
+    "flavor_text": "Lähmt seine Beute,indem es sie mit den Zacken an seinem Hals aufspießt. Mit einer Ladung Gift gibt es ihr den Rest.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Zufälliger Schnabelhieb",
+            "damage": "20+",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Giftring",
+            "damage": 70,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Dieses Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Rollum",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy1-53"
+        }
+    ],
+    "print_key": "tcgdex:xy1-53",
+    "card_key": "545|150|3|Mitsuhiro Arita|20+,70|1,4",
+    "types_en": [
+        "Psychic"
+    ]
+}

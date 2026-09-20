@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv01-116",
+    "name": "Escroco",
+    "img": "https://assets.tcgdex.net/fr/sv/sv01/116/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Écarlate et Violet",
+    "series": "Écarlate et Violet",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "116",
+    "set_total": 258,
+    "rarity": "Commune",
+    "author": [
+        "kantaro"
+    ],
+    "pokedex_number": 552,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Représailles",
+            "damage": "30+",
+            "effect": "S'il reste exactement une carte Récompense à votre adversaire, cette attaque inflige 90 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Poing Tire-Bouchon",
+            "damage": 60,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Mascaïman",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv01-116"
+        }
+    ],
+    "print_key": "tcgdex:sv01-116",
+    "card_key": "552|100|2|kantaro|30+,60|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

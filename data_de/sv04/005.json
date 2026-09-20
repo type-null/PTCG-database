@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv04-005",
+    "name": "Vegichita",
+    "img": "https://assets.tcgdex.net/de/sv/sv04/005/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv04",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04/symbol",
+    "set_full_name": "Paradoxrift",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv04",
+    "date": "2023-11-03",
+    "number": "005",
+    "set_total": 266,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kurata So"
+    ],
+    "pokedex_number": 512,
+    "pokemon_category": "",
+    "flavor_text": "Ein hitziger Geselle, der im Kampf seinen dornigen Schweif umherschwingt. Auf seinem Kopf wachsen bittere Kräuter.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Affentrio",
+            "effect": "Wenn du Vegichita, Grillchita und Sodachita im Spiel hast, ignoriere alle {C}-Energien in den Kosten der von diesem Pokémon eingesetzten Attacken."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Armstoßnadel",
+            "damage": 100,
+            "effect": "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von Pokémon, die eine Fähigkeit haben, zugefügt wird, außer Vegichita."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Vegimak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv04-005"
+        }
+    ],
+    "print_key": "tcgdex:sv04-5",
+    "card_key": "512|100|1|Kurata So|100|3",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm7-82",
+    "name": "Trépassable GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm7/82/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm7",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm7/symbol",
+    "set_full_name": "Tempête Céleste",
+    "series": "Soleil et Lune",
+    "set_code": "sm7",
+    "date": "2018-08-03",
+    "number": "82",
+    "set_total": 183,
+    "rarity": "Ultra Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 770,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 210,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Lumière Étrange",
+            "damage": 60,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Absorption",
+            "damage": 100,
+            "effect": "Soignez 20 dégâts à ce Pokémon."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Crainte Ensablée GX",
+            "damage": "60×",
+            "effect": "Regardez les 13 cartes du dessus du deck de votre adversaire et défaussez-en autant de Pokémon que vous voulez. Cette attaque inflige 60 dégâts pour chaque carte défaussée de cette façon. Votre adversaire mélange les autres cartes avec son deck. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Bacabouh",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm7-82"
+        }
+    ],
+    "print_key": "tcgdex:sm7-82",
+    "card_key": "770|210|4|5ban Graphics|60,100,60x|3,4,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

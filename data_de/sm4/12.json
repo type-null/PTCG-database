@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm4-12",
+    "name": "Alola-Knogga",
+    "img": "https://assets.tcgdex.net/de/sm/sm4/12/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Aufziehen der Sturmröte",
+    "series": "Sonne & Mond",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "12",
+    "set_total": 125,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 105,
+    "pokemon_category": "",
+    "flavor_text": "Die Knochen in seinem Besitz stammen von der Mutter. Nach ihrem Tod wurde ihre Trauer zu Flammen, die Knogga nun schützen.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Tanz der Flammen",
+            "damage": null,
+            "effect": "Lege für jede an die Pokémon deines Gegners angelegte Energie 1 {R}-Energiekarte aus deinem Ablagestapel beliebig an deine Pokémon an."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Brennender Knochmerang",
+            "damage": "70×",
+            "effect": "Wirf 2 Münzen. Diese Attacke fügt 70 Schadenspunkte pro Kopf zu. Wenn eine oder beide Münzen Kopf zeigen, ist das Aktive Pokémon deines Gegners jetzt verbrannt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Tragosso",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm4-12"
+        }
+    ],
+    "print_key": "tcgdex:sm4-12",
+    "card_key": "105|100|2|Mitsuhiro Arita|None,70x|0,3",
+    "types_en": [
+        "Fire"
+    ]
+}

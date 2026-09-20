@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard1-42",
+    "name": "Crustabri",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard1/42/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-cards",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "42",
+    "set_total": 165,
+    "rarity": "Rare",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 91,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Léchouille",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tir automatique",
+            "damage": "20×",
+            "effect": "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Métal"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Kokiyas",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard1-42"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-42",
+    "card_key": "91|80|2|Kyoko Umemoto|10,20x|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

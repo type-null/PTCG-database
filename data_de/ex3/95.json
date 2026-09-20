@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex3-95",
+    "name": "Magcargo-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Drache",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "95",
+    "set_total": 100,
+    "rarity": "Selten",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 219,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Schmelzender Berg",
+            "damage": 20,
+            "effect": "Lege die oberste Karte von deinem Deck auf deinen Ablagestapel. Falls diese Karte eine Energiekarte ist, lege sie an Magcargo ex an."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Lavaschub",
+            "damage": "40+",
+            "effect": "Du kannst eine beliebige Anzahl an Magcargo ex angelegte Basis-Energiekarten auf deinen Ablagestapel legen, wenn du diesen Angriff verwendest. Wenn du das machst, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte für jede auf diese Weise abgelegte Basis-Energiekarte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "x2"
+    },
+    "retreat": 3,
+    "evolve_from": "Schneckmag",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex3-95"
+        }
+    ],
+    "print_key": "tcgdex:ex3-95",
+    "card_key": "219|100|3|Hikaru Koike|20,40+|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

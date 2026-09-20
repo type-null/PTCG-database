@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm2-65",
+    "name": "Mackogneur",
+    "img": "https://assets.tcgdex.net/fr/sm/sm2/65/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Gardiens Ascendants",
+    "series": "Soleil et Lune",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "65",
+    "set_total": 169,
+    "rarity": "Rare",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 160,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Règlement de Comptes",
+            "damage": "20+",
+            "effect": "Cette attaque inflige 80 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée lors de son dernier tour."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Combat"
+            ],
+            "name": "Sacrifice",
+            "damage": 150,
+            "effect": "Ce Pokémon s’inflige 30 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Machopeur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm2-65"
+        }
+    ],
+    "print_key": "tcgdex:sm2-65",
+    "card_key": "68|160|3|Hitoshi Ariga|20+,150|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

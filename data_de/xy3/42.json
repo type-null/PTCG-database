@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy3-42",
+    "name": "Golbit",
+    "img": "https://assets.tcgdex.net/de/xy/xy3/42/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy3",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy3/symbol",
+    "set_full_name": "Fliegende Fäuste",
+    "series": "XY",
+    "set_code": "xy3",
+    "date": "2014-08-13",
+    "number": "42",
+    "set_total": 114,
+    "rarity": "Häufig",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 622,
+    "pokemon_category": "",
+    "flavor_text": "Es wird durch eine Energie angetrieben, die seinem Körper entspringt. Keiner weiß jedoch, woher diese Energie stammt.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Pfund",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zertrümmerer",
+            "damage": "30+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy3-42"
+        }
+    ],
+    "print_key": "tcgdex:xy3-42",
+    "card_key": "622|90|3|Sumiyoshi Kizuki|20,30+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

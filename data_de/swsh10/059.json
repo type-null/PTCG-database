@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh10-059",
+    "name": "Traunmagil",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh10/059/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh10",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh10/symbol",
+    "set_full_name": "Astralglanz",
+    "series": "Schwert & Schild",
+    "set_code": "swsh10",
+    "date": "2022-05-27",
+    "number": "059",
+    "set_total": 216,
+    "rarity": "Selten",
+    "author": [
+        "Ligton"
+    ],
+    "pokedex_number": 429,
+    "pokemon_category": "",
+    "flavor_text": "Es verursacht schreckliche Qualen, indem es Flüche flüstert, die schlimme Kopfschmerzen und fürchterliche Halluzinationen auslösen.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Ominöse Worte",
+            "damage": null,
+            "effect": "Dein Gegner zeigt dir seine Handkarten. Wenn er 4 oder mehr Karten auf seiner Hand hat, wähle alle bis auf 3, und dein Gegner mischt die gewählten Karten in sein Deck."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psystrahl",
+            "damage": 50,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Traunfugil",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh10-059"
+        }
+    ],
+    "print_key": "tcgdex:swsh10-59",
+    "card_key": "429|90|1|Ligton|None,50|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

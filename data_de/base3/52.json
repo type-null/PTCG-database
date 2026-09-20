@@ -1,0 +1,61 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base3-52",
+    "name": "Amonitas",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base3",
+    "set_img": "https://assets.tcgdex.net/univ/base/base3/symbol",
+    "set_full_name": "Fossil",
+    "series": "Grund",
+    "set_code": "base3",
+    "date": "1999-10-10",
+    "number": "52",
+    "set_total": 62,
+    "rarity": "Häufig",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 138,
+    "pokemon_category": "",
+    "flavor_text": "Obwohl es schon ewig ausgestorben ist, kann es in seltenen Fällen genetisch aus Fossilien wiederbelebt werden.",
+    "stage": "Rang 1",
+    "hp": 40,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Hellseherei",
+            "effect": "Dein Gegner spielt mit einer offenen Hand. Diese Fähigkeit verliert ihre Wirkung, solange Amonitas schläft, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Aquaknarre",
+            "damage": "10+",
+            "effect": "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Amonitas abgelegte {W}-Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich nicht mehr als 20 Schadenspunkte auf diese Art und Weise hinzufügen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base3-52"
+        }
+    ],
+    "print_key": "tcgdex:base3-52",
+    "card_key": "138|40|1|Kagemaru Himeno|10+|1",
+    "types_en": [
+        "Water"
+    ]
+}

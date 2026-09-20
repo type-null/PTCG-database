@@ -1,0 +1,83 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm3.5-75",
+    "name": "Raichu GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm3.5",
+    "set_full_name": "Légendes Brillantes",
+    "series": "Soleil et Lune",
+    "set_code": "sm3.5",
+    "date": "2017-10-06",
+    "number": "75",
+    "set_total": 78,
+    "rarity": "Magnifique rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "hp": 210,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Étincelle Puissante",
+            "damage": "20+",
+            "effect": "Cette attaque inflige 20 dégâts supplémentaires multipliés par le nombre d’Énergies Lightning attachées à vos Pokémon."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Fatal-Foudre",
+            "damage": 160,
+            "effect": "Ce Pokémon s’inflige 30 dégâts."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Queue Survoltée GX",
+            "damage": 120,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Paralysé. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm3.5-75"
+        }
+    ],
+    "print_key": "tcgdex:sm3.5-75",
+    "card_key": "26|210|1|5ban Graphics|20+,160,120|2,3,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

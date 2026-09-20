@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex11-55",
+    "name": "Panzaeron",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex11",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex11/symbol",
+    "set_full_name": "EX Delta Species",
+    "series": "EX",
+    "set_code": "ex11",
+    "date": "2005-10-31",
+    "number": "55",
+    "set_total": 114,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 227,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Shining Horn",
+            "effect": "As long as Skarmory is the only Pokémon you have in play, your opponent's Basic Pokémon can't attack."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Cry for Help",
+            "damage": null,
+            "effect": "Search your deck for a  Pokémon (excluding Pokémon-ex), show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Steel Wing",
+            "damage": 20,
+            "effect": "During your opponent's next turn, any damage done to Skarmory by attacks is reduced by 20 (after applying Weakness and Resistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex11-55"
+        }
+    ],
+    "print_key": "tcgdex:ex11-55",
+    "card_key": "227|70|1|Hisao Nakamura|None,20|1,2",
+    "types_en": [
+        "Metal"
+    ]
+}

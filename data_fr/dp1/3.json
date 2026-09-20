@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-3",
+    "name": "Élekable",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "3",
+    "set_total": 130,
+    "rarity": "Rare Holo",
+    "author": [
+        "Nakaoka"
+    ],
+    "pokedex_number": 466,
+    "pokemon_category": "",
+    "flavor_text": "Il place le bout de ses deux queues sur son ennemi et libère une décharge de 20 000 volts.",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Voltage intense",
+            "effect": "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), si Elekid se trouve sous Elekable, vous pouvez déplacer une Énergie Lightning attachée à votre Pokémon et la placer sur Elekable. Ce pouvoir ne peut pas être utilisé si Elekable est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Giga Impact",
+            "damage": 60,
+            "effect": "Vous pouvez défausser toutes les Énergies Lightning attachées à Elekable. Les dégâts de base de cette attaque sont alors de 120 au lieu de 60."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Elektek",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-3"
+        }
+    ],
+    "print_key": "tcgdex:dp1-3",
+    "card_key": "466|100|3|Nakaoka|60|4",
+    "types_en": [
+        "Lightning"
+    ]
+}

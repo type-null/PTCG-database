@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swsh1-88",
+    "name": "Musharna",
+    "img": "https://assets.tcgdex.net/es/swsh/swsh1/88/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Espada y Escudo",
+    "series": "Espada y Escudo",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "88",
+    "set_total": 216,
+    "rarity": "Rara",
+    "author": [
+        "MAHOU"
+    ],
+    "pokedex_number": 518,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 120,
+    "types": [
+        "Psíquico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolora"
+            ],
+            "name": "Pulso Soporífero",
+            "damage": null,
+            "effect": "El Pokémon Activo de tu rival pasa a estar Dormido. Durante el Chequeo Pokémon, tu rival lanza 2 monedas en vez de 1. Si sale cruz en alguna de ellas, ese Pokémon está todavía Dormido."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Incolora"
+            ],
+            "name": "Superhipnorrayo",
+            "damage": "10+",
+            "effect": "Si el Pokémon Activo de tu rival está Dormido, este ataque hace 120 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscura"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Munna",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swsh1-88"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-88",
+    "card_key": "518|120|3|MAHOU|None,10+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

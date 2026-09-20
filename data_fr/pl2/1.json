@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl2-1",
+    "name": "Arcanin Niv. 53",
+    "img": "https://assets.tcgdex.net/fr/pl/pl2/1/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Rivaux Émergeants",
+    "series": "Platine",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "1",
+    "set_total": 120,
+    "rarity": "Holo Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 59,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Feu"
+    ],
+    "abilities": [
+        {
+            "name": "Condition éclatante",
+            "effect": "Tant qu'Arcanin possède de l'Énergie {R}, il ne possède pas de Faiblesse."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Laisser brûler",
+            "damage": "30+",
+            "effect": "Vous pouvez infliger 30 dégâts plus 30 dégâts supplémentaires. Arcanin est alors Brûlé."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Flammes de rage",
+            "damage": "60+",
+            "effect": "Défaussez une Énergie {R} attachée à Arcanin. Cette attaque inflige alors 60 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Arcanin."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Caninos",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl2-1"
+        }
+    ],
+    "print_key": "tcgdex:pl2-1",
+    "card_key": "59|100|2|Masakazu Fukuda|30+,60+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

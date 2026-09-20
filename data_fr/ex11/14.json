@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex11-14",
+    "name": "Drattak δ",
+    "img": "https://assets.tcgdex.net/fr/ex/ex11/14/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex11",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex11/symbol",
+    "set_full_name": "EX Espèces Delta",
+    "series": "EX",
+    "set_code": "ex11",
+    "date": "2005-10-31",
+    "number": "14",
+    "set_total": 114,
+    "rarity": "Rare",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 373,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 110,
+    "types": [
+        "Feu",
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Danse du feu",
+            "damage": 30,
+            "effect": "Cherchez dans votre pile de défausse une carte Énergie {R} et attachez-la à 1 de vos Pokémon."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Explosion Delta",
+            "damage": 100,
+            "effect": "Défaussez une carte Énergie {M} attachée à Drattak."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Feu",
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Drackhaus",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex11-14"
+        }
+    ],
+    "print_key": "tcgdex:ex11-14",
+    "card_key": "373|110|1|Ryo Ueda|30,100|2,4",
+    "types_en": [
+        "Fire",
+        "Metal"
+    ]
+}

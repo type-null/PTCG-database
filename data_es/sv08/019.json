@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sv08-019",
+    "name": "Ho-Oh",
+    "img": "https://assets.tcgdex.net/es/sv/sv08/019/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "H",
+    "set_name": "sv08",
+    "set_full_name": "Chispas Fulgurantes",
+    "series": "Escarlata y Púrpura",
+    "set_code": "sv08",
+    "date": "2024-11-08",
+    "number": "019",
+    "set_total": 252,
+    "rarity": "Uncommon",
+    "author": [
+        "kodama"
+    ],
+    "pokedex_number": 250,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 130,
+    "types": [
+        "Fuego"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuego",
+                "Incolora"
+            ],
+            "name": "Aleteo",
+            "damage": 50,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Fuego",
+                "Fuego",
+                "Incolora"
+            ],
+            "name": "Llamarada Radiante",
+            "damage": "100+",
+            "effect": "Si tienes algún Pokémon Teracristal en tu Banca, este ataque hace 100 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Rayo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sv08-019"
+        }
+    ],
+    "print_key": "tcgdex:sv08-19",
+    "card_key": "250|130|2|kodama|50,100+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo3-29",
+    "name": "Golbat",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "29",
+    "set_total": 66,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Masako Yamashita"
+    ],
+    "pokedex_number": 42,
+    "pokemon_category": "",
+    "flavor_text": "Es kann mehr als einen Viertelliter Blut auf einmal trinken. Wenn es zuviel Blut saugt, wird es zu schwer und fliegt nur noch unbeholfen.",
+    "stage": "Rang 1",
+    "hp": 60,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Kreideschrei",
+            "damage": null,
+            "effect": "Falls bis zum Ende deines nächsten Zugs ein Angriff dem verteidigenden Pokémon Schadenspunkte zufügt (nachdem Schwäche und Resistenz verrechnet wurden), fügt dieser Angriff dem verteidigenden Pokémon 20 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Giftbiss",
+            "damage": 10,
+            "effect": "Falls dieser Angriff dem verteidigenden Pokémon Schadenspunkte zufügt, ist das verteidigende Pokémon jetzt vergiftet. Entferne Schaden in Höhe der Hälfte dieses Schadens (auf die nächsten 10 aufgerundet) von Golbat. Falls Golbat weniger Schaden hat, entferne allen. Auf jeden Fall ist das verteidigende Pokémon jetzt vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "evolve_from": "Zubat",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo3-29"
+        }
+    ],
+    "print_key": "tcgdex:neo3-29",
+    "card_key": "42|60|None|Masako Yamashita|None,10|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

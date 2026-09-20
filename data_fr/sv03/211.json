@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv03-211",
+    "name": "Tyranocif-ex",
+    "img": "https://assets.tcgdex.net/fr/sv/sv03/211/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "regulation": "G",
+    "set_name": "sv03",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03/symbol",
+    "set_full_name": "Flammes Obsidiennes",
+    "series": "Écarlate et Violet",
+    "set_code": "sv03",
+    "date": "2023-08-11",
+    "number": "211",
+    "set_total": 230,
+    "rarity": "Ultra Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 248,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 340,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Lance-Montagnes",
+            "damage": 120,
+            "effect": "Défaussez les 2 cartes du dessus de votre deck."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Saccage Électrique",
+            "damage": "150+",
+            "effect": "Si au moins un marqueur de dégâts est placé sur vos Pokémon de Banc, cette attaque inflige 100 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Ymphect",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv03-211"
+        }
+    ],
+    "print_key": "tcgdex:sv03-211",
+    "card_key": "248|340|4|5ban Graphics|120,150+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

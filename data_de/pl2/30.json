@@ -1,0 +1,77 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-30",
+    "name": "Nidoqueen",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "30",
+    "set_total": 120,
+    "rarity": "Selten",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 31,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Mütterlicher Trost",
+            "effect": "Entferne zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke von jedem deiner Pokémon. Du kannst nicht mehr als 1 Mütterlicher Trost Poké-Body zwischen zwei Zügen benutzen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Megahieb",
+            "damage": 40,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Rabiater Schwanzhieb",
+            "damage": "50+",
+            "effect": "Dieser Angriff fügt 50 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Pokémon auf der Bank deines Gegners zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Nidorina",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-30"
+        }
+    ],
+    "print_key": "tcgdex:pl2-30",
+    "card_key": "31|120|3|Midori Harada|40,50+|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

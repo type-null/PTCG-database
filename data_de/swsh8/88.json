@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh8-88",
+    "name": "Lektrobal",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh8/88/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh8",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh8/symbol",
+    "set_full_name": "Fusionsangriff",
+    "series": "Schwert & Schild",
+    "set_code": "swsh8",
+    "date": "2021-11-12",
+    "number": "88",
+    "set_total": 284,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 101,
+    "pokemon_category": "",
+    "flavor_text": "Es speichert eine riesige Menge Elektrizität in seinem Körper. Es explodiert beim kleinsten Ruck.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Ultraschall",
+            "damage": 40,
+            "effect": "Der Schaden dieser Attacke wird durch Schwäche und Resistenz nicht verändert."
+        },
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Explosion",
+            "damage": 120,
+            "effect": "Dieses Pokémon fügt auch sich selbst 90 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Voltobal",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh8-88"
+        }
+    ],
+    "print_key": "tcgdex:swsh8-88",
+    "card_key": "101|90|1|Kouki Saitou|40,120|1,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

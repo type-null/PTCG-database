@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/smp-SM204",
+    "name": "Necrozma",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SL Cartas de promoción",
+    "series": "Sol y Luna",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM204",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 800,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 130,
+    "types": [
+        "Psíquico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Ataque Barrera",
+            "damage": 30,
+            "effect": "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia)."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Psíquico",
+                "Incolora"
+            ],
+            "name": "Láser Especial",
+            "damage": "100+",
+            "effect": "Si este Pokémon tiene alguna Energía Especial unida a él, este ataque hace 60 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/smp-SM204"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM204",
+    "card_key": "800|130|2|Hasuno|30,100+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

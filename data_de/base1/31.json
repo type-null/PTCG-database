@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-31",
+    "name": "Rossana",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "31",
+    "set_total": 102,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 124,
+    "pokemon_category": "",
+    "flavor_text": "Lediglich durch Meditation startet das Pokémon einen gewaltigen Psycho-Energieangriff.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Duplexhieb",
+            "damage": "10x",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 10 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Meditation",
+            "damage": "20+",
+            "effect": "Fügt 20 Schadenspunkte plus 10 weitere für jede auf dem verteidigenden Pokémon abgelegte Schadensmarke zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-31"
+        }
+    ],
+    "print_key": "tcgdex:base1-31",
+    "card_key": "124|70|2|Ken Sugimori|10x,20+|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex11-112",
+    "name": "Kyogre *",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex11",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex11/symbol",
+    "set_full_name": "EX Delta Species",
+    "series": "EX",
+    "set_code": "ex11",
+    "date": "2005-10-31",
+    "number": "112",
+    "set_total": 114,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 382,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Critical Collection",
+            "damage": 10,
+            "effect": "Count the number of Prize cards your opponent has taken. Search your discard pile for up to that many [W] Energy cards and attach them to Kyogre *."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Wasser",
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Sheer Cold",
+            "damage": 60,
+            "effect": "Flip a coin. If heads, each Defending Pokémon can't attack during your opponent's next turn."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex11-112"
+        }
+    ],
+    "print_key": "tcgdex:ex11-112",
+    "card_key": "382|90|3|Masakazu Fukuda|10,60|1,5",
+    "types_en": [
+        "Water"
+    ]
+}

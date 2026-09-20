@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/hgss4-20",
+    "name": "Élekable",
+    "img": "https://assets.tcgdex.net/fr/hgss/hgss4/20/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "hgss4",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss4/symbol",
+    "set_full_name": "Triomphant",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss4",
+    "date": "2010-11-03",
+    "number": "20",
+    "set_total": 103,
+    "rarity": "Rare",
+    "author": [
+        "TOKIYA"
+    ],
+    "pokedex_number": 466,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Plasma",
+            "damage": 30,
+            "effect": "Cherchez une carte Énergie Lightning dans votre pile de défausse et attachez-la à Elekable."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Tir foudroyant",
+            "damage": null,
+            "effect": "Cette attaque inflige 50 dégâts à chacun des Pokémon de votre adversaire auxquels sont attachées des cartes Énergie. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Elektek",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/hgss4-20"
+        }
+    ],
+    "print_key": "tcgdex:hgss4-20",
+    "card_key": "466|100|3|TOKIYA|30,None|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

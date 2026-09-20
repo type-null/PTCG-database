@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-89",
+    "name": "Méditikka",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "89",
+    "set_total": 130,
+    "rarity": "Commune",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 307,
+    "pokemon_category": "",
+    "flavor_text": "Il ne mange qu'une Baie par jour. La faim lui a forgé une volonté de fer.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Détection",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Meditikka lors du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Yoga",
+            "damage": "10+",
+            "effect": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+10"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-89"
+        }
+    ],
+    "print_key": "tcgdex:dp1-89",
+    "card_key": "307|50|1|Masakazu Fukuda|None,10+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

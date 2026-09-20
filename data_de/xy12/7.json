@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy12-7",
+    "name": "Bibor",
+    "img": "https://assets.tcgdex.net/de/xy/xy12/7/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Evolution",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "7",
+    "set_total": 113,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 15,
+    "pokemon_category": "",
+    "flavor_text": "Es kann in Schwärmen auftauchen. Während seines rasanten Fluges sticht es mit dem Giftstachel an seinem Hinterteil zu.",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Giftstachel",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Stachelschwarm",
+            "damage": null,
+            "effect": "Dieser Angriff fügt 1 Pokémon deines Gegners 40 Schadenspunkte mal der Anzahl der Bibor, die du im Spiel hast, zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Kokuna",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy12-7"
+        }
+    ],
+    "print_key": "tcgdex:xy12-7",
+    "card_key": "15|120|0|Ken Sugimori|30,None|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

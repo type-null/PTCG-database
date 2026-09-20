@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/svp-100",
+    "name": "Tag-Tag-ex",
+    "img": "https://assets.tcgdex.net/fr/sv/svp/100/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "regulation": "G",
+    "set_name": "svp",
+    "set_full_name": "SVP Black Star Promos",
+    "series": "Écarlate et Violet",
+    "set_code": "svp",
+    "date": "2023-03-31",
+    "number": "100",
+    "set_total": 225,
+    "rarity": "Promo",
+    "author": [
+        "aky CG Works"
+    ],
+    "pokedex_number": 945,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 250,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Salive Paralysante",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Lancé Toxique",
+            "damage": 180,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Lancé Toxique."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Gribouraigne",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/svp-100"
+        }
+    ],
+    "print_key": "tcgdex:svp-100",
+    "card_key": "945|250|1|aky CG Works|30,180|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

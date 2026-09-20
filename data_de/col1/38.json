@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/col1-38",
+    "name": "Smogmog",
+    "img": "https://assets.tcgdex.net/de/col/col1/38/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "Ruf der Legenden",
+    "series": "Ruf der Legenden",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "38",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 110,
+    "pokemon_category": "",
+    "flavor_text": "Pumpt sich eines der zwei SMOGON auf, lässt das andere Luft ab. So findet ein Giftgasaustausch statt.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Super-Gifthauch",
+            "damage": null,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Super-Explosion",
+            "damage": 90,
+            "effect": "Smogmog fügt sich selbst 90 Schadenspunkte zu, wende dabei Schwäche nicht an."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Smogon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/col1-38"
+        }
+    ],
+    "print_key": "tcgdex:col1-38",
+    "card_key": "110|90|2|Hajime Kusajima|None,90|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

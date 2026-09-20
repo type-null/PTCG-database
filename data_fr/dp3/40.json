@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp3-40",
+    "name": "Dimoret",
+    "img": "https://assets.tcgdex.net/fr/dp/dp3/40/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Merveilles Secrètes",
+    "series": "Diamant & Perle",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "40",
+    "set_total": 132,
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 461,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Engagement obscur",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Le type de chacun de vos Pokémon Actifs est Darkness jusqu'à la fin de votre tour. Si ce Pokémon n'est plus votre Pokémon Actif, cet effet se termine."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Recharge osbcure",
+            "damage": null,
+            "effect": "Choisissez dans votre deck jusqu'à 2 cartes Énergie Darkness et attachez-les à vos Pokémon de la façon que vous voulez. Ensuite, mélangez votre deck."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité"
+            ],
+            "name": "Grignoter",
+            "damage": 40,
+            "effect": "Si votre adversaire possède au moins 6 cartes en main, défaussez des cartes sans regarder jusqu'à ce qu'il ne lui reste que 5 cartes en main."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Métal"
+        ],
+        "value": "20"
+    },
+    "evolve_from": "Farfuret",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp3-40"
+        }
+    ],
+    "print_key": "tcgdex:dp3-40",
+    "card_key": "461|80|None|Kagemaru Himeno|None,40|0,2",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy12-8",
+    "name": "Saquedeneu",
+    "img": "https://assets.tcgdex.net/fr/xy/xy12/8/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Évolutions",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "8",
+    "set_total": 113,
+    "rarity": "Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 114,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Étreinte",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Plante"
+            ],
+            "name": "Poudre Toxik",
+            "damage": 30,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy12-8"
+        }
+    ],
+    "print_key": "tcgdex:xy12-8",
+    "card_key": "114|80|2|Mitsuhiro Arita|20,30|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

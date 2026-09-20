@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/xy1-43",
+    "name": "Raichu",
+    "img": "https://assets.tcgdex.net/es/xy/xy1/43/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "xy1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy1/symbol",
+    "set_full_name": "XY",
+    "series": "XY",
+    "set_code": "xy1",
+    "date": "2014-02-05",
+    "number": "43",
+    "set_total": 146,
+    "rarity": "Rara",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 90,
+    "types": [
+        "Rayo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Circuito Circular",
+            "damage": "20×",
+            "effect": "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon en Banca."
+        },
+        {
+            "cost": [
+                "Rayo",
+                "Rayo",
+                "Incolora"
+            ],
+            "name": "Rayo",
+            "damage": 100,
+            "effect": "Descarta todas las Energías unidas a este Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metálica"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Pikachu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/xy1-43"
+        }
+    ],
+    "print_key": "tcgdex:xy1-43",
+    "card_key": "26|90|0|Mitsuhiro Arita|20x,100|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy6-32",
+    "name": "Branette",
+    "img": "https://assets.tcgdex.net/fr/xy/xy6/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy6",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy6/symbol",
+    "set_full_name": "Ciel Rugissant",
+    "series": "XY",
+    "set_code": "xy6",
+    "date": "2015-05-06",
+    "number": "32",
+    "set_total": 112,
+    "rarity": "Rare",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 354,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Évolution Δ",
+            "effect": "Vous pouvez jouer cette carte de votre main pour faire évoluer un Pokémon pendant votre premier tour ou pendant le tour où vous le jouez."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Bloqueur d'Évolution",
+            "damage": 20,
+            "effect": "Aucun joueur ne peut jouer de Pokémon de sa main pour faire évoluer ses Pokémon pendant son prochain tour."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Malédiction Intense",
+            "damage": null,
+            "effect": "Placez 5 marqueurs de dégâts sur le Pokémon Actif de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Polichombr",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy6-32"
+        }
+    ],
+    "print_key": "tcgdex:xy6-32",
+    "card_key": "354|90|1|Shin Nagasawa|20,None|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh6-64",
+    "name": "Cresselia",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh6/64/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "E",
+    "set_name": "swsh6",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh6/symbol",
+    "set_full_name": "Règne de Glace",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh6",
+    "date": "2021-06-18",
+    "number": "64",
+    "set_total": 233,
+    "rarity": "Holo Rare",
+    "author": [
+        "Tika Matsuno"
+    ],
+    "pokedex_number": 488,
+    "pokemon_category": "",
+    "flavor_text": "Dormir aec une de ses plumes à la main\npermet de faire de beaux rêves. On le\nsurnomme « avatar d croissant de lune ».",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Lueur Lunule",
+            "damage": null,
+            "effect": "Cherchez dans votre deck une carte Énergie Psychic, puis attachez-la à l'un de vos Pokémon. Si vous jouez en second et que c'est votre premier tour, cherchez jusqu'à 3 cartes Énergie Psychic à la place, puis attachez-les à l'un de vos Pokémon. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy"
+            ],
+            "name": "Laser à Photons",
+            "damage": "30+",
+            "effect": "Si vous avez au moins 5 Énergies en jeu, cette attaque inflige 90 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh6-64"
+        }
+    ],
+    "print_key": "tcgdex:swsh6-64",
+    "card_key": "488|120|1|Tika Matsuno|None,30+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

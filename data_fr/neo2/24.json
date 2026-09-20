@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo2-24",
+    "name": "Malosse",
+    "img": "https://assets.tcgdex.net/fr/neo/neo2/24/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Discovery",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "24",
+    "set_total": 75,
+    "rarity": "Rare",
+    "author": [
+        "Aya Kusube"
+    ],
+    "pokedex_number": 228,
+    "pokemon_category": "",
+    "flavor_text": "Pour traquer leur proie, ils se localisent mutuellement avec des aboiements compris par eux seuls.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Purédpois",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu"
+            ],
+            "name": "Quête du feu",
+            "damage": 20,
+            "effect": "S'il y a des cartes Énergie  dans votre pile de défausse, choisissez l'une d'entre elles et attachez-la à Malosse."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo2-24"
+        }
+    ],
+    "print_key": "tcgdex:neo2-24",
+    "card_key": "228|50|1|Aya Kusube|10,20|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

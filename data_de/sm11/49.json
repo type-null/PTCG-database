@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm11-49",
+    "name": "Aranestro",
+    "img": "https://assets.tcgdex.net/de/sm/sm11/49/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Bund der Gleichgesinnten",
+    "series": "Sonne & Mond",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "49",
+    "set_total": 258,
+    "rarity": "Selten",
+    "author": [
+        "Misa Tsutsui"
+    ],
+    "pokedex_number": 752,
+    "pokemon_category": "",
+    "flavor_text": "Es verlässt das Wasser nur sehr selten. Wenn es satt ist, bewahrt es erledigte Beute in der Wasserblase auf seinem Kopf auf.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Wirrzieher",
+            "damage": null,
+            "effect": "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Klebenetz",
+            "damage": 80,
+            "effect": "Während des nächsten Zuges deines Gegners erhöhen sich die Kosten der Attacken des Verteidigenden Pokémon und seine Rückzugskosten um {C}."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Araqua",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm11-49"
+        }
+    ],
+    "print_key": "tcgdex:sm11-49",
+    "card_key": "752|100|1|Misa Tsutsui|None,80|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

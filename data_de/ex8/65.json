@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex8-65",
+    "name": "Makuhita",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "65",
+    "set_total": 108,
+    "rarity": "Häufig",
+    "author": [
+        "Asuka Iwashita"
+    ],
+    "pokedex_number": 296,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Thrust",
+            "damage": 10,
+            "effect": "Flip a coin. If tails, this attack does nothing. If heads, discard 1 Energy card attached to the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Rising Lunge",
+            "damage": "20+",
+            "effect": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex8-65"
+        }
+    ],
+    "print_key": "tcgdex:ex8-65",
+    "card_key": "296|50|1|Asuka Iwashita|10,20+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

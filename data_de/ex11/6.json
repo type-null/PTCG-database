@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex11-6",
+    "name": "Guardevoir δ",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex11",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex11/symbol",
+    "set_full_name": "EX Delta Species",
+    "series": "EX",
+    "set_code": "ex11",
+    "date": "2005-10-31",
+    "number": "6",
+    "set_total": 114,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 282,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Psycho",
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Energiesprung",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Energiekarte, die an 1 deiner Pokémon angelegt ist, an ein anderes deiner Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, falls Guardevoir von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Metall"
+            ],
+            "name": "Psychoraserei",
+            "damage": null,
+            "effect": "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte für jede Schadensmarke auf Guardevoir zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Psycho"
+            ],
+            "name": "Schwarze Magie",
+            "damage": "10+",
+            "effect": "Dieser Angriff fügt 10 Schadenspunkte plus 20 Schadenspunkte mal der Anzahl der Pokémon auf der Bank deines Gegners zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex11-6"
+        }
+    ],
+    "print_key": "tcgdex:ex11-6",
+    "card_key": "282|100|2|Mitsuhiro Arita|None,10+|2,3",
+    "types_en": [
+        "Psychic",
+        "Metal"
+    ]
+}

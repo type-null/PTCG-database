@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/g1-RC9",
+    "name": "Raichu",
+    "img": "https://assets.tcgdex.net/de/xy/g1/RC9/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Generationen",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "RC9",
+    "set_total": 117,
+    "rarity": "Häufig",
+    "author": [
+        "Aya Kusube"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "flavor_text": "Heute ist Ruhetag. Mein toller Schweif hat sich eingekringelt und meine Ohren sind auch ganz müde.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Rundparcours",
+            "damage": "20×",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der Pokémon auf deiner Bank zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Donnerblitz",
+            "damage": 100,
+            "effect": "Lege alle an dieses Pokémon angelegten Energien auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Pikachu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/g1-RC9"
+        }
+    ],
+    "print_key": "tcgdex:g1-RC9",
+    "card_key": "26|90|0|Aya Kusube|20x,100|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

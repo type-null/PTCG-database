@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex5-1",
+    "name": "Branette",
+    "img": "https://assets.tcgdex.net/fr/ex/ex5/1/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex5",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex5/symbol",
+    "set_full_name": "EX Légendes Oubliées",
+    "series": "EX",
+    "set_code": "ex5",
+    "date": "2004-06-01",
+    "number": "1",
+    "set_total": 102,
+    "rarity": "Holo Rare",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 354,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Vol d'ombre",
+            "damage": "10+",
+            "effect": "Inflige 10 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie Spéciale dans la pile de défausse de votre adversaire."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Chant d'obscurité",
+            "damage": null,
+            "effect": "Comptez le nombre de Pokémon de base ou de cartes Évolution dans votre pile de défausse. Placez autant de marqueurs de dégât sur le Pokémon Défenseur. Vous ne pouvez pas placer plus de 6 marqueurs de dégât sur le Pokémon Défenseur de cette façon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Polichombr",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex5-1"
+        }
+    ],
+    "print_key": "tcgdex:ex5-1",
+    "card_key": "354|70|1|Midori Harada|10+,None|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

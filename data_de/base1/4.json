@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-4",
+    "name": "Glurak",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "4",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "flavor_text": "Speit Feuer, das heiß genug ist, um Felsblöcke zu schmelzen. Dafür bekannt, daß es unbeabsichtigt Waldbrände auslöst.",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "Energie verbrennen",
+            "effect": "Bist Du am Zug, kannst Du (vor Deinem Angriff) beliebig oft alle auf Glurak abgelegte Energie in {R} Energie für den Rest des Zugs verwandeln. Diese Fähigkeit kann nicht eingesetzt werden, falls Glurak schlafend, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Feuerwirbel",
+            "damage": 100,
+            "effect": "Entferne 2 auf Glurak abgelegte Energiekarten, um diesen Angriff auszuführen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Glutexo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-4"
+        }
+    ],
+    "print_key": "tcgdex:base1-4",
+    "card_key": "6|120|3|Mitsuhiro Arita|100|4",
+    "types_en": [
+        "Fire"
+    ]
+}

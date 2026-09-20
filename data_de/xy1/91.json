@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy1-91",
+    "name": "Pantimos",
+    "img": "https://assets.tcgdex.net/de/xy/xy1/91/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy1/symbol",
+    "set_full_name": "XY",
+    "series": "XY",
+    "set_code": "xy1",
+    "date": "2014-02-05",
+    "number": "91",
+    "set_total": 146,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Mizue"
+    ],
+    "pokedex_number": 122,
+    "pokemon_category": "",
+    "flavor_text": "Seine Fingerspitzen sondern etwas ab, das die Luft zu einer schützenden Wand werden lässt.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Fee"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fee",
+                "Farblos"
+            ],
+            "name": "Massage",
+            "damage": null,
+            "effect": "Heile 60 Schadenspunkte bei 1 Pokémon auf deiner Bank."
+        },
+        {
+            "cost": [
+                "Fee",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Niederschlag",
+            "damage": "40+",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy1-91"
+        }
+    ],
+    "print_key": "tcgdex:xy1-91",
+    "card_key": "122|80|2|Mizue|None,40+|2,3",
+    "types_en": [
+        "Fairy"
+    ]
+}

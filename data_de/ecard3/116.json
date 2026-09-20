@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-116",
+    "name": "Yanma",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "116",
+    "set_total": 182,
+    "rarity": "Häufig",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 193,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Agilität",
+            "damage": 10,
+            "effect": "Wird eine Münze. Bei \"Kopf\" verhindere während des nächsten Zuges alle Auswirkungen von Angriffen (einschließlich Schaden), die Yanma zugefügt werden."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Dreifachschmetterer",
+            "damage": "20+",
+            "effect": "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte pro geworfenem \"Kopf\" zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-116"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-116",
+    "card_key": "193|60|1|Miki Tanaka|10,20+|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

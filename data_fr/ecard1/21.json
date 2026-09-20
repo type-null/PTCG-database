@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard1-21",
+    "name": "Feunard",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard1/21/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-cards",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "21",
+    "set_total": 165,
+    "rarity": "Holo Rare",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 38,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Tromperie",
+            "damage": null,
+            "effect": "Lancez 2 pièces. Si vous obtenez au moins une face, le Pokémon Défenseur est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Flamme éthérée",
+            "damage": "30+",
+            "effect": "Défaussez-vous de toutes les cartes Énergie {R} attachées à Feunard. Cette carte inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque carte défaussée de cette manière."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "evolve_from": "Goupix",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard1-21"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-21",
+    "card_key": "38|80|1|Atsuko Nishida|None,30+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

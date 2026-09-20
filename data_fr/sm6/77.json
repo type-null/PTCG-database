@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm6-77",
+    "name": "Mouscoto",
+    "img": "https://assets.tcgdex.net/fr/sm/sm6/77/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm6",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm6/symbol",
+    "set_full_name": "Lumière Interdite",
+    "series": "Soleil et Lune",
+    "set_code": "sm6",
+    "date": "2018-05-04",
+    "number": "77",
+    "set_total": 146,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 794,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Coup de Masse",
+            "damage": "30+",
+            "effect": "S’il reste exactement 4 cartes Récompense à votre adversaire, cette attaque inflige 90 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Balançoire",
+            "damage": "80+",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm6-77"
+        }
+    ],
+    "print_key": "tcgdex:sm6-77",
+    "card_key": "794|130|2|Masakazu Fukuda|30+,80+|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-32",
+    "name": "Charmina",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "32",
+    "set_total": 130,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 308,
+    "pokemon_category": "",
+    "flavor_text": "Il a développé son sixième sens grâce au yoga. Ses mouvements sont gracieux.",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Forte-Paume",
+            "damage": null,
+            "effect": "Comptabilisez le nombre de marqueurs de dégât sur Charmina. Placez autant de marqueurs de dégât sur 1 des Pokémon de votre adversaire."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Coup tournant",
+            "damage": 80,
+            "effect": "Charmina s'inflige 20 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Méditikka",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-32"
+        }
+    ],
+    "print_key": "tcgdex:dp1-32",
+    "card_key": "308|90|2|Kouki Saitou|None,80|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

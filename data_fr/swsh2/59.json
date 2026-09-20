@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh2-59",
+    "name": "Élekable",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh2/59/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Clash des Rebelles",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "59",
+    "set_total": 209,
+    "rarity": "Rare",
+    "author": [
+        "tetsuya koizumi"
+    ],
+    "pokedex_number": 466,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 140,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Éclair",
+            "damage": 50,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Foudre Électrifiée",
+            "damage": "90+",
+            "effect": "Si de l'Énergie spéciale est attachée à ce Pokémon, cette attaque inflige 90 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Élektek",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh2-59"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-59",
+    "card_key": "466|140|3|tetsuya koizumi|50,90+|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

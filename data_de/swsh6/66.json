@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh6-66",
+    "name": "Golgantes",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh6/66/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh6",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh6/symbol",
+    "set_full_name": "Schaurige Herrschaft",
+    "series": "Schwert & Schild",
+    "set_code": "swsh6",
+    "date": "2021-06-18",
+    "number": "66",
+    "set_total": 233,
+    "rarity": "Selten",
+    "author": [
+        "Teeziro"
+    ],
+    "pokedex_number": 623,
+    "pokemon_category": "",
+    "flavor_text": "Man sagt, in seinem Körper befinde sich eine unerschöpfliche Energiequelle, doch bisher ist es niemandem gelungen, dies nachzuweisen.",
+    "stage": "Rang 1",
+    "hp": 150,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Verstärkter Hieb",
+            "damage": "60+",
+            "effect": "Wenn an dieses Pokémon eine Pokémon-Ausrüstung angelegt ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Megatonnenfall",
+            "damage": 190,
+            "effect": "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 4,
+    "evolve_from": "Golbit",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh6-66"
+        }
+    ],
+    "print_key": "tcgdex:swsh6-66",
+    "card_key": "623|150|4|Teeziro|60+,190|3,4",
+    "types_en": [
+        "Psychic"
+    ]
+}

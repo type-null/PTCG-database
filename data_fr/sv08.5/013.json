@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv08.5-013",
+    "name": "Pyroli",
+    "img": "https://assets.tcgdex.net/fr/sv/sv08.5/013/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv08.5",
+    "set_full_name": "Évolutions Prismatiques",
+    "series": "Écarlate et Violet",
+    "set_code": "sv08.5",
+    "date": "2025-01-17",
+    "number": "013",
+    "set_total": 180,
+    "rarity": "Rare",
+    "author": [
+        "Ryota Murayama"
+    ],
+    "pokedex_number": 136,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 130,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Flamme Destructrice",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Brasier Combatif",
+            "damage": "90+",
+            "effect": "Si le Pokémon Actif de votre adversaire est un Pokémon-ex ou un Pokémon-V, cette attaque inflige 90 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Évoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv08.5-013"
+        }
+    ],
+    "print_key": "tcgdex:sv08.5-13",
+    "card_key": "136|130|2|Ryota Murayama|30,90+|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

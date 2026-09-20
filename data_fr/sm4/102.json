@@ -1,0 +1,87 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm4-102",
+    "name": "Grolem d’Alola GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm4/102/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Invasion Carmin",
+    "series": "Soleil et Lune",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "102",
+    "set_total": 125,
+    "rarity": "Ultra Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 76,
+    "pokemon_category": "",
+    "hp": 250,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Enfoncement",
+            "damage": 80,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Super Charge Électromagnétique",
+            "damage": 200,
+            "effect": "Ce Pokémon s’inflige 50 dégâts."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Lourd Rocher GX",
+            "damage": 100,
+            "effect": "Votre adversaire ne peut pas jouer de carte de sa main pendant son prochain tour. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Gravalanch d’Alola",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm4-102"
+        }
+    ],
+    "print_key": "tcgdex:sm4-102",
+    "card_key": "76|250|4|5ban Graphics|80,200,100|3,4,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

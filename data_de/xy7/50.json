@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy7-50",
+    "name": "Metagross",
+    "img": "https://assets.tcgdex.net/de/xy/xy7/50/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy7",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy7/symbol",
+    "set_full_name": "Ewiger Anfang",
+    "series": "XY",
+    "set_code": "xy7",
+    "date": "2015-08-12",
+    "number": "50",
+    "set_total": 101,
+    "rarity": "Selten",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "pokedex_number": 376,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "{title}:",
+            "effect": "{title}: An dieses Pokémon können bis zu 2 Pokémon-Ausrüstungen angelegt sein."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Trommelfeuer-Stampfer",
+            "damage": "20+",
+            "effect": "Dieser Angriff fügt 10 weitere Schadenspunkte für jede Karte auf deiner Hand zu."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schutzdruck",
+            "damage": 80,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Metang",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy7-50"
+        }
+    ],
+    "print_key": "tcgdex:xy7-50",
+    "card_key": "376|150|4|Hitoshi Ariga|20+,80|2,4",
+    "types_en": [
+        "Metal"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm4-72",
+    "name": "Knuddeluff",
+    "img": "https://assets.tcgdex.net/de/sm/sm4/72/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Aufziehen der Sturmröte",
+    "series": "Sonne & Mond",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "72",
+    "set_total": 125,
+    "rarity": "Selten",
+    "author": [
+        "0313"
+    ],
+    "pokedex_number": 40,
+    "pokemon_category": "",
+    "flavor_text": "Pünktlich zum Wechsel der Jahreszeiten streift es sein kuschelig weiches Fell ab. Der Stoff, der sich daraus spinnen lässt, gilt als Luxusgut.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Fee"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Hypnoschuss",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners schläft jetzt."
+        },
+        {
+            "cost": [
+                "Fee",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Strafende Klatsche",
+            "damage": "60+",
+            "effect": "Wenn an die Pokémon deines Gegners mindestens 1 {D}-Energie angelegt ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Pummeluff",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm4-72"
+        }
+    ],
+    "print_key": "tcgdex:sm4-72",
+    "card_key": "40|120|2|0313|30,60+|2,3",
+    "types_en": [
+        "Fairy"
+    ]
+}

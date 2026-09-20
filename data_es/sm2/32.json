@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm2-32",
+    "name": "Glalie",
+    "img": "https://assets.tcgdex.net/es/sm/sm2/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Albor de Guadianes",
+    "series": "Sol y Luna",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "32",
+    "set_total": 169,
+    "rarity": "Uncommon",
+    "author": [
+        "so-taro"
+    ],
+    "pokedex_number": 362,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 120,
+    "types": [
+        "Agua"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Agua",
+                "Agua"
+            ],
+            "name": "Triturar",
+            "damage": 40,
+            "effect": "Lanza 1 moneda. Si sala cara, descarta 1 Energía del Pokémon Activo de tu rival."
+        },
+        {
+            "cost": [
+                "Agua",
+                "Agua",
+                "Agua"
+            ],
+            "name": "Témpano Furioso",
+            "damage": "70+",
+            "effect": "Si este Pokémon tiene algún contador de daño sobre él, este ataque hace 80 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metálica"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm2-32"
+        }
+    ],
+    "print_key": "tcgdex:sm2-32",
+    "card_key": "362|120|3|so-taro|40,70+|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

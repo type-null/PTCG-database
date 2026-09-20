@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex1-19",
+    "name": "Bekipan",
+    "img": "https://assets.tcgdex.net/fr/ex/ex1/19/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex1",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex1/symbol",
+    "set_full_name": "EX Rubis & Saphir",
+    "series": "EX",
+    "set_code": "ex1",
+    "date": "2003-07-01",
+    "number": "19",
+    "set_total": 109,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 279,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Stockage",
+            "damage": null,
+            "effect": "Pendant votre prochain tour, les dégâts de base infligés par l'attaque Relâche sont de 70 au lieu de 30, et ceux de l'attaque Avale sont de 60 au lieu de 20."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Relâche",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Avale",
+            "damage": 20,
+            "effect": "Après avoir attaqué, retirez à Bekipan autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur. Si Bekipan a moins de marqueurs de dégât que de points infligés, retirez-lui tous ses marqueurs de dégât."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Goélise",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex1-19"
+        }
+    ],
+    "print_key": "tcgdex:ex1-19",
+    "card_key": "279|70|1|Kouki Saitou|None,30,20|1,2,3",
+    "types_en": [
+        "Water"
+    ]
+}

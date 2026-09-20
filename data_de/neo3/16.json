@@ -1,0 +1,56 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo3-16",
+    "name": "Celebi",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "16",
+    "set_total": 66,
+    "rarity": "Selten",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 251,
+    "pokemon_category": "",
+    "flavor_text": "Wenn Celebi tief in einem Wald verschwindet, so wird behauptet, versteckt es dort ein Ei, das es aus der Zukunft mitgebracht hat.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Psycholaub",
+            "damage": "10+",
+            "effect": "Wirf für jede Energiekarte, die an das verteidigende Pokémon angelegt ist, eine Münze. Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte pro geworfenem „Kopf“ zu. Entferne, nachdem der Schaden zugefügt ist, soviel Schaden von Celebi, wie dem verteidigenden Pokémon Schadenspunkte zugefügt wurden (nachdem Schwäche und Resistenz verrechnet wurden). Falls Celebi weniger Schaden hat, entferne allen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo3-16"
+        }
+    ],
+    "print_key": "tcgdex:neo3-16",
+    "card_key": "251|50|1|Sumiyoshi Kizuki|10+|2",
+    "types_en": [
+        "Grass"
+    ]
+}

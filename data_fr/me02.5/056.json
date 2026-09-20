@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/me02.5-056",
+    "name": "Raichu",
+    "img": "https://assets.tcgdex.net/fr/me/me02.5/056/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "J",
+    "set_name": "me02.5",
+    "set_img": "https://assets.tcgdex.net/univ/me/me02.5/symbol",
+    "set_full_name": "Héros Transcendants",
+    "series": "Méga-Évolution",
+    "set_code": "me02.5",
+    "date": "2026-01-30",
+    "number": "056",
+    "set_total": 295,
+    "rarity": "Peu Commune",
+    "author": [
+        "Iori Suzuki"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 130,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Coup d'Poing Éclair",
+            "damage": "20+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Décharge Foudroyante",
+            "damage": 150,
+            "effect": "Défaussez une Énergie {L} de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/me02.5-056"
+        }
+    ],
+    "print_key": "tcgdex:me02.5-56",
+    "card_key": "26|130|1|Iori Suzuki|20+,150|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

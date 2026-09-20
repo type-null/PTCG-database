@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pop7-2",
+    "name": "Gallame",
+    "img": "https://assets.tcgdex.net/fr/pop/pop7/2/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pop7",
+    "set_img": "https://assets.tcgdex.net/univ/pop/pop7/symbol",
+    "set_full_name": "POP Série 7",
+    "series": "POP",
+    "set_code": "pop7",
+    "date": "2008-03-01",
+    "number": "2",
+    "set_total": 17,
+    "rarity": "Rare",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "pokedex_number": 475,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 130,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Lame sonique",
+            "damage": null,
+            "effect": "Placez des marqueurs de dégât sur le Pokémon Défenseur jusqu'à ce qu'il soit à 50 PV d'être mis K.O. Votre adversaire échange alors le Pokémon Défenseur avec 1 des Pokémon de son Banc."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coupe Psycho",
+            "damage": "60+",
+            "effect": "Vous pouvez choisir autant de cartes Récompense se trouvant face cachée que vous le voulez et les retourner. Cette attaque inflige alors 60 dégâts plus 20 dégâts supplémentaires pour chaque carte Récompense choisie. (Ces cartes restent retournées pour le reste de la partie)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+30"
+    },
+    "retreat": 2,
+    "evolve_from": "Kirlia",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pop7-2"
+        }
+    ],
+    "print_key": "tcgdex:pop7-2",
+    "card_key": "475|130|2|Daisuke Ito|None,60+|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss4-23",
+    "name": "Groink",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss4/23/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss4",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss4/symbol",
+    "set_full_name": "Triumph",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss4",
+    "date": "2010-11-03",
+    "number": "23",
+    "set_total": 103,
+    "rarity": "Selten",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 326,
+    "pokemon_category": "",
+    "flavor_text": "Die seltsamen Tanzschritte, mit denen es seine Gegner kontrolliert, sind eine alte, ausländische Mode.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psycho-Schloss",
+            "damage": 20,
+            "effect": "Dein Gegner kann in seinem nächsten Zug keine Poké-Power seiner Pokémon benutzen."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Bankmanipulation",
+            "damage": "40×",
+            "effect": "Dein Gegner wirft eine Münze für jedes Pokémon auf seiner Bank. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Zahl“ zu. Der Schaden dieses Angriffs wird durch Schwäche und Resistenz nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Spoink",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss4-23"
+        }
+    ],
+    "print_key": "tcgdex:hgss4-23",
+    "card_key": "326|90|2|Yukiko Baba|20,40x|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

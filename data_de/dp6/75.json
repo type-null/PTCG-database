@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp6-75",
+    "name": "Tentoxa",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Erwachte Legenden",
+    "series": "Diamant & Perl",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "75",
+    "set_total": 146,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 73,
+    "pokemon_category": "",
+    "flavor_text": "Es besitzt 80 Tentakel, um Beute zu fangen und festzuhalten. Diese wird durch Gift geschwächt.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Tentakelschlag",
+            "damage": null,
+            "effect": "Durchsuche den Ablagestapel deines Gegners nach bis zu 2 Energiekarten und lege sie in beliebiger Verteilung an Pokémon deines Gegners an. Für jede Energiekarte, die auf diese Weise angelegt wurde, fügt dieser Angriff dem betreffenden Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Gefährliches Gift",
+            "damage": 60,
+            "effect": "Wenn an das Verteidigende Pokémon mehr Energie angelegt ist als an Tentoxa, ist das Verteidigende Pokémon jetzt gelähmt und vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Tentacha",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp6-75"
+        }
+    ],
+    "print_key": "tcgdex:dp6-75",
+    "card_key": "73|90|1|Kouki Saitou|None,60|0,3",
+    "types_en": [
+        "Water"
+    ]
+}

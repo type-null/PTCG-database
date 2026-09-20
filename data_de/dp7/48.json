@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-48",
+    "name": "Zobiris",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "48",
+    "set_total": 106,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 302,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Unlicht"
+    ],
+    "abilities": [
+        {
+            "name": "Voreiligkeit",
+            "effect": "Wenn Zobiris zu Beginn des Spiels dein Aktives Pokémon ist, beginnst du das Spiel. (Wenn beide Spieler ein Aktives Pokémon mit Voreiligkeit Poké-Body haben, hat diese Poké-Body keine Auswirkungen.)"
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Nachahmen",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 Unterstützerkarte und lege sie auf deinen Ablagestapel. Mische dein Deck danach. Danach nutze den Effekt der auf diese Weise abgelegten Karte als Effekt dieses Angriffs."
+        },
+        {
+            "cost": [
+                "Unlicht"
+            ],
+            "name": "Vermessenheit",
+            "damage": 10,
+            "effect": "Wenn das Verteidigende Pokémon weniger verbliebene KP hat als Zobiris, beträgt der Grundschaden dieses Angriffs 40 Schadenspunkte."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-48"
+        }
+    ],
+    "print_key": "tcgdex:dp7-48",
+    "card_key": "302|60|1|Kyoko Umemoto|None,10|0,1",
+    "types_en": [
+        "Darkness"
+    ]
+}

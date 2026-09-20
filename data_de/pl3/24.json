@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl3-24",
+    "name": "Jugong",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Ultimative Sieger",
+    "series": "Platin",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "24",
+    "set_total": 153,
+    "rarity": "Selten",
+    "author": [
+        "Kanako Eo"
+    ],
+    "pokedex_number": 87,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Speckschicht",
+            "effect": "Schaden, der Jugong durch Angriffe von - und -Pokémon zugefügt wird, wird um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Eissplitter",
+            "damage": 30,
+            "effect": "Wenn das Verteidigende Pokémon ein -Pokémon ist, beträgt der Grundschaden dieses Angriffs 80 Schadenspunkte anstelle von 30 Schadenspunkten."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Aurorastrahl",
+            "damage": 70,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "+20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl3-24"
+        }
+    ],
+    "print_key": "tcgdex:pl3-24",
+    "card_key": "87|100|3|Kanako Eo|30,70|2,4",
+    "types_en": [
+        "Water"
+    ]
+}

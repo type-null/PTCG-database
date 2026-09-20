@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex11-111",
+    "name": "Groudon ☆",
+    "img": "https://assets.tcgdex.net/fr/ex/ex11/111/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex11",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex11/symbol",
+    "set_full_name": "EX Espèces Delta",
+    "series": "EX",
+    "set_code": "ex11",
+    "date": "2005-10-31",
+    "number": "111",
+    "set_total": 114,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 383,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Collection difficile",
+            "damage": 10,
+            "effect": "Comptabilisez le nombre de cartes Récompense récoltées par votre adversaire. Cherchez dans votre pile de défausse le même nombre de cartes Énergie {F} et attachez-les à Groudon ☆."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Combat",
+                "Combat",
+                "Combat"
+            ],
+            "name": "Tranch'sol",
+            "damage": 80,
+            "effect": "Défaussez une carte Énergie {F} attachée à Groudon ☆."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex11-111"
+        }
+    ],
+    "print_key": "tcgdex:ex11-111",
+    "card_key": "383|90|3|Masakazu Fukuda|10,80|1,5",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base5-35",
+    "name": "Dunkles Flamara",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Grund",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "35",
+    "set_total": 83,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 136,
+    "pokemon_category": "",
+    "flavor_text": "Ein jähzorniges Pokémon, das nicht unter Kontrolle gebracht werden kann, wenn es erzürnt ist. Es kann Feuer speien, das heißer als 1000° ist.",
+    "stage": "Rang 1",
+    "hp": 50,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Raserei",
+            "damage": "10+",
+            "effect": "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Dunkles Flamara zu."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Spiel mit dem Feuer",
+            "damage": "30+",
+            "effect": "Diesen Angriff nur spielen, wenn {R}-Energiekarten auf Dunkles Flamara abgelegt sind. Wirf eine Münze. Entferne bei „Kopf“ eine dieser Energiekarten und dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 30 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base5-35"
+        }
+    ],
+    "print_key": "tcgdex:base5-35",
+    "card_key": "136|50|1|Mitsuhiro Arita|10+,30+|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

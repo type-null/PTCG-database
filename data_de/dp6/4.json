@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp6-4",
+    "name": "Giratina",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Erwachte Legenden",
+    "series": "Diamant & Perl",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "4",
+    "set_total": 146,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Kazuaki Aihara"
+    ],
+    "pokedex_number": 487,
+    "pokemon_category": "",
+    "flavor_text": "Ein PKMN, von dem man sagt, es lebe in der Spiegelwelt unserer Welt. Es erscheint auf alten Friedhöfen.",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Schemenkraft",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Wirf 1 Münze. Bei „Kopf“ verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Giratina zugefügt würden."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Brutalklinge",
+            "damage": "50+",
+            "effect": "Dieser Angriff fügt 50 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf dem Verteidigenden Pokémon zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp6-4"
+        }
+    ],
+    "print_key": "tcgdex:dp6-4",
+    "card_key": "487|100|3|Kazuaki Aihara|None,50+|2,4",
+    "types_en": [
+        "Psychic"
+    ]
+}

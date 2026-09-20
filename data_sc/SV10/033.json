@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/zh-cn/cards/SV10-033",
+    "name": "<火箭隊的>閃電鳥",
+    "img": "",
+    "card_type": "Pokemon",
+    "lang": "sc",
+    "regulation": "I",
+    "set_name": "SV10",
+    "set_full_name": "火箭隊的榮耀",
+    "series": "朱&紫",
+    "set_code": "SV10",
+    "date": "2025-05-02",
+    "number": "033",
+    "set_total": 98,
+    "rarity": "Rare",
+    "author": [
+        "Nurikabe"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "flavor_text": "傳說的鳥寶可夢。 據說只要牠磨蹭翅膀， 立刻就會有雷電劈下。",
+    "stage": "Basic",
+    "hp": 120,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "阻礙之翼",
+            "damage": 30,
+            "effect": "若希望，選擇1個對手的戰鬥寶可夢身上附加的能量，改附於對手的備戰寶可夢身上。"
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "惡棍閃電",
+            "damage": "60+",
+            "effect": "若這隻寶可夢身上附有「火箭隊能量」，則增加60點傷害。"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lightning"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/zh-cn/cards/SV10-033"
+        }
+    ],
+    "print_key": "asia:SV10-33",
+    "card_key": "145|120|1|Nurikabe|30,60+|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

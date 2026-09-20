@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy4-42",
+    "name": "Laternecto",
+    "img": "https://assets.tcgdex.net/de/xy/xy4/42/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy4",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy4/symbol",
+    "set_full_name": "Phantomkräfte",
+    "series": "XY",
+    "set_code": "xy4",
+    "date": "2014-11-05",
+    "number": "42",
+    "set_total": 124,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 608,
+    "pokemon_category": "",
+    "flavor_text": "Es nährt seine Flamme mit den Seelen seiner Opfer. Heutzutage irrt es auf der Suche nach Seelen durch Krankenhäuser.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Verfluchter Fall",
+            "damage": null,
+            "effect": "Verteile 3 Schadensmarken beliebig auf die Pokémon deines Gegners."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Nachtwanderung",
+            "damage": "20×",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der Pokémon in deinem Ablagestapel, die Nachtwanderung beherrschen, zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Lichtel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy4-42"
+        }
+    ],
+    "print_key": "tcgdex:xy4-42",
+    "card_key": "608|70|2|kawayoo|None,20x|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

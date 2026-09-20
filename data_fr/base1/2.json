@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-2",
+    "name": "Tortank",
+    "img": "https://assets.tcgdex.net/fr/base/base1/2/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "2",
+    "set_total": 102,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 9,
+    "pokemon_category": "",
+    "flavor_text": "Un Pokémon brutal armé de canons hydrauliques. Ses puissants jets d'eau sont dévastateurs.",
+    "stage": "Niveau 2",
+    "hp": 100,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Danse de la pluie",
+            "effect": "Aussi souvent que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez attacher 1 carte Énergie {W} à 1 de vos Pokémon {W} (En plus de la carte Énergie que vous pouvez attacher normalement.) Ce pouvoir ne peut être utilisé si Tortank est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Eau"
+            ],
+            "name": "Hydrocanon",
+            "damage": "40+",
+            "effect": "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {W} attachée à Tortank en plus du coût en Énergie de cette attaque. Les Énergies {W} supplémentaires après la seconde ne comptent pas."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Carabaffe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-2"
+        }
+    ],
+    "print_key": "tcgdex:base1-2",
+    "card_key": "9|100|3|Ken Sugimori|40+|3",
+    "types_en": [
+        "Water"
+    ]
+}

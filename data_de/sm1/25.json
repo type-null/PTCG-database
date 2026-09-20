@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm1-25",
+    "name": "Miezunder",
+    "img": "https://assets.tcgdex.net/de/sm/sm1/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sonne & Mond",
+    "series": "Sonne & Mond",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "25",
+    "set_total": 172,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "TOKIYA"
+    ],
+    "pokedex_number": 726,
+    "pokemon_category": "",
+    "flavor_text": "Es trägt ein feuriges Glöckchen um den Hals. Immer, wenn es Flammen ausstößt, ertönt ein helles Läuten.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Kratzfurie",
+            "damage": "20×",
+            "effect": "Wirf 3 Münzen. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Flammenwurf",
+            "damage": 90,
+            "effect": "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Flamiau",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm1-25"
+        }
+    ],
+    "print_key": "tcgdex:sm1-25",
+    "card_key": "726|90|2|TOKIYA|20x,90|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

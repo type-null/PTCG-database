@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv01-109",
+    "name": "Epitaff",
+    "img": "https://assets.tcgdex.net/de/sv/sv01/109/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Karmesin & Purpur",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "109",
+    "set_total": 258,
+    "rarity": "Selten",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 979,
+    "pokemon_category": "",
+    "flavor_text": "Es leitet den geballten Zorn, den es tief im Herzen trägt, in seine Fäuste. Wenn es zuschlägt, erschüttert es seinen Gegner bis ins Mark.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Zornesfaust",
+            "damage": "70×",
+            "effect": "Diese Attacke fügt für jede von deinem Gegner genommene Preiskarte 70 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Dynamitstoß",
+            "damage": 170,
+            "effect": "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Rasaff",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv01-109"
+        }
+    ],
+    "print_key": "tcgdex:sv01-109",
+    "card_key": "979|140|2|Anesaki Dynamic|70x,170|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

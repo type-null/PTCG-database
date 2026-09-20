@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex13-16",
+    "name": "Rayquaza δ",
+    "img": "https://assets.tcgdex.net/fr/ex/ex13/16/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex13",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex13/symbol",
+    "set_full_name": "EX Fantômes Holon",
+    "series": "EX",
+    "set_code": "ex13",
+    "date": "2006-05-03",
+    "number": "16",
+    "set_total": 111,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 384,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Eau",
+        "Métal"
+    ],
+    "abilities": [
+        {
+            "name": "Barrière aquatique",
+            "effect": "Tant que Rayquaza possède des cartes Énergie Holon, vos Pokémon  ne possèdent pas de Faiblesse."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Recherche Delta",
+            "damage": null,
+            "effect": "Cherchez dans votre deck une carte Énergie Holon et attachez-la à Rayquaza. Ensuite, mélangez votre deck."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Éclat d'ozone",
+            "damage": 60,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Eau",
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex13-16"
+        }
+    ],
+    "print_key": "tcgdex:ex13-16",
+    "card_key": "384|80|2|Mitsuhiro Arita|None,60|1,4",
+    "types_en": [
+        "Water",
+        "Metal"
+    ]
+}

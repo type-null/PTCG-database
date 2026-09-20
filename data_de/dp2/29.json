@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp2-29",
+    "name": "Mantax",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Geheimnisvolle Schätze",
+    "series": "Diamant & Perl",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "29",
+    "set_total": 124,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 226,
+    "pokemon_category": "",
+    "flavor_text": "Wenn das Meer ruhig ist, kann man vielleicht einen Schwarm MANTAX sehen, die schnell vorbeischwimmen.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Riesenflosse",
+            "effect": "Wenn Mantirps sich an beliebiger Stelle unter Mantax befindet, sind die Rückzugskosten deiner {W}-Pokémon um {C} {C} reduziert."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Riesenwelle",
+            "damage": 50,
+            "effect": "Mantax kann Riesenwelle in deinem nächsten Zug nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp2-29"
+        }
+    ],
+    "print_key": "tcgdex:dp2-29",
+    "card_key": "226|80|1|Masakazu Fukuda|50|2",
+    "types_en": [
+        "Water"
+    ]
+}

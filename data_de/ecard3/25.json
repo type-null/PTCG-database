@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-25",
+    "name": "Quaxo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "25",
+    "set_total": 182,
+    "rarity": "Selten",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 186,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 110,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Plötzliches Wachstum",
+            "damage": null,
+            "effect": "Lege eine beliebige Anzahl an Basis-Energiekarten aus deiner Hand an Quaxo an."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Froschhüpfer",
+            "damage": "30+",
+            "effect": "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Energieplatscher",
+            "damage": 70,
+            "effect": "Lege 2 an Quaxo angelegte -Energiekarten an 1 oder 2 der Pokémon auf deiner Bank an. (Du kannst beide an dasselbe Pokémon anlegen oder je 1 an 2 verschiedene Pokémon.) Hast du keine Pokémon auf deiner Bank, ignoriere diesen Effekt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-25"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-25",
+    "card_key": "186|110|2|Atsuko Nishida|None,30+,70|1,3,5",
+    "types_en": [
+        "Water"
+    ]
+}

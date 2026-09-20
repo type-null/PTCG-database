@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm1-26",
+    "name": "Félinferno",
+    "img": "https://assets.tcgdex.net/fr/sm/sm1/26/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Soleil et Lune",
+    "series": "Soleil et Lune",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "26",
+    "set_total": 163,
+    "rarity": "Rare",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "pokedex_number": 727,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 160,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Crocs Feu",
+            "damage": 30,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Dark Lariat",
+            "damage": "100×",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 100 dégâts multipliés par le nombre de côtés face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Matoufeu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm1-26"
+        }
+    ],
+    "print_key": "tcgdex:sm1-26",
+    "card_key": "727|160|3|Hitoshi Ariga|30,100x|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

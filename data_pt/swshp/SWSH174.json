@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/swshp-SWSH174",
+    "name": "Espeon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "regulation": "E",
+    "set_name": "swshp",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swshp/symbol",
+    "set_full_name": "ESES Promos",
+    "series": "Espada e Escudo",
+    "set_code": "swshp",
+    "date": "2019-11-15",
+    "number": "SWSH174",
+    "set_total": 307,
+    "rarity": "Promo",
+    "pokedex_number": 196,
+    "pokemon_category": "",
+    "stage": "Estágio 1",
+    "hp": 110,
+    "types": [
+        "Psíquico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psíquico"
+            ],
+            "name": "Raio Psíquico",
+            "damage": 20,
+            "effect": "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Incolor"
+            ],
+            "name": "Psíquico",
+            "damage": "10+",
+            "effect": "Este ataque causa 40 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Sombrio"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lutador"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/swshp-SWSH174"
+        }
+    ],
+    "print_key": "tcgdex:swshp-SWSH174",
+    "types_en": [
+        "Psychic"
+    ]
+}

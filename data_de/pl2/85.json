@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-85",
+    "name": "Chelast GL",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "85",
+    "set_total": 120,
+    "rarity": "Häufig",
+    "author": [
+        "Kanako Eo"
+    ],
+    "pokedex_number": 387,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Notdünger",
+            "effect": "Solange Chelast GL 60 oder weniger verbliebene KP hat, fügen alle Angriffe von Chelast GL den Aktiven Pokémon 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Gigasauger",
+            "damage": 30,
+            "effect": "Entferne nach deinem Angriff Schadensmarken von Chelast GL entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-85"
+        }
+    ],
+    "print_key": "tcgdex:pl2-85",
+    "card_key": "387|90|3|Kanako Eo|30|3",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv03-047",
+    "name": "Tohaido",
+    "img": "https://assets.tcgdex.net/de/sv/sv03/047/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv03",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03/symbol",
+    "set_full_name": "Obsidian Flammen",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv03",
+    "date": "2023-08-11",
+    "number": "047",
+    "set_total": 230,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Tonji Matsuno"
+    ],
+    "pokedex_number": 319,
+    "pokemon_category": "",
+    "flavor_text": "Tohaido trägt den Spitznamen „Tyrann des Meeres“. Schiffe, die in sein Revier eindringen, greift es ausnahmslos an.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Aqua-Einschlag",
+            "damage": "10+",
+            "effect": "Diese Attacke fügt für jedes {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Flinke Kopfnuss",
+            "damage": 60,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Kanivanha",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv03-047"
+        }
+    ],
+    "print_key": "tcgdex:sv03-47",
+    "card_key": "319|120|1|Tonji Matsuno|10+,60|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

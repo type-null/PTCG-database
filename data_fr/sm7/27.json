@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm7-27",
+    "name": "Galifeu",
+    "img": "https://assets.tcgdex.net/fr/sm/sm7/27/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm7",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm7/symbol",
+    "set_full_name": "Tempête Céleste",
+    "series": "Soleil et Lune",
+    "set_code": "sm7",
+    "date": "2018-08-03",
+    "number": "27",
+    "set_total": 183,
+    "rarity": "Peu Commune",
+    "author": [
+        "Mizue"
+    ],
+    "pokedex_number": 256,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Double Pied",
+            "damage": "30×",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Lance-Flammes",
+            "damage": 80,
+            "effect": "Défaussez une Énergie de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Poussifeu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm7-27"
+        }
+    ],
+    "print_key": "tcgdex:sm7-27",
+    "card_key": "256|80|1|Mizue|30x,80|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

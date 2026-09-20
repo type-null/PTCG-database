@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp2-16",
+    "name": "Typhlosion",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Trésors Mystérieux",
+    "series": "Diamant & Perle",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "16",
+    "set_total": 124,
+    "rarity": "Rare Holo",
+    "author": [
+        "Kazuyuki Kano"
+    ],
+    "pokedex_number": 157,
+    "pokemon_category": "",
+    "flavor_text": "Il attaque en projetant des flammes. Il se dissimule derrière les vagues de chaleur qu'il produit.",
+    "stage": "Niveau 2",
+    "hp": 110,
+    "types": [
+        "Feu"
+    ],
+    "abilities": [
+        {
+            "name": "Pyroteknik",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Fire de votre pile de défausse à 1 des Pokémon de votre Banc. Ce pouvoir ne peut pas être utilisé si Typhlosion est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Chaleur évaporante",
+            "damage": 60,
+            "effect": "Défaussez une Énergie Water attachée au Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+30"
+    },
+    "retreat": 2,
+    "evolve_from": "Feurisson",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp2-16"
+        }
+    ],
+    "print_key": "tcgdex:dp2-16",
+    "card_key": "157|110|2|Kazuyuki Kano|60|3",
+    "types_en": [
+        "Fire"
+    ]
+}

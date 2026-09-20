@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex4-18",
+    "name": "Sharpedo de Team Aqua",
+    "img": "https://assets.tcgdex.net/fr/ex/ex4/18/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex4",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex4/symbol",
+    "set_full_name": "EX Team Magma vs Team Aqua",
+    "series": "EX",
+    "set_code": "ex4",
+    "date": "2004-03-01",
+    "number": "18",
+    "set_total": 97,
+    "rarity": "Rare",
+    "author": [
+        "Katsura Tabata"
+    ],
+    "pokedex_number": 319,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Poison à effet retardé",
+            "damage": 20,
+            "effect": "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur est Empoisonné."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Aqua-choc",
+            "damage": "50+",
+            "effect": "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex4-18"
+        }
+    ],
+    "print_key": "tcgdex:ex4-18",
+    "card_key": "319|70|0|Katsura Tabata|20,50+|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

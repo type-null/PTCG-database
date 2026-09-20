@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base5-48",
+    "name": "Porygon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Grund",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "48",
+    "set_total": 83,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 137,
+    "pokemon_category": "",
+    "flavor_text": "Immer mehr Leute versuchen ihr Glück an Spielautomaten, um ein Porygon zu gewinnen.",
+    "stage": "Basis",
+    "hp": 40,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Umwandlung 1",
+            "damage": null,
+            "effect": "Falls das verteidigende Pokémon eine Schwäche hat, darfst du sie in einen Typ deiner Wahl außer Farblos ändern."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Psystrahl",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-30"
+    },
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base5-48"
+        }
+    ],
+    "print_key": "tcgdex:base5-48",
+    "card_key": "137|40|None|Keiji Kinebuchi|None,20|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

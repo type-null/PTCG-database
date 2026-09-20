@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-54",
+    "name": "Metapod",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "54",
+    "set_total": 102,
+    "rarity": "Comune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 11,
+    "pokemon_category": "",
+    "flavor_text": "È vulnerabile agli attacchi a causa del suo guscio morbido, che non protegge il suo corpo debole e molle. LIV 21 N.11",
+    "stage": "Livello 1",
+    "hp": 70,
+    "types": [
+        "Erba"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Indurimento",
+            "damage": null,
+            "effect": "Lancia una moneta. Se esce testa, previeni tutti i danni inflitti a Metapod durante il prossimo turno del tuo avversario. (Tutti gli altri effetti degli attacchi restano validi)"
+        },
+        {
+            "cost": [
+                "Erba",
+                "Erba"
+            ],
+            "name": "Paralizzante",
+            "damage": 20,
+            "effect": "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuoco"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Caterpie",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-54"
+        }
+    ],
+    "print_key": "tcgdex:base1-54",
+    "card_key": "11|70|2|Ken Sugimori|None,20|2,2",
+    "types_en": [
+        "Grass"
+    ]
+}

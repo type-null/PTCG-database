@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex16-10",
+    "name": "Kabutops",
+    "img": "https://assets.tcgdex.net/fr/ex/ex16/10/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex16",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex16/symbol",
+    "set_full_name": "EX Gardiens du Pouvoir",
+    "series": "EX",
+    "set_code": "ex16",
+    "date": "2007-02-17",
+    "number": "10",
+    "set_total": 108,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 141,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 110,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Regard primitif",
+            "effect": "Tant que Kabutops est votre Pokémon Actif, votre adversaire ne peut pas jouer de cartes Pokémon de base ou de cartes Évolution de sa main pour faire évoluer son Pokémon Actif."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Antenne trompeuse",
+            "damage": 20,
+            "effect": "Avant d'infliger des dégâts, vous pouvez choisir 1 des Pokémon de Banc de votre adversaire et l'échanger avec 1 des Pokémon Défenseurs. Cette attaque inflige alors 20 dégâts au nouveau Pokémon Défenseur. Votre adversaire choisit le Pokémon Défenseur à échanger."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Pulvérisation aveuglante",
+            "damage": 60,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Kabuto",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex16-10"
+        }
+    ],
+    "print_key": "tcgdex:ex16-10",
+    "card_key": "141|110|2|Ken Sugimori|20,60|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

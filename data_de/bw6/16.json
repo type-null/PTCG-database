@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw6-16",
+    "name": "Maracamba",
+    "img": "https://assets.tcgdex.net/de/bw/bw6/16/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw6",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw6/symbol",
+    "set_full_name": "Hoheit der Drachen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw6",
+    "date": "2012-08-15",
+    "number": "16",
+    "set_total": 128,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 556,
+    "pokemon_category": "",
+    "flavor_text": "Erzeugt durch rhythmische Bewegungen Laute, die dem Klang von Maracas ähneln. Lebt an trockenen Orten.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Betäubungsnadel",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Starknadel",
+            "damage": 40,
+            "effect": "Wenn an dieses Pokémon eine Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff 40 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw6-16"
+        }
+    ],
+    "print_key": "tcgdex:bw6-16",
+    "card_key": "556|90|2|sui|20,40|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

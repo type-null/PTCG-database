@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-3",
+    "name": "Lohgock",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "3",
+    "set_total": 133,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 257,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "Feueratem",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Verteidigendes Pokémon wählen. Das gewählte Pokémon ist jetzt verbrannt. Diese Poké-Power kann nicht benutzt werden, wenn Lohgock von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Greifer",
+            "damage": 40,
+            "effect": "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Feuerwirbel",
+            "damage": 100,
+            "effect": "Lege 2 an Lohgock angelegte Energien auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+30"
+    },
+    "retreat": 1,
+    "evolve_from": "Jungglut",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-3"
+        }
+    ],
+    "print_key": "tcgdex:pl1-3",
+    "card_key": "257|130|1|Hajime Kusajima|40,100|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

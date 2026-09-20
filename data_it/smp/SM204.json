@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/smp-SM204",
+    "name": "Necrozma",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SL Promo",
+    "series": "Sole e Luna",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM204",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 800,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Attacco Barriera",
+            "damage": 30,
+            "effect": "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Psico",
+                "Incolore"
+            ],
+            "name": "Laser Speciale",
+            "damage": "100+",
+            "effect": "Se questo Pokémon ha delle Energie speciali assegnate, questo attacco infligge 60 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/smp-SM204"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM204",
+    "card_key": "800|130|2|Hasuno|30,100+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

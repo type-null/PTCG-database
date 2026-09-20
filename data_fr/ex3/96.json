@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex3-96",
+    "name": "Grotadmorv ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex3/96/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Dragon",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "96",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Hikaru Koike"
+    ],
+    "pokedex_number": 89,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Gaz chimique",
+            "effect": "Tant que Grotadmorv ex est votre Pokémon Actif, ignorez tous les Poké-Powers et les Poké-Bodies autres que Puanteur."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Haleine empoisonnée",
+            "damage": 10,
+            "effect": "Le Pokémon Défenseur est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Eau gluante",
+            "damage": "40+",
+            "effect": "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {C} dans le Coût de retraite du Pokémon Défenseur (après application des effets sur le Coût de retraite)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Tadmorv",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex3-96"
+        }
+    ],
+    "print_key": "tcgdex:ex3-96",
+    "card_key": "89|100|2|Hikaru Koike|10,40+|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

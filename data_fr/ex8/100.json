@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex8-100",
+    "name": "Hariyama ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex8/100/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "100",
+    "set_total": 108,
+    "rarity": "Rare",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 297,
+    "pokemon_category": "",
+    "hp": 110,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Aura autoritaire",
+            "effect": "Tant qu'Hariyama ex est votre Pokémon Actif, votre adversaire ne peut plus jouer de carte Stade de sa main."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Sabotage",
+            "damage": 40,
+            "effect": "Choisissez 1 carte de la main de votre adversaire sans regarder et défaussez-la."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Lancer tournant",
+            "damage": 80,
+            "effect": "Lors du prochain tour de votre adversaire, tous dégâts infligés à Hariyama ex par des attaques sont augmentés de 10 (avant application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Makuhita",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex8-100"
+        }
+    ],
+    "print_key": "tcgdex:ex8-100",
+    "card_key": "297|110|2|Ryo Ueda|40,80|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

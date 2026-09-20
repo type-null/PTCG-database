@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/svp-052",
+    "name": "Mewtwo",
+    "img": "https://assets.tcgdex.net/es/sv/svp/052/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "G",
+    "set_name": "svp",
+    "set_full_name": "SVP Black Star Promos",
+    "series": "Escarlata y Púrpura",
+    "set_code": "svp",
+    "date": "2023-03-31",
+    "number": "052",
+    "set_total": 225,
+    "rarity": "Promo",
+    "author": [
+        "Bun Toujo"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 130,
+    "types": [
+        "Psíquico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Barrera Reflectante",
+            "damage": 20,
+            "effect": "Durante el próximo turno de tu rival, si este Pokémon resulta dañado por un ataque (incluso si queda Fuera de Combate), pon una cantidad de contadores de daño en el Pokémon Atacante equivalente al daño infligido a este Pokémon."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Psíquico",
+                "Incolora"
+            ],
+            "name": "Golpe Psíquico",
+            "damage": 130,
+            "effect": "Descarta 2 Energías de este Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscura"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/svp-052"
+        }
+    ],
+    "print_key": "tcgdex:svp-52",
+    "card_key": "150|130|2|Bun Toujo|20,130|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

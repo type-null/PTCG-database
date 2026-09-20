@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo3-14",
+    "name": "Suicune",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "14",
+    "set_total": 66,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 245,
+    "pokemon_category": "",
+    "flavor_text": "Ihm wird nachgesagt, dass es eine Wiedergeburt der Nordwinde ist und dadurch verdrecktes und schlammiges Wasser von allem Dreck befreien kann.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Kristallkörper",
+            "effect": "Verhindere alle Auswirkungen der Angriffe deines Gegners außer Schaden, die Suicune zugefügt werden. Diese Fähigkeit verliert ihre Wirkung, solange Suicune schläft, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Nordlichtschein",
+            "damage": 30,
+            "effect": "Wirf zwei Münzen. Wenn beide „Kopf“ zeigen, ist das verteidigende Pokémon jetzt gelähmt. Wenn nur eine „Kopf“ zeigt, schläft das verteidigende Pokémon jetzt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo3-14"
+        }
+    ],
+    "print_key": "tcgdex:neo3-14",
+    "card_key": "245|70|1|Ken Sugimori|30|3",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl4-51",
+    "name": "Burmadame Lumpenumhang",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl4",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl4/symbol",
+    "set_full_name": "Arceus",
+    "series": "Platin",
+    "set_code": "pl4",
+    "date": "2009-11-04",
+    "number": "51",
+    "set_total": 111,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 413,
+    "pokemon_category": "",
+    "flavor_text": "Es nimmt während der Entwicklung Dinge aus der Umgebung auf, daher gibt es viele Variationen von ihm.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Umhang-Scherbe",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. Wenn du Burmadame Pflanzenumhang im Spiel hast, fügt dieser Angriff stattdessen dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Müll servieren",
+            "damage": 30,
+            "effect": "Du kannst den Ablagestapel deines Gegners nach 1 beliebigen Karte durchsuchen, sie deinem Gegner zeigen und oben auf sein Deck legen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Burmy Lumpenumhang",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl4-51"
+        }
+    ],
+    "print_key": "tcgdex:pl4-51",
+    "card_key": "413|90|1|Miki Tanaka|None,30|1,2",
+    "types_en": [
+        "Metal"
+    ]
+}

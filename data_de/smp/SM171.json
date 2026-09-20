@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/smp-SM171",
+    "name": "Flamara GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SM Promokarten",
+    "series": "Sonne & Mond",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM171",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "PLANETA Otani"
+    ],
+    "pokedex_number": 136,
+    "pokemon_category": "",
+    "hp": 210,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Hitzestufe",
+            "damage": 30,
+            "effect": "Du kannst bis zu 3 Fire-Energiekarten aus deiner Hand beliebig an deine Pokémon anlegen."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Helle Flamme",
+            "damage": 190,
+            "effect": "Lege 2 Fire-Energien von diesem Pokémon auf den Ablagestapel."
+        },
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Powerbrenner GX",
+            "damage": "20×",
+            "effect": "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl der Fire-Energiekarten in deinem Ablagestapel zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/smp-SM171"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM171",
+    "card_key": "136|210|2|PLANETA Otani|30,190,20x|1,3,1",
+    "types_en": [
+        "Fire"
+    ]
+}

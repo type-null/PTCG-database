@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swsh2-128",
+    "name": "Scizor",
+    "img": "https://assets.tcgdex.net/es/swsh/swsh2/128/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Choque Rebelde",
+    "series": "Espada y Escudo",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "128",
+    "set_total": 209,
+    "rarity": "Rara",
+    "author": [
+        "Ryuta Fuse"
+    ],
+    "pokedex_number": 212,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 130,
+    "types": [
+        "Metálica"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metálica"
+            ],
+            "name": "Raid Oscuro",
+            "damage": "30+",
+            "effect": "Si este Pokémon ha evolucionado de Scyther durante este turno, este ataque hace 90 puntos de daño más."
+        },
+        {
+            "cost": [
+                "Metálica",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Garra Guardia",
+            "damage": 90,
+            "effect": "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Planta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Scyther",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swsh2-128"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-128",
+    "card_key": "212|130|1|Ryuta Fuse|30+,90|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

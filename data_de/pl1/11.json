@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-11",
+    "name": "Voltenso",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "11",
+    "set_total": 133,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 310,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Elektrobarriere",
+            "effect": "Verhindere allen Schaden, der Pokémon auf deiner Bank (außer allen Voltenso) durch Angriffe zugefügt wird."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Stromwelle",
+            "damage": null,
+            "effect": "Dieser Angriff fügt jedem Pokémon (deinen und denen deines Gegners), das mindestens 1 Poké-Power hat, 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Stromanziehung",
+            "damage": 40,
+            "effect": "Durchsuche dein Deck nach 1 {L}-Energiekarte und lege sie an 1 deiner Pokémon an. Mische dein Deck danach."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Frizelbliz",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-11"
+        }
+    ],
+    "print_key": "tcgdex:pl1-11",
+    "card_key": "310|90|0|Kouki Saitou|None,40|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-4",
+    "name": "Impergator",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "4",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 160,
+    "pokemon_category": "",
+    "flavor_text": "Wenn es mit seinen massiven und mächtigen Kiefern zubeißt, schüttelt es den Kopf und zerreißt sein Opfer schonungslos.",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Berserken",
+            "effect": "Wirf eine Münze, wenn du Impergator aus deiner Hand ausspielst. Lege bei „Kopf“ die obersten fünf Karten vom Deck deines Gegners auf seinen Ablagestapel. Lege bei „Zahl“ die obersten fünf Karten deines Decks auf deinen Ablagestapel."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Schmatzen",
+            "damage": "50+",
+            "effect": "Wirf so viele Münzen, wie Schadensmarken auf Impergator liegen. Dieser Angriff fügt 50 Schadenspunkte plus 10 weitere Schadenspunkte pro geworfenen „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Tyracroc",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-4"
+        }
+    ],
+    "print_key": "tcgdex:neo1-4",
+    "card_key": "160|100|3|Ken Sugimori|50+|4",
+    "types_en": [
+        "Water"
+    ]
+}

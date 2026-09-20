@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo3-12",
+    "name": "Porygon2",
+    "img": "https://assets.tcgdex.net/fr/neo/neo3/12/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "12",
+    "set_total": 66,
+    "rarity": "Rare",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 233,
+    "pokemon_category": "",
+    "flavor_text": "Cette version améliorée de Porygon est conçue pour l'exploration spatiale. Cependant, elle ne peut pas voler.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Convertisseur d'énergie",
+            "effect": "Une fois durant votre tour (avant votre attaque), vous pouvez choisir une carte Énergie de base attachée à l'un de vos Pokémon et choisir un type d'Énergie. Considérez cette carte Énergie comme étant de ce type jusqu'à la fin de votre tour. Ce pouvoir ne peut être utilisé si Porygon2 est Endormi, Confus ou Paralysé. Si Porygon2 devient Endormi, Confus ou Paralysé, la carte Énergie reprend son type d'origine."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Rayon Delta",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, choisissez si le Pokémon Défenseur devient Endormi, Confus ou Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Porygon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo3-12"
+        }
+    ],
+    "print_key": "tcgdex:neo3-12",
+    "card_key": "233|70|1|Keiji Kinebuchi|20|3",
+    "types_en": [
+        "Colorless"
+    ]
+}

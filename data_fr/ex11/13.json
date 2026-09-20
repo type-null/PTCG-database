@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex11-13",
+    "name": "Rayquaza δ",
+    "img": "https://assets.tcgdex.net/fr/ex/ex11/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex11",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex11/symbol",
+    "set_full_name": "EX Espèces Delta",
+    "series": "EX",
+    "set_code": "ex11",
+    "date": "2005-10-31",
+    "number": "13",
+    "set_total": 114,
+    "rarity": "Rare",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 384,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Électrique",
+        "Métal"
+    ],
+    "abilities": [
+        {
+            "name": "Garde Delta",
+            "effect": "Tant que Rayquaza possède des cartes Énergie Holon, ignorez l'effet de son attaque Orage d'éclairs."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Coup puissant",
+            "damage": "10x",
+            "effect": "Inflige 10 dégâts multipliés par le nombre total d'Énergie attachée à Rayquaza."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Orage d'éclairs",
+            "damage": 70,
+            "effect": "Placez 7 marqueurs de dégât sur Rayquaza."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Eau",
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex11-13"
+        }
+    ],
+    "print_key": "tcgdex:ex11-13",
+    "card_key": "384|90|3|Ryo Ueda|10x,70|1,4",
+    "types_en": [
+        "Lightning",
+        "Metal"
+    ]
+}

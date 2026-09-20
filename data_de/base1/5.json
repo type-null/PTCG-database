@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-5",
+    "name": "Piepi",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "5",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 35,
+    "pokemon_category": "",
+    "flavor_text": "Piepis magischer und niedlicher Anreiz hat viele Bewunderer. Es ist selten und nur in bestimmten Gebieten aufzufinden.",
+    "stage": "Basis",
+    "hp": 40,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Gesang",
+            "damage": null,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon schlafend."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Metronom",
+            "damage": null,
+            "effect": "Wähle einen der Angriffe des verteidigenden Pokémon. Metronom kopiert diesen Angriff, außer seiner Energiekosten und was sonst noch für den Einsatz dieses Angriffs erforderlich ist, wie z.B. das Entfernen von Energiekarten. (Unabhängig vom Typ des Verteidigenden Pokémon ist der Typ der Piepi immer noch farblos.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-5"
+        }
+    ],
+    "print_key": "tcgdex:base1-5",
+    "card_key": "35|40|1|Ken Sugimori|None,None|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

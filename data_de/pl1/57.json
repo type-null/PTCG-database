@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-57",
+    "name": "Sleimok",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "57",
+    "set_total": 133,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 89,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Schlammbecken",
+            "effect": "Wenn Sleimok zwischen den Zügen von einem Speziellen Zustand betroffen bleibt, entferne 2 Schadensmarken von Sleimok."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Seltsames Gift",
+            "damage": 30,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet. Bei „Zahl“ ist Sleimok jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Seltsamer Schlamm",
+            "damage": "50+",
+            "effect": "Wenn Sleimok vergiftet ist, fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "retreat": 3,
+    "evolve_from": "Sleima",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-57"
+        }
+    ],
+    "print_key": "tcgdex:pl1-57",
+    "card_key": "89|100|3|Hajime Kusajima|30,50+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

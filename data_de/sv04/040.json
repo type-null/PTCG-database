@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv04-040",
+    "name": "Palkia",
+    "img": "https://assets.tcgdex.net/de/sv/sv04/040/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv04",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04/symbol",
+    "set_full_name": "Paradoxrift",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv04",
+    "date": "2023-11-03",
+    "number": "040",
+    "set_total": 266,
+    "rarity": "Selten",
+    "author": [
+        "Ryuta Fuse"
+    ],
+    "pokedex_number": 484,
+    "pokemon_category": "",
+    "flavor_text": "Es hat die Macht, den Raum zu krümmen. In den Mythen von Sinnoh erscheint es als Gottheit.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Blitz-Teleportation",
+            "damage": 30,
+            "effect": "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Preiszähler",
+            "damage": "80+",
+            "effect": "Wenn du mehr verbleibende Preiskarten hast als dein Gegner, fügt diese Attacke 80 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv04-040"
+        }
+    ],
+    "print_key": "tcgdex:sv04-40",
+    "card_key": "484|130|2|Ryuta Fuse|30,80+|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

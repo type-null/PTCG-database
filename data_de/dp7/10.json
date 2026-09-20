@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-10",
+    "name": "Gewaldro",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "10",
+    "set_total": 106,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "pokedex_number": 254,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 110,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Energieverteilung",
+            "effect": "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 {G}-Energiekarte, die an 1 deiner Pokémon angelegt ist, an ein anderes deiner Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Gewaldro von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Giftiges Blatt",
+            "damage": 40,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schneidesauger",
+            "damage": 60,
+            "effect": "Entferne 2 Schadensmarken von Gewaldro."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Reptain",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-10"
+        }
+    ],
+    "print_key": "tcgdex:dp7-10",
+    "card_key": "254|110|1|Suwama Chiaki|40,60|2,4",
+    "types_en": [
+        "Grass"
+    ]
+}

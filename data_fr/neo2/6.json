@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo2-6",
+    "name": "Kabutops",
+    "img": "https://assets.tcgdex.net/fr/neo/neo2/6/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Discovery",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "6",
+    "set_total": 75,
+    "rarity": "Rare",
+    "author": [
+        "Kimiya Masago"
+    ],
+    "pokedex_number": 141,
+    "pokemon_category": "",
+    "flavor_text": "Dans l'eau, il rentre ses pattes pour devenir plus compact, puis il agite sa carapace pour nager plus vite.",
+    "stage": "Niveau 2",
+    "hp": 90,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Tranche",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Hydro-lame",
+            "damage": "40x",
+            "effect": "Lancez un nombre de pièces égal au nombre de cartes Énergie attachées à Kabutops. Cette attaque inflige 40 dégâts, multipliés par le nombre de faces. Vous ne pouvez pas lancer plus de 3 pièces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Kabuto",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo2-6"
+        }
+    ],
+    "print_key": "tcgdex:neo2-6",
+    "card_key": "141|90|2|Kimiya Masago|20,40x|1,1",
+    "types_en": [
+        "Water"
+    ]
+}

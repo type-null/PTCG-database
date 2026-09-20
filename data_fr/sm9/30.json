@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm9-30",
+    "name": "Léviator",
+    "img": "https://assets.tcgdex.net/fr/sm/sm9/30/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm9",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm9/symbol",
+    "set_full_name": "Duo de Choc",
+    "series": "Soleil et Lune",
+    "set_code": "sm9",
+    "date": "2019-01-31",
+    "number": "30",
+    "set_total": 196,
+    "rarity": "Rare",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 150,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Explosion Distillée",
+            "damage": "30+",
+            "effect": "Montrez les 7 cartes du dessus de votre deck. Cette attaque inflige 30 dégâts supplémentaires multipliés par le nombre d’Énergies Water que vous y trouvez. Ensuite, mélangez ces cartes Énergie avec votre deck et défaussez les autres cartes."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Eau"
+            ],
+            "name": "Ultralaser",
+            "damage": 100,
+            "effect": "Défaussez une Énergie du Pokémon Actif de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Magicarpe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm9-30"
+        }
+    ],
+    "print_key": "tcgdex:sm9-30",
+    "card_key": "130|150|4|Hasuno|30+,100|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

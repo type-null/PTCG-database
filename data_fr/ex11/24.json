@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex11-24",
+    "name": "Grahyena δ",
+    "img": "https://assets.tcgdex.net/fr/ex/ex11/24/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex11",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex11/symbol",
+    "set_full_name": "EX Espèces Delta",
+    "series": "EX",
+    "set_code": "ex11",
+    "date": "2005-10-31",
+    "number": "24",
+    "set_total": 114,
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 262,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Obscurité",
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Croc Delta",
+            "damage": 20,
+            "effect": "Si le Pokémon Défenseur est un Pokémon-ex, il ne peut pas attaquer lors du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Incolore"
+            ],
+            "name": "S'y mettre à plusieurs",
+            "damage": "10x",
+            "effect": "Inflige 10 dégâts multipliés par le nombre de Pokémon {D} et {M} que vous avez en jeu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Medhyena",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex11-24"
+        }
+    ],
+    "print_key": "tcgdex:ex11-24",
+    "card_key": "262|70|1|Hajime Kusajima|20,10x|2,2",
+    "types_en": [
+        "Darkness",
+        "Metal"
+    ]
+}

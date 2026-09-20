@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv10-070",
+    "name": "Team Rockets Zapdos",
+    "img": "https://assets.tcgdex.net/de/sv/sv10/070/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "I",
+    "set_name": "sv10",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv10/symbol",
+    "set_full_name": "Ewige Rivalen",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv10",
+    "date": "2025-05-30",
+    "number": "070",
+    "set_total": 244,
+    "rarity": "Selten",
+    "author": [
+        "Nurikabe"
+    ],
+    "pokedex_number": 145,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Störflügel",
+            "damage": 30,
+            "effect": "Du kannst 1 Energie vom Aktiven Pokémon deines Gegners auf 1 Pokémon auf seiner Bank verschieben."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Arglistiger Donner",
+            "damage": "60+",
+            "effect": "Wenn an dieses Pokémon mindestens 1 Team Rockets Energie angelegt ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv10-070"
+        }
+    ],
+    "print_key": "tcgdex:sv10-70",
+    "card_key": "145|120|1|Nurikabe|30,60+|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

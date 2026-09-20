@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swsh3.5-42",
+    "name": "Scrafty",
+    "img": "https://assets.tcgdex.net/es/swsh/swsh3.5/42/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "D",
+    "set_name": "swsh3.5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh3.5/symbol",
+    "set_full_name": "Camino de Campeones",
+    "series": "Espada y Escudo",
+    "set_code": "swsh3.5",
+    "date": "2020-09-25",
+    "number": "42",
+    "set_total": 80,
+    "rarity": "Holo Rara",
+    "author": [
+        "tetsuya koizumi"
+    ],
+    "pokedex_number": 560,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 120,
+    "types": [
+        "Oscura"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Oscura"
+            ],
+            "name": "Arrinconar",
+            "damage": 30,
+            "effect": "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse."
+        },
+        {
+            "cost": [
+                "Oscura",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Seria Pelea",
+            "damage": "90+",
+            "effect": "Si has jugado 1 carta de Nerio de tu mano durante este turno, este ataque hace 90 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swsh3.5-42"
+        }
+    ],
+    "print_key": "tcgdex:swsh3.5-42",
+    "card_key": "560|120|2|tetsuya koizumi|30,90+|1,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-125",
+    "name": "Stolloss",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/125/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "125",
+    "set_total": 234,
+    "rarity": "Selten",
+    "author": [
+        "Satoshi Shirai"
+    ],
+    "pokedex_number": 306,
+    "pokemon_category": "",
+    "flavor_text": "Ihre Reviere erstrecken sich über ganze Gebirge. Stolloss, die mit Narben übersät sind, sollte man besser meiden.",
+    "stage": "Rang 2",
+    "hp": 170,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Druckgriff",
+            "damage": 80,
+            "effect": "Wenn diesem Pokémon während des nächsten Zuges deines Gegners durch eine Attacke Schaden zugefügt wird (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 8 Schadensmarken auf das Angreifende Pokémon."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Gigastoß",
+            "damage": 160,
+            "effect": "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Stollrak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-125"
+        }
+    ],
+    "print_key": "tcgdex:sm10-125",
+    "card_key": "306|170|4|Satoshi Shirai|80,160|3,4",
+    "types_en": [
+        "Metal"
+    ]
+}

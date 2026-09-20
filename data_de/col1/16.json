@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/col1-16",
+    "name": "Magbrant",
+    "img": "https://assets.tcgdex.net/de/col/col1/16/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "Ruf der Legenden",
+    "series": "Ruf der Legenden",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "16",
+    "set_total": 106,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 467,
+    "pokemon_category": "",
+    "flavor_text": "Es schießt 2 000 Grad heiße Feuerbälle aus den Enden seiner Arme. Selbst sein Atem steht in Flammen.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Heftiger Zermalmer",
+            "damage": "50×",
+            "effect": "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl abgelegter Energiekarten zu."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Verhüllte Panzerfaust",
+            "damage": 100,
+            "effect": "Lege 2 an Magbrant angelegte {R}-Energien auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Magmar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/col1-16"
+        }
+    ],
+    "print_key": "tcgdex:col1-16",
+    "card_key": "467|110|2|Hajime Kusajima|50x,100|3,4",
+    "types_en": [
+        "Fire"
+    ]
+}

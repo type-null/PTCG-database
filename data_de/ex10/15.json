@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex10-15",
+    "name": "Mogelbaum",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Verborgene Mächte",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "15",
+    "set_total": 117,
+    "rarity": "Selten",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 185,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Copy",
+            "damage": null,
+            "effect": "Choose 1 of the Defending Pokémon's attacks. Copy copies that attack. This attack does nothing if Sudowoodo doen't have the Energy necessary to use that attack. (You must still do anything else required for that attack.) Sudowoodo performs that attack."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Karate Chop",
+            "damage": "50-",
+            "effect": "Does 50 damage minus 10 damage for each damage counter on Sudowoodo."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex10-15"
+        }
+    ],
+    "print_key": "tcgdex:ex10-15",
+    "card_key": "185|60|1|Tomokazu Komiya|None,50-|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

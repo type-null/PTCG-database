@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-50",
+    "name": "Nebulak",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "50",
+    "set_total": 102,
+    "rarity": "Häufig",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 92,
+    "pokemon_category": "",
+    "flavor_text": "Fast unsichtbar, umhüllt dieses gasförmige Pokémon sein Ziel und versetzt es ohne Warnung in den Schlaf.",
+    "stage": "Basis",
+    "hp": 30,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Schlafgas",
+            "damage": null,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon schlafend."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Schicksalsband",
+            "damage": null,
+            "effect": "Entferne eine auf Nebulak abgelegte {P} Energiekarte, um diesen Angriff auszuführen. Falls ein Pokémon Nebulak während des nächsten gegnerischen Zugs kampfunfähig macht, mache dieses Pokémon kampfunfähig."
+        }
+    ],
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-50"
+        }
+    ],
+    "print_key": "tcgdex:base1-50",
+    "card_key": "92|30|None|Keiji Kinebuchi|None,None|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

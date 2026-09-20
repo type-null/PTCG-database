@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy2-28",
+    "name": "Bamelin",
+    "img": "https://assets.tcgdex.net/de/xy/xy2/28/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy2",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy2/symbol",
+    "set_full_name": "Flammenmeer",
+    "series": "XY",
+    "set_code": "xy2",
+    "date": "2014-05-07",
+    "number": "28",
+    "set_total": 110,
+    "rarity": "Häufig",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 418,
+    "pokemon_category": "",
+    "flavor_text": "Es schwimmt, indem es seine beiden Schweife wie eine Schiffsschraube rotieren lässt.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Aquaknarre",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Ruckzuckhieb",
+            "damage": "10+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy2-28"
+        }
+    ],
+    "print_key": "tcgdex:xy2-28",
+    "card_key": "418|60|1|sui|10,10+|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

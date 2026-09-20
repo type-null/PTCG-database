@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/g1-11",
+    "name": "Glurak-EX",
+    "img": "https://assets.tcgdex.net/de/xy/g1/11/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Generationen",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "11",
+    "set_total": 117,
+    "rarity": "Ultra Selten",
+    "author": [
+        "Eske Yoshinob"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "hp": 180,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Flammenumhang",
+            "damage": 30,
+            "effect": "Nimm 1 {R}-Energiekarte von deinem Ablagestapel und lege sie an dieses Pokémon an."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Heißer Hauch",
+            "damage": "80+",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt 40 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/g1-11"
+        }
+    ],
+    "print_key": "tcgdex:g1-11",
+    "card_key": "6|180|2|Eske Yoshinob|30,80+|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base5-46",
+    "name": "Dunkles Schillok",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Grund",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "46",
+    "set_total": 83,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 8,
+    "pokemon_category": "",
+    "flavor_text": "Ein Pokémon mit einer negativen Einstellung. Es versteckt sich in seiner eigenen Schale, wenn es schlechter Laune ist, was oft zutrifft.",
+    "stage": "Rang 1",
+    "hp": 60,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Duplexhieb",
+            "damage": "10x",
+            "effect": "Wirf zwei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 10 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Spiegelpanzer",
+            "damage": null,
+            "effect": "Falls ein Angriff Dunkles Schillok während des nächsten Zuge deines Gegners Schaden zufügt (selbst wenn Dunkles Schillok kampfunfähig gemacht wird), greift Dunkles Schillok das verteidigende Pokémon mit der gleichen Schadensmenge an."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Schiggy",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base5-46"
+        }
+    ],
+    "print_key": "tcgdex:base5-46",
+    "card_key": "8|60|1|Kagemaru Himeno|10x,None|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

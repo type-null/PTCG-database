@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-39",
+    "name": "Traunfugil",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "39",
+    "set_total": 182,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 200,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Hypnoschuss",
+            "damage": 10,
+            "effect": "Wirf eine Münze. bei \"Kopf\" schläft das verteidigende Pokémon jetzt."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Boshaftes Geschenk",
+            "damage": null,
+            "effect": "Bestimme die Anzahl an Pokémon im Spiel, auf denen Schadensmarken liegen. Lege ebenso viele Schadensmarken auf das verteidigende Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-39"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-39",
+    "card_key": "200|50|1|Atsuko Nishida|10,None|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

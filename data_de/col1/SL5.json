@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/col1-SL5",
+    "name": "Ho-Oh",
+    "img": "https://assets.tcgdex.net/de/col/col1/SL5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "Ruf der Legenden",
+    "series": "Ruf der Legenden",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "SL5",
+    "set_total": 106,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Hideaki Hakozaki"
+    ],
+    "pokedex_number": 250,
+    "pokemon_category": "",
+    "flavor_text": "Man sagt, dass dieses Pokémon auf seinen siebenfarbigen Schwingen durch die Lüfte fliegt.",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Glühen",
+            "damage": 50,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Versengende Schwingen",
+            "damage": 100,
+            "effect": "Wirf eine Münze. Bei „Zahl“ lege alle an Ho-Oh angelegten {R}-Energien auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/col1-SL5"
+        }
+    ],
+    "print_key": "tcgdex:col1-SL5",
+    "card_key": "250|100|3|Hideaki Hakozaki|50,100|3,5",
+    "types_en": [
+        "Fire"
+    ]
+}

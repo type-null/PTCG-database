@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw6-40",
+    "name": "Ampharos",
+    "img": "https://assets.tcgdex.net/de/bw/bw6/40/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw6",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw6/symbol",
+    "set_full_name": "Hoheit der Drachen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw6",
+    "date": "2012-08-15",
+    "number": "40",
+    "set_total": 128,
+    "rarity": "Selten",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 181,
+    "pokemon_category": "",
+    "flavor_text": "Seine Schweifspitze leuchtet hell. In alten Zeiten hat man mit seiner Hilfe Lichtsignale gegeben.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Elektromagnetischer Wall",
+            "effect": "Solang dieses Pokémon dein Aktives Pokémon ist, lege jedes Mal, wenn dein Gegner 1 Energie von seiner Hand an 1 seiner Pokémon anlegt, 3 Schadensmarken auf Letzteres."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Elektrokugel",
+            "damage": 70,
+            "effect": "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Waaty",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw6-40"
+        }
+    ],
+    "print_key": "tcgdex:bw6-40",
+    "card_key": "181|140|2|Hajime Kusajima|70|3",
+    "types_en": [
+        "Lightning"
+    ]
+}

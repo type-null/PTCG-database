@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh8-129",
+    "name": "Phandra",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh8/129/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh8",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh8/symbol",
+    "set_full_name": "Fusionsangriff",
+    "series": "Schwert & Schild",
+    "set_code": "swsh8",
+    "date": "2021-11-12",
+    "number": "129",
+    "set_total": 284,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "HYOGONOSUKE"
+    ],
+    "pokedex_number": 886,
+    "pokemon_category": "",
+    "flavor_text": "Hat es kein Grolldra auf seinem Kopf, auf das es aufpassen kann, wird es nervös. Dann versucht es, ein anderes Pokémon auf seinen Kopf zu setzen.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Spukschuss",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Kehrtwende",
+            "damage": 30,
+            "effect": "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Grolldra",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh8-129"
+        }
+    ],
+    "print_key": "tcgdex:swsh8-129",
+    "card_key": "886|90|1|HYOGONOSUKE|20,30|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

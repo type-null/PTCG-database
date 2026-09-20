@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/col1-26",
+    "name": "Granbull",
+    "img": "https://assets.tcgdex.net/de/col/col1/26/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "Ruf der Legenden",
+    "series": "Ruf der Legenden",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "26",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Mizue"
+    ],
+    "pokedex_number": 210,
+    "pokemon_category": "",
+    "flavor_text": "Weil seine Reißzähne so schwer sind, ist sein Kopf gesenkt. Sein Biss ist jedoch schmerzhaft.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Scheutackle",
+            "damage": 50,
+            "effect": "Granbull fügt sich selbst 20 Schadenspunkte zu. Tausche Granbull gegen 1 Pokémon auf deiner Bank aus."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Champ",
+            "damage": "40+",
+            "effect": "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Granbull zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "x2"
+    },
+    "retreat": 3,
+    "evolve_from": "Snubbull",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/col1-26"
+        }
+    ],
+    "print_key": "tcgdex:col1-26",
+    "card_key": "210|90|3|Mizue|50,40+|2,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

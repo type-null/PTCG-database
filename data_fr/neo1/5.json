@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-5",
+    "name": "Aligatueur",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "5",
+    "set_total": 111,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 160,
+    "pokemon_category": "",
+    "flavor_text": "Il lui est difficile de supporter son propre poids hors de l'eau, c'est pourquoi il se met à quatre pattes. Mais il se déplace rapidement.",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Averse",
+            "effect": "Aussi souvent que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie {W} de votre main. Ce pouvoir ne peut être utilisé si Aligatueur est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Eau"
+            ],
+            "name": "Courant",
+            "damage": "10+",
+            "effect": "Inflige 10 dégâts plus 10 dégâts multipliés par le nombre de cartes Énergie {W} dans votre pile de défausse. Ensuite, mélangez toutes les cartes Énergie {W} de votre pile de défausse dans votre deck."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Crocrodil",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-5"
+        }
+    ],
+    "print_key": "tcgdex:neo1-5",
+    "card_key": "160|120|3|Ken Sugimori|10+|3",
+    "types_en": [
+        "Water"
+    ]
+}

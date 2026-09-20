@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss1-23",
+    "name": "Hypno",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss1/23/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss1",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss1/symbol",
+    "set_full_name": "HeartGold SoulSilver",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss1",
+    "date": "2010-02-10",
+    "number": "23",
+    "set_total": 124,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 97,
+    "pokemon_category": "",
+    "flavor_text": "Es hält immer ein Pendel, das es ständig bewegt. Das verursacht bei jedem in seiner Nähe Müdigkeit.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Schlafpendel",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Münze werfen. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt. Diese Poké-Power kann nicht benutzt werden, wenn Hypno von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Psychogeschoss",
+            "damage": 30,
+            "effect": "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Traumato",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss1-23"
+        }
+    ],
+    "print_key": "tcgdex:hgss1-23",
+    "card_key": "97|90|2|Masakazu Fukuda|30|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

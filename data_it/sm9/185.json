@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sm9-185",
+    "name": "Ampharos GX",
+    "img": "https://assets.tcgdex.net/it/sm/sm9/185/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm9",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm9/symbol",
+    "set_full_name": "Gioco di Squadra",
+    "series": "Sole e Luna",
+    "set_code": "sm9",
+    "date": "2019-01-31",
+    "number": "185",
+    "set_total": 196,
+    "rarity": "Segreto rara",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 181,
+    "pokemon_category": "",
+    "hp": 240,
+    "types": [
+        "Lampo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lampo"
+            ],
+            "name": "Ricarica di Potenza",
+            "damage": 30,
+            "effect": "Prendi tutte le carte Potenziatore Elettrico dalla tua pila degli scarti e aggiungile alle carte che hai in mano."
+        },
+        {
+            "cost": [
+                "Lampo",
+                "Lampo"
+            ],
+            "name": "Lampoimpatto",
+            "damage": 150,
+            "effect": "Scarta tutte le Energie Lightning assegnate a questo Pokémon."
+        },
+        {
+            "cost": [
+                "Lampo"
+            ],
+            "name": "Scossa GX",
+            "damage": null,
+            "effect": "Cerca nel tuo mazzo fino a sette Pokémon, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo. Non puoi usare più di un attacco GX a partita."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metallo"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sm9-185"
+        }
+    ],
+    "print_key": "tcgdex:sm9-185",
+    "card_key": "181|240|3|5ban Graphics|30,150,None|1,2,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm3-20",
+    "name": "Glurak GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm3/20/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Nacht in Flammen",
+    "series": "Sonne & Mond",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "20",
+    "set_total": 169,
+    "rarity": "Ultra Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "hp": 250,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Flügelschlag",
+            "damage": 70,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Feuerroter Sturm",
+            "damage": 300,
+            "effect": "Lege 3 {R}-Energien von diesem Pokémon auf deinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Tobsuchtsanfall-GX",
+            "damage": null,
+            "effect": "Lege die obersten 10 Karten des Decks deines Gegners auf seinen Ablagestapel. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Glutexo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm3-20"
+        }
+    ],
+    "print_key": "tcgdex:sm3-20",
+    "card_key": "6|250|2|5ban Graphics|70,300,None|3,5,3",
+    "types_en": [
+        "Fire"
+    ]
+}

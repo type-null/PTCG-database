@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl2-25",
+    "name": "Hippodocus Niv. 48",
+    "img": "https://assets.tcgdex.net/fr/pl/pl2/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Rivaux Émergeants",
+    "series": "Platine",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "25",
+    "set_total": 120,
+    "rarity": "Rare",
+    "author": [
+        "Tomoaki Imakuni"
+    ],
+    "pokedex_number": 450,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Couverture de sable",
+            "effect": "Tant qu'Hippodocus est votre Pokémon Actif, placez 1 marqueur de dégât sur chacun des Pokémon LV.X de votre adversaire entre deux tours."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Sauve-sable",
+            "damage": "20+",
+            "effect": "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Hippodocus. Avant d'infliger des dégâts, vous pouvez chercher une carte Énergie {F} dans votre pile de défausse et l'attacher à Hippodocus."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tremblement de sol",
+            "damage": 80,
+            "effect": "Inflige 10 dégâts à chacun des Pokémon de Banc n'étant pas un Pokémon Évolué (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Hippopotas",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl2-25"
+        }
+    ],
+    "print_key": "tcgdex:pl2-25",
+    "card_key": "450|110|4|Tomoaki Imakuni|20+,80|1,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

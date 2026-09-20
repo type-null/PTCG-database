@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base2-26",
+    "name": "Insécateur",
+    "img": "https://assets.tcgdex.net/fr/base/base2/26/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Base",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "26",
+    "set_total": 64,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 123,
+    "pokemon_category": "",
+    "flavor_text": "Rapide et agile comme un ninja, il se déplace si vite qu'il crée l'illusion d'être en groupe.",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Danse-lames",
+            "damage": null,
+            "effect": "Pendant votre prochain tour, l'attaque Tranche d'Insécateur inflige 60 dégâts de base au lieu de 30."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tranche",
+            "damage": 30,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base2-26"
+        }
+    ],
+    "print_key": "tcgdex:base2-26",
+    "card_key": "123|70|None|Ken Sugimori|None,30|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

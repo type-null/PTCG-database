@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw6-56",
+    "name": "Hypnomorba",
+    "img": "https://assets.tcgdex.net/de/bw/bw6/56/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw6",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw6/symbol",
+    "set_full_name": "Hoheit der Drachen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw6",
+    "date": "2012-08-15",
+    "number": "56",
+    "set_total": 128,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Mizue"
+    ],
+    "pokedex_number": 575,
+    "pokemon_category": "",
+    "flavor_text": "Zieht seine Energie aus dem Sternenlicht. Bei Nacht bringt es Steine zum Schweben und bildet damit Sternzeichen nach.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Hypnoschuss",
+            "damage": 10,
+            "effect": "Das Verteidigende Pokémon schläft jetzt."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Verstandesschock",
+            "damage": 40,
+            "effect": "Der Schaden dieses Angriffs wird durch Schwäche und Resistenz nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Mollimorba",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw6-56"
+        }
+    ],
+    "print_key": "tcgdex:bw6-56",
+    "card_key": "575|80|1|Mizue|10,40|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

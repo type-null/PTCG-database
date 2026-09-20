@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-12",
+    "name": "Vulnona",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "12",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 38,
+    "pokemon_category": "",
+    "flavor_text": "Sehr gescheit und sehr rachsüchtig. Das Ergreifen eines seiner Schwänze könnte zu einem tausendjährigen Fluch führen.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Lockvogel",
+            "damage": null,
+            "effect": "Falls Dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen und tausche es mit dem verteidigenden Pokémon aus."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Feuersturm",
+            "damage": 80,
+            "effect": "Entferne eine auf Vulnona abgelegte {R} Energiekarte, um diesen Angriff auszuführen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Vulpix",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-12"
+        }
+    ],
+    "print_key": "tcgdex:base1-12",
+    "card_key": "38|80|1|Ken Sugimori|None,80|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

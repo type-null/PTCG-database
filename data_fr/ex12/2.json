@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex12-2",
+    "name": "Galeking",
+    "img": "https://assets.tcgdex.net/fr/ex/ex12/2/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Créateurs de légendes",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "2",
+    "set_total": 93,
+    "rarity": "Rare",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 306,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 110,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Souffle lourd",
+            "damage": "70-",
+            "effect": "Inflige 70 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Galeking. Si Galeking possède des cartes Énergie réaction, cette attaque inflige 70 dégâts."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Saut destructeur",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 60 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Lors de votre prochain tour, Galeking ne pourra pas utiliser Saut destructeur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Plante"
+        ],
+        "value": "-30"
+    },
+    "retreat": 4,
+    "evolve_from": "Galegon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex12-2"
+        }
+    ],
+    "print_key": "tcgdex:ex12-2",
+    "card_key": "306|110|4|Hisao Nakamura|70-,None|3,4",
+    "types_en": [
+        "Metal"
+    ]
+}

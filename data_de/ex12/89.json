@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex12-89",
+    "name": "Walraisa-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Legend Maker",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "89",
+    "set_total": 93,
+    "rarity": "Selten",
+    "author": [
+        "Kimiya Masago"
+    ],
+    "pokedex_number": 365,
+    "pokemon_category": "",
+    "hp": 150,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Eisige Aura",
+            "effect": "Solange Walraisa ex dein Aktives Pokémon ist, lege zwischen den Zügen 1 Schadensmarke auf jedes Aktive Pokémon (deins und die deines Gegners), mit der Ausnahme von {W}-Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Wasserpfeil",
+            "damage": null,
+            "effect": "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Eiswurf",
+            "damage": 80,
+            "effect": "Wenn das Verteidigende Pokémon ein -Pokémon ist, beträgt der Grundschaden 120 Schadenspunkte anstelle von 80 Schadenspunkten."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf",
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Seejong",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex12-89"
+        }
+    ],
+    "print_key": "tcgdex:ex12-89",
+    "card_key": "365|150|3|Kimiya Masago|None,80|2,4",
+    "types_en": [
+        "Water"
+    ]
+}

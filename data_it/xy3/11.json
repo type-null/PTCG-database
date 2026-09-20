@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/xy3-11",
+    "name": "Magmortar",
+    "img": "https://assets.tcgdex.net/it/xy/xy3/11/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "xy3",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy3/symbol",
+    "set_full_name": "Colpi Furiosi",
+    "series": "XY",
+    "set_code": "xy3",
+    "date": "2014-08-13",
+    "number": "11",
+    "set_total": 114,
+    "rarity": "Rara",
+    "author": [
+        "PLANETA"
+    ],
+    "pokedex_number": 467,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 120,
+    "types": [
+        "Fuoco"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuoco"
+            ],
+            "name": "Nitrocarica",
+            "damage": 30,
+            "effect": "Cerca nel tuo mazzo una carta Energia Fire e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo."
+        },
+        {
+            "cost": [
+                "Fuoco",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Scoppiogemello",
+            "damage": "80+",
+            "effect": "Se Electivire è nella tua panchina, questo attacco infligge 80 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Acqua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Magmar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/xy3-11"
+        }
+    ],
+    "print_key": "tcgdex:xy3-11",
+    "card_key": "467|120|3|PLANETA|30,80+|1,4",
+    "types_en": [
+        "Fire"
+    ]
+}

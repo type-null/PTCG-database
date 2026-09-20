@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex3-4",
+    "name": "Libelldra",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Drache",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "4",
+    "set_total": 100,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 330,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Elektro"
+            ],
+            "name": "Energiedusche",
+            "damage": null,
+            "effect": "Lege beliebig viele Basis-Energiekarten von deiner Hand an deine Pokémon an."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Regenbogenfeuer",
+            "damage": "30+",
+            "effect": "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede unterschiedliche Sorte Basis-Energiekarten, die an Libelldra angelegt sind, zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Feuer",
+            "Elektro"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Vibrava",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex3-4"
+        }
+    ],
+    "print_key": "tcgdex:ex3-4",
+    "card_key": "330|120|2|Mitsuhiro Arita|None,30+|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

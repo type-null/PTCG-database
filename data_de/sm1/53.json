@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm1-53",
+    "name": "Togedemaru",
+    "img": "https://assets.tcgdex.net/de/sm/sm1/53/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sonne & Mond",
+    "series": "Sonne & Mond",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "53",
+    "set_total": 172,
+    "rarity": "Häufig",
+    "author": [
+        "Megumi Mizutani"
+    ],
+    "pokedex_number": 777,
+    "pokemon_category": "",
+    "flavor_text": "Sein langer Stachel fungiert als Blitzableiter. Damit zieht es Blitze auf sich, die es dann in seinen Elektrotaschen speichert.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Einigler",
+            "damage": null,
+            "effect": "Wirf 1 Münze. Verhindere bei Kopf allen Schaden, der diesem Pokémon während des nächsten Zuges deines Gegners durch Attacken zugefügt wird."
+        },
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Ladungsstoß",
+            "damage": "30×",
+            "effect": "Lege alle {L}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 30 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm1-53"
+        }
+    ],
+    "print_key": "tcgdex:sm1-53",
+    "card_key": "777|70|1|Megumi Mizutani|None,30x|1,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

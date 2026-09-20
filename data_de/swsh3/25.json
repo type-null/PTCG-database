@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh3-25",
+    "name": "Heatran",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh3/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh3",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh3/symbol",
+    "set_full_name": "Flammende Finsternis",
+    "series": "Schwert & Schild",
+    "set_code": "swsh3",
+    "date": "2020-08-14",
+    "number": "25",
+    "set_total": 201,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 485,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Feuerzahn",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Tobende Flamme",
+            "damage": "80+",
+            "effect": "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh3-25"
+        }
+    ],
+    "print_key": "tcgdex:swsh3-25",
+    "card_key": "485|130|4|Anesaki Dynamic|30,80+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

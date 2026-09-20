@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl3-13",
+    "name": "Florizarre",
+    "img": "https://assets.tcgdex.net/fr/pl/pl3/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Vainqueurs Suprêmes",
+    "series": "Platine",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "13",
+    "set_total": 162,
+    "rarity": "Holo Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 3,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 140,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Arôme vert",
+            "effect": "Retirez à chacun de vos Pokémon Grass tous leurs États Spéciaux. Aucun de vos Pokémon Grass ne peut être affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Pollen désespéré",
+            "damage": 30,
+            "effect": "Si Florizarre possède déjà au moins 8 marqueurs de dégât, le Pokémon Défenseur est maintenant Brûlé, Confus et Empoisonné."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Réaction spéciale",
+            "damage": "40+",
+            "effect": "Si le Pokémon Défenseur est affecté par des États Spéciaux, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires pour chacun de ces États Spéciaux."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+40"
+    },
+    "retreat": 4,
+    "evolve_from": "Herbizarre",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl3-13"
+        }
+    ],
+    "print_key": "tcgdex:pl3-13",
+    "card_key": "3|140|4|Kouki Saitou|30,40+|1,4",
+    "types_en": [
+        "Grass"
+    ]
+}

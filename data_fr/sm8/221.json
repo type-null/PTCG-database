@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm8-221",
+    "name": "Zeraora GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm8/221/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Tonnerre Perdu",
+    "series": "Soleil et Lune",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "221",
+    "set_total": 236,
+    "rarity": "Magnifique rare",
+    "author": [
+        "PLANETA Otani"
+    ],
+    "pokedex_number": 807,
+    "pokemon_category": "",
+    "hp": 190,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Zone Vif Éclair",
+            "effect": "Aucun de vos Pokémon auxquels de l’Énergie Lightning est attachée n’a de Coût de Retraite."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Plasma Punch",
+            "damage": 160,
+            "effect": "Ce Pokémon ne peut pas attaquer pendant votre prochain tour."
+        },
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Pleine Tension GX",
+            "damage": null,
+            "effect": "Attachez 5 cartes Énergie de base de votre pile de défausse à vos Pokémon, de la manière que vous voulez. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm8-221"
+        }
+    ],
+    "print_key": "tcgdex:sm8-221",
+    "card_key": "807|190|2|PLANETA Otani|160,None|3,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

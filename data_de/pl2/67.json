@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-67",
+    "name": "Kecleon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "67",
+    "set_total": 120,
+    "rarity": "Häufig",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 352,
+    "pokemon_category": "",
+    "flavor_text": "Es kann nach Belieben seine Farbe ändern. Nur das gezackte Muster auf seinem Bauch bleibt gleich.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Farblos"
+    ],
+    "abilities": [
+        {
+            "name": "Farbenfroher Körper",
+            "effect": "Kecleons Typ ist {G}{R}{W}{L}{P}{F}{D}{M}{C}."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Dreifachschmetterer",
+            "damage": "10+",
+            "effect": "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-67"
+        }
+    ],
+    "print_key": "tcgdex:pl2-67",
+    "card_key": "352|70|1|Midori Harada|10+|3",
+    "types_en": [
+        "Colorless"
+    ]
+}

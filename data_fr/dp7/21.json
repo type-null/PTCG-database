@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-21",
+    "name": "Mammochon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "21",
+    "set_total": 106,
+    "rarity": "Rare",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 473,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 140,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coup collision",
+            "damage": "30x",
+            "effect": "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 30 dégâts multipliés par le nombre de faces ou vous pouvez recommencer depuis le début. Chaque fois que vous recommencez, placez 2 marqueurs de dégât sur Mammochon. (Si Mammochon est mis K.O, vous ne pouvez pas recommencer.)"
+        },
+        {
+            "cost": [
+                "Eau",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Parade",
+            "damage": "60+",
+            "effect": "Inflige 60 dégâts plus 10 dégâts supplémentaires pour chaque Marcacrin sur votre Banc, plus 20 dégâts supplémentaires pour chaque Cochignon sur votre Banc et 40 dégâts supplémentaires pour chaque Mammochon sur votre Banc."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 5,
+    "evolve_from": "Chochignon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-21"
+        }
+    ],
+    "print_key": "tcgdex:dp7-21",
+    "card_key": "473|140|5|Kent Kanetsuna|30x,60+|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

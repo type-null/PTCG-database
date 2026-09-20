@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy1-53",
+    "name": "Brutapode",
+    "img": "https://assets.tcgdex.net/fr/xy/xy1/53/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy1/symbol",
+    "set_full_name": "XY",
+    "series": "XY",
+    "set_code": "xy1",
+    "date": "2014-02-05",
+    "number": "53",
+    "set_total": 146,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 545,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 150,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Coup d'Bec au Pif",
+            "damage": "20+",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Anneau de Poison",
+            "damage": 70,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Ce dernier ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Scobolide",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy1-53"
+        }
+    ],
+    "print_key": "tcgdex:xy1-53",
+    "card_key": "545|150|3|Mitsuhiro Arita|20+,70|1,4",
+    "types_en": [
+        "Psychic"
+    ]
+}

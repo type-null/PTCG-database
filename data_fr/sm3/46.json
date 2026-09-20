@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm3-46",
+    "name": "Ohmassacre",
+    "img": "https://assets.tcgdex.net/fr/sm/sm3/46/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Ombres Ardentes",
+    "series": "Soleil et Lune",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "46",
+    "set_total": 169,
+    "rarity": "Rare",
+    "author": [
+        "hatachu"
+    ],
+    "pokedex_number": 604,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 140,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Pince des Ténèbres",
+            "damage": 50,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Éclair Aspiré",
+            "damage": "80+",
+            "effect": "Vous pouvez infliger 80 dégâts supplémentaires. Dans ce cas, cette attaque inflige 80 dégâts à l’un de vos Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Lampéroie",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm3-46"
+        }
+    ],
+    "print_key": "tcgdex:sm3-46",
+    "card_key": "604|140|3|hatachu|50,80+|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

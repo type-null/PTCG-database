@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/me04-061",
+    "name": "Metagross",
+    "img": "https://assets.tcgdex.net/it/me/me04/061/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "J",
+    "set_name": "me04",
+    "set_img": "https://assets.tcgdex.net/univ/me/me04/symbol",
+    "set_full_name": "Caos Nascente",
+    "series": "Megaevoluzione",
+    "set_code": "me04",
+    "date": "2026-05-22",
+    "number": "061",
+    "set_total": 122,
+    "rarity": "Non comune",
+    "author": [
+        "Bun Toujo"
+    ],
+    "pokedex_number": 376,
+    "pokemon_category": "",
+    "stage": "Livello 2",
+    "hp": 180,
+    "types": [
+        "Metallo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metallo"
+            ],
+            "name": "Rimbalzo Indietro",
+            "damage": 60,
+            "effect": "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo."
+        },
+        {
+            "cost": [
+                "Metallo",
+                "Metallo",
+                "Metallo",
+                "Incolore"
+            ],
+            "name": "Martello Metallico",
+            "damage": "150+",
+            "effect": "Puoi scartare tre Energie {M} da questo Pokémon e infliggere 150 danni in più con questo attacco."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuoco"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Erba"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/me04-061"
+        }
+    ],
+    "print_key": "tcgdex:me04-61",
+    "card_key": "376|180|3|Bun Toujo|60,150+|1,4",
+    "types_en": [
+        "Metal"
+    ]
+}

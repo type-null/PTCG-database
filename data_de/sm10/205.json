@@ -1,0 +1,83 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-205",
+    "name": "Guardevoir & Feelinara GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/205/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "TAG TEAM-GX",
+        "GX"
+    ],
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "205",
+    "set_total": 234,
+    "rarity": "Ultra Selten",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 282,
+    "pokemon_category": "",
+    "hp": 260,
+    "types": [
+        "Fee"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Feenlied",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu 2 {FAIRY}-Energiekarten und lege sie beliebig an die Pokémon auf deiner Bank an. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Fee",
+                "Fee",
+                "Farblos"
+            ],
+            "name": "Kaleidosturm",
+            "damage": 150,
+            "effect": "Verschiebe beliebig viele Energien von deinen Pokémon beliebig auf deine anderen Pokémon."
+        },
+        {
+            "cost": [
+                "Fee",
+                "Fee",
+                "Fee"
+            ],
+            "name": "Magisches Wunder GX",
+            "damage": 200,
+            "effect": "Wenn an dieses Pokémon mindestens 3 extra {FAIRY}-Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), mischt dein Gegner seine Handkarten in sein Deck. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-205"
+        }
+    ],
+    "print_key": "tcgdex:sm10-205",
+    "card_key": "282|260|2|Atsuko Nishida|None,150,200|1,3,3",
+    "types_en": [
+        "Fairy"
+    ]
+}

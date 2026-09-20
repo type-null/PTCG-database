@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh1-42",
+    "name": "Krabby",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh1/42/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Schwert & Schild",
+    "series": "Schwert & Schild",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "42",
+    "set_total": 216,
+    "rarity": "Häufig",
+    "author": [
+        "ryoma uratsuka"
+    ],
+    "pokedex_number": 98,
+    "pokemon_category": "",
+    "flavor_text": "Es kommt vor allem nahe dem Meer vor. Die großen Scheren wachsen nach, wenn sie vom Körper abgetrennt wurden.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Aquadusche",
+            "damage": null,
+            "effect": "Diese Attacke fügt jedem Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Klammer",
+            "damage": 30,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh1-42"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-42",
+    "card_key": "98|80|2|ryoma uratsuka|None,30|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

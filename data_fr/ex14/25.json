@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex14-25",
+    "name": "Charmina",
+    "img": "https://assets.tcgdex.net/fr/ex/ex14/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex14",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex14/symbol",
+    "set_full_name": "EX Gardiens de Cristal",
+    "series": "EX",
+    "set_code": "ex14",
+    "date": "2006-08-30",
+    "number": "25",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 308,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Double armure",
+            "effect": "Tant que Charmina possède des cartes Énergie {P}, il est de type {P} et {F}."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Choc psy",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Stratopercut",
+            "damage": 50,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Méditikka",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex14-25"
+        }
+    ],
+    "print_key": "tcgdex:ex14-25",
+    "card_key": "308|80|1|Midori Harada|20,50|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard2-91",
+    "name": "Magnéti",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard2/91/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-cards",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "91",
+    "set_total": 186,
+    "rarity": "Commune",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 81,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Corps conducteur",
+            "effect": "Vous payez {C} de moins pour faire battre Magneti en retraite pour chaque Magneti sur votre Banc."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Bombe magnétique",
+            "damage": "20+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires. Si c'est pile, Magneti s'inflige 10 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard2-91"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-91",
+    "card_key": "81|50|1|Hajime Kusajima|20+|2",
+    "types_en": [
+        "Lightning"
+    ]
+}

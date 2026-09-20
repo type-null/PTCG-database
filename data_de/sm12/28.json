@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm12-28",
+    "name": "Entei",
+    "img": "https://assets.tcgdex.net/de/sm/sm12/28/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm12",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm12/symbol",
+    "set_full_name": "Welten im Wandel",
+    "series": "Sonne & Mond",
+    "set_code": "sm12",
+    "date": "2019-11-01",
+    "number": "28",
+    "set_total": 271,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 244,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon jagt über das Land. Man sagt, in jedem neuen Vulkan wird ein Entei geboren.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Aufholjagd",
+            "damage": "30+",
+            "effect": "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Flammenmähne",
+            "damage": 100,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm12-28"
+        }
+    ],
+    "print_key": "tcgdex:sm12-28",
+    "card_key": "244|130|2|Shin Nagasawa|30+,100|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

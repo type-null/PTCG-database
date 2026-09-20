@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/30th-151",
+    "name": "Mewtu-ex",
+    "img": "https://assets.tcgdex.net/de/me/30th/151/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "30th",
+    "set_full_name": "30 Jahre",
+    "series": "Mega-Entwicklung",
+    "set_code": "30th",
+    "date": "2026-09-16",
+    "number": "151",
+    "set_total": 158,
+    "rarity": "Selten, besondere Illustration",
+    "author": [
+        "Yano Keiji"
+    ],
+    "stage": "Basis",
+    "hp": 230,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Photonenkugeln",
+            "damage": null,
+            "effect": "Diese Attacke fügt jedem Pokémon-<em>ex</em> deines Gegners 50 Schadenspunkte zu. <em>(Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)</em>"
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Psychokräfte",
+            "damage": 230,
+            "effect": "Während deines nächsten Zuges kann dieses Pokémon keine Attacken einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/30th-151"
+        }
+    ],
+    "print_key": "tcgdex:30th-151",
+    "card_key": "150|230|2|Yano Keiji|None,230|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

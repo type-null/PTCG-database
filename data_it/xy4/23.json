@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/xy4-23",
+    "name": "Manectric EX",
+    "img": "https://assets.tcgdex.net/it/xy/xy4/23/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "xy4",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy4/symbol",
+    "set_full_name": "Forze Spettrali",
+    "series": "XY",
+    "set_code": "xy4",
+    "date": "2014-11-05",
+    "number": "23",
+    "set_total": 124,
+    "rarity": "Ultrarara",
+    "author": [
+        "Eske Yoshinob"
+    ],
+    "pokedex_number": 310,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 170,
+    "types": [
+        "Lampo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Oltrepassare",
+            "damage": 20,
+            "effect": "Questo attacco infligge 20 danni a uno dei Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina."
+        },
+        {
+            "cost": [
+                "Lampo",
+                "Incolore"
+            ],
+            "name": "Laserassalto",
+            "damage": "60+",
+            "effect": "Se il Pokémon attivo del tuo avversario ha una carta Oggetto Pokémon assegnata, questo attacco infligge 60 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metallo"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/xy4-23"
+        }
+    ],
+    "print_key": "tcgdex:xy4-23",
+    "card_key": "310|170|1|Eske Yoshinob|20,60+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

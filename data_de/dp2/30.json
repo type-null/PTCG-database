@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp2-30",
+    "name": "Pantimos",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Geheimnisvolle Schätze",
+    "series": "Diamant & Perl",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "30",
+    "set_total": 124,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 122,
+    "pokemon_category": "",
+    "flavor_text": "Ein Experte der Pantomime. Es kann unsichtbare, aber solide Wände allein durch Gesten erzeugen.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Luftmauer",
+            "effect": "Verhindere alle Schadenspunkte, die Pantimos durch einen Angriff eines gegnerischen Pokémon, an dem weniger als 3 Energiekarten angelegt sind, zugefügt würden. Wenn Pantimimi sich an beliebiger Stelle unter Pantimos befindet, verhindere zusätzlich alle Effekte dieses Angriffs, die Pantimos zugefügt würden."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Tricktheater",
+            "damage": null,
+            "effect": "Lege 1 Münze verdeckt neben dein Aktives Pokémon. Dein Gegner muss erraten, ob die Münze „Kopf“ oder „Zahl“ zeigt. Wenn er falsch rät, fügt dieser Angriff dem Verteidigenden Pokémon 50 Schadenspunkte zu. Wenn er richtig rät, fügt sich Pantimos selbst 20 Schadenspunkte, die durch Schwäche und Resistenz nicht verändert werden, zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp2-30"
+        }
+    ],
+    "print_key": "tcgdex:dp2-30",
+    "card_key": "122|70|1|Kagemaru Himeno|None|2",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh4.5sv-SV040",
+    "name": "Bellektro",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh4.5sv",
+    "set_full_name": "Glänzendes Schicksal Glitzer-Tresor",
+    "series": "Schwert & Schild",
+    "set_code": "swsh4.5sv",
+    "date": "2021-02-19",
+    "number": "SV040",
+    "set_total": 122,
+    "rarity": "Shiny rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 836,
+    "pokemon_category": "",
+    "flavor_text": "Es generiert Strom und lässt ihn zur Unterstützung beim Rennen in seine Beine fließen. Dadurch kann es drei Tage und Nächte ohne Pause rennen.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Mächtiger Biss",
+            "damage": 50,
+            "effect": "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Kämpfende Reißzähne",
+            "damage": "90+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners ein Pokémon-V oder Pokémon-GX ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Voldi",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh4.5sv-SV040"
+        }
+    ],
+    "print_key": "tcgdex:swsh4.5sv-SV040",
+    "card_key": "836|130|1|Kagemaru Himeno|50,90+|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

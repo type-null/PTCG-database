@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/hgss1-29",
+    "name": "Sablaireau",
+    "img": "https://assets.tcgdex.net/fr/hgss/hgss1/29/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "hgss1",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss1/symbol",
+    "set_full_name": "HeartGold SoulSilver",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss1",
+    "date": "2010-02-10",
+    "number": "29",
+    "set_total": 124,
+    "rarity": "Rare",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 28,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Dard-venin",
+            "damage": 30,
+            "effect": "Le Pokémon Défenseur est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Combo-griffe",
+            "damage": "30×",
+            "effect": "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Sabelette",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/hgss1-29"
+        }
+    ],
+    "print_key": "tcgdex:hgss1-29",
+    "card_key": "28|80|0|Yukiko Baba|30,30x|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

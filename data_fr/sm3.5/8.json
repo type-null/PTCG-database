@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm3.5-8",
+    "name": "Viridium",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm3.5",
+    "set_full_name": "Légendes Brillantes",
+    "series": "Soleil et Lune",
+    "set_code": "sm3.5",
+    "date": "2017-10-06",
+    "number": "8",
+    "set_total": 78,
+    "rarity": "Rare",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 640,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 110,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Enveloppement Éolien",
+            "damage": 30,
+            "effect": "Vous pouvez attacher une carte Énergie de base de votre main à ce Pokémon."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Javelot",
+            "damage": 90,
+            "effect": "Cette attaque inflige 30 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm3.5-8"
+        }
+    ],
+    "print_key": "tcgdex:sm3.5-8",
+    "card_key": "640|110|1|kawayoo|30,90|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

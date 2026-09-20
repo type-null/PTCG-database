@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv07-025",
+    "name": "Boumata",
+    "img": "https://assets.tcgdex.net/fr/sv/sv07/025/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "H",
+    "set_name": "sv07",
+    "set_full_name": "Couronne Stellaire",
+    "series": "Écarlate et Violet",
+    "set_code": "sv07",
+    "date": "2024-09-13",
+    "number": "025",
+    "set_total": 175,
+    "rarity": "Commune",
+    "author": [
+        "AKIRA EGAWA"
+    ],
+    "pokedex_number": 776,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Anneau de Feu",
+            "damage": 50,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Brûlé. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Torrent d'Enfer",
+            "damage": 180,
+            "effect": "Ce Pokémon s'inflige aussi 60 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv07-025"
+        }
+    ],
+    "print_key": "tcgdex:sv07-25",
+    "card_key": "776|130|3|AKIRA EGAWA|50,180|3,4",
+    "types_en": [
+        "Fire"
+    ]
+}

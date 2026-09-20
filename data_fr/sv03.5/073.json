@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv03.5-073",
+    "name": "Tentacruel",
+    "img": "https://assets.tcgdex.net/fr/sv/sv03.5/073/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv03.5",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03.5/symbol",
+    "set_full_name": "151",
+    "series": "Écarlate et Violet",
+    "set_code": "sv03.5",
+    "date": "2023-09-22",
+    "number": "073",
+    "set_total": 207,
+    "rarity": "Peu Commune",
+    "author": [
+        "miki kudo"
+    ],
+    "pokedex_number": 73,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Fouet Empoisonné",
+            "damage": 30,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Panique Tentaculaire",
+            "damage": "90×",
+            "effect": "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 90 dégâts pour chaque côté face. Si le premier lancer est pile, le Pokémon Actif de votre adversaire est maintenant Confus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Tentacool",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv03.5-073"
+        }
+    ],
+    "print_key": "tcgdex:sv03.5-73",
+    "card_key": "73|120|2|miki kudo|30,90x|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

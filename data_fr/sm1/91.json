@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm1-91",
+    "name": "Granbull",
+    "img": "https://assets.tcgdex.net/fr/sm/sm1/91/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Soleil et Lune",
+    "series": "Soleil et Lune",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "91",
+    "set_total": 163,
+    "rarity": "Peu Commune",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "pokedex_number": 210,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Fée"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fée"
+            ],
+            "name": "Pince des Ténèbres",
+            "damage": 30,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Fée",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Rendre les Coups",
+            "damage": "50+",
+            "effect": "Si des marqueurs de dégâts sont placés sur ce Pokémon, cette attaque inflige 80 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Métal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Snubbull",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm1-91"
+        }
+    ],
+    "print_key": "tcgdex:sm1-91",
+    "card_key": "210|110|2|Suwama Chiaki|30,50+|1,3",
+    "types_en": [
+        "Fairy"
+    ]
+}

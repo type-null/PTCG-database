@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex1-17",
+    "name": "Donphan",
+    "img": "https://assets.tcgdex.net/fr/ex/ex1/17/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex1",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex1/symbol",
+    "set_full_name": "EX Rubis & Saphir",
+    "series": "EX",
+    "set_code": "ex1",
+    "date": "2003-07-01",
+    "number": "17",
+    "set_total": 109,
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 232,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Déchirer",
+            "damage": "20+",
+            "effect": "Si le Pokémon Défenseur possède des marqueurs de dégât, cette attaque lui inflige 40 dégâts."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Double tour",
+            "damage": "60×",
+            "effect": "Lancez deux pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Phanpy",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex1-17"
+        }
+    ],
+    "print_key": "tcgdex:ex1-17",
+    "card_key": "232|80|1|Kagemaru Himeno|20+,60x|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

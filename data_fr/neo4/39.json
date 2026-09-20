@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo4-39",
+    "name": "Feurisson obscur",
+    "img": "https://assets.tcgdex.net/fr/neo/neo4/39/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "39",
+    "set_total": 113,
+    "rarity": "Peu Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 156,
+    "pokemon_category": "",
+    "flavor_text": "S'il tourne le dos à son adversaire, c'est signe qu'il se prépare à attaquer.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Incinération",
+            "damage": null,
+            "effect": "Montrez la carte du dessus du deck de votre adversaire à tous les joueurs, si c'est une carte Dresseur, défaussez-vous en."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu"
+            ],
+            "name": "Flot de magma",
+            "damage": "20x",
+            "effect": "Défaussez-vous des 5 premières cartes du dessus de votre deck. (Si vous avez moins de 5 cartes dans votre deck, défaussez-vous de toutes.) Cette attaque inflige 20 dégâts pour chaque carte Énergie {R} défaussée de cette manière."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Héricendre",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo4-39"
+        }
+    ],
+    "print_key": "tcgdex:neo4-39",
+    "card_key": "156|60|1|Mitsuhiro Arita|None,20x|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

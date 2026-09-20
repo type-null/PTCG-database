@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/tk-dp-l-3",
+    "name": "Lucario",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "tk-dp-l",
+    "set_img": "https://assets.tcgdex.net/univ/tk/tk-dp-l/symbol",
+    "set_full_name": "DP Kit dresseur (Lucario)",
+    "series": "Kits du dresseur",
+    "set_code": "tk-dp-l",
+    "date": "2007-09-01",
+    "number": "3",
+    "set_total": 11,
+    "rarity": "Sans Rareté",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 448,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Ruse",
+            "damage": 30,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Aurasphère",
+            "damage": 40,
+            "effect": "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Riolu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/tk-dp-l-3"
+        }
+    ],
+    "print_key": "tcgdex:tk-dp-l-3",
+    "card_key": "448|90|1|Kent Kanetsuna|30,40|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

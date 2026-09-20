@@ -1,0 +1,85 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/smp-SM138",
+    "name": "Zekrom GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SM Promokarten",
+    "series": "Sonne & Mond",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM138",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 644,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 180,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Hakentreffer",
+            "damage": "10+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners ein Pokémon-GX oder ein Pokémon-EX ist, fügt diese Attacke 60 Schadenspunkte mehr zu. Der Schaden dieser Attacke wird durch Schwäche nicht verändert."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Turboblitzschlag",
+            "damage": "80+",
+            "effect": "Wirf 2 Münzen. Diese Attacke fügt 60 Schadenspunkte mehr pro Kopf zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Turboblitzschlag",
+            "damage": 200,
+            "effect": "Wirf 2 Münzen. Diese Attacke fügt 60 Schadenspunkte mehr pro Kopf zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/smp-SM138"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM138",
+    "card_key": "644|180|3|5ban Graphics|10+,80+,200|1,4,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

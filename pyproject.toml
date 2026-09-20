@@ -1,0 +1,16 @@
+[project]
+name = "ptcg-database"
+version = "1.0.0"
+description = "Pokémon Trading Card Game card database and scrapers"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.32",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.2",
+    "tqdm>=4.66",
+    "loguru>=0.7",
+]
+
+[tool.uv]
+package = false

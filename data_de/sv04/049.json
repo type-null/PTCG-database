@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv04-049",
+    "name": "Tectass",
+    "img": "https://assets.tcgdex.net/de/sv/sv04/049/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv04",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04/symbol",
+    "set_full_name": "Paradoxrift",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv04",
+    "date": "2023-11-03",
+    "number": "049",
+    "set_total": 266,
+    "rarity": "Selten",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 768,
+    "pokemon_category": "",
+    "flavor_text": "Tectass leben in Tiefseehöhlen und versunkenen Schiffswracks. Sie liefern sich Kämpfe mit Kaocto, nach denen der Sieger den Verlierer verspeist.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Krafthaken",
+            "damage": "20×",
+            "effect": "Diese Attacke fügt für jede Karte auf der Hand deines Gegners 20 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Kaskade",
+            "damage": 130,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Reißlaus",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv04-049"
+        }
+    ],
+    "print_key": "tcgdex:sv04-49",
+    "card_key": "768|140|2|nagimiso|20x,130|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

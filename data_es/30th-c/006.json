@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/30th-c-006",
+    "name": "Tyranitar Oscuro",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "30th-c",
+    "set_full_name": "Colección Clásica del 30.º Aniversario",
+    "series": "Megaevolución",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "006",
+    "set_total": 30,
+    "rarity": "Ninguno",
+    "author": [
+        "Nakaoka"
+    ],
+    "stage": "Fase 2",
+    "hp": 120,
+    "types": [
+        "Oscura"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolora"
+            ],
+            "name": "Moler",
+            "damage": "10+",
+            "effect": "Hace 10 puntos de daño más otros 10 puntos de daño adicionales por cada Energía unida a Tyranitar Oscuro."
+        },
+        {
+            "cost": [
+                "Oscura",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Cola giratoria",
+            "damage": null,
+            "effect": "Hace 20 puntos de daño a los Pokémon de tu oponente. <em>(No apliques Debilidad y Resistencia para los Pokémon en la Banca.)</em>"
+        },
+        {
+            "cost": [
+                "Oscura",
+                "Oscura",
+                "Incolora",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Despedazar",
+            "damage": "70+",
+            "effect": "Si el Pokémon defensor es un Pokémon-<em>ex</em>, este ataque hace 70 puntos de daño más 50 puntos de daño adicional."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/30th-c-006"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-6",
+    "card_key": "248|120|2|Nakaoka|10+,None,70+|1,3,5",
+    "types_en": [
+        "Darkness"
+    ]
+}

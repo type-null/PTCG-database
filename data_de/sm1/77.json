@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm1-77",
+    "name": "Alola-Rattikarl",
+    "img": "https://assets.tcgdex.net/de/sm/sm1/77/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sonne & Mond",
+    "series": "Sonne & Mond",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "77",
+    "set_total": 172,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 20,
+    "pokemon_category": "",
+    "flavor_text": "Ein Gourmet, dem Geschmack und Frische seines Futters wichtig sind. Restaurants gelten als angesehen, wenn sich ein Rattikarl einnistet.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Böse Befehle",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu so viel Karten, wie du Pokémon auf deiner Bank hast, und nimm sie auf deine Hand. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Notsituation",
+            "damage": "60+",
+            "effect": "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte mehr pro Kopf zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Alola-Rattfratz",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm1-77"
+        }
+    ],
+    "print_key": "tcgdex:sm1-77",
+    "card_key": "20|120|3|match|None,60+|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

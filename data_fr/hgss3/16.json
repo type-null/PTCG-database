@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/hgss3-16",
+    "name": "Corboss",
+    "img": "https://assets.tcgdex.net/fr/hgss/hgss3/16/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "hgss3",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss3/symbol",
+    "set_full_name": "Indomptable",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss3",
+    "date": "2010-08-18",
+    "number": "16",
+    "set_total": 91,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 430,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Étreinte d’ombre",
+            "damage": 30,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Vengeance",
+            "damage": "10+",
+            "effect": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chacun des Pokémon Darkness de votre pile de défausse."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Cornèbre",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/hgss3-16"
+        }
+    ],
+    "print_key": "tcgdex:hgss3-16",
+    "card_key": "430|90|2|Masakazu Fukuda|30,10+|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

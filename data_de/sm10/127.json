@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-127",
+    "name": "Genesect",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/127/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "127",
+    "set_total": 234,
+    "rarity": "Selten",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 649,
+    "pokemon_category": "",
+    "flavor_text": "Ein von Team Plasma modifiziertes Käfer-Pokémon aus dem Altertum. Die Kanone auf seinem Rücken ist nun noch stärker.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Schnellflugkonfiguration",
+            "effect": "Wenn dein Gegner mindestens 1 Pokémon-GX oder Pokémon-EX im Spiel hat, hat dieses Pokémon keine Rückzugskosten."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Spaltstrahl",
+            "damage": 30,
+            "effect": "Diese Attacke fügt 2 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-127"
+        }
+    ],
+    "print_key": "tcgdex:sm10-127",
+    "card_key": "649|130|2|Anesaki Dynamic|30|3",
+    "types_en": [
+        "Metal"
+    ]
+}

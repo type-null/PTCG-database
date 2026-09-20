@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-78",
+    "name": "Tournegrin",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/78/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "78",
+    "set_total": 111,
+    "rarity": "Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 191,
+    "pokemon_category": "",
+    "flavor_text": "Il tombe parfois du ciel sans prévenir. Quand un Piafabec l'attaque, il secoue violemment ses feuilles.",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Croissance",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, vous pouvez attacher jusqu'à 2 cartes Énergies {G} de votre main à Tournegrin."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Plante"
+            ],
+            "name": "Mega-sangsue",
+            "damage": 30,
+            "effect": "Retirez de Tournegrin un nombre de marqueurs de dégâts égal à la moitié des dégâts infligés au Pokémon Défenseur (après application de la Faiblesse et de la Résistance) (arrondi à la dizaine la plus proche). Si Tournegrin a moins de dégâts que cela, retirez-les tous."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-78"
+        }
+    ],
+    "print_key": "tcgdex:neo1-78",
+    "card_key": "191|40|2|Kagemaru Himeno|None,30|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

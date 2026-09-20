@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/xy5-9",
+    "name": "Sceptile",
+    "img": "https://assets.tcgdex.net/it/xy/xy5/9/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Scontro Primordiale",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "9",
+    "set_total": 164,
+    "rarity": "Rara",
+    "author": [
+        "hatachu"
+    ],
+    "pokedex_number": 254,
+    "pokemon_category": "",
+    "stage": "Livello 2",
+    "hp": 140,
+    "types": [
+        "Erba"
+    ],
+    "abilities": [
+        {
+            "name": "{title}:",
+            "effect": "{title}: Ogni volta che il tuo avversario gioca una carta Allenatore (escluse le carte Oggetto Pokémon e Stadio), previeni tutti gli effetti di quella carta inflitti a questo Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Erba"
+            ],
+            "name": "Fendifoglia",
+            "damage": "30+",
+            "effect": "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più."
+        },
+        {
+            "cost": [
+                "Erba",
+                "Erba",
+                "Incolore"
+            ],
+            "name": "Veleno Potente",
+            "damage": 120,
+            "effect": "Scarta un'Energia assegnata a questo Pokémon. Il Pokémon attivo del tuo avversario viene avvelenato."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuoco"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Grovyle",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/xy5-9"
+        }
+    ],
+    "print_key": "tcgdex:xy5-9",
+    "card_key": "254|140|2|hatachu|30+,120|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

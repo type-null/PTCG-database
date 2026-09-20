@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm11-110",
+    "name": "Meditalis",
+    "img": "https://assets.tcgdex.net/de/sm/sm11/110/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Bund der Gleichgesinnten",
+    "series": "Sonne & Mond",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "110",
+    "set_total": 258,
+    "rarity": "Selten",
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "pokedex_number": 308,
+    "pokemon_category": "",
+    "flavor_text": "Es weicht Attacken elegant tänzerisch aus, um anschließend eine verheerende Attacke aus derselben Bewegung heraus zu lancieren.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Mentalkraft",
+            "damage": null,
+            "effect": "Lege 4 Schadensmarken beliebig auf die Pokémon deines Gegners."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Meisterschlag",
+            "damage": "60+",
+            "effect": "Wenn an dieses Pokémon eine Karategürtel-Karte angelegt ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Meditie",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm11-110"
+        }
+    ],
+    "print_key": "tcgdex:sm11-110",
+    "card_key": "308|110|1|Shigenori Negishi|None,60+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss3-2",
+    "name": "Psiana",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss3/2/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss3",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss3/symbol",
+    "set_full_name": "Unerschrocken",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss3",
+    "date": "2010-08-18",
+    "number": "2",
+    "set_total": 91,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 196,
+    "pokemon_category": "",
+    "flavor_text": "Mit seinen Körperhaaren nimmt es Luftströmungen wahr. Dadurch sagt es gegnerische Attacken voraus.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Sonnen-Andeutung",
+            "damage": null,
+            "effect": "Verschiebe bis zu 4 Schadensmarken von beliebigen deiner Pokémon in beliebiger Verteilung auf die gegnerischen Pokémon."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Psystrahl",
+            "damage": 30,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss3-2"
+        }
+    ],
+    "print_key": "tcgdex:hgss3-2",
+    "card_key": "196|90|1|match|None,30|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

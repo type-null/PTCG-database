@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex8-15",
+    "name": "Monaflèmit",
+    "img": "https://assets.tcgdex.net/fr/ex/ex8/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "15",
+    "set_total": 108,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 289,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Aura fainéante",
+            "effect": "Tant que Monaflemit est votre Pokémon Actif, les dégâts infligés par des attaques du Pokémon-ex de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Amnésie",
+            "damage": 20,
+            "effect": "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coup d'boule fainéant",
+            "damage": 70,
+            "effect": "Monaflemit est maintenant Endormi."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Vigoroth",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex8-15"
+        }
+    ],
+    "print_key": "tcgdex:ex8-15",
+    "card_key": "289|120|3|Mitsuhiro Arita|20,70|2,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

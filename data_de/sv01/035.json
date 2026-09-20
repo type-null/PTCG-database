@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv01-035",
+    "name": "Qurtel",
+    "img": "https://assets.tcgdex.net/de/sv/sv01/035/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Karmesin & Purpur",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "035",
+    "set_total": 258,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kurata So"
+    ],
+    "pokedex_number": 324,
+    "pokemon_category": "",
+    "flavor_text": "Im Inneren seines Panzers verbrennt es Kohle. Wenn es angegriffen wird, stößt es dicken, schwarzen Rauch aus und flieht.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zertrampeln",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Geballtes Feuer",
+            "damage": "80×",
+            "effect": "Wirf 1 Münze für jede an dieses Pokémon angelegte {R}-Energie. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv01-035"
+        }
+    ],
+    "print_key": "tcgdex:sv01-35",
+    "card_key": "324|130|3|Kurata So|30,80x|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

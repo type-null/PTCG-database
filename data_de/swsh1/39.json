@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh1-39",
+    "name": "Infernopod",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh1/39/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Schwert & Schild",
+    "series": "Schwert & Schild",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "39",
+    "set_total": 216,
+    "rarity": "Selten",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 851,
+    "pokemon_category": "",
+    "flavor_text": "Wenn es Hitze erzeugt, beträgt seine Temperatur etwa 800 ºC. Es bewegt seinen Körper wie eine Peitsche, um dann den Gegner anzuspringen.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Hundertfußflammen",
+            "damage": null,
+            "effect": "Lege für jede an dieses Pokémon angelegte {R}-Energie die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Sengende Flammen",
+            "damage": 110,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Thermopod",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh1-39"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-39",
+    "card_key": "851|130|3|Anesaki Dynamic|None,110|1,4",
+    "types_en": [
+        "Fire"
+    ]
+}

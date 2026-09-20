@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy11-44",
+    "name": "Nidorino",
+    "img": "https://assets.tcgdex.net/de/xy/xy11/44/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Dampfkessel",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "44",
+    "set_total": 116,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "TOKIYA"
+    ],
+    "pokedex_number": 33,
+    "pokemon_category": "",
+    "flavor_text": "Ein aggressives Pokémon, das sehr flink angreift. Das Horn auf dem Kopf sondert starkes Gift ab.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Schnabel",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Nidodruck",
+            "damage": "40+",
+            "effect": "Wenn sich Nidorina auf deiner Bank befindet, fügt dieser Angriff 40 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Nidoran♂",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy11-44"
+        }
+    ],
+    "print_key": "tcgdex:xy11-44",
+    "card_key": "33|80|2|TOKIYA|20,40+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

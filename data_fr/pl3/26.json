@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl3-26",
+    "name": "Noctunoir FB",
+    "img": "https://assets.tcgdex.net/fr/pl/pl3/26/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Vainqueurs Suprêmes",
+    "series": "Platine",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "26",
+    "set_total": 162,
+    "rarity": "Rare",
+    "author": [
+        "Motofumi Fujiwara"
+    ],
+    "pokedex_number": 477,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Main fantôme",
+            "damage": 30,
+            "effect": "Placez 1 marqueur de dégât sur 1 de vos Pokémon de Banc."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Colère ensorcelée",
+            "damage": "10x",
+            "effect": "Inflige 10 dégâts multipliés par le nombre de Pokémon SP dans votre pile de défausse."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl3-26"
+        }
+    ],
+    "print_key": "tcgdex:pl3-26",
+    "card_key": "477|90|2|Motofumi Fujiwara|30,10x|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm3-33",
+    "name": "Garados",
+    "img": "https://assets.tcgdex.net/de/sm/sm3/33/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Nacht in Flammen",
+    "series": "Sonne & Mond",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "33",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "so-taro"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "flavor_text": "Es heißt, es habe eine ganze Stadt, deren Bewohner es verärgert hatten, über Nacht vollständig in Schutt und Asche gelegt.",
+    "stage": "Rang 1",
+    "hp": 150,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Dampf ablassen",
+            "damage": "50×",
+            "effect": "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der Karpador in deinem Ablagestapel zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Verbrühung",
+            "damage": 160,
+            "effect": "Diese Attacke fügt jedem Pokémon auf deiner Bank 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Karpador",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm3-33"
+        }
+    ],
+    "print_key": "tcgdex:sm3-33",
+    "card_key": "130|150|4|so-taro|50x,160|2,4",
+    "types_en": [
+        "Water"
+    ]
+}

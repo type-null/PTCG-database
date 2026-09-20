@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swsh3.5-45",
+    "name": "Malamar",
+    "img": "https://assets.tcgdex.net/es/swsh/swsh3.5/45/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "D",
+    "set_name": "swsh3.5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh3.5/symbol",
+    "set_full_name": "Camino de Campeones",
+    "series": "Espada y Escudo",
+    "set_code": "swsh3.5",
+    "date": "2020-09-25",
+    "number": "45",
+    "set_total": 80,
+    "rarity": "Uncommon",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 687,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 120,
+    "types": [
+        "Oscura"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Oscura",
+                "Incolora"
+            ],
+            "name": "Onda Sobrecogedora",
+            "damage": 50,
+            "effect": "El Pokémon Activo de tu rival pasa a estar Confundido."
+        },
+        {
+            "cost": [
+                "Oscura",
+                "Oscura",
+                "Incolora"
+            ],
+            "name": "Picotazo al Azar",
+            "damage": "80+",
+            "effect": "Lanza 2 monedas. Este ataque hace 40 puntos de daño más por cada cara."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swsh3.5-45"
+        }
+    ],
+    "print_key": "tcgdex:swsh3.5-45",
+    "card_key": "687|120|3|kawayoo|50,80+|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

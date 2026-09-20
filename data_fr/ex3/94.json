@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex3-94",
+    "name": "Latios ex",
+    "img": "https://assets.tcgdex.net/fr/ex/ex3/94/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Dragon",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "94",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 381,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Courant d'énergie",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, cherchez dans votre deck une carte Énergie de base et attachez-la à Latios ex."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Purge",
+            "damage": 100,
+            "effect": "Défaussez trois Énergies attachées à Latios ex."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Plante",
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex3-94"
+        }
+    ],
+    "print_key": "tcgdex:ex3-94",
+    "card_key": "381|100|2|Ryo Ueda|10,100|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

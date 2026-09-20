@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base2-35",
+    "name": "Noadkoko",
+    "img": "https://assets.tcgdex.net/fr/base/base2/35/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base2",
+    "set_img": "https://assets.tcgdex.net/univ/base/base2/symbol",
+    "set_full_name": "Jungle",
+    "series": "Base",
+    "set_code": "base2",
+    "date": "1999-06-16",
+    "number": "35",
+    "set_total": 64,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 103,
+    "pokemon_category": "",
+    "flavor_text": "On raconte que si une de ses têtes se détache, elle se transforme en un Nœunœuf.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Téléport",
+            "damage": null,
+            "effect": "Échangez Noadkoko avec 1 des Pokémon de votre Banc."
+        },
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Grosse éclate",
+            "damage": "20x",
+            "effect": "Lancez un nombre de pièces égal au nombre d'Énergies attachées à Noadkoko. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Noeunoeuf",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base2-35"
+        }
+    ],
+    "print_key": "tcgdex:base2-35",
+    "card_key": "103|80|3|Kagemaru Himeno|None,20x|1,1",
+    "types_en": [
+        "Grass"
+    ]
+}

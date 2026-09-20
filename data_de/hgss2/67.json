@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss2-67",
+    "name": "Chelast",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss2/67/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss2",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss2/symbol",
+    "set_full_name": "Entfesselt",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss2",
+    "date": "2010-05-12",
+    "number": "67",
+    "set_total": 96,
+    "rarity": "Häufig",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 387,
+    "pokemon_category": "",
+    "flavor_text": "Im Sonnenlicht betreibt sein ganzer Körper Photosynthese. Sein Panzer besteht aus hartem Lehm.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Egelsamen",
+            "damage": 10,
+            "effect": "Falls dieser Angriff dem Verteidigenden Pokémon Schaden zufügt (nachdem Schwäche und Resistenz verrechnet wurden), entferne 1 Schadensmarke von Chelast."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Ramme",
+            "damage": 20,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss2-67"
+        }
+    ],
+    "print_key": "tcgdex:hgss2-67",
+    "card_key": "387|50|1|match|10,20|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard2-29",
+    "name": "Colossinge",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard2/29/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-cards",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "29",
+    "set_total": 186,
+    "rarity": "Rare",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 57,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Poing-Karaté",
+            "damage": "40-",
+            "effect": "Les dégâts de cette attaque sont réduits de 10 pour chaque marqueur de dégâts sur Colossinge."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Charge soudaine",
+            "damage": 40,
+            "effect": "Colossinge s'inflige 30 dégâts. Ensuite, votre adversaire échange le Pokémon Défenseur contre un des Pokémon de son Banc, s'il en a."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "evolve_from": "Férosinge",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard2-29"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-29",
+    "card_key": "57|80|1|Tomokazu Komiya|40-,40|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

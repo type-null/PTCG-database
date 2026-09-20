@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl3-2",
+    "name": "Brasegali FB",
+    "img": "https://assets.tcgdex.net/fr/pl/pl3/2/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Vainqueurs Suprêmes",
+    "series": "Platine",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "2",
+    "set_total": 162,
+    "rarity": "Holo Rare",
+    "author": [
+        "Motofumi Fujiwara"
+    ],
+    "pokedex_number": 257,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Flamme attrayante",
+            "damage": null,
+            "effect": "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire. Le nouveau Pokémon Défenseur est maintenant Brûlé."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Coup de buée",
+            "damage": "30+",
+            "effect": "Si votre adversaire possède des Pokémon Water en jeu, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl3-2"
+        }
+    ],
+    "print_key": "tcgdex:pl3-2",
+    "card_key": "257|80|1|Motofumi Fujiwara|None,30+|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

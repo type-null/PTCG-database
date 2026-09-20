@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss1-73",
+    "name": "Voltilamm",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss1/73/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss1",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss1/symbol",
+    "set_full_name": "HeartGold SoulSilver",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss1",
+    "date": "2010-02-10",
+    "number": "73",
+    "set_total": 124,
+    "rarity": "Häufig",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 179,
+    "pokemon_category": "",
+    "flavor_text": "Lädt es sich statisch auf, verdoppelt sich sein Umfang. Wer es berührt, erhält einen Elektroschock.",
+    "stage": "Basis",
+    "hp": 40,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Statische Elektrizität",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach einer Anzahl {L}-Energiekarten, die höchstens der Anzahl an Voltilamm-Karten im Spiel (deinen und denen deines Gegners) entspricht und lege sie an Voltilamm an. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Ramme",
+            "damage": 20,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss1-73"
+        }
+    ],
+    "print_key": "tcgdex:hgss1-73",
+    "card_key": "179|40|1|Masakazu Fukuda|None,20|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

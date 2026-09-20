@@ -1,0 +1,61 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp3-52",
+    "name": "Kecleon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Rätselhafte Wunder",
+    "series": "Diamant & Perl",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "52",
+    "set_total": 132,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 352,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Farblos"
+    ],
+    "abilities": [
+        {
+            "name": "Tarnung",
+            "effect": "Wenn mindestens 1 an Kecleon angelegte Basis-Energiekarte denselben Typ hat wie das Angreifende Pokémon, wird Schaden, der Kecleon durch Angriffe dieses Pokémon zugefügt wird, um 40 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Verdeckter Kratzer",
+            "damage": 60,
+            "effect": "Wirf 1 Münze. Bei \"Zahl\" fügt dieser Angriff dem Verteidigenden Pokémon keinen Schaden zu, stattdessen fügt er 1 deiner Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+10"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp3-52"
+        }
+    ],
+    "print_key": "tcgdex:dp3-52",
+    "card_key": "352|70|1|Mitsuhiro Arita|60|2",
+    "types_en": [
+        "Colorless"
+    ]
+}

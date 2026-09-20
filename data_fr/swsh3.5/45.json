@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh3.5-45",
+    "name": "Sepiatroce",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh3.5/45/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh3.5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh3.5/symbol",
+    "set_full_name": "La Voie du Maître",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh3.5",
+    "date": "2020-09-25",
+    "number": "45",
+    "set_total": 80,
+    "rarity": "Peu Commune",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 687,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Vague Étrange",
+            "damage": 50,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Coup d'Bec au Pif",
+            "damage": "80+",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Sepiatop",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh3.5-45"
+        }
+    ],
+    "print_key": "tcgdex:swsh3.5-45",
+    "card_key": "687|120|3|kawayoo|50,80+|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

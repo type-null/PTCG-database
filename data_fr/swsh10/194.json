@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh10-194",
+    "name": "Mackogneur VMAX",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh10/194/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "F",
+    "set_name": "swsh10",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh10/symbol",
+    "set_full_name": "Astres Radieux",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh10",
+    "date": "2022-05-27",
+    "number": "194",
+    "set_total": 216,
+    "rarity": "Magnifique rare",
+    "author": [
+        "N-DESIGN Inc."
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "stage": "VMAX",
+    "hp": 330,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Buster Vengeur",
+            "damage": "80+",
+            "effect": "Si au moins un marqueur de dégâts est placé sur vos Pokémon de Banc, cette attaque inflige 140 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Frappe G-Max",
+            "damage": 240,
+            "effect": "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Frappe G-Max."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Mackogneur-V",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh10-194"
+        }
+    ],
+    "print_key": "tcgdex:swsh10-194",
+    "card_key": "68|330|3|N-DESIGN Inc.|80+,240|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

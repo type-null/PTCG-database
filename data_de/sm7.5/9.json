@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm7.5-9",
+    "name": "Flampivian",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm7.5",
+    "set_full_name": "Majestät Der Drachen",
+    "series": "Sonne & Mond",
+    "set_code": "sm7.5",
+    "date": "2018-09-07",
+    "number": "9",
+    "set_total": 78,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 555,
+    "pokemon_category": "",
+    "flavor_text": "Erhitzt das Innere seines Körpers auf 1 400 °C und erlangt so die Kraft, um mit der Faust Laster zu zerstören.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Hitzeförderung",
+            "damage": null,
+            "effect": "Lege bis zu 3 {R}-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Flampivi-Hände",
+            "damage": "30+",
+            "effect": "Wirf 4 Münzen. Diese Attacke fügt 50 Schadenspunkte mehr pro Kopf zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Flampion",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm7.5-9"
+        }
+    ],
+    "print_key": "tcgdex:sm7.5-9",
+    "card_key": "555|130|2|Masakazu Fukuda|None,30+|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

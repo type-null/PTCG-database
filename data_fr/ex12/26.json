@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex12-26",
+    "name": "Spinda",
+    "img": "https://assets.tcgdex.net/fr/ex/ex12/26/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Créateurs de légendes",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "26",
+    "set_total": 93,
+    "rarity": "Rare",
+    "author": [
+        "Motofumi Fujiwara"
+    ],
+    "pokedex_number": 327,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Distra-style",
+            "effect": "Tant que Spinda est votre Pokémon Actif, lorsque les Pokémon de base de votre adversaire essayent d'attaquer, votre adversaire lance une pièce. Si c'est pile, cette attaque est sans effet. Vous ne pouvez pas utiliser plus d'1 Poké-Body Distra-style par tour."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Pioche bizzarre",
+            "damage": null,
+            "effect": "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, piochez 2 cartes."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Damoclès",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est pile, Spinda s'inflige 10 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex12-26"
+        }
+    ],
+    "print_key": "tcgdex:ex12-26",
+    "card_key": "327|60|1|Motofumi Fujiwara|None,30|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

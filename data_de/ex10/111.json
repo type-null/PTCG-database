@@ -1,0 +1,93 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex10-111",
+    "name": "Despotar-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex10",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex10/symbol",
+    "set_full_name": "EX Verborgene Mächte",
+    "series": "EX",
+    "set_code": "ex10",
+    "date": "2005-08-22",
+    "number": "111",
+    "set_total": 117,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 248,
+    "pokemon_category": "",
+    "hp": 160,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Shatter",
+            "damage": 30,
+            "effect": "Discard any Stadium card in play."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Derail",
+            "damage": 30,
+            "effect": "Discard a Special Energy card, if any, attached to the Defending Pokémon."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Mix-Up",
+            "damage": 70,
+            "effect": "Your opponent discards the top card of his or her deck."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Unlicht",
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Losing Control",
+            "damage": 120,
+            "effect": "Discard the top 3 cards of your deck."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze",
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex10-111"
+        }
+    ],
+    "print_key": "tcgdex:ex10-111",
+    "card_key": "248|160|2|Mitsuhiro Arita|30,30,70,120|1,2,3,4",
+    "types_en": [
+        "Darkness"
+    ]
+}

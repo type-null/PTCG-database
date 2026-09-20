@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-10",
+    "name": "Meganie",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "10",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 154,
+    "pokemon_category": "",
+    "flavor_text": "Meganies Atem hat die Heilkraft, abgestorbenes Gras und Pflanzen wieder ins Leben zurückzurufen. Es kann sie wieder gesund machen.",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Kräuterduft",
+            "effect": "Wenn du Meganie aus deiner Hand ausspielst, kannst du eine Münze werfen. Entferne bei „Kopf“ alle Schadensmarken von allen {G}-Pokémon im Spiel."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Bodyslam",
+            "damage": 40,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Lorblatt",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-10"
+        }
+    ],
+    "print_key": "tcgdex:neo1-10",
+    "card_key": "154|100|3|Ken Sugimori|40|4",
+    "types_en": [
+        "Grass"
+    ]
+}

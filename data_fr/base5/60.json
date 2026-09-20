@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base5-60",
+    "name": "Magnéti",
+    "img": "https://assets.tcgdex.net/fr/base/base5/60/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Base",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "60",
+    "set_total": 83,
+    "rarity": "Commune",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 81,
+    "pokemon_category": "",
+    "flavor_text": "La rumeur prétend que si un nombre suffisant de Magneti et de Magneton se rassemblent, ils peuvent créer une puissante barrière magnétique.",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Charge",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Magnétisme",
+            "damage": "10+",
+            "effect": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Magneti, Magneton et Magneton obscur de votre Banc."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base5-60"
+        }
+    ],
+    "print_key": "tcgdex:base5-60",
+    "card_key": "81|40|1|Miki Tanaka|20,10+|2,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

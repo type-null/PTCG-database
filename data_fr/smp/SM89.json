@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/smp-SM89",
+    "name": "Zoroark",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "Promo SM",
+    "series": "Soleil et Lune",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM89",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "Misa Tsutsui"
+    ],
+    "pokedex_number": 571,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Griffe Déchirante",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c’est face, défaussez une Énergie du Pokémon Actif de votre adversaire."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Écrasement Tragique",
+            "damage": 120,
+            "effect": "Défaussez une Énergie Darkness de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Zorua",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/smp-SM89"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM89",
+    "card_key": "571|120|2|Misa Tsutsui|30,120|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

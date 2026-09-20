@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo4-25",
+    "name": "Mackogneur lumineux",
+    "img": "https://assets.tcgdex.net/fr/neo/neo4/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "25",
+    "set_total": 113,
+    "rarity": "Rare",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "flavor_text": "Il utilise ses quatre bras au combat pour délivrer une véritable ruée de coups.",
+    "stage": "Niveau 2",
+    "hp": 100,
+    "types": [
+        "Combat"
+    ],
+    "abilities": [
+        {
+            "name": "Tandem",
+            "effect": "Quand vous jouez Mackogneur depuis votre main, si vous le placez sur votre Banc, retirez 3 marqueurs de dégâts de votre Pokémon Actif. S'il a moins de 3 marqueurs de dégâts, retirez-les tous. Échangez ensuite Mackogneur lumineux contre votre Pokémon Actif."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Combat"
+            ],
+            "name": "Combat",
+            "damage": 50,
+            "effect": "Si le Pokémon Défenseur est un Pokémon obscur ou si c'est un Pokémon {D}, lancez une pièce. Si c'est face, cette attaque inflige 100 dégâts au lieu de 50."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Machopeur lumineux",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo4-25"
+        }
+    ],
+    "print_key": "tcgdex:neo4-25",
+    "card_key": "68|100|2|Miki Tanaka|50|3",
+    "types_en": [
+        "Fighting"
+    ]
+}

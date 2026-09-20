@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/xy11-42",
+    "name": "Galvantula",
+    "img": "https://assets.tcgdex.net/it/xy/xy11/42/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Vapori Accesi",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "42",
+    "set_total": 116,
+    "rarity": "Rara",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 596,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 90,
+    "types": [
+        "Lampo",
+        "Erba"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Doppiofilo",
+            "damage": null,
+            "effect": "Questo attacco infligge 30 danni a due dei Pokémon in panchina del tuo avversario. Ricorda di applicare debolezza e resistenza."
+        },
+        {
+            "cost": [
+                "Lampo"
+            ],
+            "name": "Elettrotela",
+            "damage": 30,
+            "effect": "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metallo"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Joltik",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/xy11-42"
+        }
+    ],
+    "print_key": "tcgdex:xy11-42",
+    "card_key": "596|90|1|match|None,30|1,1",
+    "types_en": [
+        "Lightning",
+        "Grass"
+    ]
+}

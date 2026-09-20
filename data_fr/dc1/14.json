@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dc1-14",
+    "name": "Galeking de la Team Magma",
+    "img": "https://assets.tcgdex.net/fr/xy/dc1/14/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dc1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/dc1/symbol",
+    "set_full_name": "Double Danger",
+    "series": "XY",
+    "set_code": "dc1",
+    "date": "2015-03-25",
+    "number": "14",
+    "set_total": 34,
+    "rarity": "Rare",
+    "author": [
+        "TOKIYA"
+    ],
+    "pokedex_number": 306,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 140,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Écras'Roc",
+            "damage": "40×",
+            "effect": "Défaussez autant d'Énergies {F} attachées à vos Pokémon que vous voulez. Cette attaque inflige 40 dégâts multipliés par le nombre de cartes Énergie {F} que vous avez défaussées."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Tempête de Roche",
+            "damage": 120,
+            "effect": "Cette attaque inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire ayant au moins 1 marqueur de dégâts. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Galegon de la Team Magma",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dc1-14"
+        }
+    ],
+    "print_key": "tcgdex:dc1-14",
+    "card_key": "306|140|4|TOKIYA|40x,120|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

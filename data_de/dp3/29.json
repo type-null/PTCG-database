@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp3-29",
+    "name": "Geowaz",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Rätselhafte Wunder",
+    "series": "Diamant & Perl",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "29",
+    "set_total": 132,
+    "rarity": "Selten",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 76,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Doppelwurf",
+            "damage": null,
+            "effect": "Wähle 2 Pokémon deines Gegners. Dieser Angriff fügt den gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank deines Gegners nicht an.)"
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Megatonnen-Fels",
+            "damage": 80,
+            "effect": "Du kannst diesen Angriff dem Verteidigenden Pokémon 40 Schadenspunkte anstelle von 80 Schadenspunkten zufügen lassen. Wenn du das machst, wird während des nächsten Zuges deines Gegners Schaden, der Geowaz durch Angriffe zugefügt wird, um 40 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp3-29"
+        }
+    ],
+    "print_key": "tcgdex:dp3-29",
+    "card_key": "76|130|4|Naoyo Kimura|None,80|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

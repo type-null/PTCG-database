@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo3-31",
+    "name": "Rossana",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "31",
+    "set_total": 66,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 124,
+    "pokemon_category": "",
+    "flavor_text": "Es schaukelt seinen Körper rhythmisch hin und her. Es sieht so aus, als würde sich der Rhythmus je nach Gefühlslage ändern.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Eisiger Gutenachtkuss",
+            "damage": null,
+            "effect": "Das verteidigende Pokémon schläft jetzt."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Seltsamer Tanz",
+            "damage": "20+",
+            "effect": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu und das verteidigende Pokémon ist jetzt verwirrt. Bei „Zahl“ fügt dieser Angriff 20 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo3-31"
+        }
+    ],
+    "print_key": "tcgdex:neo3-31",
+    "card_key": "124|60|1|Tomokazu Komiya|None,20+|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

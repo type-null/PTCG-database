@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard2-1",
+    "name": "Ampharos",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-Card",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "1",
+    "set_total": 186,
+    "rarity": "Selten",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 181,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Donnerschock",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Energiereflektion",
+            "damage": 50,
+            "effect": "Falls du mindestens ein Pokémon auf deiner Bank hast und mindestens eine Basis-Energiekarte an Ampharos angelegt ist, nimm 1 dieser Energiekarten und lege sie an 1 dieser Pokémon an."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Waaty",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard2-1"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-1",
+    "card_key": "181|100|2|Shin-ichi Yoshida|20,50|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

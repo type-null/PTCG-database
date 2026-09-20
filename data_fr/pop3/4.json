@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pop3-4",
+    "name": "Négapi",
+    "img": "https://assets.tcgdex.net/fr/pop/pop3/4/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pop3",
+    "set_img": "https://assets.tcgdex.net/univ/pop/pop3/symbol",
+    "set_full_name": "POP Série 3",
+    "series": "POP",
+    "set_code": "pop3",
+    "date": "2006-04-01",
+    "number": "4",
+    "set_total": 17,
+    "rarity": "Rare",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 312,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Courage !",
+            "damage": null,
+            "effect": "Piochez une carte. Si vous avez Posipi en jeu, piochez 2 cartes à la place."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Ion négatif",
+            "damage": 20,
+            "effect": "Lors du prochain tour de votre adversaire, tous dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 10 (avant application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "« Boulon d'alimentation »",
+            "damage": null,
+            "effect": "Choisissez 1 des Pokémon de votre adversaire qui a un Poké-Power. Cette attaque inflige 30 dégâts à ce Pokémon. (N'appliquez pas la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pop3-4"
+        }
+    ],
+    "print_key": "tcgdex:pop3-4",
+    "card_key": "312|50|1|Sumiyoshi Kizuki|None,20,None|1,2,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

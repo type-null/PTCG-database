@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy5-5",
+    "name": "Tangoloss",
+    "img": "https://assets.tcgdex.net/de/xy/xy5/5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Protoshock",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "5",
+    "set_total": 164,
+    "rarity": "Selten",
+    "author": [
+        "MAHOU"
+    ],
+    "pokedex_number": 465,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Megasauger",
+            "damage": 50,
+            "effect": "Heile 20 Schadenspunkte bei diesem Pokémon."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Strauchler",
+            "damage": "80+",
+            "effect": "Dieser Angriff fügt 10 weitere Schadenspunkte für jedes Colorless-Symbol in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Tangela",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy5-5"
+        }
+    ],
+    "print_key": "tcgdex:xy5-5",
+    "card_key": "465|130|4|MAHOU|50,80+|3,4",
+    "types_en": [
+        "Grass"
+    ]
+}

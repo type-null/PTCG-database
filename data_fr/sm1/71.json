@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm1-71",
+    "name": "Gigalithe",
+    "img": "https://assets.tcgdex.net/fr/sm/sm1/71/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Soleil et Lune",
+    "series": "Soleil et Lune",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "71",
+    "set_total": 163,
+    "rarity": "Rare",
+    "author": [
+        "Eske Yoshinob"
+    ],
+    "pokedex_number": 526,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 160,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Artillerie Roche",
+            "damage": "50×",
+            "effect": "Défaussez n’importe quel nombre d’Énergies Fighting de vos Pokémon. Cette attaque inflige 50 dégâts pour chaque carte défaussée de cette façon."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Roule-Pierre",
+            "damage": 120,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Géolithe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm1-71"
+        }
+    ],
+    "print_key": "tcgdex:sm1-71",
+    "card_key": "526|160|4|Eske Yoshinob|50x,120|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

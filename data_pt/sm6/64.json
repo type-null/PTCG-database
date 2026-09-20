@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/sm6-64",
+    "name": "Toxicroak",
+    "img": "https://assets.tcgdex.net/pt/sm/sm6/64/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "set_name": "sm6",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm6/symbol",
+    "set_full_name": "Luz Proibida",
+    "series": "Sol e Lua",
+    "set_code": "sm6",
+    "date": "2018-05-04",
+    "number": "64",
+    "set_total": 146,
+    "rarity": "Rara",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 454,
+    "pokemon_category": "",
+    "stage": "Estágio 1",
+    "hp": 100,
+    "types": [
+        "Lutador"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lutador"
+            ],
+            "name": "Golpe Envenenado",
+            "damage": 30,
+            "effect": "O Pokémon Ativo do seu oponente agora está Envenenado."
+        },
+        {
+            "cost": [
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Dar o Troco",
+            "damage": "50+",
+            "effect": "Se algum dos seus Pokémon Psychic tiver sido Nocauteado pelo dano de um ataque do seu oponente durante a última vez dele(a) jogar, este ataque causará 70 pontos de dano a mais."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/sm6-64"
+        }
+    ],
+    "print_key": "tcgdex:sm6-64",
+    "card_key": "454|100|2|Hasuno|30,50+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

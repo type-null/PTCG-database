@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/sv02-135",
+    "name": "Tyranitar",
+    "img": "https://assets.tcgdex.net/pt/sv/sv02/135/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "regulation": "G",
+    "set_name": "sv02",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv02/symbol",
+    "set_full_name": "Evoluções em Paldea",
+    "series": "Escarlate e Violeta",
+    "set_code": "sv02",
+    "date": "2023-06-09",
+    "number": "135",
+    "set_total": 279,
+    "rarity": "Rara",
+    "author": [
+        "hncl"
+    ],
+    "pokedex_number": 248,
+    "pokemon_category": "",
+    "stage": "Estágio 2",
+    "hp": 180,
+    "types": [
+        "Sombrio"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Sombrio"
+            ],
+            "name": "Efeito Cascata",
+            "damage": "30+",
+            "effect": "Este ataque causa 30 pontos de dano a mais para cada Pokémon no Banco do seu oponente."
+        },
+        {
+            "cost": [
+                "Sombrio",
+                "Sombrio"
+            ],
+            "name": "Montanha do Pavor",
+            "damage": 230,
+            "effect": "Descarte as 4 cartas de cima do seu baralho."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Pupitar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/sv02-135"
+        }
+    ],
+    "print_key": "tcgdex:sv02-135",
+    "card_key": "248|180|3|hncl|30+,230|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

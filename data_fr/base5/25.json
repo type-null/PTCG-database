@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base5-25",
+    "name": "Léviator obscur",
+    "img": "https://assets.tcgdex.net/fr/base/base5/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Base",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "25",
+    "set_total": 83,
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "flavor_text": "On le trouvait habituellement dans les profondeurs de l'océan, mais il a été vu récemment dans des eaux peu profondes.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Rayon final",
+            "effect": "Lorsque Léviator obscur est mis K.O. par une attaque, lancez une pièce. Si c'est face, ce pouvoir inflige 20 dégâts au Pokémon qui a mis K.O. Léviator obscur pour chaque Énergie  attachée à Léviator obscur. Appliquez la Faiblesse et la Résistance. Ce pouvoir ne fonctionne pas si Léviator obscur est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Eau"
+            ],
+            "name": "Laser Glace",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Magicarpe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base5-25"
+        }
+    ],
+    "print_key": "tcgdex:base5-25",
+    "card_key": "130|70|2|Kagemaru Himeno|30|3",
+    "types_en": [
+        "Water"
+    ]
+}

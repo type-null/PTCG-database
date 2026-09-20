@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/smp-SM178",
+    "name": "Melmetal GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "Promo SM",
+    "series": "Soleil et Lune",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM178",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "PLANETA Otani"
+    ],
+    "pokedex_number": 809,
+    "pokemon_category": "",
+    "hp": 220,
+    "types": [
+        "Métal"
+    ],
+    "abilities": [
+        {
+            "name": "Strate Dure",
+            "effect": "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Explosion Métallique",
+            "damage": "110+",
+            "effect": "Cette attaque inflige 20 dégâts supplémentaires multipliés par le nombre d’Énergies Metal attachées à ce Pokémon."
+        },
+        {
+            "cost": [
+                "Métal"
+            ],
+            "name": "Force de Fer GX",
+            "damage": null,
+            "effect": "Attachez autant de cartes Énergie Metal que vous le voulez de votre pile de défausse à ce Pokémon. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Meltan",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/smp-SM178"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM178",
+    "card_key": "809|220|4|PLANETA Otani|110+,None|4,1",
+    "types_en": [
+        "Metal"
+    ]
+}

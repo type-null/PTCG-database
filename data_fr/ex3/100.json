@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex3-100",
+    "name": "Dracaufeu",
+    "img": "https://assets.tcgdex.net/fr/ex/ex3/100/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Dragon",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "100",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 120,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Quête du feu",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, cherchez dans votre pile de défausse deux cartes Énergie {R} (ou une s'il n'y en a qu'une) et attachez-les à Dracaufeu."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Colonne de flamme",
+            "damage": 60,
+            "effect": "Vous pouvez défausser une carte Énergie {R} attachée à Dracaufeu. Vous pouvez alors choisir un des Pokémon de Banc de votre adversaire et lui infliger 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Reptincel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex3-100"
+        }
+    ],
+    "print_key": "tcgdex:ex3-100",
+    "card_key": "6|120|2|Mitsuhiro Arita|30,60|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

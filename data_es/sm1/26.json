@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm1-26",
+    "name": "Incineroar",
+    "img": "https://assets.tcgdex.net/es/sm/sm1/26/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sol y Luna",
+    "series": "Sol y Luna",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "26",
+    "set_total": 163,
+    "rarity": "Rara",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "pokedex_number": 727,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 160,
+    "types": [
+        "Fuego"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuego",
+                "Incolora"
+            ],
+            "name": "Colmillo Ígneo",
+            "damage": 30,
+            "effect": "El Pokémon Activo de tu rival pasa a estar Quemado."
+        },
+        {
+            "cost": [
+                "Fuego",
+                "Fuego",
+                "Incolora"
+            ],
+            "name": "Lariat Oscuro",
+            "damage": "100×",
+            "effect": "Lanza 2 monedas. Este ataque hace 100 puntos de daño por cada cara."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Agua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm1-26"
+        }
+    ],
+    "print_key": "tcgdex:sm1-26",
+    "card_key": "727|160|3|Hitoshi Ariga|30,100x|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

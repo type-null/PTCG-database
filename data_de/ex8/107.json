@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex8-107",
+    "name": "Rayquaza ☆",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "107",
+    "set_total": 108,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 384,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Elektro"
+            ],
+            "name": "Spiral Rush",
+            "damage": "30x",
+            "effect": "Flip a coin until you get tails. This attack does 30 damage times the number of heads."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Holy Star",
+            "damage": null,
+            "effect": "Discard all Energy cards attached to Rayquaza ☆. This attack does 100 damage to each of your opponent's Pokémon-ex. (Don't apply Weakness and Resistance for benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser",
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex8-107"
+        }
+    ],
+    "print_key": "tcgdex:ex8-107",
+    "card_key": "384|90|2|Masakazu Fukuda|30x,None|2,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

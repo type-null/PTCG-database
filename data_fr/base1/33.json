@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-33",
+    "name": "Coconfort",
+    "img": "https://assets.tcgdex.net/fr/base/base1/33/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "33",
+    "set_total": 102,
+    "rarity": "Peu Commune",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 14,
+    "pokemon_category": "",
+    "flavor_text": "Incapable de se déplacer de lui-même, il se défend en durcissant sa carapace.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Armure",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Coconfort pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)"
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante"
+            ],
+            "name": "Poudre Toxik",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Aspicot",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-33"
+        }
+    ],
+    "print_key": "tcgdex:base1-33",
+    "card_key": "14|80|2|Keiji Kinebuchi|None,20|2,2",
+    "types_en": [
+        "Grass"
+    ]
+}

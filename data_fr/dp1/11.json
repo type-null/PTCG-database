@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-11",
+    "name": "Palkia",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "11",
+    "set_total": 130,
+    "rarity": "Rare Holo",
+    "author": [
+        "Nakaoka"
+    ],
+    "pokedex_number": 484,
+    "pokemon_category": "",
+    "flavor_text": "Il peut modeler l'espace. Les mythes de Sinnoh en parlent comme d'une divinité ancienne.",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Spatio-Rift",
+            "damage": 10,
+            "effect": "Choisissez dans votre deck une carte Stade, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck. Si une carte Stade est en jeu, défaussez-la."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Transfert",
+            "damage": 40,
+            "effect": "Vous pouvez lancer une pièce. Si c'est face, défaussez toutes les Énergies attachées à Palkia et placez le Pokémon Défenseur ainsi que toutes les cartes qui lui sont attachées au dessus du deck de votre adversaire. Ensuite, votre adversaire mélange son deck."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-11"
+        }
+    ],
+    "print_key": "tcgdex:dp1-11",
+    "card_key": "484|90|2|Nakaoka|10,40|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

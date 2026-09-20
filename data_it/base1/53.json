@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-53",
+    "name": "Magnemite",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "53",
+    "set_total": 102,
+    "rarity": "Comune",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 81,
+    "pokemon_category": "",
+    "flavor_text": "Usa l'antigravità per rimanere sospeso. Appare senza preavviso e usa attacchi come Tuononda. LIV 13 N.81",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Lampo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lampo"
+            ],
+            "name": "Tuononda",
+            "damage": 10,
+            "effect": "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
+        },
+        {
+            "cost": [
+                "Lampo",
+                "Incolore"
+            ],
+            "name": "Autodistruzione",
+            "damage": 40,
+            "effect": "Infligge 10 danni a ogni Pokémon nella Panchina di ogni giocatore. (Non applicare Debolezza e Resistenza per i Pokémon in Panchina.) Magnemite si infligge 40 danni."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-53"
+        }
+    ],
+    "print_key": "tcgdex:base1-53",
+    "card_key": "81|40|1|Keiji Kinebuchi|10,40|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

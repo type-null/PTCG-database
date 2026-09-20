@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/zh-cn/cards/SV10-019",
+    "name": "力壯雞",
+    "img": "",
+    "card_type": "Pokemon",
+    "lang": "sc",
+    "regulation": "I",
+    "set_name": "SV10",
+    "set_full_name": "火箭隊的榮耀",
+    "series": "朱&紫",
+    "set_code": "SV10",
+    "date": "2025-05-02",
+    "number": "019",
+    "set_total": 98,
+    "rarity": "Common",
+    "author": [
+        "yuu"
+    ],
+    "pokedex_number": 256,
+    "pokemon_category": "",
+    "flavor_text": "會發出尖銳的叫聲 來提高集中力。 腿技極具破壞力。",
+    "stage": "Stage1",
+    "hp": 100,
+    "types": [
+        "Fire"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "烈焰",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Fire",
+                "Colorless"
+            ],
+            "name": "二連踢",
+            "damage": "40×",
+            "effect": "擲2次硬幣，造成正面出現的次數×40點傷害。"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Water"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/zh-cn/cards/SV10-019"
+        }
+    ],
+    "print_key": "asia:SV10-19",
+    "card_key": "256|100|2|yuu|20,40x|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

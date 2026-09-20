@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh12.5-096",
+    "name": "Zacian VSTAR",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh12.5/096/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "V"
+    ],
+    "regulation": "F",
+    "set_name": "swsh12.5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12.5/symbol",
+    "set_full_name": "Zénith Suprême",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh12.5",
+    "date": "2023-01-20",
+    "number": "096",
+    "set_total": 160,
+    "rarity": "Holo Rare VSTAR",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 888,
+    "pokemon_category": "",
+    "stage": "VSTAR",
+    "hp": 270,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Brise-Lame",
+            "damage": 200,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout effet en action sur le Pokémon Actif de votre adversaire."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Star Épée",
+            "damage": 310,
+            "effect": "Ce Pokémon s'inflige aussi 30 dégâts. (Vous ne pouvez utiliser qu'une seule Puissance VSTAR par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Plante"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Zacian-V",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh12.5-096"
+        }
+    ],
+    "print_key": "tcgdex:swsh12.5-96",
+    "card_key": "888|270|2|5ban Graphics|200,310|3,4",
+    "types_en": [
+        "Metal"
+    ]
+}

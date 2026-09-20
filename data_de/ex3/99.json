@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex3-99",
+    "name": "Glutexo",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Drache",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "99",
+    "set_total": 100,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 5,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Rauchwolke",
+            "damage": 10,
+            "effect": "Falls das verteidigende Pokémon während des nächsten gegnerischen Zuges anzugreifen versucht, wirft dein Gegner 1 Münze. Bei „Zahl“ fügt dieser Angriff keine Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Feuerwerk",
+            "damage": 40,
+            "effect": "Wirf 1 Münze. Entferne bei „Zahl“ eine {R}-Energiekarte von Glutexo."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "evolve_from": "Glumanda",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex3-99"
+        }
+    ],
+    "print_key": "tcgdex:ex3-99",
+    "card_key": "5|70|1|Mitsuhiro Arita|10,40|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

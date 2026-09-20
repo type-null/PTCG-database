@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv02-107",
+    "name": "Rasaff",
+    "img": "https://assets.tcgdex.net/de/sv/sv02/107/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv02",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv02/symbol",
+    "set_full_name": "Entwicklungen in Paldea",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv02",
+    "date": "2023-06-09",
+    "number": "107",
+    "set_total": 279,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 57,
+    "pokemon_category": "",
+    "flavor_text": "Spürt Rasaff, dass jemand es anblickt, wird es rasend vor Wut. Es verfolgt jeden, der es wagt, seinen Blick zu erwidern.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Fußkick",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Trommler",
+            "damage": "60+",
+            "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 60 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Menki",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv02-107"
+        }
+    ],
+    "print_key": "tcgdex:sv02-107",
+    "card_key": "57|110|2|Shin Nagasawa|30,60+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

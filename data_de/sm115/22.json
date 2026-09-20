@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm115-22",
+    "name": "Lektrobal",
+    "img": "https://assets.tcgdex.net/de/sm/sm115/22/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm115",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm115/symbol",
+    "set_full_name": "Verborgenes Schicksal",
+    "series": "Sonne & Mond",
+    "set_code": "sm115",
+    "date": "2019-08-23",
+    "number": "22",
+    "set_total": 69,
+    "rarity": "Selten",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 101,
+    "pokemon_category": "",
+    "flavor_text": "Es explodiert schon bei kleinsten Reizen. Sein Spitzname „Die Bombenkugel“ spiegelt die Furcht der Menschen wider.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Kugelblitz",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Elektrokracher",
+            "damage": "60+",
+            "effect": "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte mehr pro Kopf zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Voltobal",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm115-22"
+        }
+    ],
+    "print_key": "tcgdex:sm115-22",
+    "card_key": "101|100|1|Anesaki Dynamic|30,60+|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

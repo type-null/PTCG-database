@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-18",
+    "name": "Altaria",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "18",
+    "set_total": 133,
+    "rarity": "Selten",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 334,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Mitternachtsaugen",
+            "damage": 20,
+            "effect": "Das Verteidigende Pokémon schläft jetzt."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Abgesang",
+            "damage": null,
+            "effect": "Wenn das Verteidigende Pokémon schläft und in deinem letzten Zug durch Mitternachtsaugen Schaden erhalten hat oder von dessen Effekt betroffen wurde, ist das Verteidigende Pokémon jetzt kampfunfähig."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Heilgesang",
+            "damage": 40,
+            "effect": "Entferne 1 Schadensmarke von jedem deiner Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Wablu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-18"
+        }
+    ],
+    "print_key": "tcgdex:pl1-18",
+    "card_key": "334|90|1|Naoyo Kimura|20,None,40|1,2,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-H15",
+    "name": "Machomei",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "H15",
+    "set_total": 182,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 120,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Immunität",
+            "effect": "Verhindere alle Auswirkungen der Angriffe deines Gegners, die Machomei betreffen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Wegzerren",
+            "damage": 20,
+            "effect": "Falls dein Gegner mindestens ein Pokémon auf der Bank hat, bevor der Schaden zugefügt wird, wähle eines von diesen und tausche es mit dem verteidigenden Pokémon aus. Hat dein Gegner kein Pokémon auf seiner Bank, ignoriere diesen Effekt."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Hurrikan-Hieb",
+            "damage": "30×",
+            "effect": "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-H15"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-H15",
+    "card_key": "68|120|2|Naoyo Kimura|20,30x|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

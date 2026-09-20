@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/mep-071",
+    "name": "Mega-Zygarde-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "regulation": "J",
+    "set_name": "mep",
+    "set_full_name": "MEP Black Star Promos",
+    "series": "Mega-Entwicklung",
+    "set_code": "mep",
+    "date": "2025-09-26",
+    "number": "071",
+    "set_total": 88,
+    "rarity": "Promo",
+    "author": [
+        "takuyoa"
+    ],
+    "pokedex_number": 718,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 310,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Gaia-Welle",
+            "damage": 200,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Kampf",
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Tilgendes Nichts",
+            "damage": null,
+            "effect": "Wirf für jedes Pokémon deines Gegners 1 Münze. Bei Kopf fügt diese Attacke jenem Pokémon 150 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/mep-071"
+        }
+    ],
+    "print_key": "tcgdex:mep-71",
+    "card_key": "718|310|2|takuyoa|200,None|3,5",
+    "types_en": [
+        "Fighting"
+    ]
+}

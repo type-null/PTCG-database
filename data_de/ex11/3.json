@@ -1,0 +1,81 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex11-3",
+    "name": "Dragoran δ",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex11",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex11/symbol",
+    "set_full_name": "EX Delta Species",
+    "series": "EX",
+    "set_code": "ex11",
+    "date": "2005-10-31",
+    "number": "3",
+    "set_total": 114,
+    "rarity": "Selten",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 149,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Elektro",
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Delta-Aufladung",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du eine -Energiekarte von deinem Ablagestapel nehmen und an 1 Pokémon auf deiner Bank anlegen. Diese Poké-Power kann nicht verwendet werden, falls Dragoran von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Elektro"
+            ],
+            "name": "Agilität",
+            "damage": 30,
+            "effect": "Wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Dragoran zugefügt werden."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Elektro",
+                "Metall"
+            ],
+            "name": "Schwerer Einschlag",
+            "damage": 70,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze",
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex11-3"
+        }
+    ],
+    "print_key": "tcgdex:ex11-3",
+    "card_key": "149|100|2|Ryo Ueda|30,70|2,4",
+    "types_en": [
+        "Lightning",
+        "Metal"
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl4-24",
+    "name": "Pelipper",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl4",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl4/symbol",
+    "set_full_name": "Arceus",
+    "series": "Platin",
+    "set_code": "pl4",
+    "date": "2009-11-04",
+    "number": "24",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 279,
+    "pokemon_category": "",
+    "flavor_text": "Ein Bote der Lüfte. Bringt Eier und kleine Pokémon in seinem Schnabel in Sicherheit.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Aquawelle",
+            "damage": 30,
+            "effect": "Das Verteidigende Pokémon schläft jetzt."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Dauerzermalmer",
+            "damage": 70,
+            "effect": "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Lege pro „Kopf“ eine an das Verteidigende Pokémon angelegte Energiekarte auf den Ablagestapel deines Gegners."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Wingull",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl4-24"
+        }
+    ],
+    "print_key": "tcgdex:pl4-24",
+    "card_key": "279|90|2|Miki Tanaka|30,70|2,4",
+    "types_en": [
+        "Water"
+    ]
+}

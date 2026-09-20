@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh3.5-44",
+    "name": "Iscalar",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh3.5/44/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh3.5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh3.5/symbol",
+    "set_full_name": "Weg des Champs",
+    "series": "Schwert & Schild",
+    "set_code": "swsh3.5",
+    "date": "2020-09-25",
+    "number": "44",
+    "set_total": 80,
+    "rarity": "Häufig",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 686,
+    "pokemon_category": "",
+    "flavor_text": "Es dreht sich und lässt dabei Punkte auf seinem Körper blinken. Durch bestimmte Lichtmuster kann es mit seinen Artgenossen kommunizieren.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht"
+            ],
+            "name": "Tackle",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Hinterhältiger Angriff",
+            "damage": "20+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners verwirrt ist, fügt diese Attacke 50 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh3.5-44"
+        }
+    ],
+    "print_key": "tcgdex:swsh3.5-44",
+    "card_key": "686|60|1|sui|10,20+|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

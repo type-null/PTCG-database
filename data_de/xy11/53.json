@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy11-53",
+    "name": "Rasaff",
+    "img": "https://assets.tcgdex.net/de/xy/xy11/53/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Dampfkessel",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "53",
+    "set_total": 116,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 57,
+    "pokemon_category": "",
+    "flavor_text": "Es ist immer außerordentlich wütend. Nimmt es die Verfolgung auf, bleibt es dem Opfer hartnäckig auf den Fersen, egal wie weit oder wie lange.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Angeberei",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Lege bei „Kopf“ 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Energischer Wurf",
+            "damage": "30+",
+            "effect": "Wenn, bevor du Schaden zufügst, das Aktive Pokémon deines Gegners mehr verbliebene KP hat als dieses Pokémon, fügt dieser Angriff 60 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Menki",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy11-53"
+        }
+    ],
+    "print_key": "tcgdex:xy11-53",
+    "card_key": "57|90|1|Masakazu Fukuda|20,30+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

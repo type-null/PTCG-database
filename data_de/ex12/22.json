@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex12-22",
+    "name": "Magneton",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex12",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex12/symbol",
+    "set_full_name": "EX Legend Maker",
+    "series": "EX",
+    "set_code": "ex12",
+    "date": "2006-02-13",
+    "number": "22",
+    "set_total": 93,
+    "rarity": "Selten",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 82,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Reaktive Aufladung",
+            "effect": "Wenn Magneton durch die Schadenspunkte eines gegnerischen Angriffs kampfunfähig gemacht würde, kannst du eine beliebige Anzahl an Reaktions-Energiekarten von Magneton beliebig auf deine anderen Pokémon verteilen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Potenzierte Kraft",
+            "damage": "30+",
+            "effect": "Wenn an Magneton mindestens eine Reaktions-Energiekarte angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Magnetilo oder Magneton zu, das sich im Spiel befindet (deine und die deines Gegners)."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Magnetstoß",
+            "damage": 60,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Magnetilo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex12-22"
+        }
+    ],
+    "print_key": "tcgdex:ex12-22",
+    "card_key": "82|70|1|Hisao Nakamura|30+,60|2,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

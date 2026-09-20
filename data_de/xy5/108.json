@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy5-108",
+    "name": "Seedraking",
+    "img": "https://assets.tcgdex.net/de/xy/xy5/108/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Protoshock",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "108",
+    "set_total": 164,
+    "rarity": "Selten",
+    "author": [
+        "hatachu"
+    ],
+    "pokedex_number": 230,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Drache"
+    ],
+    "abilities": [
+        {
+            "name": "{title}:",
+            "effect": "{title}: Wenn du 1 Energiekarte von deiner Hand an dieses Pokémon anlegst (außer auf Anweisung einer Attacke, Fähigkeit oder Trainerkarte), kannst du bis zu 2 Energiekarten anlegen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Kraftsammler",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu 4 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Elektro"
+            ],
+            "name": "Drachenbeben",
+            "damage": 150,
+            "effect": "Lege 1 an dieses Pokémon angelegte Water-Energie sowie 1 an dieses Pokémon angelegte Lightning-Energie auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fee"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Seemon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy5-108"
+        }
+    ],
+    "print_key": "tcgdex:xy5-108",
+    "card_key": "230|130|1|hatachu|None,150|1,3",
+    "types_en": [
+        "Dragon"
+    ]
+}

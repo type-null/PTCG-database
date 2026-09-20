@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-SH2",
+    "name": "Zwirrlicht",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "SH2",
+    "set_total": 106,
+    "rarity": "Selten, Holografisch LV.X",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 355,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Abzählreim",
+            "damage": null,
+            "effect": "Lege bis zu 3 Schadensmarken auf Zwirrlicht. Danach lege die gleiche Anzahl Schadensmarken auf das Verteidigende Pokémon."
+        },
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Ramme",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Nachtbindung",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ kann dein Gegner in seinem nächsten Zug keine Energiekarten von seiner Hand an seine Aktiven Pokémon anlegen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-SH2"
+        }
+    ],
+    "print_key": "tcgdex:dp7-SH2",
+    "card_key": "355|60|1|Kouki Saitou|None,10,20|0,1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

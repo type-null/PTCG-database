@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp2-64",
+    "name": "Tropius",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Trésors Mystérieux",
+    "series": "Diamant & Perle",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "64",
+    "set_total": 124,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kazuyuki Kano"
+    ],
+    "pokedex_number": 357,
+    "pokemon_category": "",
+    "flavor_text": "À force de manger son fruit préféré, il a fini par pousser autour de son cou.",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Feuille bonus",
+            "damage": null,
+            "effect": "Retirez 3 marqueurs de dégât à chacun de vos Pokémon de Banc possédant une Énergie Grass."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Cyclone",
+            "damage": 30,
+            "effect": "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp2-64"
+        }
+    ],
+    "print_key": "tcgdex:dp2-64",
+    "card_key": "357|80|1|Kazuyuki Kano|None,30|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

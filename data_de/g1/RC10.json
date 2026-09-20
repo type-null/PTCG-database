@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/g1-RC10",
+    "name": "Dedenne",
+    "img": "https://assets.tcgdex.net/de/xy/g1/RC10/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Generationen",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "RC10",
+    "set_total": 117,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "kanahei"
+    ],
+    "pokedex_number": 702,
+    "pokemon_category": "",
+    "flavor_text": "Knister... surr... Dedenne...?! Piep...",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Erholung",
+            "damage": null,
+            "effect": "Heile 30 Schadenspunkte bei diesem Pokémon. Dieses Pokémon schläft jetzt."
+        },
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Brzzzl",
+            "damage": "10+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/g1-RC10"
+        }
+    ],
+    "print_key": "tcgdex:g1-RC10",
+    "card_key": "702|60|1|kanahei|None,10+|1,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

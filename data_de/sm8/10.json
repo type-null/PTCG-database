@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm8-10",
+    "name": "Ariados",
+    "img": "https://assets.tcgdex.net/de/sm/sm8/10/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Echo des Donners",
+    "series": "Sonne & Mond",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "10",
+    "set_total": 236,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "pokedex_number": 168,
+    "pokemon_category": "",
+    "flavor_text": "Es kann mit dem Hinterleib und dem Mund Fäden spinnen. Mit diesen fesselt es seine Beute und entzieht ihr gemächlich alle Flüssigkeit.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Fangfaden",
+            "damage": 30,
+            "effect": "Verhindere jedes Mal, wenn dein Gegner während seines nächsten Zuges eine Item- oder Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die dem Verteidigenden Pokémon zugefügt werden."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Gifthieb",
+            "damage": 70,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Webarak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm8-10"
+        }
+    ],
+    "print_key": "tcgdex:sm8-10",
+    "card_key": "168|110|1|Suwama Chiaki|30,70|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-42",
+    "name": "Noktuska",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "42",
+    "set_total": 133,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 332,
+    "pokemon_category": "",
+    "flavor_text": "Ein nachtaktives PKMN, das Beute sucht, die durch die Tageshitze der Wüste bereits erschöpft ist.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Stachelwunde",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners, auf dem mindestens 1 Schadensmarke liegt. Dieser Angriff fügt dem gewählten Pokémon 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Unlicht"
+            ],
+            "name": "Giftexperiment",
+            "damage": 20,
+            "effect": "Du kannst 1 an Noktuska angelegte {G}- oder {D}-Energie auf deinen Ablagestapel legen. Wenn du 1 {G}-Energie auf deinen Ablagestapel legst, ist das Verteidigende Pokémon jetzt vergiftet. Wenn du 1 {D}-Energie auf deinen Ablagestapel legst, ist das Verteidigende Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Tuska",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-42"
+        }
+    ],
+    "print_key": "tcgdex:pl1-42",
+    "card_key": "332|90|2|Mitsuhiro Arita|None,20|2,2",
+    "types_en": [
+        "Grass"
+    ]
+}

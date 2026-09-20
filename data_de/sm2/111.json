@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm2-111",
+    "name": "Fiaro",
+    "img": "https://assets.tcgdex.net/de/sm/sm2/111/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Stunde der Wächter",
+    "series": "Sonne & Mond",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "111",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 663,
+    "pokemon_category": "",
+    "flavor_text": "Auf seinem Speiseplan stehen bevorzugt Wingull und Peppeck. Es schaltet seine Beute mit einem kräftigen Tritt aus, um sie sich dann zu krallen.",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Nitroladung",
+            "damage": 30,
+            "effect": "Durchsuche dein Deck nach 1 {R}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Looping",
+            "damage": 90,
+            "effect": "Nimm alle an dieses Pokémon angelegten Energien auf deine Hand."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Dartignis",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm2-111"
+        }
+    ],
+    "print_key": "tcgdex:sm2-111",
+    "card_key": "663|130|0|Shin Nagasawa|30,90|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

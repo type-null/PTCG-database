@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm1-73",
+    "name": "Quartermak",
+    "img": "https://assets.tcgdex.net/de/sm/sm1/73/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sonne & Mond",
+    "series": "Sonne & Mond",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "73",
+    "set_total": 172,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 766,
+    "pokemon_category": "",
+    "flavor_text": "Es gründet Gruppen von etwa 20 Exemplaren. Der Zusammenhalt der Gruppe ist extrem stark, kein Kamerad wird jemals im Stich gelassen.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Schleuder",
+            "damage": null,
+            "effect": "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Teamgeist",
+            "damage": "10+",
+            "effect": "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der Quartermak auf deiner Bank zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm1-73"
+        }
+    ],
+    "print_key": "tcgdex:sm1-73",
+    "card_key": "766|110|1|Naoki Saito|None,10+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

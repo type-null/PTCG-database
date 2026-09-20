@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm7-2",
+    "name": "Ultrigaria",
+    "img": "https://assets.tcgdex.net/de/sm/sm7/2/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm7",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm7/symbol",
+    "set_full_name": "Sturm Am Firmament",
+    "series": "Sonne & Mond",
+    "set_code": "sm7",
+    "date": "2018-08-03",
+    "number": "2",
+    "set_total": 183,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 70,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon lähmt den Gegner mit Giftpuder, bevor es ihn mit Säure erledigt.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Wachstum",
+            "damage": null,
+            "effect": "Lege bis zu 2 {G}-Energiekarten aus deiner Hand an dieses Pokémon an."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Doppel-Rasierblatt",
+            "damage": "30×",
+            "effect": "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Knofensa",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm7-2"
+        }
+    ],
+    "print_key": "tcgdex:sm7-2",
+    "card_key": "70|80|1|Miki Tanaka|None,30x|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

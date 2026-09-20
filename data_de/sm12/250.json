@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm12-250",
+    "name": "Giflor GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm12/250/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm12",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm12/symbol",
+    "set_full_name": "Welten im Wandel",
+    "series": "Sonne & Mond",
+    "set_code": "sm12",
+    "date": "2019-11-01",
+    "number": "250",
+    "set_total": 271,
+    "rarity": "Versteckt Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 45,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 240,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Duftender Blumengarten",
+            "effect": "Einmal während deines Zuges (bevor du angreifst) kannst du 30 Schadenspunkte bei jedem deiner Pokémon heilen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Gewaltiges Blühen",
+            "damage": "180-",
+            "effect": "Diese Attacke fügt 10 Schadenspunkte weniger mal der Anzahl der Schadensmarken auf diesem Pokémon zu."
+        },
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Allergische Explosion-GX",
+            "damage": 50,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt, paralysiert und vergiftet. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Duflor",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm12-250"
+        }
+    ],
+    "print_key": "tcgdex:sm12-250",
+    "card_key": "45|240|2|Kagemaru Himeno|180-,50|2,1",
+    "types_en": [
+        "Grass"
+    ]
+}

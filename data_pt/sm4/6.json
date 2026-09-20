@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/sm4-6",
+    "name": "Cacturne",
+    "img": "https://assets.tcgdex.net/pt/sm/sm4/6/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Invasão Carmim",
+    "series": "Sol e Lua",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "6",
+    "set_total": 124,
+    "rarity": "Rara",
+    "author": [
+        "Mina Nakai"
+    ],
+    "pokedex_number": 332,
+    "pokemon_category": "",
+    "stage": "Estágio 1",
+    "hp": 110,
+    "types": [
+        "Planta"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Planta"
+            ],
+            "name": "Espinho Despedaçador",
+            "damage": "30+",
+            "effect": "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 60 pontos de dano a mais."
+        },
+        {
+            "cost": [
+                "Planta",
+                "Incolor"
+            ],
+            "name": "Caçada",
+            "damage": null,
+            "effect": "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a). Este ataque causa 40 pontos de dano ao novo Pokémon Ativo."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fogo"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/sm4-6"
+        }
+    ],
+    "print_key": "tcgdex:sm4-6",
+    "card_key": "332|110|2|Mina Nakai|30+,None|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

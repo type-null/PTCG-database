@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm7-80",
+    "name": "Regirock",
+    "img": "https://assets.tcgdex.net/fr/sm/sm7/80/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm7",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm7/symbol",
+    "set_full_name": "Tempête Céleste",
+    "series": "Soleil et Lune",
+    "set_code": "sm7",
+    "date": "2018-08-03",
+    "number": "80",
+    "set_total": 183,
+    "rarity": "Rare",
+    "author": [
+        "Ayaka Yoshida"
+    ],
+    "pokedex_number": 377,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Piétinement Amélioré",
+            "damage": "20+",
+            "effect": "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 20 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Marto-Poing",
+            "damage": 100,
+            "effect": "Défaussez la carte du dessus du deck de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm7-80"
+        }
+    ],
+    "print_key": "tcgdex:sm7-80",
+    "card_key": "377|120|3|Ayaka Yoshida|20+,100|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

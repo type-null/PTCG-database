@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh2-104",
+    "name": "Thanathora",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh2/104/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Clash der Rebellen",
+    "series": "Schwert & Schild",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "104",
+    "set_total": 209,
+    "rarity": "Selten",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 689,
+    "pokemon_category": "",
+    "flavor_text": "Sein Körper besteht aus sieben verschiedenen Bithora, wobei der Kopf das Sagen über die anderen Gliedmaßen hat.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Steinschleuderer",
+            "damage": 50,
+            "effect": "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Händedruck",
+            "damage": "80+",
+            "effect": "Wenn du mehr Karten auf der Hand hast als dein Gegner, fügt diese Attacke 80 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Bithora",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh2-104"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-104",
+    "card_key": "689|120|3|Anesaki Dynamic|50,80+|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

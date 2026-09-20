@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm3-66",
+    "name": "Rhinoféros",
+    "img": "https://assets.tcgdex.net/fr/sm/sm3/66/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Ombres Ardentes",
+    "series": "Soleil et Lune",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "66",
+    "set_total": 169,
+    "rarity": "Peu Commune",
+    "author": [
+        "Sanosuke Sakuma"
+    ],
+    "pokedex_number": 112,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Roule-Pierre",
+            "damage": 80,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Mégacorne",
+            "damage": 120,
+            "effect": "Lancez une pièce. Si c’est pile, cette attaque ne fait rien."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Rhinocorne",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm3-66"
+        }
+    ],
+    "print_key": "tcgdex:sm3-66",
+    "card_key": "112|110|4|Sanosuke Sakuma|80,120|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

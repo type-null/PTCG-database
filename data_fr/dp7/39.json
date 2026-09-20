@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-39",
+    "name": "Massko",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "39",
+    "set_total": 106,
+    "rarity": "Peu Commune",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 253,
+    "pokemon_category": "",
+    "flavor_text": "Il vit dans les jungles denses. Il saute de branche en branche pour approcher de sa proie.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Secoue-queue",
+            "damage": 20,
+            "effect": "Le Pokémon Défenseur est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Souplesse",
+            "damage": "60x",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Arcko",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-39"
+        }
+    ],
+    "print_key": "tcgdex:dp7-39",
+    "card_key": "253|80|1|Naoyo Kimura|20,60x|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

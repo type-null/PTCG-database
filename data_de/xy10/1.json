@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy10-1",
+    "name": "Pottrott",
+    "img": "https://assets.tcgdex.net/de/xy/xy10/1/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy10",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy10/symbol",
+    "set_full_name": "Schicksalsschmiede",
+    "series": "XY",
+    "set_code": "xy10",
+    "date": "2016-05-02",
+    "number": "1",
+    "set_total": 129,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 213,
+    "pokemon_category": "",
+    "flavor_text": "Es sammelt Beeren in seiner Schale. Um sich vor Attacken zu schützen, versteckt es sich unter Steinen.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Beerenversteck",
+            "damage": null,
+            "effect": "Ziehe 2 Karten. Lege anschließend 1 Karte von deiner Hand unter deinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wickel",
+            "damage": 30,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy10-1"
+        }
+    ],
+    "print_key": "tcgdex:xy10-1",
+    "card_key": "213|80|1|sui|None,30|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

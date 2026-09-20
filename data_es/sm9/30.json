@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm9-30",
+    "name": "Gyarados",
+    "img": "https://assets.tcgdex.net/es/sm/sm9/30/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "sm9",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm9/symbol",
+    "set_full_name": "Union de Aliados",
+    "series": "Sol y Luna",
+    "set_code": "sm9",
+    "date": "2019-01-31",
+    "number": "30",
+    "set_total": 196,
+    "rarity": "Rara",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 150,
+    "types": [
+        "Agua"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Agua"
+            ],
+            "name": "Explosión Destilada",
+            "damage": "30+",
+            "effect": "Enseña las 7 primeras cartas de tu baraja. Este ataque hace 30 puntos de daño más por cada Energía Water que encuentres entre ellas. Después, pon esas cartas de Energía de nuevo en tu baraja, barájalas todas y descarta el resto de cartas."
+        },
+        {
+            "cost": [
+                "Agua",
+                "Agua",
+                "Agua"
+            ],
+            "name": "Hiperrayo",
+            "damage": 100,
+            "effect": "Descarta 1 Energía del Pokémon Activo de tu rival."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Rayo"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm9-30"
+        }
+    ],
+    "print_key": "tcgdex:sm9-30",
+    "card_key": "130|150|4|Hasuno|30+,100|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

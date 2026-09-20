@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv08-019",
+    "name": "Ho-Oh",
+    "img": "https://assets.tcgdex.net/de/sv/sv08/019/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "H",
+    "set_name": "sv08",
+    "set_full_name": "Stürmische Funken",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv08",
+    "date": "2024-11-08",
+    "number": "019",
+    "set_total": 252,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "kodama"
+    ],
+    "pokedex_number": 250,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Flattern",
+            "damage": 50,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Glühender Glanz",
+            "damage": "100+",
+            "effect": "Wenn du mindestens 1 Terakristall-Pokémon auf deiner Bank hast, fügt diese Attacke 100 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv08-019"
+        }
+    ],
+    "print_key": "tcgdex:sv08-19",
+    "card_key": "250|130|2|kodama|50,100+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

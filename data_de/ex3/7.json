@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex3-7",
+    "name": "Minun",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Drache",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "7",
+    "set_total": 100,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 312,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Kette der Ereignisse",
+            "effect": "Wenn Minun dein Aktives Pokémon ist und dein anderes Aktives Pokémon einen Angriff benutzt, kannst du Anfeuern nach dem ersten Angriff benutzen (nur wenn du die Energiekosten von Anfeuern bezahlen kannst). Du kannst Anfeuern auf diese Weise nicht häufiger als ein Mal benutzen, auch wenn dein anderes Aktives Pokémon auch den Kette der Ereignisse Poké-Body hat."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Anfeuern",
+            "damage": null,
+            "effect": "Entferne 1 Schadensmarke von allen deinen Pokémon (einschließlich Minun)."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Spezial Stromkreis",
+            "damage": null,
+            "effect": "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 20 Schadenspunkte zu. Falls das ausgewählte Pokémon eine Poké-Power oder ein Poké-Body hat, fügt dieser Angriff stattdessen 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex3-7"
+        }
+    ],
+    "print_key": "tcgdex:ex3-7",
+    "card_key": "312|50|1|Atsuko Nishida|None,None|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

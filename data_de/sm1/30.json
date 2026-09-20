@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm1-30",
+    "name": "Quapsel",
+    "img": "https://assets.tcgdex.net/de/sm/sm1/30/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sonne & Mond",
+    "series": "Sonne & Mond",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "30",
+    "set_total": 172,
+    "rarity": "Häufig",
+    "author": [
+        "Asako Ito"
+    ],
+    "pokedex_number": 60,
+    "pokemon_category": "",
+    "flavor_text": "Es kann noch nicht gut laufen. Sein Trainer sollte daher jeden Tag Laufübungen mit ihm durchführen.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Aquaknarre",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Hydropumpe",
+            "damage": "30+",
+            "effect": "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten {W}-Energien zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm1-30"
+        }
+    ],
+    "print_key": "tcgdex:sm1-30",
+    "card_key": "60|60|1|Asako Ito|10,30+|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

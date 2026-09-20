@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy8-74",
+    "name": "Megalon",
+    "img": "https://assets.tcgdex.net/de/xy/xy8/74/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy8",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy8/symbol",
+    "set_full_name": "TURBOstart",
+    "series": "XY",
+    "set_code": "xy8",
+    "date": "2015-11-04",
+    "number": "74",
+    "set_total": 165,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 606,
+    "pokemon_category": "",
+    "flavor_text": "Es manipuliert die Gehirne seiner Gegner mit Psycho-Kräften, indem es die Bilder ihrer Erinnerungen umgestaltet.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Gedankengeschoss",
+            "damage": null,
+            "effect": "Dieser Angriff fügt 1 Pokémon deines Gegners 20 Schadenspunkte mal der Anzahl der an jenes Pokémon angelegten Energien zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Psystrahl",
+            "damage": 50,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Pygraulon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy8-74"
+        }
+    ],
+    "print_key": "tcgdex:xy8-74",
+    "card_key": "606|90|1|Tomokazu Komiya|None,50|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

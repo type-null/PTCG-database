@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm8-117",
+    "name": "Strassie",
+    "img": "https://assets.tcgdex.net/fr/sm/sm8/117/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Tonnerre Perdu",
+    "series": "Soleil et Lune",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "117",
+    "set_total": 236,
+    "rarity": "Commune",
+    "author": [
+        "Sanosuke Sakuma"
+    ],
+    "pokedex_number": 703,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Portail Diamantin",
+            "damage": null,
+            "effect": "Cherchez une carte Supporter et une carte Stade dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Pression de Garde",
+            "damage": 60,
+            "effect": "Pendant le prochain tour de votre adversaire, ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm8-117"
+        }
+    ],
+    "print_key": "tcgdex:sm8-117",
+    "card_key": "703|90|1|Sanosuke Sakuma|None,60|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

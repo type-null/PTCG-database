@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/basep-33",
+    "name": "Cizayox",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "basep",
+    "set_img": "https://assets.tcgdex.net/univ/base/basep/symbol",
+    "set_full_name": "Wizards Black Star Promos",
+    "series": "Base",
+    "set_code": "basep",
+    "date": "1999-07-01",
+    "number": "33",
+    "set_total": 53,
+    "rarity": "Commune",
+    "author": [
+        "Hironobu Yoshida"
+    ],
+    "pokedex_number": 212,
+    "pokemon_category": "",
+    "flavor_text": "Il n'utilise pas ses ailes pour voler. Elles lui servent à ajuster la température de son corps en les faisant battre rapidement.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Groz'yeux",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer Cizayox pendant le prochain tour de votre adversaire. (Mettre l'un des deux Pokémon sur le Banc met fin à cet effet.)"
+        },
+        {
+            "cost": [
+                "Métal",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Pinces de Métal",
+            "damage": "30+",
+            "effect": "Lancez une pièce jusqu'à ce que ce soit pile. Cette attaque inflige 30 dégâts plus 10 fois le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Plante"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Insécateur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/basep-33"
+        }
+    ],
+    "print_key": "tcgdex:basep-33",
+    "card_key": "212|70|2|Hironobu Yoshida|None,30+|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

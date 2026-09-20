@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xyp-XY52",
+    "name": "Groudon",
+    "img": "https://assets.tcgdex.net/fr/xy/xyp/XY52/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xyp",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xyp/symbol",
+    "set_full_name": "Promo XY",
+    "series": "XY",
+    "set_code": "xyp",
+    "date": "2013-10-12",
+    "number": "XY52",
+    "set_total": 216,
+    "rarity": "Promo",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 383,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Éclate-Roc",
+            "damage": "20+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Destructerre",
+            "damage": 100,
+            "effect": "Cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xyp-XY52"
+        }
+    ],
+    "print_key": "tcgdex:xyp-XY52",
+    "card_key": "383|130|4|Mitsuhiro Arita|20+,100|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

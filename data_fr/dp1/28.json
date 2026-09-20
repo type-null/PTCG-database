@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-28",
+    "name": "Scarhino",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "28",
+    "set_total": 130,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 214,
+    "pokemon_category": "",
+    "flavor_text": "Il arpente la forêt en quête de sève, son mets favori. Il est assez fort pour projeter l'ennemi.",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Lancer",
+            "damage": 10,
+            "effect": "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante"
+            ],
+            "name": "Tranch'korne",
+            "damage": "30+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-28"
+        }
+    ],
+    "print_key": "tcgdex:dp1-28",
+    "card_key": "214|80|2|Ken Sugimori|10,30+|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

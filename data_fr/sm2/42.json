@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm2-42",
+    "name": "Grolem d’Alola",
+    "img": "https://assets.tcgdex.net/fr/sm/sm2/42/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Gardiens Ascendants",
+    "series": "Soleil et Lune",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "42",
+    "set_total": 169,
+    "rarity": "Rare",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 76,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 160,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Roc-Boulet Électromagnétique",
+            "damage": "80×",
+            "effect": "Lancez une pièce pour chaque Énergie Lightning attachée à ce Pokémon. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tacle Lourd",
+            "damage": "200-",
+            "effect": "Cette attaque inflige 30 dégâts de moins pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Gravalanch d’Alola",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm2-42"
+        }
+    ],
+    "print_key": "tcgdex:sm2-42",
+    "card_key": "76|160|4|Shin Nagasawa|80x,200-|3,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

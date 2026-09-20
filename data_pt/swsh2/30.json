@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/swsh2-30",
+    "name": "Magmortar",
+    "img": "https://assets.tcgdex.net/pt/swsh/swsh2/30/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Rixa Rebelde",
+    "series": "Espada e Escudo",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "30",
+    "set_total": 209,
+    "rarity": "Rara",
+    "author": [
+        "Kazuma Koda"
+    ],
+    "pokedex_number": 467,
+    "pokemon_category": "",
+    "stage": "Estágio 1",
+    "hp": 140,
+    "types": [
+        "Fogo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fogo",
+                "Incolor"
+            ],
+            "name": "Soco Rajada",
+            "damage": 30,
+            "effect": "O Pokémon Ativo do seu oponente agora está Queimado."
+        },
+        {
+            "cost": [
+                "Fogo",
+                "Fogo",
+                "Incolor"
+            ],
+            "name": "Queimar o Solo",
+            "damage": "80+",
+            "effect": "Cada jogador descarta a carta de cima do próprio baralho. Este ataque causa 100 pontos de dano a mais para cada carta de Energia descartada desta forma."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Água"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Magmar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/swsh2-30"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-30",
+    "card_key": "467|140|3|Kazuma Koda|30,80+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

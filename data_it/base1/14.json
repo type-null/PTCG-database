@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-14",
+    "name": "Raichu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "14",
+    "set_total": 102,
+    "rarity": "Rara",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "flavor_text": "Ha una coda molto lunga che gli serve come messa a terra per proteggersi dalle scariche ad alta tensione che emana dal suo corpo. LIV 40 N.26",
+    "stage": "Livello 1",
+    "hp": 80,
+    "types": [
+        "Lampo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lampo",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Agilità",
+            "damage": 20,
+            "effect": "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, previeni tutti gli effetti degli attacchi inflitti a Raichu, compresi i danni."
+        },
+        {
+            "cost": [
+                "Lampo",
+                "Lampo",
+                "Lampo",
+                "Incolore"
+            ],
+            "name": "Tuono",
+            "damage": 60,
+            "effect": "Lancia una moneta. Se esce croce, Raichu si infligge 30 danni."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-14"
+        }
+    ],
+    "print_key": "tcgdex:base1-14",
+    "card_key": "26|80|1|Ken Sugimori|20,60|3,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

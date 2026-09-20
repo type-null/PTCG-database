@@ -1,0 +1,82 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/smp-SM05",
+    "name": "Ronflex GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "Promo SM",
+    "series": "Soleil et Lune",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM05",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 143,
+    "pokemon_category": "",
+    "hp": 190,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Effondrement",
+            "damage": 80,
+            "effect": "Ce Pokémon est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Ronflement Tonitruant",
+            "damage": 180,
+            "effect": "Cette attaque peut être utilisée si ce Pokémon est Endormi. S’il n’est pas Endormi, cette attaque ne fait rien."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Gare au Ronflex GX",
+            "damage": 210,
+            "effect": "Ce Pokémon est maintenant Endormi. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/smp-SM05"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM05",
+    "card_key": "143|190|4|5ban Graphics|80,180,210|3,5,5",
+    "types_en": [
+        "Colorless"
+    ]
+}

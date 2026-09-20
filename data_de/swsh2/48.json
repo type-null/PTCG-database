@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh2-48",
+    "name": "Galar-Flampivian",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh2/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Clash der Rebellen",
+    "series": "Schwert & Schild",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "48",
+    "set_total": 209,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 555,
+    "pokemon_category": "",
+    "flavor_text": "Es lagert Futter in dem Schneeball auf seinem Kopf und trägt es nach Hause. Bei Schneestürmen steigt es zu den Siedlungen der Menschen hinab.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Blizzard",
+            "damage": 80,
+            "effect": "Diese Attacke fügt auch jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Vernichtende Kopfnuss",
+            "damage": 170,
+            "effect": "Während deines nächsten Zuges kann dieses Pokémon Vernichtende Kopfnuss nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Galar-Flampion",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh2-48"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-48",
+    "card_key": "555|140|3|Kouki Saitou|80,170|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

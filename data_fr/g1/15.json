@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/g1-15",
+    "name": "Galopa",
+    "img": "https://assets.tcgdex.net/fr/xy/g1/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Générations",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "15",
+    "set_total": 117,
+    "rarity": "Rare",
+    "author": [
+        "DemizuPosuka"
+    ],
+    "pokedex_number": 78,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Hâte",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Dépassement",
+            "damage": 40,
+            "effect": "Cette attaque inflige 20 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Ponyta",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/g1-15"
+        }
+    ],
+    "print_key": "tcgdex:g1-15",
+    "card_key": "78|90|0|DemizuPosuka|20,40|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

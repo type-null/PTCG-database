@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm10-25",
+    "name": "Volcanion",
+    "img": "https://assets.tcgdex.net/es/sm/sm10/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Vínculos Indestructibles",
+    "series": "Sol y Luna",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "25",
+    "set_total": 234,
+    "rarity": "Rara",
+    "author": [
+        "Satoshi Shirai"
+    ],
+    "pokedex_number": 721,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 120,
+    "types": [
+        "Fuego"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuego"
+            ],
+            "name": "Prender Fuego",
+            "damage": null,
+            "effect": "Busca en tu baraja 1 carta de Energía Fire y únela a 1 de tus Pokémon. Si sales segundo y es tu primer turno, busca hasta 3 cartas de Energía Fire y únelas a tus Pokémon de la manera que desees. Después, baraja las cartas de tu baraja."
+        },
+        {
+            "cost": [
+                "Fuego",
+                "Fuego"
+            ],
+            "name": "Explosión de Calor Intenso",
+            "damage": "50+",
+            "effect": "Si tienes por lo menos 4 Energías Fire en juego, este ataque hace 60 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Agua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm10-25"
+        }
+    ],
+    "print_key": "tcgdex:sm10-25",
+    "card_key": "721|120|2|Satoshi Shirai|None,50+|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

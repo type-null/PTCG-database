@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard2-5",
+    "name": "Joliflor",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard2/5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-cards",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "5",
+    "set_total": 186,
+    "rarity": "Rare",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 182,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 90,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Engrais",
+            "effect": "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, attachez une carte Énergie de base de votre main sur un des Pokémon de votre Banc. Ce pouvoir ne peut pas être utilisé si Joliflor est affecté par un État spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Coupe-feuille",
+            "damage": "30×",
+            "effect": "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Ortide",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard2-5"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-5",
+    "card_key": "182|90|2|Sumiyoshi Kizuki|30x|3",
+    "types_en": [
+        "Grass"
+    ]
+}

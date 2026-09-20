@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm1-5",
+    "name": "Parasek",
+    "img": "https://assets.tcgdex.net/de/sm/sm1/5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sonne & Mond",
+    "series": "Sonne & Mond",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "5",
+    "set_total": 172,
+    "rarity": "Selten",
+    "author": [
+        "Eri Yamaki"
+    ],
+    "pokedex_number": 47,
+    "pokemon_category": "",
+    "flavor_text": "Parasek wird von dem Pilz auf seinen Rücken kontrolliert. Es ist oft mit Lamellux in Revierstreitigkeiten verstrickt.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zornklinge",
+            "damage": "10+",
+            "effect": "Wirf 3 Münzen. Zeigt 1 davon Kopf, fügt diese Attacke 20 Schadenspunkte mehr zu. Zeigen 2 davon Kopf, fügt diese Attacke 60 Schadenspunkte mehr zu. Zeigen alle Münzen Kopf, fügt diese Attacke 120 Schadenspunkte mehr zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Pilzsauger",
+            "damage": 70,
+            "effect": "Heile 30 Schadenspunkte bei diesem Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Paras",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm1-5"
+        }
+    ],
+    "print_key": "tcgdex:sm1-5",
+    "card_key": "47|110|3|Eri Yamaki|10+,70|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

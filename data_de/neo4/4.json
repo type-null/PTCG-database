@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo4-4",
+    "name": "Dunkles Psiana",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "4",
+    "set_total": 113,
+    "rarity": "Selten",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 196,
+    "pokemon_category": "",
+    "flavor_text": "Die Spitzen seines geteilten Schwanzes zittern, wenn es seine psychischen Fähigkeiten dazu nutzt, die nächste Aktion seines Gegners herauszufinden.",
+    "stage": "Rang 1",
+    "hp": 60,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Klauen ausfahren",
+            "damage": "10+",
+            "effect": "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 10 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Psyspritzer",
+            "damage": null,
+            "effect": "Fügt jedem der Pokémon deines Gegners 10 Schadenspunkte für jede an dieses Pokémon angelegte Energiekarte zu. Wende Schwäche und Resistenz nicht an."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "evolve_from": "Evoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo4-4"
+        }
+    ],
+    "print_key": "tcgdex:neo4-4",
+    "card_key": "196|60|None|Atsuko Nishida|10+,None|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

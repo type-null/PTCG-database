@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-45",
+    "name": "Maraistre",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/45/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "45",
+    "set_total": 111,
+    "rarity": "Peu Commune",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 195,
+    "pokemon_category": "",
+    "flavor_text": "Comme il est très insouciant et peu attentif, il se cogne souvent dans les rochers ou les quilles des bateaux lorsqu'il nage.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau"
+            ],
+            "name": "Surf",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Séisme",
+            "damage": 60,
+            "effect": "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Axoloto",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-45"
+        }
+    ],
+    "print_key": "tcgdex:neo1-45",
+    "card_key": "195|70|2|Atsuko Nishida|30,60|2,4",
+    "types_en": [
+        "Water"
+    ]
+}

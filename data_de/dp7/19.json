@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-19",
+    "name": "Garados",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "19",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Vergeltungsschweif",
+            "damage": "30x",
+            "effect": "Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl Karpador-Karten in deinem Ablagestapel zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Chaos anrichten",
+            "damage": 40,
+            "effect": "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Lege pro „Kopf“ die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Drachenschlag",
+            "damage": 100,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ entferne von jedem Pokémon deines Gegners 1 Energiekarte und lege sie auf seinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Karpador",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-19"
+        }
+    ],
+    "print_key": "tcgdex:dp7-19",
+    "card_key": "130|130|3|Midori Harada|30x,40,100|0,2,5",
+    "types_en": [
+        "Water"
+    ]
+}

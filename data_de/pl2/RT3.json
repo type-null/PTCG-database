@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-RT3",
+    "name": "Hitze-Rotom",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "RT3",
+    "set_total": 120,
+    "rarity": "Selten",
+    "author": [
+        "Lee HyunJung"
+    ],
+    "pokedex_number": 479,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Hitze-Wechsel",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power benutzen. HItze-Rotoms Typ ist {R} bis zum Ende des Zuges."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Aufwärmen",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 {R}-Energiekarte und lege sie an 1 Pokémon auf deiner Bank an. Mische dein Deck danach."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Brandwunde",
+            "damage": 40,
+            "effect": "Das Verteidigende Pokémon ist jetzt verbrannt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-RT3"
+        }
+    ],
+    "print_key": "tcgdex:pl2-RT3",
+    "card_key": "479|80|1|Lee HyunJung|None,40|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

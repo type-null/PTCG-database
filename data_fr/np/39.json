@@ -1,0 +1,77 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/np-39",
+    "name": "Rayquaza ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "np",
+    "set_img": "https://assets.tcgdex.net/univ/pop/np/symbol",
+    "set_full_name": "Promo Nintendo",
+    "series": "POP",
+    "set_code": "np",
+    "date": "2003-10-01",
+    "number": "39",
+    "set_total": 40,
+    "rarity": "Commune",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 384,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Folie furieuse",
+            "effect": "Tant que votre adversaire possède Kyogre, Kyogre ex, Groudon, Groudon ex en jeu, les attaques de Rayquaza ex infligent 40 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Aveuglement draconique",
+            "damage": 20,
+            "effect": "Lancez 1 pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Ouragan",
+            "damage": 50,
+            "effect": "Lancez 2 pièces. Si ce sont deux piles, cette attaque est sans effet. Pour chaque face, défaussez une Énergie attachée au Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Eau",
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/np-39"
+        }
+    ],
+    "print_key": "tcgdex:np-39",
+    "card_key": "384|100|None|Ryo Ueda|20,50|2,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

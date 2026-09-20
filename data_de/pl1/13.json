@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-13",
+    "name": "Rameidon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "13",
+    "set_total": 133,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 409,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Metallschädel",
+            "effect": "Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte von Rameidons Angriffen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Kopfstoß",
+            "damage": 80,
+            "effect": "Wenn das Verteidigende Pokémon durch diesen Angriff kampfunfähig würde, fügt Rameidon sich selbst 40 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Überbrückung",
+            "damage": 40,
+            "effect": "Bis zum Ende deines nächsten Zuges wird Schaden, den Rameidon durch Angriffe erhalten soll, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "+30"
+    },
+    "retreat": 1,
+    "evolve_from": "Koknodon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-13"
+        }
+    ],
+    "print_key": "tcgdex:pl1-13",
+    "card_key": "409|130|1|Masakazu Fukuda|80,40|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

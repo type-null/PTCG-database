@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/zh-cn/cards/SV9-034",
+    "name": "魔牆人偶",
+    "img": "",
+    "card_type": "Pokemon",
+    "lang": "sc",
+    "regulation": "I",
+    "set_name": "SV9",
+    "set_full_name": "對戰搭檔",
+    "series": "朱&紫",
+    "set_code": "SV9",
+    "date": "2025-02-07",
+    "number": "034",
+    "set_total": 100,
+    "rarity": "Common",
+    "author": [
+        "GOTO minori"
+    ],
+    "pokedex_number": 122,
+    "pokemon_category": "",
+    "flavor_text": "擅長表演默劇。 用手指放出的波動製造牆壁， 保護自己免於大多數的攻擊。",
+    "stage": "Basic",
+    "hp": 90,
+    "types": [
+        "Psychic"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psychic"
+            ],
+            "name": "模仿",
+            "damage": null,
+            "effect": "將自己的手牌全部放回牌庫並重洗。然後，從自己的牌庫抽出與對手的手牌張數相同數量的卡。"
+        },
+        {
+            "cost": [
+                "Psychic",
+                "Colorless"
+            ],
+            "name": "念力",
+            "damage": 40,
+            "effect": "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Darkness"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/zh-cn/cards/SV9-034"
+        }
+    ],
+    "print_key": "asia:SV9-34",
+    "card_key": "122|90|1|GOTO minori|None,40|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

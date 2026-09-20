@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex6-22",
+    "name": "Triopikeur",
+    "img": "https://assets.tcgdex.net/fr/ex/ex6/22/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex6",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex6/symbol",
+    "set_full_name": "EX Rouge Feu & Vert Feuille",
+    "series": "EX",
+    "set_code": "ex6",
+    "date": "2004-09-01",
+    "number": "22",
+    "set_total": 116,
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 51,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Sonicboom",
+            "damage": 30,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Bagarre",
+            "damage": 50,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Taupiqueur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex6-22"
+        }
+    ],
+    "print_key": "tcgdex:ex6-22",
+    "card_key": "51|80|1|Hajime Kusajima|30,50|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy11-23",
+    "name": "Pyroleo",
+    "img": "https://assets.tcgdex.net/de/xy/xy11/23/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Dampfkessel",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "23",
+    "set_total": 116,
+    "rarity": "Selten",
+    "author": [
+        "Yumi"
+    ],
+    "pokedex_number": 668,
+    "pokemon_category": "",
+    "flavor_text": "Sie bedrohen ihre Gegner, indem sie 6 000 °C heiße Atemluft ausstoßen. Die Weibchen beschützen die Jungen des Rudels.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Nitroladung",
+            "damage": 60,
+            "effect": "Durchsuche dein Deck nach 1 {R}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Einäschern",
+            "damage": 90,
+            "effect": "Lege, bevor du Schaden zufügst, alle an das Aktive Pokémon deines Gegners angelegten Pokémon-Ausrüstungen auf den Ablagestapel deines Gegners."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Leufeo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy11-23"
+        }
+    ],
+    "print_key": "tcgdex:xy11-23",
+    "card_key": "668|120|2|Yumi|60,90|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

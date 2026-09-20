@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-36",
+    "name": "Walraisa",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "36",
+    "set_total": 120,
+    "rarity": "Selten",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 365,
+    "pokemon_category": "",
+    "flavor_text": "Mit seinen Stoßzähnen bricht es durch Eis. Eine Speckschicht schützt es vor Kälte und Angriffen.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Eis sammeln",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff), wenn du Walraisa von deiner Hand spielst, um 1 deiner -Energiekarten von deiner Hand an Walraisa anlegen"
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Eiskalt zerquetscht",
+            "damage": 70,
+            "effect": "Lege 1 an Walraisa angelegte Energiekarte auf deinen Ablagestapel und lege danach 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "+30"
+    },
+    "retreat": 4,
+    "evolve_from": "Seejong",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-36"
+        }
+    ],
+    "print_key": "tcgdex:pl2-36",
+    "card_key": "365|140|4|kawayoo|70|4",
+    "types_en": [
+        "Water"
+    ]
+}

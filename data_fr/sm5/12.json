@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm5-12",
+    "name": "Vortente",
+    "img": "https://assets.tcgdex.net/fr/sm/sm5/12/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultra-Prisme",
+    "series": "Soleil et Lune",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "12",
+    "set_total": 173,
+    "rarity": "Commune",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 455,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Mangeouille",
+            "damage": 20,
+            "effect": "Soignez 20 dégâts à ce Pokémon."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante"
+            ],
+            "name": "Menacer",
+            "damage": "90-",
+            "effect": "Cette attaque inflige 10 dégâts de moins pour chaque marqueur de dégâts placé sur ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm5-12"
+        }
+    ],
+    "print_key": "tcgdex:sm5-12",
+    "card_key": "455|90|1|Anesaki Dynamic|20,90-|2,2",
+    "types_en": [
+        "Grass"
+    ]
+}

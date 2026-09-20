@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/me02-003",
+    "name": "Giflor",
+    "img": "https://assets.tcgdex.net/de/me/me02/003/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "I",
+    "set_name": "me02",
+    "set_full_name": "Fatale Flammen",
+    "series": "Mega-Entwicklung",
+    "set_code": "me02",
+    "date": "2025-11-14",
+    "number": "003",
+    "set_total": 130,
+    "rarity": "Selten",
+    "author": [
+        "Shibuzoh."
+    ],
+    "pokedex_number": 45,
+    "pokemon_category": "",
+    "flavor_text": "Seine Knospe öffnet sich mit einem Knall. Anschließend beginnt es, seine allergenen, giftigen Pollen zu verteilen.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Pollenbombe",
+            "damage": 30,
+            "effect": "Das Aktive Pokémon deines Gegners schläft jetzt und ist vergiftet."
+        },
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Rasante Blume",
+            "damage": "60+",
+            "effect": "Wenn dieses Pokémon während dieses Zuges geheilt wurde, fügt diese Attacke 120 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Duflor",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/me02-003"
+        }
+    ],
+    "print_key": "tcgdex:me02-3",
+    "card_key": "45|150|2|Shibuzoh.|30,60+|1,1",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard1-84",
+    "name": "Kadabra",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard1/84/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-cards",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "84",
+    "set_total": 165,
+    "rarity": "Peu Commune",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 64,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Rappel d'énergie",
+            "damage": null,
+            "effect": "Attachez 2 cartes Énergie de base de votre pile de défausse à Kadabra (1 seule si vous n'en avez qu'une)."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Onde folie",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "evolve_from": "Abra",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard1-84"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-84",
+    "card_key": "64|70|1|Hajime Kusajima|None,20|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

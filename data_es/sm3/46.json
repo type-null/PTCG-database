@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm3-46",
+    "name": "Eelektross",
+    "img": "https://assets.tcgdex.net/es/sm/sm3/46/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Sombras Ardientes",
+    "series": "Sol y Luna",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "46",
+    "set_total": 169,
+    "rarity": "Rara",
+    "author": [
+        "hatachu"
+    ],
+    "pokedex_number": 604,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 140,
+    "types": [
+        "Rayo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Rayo",
+                "Incolora"
+            ],
+            "name": "Tenaza Oscura",
+            "damage": 50,
+            "effect": "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival."
+        },
+        {
+            "cost": [
+                "Rayo",
+                "Rayo",
+                "Incolora"
+            ],
+            "name": "Rayo Ventosa",
+            "damage": "80+",
+            "effect": "Puedes hacer 80 puntos de daño más. Si lo haces, este ataque hace 80 puntos de daño a 1 de tus Pokémon. (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metálica"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm3-46"
+        }
+    ],
+    "print_key": "tcgdex:sm3-46",
+    "card_key": "604|140|3|hatachu|50,80+|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

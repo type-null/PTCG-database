@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw6-26",
+    "name": "Wailord",
+    "img": "https://assets.tcgdex.net/fr/bw/bw6/26/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw6",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw6/symbol",
+    "set_full_name": "Dragons Éxaltés",
+    "series": "Noir & Blanc",
+    "set_code": "bw6",
+    "date": "2012-08-15",
+    "number": "26",
+    "set_total": 128,
+    "rarity": "Rare",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 321,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 200,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Canon à O",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts multipliés par le nombre d'Énergies Water attachées à ce Pokémon."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Vague Géante",
+            "damage": 80,
+            "effect": "Ce Pokémon ne peut pas utiliser Vague Géante pendant votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Wailmer",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw6-26"
+        }
+    ],
+    "print_key": "tcgdex:bw6-26",
+    "card_key": "321|200|4|match|30,80|1,4",
+    "types_en": [
+        "Water"
+    ]
+}

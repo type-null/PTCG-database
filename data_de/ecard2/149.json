@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard2-149",
+    "name": "Lugia",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-Card",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "149",
+    "set_total": 186,
+    "rarity": "Selten",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 249,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Farblos"
+    ],
+    "abilities": [
+        {
+            "name": "Kristall-Typ",
+            "effect": "Immer wenn du eine {R}-, {W}- oder {P}-Basis-Energiekarte aus deiner Hand an Lugia anlegst, wird Lugias Typ (Farbe) bis zum Ende des Zuges zu demselben Typ wie diese Energiekarte."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Feuer"
+            ],
+            "name": "Psycho",
+            "damage": "10×",
+            "effect": "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl an Energiekarten, die an das Verteidigende Pokémon angelegt sind, zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Dampfstrahl",
+            "damage": 50,
+            "effect": "Lege 1 an Lugia angelegte Energiekarte auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard2-149"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-149",
+    "card_key": "249|80|3|Naoyo Kimura|10x,50|2,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

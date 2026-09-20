@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp3-25",
+    "name": "Élekable",
+    "img": "https://assets.tcgdex.net/fr/dp/dp3/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Merveilles Secrètes",
+    "series": "Diamant & Perle",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "25",
+    "set_total": 132,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 466,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Électrique"
+    ],
+    "abilities": [
+        {
+            "name": "Motorisé",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez choisir dans votre pile de défausse une carte Énergie Lightning et l'attacher à Elekable. Ce pouvoir ne peut pas être utilisé si Elekable est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coup d'Jus",
+            "damage": "50x",
+            "effect": "Défaussez toutes les Énergies Lightning attachées à Elekable. Lancez une pièce pour chaque carte Énergie Lightning défaussée. Cette attaque inflige 50 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Elektek",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp3-25"
+        }
+    ],
+    "print_key": "tcgdex:dp3-25",
+    "card_key": "466|100|3|Kouki Saitou|50x|3",
+    "types_en": [
+        "Lightning"
+    ]
+}

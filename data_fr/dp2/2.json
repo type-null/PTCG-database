@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp2-2",
+    "name": "Alakazam",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Trésors Mystérieux",
+    "series": "Diamant & Perle",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "2",
+    "set_total": 124,
+    "rarity": "Rare Holo",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 65,
+    "pokemon_category": "",
+    "flavor_text": "Grâce à sa mémoire exceptionnelle, il n'a rien oublié depuis sa naissance. Il a un Q.I. de 5 000.",
+    "stage": "Niveau 2",
+    "hp": 100,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Annulation de pouvoir",
+            "effect": "Une seule fois lors du tour de votre adversaire, lorsque celui-ci utilise un Poké-Power, vous pouvez défausser 2 cartes de votre main et prévenir les effets de ce Poké-Power. (C'est ce Pokémon qui utilise ce Poké-Power.) Ce pouvoir ne peut pas être utilisé si Alakazam possède un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Barrière psy",
+            "damage": 50,
+            "effect": "Lors du prochain tour de votre adversaire, tous dégâts infligés à Alakazam par des attaques de Pokémon de Niveau 2 de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+30"
+    },
+    "retreat": 1,
+    "evolve_from": "Kadabra",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp2-2"
+        }
+    ],
+    "print_key": "tcgdex:dp2-2",
+    "card_key": "65|100|1|Kouki Saitou|50|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

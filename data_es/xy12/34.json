@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/xy12-34",
+    "name": "Gyarados",
+    "img": "https://assets.tcgdex.net/es/xy/xy12/34/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Evoluciones",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "34",
+    "set_total": 113,
+    "rarity": "Rara",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 130,
+    "types": [
+        "Agua"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Agua",
+                "Agua",
+                "Agua"
+            ],
+            "name": "Rayo Burbuja",
+            "damage": 50,
+            "effect": "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado."
+        },
+        {
+            "cost": [
+                "Agua",
+                "Agua",
+                "Agua",
+                "Agua"
+            ],
+            "name": "Furia Dragón",
+            "damage": 180,
+            "effect": "Lanza 2 monedas. Si sale cruz en alguna de ellas, este ataque no hace nada."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Rayo"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Magikarp",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/xy12-34"
+        }
+    ],
+    "print_key": "tcgdex:xy12-34",
+    "card_key": "130|130|3|Mitsuhiro Arita|50,180|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

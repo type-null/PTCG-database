@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv02-064",
+    "name": "Raichu",
+    "img": "https://assets.tcgdex.net/fr/sv/sv02/064/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "ex"
+    ],
+    "regulation": "G",
+    "set_name": "sv02",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv02/symbol",
+    "set_full_name": "Évolutions à Paldea",
+    "series": "Écarlate et Violet",
+    "set_code": "sv02",
+    "date": "2023-06-09",
+    "number": "064",
+    "set_total": 279,
+    "rarity": "Peu Commune",
+    "author": [
+        "Teeziro"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 140,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Électrocharge",
+            "damage": null,
+            "effect": "Cherchez dans votre deck jusqu'à 2 cartes Énergie {L} de base, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Tonnerre",
+            "damage": 200,
+            "effect": "Défaussez toutes les Énergies de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu-ex",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv02-064"
+        }
+    ],
+    "print_key": "tcgdex:sv02-64",
+    "card_key": "26|140|1|Teeziro|None,200|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

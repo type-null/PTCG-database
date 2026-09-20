@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv06-016",
+    "name": "Gorythmic",
+    "img": "https://assets.tcgdex.net/fr/sv/sv06/016/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "H",
+    "set_name": "sv06",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv06/symbol",
+    "set_full_name": "Mascarade Crépusculaire",
+    "series": "Écarlate et Violet",
+    "set_code": "sv06",
+    "date": "2024-05-24",
+    "number": "016",
+    "set_total": 226,
+    "rarity": "Peu Commune",
+    "author": [
+        "toriyufu"
+    ],
+    "pokedex_number": 812,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 180,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Tambour Battant",
+            "damage": 60,
+            "effect": "Pendant le prochain tour de votre adversaire, les attaques utilisées par le Pokémon Défenseur coûtent {C} de plus et son Coût de Retraite est augmenté de {C}."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante"
+            ],
+            "name": "Martobois",
+            "damage": 180,
+            "effect": "Ce Pokémon s'inflige aussi 50 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Badabouin",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv06-016"
+        }
+    ],
+    "print_key": "tcgdex:sv06-16",
+    "card_key": "812|180|4|toriyufu|60,180|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

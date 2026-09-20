@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-14",
+    "name": "Raichu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "14",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 26,
+    "pokemon_category": "",
+    "flavor_text": "Sein langer Schwanz dient als Erdung, um es vor seiner eigenen Hochspannung zu schützen.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Agilität",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Kopf“ verhindere während des nächsten gegnerischen Zugs alle Auswirkungen von Attacken auf Raichu (einschließlich der Schadenspunkte)."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Donner",
+            "damage": 60,
+            "effect": "Wirf eine Münze. Bei „Zahl“ fügt Raichu sich selbst 30 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Pikachu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-14"
+        }
+    ],
+    "print_key": "tcgdex:base1-14",
+    "card_key": "26|80|1|Ken Sugimori|20,60|3,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

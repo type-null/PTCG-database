@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm10-109",
+    "name": "Kramshef GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm10/109/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Kräfte im Einklang",
+    "series": "Sonne & Mond",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "109",
+    "set_total": 234,
+    "rarity": "Ultra Selten",
+    "author": [
+        "sadaji"
+    ],
+    "pokedex_number": 430,
+    "pokemon_category": "",
+    "hp": 210,
+    "types": [
+        "Unlicht"
+    ],
+    "abilities": [
+        {
+            "name": "Herrscher der Nacht",
+            "effect": "Solang dieses Pokémon dein Aktives Pokémon ist, kann dein Gegner keine Pokémon-Ausrüstungen, Spezial-Energien oder Stadionkarten aus seiner Hand spielen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Federsturm",
+            "damage": 90,
+            "effect": "Diese Attacke fügt 2 Pokémon-GX und Pokémon-EX auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Unfair-GX",
+            "damage": null,
+            "effect": "Dein Gegner zeigt dir seine Handkarten. Lege 2 Karten aus der Hand deines Gegners auf seinen Ablagestapel. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Kramurx",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm10-109"
+        }
+    ],
+    "print_key": "tcgdex:sm10-109",
+    "card_key": "430|210|2|sadaji|90,None|3,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

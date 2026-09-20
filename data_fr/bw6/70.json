@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw6-70",
+    "name": "Limonde",
+    "img": "https://assets.tcgdex.net/fr/bw/bw6/70/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw6",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw6/symbol",
+    "set_full_name": "Dragons Éxaltés",
+    "series": "Noir & Blanc",
+    "set_code": "bw6",
+    "date": "2012-08-15",
+    "number": "70",
+    "set_total": 128,
+    "rarity": "Peu Commune",
+    "author": [
+        "HiRON"
+    ],
+    "pokedex_number": 618,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Ocroupi",
+            "damage": 20,
+            "effect": "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Bagarre",
+            "damage": 40,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw6-70"
+        }
+    ],
+    "print_key": "tcgdex:bw6-70",
+    "card_key": "618|100|3|HiRON|20,40|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw5-2",
+    "name": "Herbizarre",
+    "img": "https://assets.tcgdex.net/fr/bw/bw5/2/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw5",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw5/symbol",
+    "set_full_name": "Explorateurs Obscurs",
+    "series": "Noir & Blanc",
+    "set_code": "bw5",
+    "date": "2012-05-09",
+    "number": "2",
+    "set_total": 111,
+    "rarity": "Peu Commune",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 2,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Poudre Dodo",
+            "damage": 20,
+            "effect": "Le Pokémon Défenseur est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Poudre Toxik",
+            "damage": 50,
+            "effect": "Le Pokémon Défenseur est maintenant Empoisonné."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Bulbizarre",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw5-2"
+        }
+    ],
+    "print_key": "tcgdex:bw5-2",
+    "card_key": "2|90|3|sui|20,50|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

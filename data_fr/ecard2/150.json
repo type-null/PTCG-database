@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard2-150",
+    "name": "Nidoking",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard2/150/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-cards",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "150",
+    "set_total": 186,
+    "rarity": "Rare",
+    "author": [
+        "Hironobu Yoshida"
+    ],
+    "pokedex_number": 34,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 100,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Type de cristal",
+            "effect": "À chaque fois que vous attachez une carte Énergie de base {G}, {L}, ou {F} de votre main à Nidoking, le type de Nidoking (sa couleur) devient identique au type de carte Énergie jusqu'à la fin du tour."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Corne empoisonnée",
+            "damage": 20,
+            "effect": "Le Pokémon Défenseur est maintenant Empoisonné."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Combat",
+                "Combat"
+            ],
+            "name": "Roulement de tonnerre",
+            "damage": 50,
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chaque Pokémon du Banc de votre adversaire. Si c'est pile, cette attaque inflige 10 dégâts à chacun de Pokémon de votre Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "x2"
+    },
+    "retreat": 3,
+    "evolve_from": "Nidorino",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard2-150"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-150",
+    "card_key": "34|100|3|Hironobu Yoshida|20,50|3,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

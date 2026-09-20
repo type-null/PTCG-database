@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy7-15",
+    "name": "Entei",
+    "img": "https://assets.tcgdex.net/fr/xy/xy7/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy7",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy7/symbol",
+    "set_full_name": "Origines Antiques",
+    "series": "XY",
+    "set_code": "xy7",
+    "date": "2015-08-12",
+    "number": "15",
+    "set_total": 101,
+    "rarity": "Rare",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 244,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 130,
+    "types": [
+        "Feu"
+    ],
+    "abilities": [
+        {
+            "name": "{title}:",
+            "effect": "{title}: Jusqu'à 2 cartes Outil Pokémon peuvent être attachées à ce Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Barrière de Flammes",
+            "damage": 30,
+            "effect": "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 30 (après application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Charge Énergétique",
+            "damage": 130,
+            "effect": "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 30 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy7-15"
+        }
+    ],
+    "print_key": "tcgdex:xy7-15",
+    "card_key": "244|130|2|Mitsuhiro Arita|30,130|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

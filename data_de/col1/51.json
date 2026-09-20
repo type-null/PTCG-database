@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/col1-51",
+    "name": "Vipitis",
+    "img": "https://assets.tcgdex.net/de/col/col1/51/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "Ruf der Legenden",
+    "series": "Ruf der Legenden",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "51",
+    "set_total": 106,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Wataru Kawahara"
+    ],
+    "pokedex_number": 336,
+    "pokemon_category": "",
+    "flavor_text": "Die flinken Angriffe von SENGO kontert es mit seinem messerscharfen Schweif, aus dem Gift austritt.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Giftansammlung",
+            "damage": null,
+            "effect": "Vipitis ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Gift-Effekt",
+            "damage": "20+",
+            "effect": "Wenn Vipitis vergiftet ist, fügt dieser Angriff 20 Schadenspunkte plus 60 weitere Schadenspunkte zu; entferne den Speziellen Zustand „Vergiftet“ von Vipitis."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/col1-51"
+        }
+    ],
+    "print_key": "tcgdex:col1-51",
+    "card_key": "336|90|2|Wataru Kawahara|None,20+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

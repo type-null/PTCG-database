@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw4-25",
+    "name": "Lapras",
+    "img": "https://assets.tcgdex.net/de/bw/bw4/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw4",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw4/symbol",
+    "set_full_name": "Kommende Schicksale",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw4",
+    "date": "2012-02-08",
+    "number": "25",
+    "set_total": 103,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 131,
+    "pokemon_category": "",
+    "flavor_text": "Es liebt es, das Meer mit Pokémon und Menschen auf dem Rücken zu überqueren. Es versteht die Menschen.",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Familienruf",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Waghalsiger Sturmangriff",
+            "damage": 40,
+            "effect": "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw4-25"
+        }
+    ],
+    "print_key": "tcgdex:bw4-25",
+    "card_key": "131|100|2|Kouki Saitou|None,40|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

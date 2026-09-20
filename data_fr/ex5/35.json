@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex5-35",
+    "name": "Ortide",
+    "img": "https://assets.tcgdex.net/fr/ex/ex5/35/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex5",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex5/symbol",
+    "set_full_name": "EX Légendes Oubliées",
+    "series": "EX",
+    "set_code": "ex5",
+    "date": "2004-06-01",
+    "number": "35",
+    "set_total": 102,
+    "rarity": "Peu Commune",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 44,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Se cramponner",
+            "damage": 20,
+            "effect": "Après votre attaque, retirez à Ortide autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur. Si Ortide possède moins de marqueurs de dégât que de dégâts infligés, retirez-les lui tous."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Double tranch'herb",
+            "damage": "40×",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Mystherbe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex5-35"
+        }
+    ],
+    "print_key": "tcgdex:ex5-35",
+    "card_key": "44|70|1|Yuka Morii|20,40x|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

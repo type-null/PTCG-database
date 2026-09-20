@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-SH5",
+    "name": "Tylton",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/SH5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "SH5",
+    "set_total": 133,
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 333,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Atterrissage",
+            "damage": null,
+            "effect": "Retirez à Tylton 4 marqueurs de dégât. Tylton ne peut pas battre en retraite lors de votre prochain tour."
+        },
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Mimique",
+            "damage": null,
+            "effect": "Si une attaque a infligé des dégâts à Tylton lors du tour précédent de votre adversaire, cette attaque inflige le même nombre de dégâts au Pokémon Défenseur."
+        },
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Furie",
+            "damage": "10x",
+            "effect": "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-SH5"
+        }
+    ],
+    "print_key": "tcgdex:pl1-SH5",
+    "card_key": "333|50|1|Kagemaru Himeno|None,None,10x|0,1,1",
+    "types_en": [
+        "Colorless"
+    ]
+}

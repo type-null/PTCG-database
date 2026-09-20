@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/zh-cn/cards/SV9-057",
+    "name": "雙彈瓦斯",
+    "img": "",
+    "card_type": "Pokemon",
+    "lang": "sc",
+    "regulation": "I",
+    "set_name": "SV9",
+    "set_full_name": "對戰搭檔",
+    "series": "朱&紫",
+    "set_code": "SV9",
+    "date": "2025-02-07",
+    "number": "057",
+    "set_total": 100,
+    "rarity": "Uncommon",
+    "author": [
+        "KEIICHIRO ITO"
+    ],
+    "pokedex_number": 110,
+    "pokemon_category": "",
+    "flavor_text": "若將牠體內所含的 毒瓦斯稀釋到極限， 就能做出最高級的香水。",
+    "stage": "Stage1",
+    "hp": 130,
+    "types": [
+        "Darkness"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Darkness"
+            ],
+            "name": "充滿瓦斯",
+            "damage": 30,
+            "effect": "將對手的戰鬥寶可夢【混亂】。"
+        },
+        {
+            "cost": [
+                "Darkness",
+                "Colorless"
+            ],
+            "name": "瘋狂炸彈",
+            "damage": "50+",
+            "effect": "在上個自己的回合，若這隻寶可夢使出了「充滿瓦斯」，則增加120點傷害。"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/zh-cn/cards/SV9-057"
+        }
+    ],
+    "print_key": "asia:SV9-57",
+    "card_key": "110|130|2|KEIICHIRO ITO|30,50+|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

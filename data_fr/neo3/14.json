@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo3-14",
+    "name": "Suicune",
+    "img": "https://assets.tcgdex.net/fr/neo/neo3/14/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "14",
+    "set_total": 66,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 245,
+    "pokemon_category": "",
+    "flavor_text": "On dit de lui qu'il est la réincarnation des vents boréals. Il peut instantanément purifier l'eau sale et boueuse.",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Corps de cristal",
+            "effect": "Prévenez tous les effets des attaques de votre adversaire, excepté les dégâts, infligés à Suicune. Ce pouvoir cesse de fonctionner si Suicune est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Eau"
+            ],
+            "name": "Vague boréale",
+            "damage": 30,
+            "effect": "Lancez 2 pièces. Si c'est face dans les deux cas, le Pokémon Défenseur est Paralysé. Si vous obtenez une face, le Pokémon Défenseur est maintenant Endormi."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo3-14"
+        }
+    ],
+    "print_key": "tcgdex:neo3-14",
+    "card_key": "245|70|1|Ken Sugimori|30|3",
+    "types_en": [
+        "Water"
+    ]
+}

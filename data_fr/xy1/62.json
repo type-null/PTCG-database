@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy1-62",
+    "name": "Rhinastoc",
+    "img": "https://assets.tcgdex.net/fr/xy/xy1/62/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy1/symbol",
+    "set_full_name": "XY",
+    "series": "XY",
+    "set_code": "xy1",
+    "date": "2014-02-05",
+    "number": "62",
+    "set_total": 146,
+    "rarity": "Rare",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 464,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 160,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Boule Roc",
+            "damage": "50×",
+            "effect": "Lancez une pièce pour chaque Énergie Fighting attachée à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Roc-Boulet",
+            "damage": 130,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance. Ce Pokémon ne peut pas attaquer pendant votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Rhinoféros",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy1-62"
+        }
+    ],
+    "print_key": "tcgdex:xy1-62",
+    "card_key": "464|160|4|Naoki Saito|50x,130|1,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

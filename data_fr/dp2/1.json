@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp2-1",
+    "name": "Galeking",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Trésors Mystérieux",
+    "series": "Diamant & Perle",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "1",
+    "set_total": 124,
+    "rarity": "Rare Holo",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 306,
+    "pokemon_category": "",
+    "flavor_text": "Il creuse des galeries à travers la pierre avec ses cornes d'acier pour trouver le fer qu'il apprécie.",
+    "stage": "Niveau 2",
+    "hp": 130,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Empiler",
+            "damage": "40+",
+            "effect": "Cherchez dans votre pile de défausse toutes les cartes Énergie et montrez-les à votre adversaire. Si vous y trouvez des cartes Énergie Spéciale Metal, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires. Placez toutes ces cartes au dessus de votre deck. Ensuite, mélangez votre deck."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Métal",
+                "Métal"
+            ],
+            "name": "Métal dur",
+            "damage": "60+",
+            "effect": "Vous pouvez infliger 60 dégâts plus 40 dégâts supplémentaires. Galeking s'inflige alors 40 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+40"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Galegon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp2-1"
+        }
+    ],
+    "print_key": "tcgdex:dp2-1",
+    "card_key": "306|130|4|Kouki Saitou|40+,60+|2,4",
+    "types_en": [
+        "Metal"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm2-77",
+    "name": "Meteno",
+    "img": "https://assets.tcgdex.net/de/sm/sm2/77/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Stunde der Wächter",
+    "series": "Sonne & Mond",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "77",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 774,
+    "pokemon_category": "",
+    "flavor_text": "Es ernährt sich von Partikeln in der Atmosphäre. Die Farbe seines Kerns ist abhängig von der Zusammensetzung der Partikeln, die es frisst.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Sternschauer",
+            "damage": 20,
+            "effect": "Der Schaden dieser Attacke wird durch Schwäche, Resistenz oder alle anderen Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Kosmiksplosion",
+            "damage": 190,
+            "effect": "Dieses Pokémon ist kampfunfähig."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm2-77"
+        }
+    ],
+    "print_key": "tcgdex:sm2-77",
+    "card_key": "774|70|1|Naoki Saito|20,190|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

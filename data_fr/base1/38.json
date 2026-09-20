@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base1-38",
+    "name": "Têtarte",
+    "img": "https://assets.tcgdex.net/fr/base/base1/38/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base1",
+    "set_full_name": "Set de Base",
+    "series": "Base",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "38",
+    "set_total": 102,
+    "rarity": "Peu Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 61,
+    "pokemon_category": "",
+    "flavor_text": "Amphibie, il peut vivre à l'air libre mais il doit rester mouillé pour survivre.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau"
+            ],
+            "name": "Amnésie",
+            "damage": null,
+            "effect": "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Torgnoles",
+            "damage": "30x",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Ptitard",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base1-38"
+        }
+    ],
+    "print_key": "tcgdex:base1-38",
+    "card_key": "61|60|1|Ken Sugimori|None,30x|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

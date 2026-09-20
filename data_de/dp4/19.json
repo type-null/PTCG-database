@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp4-19",
+    "name": "Hypno",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp4",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp4/symbol",
+    "set_full_name": "Epische Begegnungen",
+    "series": "Diamant & Perl",
+    "set_code": "dp4",
+    "date": "2008-02-01",
+    "number": "19",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 97,
+    "pokemon_category": "",
+    "flavor_text": "Ein Blick auf das Pendel versetzt einen in 3 Sekunden in Schlaf, selbst wenn man gar nicht müde ist.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Traumfänger",
+            "damage": null,
+            "effect": "Wenn das Verteidigende Pokémon schläft, entferne alle Schadensmarken von Hypno und lege sie auf das Verteidigende Pokémon."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Hypnoschuss",
+            "damage": 60,
+            "effect": "Das Verteidigende Pokémon schläft jetzt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Traumato",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp4-19"
+        }
+    ],
+    "print_key": "tcgdex:dp4-19",
+    "card_key": "97|80|2|Mitsuhiro Arita|None,60|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

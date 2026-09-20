@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh8-182",
+    "name": "Panzaeron",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh8/182/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh8",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh8/symbol",
+    "set_full_name": "Fusionsangriff",
+    "series": "Schwert & Schild",
+    "set_code": "swsh8",
+    "date": "2021-11-12",
+    "number": "182",
+    "set_total": 284,
+    "rarity": "Häufig",
+    "author": [
+        "Megumi Higuchi"
+    ],
+    "pokedex_number": 227,
+    "pokemon_category": "",
+    "flavor_text": "Durch seinen stählernen Panzer sieht es zwar schwer aus, aber dennoch kann es bis zu 300 km/h schnell fliegen.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Stahlflügel",
+            "damage": 30,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Schwertschneide",
+            "damage": 110,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh8-182"
+        }
+    ],
+    "print_key": "tcgdex:swsh8-182",
+    "card_key": "227|120|1|Megumi Higuchi|30,110|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

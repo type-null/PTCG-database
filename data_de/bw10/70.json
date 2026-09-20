@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw10-70",
+    "name": "Shardrago",
+    "img": "https://assets.tcgdex.net/de/bw/bw10/70/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw10",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw10/symbol",
+    "set_full_name": "Plasma-Blaster",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw10",
+    "date": "2013-08-14",
+    "number": "70",
+    "set_total": 105,
+    "rarity": "Häufig",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 621,
+    "pokemon_category": "",
+    "flavor_text": "Es jagt in schmalen, von Stalobor und Onix gegrabenen Schächten nach Beute und spießt sie mit spitzen Klauen auf.",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Drache"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Gewaltiger Haken",
+            "damage": 40,
+            "effect": "Wirf 2 Münzen. Wenn eine oder beide Münzen „Zahl“ zeigen, hat dieser Angriff keine Auswirkungen."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zerfetzer",
+            "damage": 60,
+            "effect": "Der Schaden dieses Angriffs wird durch Effekte auf dem Verteidigenden Pokémon nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Drache"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw10-70"
+        }
+    ],
+    "print_key": "tcgdex:bw10-70",
+    "card_key": "621|100|1|Kouki Saitou|40,60|1,3",
+    "types_en": [
+        "Dragon"
+    ]
+}

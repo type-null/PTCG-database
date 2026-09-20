@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/30th-c-006",
+    "name": "Tyranitar Sombrio",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "set_name": "30th-c",
+    "set_full_name": "Coleção Clássica de 30 Anos",
+    "series": "Megaevolução",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "006",
+    "set_total": 30,
+    "author": [
+        "Nakaoka"
+    ],
+    "stage": "Estágio 2",
+    "hp": 120,
+    "types": [
+        "Sombrio"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolor"
+            ],
+            "name": "Moer",
+            "damage": "10+",
+            "effect": "Causa 10 de dano mais 10 de dano adicionais para cada Energia ligada ao Tyranitar Sombrio."
+        },
+        {
+            "cost": [
+                "Sombrio",
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Cauda Giratória",
+            "damage": null,
+            "effect": "Causa 20 de dano a cada um dos Pokémon do seu oponente. <em>(Fraqueza e Resistência não são aplicadas para Pokémon no Banco.)</em>"
+        },
+        {
+            "cost": [
+                "Sombrio",
+                "Sombrio",
+                "Incolor",
+                "Incolor",
+                "Incolor"
+            ],
+            "name": "Mordida Estraçalhante",
+            "damage": "70+",
+            "effect": "Se o Pokémon Defensor for um Pokémon-<em>ex</em>, este ataque causa 70 de dano mais 50 de dano adicionais."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lutador"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/30th-c-006"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-6",
+    "card_key": "248|120|2|Nakaoka|10+,None,70+|1,3,5",
+    "types_en": [
+        "Darkness"
+    ]
+}

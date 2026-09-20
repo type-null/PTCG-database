@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm5-26",
+    "name": "Amfira",
+    "img": "https://assets.tcgdex.net/de/sm/sm5/26/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultra-Prisma",
+    "series": "Sonne & Mond",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "26",
+    "set_total": 173,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 758,
+    "pokemon_category": "",
+    "flavor_text": "Ihr Giftgas enthält viele Pheromone. Verdünnt man es, lässt sich daraus ein sinnliches Parfüm herstellen.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Panikgift",
+            "damage": null,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt, verwirrt und vergiftet."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Meuchelklaue",
+            "damage": "60+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners von einem Speziellen Zustand betroffen ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Molunk",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm5-26"
+        }
+    ],
+    "print_key": "tcgdex:sm5-26",
+    "card_key": "758|110|1|Kagemaru Himeno|None,60+|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

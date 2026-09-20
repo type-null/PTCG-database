@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base5-65",
+    "name": "Psykokwak",
+    "img": "https://assets.tcgdex.net/fr/base/base5/65/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Base",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "65",
+    "set_total": 83,
+    "rarity": "Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 54,
+    "pokemon_category": "",
+    "flavor_text": "On le voit souvent se prendre la tête entre les mains, comme s'il souffrait de migraines.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Vertige",
+            "damage": null,
+            "effect": "Piochez une carte."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Eau"
+            ],
+            "name": "Pistolet à O",
+            "damage": "20+",
+            "effect": "Inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque Énergie  attachée à Psykokwak en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base5-65"
+        }
+    ],
+    "print_key": "tcgdex:base5-65",
+    "card_key": "54|50|1|Mitsuhiro Arita|None,20+|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

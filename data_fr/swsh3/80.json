@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh3-80",
+    "name": "Lampignon",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh3/80/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh3",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh3/symbol",
+    "set_full_name": "Ténèbres Embrasées",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh3",
+    "date": "2020-08-14",
+    "number": "80",
+    "set_total": 201,
+    "rarity": "Peu Commune",
+    "author": [
+        "Misa Tsutsui"
+    ],
+    "pokedex_number": 756,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Lueur Vacillante",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas attaquer."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Peur Sylvestre",
+            "damage": "60+",
+            "effect": "Si Forêt de Lumirinth est en jeu, cette attaque inflige 60 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Métal"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Spododo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh3-80"
+        }
+    ],
+    "print_key": "tcgdex:swsh3-80",
+    "card_key": "756|110|2|Misa Tsutsui|30,60+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

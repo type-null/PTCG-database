@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl3-52",
+    "name": "Chapignon",
+    "img": "https://assets.tcgdex.net/fr/pl/pl3/52/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Vainqueurs Suprêmes",
+    "series": "Platine",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "52",
+    "set_total": 162,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 286,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Coup de voltige",
+            "damage": 40,
+            "effect": "Le Coût de retraite du Pokémon Défenseur est de 0 jusqu'à la fin de votre prochain tour."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Bombardier écrasant",
+            "damage": "20+",
+            "effect": "Si le Pokémon Défenseur possède des cartes Énergie spéciales, cette attaque inflige 20 dégâts plus 40 dégâts supplémentaires. Ensuite, défaussez une carte Énergie spéciale attachée au Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Balignon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl3-52"
+        }
+    ],
+    "print_key": "tcgdex:pl3-52",
+    "card_key": "286|90|1|Kyoko Umemoto|40,20+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-54",
+    "name": "Safcon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "54",
+    "set_total": 102,
+    "rarity": "Häufig",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 11,
+    "pokemon_category": "",
+    "flavor_text": "Es ist Angriffen gegenüber wehrlos, da seine Schale weich ist und somit seinen schwachen und zarten Körper entblößt.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Härtner",
+            "damage": null,
+            "effect": "Wirf eine Münze. Bei „Kopf“ verhindere allen Schaden, der Safcon während des nächsten Zugs Deines Gegners zugefügt wird. (Alle anderen Auswirkungen finden immer noch statt.)"
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Stachelspore",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Raupy",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-54"
+        }
+    ],
+    "print_key": "tcgdex:base1-54",
+    "card_key": "11|70|2|Ken Sugimori|None,20|2,2",
+    "types_en": [
+        "Grass"
+    ]
+}

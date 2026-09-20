@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/swshp-SWSH174",
+    "name": "Espeon",
+    "img": "https://assets.tcgdex.net/it/swsh/swshp/SWSH174/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "E",
+    "set_name": "swshp",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swshp/symbol",
+    "set_full_name": "SPSC Promo",
+    "series": "Spada e Scudo",
+    "set_code": "swshp",
+    "date": "2019-11-15",
+    "number": "SWSH174",
+    "set_total": 307,
+    "rarity": "Promo",
+    "pokedex_number": 196,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 110,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psico"
+            ],
+            "name": "Psico",
+            "damage": 20,
+            "effect": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Incolore"
+            ],
+            "name": "Psichico",
+            "damage": "10+",
+            "effect": "Questo attacco infligge 40 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscurità"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/swshp-SWSH174"
+        }
+    ],
+    "print_key": "tcgdex:swshp-SWSH174",
+    "types_en": [
+        "Psychic"
+    ]
+}

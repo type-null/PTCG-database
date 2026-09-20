@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv03-128",
+    "name": "Terraiste de Paldea",
+    "img": "https://assets.tcgdex.net/fr/sv/sv03/128/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv03",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03/symbol",
+    "set_full_name": "Flammes Obsidiennes",
+    "series": "Écarlate et Violet",
+    "set_code": "sv03",
+    "date": "2023-08-11",
+    "number": "128",
+    "set_total": 230,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 980,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 140,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité"
+            ],
+            "name": "Anneau de Poison",
+            "damage": 20,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Marteau Boueux",
+            "damage": 100,
+            "effect": "Défaussez la carte du dessus du deck de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Axoloto de Paldea",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv03-128"
+        }
+    ],
+    "print_key": "tcgdex:sv03-128",
+    "card_key": "980|140|3|Kouki Saitou|20,100|1,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

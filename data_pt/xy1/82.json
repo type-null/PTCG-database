@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/xy1-82",
+    "name": "Bisharp",
+    "img": "https://assets.tcgdex.net/pt/xy/xy1/82/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "set_name": "xy1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy1/symbol",
+    "set_full_name": "XY",
+    "series": "XY",
+    "set_code": "xy1",
+    "date": "2014-02-05",
+    "number": "82",
+    "set_total": 146,
+    "rarity": "Rara",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "pokedex_number": 625,
+    "pokemon_category": "",
+    "stage": "Estágio 1",
+    "hp": 90,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metal"
+            ],
+            "name": "Som de Metal",
+            "damage": null,
+            "effect": "O Pokémon Ativo do seu oponente agora está Confuso."
+        },
+        {
+            "cost": [
+                "Metal",
+                "Incolor"
+            ],
+            "name": "Batida Metálica",
+            "damage": 40,
+            "effect": "Durante sua próxima vez de jogar, o ataque Batida Metálica deste Pokémon causará 40 de danos adicionais (antes da aplicação de Fraqueza e Resistência)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fogo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Pawniard",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/xy1-82"
+        }
+    ],
+    "print_key": "tcgdex:xy1-82",
+    "card_key": "625|90|2|Hitoshi Ariga|None,40|1,2",
+    "types_en": [
+        "Metal"
+    ]
+}

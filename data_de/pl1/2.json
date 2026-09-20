@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-2",
+    "name": "Turtok",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "2",
+    "set_total": 133,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 9,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Brunnen graben",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du dir die obersten 3 Karten deines Decks anschauen. Wähle beliebig viele {W}-Energiekarten, die du dort gefunden hast, und lege sie in beliebiger Verteilung an deine Pokémon an. Lege die anderen Karten auf deinen Ablagestapel. Diese Poké-Power kann nicht benutzt werden, wenn Turtok von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Aquapresse",
+            "damage": "20+",
+            "effect": "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede {W}-Energie, die an allen Pokémon (deinen und denen deines Gegners) angelegt ist, zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zwillingswerfer",
+            "damage": null,
+            "effect": "Lege 2 an Turtok angelegte {W}-Energien auf deinen Ablagestapel. Wähle 2 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt den gewählten Pokémon 60 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Turtok kann Zwillingswerfer in deinem nächsten Zug nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+30"
+    },
+    "retreat": 2,
+    "evolve_from": "Schillok",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-2"
+        }
+    ],
+    "print_key": "tcgdex:pl1-2",
+    "card_key": "9|130|2|Kagemaru Himeno|20+,None|2,4",
+    "types_en": [
+        "Water"
+    ]
+}

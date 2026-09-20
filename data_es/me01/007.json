@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/me01-007",
+    "name": "Tangrowth",
+    "img": "https://assets.tcgdex.net/es/me/me01/007/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "I",
+    "set_name": "me01",
+    "set_img": "https://assets.tcgdex.net/univ/me/me01/symbol",
+    "set_full_name": "Megaevolución",
+    "series": "Megaevolución",
+    "set_code": "me01",
+    "date": "2025-09-26",
+    "number": "007",
+    "set_total": 188,
+    "rarity": "Uncommon",
+    "author": [
+        "REND"
+    ],
+    "pokedex_number": 465,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 150,
+    "types": [
+        "Planta"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Planta",
+                "Incolora"
+            ],
+            "name": "Absorber",
+            "damage": 30,
+            "effect": "Cura 30 puntos de daño a este Pokémon."
+        },
+        {
+            "cost": [
+                "Planta",
+                "Planta",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Latigazo Vigorizado",
+            "damage": "120+",
+            "effect": "Si este Pokémon tiene por lo menos 2 Energías adicionales unidas (además de las del coste de este ataque), este ataque hace 140 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuego"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Tangela",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/me01-007"
+        }
+    ],
+    "print_key": "tcgdex:me01-7",
+    "card_key": "465|150|4|REND|30,120+|2,4",
+    "types_en": [
+        "Grass"
+    ]
+}

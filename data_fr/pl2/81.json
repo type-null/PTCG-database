@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl2-81",
+    "name": "Ronflex Niv. 40",
+    "img": "https://assets.tcgdex.net/fr/pl/pl2/81/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Rivaux Émergeants",
+    "series": "Platine",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "81",
+    "set_total": 120,
+    "rarity": "Commune",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 143,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Mauvaises habitudes de dodo",
+            "effect": "Tant que Ronflex est Endormi, le Pokémon Actif de votre adversaire ne peut pas battre en retraite."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Retournement",
+            "damage": "20+",
+            "effect": "Si Ronflex est Endormi, cette attaque inflige 20 dégâts plus 30 dégâts supplémentaires. (Cette attaque peut être utilisée même si Ronflex est Endormi.)"
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Lourde pression",
+            "damage": "40+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires. Si c'est pile, Ronflex est maintenant Endormi."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+20"
+    },
+    "retreat": 4,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl2-81"
+        }
+    ],
+    "print_key": "tcgdex:pl2-81",
+    "card_key": "143|100|4|Kouki Saitou|20+,40+|2,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

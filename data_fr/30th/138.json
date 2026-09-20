@@ -1,0 +1,60 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/30th-138",
+    "name": "Lougaroc",
+    "img": "https://assets.tcgdex.net/fr/me/30th/138/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "30th",
+    "set_full_name": "30ᵉ Anniversaire",
+    "series": "Méga-Évolution",
+    "set_code": "30th",
+    "date": "2026-09-16",
+    "number": "138",
+    "set_total": 158,
+    "rarity": "Illustration rare",
+    "author": [
+        "Raita Kazama"
+    ],
+    "stage": "Niveau 1",
+    "hp": 130,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Riposte",
+            "damage": "10+",
+            "effect": "Si ce Pokémon a subi les dégâts d'une attaque pendant le dernier tour de votre adversaire, cette attaque inflige en plus ce montant-là de dégâts."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Rocher Écrasant",
+            "damage": 80,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/30th-138"
+        }
+    ],
+    "print_key": "tcgdex:30th-138",
+    "card_key": "745|130|2|Raita Kazama|10+,80|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base5-11",
+    "name": "Magneton obscur",
+    "img": "https://assets.tcgdex.net/fr/base/base5/11/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Base",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "11",
+    "set_total": 83,
+    "rarity": "Rare",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 82,
+    "pokemon_category": "",
+    "flavor_text": "Le nombre de pirates informatiques utilisant des Magneton pour endommager les systèmes augmente régulièrement.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Sonicboom",
+            "damage": 40,
+            "effect": "N'appliquez pas la Faiblesse et la Résistance à cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et de la Résistance subsistent.)"
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Lignes magnétiques",
+            "damage": 30,
+            "effect": "Si le Pokémon Défenseur a des cartes Énergies de base attachées à lui, choisissez l'une d'elles. Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et attachez cette carte Énergie sur lui."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Magnéti",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base5-11"
+        }
+    ],
+    "print_key": "tcgdex:base5-11",
+    "card_key": "82|60|2|Miki Tanaka|40,30|4,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

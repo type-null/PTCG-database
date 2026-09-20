@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xyp-XY140",
+    "name": "Lucario",
+    "img": "https://assets.tcgdex.net/fr/xy/xyp/XY140/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xyp",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xyp/symbol",
+    "set_full_name": "Promo XY",
+    "series": "XY",
+    "set_code": "xyp",
+    "date": "2013-10-12",
+    "number": "XY140",
+    "set_total": 216,
+    "rarity": "Promo",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 448,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Charge-Os",
+            "damage": "30×",
+            "effect": "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Combat"
+            ],
+            "name": "Instagriffe",
+            "damage": 90,
+            "effect": "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Riolu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xyp-XY140"
+        }
+    ],
+    "print_key": "tcgdex:xyp-XY140",
+    "card_key": "448|100|2|Naoki Saito|30x,90|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

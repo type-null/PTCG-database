@@ -1,0 +1,79 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm10-223",
+    "name": "Honchkrow GX",
+    "img": "https://assets.tcgdex.net/es/sm/sm10/223/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Vínculos Indestructibles",
+    "series": "Sol y Luna",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "223",
+    "set_total": 234,
+    "rarity": "Rara Secreta",
+    "author": [
+        "sadaji"
+    ],
+    "pokedex_number": 430,
+    "pokemon_category": "",
+    "hp": 210,
+    "types": [
+        "Oscura"
+    ],
+    "abilities": [
+        {
+            "name": "Jefe de la Noche",
+            "effect": "Mientras este Pokémon sea tu Pokémon Activo, tu rival no puede jugar ninguna carta de Herramienta Pokémon, Energía Especial o Estadio de su mano."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Oscura",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Tormenta de Plumas",
+            "damage": 90,
+            "effect": "Este ataque hace 30 puntos de daño a 2 de los Pokémon-GX y Pokémon-EX en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
+        },
+        {
+            "cost": [
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Injusto GX",
+            "damage": null,
+            "effect": "Tu rival enseña las cartas de su mano. Descarta 2 de sus cartas. (No puedes usar más de 1 ataque GX en una partida)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Rayo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm10-223"
+        }
+    ],
+    "print_key": "tcgdex:sm10-223",
+    "card_key": "430|210|2|sadaji|90,None|3,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

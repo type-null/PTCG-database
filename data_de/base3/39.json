@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base3-39",
+    "name": "Magmar",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base3",
+    "set_img": "https://assets.tcgdex.net/univ/base/base3/symbol",
+    "set_full_name": "Fossil",
+    "series": "Grund",
+    "set_code": "base3",
+    "date": "1999-10-10",
+    "number": "39",
+    "set_total": 62,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 126,
+    "pokemon_category": "",
+    "flavor_text": "Im Schlund von Vulkanen anzutreffen, aber extrem schwer auszumachen. Dieses Pokémon wird nur höchst selten eingefangen.",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Rauchwolke",
+            "damage": 10,
+            "effect": "Falls das verteidigende Pokémon während des nächsten Zuges anzugreifen versucht, wirft dein Gegner eine Münze. Bei „Zahl“ fügt dieser Angriff keine Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Smog",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Magby",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base3-39"
+        }
+    ],
+    "print_key": "tcgdex:base3-39",
+    "card_key": "126|70|1|Mitsuhiro Arita|10,20|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

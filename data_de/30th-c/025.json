@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/30th-c-025",
+    "name": "Scherox ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "30th-c",
+    "set_full_name": "30 Jahre: Klassische Sammlung",
+    "series": "Mega-Entwicklung",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "025",
+    "set_total": 30,
+    "rarity": "Keine",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Stahlschwinge",
+            "damage": 40,
+            "effect": "Aller Schaden, der Scherox <em>ex</em> während des nächsten gegnerischen Zuges durch Angriffe zugefügt wird, wird um 20 Schadenspunkte reduziert <em>(nachdem Schwäche und Resistenz verrechnet wurden)</em>."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Überkreuzzerschneider",
+            "damage": "50+",
+            "effect": "Wenn das Verteidigende Pokémon ein entwickeltes Pokémon ist, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/30th-c-025"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-25",
+    "card_key": "212|120|1|Mitsuhiro Arita|40,50+|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

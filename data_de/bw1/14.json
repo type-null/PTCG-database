@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw1-14",
+    "name": "Kronjuwild",
+    "img": "https://assets.tcgdex.net/de/bw/bw1/14/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw1",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw1/symbol",
+    "set_full_name": "Schwarz & Weiß",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw1",
+    "date": "2011-04-25",
+    "number": "14",
+    "set_total": 115,
+    "rarity": "Selten",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 586,
+    "pokemon_category": "",
+    "flavor_text": "An seinem Geweih kann man ablesen, wann eine neue Jahreszeit beginnt. Sein Revier wechselt mit jeder neuen Jahreszeit.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Natur-Kraft",
+            "damage": 20,
+            "effect": "Dieser Angriff fügt für jede an Pokémon (deine und die deines Gegners) angelegte {G}-Energie 10 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Holzgeweih",
+            "damage": 60,
+            "effect": "Heile 20 Schadenspunkte bei diesem Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Sesokitz",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw1-14"
+        }
+    ],
+    "print_key": "tcgdex:bw1-14",
+    "card_key": "586|90|1|Naoyo Kimura|20,60|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/xy5-81",
+    "name": "Medicham",
+    "img": "https://assets.tcgdex.net/pt/xy/xy5/81/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Conflito Primitivo",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "81",
+    "set_total": 164,
+    "rarity": "Rara",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 308,
+    "pokemon_category": "",
+    "stage": "Estágio 1",
+    "hp": 90,
+    "types": [
+        "Lutador"
+    ],
+    "abilities": [
+        {
+            "name": "{title}:",
+            "effect": "{title}: Este Pokémon pode atacar duas vezes por turno. (Se o primeiro ataque Nocautear o Pokémon Ativo de seu oponente, você deve atacar de novo assim que seu oponente escolher um novo Pokémon Ativo)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolor"
+            ],
+            "name": "Mente Calma",
+            "damage": null,
+            "effect": "Cure 30 de danos deste Pokémon."
+        },
+        {
+            "cost": [
+                "Lutador",
+                "Lutador"
+            ],
+            "name": "Chute Ioga",
+            "damage": 30,
+            "effect": "Os danos desse ataque não são afetados por Fraqueza ou Resistência."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Meditite",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/xy5-81"
+        }
+    ],
+    "print_key": "tcgdex:xy5-81",
+    "card_key": "308|90|1|Mitsuhiro Arita|None,30|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

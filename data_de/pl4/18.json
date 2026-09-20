@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl4-18",
+    "name": "Firnontor",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl4",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl4/symbol",
+    "set_full_name": "Arceus",
+    "series": "Platin",
+    "set_code": "pl4",
+    "date": "2009-11-04",
+    "number": "18",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Hiroki Fuchino"
+    ],
+    "pokedex_number": 362,
+    "pokemon_category": "",
+    "flavor_text": "Es verhindert, dass Beute flieht, indem es die Feuchtigkeit in der Luft augenblicklich einfriert.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Abreißen",
+            "damage": "20+",
+            "effect": "Wenn sich eine Stadion-Karte im Spiel befindet, fügt dieser Angriff 20 Schadenspunkte plus 50 weitere Schadenspunkte zu. Lege danach die Stadion-Karte auf den Ablagestapel."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Lawine",
+            "damage": 50,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Schneppke",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl4-18"
+        }
+    ],
+    "print_key": "tcgdex:pl4-18",
+    "card_key": "362|90|1|Hiroki Fuchino|20+,50|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

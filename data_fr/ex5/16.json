@@ -1,0 +1,77 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex5-16",
+    "name": "Joliflor",
+    "img": "https://assets.tcgdex.net/fr/ex/ex5/16/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex5",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex5/symbol",
+    "set_full_name": "EX Légendes Oubliées",
+    "series": "EX",
+    "set_code": "ex5",
+    "date": "2004-06-01",
+    "number": "16",
+    "set_total": 102,
+    "rarity": "Rare",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 182,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 100,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Danse guérisseuse",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez retirer 2 marqueurs de dégât à 1 de vos Pokémon. Vous ne pouvez pas utiliser Danse guérisseuse plus d'une fois même s'il y a plus d'1 Joliflor en jeu. Ce pouvoir ne peut pas être utilisé si Joliflor est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Poudre miracle",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, choisissez 1 État Spécial. Le Pokémon Défenseur est maintenant affecté par cet État Spécial."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Lance-soleil",
+            "damage": 50,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Ortide",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex5-16"
+        }
+    ],
+    "print_key": "tcgdex:ex5-16",
+    "card_key": "182|100|2|Yuka Morii|10,50|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

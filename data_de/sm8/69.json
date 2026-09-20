@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm8-69",
+    "name": "Aggrostella",
+    "img": "https://assets.tcgdex.net/de/sm/sm8/69/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Echo des Donners",
+    "series": "Sonne & Mond",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "69",
+    "set_total": 236,
+    "rarity": "Selten",
+    "author": [
+        "kirisAki"
+    ],
+    "pokedex_number": 748,
+    "pokemon_category": "",
+    "flavor_text": "Wer das Gift von Aggrostella abbekommt, durchleidet drei schlimme Tage und Nächte. Überlebende tragen bleibende Schäden davon.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Giftstachel",
+            "damage": null,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Giftfieber",
+            "damage": "50×",
+            "effect": "Wenn das Aktive Pokémon deines Gegners vergiftet ist, fügt diese Attacke 50 Schadenspunkte mal der Anzahl der Schadensmarken auf jenem Pokémon zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Garstella",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm8-69"
+        }
+    ],
+    "print_key": "tcgdex:sm8-69",
+    "card_key": "748|120|3|kirisAki|None,50x|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

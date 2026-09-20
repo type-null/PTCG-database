@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-34",
+    "name": "Machoke",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "34",
+    "set_total": 102,
+    "rarity": "Non comune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 67,
+    "pokemon_category": "",
+    "flavor_text": "Il suo corpo è talmente muscoloso che è costretto ad indossare una cintura salva-energia per regolare i suoi movimenti. LIV 40 N.67",
+    "stage": "Livello 1",
+    "hp": 80,
+    "types": [
+        "Lotta"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lotta",
+                "Lotta",
+                "Incolore"
+            ],
+            "name": "Colpo-karate",
+            "damage": "50-",
+            "effect": "Infligge 50 danni meno 10 danni per ogni segnalino danno su Machoke."
+        },
+        {
+            "cost": [
+                "Lotta",
+                "Lotta",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Sottomissione",
+            "damage": 60,
+            "effect": "Machoke si infligge 20 danni."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Machop",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-34"
+        }
+    ],
+    "print_key": "tcgdex:base1-34",
+    "card_key": "67|80|3|Ken Sugimori|50-,60|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

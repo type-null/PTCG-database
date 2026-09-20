@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy8-20",
+    "name": "Tornupto",
+    "img": "https://assets.tcgdex.net/de/xy/xy8/20/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy8",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy8/symbol",
+    "set_full_name": "TURBOstart",
+    "series": "XY",
+    "set_code": "xy8",
+    "date": "2015-11-04",
+    "number": "20",
+    "set_total": 165,
+    "rarity": "Selten",
+    "author": [
+        "Megumi Mizutani"
+    ],
+    "pokedex_number": 157,
+    "pokemon_category": "",
+    "flavor_text": "Es verfügt über eine verheerende Geheimattacke. Es reibt sein Fell, um Explosionen zu erzeugen.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Gewaltige Eruption",
+            "damage": "80×",
+            "effect": "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 80 Schadenspunkte mal der Anzahl abgelegter Energiekarten zu."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Flammenhacker",
+            "damage": 130,
+            "effect": "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel. Lege anschließend 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Igelavar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy8-20"
+        }
+    ],
+    "print_key": "tcgdex:xy8-20",
+    "card_key": "157|150|3|Megumi Mizutani|80x,130|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

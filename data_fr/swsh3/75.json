@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh3-75",
+    "name": "Sidérella",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh3/75/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh3",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh3/symbol",
+    "set_full_name": "Ténèbres Embrasées",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh3",
+    "date": "2020-08-14",
+    "number": "75",
+    "set_total": 201,
+    "rarity": "Rare",
+    "author": [
+        "Eri Yamaki"
+    ],
+    "pokedex_number": 576,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 140,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Contrôleur d'Esprit",
+            "damage": 40,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Tordre",
+            "damage": 90,
+            "effect": "Choisissez 2 cartes au hasard dans la main de votre adversaire. Votre adversaire montre ces cartes, puis les mélange avec son deck."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Mesmérella",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh3-75"
+        }
+    ],
+    "print_key": "tcgdex:swsh3-75",
+    "card_key": "576|140|2|Eri Yamaki|40,90|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

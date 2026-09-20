@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy11-42",
+    "name": "Voltula",
+    "img": "https://assets.tcgdex.net/de/xy/xy11/42/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Dampfkessel",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "42",
+    "set_total": 116,
+    "rarity": "Selten",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 596,
+    "pokemon_category": "",
+    "flavor_text": "Wird es angegriffen, spuckt es mit vielen elektrisch geladenen Fäden um sich und baut sich eine Elektrobarriere.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Elektro",
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Doppelter Faden",
+            "damage": null,
+            "effect": "Dieser Angriff fügt 2 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. Wende Schwäche und Resistenz an."
+        },
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Elektronetz",
+            "damage": 30,
+            "effect": "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Wattzapf",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy11-42"
+        }
+    ],
+    "print_key": "tcgdex:xy11-42",
+    "card_key": "596|90|1|match|None,30|1,1",
+    "types_en": [
+        "Lightning",
+        "Grass"
+    ]
+}

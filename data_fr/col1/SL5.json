@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/col1-SL5",
+    "name": "Ho-Oh",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "L'appel des Légendes",
+    "series": "L'appel des Légendes",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "SL5",
+    "set_total": 106,
+    "rarity": "Holo Rare",
+    "author": [
+        "Hideaki Hakozaki"
+    ],
+    "pokedex_number": 250,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Fournaise",
+            "damage": 50,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Aile brûlante",
+            "damage": 100,
+            "effect": "Lancez une pièce. Si c’est pile, défaussez toutes les Énergies Fire attachées à Ho-Oh."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/col1-SL5"
+        }
+    ],
+    "print_key": "tcgdex:col1-SL5",
+    "card_key": "250|100|3|Hideaki Hakozaki|50,100|3,5",
+    "types_en": [
+        "Fire"
+    ]
+}

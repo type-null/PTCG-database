@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp1-60",
+    "name": "Rizeros",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perl",
+    "series": "Diamant & Perl",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "60",
+    "set_total": 130,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 112,
+    "pokemon_category": "",
+    "flavor_text": "Sein Gehirn entwickelt sich, wenn es sich auf die Hinterbeine stellt. Mit dem Horn bohrt es durch Gestein.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Losstürmen",
+            "damage": "30+",
+            "effect": "Wenn sich eine Stadion-Karte im Spiel befindet, fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu. Lege danach die Stadion-Karte auf den Ablagestapel."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Heftiger Zusammenstoß",
+            "damage": 60,
+            "effect": "Rizeros fügt sich selbst 10 Schadenspunkte zu. Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Rihorn",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp1-60"
+        }
+    ],
+    "print_key": "tcgdex:dp1-60",
+    "card_key": "112|90|2|Naoyo Kimura|30+,60|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

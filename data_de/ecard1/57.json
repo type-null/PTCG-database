@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard1-57",
+    "name": "Vulnona",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-Card",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "57",
+    "set_total": 165,
+    "rarity": "Selten",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 38,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Irreführen",
+            "damage": null,
+            "effect": "Wirf 2 Münzen. Falls mindestens eine von ihnen „Kopf“ zeigt, ist das Verteidigende Pokémon jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Ätherflamme",
+            "damage": "20+",
+            "effect": "Lege alle an Vulnona angelegten {R}-Energiekarten auf deinen Ablagestapel. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede auf diese Weise abgeworfene Karte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "evolve_from": "Vulpix",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard1-57"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-57",
+    "card_key": "38|80|1|Atsuko Nishida|None,20+|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

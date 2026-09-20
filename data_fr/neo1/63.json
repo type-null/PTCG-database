@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-63",
+    "name": "Coxy",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/63/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "63",
+    "set_total": 111,
+    "rarity": "Commune",
+    "author": [
+        "Sumiyoshi Kizuki"
+    ],
+    "pokedex_number": 165,
+    "pokemon_category": "",
+    "flavor_text": "Il est très timide. Il a peur de se déplacer seul, mais il est très actif lorsqu'il est en groupe.",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Ultrason",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante"
+            ],
+            "name": "Poing comète",
+            "damage": "10x",
+            "effect": "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-63"
+        }
+    ],
+    "print_key": "tcgdex:neo1-63",
+    "card_key": "165|40|None|Sumiyoshi Kizuki|None,10x|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

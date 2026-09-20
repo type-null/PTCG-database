@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-13",
+    "name": "Archéodong",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "13",
+    "set_total": 106,
+    "rarity": "Rare",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 437,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Psy"
+    ],
+    "abilities": [
+        {
+            "name": "Cycliste",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez choisir une carte de votre main et la placer au dessus de votre deck. Ensuite, choisissez dans votre deck jusqu'à 2 cartes Énergie de base, montrez-les à votre adversaire et placez-les dans votre main. Puis, mélangez votre deck. Ce pouvoir ne peut pas être utilisé si Archéodong est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Tour étrange",
+            "damage": "20+",
+            "effect": "Si vous possédez le même nombre de cartes que votre adversaire, cette attaque inflige 20 dégâts plus 40 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Lourd potentiel",
+            "damage": null,
+            "effect": "Placez autant de marqueurs de dégât sur chacun des Pokémon de votre adversaire qu'il y a d'Énergies Colorless dans le Coût de retraite de ce Pokémon (après application des effets sur le Coût de Retraite)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Feu"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Archéomire",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-13"
+        }
+    ],
+    "print_key": "tcgdex:dp7-13",
+    "card_key": "437|90|3|Kyoko Umemoto|20+,None|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

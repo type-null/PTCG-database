@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex14-28",
+    "name": "Florizarre",
+    "img": "https://assets.tcgdex.net/fr/ex/ex14/28/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex14",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex14/symbol",
+    "set_full_name": "EX Gardiens de Cristal",
+    "series": "EX",
+    "set_code": "ex14",
+    "date": "2006-08-30",
+    "number": "28",
+    "set_total": 100,
+    "rarity": "Rare",
+    "author": [
+        "Hajime Kusajima"
+    ],
+    "pokedex_number": 3,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 110,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Chlorophyle",
+            "effect": "Toutes les cartes Énergie fournissant uniquement de l'Énergie {C} attachées à vos Pokémon {G} fournissent de l'Énergie {G}."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Explosion verte",
+            "damage": "20+",
+            "effect": "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {G} attachée à tous vos Pokémon."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Dodo toxik",
+            "damage": null,
+            "effect": "Le Pokémon Défenseur est maintenant Endormi et Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Herbizarre",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex14-28"
+        }
+    ],
+    "print_key": "tcgdex:ex14-28",
+    "card_key": "3|110|3|Hajime Kusajima|20+,None|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

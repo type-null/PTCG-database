@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv02-076",
+    "name": "Pamomamo",
+    "img": "https://assets.tcgdex.net/de/sv/sv02/076/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv02",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv02/symbol",
+    "set_full_name": "Entwicklungen in Paldea",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv02",
+    "date": "2023-06-09",
+    "number": "076",
+    "set_total": 279,
+    "rarity": "Selten",
+    "author": [
+        "kodama"
+    ],
+    "pokedex_number": 923,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon ist für gewöhnlich sehr gelassen, doch sobald ein Kampf beginnt, streckt es den Gegner mit blitzschnellen Bewegungen zu Boden.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Flotter Sprung",
+            "damage": 40,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Elektrofaust",
+            "damage": 100,
+            "effect": "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 60 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Pamamo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv02-076"
+        }
+    ],
+    "print_key": "tcgdex:sv02-76",
+    "card_key": "923|140|1|kodama|40,100|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

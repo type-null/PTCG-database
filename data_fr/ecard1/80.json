@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard1-80",
+    "name": "Spectrum",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard1/80/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard1",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard1/symbol",
+    "set_full_name": "Expedition",
+    "series": "e-cards",
+    "set_code": "ecard1",
+    "date": "2002-09-15",
+    "number": "80",
+    "set_total": 165,
+    "rarity": "Peu Commune",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 93,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Cauchemar",
+            "damage": 20,
+            "effect": "Le Pokémon Défenseur est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Dévorêve",
+            "damage": 50,
+            "effect": "Si le Pokémon Défenseur n'est pas Endormi, cette attaque ne fait rien."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Fantominus",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard1-80"
+        }
+    ],
+    "print_key": "tcgdex:ecard1-80",
+    "card_key": "93|70|1|Yukiko Baba|20,50|2,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

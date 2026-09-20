@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo2-45",
+    "name": "Pupitar",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Entdeckung",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "45",
+    "set_total": 75,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Hironobu Yoshida"
+    ],
+    "pokedex_number": 247,
+    "pokemon_category": "",
+    "flavor_text": "Seine Schale ist so hart wie Stein, und es ist sehr stark. Sein Schlag kann einen Berg umhauen.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schädelwumme",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Sandteufel",
+            "damage": null,
+            "effect": "Fügt jedem Pokémon im Spiel, das nicht vom Typ {F} ist, 10 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Larvitar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo2-45"
+        }
+    ],
+    "print_key": "tcgdex:neo2-45",
+    "card_key": "247|70|1|Hironobu Yoshida|20,None|2,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

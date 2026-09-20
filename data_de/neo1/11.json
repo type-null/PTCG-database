@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-11",
+    "name": "Meganie",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "11",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 154,
+    "pokemon_category": "",
+    "flavor_text": "Das aus seinen Blättern aufsteigende Aroma enthält eine Substanz, die aggressive Gefühle besänftigt.",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Wildes Wachstum",
+            "effect": "Solange Meganie im Spiel ist, liefert jede {G}-Energie, die an deine {G}-Pokémon angelegt ist, stattdessen {G}{G}. Diese Fähigkeit verliert ihre Wirkung, solange Meganie schläft, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Beruhigender Duft",
+            "damage": 40,
+            "effect": "Das verteidigende Pokémon schläft jetzt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Lorblatt",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-11"
+        }
+    ],
+    "print_key": "tcgdex:neo1-11",
+    "card_key": "154|100|3|Ken Sugimori|40|4",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/hgss1-43",
+    "name": "Scarhino",
+    "img": "https://assets.tcgdex.net/fr/hgss/hgss1/43/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "hgss1",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss1/symbol",
+    "set_full_name": "HeartGold SoulSilver",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss1",
+    "date": "2010-02-10",
+    "number": "43",
+    "set_total": 124,
+    "rarity": "Peu Commune",
+    "author": [
+        "Sachiko Adachi"
+    ],
+    "pokedex_number": 214,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Pioche verte",
+            "damage": null,
+            "effect": "Piochez une carte pour chacun de vos Pokémon Grass en jeu."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Double coup d’boule",
+            "damage": "30+",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/hgss1-43"
+        }
+    ],
+    "print_key": "tcgdex:hgss1-43",
+    "card_key": "214|80|2|Sachiko Adachi|None,30+|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

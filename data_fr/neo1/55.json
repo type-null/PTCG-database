@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-55",
+    "name": "Loupio",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/55/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "55",
+    "set_total": 111,
+    "rarity": "Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 170,
+    "pokemon_category": "",
+    "flavor_text": "Il lance des arcs électriques positifs et négatifs entre ses antennes et électrocute ses ennemis.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Ultrason",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus"
+        },
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Fleau",
+            "damage": "10x",
+            "effect": "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Loupio."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-55"
+        }
+    ],
+    "print_key": "tcgdex:neo1-55",
+    "card_key": "170|50|1|Ken Sugimori|None,10x|1,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

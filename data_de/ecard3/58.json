@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-58",
+    "name": "Girafarig",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "58",
+    "set_total": 182,
+    "rarity": "Häufig",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 203,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Energieflicken",
+            "damage": null,
+            "effect": "Nimm eine Basis-Energiekarte, die an 1 deiner Pokémon angelegt ist, und lege sie an ein anderes deiner Pokémon an."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Synchroknall",
+            "damage": 40,
+            "effect": "Liegen an Girafarig und am verteidigenden Pokémon nicht die gleiche Anzahl an Energiekarten an, beträgt der Basis-Schaden dieses Angriffs 10 anstatt 40."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-58"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-58",
+    "card_key": "203|60|1|Yukiko Baba|None,40|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

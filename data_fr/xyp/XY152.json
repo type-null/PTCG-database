@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xyp-XY152",
+    "name": "Zygarde",
+    "img": "https://assets.tcgdex.net/fr/xy/xyp/XY152/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xyp",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xyp/symbol",
+    "set_full_name": "Promo XY",
+    "series": "XY",
+    "set_code": "xyp",
+    "date": "2013-10-12",
+    "number": "XY152",
+    "set_total": 216,
+    "rarity": "Promo",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 718,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Bagarre",
+            "damage": 30,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Géofrappe",
+            "damage": 120,
+            "effect": "Cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xyp-XY152"
+        }
+    ],
+    "print_key": "tcgdex:xyp-XY152",
+    "card_key": "718|120|2|5ban Graphics|30,120|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

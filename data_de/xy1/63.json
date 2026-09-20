@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy1-63",
+    "name": "Lunastein",
+    "img": "https://assets.tcgdex.net/de/xy/xy1/63/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy1/symbol",
+    "set_full_name": "XY",
+    "series": "XY",
+    "set_code": "xy1",
+    "date": "2014-02-05",
+    "number": "63",
+    "set_total": 146,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 337,
+    "pokemon_category": "",
+    "flavor_text": "Da es in Vollmondnächten aktiv wird, sagt man ihm nach, mit den Mondphasen in Verbindung zu stehen.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Zweifachzug",
+            "damage": null,
+            "effect": "Ziehe 2 Karten."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Mondgewalt",
+            "damage": 20,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der durch Angriffe des Verteidigenden Pokémon zugefügt wird, um 20 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy1-63"
+        }
+    ],
+    "print_key": "tcgdex:xy1-63",
+    "card_key": "337|80|1|kawayoo|None,20|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/xy5-104",
+    "name": "Azumarill",
+    "img": "https://assets.tcgdex.net/es/xy/xy5/104/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Duelos Primigenios",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "104",
+    "set_total": 164,
+    "rarity": "Rara",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 184,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 100,
+    "types": [
+        "Hada"
+    ],
+    "abilities": [
+        {
+            "name": "{title}:",
+            "effect": "{title}: Cuando este Pokémon sea curado, dobla la cantidad curada."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Hada",
+                "Incolora"
+            ],
+            "name": "Coleada",
+            "damage": "30×",
+            "effect": "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara."
+        },
+        {
+            "cost": [
+                "Hada",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Ola Menguante",
+            "damage": "100-",
+            "effect": "Este ataque hace 100 puntos de daño menos 10 puntos de daño por cada contador de daño en este Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metálica"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Oscura"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Marill",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/xy5-104"
+        }
+    ],
+    "print_key": "tcgdex:xy5-104",
+    "card_key": "184|100|2|5ban Graphics|30x,100-|2,3",
+    "types_en": [
+        "Fairy"
+    ]
+}

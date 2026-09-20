@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy3-4",
+    "name": "Scarhino EX",
+    "img": "https://assets.tcgdex.net/fr/xy/xy3/4/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "xy3",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy3/symbol",
+    "set_full_name": "Poings Furieux",
+    "series": "XY",
+    "set_code": "xy3",
+    "date": "2014-08-13",
+    "number": "4",
+    "set_total": 114,
+    "rarity": "Ultra Rare",
+    "author": [
+        "Eske Yoshinob"
+    ],
+    "pokedex_number": 214,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 170,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Pression de Garde",
+            "damage": 40,
+            "effect": "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Giga Pouvoir",
+            "damage": "80+",
+            "effect": "Vous pouvez infliger 40 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige 20 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy3-4"
+        }
+    ],
+    "print_key": "tcgdex:xy3-4",
+    "card_key": "214|170|3|Eske Yoshinob|40,80+|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw10-56",
+    "name": "Hundemon",
+    "img": "https://assets.tcgdex.net/de/bw/bw10/56/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw10",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw10/symbol",
+    "set_full_name": "Plasma-Blaster",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw10",
+    "date": "2013-08-14",
+    "number": "56",
+    "set_total": 105,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 229,
+    "pokemon_category": "",
+    "flavor_text": "Ist es wütend, spuckt es giftige Flammen. Die Schmerzen der Verbrennungen dauern ewig an.",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos"
+            ],
+            "name": "Dunkler Klammergriff",
+            "damage": 30,
+            "effect": "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Sengende Pranken",
+            "damage": 60,
+            "effect": "Wenn das Verteidigende Pokémon ein Team Plasma-Pokémon ist, fügt dieser Angriff 60 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt verbrannt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Hunduster",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw10-56"
+        }
+    ],
+    "print_key": "tcgdex:bw10-56",
+    "card_key": "229|100|1|Shin Nagasawa|30,60|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

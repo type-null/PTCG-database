@@ -1,0 +1,77 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-H20",
+    "name": "Lavados",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "H20",
+    "set_total": 182,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 146,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "Feuer-Immunität",
+            "effect": "Du kannst keine -Energiekarten aus deiner Hand an Lavados anlegen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Feuersammeln",
+            "damage": 10,
+            "effect": "Wenn mindestens eine -Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei \"Kopf\" eine davon an Lavados an."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Brennender Schweif",
+            "damage": 60,
+            "effect": "Wirf eine Münze. Lege bei \"Zahl\" eine an Lavados angelegte -Energiekarte auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-H20"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-H20",
+    "card_key": "146|80|2|Kouki Saitou|10,60|1,4",
+    "types_en": [
+        "Fire"
+    ]
+}

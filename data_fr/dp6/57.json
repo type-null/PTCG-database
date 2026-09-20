@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-57",
+    "name": "Demolosse",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "57",
+    "set_total": 146,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 229,
+    "pokemon_category": "",
+    "flavor_text": "Jadis, les gens prenaient son étrange hurlement pour l'appel de la Faucheuse.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Feu"
+    ],
+    "abilities": [
+        {
+            "name": "Croc vengeur",
+            "effect": "Si vous possédez moins de Pokémon de Banc que votre adversaire, chacune des attaques de Demolosse inflige 40 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Sensation brûlante",
+            "damage": 20,
+            "effect": "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, il est maintenant Brûlé."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu"
+            ],
+            "name": "Flamme éclatante",
+            "damage": 60,
+            "effect": "Lancez une pièce. Si c'est pile, défaussez 2 Énergies Fire attachées à Demolosse."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+20"
+    },
+    "retreat": 1,
+    "evolve_from": "Hunduster",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-57"
+        }
+    ],
+    "print_key": "tcgdex:dp6-57",
+    "card_key": "229|80|1|Kouki Saitou|20,60|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

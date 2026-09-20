@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh12-098",
+    "name": "Resladero",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh12/098/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh12",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12/symbol",
+    "set_full_name": "Silberne Sturmwinde",
+    "series": "Schwert & Schild",
+    "set_code": "swsh12",
+    "date": "2022-11-11",
+    "number": "098",
+    "set_total": 215,
+    "rarity": "Häufig",
+    "author": [
+        "Teeziro"
+    ],
+    "pokedex_number": 701,
+    "pokemon_category": "",
+    "flavor_text": "Durch flinke Angriffsmanöver raubt es seinen Gegnern ihre Kraft, um sie dann mit prachtvollen Spezialtechniken niederzuringen.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Verlockung",
+            "damage": null,
+            "effect": "Ziehe 2 Karten."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Akrobatik",
+            "damage": "30+",
+            "effect": "Wirf 2 Münzen. Diese Attacke fügt 20 Schadenspunkte mehr pro Kopf zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh12-098"
+        }
+    ],
+    "print_key": "tcgdex:swsh12-98",
+    "card_key": "701|80|1|Teeziro|None,30+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

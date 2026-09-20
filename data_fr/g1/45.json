@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/g1-45",
+    "name": "Grolem",
+    "img": "https://assets.tcgdex.net/fr/xy/g1/45/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Générations",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "45",
+    "set_total": 117,
+    "rarity": "Rare",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 76,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 150,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Lame de Roc",
+            "damage": "60+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Explosion",
+            "damage": 150,
+            "effect": "Ce Pokémon s'inflige 100 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Gravalanch",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/g1-45"
+        }
+    ],
+    "print_key": "tcgdex:g1-45",
+    "card_key": "76|150|3|Hasuno|60+,150|3,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

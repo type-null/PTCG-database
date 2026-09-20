@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/30th-c-016",
+    "name": "Rayquaza EX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "30th-c",
+    "set_full_name": "30 Jahre: Klassische Sammlung",
+    "series": "Mega-Entwicklung",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "016",
+    "set_total": 30,
+    "rarity": "Keine",
+    "author": [
+        "Eske Yoshinob"
+    ],
+    "stage": "Basis",
+    "hp": 170,
+    "types": [
+        "Drache"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Himmelsgrollen",
+            "damage": null,
+            "effect": "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel. Wenn darunter Energiekarten sind, lege sie an dieses Pokémon an."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Elektro"
+            ],
+            "name": "Drachensalve",
+            "damage": "60×",
+            "effect": "Lege alle an dieses Pokémon angelegten <span class=\"energy-symbol Fire\" title=\"Feuer\">Fire</span>-Basis-Energien oder <span class=\"energy-symbol Lightning\" title=\"Elektro\">Lightning</span>-Basis-Energien auf deinen Ablagestapel. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl abgelegter Energiekarten zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Drache"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/30th-c-016"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-16",
+    "card_key": "384|170|1|Eske Yoshinob|None,60x|1,2",
+    "types_en": [
+        "Dragon"
+    ]
+}

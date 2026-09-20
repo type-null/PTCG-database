@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss1-45",
+    "name": "Mantax",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss1/45/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss1",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss1/symbol",
+    "set_full_name": "HeartGold SoulSilver",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss1",
+    "date": "2010-02-10",
+    "number": "45",
+    "set_total": 124,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 226,
+    "pokemon_category": "",
+    "flavor_text": "Da es so majestätisch schwimmt, schert es sich nicht um REMORAID, das seine Essensreste vertilgt.",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Schwimmgruppe",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 {W}-Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Aquaschlag",
+            "damage": 40,
+            "effect": "Mantax kann während deines nächsten Zuges nicht angreifen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss1-45"
+        }
+    ],
+    "print_key": "tcgdex:hgss1-45",
+    "card_key": "226|80|1|Naoyo Kimura|None,40|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

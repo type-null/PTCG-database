@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-19",
+    "name": "Banette",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "19",
+    "set_total": 133,
+    "rarity": "Selten",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 354,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Ausraster",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du beliebig viele Karten von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, lege die gleiche Anzahl Schadensmarken auf Banette. Diese Poké-Power kann nicht benutzt werden, wenn Banette von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Finsterer Tausch",
+            "damage": null,
+            "effect": "Lege 1 an Banette angelegte Energiekarte auf deinen Ablagestapel und tausche danach alle Schadensmarken, die auf Banette liegen, mit den Schadensmarken auf dem Verteidigenden Pokémon aus. (Wenn ein Effekt dieses Angriffs verhindert wird, hat dieser Angriff keine Auswirkungen.)"
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Vereinsamung",
+            "damage": "30+",
+            "effect": "Du kannst deinem Gegner deine Handkarten zeigen. Wenn du das machst und sich keine Pokémon-Karten darunter befinden, fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Shuppet",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-19"
+        }
+    ],
+    "print_key": "tcgdex:pl1-19",
+    "card_key": "354|90|1|Tomokazu Komiya|None,30+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-30",
+    "name": "Garados G",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "SP"
+    ],
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "30",
+    "set_total": 133,
+    "rarity": "Selten",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Drehen und Winden",
+            "damage": null,
+            "effect": "Wirf für jedes Pokémon deines Gegners jeweils 1 Münze. Dieser Angriff fügt jedem Pokémon, für das auf diese Weise „Kopf“ geworfen wurde, 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Schwindende Welle",
+            "damage": "100-",
+            "effect": "Dieser Angriff fügt 100 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf Garados G zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-30"
+        }
+    ],
+    "print_key": "tcgdex:pl1-30",
+    "card_key": "130|110|3|Kent Kanetsuna|None,100-|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

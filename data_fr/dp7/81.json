@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-81",
+    "name": "Voltorbe",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "81",
+    "set_total": 106,
+    "rarity": "Commune",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 100,
+    "pokemon_category": "",
+    "flavor_text": "Il ressemble à une Poké Ball. Ce Pokémon dangereux peut exploser ou s'électrifier au toucher.",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Exutoire",
+            "damage": null,
+            "effect": "Choisissez dans votre deck une carte Énergie Lightning, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
+        },
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Balle rebondissante",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est pile, Voltorbe s'inflige 10 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Voltorbe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-81"
+        }
+    ],
+    "print_key": "tcgdex:dp7-81",
+    "card_key": "100|60|1|Miki Tanaka|None,20|1,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

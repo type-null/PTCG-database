@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo3-36",
+    "name": "Keifel",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "36",
+    "set_total": 66,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 221,
+    "pokemon_category": "",
+    "flavor_text": "Wenn es auf einen Feind losstürmt, stehen die Haare auf seinem Rücken steil ab. Es ist sehr geräuschempfindlich.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Nickerchen",
+            "damage": null,
+            "effect": "Entferne 3 Schadensmarken von Keifel. Falls es weniger Schadensmarken hat, entferne sie alle."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Sturmangriff",
+            "damage": 80,
+            "effect": "Keifel fügt sich selber 30 Schadenspunkte zu. Keifel kann diesen Angriff während deines nächsten Zuges nicht verwenden."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Quiekel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo3-36"
+        }
+    ],
+    "print_key": "tcgdex:neo3-36",
+    "card_key": "221|90|3|Atsuko Nishida|None,80|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

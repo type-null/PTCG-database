@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv08-015",
+    "name": "Chongjian",
+    "img": "https://assets.tcgdex.net/de/sv/sv08/015/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "H",
+    "set_name": "sv08",
+    "set_full_name": "Stürmische Funken",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv08",
+    "date": "2024-11-08",
+    "number": "015",
+    "set_total": 252,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "danciao"
+    ],
+    "pokedex_number": 1001,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Gefährliche Gier",
+            "damage": 20,
+            "effect": "Wenn 3 oder weniger Karten in deinem Deck sind, fügt diese Attacke auch 2 Pokémon auf der Bank deines Gegners 120 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Verfängliche Peitsche",
+            "damage": 130,
+            "effect": "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv08-015"
+        }
+    ],
+    "print_key": "tcgdex:sv08-15",
+    "card_key": "1001|130|3|danciao|20,130|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

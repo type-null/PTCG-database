@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo2-37",
+    "name": "Corayon",
+    "img": "https://assets.tcgdex.net/fr/neo/neo2/37/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Discovery",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "37",
+    "set_total": 75,
+    "rarity": "Peu Commune",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 222,
+    "pokemon_category": "",
+    "flavor_text": "Il ne cesse de grandir et de changer de peau. La pointe de sa tête est très recherchée à cause de sa beauté.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Soin",
+            "damage": null,
+            "effect": "Défaussez 1 carte Énergie  attachée à Corayon pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Corayon."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Picanon",
+            "damage": "30x",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo2-37"
+        }
+    ],
+    "print_key": "tcgdex:neo2-37",
+    "card_key": "222|50|1|Yuka Morii|None,30x|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

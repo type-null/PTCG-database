@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy1-46",
+    "name": "Emolga EX",
+    "img": "https://assets.tcgdex.net/de/xy/xy1/46/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "xy1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy1/symbol",
+    "set_full_name": "XY",
+    "series": "XY",
+    "set_code": "xy1",
+    "date": "2014-02-05",
+    "number": "46",
+    "set_total": 146,
+    "rarity": "Ultra Selten",
+    "author": [
+        "Eske Yoshinob"
+    ],
+    "pokedex_number": 587,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Energiefluss",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 {L}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck. Falls du auf diese Weise Energie angelegt hast, tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zerquetschende Elektronen",
+            "damage": "60+",
+            "effect": "Du kannst 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 30 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy1-46"
+        }
+    ],
+    "print_key": "tcgdex:xy1-46",
+    "card_key": "587|110|0|Eske Yoshinob|None,60+|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

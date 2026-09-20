@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy1-90",
+    "name": "Grodoudou",
+    "img": "https://assets.tcgdex.net/fr/xy/xy1/90/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy1/symbol",
+    "set_full_name": "XY",
+    "series": "XY",
+    "set_code": "xy1",
+    "date": "2014-02-05",
+    "number": "90",
+    "set_total": 146,
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 40,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Fée"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Barrage de Ballons",
+            "damage": "20×",
+            "effect": "Cette attaque inflige 20 dégâts multipliés par le nombre d'Énergies attachées à ce Pokémon."
+        },
+        {
+            "cost": [
+                "Fée",
+                "Fée",
+                "Incolore"
+            ],
+            "name": "Damoclès",
+            "damage": 90,
+            "effect": "Ce Pokémon s'inflige 10 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Métal"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Rondoudou",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy1-90"
+        }
+    ],
+    "print_key": "tcgdex:xy1-90",
+    "card_key": "40|100|2|Kagemaru Himeno|20x,90|1,3",
+    "types_en": [
+        "Fairy"
+    ]
+}

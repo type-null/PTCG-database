@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-7",
+    "name": "Papungha",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "7",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 189,
+    "pokemon_category": "",
+    "flavor_text": "Sobald es den Wind fängt, steuert es geschickt seine Sporen, um so weit wie möglich zu schweben.",
+    "stage": "Rang 2",
+    "hp": 70,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Schlafpuder",
+            "damage": 20,
+            "effect": "Das verteidigende Pokémon schläft jetzt."
+        },
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Egelsamen",
+            "damage": 20,
+            "effect": "Falls dieser Angriff dem verteidigenden Pokémon Schadenspunkte zufügt (nachdem Schwäche und Resistenz verrechnet wurden), entferne eine Schadensmarke von Papungha, falls es mindestens eine hat."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "evolve_from": "Hubelupf",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-7"
+        }
+    ],
+    "print_key": "tcgdex:neo1-7",
+    "card_key": "189|70|None|Atsuko Nishida|20,20|1,1",
+    "types_en": [
+        "Grass"
+    ]
+}

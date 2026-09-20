@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp3-30",
+    "name": "Rossana",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Rätselhafte Wunder",
+    "series": "Diamant & Perl",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "30",
+    "set_total": 132,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 124,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Frostiger Kuss",
+            "damage": 30,
+            "effect": "Wenn Rossana im letzten Zug deines Gegners durch einen Angriff Schaden zugefügt wurde, ist das Verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Todeskuss",
+            "damage": null,
+            "effect": "Entferne 2 Schadensmarken von Rossana und lege sie auf das Verteidigende Pokémon. Wenn Kussilla sich an beliebiger Stelle unter Rossana befindet, entferne stattdessen 4 Schadensmarken und lege sie auf das Verteidigende Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp3-30"
+        }
+    ],
+    "print_key": "tcgdex:dp3-30",
+    "card_key": "124|70|2|Kagemaru Himeno|30,None|2,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

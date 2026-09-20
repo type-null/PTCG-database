@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv04.5-012",
+    "name": "Camerupt",
+    "img": "https://assets.tcgdex.net/de/sv/sv04.5/012/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv04.5",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv04.5/symbol",
+    "set_full_name": "Paldeas Schicksale",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv04.5",
+    "date": "2024-01-26",
+    "number": "012",
+    "set_total": 245,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "satoma"
+    ],
+    "pokedex_number": 323,
+    "pokemon_category": "",
+    "flavor_text": "Es lebt in Vulkankratern und ist bekannt dafür, dass die Höcker auf seinem Rücken alle zehn Jahre heftig ausbrechen.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Super-Versengung",
+            "damage": null,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Zunderkanone",
+            "damage": "120+",
+            "effect": "Du kannst 1 {F}-Energie von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 120 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Camaub",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv04.5-012"
+        }
+    ],
+    "print_key": "tcgdex:sv04.5-12",
+    "card_key": "323|130|3|satoma|None,120+|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

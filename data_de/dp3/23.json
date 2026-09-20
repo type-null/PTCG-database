@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp3-23",
+    "name": "Banette",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Rätselhafte Wunder",
+    "series": "Diamant & Perl",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "23",
+    "set_total": 132,
+    "rarity": "Selten",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 354,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Geisterkopf",
+            "damage": null,
+            "effect": "Lege eine beliebige Anzahl Schadensmarken auf Banette. (Du kannst höchstens so viele Schadensmarken auf Banette legen, dass seine verbleibenden KP genau 0 betragen.) Lege die gleiche Anzahl Schadensmarken auf das Verteidigende Pokémon."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Tückischer Schmerz",
+            "damage": "40+",
+            "effect": "Wenn sich mindestens 1 Banette-Karte in deinem Ablagestapel befindet, fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu. danach durchsuche deinen Ablagestapel nach einer Banette-Karte, zeige sie deinem Gegner und mische sie in dein Deck."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp3-23"
+        }
+    ],
+    "print_key": "tcgdex:dp3-23",
+    "card_key": "354|80|1|Kouki Saitou|None,40+|0,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-87",
+    "name": "Enton",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "87",
+    "set_total": 133,
+    "rarity": "Häufig",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 54,
+    "pokemon_category": "",
+    "flavor_text": "Leidet unter stetigem Kopfschmerz, ausgelöst durch seltsame Kräfte, die es aber auch einsetzen kann.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Kopfweh",
+            "damage": null,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ kann dein Gegner in seinem nächsten Zug keine Trainer-, Unterstützer- und Stadion-Karten von seiner Hand spielen."
+        },
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Schlummernde Kräfte",
+            "damage": 30,
+            "effect": "Wirf 1 Münze. Bei „Zahl“ fügt dieser Angriff dem Verteidigenden Pokémon keinen Schaden zu, stattdessen ist Enton jetzt verwirrt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+10"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-87"
+        }
+    ],
+    "print_key": "tcgdex:pl1-87",
+    "card_key": "54|60|2|Tomokazu Komiya|None,30|0,1",
+    "types_en": [
+        "Water"
+    ]
+}

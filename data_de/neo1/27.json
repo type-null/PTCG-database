@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-27",
+    "name": "Ariados",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "27",
+    "set_total": 111,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 168,
+    "pokemon_category": "",
+    "flavor_text": "Es spinnt Fäden nicht nur von hinten, sondern auch aus seinem Maul. Es lässt sich schwer entscheiden, was vorne und hinten ist.",
+    "stage": "Rang 1",
+    "hp": 60,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Spinnennetz",
+            "damage": null,
+            "effect": "Wirf eine Münze. Bei „Kopf“ kann sich das verteidigende Pokémon nicht zurückziehen. (Wenn dieses Pokémon auf die Bank kommt oder sich entwickelt, endet dadurch dieser Effekt.)"
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Giftbiss",
+            "damage": 20,
+            "effect": "Falls dieser Angriff dem verteidigenden Pokémon Schadenspunkte zufügt, ist das verteidigende Pokémon jetzt vergiftet. Entferne Schaden in Höhe der Hälfte dieses Schadens (auf die nächsten 10 aufgerundet) von Ariados. Falls Ariados weniger Schaden hat, entferne allen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Webarak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-27"
+        }
+    ],
+    "print_key": "tcgdex:neo1-27",
+    "card_key": "168|60|1|Ken Sugimori|None,20|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

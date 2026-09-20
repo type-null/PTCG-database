@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-66",
+    "name": "Grahyèna",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "66",
+    "set_total": 146,
+    "rarity": "Peu Commune",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 262,
+    "pokemon_category": "",
+    "flavor_text": "Il traque ses proies en groupe. Il ne désobéira jamais aux ordres d'un bon Dresseur.",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité"
+            ],
+            "name": "Morsure à répétition",
+            "damage": 30,
+            "effect": "Si le Pokémon Défenseur n'est pas un Pokémon Évolué, il ne peut pas attaquer, battre en retraite ou utiliser de Poké-Powers lors du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Harcèlement",
+            "damage": "10x",
+            "effect": "Inflige 10 dégâts multipliés par le nombre de Pokémon que vous avez en jeu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Fiffyen",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-66"
+        }
+    ],
+    "print_key": "tcgdex:dp6-66",
+    "card_key": "262|90|1|Masakazu Fukuda|30,10x|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

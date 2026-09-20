@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm8-22",
+    "name": "Gewaldro GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm8/22/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Echo des Donners",
+    "series": "Sonne & Mond",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "22",
+    "set_total": 236,
+    "rarity": "Ultra Selten",
+    "author": [
+        "Yoshinobu Saito"
+    ],
+    "pokedex_number": 254,
+    "pokemon_category": "",
+    "hp": 230,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Schallschnitt",
+            "damage": 60,
+            "effect": "Lege 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Blätterwirbel",
+            "damage": 130,
+            "effect": "Verschiebe 1 {G}-Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+        },
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Dschungelheilung-GX",
+            "damage": null,
+            "effect": "Heile allen Schaden bei jedem deiner Pokémon, an das mindestens 1 {G}-Energie angelegt ist. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Reptain",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm8-22"
+        }
+    ],
+    "print_key": "tcgdex:sm8-22",
+    "card_key": "254|230|1|Yoshinobu Saito|60,130,None|1,2,1",
+    "types_en": [
+        "Grass"
+    ]
+}

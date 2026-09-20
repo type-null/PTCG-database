@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-1",
+    "name": "Alakazam",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "1",
+    "set_total": 102,
+    "rarity": "Rara",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 65,
+    "pokemon_category": "",
+    "flavor_text": "Il suo cervello è più potente di un supercomputer. Dicono che abbia un quoziente di intelligenza di 5.000. LIV 42 N.65",
+    "stage": "Livello 2",
+    "hp": 80,
+    "types": [
+        "Psico"
+    ],
+    "abilities": [
+        {
+            "name": "Scambio danni",
+            "effect": "Quante volte vuoi durante il tuo turno (prima di attaccare), puoi spostare un segnalino danno da uno dei tuoi Pokémon a un altro, a patto di non mettere K.O. quel Pokémonon. Questo potere non può essere usato se Alakazam è Addormentato, Confuso o Paralizzato."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psico",
+                "Psico",
+                "Psico"
+            ],
+            "name": "Storidiraggio",
+            "damage": 30,
+            "effect": "Lancia una moneta. Se esce testa, il Pokémon Difensore è Confuso."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Kadabra",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-1"
+        }
+    ],
+    "print_key": "tcgdex:base1-1",
+    "card_key": "65|80|3|Ken Sugimori|30|3",
+    "types_en": [
+        "Psychic"
+    ]
+}

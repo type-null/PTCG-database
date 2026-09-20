@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy6-48",
+    "name": "Clavion",
+    "img": "https://assets.tcgdex.net/de/xy/xy6/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy6",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy6/symbol",
+    "set_full_name": "Drachenleuchten",
+    "series": "XY",
+    "set_code": "xy6",
+    "date": "2015-05-06",
+    "number": "48",
+    "set_total": 112,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 707,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Fee"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fee"
+            ],
+            "name": "Schlüsselsuche",
+            "damage": null,
+            "effect": "Decke solang Karten von deinem Deck auf, bis du eine Itemkarte aufdeckst. Nimm sie auf deine Hand. Mische die anderen Karten zurück in dein Deck."
+        },
+        {
+            "cost": [
+                "Fee",
+                "Farblos"
+            ],
+            "name": "Knuddler",
+            "damage": "20+",
+            "effect": "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy6-48"
+        }
+    ],
+    "print_key": "tcgdex:xy6-48",
+    "card_key": "707|60|1|Kagemaru Himeno|None,20+|1,2",
+    "types_en": [
+        "Fairy"
+    ]
+}

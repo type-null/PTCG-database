@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy8-56",
+    "name": "Flunschlik",
+    "img": "https://assets.tcgdex.net/de/xy/xy8/56/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy8",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy8/symbol",
+    "set_full_name": "TURBOstart",
+    "series": "XY",
+    "set_code": "xy8",
+    "date": "2015-11-04",
+    "number": "56",
+    "set_total": 165,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 618,
+    "pokemon_category": "",
+    "flavor_text": "Es vergräbt sich im Morast am Meeresboden. Wird es von seiner Beute gestreift, lähmt es sie mit Strom.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Vergeltung",
+            "damage": "20+",
+            "effect": "Falls eins deiner Pokémon während des letzten Zuges deines Gegners durch Schaden eines gegnerischen Angriffs kampfunfähig gemacht wurde, fügt dieser Angriff 80 weitere Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Donnerkeil",
+            "damage": 80,
+            "effect": "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy8-56"
+        }
+    ],
+    "print_key": "tcgdex:xy8-56",
+    "card_key": "618|110|3|Naoki Saito|20+,80|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

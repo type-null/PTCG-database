@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base5-35",
+    "name": "Pyroli obscur",
+    "img": "https://assets.tcgdex.net/fr/base/base5/35/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Base",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "35",
+    "set_total": 83,
+    "rarity": "Peu Commune",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 136,
+    "pokemon_category": "",
+    "flavor_text": "Ce Pokémon a le sang chaud et devient incontrôlable lorsqu'il s'emporte. Il peut cracher des flammes de plus de 3000°.",
+    "stage": "Niveau 1",
+    "hp": 50,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Rage",
+            "damage": "10+",
+            "effect": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque compteur de dégâts sur Pyroli obscur."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu"
+            ],
+            "name": "Jouer avec le feu",
+            "damage": "30+",
+            "effect": "N'utilisez cette attaque que si des cartes Énergie  sont attachées à Pyroli obscur. Lancez une pièce. Si c'est face, défaussez une de ces cartes Énergie et cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 30 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Évoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base5-35"
+        }
+    ],
+    "print_key": "tcgdex:base5-35",
+    "card_key": "136|50|1|Mitsuhiro Arita|10+,30+|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

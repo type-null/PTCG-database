@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw8-72",
+    "name": "Donphan",
+    "img": "https://assets.tcgdex.net/fr/bw/bw8/72/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw8",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw8/symbol",
+    "set_full_name": "Tempète Plasma",
+    "series": "Noir & Blanc",
+    "set_code": "bw8",
+    "date": "2013-02-06",
+    "number": "72",
+    "set_total": 138,
+    "rarity": "Peu Commune",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 232,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 130,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Volte-Face",
+            "damage": 40,
+            "effect": "Échangez ce Pokémon avec 1 de vos Pokémon de Banc."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Anéantissement",
+            "damage": 80,
+            "effect": "S'il y a une carte Stade en jeu, cette attaque inflige 60 dégâts supplémentaires. Défaussez la carte Stade."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Phanpy",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw8-72"
+        }
+    ],
+    "print_key": "tcgdex:bw8-72",
+    "card_key": "232|130|4|Shin Nagasawa|40,80|1,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

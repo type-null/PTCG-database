@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh2-64",
+    "name": "Iguolta",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh2/64/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Clash des Rebelles",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "64",
+    "set_total": 209,
+    "rarity": "Peu Commune",
+    "author": [
+        "SATOSHI NAKAI"
+    ],
+    "pokedex_number": 695,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Ondes Étranges",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, défaussez une Énergie de l'un des Pokémon de votre adversaire."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Fatal-Foudre",
+            "damage": 120,
+            "effect": "Ce Pokémon s'inflige aussi 30 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Galvaran",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh2-64"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-64",
+    "card_key": "695|110|1|SATOSHI NAKAI|None,120|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw6-61",
+    "name": "Ossatueur",
+    "img": "https://assets.tcgdex.net/fr/bw/bw6/61/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw6",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw6/symbol",
+    "set_full_name": "Dragons Éxaltés",
+    "series": "Noir & Blanc",
+    "set_code": "bw6",
+    "date": "2012-08-15",
+    "number": "61",
+    "set_total": 128,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 105,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Piège Osseux",
+            "damage": 30,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coupe-Tourbillon",
+            "damage": 60,
+            "effect": "Si le Pokémon Défenseur a une Résistance, cette attaque inflige 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Osselait",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw6-61"
+        }
+    ],
+    "print_key": "tcgdex:bw6-61",
+    "card_key": "105|100|1|Kouki Saitou|30,60|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

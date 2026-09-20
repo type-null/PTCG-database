@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pop1-13",
+    "name": "Posipi",
+    "img": "https://assets.tcgdex.net/fr/pop/pop1/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pop1",
+    "set_img": "https://assets.tcgdex.net/univ/pop/pop1/symbol",
+    "set_full_name": "POP Série 1",
+    "series": "POP",
+    "set_code": "pop1",
+    "date": "2004-09-01",
+    "number": "13",
+    "set_total": 17,
+    "rarity": "Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 311,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Vive-attaque",
+            "damage": "10+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Hâte",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Posipi lors du prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": null
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pop1-13"
+        }
+    ],
+    "print_key": "tcgdex:pop1-13",
+    "card_key": "311|50|1|Ken Sugimori|10+,20|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

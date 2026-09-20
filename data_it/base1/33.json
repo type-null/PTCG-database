@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/base1-33",
+    "name": "Kakuna",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "base1",
+    "set_full_name": "Set Base",
+    "series": "Originale",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "33",
+    "set_total": 102,
+    "rarity": "Non comune",
+    "author": [
+        "Keiji Kinebuchi"
+    ],
+    "pokedex_number": 14,
+    "pokemon_category": "",
+    "flavor_text": "Dato che non ha molta libertà di movimento, questo Pokémon può proteggersi contro i predatori solo indurendo la sua corazza. LIV 23 N.14",
+    "stage": "Livello 1",
+    "hp": 80,
+    "types": [
+        "Erba"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Indurimento",
+            "damage": null,
+            "effect": "Lancia una moneta. Se esce testa, previeni tutti i danni inflitti a Kakuna durante il prossimo turno del tuo avversario. (Tutti gli altri effetti degli attacchi restano validi.)"
+        },
+        {
+            "cost": [
+                "Erba",
+                "Erba"
+            ],
+            "name": "Velenpolvere",
+            "damage": 20,
+            "effect": "Lancia una moneta. Se esce testa, il Pokémon Difensore è Avvelenato."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuoco"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Weedle",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/base1-33"
+        }
+    ],
+    "print_key": "tcgdex:base1-33",
+    "card_key": "14|80|2|Keiji Kinebuchi|None,20|2,2",
+    "types_en": [
+        "Grass"
+    ]
+}

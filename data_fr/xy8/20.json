@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy8-20",
+    "name": "Typhlosion",
+    "img": "https://assets.tcgdex.net/fr/xy/xy8/20/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy8",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy8/symbol",
+    "set_full_name": "Impulsion Turbo",
+    "series": "XY",
+    "set_code": "xy8",
+    "date": "2015-11-04",
+    "number": "20",
+    "set_total": 165,
+    "rarity": "Rare",
+    "author": [
+        "Megumi Mizutani"
+    ],
+    "pokedex_number": 157,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 150,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu"
+            ],
+            "name": "Éruption Massive",
+            "damage": "80×",
+            "effect": "Défaussez les 5 cartes du dessus de votre deck. Cette attaque inflige 80 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Éclatodestruction",
+            "damage": 130,
+            "effect": "Défaussez une Énergie attachée à ce Pokémon. Ensuite, défaussez une Énergie attachée au Pokémon Actif de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Feurisson",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy8-20"
+        }
+    ],
+    "print_key": "tcgdex:xy8-20",
+    "card_key": "157|150|3|Megumi Mizutani|80x,130|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

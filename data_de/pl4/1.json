@@ -1,0 +1,77 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl4-1",
+    "name": "Glurak",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl4",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl4/symbol",
+    "set_full_name": "Arceus",
+    "series": "Platin",
+    "set_code": "pl4",
+    "date": "2009-11-04",
+    "number": "1",
+    "set_total": 111,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "Feuerformation",
+            "effect": "Jeder Angriff von Glurak fügt den Aktiven Pokémon deines Gegners für jedes {R}-Pokémon auf deiner Bank 10 zusätzliche Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Feuerflügel",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Brennender Schweif",
+            "damage": 80,
+            "effect": "Lege 1 {R}-Energie, die an Glurak angelegt ist, auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Glutexo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl4-1"
+        }
+    ],
+    "print_key": "tcgdex:pl4-1",
+    "card_key": "6|140|3|Kagemaru Himeno|30,80|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

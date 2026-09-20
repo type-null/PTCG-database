@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/me04-026",
+    "name": "Tectass",
+    "img": "https://assets.tcgdex.net/de/me/me04/026/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "J",
+    "set_name": "me04",
+    "set_img": "https://assets.tcgdex.net/univ/me/me04/symbol",
+    "set_full_name": "Wachsendes Chaos",
+    "series": "Mega-Entwicklung",
+    "set_code": "me04",
+    "date": "2026-05-22",
+    "number": "026",
+    "set_total": 122,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Takeshi Nakamura"
+    ],
+    "pokedex_number": 768,
+    "pokemon_category": "",
+    "flavor_text": "Es schreckt vor nichts zurück, um zu gewinnen. Sieht es eine Chance, schlägt es zu und gibt dem Opfer mit seinen Klauen schließlich den Rest.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Kritischer Schlitzer",
+            "damage": 30,
+            "effect": "Wenn das Pokémon deines Gegners durch Schaden dieser Attacke kampfunfähig wird, verhindere während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Unbegrenzte Kraft",
+            "damage": 150,
+            "effect": "Während deines nächsten Zuges kann dieses Pokémon keine Attacken einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Reißlaus",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/me04-026"
+        }
+    ],
+    "print_key": "tcgdex:me04-26",
+    "card_key": "768|140|2|Takeshi Nakamura|30,150|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

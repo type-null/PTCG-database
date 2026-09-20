@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw4-7",
+    "name": "Vegichita",
+    "img": "https://assets.tcgdex.net/de/bw/bw4/7/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw4",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw4/symbol",
+    "set_full_name": "Kommende Schicksale",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw4",
+    "date": "2012-02-08",
+    "number": "7",
+    "set_total": 103,
+    "rarity": "Selten",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 512,
+    "pokemon_category": "",
+    "flavor_text": "Ein hitziger Geselle, der im Kampf seinen dornigen Schweif umherschwingt. Auf seinem Kopf wachsen bittere Kräuter.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Sammeln",
+            "damage": null,
+            "effect": "Ziehe 3 Karten."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Stadionsauger",
+            "damage": 30,
+            "effect": "Wenn eine Stadionkarte im Spiel ist, füge mit diesem Angriff 30 weitere Schadenspunkte zu und heile 30 Schadenspunkte bei diesem Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Vegimak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw4-7"
+        }
+    ],
+    "print_key": "tcgdex:bw4-7",
+    "card_key": "512|90|2|kawayoo|None,30|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

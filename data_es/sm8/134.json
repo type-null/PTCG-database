@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm8-134",
+    "name": "Wigglytuff",
+    "img": "https://assets.tcgdex.net/es/sm/sm8/134/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Truenos Perdidos",
+    "series": "Sol y Luna",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "134",
+    "set_total": 236,
+    "rarity": "Rara",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 40,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 120,
+    "types": [
+        "Hada"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Expandir",
+            "damage": 30,
+            "effect": "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia)."
+        },
+        {
+            "cost": [
+                "Hada",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Bofetada Encantada",
+            "damage": "70+",
+            "effect": "Si este Pokémon tiene 1 carta de Herramienta Pokémon que tenga \"Amuleto Hada\" en su nombre unida a él, este ataque hace 70 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metálica"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Oscura"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm8-134"
+        }
+    ],
+    "print_key": "tcgdex:sm8-134",
+    "card_key": "40|120|2|nagimiso|30,70+|2,3",
+    "types_en": [
+        "Fairy"
+    ]
+}

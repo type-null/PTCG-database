@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm3-52",
+    "name": "Dusclops",
+    "img": "https://assets.tcgdex.net/es/sm/sm3/52/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Sombras Ardientes",
+    "series": "Sol y Luna",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "52",
+    "set_total": 169,
+    "rarity": "Uncommon",
+    "author": [
+        "SATOSHI NAKAI"
+    ],
+    "pokedex_number": 356,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 90,
+    "types": [
+        "Psíquico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psíquico"
+            ],
+            "name": "Deambular en la Noche",
+            "damage": null,
+            "effect": "Pon 1 contador de daño en cada Pokémon (tanto tuyos como de tu rival)."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Emboscada",
+            "damage": "30+",
+            "effect": "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscura"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm3-52"
+        }
+    ],
+    "print_key": "tcgdex:sm3-52",
+    "card_key": "356|90|3|SATOSHI NAKAI|None,30+|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

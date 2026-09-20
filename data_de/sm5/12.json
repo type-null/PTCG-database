@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm5-12",
+    "name": "Venuflibis",
+    "img": "https://assets.tcgdex.net/de/sm/sm5/12/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm5",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm5/symbol",
+    "set_full_name": "Ultra-Prisma",
+    "series": "Sonne & Mond",
+    "set_code": "sm5",
+    "date": "2018-02-02",
+    "number": "12",
+    "set_total": 173,
+    "rarity": "Häufig",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 455,
+    "pokemon_category": "",
+    "flavor_text": "Klammert sich an Bäume in Sümpfen. Lockt Beute mit seinem süßlichen Speichel an und schluckt sie dann.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Mampfen",
+            "damage": 20,
+            "effect": "Heile 20 Schadenspunkte bei diesem Pokémon."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Schattenseite",
+            "damage": "90-",
+            "effect": "Diese Attacke fügt 10 Schadenspunkte weniger mal der Anzahl der Schadensmarken auf diesem Pokémon zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm5-12"
+        }
+    ],
+    "print_key": "tcgdex:sm5-12",
+    "card_key": "455|90|1|Anesaki Dynamic|20,90-|2,2",
+    "types_en": [
+        "Grass"
+    ]
+}

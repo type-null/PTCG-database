@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo3-30",
+    "name": "Gravalanch",
+    "img": "https://assets.tcgdex.net/fr/neo/neo3/30/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "30",
+    "set_total": 66,
+    "rarity": "Peu Commune",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 75,
+    "pokemon_category": "",
+    "flavor_text": "De nature libre et peu souciante, il se moque de perdre des fragments de pierre en roulant sur les pentes des montagnes.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Séisme",
+            "damage": 40,
+            "effect": "Inflige 10 dégâts à chacun des Pokémon de votre propre Banc. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon sur le Banc.)"
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Combat"
+            ],
+            "name": "Roule-pierre",
+            "damage": 50,
+            "effect": "N'appliquez pas la Résistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Racaillou",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo3-30"
+        }
+    ],
+    "print_key": "tcgdex:neo3-30",
+    "card_key": "75|70|2|Yukiko Baba|40,50|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

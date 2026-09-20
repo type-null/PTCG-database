@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw9-63",
+    "name": "Hariyama",
+    "img": "https://assets.tcgdex.net/fr/bw/bw9/63/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw9",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw9/symbol",
+    "set_full_name": "Glaciation Plasma",
+    "series": "Noir & Blanc",
+    "set_code": "bw9",
+    "date": "2013-05-08",
+    "number": "63",
+    "set_total": 122,
+    "rarity": "Rare",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 297,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Bluff",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Lancer Tournant",
+            "damage": 90,
+            "effect": "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont augmentés de 20 (après application de la Faiblesse et de la Résistance)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Makuhita",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw9-63"
+        }
+    ],
+    "print_key": "tcgdex:bw9-63",
+    "card_key": "297|120|3|Kouki Saitou|30,90|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

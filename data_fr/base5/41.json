@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/base5-41",
+    "name": "Grotadmorv obscur",
+    "img": "https://assets.tcgdex.net/fr/base/base5/41/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Base",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "41",
+    "set_total": 83,
+    "rarity": "Peu Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 89,
+    "pokemon_category": "",
+    "flavor_text": "Les Grotadmorv apparaissent sans prévenir, répandant de la gadoue partout. À chaque fois qu'ils apparaissent dans une cité, la panique s'ensuit.",
+    "stage": "Niveau 1",
+    "hp": 60,
+    "types": [
+        "Plante"
+    ],
+    "abilities": [
+        {
+            "name": "Boue collante",
+            "effect": "Tant que Grotadmorv obscur est votre Pokémon Actif, votre adversaire paye  supplémentaires pour faire battre en retraite son Pokémon Actif. Ce pouvoir cesse de fonctionner quand Grotadmorv obscur est Endormi, Confus ou Paralysé."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Plante"
+            ],
+            "name": "Point gadoue",
+            "damage": 20,
+            "effect": "Le Pokémon Défenseur est maintenant Empoisonné."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Tadmorv",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/base5-41"
+        }
+    ],
+    "print_key": "tcgdex:base5-41",
+    "card_key": "89|60|2|Kagemaru Himeno|20|2",
+    "types_en": [
+        "Grass"
+    ]
+}

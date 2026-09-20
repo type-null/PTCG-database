@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/hgss1-18",
+    "name": "Noadkoko",
+    "img": "https://assets.tcgdex.net/fr/hgss/hgss1/18/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "hgss1",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss1/symbol",
+    "set_full_name": "HeartGold SoulSilver",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss1",
+    "date": "2010-02-10",
+    "number": "18",
+    "set_total": 124,
+    "rarity": "Rare",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 103,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Absorption d’énergie",
+            "damage": null,
+            "effect": "Cherchez dans votre pile de défausse jusqu’à deux cartes Énergie et attachez-les à Noadkoko."
+        },
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Grosse éclate",
+            "damage": "40×",
+            "effect": "Lancez une pièce pour chaque carte Énergie attachée à Noadkoko. Cette attaque inflige 40 dégâts multipliés par le nombre de faces."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Noeunoeuf",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/hgss1-18"
+        }
+    ],
+    "print_key": "tcgdex:hgss1-18",
+    "card_key": "103|90|2|Miki Tanaka|None,40x|1,1",
+    "types_en": [
+        "Psychic"
+    ]
+}

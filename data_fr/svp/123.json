@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/svp-123",
+    "name": "Ogerpon Masque Turquoise",
+    "img": "https://assets.tcgdex.net/fr/sv/svp/123/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "H",
+    "set_name": "svp",
+    "set_full_name": "SVP Black Star Promos",
+    "series": "Écarlate et Violet",
+    "set_code": "svp",
+    "date": "2023-03-31",
+    "number": "123",
+    "set_total": 225,
+    "rarity": "Promo",
+    "author": [
+        "kodama"
+    ],
+    "pokedex_number": 1017,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 110,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Promenade en Montagne",
+            "damage": null,
+            "effect": "Cherchez dans votre deck jusqu'à 2 cartes Énergie de base, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Retour du Monstre",
+            "damage": "20+",
+            "effect": "Cette attaque inflige 20 dégâts supplémentaires pour chacun des Pokémon de Banc de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/svp-123"
+        }
+    ],
+    "print_key": "tcgdex:svp-123",
+    "card_key": "1017|110|1|kodama|None,20+|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

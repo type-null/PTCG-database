@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-28",
+    "name": "Lorblatt",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "28",
+    "set_total": 111,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 153,
+    "pokemon_category": "",
+    "flavor_text": "Ein würziges Aroma strömt aus seiner Halsgegend. Das Aroma wirkt wie ein Belebungsmittel, um die Gesundheit wiederherzustellen.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Giftpuder",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Pollenschild",
+            "damage": 30,
+            "effect": "Während des nächsten gegnerischen Zugs kann Lorblatt nicht einschlafen oder verwirrt, gelähmt oder vergiftet werden. (Alle anderen Effekte von Angriffen, Pokémon-Power und Trainerkarten finden immer noch statt.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Endivie",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-28"
+        }
+    ],
+    "print_key": "tcgdex:neo1-28",
+    "card_key": "153|70|2|Ken Sugimori|20,30|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

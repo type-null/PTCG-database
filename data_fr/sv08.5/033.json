@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv08.5-033",
+    "name": "Mentali",
+    "img": "https://assets.tcgdex.net/fr/sv/sv08.5/033/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv08.5",
+    "set_full_name": "Évolutions Prismatiques",
+    "series": "Écarlate et Violet",
+    "set_code": "sv08.5",
+    "date": "2025-01-17",
+    "number": "033",
+    "set_total": 180,
+    "rarity": "Rare",
+    "author": [
+        "Kariya"
+    ],
+    "pokedex_number": 196,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 110,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Assaut Psychique",
+            "damage": "30+",
+            "effect": "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Actif de votre adversaire."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Choc Mental",
+            "damage": 60,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Évoli",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv08.5-033"
+        }
+    ],
+    "print_key": "tcgdex:sv08.5-33",
+    "card_key": "196|110|1|Kariya|30+,60|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm7-85",
+    "name": "Rattatac d’Alola GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm7/85/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm7",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm7/symbol",
+    "set_full_name": "Tempête Céleste",
+    "series": "Soleil et Lune",
+    "set_code": "sm7",
+    "date": "2018-08-03",
+    "number": "85",
+    "set_total": 183,
+    "rarity": "Ultra Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 20,
+    "pokemon_category": "",
+    "hp": 200,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Bazarder",
+            "damage": "40×",
+            "effect": "Défaussez jusqu’à 2 cartes de votre main. Cette attaque inflige 40 dégâts pour chaque carte défaussée de cette façon."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Croc de Mort",
+            "damage": 150,
+            "effect": "Lancez une pièce. Si c’est pile, cette attaque ne fait rien."
+        },
+        {
+            "cost": [],
+            "name": "Fou d’Objets GX",
+            "damage": null,
+            "effect": "Cherchez jusqu’à 6 cartes Objet dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Rattata d’Alola",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm7-85"
+        }
+    ],
+    "print_key": "tcgdex:sm7-85",
+    "card_key": "20|200|3|5ban Graphics|40x,150,None|0,3,0",
+    "types_en": [
+        "Darkness"
+    ]
+}

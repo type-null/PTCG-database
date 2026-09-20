@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-35",
+    "name": "Pachirisu",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "35",
+    "set_total": 130,
+    "rarity": "Rare",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 417,
+    "pokemon_category": "",
+    "flavor_text": "Il roule des boules de poils pleines d'électricité statique et les range dans des souches avec des Baies.",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Rendez-vous mineur",
+            "damage": null,
+            "effect": "Choisissez dans votre deck une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
+        },
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Secousse tonnerre",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est pile, Pachirisu s'inflige 10 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-35"
+        }
+    ],
+    "print_key": "tcgdex:dp1-35",
+    "card_key": "417|70|1|Ken Sugimori|None,20|1,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/smp-SM138",
+    "name": "Zekrom GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "Promo SM",
+    "series": "Soleil et Lune",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM138",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 644,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 180,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Uppercut Projeté",
+            "damage": "10+",
+            "effect": "Si le Pokémon Actif de votre adversaire est un Pokémon-GX ou un Pokémon-EX, cette attaque inflige 60 dégâts supplémentaires. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Charge Foudre Fulgurante",
+            "damage": "80+",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 60 dégâts supplémentaires pour chaque côté face."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Éclair Saccageur GX",
+            "damage": 200,
+            "effect": "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/smp-SM138"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM138",
+    "card_key": "644|180|3|5ban Graphics|10+,80+,200|1,4,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

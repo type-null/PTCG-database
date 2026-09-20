@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard2-148",
+    "name": "Hyporoi",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard2/148/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-cards",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "148",
+    "set_total": 186,
+    "rarity": "Rare",
+    "author": [
+        "Mikio Menjo"
+    ],
+    "pokedex_number": 230,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 110,
+    "types": [
+        "Incolore"
+    ],
+    "abilities": [
+        {
+            "name": "Type de cristal",
+            "effect": "À chaque fois que vous attachez une carte Énergie de base {W}, {L}, ou {P} de votre main à Hyporoi, le type de Hyporoi (sa couleur) devient identique au type de carte Énergie jusqu'à la fin du tour."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Électrique"
+            ],
+            "name": "Aquabombe",
+            "damage": 40,
+            "effect": "Hyporoi s'inflige 10 dégâts. (N'appliquez ni la Faiblesse, ni la Résistance quand Hyporoi s'inflige des dégâts avec cette attaque.)"
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Double brûlure",
+            "damage": 60,
+            "effect": "Lancez 2 pièces. Si c'est pile, défaussez-vous d'une carte Énergie attachée à Hyporoi."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "x2"
+    },
+    "retreat": 3,
+    "evolve_from": "Hypocéan",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard2-148"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-148",
+    "card_key": "230|110|3|Mikio Menjo|40,60|3,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

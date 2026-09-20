@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw2-77",
+    "name": "Kobalium",
+    "img": "https://assets.tcgdex.net/de/bw/bw2/77/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw2",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw2/symbol",
+    "set_full_name": "Aufstreben der Mächtigen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw2",
+    "date": "2011-08-31",
+    "number": "77",
+    "set_total": 98,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 638,
+    "pokemon_category": "",
+    "flavor_text": "Ein Legendäres Pokémon, das sich zum Schutz der Pokémon mit den Menschen anlegte. Eine kühle, gelassene Natur.",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Metallhörner",
+            "damage": 30,
+            "effect": "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Sanctoklinge",
+            "damage": 100,
+            "effect": "Dieses Pokémon kann während deines nächsten Zuges Sanctoklinge nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw2-77"
+        }
+    ],
+    "print_key": "tcgdex:bw2-77",
+    "card_key": "638|110|2|5ban Graphics|30,100|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

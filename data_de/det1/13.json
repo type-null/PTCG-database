@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/det1-13",
+    "name": "Machomei",
+    "img": "https://assets.tcgdex.net/de/sm/det1/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "det1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/det1/symbol",
+    "set_full_name": "Meisterdetektiv Pikachu",
+    "series": "Sonne & Mond",
+    "set_code": "det1",
+    "date": "2019-03-29",
+    "number": "13",
+    "set_total": 18,
+    "rarity": "Selten",
+    "author": [
+        "MPC Film"
+    ],
+    "pokedex_number": 68,
+    "pokemon_category": "",
+    "flavor_text": "Es ergreift seinen Gegner mit seinen vier Armen und hält ihn in einem komplizierten Würgegriff. Man nennt dies Machomeis Spezialgriff.",
+    "stage": "Rang 2",
+    "hp": 160,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Verkehrsregelung",
+            "damage": null,
+            "effect": "Schau dir die obersten 5 Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück auf dein Deck."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Kreuzhieb",
+            "damage": "80+",
+            "effect": "Wirf 1 Münze. Bei Kopf fügt diese Attacke 60 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Maschock",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/det1-13"
+        }
+    ],
+    "print_key": "tcgdex:det1-13",
+    "card_key": "68|160|2|MPC Film|None,80+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

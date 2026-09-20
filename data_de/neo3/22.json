@@ -1,0 +1,62 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo3-22",
+    "name": "Raikou",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo3",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo3/symbol",
+    "set_full_name": "Neo Revelation",
+    "series": "Neo",
+    "set_code": "neo3",
+    "date": "2001-09-21",
+    "number": "22",
+    "set_total": 66,
+    "rarity": "Selten",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 243,
+    "pokemon_category": "",
+    "flavor_text": "Ein Pokémon, das durch das Land rennt und dessen Gebell wie rollender Donner klingt.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Legendärer Körper",
+            "effect": "Solange Raikou dein aktives Pokémon ist sind Stadion-Karten die einzigen Trainer-Karten, die Auswirkungen auf Raikou und an es angelegte Energiekarten haben. Solange diese Fähigkeit aktiv ist, lege alle Trainerkarten, die an Raikou angelegt sind, auf den Ablagestapel. (Diese Fähigkeit wirkt selbst dann, wenn Raikou schläft, verwirrt oder gelähmt ist.)"
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Blitzfunke",
+            "damage": 30,
+            "effect": "Falls dein Gegner mindestens ein Pokémon auf der Bank hat, wirf eine Münze. Wähle bei 'Kopf' eines von diesen, und dieser Angriff fügt diesem Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo3-22"
+        }
+    ],
+    "print_key": "tcgdex:neo3-22",
+    "card_key": "243|60|None|Naoyo Kimura|30|3",
+    "types_en": [
+        "Lightning"
+    ]
+}

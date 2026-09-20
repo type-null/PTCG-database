@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy5-40",
+    "name": "Barbicha",
+    "img": "https://assets.tcgdex.net/fr/xy/xy5/40/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy5",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy5/symbol",
+    "set_full_name": "Primo-Choc",
+    "series": "XY",
+    "set_code": "xy5",
+    "date": "2015-02-04",
+    "number": "40",
+    "set_total": 164,
+    "rarity": "Peu Commune",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 340,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Amnésie",
+            "damage": 20,
+            "effect": "Choisissez l'une des attaques du Pokémon Actif de votre adversaire. Ce dernier ne peut pas utiliser l'attaque choisie pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Botte Secrète",
+            "damage": "60+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Barloche",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy5-40"
+        }
+    ],
+    "print_key": "tcgdex:xy5-40",
+    "card_key": "340|100|3|Naoyo Kimura|20,60+|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

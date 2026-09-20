@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy11-53",
+    "name": "Colossinge",
+    "img": "https://assets.tcgdex.net/fr/xy/xy11/53/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Offensive Vapeur",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "53",
+    "set_total": 116,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 57,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Vantardise",
+            "damage": 20,
+            "effect": "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Combat"
+            ],
+            "name": "Lancer Plein d'Esprit",
+            "damage": "30+",
+            "effect": "Si, avant d'infliger des dégâts, il reste plus de PV au Pokémon Actif de votre adversaire qu'à ce Pokémon, cette attaque inflige 60 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Férosinge",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy11-53"
+        }
+    ],
+    "print_key": "tcgdex:xy11-53",
+    "card_key": "57|90|1|Masakazu Fukuda|20,30+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/col1-28",
+    "name": "Traunmagil",
+    "img": "https://assets.tcgdex.net/de/col/col1/28/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "Ruf der Legenden",
+    "series": "Ruf der Legenden",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "28",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Suwama Chiaki"
+    ],
+    "pokedex_number": 429,
+    "pokemon_category": "",
+    "flavor_text": "Sein bizarrer, bannfluchartiger Ruf quält seine Gegner. Es verschwindet so plötzlich, wie es auftaucht.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Schlafzauber",
+            "damage": 30,
+            "effect": "Wirf eine Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Poltergeist",
+            "damage": "30×",
+            "effect": "Schau dir die Handkarten deines Gegners an. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl der Trainer-, Unterstützer- und Stadion-Karten, die du dort gefunden hast, zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Traunfugil",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/col1-28"
+        }
+    ],
+    "print_key": "tcgdex:col1-28",
+    "card_key": "429|80|1|Suwama Chiaki|30,30x|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

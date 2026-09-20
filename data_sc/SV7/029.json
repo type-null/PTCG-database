@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/zh-cn/cards/SV7-029",
+    "name": "電擊魔獸",
+    "img": "",
+    "card_type": "Pokemon",
+    "lang": "sc",
+    "regulation": "H",
+    "set_name": "SV7",
+    "set_full_name": "星晶奇跡",
+    "series": "朱&紫",
+    "set_code": "SV7",
+    "date": "2024-08-02",
+    "number": "029",
+    "set_total": 132,
+    "rarity": "Uncommon",
+    "author": [
+        "chibi"
+    ],
+    "pokedex_number": 466,
+    "pokemon_category": "",
+    "flavor_text": "會用尾巴前端抵住對手， 然後在一瞬間注入 超過２萬伏特的電流。",
+    "stage": "Stage1",
+    "hp": 150,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning"
+            ],
+            "name": "電氣猛擊",
+            "damage": 40,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Lightning"
+            ],
+            "name": "雷電在地",
+            "damage": 220,
+            "effect": "在下個自己的回合，自己的所有寶可夢無法使用招式。（包含新上場的寶可夢。）"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/zh-cn/cards/SV7-029"
+        }
+    ],
+    "print_key": "asia:SV7-29",
+    "card_key": "466|150|3|chibi|40,220|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

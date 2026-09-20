@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-30",
+    "name": "Leviator G",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/30/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "SP"
+    ],
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "30",
+    "set_total": 133,
+    "rarity": "Rare",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 110,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Se tortiller",
+            "damage": null,
+            "effect": "Lancez une pièce pour chaque Pokémon de votre adversaire. Si vous obtenez une face, cette attaque inflige 30 dégâts à ce Pokémon. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Vague diminutrice",
+            "damage": "100-",
+            "effect": "Inflige 100 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Leviator ."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-30"
+        }
+    ],
+    "print_key": "tcgdex:pl1-30",
+    "card_key": "130|110|3|Kent Kanetsuna|None,100-|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

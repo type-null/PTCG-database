@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp7-30",
+    "name": "Tyranocif",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Tempête",
+    "series": "Diamant & Perle",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "30",
+    "set_total": 106,
+    "rarity": "Rare",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 248,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 140,
+    "types": [
+        "Obscurité"
+    ],
+    "abilities": [
+        {
+            "name": "Conducteur obscurité",
+            "effect": "Une fois que le Pokémon de votre adversaire a utilisé un Poké-Power, vous pouvez chercher dans votre pile de défausse une Énergie de base Darkness et l'attacher à Tyranocif."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Écrase",
+            "damage": "20x",
+            "effect": "Inflige 20 dégâts multipliés par le nombre d'Énergies attachées à Tyranocif."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité",
+                "Obscurité",
+                "Obscurité",
+                "Obscurité"
+            ],
+            "name": "Queue tournante",
+            "damage": null,
+            "effect": "Cette attaque inflige 30 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Ymphect",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp7-30"
+        }
+    ],
+    "print_key": "tcgdex:dp7-30",
+    "card_key": "248|140|4|Kagemaru Himeno|20x,None|2,5",
+    "types_en": [
+        "Darkness"
+    ]
+}

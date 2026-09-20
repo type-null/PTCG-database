@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh2-82",
+    "name": "Colossand",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh2/82/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Clash der Rebellen",
+    "series": "Schwert & Schild",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "82",
+    "set_total": 209,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Hasuno"
+    ],
+    "pokedex_number": 770,
+    "pokemon_category": "",
+    "flavor_text": "Ein grauenvolles Pokémon, das seine Feinde in einen Sandsturm einschließt, um sie dann ihrer Lebensenergie zu berauben.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Sandgrube",
+            "damage": null,
+            "effect": "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel. Wenn an dieses Pokémon eine Verfluchte Schaufel angelegt ist, lege 2 Karten mehr vom Deck deines Gegners auf seinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Super-Absorber",
+            "damage": 90,
+            "effect": "Heile 30 Schadenspunkte bei diesem Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 4,
+    "evolve_from": "Sankabuh",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh2-82"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-82",
+    "card_key": "770|140|4|Hasuno|None,90|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm1-71",
+    "name": "Brockoloss",
+    "img": "https://assets.tcgdex.net/de/sm/sm1/71/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Sonne & Mond",
+    "series": "Sonne & Mond",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "71",
+    "set_total": 172,
+    "rarity": "Selten",
+    "author": [
+        "Eske Yoshinob"
+    ],
+    "pokedex_number": 526,
+    "pokemon_category": "",
+    "flavor_text": "Es verfügt über gewaltige Stärke und ist deshalb bei Bauarbeitern sehr beliebt. Diese wählen es oft als Partner-Pokémon.",
+    "stage": "Rang 2",
+    "hp": 160,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Felsartillerie",
+            "damage": "50×",
+            "effect": "Lege beliebig viele {F}-Energien von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Rollende Felsen",
+            "damage": 120,
+            "effect": "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Sedimantur",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm1-71"
+        }
+    ],
+    "print_key": "tcgdex:sm1-71",
+    "card_key": "526|160|4|Eske Yoshinob|50x,120|2,4",
+    "types_en": [
+        "Fighting"
+    ]
+}

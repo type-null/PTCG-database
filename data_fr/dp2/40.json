@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp2-40",
+    "name": "Barbicha",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Trésors Mystérieux",
+    "series": "Diamant & Perle",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "40",
+    "set_total": 124,
+    "rarity": "Rare",
+    "author": [
+        "Daisuke Ito"
+    ],
+    "pokedex_number": 340,
+    "pokemon_category": "",
+    "flavor_text": "Il est attaché à son territoire. Il repousse l'ennemi en provoquant des secousses qui portent à 5 Km.",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Furieux",
+            "damage": "20x",
+            "effect": "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégât sur Barbicha."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Ampleur",
+            "damage": 60,
+            "effect": "Inflige 20 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Barloche",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp2-40"
+        }
+    ],
+    "print_key": "tcgdex:dp2-40",
+    "card_key": "340|90|3|Daisuke Ito|20x,60|3,4",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard2-27",
+    "name": "Parasek",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-Card",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "27",
+    "set_total": 186,
+    "rarity": "Selten",
+    "author": [
+        "Masako Yamashita"
+    ],
+    "pokedex_number": 47,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Schlafeinflößer",
+            "damage": null,
+            "effect": "Wähle 1 der Pokémon auf der Bank deines Gegners und tausche es mit dem Verteidigenden Pokémon. Das neue Verteidigende Pokémon schläft jetzt."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Taumelpollen",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt. Entferne bei „Zahl“ 2 Schadensmarken von Parasek."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "evolve_from": "Paras",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard2-27"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-27",
+    "card_key": "47|70|1|Masako Yamashita|None,20|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

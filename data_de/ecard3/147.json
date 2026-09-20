@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-147",
+    "name": "Iksbat",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "147",
+    "set_total": 182,
+    "rarity": "Selten",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 169,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 80,
+    "types": [
+        "Farblos"
+    ],
+    "abilities": [
+        {
+            "name": "Kristall-Typ",
+            "effect": "Immer wenn du eine -, - oder -Basis-Energiekarte aus deiner Hand an Iksbat anlegst, ändert sich Iksbats Typ (Farbe) bis zum Ende des Zuges zu dem gleichen Typ wie diese Energie."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Giftflamme",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt verbrannt und vergiftet."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Psycho",
+                "Psycho"
+            ],
+            "name": "Vierseiten-Angriff",
+            "damage": "20×",
+            "effect": "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 0,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-147"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-147",
+    "card_key": "169|80|0|Atsuko Nishida|20,20x|3,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

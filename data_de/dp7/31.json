@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-31",
+    "name": "Honweisel",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "31",
+    "set_total": 106,
+    "rarity": "Selten",
+    "author": [
+        "Kent Kanetsuna"
+    ],
+    "pokedex_number": 416,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 100,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Grüne Würde",
+            "effect": "Solange du mehr Preise übrig hast als dein Gegner, fügt jeder Angriff von Honweisel den Aktiven Pokémon für jedes {G}-Pokémon auf deiner Bank 10 zusätzliche Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze"
+            ],
+            "name": "Bienensauger",
+            "damage": 20,
+            "effect": "Entferne nach deinem Angriff Schadensmarken von Honweisel entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon zugefügt wurden."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Bienenstaub",
+            "damage": 50,
+            "effect": "Wirf 2 Münzen. Wenn beide Münzen „Kopf“ gezeigt haben, ist das Verteidigende Pokémon jetzt gelähmt, verbrannt und vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Wadribie",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-31"
+        }
+    ],
+    "print_key": "tcgdex:dp7-31",
+    "card_key": "416|100|1|Kent Kanetsuna|20,50|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

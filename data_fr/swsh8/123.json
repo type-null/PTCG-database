@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh8-123",
+    "name": "Cryptéro",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh8/123/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "E",
+    "set_name": "swsh8",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh8/symbol",
+    "set_full_name": "Poing de Fusion",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh8",
+    "date": "2021-11-12",
+    "number": "123",
+    "set_total": 284,
+    "rarity": "Commune",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 561,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Joute",
+            "damage": 20,
+            "effect": "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Renvoi d'Énergie",
+            "damage": 60,
+            "effect": "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh8-123"
+        }
+    ],
+    "print_key": "tcgdex:swsh8-123",
+    "card_key": "561|100|1|Yukiko Baba|20,60|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

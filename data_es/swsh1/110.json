@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swsh1-110",
+    "name": "Sandaconda",
+    "img": "https://assets.tcgdex.net/es/swsh/swsh1/110/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Espada y Escudo",
+    "series": "Espada y Escudo",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "110",
+    "set_total": 216,
+    "rarity": "Holo Rara",
+    "author": [
+        "nagimiso"
+    ],
+    "pokedex_number": 844,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 130,
+    "types": [
+        "Lucha"
+    ],
+    "abilities": [
+        {
+            "name": "Bolsa de Arena",
+            "effect": "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lucha",
+                "Lucha"
+            ],
+            "name": "Constricción Poderosa",
+            "damage": "60+",
+            "effect": "Si este Pokémon tiene por lo menos 1 Energía Fighting adicional unida a él (además de las del coste de este ataque), este ataque hace 70 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Silicobra",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swsh1-110"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-110",
+    "card_key": "844|130|2|nagimiso|60+|2",
+    "types_en": [
+        "Fighting"
+    ]
+}

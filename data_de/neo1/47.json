@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-47",
+    "name": "Igelavar",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "47",
+    "set_total": 111,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 156,
+    "pokemon_category": "",
+    "flavor_text": "Sei vorsichtig, wenn es sich während des Kampfs umdreht. Das heißt, dass es mit dem Feuer auf seinem Rücken angreifen wird.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Rauchwolke",
+            "damage": 20,
+            "effect": "Falls das verteidigende Pokémon während des nächsten Zuges deines Gegners anzugreifen versucht, wirft dein Gegner eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Zündeln",
+            "damage": 30,
+            "effect": "Falls auf dem verteidigenden Pokémon keine Verbrennungsmarke liegt, wirf eine Münze. Lege bei „Kopf“ eine Verbrennungsmarke auf es. Eine Verbrennungsmarke verpflichtet deinen Gegner, nach jedem Zug eine Münze zu werfen. Lege bei „Zahl“ zwei Schadensmarken auf das Pokémon mit der Verbrennungsmarke. (Verbrennungsmarken bleiben auf dem Pokémon, solange es im Spiel ist.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Feurigel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-47"
+        }
+    ],
+    "print_key": "tcgdex:neo1-47",
+    "card_key": "156|70|1|Ken Sugimori|20,30|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

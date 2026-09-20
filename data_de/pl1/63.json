@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-63",
+    "name": "Schaloko",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "63",
+    "set_total": 133,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kyoko Umemoto"
+    ],
+    "pokedex_number": 266,
+    "pokemon_category": "",
+    "flavor_text": "Es bindet sich mit Seide an Äste und trinkt Regenwasser, während es starr auf seine Entwicklung wartet.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Aufstieg",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach einer Karte, die sich aus Schaloko entwickelt, und lege diese auf Schaloko. (Dies zählt als Entwickeln von Schaloko.) Mische dein Deck danach."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Klebfaden",
+            "damage": 20,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Waumpel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-63"
+        }
+    ],
+    "print_key": "tcgdex:pl1-63",
+    "card_key": "266|80|2|Kyoko Umemoto|None,20|0,2",
+    "types_en": [
+        "Grass"
+    ]
+}

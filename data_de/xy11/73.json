@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy11-73",
+    "name": "Klikdiklak",
+    "img": "https://assets.tcgdex.net/de/xy/xy11/73/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Dampfkessel",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "73",
+    "set_total": 116,
+    "rarity": "Selten",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 601,
+    "pokemon_category": "",
+    "flavor_text": "Der rote Zentralbestandteil dient als Energiespeicher. Darin geladene Energie feuert es über seine Stacheln ab.",
+    "stage": "Rang 2",
+    "hp": 140,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Schwerer Puffer",
+            "effect": "Schaden, der diesem Pokémon durch einen gegnerischen Angriff zugefügt wird, wird um 10 Schadenspunkte für jedes {C}-Symbol in den Rückzugskosten des Aktiven Pokémon deines Gegners reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Radschleuder",
+            "damage": 70,
+            "effect": "Während deines nächsten Zuges fügt die Attacke Radschleuder dieses Pokémon 70 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Kliklak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy11-73"
+        }
+    ],
+    "print_key": "tcgdex:xy11-73",
+    "card_key": "601|140|3|Midori Harada|70|3",
+    "types_en": [
+        "Metal"
+    ]
+}

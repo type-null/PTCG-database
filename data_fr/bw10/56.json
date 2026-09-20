@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw10-56",
+    "name": "Démolosse",
+    "img": "https://assets.tcgdex.net/fr/bw/bw10/56/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw10",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw10/symbol",
+    "set_full_name": "Explosion Plasma",
+    "series": "Noir & Blanc",
+    "set_code": "bw10",
+    "date": "2013-08-14",
+    "number": "56",
+    "set_total": 105,
+    "rarity": "Rare",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 229,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 100,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Pince des Ténèbres",
+            "damage": 30,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Griffes Ardentes",
+            "damage": 60,
+            "effect": "Si le Pokémon Défenseur est un Pokémon de la Team Plasma, cette attaque inflige 60 dégâts supplémentaires et le Pokémon Défenseur est maintenant Brûlé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Malosse",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw10-56"
+        }
+    ],
+    "print_key": "tcgdex:bw10-56",
+    "card_key": "229|100|1|Shin Nagasawa|30,60|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

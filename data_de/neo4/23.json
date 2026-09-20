@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo4-23",
+    "name": "Helles Lanturn",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "23",
+    "set_total": 113,
+    "rarity": "Selten",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 171,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon hat sich so entwickelt, dass seine Rückenflosse Licht ausstrahlt, das Fische anlockt, von denen es sich ernährt.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Scheinwerfer",
+            "damage": null,
+            "effect": "Wirf eine Münze. Bei „Kopf“ darf jeder Spieler eine Karte von seinem Ablagestapel auswählen und auf seine Hand nehmen."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro"
+            ],
+            "name": "Funkensprung",
+            "damage": 30,
+            "effect": "Falls dein Gegner mindestens ein Pokémon auf der Bank hat, wähle eines von diesen, und dieser Angriff fügt ihm 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Lampi",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo4-23"
+        }
+    ],
+    "print_key": "tcgdex:neo4-23",
+    "card_key": "171|80|2|Miki Tanaka|None,30|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

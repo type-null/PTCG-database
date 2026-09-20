@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm11-60",
+    "name": "Magnezone",
+    "img": "https://assets.tcgdex.net/de/sm/sm11/60/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Bund der Gleichgesinnten",
+    "series": "Sonne & Mond",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "60",
+    "set_total": 258,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 462,
+    "pokemon_category": "",
+    "flavor_text": "Es überwacht sein Territorium mithilfe seines Radars. Entdeckt es Eindringlinge, greift es sie unvermittelt mit einem Hyperstrahl an.",
+    "stage": "Rang 2",
+    "hp": 160,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Doppeltyp",
+            "effect": "Solang dieses Pokémon im Spiel ist, ist es vom Typ {L} und {M}."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Magnetschlag",
+            "damage": 120,
+            "effect": "Nimm 1 Trainerkarte aus deinem Ablagestapel auf deine Hand."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Magneton",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm11-60"
+        }
+    ],
+    "print_key": "tcgdex:sm11-60",
+    "card_key": "462|160|3|Shin Nagasawa|120|3",
+    "types_en": [
+        "Lightning"
+    ]
+}

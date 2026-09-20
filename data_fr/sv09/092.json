@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv09-092",
+    "name": "Smogogo",
+    "img": "https://assets.tcgdex.net/fr/sv/sv09/092/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "I",
+    "set_name": "sv09",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv09/symbol",
+    "set_full_name": "Aventures Ensemble",
+    "series": "Écarlate et Violet",
+    "set_code": "sv09",
+    "date": "2025-03-28",
+    "number": "092",
+    "set_total": 190,
+    "rarity": "Peu Commune",
+    "author": [
+        "KEIICHIRO ITO"
+    ],
+    "pokedex_number": 110,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 130,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité"
+            ],
+            "name": "Gaz Pénétrant",
+            "damage": 30,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Confus."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Explosion Folle",
+            "damage": "50+",
+            "effect": "Si ce Pokémon a utilisé Gaz Pénétrant pendant votre dernier tour, cette attaque inflige 120 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Smogo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv09-092"
+        }
+    ],
+    "print_key": "tcgdex:sv09-92",
+    "card_key": "110|130|2|KEIICHIRO ITO|30,50+|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

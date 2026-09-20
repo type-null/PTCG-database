@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swsh5-84",
+    "name": "Stonjourner",
+    "img": "https://assets.tcgdex.net/es/swsh/swsh5/84/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "E",
+    "set_name": "swsh5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh5/symbol",
+    "set_full_name": "Estilos de Combate",
+    "series": "Espada y Escudo",
+    "set_code": "swsh5",
+    "date": "2021-03-19",
+    "number": "84",
+    "set_total": 183,
+    "rarity": "Rara",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 874,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 130,
+    "types": [
+        "Lucha"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lucha",
+                "Incolora"
+            ],
+            "name": "Pulso Telúrico",
+            "damage": "30+",
+            "effect": "Si hay un Estadio en juego, este ataque hace 30 puntos de daño más."
+        },
+        {
+            "cost": [
+                "Lucha",
+                "Lucha",
+                "Incolora"
+            ],
+            "name": "Gigamartillo",
+            "damage": 120,
+            "effect": "Durante tu próximo turno, este Pokémon no puede usar Gigamartillo."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swsh5-84"
+        }
+    ],
+    "print_key": "tcgdex:swsh5-84",
+    "card_key": "874|130|3|Masakazu Fukuda|30+,120|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

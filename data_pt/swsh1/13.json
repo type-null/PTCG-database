@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/swsh1-13",
+    "name": "Thwackey",
+    "img": "https://assets.tcgdex.net/pt/swsh/swsh1/13/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Espada e Escudo",
+    "series": "Espada e Escudo",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "13",
+    "set_total": 216,
+    "rarity": "Incomum",
+    "author": [
+        "Akira Komayama"
+    ],
+    "pokedex_number": 811,
+    "pokemon_category": "",
+    "stage": "Estágio 1",
+    "hp": 100,
+    "types": [
+        "Planta"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Planta",
+                "Incolor"
+            ],
+            "name": "Pulso",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Planta",
+                "Planta",
+                "Incolor"
+            ],
+            "name": "Emboscada",
+            "damage": "50+",
+            "effect": "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fogo"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Grookey",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/swsh1-13"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-13",
+    "card_key": "811|100|2|Akira Komayama|30,50+|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

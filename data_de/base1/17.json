@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base1-17",
+    "name": "Bibor",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base1",
+    "set_full_name": "Grundset",
+    "series": "Grund",
+    "set_code": "base1",
+    "date": "1999-01-09",
+    "number": "17",
+    "set_total": 102,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 15,
+    "pokemon_category": "",
+    "flavor_text": "Fliegt mit hoher Geschwindigkeit und greift mit den großen, giftigen Stacheln auf Vorderbeinen und Schwanz an.",
+    "stage": "Rang 2",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Duonadel",
+            "damage": "30x",
+            "effect": "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 30 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Giftstachel",
+            "damage": 40,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "evolve_from": "Kokuna",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base1-17"
+        }
+    ],
+    "print_key": "tcgdex:base1-17",
+    "card_key": "15|80|None|Ken Sugimori|30x,40|3,3",
+    "types_en": [
+        "Grass"
+    ]
+}

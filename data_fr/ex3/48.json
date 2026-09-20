@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex3-48",
+    "name": "Barbicha",
+    "img": "https://assets.tcgdex.net/fr/ex/ex3/48/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Dragon",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "48",
+    "set_total": 100,
+    "rarity": "Peu Commune",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 340,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Eau"
+    ],
+    "abilities": [
+        {
+            "name": "Submerger",
+            "effect": "Tant que Barbicha est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques de votre adversaire."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Surf",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Ampleur",
+            "damage": 60,
+            "effect": "Inflige 10 dégâts à chacun des Pokémon du Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "evolve_from": "Barloche",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex3-48"
+        }
+    ],
+    "print_key": "tcgdex:ex3-48",
+    "card_key": "340|90|2|Tomokazu Komiya|30,60|2,4",
+    "types_en": [
+        "Water"
+    ]
+}

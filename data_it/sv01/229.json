@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sv01-229",
+    "name": "Banette-ex",
+    "img": "https://assets.tcgdex.net/it/sv/sv01/229/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "tags": [
+        "ex"
+    ],
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Scarlatto e Violetto",
+    "series": "Scarlatto e Violetto",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "229",
+    "set_total": 258,
+    "rarity": "Ultrarara",
+    "author": [
+        "PLANETA Mochizuki"
+    ],
+    "pokedex_number": 354,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 250,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psico"
+            ],
+            "name": "Oscurità Perpetua",
+            "damage": 30,
+            "effect": "Durante il suo prossimo turno, il tuo avversario non può giocare le carte Strumento che ha in mano."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Incolore"
+            ],
+            "name": "Poltergeist",
+            "damage": "60×",
+            "effect": "Il tuo avversario mostra le carte che ha in mano. Questo attacco infligge 60 danni per ogni carta Allenatore presente tra quelle carte."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscurità"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sv01-229"
+        }
+    ],
+    "print_key": "tcgdex:sv01-229",
+    "card_key": "354|250|2|PLANETA Mochizuki|30,60x|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

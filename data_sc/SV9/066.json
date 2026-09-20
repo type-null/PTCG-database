@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/zh-cn/cards/SV9-066",
+    "name": "N的齒輪怪",
+    "img": "",
+    "card_type": "Pokemon",
+    "lang": "sc",
+    "regulation": "I",
+    "set_name": "SV9",
+    "set_full_name": "對戰搭檔",
+    "series": "朱&紫",
+    "set_code": "SV9",
+    "date": "2025-02-07",
+    "number": "066",
+    "set_total": 100,
+    "rarity": "Uncommon",
+    "author": [
+        "matazo"
+    ],
+    "pokedex_number": 601,
+    "pokemon_category": "",
+    "flavor_text": "會從尖刺的前端發出強力 電擊。紅色核心裡填充著 非常多的能量。",
+    "stage": "Stage2",
+    "hp": 160,
+    "types": [
+        "Metal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Colorless"
+            ],
+            "name": "磁力爆破",
+            "damage": 50,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Metal",
+                "Metal",
+                "Colorless"
+            ],
+            "name": "三重粉碎",
+            "damage": "120×",
+            "effect": "擲3次硬幣，造成正面出現的次數×120點傷害。"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fire"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Grass"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/zh-cn/cards/SV9-066"
+        }
+    ],
+    "print_key": "asia:SV9-66",
+    "card_key": "601|160|3|matazo|50,120x|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

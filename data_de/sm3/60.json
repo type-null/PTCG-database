@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm3-60",
+    "name": "Psiaugon",
+    "img": "https://assets.tcgdex.net/de/sm/sm3/60/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm3",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm3/symbol",
+    "set_full_name": "Nacht in Flammen",
+    "series": "Sonne & Mond",
+    "set_code": "sm3",
+    "date": "2017-08-04",
+    "number": "60",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 678,
+    "pokemon_category": "",
+    "flavor_text": "In Gefahrensituationen hebt es seine Ohren an und setzt Psycho-Kräfte frei, die einen 10 t schweren LKW zu Schrott verarbeiten können.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Verlockung",
+            "damage": null,
+            "effect": "Ziehe 3 Karten."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Handkinese",
+            "damage": "10×",
+            "effect": "Diese Attacke fügt 10 Schadenspunkte mal der Anzahl der Karten auf deiner Hand zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Psiau",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm3-60"
+        }
+    ],
+    "print_key": "tcgdex:sm3-60",
+    "card_key": "678|90|1|Anesaki Dynamic|None,10x|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

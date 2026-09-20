@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm3.5-76",
+    "name": "Mewtwo GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm3.5",
+    "set_full_name": "Légendes Brillantes",
+    "series": "Soleil et Lune",
+    "set_code": "sm3.5",
+    "date": "2017-10-06",
+    "number": "76",
+    "set_total": 78,
+    "rarity": "Magnifique rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "hp": 190,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Pleine Puissance",
+            "damage": "30×",
+            "effect": "Cette attaque inflige 30 dégâts multipliés par le nombre d’Énergies attachées à ce Pokémon."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Super Absorption",
+            "damage": 60,
+            "effect": "Soignez 30 dégâts à ce Pokémon."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Psy"
+            ],
+            "name": "Frappe Psy GX",
+            "damage": 200,
+            "effect": "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm3.5-76"
+        }
+    ],
+    "print_key": "tcgdex:sm3.5-76",
+    "card_key": "150|190|2|5ban Graphics|30x,60,200|1,2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

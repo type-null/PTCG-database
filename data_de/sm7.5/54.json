@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm7.5-54",
+    "name": "Grandiras",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm7.5",
+    "set_full_name": "Majestät Der Drachen",
+    "series": "Sonne & Mond",
+    "set_code": "sm7.5",
+    "date": "2018-09-07",
+    "number": "54",
+    "set_total": 78,
+    "rarity": "Selten",
+    "author": [
+        "so-taro"
+    ],
+    "pokedex_number": 784,
+    "pokemon_category": "",
+    "flavor_text": "Seine harten Schuppen dienen sowohl Angriff als auch Verteidigung. Früher wurden aus ihnen Waffen und Gebrauchsgüter hergestellt.",
+    "stage": "Rang 2",
+    "hp": 160,
+    "types": [
+        "Drache"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Schutzdruck",
+            "damage": 60,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wuthieb",
+            "damage": "90+",
+            "effect": "Wenn auf diesem Pokémon mindestens 8 Schadensmarken liegen, fügt diese Attacke 120 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fee"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Mediras",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm7.5-54"
+        }
+    ],
+    "print_key": "tcgdex:sm7.5-54",
+    "card_key": "784|160|2|so-taro|60,90+|2,3",
+    "types_en": [
+        "Dragon"
+    ]
+}

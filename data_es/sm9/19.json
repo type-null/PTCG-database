@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm9-19",
+    "name": "Moltres",
+    "img": "https://assets.tcgdex.net/es/sm/sm9/19/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "sm9",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm9/symbol",
+    "set_full_name": "Union de Aliados",
+    "series": "Sol y Luna",
+    "set_code": "sm9",
+    "date": "2019-01-31",
+    "number": "19",
+    "set_total": 196,
+    "rarity": "Rara",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 146,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 120,
+    "types": [
+        "Fuego"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuego"
+            ],
+            "name": "Cima Ardiente",
+            "damage": null,
+            "effect": "Descarta todas las Energías Fire de este Pokémon. Después, descarta 1 carta de la parte superior de la baraja de tu rival por cada Energía que hayas descartado de esta manera."
+        },
+        {
+            "cost": [
+                "Fuego",
+                "Fuego",
+                "Fuego",
+                "Incolora"
+            ],
+            "name": "Giro Fuego",
+            "damage": 180,
+            "effect": "Descarta 3 Energías de este Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Rayo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm9-19"
+        }
+    ],
+    "print_key": "tcgdex:sm9-19",
+    "card_key": "146|120|2|Shin Nagasawa|None,180|1,4",
+    "types_en": [
+        "Fire"
+    ]
+}

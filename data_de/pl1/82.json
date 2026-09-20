@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-82",
+    "name": "Voltilamm",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "82",
+    "set_total": 133,
+    "rarity": "Häufig",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 179,
+    "pokemon_category": "",
+    "flavor_text": "Sein weiches Fell wird doppelt so dick, wenn sich Elektrizität aufbaut.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Kleine Besorgung",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+        },
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Ausdehnen",
+            "damage": 10,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der Voltilamm durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-82"
+        }
+    ],
+    "print_key": "tcgdex:pl1-82",
+    "card_key": "179|60|1|Yuka Morii|None,10|0,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

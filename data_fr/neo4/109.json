@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo4-109",
+    "name": "Mewtwo brillant",
+    "img": "https://assets.tcgdex.net/fr/neo/neo4/109/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo4",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo4/symbol",
+    "set_full_name": "Neo Destiny",
+    "series": "Neo",
+    "set_code": "neo4",
+    "date": "2002-02-28",
+    "number": "109",
+    "set_total": 113,
+    "rarity": "Rare",
+    "author": [
+        "Hironobu Yoshida"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "flavor_text": "Il utilise ses pouvoirs psychiques surdéveloppés pour vaincre ses ennemis avant qu'ils n'aient le temps de réfléchir.",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Électrique"
+            ],
+            "name": "Bouclier déflecteur",
+            "damage": null,
+            "effect": "Si une attaque inflige des dégâts à Mewtwo brillant pendant le prochain tour de votre adversaire (même si Mewtwo brillant est mis K.O.), lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Mewtwo brillant par cette attaque (Tous les autres effets dus à des attaques subsistent) et infligez 20 dégâts au Pokémon attaquant."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Feu"
+            ],
+            "name": "Explosion psy",
+            "damage": "40+",
+            "effect": "Défaussez-vous d'une carte Énergie {R} attachée à Mewtwo brillant ou cette attaque ne fait rien. Cette attaque inflige 40 dégâts plus 10 dégâts pour chaque Énergie attachée au Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo4-109"
+        }
+    ],
+    "print_key": "tcgdex:neo4-109",
+    "card_key": "150|70|2|Hironobu Yoshida|None,40+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

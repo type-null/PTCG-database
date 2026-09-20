@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy7-21",
+    "name": "Garados",
+    "img": "https://assets.tcgdex.net/de/xy/xy7/21/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy7",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy7/symbol",
+    "set_full_name": "Ewiger Anfang",
+    "series": "XY",
+    "set_code": "xy7",
+    "date": "2015-08-12",
+    "number": "21",
+    "set_total": 101,
+    "rarity": "Selten",
+    "author": [
+        "TOKIYA"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "{title}:",
+            "effect": "{title}: An dieses Pokémon können bis zu 2 Pokémon-Ausrüstungen angelegt sein."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Vollständige Vergeltung",
+            "damage": "30+",
+            "effect": "Dieser Angriff fügt 30 weitere Schadenspunkte für jede Schadensmarke auf jedem Karpador auf deiner Bank zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Fuchtler",
+            "damage": "100+",
+            "effect": "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu. Bei \"Zahl\" fügt sich dieses Pokémon selbst 30 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Karpador",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy7-21"
+        }
+    ],
+    "print_key": "tcgdex:xy7-21",
+    "card_key": "130|130|3|TOKIYA|30+,100+|2,4",
+    "types_en": [
+        "Water"
+    ]
+}

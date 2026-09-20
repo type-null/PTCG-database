@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh4-101",
+    "name": "Krakos",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh4/101/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "D",
+    "set_name": "swsh4",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh4/symbol",
+    "set_full_name": "Voltage Éclatant",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh4",
+    "date": "2020-11-13",
+    "number": "101",
+    "set_total": 203,
+    "rarity": "Rare",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "pokedex_number": 853,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 130,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Double Nelson",
+            "damage": 30,
+            "effect": "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore"
+            ],
+            "name": "Buster Tentaculaire",
+            "damage": "50+",
+            "effect": "Si ce Pokémon a utilisé Double Nelson pendant votre dernier tour, cette attaque inflige 120 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Poulpaf",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh4-101"
+        }
+    ],
+    "print_key": "tcgdex:swsh4-101",
+    "card_key": "853|130|2|Hitoshi Ariga|30,50+|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

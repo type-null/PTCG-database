@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh2-140",
+    "name": "Zamazenta",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh2/140/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "D",
+    "set_name": "swsh2",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh2/symbol",
+    "set_full_name": "Clash der Rebellen",
+    "series": "Schwert & Schild",
+    "set_code": "swsh2",
+    "date": "2020-05-01",
+    "number": "140",
+    "set_total": 209,
+    "rarity": "Selten",
+    "author": [
+        "Hideki Ishikawa"
+    ],
+    "pokedex_number": 889,
+    "pokemon_category": "",
+    "flavor_text": "Weil es alles und jeden abwehren konnte, trug es einst den Namen „Kämpferkönigsschild“ und wurde gleichermaßen gefürchtet und verehrt.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Schutzdruck",
+            "damage": 30,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Power-Ansturm",
+            "damage": 120,
+            "effect": "Wirf 1 Münze. Bei Zahl kann dieses Pokémon während deines nächsten Zuges nicht angreifen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh2-140"
+        }
+    ],
+    "print_key": "tcgdex:swsh2-140",
+    "card_key": "889|120|2|Hideki Ishikawa|30,120|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

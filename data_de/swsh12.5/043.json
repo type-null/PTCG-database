@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh12.5-043",
+    "name": "Luxtra",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh12.5/043/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh12.5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12.5/symbol",
+    "set_full_name": "Zenit der Könige",
+    "series": "Schwert & Schild",
+    "set_code": "swsh12.5",
+    "date": "2023-01-20",
+    "number": "043",
+    "set_total": 160,
+    "rarity": "Selten",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 405,
+    "pokemon_category": "",
+    "flavor_text": "Beim Aufspüren von Gefahren sind Luxtras hellseherische Fähigkeiten äußerst hilfreich.",
+    "stage": "Rang 2",
+    "hp": 150,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Elektroschritt",
+            "damage": null,
+            "effect": "Diese Attacke fügt 1 Pokémon deines Gegners 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Narbenschläge",
+            "damage": "100+",
+            "effect": "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 100 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Luxio",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh12.5-043"
+        }
+    ],
+    "print_key": "tcgdex:swsh12.5-43",
+    "card_key": "405|150|1|sui|None,100+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

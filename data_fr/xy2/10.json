@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy2-10",
+    "name": "Maracachi",
+    "img": "https://assets.tcgdex.net/fr/xy/xy2/10/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy2",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy2/symbol",
+    "set_full_name": "Étincelles",
+    "series": "XY",
+    "set_code": "xy2",
+    "date": "2014-05-07",
+    "number": "10",
+    "set_total": 110,
+    "rarity": "Peu Commune",
+    "author": [
+        "match"
+    ],
+    "pokedex_number": 556,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Ébouriffement",
+            "damage": null,
+            "effect": "Pendant votre prochain tour, lancez 6 pièces au lieu de 2 pour l'attaque Épines Acérées de ce Pokémon."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Épines Acérées",
+            "damage": "20×",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy2-10"
+        }
+    ],
+    "print_key": "tcgdex:xy2-10",
+    "card_key": "556|90|1|match|None,20x|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

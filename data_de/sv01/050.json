@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv01-050",
+    "name": "Wummer",
+    "img": "https://assets.tcgdex.net/de/sv/sv01/050/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Karmesin & Purpur",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "050",
+    "set_total": 258,
+    "rarity": "Häufig",
+    "author": [
+        "Souichirou Gunjima"
+    ],
+    "pokedex_number": 693,
+    "pokemon_category": "",
+    "flavor_text": "Die Geschosse aus Meerwasser, die es aus seiner Schere abfeuert, sind stark genug, um den Rumpf von Tankschiffen zu durchbohren.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Aquaknarre",
+            "damage": 50,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Wasserkanone",
+            "damage": 160,
+            "effect": "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Scampisto",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv01-050"
+        }
+    ],
+    "print_key": "tcgdex:sv01-50",
+    "card_key": "693|120|2|Souichirou Gunjima|50,160|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv01-111",
+    "name": "Charmina",
+    "img": "https://assets.tcgdex.net/fr/sv/sv01/111/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "G",
+    "set_name": "sv01",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv01/symbol",
+    "set_full_name": "Écarlate et Violet",
+    "series": "Écarlate et Violet",
+    "set_code": "sv01",
+    "date": "2023-03-31",
+    "number": "111",
+    "set_total": 258,
+    "rarity": "Peu Commune",
+    "author": [
+        "Jerky"
+    ],
+    "pokedex_number": 308,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Acu-Poing-Ture",
+            "damage": 30,
+            "effect": "Choisissez l'une des attaques du Pokémon Actif de votre adversaire. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas utiliser cette attaque."
+        },
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Coup d'Ergots",
+            "damage": 90,
+            "effect": "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Méditikka",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv01-111"
+        }
+    ],
+    "print_key": "tcgdex:sv01-111",
+    "card_key": "308|90|1|Jerky|30,90|1,1",
+    "types_en": [
+        "Fighting"
+    ]
+}

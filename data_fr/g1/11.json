@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/g1-11",
+    "name": "Dracaufeu-EX",
+    "img": "https://assets.tcgdex.net/fr/xy/g1/11/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Générations",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "11",
+    "set_total": 117,
+    "rarity": "Ultra Rare",
+    "author": [
+        "Eske Yoshinob"
+    ],
+    "pokedex_number": 6,
+    "pokemon_category": "",
+    "hp": 180,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Manteau de Feu",
+            "damage": 30,
+            "effect": "Attachez une carte Énergie Fire de votre pile de défausse à ce Pokémon."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Souffle de Feu",
+            "damage": "80+",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/g1-11"
+        }
+    ],
+    "print_key": "tcgdex:g1-11",
+    "card_key": "6|180|2|Eske Yoshinob|30,80+|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

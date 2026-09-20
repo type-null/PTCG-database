@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard2-148",
+    "name": "Seedraking",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-Card",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "148",
+    "set_total": 186,
+    "rarity": "Selten",
+    "author": [
+        "Mikio Menjo"
+    ],
+    "pokedex_number": 230,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 110,
+    "types": [
+        "Farblos"
+    ],
+    "abilities": [
+        {
+            "name": "Kristall-Typ",
+            "effect": "Immer wenn du eine {W}-, {L}- oder {P}-Basis-Energiekarte aus deiner Hand an Seedraking anlegst, wird Seedrakings Typ (Farbe) bis zum Ende des Zuges zu demselben Typ wie diese Energiekarte."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Elektro"
+            ],
+            "name": "Wasserbombe",
+            "damage": 40,
+            "effect": "Seedraking fügt sich selber 10 Schadenspunkte zu. (Wende Schwäche und Resistenz nicht an, wenn Seedraking sich selber mit diesem Angriff Schadenspunkte zufügt.)"
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Psycho",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Doppeltes Brennen",
+            "damage": 60,
+            "effect": "Wirf 2 Münzen. Lege für jedesmal „Zahl“ eine an Seedraking angelegte Energiekarte auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "x2"
+    },
+    "retreat": 3,
+    "evolve_from": "Seemon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard2-148"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-148",
+    "card_key": "230|110|3|Mikio Menjo|40,60|3,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh12-100",
+    "name": "Colossand",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh12/100/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh12",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12/symbol",
+    "set_full_name": "Silberne Sturmwinde",
+    "series": "Schwert & Schild",
+    "set_code": "swsh12",
+    "date": "2022-11-11",
+    "number": "100",
+    "set_total": 215,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 770,
+    "pokemon_category": "",
+    "flavor_text": "Colossand wird auch als „Schrecken der Strände“ bezeichnet. Es manipuliert Sand, um seine Beute zu begraben und sich ihre Seele einzuverleiben.",
+    "stage": "Rang 1",
+    "hp": 140,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Sandkastenfalle",
+            "damage": null,
+            "effect": "Diese Attacke fügt jedem Pokémon deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Schollenbrecher",
+            "damage": 120,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Sankabuh",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh12-100"
+        }
+    ],
+    "print_key": "tcgdex:swsh12-100",
+    "card_key": "770|140|3|sui|None,120|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

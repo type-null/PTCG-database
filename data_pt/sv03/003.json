@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/sv03-003",
+    "name": "Bellossom",
+    "img": "https://assets.tcgdex.net/pt/sv/sv03/003/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "regulation": "G",
+    "set_name": "sv03",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03/symbol",
+    "set_full_name": "Obsidiana em Chamas",
+    "series": "Escarlate e Violeta",
+    "set_code": "sv03",
+    "date": "2023-08-11",
+    "number": "003",
+    "set_total": 230,
+    "rarity": "Incomum",
+    "author": [
+        "sui"
+    ],
+    "pokedex_number": 182,
+    "pokemon_category": "",
+    "stage": "Estágio 2",
+    "hp": 130,
+    "types": [
+        "Planta"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolor"
+            ],
+            "name": "Pó do Sono",
+            "damage": 30,
+            "effect": "O Pokémon Ativo do seu oponente agora está Adormecido."
+        },
+        {
+            "cost": [
+                "Planta"
+            ],
+            "name": "Dança Poderosa",
+            "damage": "90×",
+            "effect": "Jogue uma moeda para cada Energia ligada a este Pokémon. Este ataque causa 90 pontos de dano para cada cara."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fogo"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Gloom",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/sv03-003"
+        }
+    ],
+    "print_key": "tcgdex:sv03-3",
+    "card_key": "182|130|1|sui|30,90x|1,1",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv08-011",
+    "name": "Zarude",
+    "img": "https://assets.tcgdex.net/fr/sv/sv08/011/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "H",
+    "set_name": "sv08",
+    "set_full_name": "Étincelles Déferlantes",
+    "series": "Écarlate et Violet",
+    "set_code": "sv08",
+    "date": "2024-11-08",
+    "number": "011",
+    "set_total": 252,
+    "rarity": "Rare",
+    "author": [
+        "GOSSAN"
+    ],
+    "pokedex_number": 893,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 120,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Feuille Sangsue",
+            "damage": 20,
+            "effect": "Soignez 20 dégâts de ce Pokémon."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Fouet Végétal",
+            "damage": "80+",
+            "effect": "Vous pouvez ajouter à votre main toutes les Énergies attachées à ce Pokémon pour que cette attaque inflige 80 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv08-011"
+        }
+    ],
+    "print_key": "tcgdex:sv08-11",
+    "card_key": "893|120|1|GOSSAN|20,80+|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm1-79",
+    "name": "Persian d’Alola",
+    "img": "https://assets.tcgdex.net/fr/sm/sm1/79/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Soleil et Lune",
+    "series": "Soleil et Lune",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "79",
+    "set_total": 163,
+    "rarity": "Peu Commune",
+    "author": [
+        "kirisAki"
+    ],
+    "pokedex_number": 53,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Provoc",
+            "damage": null,
+            "effect": "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif."
+        },
+        {
+            "cost": [
+                "Obscurité"
+            ],
+            "name": "Déchirure",
+            "damage": "30+",
+            "effect": "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts, cette attaque inflige 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Miaouss d’Alola",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm1-79"
+        }
+    ],
+    "print_key": "tcgdex:sm1-79",
+    "card_key": "53|90|1|kirisAki|None,30+|0,1",
+    "types_en": [
+        "Darkness"
+    ]
+}

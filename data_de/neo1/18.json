@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-18",
+    "name": "Tornupto",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "18",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 157,
+    "pokemon_category": "",
+    "flavor_text": "Es beherrscht einen geheimen, verheerenden Trick. Es reibt sein brennendes Fell aneinander, um so riesige Explosionen auszulösen.",
+    "stage": "Rang 2",
+    "hp": 100,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "Feuerverstärkung",
+            "effect": "Wenn du Tornupto aus deiner Hand spielst, kannst du eine Münze werfen. Suche bei „Kopf“ in deinem Deck nach bis zu 4 {R}-Energiekarten und lege sie an Tornupto an. Mische dein Deck danach."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Flammenrad",
+            "damage": 80,
+            "effect": "Lege 3 an Tornupto angelelgte {R}-Energiekarten auf deinen Ablagestapel, um diesen Angriff zu verwenden. Füge allen Pokémon auf der Bank 20 Schadenspunkte zu (deinen und den gegnerischen). (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Igelavar",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-18"
+        }
+    ],
+    "print_key": "tcgdex:neo1-18",
+    "card_key": "157|100|2|Ken Sugimori|80|4",
+    "types_en": [
+        "Fire"
+    ]
+}

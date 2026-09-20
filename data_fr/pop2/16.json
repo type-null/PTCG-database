@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pop2-16",
+    "name": "Pikachu",
+    "img": "https://assets.tcgdex.net/fr/pop/pop2/16/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pop2",
+    "set_img": "https://assets.tcgdex.net/univ/pop/pop2/symbol",
+    "set_full_name": "POP Série 2",
+    "series": "POP",
+    "set_code": "pop2",
+    "date": "2005-08-01",
+    "number": "16",
+    "set_total": 17,
+    "rarity": "Commune",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 25,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Rogne",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Secousse tonnerre",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est pile, Pikachu s'inflige 10 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": null
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pop2-16"
+        }
+    ],
+    "print_key": "tcgdex:pop2-16",
+    "card_key": "25|40|1|Yuka Morii|10,30|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

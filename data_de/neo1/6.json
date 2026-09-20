@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-6",
+    "name": "Skaraborn",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "6",
+    "set_total": 111,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 214,
+    "pokemon_category": "",
+    "flavor_text": "Dieses mächtige Pokémon stößt sein wertvolles Horn unter den Bauch seiner Feinde, hebt sie dann hoch und schleudert sie.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Letzter Streich",
+            "effect": "Falls die verbleibenden KP von Skaraborn 20 oder weniger betragen, kannst du die Basisschadenspunkte des Vielender-Angriffs von 60 auf 120 hochsetzen. Diese Fähigkeit kann nicht verwendet werden, falls Skaraborn schläft, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Vielender",
+            "damage": 60,
+            "effect": "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-6"
+        }
+    ],
+    "print_key": "tcgdex:neo1-6",
+    "card_key": "214|60|2|Ken Sugimori|60|3",
+    "types_en": [
+        "Grass"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-40",
+    "name": "Dimoret",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "40",
+    "set_total": 130,
+    "rarity": "Rare",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 461,
+    "pokemon_category": "",
+    "flavor_text": "Ils vivent par groupe de 4 ou 5 en région froide et chassent de façon très organisée.",
+    "stage": "Niveau 1",
+    "hp": 80,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Obscurité"
+            ],
+            "name": "Machination",
+            "damage": null,
+            "effect": "Choisissez dans votre deck n'importe quelle carte et placez-la dans votre main. Ensuite, mélangez votre deck."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Obscurité",
+                "Obscurité"
+            ],
+            "name": "Vibrobscur",
+            "damage": "10x",
+            "effect": "Inflige 10 dégâts multipliés par le nombre d'Énergies Darkness attachées à tous vos Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Farfuret",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-40"
+        }
+    ],
+    "print_key": "tcgdex:dp1-40",
+    "card_key": "461|80|1|Naoyo Kimura|None,10x|1,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

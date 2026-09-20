@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw2-17",
+    "name": "Viridium",
+    "img": "https://assets.tcgdex.net/de/bw/bw2/17/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw2",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw2/symbol",
+    "set_full_name": "Aufstreben der Mächtigen",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw2",
+    "date": "2011-08-31",
+    "number": "17",
+    "set_total": 98,
+    "rarity": "Selten",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 640,
+    "pokemon_category": "",
+    "flavor_text": "Es kämpfte einst gegen die Menschen, um seine Freunde zu beschützen. Nun erzählt man sich Legenden von ihm.",
+    "stage": "Basis",
+    "hp": 100,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Gigasauger",
+            "damage": 30,
+            "effect": "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Verteidigenden Pokémon zugefügt hast."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Sanctoklinge",
+            "damage": 100,
+            "effect": "Dieses Pokémon kann während deines nächsten Zuges Sanctoklinge nicht einsetzen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw2-17"
+        }
+    ],
+    "print_key": "tcgdex:bw2-17",
+    "card_key": "640|100|1|5ban Graphics|30,100|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

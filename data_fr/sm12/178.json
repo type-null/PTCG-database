@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm12-178",
+    "name": "Gueriaigle",
+    "img": "https://assets.tcgdex.net/fr/sm/sm12/178/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm12",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm12/symbol",
+    "set_full_name": "Éclipse Cosmique",
+    "series": "Soleil et Lune",
+    "set_code": "sm12",
+    "date": "2019-11-01",
+    "number": "178",
+    "set_total": 271,
+    "rarity": "Rare",
+    "author": [
+        "chibi"
+    ],
+    "pokedex_number": 628,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 130,
+    "types": [
+        "Incolore"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Serre",
+            "damage": 30,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Chute Aérienne",
+            "damage": 140,
+            "effect": "Défaussez 2 Énergies de ce Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Furaiglon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm12-178"
+        }
+    ],
+    "print_key": "tcgdex:sm12-178",
+    "card_key": "628|130|1|chibi|30,140|1,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

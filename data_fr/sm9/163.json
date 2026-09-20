@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm9-163",
+    "name": "Pharamp GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm9/163/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm9",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm9/symbol",
+    "set_full_name": "Duo de Choc",
+    "series": "Soleil et Lune",
+    "set_code": "sm9",
+    "date": "2019-01-31",
+    "number": "163",
+    "set_total": 196,
+    "rarity": "Ultra Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 181,
+    "pokemon_category": "",
+    "hp": 240,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Recharge Puissance",
+            "damage": 30,
+            "effect": "Placez toutes les cartes Électropuissance de votre pile de défausse dans votre main."
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Électrique"
+            ],
+            "name": "Frappe Éclair",
+            "damage": 150,
+            "effect": "Défaussez toute l’Énergie Lightning de ce Pokémon."
+        },
+        {
+            "cost": [
+                "Électrique"
+            ],
+            "name": "Électricité GX",
+            "damage": null,
+            "effect": "Cherchez jusqu’à 7 Pokémon dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 3,
+    "evolve_from": "Lainergie",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm9-163"
+        }
+    ],
+    "print_key": "tcgdex:sm9-163",
+    "card_key": "181|240|3|5ban Graphics|30,150,None|1,2,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

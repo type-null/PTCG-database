@@ -5,14 +5,16 @@
 """
 
 import re
-import bs4
-import time
-import logging
 
+import bs4
+import paths
 from Card import Card
 from CardScraper import CardScraper
+from loguru import logger
+from tqdm import tqdm
 
-logger = logging.getLogger(__name__)
+#: Lists every card id the site knows, 39 per page, newest first.
+SEARCH_API = "https://www.pokemon-card.com/card-search/resultAPI.php"
 
 
 class CardScraperJP(CardScraper):
@@ -88,6 +90,9 @@ class CardScraperJP(CardScraper):
         logger.debug(f"url: {card.url}")
 
         content = self.get_content(card.url)
+        if content is None:
+            logger.debug(f"Card {card_id} could not be fetched")
+            return "Page not found"
         card_page_all = bs4.BeautifulSoup(content, "html.parser")
         card_page = card_page_all.section
 
@@ -434,7 +439,7 @@ class CardScraperJP(CardScraper):
                         # Error on page
                         if last_a_tag.find_next_sibling("div", class_="arrow_on"):
                             card.set_evolve_from(last_a_tag.text.strip())
-                            logger.warn(
+                            logger.warning(
                                 f"Card {card.jp_id} evolve from: {card.evolve_from}?"
                             )
                             found = True
@@ -527,42 +532,82 @@ class CardScraperJP(CardScraper):
         del card
         return result_code
 
-    def update(self, explore_range=10):
-        """
-        Download the newest cards
+    def known_ids(self):
+        """Card ids already saved under `data_jp/`."""
+        ids = set()
+        # rglob, because a handful of early cards sit directly in data_jp/
+        # rather than in a set folder and must still count as known.
+        for path in paths.data_dir("jp").rglob("*.json"):
+            stem = path.stem.split("-")[0]
+            if stem.isdigit():
+                ids.add(int(stem))
+        return ids
 
+    def list_site_ids(self):
+        """Every card id the site lists, newest first.
+
+        Walking the search API instead of guessing consecutive ids means a
+        gap in the id space can never hide the cards that follow it.
         """
+        ids = []
+        failed = []
+        page, max_page = 1, 1
+        while page <= max_page:
+            data = self.get_json(
+                SEARCH_API,
+                params={"keyword": "", "regulation_sidebar_form": "all", "page": page},
+            )
+            if data is None or data.get("result") != 1:
+                # One unreadable page must not hide the pages behind it.
+                logger.error(f"Card list page {page} unavailable; carrying on")
+                failed.append(page)
+                page += 1
+                continue
+            max_page = data.get("maxPage", max_page)
+            for entry in data.get("cardList", []):
+                card_id = str(entry.get("cardID", ""))
+                if card_id.isdigit():
+                    ids.append(int(card_id))
+            if page == 1:
+                logger.info(f"Site lists {data.get('hitCnt')} cards over {max_page} pages.")
+            page += 1
+        if failed:
+            logger.warning(f"{len(failed)} list pages could not be read: {failed[:10]}")
+        return ids
+
+    def update(self, limit=None):
+        """Download every card the site lists that is not on disk yet."""
         logger.info("===== Updating started (jp) =====")
 
-        downloaded_list = self.get_downloaded_id_list(lang="jp")
-        last_downloaded = max(downloaded_list)
-        logger.info(f"Last downloaded card is {last_downloaded}.")
+        site_ids = set(self.list_site_ids())
+        if not site_ids:
+            logger.error("Could not list any card; aborting update.")
+            return
 
-        card_id = last_downloaded + 1
-        scraped_list, question_list = [], []
-        max_explore = last_downloaded + explore_range
+        known = self.known_ids() | self.get_downloaded_id_list(lang="jp")
+        missing = sorted(site_ids - known)
+        logger.info(f"{len(site_ids)} cards listed, {len(known)} already stored, {len(missing)} to download.")
+        if limit:
+            missing = missing[:limit]
 
-        while card_id <= max_explore:
-            code = self.read_card(card_id)
+        scraped_list, question_list, error_list = [], [], []
+        for card_id in tqdm(missing, desc="Downloading jp", disable=None):
+            code = self.read_card_safely(card_id, default="Something wrong")
             if code == "Successfully scraped":
                 scraped_list.append(card_id)
-                max_explore = card_id + explore_range
             elif code == "Something wrong":
+                # The card was not written: something in its page or its saving
+                # failed. Recording it as scraped would hide it from every later
+                # run, so it is only ever queried, and the next run tries again.
                 question_list.append(card_id)
             elif code == "Page not found":
-                pass
+                error_list.append(card_id)
             else:
                 logger.error(f"Card {card_id} has unseen result code: {code}")
 
-            if card_id % 100 == 0:
-                time.sleep(10)
-
-            card_id += 1
-
-        self.save_list_to_file(scraped_list, "logs/scraped_jp_id_list.txt")
-        self.save_list_to_file(question_list, "logs/question_jp_id_list.txt")
+        self.save_list_to_file(scraped_list, "scraped_jp_id_list.txt")
+        self.save_list_to_file(question_list, "question_jp_id_list.txt")
+        self.save_list_to_file(error_list, "error_jp_id_list.txt")
         if scraped_list:
-            self.upadte_readme(max(scraped_list))
-        logger.info(
-            f"Searched {card_id - last_downloaded} cards; checked up to card {card_id}."
-        )
+            self.update_readme(max(scraped_list))
+        logger.info(f"Downloaded {len(scraped_list)} cards; {len(error_list)} had no page.")

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ecard3-93",
+    "name": "Sandamer",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ecard3",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard3/symbol",
+    "set_full_name": "Skyridge",
+    "series": "e-Card",
+    "set_code": "ecard3",
+    "date": "2003-05-12",
+    "number": "93",
+    "set_total": 182,
+    "rarity": "Häufig",
+    "author": [
+        "Miki Tanaka"
+    ],
+    "pokedex_number": 28,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Sandfalle",
+            "damage": 10,
+            "effect": "Wenn auf der Bank deines Gegners Pokémon vorhanden sind, wähle bis zu 2 von ihnen. Dieser Angriff fügt jedem dieser Pokémon 10 Schadenspunkte zu. (Wende keine Schwäche und Resistenz bei Pokémon auf der Bank an.)"
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Giftnadelrakete",
+            "damage": "20×",
+            "effect": "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu. Wenn du dabei mindestens 1 \"Kopf\" erzielst, ist das verteidigende Pokémon jetzt vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ecard3-93"
+        }
+    ],
+    "print_key": "tcgdex:ecard3-93",
+    "card_key": "28|70|1|Miki Tanaka|10,20x|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

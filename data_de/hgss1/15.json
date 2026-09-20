@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/hgss1-15",
+    "name": "Ariados",
+    "img": "https://assets.tcgdex.net/de/hgss/hgss1/15/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "hgss1",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss1/symbol",
+    "set_full_name": "HeartGold SoulSilver",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss1",
+    "date": "2010-02-10",
+    "number": "15",
+    "set_total": 124,
+    "rarity": "Selten",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 168,
+    "pokemon_category": "",
+    "flavor_text": "Da es Fäden sowohl mit dem Hinterleib, als auch mit dem Mund spinnt, verwechselt man die beiden leicht.",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Blutsauger",
+            "damage": 30,
+            "effect": "Entferne Schadensmarken von Ariados entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Giftsabber",
+            "damage": 50,
+            "effect": "Das Verteidigende Pokémon ist jetzt vergiftet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Webarak",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/hgss1-15"
+        }
+    ],
+    "print_key": "tcgdex:hgss1-15",
+    "card_key": "168|80|1|Ken Sugimori|30,50|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

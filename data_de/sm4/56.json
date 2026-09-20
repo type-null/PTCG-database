@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm4-56",
+    "name": "Kosturso",
+    "img": "https://assets.tcgdex.net/de/sm/sm4/56/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm4",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm4/symbol",
+    "set_full_name": "Aufziehen der Sturmröte",
+    "series": "Sonne & Mond",
+    "set_code": "sm4",
+    "date": "2017-11-03",
+    "number": "56",
+    "set_total": 125,
+    "rarity": "Selten",
+    "author": [
+        "Saya Tsuruta"
+    ],
+    "pokedex_number": 760,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon verfügt über immense Muskelkraft und ist äußerst gefährlich. Sein Habitat ist generell Sperrgebiet.",
+    "stage": "Rang 1",
+    "hp": 130,
+    "types": [
+        "Kampf"
+    ],
+    "abilities": [
+        {
+            "name": "Flauschigkeit",
+            "effect": "Diesem Pokémon werden durch Attacken der Pokémon deines Gegners, die keine {R}-Pokémon sind, 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Überkreuzzerschneider",
+            "damage": "60+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Velursi",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm4-56"
+        }
+    ],
+    "print_key": "tcgdex:sm4-56",
+    "card_key": "760|130|3|Saya Tsuruta|60+|3",
+    "types_en": [
+        "Fighting"
+    ]
+}

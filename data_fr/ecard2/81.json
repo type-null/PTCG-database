@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard2-81",
+    "name": "Tygnon",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard2/81/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-cards",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "81",
+    "set_total": 186,
+    "rarity": "Commune",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 107,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Combat"
+            ],
+            "name": "Précipitation",
+            "damage": "10×",
+            "effect": "Lancez 5 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces. Tygnon ne peut pas attaquer pendant votre prochain tour."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Ruade",
+            "damage": 50,
+            "effect": "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "x2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard2-81"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-81",
+    "card_key": "107|60|2|Tomokazu Komiya|10x,50|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

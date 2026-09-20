@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/swsh6-108",
+    "name": "Urshifu Golpe Brusco",
+    "img": "https://assets.tcgdex.net/es/swsh/swsh6/108/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "regulation": "E",
+    "set_name": "swsh6",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh6/symbol",
+    "set_full_name": "Reinado Escalofriante",
+    "series": "Espada y Escudo",
+    "set_code": "swsh6",
+    "date": "2021-06-18",
+    "number": "108",
+    "set_total": 233,
+    "rarity": "Holo Rara",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 892,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 140,
+    "types": [
+        "Oscura"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Oscura",
+                "Incolora"
+            ],
+            "name": "Arrasamiento de Campo",
+            "damage": 50,
+            "effect": "Si tu rival tiene un Estadio en juego, descártalo."
+        },
+        {
+            "cost": [
+                "Oscura",
+                "Oscura",
+                "Incolora"
+            ],
+            "name": "Puños de Lucha",
+            "damage": "100+",
+            "effect": "Si este Pokémon tiene algún contador de daño sobre él, este ataque hace 100 puntos de daño más."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Kubfu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/swsh6-108"
+        }
+    ],
+    "print_key": "tcgdex:swsh6-108",
+    "card_key": "892|140|2|Mitsuhiro Arita|50,100+|2,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

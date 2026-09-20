@@ -1,0 +1,83 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex3-90",
+    "name": "Dragoran-ex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "set_name": "ex3",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex3/symbol",
+    "set_full_name": "EX Drache",
+    "series": "EX",
+    "set_code": "ex3",
+    "date": "2003-11-24",
+    "number": "90",
+    "set_total": 100,
+    "rarity": "Selten",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 149,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 150,
+    "types": [
+        "Farblos"
+    ],
+    "abilities": [
+        {
+            "name": "Kraftruf",
+            "effect": "Du kannst in deinem Zug so oft wie du willst eine an 1 deiner Pokémon angelegte Energiekarte an Dragoran ex anlegen. Diese Poké-Power kann nicht verwendet werden, falls Dragoran ex von einem Speziellen Zustand betroffen ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Elektro"
+            ],
+            "name": "Drachenwelle",
+            "damage": 70,
+            "effect": "Entferne 1 {W}-Energiekarte und 1 {L}-Energiekarte, die an Dragoran ex angelegt sind, und lege sie auf deinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Riesenschweif",
+            "damage": 120,
+            "effect": "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze",
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Dragonir",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex3-90"
+        }
+    ],
+    "print_key": "tcgdex:ex3-90",
+    "card_key": "149|150|2|Ryo Ueda|70,120|2,4",
+    "types_en": [
+        "Colorless"
+    ]
+}

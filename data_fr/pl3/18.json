@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl3-18",
+    "name": "Camérupt",
+    "img": "https://assets.tcgdex.net/fr/pl/pl3/18/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Vainqueurs Suprêmes",
+    "series": "Platine",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "18",
+    "set_total": 162,
+    "rarity": "Rare",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 323,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Feu bougeant",
+            "damage": 30,
+            "effect": "Vous pouvez déplacer une carte Énergie Fire attachée à 1 de vos Pokémon de Banc sur Camerupt."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Écrasement volcanique",
+            "damage": 100,
+            "effect": "Lancez 3 pièces. Pour chaque pile, défaussez la carte du dessus de votre deck. Ignorez cet effet si votre adversaire possède des Pokémon Water en jeu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "+30"
+    },
+    "retreat": 4,
+    "evolve_from": "Chamallot",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl3-18"
+        }
+    ],
+    "print_key": "tcgdex:pl3-18",
+    "card_key": "323|120|4|Yukiko Baba|30,100|2,4",
+    "types_en": [
+        "Fire"
+    ]
+}

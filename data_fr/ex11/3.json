@@ -1,0 +1,82 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex11-3",
+    "name": "Dracolosse δ",
+    "img": "https://assets.tcgdex.net/fr/ex/ex11/3/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex11",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex11/symbol",
+    "set_full_name": "EX Espèces Delta",
+    "series": "EX",
+    "set_code": "ex11",
+    "date": "2005-10-31",
+    "number": "3",
+    "set_total": 114,
+    "rarity": "Rare",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 149,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 100,
+    "types": [
+        "Électrique",
+        "Métal"
+    ],
+    "abilities": [
+        {
+            "name": "Charge Delta",
+            "effect": "Une seule fois lors de votre tour (avant votre attaque), vous pouvez attacher une carte Énergie {L} de votre pile de défausse à 1 de vos Pokémon de Banc. Ce pouvoir ne peut pas être utilisé si Dracolosse est affecté par un État Spécial."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Électrique"
+            ],
+            "name": "Hâte",
+            "damage": 30,
+            "effect": "Lancez une pièce. Si c'est face, prévenez tous le effets d'une attaque, dégâts inclus, infligés à Dracolosse lors du prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Électrique",
+                "Métal"
+            ],
+            "name": "Gros impact",
+            "damage": 70,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Plante",
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Draco",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex11-3"
+        }
+    ],
+    "print_key": "tcgdex:ex11-3",
+    "card_key": "149|100|2|Ryo Ueda|30,70|2,4",
+    "types_en": [
+        "Lightning",
+        "Metal"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/xy9-119",
+    "name": "Scizor EX",
+    "img": "https://assets.tcgdex.net/it/xy/xy9/119/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "xy9",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy9/symbol",
+    "set_full_name": "Turbo Crash",
+    "series": "XY",
+    "set_code": "xy9",
+    "date": "2016-02-03",
+    "number": "119",
+    "set_total": 126,
+    "rarity": "Ultrarara",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 212,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 170,
+    "types": [
+        "Metallo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metallo"
+            ],
+            "name": "Alacciaio",
+            "damage": 20,
+            "effect": "Durante il prossimo turno del tuo avversario, i danni inflitti a questo Pokémon dagli attacchi sono ridotti di 20, dopo aver applicato debolezza e resistenza."
+        },
+        {
+            "cost": [
+                "Metallo",
+                "Metallo"
+            ],
+            "name": "Raffica di Stoccate",
+            "damage": "50+",
+            "effect": "Se questo Pokémon era in panchina ed è diventato il tuo Pokémon attivo in questo turno, questo attacco infligge 60 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fuoco"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psico"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/xy9-119"
+        }
+    ],
+    "print_key": "tcgdex:xy9-119",
+    "card_key": "212|170|2|Ryo Ueda|20,50+|1,2",
+    "types_en": [
+        "Metal"
+    ]
+}

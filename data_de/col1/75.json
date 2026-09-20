@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/col1-75",
+    "name": "Vulpix",
+    "img": "https://assets.tcgdex.net/de/col/col1/75/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "Ruf der Legenden",
+    "series": "Ruf der Legenden",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "75",
+    "set_total": 106,
+    "rarity": "Häufig",
+    "author": [
+        "TOKIYA"
+    ],
+    "pokedex_number": 37,
+    "pokemon_category": "",
+    "flavor_text": "Greift es ein größerer Gegner an, täuscht es eine Verletzung vor, um sicher vor ihm zu flüchten.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Versengung",
+            "damage": null,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verbrannt."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Glut",
+            "damage": 30,
+            "effect": "Wirf eine Münze. Bei „Zahl“ lege 1 an Vulpix angelegte {R}-Energie auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/col1-75"
+        }
+    ],
+    "print_key": "tcgdex:col1-75",
+    "card_key": "37|50|1|TOKIYA|None,30|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

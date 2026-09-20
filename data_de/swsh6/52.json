@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh6-52",
+    "name": "Voltolos",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh6/52/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh6",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh6/symbol",
+    "set_full_name": "Schaurige Herrschaft",
+    "series": "Schwert & Schild",
+    "set_code": "swsh6",
+    "date": "2021-06-18",
+    "number": "52",
+    "set_total": 233,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Souichirou Gunjima"
+    ],
+    "pokedex_number": 642,
+    "pokemon_category": "",
+    "flavor_text": "Es ist bei den Leuten verhasst, weil es auf seinen Rundflügen immer wieder Blitze erzeugt, die Waldbrände verursachen.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Helfender Funke",
+            "damage": 30,
+            "effect": "Du kannst 1 {L}-Energiekarte aus deiner Hand an 1 Pokémon auf deiner Bank anlegen."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Donner",
+            "damage": 130,
+            "effect": "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh6-52"
+        }
+    ],
+    "print_key": "tcgdex:swsh6-52",
+    "card_key": "642|120|1|Souichirou Gunjima|30,130|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

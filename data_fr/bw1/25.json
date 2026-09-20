@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw1-25",
+    "name": "Darumacho",
+    "img": "https://assets.tcgdex.net/fr/bw/bw1/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw1",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw1/symbol",
+    "set_full_name": "Noir & Blanc",
+    "series": "Noir & Blanc",
+    "set_code": "bw1",
+    "date": "2011-04-25",
+    "number": "25",
+    "set_total": 115,
+    "rarity": "Rare",
+    "author": [
+        "Naoki Saito"
+    ],
+    "pokedex_number": 555,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Feu"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feu",
+                "Incolore"
+            ],
+            "name": "Crocs Feu",
+            "damage": 20,
+            "effect": "Le Pokémon Défenseur est maintenant Brûlé."
+        },
+        {
+            "cost": [
+                "Feu",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Mania",
+            "damage": 70,
+            "effect": "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires. Si c’est pile, ce Pokémon s’inflige 20 dégâts."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Eau"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Darumarond",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw1-25"
+        }
+    ],
+    "print_key": "tcgdex:bw1-25",
+    "card_key": "555|120|2|Naoki Saito|20,70|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

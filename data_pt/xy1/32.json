@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/xy1-32",
+    "name": "Cloyster",
+    "img": "https://assets.tcgdex.net/pt/xy/xy1/32/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "set_name": "xy1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy1/symbol",
+    "set_full_name": "XY",
+    "series": "XY",
+    "set_code": "xy1",
+    "date": "2014-02-05",
+    "number": "32",
+    "set_total": 146,
+    "rarity": "Rara",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 91,
+    "pokemon_category": "",
+    "stage": "Estágio 1",
+    "hp": 100,
+    "types": [
+        "Água"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Água",
+                "Incolor"
+            ],
+            "name": "Captura Esmagadora",
+            "damage": 30,
+            "effect": "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado e uma Energia ligada a ele deverá ser descartada."
+        },
+        {
+            "cost": [
+                "Água",
+                "Água",
+                "Incolor"
+            ],
+            "name": "Canhão de Espinhos",
+            "damage": "30×",
+            "effect": "Jogue 5 moedas. Esse ataque causa 30 de danos vezes o número de caras."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Shellder",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/xy1-32"
+        }
+    ],
+    "print_key": "tcgdex:xy1-32",
+    "card_key": "91|100|3|Masakazu Fukuda|30,30x|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

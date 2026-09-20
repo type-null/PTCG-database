@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp6-72",
+    "name": "Avaltout",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp6",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp6/symbol",
+    "set_full_name": "Éveil des Légendes",
+    "series": "Diamant & Perle",
+    "set_code": "dp6",
+    "date": "2008-08-01",
+    "number": "72",
+    "set_total": 146,
+    "rarity": "Peu Commune",
+    "author": [
+        "Midori Harada"
+    ],
+    "pokedex_number": 317,
+    "pokemon_category": "",
+    "flavor_text": "Il avale tout en une bouchée. Ses follicules sécrètent des fluides toxiques qui endorment l'ennemi.",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Engloutir",
+            "damage": 30,
+            "effect": "Avant d'infliger des dégâts, comptez le nombre de PV restants au Pokémon Défenseur ainsi qu'à Avaltout. Si le Pokémon Défenseur possède moins de PV qu'Avaltout, cette attaque inflige 80 dégâts."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Détricanon",
+            "damage": 60,
+            "effect": "Le Pokémon Défenseur est maintenant Empoisonné."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "+20"
+    },
+    "retreat": 2,
+    "evolve_from": "Schluppuck",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp6-72"
+        }
+    ],
+    "print_key": "tcgdex:dp6-72",
+    "card_key": "317|90|2|Midori Harada|30,60|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

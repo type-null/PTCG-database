@@ -1,0 +1,61 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp3-112",
+    "name": "Carapuce",
+    "img": "https://assets.tcgdex.net/fr/dp/dp3/112/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp3",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp3/symbol",
+    "set_full_name": "Merveilles Secrètes",
+    "series": "Diamant & Perle",
+    "set_code": "dp3",
+    "date": "2007-11-01",
+    "number": "112",
+    "set_total": 132,
+    "rarity": "Commune",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 7,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [],
+            "name": "Écume",
+            "damage": null,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Hydroqueue",
+            "damage": "20+",
+            "effect": "Lancez une pièce pour chaque Énergie Water attachée à Carapuce. Cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "+10"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp3-112"
+        }
+    ],
+    "print_key": "tcgdex:dp3-112",
+    "card_key": "7|50|1|Kagemaru Himeno|None,20+|0,2",
+    "types_en": [
+        "Water"
+    ]
+}

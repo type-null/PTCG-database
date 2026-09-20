@@ -1,0 +1,63 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sm10-63",
+    "name": "Arbok",
+    "img": "https://assets.tcgdex.net/it/sm/sm10/63/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Legami Inossidabili",
+    "series": "Sole e Luna",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "63",
+    "set_total": 234,
+    "rarity": "Rara",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 24,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 120,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Avvolgibotta",
+            "damage": 30,
+            "effect": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Incolore"
+            ],
+            "name": "Stretta Poderosa",
+            "damage": "50+",
+            "effect": "Se questo Pokémon ha usato Avvolgibotta durante il tuo ultimo turno, questo attacco infligge 120 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sm10-63"
+        }
+    ],
+    "print_key": "tcgdex:sm10-63",
+    "card_key": "24|120|2|Yukiko Baba|30,50+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

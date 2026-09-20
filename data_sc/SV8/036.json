@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/zh-cn/cards/SV8-036",
+    "name": "自爆磁怪",
+    "img": "",
+    "card_type": "Pokemon",
+    "lang": "sc",
+    "regulation": "H",
+    "set_name": "SV8",
+    "set_full_name": "超電突圍",
+    "series": "朱&紫",
+    "set_code": "SV8",
+    "date": "2024-10-25",
+    "number": "036",
+    "set_total": 106,
+    "rarity": "Uncommon",
+    "author": [
+        "Po-Suzuki"
+    ],
+    "pokedex_number": 462,
+    "pokemon_category": "",
+    "flavor_text": "在特殊磁場的影響下， 三合一磁怪的分子構造受到重組， 從而進化成了自爆磁怪。",
+    "stage": "Stage2",
+    "hp": 170,
+    "types": [
+        "Lightning"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "強勁磁場",
+            "damage": 80,
+            "effect": "將對手的戰鬥寶可夢【混亂】。在下個對手的回合，受到這個招式的寶可夢無法撤退。"
+        },
+        {
+            "cost": [
+                "Lightning",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "電磁炮",
+            "damage": 180,
+            "effect": "在下個自己的回合，這隻寶可夢無法使用「電磁炮」。"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Fighting"
+        ],
+        "value": "x2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/zh-cn/cards/SV8-036"
+        }
+    ],
+    "print_key": "asia:SV8-36",
+    "card_key": "462|170|3|Po-Suzuki|80,180|3,4",
+    "types_en": [
+        "Lightning"
+    ]
+}

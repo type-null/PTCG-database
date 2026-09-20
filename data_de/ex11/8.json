@@ -1,0 +1,82 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex11-8",
+    "name": "Latias δ",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex11",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex11/symbol",
+    "set_full_name": "EX Delta Species",
+    "series": "EX",
+    "set_code": "ex11",
+    "date": "2005-10-31",
+    "number": "8",
+    "set_total": 114,
+    "rarity": "Selten",
+    "author": [
+        "Ryo Ueda"
+    ],
+    "pokedex_number": 380,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 70,
+    "types": [
+        "Elektro",
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Delta-Aura",
+            "effect": "Wenn du Latios oder Latios ex im Spiel hast, kostet Latias Extra Zerschmettern nur noch   ."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Metall"
+            ],
+            "name": "Spiralsauger",
+            "damage": 20,
+            "effect": "Entferne 2 Schadensmarken von Latias."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos",
+                "Farblos",
+                "Elektro",
+                "Metall"
+            ],
+            "name": "Extra Zerschmettern",
+            "damage": 80,
+            "effect": "Wenn dein Gegner keine Pokémon-ex im Spiel hat, hat dieser Angriff keine Auswirkung."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho",
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex11-8"
+        }
+    ],
+    "print_key": "tcgdex:ex11-8",
+    "card_key": "380|70|1|Ryo Ueda|20,80|2,5",
+    "types_en": [
+        "Lightning",
+        "Metal"
+    ]
+}

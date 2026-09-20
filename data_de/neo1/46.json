@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo1-46",
+    "name": "Igelavar",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "46",
+    "set_total": 111,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 156,
+    "pokemon_category": "",
+    "flavor_text": "Dieses Pokémon ist vollkommen von nicht feuerfestem Fell bedeckt. Es kann jeder Art von Feuerangriff widerstehen.",
+    "stage": "Rang 1",
+    "hp": 60,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Glut",
+            "damage": 30,
+            "effect": "Lege eine an Igelavar angelegte {R}-Energiekarte ab, um diesen Angriff zu verwenden."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Feuerwind",
+            "damage": 20,
+            "effect": "Falls dein Gegner mindestens ein Pokémon auf der Bank hat, wähle eines von ihnen. Wirf zwei Münzen. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte mal der Anzahl „Kopf“ zu. (Wende Schwäche und Resistenz nicht an.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Feurigel",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo1-46"
+        }
+    ],
+    "print_key": "tcgdex:neo1-46",
+    "card_key": "156|60|1|Ken Sugimori|30,20|2,2",
+    "types_en": [
+        "Fire"
+    ]
+}

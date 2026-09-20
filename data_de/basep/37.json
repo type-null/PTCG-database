@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/basep-37",
+    "name": "Kapoera",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "basep",
+    "set_img": "https://assets.tcgdex.net/univ/base/basep/symbol",
+    "set_full_name": "Wizards Black Star Promos",
+    "series": "Grund",
+    "set_code": "basep",
+    "date": "1999-07-01",
+    "number": "37",
+    "set_total": 53,
+    "rarity": "Häufig",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 237,
+    "pokemon_category": "",
+    "flavor_text": "Es verteilt Tritte, während es sich dreht. Wenn es sich zu schnell dreht, kann es passieren, dass es sich in den Boden hineinschraubt.",
+    "stage": "Basis",
+    "hp": 60,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Dauertritte",
+            "damage": "20×",
+            "effect": "Wirf eine Münze, bis „Zahl“ kommt. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Turbodreher",
+            "damage": 30,
+            "effect": "Wenn dein Gegner mindestens ein Pokémon auf seiner Bank hat, wählt er eines davon und tauscht es mit seinem aktiven Pokémon aus. (Füge die Schadenspunkte vor dem Austauschen der Pokémon zu.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/basep-37"
+        }
+    ],
+    "print_key": "tcgdex:basep-37",
+    "card_key": "237|60|1|Atsuko Nishida|20x,30|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

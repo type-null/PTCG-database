@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv05-111",
+    "name": "Scherox-ex",
+    "img": "https://assets.tcgdex.net/de/sv/sv05/111/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "ex"
+    ],
+    "regulation": "H",
+    "set_name": "sv05",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv05/symbol",
+    "set_full_name": "Gewalten der Zeit",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv05",
+    "date": "2024-03-22",
+    "number": "111",
+    "set_total": 218,
+    "rarity": "Doppelselten",
+    "author": [
+        "toriyufu"
+    ],
+    "pokedex_number": 212,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 270,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Stahlflügel",
+            "damage": 70,
+            "effect": "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 50 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Metall"
+            ],
+            "name": "Cross-Brecher",
+            "damage": "120×",
+            "effect": "Lege bis zu 2 {M}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 120 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Sichlor",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv05-111"
+        }
+    ],
+    "print_key": "tcgdex:sv05-111",
+    "card_key": "212|270|2|toriyufu|70,120x|2,2",
+    "types_en": [
+        "Metal"
+    ]
+}

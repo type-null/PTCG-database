@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/hgss4-23",
+    "name": "Groret",
+    "img": "https://assets.tcgdex.net/fr/hgss/hgss4/23/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "hgss4",
+    "set_img": "https://assets.tcgdex.net/univ/hgss/hgss4/symbol",
+    "set_full_name": "Triomphant",
+    "series": "HeartGold SoulSilver",
+    "set_code": "hgss4",
+    "date": "2010-11-03",
+    "number": "23",
+    "set_total": 103,
+    "rarity": "Rare",
+    "author": [
+        "Yukiko Baba"
+    ],
+    "pokedex_number": 326,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Verrou psy",
+            "damage": 20,
+            "effect": "Votre adversaire ne peut utiliser aucun Poké-Power sur ses Pokémon lors de son prochain tour."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Manipulation de Banc",
+            "damage": "40×",
+            "effect": "Votre adversaire lance une pièce pour chacun de ses Pokémon de Banc. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés pile. Les dégâts infligés par cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Spoink",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/hgss4-23"
+        }
+    ],
+    "print_key": "tcgdex:hgss4-23",
+    "card_key": "326|90|2|Yukiko Baba|20,40x|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

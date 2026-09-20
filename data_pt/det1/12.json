@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/det1-12",
+    "name": "Mewtwo",
+    "img": "https://assets.tcgdex.net/pt/sm/det1/12/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "set_name": "det1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/det1/symbol",
+    "set_full_name": "Detetive Pikachu",
+    "series": "Sol e Lua",
+    "set_code": "det1",
+    "date": "2019-03-29",
+    "number": "12",
+    "set_total": 18,
+    "rarity": "Ultra Rara",
+    "author": [
+        "MPC Film"
+    ],
+    "pokedex_number": 150,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 130,
+    "types": [
+        "Psíquico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psíquico",
+                "Incolor"
+            ],
+            "name": "Tomada Psíquica",
+            "damage": 30,
+            "effect": "Escolha 1 dos ataques do Pokémon Ativo do seu oponente. Aquele Pokémon não poderá usar aquele ataque durante a próxima vez de jogar do seu oponente."
+        },
+        {
+            "cost": [
+                "Psíquico",
+                "Psíquico",
+                "Incolor"
+            ],
+            "name": "Queimadura Destruidora",
+            "damage": 130,
+            "effect": "Descarte 2 Energias Psychic deste Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psíquico"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/det1-12"
+        }
+    ],
+    "print_key": "tcgdex:det1-12",
+    "card_key": "150|130|2|MPC Film|30,130|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

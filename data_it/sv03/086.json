@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/sv03-086",
+    "name": "Espeon",
+    "img": "https://assets.tcgdex.net/it/sv/sv03/086/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "G",
+    "set_name": "sv03",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03/symbol",
+    "set_full_name": "Ossidiana Infuocata",
+    "series": "Scarlatto e Violetto",
+    "set_code": "sv03",
+    "date": "2023-08-11",
+    "number": "086",
+    "set_total": 230,
+    "rarity": "Non comune",
+    "author": [
+        "Cona Nitanda"
+    ],
+    "pokedex_number": 196,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 110,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psico"
+            ],
+            "name": "Psicoassalto",
+            "damage": "30+",
+            "effect": "Questo attacco infligge 10 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Incolore"
+            ],
+            "name": "Psico",
+            "damage": 60,
+            "effect": "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscurità"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "evolve_from": "Eevee",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/sv03-086"
+        }
+    ],
+    "print_key": "tcgdex:sv03-86",
+    "card_key": "196|110|1|Cona Nitanda|30+,60|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy11-55",
+    "name": "Tarinorme",
+    "img": "https://assets.tcgdex.net/fr/xy/xy11/55/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Offensive Vapeur",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "55",
+    "set_total": 116,
+    "rarity": "Rare",
+    "author": [
+        "MAHOU"
+    ],
+    "pokedex_number": 476,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Retour à l'Envoyeur",
+            "damage": 40,
+            "effect": "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tomberoche",
+            "damage": 80,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Tarinor",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy11-55"
+        }
+    ],
+    "print_key": "tcgdex:xy11-55",
+    "card_key": "476|120|4|MAHOU|40,80|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

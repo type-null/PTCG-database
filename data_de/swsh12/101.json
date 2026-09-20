@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh12-101",
+    "name": "Humanolith",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh12/101/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "F",
+    "set_name": "swsh12",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12/symbol",
+    "set_full_name": "Silberne Sturmwinde",
+    "series": "Schwert & Schild",
+    "set_code": "swsh12",
+    "date": "2022-11-11",
+    "number": "101",
+    "set_total": 215,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Hataya"
+    ],
+    "pokedex_number": 874,
+    "pokemon_category": "",
+    "flavor_text": "Es verweilt auf weitläufigen Wiesen und beobachtet den Lauf der Sonne. Dynamische Trittangriffe sind sein Spezialgebiet.",
+    "stage": "Basis",
+    "hp": 130,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf"
+            ],
+            "name": "Steinwurf",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Geheimnisvoller Druck",
+            "damage": "60+",
+            "effect": "Wenn du keine Unterstützerkarten in deinem Ablagestapel hast, fügt diese Attacke 130 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh12-101"
+        }
+    ],
+    "print_key": "tcgdex:swsh12-101",
+    "card_key": "874|130|3|Hataya|20,60+|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

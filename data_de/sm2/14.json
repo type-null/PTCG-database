@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm2-14",
+    "name": "Choreogel",
+    "img": "https://assets.tcgdex.net/de/sm/sm2/14/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm2",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm2/symbol",
+    "set_full_name": "Stunde der Wächter",
+    "series": "Sonne & Mond",
+    "set_code": "sm2",
+    "date": "2017-05-05",
+    "number": "14",
+    "set_total": 169,
+    "rarity": "Selten",
+    "author": [
+        "Shin Nagasawa"
+    ],
+    "pokedex_number": 741,
+    "pokemon_category": "",
+    "flavor_text": "Schlägt es mit den Flügeln, gibt es Zunder! Mit eleganten Ausfallschritten lässt es dann Feuer auf seine Gegner herabregnen.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Feuer"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Euphorischer Tanz",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu 3 {R}-Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Feuer"
+            ],
+            "name": "Anzünden",
+            "damage": 30,
+            "effect": "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel. Wenn du das machst, lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm2-14"
+        }
+    ],
+    "print_key": "tcgdex:sm2-14",
+    "card_key": "741|90|1|Shin Nagasawa|None,30|1,2",
+    "types_en": [
+        "Fire"
+    ]
+}

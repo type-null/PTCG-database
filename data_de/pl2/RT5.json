@@ -1,0 +1,76 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl2-RT5",
+    "name": "Wasch-Rotom",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl2",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl2/symbol",
+    "set_full_name": "Aufstieg der Rivalen",
+    "series": "Platin",
+    "set_code": "pl2",
+    "date": "2009-05-16",
+    "number": "RT5",
+    "set_total": 120,
+    "rarity": "Selten",
+    "author": [
+        "Hiroki Fuchino"
+    ],
+    "pokedex_number": 479,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Wasch-Wechsel",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power benutzen. Wasch-Rotoms Typ ist {W} bis zum Ende des Zuges."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wunden lecken",
+            "damage": null,
+            "effect": "Entferne 3 Schadensmarken von jedem Pokémon auf deiner Bank."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos"
+            ],
+            "name": "Wasch-Sauger",
+            "damage": 30,
+            "effect": "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Wähle für jedes Mal, wenn die Münze „Kopf“ gezeigt hat, eine Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Dein Gegner legt die gewählte Karte auf seinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl2-RT5"
+        }
+    ],
+    "print_key": "tcgdex:pl2-RT5",
+    "card_key": "479|90|2|Hiroki Fuchino|None,30|2,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

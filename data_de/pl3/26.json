@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl3-26",
+    "name": "Zwirrfinst FB",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Ultimative Sieger",
+    "series": "Platin",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "26",
+    "set_total": 153,
+    "rarity": "Selten",
+    "author": [
+        "Motofumi Fujiwara"
+    ],
+    "pokedex_number": 477,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Geisterhand",
+            "damage": 30,
+            "effect": "Lege 1 Schadensmarke auf 1 Pokémon auf deiner Bank."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Zornesfluch",
+            "damage": "10x",
+            "effect": "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl der Pokémon SP in deinem Ablagestapel zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl3-26"
+        }
+    ],
+    "print_key": "tcgdex:pl3-26",
+    "card_key": "477|90|2|Motofumi Fujiwara|30,10x|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

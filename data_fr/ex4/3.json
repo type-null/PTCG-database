@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex4-3",
+    "name": "Kyogre de Team Aqua",
+    "img": "https://assets.tcgdex.net/fr/ex/ex4/3/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex4",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex4/symbol",
+    "set_full_name": "EX Team Magma vs Team Aqua",
+    "series": "EX",
+    "set_code": "ex4",
+    "date": "2004-03-01",
+    "number": "3",
+    "set_total": 97,
+    "rarity": "Holo Rare",
+    "author": [
+        "K. Hoshiba"
+    ],
+    "pokedex_number": 382,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Eau",
+        "Obscurité"
+    ],
+    "abilities": [
+        {
+            "name": "Économisateur de puissance",
+            "effect": "Tant que jusqu'à 3 Pokémon (les vôtres et ceux de votre adversaire) dont les noms comportent Team Aqua sont en jeu, Kyogre de Team Aqua ne peut pas attaquer."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Aqua croche-pied",
+            "damage": 10,
+            "effect": "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus. Si c'est pile, le Pokémon Défenseur est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Eau",
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Aqua-choc",
+            "damage": "50+",
+            "effect": "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex4-3"
+        }
+    ],
+    "print_key": "tcgdex:ex4-3",
+    "card_key": "382|100|3|K. Hoshiba|10,50+|2,3",
+    "types_en": [
+        "Water",
+        "Darkness"
+    ]
+}

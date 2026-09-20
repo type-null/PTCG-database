@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ecard2-57",
+    "name": "Insécateur",
+    "img": "https://assets.tcgdex.net/fr/ecard/ecard2/57/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ecard2",
+    "set_img": "https://assets.tcgdex.net/univ/ecard/ecard2/symbol",
+    "set_full_name": "Aquapolis",
+    "series": "e-cards",
+    "set_code": "ecard2",
+    "date": "2003-01-15",
+    "number": "57",
+    "set_total": 186,
+    "rarity": "Peu Commune",
+    "author": [
+        "Hisao Nakamura"
+    ],
+    "pokedex_number": 123,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 60,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Vif retournement",
+            "damage": "10×",
+            "effect": "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Coupe transversale",
+            "damage": "20+",
+            "effect": "Si le Pokémon Défenseur est une Évolution, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ecard2-57"
+        }
+    ],
+    "print_key": "tcgdex:ecard2-57",
+    "card_key": "123|60|1|Hisao Nakamura|10x,20+|1,3",
+    "types_en": [
+        "Grass"
+    ]
+}

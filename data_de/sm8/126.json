@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm8-126",
+    "name": "Scherox",
+    "img": "https://assets.tcgdex.net/de/sm/sm8/126/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Echo des Donners",
+    "series": "Sonne & Mond",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "126",
+    "set_total": 236,
+    "rarity": "Selten",
+    "author": [
+        "Anesaki Dynamic"
+    ],
+    "pokedex_number": 212,
+    "pokemon_category": "",
+    "flavor_text": "Sobald es einen Gegner bemerkt, schlägt es ihn mit seinen stahlharten Scheren erbarmungslos nieder.",
+    "stage": "Rang 1",
+    "hp": 120,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Exoskelett",
+            "effect": "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Spezialschlag",
+            "damage": "60+",
+            "effect": "Wenn an das Aktive Pokémon deines Gegners mindestens 1 Spezial-Energie angelegt ist, fügt diese Attacke 70 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Sichlor",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm8-126"
+        }
+    ],
+    "print_key": "tcgdex:sm8-126",
+    "card_key": "212|120|1|Anesaki Dynamic|60+|2",
+    "types_en": [
+        "Metal"
+    ]
+}

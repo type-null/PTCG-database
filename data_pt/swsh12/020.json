@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/pt/cards/swsh12-020",
+    "name": "Arcanine",
+    "img": "https://assets.tcgdex.net/pt/swsh/swsh12/020/high.webp",
+    "card_type": "Pokémon",
+    "lang": "pt",
+    "regulation": "F",
+    "set_name": "swsh12",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh12/symbol",
+    "set_full_name": "Tempestade Prateada",
+    "series": "Espada e Escudo",
+    "set_code": "swsh12",
+    "date": "2022-11-11",
+    "number": "020",
+    "set_total": 215,
+    "rarity": "Rara",
+    "author": [
+        "OKACHEKE"
+    ],
+    "pokedex_number": 59,
+    "pokemon_category": "",
+    "stage": "Estágio 1",
+    "hp": 140,
+    "types": [
+        "Fogo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolor"
+            ],
+            "name": "Manto de Chamas",
+            "damage": 30,
+            "effect": "Ligue 1 carta de Energia Fire da sua pilha de descarte a este Pokémon."
+        },
+        {
+            "cost": [
+                "Fogo",
+                "Fogo",
+                "Incolor"
+            ],
+            "name": "Investida de Luta",
+            "damage": "100+",
+            "effect": "Se o Pokémon Ativo do seu oponente for um Pokémon V, este ataque causará 100 pontos de dano a mais."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Água"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Growlithe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/pt/cards/swsh12-020"
+        }
+    ],
+    "print_key": "tcgdex:swsh12-20",
+    "card_key": "59|140|3|OKACHEKE|30,100+|1,3",
+    "types_en": [
+        "Fire"
+    ]
+}

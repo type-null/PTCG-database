@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv08-092",
+    "name": "Kapu-Fala",
+    "img": "https://assets.tcgdex.net/de/sv/sv08/092/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "H",
+    "set_name": "sv08",
+    "set_full_name": "Stürmische Funken",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv08",
+    "date": "2024-11-08",
+    "number": "092",
+    "set_total": 252,
+    "rarity": "Selten",
+    "author": [
+        "Natsumi Yoshida"
+    ],
+    "pokedex_number": 786,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 110,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Perplex",
+            "damage": 20,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Mentaler Zermalmer",
+            "damage": "90+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners verwirrt ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv08-092"
+        }
+    ],
+    "print_key": "tcgdex:sv08-92",
+    "card_key": "786|110|1|Natsumi Yoshida|20,90+|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

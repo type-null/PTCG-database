@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh6-107",
+    "name": "Cerapendra",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh6/107/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh6",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh6/symbol",
+    "set_full_name": "Schaurige Herrschaft",
+    "series": "Schwert & Schild",
+    "set_code": "swsh6",
+    "date": "2021-06-18",
+    "number": "107",
+    "set_total": 233,
+    "rarity": "Selten",
+    "author": [
+        "Megumi Higuchi"
+    ],
+    "pokedex_number": 545,
+    "pokemon_category": "",
+    "flavor_text": "Holt Gegner flinken Fußes ein und greift sie mit den Hörnern an seinem Kopf an. Gnade ist ihm ein Fremdwort.",
+    "stage": "Rang 2",
+    "hp": 160,
+    "types": [
+        "Unlicht"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Unlicht"
+            ],
+            "name": "Giftstachel",
+            "damage": 50,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+        },
+        {
+            "cost": [
+                "Unlicht",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Giftschock",
+            "damage": "100+",
+            "effect": "Wenn das Aktive Pokémon deines Gegners vergiftet ist, fügt diese Attacke 120 Schadenspunkte mehr zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "evolve_from": "Rollum",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh6-107"
+        }
+    ],
+    "print_key": "tcgdex:swsh6-107",
+    "card_key": "545|160|3|Megumi Higuchi|50,100+|1,3",
+    "types_en": [
+        "Darkness"
+    ]
+}

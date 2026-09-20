@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw5-46",
+    "name": "Zapplalek",
+    "img": "https://assets.tcgdex.net/de/bw/bw5/46/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw5",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw5/symbol",
+    "set_full_name": "Erforscher der Finsternis",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw5",
+    "date": "2012-05-09",
+    "number": "46",
+    "set_total": 111,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 603,
+    "pokemon_category": "",
+    "flavor_text": "Hat es seine Beute erspäht, lähmt es sie mit Elektrizität und verspeist sie anschließend.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Elektro"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Kopfnuss",
+            "damage": 20,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Schock-Blitz",
+            "damage": 80,
+            "effect": "Lege alle an dieses Pokémon angelegten {L}-Energien auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Zapplardin",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw5-46"
+        }
+    ],
+    "print_key": "tcgdex:bw5-46",
+    "card_key": "603|90|2|Kagemaru Himeno|20,80|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

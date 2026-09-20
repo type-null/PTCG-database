@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/smp-SM68",
+    "name": "Voltriant GX",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "smp",
+    "set_img": "https://assets.tcgdex.net/univ/sm/smp/symbol",
+    "set_full_name": "SM Promokarten",
+    "series": "Sonne & Mond",
+    "set_code": "smp",
+    "date": "2017-02-03",
+    "number": "SM68",
+    "set_total": 248,
+    "rarity": "Promo",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 796,
+    "pokemon_category": "",
+    "hp": 180,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Leuchtender Kopf",
+            "effect": "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Pokémon deines Gegners, an die mindestens 1 Spezial-Energie angelegt ist, zugefügt wird."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Rumpelnde Kabel",
+            "damage": 100,
+            "effect": "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+        },
+        {
+            "cost": [
+                "Elektro"
+            ],
+            "name": "Beleuchten GX",
+            "damage": null,
+            "effect": "Dein Gegner zeigt dir seine Handkarten. Füge 1 Karte, die du dort findest, verdeckt seinen Preiskarten hinzu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/smp-SM68"
+        }
+    ],
+    "print_key": "tcgdex:smp-SM68",
+    "card_key": "796|180|2|5ban Graphics|100,None|3,1",
+    "types_en": [
+        "Lightning"
+    ]
+}

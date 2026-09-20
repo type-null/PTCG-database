@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp2-87",
+    "name": "Embrylex",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp2",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp2/symbol",
+    "set_full_name": "Trésors Mystérieux",
+    "series": "Diamant & Perle",
+    "set_code": "dp2",
+    "date": "2007-08-01",
+    "number": "87",
+    "set_total": 124,
+    "rarity": "Commune",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 246,
+    "pokemon_category": "",
+    "flavor_text": "Un Pokémon qui se nourrit de terre. Après avoir dévoré une montagne, il s'endort pour grandir.",
+    "stage": "Base",
+    "hp": 50,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Morsure des montagnes",
+            "damage": "10+",
+            "effect": "Vous pouvez défausser la carte du dessus de votre deck. Cette attaque inflige alors 10 dégâts plus 10 dégâts supplémentaires et Embrylex est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Enfoncer",
+            "damage": 20,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "+10"
+    },
+    "resistance": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp2-87"
+        }
+    ],
+    "print_key": "tcgdex:dp2-87",
+    "card_key": "246|50|1|Masakazu Fukuda|10+,20|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

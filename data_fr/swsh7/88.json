@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/swsh7-88",
+    "name": "Gigalithe",
+    "img": "https://assets.tcgdex.net/fr/swsh/swsh7/88/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "E",
+    "set_name": "swsh7",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh7/symbol",
+    "set_full_name": "Évolution Céleste",
+    "series": "Épée et Bouclier",
+    "set_code": "swsh7",
+    "date": "2021-08-27",
+    "number": "88",
+    "set_total": 237,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 526,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 180,
+    "types": [
+        "Combat"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Combat"
+            ],
+            "name": "Pression de Garde",
+            "damage": 50,
+            "effect": "Pendant le prochain tour de votre adversaire, ce Pokémon subit 50 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Combat",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Tir Sous Pression",
+            "damage": 180,
+            "effect": "Ce Pokémon s'inflige aussi 10 dégâts pour chaque marqueur de dégâts placé sur lui."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 4,
+    "evolve_from": "Géolithe",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/swsh7-88"
+        }
+    ],
+    "print_key": "tcgdex:swsh7-88",
+    "card_key": "526|180|4|Masakazu Fukuda|50,180|1,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

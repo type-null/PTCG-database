@@ -1,0 +1,80 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm8-222",
+    "name": "Symvolara GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm8/222/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm8",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm8/symbol",
+    "set_full_name": "Echo des Donners",
+    "series": "Sonne & Mond",
+    "set_code": "sm8",
+    "date": "2018-11-02",
+    "number": "222",
+    "set_total": 236,
+    "rarity": "Versteckt Selten",
+    "author": [
+        "PLANETA Igarashi"
+    ],
+    "pokedex_number": 561,
+    "pokemon_category": "",
+    "hp": 170,
+    "types": [
+        "Psycho"
+    ],
+    "abilities": [
+        {
+            "name": "Spiegelkonter",
+            "effect": "Wenn dieses Pokémon dein Aktives Pokémon ist und durch eine Attacke von Pokémon-GX oder Pokémon-EX deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege der Höhe des zugefügten Schadens entsprechend Schadensmarken auf das Angreifende Pokémon."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Überschallflügel",
+            "damage": 80,
+            "effect": "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Abfangen-GX",
+            "damage": "60×",
+            "effect": "Diese Attacke fügt 60 Schadenspunkte mal der Anzahl der an das Aktive Pokémon deines Gegners angelegten Energien zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm8-222"
+        }
+    ],
+    "print_key": "tcgdex:sm8-222",
+    "card_key": "561|170|2|PLANETA Igarashi|80,60x|3,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

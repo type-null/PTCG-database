@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/30th-064",
+    "name": "Mewtwo-ex",
+    "img": "https://assets.tcgdex.net/fr/me/30th/064/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "30th",
+    "set_full_name": "30ᵉ Anniversaire",
+    "series": "Méga-Évolution",
+    "set_code": "30th",
+    "date": "2026-09-16",
+    "number": "064",
+    "set_total": 158,
+    "rarity": "Double rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "stage": "Base",
+    "hp": 230,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy",
+                "Psy"
+            ],
+            "name": "Projectiles Photons",
+            "damage": null,
+            "effect": "Cette attaque inflige 50 dégâts à chacun des Pokémon-<em>ex</em> de votre adversaire. <em>(N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)</em>"
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Psy"
+            ],
+            "name": "Pouvoirs Psychiques",
+            "damage": 230,
+            "effect": "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser d'attaques."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/30th-064"
+        }
+    ],
+    "print_key": "tcgdex:30th-64",
+    "card_key": "150|230|2|5ban Graphics|None,230|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

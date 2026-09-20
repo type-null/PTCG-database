@@ -1,0 +1,73 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sm11-238",
+    "name": "Heatran GX",
+    "img": "https://assets.tcgdex.net/de/sm/sm11/238/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm11",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm11/symbol",
+    "set_full_name": "Bund der Gleichgesinnten",
+    "series": "Sonne & Mond",
+    "set_code": "sm11",
+    "date": "2019-08-02",
+    "number": "238",
+    "set_total": 258,
+    "rarity": "Versteckt Selten",
+    "author": [
+        "ConceptLab"
+    ],
+    "pokedex_number": 485,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 190,
+    "types": [
+        "Feuer"
+    ],
+    "abilities": [
+        {
+            "name": "Brennender Weg",
+            "effect": "Einmal während deines Zuges, wenn dieses Pokémon von deiner Bank in die Position des Aktiven Pokémon wechselt, kannst du beliebig viele {R}-Energien von deinen anderen Pokémon auf dieses Pokémon verschieben."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Feuer",
+                "Feuer",
+                "Farblos"
+            ],
+            "name": "Dampfstampfer",
+            "damage": 130,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Feuer"
+            ],
+            "name": "Hitzebrand-GX",
+            "damage": "50×",
+            "effect": "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten {R}-Energien zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Wasser"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sm11-238"
+        }
+    ],
+    "print_key": "tcgdex:sm11-238",
+    "card_key": "485|190|3|ConceptLab|130,50x|3,1",
+    "types_en": [
+        "Fire"
+    ]
+}

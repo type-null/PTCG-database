@@ -1,0 +1,78 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl1-1",
+    "name": "Ampharos",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platin",
+    "series": "Platin",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "1",
+    "set_total": 133,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Atsuko Nishida"
+    ],
+    "pokedex_number": 181,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Elektro"
+    ],
+    "abilities": [
+        {
+            "name": "Schadensfessel",
+            "effect": "Pokémon (deine und die deines Gegners), auf denen mindestens 1 Schadensmarke liegt, können keine Poké-Power benutzen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Farblos"
+            ],
+            "name": "Gigavolt",
+            "damage": "30+",
+            "effect": "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu. Bei „Zahl“ ist das Verteidigende Pokémon jetzt gelähmt."
+        },
+        {
+            "cost": [
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Energiereflektion",
+            "damage": 70,
+            "effect": "Entferne 1 an Ampharos angelegte Energiekarte und lege sie an 1 Pokémon auf deiner Bank an."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Metall"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Waaty",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl1-1"
+        }
+    ],
+    "print_key": "tcgdex:pl1-1",
+    "card_key": "181|130|2|Atsuko Nishida|30+,70|2,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

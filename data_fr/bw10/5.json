@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw10-5",
+    "name": "Tropius",
+    "img": "https://assets.tcgdex.net/fr/bw/bw10/5/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw10",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw10/symbol",
+    "set_full_name": "Explosion Plasma",
+    "series": "Noir & Blanc",
+    "set_code": "bw10",
+    "date": "2013-08-14",
+    "number": "5",
+    "set_total": 105,
+    "rarity": "Peu Commune",
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "pokedex_number": 357,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 100,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Retour",
+            "damage": 10,
+            "effect": "Piochez des cartes jusqu'à ce que vous ayez 6 cartes en main."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Pression Énergétique",
+            "damage": 20,
+            "effect": "Inflige 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw10-5"
+        }
+    ],
+    "print_key": "tcgdex:bw10-5",
+    "card_key": "357|100|1|Shigenori Negishi|10,20|1,2",
+    "types_en": [
+        "Grass"
+    ]
+}

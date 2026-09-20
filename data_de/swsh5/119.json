@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/swsh5-119",
+    "name": "Sen-Long",
+    "img": "https://assets.tcgdex.net/de/swsh/swsh5/119/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "E",
+    "set_name": "swsh5",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh5/symbol",
+    "set_full_name": "Kampfstile",
+    "series": "Schwert & Schild",
+    "set_code": "swsh5",
+    "date": "2021-03-19",
+    "number": "119",
+    "set_total": 183,
+    "rarity": "Selten",
+    "author": [
+        "Eri Yamaki"
+    ],
+    "pokedex_number": 780,
+    "pokemon_category": "",
+    "flavor_text": "Ein zutrauliches und gutmütiges Pokémon. Wird es jedoch wütend, beschwört es heftige Stürme herauf, die alles und jeden davonfegen.",
+    "stage": "Basis",
+    "hp": 120,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Familienruf",
+            "damage": null,
+            "effect": "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+        },
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Spiralsturmangriff",
+            "damage": "30+",
+            "effect": "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 30 Schadenspunkte mehr pro Kopf zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/swsh5-119"
+        }
+    ],
+    "print_key": "tcgdex:swsh5-119",
+    "card_key": "780|120|2|Eri Yamaki|None,30+|1,2",
+    "types_en": [
+        "Colorless"
+    ]
+}

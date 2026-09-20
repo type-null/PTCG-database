@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/swsh1-88",
+    "name": "Musharna",
+    "img": "https://assets.tcgdex.net/it/swsh/swsh1/88/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "regulation": "D",
+    "set_name": "swsh1",
+    "set_img": "https://assets.tcgdex.net/univ/swsh/swsh1/symbol",
+    "set_full_name": "Spada e Scudo",
+    "series": "Spada e Scudo",
+    "set_code": "swsh1",
+    "date": "2020-02-07",
+    "number": "88",
+    "set_total": 216,
+    "rarity": "Rara",
+    "author": [
+        "MAHOU"
+    ],
+    "pokedex_number": 518,
+    "pokemon_category": "",
+    "stage": "Livello 1",
+    "hp": 120,
+    "types": [
+        "Psico"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Dormipulsar",
+            "damage": null,
+            "effect": "Il Pokémon attivo del tuo avversario viene addormentato. Durante il controllo Pokémon, il tuo avversario lancia due volte una moneta invece di una. Se esce almeno una volta croce, quel Pokémon resta addormentato."
+        },
+        {
+            "cost": [
+                "Psico",
+                "Incolore"
+            ],
+            "name": "Super Ipnobomba",
+            "damage": "10+",
+            "effect": "Se il Pokémon attivo del tuo avversario è addormentato, questo attacco infligge 120 danni in più."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Oscurità"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lotta"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "evolve_from": "Munna",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/swsh1-88"
+        }
+    ],
+    "print_key": "tcgdex:swsh1-88",
+    "card_key": "518|120|3|MAHOU|None,10+|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

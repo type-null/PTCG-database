@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-50",
+    "name": "Spectrum",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "50",
+    "set_total": 130,
+    "rarity": "Peu Commune",
+    "author": [
+        "Naoyo Kimura"
+    ],
+    "pokedex_number": 93,
+    "pokemon_category": "",
+    "flavor_text": "Il peut traverser n'importe quel obstacle. Il rôde dans les murs pour surveiller ses ennemis.",
+    "stage": "Niveau 1",
+    "hp": 70,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Hypnose",
+            "damage": null,
+            "effect": "Le Pokémon Défenseur est maintenant Endormi."
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy"
+            ],
+            "name": "Dévorêve",
+            "damage": 60,
+            "effect": "Si le Pokémon Défenseur n'est pas Endormi, cette attaque est sans effet."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "-20"
+    },
+    "evolve_from": "Fantominus",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-50"
+        }
+    ],
+    "print_key": "tcgdex:dp1-50",
+    "card_key": "93|70|None|Naoyo Kimura|None,60|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

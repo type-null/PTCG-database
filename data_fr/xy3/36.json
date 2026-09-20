@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy3-36",
+    "name": "Hypnomade",
+    "img": "https://assets.tcgdex.net/fr/xy/xy3/36/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy3",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy3/symbol",
+    "set_full_name": "Poings Furieux",
+    "series": "XY",
+    "set_code": "xy3",
+    "date": "2014-08-13",
+    "number": "36",
+    "set_total": 114,
+    "rarity": "Rare",
+    "author": [
+        "Shigenori Negishi"
+    ],
+    "pokedex_number": 97,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 90,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psy"
+            ],
+            "name": "Main Contrôlée",
+            "damage": null,
+            "effect": "Votre adversaire montre sa main. Vous pouvez choisir une carte Supporter que vous y trouvez. Dans ce cas, votre adversaire joue la carte Supporter. Cependant, vous prenez toutes les décisions relatives à la carte. (La carte Supporter est défaussée.)"
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Psy"
+            ],
+            "name": "Hypnoblast",
+            "damage": 60,
+            "effect": "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psy"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Soporifik",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy3-36"
+        }
+    ],
+    "print_key": "tcgdex:xy3-36",
+    "card_key": "97|90|2|Shigenori Negishi|None,60|1,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

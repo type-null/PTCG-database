@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/pl3-17",
+    "name": "Smettbo FB",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "pl3",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl3/symbol",
+    "set_full_name": "Ultimative Sieger",
+    "series": "Platin",
+    "set_code": "pl3",
+    "date": "2009-08-19",
+    "number": "17",
+    "set_total": 153,
+    "rarity": "Selten",
+    "author": [
+        "Lee HyunJung"
+    ],
+    "pokedex_number": 12,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Pflanze"
+    ],
+    "abilities": [
+        {
+            "name": "Facettenauge",
+            "effect": "Wenn das Aktive Pokémon deines Gegners mindestens 1 Poké-Body hat, fügen alle Angriffe von Smettbo FB den Aktiven Pokémon 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Auswahlpuder",
+            "damage": 30,
+            "effect": "Wähle \"verbrannt\" oder \"vergiftet\". Das Verteidigende Pokémon ist jetzt vom gewählten Speziellen Zustand betroffen."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "x2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/pl3-17"
+        }
+    ],
+    "print_key": "tcgdex:pl3-17",
+    "card_key": "12|90|1|Lee HyunJung|30|3",
+    "types_en": [
+        "Grass"
+    ]
+}

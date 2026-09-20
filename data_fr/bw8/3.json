@@ -1,0 +1,74 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/bw8-3",
+    "name": "Torterra",
+    "img": "https://assets.tcgdex.net/fr/bw/bw8/3/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "bw8",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw8/symbol",
+    "set_full_name": "Tempète Plasma",
+    "series": "Noir & Blanc",
+    "set_code": "bw8",
+    "date": "2013-02-06",
+    "number": "3",
+    "set_total": 138,
+    "rarity": "Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 389,
+    "pokemon_category": "",
+    "stage": "Niveau 2",
+    "hp": 150,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Pression de Garde",
+            "damage": 60,
+            "effect": "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Incolore",
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Piétinement Lourd",
+            "damage": 80,
+            "effect": "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Eau"
+        ],
+        "value": "-20"
+    },
+    "retreat": 4,
+    "evolve_from": "Boskara",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/bw8-3"
+        }
+    ],
+    "print_key": "tcgdex:bw8-3",
+    "card_key": "389|150|4|5ban Graphics|60,80|3,4",
+    "types_en": [
+        "Grass"
+    ]
+}

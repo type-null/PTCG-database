@@ -1,0 +1,75 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm1-138",
+    "name": "Floramantis GX",
+    "img": "https://assets.tcgdex.net/fr/sm/sm1/138/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "tags": [
+        "GX"
+    ],
+    "set_name": "sm1",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm1/symbol",
+    "set_full_name": "Soleil et Lune",
+    "series": "Soleil et Lune",
+    "set_code": "sm1",
+    "date": "2017-02-03",
+    "number": "138",
+    "set_total": 163,
+    "rarity": "Ultra Rare",
+    "author": [
+        "5ban Graphics"
+    ],
+    "pokedex_number": 754,
+    "pokemon_category": "",
+    "hp": 210,
+    "types": [
+        "Plante"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Provision Florale",
+            "damage": 40,
+            "effect": "Attachez 2 cartes Énergie de base de votre pile de défausse à vos Pokémon, de la manière que vous voulez."
+        },
+        {
+            "cost": [
+                "Plante",
+                "Plante",
+                "Incolore"
+            ],
+            "name": "Lame Solaire",
+            "damage": 120,
+            "effect": "Soignez 30 dégâts à ce Pokémon."
+        },
+        {
+            "cost": [
+                "Plante"
+            ],
+            "name": "Chlorofaucille GX",
+            "damage": "50×",
+            "effect": "Cette attaque inflige 50 dégâts multipliés par le nombre d’Énergies Grass attachées à ce Pokémon. (Vous ne pouvez utiliser qu’une attaque GX par partie.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Mimantis",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm1-138"
+        }
+    ],
+    "print_key": "tcgdex:sm1-138",
+    "card_key": "754|210|2|5ban Graphics|40,120,50x|1,3,1",
+    "types_en": [
+        "Grass"
+    ]
+}

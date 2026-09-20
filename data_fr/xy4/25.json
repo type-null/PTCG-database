@@ -1,0 +1,69 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/xy4-25",
+    "name": "Pachirisu",
+    "img": "https://assets.tcgdex.net/fr/xy/xy4/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "xy4",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy4/symbol",
+    "set_full_name": "Vigueur Spectrale",
+    "series": "XY",
+    "set_code": "xy4",
+    "date": "2014-11-05",
+    "number": "25",
+    "set_total": 124,
+    "rarity": "Rare",
+    "author": [
+        "Mizue"
+    ],
+    "pokedex_number": 417,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 70,
+    "types": [
+        "Électrique"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Colle-Farce",
+            "damage": 10,
+            "effect": "La Faiblesse du Pokémon Défenseur est maintenant Lightning jusqu'à la fin de votre prochain tour. (La valeur de la Faiblesse ne change pas.)"
+        },
+        {
+            "cost": [
+                "Électrique",
+                "Incolore"
+            ],
+            "name": "Pachi",
+            "damage": "20+",
+            "effect": "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Métal"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/xy4-25"
+        }
+    ],
+    "print_key": "tcgdex:xy4-25",
+    "card_key": "417|70|1|Mizue|10,20+|1,2",
+    "types_en": [
+        "Lightning"
+    ]
+}

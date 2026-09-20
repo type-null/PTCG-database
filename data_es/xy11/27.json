@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/xy11-27",
+    "name": "Mantine",
+    "img": "https://assets.tcgdex.net/es/xy/xy11/27/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Asedio de Vapor",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "27",
+    "set_total": 116,
+    "rarity": "Común",
+    "author": [
+        "DemizuPosuka"
+    ],
+    "pokedex_number": 226,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 100,
+    "types": [
+        "Agua"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Agua"
+            ],
+            "name": "Ola Sanadora",
+            "damage": null,
+            "effect": "Descarta tantas cartas como quieras de tu mano. Cura 10 puntos de daño a este Pokémon por cada carta descartada de esta manera."
+        },
+        {
+            "cost": [
+                "Agua",
+                "Agua",
+                "Agua"
+            ],
+            "name": "Ola Menguante",
+            "damage": "90−",
+            "effect": "Este ataque hace 90 puntos de daño menos 10 puntos de daño por cada contador de daño en este Pokémon."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Rayo"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/xy11-27"
+        }
+    ],
+    "print_key": "tcgdex:xy11-27",
+    "card_key": "226|100|1|DemizuPosuka|None,90-|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

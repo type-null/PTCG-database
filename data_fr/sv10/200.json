@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sv10-200",
+    "name": "Cornèbre de la Team Rocket",
+    "img": "https://assets.tcgdex.net/fr/sv/sv10/200/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "regulation": "I",
+    "set_name": "sv10",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv10/symbol",
+    "set_full_name": "Rivalités Destinées",
+    "series": "Écarlate et Violet",
+    "set_code": "sv10",
+    "date": "2025-05-30",
+    "number": "200",
+    "set_total": 244,
+    "rarity": "Illustration rare",
+    "author": [
+        "Akira Komayama"
+    ],
+    "pokedex_number": 198,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 80,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Tromperie",
+            "damage": null,
+            "effect": "Cherchez dans votre deck une carte Supporter, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Tourmente",
+            "damage": 30,
+            "effect": "Choisissez l'une des attaques du Pokémon Actif de votre adversaire. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas utiliser cette attaque."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Combat"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sv10-200"
+        }
+    ],
+    "print_key": "tcgdex:sv10-200",
+    "card_key": "198|80|1|Akira Komayama|None,30|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

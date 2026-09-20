@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/xy11-23",
+    "name": "Pyroar",
+    "img": "https://assets.tcgdex.net/es/xy/xy11/23/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "xy11",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy11/symbol",
+    "set_full_name": "Asedio de Vapor",
+    "series": "XY",
+    "set_code": "xy11",
+    "date": "2016-08-03",
+    "number": "23",
+    "set_total": 116,
+    "rarity": "Rara",
+    "author": [
+        "Yumi"
+    ],
+    "pokedex_number": 668,
+    "pokemon_category": "",
+    "stage": "Fase 1",
+    "hp": 120,
+    "types": [
+        "Fuego"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuego",
+                "Incolora"
+            ],
+            "name": "Nitrocarga",
+            "damage": 60,
+            "effect": "Busca en tu baraja 1 carta de Energía Fire y únela a este Pokémon. Baraja las cartas de tu baraja después."
+        },
+        {
+            "cost": [
+                "Fuego",
+                "Fuego",
+                "Incolora"
+            ],
+            "name": "Calcinación",
+            "damage": 90,
+            "effect": "Antes de infligir daño, descarta todas las cartas de Herramienta Pokémon unidas al Pokémon Activo de tu rival."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Agua"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Litleo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/xy11-23"
+        }
+    ],
+    "print_key": "tcgdex:xy11-23",
+    "card_key": "668|120|2|Yumi|60,90|2,3",
+    "types_en": [
+        "Fire"
+    ]
+}

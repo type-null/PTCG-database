@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base5-3",
+    "name": "Dunkles Turtok",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Grund",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "3",
+    "set_total": 83,
+    "rarity": "Selten",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "pokedex_number": 9,
+    "pokemon_category": "",
+    "flavor_text": "Ein aggressives Pokémon, das alles in seinem Blickfeld angreift.",
+    "stage": "Rang 2",
+    "hp": 70,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Hydrokanone",
+            "damage": "30+",
+            "effect": "Fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede auf Dunkles Turtok abgelegte {W}-Energie zu, die nicht zum Zahlen für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 40 Schadenspunkte hinzufügen."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Raketenstart",
+            "damage": 40,
+            "effect": "Dunkles Turtok fügt sich selbst 10 Schadenspunkte zu. Wirf eine Münze. Verhindere bei Kopf allen Schaden, der Dunkles Turtok während des nächsten Zuges deines Gegners zugefügt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Schillok",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base5-3"
+        }
+    ],
+    "print_key": "tcgdex:base5-3",
+    "card_key": "9|70|2|Mitsuhiro Arita|30+,40|2,3",
+    "types_en": [
+        "Water"
+    ]
+}

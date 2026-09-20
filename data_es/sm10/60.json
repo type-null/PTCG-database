@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/sm10-60",
+    "name": "Zeraora",
+    "img": "https://assets.tcgdex.net/es/sm/sm10/60/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "sm10",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm10/symbol",
+    "set_full_name": "Vínculos Indestructibles",
+    "series": "Sol y Luna",
+    "set_code": "sm10",
+    "date": "2019-05-03",
+    "number": "60",
+    "set_total": 234,
+    "rarity": "Rara",
+    "author": [
+        "kawayoo"
+    ],
+    "pokedex_number": 807,
+    "pokemon_category": "",
+    "stage": "Básico",
+    "hp": 120,
+    "types": [
+        "Rayo"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Rayo"
+            ],
+            "name": "Garra Devastadora",
+            "damage": 20,
+            "effect": "Descarta 1 Energía Especial del Pokémon Activo de tu rival."
+        },
+        {
+            "cost": [
+                "Rayo",
+                "Incolora",
+                "Incolora"
+            ],
+            "name": "Chispazo",
+            "damage": "50×",
+            "effect": "Descarta todas las Energías Lightning de este Pokémon. Este ataque hace 50 puntos de daño por cada carta que hayas descartado de esta manera."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Metálica"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/sm10-60"
+        }
+    ],
+    "print_key": "tcgdex:sm10-60",
+    "card_key": "807|120|1|kawayoo|20,50x|1,3",
+    "types_en": [
+        "Lightning"
+    ]
+}

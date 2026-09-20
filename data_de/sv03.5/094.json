@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/sv03.5-094",
+    "name": "Gengar",
+    "img": "https://assets.tcgdex.net/de/sv/sv03.5/094/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "regulation": "G",
+    "set_name": "sv03.5",
+    "set_img": "https://assets.tcgdex.net/univ/sv/sv03.5/symbol",
+    "set_full_name": "151",
+    "series": "Karmesin & Purpur",
+    "set_code": "sv03.5",
+    "date": "2023-09-22",
+    "number": "094",
+    "set_total": 207,
+    "rarity": "Selten",
+    "author": [
+        "Tomokazu Komiya"
+    ],
+    "pokedex_number": 94,
+    "pokemon_category": "",
+    "flavor_text": "Um Beute zu erlegen, versteckt es sich in deren Schatten und wartet still auf eine günstige Gelegenheit.",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Poltergeist",
+            "damage": "50×",
+            "effect": "Dein Gegner zeigt dir seine Handkarten. Diese Attacke fügt für jede Trainerkarte, die du dort findest, 50 Schadenspunkte zu."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Heimsuchendes Tauchen",
+            "damage": 110,
+            "effect": "Lege 3 Schadensmarken beliebig auf die Pokémon auf der Bank deines Gegners."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 0,
+    "evolve_from": "Alpollo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/sv03.5-094"
+        }
+    ],
+    "print_key": "tcgdex:sv03.5-94",
+    "card_key": "94|130|0|Tomokazu Komiya|50x,110|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

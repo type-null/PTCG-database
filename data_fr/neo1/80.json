@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/neo1-80",
+    "name": "Kaiminus",
+    "img": "https://assets.tcgdex.net/fr/neo/neo1/80/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "neo1",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo1/symbol",
+    "set_full_name": "Neo Genesis",
+    "series": "Neo",
+    "set_code": "neo1",
+    "date": "2000-12-16",
+    "number": "80",
+    "set_total": 111,
+    "rarity": "Commune",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 158,
+    "pokemon_category": "",
+    "flavor_text": "Il est petit mais costaud. Il n'hésite pas à mordre tout ce qui bouge.",
+    "stage": "Base",
+    "hp": 40,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Morsure",
+            "damage": 10,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Eau",
+                "Incolore"
+            ],
+            "name": "Frénésie",
+            "damage": "10+",
+            "effect": "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Kaiminus."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Plante"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/neo1-80"
+        }
+    ],
+    "print_key": "tcgdex:neo1-80",
+    "card_key": "158|40|1|Ken Sugimori|10,10+|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

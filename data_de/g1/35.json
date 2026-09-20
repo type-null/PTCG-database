@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/g1-35",
+    "name": "Gengar",
+    "img": "https://assets.tcgdex.net/de/xy/g1/35/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "g1",
+    "set_img": "https://assets.tcgdex.net/univ/xy/g1/symbol",
+    "set_full_name": "Generationen",
+    "series": "XY",
+    "set_code": "g1",
+    "date": "2016-02-22",
+    "number": "35",
+    "set_total": 117,
+    "rarity": "Selten",
+    "author": [
+        "Saya Tsuruta"
+    ],
+    "pokedex_number": 94,
+    "pokemon_category": "",
+    "flavor_text": "Es versteckt sich im Schatten der Menschen und absorbiert deren Wärme, sodass die Menschen frieren.",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Psycho"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Psycho"
+            ],
+            "name": "Nebel des Grauens",
+            "damage": null,
+            "effect": "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Lege 1 Schadensmarke auf jedes Pokémon auf der Bank deines Gegners."
+        },
+        {
+            "cost": [
+                "Psycho",
+                "Farblos"
+            ],
+            "name": "Gruselkabinett",
+            "damage": null,
+            "effect": "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 3 Schadensmarken liegen, wird jenes Pokémon kampfunfähig."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Unlicht"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-20"
+    },
+    "retreat": 0,
+    "evolve_from": "Alpollo",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/g1-35"
+        }
+    ],
+    "print_key": "tcgdex:g1-35",
+    "card_key": "94|130|0|Saya Tsuruta|None,None|1,2",
+    "types_en": [
+        "Psychic"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/xy12-25",
+    "name": "Poliwrath",
+    "img": "https://assets.tcgdex.net/es/xy/xy12/25/high.webp",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "xy12",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy12/symbol",
+    "set_full_name": "Evoluciones",
+    "series": "XY",
+    "set_code": "xy12",
+    "date": "2016-11-02",
+    "number": "25",
+    "set_total": 113,
+    "rarity": "Rara",
+    "author": [
+        "Ken Sugimori"
+    ],
+    "pokedex_number": 62,
+    "pokemon_category": "",
+    "stage": "Fase 2",
+    "hp": 140,
+    "types": [
+        "Agua"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Agua"
+            ],
+            "name": "Puño Veloz",
+            "damage": "50+",
+            "effect": "Si este Pokémon estaba en la Banca y se ha convertido en tu Pokémon Activo en este turno, este ataque hace 50 puntos de daño más."
+        },
+        {
+            "cost": [
+                "Agua",
+                "Agua",
+                "Agua"
+            ],
+            "name": "Torbellino",
+            "damage": 80,
+            "effect": "Descarta 1 Energía unida al Pokémon Activo de tu rival."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Planta"
+        ],
+        "value": "×2"
+    },
+    "retreat": 2,
+    "evolve_from": "Poliwhirl",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/xy12-25"
+        }
+    ],
+    "print_key": "tcgdex:xy12-25",
+    "card_key": "62|140|2|Ken Sugimori|50+,80|1,3",
+    "types_en": [
+        "Water"
+    ]
+}

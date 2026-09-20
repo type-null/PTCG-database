@@ -1,0 +1,64 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/neo2-37",
+    "name": "Corasonn",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "neo2",
+    "set_img": "https://assets.tcgdex.net/univ/neo/neo2/symbol",
+    "set_full_name": "Neo Entdeckung",
+    "series": "Neo",
+    "set_code": "neo2",
+    "date": "2001-06-01",
+    "number": "37",
+    "set_total": 75,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Yuka Morii"
+    ],
+    "pokedex_number": 222,
+    "pokemon_category": "",
+    "flavor_text": "Es wächst und häutet sich dauernd. Die Spitze auf seinem Kopf wird wegen ihrer Schönheit als Schatz betrachtet.",
+    "stage": "Basis",
+    "hp": 50,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser"
+            ],
+            "name": "Erholung",
+            "damage": null,
+            "effect": "Lege 1 an Corasonn angelegte {W}-Energiekarte auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen. Entferne alle Schadensmarken von Corasonn."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf"
+            ],
+            "name": "Dornkanone",
+            "damage": "30x",
+            "effect": "Wirf zwei Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/neo2-37"
+        }
+    ],
+    "print_key": "tcgdex:neo2-37",
+    "card_key": "222|50|1|Yuka Morii|None,30x|1,2",
+    "types_en": [
+        "Water"
+    ]
+}

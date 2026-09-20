@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/xy10-63",
+    "name": "Lucario",
+    "img": "https://assets.tcgdex.net/de/xy/xy10/63/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "xy10",
+    "set_img": "https://assets.tcgdex.net/univ/xy/xy10/symbol",
+    "set_full_name": "Schicksalsschmiede",
+    "series": "XY",
+    "set_code": "xy10",
+    "date": "2016-05-02",
+    "number": "63",
+    "set_total": 129,
+    "rarity": "Selten",
+    "author": [
+        "Hitoshi Ariga"
+    ],
+    "pokedex_number": 448,
+    "pokemon_category": "",
+    "flavor_text": "Kann aus 1 km Entfernung die Gefühle anderer Wesen erfassen, indem es die Wellen liest, die sie aussenden.",
+    "stage": "Rang 1",
+    "hp": 110,
+    "types": [
+        "Metall"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Metall"
+            ],
+            "name": "Vakuumwelle",
+            "damage": 50,
+            "effect": "Der Schaden dieses Angriffs wird durch Schwäche und Resistenz nicht verändert."
+        },
+        {
+            "cost": [
+                "Metall",
+                "Farblos"
+            ],
+            "name": "Einzelkämpfer",
+            "damage": "30+",
+            "effect": "Wenn du weniger Pokémon im Spiel hast als dein Gegner, fügt dieser Angriff 60 weitere Schadenspunkte mal der Anzahl der Pokémon, die du weniger im Spiel hast, zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feuer"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "evolve_from": "Riolu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/xy10-63"
+        }
+    ],
+    "print_key": "tcgdex:xy10-63",
+    "card_key": "448|110|2|Hitoshi Ariga|50,30+|1,2",
+    "types_en": [
+        "Metal"
+    ]
+}

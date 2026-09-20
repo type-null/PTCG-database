@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/col1-14",
+    "name": "Lucario",
+    "img": "https://assets.tcgdex.net/de/col/col1/14/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "col1",
+    "set_img": "https://assets.tcgdex.net/univ/col/col1/symbol",
+    "set_full_name": "Ruf der Legenden",
+    "series": "Ruf der Legenden",
+    "set_code": "col1",
+    "date": "2011-02-09",
+    "number": "14",
+    "set_total": 106,
+    "rarity": "Holografisch Selten",
+    "author": [
+        "Takashi Yamaguchi"
+    ],
+    "pokedex_number": 448,
+    "pokemon_category": "",
+    "flavor_text": "Man sagt, es sei fähig, die Aura anderer Pokémon zu sehen. So kann es unsichtbare Gegner ausmachen.",
+    "stage": "Rang 1",
+    "hp": 90,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Dimensiossphäre",
+            "damage": "30+",
+            "effect": "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jedes deiner Pokémon im Nirgendwo zu."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Himmelhieb",
+            "damage": 70,
+            "effect": "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "x2"
+    },
+    "retreat": 1,
+    "evolve_from": "Riolu",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/col1-14"
+        }
+    ],
+    "print_key": "tcgdex:col1-14",
+    "card_key": "448|90|1|Takashi Yamaguchi|30+,70|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex8-105",
+    "name": "Latias ☆",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex8",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex8/symbol",
+    "set_full_name": "EX Deoxys",
+    "series": "EX",
+    "set_code": "ex8",
+    "date": "2005-02-01",
+    "number": "105",
+    "set_total": 108,
+    "rarity": "Selten",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 380,
+    "pokemon_category": "",
+    "stage": "Basis",
+    "hp": 80,
+    "types": [
+        "Farblos"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos"
+            ],
+            "name": "Healing Light",
+            "damage": 10,
+            "effect": "Remove 1 damage counter from each of your Pokémon (including Latias ☆)."
+        },
+        {
+            "cost": [
+                "Feuer",
+                "Wasser",
+                "Psycho"
+            ],
+            "name": "Shooting Star",
+            "damage": "50+",
+            "effect": "If the Defending Pokémon is Pokémon-ex, dicard all Energy cards attached to Latias ☆ and this attack does 50 damage plus 100 more damage."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Farblos"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psycho",
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex8-105"
+        }
+    ],
+    "print_key": "tcgdex:ex8-105",
+    "card_key": "380|80|1|Masakazu Fukuda|10,50+|1,3",
+    "types_en": [
+        "Colorless"
+    ]
+}

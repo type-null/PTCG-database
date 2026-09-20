@@ -1,0 +1,65 @@
+{
+    "url": "https://api.tcgdex.net/v2/it/cards/bw10-54",
+    "name": "Archeops",
+    "img": "https://assets.tcgdex.net/it/bw/bw10/54/high.webp",
+    "card_type": "Pokémon",
+    "lang": "it",
+    "set_name": "bw10",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw10/symbol",
+    "set_full_name": "Esplosione Plasma",
+    "series": "Nero e Bianco",
+    "set_code": "bw10",
+    "date": "2013-08-14",
+    "number": "54",
+    "set_total": 105,
+    "rarity": "Rara",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 567,
+    "pokemon_category": "",
+    "flavor_text": "È più versato nella corsa che nel volo. Si lancia in aria a una velocità di 40 km/h sbattendo le ali.",
+    "stage": "Livello 1",
+    "hp": 120,
+    "types": [
+        "Lotta"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Lotta"
+            ],
+            "name": "Acrobazia",
+            "damage": 20,
+            "effect": "Lancia due volte una moneta. Ogni volta che esce testa, questo attacco infligge 20 danni in più."
+        },
+        {
+            "cost": [
+                "Lotta",
+                "Lotta"
+            ],
+            "name": "Picchiata Rapida",
+            "damage": 100,
+            "effect": "Se i PV rimanenti di questo Pokémon diventano 50 o meno, il danno base di questo attacco è 50."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Erba"
+        ],
+        "value": "×2"
+    },
+    "retreat": 0,
+    "evolve_from": "Archen",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/it/cards/bw10-54"
+        }
+    ],
+    "print_key": "tcgdex:bw10-54",
+    "card_key": "567|120|0|Kouki Saitou|20,100|1,2",
+    "types_en": [
+        "Fighting"
+    ]
+}

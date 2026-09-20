@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/ex11-112",
+    "name": "Kyogre ☆",
+    "img": "https://assets.tcgdex.net/fr/ex/ex11/112/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "ex11",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex11/symbol",
+    "set_full_name": "EX Espèces Delta",
+    "series": "EX",
+    "set_code": "ex11",
+    "date": "2005-10-31",
+    "number": "112",
+    "set_total": 114,
+    "rarity": "Rare",
+    "author": [
+        "Masakazu Fukuda"
+    ],
+    "pokedex_number": 382,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Eau"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Eau"
+            ],
+            "name": "Collection difficile",
+            "damage": 10,
+            "effect": "Comptabilisez le nombre de cartes Récompense récoltées par votre adversaire. Cherchez dans votre pile de défausse le même nombre de cartes Énergie {W} et attachez-les à Kyogre ☆."
+        },
+        {
+            "cost": [
+                "Incolore",
+                "Incolore",
+                "Eau",
+                "Eau",
+                "Eau"
+            ],
+            "name": "Glaciation",
+            "damage": 60,
+            "effect": "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Électrique"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/ex11-112"
+        }
+    ],
+    "print_key": "tcgdex:ex11-112",
+    "card_key": "382|90|3|Masakazu Fukuda|10,60|1,5",
+    "types_en": [
+        "Water"
+    ]
+}

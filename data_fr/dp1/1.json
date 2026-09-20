@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/dp1-1",
+    "name": "Dialga",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "dp1",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp1/symbol",
+    "set_full_name": "Diamant & Perle",
+    "series": "Diamant & Perle",
+    "set_code": "dp1",
+    "date": "2007-05-01",
+    "number": "1",
+    "set_total": 130,
+    "rarity": "Rare Holo",
+    "author": [
+        "Nakaoka"
+    ],
+    "pokedex_number": 483,
+    "pokemon_category": "",
+    "flavor_text": "Il peut contrôler le temps. Les mythes de Sinnoh en parlent comme d'une divinité ancienne.",
+    "stage": "Base",
+    "hp": 90,
+    "types": [
+        "Métal"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Métal"
+            ],
+            "name": "Appel temporel",
+            "damage": 10,
+            "effect": "Piochez une carte."
+        },
+        {
+            "cost": [
+                "Métal",
+                "Métal",
+                "Incolore"
+            ],
+            "name": "Luminocanon",
+            "damage": 40,
+            "effect": "Vous pouvez reprendre dans votre main toutes les cartes Énergie attachées à Dialga. Retirez alors au Pokémon Défenseur la carte Évolution au niveau le plus élevé et mélangez-la au deck de votre adversaire."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Feu"
+        ],
+        "value": "+20"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/dp1-1"
+        }
+    ],
+    "print_key": "tcgdex:dp1-1",
+    "card_key": "483|90|2|Nakaoka|10,40|1,3",
+    "types_en": [
+        "Metal"
+    ]
+}

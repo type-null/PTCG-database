@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw8-74",
+    "name": "Sonnfel",
+    "img": "https://assets.tcgdex.net/de/bw/bw8/74/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "bw8",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw8/symbol",
+    "set_full_name": "Plasma-Sturm",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw8",
+    "date": "2013-02-06",
+    "number": "74",
+    "set_total": 138,
+    "rarity": "Ungewöhnlich",
+    "author": [
+        "Kouji Tajima"
+    ],
+    "pokedex_number": 338,
+    "pokemon_category": "",
+    "flavor_text": "Da es seine Energie aus Sonnenlicht gewinnt, ist es tagsüber am stärksten. Wenn es sich dreht, leuchtet es.",
+    "stage": "Basis",
+    "hp": 90,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Kampf",
+                "Farblos"
+            ],
+            "name": "Brandwunde",
+            "damage": 20,
+            "effect": "Das Verteidigende Pokémon ist jetzt verbrannt."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Explosion",
+            "damage": 90,
+            "effect": "Dieses Pokémon fügt sich selbst 90 Schadenspunkte zu."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw8-74"
+        }
+    ],
+    "print_key": "tcgdex:bw8-74",
+    "card_key": "338|90|3|Kouji Tajima|20,90|2,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

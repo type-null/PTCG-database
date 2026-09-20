@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base5-8",
+    "name": "Dunkles Garados",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Grund",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "8",
+    "set_total": 83,
+    "rarity": "Selten",
+    "author": [
+        "Kagemaru Himeno"
+    ],
+    "pokedex_number": 130,
+    "pokemon_category": "",
+    "flavor_text": "Normal nur in der Tiefe des Ozeans zu finden, wurde es in jüngster Zeit auch in seichteren Gewässern gesichtet.",
+    "stage": "Rang 1",
+    "hp": 70,
+    "types": [
+        "Wasser"
+    ],
+    "abilities": [
+        {
+            "name": "Letzter Strahl",
+            "effect": "Wirf eine Münze, wenn Dunkles Garados durch einen Angriff kampfunfähig gemacht wird. Bei „Kopf“ fügt diese Fähigkeit dem Pokémon, das Dunkles Garados kampfunfähig gemacht hat, für jede auf Dunkles Garados abgelegte {W}-Energie 20 Schadenspunkte zu. Schwäche und Resistenz anwenden. Diese Fähigkeit verliert ihre Wirkung, solange Dunkles Garados schläft, verwirrt oder gelähmt ist."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Wasser"
+            ],
+            "name": "Eisstrahl",
+            "damage": 30,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Kampf"
+        ],
+        "value": "-30"
+    },
+    "retreat": 2,
+    "evolve_from": "Karpador",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base5-8"
+        }
+    ],
+    "print_key": "tcgdex:base5-8",
+    "card_key": "130|70|2|Kagemaru Himeno|30|3",
+    "types_en": [
+        "Water"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "url": "https://api.tcgdex.net/v2/es/cards/30th-c-001",
+    "name": "Charizard",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "es",
+    "set_name": "30th-c",
+    "set_full_name": "Colección Clásica del 30.º Aniversario",
+    "series": "Megaevolución",
+    "set_code": "30th-c",
+    "date": "2026-09-16",
+    "number": "001",
+    "set_total": 30,
+    "rarity": "Ninguno",
+    "author": [
+        "Mitsuhiro Arita"
+    ],
+    "stage": "Fase 2",
+    "hp": 120,
+    "types": [
+        "Fuego"
+    ],
+    "abilities": [
+        {
+            "name": "Quema de Energía",
+            "effect": "Tantas veces como quieras durante tu turno (antes de tu ataque), puedes transformar toda la Energía unida a Charizard en Energía Fire por el resto de tu turno. Este poder no puede ser usado si Charizard está Confundido, Dormido o Paralizado."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Fuego",
+                "Fuego",
+                "Fuego",
+                "Fuego"
+            ],
+            "name": "Giro Fuego",
+            "damage": 100,
+            "effect": "Descarta 2 cartas de Energía unidas a Charizard para poder usar este ataque."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Agua"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Lucha"
+        ],
+        "value": "-30"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/es/cards/30th-c-001"
+        }
+    ],
+    "print_key": "tcgdex:30th-c-1",
+    "card_key": "6|120|3|Mitsuhiro Arita|100|4",
+    "types_en": [
+        "Fire"
+    ]
+}

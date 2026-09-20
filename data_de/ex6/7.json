@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/ex6-7",
+    "name": "Knogga",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "ex6",
+    "set_img": "https://assets.tcgdex.net/univ/ex/ex6/symbol",
+    "set_full_name": "EX Feuerrot & Blattgrün",
+    "series": "EX",
+    "set_code": "ex6",
+    "date": "2004-09-01",
+    "number": "7",
+    "set_total": 116,
+    "rarity": "Selten",
+    "author": [
+        "Aya Kusube"
+    ],
+    "pokedex_number": 105,
+    "pokemon_category": "",
+    "stage": "Rang 1",
+    "hp": 80,
+    "types": [
+        "Kampf"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Elektro",
+                "Elektro",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Blitzsturm",
+            "damage": 60,
+            "effect": "Wirf eine Münze. Lege bei \"Zahl\" 2 Schadensmarken auf Zapdos."
+        },
+        {
+            "cost": [
+                "Kampf",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Linear Attack",
+            "damage": "30+",
+            "effect": "Choose 1 of your opponent's Pokémon. This attack does 30 damage to thad Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Pflanze"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/ex6-7"
+        }
+    ],
+    "print_key": "tcgdex:ex6-7",
+    "card_key": "105|80|1|Aya Kusube|60,30+|4,3",
+    "types_en": [
+        "Fighting"
+    ]
+}

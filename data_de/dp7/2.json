@@ -1,0 +1,72 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/dp7-2",
+    "name": "Impoleon",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "dp7",
+    "set_img": "https://assets.tcgdex.net/univ/dp/dp7/symbol",
+    "set_full_name": "Sturmtief",
+    "series": "Diamant & Perl",
+    "set_code": "dp7",
+    "date": "2008-11-01",
+    "number": "2",
+    "set_total": 106,
+    "rarity": "Selten, Holografisch",
+    "author": [
+        "Kouki Saitou"
+    ],
+    "pokedex_number": 395,
+    "pokemon_category": "",
+    "stage": "Rang 2",
+    "hp": 130,
+    "types": [
+        "Metall"
+    ],
+    "abilities": [
+        {
+            "name": "Kaiserliche Aura",
+            "effect": "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du Impoleon von deiner Hand spielst, um 1 deiner Aktiven Pokémon zu entwickeln, diese Poké-Power benutzen. Dein Gegner kann in seinem nächsten Zug keine Energiekarten von seiner Hand an seine Pokémon anlegen."
+        }
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Stahlflügel",
+            "damage": 40,
+            "effect": "Während des nächsten Zuges deines Gegners wird Schaden, der Impoleon durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Whirlpool",
+            "damage": 60,
+            "effect": "Wirf 1 Münze. Bei „Kopf“ lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Elektro"
+        ],
+        "value": "+30"
+    },
+    "retreat": 2,
+    "evolve_from": "Pliprin",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/dp7-2"
+        }
+    ],
+    "print_key": "tcgdex:dp7-2",
+    "card_key": "395|130|2|Kouki Saitou|40,60|2,3",
+    "types_en": [
+        "Metal"
+    ]
+}

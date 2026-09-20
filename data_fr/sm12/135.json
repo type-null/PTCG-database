@@ -1,0 +1,70 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/sm12-135",
+    "name": "Scalproie",
+    "img": "https://assets.tcgdex.net/fr/sm/sm12/135/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "sm12",
+    "set_img": "https://assets.tcgdex.net/univ/sm/sm12/symbol",
+    "set_full_name": "Éclipse Cosmique",
+    "series": "Soleil et Lune",
+    "set_code": "sm12",
+    "date": "2019-11-01",
+    "number": "135",
+    "set_total": 271,
+    "rarity": "Peu Commune",
+    "author": [
+        "SATOSHI NAKAI"
+    ],
+    "pokedex_number": 625,
+    "pokemon_category": "",
+    "stage": "Niveau 1",
+    "hp": 120,
+    "types": [
+        "Obscurité"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore"
+            ],
+            "name": "Coinçage",
+            "damage": 30,
+            "effect": "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+        },
+        {
+            "cost": [
+                "Obscurité",
+                "Incolore"
+            ],
+            "name": "Coup Déchirant",
+            "damage": 80,
+            "effect": "Ce Pokémon ne peut pas utiliser Coup Déchirant pendant votre prochain tour."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Combat"
+        ],
+        "value": "×2"
+    },
+    "resistance": {
+        "type": [
+            "Psy"
+        ],
+        "value": "-20"
+    },
+    "retreat": 1,
+    "evolve_from": "Scalpion",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/sm12-135"
+        }
+    ],
+    "print_key": "tcgdex:sm12-135",
+    "card_key": "625|120|1|SATOSHI NAKAI|30,80|1,2",
+    "types_en": [
+        "Darkness"
+    ]
+}

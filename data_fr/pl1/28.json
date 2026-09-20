@@ -1,0 +1,71 @@
+{
+    "url": "https://api.tcgdex.net/v2/fr/cards/pl1-28",
+    "name": "Giratina",
+    "img": "https://assets.tcgdex.net/fr/pl/pl1/28/high.webp",
+    "card_type": "Pokémon",
+    "lang": "fr",
+    "set_name": "pl1",
+    "set_img": "https://assets.tcgdex.net/univ/pl/pl1/symbol",
+    "set_full_name": "Platine",
+    "series": "Platine",
+    "set_code": "pl1",
+    "date": "2009-02-11",
+    "number": "28",
+    "set_total": 133,
+    "rarity": "Rare",
+    "author": [
+        "Yusuke Ishikawa"
+    ],
+    "pokedex_number": 487,
+    "pokemon_category": "",
+    "stage": "Base",
+    "hp": 110,
+    "types": [
+        "Psy"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Incolore",
+                "Incolore"
+            ],
+            "name": "Dracogriffe",
+            "damage": 30,
+            "effect": ""
+        },
+        {
+            "cost": [
+                "Psy",
+                "Psy",
+                "Incolore"
+            ],
+            "name": "Dracosouffle",
+            "damage": 80,
+            "effect": "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Obscurité"
+        ],
+        "value": "+30"
+    },
+    "resistance": {
+        "type": [
+            "Incolore"
+        ],
+        "value": "-20"
+    },
+    "retreat": 2,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/fr/cards/pl1-28"
+        }
+    ],
+    "print_key": "tcgdex:pl1-28",
+    "card_key": "487|110|2|Yusuke Ishikawa|30,80|2,3",
+    "types_en": [
+        "Psychic"
+    ]
+}

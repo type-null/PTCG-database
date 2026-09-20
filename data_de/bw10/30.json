@@ -1,0 +1,68 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/bw10-30",
+    "name": "Kyurem-EX",
+    "img": "https://assets.tcgdex.net/de/bw/bw10/30/high.webp",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "tags": [
+        "EX"
+    ],
+    "set_name": "bw10",
+    "set_img": "https://assets.tcgdex.net/univ/bw/bw10/symbol",
+    "set_full_name": "Plasma-Blaster",
+    "series": "Schwarz & Weiß",
+    "set_code": "bw10",
+    "date": "2013-08-14",
+    "number": "30",
+    "set_total": 105,
+    "rarity": "Selten",
+    "author": [
+        "Eske Yoshinob"
+    ],
+    "pokedex_number": 646,
+    "pokemon_category": "",
+    "hp": 180,
+    "types": [
+        "Wasser"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Wutanfall",
+            "damage": 30,
+            "effect": "Dieser Angriff fügt 10 weitere Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
+        },
+        {
+            "cost": [
+                "Wasser",
+                "Wasser",
+                "Farblos",
+                "Farblos"
+            ],
+            "name": "Gigafrost",
+            "damage": 150,
+            "effect": "Lege 2 an dieses Pokémon angelegte {W}-Energien auf deinen Ablagestapel."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Metall"
+        ],
+        "value": "×2"
+    },
+    "retreat": 3,
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/bw10-30"
+        }
+    ],
+    "print_key": "tcgdex:bw10-30",
+    "card_key": "646|180|3|Eske Yoshinob|30,150|2,4",
+    "types_en": [
+        "Water"
+    ]
+}

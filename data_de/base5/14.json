@@ -1,0 +1,67 @@
+{
+    "url": "https://api.tcgdex.net/v2/de/cards/base5-14",
+    "name": "Dunkles Smogmog",
+    "img": "",
+    "card_type": "Pokémon",
+    "lang": "de",
+    "set_name": "base5",
+    "set_img": "https://assets.tcgdex.net/univ/base/base5/symbol",
+    "set_full_name": "Team Rocket",
+    "series": "Grund",
+    "set_code": "base5",
+    "date": "2000-04-24",
+    "number": "14",
+    "set_total": 83,
+    "rarity": "Selten",
+    "author": [
+        "Shin-ichi Yoshida"
+    ],
+    "pokedex_number": 110,
+    "pokemon_category": "",
+    "flavor_text": "Forscher haben diese Pokémon bei der Fortpflanzung auf Industriemüllkippen beobachtet.",
+    "stage": "Rang 1",
+    "hp": 60,
+    "types": [
+        "Pflanze"
+    ],
+    "attacks": [
+        {
+            "cost": [
+                "Pflanze",
+                "Farblos"
+            ],
+            "name": "Massenexplosion",
+            "damage": "20x",
+            "effect": "Fügt 20 Schadenspunkte mal die Gesamtanzahl der Smogons, Smogmogs und Dunklen Smogmogs im Spiel zu. (Schwäche und Resistenz anwenden.) Danach fügt dieser Angriff jedem Smogon, Smogmog und Dunklen Smogmog (selbst deinen eigenen) 20 Schadenspunkte zu. Schwäche und Resistenz nicht anwenden."
+        },
+        {
+            "cost": [
+                "Pflanze",
+                "Pflanze",
+                "Pflanze"
+            ],
+            "name": "Betäubungsgas",
+            "damage": 20,
+            "effect": "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet; bei „Zahl“ ist das verteidigende Pokémon jetzt gelähmt."
+        }
+    ],
+    "weakness": {
+        "type": [
+            "Psycho"
+        ],
+        "value": "×2"
+    },
+    "retreat": 1,
+    "evolve_from": "Smogon",
+    "sources": [
+        {
+            "name": "TCGdex",
+            "link": "https://api.tcgdex.net/v2/de/cards/base5-14"
+        }
+    ],
+    "print_key": "tcgdex:base5-14",
+    "card_key": "110|60|1|Shin-ichi Yoshida|20x,20|2,3",
+    "types_en": [
+        "Grass"
+    ]
+}

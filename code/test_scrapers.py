@@ -41,6 +41,11 @@ def sandbox():
     temp = Path(tempfile.mkdtemp())
     for lang in paths.LANGS:
         paths.DATA[lang] = temp / f"data_{lang}"
+    # The logs go with them. A test that drives a scraper writes through
+    # `paths.log_file` — its own log, its scraped-id lists — and with `logs/`
+    # left pointing at the real one, a test's invented failure lands in the
+    # record of real runs and reads there as a real one.
+    paths.LOGS = temp / "logs"
     return temp
 
 
@@ -494,6 +499,259 @@ def test_a_card_never_names_a_folder_below_its_own():
     check("an empty field still names something", one_segment("   "), "no_set")
 
 
+def test_an_attack_with_no_damage_is_written_one_way():
+    """The same attack, dealing nothing, was fingerprinted two ways.
+
+    Japan, Korea, English and the TCGdex languages leave the damage null;
+    Taiwan writes an empty string. Rendered into a fingerprint those became
+    `None` against ``, so one card keyed two ways and the halves never met.
+    Folding them together was measured at 14,936 more language-pair links —
+    1,890 between Japan and Taiwan, 1,881 between English and Taiwan.
+    """
+    import cardkeys
+
+    for written in (None, "", "None"):
+        check(f"damage {written!r} reads as nothing", cardkeys.damage_of({"damage": written}), "")
+    check("an attack with no damage field at all", cardkeys.damage_of({}), "")
+
+    # A real figure, and the shape TCG Pocket writes, must survive untouched.
+    check("a plain figure survives", cardkeys.damage_of({"damage": "120"}), "120")
+    check("a figure with a mark survives", cardkeys.damage_of({"damage": "20+"}), "20+")
+    check("a figure written as parts", cardkeys.damage_of({"damage": {"amount": 120, "suffix": "+"}}), "120+")
+
+    # The whole point: one card, written by two sources, keys the same.
+    japan = {"lang": "jp", "name": "ピカチュウ", "pokedex_number": 25, "hp": 60, "retreat": 1,
+             "author": "Sekio", "attacks": [{"damage": None, "cost": ["L"]}]}
+    taiwan = {"lang": "tc", "name": "皮卡丘", "pokedex_number": 25, "hp": 60, "retreat": 1,
+              "author": "Sekio", "attacks": [{"damage": "", "cost": ["L"]}]}
+    check("Japan and Taiwan fingerprint it alike", cardkeys.card_key(japan), cardkeys.card_key(taiwan))
+
+
+def test_a_promo_numbered_per_region_is_not_one_printing():
+    """Japan and Taiwan both publish an S-P, and they are different cards.
+
+    Across their 465 shared promo numbers exactly one fingerprint agrees and
+    169 disagree: Japan's S-P 071 is シャワーズ, Taiwan's is 嘟嘟利V. Keyed as one
+    family they published 463 links between unrelated cards. Korea's SVP1 is
+    the other way about — 7 shared numbers, 7 agreeing, none disagreeing — so
+    it stays shared.
+    """
+    import cardkeys
+
+    japan = cardkeys.print_key({"lang": "jp", "set_name": "S-P", "number": "071"})
+    taiwan = cardkeys.print_key({"lang": "tc", "set_name": "S-P", "number": "071"})
+    check("Japan's promo names itself", japan, "jp:S-P-71")
+    check("Taiwan's promo names itself", taiwan, "tc:S-P-71")
+    check("and the two are not one printing", japan == taiwan, False)
+
+    # A set both regions genuinely share keeps one key, in both directions.
+    for code in ("SVP1", "SV7"):
+        shared = {cardkeys.print_key({"lang": lang, "set_name": code, "number": "1"}) for lang in ("jp", "ko", "tc")}
+        check(f"{code} is still one printing across Asia", len(shared), 1)
+
+
+def test_a_card_type_is_stored_one_way():
+    """One kind of card, filed under two names, splits every count of it.
+
+    pkmncards writes a Trainer's kind in a sub-type span, and its older pages
+    bracket it: `(Item)` where newer pages say `Item`. Stored as printed, 405
+    cards read `(Item)` against 676 reading `Item`, so the viewer's card-type
+    filter offered the same kind twice and neither entry held all of it.
+    """
+    from Card import Card
+
+    for printed, wanted in (("(Item)", "Item"), ("(Supporter)", "Supporter")):
+        card_dict = {"card_type": printed}
+        Card.normalize_fields(card_dict)
+        check(f"{printed} is stored as {wanted}", card_dict["card_type"], wanted)
+
+    # A type that never carried brackets must come through untouched.
+    for plain in ("Item", "Pokémon", "Special Energy", "Pokémon Tool"):
+        card_dict = {"card_type": plain}
+        Card.normalize_fields(card_dict)
+        check(f"{plain} is left alone", card_dict["card_type"], plain)
+
+
+def test_a_repair_reaches_the_cards_already_stored():
+    """Correcting a scraper does not correct what it wrote yesterday.
+
+    `save` merges, so a field an earlier run filed wrongly survives every later
+    download of the same card. 405 English cards carry a bracketed `(Item)` for
+    a type 676 others spell `Item`; the scraper reads it correctly now, and this
+    is the step that goes back for the ones already on disk.
+    """
+    import repairDatabase
+
+    folder = paths.data_dir("en") / "Other" / "TEST"
+    folder.mkdir(parents=True, exist_ok=True)
+    card = folder / "001.json"
+    card.write_text(
+        json.dumps({"url": "https://example.invalid/ultra-ball", "name": "Ultra Ball",
+                    "img": "", "card_type": "(Item)", "set_name": "TEST", "number": "001"}),
+        encoding="utf-8",
+    )
+
+    reported = repairDatabase.fix_misfiled_fields("en", apply=True)
+    stored = json.loads(card.read_text(encoding="utf-8"))
+    check("the stored card loses its brackets", stored["card_type"], "Item")
+    check("and the repair says it did so", any("card type" in note for notes in reported for note in notes[1]), True)
+
+    # Run twice: a repair that keeps finding the same thing to fix is a repair
+    # that never finished.
+    again = repairDatabase.fix_misfiled_fields("en", apply=True)
+    check("a second pass finds nothing left", again, [])
+
+
+def test_a_printing_records_the_finishes_it_exists_in():
+    """A number names the card, not the finish it was printed with.
+
+    Black Bolt's Snivy is one card sold as a plain print, a reverse holo and a
+    holo; its Zekrom ex exists only as a holo. TCGdex states that per card, and
+    it used to be read and thrown away. Only the finishes stated true are kept,
+    so the field reads as what exists rather than as five flags.
+    """
+    from Card import Card
+
+    card = Card()
+    card.set_variants({"firstEdition": False, "holo": True, "normal": True, "reverse": True, "wPromo": False})
+    check("a card sold three ways keeps three", sorted(card.variants), ["holo", "normal", "reverse"])
+
+    card.set_variants({"firstEdition": False, "holo": True, "normal": False, "reverse": False, "wPromo": False})
+    check("a holo-only card keeps one", card.variants, ["holo"])
+
+    # Nothing stated means nothing stored, rather than an empty list on a card.
+    card.set_variants({})
+    check("no finishes recorded", card.variants, [])
+
+    # `to_dict` writes url, name, img and card_type unguarded, so a card needs
+    # all four before it can be turned into a record at all.
+    card.set_url("https://example.invalid/card")
+    card.set_card_name("Snivy")
+    card.set_img("")
+    card.set_card_type("Pokémon")
+    check("and the field stays out of the record", "variants" in card.to_dict(), False)
+
+
+def test_a_set_we_hold_nothing_of_stops_the_run():
+    """A listed set that stored nothing must not read like a set already held.
+
+    English's 30th Celebration was listed by the site and stored by nobody for
+    days, and every line of those runs said `0 downloaded` — which is exactly
+    what a set held in full also says. Nothing in the pipeline could tell the
+    two apart, so the README was rewritten from data short of a whole set.
+
+    The run now says how many of a set's cards it already holds, and a set it
+    holds none of stops the run before the counts are rewritten.
+    """
+    from CardScraperPocket import CardScraperPocket
+
+    scraper = CardScraperPocket()
+    scraper.list_sets = lambda: ["A1"]
+    scraper.set_card_links = lambda code: [
+        "https://pocket.limitlesstcg.com/cards/A1/1",
+        "https://pocket.limitlesstcg.com/cards/A1/2",
+    ]
+    scraper.read_card_safely = lambda *args, **kwargs: None  # nothing downloads
+    scraper.update_readme = lambda *args, **kwargs: None
+
+    # Nothing stored: the set lists two cards and we hold neither.
+    scraper.stored_card_urls = lambda: set()
+    raised = None
+    try:
+        scraper.update()
+    except RuntimeError as error:
+        raised = str(error)
+    check("a set holding nothing stops the run", raised is not None, True)
+    check("and it names the set", "A1" in (raised or ""), True)
+
+    # The same set, already held in full: the run must carry on quietly. A guard
+    # that fired here would fail every healthy run, which is worse than silence.
+    scraper.stored_card_urls = lambda: {
+        "https://pocket.limitlesstcg.com/cards/A1/1",
+        "https://pocket.limitlesstcg.com/cards/A1/2",
+    }
+    quiet = True
+    try:
+        scraper.update()
+    except RuntimeError:
+        quiet = False
+    check("a set held in full does not stop the run", quiet, True)
+
+
+def test_refreshing_reads_cards_it_already_holds():
+    """A field added to a scraper never reaches the cards already stored.
+
+    Every source fetches only what it lacks — by url in English, TCG Pocket and
+    the TCGdex languages, by card id in Japan, Taiwan and Korea. So `variants`
+    was read from TCGdex and written to nothing: no card it applied to was ever
+    read twice. `--refresh` is what asks for the second reading.
+    """
+    import updateDatabase
+    from CardScraperPocket import CardScraperPocket
+    from CardScraperTCGdex import CardScraperTCGdex
+
+    held = {"https://pocket.limitlesstcg.com/cards/A1/1"}
+
+    kept = CardScraperPocket()
+    kept.stored_card_urls = lambda: held
+    check("normally a stored card is remembered", kept.stored_card_urls(), held)
+
+    forgetful = CardScraperPocket()
+    forgetful.stored_card_urls = lambda: held
+    updateDatabase.forget(forgetful)
+    check("after a refresh nothing is remembered", set(forgetful.stored_card_urls()), set())
+
+    tcgdex = CardScraperTCGdex(lang="fr")
+    updateDatabase.forget(tcgdex)
+    check("a tcgdex refresh forgets its urls", set(tcgdex.stored_card_urls()), set())
+
+    # Japan, Taiwan and Korea narrow their work by card id rather than by url,
+    # so a refresh that only emptied the url lookup would quietly do nothing for
+    # the three sources whose runs are slowest.
+    from CardScraperJP import CardScraperJP
+
+    japan = CardScraperJP()
+    japan.known_ids = lambda: {123, 456}
+    japan.get_downloaded_id_list = lambda lang="jp": {789}
+    check("normally japan remembers its ids", japan.known_ids() | japan.get_downloaded_id_list(), {123, 456, 789})
+
+    updateDatabase.forget(japan)
+    check("after a refresh japan remembers no id", set(japan.known_ids()), set())
+    check("and none from its scraped list", set(japan.get_downloaded_id_list(lang="jp")), set())
+
+
+def test_a_failed_source_fails_the_run():
+    """A source that could not finish must not leave the exit status at zero.
+
+    `updateDatabase.main()` caught every failure, logged it, and returned None —
+    which Python reports as success. `update.py` then counted the step as done
+    and rewrote the README from data the run had not updated.
+    """
+    import updateDatabase
+
+    check(
+        "the module ends by raising its own exit status",
+        "raise SystemExit(main())" in (paths.ROOT / "code" / "updateDatabase.py").read_text(encoding="utf-8"),
+        True,
+    )
+
+    # A source whose update raises is recorded as unfinished, and that is what
+    # the exit status has to carry.
+    class Broken:
+        def update(self, limit=None):
+            raise RuntimeError("the site moved")
+
+    # Both of these are global, and the suite runs in one process, so they are
+    # put back afterwards rather than left for whatever test comes next.
+    was_build, was_argv = updateDatabase.build_scraper, sys.argv
+    try:
+        updateDatabase.build_scraper = lambda name, delay: Broken()
+        sys.argv = ["updateDatabase.py", "pocket"]
+        check("a failing source exits non-zero", updateDatabase.main(), 1)
+    finally:
+        updateDatabase.build_scraper, sys.argv = was_build, was_argv
+
+
 def test_chinese_and_taiwanese_cards_reach_japan():
     """Simplified Chinese numbers as Japan does, and Taiwan respells a few sets.
 
@@ -649,6 +907,14 @@ def main():
             test_species_is_read_through_the_words_around_it,
             test_a_stated_dex_number_is_read_as_a_number,
             test_a_card_never_names_a_folder_below_its_own,
+            test_an_attack_with_no_damage_is_written_one_way,
+            test_a_promo_numbered_per_region_is_not_one_printing,
+            test_a_card_type_is_stored_one_way,
+            test_a_repair_reaches_the_cards_already_stored,
+            test_a_printing_records_the_finishes_it_exists_in,
+            test_a_set_we_hold_nothing_of_stops_the_run,
+            test_refreshing_reads_cards_it_already_holds,
+            test_a_failed_source_fails_the_run,
             test_chinese_and_taiwanese_cards_reach_japan,
             test_pocket_cards_link_across_languages,
             test_ambiguous_printings_do_not_link,

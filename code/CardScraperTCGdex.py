@@ -91,6 +91,13 @@ class CardScraperTCGdex(CardScraper):
             card.set_rarity(data["rarity"])
         if data.get("regulationMark"):
             card.set_mark(data["regulationMark"])
+        # Which finishes this printing exists in. TCGdex states them per card and
+        # states them differently — Black Bolt's Snivy is normal, reverse and
+        # holo, its Zekrom ex holo only — so they are worth keeping. It does not
+        # say which pattern a reverse holo carries, so no source here can tell a
+        # Poké Ball reverse from a Master Ball one.
+        if data.get("variants"):
+            card.set_variants(data["variants"])
         if data.get("illustrator"):
             card.set_author([data["illustrator"]])
         if data.get("hp"):

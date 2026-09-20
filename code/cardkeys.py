@@ -127,8 +127,10 @@ MECHANIC = r"\s+(ex|v|vmax|vstar|v-union|gx|break|prime|lv\.x|star|δ|◇|tag te
 
 #: Regions that share Japan's set codes and numbering. Simplified Chinese is
 #: read from TCGdex but numbered as Japan numbers — its sets are SV7, SV8, SV10
-#: — so it belongs here: of the 829 positions Japan also holds, 541 are provably
-#: the same Pokémon and none is a different one.
+#: — so it belongs here on its numbering alone. It used to say that 541 of the
+#: 829 positions Japan also holds are provably the same Pokémon; that proved
+#: nothing, because TCGdex answers zh-cn with Taiwan's text, so the comparison
+#: was Taiwan against Japan and not Simplified Chinese against anything.
 ASIA = {"jp", "ko", "tc", "hk", "th", "id", "sg", "my", "ph", "sc"}
 
 #: Languages TCGdex numbers its own way, sharing one set id across all of them.
@@ -168,6 +170,28 @@ SET_ALIAS = {
     "SVP1 F": "SVP1",
 }
 
+#: Korea spells twenty of Japan's set codes in lower case, and for these twenty
+#: the cards behind them are the same printings: every number the two share
+#: fingerprints alike and not one disagrees. They are listed rather than folded
+#: by case, because case is not the question — of the 53 pairs that differ only
+#: in case, 33 are different sets. `CP6` and `cp6` agree on 23 numbers and
+#: disagree on 49; `Bd` and `bd` agree on none of their 6 and disagree on all.
+SET_ALIAS.update({
+    "cp2": "CP2", "cp5": "CP5", "sm2k": "SM2K", "sm2l": "SM2L", "sm4a": "SM4A",
+    "sm4s": "SM4S", "sm6b": "SM6b", "sm8": "SM8", "sm9a": "SM9a", "smL": "SML",
+    "smd": "SMD", "sme": "SME", "smp2": "SMP2", "x30": "X30", "xy4": "XY4",
+    "xya": "XYA", "xyb": "XYB", "xyc": "XYC", "xyf": "XYF", "y30": "Y30",
+})
+
+
+#: Promo series each region numbers for itself. Japan and Taiwan both publish an
+#: `S-P`, an `SV-P` and an `M-P`, and they are not the same cards: across 465
+#: shared numbers exactly one fingerprint agrees and 169 disagree — Japan's S-P
+#: 071 is シャワーズ where Taiwan's is 嘟嘟利V. Keyed as one family they published
+#: 463 links between cards that have nothing to do with each other. Korea's SVP1
+#: is left alone: there all 7 shared numbers agree and none disagree.
+REGIONAL_PROMO = {"S-P", "SV-P", "M-P"}
+
 
 def print_key(card):
     """The printing this card is, shared by every language that numbers it alike.
@@ -183,7 +207,11 @@ def print_key(card):
         return None
     if not any(char.isdigit() for char in number) or number == str(code):
         return None
-    return f"{family(card)}:{code}-{number}"
+    group = family(card)
+    if group == "asia" and str(code) in REGIONAL_PROMO:
+        # Numbered per region, so the language is part of the printing's name.
+        group = card.get("lang") or ("jp" if "jp_id" in card else group)
+    return f"{group}:{code}-{number}"
 
 
 def printed_number(number):
@@ -207,10 +235,20 @@ def plain_marks(text):
 
 
 def damage_of(attack):
-    """One attack's damage, however the source happens to write it."""
+    """One attack's damage, however the source happens to write it.
+
+    An attack that deals no damage is written three ways: Japan, Korea, English
+    and the TCGdex languages leave the field null, Taiwan writes an empty string,
+    and a few records carry the word as text. Rendered into a fingerprint those
+    became `None` against ``, so one card keyed two ways and the two never met —
+    measured at 14,936 language-pair links, 1,890 of them between Japan and
+    Taiwan and 1,881 between English and Taiwan.
+    """
     damage = attack.get("damage")
     if isinstance(damage, dict):
         return plain_marks(f"{damage.get('amount')}{damage.get('suffix') or ''}")
+    if damage is None or str(damage).strip() in ("", "None"):
+        return ""
     return plain_marks(damage)
 
 
@@ -239,8 +277,12 @@ def name_candidates(stripped):
     half. Runs of one word are read left to right, which is what keeps a TAG TEAM
     card like "Pikachu & Zekrom-GX" naming the first of the two.
     """
+    # PokéAPI spells the two Nidoran `nidoran-f` and `nidoran-m`, while every
+    # per-language table spells them `nidoran♀` and `nidoran♂`. Both spellings
+    # are offered, so whichever table is read finds its own.
+    letters = stripped.replace("♂", "-m").replace("♀", "-f")
     found = []
-    for spelling in (stripped, plain_letters(stripped)):
+    for spelling in dict.fromkeys((stripped, letters, plain_letters(stripped))):
         words = [word for word in spelling.split("-") if word]
         for length in range(len(words), 0, -1):
             for start in range(len(words) - length + 1):
@@ -266,8 +308,14 @@ def nidoran_gender(stripped):
     # A space or nothing at all before the symbol, but never a hyphen: PokéAPI's
     # own table spells them `nidoran-m` and `nidoran-f`, and reading that final
     # letter as the gender would rewrite a name that already matched.
-    stripped = re.sub(r"(?<!-)\s*(?:♂|(?<= )m)$", "♂", stripped)
-    return re.sub(r"(?<!-)\s*(?:♀|(?<= )w)$", "♀", stripped)
+    # The gender is written every way the sources can: `Nidoran ♂`, `Nidoran♂`
+    # flush against the name in TCG Pocket, and the German `Nidoran M` and
+    # `Nidoran W`. Read in two steps, because the order is what keeps them apart:
+    # a letter becomes the symbol only when a space separates it, which leaves
+    # PokéAPI's own `nidoran-m` alone, and only then is the space closed up.
+    stripped = re.sub(r"\s+m$", " ♂", stripped)
+    stripped = re.sub(r"\s+w$", " ♀", stripped)
+    return re.sub(r"\s+([♂♀])$", r"\1", stripped)
 
 
 def dex_from_name(name, lang="en"):

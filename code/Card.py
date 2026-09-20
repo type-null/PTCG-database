@@ -156,6 +156,16 @@ class Card:
         self.rarity = rarity
         self.rarity_img = url
 
+    def set_variants(self, variants):
+        """The finishes one printing was sold in: normal, reverse, holo.
+
+        A card's number names the card, not the finish it was printed with, so
+        Black Bolt's Snivy is one card that exists as a plain print, a reverse
+        holo and a holo. Only the finishes a source states as true are kept, so
+        the field reads as a list of what exists rather than five flags.
+        """
+        self.variants = [name for name, present in (variants or {}).items() if present]
+
     def set_effect(self, effect):
         self.effect = effect
 
@@ -334,6 +344,8 @@ class Card:
             card_dict["rarity"] = self.rarity
             if self.rarity_img:
                 card_dict["rarity_img"] = self.rarity_img
+        if getattr(self, "variants", None):
+            card_dict["variants"] = self.variants
         if hasattr(self, "effect"):
             card_dict["effect"] = self.effect
         if hasattr(self, "author"):
@@ -450,6 +462,15 @@ class Card:
             else:
                 card_dict.pop("rule_box", None)
                 fixed.append("dropped a rule box copied out of an attack")
+
+        # pkmncards writes a Trainer's kind in a sub-type span, and on its older
+        # pages it writes it in brackets: `(Item)` where newer pages say `Item`.
+        # Stored as printed, one kind of card is filed under two names — 405
+        # cards against 676 — which splits the viewer's card-type filter in two.
+        kind = (card_dict.get("card_type") or "").strip()
+        if kind.startswith("(") and kind.endswith(")"):
+            card_dict["card_type"] = kind[1:-1].strip()
+            fixed.append("took the brackets off a card type")
         return fixed
 
     # ------------------------------------------------------------------

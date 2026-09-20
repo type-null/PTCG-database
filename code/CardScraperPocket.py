@@ -341,7 +341,7 @@ class CardScraperPocket(CardScraper):
         logger.info(f"Set {set_code}: {len(cards)} cards listed, {held} stored, {len(new_cards)} downloaded.")
         if cards and held == 0 and card_id is None:
             logger.error(f"Set {set_code} lists {len(cards)} cards and none of them is stored")
-        return card_id, len(cards)
+        return card_id, len(cards), held
 
     def list_sets(self):
         """Every set the site publishes, oldest first."""
@@ -378,23 +378,34 @@ class CardScraperPocket(CardScraper):
         if limit:
             set_list = set_list[:limit]
 
-        last_id, failed = None, []
+        last_id, failed, empty = None, [], []
         for set_code in tqdm(set_list, desc="Checking pocket sets", disable=None):
-            card_id, listed = self.scrape_set(set_code, skip_urls=stored)
+            card_id, listed, held = self.scrape_set(set_code, skip_urls=stored)
             last_id = card_id or last_id
-            if not listed:
+            # As for English: a set that listed nothing and a set that stored
+            # nothing both get a second pass before either is believed.
+            if not listed or (held == 0 and card_id is None):
                 failed.append(set_code)
 
         # A set that would not list is usually a moment of throttling, so it
         # is worth one more pass before the run gives up on it.
         if failed:
-            logger.warning(f"Retrying {len(failed)} sets that did not list: {failed}")
+            logger.warning(f"Retrying {len(failed)} sets that listed nothing or stored nothing: {failed}")
             for set_code in failed:
-                card_id, listed = self.scrape_set(set_code, skip_urls=stored)
+                card_id, listed, held = self.scrape_set(set_code, skip_urls=stored)
                 last_id = card_id or last_id
                 if not listed:
                     logger.error(f"Set {set_code} is still unreachable")
+                elif held == 0 and card_id is None:
+                    # Twice now: the site named its cards and not one of them
+                    # could be stored. That is a real gap, not a slow moment.
+                    empty.append(set_code)
 
         if last_id:
             self.update_readme(last_id, lang="pocket")
         logger.info(f"Checked {len(set_list)} sets.")
+
+        # As for English: a listed set we hold nothing of must stop the run
+        # rather than pass for a set that is already complete.
+        if empty:
+            raise RuntimeError(f"{len(empty)} set(s) list cards but none is stored: {', '.join(sorted(empty))}")

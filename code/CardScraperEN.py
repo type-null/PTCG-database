@@ -436,7 +436,7 @@ class CardScraperEN(CardScraper):
         logger.info(f"Set {set_name}: {len(cards)} cards listed, {held} stored, {len(new_cards)} downloaded.")
         if cards and held == 0 and card_id is None:
             logger.error(f"Set {set_name} lists {len(cards)} cards and none of them is stored")
-        return card_id, len(cards)
+        return card_id, len(cards), held
 
     def list_sets(self):
         """Every set the site publishes."""
@@ -475,23 +475,38 @@ class CardScraperEN(CardScraper):
         if limit:
             set_list = set_list[:limit]
 
-        last_id, failed = None, []
+        last_id, failed, empty = None, [], []
         for set_name in tqdm(set_list, desc="Checking en sets", disable=None):
-            card_id, listed = self.scrape_set(set_name, skip_urls=stored)
+            card_id, listed, held = self.scrape_set(set_name, skip_urls=stored)
             last_id = card_id or last_id
-            if not listed:
+            # A set that lists nothing was throttled or moved; a set that lists
+            # cards and stored none of them is the gap worth stopping for. Both
+            # get a second pass before either is believed.
+            if not listed or (held == 0 and card_id is None):
                 failed.append(set_name)
 
         # A set that would not list is usually a moment of throttling, so it
         # is worth one more pass before the run gives up on it.
         if failed:
-            logger.warning(f"Retrying {len(failed)} sets that did not list: {failed}")
+            logger.warning(f"Retrying {len(failed)} sets that listed nothing or stored nothing: {failed}")
             for set_name in failed:
-                card_id, listed = self.scrape_set(set_name, skip_urls=stored)
+                card_id, listed, held = self.scrape_set(set_name, skip_urls=stored)
                 last_id = card_id or last_id
                 if not listed:
                     logger.error(f"Set {set_name} is still unreachable")
+                elif held == 0 and card_id is None:
+                    # Twice now: the site named its cards and not one of them
+                    # could be stored. That is a real gap, not a slow moment.
+                    empty.append(set_name)
 
         if last_id:
             self.update_readme(last_id, lang="en")
         logger.info(f"Checked {len(set_list)} sets.")
+
+        # A set the site lists and we hold nothing of is how 30th Celebration
+        # went missing for days: every line of that run read "0 downloaded",
+        # which is what a set we already hold in full also reads. Raising it
+        # stops the pipeline before the README is rewritten from data that is
+        # short of a whole set.
+        if empty:
+            raise RuntimeError(f"{len(empty)} set(s) list cards but none is stored: {', '.join(sorted(empty))}")

@@ -48,13 +48,34 @@ SOURCES = {
 DEFAULT_SOURCES = ["jp", "en", "tc", "pocket"]
 
 
-def build_scraper(name, delay):
+def build_scraper(name, delay, refresh=False):
     module_name, class_name, kwargs, _ = SOURCES[name]
     module = __import__(module_name)
     scraper = getattr(module, class_name)(**kwargs)
     if delay:
         scraper.delay = delay
+    if refresh:
+        forget(scraper)
     return scraper
+
+
+def forget(scraper):
+    """Make a scraper read every card again, not only the ones it lacks.
+
+    A run is cheap because each source compares what a site lists against what
+    is already stored and fetches the difference — by url in English, TCG Pocket
+    and the TCGdex languages, by card id in Japan, Taiwan and Korea. That also
+    means a field added to the scrapers today never reaches the cards stored
+    yesterday: `variants` was read from TCGdex and written nowhere, because no
+    card it applied to was ever read a second time.
+
+    Emptying those two answers re-reads everything, which is the slow and
+    deliberate thing `--refresh` is for.
+    """
+    nothing = frozenset()
+    for lookup in ("stored_card_urls", "known_ids", "get_downloaded_id_list"):
+        if hasattr(scraper, lookup):
+            setattr(scraper, lookup, lambda *args, **kwargs: nothing)
 
 
 def configure_logging(name, verbose):
@@ -81,6 +102,11 @@ def main():
     parser.add_argument("--limit", type=int, help="stop after this many cards or sets")
     parser.add_argument("--delay", type=float, help="seconds between requests (default 1)")
     parser.add_argument("--verbose", action="store_true", help="log every field that is read")
+    parser.add_argument(
+        "--refresh",
+        action="store_true",
+        help="read every card again, not only the missing ones, so fields added since reach old cards",
+    )
     args = parser.parse_args()
 
     if args.list:
@@ -100,7 +126,7 @@ def main():
         configure_logging(name, args.verbose)
         started = time.time()
         try:
-            scraper = build_scraper(name, args.delay)
+            scraper = build_scraper(name, args.delay, args.refresh)
             scraper.update(limit=args.limit)
             results[name] = f"done in {time.time() - started:.0f}s"
         except KeyboardInterrupt:
@@ -116,7 +142,17 @@ def main():
     for name, outcome in results.items():
         logger.info(f"  {name:8} {outcome}")
 
+    # A source that failed used to leave the exit status at 0, so `update.py`
+    # counted the step as done and went on to rewrite the README from data the
+    # run had not actually updated. A failure now reaches the exit status, which
+    # is what stops the rest of the pipeline.
+    unfinished = {name: outcome for name, outcome in results.items() if not outcome.startswith("done")}
+    if unfinished:
+        logger.error(f"{len(unfinished)} source(s) did not finish: {', '.join(unfinished)}")
+        return 1
+    return 0
+
 
 if __name__ == "__main__":
     sys.path.insert(0, str(paths.ROOT / "code"))
-    main()
+    raise SystemExit(main())

@@ -187,6 +187,10 @@
   .vset { color: var(--muted); font-family: "IBM Plex Mono", monospace; font-size: 11.5px; font-variant-numeric: tabular-nums; }
   .vrar { color: var(--gold); font-size: 11.5px; font-weight: 600; }
   .vnone { color: var(--muted); font-size: 12.5px; }
+  .fin {
+    display: inline-block; background: var(--surface-2); border: 1px solid var(--line);
+    border-radius: 999px; padding: 3px 10px; margin: 0 4px 4px 0; font-size: 12.5px;
+  }
   .note a, footer a { color: var(--accent); }
   footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; padding-block: 18px 40px; }
   .status { color: var(--muted); padding: 30px 2px; }
@@ -528,7 +532,7 @@ const LABEL = {
   pokedex_number: "Pokédex number", set_img: "Set symbol", rarity_img: "Rarity symbol",
   poke_body: "Poké-Body", poke_power: "Poké-Power", ancient_trait: "Ancient trait",
   held_berry: "Held berry", held_item: "Held item", pokemon_category: "Category",
-  technical_machine_rule: "Technical Machine rule", set_code: "Set code",
+  technical_machine_rule: "Technical Machine rule", variants: "Finishes",
 };
 
 function label(field) {
@@ -630,13 +634,24 @@ async function openRow(c, fields, which) {
     <div class="vgroup"><h3>${title}</h3>
       ${rows ? `<div class="vlist">${rows}</div>` : `<p class="vnone">${empty}</p>`}
     </div>`;
+  // A number names the card, not the finish it was printed with: one printing
+  // can exist as a plain card, a reverse holo and a holo at once.
+  const FINISH = { normal: "Plain", reverse: "Reverse holo", holo: "Holo", firstEdition: "First edition", wPromo: "Promo stamp" };
+  const finishes = get("variants") || [];
+  const finishRows = finishes.length
+    ? `<div class="vlist">${finishes.map(name =>
+        `<span class="fin">${esc(FINISH[name] || name)}</span>`).join("")}</div>`
+    : "";
+
   const versions = el("versions");
   if (versions) {
     versions.innerHTML =
       block("This printing in other languages", samePrint,
             "This printing is only stored in this language so far.") +
       block("Other printings of this card", sameCard,
-            "No other printing recorded — Trainer and Energy cards carry no Pokédex number to match on.");
+            "No other printing recorded — Trainer and Energy cards carry no Pokédex number to match on.") +
+      block("Finishes this printing was sold in", finishRows,
+            "No finishes recorded. Only the languages TCGdex serves publish them, and none of the sources says which pattern a reverse holo carries.");
   }
 }
 

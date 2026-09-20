@@ -44,6 +44,14 @@ it twice in a row downloads nothing the second time. It stops at the first step
 that fails and leaves the counts alone, so a half-finished run never publishes
 numbers it cannot stand behind.
 
+A step fails loudly rather than quietly. A source that cannot finish now ends the
+run instead of logging and returning success, and each set says how many of its
+cards are already stored — `120 cards listed, 118 stored, 2 downloaded` — because
+a set the site lists and this holds nothing of used to read exactly like a set
+held in full. Such a set is tried twice, and if it still stores nothing the run
+stops with its name. That is how English's 30th Celebration sat missing while
+every line of the run said `0 downloaded`.
+
 `updateDatabase.py` is the card-downloading step inside it, and still runs on its
 own. Each source lists what it publishes, compares that against what is already
 stored, and downloads only the difference.
@@ -55,7 +63,16 @@ uv run code/updateDatabase.py --all         # include the newer languages
 uv run code/updateDatabase.py jp --limit 20 # a short trial run
 uv run code/updateDatabase.py --delay 2     # go easier on the site
 uv run code/updateDatabase.py --verbose     # log every field that is read
+uv run code/updateDatabase.py fr --refresh  # read stored cards again, not only new ones
 ```
+
+`--refresh` is the slow, deliberate one. Every source fetches only what it lacks,
+which is what keeps a daily run cheap — and also means a field added to the
+scrapers today never reaches the cards stored yesterday. `variants` is the
+example: TCGdex publishes it, the scraper reads it, and no card already on disk
+ever gets a second reading. Refreshing one language re-reads all of it, so prefer
+naming the sets you actually need through a short run over re-reading 88,451
+cards at one request a second.
 
 Requests are paced (one per second by default, with jitter), retried with a
 widening back-off, and slowed further when a site answers 429 or 403, so a
@@ -137,6 +154,16 @@ What it shows:
   Simplified Chinese publish a release date; Japanese, Korean, Traditional
   Chinese and TCG Pocket publish none, so those are ordered by the numbering
   their own sites issue, which runs the same way.
+- **The finishes a printing was sold in**, where a source states them. A number
+  names the card, not the finish: Black Bolt's Snivy exists as a plain print, a
+  reverse holo and a holo, its Zekrom ex as a holo alone. TCGdex publishes that
+  per card, so the languages it serves carry a `variants` field and the card view
+  lists it. Two limits are worth knowing. pkmncards publishes one page per number
+  and no variant rows, so English has none to show. And no source here says which
+  *pattern* a reverse holo carries, so a Poké Ball reverse cannot be told from a
+  Master Ball one.
+- **Back to the top.** The grid runs to tens of thousands of cards; a button
+  appears once the filters have scrolled away.
 
 `docs/index/` is build output and is **not** committed: `buildIndex.py` rebuilds
 it from the stored cards whenever you ask.
@@ -254,15 +281,28 @@ set counts.
 French is the best served of them, with only 5 sets advertising cards the API
 cannot serve.
 
-Simplified Chinese is the extreme case: `data_sc/` holds only the 8 sets that
-carry records, out of 57 sets that together claim 6,962 cards.
-It also publishes no card pictures, so `img` is empty there; the card text
-is complete.
+Simplified Chinese is the extreme case, and the worst of it is not the count.
+`data_sc/` holds only the 8 sets that carry records, out of 57 sets that
+together claim 6,962 cards, and it publishes no card pictures, so `img` is
+empty there.
 
-There is no better Simplified Chinese source to switch to: the Pokémon Asia
-site serves no `cn`/`sc`/`zh` locale, `pokemon.cn` publishes product news but
-no card search, and the community sites that once did are gone. What
-`data_sc/` holds is the whole structured corpus that exists.
+**The text is not Simplified Chinese.** TCGdex answers `zh-cn` and `zh-tw` with
+the same record — ask either for `SV7-115` and both say 蜜集大蛇ex, 星晶奇跡 — so
+what is stored under `data_sc/` is Taiwan's text under Japan's set codes. Of its
+877 cards, 812 contain characters used only in Traditional Chinese, and 734
+carry a name identical to the Taiwanese card at the same set and number, against
+3 that differ. For those six sets `data_sc/` is a second copy of `data_tc/`.
+
+A real Simplified corpus does exist. [PTCG-CHS-Datasets][chs] publishes 22,882
+cards across 232 products with pictures, in genuine Simplified Chinese, and its
+shape — code tables, product codes, a hash per row — reads like an official
+backend export. It is not imported here and should not be: it carries no licence,
+its README forbids redistribution without the owner's written consent, and this
+repository is MIT, which is not ours to extend over someone else's compilation.
+It is worth reading as evidence that an official Simplified source exists to be
+asked for or scraped first-hand, which is the honest way to fill this gap.
+
+[chs]: https://github.com/duanxr/PTCG-CHS-Datasets
 
 German is the next best served, ahead of Spanish, Italian and Portuguese in
 `data_de/`, `data_es/`, `data_it/` and `data_pt/` — the table under **Repository
@@ -412,11 +452,16 @@ its own. Leading zeros are dropped: one source writes `018` where another writes
 
 Simplified Chinese sits with the Asia regions rather than with the languages
 TCGdex serves, because that is how it is numbered: its sets are `SV7`, `SV8`,
-`SV10`, Japan's own codes. Of the 829 positions Japan also holds, 541 are
-provably the same Pokémon and **none** is a different one. Taiwan respells five
+`SV10`, Japan's own codes, which is how TCGdex files them. That much holds. The
+evidence once cited for it — 829 positions shared with Japan, 541 provably the
+same Pokémon — does not: `data_sc/` carries Taiwan's text, so those figures
+compared Taiwan with Japan twice over and said nothing about Simplified Chinese.
+The numbering is the reason it sits here; the agreement was never the test it
+looked like. Taiwan respells five
 of Japan's sets with a trailing `F` — `SV2a F`, `SV3 F`, `SV9aF`, `SV11BF`,
-`SVP1 F` — and those are aliased to Japan's spelling, on the same evidence: 469
-shared numbers, the same Pokémon, none different. Only those five; Japan has
+`SVP1 F` — and those are aliased to Japan's spelling on evidence of its own, and
+this one holds: Taiwan against Japan, 469 shared numbers, the same Pokémon, none
+different. Only those five; Japan has
 sets genuinely called `SVF` and `MF`.
 
 TCG Pocket is one namespace across every language. limitlesstcg publishes a
@@ -549,8 +594,8 @@ Pocket Rarity key:
     - Card content: [`data_en/`](data_en/)
         - `/data_en/series/set_name/<individual-card>.json`
         - `series` and `set_name` are automatically scraped from the set image under the card image shown on the webpage
-		- Last en downloaded time: September 17, 2026
-		- Last en downloaded card_id: MEP-091
+		- Last en downloaded time: September 20, 2026
+		- Last en downloaded card_id: 30C-203
 
     - Logs: [`logs/`](logs/)
         - [scrape_en_log](logs/scrape_en_log.log): Information on scraping cards

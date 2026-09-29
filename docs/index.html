@@ -8,193 +8,154 @@
      docs/index/ and the pictures through the ignored `images` link. It asks the
      network for nothing at all, so the type falls back to the system's own. -->
 <style>
-  html { color-scheme: light dark; }
-  img { max-width: 100%; }
   :root {
-    --ground: #f4f6fb;
+    color-scheme: light;
+    --ground: #ffffff;
     --surface: #ffffff;
-    --surface-2: #eef1f8;
-    --ink: #151a24;
-    --muted: #5d6879;
-    --line: #dde3ee;
-    --accent: #2b5cc4;
-    --accent-soft: #e6ecfa;
-    --gold: #9a6a12;
-    --gold-soft: #f7edd8;
-    --shadow: 0 1px 2px rgba(18, 28, 52, .06), 0 10px 28px rgba(18, 28, 52, .07);
-  }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --ground: #0e1118;
-      --surface: #161b26;
-      --surface-2: #1d2430;
-      --ink: #e7ebf3;
-      --muted: #97a1b3;
-      --line: #28303f;
-      --accent: #7da4f5;
-      --accent-soft: #1b2740;
-      --gold: #dcae54;
-      --gold-soft: #2c2415;
-      --shadow: 0 1px 2px rgba(0, 0, 0, .5), 0 12px 30px rgba(0, 0, 0, .38);
-    }
+    --surface-2: #f3f4f5;
+    --ink: #404248;
+    --muted: #70747c;
+    --line: #dde1ea;
+    --accent: #367fb9;
+    --accent-soft: #edf6fe;
+    --button: linear-gradient(110deg, #489fe6, #84c3f6);
+    --gold: #8b641b;
+    --gold-soft: #faf3e2;
+    --shadow: 0 3px 14px rgb(46 76 108 / 8%);
   }
   :root[data-theme="dark"] {
-    --ground: #0e1118;
-    --surface: #161b26;
-    --surface-2: #1d2430;
-    --ink: #e7ebf3;
-    --muted: #97a1b3;
-    --line: #28303f;
-    --accent: #7da4f5;
-    --accent-soft: #1b2740;
-    --gold: #dcae54;
-    --gold-soft: #2c2415;
-    --shadow: 0 1px 2px rgba(0, 0, 0, .5), 0 12px 30px rgba(0, 0, 0, .38);
+    color-scheme: dark;
+    --ground: #171d27;
+    --surface: #202938;
+    --surface-2: #283446;
+    --ink: #f0f3f8;
+    --muted: #b6c2d4;
+    --line: #455368;
+    --accent: #9acbff;
+    --accent-soft: #2d435f;
+    --gold: #e7c886;
+    --gold-soft: #493f2a;
+    --shadow: 0 3px 14px rgb(0 0 0 / 15%);
   }
-
   * { box-sizing: border-box; }
   body {
     margin: 0;
     background: var(--ground);
     color: var(--ink);
-    font: 400 15px/1.55 "Public Sans", ui-sans-serif, system-ui, "Hiragino Sans",
-          "Noto Sans CJK JP", "Noto Sans CJK TC", "Noto Sans CJK KR", sans-serif;
+    font: 400 15px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+          Arial, "Hiragino Sans", "Noto Sans CJK JP", "Noto Sans CJK TC", sans-serif;
   }
-  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 20px; }
-
-  header { border-bottom: 1px solid var(--line); background: var(--surface); }
-  .masthead { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; padding-block: 20px 14px; }
-  h1 {
-    font-family: "Bricolage Grotesque", ui-sans-serif, sans-serif;
-    font-weight: 700; font-size: clamp(22px, 3.4vw, 30px); letter-spacing: -.02em;
-    margin: 0; text-wrap: balance;
-  }
-  .tagline { color: var(--muted); font-size: 14px; }
-  .tagline b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
-
-  .langs { display: flex; flex-wrap: wrap; gap: 6px; padding-bottom: 14px; }
-  .lang {
-    display: inline-flex; align-items: baseline; gap: 7px;
-    border: 1px solid var(--line); background: var(--surface-2); color: var(--ink);
-    border-radius: 7px; padding: 5px 10px; cursor: pointer;
-    font: 500 13px/1 "Public Sans", sans-serif;
-  }
-  .lang:hover { border-color: var(--accent); }
-  .lang[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
-  .lang .n { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11px; opacity: .75; font-variant-numeric: tabular-nums; }
-  .lang .flag { font-size: 13px; line-height: 1; margin-right: 1px; }
-
-  .filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding-bottom: 16px; }
-  input, select, button {
-    font: 400 14px "Public Sans", sans-serif; color: var(--ink);
-    background: var(--surface-2); border: 1px solid var(--line); border-radius: 7px; padding: 7px 10px;
-  }
-  #q { flex: 1 1 260px; min-width: 0; }
-  input:focus-visible, select:focus-visible, button:focus-visible, .lang:focus-visible, .card:focus-visible {
-    outline: 2px solid var(--accent); outline-offset: 2px;
+  img { max-width: 100%; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  button, input, select { font: inherit; color: inherit; }
+  button, input, select, a { -webkit-tap-highlight-color: transparent; }
+  button, input, select {
+    min-height: 44px; max-width: 100%; border: 1px solid var(--line);
+    background: var(--surface); border-radius: 8px; padding: 9px 13px;
   }
   button { cursor: pointer; }
   button:hover { border-color: var(--accent); }
-  /* The grid runs to tens of thousands of cards, so the way back is a long one. */
-  #top {
-    position: fixed; right: 18px; bottom: 18px; z-index: 5;
-    padding: 9px 14px; border-radius: 999px; box-shadow: var(--shadow);
-    background: var(--surface); font-weight: 500;
+  :focus-visible { outline: 3px solid #246ba6; outline-offset: 3px; }
+  .wrap { width: 100%; max-width: 1240px; margin-inline: auto; padding-inline: 24px; }
+  header { background: var(--surface); border-bottom: 1px dotted #bcc7d5; }
+  .masthead { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 20px; padding-block: 28px 20px; }
+  h1 { font-size: clamp(24px, 3.4vw, 34px); font-weight: 600; line-height: 1.35; margin: 0; text-wrap: balance; }
+  .tagline { color: var(--muted); font-size: 13px; max-width: 520px; }
+  .tagline b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+  .snapshot-note { margin: 0 0 18px; padding: 12px 16px; border-radius: 8px; background: var(--accent-soft); font-size: 13px; overflow-wrap: anywhere; }
+  .langs { display: flex; flex-wrap: wrap; gap: 8px; padding-bottom: 20px; }
+  .lang {
+    display: inline-flex; justify-content: center; align-items: center; gap: 7px;
+    min-height: 44px; padding: 9px 17px; border-radius: 999px;
+    font-size: 13px; line-height: 1.3; font-weight: 600;
   }
-  .count { color: var(--muted); font-family: "IBM Plex Mono", monospace; font-size: 12px; font-variant-numeric: tabular-nums; white-space: nowrap; }
-
-  main { padding-block: 18px 56px; }
-  #grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(158px, 1fr)); }
-  .card {
-    background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
-    overflow: hidden; cursor: pointer; text-align: left; padding: 0; box-shadow: var(--shadow);
-  }
-  .card:hover { border-color: var(--accent); }
-  /* A published page may load only pictures it ships with, and there are
-     171,961 cards, so a card is drawn rather than photographed: its energy
-     type tints the face, and the type is what the eye sorts the grid by. */
-  .face {
-    aspect-ratio: .717; display: flex; flex-direction: column; justify-content: space-between;
-    gap: 10px; padding: 12px; color: var(--ink);
-    background: linear-gradient(158deg, color-mix(in srgb, var(--tint) 24%, var(--surface)) 0%, var(--surface) 64%);
-  }
-  .face.big {
-    aspect-ratio: auto; min-height: 232px; border-radius: 8px; border: 1px solid var(--line);
-  }
-  .frow { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
-  .ftype {
-    font: 600 10.5px/1.25 "Public Sans", sans-serif; letter-spacing: .08em; text-transform: uppercase;
-    color: color-mix(in srgb, var(--tint) 70%, var(--ink));
-  }
-  .fhp, .fset { font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
-  .fname {
-    font-family: "Bricolage Grotesque", ui-sans-serif, sans-serif; font-weight: 700;
-    font-size: 16px; line-height: 1.12; letter-spacing: -.01em; text-wrap: balance;
-  }
+  .lang[aria-pressed="true"] { background: var(--button); color: #fff; border-color: transparent; box-shadow: 0 3px 8px rgb(72 159 230 / 18%); }
+  .lang .n { font-size: 11px; opacity: .85; font-variant-numeric: tabular-nums; }
+  .lang .flag { font-size: 14px; line-height: 1; }
+  .filters { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 14px; margin-bottom: 22px; border-radius: 10px; background: var(--surface-2); }
+  .filters > input, .filters > select { flex: 1 1 148px; min-width: 0; }
+  #q { flex: 1 1 100%; background: var(--surface); }
+  #reset, #top, .close { border-radius: 999px; padding-inline: 20px; font-weight: 600; }
+  #reset { color: var(--accent); background: var(--surface); }
+  .count { margin-left: auto; color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  #top { position: fixed; right: 18px; bottom: 18px; z-index: 5; background: var(--button); color: #fff; border-color: transparent; box-shadow: var(--shadow); }
+  main { padding-block: 24px 48px; }
+  #grid { display: grid; gap: 14px; grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .card { min-width: 0; padding: 7px; border: 1px solid var(--line); background: var(--surface); border-radius: 12px; overflow: hidden; text-align: left; box-shadow: var(--shadow); transition: transform 160ms ease, border-color 160ms ease; }
+  @media (hover: hover) { .card:hover { transform: translateY(-3px); } }
+  /* The original card image keeps its proportions. If an image is unavailable,
+     its record supplies a legible type-colored face at the same dimensions. */
+  .face { aspect-ratio: .717; display: flex; flex-direction: column; justify-content: space-between; gap: 10px; padding: 12px; border-radius: 6px; background: linear-gradient(158deg, color-mix(in srgb, var(--tint) 20%, var(--surface)), var(--surface) 72%); }
+  .face.big { min-height: 320px; border: 1px solid var(--line); border-radius: 10px; }
+  .frow { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 4px 8px; }
+  .ftype { font-size: 10px; line-height: 1.3; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: color-mix(in srgb, var(--tint) 55%, var(--ink)); }
+  .fhp, .fset { font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .fname { font-size: 17px; line-height: 1.3; font-weight: 600; overflow-wrap: anywhere; text-wrap: balance; }
   .face.big .fname { font-size: 27px; }
-  .frar { font-size: 10.5px; font-weight: 600; color: var(--gold); white-space: nowrap; }
-  .sub { color: var(--muted); font-size: 11.5px; font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; }
-  /* The picture sits over the drawn face. If the archive has no copy of it, the
-     image is removed and the face below is what the reader sees. */
+  .frar, .rar { font-size: 10px; line-height: 1.4; font-weight: 600; color: var(--gold); overflow-wrap: anywhere; }
+  .sub { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
   .shot { position: relative; display: block; }
-  .shot > img {
-    position: absolute; inset: 0; width: 100%; height: 100%;
-    object-fit: cover; display: block; background: var(--surface-2);
-  }
-  .shot.big { border-radius: 8px; overflow: hidden; }
-  .shot.big > img { position: static; height: auto; border-radius: 8px; }
+  .shot > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; display: block; border-radius: 6px; background: var(--surface); }
+  .shot.big { border-radius: 10px; overflow: hidden; }
+  .shot.big > img { position: static; height: auto; border-radius: 10px; }
   .shot.big .face { display: none; }
   .shot.big.bare .face { display: flex; }
-  .move { display: grid; gap: 2px; margin-bottom: 8px; }
+  dialog { width: min(900px, calc(100% - 32px)); max-width: none; max-height: calc(100dvh - 32px); padding: 12px 0 0; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); color: var(--ink); box-shadow: 0 16px 60px rgb(24 44 70 / 18%); }
+  dialog::backdrop { background: rgb(36 52 74 / 55%); }
+  .close { position: sticky; display: block; z-index: 2; top: 12px; margin: 0 16px 16px auto; background: var(--button); color: #fff; border-color: transparent; }
+  .detail { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 26px; padding: 0 24px 28px; }
+  .detail > div { min-width: 0; }
+  .detail img { width: 100%; border-radius: 10px; }
+  .detail h2 { font-size: 24px; line-height: 1.4; font-weight: 600; margin: 0 0 6px; overflow-wrap: anywhere; text-wrap: balance; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 18px; }
+  .chip, .fin { display: inline-block; border: 1px solid var(--line); background: var(--surface-2); border-radius: 999px; padding: 3px 11px; font-size: 12px; }
+  .chip.gold { color: var(--gold); background: var(--gold-soft); border-color: transparent; font-weight: 600; }
+  .fin { margin: 0 4px 5px 0; }
+  dl { display: grid; grid-template-columns: minmax(90px, 115px) minmax(0, 1fr); gap: 10px 16px; margin: 0 0 20px; }
+  dt { color: var(--muted); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; overflow-wrap: anywhere; }
+  dd { min-width: 0; margin: 0; font-size: 14px; overflow-wrap: anywhere; }
+  dd.long, .move span { white-space: pre-wrap; }
+  .move { display: grid; gap: 3px; margin-bottom: 10px; }
   .move b { font-weight: 600; }
-  .move span { color: var(--muted); white-space: pre-wrap; }
-  dd.long { white-space: pre-wrap; }
-  .rar { font-size: 11px; color: var(--gold); font-weight: 600; }
-
-  dialog {
-    border: 1px solid var(--line); border-radius: 12px; padding: 0; width: min(880px, 94vw);
-    background: var(--surface); color: var(--ink); box-shadow: var(--shadow);
+  .move span { color: var(--muted); }
+  .text { border-top: 1px dotted var(--line); padding-top: 14px; white-space: pre-wrap; font-size: 14px; max-height: 260px; overflow: auto; overflow-wrap: anywhere; }
+  .note { color: var(--muted); font-size: 12px; margin-top: 18px; overflow-wrap: anywhere; }
+  .vgroup { border-top: 1px dotted var(--line); margin-top: 18px; padding-top: 16px; }
+  .vgroup h3 { margin: 0 0 10px; font-size: 12px; line-height: 1.4; font-weight: 600; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; }
+  .vlist { display: grid; gap: 7px; max-height: 220px; overflow: auto; }
+  .ver { display: grid; grid-template-columns: 5rem minmax(0, 1fr); gap: 2px 10px; align-items: baseline; min-width: 0; padding: 9px 11px; border-radius: 8px; background: var(--surface-2); text-align: left; font-size: 13px; }
+  .vlang { color: var(--accent); font-weight: 600; font-size: 11px; }
+  .vname { min-width: 0; overflow-wrap: anywhere; }
+  .vset { color: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+  .vrar { color: var(--gold); font-size: 11px; font-weight: 600; overflow-wrap: anywhere; }
+  .vnone { color: var(--muted); font-size: 12px; }
+  footer { border-top: 1px dotted #bcc7d5; color: var(--muted); font-size: 12px; padding-block: 20px 32px; overflow-wrap: anywhere; }
+  footer p { margin-block: 0 12px; }
+  .status { color: var(--muted); padding: 24px 0; font-size: 14px; }
+  @media (max-width: 920px) { #grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+  @media (max-width: 680px) {
+    .wrap { padding-inline: 16px; }
+    .masthead { padding-block: 24px 16px; }
+    .detail { grid-template-columns: minmax(0, 1fr); gap: 24px; padding-inline: 18px; }
+    .detail > div:first-child { width: min(100%, 260px); margin-inline: auto; }
+    #grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   }
-  dialog::backdrop { background: rgba(8, 12, 22, .58); }
-  .detail { display: grid; grid-template-columns: 260px 1fr; gap: 22px; padding: 22px; }
-  @media (max-width: 680px) { .detail { grid-template-columns: 1fr; } }
-  .detail img { width: 100%; border-radius: 8px; }
-  .detail h2 { font-family: "Bricolage Grotesque", sans-serif; font-size: 21px; margin: 0 0 2px; text-wrap: balance; }
-  .chips { display: flex; flex-wrap: wrap; gap: 5px; margin: 8px 0 14px; }
-  .chip { border: 1px solid var(--line); background: var(--surface-2); border-radius: 999px; padding: 2px 9px; font-size: 12px; }
-  .chip.gold { background: var(--gold-soft); border-color: transparent; color: var(--gold); font-weight: 600; }
-  dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; margin: 0 0 14px; }
-  dt { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .05em; }
-  dd { margin: 0; font-size: 14px; }
-  .text { border-top: 1px solid var(--line); padding-top: 12px; white-space: pre-wrap; font-size: 14px; max-height: 260px; overflow: auto; }
-  .close { position: absolute; top: 12px; right: 14px; }
-  .note { color: var(--muted); font-size: 12.5px; margin-top: 14px; }
-
-  /* Other printings of the same card: same slot in every row, so the eye can
-     run down the language column. */
-  .vgroup { border-top: 1px solid var(--line); margin-top: 14px; padding-top: 12px; }
-  .vgroup h3 { font: 600 12px/1 "Public Sans", sans-serif; color: var(--muted);
-               text-transform: uppercase; letter-spacing: .05em; margin: 0 0 8px; }
-  .vlist { display: grid; gap: 4px; max-height: 190px; overflow: auto; }
-  .ver {
-    display: grid; grid-template-columns: 5.5rem 1fr auto auto; gap: 10px; align-items: baseline;
-    text-align: left; background: var(--surface-2); border: 1px solid var(--line);
-    border-radius: 7px; padding: 5px 9px; cursor: pointer; font: 400 13px "Public Sans", sans-serif;
+  @media (max-width: 480px) { #grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 380px) {
+    .wrap { padding-inline: 14px; }
+    body { font-size: 14px; }
+    #grid { gap: 12px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .card { padding: 5px; border-radius: 9px; }
+    .face { padding: 8px; gap: 6px; }
+    .fname { font-size: 14px; }
+    .filters > select { flex-basis: 100%; }
+    dialog { width: calc(100% - 20px); max-height: calc(100dvh - 20px); }
+    .detail { padding-inline: 14px; }
+    dl { grid-template-columns: minmax(0, 1fr); gap: 3px; }
+    dd { margin-bottom: 12px; }
+    .ver { grid-template-columns: minmax(0, 1fr); gap: 3px; }
   }
-  .ver:hover { border-color: var(--accent); }
-  .vlang { color: var(--accent); font-weight: 600; font-size: 12px; }
-  .vname { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .vset { color: var(--muted); font-family: "IBM Plex Mono", monospace; font-size: 11.5px; font-variant-numeric: tabular-nums; }
-  .vrar { color: var(--gold); font-size: 11.5px; font-weight: 600; }
-  .vnone { color: var(--muted); font-size: 12.5px; }
-  .fin {
-    display: inline-block; background: var(--surface-2); border: 1px solid var(--line);
-    border-radius: 999px; padding: 3px 10px; margin: 0 4px 4px 0; font-size: 12.5px;
-  }
-  .note a, footer a { color: var(--accent); }
-  footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; padding-block: 18px 40px; }
-  .status { color: var(--muted); padding: 30px 2px; }
-  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
 </style>
 </head>
 
@@ -204,21 +165,22 @@
   <div class="wrap">
     <div class="masthead">
       <h1>Pokémon Card Atlas</h1>
-      <span class="tagline"><b id="total">—</b> cards scraped from the official card databases, in <b id="nlang">—</b> languages</span>
+      <span class="tagline"><b id="total">—</b> stored cards in <b id="nlang">—</b> <span id="language-word">languages</span></span>
     </div>
-    <div class="langs" id="langs"></div>
+    <p id="snapshot" class="snapshot-note" hidden></p>
+    <div class="langs" id="langs" role="group" aria-label="Card language"></div>
     <div class="filters">
-      <input id="q" type="search" placeholder="Search name, attacks, abilities, rules, type — in any language…">
-      <select id="set"><option value="">All sets</option></select>
-      <select id="type"><option value="">All card types</option></select>
-      <select id="rarity"><option value="">All rarities</option></select>
-      <select id="order" title="English, the European languages and Simplified Chinese carry a release date. Japanese, Korean, Traditional Chinese and TCG Pocket publish none, so those are ordered by the numbering their sites issue, which runs the same way.">
+      <input id="q" type="search" aria-label="Search card names, attacks, abilities, rules, or types" placeholder="Search name, attacks, abilities, rules, type — in any language…">
+      <select id="set" aria-label="Set"><option value="">All sets</option></select>
+      <select id="type" aria-label="Card type"><option value="">All card types</option></select>
+      <select id="rarity" aria-label="Rarity"><option value="">All rarities</option></select>
+      <select id="order" aria-label="Sort cards" title="English, the European languages and Simplified Chinese carry a release date. Japanese, Korean, Traditional Chinese and TCG Pocket publish none, so those are ordered by the numbering their sites issue, which runs the same way.">
         <option value="index">Set order</option>
         <option value="new">Newest first</option>
         <option value="old">Oldest first</option>
       </select>
       <button id="reset" type="button">Reset</button>
-      <span class="count" id="count"></span>
+      <span class="count" id="count" role="status" aria-live="polite"></span>
     </div>
   </div>
 </header>
@@ -231,7 +193,7 @@
 </main>
 
 <footer class="wrap">
-  <p>
+  <p id="usage-note">
     Pictures are read from the archive beside this repository, through the
     ignored <code>images</code> link — run <code>code/downloadImages.py</code> to
     fill it. A card whose picture has not been downloaded, or whose source
@@ -249,12 +211,23 @@
   <code>data_&lt;lang&gt;/&lt;set&gt;/&lt;card&gt;.json</code>.
 </footer>
 
-<dialog id="detail">
+<dialog id="detail" aria-label="Card details">
   <button class="close" type="button" onclick="detail.close()">Close</button>
   <div class="detail" id="detailBody"></div>
 </dialog>
 
+<!-- portable-data -->
 <script>
+const portable = document.getElementById("portable-data");
+const bundle = portable ? JSON.parse(portable.textContent) : null;
+// A containing article can distinguish this app from an error/404 document.
+addEventListener("message", event => {
+  if (window.parent !== window && event.source === window.parent &&
+      event.data?.type === "type-null:embed-ping") {
+    window.parent.postMessage({ type: "type-null:embed-ready" },
+      event.origin === "null" ? "*" : event.origin);
+  }
+});
 const PAGE = 120;
 const el = id => document.getElementById(id);
 const LANG_NAME = { jp: "Japanese", en: "English", tc: "Traditional Chinese", ko: "Korean",
@@ -265,14 +238,13 @@ const LANG_NAME = { jp: "Japanese", en: "English", tc: "Traditional Chinese", ko
 // so it takes the phone it is played on.
 const FLAG = { jp: "🇯🇵", en: "🇺🇸", tc: "🇹🇼", ko: "🇰🇷", sc: "🇨🇳", pocket: "📱",
                fr: "🇫🇷", de: "🇩🇪", es: "🇪🇸", it: "🇮🇹", pt: "🇵🇹" };
-let fields = [], cards = [], filtered = [], shown = 0, lang = "en";
+let fields = [], cards = [], filtered = [], shown = 0, lang = bundle ? Object.keys(bundle.files["index/summary.json"])[0] : "en";
 const idx = name => fields.indexOf(name);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-// A published page may load only the pictures it ships with, and there are
-// 171,961 cards, so none are shown here. A card is drawn instead: its energy
-// type tints the face, which is the one thing about a card the eye reads first.
+// A missing picture keeps a readable face drawn from the stored record.
+// The first energy type supplies its color in the grid and card detail.
 const TYPE_TINT = {
   Grass: "#3f8f4f", Fire: "#d2552e", Water: "#2f7ecd", Lightning: "#cfa015",
   Psychic: "#9457b0", Fighting: "#b45a2c", Darkness: "#44515f", Metal: "#7e8b98",
@@ -309,6 +281,7 @@ const SUFFIXES = ["jpg", "jpeg", "png", "webp", "gif"];
 function archived(c, fields, which) {
   const column = name => { const at = fields.indexOf(name); return at < 0 ? undefined : c[at]; };
   const stored = column("path");
+  if (bundle) return bundle.images[stored] || "";
   const url = column("img");
   if (!stored || !url) return "";
   let suffix = String(url).split("?")[0].split(".").pop().toLowerCase();
@@ -323,7 +296,7 @@ function picture(c, fields, which, big) {
   const drawn = face(c, fields, big);
   const src = archived(c, fields, which);
   if (!src) return drawn;
-  return `<span class="shot${big ? " big" : ""}">${drawn}<img src="${src}" alt="" loading="lazy"></span>`;
+  return `<span class="shot${big ? " big" : ""}">${drawn}<img src="${esc(src)}" alt="" loading="lazy"></span>`;
 }
 
 function face(c, fields, big) {
@@ -351,6 +324,10 @@ function face(c, fields, big) {
 // arrives compressed, base64 inside a small JSON envelope. A file without that
 // envelope — the summary — is already what it claims to be.
 async function loadJson(path) {
+  if (bundle) {
+    if (!Object.prototype.hasOwnProperty.call(bundle.files, path)) throw new Error(`Missing bundled data: ${path}`);
+    return bundle.files[path];
+  }
   const response = await fetch(path);
   if (!response.ok) throw new Error(`${path} answered ${response.status}`);
   const payload = await response.json();
@@ -365,8 +342,18 @@ async function loadJson(path) {
 async function boot() {
   const summary = await loadJson("index/summary.json");
   const langs = Object.keys(summary);
+  if (bundle) {
+    el("order").options[0].textContent = "Selection order";
+    const included = Object.values(summary).reduce((sum, item) => sum + item.cards, 0);
+    const available = Object.values(summary).reduce((sum, item) => sum + item.source_cards, 0);
+    const pictures = Object.keys(bundle.images).length;
+    el("snapshot").hidden = false;
+    el("snapshot").textContent = `Offline selection · ${included.toLocaleString()} of ${available.toLocaleString()} stored cards · ${pictures} local pictures. Exported ${bundle.generated_at.slice(0, 10)}.`;
+    el("usage-note").textContent = `This portable selection works directly from disk, including search, filters and card details. Printing links cover only the included cards. ${pictures} of ${included} cards have local artwork; the others show a face drawn from their record. Source-page links need an internet connection.`;
+  }
   el("total").textContent = Object.values(summary).reduce((a, s) => a + s.cards, 0).toLocaleString();
   el("nlang").textContent = langs.length;
+  el("language-word").textContent = langs.length === 1 ? "language" : "languages";
   el("langs").innerHTML = langs.map(l =>
     `<button class="lang" type="button" data-lang="${l}" aria-pressed="${l === lang}">
        <span class="flag" aria-hidden="true">${FLAG[l] || ""}</span>
@@ -505,9 +492,9 @@ async function getLinks() {
 
 // One row per other printing. `dropSameLanguage` is for the exact-printing
 // list, where the interesting versions are the ones in another language.
-function versionRows(entries, here, dropSameLanguage) {
+function versionRows(entries, here, dropSameLanguage, which = lang) {
   return (entries || [])
-    .filter(e => e.join("|") !== here && !(dropSameLanguage && e[0] === lang))
+    .filter(e => e.join("|") !== here && !(dropSameLanguage && e[0] === which))
     .map(e => `<button class="ver" type="button" data-lang="${e[0]}" data-name="${esc(e[1])}" data-set="${esc(e[2])}" data-number="${esc(e[3])}">
         <span class="vlang">${esc(LANG_NAME[e[0]] || e[0].toUpperCase())}</span>
         <span class="vname">${esc(e[1])}</span>
@@ -550,7 +537,7 @@ function damage(value) {
 // {name, link}, weakness and resistance {type, value}. Anything else is shown
 // as the pairs it holds, so a field this page has never seen still reads.
 function entry(item) {
-  if (item.link) {
+  if (typeof item.link === "string" && /^https?:\/\//.test(item.link)) {
     return `<a href="${esc(item.link)}" target="_blank" rel="noopener">${esc(item.name || item.link)}</a>`;
   }
   const cost = (item.cost || []).join(" ");
@@ -573,7 +560,7 @@ function moves(list) {
 
 function fieldValue(field, value) {
   const isLink = typeof value === "string" && /^https?:\/\//.test(value);
-  if (LINK_FIELDS.includes(field) || isLink) {
+  if (isLink) {
     return `<a href="${esc(value)}" target="_blank" rel="noopener">${esc(value)}</a>`;
   }
   if (Array.isArray(value)) {
@@ -624,12 +611,19 @@ async function openRow(c, fields, which) {
       <p class="note">Every field stored for this card is listed above, exactly
       as it was read from its source.</p>
     </div>`;
-  if (!detail.open) detail.showModal();
+  if (!detail.open) {
+    detail.showModal();
+    // A containing article may align the frame before its dialog is used.
+    // File origins are opaque; this optional notification contains no data.
+    if (window.parent !== window) {
+      window.parent.postMessage({ type: "type-null:focus-embed" }, "*");
+    }
+  }
 
   const store = await getLinks();
   const here = [which, get("name"), get("set_name"), String(get("number") ?? ""), get("rarity")].join("|");
-  const samePrint = versionRows(store.prints[get("print_key")], here, true);
-  const sameCard = versionRows(store.cards[get("card_key")], here, false);
+  const samePrint = versionRows(store.prints[get("print_key")], here, true, which);
+  const sameCard = versionRows(store.cards[get("card_key")], here, false, which);
   const block = (title, rows, empty) => `
     <div class="vgroup"><h3>${title}</h3>
       ${rows ? `<div class="vlist">${rows}</div>` : `<p class="vnone">${empty}</p>`}
@@ -647,9 +641,9 @@ async function openRow(c, fields, which) {
   if (versions) {
     versions.innerHTML =
       block("This printing in other languages", samePrint,
-            "This printing is only stored in this language so far.") +
+            bundle ? "No other language for this printing is included in this selection." : "This printing is only stored in this language so far.") +
       block("Other printings of this card", sameCard,
-            "No other printing recorded — Trainer and Energy cards carry no Pokédex number to match on.") +
+            bundle ? "No other printing of this card is included in this selection." : "No other printing recorded — Trainer and Energy cards carry no Pokédex number to match on.") +
       block("Finishes this printing was sold in", finishRows,
             "No finishes recorded. Only the languages TCGdex serves publish them, and none of the sources says which pattern a reverse holo carries.");
   }
@@ -706,7 +700,9 @@ addEventListener("error", event => {
 boot().catch(err => {
   // Opened straight from disk, a browser refuses to read the index beside this
   // page, and the failure arrives as an ordinary network error. Say which it is.
-  el("status").innerHTML = location.protocol === "file:"
+  el("status").innerHTML = bundle
+    ? `Could not read the bundled selection: ${esc(err.message)}.`
+    : location.protocol === "file:"
     ? `This page was opened from a file, and browsers will not let it read the
        index beside it. Serve the repository instead — <code>python3 -m
        http.server</code> from the repository root, then open

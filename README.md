@@ -18,6 +18,41 @@
 
 Card information for Pokemon TCG. Potential use for data analysis.
 
+## Standalone Card Atlas website
+
+The tracked `site/` folder contains the independent, offline-ready website:
+48 selected English cards with all 48 artwork files. Open `site/index.html`
+directly. The prepared GitHub Pages project URL is
+**https://type-null.github.io/PTCG-database/**; these local changes have not
+published it yet.
+
+Follow [the publishing guide](docs/PUBLISHING.md) to select **GitHub Actions**
+in Settings → Pages and deploy the committed site. On every push to `main`, the workflow builds the current viewer with the
+committed card edition and publishes `site/`, without reading another repository,
+an image archive or a live data source.
+An article can embed the hosted project URL, keep a local screenshot, and offer
+links to the app and its source repository; the app itself stays here.
+
+Preview interface changes from a fresh checkout:
+
+```sh
+python3 code/buildSite.py             # current viewer + committed card edition
+python3 code/checkSite.py
+```
+
+Refresh the selected card/data edition separately when needed:
+
+```sh
+python3 code/exportSite.py            # saved records + available local pictures → site/
+python3 code/checkSite.py             # verify the committed snapshot on its own
+```
+
+The default selection is 48 English cards. The exporter never downloads images;
+see the guide for choosing sets/languages and supplying a local image archive.
+Inspect and commit the refreshed `site/` to publish it. CI keeps that card edition
+until it is deliberately refreshed; a `data_*` change alone does not claim a
+new or complete database selection.
+
 ## Quick start
 
 The project uses [uv](https://docs.astral.sh/uv/) for its environment.
@@ -168,10 +203,9 @@ What it shows:
 `docs/index/` is build output and is **not** committed: `buildIndex.py` rebuilds
 it from the stored cards whenever you ask.
 
-The page could be served from anywhere, but the pictures could not follow it —
-they live in a 52 GB archive outside the repository, and a hosted page may only
-load images it ships with. Keeping the viewer local is what lets it show them
-full size.
+The complete archive is too large to bundle into a small article. The portable
+export above copies only the chosen cards and their available pictures, so a
+focused viewer can travel with the blog while the full database stays here.
 
 ## Repository size
 
@@ -207,10 +241,10 @@ authored: `.venv/`, `logs/run_*.out` (console output of a run), and
 `docs/index/` (the viewer's search index — about 205 MB, since it carries every
 field of every card, rebuilt by `buildIndex.py` in under a minute).
 
-The card pictures are not in the repository at all. They are archived in
-`../PTCG-card-images/`, a folder beside it, so git cannot see them even by
-accident; `images` is an ignored symlink pointing there, which is how the
-local viewer finds them.
+The complete card-picture archive stays outside Git in `../PTCG-card-images/`;
+the ignored root `images` symlink lets the full-data local viewer read it.
+Only the selected website's copied pictures under `site/images/` are tracked,
+so a fresh checkout can publish and open that small snapshot independently.
 
 ## Card Download
 
@@ -677,11 +711,11 @@ uv run code/downloadImages.py jp --apply # download one language
 uv run code/downloadImages.py --apply --dir /Volumes/Archive/ptcg
 ```
 
-Both viewers work with or without the archive. The local viewer reads it
-through the ignored `images` symlink; the hosted Atlas takes an address in its
-footer, for anyone serving the folder with `python3 -m http.server`. Either
-way a picture the archive lacks falls back to the site the card was read from,
-and one that site no longer publishes falls back to a placeholder.
+The Card Atlas works with or without the archive. The full local viewer reads
+it through the ignored `images` symlink; a portable export copies the selected
+pictures beside its own page. A missing picture falls back to a readable face
+drawn from the card's record. Neither version loads remote pictures as a fallback;
+the portable export also avoids requests for missing local files.
 
 ## Maintenance
 

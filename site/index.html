@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pokémon Card Atlas</title>
+<!-- Everything this page needs is beside it on disk: the indexes under
+     docs/index/ and the pictures through the ignored `images` link. It asks the
+     network for nothing at all, so the type falls back to the system's own. -->
+<style>
+  :root {
+    color-scheme: light;
+    --ground: #ffffff;
+    --surface: #ffffff;
+    --surface-2: #f3f4f5;
+    --ink: #404248;
+    --muted: #70747c;
+    --line: #dde1ea;
+    --accent: #367fb9;
+    --accent-soft: #edf6fe;
+    --button: linear-gradient(110deg, #489fe6, #84c3f6);
+    --gold: #8b641b;
+    --gold-soft: #faf3e2;
+    --shadow: 0 3px 14px rgb(46 76 108 / 8%);
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --ground: #171d27;
+    --surface: #202938;
+    --surface-2: #283446;
+    --ink: #f0f3f8;
+    --muted: #b6c2d4;
+    --line: #455368;
+    --accent: #9acbff;
+    --accent-soft: #2d435f;
+    --gold: #e7c886;
+    --gold-soft: #493f2a;
+    --shadow: 0 3px 14px rgb(0 0 0 / 15%);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font: 400 15px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+          Arial, "Hiragino Sans", "Noto Sans CJK JP", "Noto Sans CJK TC", sans-serif;
+  }
+  img { max-width: 100%; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  button, input, select { font: inherit; color: inherit; }
+  button, input, select, a { -webkit-tap-highlight-color: transparent; }
+  button, input, select {
+    min-height: 44px; max-width: 100%; border: 1px solid var(--line);
+    background: var(--surface); border-radius: 8px; padding: 9px 13px;
+  }
+  button { cursor: pointer; }
+  button:hover { border-color: var(--accent); }
+  :focus-visible { outline: 3px solid #246ba6; outline-offset: 3px; }
+  .wrap { width: 100%; max-width: 1240px; margin-inline: auto; padding-inline: 24px; }
+  header { background: var(--surface); border-bottom: 1px dotted #bcc7d5; }
+  .masthead { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 20px; padding-block: 28px 20px; }
+  h1 { font-size: clamp(24px, 3.4vw, 34px); font-weight: 600; line-height: 1.35; margin: 0; text-wrap: balance; }
+  .tagline { color: var(--muted); font-size: 13px; max-width: 520px; }
+  .tagline b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+  .snapshot-note { margin: 0 0 18px; padding: 12px 16px; border-radius: 8px; background: var(--accent-soft); font-size: 13px; overflow-wrap: anywhere; }
+  .langs { display: flex; flex-wrap: wrap; gap: 8px; padding-bottom: 20px; }
+  .lang {
+    display: inline-flex; justify-content: center; align-items: center; gap: 7px;
+    min-height: 44px; padding: 9px 17px; border-radius: 999px;
+    font-size: 13px; line-height: 1.3; font-weight: 600;
+  }
+  .lang[aria-pressed="true"] { background: var(--button); color: #fff; border-color: transparent; box-shadow: 0 3px 8px rgb(72 159 230 / 18%); }
+  .lang .n { font-size: 11px; opacity: .85; font-variant-numeric: tabular-nums; }
+  .lang .flag { font-size: 14px; line-height: 1; }
+  .filters { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 14px; margin-bottom: 22px; border-radius: 10px; background: var(--surface-2); }
+  .filters > input, .filters > select { flex: 1 1 148px; min-width: 0; }
+  #q { flex: 1 1 100%; background: var(--surface); }
+  #reset, #top, .close { border-radius: 999px; padding-inline: 20px; font-weight: 600; }
+  #reset { color: var(--accent); background: var(--surface); }
+  .count { margin-left: auto; color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  #top { position: fixed; right: 18px; bottom: 18px; z-index: 5; background: var(--button); color: #fff; border-color: transparent; box-shadow: var(--shadow); }
+  main { padding-block: 24px 48px; }
+  #grid { display: grid; gap: 14px; grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .card { min-width: 0; padding: 7px; border: 1px solid var(--line); background: var(--surface); border-radius: 12px; overflow: hidden; text-align: left; box-shadow: var(--shadow); transition: transform 160ms ease, border-color 160ms ease; }
+  @media (hover: hover) { .card:hover { transform: translateY(-3px); } }
+  /* The original card image keeps its proportions. If an image is unavailable,
+     its record supplies a legible type-colored face at the same dimensions. */
+  .face { aspect-ratio: .717; display: flex; flex-direction: column; justify-content: space-between; gap: 10px; padding: 12px; border-radius: 6px; background: linear-gradient(158deg, color-mix(in srgb, var(--tint) 20%, var(--surface)), var(--surface) 72%); }
+  .face.big { min-height: 320px; border: 1px solid var(--line); border-radius: 10px; }
+  .frow { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 4px 8px; }
+  .ftype { font-size: 10px; line-height: 1.3; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: color-mix(in srgb, var(--tint) 55%, var(--ink)); }
+  .fhp, .fset { font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .fname { font-size: 17px; line-height: 1.3; font-weight: 600; overflow-wrap: anywhere; text-wrap: balance; }
+  .face.big .fname { font-size: 27px; }
+  .frar, .rar { font-size: 10px; line-height: 1.4; font-weight: 600; color: var(--gold); overflow-wrap: anywhere; }
+  .sub { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+  .shot { position: relative; display: block; }
+  .shot > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; display: block; border-radius: 6px; background: var(--surface); }
+  .shot.big { border-radius: 10px; overflow: hidden; }
+  .shot.big > img { position: static; height: auto; border-radius: 10px; }
+  .shot.big .face { display: none; }
+  .shot.big.bare .face { display: flex; }
+  dialog { width: min(900px, calc(100% - 32px)); max-width: none; max-height: calc(100dvh - 32px); padding: 12px 0 0; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); color: var(--ink); box-shadow: 0 16px 60px rgb(24 44 70 / 18%); }
+  dialog::backdrop { background: rgb(36 52 74 / 55%); }
+  .close { position: sticky; display: block; z-index: 2; top: 12px; margin: 0 16px 16px auto; background: var(--button); color: #fff; border-color: transparent; }
+  .detail { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 26px; padding: 0 24px 28px; }
+  .detail > div { min-width: 0; }
+  .detail img { width: 100%; border-radius: 10px; }
+  .detail h2 { font-size: 24px; line-height: 1.4; font-weight: 600; margin: 0 0 6px; overflow-wrap: anywhere; text-wrap: balance; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 18px; }
+  .chip, .fin { display: inline-block; border: 1px solid var(--line); background: var(--surface-2); border-radius: 999px; padding: 3px 11px; font-size: 12px; }
+  .chip.gold { color: var(--gold); background: var(--gold-soft); border-color: transparent; font-weight: 600; }
+  .fin { margin: 0 4px 5px 0; }
+  dl { display: grid; grid-template-columns: minmax(90px, 115px) minmax(0, 1fr); gap: 10px 16px; margin: 0 0 20px; }
+  dt { color: var(--muted); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; overflow-wrap: anywhere; }
+  dd { min-width: 0; margin: 0; font-size: 14px; overflow-wrap: anywhere; }
+  dd.long, .move span { white-space: pre-wrap; }
+  .move { display: grid; gap: 3px; margin-bottom: 10px; }
+  .move b { font-weight: 600; }
+  .move span { color: var(--muted); }
+  .text { border-top: 1px dotted var(--line); padding-top: 14px; white-space: pre-wrap; font-size: 14px; max-height: 260px; overflow: auto; overflow-wrap: anywhere; }
+  .note { color: var(--muted); font-size: 12px; margin-top: 18px; overflow-wrap: anywhere; }
+  .vgroup { border-top: 1px dotted var(--line); margin-top: 18px; padding-top: 16px; }
+  .vgroup h3 { margin: 0 0 10px; font-size: 12px; line-height: 1.4; font-weight: 600; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; }
+  .vlist { display: grid; gap: 7px; max-height: 220px; overflow: auto; }
+  .ver { display: grid; grid-template-columns: 5rem minmax(0, 1fr); gap: 2px 10px; align-items: baseline; min-width: 0; padding: 9px 11px; border-radius: 8px; background: var(--surface-2); text-align: left; font-size: 13px; }
+  .vlang { color: var(--accent); font-weight: 600; font-size: 11px; }
+  .vname { min-width: 0; overflow-wrap: anywhere; }
+  .vset { color: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+  .vrar { color: var(--gold); font-size: 11px; font-weight: 600; overflow-wrap: anywhere; }
+  .vnone { color: var(--muted); font-size: 12px; }
+  footer { border-top: 1px dotted #bcc7d5; color: var(--muted); font-size: 12px; padding-block: 20px 32px; overflow-wrap: anywhere; }
+  footer p { margin-block: 0 12px; }
+  .status { color: var(--muted); padding: 24px 0; font-size: 14px; }
+  @media (max-width: 920px) { #grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+  @media (max-width: 680px) {
+    .wrap { padding-inline: 16px; }
+    .masthead { padding-block: 24px 16px; }
+    .detail { grid-template-columns: minmax(0, 1fr); gap: 24px; padding-inline: 18px; }
+    .detail > div:first-child { width: min(100%, 260px); margin-inline: auto; }
+    #grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+  @media (max-width: 480px) { #grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 380px) {
+    .wrap { padding-inline: 14px; }
+    body { font-size: 14px; }
+    #grid { gap: 12px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .card { padding: 5px; border-radius: 9px; }
+    .face { padding: 8px; gap: 6px; }
+    .fname { font-size: 14px; }
+    .filters > select { flex-basis: 100%; }
+    dialog { width: calc(100% - 20px); max-height: calc(100dvh - 20px); }
+    .detail { padding-inline: 14px; }
+    dl { grid-template-columns: minmax(0, 1fr); gap: 3px; }
+    dd { margin-bottom: 12px; }
+    .ver { grid-template-columns: minmax(0, 1fr); gap: 3px; }
+  }
+  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="masthead">
+      <h1>Pokémon Card Atlas</h1>
+      <span class="tagline"><b id="total">—</b> stored cards in <b id="nlang">—</b> <span id="language-word">languages</span></span>
+    </div>
+    <p id="snapshot" class="snapshot-note" hidden></p>
+    <div class="langs" id="langs" role="group" aria-label="Card language"></div>
+    <div class="filters">
+      <input id="q" type="search" aria-label="Search card names, attacks, abilities, rules, or types" placeholder="Search name, attacks, abilities, rules, type — in any language…">
+      <select id="set" aria-label="Set"><option value="">All sets</option></select>
+      <select id="type" aria-label="Card type"><option value="">All card types</option></select>
+      <select id="rarity" aria-label="Rarity"><option value="">All rarities</option></select>
+      <select id="order" aria-label="Sort cards" title="English, the European languages and Simplified Chinese carry a release date. Japanese, Korean, Traditional Chinese and TCG Pocket publish none, so those are ordered by the numbering their sites issue, which runs the same way.">
+        <option value="index">Set order</option>
+        <option value="new">Newest first</option>
+        <option value="old">Oldest first</option>
+      </select>
+      <button id="reset" type="button">Reset</button>
+      <span class="count" id="count" role="status" aria-live="polite"></span>
+    </div>
+  </div>
+</header>
+
+<button id="top" type="button" hidden aria-label="Back to the top of the list">↑ Top</button>
+
+<main class="wrap">
+  <div id="grid"></div>
+  <div class="status" id="status">Loading the English index…</div>
+</main>
+
+<footer class="wrap">
+  <p id="usage-note">
+    Pictures are read from the archive beside this repository, through the
+    ignored <code>images</code> link — run <code>code/downloadImages.py</code> to
+    fill it. A card whose picture has not been downloaded, or whose source
+    publishes none, is drawn from its own record instead. Open this page over a
+    local server (<code>python3 -m http.server</code> from the repository root,
+    then <code>/docs/</code>) so the browser is allowed to read them.
+  </p>
+  Japanese, Traditional Chinese and Korean come from the official Pokémon card
+  sites; English from pkmncards; TCG Pocket from limitlesstcg. French, German,
+  Spanish, Italian, Portuguese and Simplified Chinese have no official database
+  to read, so they come from the community TCGdex API — every one of those
+  cards names it under <code>sources</code>, and older sets there often publish
+  no picture, Simplified Chinese none at all. This page carries the searchable
+  index; the complete stored record for each card lives in the repository as
+  <code>data_&lt;lang&gt;/&lt;set&gt;/&lt;card&gt;.json</code>.
+</footer>
+
+<dialog id="detail" aria-label="Card details">
+  <button class="close" type="button" onclick="detail.close()">Close</button>
+  <div class="detail" id="detailBody"></div>
+</dialog>
+
+<script id="portable-data" type="application/json">{"files":{"index/en.json":{"fields":["abilities","attacks","author","card_key","card_type","date","effect","evolve_from","file","flavor_text","hp","img","level","mega_evolves_from","name","number","path","print_key","rarity","rarity_img","regulation","resistance","retreat","rule_box","series","set_code","set_full_name","set_img","set_name","set_total","stage","tags","tera_effect","text","types","types_en","url","weakness"],"cards":[[null,[{"cost":["Colorless"],"name":"Gnaw","damage":{"amount":10,"suffix":""},"effect":null},{"cost":["Lightning","Colorless"],"name":"Thunder Jolt","damage":{"amount":30,"suffix":""},"effect":"Flip a coin. If tails, Pikachu does 10 damage to itself."}],["Mitsuhiro Arita"],"25|40|1|Mitsuhiro Arita|10,30|1,2","Pokémon","Sep 16, 2026",null,null,"58","When several of these Pokémon gather, their electricity can cause lightning storms.",40,"https://pkmncards.com/wp-content/uploads/me5-5c_en_001_std.jpg","12",null,"Pikachu","58","data_en/Mega Evolution/30C/58.json","en:me5-5-58","Common",null,null,{"type":[],"value":null},1,null,"Mega Evolution","me5-5","30th Celebration",null,"30C","102","Basic",null,null,"Pikachu When several of these Pokémon gather, their electricity can cause lightning storms. Gnaw Thunder Jolt Flip a coin. If tails, Pikachu does 10 damage to itself. Lightning",["Lightning"],null,"https://pkmncards.com/card/pikachu-30th-celebration-30c-58/",{"type":["Fighting"],"value":"×2"}],[[{"name":"Energy Burn","effect":"As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into {R} Energy for the rest of the turn. This power can’t be used if Charizard is Asleep, Confused, or Paralyzed."}],[{"cost":["Fire","Fire","Fire","Fire"],"name":"Fire Spin","damage":{"amount":100,"suffix":""},"effect":"Discard 2 Energy cards attached to Charizard in order to use this attack."}],["Mitsuhiro Arita"],"6|120|3|Mitsuhiro Arita|100|4","Pokémon","Sep 16, 2026",null,"Charmeleon","4","Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires.",120,"https://pkmncards.com/wp-content/uploads/me5-5c_en_002_std.jpg","76",null,"Charizard","4","data_en/Mega Evolution/30C/4.json","en:me5-5-4","Rare Holo",null,null,{"type":["Fighting"],"value":"-30"},3,null,"Mega Evolution","me5-5","30th Celebration",null,"30C","102","Stage 2",null,null,"Charizard Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires. Energy Burn As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into {R} Energy for the rest of the turn. This power can’t be used if Charizard is Asleep, Confused, or Paralyzed. Fire Spin Discard 2 Energy cards attached to Charizard in order to use this attack. Fire",["Fire"],null,"https://pkmncards.com/card/charizard-30th-celebration-30c-4/",{"type":["Water"],"value":"×2"}],[null,[{"cost":["Grass"],"name":"Leech Seed","damage":{"amount":10,"suffix":""},"effect":"Heal 10 damage from this Pokémon."}],["Saboteri"],"1|80|2|Saboteri|10|1","Pokémon","Mar 20, 2026",null,null,"037","There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",80,"https://pkmncards.com/wp-content/uploads/mebsp_en_037_std.jpg",null,null,"Bulbasaur","037","data_en/Promos/MEP/037.json","en:mebsp-37","Promo",null,"J",{"type":[],"value":null},2,null,"Promos","mebsp","Mega Evolution Promos",null,"MEP",null,"Basic",null,null,"Bulbasaur There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger. Leech Seed Heal 10 damage from this Pokémon. Grass Grass",["Grass"],["Grass"],"https://pkmncards.com/card/bulbasaur-mega-evolution-promos-mep-037/",{"type":["Fire"],"value":"×2"}],[null,[{"cost":["Water"],"name":"Bubble","damage":{"amount":10,"suffix":""},"effect":"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."}],["Saboteri"],"7|80|2|Saboteri|10|1","Pokémon","Mar 20, 2026",null,null,"039","When it retracts its long neck into its shell, it squirts out water with vigorous force.",80,"https://pkmncards.com/wp-content/uploads/mebsp_en_039_std.jpg",null,null,"Squirtle","039","data_en/Promos/MEP/039.json","en:mebsp-39","Promo",null,"J",{"type":[],"value":null},2,null,"Promos","mebsp","Mega Evolution Promos",null,"MEP",null,"Basic",null,null,"Squirtle When it retracts its long neck into its shell, it squirts out water with vigorous force. Bubble Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed. Water Water",["Water"],["Water"],"https://pkmncards.com/card/squirtle-mega-evolution-promos-mep-039/",{"type":["Lightning"],"value":"×2"}],[null,[{"cost":["Colorless","Colorless"],"name":"Quick Attack","damage":{"amount":20,"suffix":"+"},"effect":"Flip a coin. If heads, this attack does 20 more damage."}],["Hitoshi Ariga"],"133|70|1|Hitoshi Ariga|20+|2","Pokémon","Sep 16, 2026",null,null,"118","Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",70,"https://pkmncards.com/wp-content/uploads/me5-5_en_118_std.jpg",null,null,"Eevee","118","data_en/Mega Evolution/30C/118.json","en:me5-5-118","Common",null,"J",{"type":[],"value":null},1,null,"Mega Evolution","me5-5","30th Celebration",null,"30C","128","Basic",null,null,"Eevee Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions. Quick Attack Flip a coin. If heads, this attack does 20 more damage. Colorless",["Colorless"],null,"https://pkmncards.com/card/eevee-30th-celebration-30c-118/",{"type":["Fighting"],"value":"×2"}],[null,[{"cost":["Psychic","Psychic"],"name":"Psychic","damage":{"amount":10,"suffix":"+"},"effect":"This attack does 40 more damage for each Energy attached to your opponent’s Active Pokémon."}],["YOSHIROTTEN"],"151|60|1|YOSHIROTTEN|10+|2","Pokémon","Sep 16, 2026",null,null,"R","So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",60,"https://pkmncards.com/wp-content/uploads/me5-5m_en_001_std.jpg",null,null,"Mew","R","data_en/Mega Evolution/30C/R.json",null,"RGB Rare",null,"J",{"type":["Fighting"],"value":"-30"},1,null,"Mega Evolution","me5-5","30th Celebration",null,"30C","RGB","Basic",null,null,"Mew So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide. Psychic This attack does 40 more damage for each Energy attached to your opponent’s Active Pokémon. Psychic",["Psychic"],null,"https://pkmncards.com/card/mew-30th-celebration-30c-r/",{"type":["Darkness"],"value":"×2"}],[null,[{"cost":["Psychic"],"name":"Empower","damage":null,"effect":"Attach up to 2 Basic Energy cards from your discard pile to 1 of your Pokémon."},{"cost":["Psychic","Psychic","Colorless"],"name":"Psydrive","damage":{"amount":120,"suffix":""},"effect":"Discard an Energy from this Pokémon."}],["nagimiso"],"150|130|2|nagimiso|None,120|1,3","Pokémon","Sep 16, 2026",null,null,"063","Created from the DNA of Mew, this Pokémon is a dangerous combination of overwhelming power and a savage heart.",130,"https://pkmncards.com/wp-content/uploads/me5-5_en_063_std.jpg",null,null,"Mewtwo","063","data_en/Mega Evolution/30C/063.json","en:me5-5-63","Rare",null,"J",{"type":["Fighting"],"value":"-30"},2,null,"Mega Evolution","me5-5","30th Celebration",null,"30C","128","Basic",null,null,"Mewtwo Created from the DNA of Mew, this Pokémon is a dangerous combination of overwhelming power and a savage heart. Empower Attach up to 2 Basic Energy cards from your discard pile to 1 of your Pokémon. Psydrive Discard an Energy from this Pokémon. Psychic",["Psychic"],null,"https://pkmncards.com/card/mewtwo-30th-celebration-30c-063/",{"type":["Darkness"],"value":"×2"}],[null,null,["Yuka Morii"],null,"(Item)","Sep 16, 2026","You can use this card only if you discard 2 other cards from your hand.\nSearch your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",null,"128",null,null,"https://pkmncards.com/wp-content/uploads/me5-5_en_128_std.jpg",null,null,"Ultra Ball","128","data_en/Mega Evolution/30C/128.json","en:me5-5-128","Common",null,"I",null,null,null,"Mega Evolution","me5-5","30th Celebration",null,"30C","128",null,null,null,"Ultra Ball You can use this card only if you discard 2 other cards from your hand.\nSearch your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",null,null,"https://pkmncards.com/card/ultra-ball-30th-celebration-30c-128/",null],[null,[{"cost":["Colorless"],"name":"Gnaw","damage":{"amount":10,"suffix":""},"effect":null},{"cost":["Lightning","Colorless"],"name":"Thunder Jolt","damage":{"amount":30,"suffix":""},"effect":"Flip a coin. If tails, this Pokémon also does 10 damage to itself."}],["Mitsuhiro Arita"],"25|40|1|Mitsuhiro Arita|10,30|1,2","Pokémon","Nov 17, 2023","(This card cannot be used at official tournaments.)",null,"008","When several of these Pokémon gather, their electricity can cause lightning storms.",40,"https://pkmncards.com/wp-content/uploads/clc_en_008-pikachu.jpg","12",null,"Pikachu","008","data_en/CLC/008.json","en:CLC-8","No Rarity",null,null,{"type":[],"value":null},1,null,null,"CLC","Pokémon Trading Card Game Classic—Charizard",null,"CLC","034","Basic",null,null,"Pikachu (This card cannot be used at official tournaments.) When several of these Pokémon gather, their electricity can cause lightning storms. Gnaw Thunder Jolt Flip a coin. If tails, this Pokémon also does 10 damage to itself. Lightning Lightning",["Lightning"],["Lightning"],"https://pkmncards.com/card/pikachu-pokemon-trading-card-game-classic-charizard-clc-008/",{"type":["Fighting"],"value":"×2"}],[[{"name":"Energy Burn","effect":"All Energy attached to this Pokémon are {R} Energy instead of their usual type. This Pokémon Power stops working if this Pokémon is Asleep, Confused, or Paralyzed."}],[{"cost":["Fire","Fire","Fire","Fire"],"name":"Fire Spin","damage":{"amount":100,"suffix":""},"effect":"Discard 2 Energy from this Pokémon."}],["Mitsuhiro Arita"],"6|120|3|Mitsuhiro Arita|100|4","Pokémon","Nov 17, 2023","(This card cannot be used at official tournaments.)","Charmeleon","003","Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires.",120,"https://pkmncards.com/wp-content/uploads/clc_en_003-charizard.jpg","76",null,"Charizard","003","data_en/CLC/003.json","en:CLC-3","No Rarity",null,null,{"type":["Fighting"],"value":"-30"},3,null,null,"CLC","Pokémon Trading Card Game Classic—Charizard",null,"CLC","034","Stage 2",null,null,"Charizard (This card cannot be used at official tournaments.) Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires. Energy Burn All Energy attached to this Pokémon are {R} Energy instead of their usual type. This Pokémon Power stops working if this Pokémon is Asleep, Confused, or Paralyzed. Fire Spin Discard 2 Energy from this Pokémon. Fire Fire",["Fire"],["Fire"],"https://pkmncards.com/card/charizard-pokemon-trading-card-game-classic-charizard-clc-003/",{"type":["Water"],"value":"×2"}],[null,[{"cost":["Psychic","Psychic"],"name":"Psychic","damage":{"amount":10,"suffix":"+"},"effect":"This attack does 40 more damage for each Energy attached to your opponent’s Active Pokémon."}],["YOSHIROTTEN"],"151|60|1|YOSHIROTTEN|10+|2","Pokémon","Sep 16, 2026",null,null,"G","So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",60,"https://pkmncards.com/wp-content/uploads/me5-5m_en_002_std.jpg",null,null,"Mew","G","data_en/Mega Evolution/30C/G.json",null,"RGB Rare",null,"J",{"type":["Fighting"],"value":"-30"},1,null,"Mega Evolution","me5-5","30th Celebration",null,"30C","RGB","Basic",null,null,"Mew So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide. Psychic This attack does 40 more damage for each Energy attached to your opponent’s Active Pokémon. Psychic",["Psychic"],null,"https://pkmncards.com/card/mew-30th-celebration-30c-g/",{"type":["Darkness"],"value":"×2"}],[null,null,["YOSHIROTTEN"],null,"Basic Energy","Sep 16, 2026",null,null,"016",null,null,"https://pkmncards.com/wp-content/uploads/mee_en_016_std.jpg",null,null,"Basic {M} Energy","016","data_en/Mega Evolution/MEE/016.json","en:mee-16","No Rarity",null,null,null,null,null,"Mega Evolution","mee","Mega Evolution Energy",null,"MEE",null,null,null,null,"Basic {M} Energy",null,null,"https://pkmncards.com/card/basic-m-energy-mega-evolution-energy-mee-016/",null],[null,null,["Ken Sugimori"],null,"Supporter","Sep 16, 2026","Each player shuffles his or her hand into his or her deck. Then, each player draws a card for each of his or her remaining Prize cards.",null,"101-2",null,null,"https://pkmncards.com/wp-content/uploads/me5-5c_en_018_std.jpg",null,null,"N","101","data_en/Mega Evolution/30C/101-2.json","en:me5-5-101","Ultra Rare",null,null,null,null,null,"Mega Evolution","me5-5","30th Celebration",null,"30C","101",null,null,null,"N Each player shuffles his or her hand into his or her deck. Then, each player draws a card for each of his or her remaining Prize cards.",null,null,"https://pkmncards.com/card/n-30th-celebration-30c-101/",null],[null,null,["Naoki Saito"],null,"Stadium","Aug 25, 2026","The Retreat Cost of each Psyduck in play (both yours and your opponent’s) is {C} less.",null,"092",null,null,"https://pkmncards.com/wp-content/uploads/mebsp_en_092_std.jpg",null,null,"Paradise Resort","092","data_en/Promos/MEP/092.json","en:mebsp-92","Promo",null,"J",null,null,null,"Promos","mebsp","Mega Evolution Promos",null,"MEP",null,null,null,null,"Paradise Resort The Retreat Cost of each Psyduck in play (both yours and your opponent’s) is {C} less.",null,null,"https://pkmncards.com/card/paradise-resort-mega-evolution-promos-mep-092/",null],[null,null,["inose yukie"],null,"Pokémon Tool","Jul 17, 2026","If the Pokémon this card is attached to isn’t a Mega Evolution Pokémon ex, is in the Active Spot, and takes 240 or more damage from an attack from your opponent’s Mega Evolution Pokémon ex (even if this Pokémon is Knocked Out), place 12 damage counters on the Attacking Pokémon. If you placed any damage counters in this way, discard this card.",null,"113",null,null,"https://pkmncards.com/wp-content/uploads/me5_en_113_std.jpg",null,null,"Tremendous Bomb","113","data_en/Mega Evolution/PBL/113.json","en:me5-113","Ultra Rare",null,"J",null,null,null,"Mega Evolution","me5","Pitch Black",null,"PBL","084",null,null,null,"Tremendous Bomb If the Pokémon this card is attached to isn’t a Mega Evolution Pokémon ex, is in the Active Spot, and takes 240 or more damage from an attack from your opponent’s Mega Evolution Pokémon ex (even if this Pokémon is Knocked Out), place 12 damage counters on the Attacking Pokémon. If you placed any damage counters in this way, discard this card.",null,null,"https://pkmncards.com/card/tremendous-bomb-pitch-black-pbl-113/",null],[null,null,["Studio Bora Inc."],null,"Item","Jul 17, 2026","During your opponent’s next turn, all of your {M} Pokémon take 30 less damage from attacks from your opponent’s Pokémon (after applying Weakness and Resistance). (This includes new Pokémon that come into play.)",null,"110",null,null,"https://pkmncards.com/wp-content/uploads/me5_en_110_std.jpg",null,null,"Iron Defender","110","data_en/Mega Evolution/PBL/110.json","en:me5-110","Ultra Rare",null,"I",null,null,null,"Mega Evolution","me5","Pitch Black",null,"PBL","084",null,null,null,"Iron Defender During your opponent’s next turn, all of your {M} Pokémon take 30 less damage from attacks from your opponent’s Pokémon (after applying Weakness and Resistance). (This includes new Pokémon that come into play.)",null,null,"https://pkmncards.com/card/iron-defender-pitch-black-pbl-110/",null],[null,null,null,null,"Special Energy","Jul 17, 2026","As long as this card is attached to a Pokémon, it provides {L} Energy.\nAttacks used by the {L} Pokémon this card is attached to do 20 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).",null,"084",null,null,"https://pkmncards.com/wp-content/uploads/me5_en_084_std.jpg",null,null,"Voltaic {L} Energy","084","data_en/Mega Evolution/PBL/084.json","en:me5-84","Rare",null,"J",null,null,null,"Mega Evolution","me5","Pitch Black",null,"PBL","084",null,null,null,"Voltaic {L} Energy As long as this card is attached to a Pokémon, it provides {L} Energy.\nAttacks used by the {L} Pokémon this card is attached to do 20 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).",null,null,"https://pkmncards.com/card/voltaic-l-energy-pitch-black-pbl-084/",null],[[{"name":"Sky Transport","effect":"Once during your turn, you may use this Ability. Switch your Active Pokémon with 1 of your Benched Pokémon."}],[{"cost":["Water","Lightning","Lightning"],"name":"Ryuno Glide","damage":{"amount":330,"suffix":""},"effect":"Discard 2 Energy from this Pokémon."}],["5ban Graphics"],"149|370|2|5ban Graphics|330|3","Pokémon","Sep 30, 2026",null,"Dragonair","091",null,370,"https://pkmncards.com/wp-content/uploads/mebsp_en_091_std.jpg",null,"Dragonite","Mega Dragonite ex","091","data_en/Promos/MEP/091.json","en:mebsp-91","Promo",null,"I",{"type":[],"value":null},2,"When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.","Promos","mebsp","Mega Evolution Promos",null,"MEP",null,"Stage 2",["Mega Evolution","ex"],null,"Mega Dragonite ex When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards. Sky Transport Once during your turn, you may use this Ability. Switch your Active Pokémon with 1 of your Benched Pokémon. Ryuno Glide Discard 2 Energy from this Pokémon. Dragon Dragon",["Dragon"],["Dragon"],"https://pkmncards.com/card/mega-dragonite-ex-mega-evolution-promos-mep-091/",{"type":[],"value":null}],[null,[{"cost":["Darkness","Darkness"],"name":"Dusk Raid","damage":{"amount":110,"suffix":"+"},"effect":"If your Benched Pokémon have any damage counters on them, this attack does 110 more damage."},{"cost":["Darkness","Darkness","Darkness"],"name":"Abyss Eye","damage":null,"effect":"If your opponent’s Active Pokémon is affected by a Special Condition, it is Knocked Out."}],["5ban Graphics"],"491|280|2|5ban Graphics|110+,None|2,3","Pokémon","Sep 30, 2026",null,null,"090",null,280,"https://pkmncards.com/wp-content/uploads/mebsp_en_090_std.jpg",null,"Darkrai","Mega Darkrai ex","090","data_en/Promos/MEP/090.json","en:mebsp-90","Promo",null,"J",{"type":[],"value":null},2,"When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.","Promos","mebsp","Mega Evolution Promos",null,"MEP",null,"Basic",["Mega Evolution","ex"],null,"Mega Darkrai ex When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards. Dusk Raid If your Benched Pokémon have any damage counters on them, this attack does 110 more damage. Abyss Eye If your opponent’s Active Pokémon is affected by a Special Condition, it is Knocked Out. Darkness Darkness",["Darkness"],["Darkness"],"https://pkmncards.com/card/mega-darkrai-ex-mega-evolution-promos-mep-090/",{"type":["Grass"],"value":"×2"}],[null,[{"cost":["Fighting"],"name":"Double Draw","damage":null,"effect":"Draw 2 cards."},{"cost":["Fighting","Fighting"],"name":"Scratch","damage":{"amount":30,"suffix":""},"effect":null}],["Shimaris Yukichi"],"688|80|2|Shimaris Yukichi|None,30|1,2","Pokémon","Jul 17, 2026",null,null,"087","Two Binacle live together on one rock. When they fight, one of them will move to a different rock.",80,"https://pkmncards.com/wp-content/uploads/mebsp_en_087_std.jpg",null,null,"Binacle","087","data_en/Promos/MEP/087.json","en:mebsp-87","Promo",null,"J",{"type":[],"value":null},2,null,"Promos","mebsp","Mega Evolution Promos",null,"MEP",null,"Basic",null,null,"Binacle Two Binacle live together on one rock. When they fight, one of them will move to a different rock. Double Draw Draw 2 cards. Scratch Fighting Fighting",["Fighting"],["Fighting"],"https://pkmncards.com/card/binacle-mega-evolution-promos-mep-087/",{"type":["Grass"],"value":"×2"}],[[{"name":"Dopey Face","effect":"This Pokémon can’t be Confused."}],[{"cost":["Psychic","Psychic","Colorless"],"name":"Super Psy Bolt","damage":{"amount":50,"suffix":""},"effect":null}],["miki kudo"],"79|80|2|miki kudo|50|3","Pokémon","Jul 17, 2026",null,null,"086","It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail.",80,"https://pkmncards.com/wp-content/uploads/mebsp_en_086_std.jpg",null,null,"Slowpoke","086","data_en/Promos/MEP/086.json","en:mebsp-86","Promo",null,"J",{"type":["Fighting"],"value":"-30"},2,null,"Promos","mebsp","Mega Evolution Promos",null,"MEP",null,"Basic",null,null,"Slowpoke It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail. Dopey Face This Pokémon can’t be Confused. Super Psy Bolt Psychic Psychic",["Psychic"],["Psychic"],"https://pkmncards.com/card/slowpoke-mega-evolution-promos-mep-086/",{"type":["Darkness"],"value":"×2"}],[[{"name":"Ancient Bulwark","effect":"As long as this Pokémon is on your Bench, prevent all damage done to each of your Pokémon by attacks from your opponent’s Pokémon that have 2 or less Energy attached."}],[{"cost":["Metal","Metal","Colorless"],"name":"Hammer In","damage":{"amount":160,"suffix":""},"effect":null}],["Minahamu"],"411|160|4|Minahamu|160|3","Pokémon","Jul 17, 2026",null,"Shieldon","085","Bastiodon live in herds. When assaulted by enemies, they line up side by side and use their hard faces to block attacks.",160,"https://pkmncards.com/wp-content/uploads/mebsp_en_085_std.jpg",null,null,"Bastiodon","085","data_en/Promos/MEP/085.json","en:mebsp-85","Promo",null,"J",{"type":["Grass"],"value":"-30"},4,null,"Promos","mebsp","Mega Evolution Promos",null,"MEP",null,"Stage 2",null,null,"Bastiodon Bastiodon live in herds. When assaulted by enemies, they line up side by side and use their hard faces to block attacks. Ancient Bulwark As long as this Pokémon is on your Bench, prevent all damage done to each of your Pokémon by attacks from your opponent’s Pokémon that have 2 or less Energy attached. Hammer In Metal Metal",["Metal"],["Metal"],"https://pkmncards.com/card/bastiodon-mega-evolution-promos-mep-085/",{"type":["Fire"],"value":"×2"}],[[{"name":"Call a Buddy","effect":"Once during your turn, if you have no cards in your hand, you may use this Ability. Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck."}],[{"cost":["Colorless","Colorless","Colorless"],"name":"Air Slash","damage":{"amount":130,"suffix":""},"effect":"Discard an Energy from this Pokémon."}],["DOM"],"773|140|2|DOM|130|3","Pokémon","Jul 17, 2026",null,"Type: Null","095","The final factor needed to release this Pokémon’s true power was a strong bond with a Trainer it trusts.",140,"https://pkmncards.com/wp-content/uploads/me5_en_095_std.jpg",null,null,"Silvally","095","data_en/Mega Evolution/PBL/095.json","en:me5-95","Illustration Rare",null,"J",{"type":[],"value":null},2,null,"Mega Evolution","me5","Pitch Black",null,"PBL","084","Stage 1",null,null,"Silvally The final factor needed to release this Pokémon’s true power was a strong bond with a Trainer it trusts. Call a Buddy Once during your turn, if you have no cards in your hand, you may use this Ability. Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck. Air Slash Discard an Energy from this Pokémon. Colorless Colorless",["Colorless"],["Colorless"],"https://pkmncards.com/card/silvally-pitch-black-pbl-095/",{"type":["Fighting"],"value":"×2"}],[null,[{"cost":["Fairy","Colorless","Colorless"],"name":"Break Through","damage":{"amount":60,"suffix":""},"effect":"This attack does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"},{"cost":["Fairy","Fairy","Colorless","Colorless"],"name":"X Blast","damage":{"amount":140,"suffix":""},"effect":"This Pokémon can’t use X Blast during your next turn."}],["5ban Graphics"],"716|170|2|5ban Graphics|60,140|3,4","Pokémon","Oct 8, 2021",null,null,"97",null,170,"https://pkmncards.com/wp-content/uploads/en_US-Ann25thR-097-xerneas_ex.jpg",null,null,"Xerneas EX","97","data_en/Sword & Shield/CEL/97.json","en:Ann25thR-97","Ultra Rare",null,null,{"type":["Darkness"],"value":"-20"},2,"When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.","Sword & Shield","Ann25thR","Celebrations",null,"CEL","146","Basic",["EX"],null,"Xerneas EX When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards. Break Through This attack does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) X Blast This Pokémon can’t use X Blast during your next turn. Fairy Fairy",["Fairy"],["Fairy"],"https://pkmncards.com/card/xerneas-ex-celebrations-cel-97/",{"type":["Metal"],"value":"×2"}],[null,[{"cost":["Darkness","Darkness"],"name":"Dusk Raid","damage":{"amount":110,"suffix":"+"},"effect":"If your Benched Pokémon have any damage counters on them, this attack does 110 more damage."},{"cost":["Darkness","Darkness","Darkness"],"name":"Abyss Eye","damage":null,"effect":"If your opponent’s Active Pokémon is affected by a Special Condition, it is Knocked Out."}],["5ban Graphics"],"491|280|2|5ban Graphics|110+,None|2,3","Pokémon","Jul 17, 2026",null,null,"120",null,280,"https://pkmncards.com/wp-content/uploads/me5_en_120_std.jpg",null,"Darkrai","Mega Darkrai ex","120","data_en/Mega Evolution/PBL/120.json","en:me5-120","Mega Hyper Rare",null,"J",{"type":[],"value":null},2,"When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.","Mega Evolution","me5","Pitch Black",null,"PBL","084","Basic",["Mega Evolution","ex"],null,"Mega Darkrai ex When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards. Dusk Raid If your Benched Pokémon have any damage counters on them, this attack does 110 more damage. Abyss Eye If your opponent’s Active Pokémon is affected by a Special Condition, it is Knocked Out. Darkness Darkness",["Darkness"],["Darkness"],"https://pkmncards.com/card/mega-darkrai-ex-pitch-black-pbl-120/",{"type":["Grass"],"value":"×2"}],[[{"name":"Mortal Shuriken","effect":"Once during your turn, if this Pokémon is in the Active Spot, you may discard a Basic {W} Energy card from your hand in order to use this Ability. Place 6 damage counters on 1 of your opponent’s Pokémon."}],[{"cost":["Water","Water"],"name":"Ninja Spinner","damage":{"amount":120,"suffix":"+"},"effect":"You may put a {W} Energy attached to this Pokémon into your hand and have this attack do 80 more damage."}],["takuyoa"],"658|350|1|takuyoa|120+|2","Pokémon","May 22, 2026",null,"Frogadier","122",null,350,"https://pkmncards.com/wp-content/uploads/me4_en_122_std.jpg",null,"Greninja","Mega Greninja ex","122","data_en/Mega Evolution/CRI/122.json","en:me4-122","Mega Hyper Rare",null,"J",{"type":[],"value":null},1,"When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.","Mega Evolution","me4","Chaos Rising",null,"CRI","086","Stage 2",["Mega Evolution","ex"],null,"Mega Greninja ex When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards. Mortal Shuriken Once during your turn, if this Pokémon is in the Active Spot, you may discard a Basic {W} Energy card from your hand in order to use this Ability. Place 6 damage counters on 1 of your opponent’s Pokémon. Ninja Spinner You may put a {W} Energy attached to this Pokémon into your hand and have this attack do 80 more damage. Water Water",["Water"],["Water"],"https://pkmncards.com/card/mega-greninja-ex-chaos-rising-cri-122/",{"type":["Lightning"],"value":"×2"}],[null,[{"cost":["Fighting","Fighting","Fighting"],"name":"Gaia Wave","damage":{"amount":200,"suffix":""},"effect":"During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."},{"cost":["Fighting","Fighting","Fighting","Fighting","Fighting"],"name":"Nullifying Zero","damage":null,"effect":"For each of your opponent’s Pokémon, flip a coin. If heads, this attack does 150 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"}],["takuyoa"],"718|310|2|takuyoa|200,None|3,5","Pokémon","Mar 27, 2026",null,null,"124",null,310,"https://pkmncards.com/wp-content/uploads/me3_en_124_std.jpg",null,"Zygarde","Mega Zygarde ex","124","data_en/Mega Evolution/POR/124.json","en:me3-124","Mega Hyper Rare",null,"J",{"type":[],"value":null},2,"When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.","Mega Evolution","me3","Perfect Order",null,"POR","088","Basic",["Mega Evolution","ex"],null,"Mega Zygarde ex When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards. Gaia Wave During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance). Nullifying Zero For each of your opponent’s Pokémon, flip a coin. If heads, this attack does 150 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) Fighting Fighting",["Fighting"],["Fighting"],"https://pkmncards.com/card/mega-zygarde-ex-perfect-order-por-124/",{"type":["Grass"],"value":"×2"}],[[{"name":"Sky Transport","effect":"Once during your turn, you may use this Ability. Switch your Active Pokémon with 1 of your Benched Pokémon."}],[{"cost":["Water","Lightning","Lightning"],"name":"Ryuno Glide","damage":{"amount":330,"suffix":""},"effect":"Discard 2 Energy from this Pokémon."}],["aky CG Works"],"149|370|2|aky CG Works|330|3","Pokémon","Jan 30, 2026",null,"Dragonair","295",null,370,"https://pkmncards.com/wp-content/uploads/me2-5_en_295_std.jpg",null,"Dragonite","Mega Dragonite ex","295","data_en/Mega Evolution/ASC/295.json","en:me2-5-295","Mega Hyper Rare",null,"I",{"type":[],"value":null},2,"When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.","Mega Evolution","me2-5","Ascended Heroes",null,"ASC","217","Stage 2",["Mega Evolution","ex"],null,"Mega Dragonite ex When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards. Sky Transport Once during your turn, you may use this Ability. Switch your Active Pokémon with 1 of your Benched Pokémon. Ryuno Glide Discard 2 Energy from this Pokémon. Dragon Dragon",["Dragon"],["Dragon"],"https://pkmncards.com/card/mega-dragonite-ex-ascended-heroes-asc-295/",{"type":[],"value":null}],[null,[{"cost":["Fire","Fire"],"name":"Inferno X","damage":{"amount":90,"suffix":"×"},"effect":"Discard any amount of {R} Energy from among your Pokémon, and this attack does 90 damage for each card you discarded in this way."}],["takuyoa"],"6|360|2|takuyoa|90x|2","Pokémon","Nov 14, 2025",null,"Charmeleon","130",null,360,"https://pkmncards.com/wp-content/uploads/me2_en_130_std.jpg",null,"Charizard X","Mega Charizard X ex","130","data_en/Mega Evolution/PFL/130.json","en:me2-130","Mega Hyper Rare",null,"I",{"type":[],"value":null},2,"When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.","Mega Evolution","me2","Phantasmal Flames",null,"PFL","094","Stage 2",["Mega Evolution","ex"],null,"Mega Charizard X ex When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards. Inferno X Discard any amount of {R} Energy from among your Pokémon, and this attack does 90 damage for each card you discarded in this way. Fire Fire",["Fire"],["Fire"],"https://pkmncards.com/card/mega-charizard-x-ex-phantasmal-flames-pfl-130/",{"type":["Water"],"value":"×2"}],[null,null,["Taira Akitsu"],null,"Supporter","Oct 24, 2025","Discard your hand and draw 7 cards.",null,"223",null,null,"https://pkmncards.com/wp-content/uploads/svbsp_en_223_std.jpg",null,null,"Professor’s Research","223","data_en/Scarlet & Violet/SVP/223.json","en:svbsp-223","Promo",null,"G",null,null,null,"Scarlet & Violet","svbsp","Scarlet & Violet Promos",null,"SVP",null,null,null,null,"Professor’s Research Discard your hand and draw 7 cards.",null,null,"https://pkmncards.com/card/professors-research-scarlet-violet-promos-svp-223/",null],[null,[{"cost":["Fighting"],"name":"Aura Jab","damage":{"amount":130,"suffix":""},"effect":"Attach up to 3 Basic {F} Energy cards from your discard pile to your Benched Pokémon in any way you like."},{"cost":["Fighting","Fighting"],"name":"Mega Brave","damage":{"amount":270,"suffix":""},"effect":"During your next turn, this Pokémon can’t use Mega Brave."}],["5ban Graphics"],"448|340|2|5ban Graphics|130,270|1,2","Pokémon","Sep 26, 2025",null,"Riolu","188",null,340,"https://pkmncards.com/wp-content/uploads/me1_en_188_std.jpg",null,"Lucario","Mega Lucario ex","188","data_en/Mega Evolution/MEG/188.json","en:me1-188","Mega Hyper Rare",null,"I",{"type":[],"value":null},2,"When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards.","Mega Evolution","me1","Mega Evolution",null,"MEG","132","Stage 1",["Mega Evolution","ex"],null,"Mega Lucario ex When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards. Aura Jab Attach up to 3 Basic {F} Energy cards from your discard pile to your Benched Pokémon in any way you like. Mega Brave During your next turn, this Pokémon can’t use Mega Brave. Fighting Fighting",["Fighting"],["Fighting"],"https://pkmncards.com/card/mega-lucario-ex-mega-evolution-meg-188/",{"type":["Psychic"],"value":"×2"}],[null,[{"cost":["Colorless","Colorless"],"name":"Slash","damage":{"amount":50,"suffix":""},"effect":null},{"cost":["Fire","Fire","Colorless"],"name":"Blazing Burst","damage":{"amount":130,"suffix":"+"},"effect":"This attack does 50 more damage for each Prize card your opponent has taken. Discard an Energy from this Pokémon."}],["5ban Graphics"],"643|230|2|5ban Graphics|50,130+|2,3","Pokémon","Jul 18, 2025",null,null,"173",null,230,"https://pkmncards.com/wp-content/uploads/rsv10-5_en_173_std.jpg",null,null,"Reshiram ex","173","data_en/Scarlet & Violet/WHT/173.json","en:rsv10-5-173","Black White Rare",null,"I",{"type":[],"value":null},2,"When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.","Scarlet & Violet","rsv10-5","White Flare",null,"WHT","086","Basic",["ex"],null,"Reshiram ex When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards. Slash Blazing Burst This attack does 50 more damage for each Prize card your opponent has taken. Discard an Energy from this Pokémon. Fire Fire",["Fire"],["Fire"],"https://pkmncards.com/card/reshiram-ex-white-flare-wht-173/",{"type":["Water"],"value":"×2"}],[null,null,null,null,"Basic Energy","Jul 18, 2025",null,null,"024",null,null,"https://pkmncards.com/wp-content/uploads/sve_en_024_std.jpg",null,null,"Basic {M} Energy","024","data_en/Scarlet & Violet/SVE/024.json","en:sve-24","No Rarity",null,null,null,null,null,"Scarlet & Violet","sve","Scarlet & Violet Energy",null,"SVE",null,null,null,null,"Basic {M} Energy",null,null,"https://pkmncards.com/card/basic-m-energy-scarlet-violet-energy-sve-024/",null],[null,[{"cost":["Colorless","Colorless"],"name":"Slash","damage":{"amount":50,"suffix":""},"effect":null},{"cost":["Lightning","Lightning","Colorless"],"name":"Voltage Burst","damage":{"amount":130,"suffix":"+"},"effect":"This attack does 50 more damage for each Prize card your opponent has taken. This Pokémon also does 30 damage to itself."}],["takuyoa"],"644|230|2|takuyoa|50,130+|2,3","Pokémon","Jul 18, 2025",null,null,"172",null,230,"https://pkmncards.com/wp-content/uploads/zsv10-5_en_172_std.jpg",null,null,"Zekrom ex","172","data_en/Scarlet & Violet/BLK/172.json","en:zsv10-5-172","Black White Rare",null,"I",{"type":[],"value":null},2,"When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.","Scarlet & Violet","zsv10-5","Black Bolt",null,"BLK","086","Basic",["ex"],null,"Zekrom ex When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards. Slash Voltage Burst This attack does 50 more damage for each Prize card your opponent has taken. This Pokémon also does 30 damage to itself. Lightning Lightning",["Lightning"],["Lightning"],"https://pkmncards.com/card/zekrom-ex-black-bolt-blk-172/",{"type":["Fighting"],"value":"×2"}],[null,null,["MARINA Chikazawa"],null,"Stadium","May 30, 2025","Once during each player’s turn, that player may put up to 2 Basic {L} Energy cards from their discard pile into their hand.",null,"244",null,null,"https://pkmncards.com/wp-content/uploads/sv10_en_244_std.jpg",null,null,"Levincia","244","data_en/Scarlet & Violet/DRI/244.json","en:sv10-244","Hyper Rare",null,"I",null,null,null,"Scarlet & Violet","sv10","Destined Rivals",null,"DRI","182",null,null,null,"Levincia Once during each player’s turn, that player may put up to 2 Basic {L} Energy cards from their discard pile into their hand.",null,null,"https://pkmncards.com/card/levincia-destined-rivals-dri-244/",null],[null,null,null,null,"Special Energy","Mar 28, 2025","As long as this card is attached to a Pokémon, it provides {C} Energy.\nIf the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.",null,"190",null,null,"https://pkmncards.com/wp-content/uploads/sv9_en_190_std.jpg",null,null,"Spiky Energy","190","data_en/Scarlet & Violet/JTG/190.json","en:sv9-190","Hyper Rare",null,"I",null,null,null,"Scarlet & Violet","sv9","Journey Together",null,"JTG","159",null,null,null,"Spiky Energy As long as this card is attached to a Pokémon, it provides {C} Energy.\nIf the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.",null,null,"https://pkmncards.com/card/spiky-energy-journey-together-jtg-190/",null],[null,[{"cost":["Colorless","Colorless"],"name":"Unified Beatdown","damage":{"amount":30,"suffix":"×"},"effect":"If you go second, you can’t use this attack during your first turn. This attack does 30 damage for each of your Benched Pokémon."},{"cost":["Grass","Water","Lightning"],"name":"Crown Opal","damage":{"amount":180,"suffix":""},"effect":"During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Basic non-{C} Pokémon."}],["5ban Graphics"],"1024|230|2|5ban Graphics|30x,180|2,3","Pokémon","Jan 17, 2025",null,null,"180",null,230,"https://pkmncards.com/wp-content/uploads/sv8-5_en_180_std.jpg",null,null,"Terapagos ex","180","data_en/Scarlet & Violet/PRE/180.json","en:sv8-5-180","Hyper Rare",null,"H",{"type":[],"value":null},2,"When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.","Scarlet & Violet","sv8-5","Prismatic Evolutions",null,"PRE","131","Basic",["Tera","ex"],"As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s).","Terapagos ex When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards. Unified Beatdown If you go second, you can’t use this attack during your first turn. This attack does 30 damage for each of your Benched Pokémon. Crown Opal During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Basic non-{C} Pokémon. Colorless Colorless",["Colorless"],["Colorless"],"https://pkmncards.com/card/terapagos-ex-prismatic-evolutions-pre-180/",{"type":["Fighting"],"value":"×2"}],[null,null,null,null,"Special Energy","Nov 8, 2024","As long as this card is attached to a Pokémon, it provides {C} Energy.\nWhen you attach this card from your hand to 1 of your Benched Pokémon, switch that Pokémon with your Active Pokémon.",null,"252",null,null,"https://pkmncards.com/wp-content/uploads/sv8_en_252_std.jpg",null,null,"Jet Energy","252","data_en/Scarlet & Violet/SSP/252.json","en:sv8-252","Hyper Rare",null,"G",null,null,null,"Scarlet & Violet","sv8","Surging Sparks",null,"SSP","191",null,null,null,"Jet Energy As long as this card is attached to a Pokémon, it provides {C} Energy.\nWhen you attach this card from your hand to 1 of your Benched Pokémon, switch that Pokémon with your Active Pokémon.",null,null,"https://pkmncards.com/card/jet-energy-surging-sparks-ssp-252/",null],[null,null,["Toyste Beach"],null,"Pokémon Tool","Sep 13, 2024","The Basic Pokémon this card is attached to gets +50 HP.",null,"175",null,null,"https://pkmncards.com/wp-content/uploads/sv7_en_175_std.jpg",null,null,"Bravery Charm","175","data_en/Scarlet & Violet/SCR/175.json","en:sv7-175","Hyper Rare",null,"G",null,null,null,"Scarlet & Violet","sv7","Stellar Crown",null,"SCR","142",null,null,null,"Bravery Charm The Basic Pokémon this card is attached to gets +50 HP.",null,null,"https://pkmncards.com/card/bravery-charm-stellar-crown-scr-175/",null],[null,null,null,null,"Basic Energy","Aug 2, 2024",null,null,"099",null,null,"https://pkmncards.com/wp-content/uploads/sv6-5_en_099_std.jpg",null,null,"Basic {M} Energy","099","data_en/Scarlet & Violet/SFA/099.json","en:sv6-5-99","Hyper Rare",null,null,null,null,null,"Scarlet & Violet","sv6-5","Shrouded Fable",null,"SFA","064",null,null,null,"Basic {M} Energy",null,null,"https://pkmncards.com/card/basic-m-energy-shrouded-fable-sfa-099/",null],[null,null,null,null,"Special Energy","May 24, 2024","As long as this card is attached to a Pokémon, it provides every type of Energy but provides only 1 Energy at a time.\nIf the Pokémon this card is attached to has any other Special Energy attached, this card provides {C} Energy instead.",null,"226",null,null,"https://pkmncards.com/wp-content/uploads/sv6_en_226_std.jpg",null,null,"Luminous Energy","226","data_en/Scarlet & Violet/TWM/226.json","en:sv6-226","Hyper Rare",null,"G",null,null,null,"Scarlet & Violet","sv6","Twilight Masquerade",null,"TWM","167",null,null,null,"Luminous Energy As long as this card is attached to a Pokémon, it provides every type of Energy but provides only 1 Energy at a time.\nIf the Pokémon this card is attached to has any other Special Energy attached, this card provides {C} Energy instead.",null,null,"https://pkmncards.com/card/luminous-energy-twilight-masquerade-twm-226/",null],[null,[{"cost":["Colorless"],"name":"Burst Roar","damage":null,"effect":"Discard your hand and draw 6 cards."},{"cost":["Lightning","Fighting"],"name":"Bellowing Thunder","damage":{"amount":70,"suffix":"×"},"effect":"You may discard any amount of Basic Energy from your Pokémon. This attack does 70 damage for each card you discarded in this way."}],["aky CG Works"],"1021|240|3|aky CG Works|None,70x|1,2","Pokémon","Mar 22, 2024",null,null,"218",null,240,"https://pkmncards.com/wp-content/uploads/sv5_en_218_std.jpg",null,null,"Raging Bolt ex","218","data_en/Scarlet & Violet/TEF/218.json","en:sv5-218","Hyper Rare",null,"H",{"type":[],"value":null},3,"When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.","Scarlet & Violet","sv5","Temporal Forces",null,"TEF","162","Basic",["ex"],null,"Raging Bolt ex When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards. Burst Roar Discard your hand and draw 6 cards. Bellowing Thunder You may discard any amount of Basic Energy from your Pokémon. This attack does 70 damage for each card you discarded in this way. Dragon Dragon",["Dragon"],["Dragon"],"https://pkmncards.com/card/raging-bolt-ex-temporal-forces-tef-218/",{"type":[],"value":null}],[[{"name":"Dino Cry","effect":"Once during your turn, you may attach up to 2 Basic {F} Energy cards from your discard pile to your Basic {F} Pokémon in any way you like. If you use this Ability, your turn ends."}],[{"cost":["Fighting","Fighting","Colorless"],"name":"Wild Impact","damage":{"amount":220,"suffix":""},"effect":"During your next turn, this Pokémon can’t attack."}],["aky CG Works"],"1007|230|2|aky CG Works|220|3","Pokémon","Jan 26, 2024",null,null,"245",null,230,"https://pkmncards.com/wp-content/uploads/sv4-5_en_245_std.jpg",null,null,"Koraidon ex","245","data_en/Scarlet & Violet/PAF/245.json","en:sv4-5-245","Hyper Rare",null,"G",{"type":[],"value":null},2,"When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.","Scarlet & Violet","sv4-5","Paldean Fates",null,"PAF","091","Basic",["ex"],null,"Koraidon ex When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards. Dino Cry Once during your turn, you may attach up to 2 Basic {F} Energy cards from your discard pile to your Basic {F} Pokémon in any way you like. If you use this Ability, your turn ends. Wild Impact During your next turn, this Pokémon can’t attack. Fighting Fighting",["Fighting"],["Fighting"],"https://pkmncards.com/card/koraidon-ex-paldean-fates-paf-245/",{"type":["Psychic"],"value":"×2"}],[null,null,["Keiji Kinebuchi"],null,"Basic Energy","Nov 17, 2023",null,null,"034",null,null,"https://pkmncards.com/wp-content/uploads/clv_en_034-fighting_energy.jpg",null,null,"Basic {F} Energy","034","data_en/CLV/034.json","en:CLV-34","No Rarity",null,null,null,null,null,null,"CLV","Pokémon Trading Card Game Classic—Venusaur",null,"CLV","034",null,null,null,"Basic {F} Energy",null,null,"https://pkmncards.com/card/basic-f-energy-pokemon-trading-card-game-classic-venusaur-clv-034/",null],[null,null,["Keiji Kinebuchi"],null,"Basic Energy","Nov 17, 2023",null,null,"034",null,null,"https://pkmncards.com/wp-content/uploads/clc_en_034-lightning_energy.jpg",null,null,"Basic {L} Energy","034","data_en/CLC/034.json","en:CLC-34","No Rarity",null,null,null,null,null,null,"CLC","Pokémon Trading Card Game Classic—Charizard",null,"CLC","034",null,null,null,"Basic {L} Energy",null,null,"https://pkmncards.com/card/basic-l-energy-pokemon-trading-card-game-classic-charizard-clc-034/",null],[null,null,["Keiji Kinebuchi"],null,"Basic Energy","Nov 17, 2023",null,null,"034",null,null,"https://pkmncards.com/wp-content/uploads/clb_en_034-psychic_energy.jpg",null,null,"Basic {P} Energy","034","data_en/CLB/034.json","en:CLB-34","No Rarity",null,null,null,null,null,null,"CLB","Pokémon Trading Card Game Classic—Blastoise",null,"CLB","034",null,null,null,"Basic {P} Energy",null,null,"https://pkmncards.com/card/basic-p-energy-pokemon-trading-card-game-classic-blastoise-clb-034/",null],[null,null,null,null,"Special Energy","Nov 3, 2023","As long as this card is attached to a Pokémon, it provides {C} Energy.\nIf you have more Prize cards remaining than your opponent, and if this card is attached to an Evolution Pokémon that doesn’t have a Rule Box (Pokémon ex, Pokémon V, etc. have Rule Boxes), this card provides every type of Energy but provides only 3 Energy at a time.",null,"266",null,null,"https://pkmncards.com/wp-content/uploads/sv4_en_266_std.jpg",null,null,"Reversal Energy","266","data_en/Scarlet & Violet/PAR/266.json","en:sv4-266","Hyper Rare",null,"G",null,null,null,"Scarlet & Violet","sv4","Paradox Rift",null,"PAR","182",null,null,null,"Reversal Energy As long as this card is attached to a Pokémon, it provides {C} Energy.\nIf you have more Prize cards remaining than your opponent, and if this card is attached to an Evolution Pokémon that doesn’t have a Rule Box (Pokémon ex, Pokémon V, etc. have Rule Boxes), this card provides every type of Energy but provides only 3 Energy at a time.",null,null,"https://pkmncards.com/card/reversal-energy-paradox-rift-par-266/",null],[[{"name":"Wish Connector","effect":"When 1 of your Basic Pokémon V is Knocked Out by damage from an attack from your opponent’s Pokémon, you may move a basic Energy card from that Pokémon to another of your Pokémon."}],[{"cost":["Psychic","Colorless"],"name":"Hypnostrike","damage":{"amount":60,"suffix":""},"effect":"Both Active Pokémon are now Asleep."}],["N-DESIGN Inc."],"385|180|1|N-DESIGN Inc.|60|2","Pokémon","Sep 22, 2023",null,null,"SWSH299",null,180,"https://pkmncards.com/wp-content/uploads/swshbsp_en_299_std.jpg",null,null,"Jirachi V","SWSH299","data_en/Sword & Shield/Promo_SWSH/SWSH299.json","en:Promo_SWSH-SWSH299","Promo",null,"F",{"type":["Fighting"],"value":"-30"},1,"When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards.","Sword & Shield","Promo_SWSH","Sword & Shield Promos",null,"Promo_SWSH",null,"Basic",["V"],null,"Jirachi V When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards. Wish Connector When 1 of your Basic Pokémon V is Knocked Out by damage from an attack from your opponent’s Pokémon, you may move a basic Energy card from that Pokémon to another of your Pokémon. Hypnostrike Both Active Pokémon are now Asleep. Psychic Psychic",["Psychic"],["Psychic"],"https://pkmncards.com/card/jirachi-v-sword-shield-promos-swsh299/",{"type":["Darkness"],"value":"×2"}]]},"index/summary.json":{"en":{"cards":48,"source_cards":21277,"sets":["30C","ASC","BLK","CEL","CLB","CLC","CLV","CRI","DRI","JTG","MEE","MEG","MEP","PAF","PAR","PBL","PFL","POR","PRE","Promo_SWSH","SCR","SFA","SSP","SVE","SVP","TEF","TWM","WHT"]}},"index/links.json":{"prints":{},"cards":{"6|120|3|Mitsuhiro Arita|100|4":[["en","Charizard","CLC","003","No Rarity"],["en","Charizard","30C","4","Rare Holo"]],"25|40|1|Mitsuhiro Arita|10,30|1,2":[["en","Pikachu","CLC","008","No Rarity"],["en","Pikachu","30C","58","Common"]],"151|60|1|YOSHIROTTEN|10+|2":[["en","Mew","30C","G","RGB Rare"],["en","Mew","30C","R","RGB Rare"]],"491|280|2|5ban Graphics|110+,None|2,3":[["en","Mega Darkrai ex","PBL","120","Mega Hyper Rare"],["en","Mega Darkrai ex","MEP","090","Promo"]]}}},"images":{"data_en/Mega Evolution/30C/58.json":"images/en/Mega%20Evolution/30C/58.jpg","data_en/Mega Evolution/30C/4.json":"images/en/Mega%20Evolution/30C/4.jpg","data_en/Promos/MEP/037.json":"images/en/Promos/MEP/037.jpg","data_en/Promos/MEP/039.json":"images/en/Promos/MEP/039.jpg","data_en/Mega Evolution/30C/118.json":"images/en/Mega%20Evolution/30C/118.jpg","data_en/Mega Evolution/30C/R.json":"images/en/Mega%20Evolution/30C/R.jpg","data_en/Mega Evolution/30C/063.json":"images/en/Mega%20Evolution/30C/063.jpg","data_en/Mega Evolution/30C/128.json":"images/en/Mega%20Evolution/30C/128.jpg","data_en/CLC/008.json":"images/en/CLC/008.jpg","data_en/CLC/003.json":"images/en/CLC/003.jpg","data_en/Mega Evolution/30C/G.json":"images/en/Mega%20Evolution/30C/G.jpg","data_en/Mega Evolution/MEE/016.json":"images/en/Mega%20Evolution/MEE/016.jpg","data_en/Mega Evolution/30C/101-2.json":"images/en/Mega%20Evolution/30C/101-2.jpg","data_en/Promos/MEP/092.json":"images/en/Promos/MEP/092.jpg","data_en/Mega Evolution/PBL/113.json":"images/en/Mega%20Evolution/PBL/113.jpg","data_en/Mega Evolution/PBL/110.json":"images/en/Mega%20Evolution/PBL/110.jpg","data_en/Mega Evolution/PBL/084.json":"images/en/Mega%20Evolution/PBL/084.jpg","data_en/Promos/MEP/091.json":"images/en/Promos/MEP/091.jpg","data_en/Promos/MEP/090.json":"images/en/Promos/MEP/090.jpg","data_en/Promos/MEP/087.json":"images/en/Promos/MEP/087.jpg","data_en/Promos/MEP/086.json":"images/en/Promos/MEP/086.jpg","data_en/Promos/MEP/085.json":"images/en/Promos/MEP/085.jpg","data_en/Mega Evolution/PBL/095.json":"images/en/Mega%20Evolution/PBL/095.jpg","data_en/Sword & Shield/CEL/97.json":"images/en/Sword%20%26%20Shield/CEL/97.jpg","data_en/Mega Evolution/PBL/120.json":"images/en/Mega%20Evolution/PBL/120.jpg","data_en/Mega Evolution/CRI/122.json":"images/en/Mega%20Evolution/CRI/122.jpg","data_en/Mega Evolution/POR/124.json":"images/en/Mega%20Evolution/POR/124.jpg","data_en/Mega Evolution/ASC/295.json":"images/en/Mega%20Evolution/ASC/295.jpg","data_en/Mega Evolution/PFL/130.json":"images/en/Mega%20Evolution/PFL/130.jpg","data_en/Scarlet & Violet/SVP/223.json":"images/en/Scarlet%20%26%20Violet/SVP/223.jpg","data_en/Mega Evolution/MEG/188.json":"images/en/Mega%20Evolution/MEG/188.jpg","data_en/Scarlet & Violet/WHT/173.json":"images/en/Scarlet%20%26%20Violet/WHT/173.jpg","data_en/Scarlet & Violet/SVE/024.json":"images/en/Scarlet%20%26%20Violet/SVE/024.jpg","data_en/Scarlet & Violet/BLK/172.json":"images/en/Scarlet%20%26%20Violet/BLK/172.jpg","data_en/Scarlet & Violet/DRI/244.json":"images/en/Scarlet%20%26%20Violet/DRI/244.jpg","data_en/Scarlet & Violet/JTG/190.json":"images/en/Scarlet%20%26%20Violet/JTG/190.jpg","data_en/Scarlet & Violet/PRE/180.json":"images/en/Scarlet%20%26%20Violet/PRE/180.jpg","data_en/Scarlet & Violet/SSP/252.json":"images/en/Scarlet%20%26%20Violet/SSP/252.jpg","data_en/Scarlet & Violet/SCR/175.json":"images/en/Scarlet%20%26%20Violet/SCR/175.jpg","data_en/Scarlet & Violet/SFA/099.json":"images/en/Scarlet%20%26%20Violet/SFA/099.jpg","data_en/Scarlet & Violet/TWM/226.json":"images/en/Scarlet%20%26%20Violet/TWM/226.jpg","data_en/Scarlet & Violet/TEF/218.json":"images/en/Scarlet%20%26%20Violet/TEF/218.jpg","data_en/Scarlet & Violet/PAF/245.json":"images/en/Scarlet%20%26%20Violet/PAF/245.jpg","data_en/CLV/034.json":"images/en/CLV/034.jpg","data_en/CLC/034.json":"images/en/CLC/034.jpg","data_en/CLB/034.json":"images/en/CLB/034.jpg","data_en/Scarlet & Violet/PAR/266.json":"images/en/Scarlet%20%26%20Violet/PAR/266.jpg","data_en/Sword & Shield/Promo_SWSH/SWSH299.json":"images/en/Sword%20%26%20Shield/Promo_SWSH/SWSH299.jpg"},"generated_at":"2026-09-29T19:24:37Z"}</script>
+<script>
+const portable = document.getElementById("portable-data");
+const bundle = portable ? JSON.parse(portable.textContent) : null;
+// A containing article can distinguish this app from an error/404 document.
+addEventListener("message", event => {
+  if (window.parent !== window && event.source === window.parent &&
+      event.data?.type === "type-null:embed-ping") {
+    window.parent.postMessage({ type: "type-null:embed-ready" },
+      event.origin === "null" ? "*" : event.origin);
+  }
+});
+const PAGE = 120;
+const el = id => document.getElementById(id);
+const LANG_NAME = { jp: "Japanese", en: "English", tc: "Traditional Chinese", ko: "Korean",
+                    fr: "French", sc: "Simplified Chinese", pocket: "TCG Pocket",
+                    de: "German", es: "Spanish", it: "Italian", pt: "Portuguese" };
+
+// Where each card database is published. TCG Pocket is a game, not a country,
+// so it takes the phone it is played on.
+const FLAG = { jp: "🇯🇵", en: "🇺🇸", tc: "🇹🇼", ko: "🇰🇷", sc: "🇨🇳", pocket: "📱",
+               fr: "🇫🇷", de: "🇩🇪", es: "🇪🇸", it: "🇮🇹", pt: "🇵🇹" };
+let fields = [], cards = [], filtered = [], shown = 0, lang = bundle ? Object.keys(bundle.files["index/summary.json"])[0] : "en";
+const idx = name => fields.indexOf(name);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+// A missing picture keeps a readable face drawn from the stored record.
+// The first energy type supplies its color in the grid and card detail.
+const TYPE_TINT = {
+  Grass: "#3f8f4f", Fire: "#d2552e", Water: "#2f7ecd", Lightning: "#cfa015",
+  Psychic: "#9457b0", Fighting: "#b45a2c", Darkness: "#44515f", Metal: "#7e8b98",
+  Fairy: "#d0649a", Dragon: "#a3872f", Colorless: "#8b8d93",
+};
+
+// Every index this page has read, kept so a card can be shown in another
+// language without leaving the one in front of you.
+const indexes = {};
+
+async function indexFor(which) {
+  if (!indexes[which]) {
+    const data = await loadJson(`index/${which}.json`);
+    indexes[which] = { fields: data.fields, cards: data.cards };
+  }
+  return indexes[which];
+}
+
+//: A column's place differs between languages — only Japanese stores `jp_id` —
+//: so a renderer is told which fields it is reading rather than assuming the
+//: language on screen.
+const column = (row, fields, name) => {
+  const at = fields.indexOf(name);
+  return at < 0 ? undefined : row[at];
+};
+
+//: Where `downloadImages.py` put this card's picture, reached through the
+//: gitignored `images` link beside this page. The card's stored path names the
+//: folder — which is not always its set name — and the extension comes from the
+//: url it was fetched from. A card with no picture, or an archive that has not
+//: been downloaded, simply returns nothing.
+const SUFFIXES = ["jpg", "jpeg", "png", "webp", "gif"];
+
+function archived(c, fields, which) {
+  const column = name => { const at = fields.indexOf(name); return at < 0 ? undefined : c[at]; };
+  const stored = column("path");
+  if (bundle) return bundle.images[stored] || "";
+  const url = column("img");
+  if (!stored || !url) return "";
+  let suffix = String(url).split("?")[0].split(".").pop().toLowerCase();
+  if (!SUFFIXES.includes(suffix)) suffix = "jpg";
+  const inside = String(stored).replace(/^data_/, "").replace(/\.json$/, `.${suffix}`);
+  return `../images/${inside.split("/").map(encodeURIComponent).join("/")}`;
+}
+
+// The picture if the archive holds it, and the drawn face underneath either way:
+// if the file is not there the image is dropped and the face shows through.
+function picture(c, fields, which, big) {
+  const drawn = face(c, fields, big);
+  const src = archived(c, fields, which);
+  if (!src) return drawn;
+  return `<span class="shot${big ? " big" : ""}">${drawn}<img src="${esc(src)}" alt="" loading="lazy"></span>`;
+}
+
+function face(c, fields, big) {
+  const column = name => { const at = fields.indexOf(name); return at < 0 ? undefined : c[at]; };
+  const english = column("types_en") || [];
+  const printed = column("types") || [];
+  const tint = TYPE_TINT[english[0]] || "var(--accent)";
+  const kind = (printed.length ? printed : english).join(" · ") || column("card_type") || "";
+  const hp = column("hp");
+  const rarity = column("rarity");
+  return `<span class="face${big ? " big" : ""}" style="--tint:${tint}">
+      <span class="frow">
+        <span class="ftype">${esc(kind)}</span>
+        ${hp ? `<span class="fhp">${esc(hp)} HP</span>` : ""}
+      </span>
+      <span class="fname">${esc(column("name"))}</span>
+      <span class="frow">
+        <span class="fset">${esc(column("set_name"))} · ${esc(column("number"))}</span>
+        ${rarity ? `<span class="frar">${esc(rarity)}</span>` : ""}
+      </span>
+    </span>`;
+}
+
+// Every language of plain index is more than one page may carry, so each one
+// arrives compressed, base64 inside a small JSON envelope. A file without that
+// envelope — the summary — is already what it claims to be.
+async function loadJson(path) {
+  if (bundle) {
+    if (!Object.prototype.hasOwnProperty.call(bundle.files, path)) throw new Error(`Missing bundled data: ${path}`);
+    return bundle.files[path];
+  }
+  const response = await fetch(path);
+  if (!response.ok) throw new Error(`${path} answered ${response.status}`);
+  const payload = await response.json();
+  if (!payload || typeof payload.gz !== "string") return payload;
+  const packed = atob(payload.gz);
+  const bytes = new Uint8Array(packed.length);
+  for (let at = 0; at < packed.length; at += 1) bytes[at] = packed.charCodeAt(at);
+  const unzipped = new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"));
+  return JSON.parse(await new Response(unzipped).text());
+}
+
+async function boot() {
+  const summary = await loadJson("index/summary.json");
+  const langs = Object.keys(summary);
+  if (bundle) {
+    el("order").options[0].textContent = "Selection order";
+    const included = Object.values(summary).reduce((sum, item) => sum + item.cards, 0);
+    const available = Object.values(summary).reduce((sum, item) => sum + item.source_cards, 0);
+    const pictures = Object.keys(bundle.images).length;
+    el("snapshot").hidden = false;
+    el("snapshot").textContent = `Offline selection · ${included.toLocaleString()} of ${available.toLocaleString()} stored cards · ${pictures} local pictures. Exported ${bundle.generated_at.slice(0, 10)}.`;
+    el("usage-note").textContent = `This portable selection works directly from disk, including search, filters and card details. Printing links cover only the included cards. ${pictures} of ${included} cards have local artwork; the others show a face drawn from their record. Source-page links need an internet connection.`;
+  }
+  el("total").textContent = Object.values(summary).reduce((a, s) => a + s.cards, 0).toLocaleString();
+  el("nlang").textContent = langs.length;
+  el("language-word").textContent = langs.length === 1 ? "language" : "languages";
+  el("langs").innerHTML = langs.map(l =>
+    `<button class="lang" type="button" data-lang="${l}" aria-pressed="${l === lang}">
+       <span class="flag" aria-hidden="true">${FLAG[l] || ""}</span>
+       ${esc(LANG_NAME[l] || l.toUpperCase())} <span class="n">${summary[l].cards.toLocaleString()}</span>
+     </button>`).join("");
+  el("langs").addEventListener("click", e => {
+    const b = e.target.closest(".lang");
+    if (b) load(b.dataset.lang);
+  });
+  await load(lang);
+}
+
+async function load(next) {
+  lang = next;
+  document.querySelectorAll(".lang").forEach(b => b.setAttribute("aria-pressed", b.dataset.lang === lang));
+  el("grid").innerHTML = "";
+  el("status").textContent = `Loading the ${LANG_NAME[lang] || lang} index…`;
+  const data = await loadJson(`index/${lang}.json`);
+  fields = data.fields;
+  cards = data.cards;
+  fillFilters();
+  apply();
+}
+
+function fillFilters() {
+  const fill = (id, field, label) => {
+    const seen = [...new Set(cards.map(c => c[idx(field)]).filter(Boolean))].sort();
+    el(id).innerHTML = `<option value="">${label}</option>` +
+      seen.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join("");
+  };
+
+  // A set reads better by its name than by its code — SCR is Stellar Crown —
+  // but the filter still matches on the code the cards are stored under.
+  const iSet = idx("set_name"), iFull = idx("set_full_name");
+  const titles = new Map();
+  for (const card of cards) {
+    const code = card[iSet];
+    if (!code || titles.has(code)) continue;
+    // Korea stores some titles twice, once with the spaces run together and
+    // once spread apart, so the spacing is evened out before either is shown.
+    const full = iFull < 0 ? "" : String(card[iFull] || "").replace(/\s+/g, " ").trim();
+    titles.set(code, full && full !== code ? `${code} — ${full}` : String(code));
+  }
+  el("set").innerHTML = `<option value="">All sets</option>` +
+    [...titles.entries()]
+      .sort((a, b) => a[1].localeCompare(b[1]))
+      .map(([code, shown]) => `<option value="${esc(code)}">${esc(shown)}</option>`).join("");
+
+  fill("type", "card_type", "All card types");
+  fill("rarity", "rarity", "All rarities");
+}
+
+//: What a language can be ordered by. Only pkmncards and the languages TCGdex
+//: serves publish a release date; Japan and Korea number their cards upwards
+//: over time, and Taiwan numbers its pages, which runs the same way.
+function releaseOrder(card) {
+  const date = idx("date") < 0 ? null : card[idx("date")];
+  if (date) {
+    const when = Date.parse(date);
+    if (!Number.isNaN(when)) return when;
+  }
+  for (const field of ["jp_id", "ko_id"]) {
+    const at = idx(field);
+    if (at > -1 && card[at]) return Number(String(card[at]).replace(/\D/g, "")) || 0;
+  }
+  // TCG Pocket publishes no date, and its urls end in the card's own number
+  // rather than anything about when the set came out. Its sets run A1, A1a, A2
+  // … B1, B1a, which is the order they were released in, so they are read the
+  // way `update.py` reads them — the viewer and the badges then cannot disagree
+  // about which set is newest.
+  const iGame = idx("game"), iCode = idx("set_code");
+  if (iCode > -1 && String(card[iGame] ?? "") === "TCG Pocket") {
+    const ranked = pocketOrder(String(card[iCode] || ""));
+    if (ranked !== null) return ranked;
+  }
+  // Taiwan numbers its pages upwards over time, so the id in the url orders the
+  // cards. Every digit counts: its first sets are numbered 2 to 9, and reading
+  // only longer ids would leave 98 cards sharing one place.
+  const url = idx("url") < 0 ? "" : String(card[idx("url")] || "");
+  const numbered = url.match(/\/(\d+)\/?$/);
+  return numbered ? Number(numbered[1]) : 0;
+}
+
+//: A Pocket set code: a series letter, a number, and sometimes a letter after
+//: it (A4b), or a promo run written P-A.
+const POCKET_CODE = /^([A-Z]+)-?([A-Z]*)(\d*)([a-z]*)$/;
+
+function pocketOrder(code) {
+  const shape = POCKET_CODE.exec(code);
+  if (!shape) return null;
+  const [, series, promo, number, suffix] = shape;
+  const within = Number(number || 0) * 100 + (suffix ? suffix.charCodeAt(0) - 96 : 0);
+  return (series.charCodeAt(0) - 64) * 1e6 + within * 10 + (promo ? promo.charCodeAt(0) - 64 : 0);
+}
+
+function apply() {
+  const q = el("q").value.trim().toLowerCase();
+  const set = el("set").value, type = el("type").value, rarity = el("rarity").value;
+  const iT = idx("text"), iS = idx("set_name"), iC = idx("card_type"), iR = idx("rarity");
+  filtered = cards.filter(c =>
+    (!set || c[iS] === set) && (!type || c[iC] === type) && (!rarity || c[iR] === rarity) &&
+    (!q || (c[iT] || "").toLowerCase().includes(q)));
+
+  const order = el("order") ? el("order").value : "index";
+  if (order !== "index") {
+    const ranked = filtered.map(card => [releaseOrder(card), card]);
+    ranked.sort((a, b) => (order === "new" ? b[0] - a[0] : a[0] - b[0]));
+    filtered = ranked.map(pair => pair[1]);
+  }
+  shown = 0;
+  el("grid").innerHTML = "";
+  el("count").textContent = `${filtered.length.toLocaleString()} of ${cards.length.toLocaleString()}`;
+  more();
+}
+
+function more() {
+  const iN = idx("name"), iS = idx("set_name"), iNum = idx("number"), iImg = idx("img"), iR = idx("rarity");
+  const slice = filtered.slice(shown, shown + PAGE);
+  el("grid").insertAdjacentHTML("beforeend", slice.map((c, n) => `
+    <button class="card" type="button" data-i="${shown + n}">
+      ${picture(c, fields, lang, false)}
+    </button>`).join(""));
+  shown += slice.length;
+  el("status").textContent = shown < filtered.length
+    ? `Showing ${shown.toLocaleString()} — scroll for more`
+    : (filtered.length ? "" : "No card matches these filters.");
+}
+
+let links = null;
+async function getLinks() {
+  if (!links) {
+    links = await loadJson("index/links.json").catch(() => ({ prints: {}, cards: {} }));
+  }
+  return links;
+}
+
+// One row per other printing. `dropSameLanguage` is for the exact-printing
+// list, where the interesting versions are the ones in another language.
+function versionRows(entries, here, dropSameLanguage, which = lang) {
+  return (entries || [])
+    .filter(e => e.join("|") !== here && !(dropSameLanguage && e[0] === which))
+    .map(e => `<button class="ver" type="button" data-lang="${e[0]}" data-name="${esc(e[1])}" data-set="${esc(e[2])}" data-number="${esc(e[3])}">
+        <span class="vlang">${esc(LANG_NAME[e[0]] || e[0].toUpperCase())}</span>
+        <span class="vname">${esc(e[1])}</span>
+        <span class="vset">${esc(e[2])} · ${esc(e[3])}</span>
+        <span class="vrar">${esc(e[4] || "")}</span>
+      </button>`).join("");
+}
+
+// The index carries every field a card stores, so the card view shows every
+// field — including the url the picture was fetched from.
+const ABOVE = ["name", "set_name", "number", "rarity", "tags", "text", "file"];
+const LINK_FIELDS = ["url", "img"];
+const LONG = ["effect", "flavor_text", "rule_box", "tera_effect"];
+const LABEL = {
+  hp: "HP", card_type: "Card type", set_code: "Set code", set_full_name: "Set",
+  set_total: "Cards in set", types: "Types", types_en: "Types in English",
+  print_key: "Printing key", card_key: "Fingerprint", flavor_text: "Flavour text",
+  rule_box: "Rule box", evolve_from: "Evolves from", mega_evolves_from: "Mega evolves from",
+  img: "Picture", url: "Source page", author: "Illustrator", jp_id: "Japanese id",
+  ko_id: "Korean id", out_id: "Card id", vstar_power: "VSTAR power", tera_effect: "Tera",
+  sources: "Sources", regulation: "Regulation mark", retreat: "Retreat cost",
+  pokedex_number: "Pokédex number", set_img: "Set symbol", rarity_img: "Rarity symbol",
+  poke_body: "Poké-Body", poke_power: "Poké-Power", ancient_trait: "Ancient trait",
+  held_berry: "Held berry", held_item: "Held item", pokemon_category: "Category",
+  technical_machine_rule: "Technical Machine rule", variants: "Finishes",
+};
+
+function label(field) {
+  return LABEL[field] || field.replace(/_/g, " ").replace(/^./, s => s.toUpperCase());
+}
+
+// One source writes an attack's damage as "30", another as {amount, suffix}.
+function damage(value) {
+  if (value == null || value === "") return "";
+  if (typeof value === "object") return `${value.amount ?? ""}${value.suffix ?? ""}`;
+  return String(value);
+}
+
+// Attacks and abilities are shaped {name, cost, damage, effect}, sources
+// {name, link}, weakness and resistance {type, value}. Anything else is shown
+// as the pairs it holds, so a field this page has never seen still reads.
+function entry(item) {
+  if (typeof item.link === "string" && /^https?:\/\//.test(item.link)) {
+    return `<a href="${esc(item.link)}" target="_blank" rel="noopener">${esc(item.name || item.link)}</a>`;
+  }
+  const cost = (item.cost || []).join(" ");
+  const hit = damage(item.damage);
+  const head = [item.name, cost ? `[${cost}]` : "", hit ? `— ${hit}` : ""]
+    .filter(Boolean).map(esc).join(" ");
+  if (head || item.effect) {
+    return `${head ? `<b>${head}</b>` : ""}${item.effect ? `<span>${esc(item.effect)}</span>` : ""}`;
+  }
+  return Object.entries(item)
+    .filter(([, value]) => value != null && value !== "" && !(Array.isArray(value) && !value.length))
+    .map(([key, value]) => `${esc(label(key))}: ${esc(Array.isArray(value) ? value.join(" ") : value)}`)
+    .join(" · ");
+}
+
+function moves(list) {
+  return list.map(item =>
+    `<div class="move">${item && typeof item === "object" ? entry(item) : esc(item)}</div>`).join("");
+}
+
+function fieldValue(field, value) {
+  const isLink = typeof value === "string" && /^https?:\/\//.test(value);
+  if (isLink) {
+    return `<a href="${esc(value)}" target="_blank" rel="noopener">${esc(value)}</a>`;
+  }
+  if (Array.isArray(value)) {
+    return value.some(item => item && typeof item === "object") ? moves(value) : esc(value.join(", "));
+  }
+  if (value && typeof value === "object") return moves([value]);
+  return esc(value);
+}
+
+function everyField(c, fields) {
+  return fields.map((field, at) => {
+    const value = c[at];
+    if (ABOVE.includes(field)) return "";
+    if (value == null || value === "" || (Array.isArray(value) && !value.length)) return "";
+    // A source can store an empty shape — resistance as {type: [], value: ""}.
+    // If nothing renders from it, the card does not carry that field at all.
+    const rendered = fieldValue(field, value);
+    if (!rendered.replace(/<[^>]*>/g, "").trim()) return "";
+    return `<dt>${esc(label(field))}</dt><dd${LONG.includes(field) ? ' class="long"' : ""}>${rendered}</dd>`;
+  }).join("");
+}
+
+function openCard(i) {
+  return openRow(filtered[i], fields, lang);
+}
+
+// One card, shown from whichever language's index its row came from. Choosing
+// another version swaps this view rather than sending the reader back to a
+// search result: the card is what they were looking at, not the list.
+async function openRow(c, fields, which) {
+  // A field that language does not carry must read as absent. Without the
+  // guard, indexOf returns -1 and c[-1] hands back the last column instead.
+  const get = f => { const at = fields.indexOf(f); return at < 0 ? undefined : c[at]; };
+  el("detailBody").innerHTML = `
+    <div>${picture(c, fields, which, true)}</div>
+    <div>
+      <h2>${esc(get("name"))}</h2>
+      <div class="sub">
+        <span class="flag" aria-hidden="true">${FLAG[which] || ""}</span>
+        ${esc(LANG_NAME[which] || which)} · ${esc(get("set_name"))} · ${esc(get("number"))}
+      </div>
+      <div class="chips">
+        ${get("rarity") ? `<span class="chip gold">${esc(get("rarity"))}</span>` : ""}
+        ${(get("tags") || []).map(t => `<span class="chip">${esc(t)}</span>`).join("")}
+      </div>
+      <dl>${everyField(c, fields)}</dl>
+      <div id="versions"></div>
+      <p class="note">Every field stored for this card is listed above, exactly
+      as it was read from its source.</p>
+    </div>`;
+  if (!detail.open) {
+    detail.showModal();
+    // A containing article may align the frame before its dialog is used.
+    // File origins are opaque; this optional notification contains no data.
+    if (window.parent !== window) {
+      window.parent.postMessage({ type: "type-null:focus-embed" }, "*");
+    }
+  }
+
+  const store = await getLinks();
+  const here = [which, get("name"), get("set_name"), String(get("number") ?? ""), get("rarity")].join("|");
+  const samePrint = versionRows(store.prints[get("print_key")], here, true, which);
+  const sameCard = versionRows(store.cards[get("card_key")], here, false, which);
+  const block = (title, rows, empty) => `
+    <div class="vgroup"><h3>${title}</h3>
+      ${rows ? `<div class="vlist">${rows}</div>` : `<p class="vnone">${empty}</p>`}
+    </div>`;
+  // A number names the card, not the finish it was printed with: one printing
+  // can exist as a plain card, a reverse holo and a holo at once.
+  const FINISH = { normal: "Plain", reverse: "Reverse holo", holo: "Holo", firstEdition: "First edition", wPromo: "Promo stamp" };
+  const finishes = get("variants") || [];
+  const finishRows = finishes.length
+    ? `<div class="vlist">${finishes.map(name =>
+        `<span class="fin">${esc(FINISH[name] || name)}</span>`).join("")}</div>`
+    : "";
+
+  const versions = el("versions");
+  if (versions) {
+    versions.innerHTML =
+      block("This printing in other languages", samePrint,
+            bundle ? "No other language for this printing is included in this selection." : "This printing is only stored in this language so far.") +
+      block("Other printings of this card", sameCard,
+            bundle ? "No other printing of this card is included in this selection." : "No other printing recorded — Trainer and Energy cards carry no Pokédex number to match on.") +
+      block("Finishes this printing was sold in", finishRows,
+            "No finishes recorded. Only the languages TCGdex serves publish them, and none of the sources says which pattern a reverse holo carries.");
+  }
+}
+
+// Choosing a version shows that language's own record — its own name, set,
+// rarity, rules text and picture — in the card view already open. The list
+// behind it is left where it was.
+document.addEventListener("click", async e => {
+  const chosen = e.target.closest(".ver");
+  if (!chosen) return;
+  const { lang: which, set, number, name } = chosen.dataset;
+  const other = await indexFor(which).catch(() => null);
+  if (!other) return;
+
+  const at = other.fields.indexOf.bind(other.fields);
+  const [iSet, iNum, iName] = [at("set_name"), at("number"), at("name")];
+  const found =
+    other.cards.find(row => String(row[iSet]) === set && String(row[iNum]) === number) ||
+    other.cards.find(row => String(row[iName]) === name);
+  if (found) openRow(found, other.fields, which);
+});
+
+el("grid").addEventListener("click", e => {
+  const card = e.target.closest(".card");
+  if (card) openCard(Number(card.dataset.i));
+});
+addEventListener("scroll", () => {
+  if (shown < filtered.length && innerHeight + scrollY > document.body.offsetHeight - 700) more();
+  // Far enough down that the filters have scrolled away and are worth offering back.
+  el("top").hidden = scrollY < 600;
+});
+el("top").addEventListener("click", () => {
+  const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  scrollTo({ top: 0, behavior: still ? "auto" : "smooth" });
+});
+["q", "set", "type", "rarity", "order"].forEach(id => el(id).addEventListener("input", apply));
+el("reset").addEventListener("click", () => {
+  ["q", "set", "type", "rarity"].forEach(id => el(id).value = "");
+  el("order").value = "index";  // an empty value matches no option, and would sort
+  apply();
+});
+
+// A picture the archive does not hold must not cover the card: drop the image
+// and let the face drawn underneath show through instead.
+addEventListener("error", event => {
+  const img = event.target;
+  if (!(img instanceof HTMLImageElement)) return;
+  const shot = img.closest(".shot");
+  img.remove();
+  if (shot) shot.classList.add("bare");
+}, true);
+
+boot().catch(err => {
+  // Opened straight from disk, a browser refuses to read the index beside this
+  // page, and the failure arrives as an ordinary network error. Say which it is.
+  el("status").innerHTML = bundle
+    ? `Could not read the bundled selection: ${esc(err.message)}.`
+    : location.protocol === "file:"
+    ? `This page was opened from a file, and browsers will not let it read the
+       index beside it. Serve the repository instead — <code>python3 -m
+       http.server</code> from the repository root, then open
+       <code>http://localhost:8000/docs/</code>.`
+    : `Could not load the index: ${esc(err.message)}. Run
+       <code>uv run code/buildIndex.py</code> to write <code>docs/index/</code>.`;
+});
+</script>
+</body>
+</html>

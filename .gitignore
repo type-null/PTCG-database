@@ -104,7 +104,7 @@ env.bak/
 venv.bak/
 
 # Card image archive: too large for git, rebuilt with code/downloadImages.py
-images/
+/images/
 
 # Console output of a run; the real logs are logs/scrape_*.log
 logs/run_*.out
@@ -123,8 +123,6 @@ docs/index/
 # Rope project settings
 .ropeproject
 
-# mkdocs documentation
-/site
 
 # mypy
 .mypy_cache/
@@ -140,5 +138,3 @@ dmypy.json
 # pytorch
 .ipynb_checkpoints/
 
-# `images` is only a local link to the picture archive beside the repository.
-/images

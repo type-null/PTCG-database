@@ -1,0 +1,40 @@
+name: Publish Card Atlas
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Test the build and export contracts
+        run: python3 -m unittest discover -s tests -p test_export_site.py
+      - name: Build the current viewer with the committed card edition
+        run: python3 code/buildSite.py
+      - name: Check the standalone site
+        run: python3 code/checkSite.py site
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload the site only
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
